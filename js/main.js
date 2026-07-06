@@ -8,7 +8,7 @@
 const I18N = {
   ko: {
     'meta.title': 'CodeDAC | 스마트폰 유틸리티 앱',
-    'meta.desc': 'CodeDAC는 Clipboard+, AutoStart+, FloatCalc+ 등 14종의 스마트폰 유틸리티 앱을 만들고 배포합니다.',
+    'meta.desc': 'CodeDAC는 Clipboard+, AutoStart+, FloatCalc+ 등 13종의 스마트폰 유틸리티 앱을 만들고 배포합니다.',
 
     'nav.about': '회사 소개',
     'nav.apps': '앱 소개',
@@ -52,7 +52,7 @@ const I18N = {
   },
   en: {
     'meta.title': 'CodeDAC | Smartphone Utility Apps',
-    'meta.desc': 'CodeDAC builds and publishes 14 smartphone utility apps including Clipboard+, AutoStart+ and FloatCalc+.',
+    'meta.desc': 'CodeDAC builds and publishes 13 smartphone utility apps including Clipboard+, AutoStart+ and FloatCalc+.',
 
     'nav.about': 'About',
     'nav.apps': 'Apps',
@@ -97,7 +97,7 @@ const I18N = {
 };
 
 // 자산 캐시 버전 (아이콘/스크린샷을 바꾸면 숫자를 올리세요. index.html의 ?v= 와 맞춤)
-const V = '6';
+const V = '7';
 
 // ===== 앱 목록 데이터 =====
 // shots: images/shots/<slug>-1.jpg 형식으로 존재하는 스크린샷 개수
@@ -115,9 +115,6 @@ const APPS = [
   { slug: 'floatcrypto', name: 'FloatCrypto+', shots: 3, store: 'https://play.google.com/store/apps/details?id=com.codedac.floatcrypto',
     tag: { ko: '플로팅 도구', en: 'Floating' },
     desc: { ko: '비트코인·이더리움 실시간 시세를 화면 위에 띄우는 오버레이.', en: 'Live Bitcoin & crypto prices floating over any app.' } },
-  { slug: 'floatstock', name: 'FloatStock+', shots: 3, store: '',
-    tag: { ko: '플로팅 도구', en: 'Floating' },
-    desc: { ko: '실시간 주식 시세를 화면 위에 띄우는 오버레이. 로그인 불필요.', en: 'Live stock prices floating on your screen. No login needed.' } },
   { slug: 'floattimer', name: 'FloatTimer+', shots: 3, store: 'https://play.google.com/store/apps/details?id=com.codedac.floattimer',
     tag: { ko: '플로팅 도구', en: 'Floating' },
     desc: { ko: '인터벌·뽀모도로·멀티 타이머를 화면 위에 띄우는 플로팅 타이머.', en: 'A floating interval, Pomodoro & multi-timer over any app.' } },

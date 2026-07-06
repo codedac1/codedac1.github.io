@@ -21,7 +21,6 @@ APPS = {
     "colorcards":    (r"ColorCards\Resource\Resource\icon_512.png", r"ColorCards\Resource\PlayStore등록자료\en_Samsung Galaxy S21 (1620x2880)", "*.png"),
     "floatcalc":     (r"FloatCalc\FloatCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatCalc\Resource\PlayStore등록자료\screenshots_v3\en", "*.png"),
     "floatcrypto":   (r"FloatCrypto\Resource\PlayStore_template\images\app_icon.png", r"FloatCrypto\Resource\PlayStore_등록자료\en", "*.png"),
-    "floatstock":    (r"FloatStock\Resource\icon_512.png", r"FloatStock\Resource\PlayStore_등록자료\en", "*.png"),
     "floattimer":    (r"FloatTimer\FloatTimer\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatTimer\Resource\screenshots_en", "*.png"),
     "photocleaner":  (r"PhotoCleaner\Resource\icon_512.png", r"PhotoCleaner\Resource\PlayStore\screenshots\en", "*.png"),
     "readfocus":     (r"ReadFocus\Resource\icon_512.png", r"ReadFocus\Resource\screenshots\en", "*.png"),
