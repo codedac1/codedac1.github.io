@@ -93,7 +93,7 @@ const I18N = {
 };
 
 // 자산 캐시 버전 (아이콘/스크린샷을 바꾸면 숫자를 올리세요. index.html의 ?v= 와 맞춤)
-const V = '13';
+const V = '14';
 
 // ===== 앱 목록 데이터 =====
 // shots: images/shots/<slug>-1.jpg 형식으로 존재하는 스크린샷 개수
