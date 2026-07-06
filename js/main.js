@@ -11,6 +11,7 @@ const I18N = {
     'meta.desc': 'CodeDAC는 Clipboard+, AutoStart+, FloatCalc+ 등 13종의 스마트폰 유틸리티 앱을 만들고 배포합니다.',
 
     'nav.about': '회사 소개',
+    'nav.services': '서비스',
     'nav.apps': '앱 소개',
 
     'hero.eyebrow': 'SMARTPHONE UTILITY APPS',
@@ -29,6 +30,18 @@ const I18N = {
     'about.c3.t': '꾸준함',
     'about.c3.d': '출시로 끝내지 않고, 사용자 피드백을 반영해 계속 개선합니다.',
 
+    'services.title': '서비스',
+    'services.lead': '아이디어 구상부터 개발과 운영까지, CodeDAC가 기술 파트너로 함께합니다.',
+    'services.s1.t': '앱 개발',
+    'services.s1.d': 'Android·iOS 및 크로스플랫폼 앱을 기획부터 출시·운영까지 개발합니다.',
+    'services.s2.t': '웹 개발',
+    'services.s2.d': '반응형 웹사이트, 웹 애플리케이션, 관리자 시스템을 구축합니다.',
+    'services.s3.t': '기술 컨설팅',
+    'services.s3.d': '아키텍처 설계, 기술 스택 선정, 코드 리뷰 등 기술 의사결정을 함께합니다.',
+    'services.s4.t': '유지보수 · 운영',
+    'services.s4.d': '안정적인 운영, 성능 개선, 배포 자동화(CI/CD)로 서비스를 지속 관리합니다.',
+    'services.cta': '프로젝트 문의하기',
+
     'apps.title': '앱 소개',
     'apps.lead': 'CodeDAC가 만들어 배포 중인 스마트폰 유틸리티 앱입니다. 스크린샷을 누르면 크게 볼 수 있습니다.',
 
@@ -39,6 +52,7 @@ const I18N = {
     'meta.desc': 'CodeDAC builds and publishes 13 smartphone utility apps including Clipboard+, AutoStart+ and FloatCalc+.',
 
     'nav.about': 'About',
+    'nav.services': 'Services',
     'nav.apps': 'Apps',
 
     'hero.eyebrow': 'SMARTPHONE UTILITY APPS',
@@ -57,6 +71,18 @@ const I18N = {
     'about.c3.t': 'Consistency',
     'about.c3.d': 'Launch is just the start — we keep improving with user feedback.',
 
+    'services.title': 'Services',
+    'services.lead': 'From idea to development and operations, CodeDAC partners with you across the whole journey.',
+    'services.s1.t': 'App Development',
+    'services.s1.d': 'We build Android, iOS and cross-platform apps from planning to launch and operation.',
+    'services.s2.t': 'Web Development',
+    'services.s2.d': 'We build responsive websites, web applications and admin systems.',
+    'services.s3.t': 'Technical Consulting',
+    'services.s3.d': 'We advise on architecture, tech-stack selection and code review to guide key decisions.',
+    'services.s4.t': 'Maintenance & Ops',
+    'services.s4.d': 'We keep services healthy with stable operations, performance tuning and CI/CD automation.',
+    'services.cta': 'Start a project',
+
     'apps.title': 'Our Apps',
     'apps.lead': 'Smartphone utility apps built and published by CodeDAC. Tap a screenshot to view it larger.',
 
@@ -65,7 +91,7 @@ const I18N = {
 };
 
 // 자산 캐시 버전 (아이콘/스크린샷을 바꾸면 숫자를 올리세요. index.html의 ?v= 와 맞춤)
-const V = '11';
+const V = '12';
 
 // ===== 앱 목록 데이터 =====
 // shots: images/shots/<slug>-1.jpg 형식으로 존재하는 스크린샷 개수

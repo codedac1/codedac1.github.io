@@ -110,6 +110,10 @@ img { max-width: 100%; }
 .grid { display: grid; gap: 22px; }
 .grid-3 { grid-template-columns: repeat(3, 1fr); }
 .grid-2 { grid-template-columns: repeat(2, 1fr); }
+
+/* 서비스 그리드 */
+.services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.services-cta { text-align: center; margin-top: 40px; }
 .card {
   background: var(--bg);
   border: 1px solid var(--line);
@@ -191,9 +195,11 @@ img { max-width: 100%; }
 @media (max-width: 860px) {
   .grid-3 { grid-template-columns: 1fr 1fr; }
   .grid-2 { grid-template-columns: 1fr; }
+  .services-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 640px) {
   .grid-3 { grid-template-columns: 1fr; }
+  .services-grid { grid-template-columns: 1fr; }
   .app-grid { grid-template-columns: 1fr; }
   .app-shots .shot { height: 130px; }
   .lb-nav { width: 42px; height: 42px; font-size: 26px; }
