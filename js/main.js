@@ -30,6 +30,8 @@ const I18N = {
 
     'apps.title': '앱 소개',
     'apps.lead': 'CodeDAC가 만들어 배포 중인 스마트폰 유틸리티 앱입니다. 스크린샷을 누르면 크게 볼 수 있습니다.',
+
+    'footer.privacy': '개인정보처리방침',
   },
   en: {
     'meta.title': 'CodeDAC | Smartphone Utility Apps',
@@ -55,11 +57,13 @@ const I18N = {
 
     'apps.title': 'Our Apps',
     'apps.lead': 'Smartphone utility apps built and published by CodeDAC. Tap a screenshot to view it larger.',
+
+    'footer.privacy': 'Privacy Policy',
   },
 };
 
 // 자산 캐시 버전 (아이콘/스크린샷을 바꾸면 숫자를 올리세요. index.html의 ?v= 와 맞춤)
-const V = '9';
+const V = '10';
 
 // ===== 앱 목록 데이터 =====
 // shots: images/shots/<slug>-1.jpg 형식으로 존재하는 스크린샷 개수
