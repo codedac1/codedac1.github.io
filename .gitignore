@@ -1,0 +1,11 @@
+# OS / 편집기
+.DS_Store
+Thumbs.db
+*.swp
+
+# 에디터 설정
+.vscode/
+.idea/
+
+# 로그
+*.log
