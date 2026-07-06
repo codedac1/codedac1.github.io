@@ -93,7 +93,7 @@ const I18N = {
 };
 
 // 자산 캐시 버전 (아이콘/스크린샷을 바꾸면 숫자를 올리세요. index.html의 ?v= 와 맞춤)
-const V = '14';
+const V = '15';
 
 // ===== 앱 목록 데이터 =====
 // shots: images/shots/<slug>-1.jpg 형식으로 존재하는 스크린샷 개수
@@ -157,18 +157,21 @@ function renderApps(lang) {
     const storeHtml = app.store
       ? `<a class="app-link" href="${app.store}" target="_blank" rel="noopener">${lang === 'ko' ? 'Google Play에서 보기 →' : 'View on Google Play →'}</a>`
       : '';
+    const detailLabel = lang === 'ko' ? '자세히 보기 →' : 'Details →';
+    const linksHtml =
+      `<div class="app-links"><a class="app-more" href="apps/${app.slug}.html">${detailLabel}</a>${storeHtml}</div>`;
     return `
       <article class="app-card">
         <div class="app-head">
           <img class="app-icon" src="images/icons/${app.slug}.png?v=${V}" alt="${app.name} icon" loading="lazy" />
           <div class="app-meta">
-            <h3>${app.name}</h3>
+            <h3><a href="apps/${app.slug}.html">${app.name}</a></h3>
             <span class="app-tag">${app.tag[lang]}</span>
           </div>
         </div>
         <p class="app-desc">${app.desc[lang]}</p>
         ${shotsHtml}
-        ${storeHtml}
+        ${linksHtml}
       </article>`;
   }).join('');
 }

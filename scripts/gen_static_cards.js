@@ -9,14 +9,15 @@ const APPS = eval(src.slice(start + 'const APPS = '.length, end - 1));
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const cards = APPS.map((a) => {
   const store = a.store
-    ? `\n            <a class="app-link" href="${a.store}" target="_blank" rel="noopener">Google Play에서 보기 →</a>`
+    ? `<a class="app-link" href="${a.store}" target="_blank" rel="noopener">Google Play에서 보기 →</a>`
     : '';
   return `        <article class="app-card">
           <div class="app-head">
             <img class="app-icon" src="images/icons/${a.slug}.png" alt="${esc(a.name)} 아이콘" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h3>${esc(a.name)}</h3><span class="app-tag">${esc(a.tag.ko)}</span></div>
+            <div class="app-meta"><h3><a href="apps/${a.slug}.html">${esc(a.name)}</a></h3><span class="app-tag">${esc(a.tag.ko)}</span></div>
           </div>
-          <p class="app-desc">${esc(a.desc.ko)}</p>${store}
+          <p class="app-desc">${esc(a.desc.ko)}</p>
+          <div class="app-links"><a class="app-more" href="apps/${a.slug}.html">자세히 보기 →</a>${store}</div>
         </article>`;
 }).join('\n');
 process.stdout.write(cards + '\n');

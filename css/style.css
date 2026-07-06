@@ -202,6 +202,57 @@ img { max-width: 100%; }
 .footer-email:hover { color: var(--brand-dark); }
 .site-footer p { color: var(--muted); font-size: 14px; }
 
+/* 앱 카드의 상세 페이지 링크 */
+.app-card .app-meta h3 a { color: inherit; }
+.app-card .app-meta h3 a:hover { color: var(--brand); }
+.app-more { display: inline-block; margin-top: 16px; margin-right: 16px; color: var(--brand); font-weight: 700; font-size: 14px; }
+.app-more:hover { color: var(--brand-dark); }
+.app-links { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin-top: auto; }
+.app-links .app-link, .app-links .app-more { margin-top: 16px; }
+
+/* ===== 앱 상세 페이지 ===== */
+.breadcrumb { font-size: 13px; color: var(--muted); padding-top: 22px; }
+.breadcrumb a:hover { color: var(--brand); }
+.breadcrumb .sep { color: var(--line); margin: 0 8px; }
+.breadcrumb .current { color: var(--body); }
+
+.app-hero-d { padding: 26px 0 12px; }
+.app-hero-inner { display: flex; gap: 26px; align-items: center; flex-wrap: wrap; }
+.app-icon-lg {
+  width: 96px; height: 96px; flex: 0 0 96px;
+  border-radius: 22px; object-fit: cover;
+  box-shadow: 0 8px 24px rgba(20, 30, 60, .18);
+}
+.app-hero-text { flex: 1; min-width: 260px; }
+.app-hero-text h1 { font-size: clamp(26px, 4.4vw, 40px); font-weight: 900; letter-spacing: -.5px; margin-bottom: 12px; }
+.app-tagline { color: var(--body); font-size: 18px; margin-top: 12px; max-width: 640px; }
+.app-hero-actions { margin-top: 22px; display: flex; gap: 12px; flex-wrap: wrap; }
+.app-platform-note { color: var(--muted); font-size: 14px; margin-top: 14px; }
+
+.detail-section { padding: 44px 0; border-top: 1px solid var(--line); }
+.detail-title { font-size: 22px; font-weight: 900; margin-bottom: 20px; }
+.detail-long { font-size: 17px; color: var(--body); max-width: 780px; }
+
+.feature-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 14px 30px; }
+.feature-list li { position: relative; padding-left: 28px; color: var(--body); font-size: 15.5px; }
+.feature-list li::before { content: '✓'; position: absolute; left: 0; top: 0; color: var(--brand); font-weight: 900; }
+
+.faq-list { display: grid; gap: 14px; max-width: 840px; }
+.faq-item { border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px; background: var(--bg); }
+.faq-q { font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+.faq-a { color: var(--muted); font-size: 15px; }
+
+.detail-shots { display: flex; gap: 14px; overflow-x: auto; padding-bottom: 8px; }
+.detail-shots .shot {
+  height: 380px; border-radius: 16px; border: 1px solid var(--line);
+  cursor: zoom-in; flex: 0 0 auto; background: var(--bg-alt); transition: transform .15s ease;
+}
+.detail-shots .shot:hover { transform: translateY(-3px); }
+.detail-shots::-webkit-scrollbar { height: 6px; }
+.detail-shots::-webkit-scrollbar-thumb { background: var(--line); border-radius: 6px; }
+
+.detail-cta { text-align: center; padding: 50px 0 10px; }
+
 /* ===== 반응형 ===== */
 @media (max-width: 860px) {
   .grid-3 { grid-template-columns: 1fr 1fr; }
@@ -213,6 +264,10 @@ img { max-width: 100%; }
   .services-grid { grid-template-columns: 1fr; }
   .app-grid { grid-template-columns: 1fr; }
   .app-shots .shot { height: 130px; }
+  .feature-list { grid-template-columns: 1fr; }
+  .detail-shots .shot { height: 300px; }
+  .app-hero-inner { gap: 18px; }
+  .app-icon-lg { width: 72px; height: 72px; flex-basis: 72px; }
   .lb-nav { width: 42px; height: 42px; font-size: 26px; }
   .lb-prev { left: 10px; }
   .lb-next { right: 10px; }
