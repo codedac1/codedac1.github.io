@@ -1,0 +1,430 @@
+{
+  "lang": "vi",
+  "ui": {
+    "meta.title": "CodeDAC | Ứng dụng tiện ích cho điện thoại",
+    "meta.desc": "CodeDAC phát triển và phát hành 13 ứng dụng tiện ích cho điện thoại, bao gồm Clipboard+, AutoStart+ và FloatCalc+.",
+    "nav.about": "Giới thiệu",
+    "nav.services": "Dịch vụ",
+    "nav.apps": "Ứng dụng",
+    "hero.eyebrow": "SMARTPHONE UTILITY APPS",
+    "hero.title": "Biến điện thoại của bạn<br />thông minh hơn",
+    "hero.sub": "CodeDAC phát triển các ứng dụng tiện ích cho điện thoại <br class=\"br-pc\" />giúp cuộc sống hằng ngày dễ dàng hơn.",
+    "hero.cta1": "Khám phá ứng dụng",
+    "hero.cta2": "Liên hệ",
+    "about.title": "Về chúng tôi",
+    "about.meaning": "Code-based <b>D</b>evelopment <b>A</b>nd <b>C</b>onsulting",
+    "about.lead": "Đúng như tên gọi, CodeDAC được xây dựng trên nền tảng Code để mang đến Development And Consulting. Ngày nay, chúng tôi thiết kế và phát hành những ứng dụng tiện ích cho điện thoại mà mọi người dùng mỗi ngày, đồng thời hướng tới trở thành một đối tác công nghệ đáng tin cậy, giải quyết các thách thức của khách hàng bằng năng lực kỹ thuật vững chắc.",
+    "about.c1.t": "Đơn giản",
+    "about.c1.d": "Chúng tôi ưu tiên sự rõ ràng và dễ dùng ngay tức thì hơn là những tính năng phức tạp.",
+    "about.c2.t": "Tin cậy",
+    "about.c2.d": "Chúng tôi giảm thiểu quyền truy cập và quảng cáo không cần thiết, đồng thời tôn trọng dữ liệu của bạn.",
+    "about.c3.t": "Bền bỉ",
+    "about.c3.d": "Ra mắt chỉ là khởi đầu — chúng tôi không ngừng cải thiện dựa trên phản hồi của người dùng.",
+    "services.title": "Dịch vụ",
+    "services.lead": "Từ ý tưởng đến phát triển và vận hành, CodeDAC đồng hành cùng bạn trên toàn bộ hành trình.",
+    "services.s1.t": "Phát triển ứng dụng",
+    "services.s1.d": "Chúng tôi phát triển ứng dụng Android, iOS và đa nền tảng từ khâu lên kế hoạch đến ra mắt và vận hành.",
+    "services.s2.t": "Phát triển web",
+    "services.s2.d": "Chúng tôi xây dựng website responsive, ứng dụng web và hệ thống quản trị.",
+    "services.s3.t": "Tư vấn kỹ thuật",
+    "services.s3.d": "Chúng tôi tư vấn về kiến trúc, lựa chọn stack công nghệ và review code để định hướng các quyết định quan trọng.",
+    "services.s4.t": "Bảo trì & Vận hành",
+    "services.s4.d": "Chúng tôi giữ cho dịch vụ luôn ổn định với vận hành bền vững, tối ưu hiệu năng và tự động hóa CI/CD.",
+    "services.tech": "Công nghệ sử dụng",
+    "services.cta": "Bắt đầu dự án",
+    "apps.title": "Ứng dụng của chúng tôi",
+    "apps.lead": "Các ứng dụng tiện ích cho điện thoại do CodeDAC phát triển và phát hành. Chạm vào ảnh chụp màn hình để xem lớn hơn.",
+    "footer.privacy": "Chính sách bảo mật",
+    "bc.home": "Trang chủ",
+    "bc.apps": "Ứng dụng",
+    "overview": "Tổng quan",
+    "features": "Tính năng chính",
+    "faq": "Câu hỏi thường gặp",
+    "screenshots": "Ảnh chụp màn hình",
+    "shotsHint": "Chạm vào ảnh chụp màn hình để xem lớn hơn.",
+    "store": "Xem trên Google Play →",
+    "contact": "Liên hệ",
+    "otherApps": "Khám phá thêm ứng dụng",
+    "card.detail": "Chi tiết →",
+    "platform.windows": "Ứng dụng máy tính Windows"
+  },
+  "apps": {
+    "clipboard": {
+      "name": "Clipboard+",
+      "tag": "Bộ nhớ tạm",
+      "desc": "Tự động lưu lịch sử bộ nhớ tạm để dán lại mọi lúc, mọi nơi.",
+      "tagline": "Tự động lưu mọi thứ bạn sao chép với trình quản lý bộ nhớ tạm thông minh nhất cho Android",
+      "long": "Clipboard+ là trình quản lý bộ nhớ tạm cho Android, tự động lưu mọi văn bản và hình ảnh bạn sao chép theo thời gian thực. Lớp phủ nổi có thể chỉnh kích thước giúp bạn truy cập lịch sử bộ nhớ tạm từ bất kỳ màn hình nào mà không cần chuyển ứng dụng. Sắp xếp các đoạn văn bản hay dùng thành snippet và nhóm, rồi dán nhanh bất kỳ mục nào bằng tìm kiếm từ khóa, widget màn hình chính và bảng thông báo. Bạn cũng có thể xuất lịch sử ra PDF và sao lưu hoặc khôi phục các mục bất cứ lúc nào.",
+      "features": [
+        "Tự động lưu văn bản và hình ảnh đã sao chép theo thời gian thực",
+        "Lớp phủ nổi chỉnh được kích thước, dùng trên mọi ứng dụng",
+        "Sắp xếp văn bản hay dùng thành snippet và nhóm",
+        "Tìm kiếm và lọc tức thì theo từ khóa, văn bản, hình ảnh hoặc ngày",
+        "Dán nhanh qua widget, ô Cài đặt nhanh và bảng thông báo",
+        "Xuất lịch sử bộ nhớ tạm ra PDF, kèm sao lưu và khôi phục"
+      ],
+      "faq": [
+        {
+          "q": "Lịch sử bộ nhớ tạm của tôi được lưu như thế nào?",
+          "a": "Mọi văn bản và hình ảnh đã sao chép đều được lưu tự động theo thời gian thực, nên bạn có thể lấy lại bất kỳ mục nào bất cứ lúc nào mà không cần thao tác thêm."
+        },
+        {
+          "q": "Tôi có thể xem lịch sử bộ nhớ tạm khi đang dùng ứng dụng khác không?",
+          "a": "Có. Lớp phủ nổi chỉnh được kích thước giúp bạn truy cập lịch sử từ bất kỳ màn hình nào mà không cần chuyển ứng dụng."
+        },
+        {
+          "q": "Bản Miễn phí và bản Pro khác nhau thế nào?",
+          "a": "Bản Miễn phí cho bạn dùng đầy đủ trình quản lý kèm quảng cáo, còn bản Pro loại bỏ quảng cáo, lưu lịch sử bộ nhớ tạm không giới hạn và mở khóa toàn bộ tính năng. Với FreePass, bạn có thể xem một quảng cáo để mở khóa các tính năng Pro trong 24 giờ."
+        }
+      ]
+    },
+    "autostart": {
+      "name": "AutoStart+",
+      "tag": "Tự khởi động",
+      "desc": "Tự động mở ứng dụng khi khởi động máy. Không cần root, cài đặt một lần.",
+      "tagline": "Tự động mở ứng dụng ngay khi điện thoại khởi động. Không cần root, cài một lần, chạy mãi.",
+      "long": "AutoStart+ là trình quản lý tự khởi động dễ dùng nhất cho Android, tự động mở các ứng dụng bạn chọn ngay khi thiết bị khởi động, mà không cần quyền root. Cài đặt một lần và ứng dụng của bạn sẽ mở mỗi lần khởi động mà không cần chạm tay. Bản miễn phí tự khởi động 1 ứng dụng, còn bản PRO mở khóa số lượng ứng dụng không giới hạn, chạy theo thứ tự bạn chọn. Ứng dụng sẽ thông báo nếu việc khởi động thất bại, và hướng dẫn bạn thiết lập tự khởi động trên các thiết bị OEM như Samsung và Xiaomi.",
+      "features": [
+        "Tự động mở ngay các ứng dụng bạn chọn khi khởi động máy",
+        "Hoạt động trên thiết bị Android thông thường, không cần root",
+        "Thêm ứng dụng đã cài trong vài giây, bật/tắt từng ứng dụng chỉ với một chạm",
+        "Thông báo khởi động thông minh báo cho bạn nếu một ứng dụng không mở được",
+        "Biểu ngữ lớp phủ khi khởi động cho phép mở ứng dụng trước khi mở khóa (PRO)",
+        "Tự khởi động không giới hạn ứng dụng theo thứ tự bạn chọn (PRO)"
+      ],
+      "faq": [
+        {
+          "q": "Ứng dụng của tôi không mở sau khi khởi động. Tôi nên làm gì?",
+          "a": "Một số nhà sản xuất (Samsung, Xiaomi và các hãng khác) tự chặn tính năng tự khởi động ứng dụng. Hãy làm theo hướng dẫn trong ứng dụng để hoàn tất thiết lập 'cho phép tự khởi động' riêng của từng hãng."
+        },
+        {
+          "q": "Tôi có thể tự khởi động bao nhiêu ứng dụng?",
+          "a": "Bản miễn phí hỗ trợ 1 ứng dụng, còn bản PRO cho phép tự khởi động số lượng ứng dụng không giới hạn."
+        },
+        {
+          "q": "Ứng dụng có làm hao pin không?",
+          "a": "AutoStart+ chỉ chạy một lần khi khởi động và không phải là ứng dụng chạy nền liên tục, nên hầu như không ảnh hưởng đến thời lượng pin."
+        }
+      ]
+    },
+    "floatcalc": {
+      "name": "FloatCalc+",
+      "tag": "Cửa sổ nổi",
+      "desc": "Máy tính, chuyển đổi tỷ giá và đơn vị dạng nổi trên mọi ứng dụng.",
+      "tagline": "Máy tính nổi luôn hiển thị trên mọi ứng dụng để bạn không phải thoát ra chỉ để tính toán.",
+      "long": "FloatCalc+ là máy tính nổi luôn hiển thị trên mọi ứng dụng, nên bạn không phải chuyển màn hình chỉ để tính toán nhanh. Bộ chuyển đổi tiền tệ, chuyển đổi đơn vị và ghi chú nhanh tích hợp sẵn đều hoạt động ngay trong cửa sổ lớp phủ. Kéo cửa sổ đến bất cứ đâu bạn cần, rồi sao chép kết quả hoặc lưu vào ghi chú chỉ với một chạm. Ứng dụng nhẹ, nhanh và hoạt động ngoại tuyến (tỷ giá được lưu vào bộ nhớ đệm hằng ngày).",
+      "features": [
+        "Nổi trên mọi ứng dụng — YouTube, bản đồ, trình duyệt, ngân hàng, mua sắm, bảng tính",
+        "Cửa sổ lớp phủ kéo được, sao chép kết quả vào bộ nhớ tạm chỉ với một chạm",
+        "Chuyển đổi đơn vị: chiều dài, khối lượng, nhiệt độ, diện tích, thể tích, tốc độ và thời gian",
+        "Tỷ giá ECB thời gian thực cho hơn 30 loại tiền tệ, cập nhật hằng ngày",
+        "Ghi chú nhanh để lưu kết quả tính toán hoặc ghi chú ngay từ cửa sổ nổi",
+        "Chọn chế độ khởi động (Máy tính/Đơn vị/Tỷ giá/Ghi chú), 8 giao diện, hoạt động ngoại tuyến"
+      ],
+      "faq": [
+        {
+          "q": "Tôi có phải đóng ứng dụng mỗi khi muốn tính toán không?",
+          "a": "Không. FloatCalc+ hoạt động như một cửa sổ nổi luôn hiển thị trên các ứng dụng khác, nên bạn có thể tính toán mà không cần rời khỏi màn hình mua sắm, ngân hàng hay trình duyệt."
+        },
+        {
+          "q": "Tỷ giá lấy từ đâu?",
+          "a": "Ứng dụng sử dụng tỷ giá ECB (Ngân hàng Trung ương Châu Âu) theo thời gian thực, cập nhật hằng ngày. Bạn có thể quy đổi USD, EUR, JPY, KRW, CNY và hơn 30 loại tiền tệ trên thế giới ngay trong lớp phủ, và tỷ giá được lưu vào bộ nhớ đệm mỗi ngày để dùng được cả khi ngoại tuyến."
+        },
+        {
+          "q": "Tôi được dùng miễn phí đến mức nào?",
+          "a": "Gói miễn phí gồm 5 phiên mỗi ngày, mỗi phiên tối đa 20 phút. Một giao diện mặc định được miễn phí, còn 7 giao diện bổ sung và một số tính năng có trong bản Pro."
+        }
+      ]
+    },
+    "floatcrypto": {
+      "name": "FloatCrypto+",
+      "tag": "Cửa sổ nổi",
+      "desc": "Giá Bitcoin và tiền mã hóa trực tiếp, nổi trên mọi ứng dụng.",
+      "tagline": "Luôn giữ giá Bitcoin trực tiếp nổi trên màn hình — hoàn toàn miễn phí.",
+      "long": "FloatCrypto+ hiển thị bảng giá tiền mã hóa thời gian thực nổi trên mọi ứng dụng — YouTube, Chrome, game, Telegram — để bạn theo dõi BTC, ETH, SOL, XRP, DOGE, BNB và hơn 1.000 altcoin mà không cần chuyển ứng dụng. Dựa trên dữ liệu thị trường của Binance với CoinGecko làm nguồn dự phòng, ứng dụng còn có biểu đồ trực tiếp, cảnh báo giá và danh sách theo dõi ở cùng một nơi. Hoàn toàn miễn phí, không cần đăng nhập, không cần email và không cần ví — sẵn sàng dùng trong vài giây.",
+      "features": [
+        "Lớp phủ nổi luôn giữ giá Bitcoin và Ethereum trực tiếp trên mọi ứng dụng — không cần chuyển ứng dụng",
+        "Kéo để di chuyển, chụm để thay đổi kích thước, điều chỉnh được độ trong suốt và cỡ chữ",
+        "Biểu đồ tiền mã hóa 1N/7N/30N trực tiếp dựa trên dữ liệu Binance, kèm % thay đổi 24 giờ",
+        "Cảnh báo giá tức thì với ngưỡng trên và dưới cùng giám sát nền 24/7",
+        "Tìm kiếm coin nhanh trong hơn 1.000 token với danh sách theo dõi và bảng giá thời gian thực",
+        "Hoàn toàn miễn phí, không cần đăng nhập hay ví, chạy như một dịch vụ nền nhẹ và tiết kiệm pin"
+      ],
+      "faq": [
+        {
+          "q": "FloatCrypto+ có miễn phí không? Tôi có cần tài khoản không?",
+          "a": "Hoàn toàn miễn phí. Không cần đăng nhập, không cần email và không cần kết nối ví — chỉ cần cài đặt và bắt đầu theo dõi trong vài giây."
+        },
+        {
+          "q": "Ứng dụng hỗ trợ những coin nào và dữ liệu đến từ đâu?",
+          "a": "Ứng dụng hỗ trợ Bitcoin, Ethereum, Solana, XRP, Dogecoin, BNB và hơn 1.000 altcoin, sử dụng dữ liệu thị trường của Binance với CoinGecko làm nguồn dự phòng để đảm bảo độ ổn định."
+        },
+        {
+          "q": "Tôi có thể xem giá khi đang dùng ứng dụng khác không?",
+          "a": "Có. Lớp phủ nổi luôn hiển thị trên mọi ứng dụng, nên bạn có thể theo dõi giá trực tiếp khi đang xem YouTube, chơi game hay trò chuyện — không cần chuyển ứng dụng."
+        }
+      ]
+    },
+    "floattimer": {
+      "name": "FloatTimer+",
+      "tag": "Cửa sổ nổi",
+      "desc": "Hẹn giờ interval, Pomodoro và đa hẹn giờ dạng nổi trên mọi ứng dụng.",
+      "tagline": "Hẹn giờ interval, Pomodoro, đa hẹn giờ, bộ đếm và bấm giờ nổi trên mọi ứng dụng.",
+      "long": "FloatTimer+ là ứng dụng lớp phủ nổi giữ hẹn giờ interval, đa hẹn giờ, bộ đếm và bấm giờ trên mọi ứng dụng bạn dùng. Hẹn giờ luôn hiển thị khi bạn làm nhiều việc cùng lúc, và bạn có thể kéo đến bất cứ đâu trên màn hình cùng tùy chỉnh kích thước, độ trong suốt và màu nền. Ứng dụng chạy nền nên vẫn tiếp tục ngay cả khi bạn chuyển ứng dụng hay tắt màn hình. Cài một lần rồi tiếp tục nấu ăn, tập luyện, học tập hay chơi game mà không bao giờ mất dấu hẹn giờ.",
+      "features": [
+        "Lớp phủ nổi — hẹn giờ, bộ đếm và bấm giờ nổi trên mọi ứng dụng, với kích thước, độ trong suốt và màu nền riêng cho từng mục",
+        "Đa hẹn giờ — chạy nhiều bộ đếm ngược giờ/phút/giây tùy chỉnh cùng lúc và gắn ghi chú cho từng cái",
+        "Hẹn giờ interval — tạo các giai đoạn Tập/Nghỉ với số hiệp cho HIIT và Tabata, kèm mẫu có sẵn chạm một lần (Pomodoro, HIIT, Tabata, giờ nghỉ)",
+        "Bộ đếm số — bộ đếm nổi chạm-để-đếm với bước tùy chỉnh để cộng hoặc trừ bất kỳ giá trị nào (+1, +2, +5, +10…)",
+        "Bấm giờ nổi — bắt đầu, tạm dừng và đặt lại mà không bao giờ rời khỏi ứng dụng hiện tại",
+        "Thống kê, chuỗi ngày và sao lưu — lịch sử sử dụng và chuỗi ngày theo ngày, sao lưu và khôi phục tệp hẹn giờ/bộ đếm, xuất CSV (Pro)"
+      ],
+      "faq": [
+        {
+          "q": "Hẹn giờ có luôn hiển thị khi tôi dùng ứng dụng khác không?",
+          "a": "Có. Hẹn giờ, bộ đếm và bấm giờ nổi trên mọi ứng dụng và chạy nền, nên vẫn tiếp tục ngay cả khi bạn chuyển ứng dụng hay tắt màn hình."
+        },
+        {
+          "q": "Ứng dụng có hỗ trợ hẹn giờ interval và Pomodoro không?",
+          "a": "Có. Bạn có thể tạo các giai đoạn Tập/Nghỉ tùy chỉnh với nhiều hiệp cho HIIT và Tabata, và có sẵn các mẫu chạm một lần cho Pomodoro, HIIT, Tabata, nghỉ ngắn và nghỉ dài."
+        },
+        {
+          "q": "Tôi có thể chạy nhiều hẹn giờ hoặc bộ đếm cùng lúc không?",
+          "a": "Chạy nhiều hẹn giờ và bộ đếm cùng lúc là tính năng Pro. Bản miễn phí vẫn cho bạn dùng một hẹn giờ, một bộ đếm và một bấm giờ."
+        }
+      ]
+    },
+    "volumebooster": {
+      "name": "VolumeBooster+",
+      "tag": "Âm thanh",
+      "desc": "Tăng âm lượng, equalizer và tăng bass với dB thật, đo lường được.",
+      "tagline": "Làm mọi ứng dụng to hơn bằng decibel thật, đo lường được — không phải con số 200% vô nghĩa.",
+      "long": "VolumeBooster+ là công cụ tăng âm lượng nâng toàn bộ đầu ra hệ thống — loa nhỏ, tai nghe yếu, video khó nghe, cuộc gọi, nhạc và game — để bạn cuối cùng cũng nghe rõ. Ứng dụng tăng theo decibel thật (0 đến +15 dB) thay vì con số \"200%\" vô nghĩa, và hiển thị các vùng An toàn / Thận trọng / Nguy hiểm theo chuẩn WHO để bạn tăng âm lượng mà vẫn bảo vệ thính giác. Ứng dụng gộp equalizer 5 dải, tăng bass, virtualizer 3D và hiệu chỉnh tai nghe AutoEQ trong cùng một ứng dụng.",
+      "features": [
+        "Tăng âm lượng theo decibel thật (0 → +15 dB) với nhãn An toàn/Thận trọng/Nguy hiểm, tăng cho mọi ứng dụng trên toàn hệ thống",
+        "Loudness Maximizer cùng bộ giới hạn đỉnh luôn bật cho âm thanh to hơn thực sự mà không bị vỡ tiếng hay méo tiếng",
+        "Equalizer 5 dải với 12 preset đã tinh chỉnh (Pop, Rock, Vocal, Movie, Classical, Jazz, EDM, Gaming, Night và nhiều hơn nữa)",
+        "Tăng bass + Virtualizer 3D cho âm thanh sâu và rộng hơn",
+        "Hiệu chỉnh tai nghe AutoEQ dựa trên dữ liệu đáp tuyến tần số đo thực tế",
+        "Điểm sức khỏe thính giác + giám sát mức phơi nhiễm theo chuẩn WHO, Hẹn giờ ngủ, Cân bằng kênh và Widget nổi (Pro)"
+      ],
+      "faq": [
+        {
+          "q": "Ứng dụng có thực sự làm điện thoại to hơn không?",
+          "a": "Có. Loudness Maximizer dùng nén đa dải và bù khuếch đại để tăng độ to cảm nhận một cách thực sự, và nâng toàn bộ đầu ra hệ thống từ 0 đến +15 dB — không chỉ một ứng dụng. Nó áp dụng cho nhạc, video, YouTube, game, cuộc gọi và mọi thứ khác."
+        },
+        {
+          "q": "Ứng dụng này khác gì với các công cụ tăng âm '200%'?",
+          "a": "Những con số như \"200%\" hay \"500%\" mà các công cụ khác quảng cáo đều vô nghĩa. VolumeBooster+ hiển thị mức tăng thực bằng decibel và đánh dấu các vùng An toàn, Thận trọng và Nguy hiểm theo chuẩn WHO, nên bạn luôn biết chính xác mình đang nghe to đến mức nào."
+        },
+        {
+          "q": "Giá trị dB hiển thị có phải là số đo chính xác không?",
+          "a": "Giá trị decibel là ước lượng dựa trên âm lượng hệ thống và mức khuếch đại được áp dụng, và độ to thực tế thay đổi theo thiết bị, tai nghe và nội dung. Ứng dụng không phải là thiết bị y tế, nên nếu bạn thấy đau tai hoặc ù tai, hãy giảm âm lượng và tham khảo ý kiến chuyên gia."
+        }
+      ]
+    },
+    "photocleaner": {
+      "name": "PhotoCleaner+",
+      "tag": "Quyền riêng tư",
+      "desc": "Che thông tin cá nhân trong ảnh và PDF, hoàn toàn trên thiết bị.",
+      "tagline": "Che thông tin cá nhân trong ảnh và PDF bằng lớp che đặc, hoàn toàn ngay trên thiết bị của bạn.",
+      "long": "PhotoCleaner+ che thông tin cá nhân trong ảnh và PDF hoàn toàn ngay trên thiết bị của bạn. Ứng dụng phủ các vùng nhạy cảm bằng lớp che đặc, không trong suốt (không phải làm mờ hay mosaic, nên vùng đã che không thể khôi phục) và xuất ra một bản sao sạch. Bộ phát hiện tích hợp gợi ý những đoạn văn bản có thể nhạy cảm như số CMND/CCCD, thẻ, số điện thoại và email làm điểm khởi đầu, nhưng bạn tự vẽ và điều chỉnh lớp che bằng tay để quyết định chính xác điều gì được che. Không ảnh nào bị tải lên, mọi thứ chạy ngoại tuyến, và ứng dụng không bao giờ yêu cầu quyền truy cập thư viện hay bộ nhớ.",
+      "features": [
+        "Lớp che đặc, không trong suốt, không thể khôi phục (không phải làm mờ hay mosaic)",
+        "Vẽ lớp che bằng tay, rồi di chuyển, chỉnh kích thước hoặc xóa, có phóng to để chính xác",
+        "Phát hiện tích hợp gợi ý các đoạn văn bản có thể nhạy cảm (số CMND/CCCD, thẻ, số điện thoại, email) để bạn bắt đầu",
+        "Che ảnh, thẻ căn cước và tài liệu PDF nhiều trang",
+        "Cảnh báo EXIF & GPS, và mọi bản lưu hoặc chia sẻ đều được mã hóa lại, không kèm EXIF",
+        "Không yêu cầu quyền, xuất ảnh sạch không watermark cho mọi người"
+      ],
+      "faq": [
+        {
+          "q": "Cách che là làm mờ hay mosaic?",
+          "a": "Không. Việc che chỉ dùng một kiểu duy nhất là tô đặc, không trong suốt, và vùng đã che không thể khôi phục. Với bản Pro, bạn có thể chọn màu che tùy ý."
+        },
+        {
+          "q": "Ảnh của tôi có bị tải lên đâu đó không?",
+          "a": "Không. Mọi thứ chạy ngoại tuyến ngay trên thiết bị và không ảnh nào bị tải lên. Ứng dụng cũng không bao giờ yêu cầu quyền truy cập thư viện hay bộ nhớ."
+        },
+        {
+          "q": "Tôi có thể chỉ dựa vào phát hiện tự động trước khi xuất không?",
+          "a": "Phát hiện chỉ là điểm khởi đầu, gợi ý những đoạn văn bản có thể nhạy cảm. Hãy luôn xem lại các gợi ý và tự thêm hoặc bớt lớp che trước khi xuất."
+        }
+      ]
+    },
+    "secretalbum": {
+      "name": "SecretAlbum+",
+      "tag": "Quyền riêng tư",
+      "desc": "Ẩn ảnh và video với mã hóa AES-256 và khóa PIN.",
+      "tagline": "Ẩn và bảo vệ ảnh, video của bạn với mã hóa AES-256 và khóa PIN.",
+      "long": "SecretAlbum+ là két riêng tư bảo vệ những bức ảnh và video quý giá của bạn bằng mã hóa AES-256 cấp quân sự. Ứng dụng hoạt động hoàn toàn ngoại tuyến trên thiết bị và không bao giờ tải tệp lên bất kỳ máy chủ bên ngoài nào. Mọi tệp bạn nhập vào đều được mã hóa ngay lập tức và không thể truy cập nếu không có khóa cá nhân của bạn, biến mất hoàn toàn khỏi thư viện mà không để lại dấu vết. Bạn thậm chí có thể ngụy trang biểu tượng ứng dụng thành Máy tính, Ghi chú, Thời tiết hay Đồng hồ để không ai biết ứng dụng đã được cài đặt.",
+      "features": [
+        "Mã hóa AES-256 cấp quân sự bảo vệ tức thì mọi tệp",
+        "Khóa PIN 6 chữ số với khôi phục PIN tạm qua email sau 5 lần nhập sai",
+        "Chế độ ngụy trang đổi biểu tượng thành ứng dụng Máy tính, Ghi chú, Thời tiết hay Đồng hồ",
+        "Nhập nhiều ảnh và video từ thư viện, bản gốc được xóa tự động",
+        "Trình xem toàn màn hình với chụm-để-phóng và trình chiếu tự động",
+        "Hoạt động 100% ngoại tuyến, khôi phục về thư viện không mất chất lượng bất cứ lúc nào"
+      ],
+      "faq": [
+        {
+          "q": "Tệp của tôi có được gửi lên máy chủ hay đám mây bên ngoài không?",
+          "a": "Không. SecretAlbum+ hoạt động hoàn toàn ngoại tuyến và không bao giờ kết nối tới bất kỳ máy chủ bên ngoài nào. Tất cả tệp chỉ được lưu trong một không gian mã hóa trên thiết bị của bạn."
+        },
+        {
+          "q": "Điều gì xảy ra nếu tôi quên PIN?",
+          "a": "Sau 5 lần nhập sai liên tiếp PIN 6 chữ số, một mã PIN tạm dùng một lần sẽ được tự động gửi tới email khôi phục đã đăng ký, nên bạn không bao giờ bị khóa vĩnh viễn."
+        },
+        {
+          "q": "Tôi có thể chuyển các tệp đã ẩn về lại thư viện không?",
+          "a": "Có. Bạn có thể khôi phục bất kỳ tệp nào về thư viện bất cứ lúc nào, và quá trình giải mã không mất chất lượng, nên mọi ảnh và video trở về đúng như bản gốc mà không giảm chất lượng."
+        }
+      ]
+    },
+    "readfocus": {
+      "name": "ReadFocus+",
+      "tag": "Trợ năng",
+      "desc": "Công cụ hỗ trợ đọc cho người khó đọc và ADHD với đánh dấu dòng và lớp che.",
+      "tagline": "Công cụ hỗ trợ đọc cho người khó đọc & ADHD: đánh dấu dòng và lớp che giúp mắt bám theo dòng và giảm mỏi mắt.",
+      "long": "ReadFocus+ là thước đọc, lớp che đọc và công cụ hỗ trợ đọc cho chứng khó đọc và ADHD trên Android. Chỉ cần cấp quyền lớp phủ một lần, một dải tiêu điểm mờ sẽ nổi trên mọi ứng dụng — trình đọc ebook, trình duyệt, PDF, tin tức, truyện tranh — giúp mắt bạn bám vào dòng đang đọc. Ứng dụng giảm tình trạng bỏ dòng hay đọc lại cùng một dòng, nhờ đó giảm mỏi mắt và tăng khả năng tập trung cũng như hiệu quả đọc.",
+      "features": [
+        "Đánh dấu dòng (Thước đọc): làm sáng dòng hiện tại để mắt bám theo",
+        "Lớp che đọc: làm tối mọi thứ ngoài vùng đọc để tập trung như tầm nhìn đường hầm",
+        "Dải tiêu điểm chỉnh được hoàn toàn: chiều cao (50dp–300dp), độ trong suốt (10%–100%) và độ bo góc",
+        "6 giao diện màu (2 miễn phí + 4 Pro)",
+        "Hoạt động trên mọi ứng dụng — ebook, PDF, webtoon, tin tức, bài nghiên cứu",
+        "Pro: trải nghiệm không quảng cáo, thời gian lớp phủ không giới hạn và giữ màn hình sáng khi đọc"
+      ],
+      "faq": [
+        {
+          "q": "ReadFocus+ hoạt động như thế nào?",
+          "a": "Chỉ cần cấp quyền lớp phủ một lần, một dải tiêu điểm bán trong suốt sẽ nổi trên mọi ứng dụng. Kéo nó đến dòng bạn đang đọc và mắt bạn sẽ bám theo thay vì lạc hướng hay bỏ dòng."
+        },
+        {
+          "q": "Ứng dụng hoạt động với những ứng dụng nào?",
+          "a": "Nó hoạt động trên mọi ứng dụng đang hiển thị — trình đọc ebook và PDF, bài nghiên cứu, bài viết web, blog, tin tức, ghi chú học tập, giáo trình, truyện tranh, webtoon, và email hay lịch sử trò chuyện dài."
+        },
+        {
+          "q": "Ứng dụng có miễn phí không?",
+          "a": "Có. Bản miễn phí cho 60 phút thời gian lớp phủ mỗi phiên và 2 giao diện màu. Bản Pro thêm trải nghiệm không quảng cáo, đủ 6 giao diện và thời gian lớp phủ không giới hạn — và bạn cũng có thể xem một quảng cáo có thưởng ngắn để mở khóa miễn phí bất kỳ tính năng Pro nào trong 24 giờ."
+        }
+      ]
+    },
+    "colorcards": {
+      "name": "Color Cards+",
+      "tag": "Trẻ em",
+      "desc": "Thẻ học màu biết nói giúp bé tập nhận biết màu sắc.",
+      "tagline": "Thẻ học màu biết nói, nơi bé nhìn, nghe và lặp lại để học màu sắc",
+      "long": "Color Cards+ là ứng dụng thẻ học màu biết nói và biết nghe dành cho trẻ nhỏ. Ứng dụng trình bày các thẻ đồ vật thân thiện với trẻ theo sáu màu (đỏ, xanh dương, vàng, xanh lá, cam và tím) và đọc to tên từng đồ vật để bé lặp lại và học màu một cách tự nhiên. Nhiều chế độ học như tự động phát, ẩn từ, xáo thẻ và hiển thị song ngữ được hỗ trợ trên nhiều ngôn ngữ. Môi trường gọn gàng, không gây xao nhãng giúp bé tập trung khi học.",
+      "features": [
+        "Sáu nhóm màu: đỏ, xanh dương, vàng, xanh lá, cam và tím",
+        "Thẻ học biết nói, đọc to tên từng đồ vật",
+        "Chế độ tự động phát và ẩn từ cho cách học đa dạng",
+        "Xáo thẻ để ôn lại theo thứ tự khác",
+        "Chế độ song ngữ hiển thị thêm tiếng Anh, hỗ trợ đa ngôn ngữ",
+        "Nhạc nền và tùy chọn không quảng cáo qua Pro hoặc Free Pass"
+      ],
+      "faq": [
+        {
+          "q": "Bé có thể học những màu nào?",
+          "a": "Sáu màu: đỏ, xanh dương, vàng, xanh lá, cam và tím, mỗi màu được dạy bằng các thẻ đồ vật quen thuộc tương ứng với màu đó."
+        },
+        {
+          "q": "Các thẻ có được đọc to không?",
+          "a": "Có. Đây là những thẻ học biết nói, đọc to tên từng đồ vật, nên bé có thể nghe và lặp lại để học màu sắc."
+        },
+        {
+          "q": "Tôi có thể dùng mà không có quảng cáo không?",
+          "a": "Bạn có thể loại bỏ quảng cáo và truy cập tất cả thẻ màu với gói Pro, hoặc xem một quảng cáo có thưởng để mở khóa toàn bộ nội dung với Free Pass 24 giờ."
+        }
+      ]
+    },
+    "wordcards": {
+      "name": "Word Cards+",
+      "tag": "Trẻ em",
+      "desc": "Thẻ học cho bé tập nói và nghe từ vựng.",
+      "tagline": "Những từ đầu tiên của bé — nhìn, nghe và nói cùng thẻ học.",
+      "long": "Word Cards+ là ứng dụng thẻ học bằng hình giúp trẻ nhỏ học từ vựng một cách vui vẻ. Với những tấm thẻ dễ thương theo các chủ đề quen thuộc như động vật, trái cây, phương tiện và đồ vật hằng ngày, bé có thể nhìn từng hình, nghe từ và nói to theo. Nền trắng gọn gàng và tranh minh họa rõ ràng giúp bé tập trung vào từng đồ vật và mở rộng vốn từ một cách tự nhiên.",
+      "features": [
+        "Thẻ học theo chủ đề: động vật, trái cây, phương tiện và đồ vật hằng ngày",
+        "Tranh minh họa dễ thương, rõ ràng, thu hút sự chú ý và tập trung của bé",
+        "Học nghe-và-lặp lại với từ được đọc trên mỗi thẻ",
+        "Nền trắng gọn gàng giữ trọng tâm vào từng đồ vật",
+        "Điều khiển đơn giản, thân thiện với trẻ nhỏ để tự vuốt qua các thẻ",
+        "Vốn từ thực tế xoay quanh những đồ vật quen thuộc hằng ngày"
+      ],
+      "faq": [
+        {
+          "q": "Ứng dụng dành cho độ tuổi nào?",
+          "a": "Ứng dụng được làm cho trẻ nhỏ bắt đầu tập nói. Bé có thể học từ bằng cách nhìn tranh, nghe từ và lặp lại to."
+        },
+        {
+          "q": "Có những chủ đề từ vựng nào?",
+          "a": "Các thẻ học bao gồm những chủ đề quen thuộc với trẻ nhỏ, gồm động vật, trái cây, phương tiện và đồ vật hằng ngày."
+        },
+        {
+          "q": "Bé có thể tự dùng một mình không?",
+          "a": "Việc vuốt qua các thẻ đủ đơn giản để trẻ nhỏ tự xem và nghe, và sẽ càng hiệu quả hơn khi có bố mẹ cùng tham gia."
+        }
+      ]
+    },
+    "sleepbaby": {
+      "name": "SleepBaby+",
+      "tag": "Nuôi con",
+      "desc": "Nhạc ru và tiếng ồn trắng dịu êm giúp bé ngủ ngon.",
+      "tagline": "Nhạc ru và tiếng ồn trắng dịu êm giúp bé ngủ ngon.",
+      "long": "SleepBaby+ là ứng dụng nhạc ru và tiếng ồn trắng giúp bé chìm vào giấc ngủ êm dịu. Ứng dụng có những âm thanh êm ả như bài hát ru của Brahms, tiếng sóng biển dịu nhẹ, tiếng suối chảy róc rách và tiếng lửa trại lách tách. Bộ hẹn giờ ngủ tích hợp tự động dừng phát sau khoảng thời gian bạn chọn, và âm lượng chỉnh được mang lại giấc nghỉ yên bình cho cả bé và bố mẹ.",
+      "features": [
+        "Những bài hát ru cổ điển ấm áp, gồm bài hát ru của Brahms",
+        "Tiếng ồn trắng tự nhiên như sóng biển, suối chảy và lửa trại",
+        "Hẹn giờ ngủ 30 phút, 45 phút, 1, 2, 3 giờ hoặc không giới hạn",
+        "Tự động dừng phát khi hết giờ",
+        "Điều chỉnh âm lượng dễ dàng",
+        "Tùy chọn chia sẻ ứng dụng và gửi phản hồi tích hợp sẵn"
+      ],
+      "faq": [
+        {
+          "q": "Ứng dụng phát những âm thanh gì?",
+          "a": "Ứng dụng có những bài hát ru và tiếng ồn trắng dịu êm, gồm bài hát ru của Brahms, tiếng sóng biển nhẹ nhàng, tiếng suối chảy và tiếng lửa trại lách tách."
+        },
+        {
+          "q": "Ứng dụng có tự tắt sau một lúc không?",
+          "a": "Có. Bạn có thể đặt hẹn giờ ngủ 30 phút, 45 phút, 1, 2 hoặc 3 giờ, hoặc không giới hạn, và việc phát sẽ tự động dừng khi hết giờ."
+        },
+        {
+          "q": "Tôi có thể chỉnh âm lượng không?",
+          "a": "Có. Bạn có thể tự do điều chỉnh âm lượng trong ứng dụng để tìm mức phù hợp nhất giúp bé chìm vào giấc ngủ."
+        }
+      ]
+    },
+    "clipboardwin": {
+      "name": "Clipboard+ for Windows",
+      "tag": "Ứng dụng Windows",
+      "desc": "Trình quản lý bộ nhớ tạm trên khay Windows, đồng bộ với ứng dụng Clipboard+ trên Android.",
+      "tagline": "Trình quản lý bộ nhớ tạm trên khay Windows, đồng bộ với điện thoại Android của bạn qua chính Google Drive của bạn.",
+      "long": "Clipboard+ for Windows là trình quản lý bộ nhớ tạm thường trú trên khay hệ thống, tự động ghi lại văn bản và hình ảnh bạn sao chép. Ứng dụng dùng chung định dạng dữ liệu với ứng dụng Clipboard+ trên Android, nên điện thoại và máy tính của bạn đồng bộ hai chiều qua chính Google Drive của bạn (một thư mục ẩn riêng của ứng dụng) mà không cần máy chủ chuyên dụng. Ứng dụng bắt các mục sao chép qua sự kiện bộ nhớ tạm gốc của Windows mà không cần dò liên tục, đồng thời cho phép bạn sắp xếp văn bản và hình ảnh thành nhóm và snippet rồi tìm kiếm trong đó.",
+      "features": [
+        "Thường trú trên khay với giám sát bộ nhớ tạm thời gian thực không cần dò (sự kiện Win32), tự động bắt văn bản và hình ảnh",
+        "Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn — không cần máy chủ chuyên dụng, chỉ dùng phạm vi drive.appdata",
+        "Giao diện kiểu Android với chủ đề sáng/tối, thanh bên nhóm, snippet và ghim/sao chép/chỉnh sửa/tìm kiếm",
+        "Chọn nhiều để di chuyển, xóa và gộp hàng loạt, sắp xếp mới nhất/cũ nhất, và trình xem ảnh kích thước đầy đủ",
+        "Phím tắt toàn cục để mở cửa sổ và bắt tức thì văn bản đang chọn ở ứng dụng khác, cùng chạy khi khởi động",
+        "Xuất/nhập tương thích với định dạng sao lưu của Clipboard+ trên Android (văn bản JSON, hình ảnh ZIP)"
+      ],
+      "faq": [
+        {
+          "q": "Ứng dụng có đồng bộ với ứng dụng Clipboard+ trên Android không?",
+          "a": "Có. Cả hai ứng dụng dùng chung định dạng đồng bộ và giữ bộ nhớ tạm của điện thoại và máy tính đồng bộ hai chiều qua một thư mục riêng của ứng dụng trong chính Google Drive của bạn, mà không cần máy chủ chuyên dụng nào."
+        },
+        {
+          "q": "Dữ liệu bộ nhớ tạm của tôi được lưu ở đâu và có an toàn không?",
+          "a": "Dữ liệu cục bộ được lưu tại %APPDATA%\\ClipboardPlus trên máy tính của bạn, còn dữ liệu đồng bộ chỉ nằm trong một vùng ẩn riêng của ứng dụng trong chính Google Drive của bạn. Ứng dụng chỉ dùng phạm vi drive.appdata, nên không bao giờ đụng đến các tệp Drive thông thường của bạn."
+        },
+        {
+          "q": "Tôi cần gì để bật đồng bộ?",
+          "a": "Để bật đồng bộ Google Drive, hãy tạo một OAuth client cho máy tính một lần trong Google Cloud Console, đặt tệp google_client.json vào thư mục ứng dụng, rồi nhấn đồng bộ trong ứng dụng để đăng nhập Google và cấp quyền một lần duy nhất."
+        }
+      ]
+    }
+  }
+}

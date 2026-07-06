@@ -1,85 +1,2381 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://codedac1.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/clipboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/clipboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/clipboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/clipboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/clipboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/clipboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/clipboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/clipboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/clipboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/clipboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboard.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboard.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/autostart.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/autostart.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/autostart.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/autostart.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/autostart.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/autostart.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/autostart.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/autostart.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/autostart.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/autostart.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/autostart.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/autostart.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/floatcalc.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/floatcalc.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/floatcalc.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/floatcalc.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/floatcalc.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/floatcalc.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/floatcalc.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/floatcalc.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/floatcalc.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/floatcalc.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcalc.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcalc.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/floatcrypto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/floatcrypto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/floatcrypto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/floatcrypto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/floatcrypto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/floatcrypto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/floatcrypto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/floatcrypto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/floatcrypto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/floatcrypto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floatcrypto.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floatcrypto.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/floattimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/floattimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/floattimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/floattimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/floattimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/floattimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/floattimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/floattimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/floattimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/floattimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/floattimer.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/floattimer.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/volumebooster.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/volumebooster.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/volumebooster.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/volumebooster.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/volumebooster.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/volumebooster.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/volumebooster.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/volumebooster.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/volumebooster.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/volumebooster.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/volumebooster.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/volumebooster.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/photocleaner.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/photocleaner.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/photocleaner.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/photocleaner.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/photocleaner.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/photocleaner.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/photocleaner.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/photocleaner.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/photocleaner.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/photocleaner.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/photocleaner.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/photocleaner.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/secretalbum.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/secretalbum.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/secretalbum.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/secretalbum.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/secretalbum.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/secretalbum.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/secretalbum.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/secretalbum.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/secretalbum.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/secretalbum.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/secretalbum.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/secretalbum.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/readfocus.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/readfocus.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/readfocus.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/readfocus.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/readfocus.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/readfocus.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/readfocus.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/readfocus.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/readfocus.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/readfocus.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/readfocus.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/readfocus.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/colorcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/colorcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/colorcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/colorcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/colorcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/colorcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/colorcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/colorcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/colorcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/colorcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/colorcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/colorcards.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/wordcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/wordcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/wordcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/wordcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/wordcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/wordcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/wordcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/wordcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/wordcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/wordcards.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/wordcards.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/wordcards.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/sleepbaby.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/sleepbaby.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/sleepbaby.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/sleepbaby.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/sleepbaby.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/sleepbaby.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/sleepbaby.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/sleepbaby.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/sleepbaby.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/sleepbaby.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/sleepbaby.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/sleepbaby.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://codedac1.github.io/apps/clipboardwin.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/en/apps/clipboardwin.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/ja/apps/clipboardwin.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/es/apps/clipboardwin.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/pt/apps/clipboardwin.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/de/apps/clipboardwin.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/fr/apps/clipboardwin.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/id/apps/clipboardwin.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/hi/apps/clipboardwin.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codedac1.github.io/vi/apps/clipboardwin.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://codedac1.github.io/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://codedac1.github.io/ja/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://codedac1.github.io/es/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://codedac1.github.io/pt/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://codedac1.github.io/de/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://codedac1.github.io/fr/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://codedac1.github.io/id/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://codedac1.github.io/hi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://codedac1.github.io/vi/apps/clipboardwin.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://codedac1.github.io/en/apps/clipboardwin.html" />
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

@@ -65,12 +65,29 @@ img { max-width: 100%; }
 
 .nav-right { display: flex; align-items: center; gap: 14px; }
 
-/* 언어 전환 */
-.lang-switch { display: flex; align-items: center; gap: 6px; }
-.lang-btn { background: none; border: 0; cursor: pointer; font: inherit; font-weight: 700; font-size: 14px; color: var(--muted); padding: 4px 2px; transition: color .2s; }
-.lang-btn:hover { color: var(--ink); }
-.lang-btn.is-active { color: var(--brand); }
-.lang-sep { color: var(--line); }
+/* 언어 전환 (드롭다운) */
+.lang-switch { position: relative; }
+.lang-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: none; border: 1px solid var(--line); border-radius: 999px;
+  cursor: pointer; font: inherit; font-weight: 700; font-size: 14px; color: var(--ink);
+  padding: 7px 13px; transition: border-color .2s, color .2s;
+}
+.lang-btn:hover { border-color: var(--brand); color: var(--brand); }
+.lang-btn .caret { font-size: 10px; color: var(--muted); }
+.lang-menu {
+  position: absolute; top: calc(100% + 8px); right: 0;
+  background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+  box-shadow: var(--shadow); padding: 6px; min-width: 168px;
+  display: none; z-index: 60; max-height: 72vh; overflow-y: auto;
+}
+.lang-menu.open { display: block; }
+.lang-item {
+  display: block; padding: 9px 14px; border-radius: 8px;
+  font-size: 14px; font-weight: 600; color: var(--body); white-space: nowrap;
+}
+.lang-item:hover { background: var(--bg-alt); color: var(--brand); }
+.lang-item.is-active { color: var(--brand); background: var(--bg-alt); }
 
 .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: 0; cursor: pointer; padding: 8px; }
 .nav-toggle span { width: 24px; height: 2px; background: var(--ink); transition: .3s; }
