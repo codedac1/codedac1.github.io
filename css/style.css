@@ -113,7 +113,18 @@ img { max-width: 100%; }
 
 /* 서비스 그리드 */
 .services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
-.services-cta { text-align: center; margin-top: 40px; }
+.services-cta { text-align: center; margin-top: 36px; }
+
+/* 기술 스택 배지 */
+.tech-stack { text-align: center; margin-top: 44px; }
+.tech-label { color: var(--muted); font-weight: 700; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 16px; }
+.tech-badges { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.tech-badges li {
+  background: var(--bg); border: 1px solid var(--line); border-radius: 999px;
+  padding: 8px 16px; font-size: 14px; font-weight: 700; color: var(--ink);
+  box-shadow: var(--shadow); transition: transform .15s ease, border-color .2s ease;
+}
+.tech-badges li:hover { transform: translateY(-2px); border-color: var(--brand); color: var(--brand); }
 .card {
   background: var(--bg);
   border: 1px solid var(--line);

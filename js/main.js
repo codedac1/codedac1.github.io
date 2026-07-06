@@ -40,6 +40,7 @@ const I18N = {
     'services.s3.d': '아키텍처 설계, 기술 스택 선정, 코드 리뷰 등 기술 의사결정을 함께합니다.',
     'services.s4.t': '유지보수 · 운영',
     'services.s4.d': '안정적인 운영, 성능 개선, 배포 자동화(CI/CD)로 서비스를 지속 관리합니다.',
+    'services.tech': '기술 스택',
     'services.cta': '프로젝트 문의하기',
 
     'apps.title': '앱 소개',
@@ -81,6 +82,7 @@ const I18N = {
     'services.s3.d': 'We advise on architecture, tech-stack selection and code review to guide key decisions.',
     'services.s4.t': 'Maintenance & Ops',
     'services.s4.d': 'We keep services healthy with stable operations, performance tuning and CI/CD automation.',
+    'services.tech': 'Tech Stack',
     'services.cta': 'Start a project',
 
     'apps.title': 'Our Apps',
@@ -91,7 +93,7 @@ const I18N = {
 };
 
 // 자산 캐시 버전 (아이콘/스크린샷을 바꾸면 숫자를 올리세요. index.html의 ?v= 와 맞춤)
-const V = '12';
+const V = '13';
 
 // ===== 앱 목록 데이터 =====
 // shots: images/shots/<slug>-1.jpg 형식으로 존재하는 스크린샷 개수
