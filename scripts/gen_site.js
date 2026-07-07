@@ -15,7 +15,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac1.github.io';
-const V = '24'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
+const V = '25'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
 const LASTMOD = new Date().toISOString().slice(0, 10);
 
 // 언어 정의 (표시 순서 = 스위처 순서). code=폴더/파일, hreflang=검색엔진용
@@ -227,9 +227,10 @@ function buildHome(lang) {
 
   const cards = APPS.map((app) => {
     const a = d.apps[app.slug];
-    const shotsHtml = app.shots ? `
+    const cardShots = Math.min(app.shots, 3); // 홈 카드는 3장까지만(상세 페이지는 전량)
+    const shotsHtml = cardShots ? `
         <div class="app-shots">
-${Array.from({ length: app.shots }, (_, i) =>
+${Array.from({ length: cardShots }, (_, i) =>
       `          <img class="shot" src="/images/shots/${app.slug}-${i + 1}.jpg?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}" loading="lazy" data-idx="${i}" />`).join('\n')}
         </div>` : '';
     const store = app.store
