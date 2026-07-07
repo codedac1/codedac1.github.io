@@ -63,6 +63,10 @@ try {
   console.warn('(경고) scripts/app_langs.json 없음 — 앱 언어 배지 생략. `node scripts/scan_app_langs.js` 로 생성하세요.');
 }
 const langCountOf = (slug) => (APP_LANGS[slug] && APP_LANGS[slug].count) || 0;
+// 앱들이 통틀어 지원하는 언어 수(합집합) → "50+" (10 단위로 내림). 지표 스트립용.
+const APP_LANG_UNION = new Set();
+for (const v of Object.values(APP_LANGS)) (v.codes || []).forEach((c) => APP_LANG_UNION.add(c));
+const APP_LANG_DISPLAY = APP_LANG_UNION.size ? (Math.floor(APP_LANG_UNION.size / 10) * 10) + '+' : null;
 const L = {};
 for (const lang of LANGS) {
   const p = path.join(ROOT, 'i18n', `${lang.code}.json`);
@@ -203,7 +207,7 @@ function statStrip(ui) {
   const items = [
     { num: String(APPS.length), label: ui['stats.apps'] },
     DL_DISPLAY ? { num: DL_DISPLAY, label: ui['stats.downloads'] } : null,
-    { num: String(ACTIVE.length), label: ui['stats.languages'] },
+    { num: APP_LANG_DISPLAY || String(ACTIVE.length), label: ui['stats.languages'] },
   ].filter(Boolean);
   return `      <ul class="hero-stats">
 ${items.map((it) => `        <li class="hstat"><span class="hstat-num">${escText(it.num)}</span><span class="hstat-label">${escText(it.label)}</span></li>`).join('\n')}
