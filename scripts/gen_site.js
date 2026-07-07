@@ -15,7 +15,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac1.github.io';
-const V = '16'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
+const V = '18'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
 const LASTMOD = new Date().toISOString().slice(0, 10);
 
 // 언어 정의 (표시 순서 = 스위처 순서). code=폴더/파일, hreflang=검색엔진용
@@ -109,7 +109,7 @@ ${items}
       </div>`;
 }
 
-const FAVICON = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='22' width='100' height='100' fill='%232f6bff'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E`;
+const FAVICON = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='22' width='100' height='100' fill='%232F3B59'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E`;
 
 function headCommon(lang, { title, desc, canonical, ogImage, kind, slug, keywords, langSet }) {
   return `  <meta charset="UTF-8" />
@@ -121,7 +121,7 @@ function headCommon(lang, { title, desc, canonical, ogImage, kind, slug, keyword
   <meta name="keywords" content="${escAttr(keywords)}" />
   <meta name="author" content="CodeDAC" />
   <meta name="robots" content="index, follow" />
-  <meta name="theme-color" content="#2f6bff" />
+  <meta name="theme-color" content="#2F3B59" />
   <link rel="canonical" href="${canonical}" />
 ${hreflangLinks(kind, slug, langSet)}
 

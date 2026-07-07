@@ -79,3 +79,41 @@
   const y = document.getElementById('year');
   if (y) y.textContent = new Date().getFullYear();
 })();
+
+// ===== 헤더 스크롤 그림자 =====
+(function () {
+  const header = document.querySelector('.site-header');
+  if (!header) return;
+  const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+})();
+
+// ===== 스크롤 리빌 애니메이션 (콘텐츠 변경 없이 진행 강화) =====
+(function () {
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // 리빌 대상: 섹션 헤더 문구·카드·앱 카드·상세 섹션·기술 스택
+  const targets = document.querySelectorAll(
+    '.section-label, .section-title, .section-lead, .name-meaning, .card, .app-card, ' +
+    '.tech-stack, .services-cta, .detail-section, .app-hero-inner, .faq-item'
+  );
+  if (!targets.length) return;
+  if (reduce || !('IntersectionObserver' in window)) {
+    targets.forEach((el) => el.classList.add('is-in'));
+    return;
+  }
+  targets.forEach((el) => el.classList.add('reveal'));
+  const io = new IntersectionObserver((entries) => {
+    // 한 번에 들어오는 카드들이 살짝 순차적으로 나타나도록 배치 내에서만 지연
+    let n = 0;
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      const el = entry.target;
+      io.unobserve(el);
+      const delay = Math.min(n++, 5) * 55;
+      if (delay) setTimeout(() => el.classList.add('is-in'), delay);
+      else el.classList.add('is-in');
+    });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.06 });
+  targets.forEach((el) => io.observe(el));
+})();
