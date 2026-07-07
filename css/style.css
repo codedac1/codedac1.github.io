@@ -439,3 +439,66 @@ img { max-width: 100%; }
   * { animation-duration: .001ms !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* ===== 다크 모드 토글 버튼 ===== */
+.theme-toggle {
+  display: inline-grid; place-items: center;
+  width: 38px; height: 38px; border-radius: 999px;
+  background: var(--bg); border: 1px solid var(--line); cursor: pointer;
+  color: var(--ink); font-size: 15px; line-height: 1; padding: 0;
+  transition: border-color .2s, box-shadow .2s, color .2s;
+}
+.theme-toggle:hover { border-color: var(--accent); box-shadow: var(--shadow-sm); }
+.ti-light { display: none; }
+:root[data-theme="dark"] .ti-dark { display: none; }
+:root[data-theme="dark"] .ti-light { display: inline; }
+
+/* ===== 다크 모드 팔레트 (대표 앱 Clipboard+ 다크 테마 기반: 네이비/틸) ===== */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --brand: #8ea3cc;        /* 라이트 네이비 — 로고·지표 숫자 (다크 배경 가독) */
+  --brand-2: #6f86b8;
+  --brand-dark: #b9c6e2;
+  --accent: #4db6ac;
+  --accent-dark: #63c6bb;  /* 다크에서 밝은 틸 (아이라인·체크마크) */
+  --accent-tint: #16302c;  /* 다크 틸 칩 배경 */
+  --brand-tint: #1c2431;   /* 다크 네이비 칩 배경 */
+  --link-teal: #64c8bd;    /* 다크 배경 인라인 링크 */
+  --link-teal-h: #86d8ce;
+  --ink: #f1f4f9;
+  --body: #c3c9d4;
+  --muted: #8b93a3;
+  --line: #282e3a;
+  --line-soft: #20252e;
+  --bg: #0f1115;
+  --bg-alt: #161a21;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .4), 0 1px 3px rgba(0, 0, 0, .5);
+  --shadow: 0 8px 28px rgba(0, 0, 0, .45);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, .6);
+  --ring: 0 0 0 4px rgba(77, 182, 172, .35);
+}
+
+/* 하드코딩된 라이트 색 보정 (다크) */
+:root[data-theme="dark"] .site-header { background: rgba(15, 17, 21, .72); }
+:root[data-theme="dark"] .site-header.is-scrolled { background: rgba(15, 17, 21, .88); box-shadow: 0 6px 24px rgba(0, 0, 0, .5); }
+:root[data-theme="dark"] .hero {
+  background:
+    radial-gradient(760px 380px at 12% -8%, #172234 0%, transparent 60%),
+    radial-gradient(820px 440px at 100% -4%, #10231e 0%, transparent 58%),
+    var(--bg);
+}
+:root[data-theme="dark"] .hero::before {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, .035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, .035) 1px, transparent 1px);
+}
+:root[data-theme="dark"] .card:hover,
+:root[data-theme="dark"] .app-card:hover,
+:root[data-theme="dark"] .faq-item:hover,
+:root[data-theme="dark"] .review-card:hover { border-color: #39424f; }
+:root[data-theme="dark"] .app-tag,
+:root[data-theme="dark"] .section-label { box-shadow: inset 0 0 0 1px rgba(77, 182, 172, .12); }
+
+@media (max-width: 640px) {
+  :root[data-theme="dark"] .nav { background: var(--bg); }
+}

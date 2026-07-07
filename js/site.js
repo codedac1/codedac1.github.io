@@ -80,6 +80,18 @@
   if (y) y.textContent = new Date().getFullYear();
 })();
 
+// ===== 다크 모드 토글 (초기 테마는 <head> 인라인 스크립트가 설정) =====
+(function () {
+  const btn = document.getElementById('themeToggle');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    const cur = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+    const next = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) { /* 저장 불가 무시 */ }
+  });
+})();
+
 // ===== 헤더 스크롤 그림자 =====
 (function () {
   const header = document.querySelector('.site-header');

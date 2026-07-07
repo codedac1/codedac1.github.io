@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
   <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
   <meta name="naver-site-verification" content="15e984a2c53000d6d9b698695cbaebf8a3359c0b" />
   <title>VolumeBooster+ — Âm thanh | CodeDAC</title>
@@ -40,7 +41,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='22' width='100' height='100' fill='%232F3B59'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="/css/style.css?v=27" />
+  <link rel="stylesheet" href="/css/style.css?v=28" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -147,6 +148,9 @@
         <a href="/vi/#reviews">Đánh giá</a>
       </nav>
       <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Chuyển chế độ tối" title="Chuyển chế độ tối">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
       <div class="lang-switch">
         <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false">Tiếng Việt <span class="caret">▾</span></button>
         <div class="lang-menu" id="langMenu" role="menu">
@@ -181,7 +185,7 @@
 
   <section class="app-hero-d">
     <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/volumebooster.png?v=27" alt="VolumeBooster+ icon" width="96" height="96" />
+      <img class="app-icon-lg" src="/images/icons/volumebooster.png?v=28" alt="VolumeBooster+ icon" width="96" height="96" />
       <div class="app-hero-text">
         <span class="app-meta-row"><span class="app-tag">Âm thanh</span><span class="app-langs" aria-label="21 ngôn ngữ"><span class="globe" aria-hidden="true">🌐</span>21 ngôn ngữ</span></span>
         <h1>VolumeBooster+</h1>
@@ -220,11 +224,11 @@
       <h2 class="detail-title">Ảnh chụp màn hình</h2>
       <p class="section-lead" style="margin-bottom:22px">Chạm vào ảnh chụp màn hình để xem lớn hơn.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/volumebooster-1.jpg?v=27" alt="VolumeBooster+ Ảnh chụp màn hình 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/volumebooster-2.jpg?v=27" alt="VolumeBooster+ Ảnh chụp màn hình 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/volumebooster-3.jpg?v=27" alt="VolumeBooster+ Ảnh chụp màn hình 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/volumebooster-4.jpg?v=27" alt="VolumeBooster+ Ảnh chụp màn hình 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/volumebooster-5.jpg?v=27" alt="VolumeBooster+ Ảnh chụp màn hình 5" loading="lazy" data-idx="4" />
+        <img class="shot" src="/images/shots/volumebooster-1.jpg?v=28" alt="VolumeBooster+ Ảnh chụp màn hình 1" loading="lazy" data-idx="0" />
+        <img class="shot" src="/images/shots/volumebooster-2.jpg?v=28" alt="VolumeBooster+ Ảnh chụp màn hình 2" loading="lazy" data-idx="1" />
+        <img class="shot" src="/images/shots/volumebooster-3.jpg?v=28" alt="VolumeBooster+ Ảnh chụp màn hình 3" loading="lazy" data-idx="2" />
+        <img class="shot" src="/images/shots/volumebooster-4.jpg?v=28" alt="VolumeBooster+ Ảnh chụp màn hình 4" loading="lazy" data-idx="3" />
+        <img class="shot" src="/images/shots/volumebooster-5.jpg?v=28" alt="VolumeBooster+ Ảnh chụp màn hình 5" loading="lazy" data-idx="4" />
       </div>
     </div>
   </section>
@@ -277,6 +281,6 @@
     <img class="lb-img" id="lbImg" alt="" />
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
-  <script src="/js/site.js?v=27"></script>
+  <script src="/js/site.js?v=28"></script>
 </body>
 </html>

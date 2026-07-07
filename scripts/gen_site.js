@@ -15,7 +15,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac1.github.io';
-const V = '27'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
+const V = '28'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
 const LASTMOD = new Date().toISOString().slice(0, 10);
 
 // 언어 정의 (표시 순서 = 스위처 순서). code=폴더/파일, hreflang=검색엔진용
@@ -163,6 +163,7 @@ const FAVICON = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
 function headCommon(lang, { title, desc, canonical, ogImage, kind, slug, keywords, langSet }) {
   return `  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
   <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
   <meta name="naver-site-verification" content="15e984a2c53000d6d9b698695cbaebf8a3359c0b" />
   <title>${escText(title)}</title>
@@ -204,6 +205,9 @@ function header(code, kind, slug, ui) {
         <a href="${pathFor(code, 'home')}#reviews">${escText(ui['nav.reviews'])}</a>` : ''}
       </nav>
       <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="${escAttr(ui['theme.toggle'])}" title="${escAttr(ui['theme.toggle'])}">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
       ${langSwitcher(code, kind, slug)}
         <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
           <span></span><span></span><span></span>
