@@ -23,9 +23,11 @@ const appIdOf = (store) => (store && store.includes('id=')) ? store.split('id=')
     if (!id) continue;
     try {
       const r = await gplay.reviews({ appId: id, sort: gplay.sort.RATING, num: 100, lang: 'en', country: 'us' });
+      const MIN_LEN = 60;  // 너무 짧은 한 줄 리뷰 배제(최소 60자)
+      const MAX_LEN = 300;
       const five = (r.data || [])
-        .filter((x) => x.score === 5 && x.text && x.text.trim().length >= 25 && x.text.length <= 260)
-        .map((x) => ({ slug: app.slug, name: x.userName || '', score: x.score, text: x.text.replace(/\s+/g, ' ').trim() }));
+        .map((x) => ({ slug: app.slug, name: x.userName || '', score: x.score, text: (x.text || '').replace(/\s+/g, ' ').trim() }))
+        .filter((x) => x.score === 5 && x.text.length >= MIN_LEN && x.text.length <= MAX_LEN);
       if (five.length) pool[app.slug] = five;
       console.log(`✓ ${app.slug}: ${five.length} five-star reviews with text`);
     } catch (e) {

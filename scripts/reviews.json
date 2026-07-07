@@ -1,41 +1,44 @@
 {
-  "note": "노출용으로 손수 고른 5★ Google Play 리뷰. 후보는 `node scripts/fetch_reviews.js` → scripts/_reviews_pool.json 참고. 여기 items 를 고치면 홈 후기 섹션이 바뀝니다.",
-  "items": [
-    {
-      "slug": "clipboard",
-      "name": "Fabio Rodriguez",
-      "score": 5,
-      "text": "I reported my frustration about not being able to import a backup, and the developer promptly updated the app to add that feature. Developers who listen to and act on user feedback deserve high praise."
-    },
-    {
-      "slug": "autostart",
-      "name": "James Franke",
-      "score": 5,
-      "text": "All I wanted was my app to open on startup. I tried other apps that were recommended, too complicated, and they didn't work. AutoStart+ was easy and it worked the first time."
-    },
-    {
-      "slug": "clipboard",
-      "name": "Joseph Younger",
-      "score": 5,
-      "text": "Very easy to understand and use. Really handy, particularly when I am using an older keyboard without built-in clipboard access. Thanks so much!!"
-    },
-    {
-      "slug": "clipboard",
-      "name": "Liz W",
-      "score": 5,
-      "text": "Fantastic app, does exactly what I want it to do. Saves all my clips and I can add titles and organize them."
-    },
-    {
-      "slug": "autostart",
-      "name": "Mark Smith",
-      "score": 5,
-      "text": "So far, so good! Great app, just what I was looking for!"
-    },
-    {
-      "slug": "clipboard",
-      "name": "Roche Lopez",
-      "score": 5,
-      "text": "Yes, I like this app. Very useful, easy and convenient to use ♥️"
-    }
-  ]
+  "note": "홈/앱상세에 노출할 5★ Google Play 리뷰(손수 큐레이션, 너무 짧은 리뷰 배제). 후보는 `node scripts/fetch_reviews.js` → scripts/_reviews_pool.json. byApp[slug] 를 고치면 해당 앱 상세 + 홈 후기 섹션이 바뀝니다(홈은 앱별로 섞어 최대 6개).",
+  "byApp": {
+    "clipboard": [
+      {
+        "name": "Fabio Rodriguez",
+        "score": 5,
+        "text": "I reported my frustration about not being able to import a backup from my previous clipboard manager, and the developer promptly updated the app to add that feature. Developers who listen to and act on user feedback deserve high praise."
+      },
+      {
+        "name": "Will Burr",
+        "score": 5,
+        "text": "After the developer's reply, I appreciate their willingness to work my suggestion into the app. 5 stars! Also, I found the clip icon, which copies clips with one touch."
+      },
+      {
+        "name": "Joseph Younger",
+        "score": 5,
+        "text": "Very easy to understand and use. Really handy, particularly when I am using an older keyboard (one without built-in clipboard access). Thanks so much!!"
+      },
+      {
+        "name": "Liz W",
+        "score": 5,
+        "text": "Fantastic app, does exactly what I want it to do. Saves all my clips and I can add titles and organize them."
+      },
+      {
+        "name": "Jontay",
+        "score": 5,
+        "text": "Absolutely perfect. A bit pricey, but a one-time purchase for an app that covers practically every base of what I'm looking for is a price I'm willing to pay."
+      }
+    ],
+    "autostart": [
+      {
+        "name": "James Franke",
+        "score": 5,
+        "text": "All I wanted was my app to open on startup. I tried other apps that were recommended, too complicated, and they didn't work. AutoStart+ was easy and it worked the first time."
+      },
+      {
+        "name": "Joseph Younger",
+        "score": 5,
+        "text": "Super simple to setup and use. Couldn't be easier. Very nicely done as there is no excessive overhead."
+      }
+    ]
+  }
 }

@@ -65,11 +65,27 @@ try {
 const langCountOf = (slug) => (APP_LANGS[slug] && APP_LANGS[slug].count) || 0;
 
 // 사용자 후기 (reviews.json — 손수 큐레이션한 5★ Google Play 리뷰). 없으면 섹션 생략.
-let REVIEWS = [];
+let REVIEWS_BY_APP = {};
 try {
-  REVIEWS = (require('./reviews.json').items) || [];
+  REVIEWS_BY_APP = require('./reviews.json').byApp || {};
 } catch {
   console.warn('(경고) scripts/reviews.json 없음 — 후기 섹션 생략.');
+}
+const reviewsFor = (slug) => (REVIEWS_BY_APP[slug] || []).map((r) => ({ ...r, slug }));
+const HAS_REVIEWS = Object.values(REVIEWS_BY_APP).some((a) => a && a.length);
+// 홈 후기: 앱별로 번갈아 뽑되 같은 리뷰어는 한 번만, 최대 6개
+function featuredReviews() {
+  const lists = APPS.map((app) => reviewsFor(app.slug)).filter((l) => l.length);
+  const out = [];
+  const seen = new Set();
+  for (let i = 0; out.length < 6 && lists.some((l) => l[i]); i++) {
+    for (const l of lists) {
+      const r = l[i];
+      if (!r || seen.has(r.name) || out.length >= 6) continue;
+      seen.add(r.name); out.push(r);
+    }
+  }
+  return out;
 }
 
 // 앱들이 통틀어 지원하는 언어 수(합집합) → "50+" (10 단위로 내림). 지표 스트립용.
@@ -184,7 +200,7 @@ function header(code, kind, slug, ui) {
       <nav class="nav" id="nav">
         <a href="${pathFor(code, 'home')}#about">${escText(ui['nav.about'])}</a>
         <a href="${pathFor(code, 'home')}#services">${escText(ui['nav.services'])}</a>
-        <a href="${pathFor(code, 'home')}#apps">${escText(ui['nav.apps'])}</a>${REVIEWS.length ? `
+        <a href="${pathFor(code, 'home')}#apps">${escText(ui['nav.apps'])}</a>${HAS_REVIEWS ? `
         <a href="${pathFor(code, 'home')}#reviews">${escText(ui['nav.reviews'])}</a>` : ''}
       </nav>
       <div class="nav-right">
@@ -224,21 +240,25 @@ ${items.map((it) => `        <li class="hstat"><span class="hstat-num">${escText
       </ul>`;
 }
 
-// 사용자 후기 섹션 (홈) — reviews.json 이 있을 때만 렌더
-function reviewsSection(code, ui) {
-  if (!REVIEWS.length) return '';
+// 후기 카드 1장 (showApp: 어느 앱 리뷰인지 표기 — 홈처럼 여러 앱이 섞일 때 true)
+function reviewCard(r, code, showApp) {
   const d = L[code];
-  const cards = REVIEWS.map((r) => {
-    const appName = (d.apps[r.slug] && d.apps[r.slug].name) || r.slug;
-    const stars = '★'.repeat(Math.max(1, Math.min(5, r.score || 5)));
-    return `        <figure class="review-card">
+  const appName = (d.apps[r.slug] && d.apps[r.slug].name) || r.slug;
+  const stars = '★'.repeat(Math.max(1, Math.min(5, r.score || 5)));
+  const source = showApp ? `${escText(appName)} · Google Play` : 'Google Play';
+  return `        <figure class="review-card">
           <div class="review-stars" aria-label="${r.score || 5} / 5">${stars}</div>
           <blockquote class="review-text">${escText(r.text)}</blockquote>
-          <figcaption class="review-meta"><span class="review-name">${escText(r.name)}</span><span class="review-app">${escText(appName)} · Google Play</span></figcaption>
+          <figcaption class="review-meta"><span class="review-name">${escText(r.name)}</span><span class="review-app">${source}</span></figcaption>
         </figure>`;
-  }).join('\n');
+}
+
+// 후기 섹션 (홈=여러 앱 섞음 / 상세=해당 앱만). 목록이 비면 렌더 안 함.
+function reviewsSection(code, ui, list, { alt = true, showApp = true } = {}) {
+  if (!list.length) return '';
+  const cards = list.map((r) => reviewCard(r, code, showApp)).join('\n');
   return `
-  <section class="section section-alt" id="reviews">
+  <section class="section${alt ? ' section-alt' : ''}" id="reviews">
     <div class="container">
       <p class="section-label">REVIEWS</p>
       <h2 class="section-title">${escText(ui['reviews.title'])}</h2>
@@ -371,7 +391,7 @@ ${cards}
       </div>
     </div>
   </section>
-${reviewsSection(code, ui)}
+${reviewsSection(code, ui, featuredReviews(), { alt: true, showApp: true })}
 ${footer(code, ui)}
 
   <div class="lightbox" id="lightbox" aria-hidden="true">
@@ -524,6 +544,16 @@ ${faqHtml}
       </div>
     </div>
   </section>
+${reviewsFor(app.slug).length ? `
+  <section class="detail-section" id="reviews">
+    <div class="container">
+      <h2 class="detail-title">${escText(ui['reviews.title'])}</h2>
+      <p class="section-lead" style="margin-bottom:22px">${escText(ui['reviews.lead'])}</p>
+      <div class="reviews-grid">
+${reviewsFor(app.slug).map((r) => reviewCard(r, code, false)).join('\n')}
+      </div>
+    </div>
+  </section>` : ''}
 
   <div class="detail-cta">
     <a href="${pathFor(code, 'home')}#apps" class="btn btn-primary">${escText(ui['otherApps'])}</a>
