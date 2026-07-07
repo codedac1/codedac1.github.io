@@ -15,7 +15,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac1.github.io';
-const V = '26'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
+const V = '27'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
 const LASTMOD = new Date().toISOString().slice(0, 10);
 
 // 언어 정의 (표시 순서 = 스위처 순서). code=폴더/파일, hreflang=검색엔진용
@@ -216,7 +216,10 @@ function header(code, kind, slug, ui) {
 function footer(code, ui) {
   return `  <footer class="site-footer">
     <div class="container footer-inner">
-      <span class="logo small">Code<span>DAC</span></span>
+      <div class="footer-brand">
+        <span class="logo small">Code<span>DAC</span></span>
+        <span class="footer-based">${escText(ui['footer.based'])}</span>
+      </div>
       <div class="footer-right">
         <a class="footer-email" href="mailto:codedac1@gmail.com">codedac1@gmail.com</a>
         <a class="footer-email" href="${pathFor(code, 'privacy')}">${escText(ui['footer.privacy'])}</a>

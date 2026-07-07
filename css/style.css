@@ -322,7 +322,9 @@ img { max-width: 100%; }
 
 /* ===== 푸터 ===== */
 .site-footer { border-top: 1px solid var(--line); padding: 34px 0; background: var(--bg-alt); }
-.footer-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+.footer-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px 24px; }
+.footer-brand { display: flex; flex-direction: column; gap: 3px; }
+.footer-based { color: var(--muted); font-size: 13px; }
 .footer-right { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
 .footer-email { color: var(--brand); font-weight: 700; font-size: 14px; transition: color .2s; }
 .footer-email:hover { color: var(--brand-dark); }
