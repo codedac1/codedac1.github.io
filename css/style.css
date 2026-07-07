@@ -165,6 +165,20 @@ img { max-width: 100%; }
 .hero-sub { color: var(--muted); margin: 22px auto 36px; font-size: 18px; max-width: 620px; }
 .hero-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
 
+/* 히어로 지표 스트립 (Play Store 데이터) */
+.hero-stats {
+  list-style: none; margin: 52px 0 0; padding: 0;
+  display: flex; justify-content: center; flex-wrap: wrap;
+  gap: 18px clamp(24px, 5vw, 56px);
+}
+.hstat { display: flex; flex-direction: column; align-items: center; gap: 4px; position: relative; padding: 0 6px; }
+.hstat + .hstat::before {
+  content: ''; position: absolute; left: calc(clamp(24px, 5vw, 56px) / -2); top: 50%;
+  transform: translateY(-50%); width: 1px; height: 34px; background: var(--line);
+}
+.hstat-num { font-size: clamp(28px, 4.4vw, 38px); font-weight: 900; color: var(--brand); letter-spacing: -.02em; line-height: 1; }
+.hstat-label { font-size: 12.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+
 /* ===== 섹션 공통 ===== */
 .section { padding: 96px 0; }
 .section-alt { background: var(--bg-alt); }
@@ -246,11 +260,14 @@ img { max-width: 100%; }
   box-shadow: 0 6px 16px rgba(20, 30, 60, .16);
 }
 .app-meta h3 { font-size: 19px; }
+.app-meta-row { display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 5px; }
 .app-tag {
-  display: inline-block; margin-top: 5px;
+  display: inline-block;
   background: var(--accent-tint); color: var(--link-teal-h);
   font-size: 12px; font-weight: 700; padding: 3px 11px; border-radius: 999px;
 }
+.app-rating { display: inline-flex; align-items: center; gap: 3px; font-size: 12.5px; font-weight: 800; color: var(--ink); }
+.app-rating .star { color: #f2a900; font-size: 13px; line-height: 1; }
 .app-desc { color: var(--muted); font-size: 14.5px; flex: 1; }
 
 /* 스크린샷 썸네일 */

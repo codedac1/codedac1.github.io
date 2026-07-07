@@ -15,7 +15,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac1.github.io';
-const V = '21'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
+const V = '22'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
 const LASTMOD = new Date().toISOString().slice(0, 10);
 
 // 언어 정의 (표시 순서 = 스위처 순서). code=폴더/파일, hreflang=검색엔진용
@@ -43,6 +43,22 @@ const schemaCat = (slug) => APP_SCHEMA_CAT[slug] || 'UtilitiesApplication';
 
 // --- 데이터 로드 ---
 const APPS = require('./apps_base.json');
+
+// Google Play 지표 (fetch_store_stats.js 산출물). 없으면 지표/평점 렌더를 생략한다.
+let STATS = { aggregate: {}, apps: {} };
+try {
+  STATS = require('./store_stats.json');
+} catch {
+  console.warn('(경고) scripts/store_stats.json 없음 — 지표·평점 배지 생략. `npm run fetch-stats` 로 생성하세요.');
+}
+// 누적 다운로드 표기 (최소 설치수 합계를 1,000 단위로 내림 → "12,000+")
+const DL_TOTAL = STATS.aggregate && STATS.aggregate.totalMinInstalls || 0;
+const DL_DISPLAY = DL_TOTAL >= 1000 ? (Math.floor(DL_TOTAL / 1000) * 1000).toLocaleString('en-US') + '+' : (DL_TOTAL ? DL_TOTAL + '+' : null);
+// 앱별 평점 표기 ("3.9") — 평점이 있는 앱만
+const ratingOf = (slug) => {
+  const s = STATS.apps && STATS.apps[slug];
+  return (s && s.score != null && s.ratings > 0) ? s.score.toFixed(1) : null;
+};
 const L = {};
 for (const lang of LANGS) {
   const p = path.join(ROOT, 'i18n', `${lang.code}.json`);
@@ -178,6 +194,24 @@ function footer(code, ui) {
 
 const TECH = ['Android', 'Java', 'Gradle', '.NET / C#', 'WPF', 'Google Play Services', 'JavaScript', 'Git · GitHub'];
 
+// 히어로 지표 스트립 (출시 앱 수 · 누적 다운로드 · 지원 언어 수)
+function statStrip(ui) {
+  const items = [
+    { num: String(APPS.length), label: ui['stats.apps'] },
+    DL_DISPLAY ? { num: DL_DISPLAY, label: ui['stats.downloads'] } : null,
+    { num: String(ACTIVE.length), label: ui['stats.languages'] },
+  ].filter(Boolean);
+  return `      <ul class="hero-stats">
+${items.map((it) => `        <li class="hstat"><span class="hstat-num">${escText(it.num)}</span><span class="hstat-label">${escText(it.label)}</span></li>`).join('\n')}
+      </ul>`;
+}
+
+// 앱 카드 평점 배지 ("★ 3.9") — 평점이 있는 앱만
+function ratingBadge(slug) {
+  const r = ratingOf(slug);
+  return r ? `<span class="app-rating" aria-label="${r} / 5"><span class="star">★</span>${r}</span>` : '';
+}
+
 // ---------- 홈 페이지 ----------
 function buildHome(lang) {
   const code = lang.code;
@@ -198,7 +232,7 @@ ${Array.from({ length: app.shots }, (_, i) =>
     return `        <article class="app-card">
           <div class="app-head">
             <img class="app-icon" src="/images/icons/${app.slug}.png?v=${V}" alt="${escAttr(a.name)} icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h3><a href="${pathFor(code, 'detail', app.slug)}">${escText(a.name)}</a></h3><span class="app-tag">${escText(a.tag)}</span></div>
+            <div class="app-meta"><h3><a href="${pathFor(code, 'detail', app.slug)}">${escText(a.name)}</a></h3><span class="app-meta-row"><span class="app-tag">${escText(a.tag)}</span>${ratingBadge(app.slug)}</span></div>
           </div>
           <p class="app-desc">${escText(a.desc)}</p>${shotsHtml}
           <div class="app-links"><a class="app-more" href="${pathFor(code, 'detail', app.slug)}">${escText(ui['card.detail'])}</a>${store}</div>
@@ -236,6 +270,7 @@ ${header(code, 'home', undefined, ui)}
         <a href="#apps" class="btn btn-primary">${escText(ui['hero.cta1'])}</a>
         <a href="mailto:codedac1@gmail.com" class="btn btn-ghost">${escText(ui['hero.cta2'])}</a>
       </div>
+${statStrip(ui)}
     </div>
   </section>
 

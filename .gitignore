@@ -12,3 +12,6 @@ Thumbs.db
 
 # 스크립트 임시 산출물(미리보기 등)
 scripts/_*
+
+# npm (지표 수집용 devDependency — 배포물엔 불필요)
+node_modules/
