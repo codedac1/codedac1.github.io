@@ -18,6 +18,9 @@ const BASE = 'https://codedac.com';
 const V = '29'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
 const LASTMOD = new Date().toISOString().slice(0, 10);
 
+// GA4 측정 ID. 빈 문자열로 두면 모든 페이지에서 분석 스크립트가 빠진다.
+const GA_ID = 'G-RVR49V8M2Z';
+
 // 언어 정의 (표시 순서 = 스위처 순서). code=폴더/파일, hreflang=검색엔진용
 const LANGS = [
   { code: 'ko', hreflang: 'ko', htmlLang: 'ko', native: '한국어' },
@@ -174,9 +177,21 @@ function autoLangRedirect(code, kind, slug) {
   <script>(function(){try{var s=localStorage.getItem('lang'),sup=${supObj},p;if(s){p=s;}else{p='en';var ls=navigator.languages||[navigator.language||'en'];for(var i=0;i<ls.length;i++){var b=String(ls[i]).toLowerCase().split('-')[0];if(b==='ko'){p='ko';break;}if(sup[b]){p=b;break;}}}if(p!=='ko')location.replace('/'+p+'/'+${JSON.stringify(rest)});}catch(e){}})();</script>`;
 }
 
+// Google Analytics 4 + Consent Mode v2.
+// 동의 배너 없이 운영하므로 모든 저장소 권한을 'denied'로 기본 선언한다.
+// 이 상태에서 gtag는 쿠키를 쓰지 않고 개인 식별자 없는 익명 집계 신호만 보낸다(cookieless ping).
+// gtag('consent','default')는 반드시 gtag.js 로더보다 먼저 실행되어야 한다.
+// autoLangRedirect() 뒤에 두어, 리디렉션되는 루트 페이지에서 중복 조회가 잡히지 않게 한다.
+function gaSnippet() {
+  if (!GA_ID) return '';
+  return `
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted'});gtag('js',new Date());gtag('config',${JSON.stringify(GA_ID)});</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GA_ID)}"></script>`;
+}
+
 function headCommon(lang, { title, desc, canonical, ogImage, kind, slug, keywords, langSet }) {
   return `  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />${autoLangRedirect(lang.code, kind, slug)}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />${autoLangRedirect(lang.code, kind, slug)}${gaSnippet()}
   <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
   <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
   <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
