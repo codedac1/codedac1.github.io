@@ -15,7 +15,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
-const V = '29'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
+const V = '30'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
 const LASTMOD = new Date().toISOString().slice(0, 10);
 
 // GA4 측정 ID. 빈 문자열로 두면 모든 페이지에서 분석 스크립트가 빠진다.
@@ -282,7 +282,6 @@ function footer(code, ui) {
   </footer>`;
 }
 
-const TECH = ['Android', 'Java', 'Gradle', '.NET / C#', 'WPF', 'Google Play Services', 'JavaScript', 'Git · GitHub'];
 
 // 히어로 지표 스트립 (출시 앱 수 · 누적 다운로드 · 지원 언어 수)
 function statStrip(ui) {
@@ -426,10 +425,6 @@ ${statStrip(ui)}
         <div class="card"><div class="card-icon">🌐</div><h3>${escText(ui['services.s2.t'])}</h3><p>${escText(ui['services.s2.d'])}</p></div>
         <div class="card"><div class="card-icon">🧭</div><h3>${escText(ui['services.s3.t'])}</h3><p>${escText(ui['services.s3.d'])}</p></div>
         <div class="card"><div class="card-icon">🛠️</div><h3>${escText(ui['services.s4.t'])}</h3><p>${escText(ui['services.s4.d'])}</p></div>
-      </div>
-      <div class="tech-stack">
-        <p class="tech-label">${escText(ui['services.tech'])}</p>
-        <ul class="tech-badges">${TECH.map((t) => `<li>${escText(t)}</li>`).join('')}</ul>
       </div>
       <div class="services-cta">
         <a href="mailto:codedac1@gmail.com?subject=%5BCodeDAC%5D%20Project%20inquiry" class="btn btn-primary">${escText(ui['services.cta'])}</a>

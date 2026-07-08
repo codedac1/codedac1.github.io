@@ -113,10 +113,10 @@
 // ===== 스크롤 리빌 애니메이션 (콘텐츠 변경 없이 진행 강화) =====
 (function () {
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  // 리빌 대상: 섹션 헤더 문구·카드·앱 카드·상세 섹션·기술 스택
+  // 리빌 대상: 섹션 헤더 문구·카드·앱 카드·상세 섹션
   const targets = document.querySelectorAll(
     '.section-label, .section-title, .section-lead, .name-meaning, .card, .app-card, ' +
-    '.tech-stack, .services-cta, .detail-section, .app-hero-inner, .faq-item'
+    '.services-cta, .detail-section, .app-hero-inner, .faq-item'
   );
   if (!targets.length) return;
   if (reduce || !('IntersectionObserver' in window)) {
