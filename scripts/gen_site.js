@@ -177,15 +177,35 @@ function autoLangRedirect(code, kind, slug) {
   <script>(function(){try{var s=localStorage.getItem('lang'),sup=${supObj},p;if(s){p=s;}else{p='en';var ls=navigator.languages||[navigator.language||'en'];for(var i=0;i<ls.length;i++){var b=String(ls[i]).toLowerCase().split('-')[0];if(b==='ko'){p='ko';break;}if(sup[b]){p=b;break;}}}if(p!=='ko')location.replace('/'+p+'/'+${JSON.stringify(rest)});}catch(e){}})();</script>`;
 }
 
+// GDPR/UK GDPR/nFADP 적용 지역. 이 지역에서만 분석 쿠키를 기본 거부한다.
+// EU 27개국 + EEA(IS·LI·NO) + 영국(GB) + 스위스(CH).
+const CONSENT_DENY_REGIONS = [
+  'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE',
+  'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE',
+  'IS', 'LI', 'NO', 'GB', 'CH',
+];
+
 // Google Analytics 4 + Consent Mode v2.
-// 동의 배너 없이 운영하므로 모든 저장소 권한을 'denied'로 기본 선언한다.
-// 이 상태에서 gtag는 쿠키를 쓰지 않고 개인 식별자 없는 익명 집계 신호만 보낸다(cookieless ping).
+//
+// 동의 배너 없이 운영하므로 gtag('consent','default')로만 권한을 선언한다.
+//  - CONSENT_DENY_REGIONS: analytics_storage 거부 → 쿠키 없는 익명 핑만 전송.
+//  - 그 외 지역: analytics_storage 허용 → 정상적인 사용자·세션 집계.
+// region이 붙은 선언이 더 구체적이므로 전역 선언보다 우선한다(둘 다 'default').
+//
+// 광고 신호(ad_*)는 웹사이트에 광고가 없으므로 전 지역에서 거부한다.
+//
+// 주의: 전 지역을 denied로 두면 GA4는 쿠키리스 핑을 '행동 모델링' 재료로만 쓰는데,
+// 모델링은 analytics_storage='granted' 사용자가 하루 1,000명 이상이어야 학습된다.
+// 따라서 전역 denied 상태에서는 보고서가 영구히 비어 있게 된다.
+//
 // gtag('consent','default')는 반드시 gtag.js 로더보다 먼저 실행되어야 한다.
 // autoLangRedirect() 뒤에 두어, 리디렉션되는 루트 페이지에서 중복 조회가 잡히지 않게 한다.
 function gaSnippet() {
   if (!GA_ID) return '';
+  const denied = "ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'";
+  const regions = JSON.stringify(CONSENT_DENY_REGIONS).replace(/"/g, "'");
   return `
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted'});gtag('js',new Date());gtag('config',${JSON.stringify(GA_ID)});</script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{${denied},analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:${regions}});gtag('consent','default',{${denied},analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',${JSON.stringify(GA_ID)});</script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GA_ID)}"></script>`;
 }
 
