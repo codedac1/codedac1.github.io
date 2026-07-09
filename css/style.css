@@ -345,7 +345,8 @@ img { max-width: 100%; }
 }
 .app-hero-text { flex: 1; min-width: 260px; }
 .app-hero-text h1 { font-size: clamp(26px, 4.4vw, 40px); font-weight: 900; letter-spacing: -.03em; margin-bottom: 12px; }
-.app-tagline { color: var(--body); font-size: 18px; margin-top: 12px; max-width: 640px; }
+/* h2 지만 제목처럼 보이지 않아야 한다. 브라우저 기본 굵기와 h1,h2 의 자간을 되돌린다. */
+.app-tagline { color: var(--body); font-size: 18px; font-weight: 400; letter-spacing: normal; margin-top: 12px; max-width: 640px; }
 .app-hero-actions { margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap; }
 .app-platform-note { color: var(--muted); font-size: 14px; margin-top: 14px; }
 

@@ -17,7 +17,7 @@ const crypto = require('crypto');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
-const V = '32'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
+const V = '33'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -314,7 +314,7 @@ function gaSnippet() {
   <script async src="https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GA_ID)}"></script>`;
 }
 
-function headCommon(lang, { title, desc, canonical, ogImage, kind, slug, keywords, langSet }) {
+function headCommon(lang, { title, desc, canonical, ogImage, kind, slug, langSet }) {
   return `  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />${storedLangRedirect(lang.code, kind, slug)}${gaSnippet()}
   <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
@@ -322,7 +322,6 @@ function headCommon(lang, { title, desc, canonical, ogImage, kind, slug, keyword
   <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
   <title>${escText(title)}</title>
   <meta name="description" content="${escAttr(desc)}" />
-  <meta name="keywords" content="${escAttr(keywords)}" />
   <meta name="author" content="CodeDAC" />
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#2F3B59" />
@@ -478,12 +477,11 @@ ${Array.from({ length: cardShots }, (_, i) =>
     contactPoint: { '@type': 'ContactPoint', email: 'codedac1@gmail.com', contactType: 'customer support' },
   };
 
-  const keywords = `CodeDAC, 코드댁, ${APPS.map((a) => a.name).join(', ')}`;
 
   return `<!DOCTYPE html>
 <html lang="${lang.htmlLang}"${lang.dir ? ` dir="${lang.dir}"` : ''}>
 <head>
-${headCommon(lang, { title: ui['meta.title'], desc: String(ui['meta.desc']).replace(/<[^>]+>/g, ''), canonical, ogImage: `${BASE}/images/og-image.png`, kind: 'home', keywords })}
+${headCommon(lang, { title: ui['meta.title'], desc: String(ui['meta.desc']).replace(/<[^>]+>/g, ''), canonical, ogImage: `${BASE}/images/og-image.png`, kind: 'home' })}
   <script type="application/ld+json">
 ${JSON.stringify(orgLd, null, 2)}
   </script>
@@ -647,12 +645,11 @@ ${Array.from({ length: app.shots }, (_, i) =>
 
   const title = `${a.name} — ${a.tag} | CodeDAC`;
   const metaDesc = `${a.tagline} — CodeDAC ${a.name}.`;
-  const keywords = `${a.name}, ${a.tag}, CodeDAC, 코드댁`;
 
   return `<!DOCTYPE html>
 <html lang="${lang.htmlLang}"${lang.dir ? ` dir="${lang.dir}"` : ''}>
 <head>
-${headCommon(lang, { title, desc: metaDesc, canonical, ogImage: shotAbs[0] || iconAbs, kind: 'detail', slug: app.slug, keywords })}
+${headCommon(lang, { title, desc: metaDesc, canonical, ogImage: shotAbs[0] || iconAbs, kind: 'detail', slug: app.slug })}
   <script type="application/ld+json">
 ${JSON.stringify(ldApp, null, 2)}
   </script>
@@ -682,7 +679,9 @@ ${header(code, 'detail', app.slug, ui)}
       <div class="app-hero-text">
         <span class="app-meta-row"><span class="app-tag">${escText(a.tag)}</span>${langBadge(app.slug, ui)}</span>
         <h1>${bdiName(a.name)}</h1>
-        <p class="app-tagline">${escText(a.tagline)}</p>
+        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+        <h2 class="app-tagline">${escText(a.tagline)}</h2>
         <div class="app-hero-actions">
           ${heroAction}
           <a href="mailto:codedac1@gmail.com" class="btn btn-ghost">${escText(ui['contact'])}</a>
@@ -747,7 +746,7 @@ function buildPrivacy(lang) {
   return `<!DOCTYPE html>
 <html lang="${lang.htmlLang}"${lang.dir ? ` dir="${lang.dir}"` : ''}>
 <head>
-${headCommon(lang, { title: pv.metaTitle, desc: pv.metaDesc, canonical, ogImage: `${BASE}/images/og-image.png`, kind: 'privacy', keywords: `CodeDAC, ${pv.title}`, langSet: PRIV_ACTIVE })}
+${headCommon(lang, { title: pv.metaTitle, desc: pv.metaDesc, canonical, ogImage: `${BASE}/images/og-image.png`, kind: 'privacy', langSet: PRIV_ACTIVE })}
 </head>
 <body>
 ${header(code, 'privacy', undefined, ui)}
