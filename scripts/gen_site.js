@@ -187,6 +187,9 @@ const FAVICON = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
 
 // 자동 언어 감지 리다이렉트 (ko=루트 페이지에만 삽입).
 // - 이전에 사용자가 고른 언어(localStorage.lang)가 있으면 그것을 우선 존중.
+//   단 저장값은 반드시 현재 지원 목록과 대조한다. 언어를 빼거나 코드를 바꾸면
+//   그 언어를 골라둔 사용자의 저장값이 없는 경로를 가리키게 되는데, 검증 없이
+//   그대로 이동하면 매 방문마다 404 로 보내진다. 대조에 실패하면 브라우저 언어로 넘어간다.
 // - 없으면 브라우저 언어를 보고 지원 언어로 이동. 한국어면 루트 유지.
 // - 어디에도 매칭되지 않으면 기본값 영어(/en/)로 이동.
 // rest: 목적지 언어에서의 동일 페이지 경로 접미사(home='' · privacy='privacy.html' · detail='apps/<slug>.html')
@@ -198,8 +201,9 @@ function autoLangRedirect(code, kind, slug) {
   const map = Object.fromEntries(codes.map((c) => [c, c]));
   for (const [from, to] of Object.entries(LANG_ALIAS)) if (codes.includes(to)) map[from] = to;
   const supObj = JSON.stringify(map);
+  // g(): 지원 목록 조회. typeof 검사로 'constructor' 같은 프로토타입 키가 걸리지 않게 한다.
   return `
-  <script>(function(){try{var s=localStorage.getItem('lang'),sup=${supObj},p;if(s){p=s;}else{p='en';var ls=navigator.languages||[navigator.language||'en'];for(var i=0;i<ls.length;i++){var b=String(ls[i]).toLowerCase().split('-')[0];if(b==='ko'){p='ko';break;}if(sup[b]){p=sup[b];break;}}}if(p!=='ko')location.replace('/'+p+'/'+${JSON.stringify(rest)});}catch(e){}})();</script>`;
+  <script>(function(){try{var s=localStorage.getItem('lang'),sup=${supObj},p,g=function(k){return typeof sup[k]==='string'?sup[k]:0;};if(s==='ko'){p='ko';}else if(g(s)){p=g(s);}else{p='en';var ls=navigator.languages||[navigator.language||'en'];for(var i=0;i<ls.length;i++){var b=String(ls[i]).toLowerCase().split('-')[0];if(b==='ko'){p='ko';break;}var t=g(b);if(t){p=t;break;}}}if(p!=='ko')location.replace('/'+p+'/'+${JSON.stringify(rest)});}catch(e){}})();</script>`;
 }
 
 // GDPR/UK GDPR/nFADP 적용 지역. 이 지역에서만 분석 쿠키를 기본 거부한다.
