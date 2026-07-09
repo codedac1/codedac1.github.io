@@ -2,10 +2,11 @@
 //  CodeDAC 다국어 사이트 생성기 (single source of truth)
 //  - 데이터: scripts/apps_base.json (앱 기본정보) + i18n/<code>.json (언어별 문구)
 //  - 출력:
-//      /                         홈 (ko, 루트)
-//      /apps/<slug>.html         앱 상세 (ko)
-//      /<code>/                  홈 (ko 외 나머지 언어. LANGS 참고)
+//      /                         홈 (en = ROOT_LANG, 루트)
+//      /apps/<slug>.html         앱 상세 (en)
+//      /<code>/                  홈 (en 외 나머지 언어. LANGS 참고)
 //      /<code>/apps/<slug>.html  앱 상세
+//      /en/…                     루트로 보내는 리다이렉트 껍데기 (예전 영어 URL)
 //      sitemap.xml               (hreflang 대체 링크 포함)
 //  - 모든 페이지에 hreflang 대체 링크가 들어가 시장별 SEO를 지원한다.
 //  사용: node scripts/gen_site.js
@@ -46,7 +47,16 @@ const LANGS = [
   { code: 'fil', hreflang: 'tl', htmlLang: 'fil', native: 'Filipino' },
   { code: 'ar', hreflang: 'ar', htmlLang: 'ar', dir: 'rtl', native: 'العربية' },
 ];
+// 루트(/)에 놓이는 언어. 나머지는 /<code>/ 아래로 간다.
+// 국제 사이트의 x-default 는 루트여야 자연스러우므로 ROOT_LANG 과 XDEFAULT 는 같은 값을 쓴다.
+const ROOT_LANG = 'en';
 const XDEFAULT = 'en';
+
+// 루트로 승격되기 전에 이 언어가 살던 폴더. 예전 URL(/en/…)이 이미 색인돼 있으므로
+// 삭제하지 않고 0초 meta refresh 리다이렉트 껍데기를 남겨 신호를 루트로 넘긴다.
+// GitHub Pages 는 정적 호스팅이라 301 을 낼 수 없고, 구글은 서버 리다이렉트가
+// 불가능할 때 즉시 meta refresh 를 영구 리다이렉트로 해석한다.
+const LEGACY_ROOT_DIR = 'en';
 
 // 브라우저가 보내는 기본 언어 코드 → 사이트 폴더 코드.
 // 안드로이드/iOS는 필리핀어를 'tl-PH'로도 'fil-PH'로도 보고한다.
@@ -140,7 +150,7 @@ const bdiName = (s) => `<bdi>${escText(s)}</bdi>`;
 
 // 내부 링크(루트 절대경로) — 사용자 사이트(codedac1.github.io)라 / 로 시작 가능
 function pathFor(code, kind, slug) {
-  const dir = code === 'ko' ? '/' : `/${code}/`;
+  const dir = code === ROOT_LANG ? '/' : `/${code}/`;
   if (kind === 'home') return dir;
   if (kind === 'privacy') return `${dir}privacy.html`;
   return `${dir}apps/${slug}.html`;
@@ -151,7 +161,7 @@ function urlFor(code, kind, slug) {
 }
 // 출력 파일 경로
 function fileFor(code, kind, slug) {
-  const dir = code === 'ko' ? '' : `${code}/`;
+  const dir = code === ROOT_LANG ? '' : `${code}/`;
   if (kind === 'home') return `${dir}index.html`;
   if (kind === 'privacy') return `${dir}privacy.html`;
   return `${dir}apps/${slug}.html`;
@@ -187,16 +197,16 @@ ${items}
 
 const FAVICON = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='22' width='100' height='100' fill='%232F3B59'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E`;
 
-// 저장된 언어 선택에 따른 리다이렉트 (ko=루트 페이지에만 삽입).
+// 저장된 언어 선택에 따른 리다이렉트 (루트 페이지에만 삽입).
 //
 // 브라우저 언어만 보고 첫 방문자를 옮기지 않는다. 구글은 추정 언어에 기반한 자동
-// 리다이렉트를 피하라고 권고하는데, Googlebot 은 JS 를 실행하고 렌더링 환경의 언어가
-// 영어라서, 그렇게 하면 루트의 한국어 본문이 크롤러에게 한 번도 보이지 않는다.
+// 리다이렉트를 피하라고 권고하는데, Googlebot 은 JS 를 실행하므로 그렇게 하면
+// 루트의 본문이 크롤러에게 한 번도 보이지 않을 수 있다.
 // 대신 처음 온 방문자에게는 배너로 다른 언어를 제안한다(langBanner, js/site.js).
 //
 // 여기서 옮기는 대상은 '이전에 스스로 언어를 고른' 방문자뿐이다. 이 규칙은 사람과
 // 크롤러에 똑같이 적용된다 — User-Agent 를 보지 않으므로 클로킹이 아니다.
-// 크롤러는 localStorage 가 늘 비어 있어 자연히 한국어 본문을 받는다.
+// 크롤러는 localStorage 가 늘 비어 있어 자연히 루트 언어의 본문을 받는다.
 //
 // 저장값은 반드시 지원 목록과 대조한다. 언어를 빼거나 코드를 바꾸면 그 언어를
 // 골라둔 사용자의 저장값이 없는 경로를 가리키게 되고, 그대로 이동하면 매 방문마다
@@ -204,9 +214,9 @@ const FAVICON = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
 //
 // rest: 목적지 언어에서의 동일 페이지 경로 접미사(home='' · privacy='privacy.html' · detail='apps/<slug>.html')
 function storedLangRedirect(code, kind, slug) {
-  if (code !== 'ko') return '';
+  if (code !== ROOT_LANG) return '';
   const rest = kind === 'home' ? '' : kind === 'privacy' ? 'privacy.html' : `apps/${slug}.html`;
-  const codes = ACTIVE.filter((l) => l.code !== 'ko').map((l) => l.code);
+  const codes = ACTIVE.filter((l) => l.code !== ROOT_LANG).map((l) => l.code);
   const map = Object.fromEntries(codes.map((c) => [c, c]));
   for (const [from, to] of Object.entries(LANG_ALIAS)) if (codes.includes(to)) map[from] = to;
   const supObj = JSON.stringify(map);
@@ -719,6 +729,32 @@ ${bannerData(code, 'privacy', null, PRIV_ACTIVE)}  <script src="/js/site.js?v=${
 `;
 }
 
+// 예전 영어 URL(/en/…) → 루트로 보내는 리다이렉트 껍데기.
+// 즉시(0초) meta refresh 는 구글이 영구 리다이렉트로 해석하고, canonical 이 색인을
+// 루트로 모은다. hreflang 은 넣지 않는다 — 이 문서는 언어 버전이 아니라 리다이렉트다.
+// noindex 도 넣지 않는다. 리다이렉트 신호와 충돌해 신호가 루트로 넘어가지 못한다.
+function redirectShell(kind, slug) {
+  // 이동은 같은 오리진 안에서 끝나도록 루트 절대경로로 한다. 절대 URL 을 쓰면
+  // github.io 프리뷰나 로컬에서 열었을 때 운영 도메인으로 튕겨 나간다.
+  // 반면 canonical 은 절대 URL 이어야 한다.
+  const href = pathFor(ROOT_LANG, kind, slug);
+  const canonical = urlFor(ROOT_LANG, kind, slug);
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="0; url=${href}" />
+  <link rel="canonical" href="${canonical}" />
+  <title>CodeDAC</title>
+  <script>location.replace(${JSON.stringify(href)});</script>
+</head>
+<body>
+  <p><a href="${href}">CodeDAC</a></p>
+</body>
+</html>
+`;
+}
+
 // --- 파일 쓰기 헬퍼 ---
 function writeOut(rel, content) {
   const full = path.join(ROOT, rel);
@@ -736,6 +772,14 @@ for (const lang of ACTIVE) {
     pages++;
   }
   if (PRIV[lang.code]) { writeOut(fileFor(lang.code, 'privacy'), buildPrivacy(lang)); pages++; }
+}
+
+// 예전 영어 URL 을 덮어써 리다이렉트 껍데기로 만든다. sitemap 에는 넣지 않는다.
+let shells = 0;
+if (ROOT_LANG === LEGACY_ROOT_DIR) {
+  writeOut(`${LEGACY_ROOT_DIR}/index.html`, redirectShell('home')); shells++;
+  for (const app of APPS) { writeOut(`${LEGACY_ROOT_DIR}/apps/${app.slug}.html`, redirectShell('detail', app.slug)); shells++; }
+  if (PRIV[ROOT_LANG]) { writeOut(`${LEGACY_ROOT_DIR}/privacy.html`, redirectShell('privacy')); shells++; }
 }
 
 // --- sitemap.xml (언어별 대체 링크 포함) ---
@@ -767,5 +811,6 @@ ${urls.join('\n')}
 `;
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemap, 'utf8');
 
-console.log(`생성 완료: ${ACTIVE.length}개 언어, ${pages}개 페이지, sitemap.xml`);
+console.log(`생성 완료: ${ACTIVE.length}개 언어, ${pages}개 페이지, 리다이렉트 껍데기 ${shells}개, sitemap.xml`);
+console.log(`루트(/): ${ROOT_LANG}`);
 console.log(`언어: ${ACTIVE.map((l) => l.code).join(', ')}`);
