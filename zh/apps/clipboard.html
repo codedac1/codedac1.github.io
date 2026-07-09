@@ -51,7 +51,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='22' width='100' height='100' fill='%232F3B59'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="/css/style.css?v=31" />
+  <link rel="stylesheet" href="/css/style.css?v=32" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -164,24 +164,24 @@
       <div class="lang-switch">
         <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false">简体中文 <span class="caret">▾</span></button>
         <div class="lang-menu" id="langMenu" role="menu">
-        <a class="lang-item" href="/apps/clipboard.html" hreflang="ko" lang="ko">한국어</a>
-        <a class="lang-item" href="/en/apps/clipboard.html" hreflang="en" lang="en">English</a>
-        <a class="lang-item" href="/ja/apps/clipboard.html" hreflang="ja" lang="ja">日本語</a>
-        <a class="lang-item" href="/es/apps/clipboard.html" hreflang="es" lang="es">Español</a>
-        <a class="lang-item" href="/pt/apps/clipboard.html" hreflang="pt-BR" lang="pt-BR">Português</a>
-        <a class="lang-item" href="/de/apps/clipboard.html" hreflang="de" lang="de">Deutsch</a>
-        <a class="lang-item" href="/fr/apps/clipboard.html" hreflang="fr" lang="fr">Français</a>
-        <a class="lang-item" href="/id/apps/clipboard.html" hreflang="id" lang="id">Bahasa Indonesia</a>
-        <a class="lang-item" href="/hi/apps/clipboard.html" hreflang="hi" lang="hi">हिन्दी</a>
-        <a class="lang-item" href="/vi/apps/clipboard.html" hreflang="vi" lang="vi">Tiếng Việt</a>
-        <a class="lang-item is-active" href="/zh/apps/clipboard.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-        <a class="lang-item" href="/ru/apps/clipboard.html" hreflang="ru" lang="ru">Русский</a>
-        <a class="lang-item" href="/tr/apps/clipboard.html" hreflang="tr" lang="tr">Türkçe</a>
-        <a class="lang-item" href="/it/apps/clipboard.html" hreflang="it" lang="it">Italiano</a>
-        <a class="lang-item" href="/pl/apps/clipboard.html" hreflang="pl" lang="pl">Polski</a>
-        <a class="lang-item" href="/th/apps/clipboard.html" hreflang="th" lang="th">ไทย</a>
-        <a class="lang-item" href="/fil/apps/clipboard.html" hreflang="tl" lang="fil">Filipino</a>
-        <a class="lang-item" href="/ar/apps/clipboard.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="ko" href="/apps/clipboard.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/en/apps/clipboard.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/apps/clipboard.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/apps/clipboard.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/apps/clipboard.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/apps/clipboard.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item" data-lang="fr" href="/fr/apps/clipboard.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/apps/clipboard.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item" data-lang="hi" href="/hi/apps/clipboard.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/apps/clipboard.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item is-active" data-lang="zh" href="/zh/apps/clipboard.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/apps/clipboard.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/apps/clipboard.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/apps/clipboard.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/apps/clipboard.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/apps/clipboard.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/apps/clipboard.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/apps/clipboard.html" hreflang="ar" lang="ar">العربية</a>
         </div>
       </div>
         <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
@@ -203,7 +203,7 @@
 
   <section class="app-hero-d">
     <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/clipboard.png?v=31" alt="Clipboard+ icon" width="96" height="96" />
+      <img class="app-icon-lg" src="/images/icons/clipboard.png?v=32" alt="Clipboard+ icon" width="96" height="96" />
       <div class="app-hero-text">
         <span class="app-meta-row"><span class="app-tag">剪贴板</span><span class="app-langs" aria-label="51 种语言"><span class="globe" aria-hidden="true">🌐</span>51 种语言</span></span>
         <h1><bdi>Clipboard+</bdi></h1>
@@ -242,11 +242,11 @@
       <h2 class="detail-title">截图</h2>
       <p class="section-lead" style="margin-bottom:22px">点击截图可放大查看。</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/clipboard-1.jpg?v=31" alt="Clipboard+ 截图 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/clipboard-2.jpg?v=31" alt="Clipboard+ 截图 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/clipboard-3.jpg?v=31" alt="Clipboard+ 截图 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/clipboard-4.jpg?v=31" alt="Clipboard+ 截图 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/clipboard-5.jpg?v=31" alt="Clipboard+ 截图 5" loading="lazy" data-idx="4" />
+        <img class="shot" src="/images/shots/clipboard-1.jpg?v=32" alt="Clipboard+ 截图 1" loading="lazy" data-idx="0" />
+        <img class="shot" src="/images/shots/clipboard-2.jpg?v=32" alt="Clipboard+ 截图 2" loading="lazy" data-idx="1" />
+        <img class="shot" src="/images/shots/clipboard-3.jpg?v=32" alt="Clipboard+ 截图 3" loading="lazy" data-idx="2" />
+        <img class="shot" src="/images/shots/clipboard-4.jpg?v=32" alt="Clipboard+ 截图 4" loading="lazy" data-idx="3" />
+        <img class="shot" src="/images/shots/clipboard-5.jpg?v=32" alt="Clipboard+ 截图 5" loading="lazy" data-idx="4" />
       </div>
     </div>
   </section>
@@ -319,6 +319,7 @@
     <img class="lb-img" id="lbImg" alt="" />
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
-  <script src="/js/site.js?v=31"></script>
+  <script>window.__LANG_BANNER={"cur":"zh","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/apps/clipboard.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/en/apps/clipboard.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/clipboard.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/clipboard.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/clipboard.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/clipboard.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/clipboard.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/clipboard.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/clipboard.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/clipboard.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/clipboard.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/clipboard.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/clipboard.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/clipboard.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/clipboard.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/clipboard.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/clipboard.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/clipboard.html","r":"rtl"}}};</script>
+  <script src="/js/site.js?v=32"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
-const V = '31'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
+const V = '32'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
 const LASTMOD = new Date().toISOString().slice(0, 10);
 
 // GA4 측정 ID. 빈 문자열로 두면 모든 페이지에서 분석 스크립트가 빠진다.
@@ -173,7 +173,9 @@ function langSwitcher(curCode, kind, slug) {
   const cur = LANGS.find((l) => l.code === curCode);
   const items = ACTIVE.map((l) => {
     const active = l.code === curCode ? ' is-active' : '';
-    return `        <a class="lang-item${active}" href="${pathFor(l.code, kind, slug)}" hreflang="${l.hreflang}" lang="${l.htmlLang}">${l.native}</a>`;
+    // data-lang 은 폴더 코드. hreflang 에서 코드를 되짚으면 안 된다 —
+    // 필리핀어의 hreflang 은 'tl' 이고 zh 는 'zh-Hans' 라, 폴더명과 어긋난다.
+    return `        <a class="lang-item${active}" data-lang="${l.code}" href="${pathFor(l.code, kind, slug)}" hreflang="${l.hreflang}" lang="${l.htmlLang}">${l.native}</a>`;
   }).join('\n');
   return `<div class="lang-switch">
         <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false">${cur.native} <span class="caret">▾</span></button>
@@ -185,25 +187,52 @@ ${items}
 
 const FAVICON = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='22' width='100' height='100' fill='%232F3B59'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E`;
 
-// 자동 언어 감지 리다이렉트 (ko=루트 페이지에만 삽입).
-// - 이전에 사용자가 고른 언어(localStorage.lang)가 있으면 그것을 우선 존중.
-//   단 저장값은 반드시 현재 지원 목록과 대조한다. 언어를 빼거나 코드를 바꾸면
-//   그 언어를 골라둔 사용자의 저장값이 없는 경로를 가리키게 되는데, 검증 없이
-//   그대로 이동하면 매 방문마다 404 로 보내진다. 대조에 실패하면 브라우저 언어로 넘어간다.
-// - 없으면 브라우저 언어를 보고 지원 언어로 이동. 한국어면 루트 유지.
-// - 어디에도 매칭되지 않으면 기본값 영어(/en/)로 이동.
+// 저장된 언어 선택에 따른 리다이렉트 (ko=루트 페이지에만 삽입).
+//
+// 브라우저 언어만 보고 첫 방문자를 옮기지 않는다. 구글은 추정 언어에 기반한 자동
+// 리다이렉트를 피하라고 권고하는데, Googlebot 은 JS 를 실행하고 렌더링 환경의 언어가
+// 영어라서, 그렇게 하면 루트의 한국어 본문이 크롤러에게 한 번도 보이지 않는다.
+// 대신 처음 온 방문자에게는 배너로 다른 언어를 제안한다(langBanner, js/site.js).
+//
+// 여기서 옮기는 대상은 '이전에 스스로 언어를 고른' 방문자뿐이다. 이 규칙은 사람과
+// 크롤러에 똑같이 적용된다 — User-Agent 를 보지 않으므로 클로킹이 아니다.
+// 크롤러는 localStorage 가 늘 비어 있어 자연히 한국어 본문을 받는다.
+//
+// 저장값은 반드시 지원 목록과 대조한다. 언어를 빼거나 코드를 바꾸면 그 언어를
+// 골라둔 사용자의 저장값이 없는 경로를 가리키게 되고, 그대로 이동하면 매 방문마다
+// 404 로 보내진다. 별칭도 함께 태워, 예전 코드로 저장된 값을 현재 폴더로 옮긴다.
+//
 // rest: 목적지 언어에서의 동일 페이지 경로 접미사(home='' · privacy='privacy.html' · detail='apps/<slug>.html')
-function autoLangRedirect(code, kind, slug) {
+function storedLangRedirect(code, kind, slug) {
   if (code !== 'ko') return '';
   const rest = kind === 'home' ? '' : kind === 'privacy' ? 'privacy.html' : `apps/${slug}.html`;
-  // 브라우저 기본 코드 → 폴더 코드. 별칭은 대상 언어가 실제로 빌드될 때만 넣는다.
   const codes = ACTIVE.filter((l) => l.code !== 'ko').map((l) => l.code);
   const map = Object.fromEntries(codes.map((c) => [c, c]));
   for (const [from, to] of Object.entries(LANG_ALIAS)) if (codes.includes(to)) map[from] = to;
   const supObj = JSON.stringify(map);
   // g(): 지원 목록 조회. typeof 검사로 'constructor' 같은 프로토타입 키가 걸리지 않게 한다.
   return `
-  <script>(function(){try{var s=localStorage.getItem('lang'),sup=${supObj},p,g=function(k){return typeof sup[k]==='string'?sup[k]:0;};if(s==='ko'){p='ko';}else if(g(s)){p=g(s);}else{p='en';var ls=navigator.languages||[navigator.language||'en'];for(var i=0;i<ls.length;i++){var b=String(ls[i]).toLowerCase().split('-')[0];if(b==='ko'){p='ko';break;}var t=g(b);if(t){p=t;break;}}}if(p!=='ko')location.replace('/'+p+'/'+${JSON.stringify(rest)});}catch(e){}})();</script>`;
+  <script>(function(){try{var s=localStorage.getItem('lang'),sup=${supObj},g=function(k){return typeof sup[k]==='string'?sup[k]:0;},p=g(s);if(p)location.replace('/'+p+'/'+${JSON.stringify(rest)});}catch(e){}})();</script>`;
+}
+
+// 언어 제안 배너용 데이터. 이 페이지가 존재하는 언어들의 (문구, 경로)를 인라인으로 넘긴다.
+// 배너는 방문자가 읽을 수 있는 언어, 즉 '이동할 대상 언어'로 표시되므로
+// 현재 페이지 언어가 아니라 모든 언어의 문구가 필요하다.
+//
+// 현재 언어(cur)도 반드시 목록에 넣는다. 빼면 브라우저 1순위 언어가 이 페이지의 언어일 때
+// 조회에 실패해 2순위(대개 영어)로 밀려나, 일본어 사용자가 일본어 페이지에서
+// 영어 배너를 보게 된다. 목록에 넣어두고 cur 와 같으면 배너를 띄우지 않는다.
+function bannerData(code, kind, slug, langSet) {
+  const set = langSet || ACTIVE;
+  if (set.length < 2) return '';
+  const langs = {};
+  for (const l of set) {
+    const ui = L[l.code].ui;
+    langs[l.code] = { t: ui['banner.text'], c: ui['banner.cta'], d: ui['banner.dismiss'], u: pathFor(l.code, kind, slug), r: l.dir || 'ltr' };
+  }
+  const payload = JSON.stringify({ cur: code, alias: LANG_ALIAS, langs });
+  // </script> 가 문자열 안에서 조기 종료를 일으키지 않도록 '<' 를 이스케이프한다.
+  return `  <script>window.__LANG_BANNER=${payload.replace(/</g, '\\u003c')};</script>\n`;
 }
 
 // GDPR/UK GDPR/nFADP 적용 지역. 이 지역에서만 분석 쿠키를 기본 거부한다.
@@ -228,7 +257,7 @@ const CONSENT_DENY_REGIONS = [
 // 따라서 전역 denied 상태에서는 보고서가 영구히 비어 있게 된다.
 //
 // gtag('consent','default')는 반드시 gtag.js 로더보다 먼저 실행되어야 한다.
-// autoLangRedirect() 뒤에 두어, 리디렉션되는 루트 페이지에서 중복 조회가 잡히지 않게 한다.
+// storedLangRedirect() 뒤에 두어, 리디렉션되는 루트 페이지에서 중복 조회가 잡히지 않게 한다.
 function gaSnippet() {
   if (!GA_ID) return '';
   const denied = "ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'";
@@ -240,7 +269,7 @@ function gaSnippet() {
 
 function headCommon(lang, { title, desc, canonical, ogImage, kind, slug, keywords, langSet }) {
   return `  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />${autoLangRedirect(lang.code, kind, slug)}${gaSnippet()}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />${storedLangRedirect(lang.code, kind, slug)}${gaSnippet()}
   <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
   <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
   <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
@@ -483,7 +512,7 @@ ${footer(code, ui)}
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
 
-  <script src="/js/site.js?v=${V}"></script>
+${bannerData(code, 'home', null, ACTIVE)}  <script src="/js/site.js?v=${V}"></script>
 </body>
 </html>
 `;
@@ -656,7 +685,7 @@ ${reviewsFor(app.slug).map((r) => reviewCard(r, code, false)).join('\n')}
 
 ${footer(code, ui)}
 ${lightbox}
-  <script src="/js/site.js?v=${V}"></script>
+${bannerData(code, 'detail', app.slug, ACTIVE)}  <script src="/js/site.js?v=${V}"></script>
 </body>
 </html>
 `;
@@ -684,7 +713,7 @@ ${pv.bodyHtml}
   </main>
 
 ${footer(code, ui)}
-  <script src="/js/site.js?v=${V}"></script>
+${bannerData(code, 'privacy', null, PRIV_ACTIVE)}  <script src="/js/site.js?v=${V}"></script>
 </body>
 </html>
 `;

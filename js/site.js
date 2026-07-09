@@ -18,14 +18,80 @@
   document.addEventListener('click', (e) => { if (!menu.contains(e.target)) close(); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
 
-  // 사용자가 언어를 직접 고르면 저장해 둔다. 루트(한국어) 페이지의 자동 감지
-  // 리다이렉트는 이 값을 우선 존중하므로, 선택이 매번 덮어써지지 않는다.
+  // 사용자가 언어를 직접 고르면 저장해 둔다. 루트(한국어) 페이지는 이 값이 있을 때만
+  // 리다이렉트하므로, 저장되는 값은 반드시 폴더 코드여야 한다.
+  // hreflang 에서 코드를 되짚으면 안 된다 — 필리핀어는 hreflang 이 'tl' 이라 '/tl/' 로
+  // 저장되고, 중국어는 'zh-Hans' 를 잘라 'zh' 가 되는 식으로 어긋난다.
   menu.querySelectorAll('.lang-item').forEach((a) => {
     a.addEventListener('click', () => {
-      const code = (a.getAttribute('hreflang') || '').toLowerCase().split('-')[0];
+      const code = a.getAttribute('data-lang');
       if (code) { try { localStorage.setItem('lang', code); } catch (e) { /* 저장 불가 무시 */ } }
     });
   });
+})();
+
+// ===== 언어 제안 배너 =====
+//  브라우저 언어만 보고 방문자를 다른 언어로 자동 이동시키지 않는다(구글 권장).
+//  대신 읽을 수 있을 법한 언어가 따로 있으면 배너로 제안만 하고 선택은 맡긴다.
+//  - 이전에 스스로 고른 언어가 있으면 그 언어를 제안한다(브라우저 언어보다 우선).
+//  - 한 번 닫으면 다시 띄우지 않는다.
+//  - 배너 문구·링크는 gen_site.js 가 window.__LANG_BANNER 로 인라인 주입한다.
+(function () {
+  const D = window.__LANG_BANNER;
+  if (!D || !D.langs) return;
+
+  const get = (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } };
+  if (get('langBannerOff')) return;
+
+  const langs = D.langs;
+  const has = (c) => typeof c === 'string' && Object.prototype.hasOwnProperty.call(langs, c);
+
+  // 저장된 선택이 먼저. 없으면 브라우저 언어를 순서대로 훑는다.
+  let pick = null;
+  const stored = get('lang');
+  if (has(stored)) pick = stored;
+  else {
+    const list = navigator.languages || [navigator.language || ''];
+    for (let i = 0; i < list.length; i++) {
+      const base = String(list[i]).toLowerCase().split('-')[0];
+      const code = (typeof D.alias[base] === 'string') ? D.alias[base] : base;
+      if (has(code)) { pick = code; break; }
+    }
+  }
+  // 방문자가 가장 먼저 원하는 언어가 이미 이 페이지의 언어라면 제안할 것이 없다.
+  if (!pick || pick === D.cur) return;
+
+  const t = langs[pick];
+  const bar = document.createElement('div');
+  bar.className = 'lang-banner';
+  // 배너 내용만 대상 언어의 방향으로 쓴다. 문서 방향은 그대로 둔다.
+  bar.setAttribute('dir', t.r);
+  bar.lang = pick;
+
+  const text = document.createElement('span');
+  text.className = 'lang-banner-text';
+  text.textContent = t.t;
+
+  const cta = document.createElement('a');
+  cta.className = 'lang-banner-cta';
+  cta.href = t.u;
+  cta.textContent = t.c;
+  // 배너로 이동한 것도 명시적 선택으로 본다. 다음 방문부터 그 언어로 바로 간다.
+  cta.addEventListener('click', () => { try { localStorage.setItem('lang', pick); } catch (e) { /* 무시 */ } });
+
+  const close = document.createElement('button');
+  close.type = 'button';
+  close.className = 'lang-banner-close';
+  close.setAttribute('aria-label', t.d);
+  close.title = t.d;
+  close.textContent = '×';
+  close.addEventListener('click', () => {
+    bar.remove();
+    try { localStorage.setItem('langBannerOff', '1'); } catch (e) { /* 무시 */ }
+  });
+
+  bar.append(text, cta, close);
+  document.body.appendChild(bar);
 })();
 
 // ===== 모바일 메뉴 =====
