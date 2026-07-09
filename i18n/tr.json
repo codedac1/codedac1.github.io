@@ -64,6 +64,7 @@
     "clipboard": {
       "name": "Clipboard+",
       "tag": "Pano",
+      "seo": "Android için pano yöneticisi",
       "desc": "Pano geçmişinizi otomatik kaydeder; istediğiniz her yere, her zaman yapıştırın.",
       "tagline": "Android için en akıllı pano yöneticisiyle kopyaladığınız her şeyi otomatik kaydedin",
       "long": "Clipboard+, kopyaladığınız her metni ve görseli gerçek zamanlı olarak otomatik kaydeden bir Android pano yöneticisidir. Boyutu ayarlanabilen kayan bir pencere sayesinde uygulama değiştirmeden herhangi bir ekrandan pano geçmişinize ulaşabilirsiniz. Sık kullandığınız metinleri snippet'ler ve gruplar halinde düzenleyin; anahtar kelime aramasıyla, ana ekran widget'ıyla ve bildirim paneliyle istediğiniz kaydı hızla yapıştırın. Geçmişinizi PDF olarak dışa aktarabilir, kayıtlarınızı istediğiniz zaman yedekleyip geri yükleyebilirsiniz.",
@@ -93,6 +94,7 @@
     "autostart": {
       "name": "AutoStart+",
       "tag": "Otomatik Başlatma",
+      "seo": "Android otomatik başlatma yöneticisi",
       "desc": "Uygulamalarınızı açılışta otomatik başlatın. Root gerekmez, bir kez ayarlayın.",
       "tagline": "Telefonunuz açılır açılmaz uygulamalarınızı otomatik başlatın. Root yok, bir kez ayarla, hep çalışsın.",
       "long": "AutoStart+, cihazınız açılır açılmaz seçtiğiniz uygulamaları root gerektirmeden otomatik başlatan, Android için en kolay otomatik başlatma yöneticisidir. Bir kez ayarlayın; uygulamalarınız her açılışta elle dokunmanıza gerek kalmadan başlasın. Ücretsiz sürüm 1 uygulamayı otomatik başlatır, PRO ise seçtiğiniz sırayla sınırsız uygulama başlatmanın kilidini açar. Bir başlatma başarısız olursa sizi bilgilendirir ve Samsung ile Xiaomi gibi OEM cihazlardaki otomatik başlatma ayarlarında size rehberlik eder.",
@@ -122,6 +124,7 @@
     "floatcalc": {
       "name": "FloatCalc+",
       "tag": "Kayan Pencere",
+      "seo": "Kayan hesap makinesi ve çevirici",
       "desc": "Her uygulamanın üzerinde çalışan kayan hesap makinesi, döviz ve birim çevirici.",
       "tagline": "Hesap yapmak için ekrandan çıkmanıza gerek bırakmayan, her uygulamanın üzerinde duran kayan hesap makinesi.",
       "long": "FloatCalc+, her uygulamanın üzerinde duran kayan bir hesap makinesidir; hızlı bir hesap için ekran değiştirmenize gerek kalmaz. Yerleşik döviz çevirici, birim çevirici ve hızlı not, hepsi doğrudan kayan pencerenin içinde çalışır. Pencereyi istediğiniz yere sürükleyin, ardından sonuçları tek dokunuşla kopyalayın veya bir nota kaydedin. Hafif, hızlıdır ve çevrimdışı çalışır (döviz kurları her gün önbelleğe alınır).",
@@ -151,6 +154,7 @@
     "floatcrypto": {
       "name": "FloatCrypto+",
       "tag": "Kayan Pencere",
+      "seo": "Kayan canlı Bitcoin fiyatları",
       "desc": "Her uygulamanın üzerinde kayan canlı Bitcoin ve kripto fiyatları.",
       "tagline": "Canlı Bitcoin fiyatını ekranınızda kayan halde tutun — %100 ücretsiz.",
       "long": "FloatCrypto+, her uygulamanın üzerinde gerçek zamanlı bir kripto şeridi kaydırır — YouTube, Chrome, oyunlar, Telegram — böylece BTC, ETH, SOL, XRP, DOGE, BNB ve 1.000'den fazla altcoin'i uygulama değiştirmeden takip edebilirsiniz. CoinGecko yedeğiyle Binance piyasa verilerinden güç alır; canlı grafikleri, fiyat uyarılarını ve bir izleme listesini tek bir yerde bir araya getirir. Giriş, e-posta veya cüzdan gerektirmeden %100 ücretsizdir — saniyeler içinde kullanıma hazır.",
@@ -180,6 +184,7 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Kayan Pencere",
+      "seo": "Kayan interval zamanlayıcı",
       "desc": "Her uygulamanın üzerinde kayan interval, Pomodoro ve çoklu zamanlayıcı.",
       "tagline": "Her uygulamanın üzerinde kayan interval, Pomodoro ve çoklu zamanlayıcı, sayaç ve kronometre.",
       "long": "FloatTimer+, kullandığınız her uygulamanın üzerinde interval zamanlayıcı, çoklu zamanlayıcı, sayaç ve kronometre tutan kayan bir üst katman uygulamasıdır. Çoklu görev yaparken zamanlayıcınız görünür kalır; ekranda istediğiniz yere sürükleyebilir, boyutunu, opaklığını ve arka plan rengini özelleştirebilirsiniz. Arka planda çalışır; bu nedenle uygulama değiştirseniz veya ekranı kilitleseniz bile çalışmaya devam eder. Bir kez ayarlayın; yemek yaparken, egzersiz yaparken, ders çalışırken veya oyun oynarken zamanlayıcınızı gözden kaçırmadan devam edin.",
@@ -209,6 +214,7 @@
     "volumebooster": {
       "name": "VolumeBooster+",
       "tag": "Ses",
+      "seo": "Ses yükseltici ve ekolayzer",
       "desc": "Gerçek, ölçülmüş dB ile ses yükseltici, ekolayzer ve bas güçlendirme.",
       "tagline": "Her uygulamanın sesini anlamsız bir %200 ile değil, gerçek ve ölçülmüş desibellerle yükseltin.",
       "long": "VolumeBooster+, tüm sistem çıkışınızı yükselten bir ses yükselticidir — sessiz hoparlörler, düşük sesli kulaklıklar, zor duyulan videolar, aramalar, müzik ve oyunlar — böylece onları sonunda net bir şekilde duyarsınız. Anlamsız bir \"%200\" yerine gerçek desibellerle (0 ile +15 dB) yükseltir ve DSÖ tabanlı Güvenli / Dikkat / Tehlike bölgelerini gösterir; böylece işitmenizi korurken sesi yükseltebilirsiniz. 5 bantlı ekolayzeri, bas güçlendiriciyi, 3D sanallaştırıcıyı ve AutoEQ kulaklık düzeltmesini tek bir uygulamada birleştirir.",
@@ -238,6 +244,7 @@
     "photocleaner": {
       "name": "PhotoCleaner+",
       "tag": "Gizlilik",
+      "seo": "Fotoğrafta kişisel bilgi gizleme",
       "desc": "Fotoğraflardaki ve PDF'lerdeki kişisel bilgileri tamamen cihazınızda gizleyin.",
       "tagline": "Fotoğraflardaki ve PDF'lerdeki kişisel bilgileri, tamamen cihazınızda sağlam bir maskeyle gizleyin.",
       "long": "PhotoCleaner+, fotoğraflardaki ve PDF'lerdeki kişisel bilgileri tamamen cihazınızda gizler. Hassas alanları düz, opak bir maskeyle örter (bulanıklaştırma veya mozaik değildir; bu yüzden örtülen alanlar geri getirilemez) ve temiz bir kopya olarak dışa aktarır. Yerleşik bir algılayıcı, kimlik numaraları, kartlar, telefon numaraları ve e-postalar gibi olası hassas metinleri başlangıç noktası olarak önerir; ancak maskeleri elle çizip ayarlayarak neyin gizleneceğine tam olarak siz karar verirsiniz. Hiçbir fotoğraf yüklenmez, her şey çevrimdışı çalışır ve hiçbir zaman galeri veya depolama izni istenmez.",
@@ -267,6 +274,7 @@
     "secretalbum": {
       "name": "SecretAlbum+",
       "tag": "Gizlilik",
+      "seo": "Gizli fotoğraf ve video kasası",
       "desc": "Fotoğrafları ve videoları AES-256 şifreleme ve PIN kilidiyle gizleyin.",
       "tagline": "Fotoğraflarınızı ve videolarınızı AES-256 şifreleme ve PIN kilidiyle gizleyin ve koruyun.",
       "long": "SecretAlbum+, değerli fotoğraflarınızı ve videolarınızı askeri düzeyde AES-256 şifrelemeyle koruyan gizli bir kasadır. Tamamen cihazınızda çevrimdışı çalışır ve dosyaları hiçbir harici sunucuya yüklemez. İçe aktardığınız her dosya anında şifrelenir ve kişisel anahtarınız olmadan erişilemez; galerinizden hiçbir iz bırakmadan tamamen kaybolur. Kimsenin yüklü olduğunu bilmemesi için uygulama simgesini bir Hesap Makinesi, Notlar, Hava Durumu veya Saat uygulaması gibi gizleyebilirsiniz.",
@@ -296,6 +304,7 @@
     "readfocus": {
       "name": "ReadFocus+",
       "tag": "Erişilebilirlik",
+      "seo": "Disleksi ve DEHB okuma yardımcısı",
       "desc": "Satır vurgusu ve okuma maskesiyle disleksi ve DEHB için okuma yardımcısı.",
       "tagline": "Disleksi ve DEHB için okuma yardımcısı: satır vurgusu ve okuma maskesi gözlerinizi yolda tutar ve göz yorgunluğunu azaltır.",
       "long": "ReadFocus+, Android'de disleksi ve DEHB için bir okuma cetveli, okuma maskesi ve okuma yardımcısıdır. Üst katman iznini bir kez verin; yarı saydam bir odak şeridi her uygulamanın üzerinde kayar — e-kitap okuyucular, tarayıcılar, PDF, haberler, çizgi romanlar — ve gözlerinizi okuduğunuz satırda tutar. Aynı satırı atlamayı veya tekrar okumayı azaltır, göz yorgunluğunu hafifletir ve okuma konsantrasyonunu ve verimliliğini artırır.",
@@ -325,6 +334,7 @@
     "colorcards": {
       "name": "Color Cards+",
       "tag": "Çocuklar",
+      "seo": "Çocuklar için konuşan renk kartları",
       "desc": "Küçük çocukların renkleri öğrenmesine yardımcı olan konuşan renk kartları.",
       "tagline": "Küçük çocukların görüp duyup tekrarlayarak renkleri öğrendiği konuşan renk kartları",
       "long": "Color Cards+, küçük çocuklar için konuşan ve dinleten bir renk kartı uygulamasıdır. Altı renkte (kırmızı, mavi, sarı, yeşil, turuncu ve mor) çocuklara uygun nesne kartları sunar ve her ismi sesli okur; böylece çocuklar tekrarlayarak renkleri doğal bir şekilde öğrenebilir. Otomatik oynatma, kelimeyi gizleme, kart karıştırma ve iki dilli görünüm gibi birçok öğrenme modu, çok sayıda dilde desteklenir. Sade, dikkat dağıtmayan bir ortam çocuğunuzun öğrenirken odaklanmasına yardımcı olur.",
@@ -354,6 +364,7 @@
     "wordcards": {
       "name": "Word Cards+",
       "tag": "Çocuklar",
+      "seo": "Çocuklar için kelime kartları",
       "desc": "Küçük çocukların kelimeleri söyleyip dinlemesi için kelime kartları.",
       "tagline": "Çocuğunuzun ilk kelimeleri — kartlarla görün, duyun ve söyleyin.",
       "long": "Word Cards+, küçük çocukların kelimeleri eğlenceli bir şekilde öğrenmesine yardımcı olan resimli bir kelime kartı uygulamasıdır. Hayvanlar, meyveler, taşıtlar ve günlük nesneler gibi tanıdık temalardaki sevimli kartlarla çocuklar her resme bakabilir, kelimeyi duyabilir ve yüksek sesle söyleyebilir. Sade beyaz arka planlar ve net çizimler, küçüklerin her nesneye odaklanmasına ve kelime dağarcığını doğal olarak geliştirmesine yardımcı olur.",
@@ -383,6 +394,7 @@
     "sleepbaby": {
       "name": "SleepBaby+",
       "tag": "Ebeveynlik",
+      "seo": "Bebek için ninni ve beyaz gürültü",
       "desc": "Bebeğinizin uyumasına yardımcı olan sakinleştirici ninniler ve beyaz gürültü.",
       "tagline": "Bebeğinizin uyumasına yardımcı olan sakinleştirici ninniler ve beyaz gürültü.",
       "long": "SleepBaby+, bebeğinizin huzurla uykuya dalmasına yardımcı olan bir ninni ve beyaz gürültü uygulamasıdır. Brahms'ın Ninnisi, hafif okyanus dalgaları, akan bir vadi deresi ve çıtırdayan bir şenlik ateşi gibi sakinleştirici sesler sunar. Yerleşik uyku zamanlayıcısı, seçtiğiniz sürenin ardından oynatmayı otomatik olarak durdurur; ayarlanabilir ses seviyesi ise hem bebeğe hem ebeveynlere huzurlu bir dinlenme getirir.",
@@ -412,6 +424,7 @@
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Windows Uygulaması",
+      "seo": "Pano yöneticisi",
       "desc": "Clipboard+ Android uygulamasıyla senkronize olan bir Windows tepsi pano yöneticisi.",
       "tagline": "Kendi Google Drive'ınız üzerinden Android telefonunuzla senkronize olan bir Windows tepsi pano yöneticisi.",
       "long": "Clipboard+ for Windows, kopyaladığınız metinleri ve görselleri otomatik olarak kaydeden, tepside yerleşik bir pano yöneticisidir. Android Clipboard+ uygulamasıyla aynı veri biçimini paylaşır; böylece telefonunuz ve bilgisayarınız, özel bir sunucu olmadan kendi Google Drive'ınız (uygulamaya özel gizli bir klasör) üzerinden çift yönlü senkronize olur. Kayıtları yoklama yapmadan yerel Windows pano olaylarıyla yakalar ve metinleri ile görselleri gruplar ile snippet'ler halinde düzenleyip aralarında arama yapmanıza olanak tanır.",

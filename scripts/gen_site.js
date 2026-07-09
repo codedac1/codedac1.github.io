@@ -643,7 +643,9 @@ ${Array.from({ length: app.shots }, (_, i) =>
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>` : '';
 
-  const title = `${a.name} — ${a.tag} | CodeDAC`;
+  // title 에는 tag(화면의 카테고리 칩)가 아니라 seo(그 언어의 실제 검색어구)를 쓴다.
+  // tag 는 'Floating' 같은 명사 하나라, 아무도 그렇게 검색하지 않는다.
+  const title = `${a.name} — ${a.seo} | CodeDAC`;
   const metaDesc = `${a.tagline} — CodeDAC ${a.name}.`;
 
   return `<!DOCTYPE html>

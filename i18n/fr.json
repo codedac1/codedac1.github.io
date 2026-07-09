@@ -64,6 +64,7 @@
     "clipboard": {
       "name": "Clipboard+",
       "tag": "Presse-papiers",
+      "seo": "Gestionnaire de presse-papiers",
       "desc": "Enregistre automatiquement l'historique de votre presse-papiers pour coller partout, à tout moment.",
       "tagline": "Enregistrez automatiquement chaque copie avec le gestionnaire de presse-papiers le plus intelligent pour Android",
       "long": "Clipboard+ est un gestionnaire de presse-papiers Android qui enregistre automatiquement, en temps réel, chaque texte et image copiés. Une fenêtre flottante redimensionnable vous donne accès à l'historique de votre presse-papiers depuis n'importe quel écran, sans changer d'application. Classez vos textes fréquents en extraits et en groupes, et collez n'importe quel élément rapidement grâce à la recherche par mot-clé, à un widget d'écran d'accueil et au panneau de notifications. Vous pouvez aussi exporter votre historique en PDF, et sauvegarder ou restaurer vos éléments à tout moment.",
@@ -93,6 +94,7 @@
     "autostart": {
       "name": "AutoStart+",
       "tag": "Lancement automatique",
+      "seo": "Gestionnaire de lancement automatique",
       "desc": "Lancez vos applis automatiquement au démarrage. Sans root, réglé une seule fois.",
       "tagline": "Lancez vos applis automatiquement dès le démarrage du téléphone. Sans root, réglé une fois, actif pour toujours.",
       "long": "AutoStart+ est le gestionnaire de lancement automatique le plus simple pour Android : il lance automatiquement les applications de votre choix dès le démarrage de votre appareil, sans root. Réglez-le une seule fois et vos applis se lancent à chaque démarrage, sans aucune manipulation. La version gratuite lance automatiquement 1 application, tandis que la version PRO en débloque un nombre illimité, lancées dans l'ordre de votre choix. Elle vous prévient en cas d'échec d'un lancement et vous guide dans les réglages de lancement automatique sur les appareils OEM comme Samsung et Xiaomi.",
@@ -122,6 +124,7 @@
     "floatcalc": {
       "name": "FloatCalc+",
       "tag": "Flottant",
+      "seo": "Calculatrice flottante",
       "desc": "Une calculatrice, un convertisseur de devises et d'unités flottant par-dessus toute application.",
       "tagline": "Une calculatrice flottante qui reste au-dessus de toute application, pour ne plus jamais quitter votre écran pour un calcul.",
       "long": "FloatCalc+ est une calculatrice flottante qui reste au-dessus de toute application : vous n'avez plus à changer d'écran pour un calcul rapide. Un convertisseur de devises, un convertisseur d'unités et un mémo rapide fonctionnent tous directement dans la fenêtre flottante. Faites glisser la fenêtre où vous le souhaitez, puis copiez les résultats ou enregistrez-les dans un mémo d'un seul toucher. Elle est légère, rapide et fonctionne hors ligne (les taux de change sont mis en cache chaque jour).",
@@ -151,6 +154,7 @@
     "floatcrypto": {
       "name": "FloatCrypto+",
       "tag": "Flottant",
+      "seo": "Cours du Bitcoin flottant",
       "desc": "Cours en direct du Bitcoin et des cryptos, flottant par-dessus toute application.",
       "tagline": "Gardez le cours du Bitcoin en direct flottant sur votre écran — 100 % gratuit.",
       "long": "FloatCrypto+ fait flotter un téléscripteur crypto en temps réel par-dessus toute application — YouTube, Chrome, jeux, Telegram — pour suivre le BTC, l'ETH, le SOL, le XRP, le DOGE, le BNB et plus de 1 000 altcoins sans jamais changer d'application. Alimentée par les données de marché Binance avec CoinGecko en secours, elle réunit graphiques en direct, alertes de prix et liste de suivi au même endroit. Elle est 100 % gratuite, sans connexion, sans e-mail et sans portefeuille — prête à l'emploi en quelques secondes.",
@@ -180,6 +184,7 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Flottant",
+      "seo": "Minuteur d'intervalles flottant",
       "desc": "Un minuteur d'intervalles, Pomodoro et multi-minuteur par-dessus toute application.",
       "tagline": "Un minuteur d'intervalles, Pomodoro et multi-minuteur, un compteur et un chronomètre qui flottent par-dessus chaque application.",
       "long": "FloatTimer+ est une application à fenêtre flottante qui garde un minuteur d'intervalles, un multi-minuteur, un compteur et un chronomètre au-dessus de toute application que vous utilisez. Votre minuteur reste visible pendant que vous faites plusieurs choses à la fois, et vous pouvez le faire glisser où vous voulez sur l'écran tout en personnalisant sa taille, son opacité et sa couleur de fond. Il fonctionne en arrière-plan et continue donc même lorsque vous changez d'appli ou verrouillez l'écran. Réglez-le une fois et continuez à cuisiner, à faire du sport, à étudier ou à jouer sans jamais perdre votre minuteur de vue.",
@@ -209,6 +214,7 @@
     "volumebooster": {
       "name": "VolumeBooster+",
       "tag": "Audio",
+      "seo": "Amplificateur de volume",
       "desc": "Amplificateur de volume, égaliseur et amplification des basses en dB réels et mesurés.",
       "tagline": "Rendez chaque application plus forte en décibels réels et mesurés — pas en un « 200 % » qui ne veut rien dire.",
       "long": "VolumeBooster+ est un amplificateur de volume qui augmente l'ensemble de la sortie système — haut-parleurs faibles, écouteurs peu puissants, vidéos, appels, musique et jeux difficiles à entendre — pour enfin les percevoir clairement. Il amplifie en véritables décibels (0 à +15 dB) plutôt qu'en un « 200 % » dénué de sens, et affiche des zones Sûr / Prudence / Danger basées sur l'OMS afin de monter le son tout en protégeant votre audition. Il combine un égaliseur à 5 bandes, un amplificateur de basses, un virtualiseur 3D et une correction de casque AutoEQ dans une seule application.",
@@ -238,6 +244,7 @@
     "photocleaner": {
       "name": "PhotoCleaner+",
       "tag": "Confidentialité",
+      "seo": "Masquer photos et PDF",
       "desc": "Masquez les informations personnelles dans vos photos et PDF, entièrement sur l'appareil.",
       "tagline": "Masquez les informations personnelles dans vos photos et PDF avec un cache opaque, entièrement sur votre appareil.",
       "long": "PhotoCleaner+ masque les informations personnelles dans les photos et les PDF entièrement sur votre appareil. Il recouvre les zones sensibles d'un cache opaque et uni (ni flou ni mosaïque, afin que les zones couvertes ne puissent pas être récupérées) et exporte une copie propre. Un détecteur intégré suggère, comme point de départ, les textes probablement sensibles tels que numéros d'identité, cartes, numéros de téléphone et e-mails, mais vous dessinez et ajustez les caches à la main pour décider précisément de ce qui est masqué. Aucune photo n'est jamais envoyée, tout fonctionne hors ligne, et aucune autorisation de galerie ou de stockage n'est jamais demandée.",
@@ -267,6 +274,7 @@
     "secretalbum": {
       "name": "SecretAlbum+",
       "tag": "Confidentialité",
+      "seo": "Coffre-fort photos et vidéos",
       "desc": "Masquez vos photos et vidéos avec le chiffrement AES-256 et un verrouillage par PIN.",
       "tagline": "Masquez et protégez vos photos et vidéos grâce au chiffrement AES-256 et à un verrouillage par PIN.",
       "long": "SecretAlbum+ est un coffre-fort privé qui protège vos photos et vidéos précieuses avec un chiffrement AES-256 de niveau militaire. Il fonctionne entièrement hors ligne sur votre appareil et n'envoie jamais de fichiers vers un serveur externe. Chaque fichier que vous importez est chiffré instantanément et reste inaccessible sans votre clé personnelle, disparaissant complètement de votre galerie sans laisser de trace. Vous pouvez même déguiser l'icône de l'application en une appli Calculatrice, Notes, Météo ou Horloge pour que personne ne sache qu'elle est installée.",
@@ -296,6 +304,7 @@
     "readfocus": {
       "name": "ReadFocus+",
       "tag": "Accessibilité",
+      "seo": "Aide à la lecture dyslexie & TDAH",
       "desc": "Une aide à la lecture pour la dyslexie et le TDAH, avec surlignage de ligne et masque.",
       "tagline": "Une aide à la lecture pour la dyslexie et le TDAH : le surlignage de ligne et le masque de lecture gardent vos yeux sur la ligne et réduisent la fatigue oculaire.",
       "long": "ReadFocus+ est une règle de lecture, un masque de lecture et une aide à la lecture pour la dyslexie et le TDAH sur Android. Accordez une fois l'autorisation de superposition et une bande de focalisation translucide flotte par-dessus toute application — liseuses, navigateurs, PDF, actualités, bandes dessinées — pour garder vos yeux sur la ligne que vous lisez. Elle réduit les sauts ou les relectures de la même ligne, soulageant la fatigue oculaire et améliorant la concentration et l'efficacité de lecture.",
@@ -325,6 +334,7 @@
     "colorcards": {
       "name": "Color Cards+",
       "tag": "Enfants",
+      "seo": "Cartes de couleurs pour enfants",
       "desc": "Des cartes de couleurs parlantes qui aident les tout-petits à apprendre les couleurs.",
       "tagline": "Des cartes de couleurs parlantes où les tout-petits voient, entendent et répètent pour apprendre les couleurs",
       "long": "Color Cards+ est une application de cartes de couleurs parlante et à l'écoute, destinée aux tout-petits. Elle présente des cartes d'objets adaptées aux enfants réparties en six couleurs (rouge, bleu, jaune, vert, orange et violet) et prononce chaque nom à voix haute pour que l'enfant répète et apprenne les couleurs naturellement. Plusieurs modes d'apprentissage, comme la lecture automatique, le masquage du mot, le mélange des cartes et un affichage bilingue, sont pris en charge dans de nombreuses langues. Un environnement épuré et sans distraction aide votre enfant à rester concentré pendant l'apprentissage.",
@@ -354,6 +364,7 @@
     "wordcards": {
       "name": "Word Cards+",
       "tag": "Enfants",
+      "seo": "Cartes de premiers mots",
       "desc": "Des cartes pour que les tout-petits disent et écoutent des mots.",
       "tagline": "Les premiers mots de votre enfant — les voir, les entendre et les dire avec des cartes.",
       "long": "Word Cards+ est une application de cartes illustrées qui aide les tout-petits à apprendre des mots de façon ludique. Avec de jolies cartes sur des thèmes familiers comme les animaux, les fruits, les véhicules et les objets du quotidien, les enfants peuvent regarder chaque image, entendre le mot et le dire à voix haute. Des fonds blancs épurés et des illustrations claires aident les petits à se concentrer sur chaque objet et à enrichir naturellement leur vocabulaire.",
@@ -383,6 +394,7 @@
     "sleepbaby": {
       "name": "SleepBaby+",
       "tag": "Parentalité",
+      "seo": "Berceuses et bruit blanc pour bébé",
       "desc": "Des berceuses apaisantes et du bruit blanc pour aider votre bébé à dormir.",
       "tagline": "Des berceuses apaisantes et du bruit blanc pour aider votre bébé à dormir.",
       "long": "SleepBaby+ est une application de berceuses et de bruit blanc qui aide votre bébé à s'endormir paisiblement. Elle propose des sons apaisants comme la Berceuse de Brahms, de douces vagues de l'océan, un ruisseau de vallée qui coule et un feu de camp qui crépite. Un minuteur de veille intégré arrête la lecture automatiquement après la durée choisie, et le volume ajustable apporte un repos paisible au bébé comme aux parents.",
@@ -412,6 +424,7 @@
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Application Windows",
+      "seo": "Presse-papiers Windows",
       "desc": "Un gestionnaire de presse-papiers Windows dans la barre d'état système, synchronisé avec l'appli Android Clipboard+.",
       "tagline": "Un gestionnaire de presse-papiers Windows dans la barre d'état système, synchronisé avec votre téléphone Android via votre propre Google Drive.",
       "long": "Clipboard+ for Windows est un gestionnaire de presse-papiers résidant dans la barre d'état système qui enregistre automatiquement les textes et images que vous copiez. Il partage le même format de données que l'appli Android Clipboard+, ce qui permet à votre téléphone et à votre PC de se synchroniser dans les deux sens via votre propre Google Drive (un dossier caché privé à l'application), sans serveur dédié. Il capture les éléments grâce aux événements natifs du presse-papiers Windows, sans interrogation périodique, et vous permet d'organiser textes et images en groupes et extraits, puis de faire des recherches parmi eux.",

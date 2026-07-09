@@ -64,6 +64,7 @@
     "clipboard": {
       "name": "Clipboard+",
       "tag": "Clipboard",
+      "seo": "Clipboard Manager para sa Android",
       "desc": "Awtomatikong nagse-save ng clipboard history mo para ma-paste kahit saan, anumang oras.",
       "tagline": "Awtomatikong i-save ang bawat kopya gamit ang pinakamatalinong clipboard manager para sa Android",
       "long": "Ang Clipboard+ ay isang clipboard manager para sa Android na awtomatikong nagse-save ng bawat kinopyang teksto at larawan nang real time. Isang resizable na floating overlay ang tutulong sa iyong maabot ang clipboard history mo mula sa anumang screen nang hindi lumilipat ng app. Ayusin ang madalas gamitin na teksto sa mga snippet at grupo, at i-paste agad ang anumang clip gamit ang keyword search, isang home screen widget, at ang notification panel. Maaari mo ring i-export ang history mo sa PDF at i-back up o i-restore ang mga clip mo anumang oras.",
@@ -93,6 +94,7 @@
     "autostart": {
       "name": "AutoStart+",
       "tag": "Auto Start",
+      "seo": "Auto Start Manager para sa Android",
       "desc": "Awtomatikong i-launch ang mga app mo sa boot. Walang root, isang setup lang.",
       "tagline": "Awtomatikong i-start ang mga app mo sa sandaling mag-boot ang telepono. Walang root, isang setup lang, tumatakbo habambuhay.",
       "long": "Ang AutoStart+ ay ang pinakamadaling auto start manager para sa Android, na awtomatikong naglulunsad ng mga napili mong app sa sandaling mag-boot ang device mo, nang walang kailangang root. I-setup ito nang isang beses at maglu-launch ang mga app mo sa bawat startup nang hindi na kailangang mag-tap. Ang libreng bersyon ay awtomatikong nagsi-start ng 1 app, samantalang binubuksan ng PRO ang walang limitasyong app na inilulunsad ayon sa pagkakasunod na gusto mo. Ipinapaalam nito kung nabigo ang isang paglulunsad, at ginagabayan ka nito sa mga setting ng auto start sa mga OEM device tulad ng Samsung at Xiaomi.",
@@ -122,6 +124,7 @@
     "floatcalc": {
       "name": "FloatCalc+",
       "tag": "Floating",
+      "seo": "Floating Calculator para sa Android",
       "desc": "Isang floating calculator, FX at unit converter sa ibabaw ng anumang app.",
       "tagline": "Isang floating calculator na nananatili sa ibabaw ng anumang app para hindi ka na umalis para lang magkalkula.",
       "long": "Ang FloatCalc+ ay isang floating calculator na nananatili sa ibabaw ng anumang app, kaya hindi mo na kailangang lumipat ng screen para lang gumawa ng mabilisang kalkulasyon. Ang built-in na currency converter, unit converter, at quick memo ay gumagana lahat sa loob mismo ng overlay window. I-drag ang window kung saan mo ito kailangan, pagkatapos ay kopyahin ang mga resulta o i-save ang mga ito sa memo sa isang tap. Magaan ito, mabilis, at gumagana offline (araw-araw na naka-cache ang mga FX rate).",
@@ -151,6 +154,7 @@
     "floatcrypto": {
       "name": "FloatCrypto+",
       "tag": "Floating",
+      "seo": "Live Bitcoin Price Overlay",
       "desc": "Live na presyo ng Bitcoin at crypto na lumulutang sa ibabaw ng anumang app.",
       "tagline": "Panatilihing lumulutang sa screen mo ang live na presyo ng Bitcoin — 100% libre.",
       "long": "Pinapalutang ng FloatCrypto+ ang isang real-time na crypto ticker sa ibabaw ng anumang app — YouTube, Chrome, mga laro, Telegram — kaya masusubaybayan mo ang BTC, ETH, SOL, XRP, DOGE, BNB at 1,000+ na altcoin nang hindi kailanman lumilipat ng app. Pinapagana ng market data ng Binance na may CoinGecko fallback, nagdaragdag ito ng mga live na chart, price alert, at watchlist sa iisang lugar. 100% libre ito na walang login, walang email, at walang kailangang wallet — handa nang gamitin sa ilang segundo.",
@@ -180,6 +184,7 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Floating",
+      "seo": "Floating Interval & Pomodoro Timer",
       "desc": "Isang floating interval, Pomodoro at multi-timer sa ibabaw ng anumang app.",
       "tagline": "Isang interval, Pomodoro, at multi-timer, counter, at stopwatch na lumulutang sa ibabaw ng bawat app.",
       "long": "Ang FloatTimer+ ay isang floating overlay app na nagpapanatili ng interval timer, multi-timer, counter, at stopwatch sa ibabaw ng anumang app na ginagamit mo. Nananatiling nakikita ang timer mo habang nagmu-multitask ka, at maaari mo itong i-drag kahit saan sa screen habang ini-customize ang laki, opacity, at background color nito. Tumatakbo ito sa background, kaya patuloy itong gumagana kahit lumipat ka ng app o i-lock ang screen. I-setup ito nang isang beses at magpatuloy sa pagluluto, pag-eehersisyo, pag-aaral, o paglalaro nang hindi nawawala sa paningin ang timer mo.",
@@ -209,6 +214,7 @@
     "volumebooster": {
       "name": "VolumeBooster+",
       "tag": "Audio",
+      "seo": "Volume Booster & Equalizer",
       "desc": "Volume booster, equalizer at bass boost na may totoo, nasusukat na dB.",
       "tagline": "Gawing mas malakas ang bawat app sa totoo at nasusukat na desibel — hindi isang walang-kabuluhang 200%.",
       "long": "Ang VolumeBooster+ ay isang volume booster na nagpapataas ng buong system output mo — mahihinang speaker, mababang earphone, mahihirap marinig na video, tawag, musika at laro — para sa wakas ay marinig mo ang mga ito nang malinaw. Nagbo-boost ito sa totoong desibel (0 hanggang +15 dB) sa halip na isang walang-kabuluhang \"200%\", at nagpapakita ng WHO-based na Safe / Caution / Danger zone para makapagpalakas ka habang pinoprotektahan ang iyong pandinig. Pinagsasama nito ang 5-band equalizer, bass booster, 3D virtualizer at AutoEQ headphone correction sa iisang app.",
@@ -238,6 +244,7 @@
     "photocleaner": {
       "name": "PhotoCleaner+",
       "tag": "Privacy",
+      "seo": "Photo & PDF Privacy Mask",
       "desc": "Itago ang personal na impormasyon sa mga larawan at PDF, buong-buo sa device.",
       "tagline": "Itago ang personal na impormasyon sa mga larawan at PDF gamit ang isang solidong mask, buong-buo sa iyong device.",
       "long": "Itinatago ng PhotoCleaner+ ang personal na impormasyon sa mga larawan at PDF nang buong-buo sa iyong device. Tinatakpan nito ang mga sensitibong bahagi ng isang solido at opaque na mask (hindi blur o mosaic, kaya hindi na mababawi ang mga natakpang bahagi) at nag-e-export ng malinis na kopya. Isang built-in na detector ang nagmumungkahi ng mga malamang na sensitibong teksto tulad ng ID number, card, numero ng telepono, at email bilang panimula, ngunit ikaw mismo ang gumuguhit at nag-aayos ng mga mask para magpasya kung ano talaga ang itatago. Walang larawang ina-upload kahit kailan, tumatakbo lahat offline, at hindi kailanman humihingi ng pahintulot sa gallery o storage.",
@@ -267,6 +274,7 @@
     "secretalbum": {
       "name": "SecretAlbum+",
       "tag": "Privacy",
+      "seo": "Photo Vault na may PIN Lock",
       "desc": "Itago ang mga larawan at video gamit ang AES-256 encryption at PIN lock.",
       "tagline": "Itago at protektahan ang mga larawan at video mo gamit ang AES-256 encryption at PIN lock.",
       "long": "Ang SecretAlbum+ ay isang pribadong vault na nagpoprotekta sa mahahalagang larawan at video mo gamit ang military-grade na AES-256 encryption. Gumagana ito nang buong-buo offline sa iyong device at hindi kailanman nag-a-upload ng mga file sa anumang external na server. Ang bawat file na ini-import mo ay agad na na-encrypt at hindi maa-access nang wala ang personal mong key, na tuluyang nawawala sa gallery mo nang walang naiiwang bakas. Maaari mo pang i-disguise ang icon ng app bilang isang Calculator, Notes, Weather, o Clock app para walang makaalam na naka-install ito.",
@@ -296,6 +304,7 @@
     "readfocus": {
       "name": "ReadFocus+",
       "tag": "Accessibility",
+      "seo": "Reading Aid para sa Dyslexia & ADHD",
       "desc": "Isang reading aid para sa dyslexia at ADHD na may line highlight at mask.",
       "tagline": "Isang reading aid para sa dyslexia at ADHD: pinapanatili ng line highlight at reading mask ang mga mata mo sa tamang linya at binabawasan ang pagod ng mata.",
       "long": "Ang ReadFocus+ ay isang reading ruler, reading mask at reading aid para sa dyslexia at ADHD sa Android. Ipagkaloob ang overlay permission nang isang beses at isang translucent na focus strip ang lulutang sa ibabaw ng anumang app — mga ebook reader, browser, PDF, balita, komiks — na pinapanatili ang mga mata mo sa linyang binabasa mo. Binabawasan nito ang paglaktaw o pagbasa ulit ng parehong linya, na nagpapagaan sa pagod ng mata at nagpapataas ng konsentrasyon at bisa sa pagbasa.",
@@ -325,6 +334,7 @@
     "colorcards": {
       "name": "Color Cards+",
       "tag": "Kids",
+      "seo": "Color Flashcards para sa Bata",
       "desc": "Mga nagsasalitang color flashcard na tumutulong sa mga bata na matutuhan ang mga kulay.",
       "tagline": "Mga nagsasalitang color flashcard kung saan nakikita, naririnig, at inuulit ng mga bata para matutuhan ang mga kulay",
       "long": "Ang Color Cards+ ay isang nagsasalita at nakikinig na color flashcard app para sa mga bata. Naglalahad ito ng mga card ng bagay na child-friendly sa anim na kulay (pula, asul, dilaw, berde, orange, at lila) at binabasa nang malakas ang bawat pangalan para maulit ng mga bata at matutuhan ang mga kulay nang natural. Suportado ang maraming learning mode tulad ng auto play, hide word, card shuffle, at bilingual na view sa maraming wika. Isang malinis at walang-distraction na kapaligiran ang tumutulong sa bata mong manatiling nakapokus habang natututo.",
@@ -354,6 +364,7 @@
     "wordcards": {
       "name": "Word Cards+",
       "tag": "Kids",
+      "seo": "Word Flashcards para sa Bata",
       "desc": "Mga flashcard para sa mga bata para magsalita at makinig sa mga salita.",
       "tagline": "Ang mga unang salita ng anak mo — makita, marinig, at masabi gamit ang mga card.",
       "long": "Ang Word Cards+ ay isang picture flashcard app na tumutulong sa mga bata na matutuhan ang mga salita sa masayang paraan. Sa mga cute na card sa mga pamilyar na tema tulad ng mga hayop, prutas, sasakyan, at pang-araw-araw na bagay, makikita ng mga bata ang bawat larawan, maririnig ang salita, at masasabi ito nang malakas. Ang malilinis na puting background at malilinaw na ilustrasyon ay tumutulong sa maliliit na bata na makapokus sa bawat bagay at natural na palawakin ang kanilang bokabularyo.",
@@ -383,6 +394,7 @@
     "sleepbaby": {
       "name": "SleepBaby+",
       "tag": "Parenting",
+      "seo": "Baby Lullaby at White Noise",
       "desc": "Mga nakakapawing lullaby at white noise para makatulog ang sanggol mo.",
       "tagline": "Mga nakakapawing lullaby at white noise para makatulog ang sanggol mo.",
       "long": "Ang SleepBaby+ ay isang lullaby at white noise app na tumutulong sa sanggol mo na makatulog nang mapayapa. Nag-aalok ito ng mga nakakapanatag na tunog tulad ng Brahms' Lullaby, banayad na alon ng dagat, umaagos na batis sa lambak, at kumakalatas na siga. Isang built-in na sleep timer ang awtomatikong humihinto sa pag-play pagkatapos ng napili mong tagal, at ang nababagong volume ay nagdadala ng mapayapang pahinga sa sanggol at magulang.",
@@ -412,6 +424,7 @@
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Windows App",
+      "seo": "PC Clipboard Manager",
       "desc": "Isang Windows tray clipboard manager na naka-sync sa Clipboard+ Android app.",
       "tagline": "Isang Windows tray clipboard manager na naka-sync sa Android phone mo sa pamamagitan ng sarili mong Google Drive.",
       "long": "Ang Clipboard+ for Windows ay isang tray-resident na clipboard manager na awtomatikong nagre-record ng teksto at larawan na kinokopya mo. Ginagamit nito ang parehong format ng data ng Android Clipboard+ app, kaya nag-sync nang bidirectional ang phone at PC mo sa pamamagitan ng sarili mong Google Drive (isang app-private na nakatagong folder) nang walang dedikadong server. Kinukuha nito ang mga clip sa pamamagitan ng native na Windows clipboard event nang walang polling, at binibigyang-daan kang ayusin ang teksto at larawan sa mga grupo at snippet at maghanap sa mga ito.",

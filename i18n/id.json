@@ -64,6 +64,7 @@
     "clipboard": {
       "name": "Clipboard+",
       "tag": "Clipboard",
+      "seo": "Pengelola Clipboard Android",
       "desc": "Menyimpan otomatis riwayat clipboard Anda untuk ditempel di mana saja, kapan saja.",
       "tagline": "Simpan otomatis setiap salinan dengan pengelola clipboard tercerdas untuk Android",
       "long": "Clipboard+ adalah pengelola clipboard Android yang secara otomatis menyimpan setiap teks dan gambar yang disalin secara real-time. Overlay mengambang yang bisa diubah ukurannya memungkinkan Anda mengakses riwayat clipboard dari layar mana pun tanpa berpindah aplikasi. Rapikan teks yang sering dipakai ke dalam snippet dan grup, lalu tempel klip apa pun dengan cepat lewat pencarian kata kunci, widget layar utama, dan panel notifikasi. Anda juga bisa mengekspor riwayat ke PDF serta mencadangkan atau memulihkan klip kapan saja.",
@@ -93,6 +94,7 @@
     "autostart": {
       "name": "AutoStart+",
       "tag": "Auto Start",
+      "seo": "Pengelola Auto Start Android",
       "desc": "Jalankan aplikasi otomatis saat booting. Tanpa root, cukup atur sekali.",
       "tagline": "Jalankan aplikasi otomatis begitu ponsel menyala. Tanpa root, atur sekali, berjalan selamanya.",
       "long": "AutoStart+ adalah pengelola auto start termudah untuk Android, yang menjalankan aplikasi pilihan Anda secara otomatis begitu perangkat menyala, tanpa perlu root. Atur sekali dan aplikasi Anda akan berjalan di setiap startup tanpa perlu ketukan manual. Versi gratis menjalankan otomatis 1 aplikasi, sedangkan PRO membuka aplikasi tanpa batas yang berjalan sesuai urutan yang Anda pilih. Aplikasi ini memberi tahu jika peluncuran gagal, dan memandu Anda melewati pengaturan auto start pada perangkat OEM seperti Samsung dan Xiaomi.",
@@ -122,6 +124,7 @@
     "floatcalc": {
       "name": "FloatCalc+",
       "tag": "Floating",
+      "seo": "Kalkulator Mengambang Android",
       "desc": "Kalkulator mengambang, konverter kurs & satuan di atas aplikasi apa pun.",
       "tagline": "Kalkulator mengambang yang tetap di atas aplikasi apa pun sehingga Anda tak perlu keluar untuk berhitung.",
       "long": "FloatCalc+ adalah kalkulator mengambang yang tetap berada di atas aplikasi apa pun, sehingga Anda tak perlu berpindah layar hanya untuk berhitung cepat. Konverter mata uang bawaan, konverter satuan, dan memo cepat semuanya bekerja langsung di dalam jendela overlay. Seret jendela ke mana pun Anda butuhkan, lalu salin hasilnya atau simpan ke memo dengan satu ketukan. Ringan, cepat, dan berfungsi offline (kurs disimpan cache setiap hari).",
@@ -151,6 +154,7 @@
     "floatcrypto": {
       "name": "FloatCrypto+",
       "tag": "Floating",
+      "seo": "Harga Bitcoin Mengambang",
       "desc": "Harga Bitcoin & kripto langsung mengambang di atas aplikasi apa pun.",
       "tagline": "Biarkan harga Bitcoin langsung mengambang di layar Anda — 100% gratis.",
       "long": "FloatCrypto+ menampilkan ticker kripto real-time mengambang di atas aplikasi apa pun — YouTube, Chrome, game, Telegram — sehingga Anda bisa memantau BTC, ETH, SOL, XRP, DOGE, BNB dan 1.000+ altcoin tanpa perlu berpindah aplikasi. Didukung data pasar Binance dengan cadangan CoinGecko, aplikasi ini menambahkan grafik langsung, peringatan harga, dan watchlist dalam satu tempat. 100% gratis tanpa login, tanpa email, dan tanpa dompet — siap dipakai dalam hitungan detik.",
@@ -180,6 +184,7 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Floating",
+      "seo": "Timer Mengambang & Pomodoro",
       "desc": "Timer interval, Pomodoro & multi-timer mengambang di atas aplikasi apa pun.",
       "tagline": "Timer interval, Pomodoro, dan multi-timer, penghitung, serta stopwatch yang mengambang di atas setiap aplikasi.",
       "long": "FloatTimer+ adalah aplikasi overlay mengambang yang menjaga timer interval, multi-timer, penghitung, dan stopwatch tetap di atas aplikasi apa pun yang Anda pakai. Timer Anda tetap terlihat saat menjalankan banyak tugas, dan Anda bisa menyeretnya ke mana pun di layar sambil menyesuaikan ukuran, opasitas, dan warna latarnya. Aplikasi berjalan di latar belakang, jadi terus berjalan meski Anda berpindah aplikasi atau mengunci layar. Atur sekali dan lanjutkan memasak, berolahraga, belajar, atau bermain game tanpa pernah kehilangan pandangan atas timer Anda.",
@@ -209,6 +214,7 @@
     "volumebooster": {
       "name": "VolumeBooster+",
       "tag": "Audio",
+      "seo": "Penguat Volume & Equalizer",
       "desc": "Penguat volume, equalizer & bass boost dengan dB nyata yang terukur.",
       "tagline": "Buat setiap aplikasi lebih keras dalam desibel nyata yang terukur — bukan 200% yang tak bermakna.",
       "long": "VolumeBooster+ adalah penguat volume yang menaikkan seluruh output sistem — speaker pelan, earphone lemah, video sulit didengar, panggilan, musik, dan game — sehingga akhirnya Anda bisa mendengarnya dengan jelas. Aplikasi ini menguatkan dalam desibel sungguhan (0 hingga +15 dB) alih-alih \"200%\" yang tak bermakna, dan menampilkan zona Aman / Hati-hati / Bahaya berbasis WHO agar Anda bisa menaikkan volume sambil melindungi pendengaran. Aplikasi ini menggabungkan equalizer 5 band, penguat bass, virtualizer 3D, dan koreksi headphone AutoEQ dalam satu aplikasi.",
@@ -238,6 +244,7 @@
     "photocleaner": {
       "name": "PhotoCleaner+",
       "tag": "Privasi",
+      "seo": "Masker Foto & PDF Privasi",
       "desc": "Sembunyikan info pribadi di foto & PDF, sepenuhnya di perangkat.",
       "tagline": "Sembunyikan info pribadi di foto dan PDF dengan masker padat, sepenuhnya di perangkat Anda.",
       "long": "PhotoCleaner+ menyembunyikan informasi pribadi di foto dan PDF sepenuhnya di perangkat Anda. Aplikasi menutup area sensitif dengan masker padat yang tidak tembus pandang (bukan blur atau mosaik, sehingga area yang tertutup tidak bisa dipulihkan) dan mengekspor salinan yang bersih. Detektor bawaan menyarankan teks yang kemungkinan sensitif seperti nomor identitas, kartu, nomor telepon, dan email sebagai titik awal, tetapi Anda menggambar dan menyesuaikan masker secara manual untuk menentukan persis apa yang disembunyikan. Tidak ada foto yang diunggah, semuanya berjalan offline, dan tidak ada izin galeri atau penyimpanan yang diminta.",
@@ -267,6 +274,7 @@
     "secretalbum": {
       "name": "SecretAlbum+",
       "tag": "Privasi",
+      "seo": "Brankas Foto & Video dengan PIN",
       "desc": "Sembunyikan foto & video dengan enkripsi AES-256 dan kunci PIN.",
       "tagline": "Sembunyikan dan lindungi foto serta video Anda dengan enkripsi AES-256 dan kunci PIN.",
       "long": "SecretAlbum+ adalah brankas pribadi yang melindungi foto dan video berharga Anda dengan enkripsi AES-256 tingkat militer. Aplikasi bekerja sepenuhnya offline di perangkat Anda dan tidak pernah mengunggah file ke server eksternal mana pun. Setiap file yang Anda impor langsung dienkripsi dan tidak bisa diakses tanpa kunci pribadi Anda, hilang sepenuhnya dari galeri tanpa meninggalkan jejak. Anda bahkan bisa menyamarkan ikon aplikasi menjadi aplikasi Kalkulator, Catatan, Cuaca, atau Jam sehingga tak ada yang tahu aplikasi ini terpasang.",
@@ -296,6 +304,7 @@
     "readfocus": {
       "name": "ReadFocus+",
       "tag": "Aksesibilitas",
+      "seo": "Alat Bantu Baca Disleksia & ADHD",
       "desc": "Alat bantu baca untuk disleksia & ADHD dengan sorotan baris & masker.",
       "tagline": "Alat bantu baca untuk disleksia & ADHD: sorotan baris dan masker baca menjaga mata Anda tetap pada jalur dan meredakan mata lelah.",
       "long": "ReadFocus+ adalah penggaris baca, masker baca, dan alat bantu baca untuk disleksia dan ADHD di Android. Berikan izin overlay satu kali dan sebuah strip fokus tembus cahaya akan mengambang di atas aplikasi apa pun — pembaca ebook, browser, PDF, berita, komik — menjaga mata Anda tetap pada baris yang sedang dibaca. Ini mengurangi melewati atau membaca ulang baris yang sama, meredakan mata lelah serta meningkatkan konsentrasi dan efisiensi membaca.",
@@ -325,6 +334,7 @@
     "colorcards": {
       "name": "Color Cards+",
       "tag": "Anak",
+      "seo": "Kartu Flash Warna Balita",
       "desc": "Kartu flash warna berbicara yang membantu balita belajar warna.",
       "tagline": "Kartu flash warna berbicara tempat balita melihat, mendengar, dan menirukan untuk belajar warna",
       "long": "Color Cards+ adalah aplikasi kartu flash warna berbicara dan mendengar untuk balita. Aplikasi menampilkan kartu objek yang ramah anak dalam enam warna (merah, biru, kuning, hijau, oranye, dan ungu) dan membacakan setiap nama dengan suara agar anak bisa menirukan dan belajar warna secara alami. Berbagai mode belajar seperti putar otomatis, sembunyikan kata, acak kartu, dan tampilan dwibahasa didukung dalam banyak bahasa. Lingkungan yang bersih tanpa gangguan membantu anak Anda tetap fokus saat belajar.",
@@ -354,6 +364,7 @@
     "wordcards": {
       "name": "Word Cards+",
       "tag": "Anak",
+      "seo": "Kartu Flash Kata untuk Balita",
       "desc": "Kartu flash untuk balita berbicara dan mendengar kata.",
       "tagline": "Kata pertama anak Anda — lihat, dengar, dan ucapkan dengan kartu.",
       "long": "Word Cards+ adalah aplikasi kartu flash bergambar yang membantu balita belajar kata dengan cara yang menyenangkan. Dengan kartu lucu bertema familier seperti hewan, buah, kendaraan, dan benda sehari-hari, anak bisa melihat setiap gambar, mendengar kata, dan mengucapkannya dengan lantang. Latar putih bersih dan ilustrasi jelas membantu si kecil fokus pada setiap objek dan menumbuhkan kosakata secara alami.",
@@ -383,6 +394,7 @@
     "sleepbaby": {
       "name": "SleepBaby+",
       "tag": "Pengasuhan",
+      "seo": "Lagu Nina Bobo & White Noise",
       "desc": "Lagu nina bobo menenangkan dan white noise untuk membantu bayi tidur.",
       "tagline": "Lagu nina bobo menenangkan dan white noise untuk membantu bayi Anda tidur.",
       "long": "SleepBaby+ adalah aplikasi lagu nina bobo dan white noise yang membantu bayi Anda tertidur dengan tenang. Aplikasi menawarkan suara menenangkan seperti Lagu Nina Bobo Brahms, deburan ombak lembut, aliran sungai lembah, dan gemeretak api unggun. Timer tidur bawaan menghentikan pemutaran otomatis setelah durasi yang Anda pilih, dan volume yang bisa disesuaikan menghadirkan istirahat damai bagi bayi maupun orang tua.",
@@ -412,6 +424,7 @@
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Windows App",
+      "seo": "Pengelola Clipboard PC",
       "desc": "Pengelola clipboard tray Windows yang tersinkron dengan aplikasi Android Clipboard+.",
       "tagline": "Pengelola clipboard tray Windows yang tersinkron dengan ponsel Android Anda melalui Google Drive Anda sendiri.",
       "long": "Clipboard+ for Windows adalah pengelola clipboard yang tinggal di tray dan secara otomatis merekam teks serta gambar yang Anda salin. Aplikasi ini memakai format data yang sama dengan aplikasi Android Clipboard+, sehingga ponsel dan PC Anda tersinkron dua arah melalui Google Drive Anda sendiri (folder tersembunyi khusus aplikasi) tanpa server khusus. Aplikasi menangkap klip lewat event clipboard Windows native tanpa polling, dan memungkinkan Anda merapikan teks serta gambar ke dalam grup dan snippet lalu mencarinya.",

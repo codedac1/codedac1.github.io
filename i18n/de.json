@@ -64,6 +64,7 @@
     "clipboard": {
       "name": "Clipboard+",
       "tag": "Zwischenablage",
+      "seo": "Zwischenablage-Manager für Android",
       "desc": "Speichert deinen Zwischenablage-Verlauf automatisch, damit du ihn jederzeit überall einfügen kannst.",
       "tagline": "Speichere jede Kopie automatisch – mit dem smartesten Zwischenablage-Manager für Android",
       "long": "Clipboard+ ist ein Zwischenablage-Manager für Android, der jeden kopierten Text und jedes Bild automatisch in Echtzeit speichert. Ein größenverstellbares schwebendes Overlay lässt dich deinen Zwischenablage-Verlauf von jedem Bildschirm aus erreichen, ohne die App zu wechseln. Ordne häufig genutzte Texte in Snippets und Gruppen und füge jeden Eintrag blitzschnell ein – per Stichwortsuche, Startbildschirm-Widget und Benachrichtigungsleiste. Du kannst deinen Verlauf zudem als PDF exportieren und deine Einträge jederzeit sichern oder wiederherstellen.",
@@ -93,6 +94,7 @@
     "autostart": {
       "name": "AutoStart+",
       "tag": "Automatischer Start",
+      "seo": "Autostart-Manager für Android",
       "desc": "Starte deine Apps automatisch beim Hochfahren. Kein Root nötig, einmal einrichten.",
       "tagline": "Starte deine Apps automatisch, sobald dein Handy hochfährt. Kein Root, einmal einrichten, läuft für immer.",
       "long": "AutoStart+ ist der einfachste Autostart-Manager für Android und startet deine ausgewählten Apps automatisch in dem Moment, in dem dein Gerät hochfährt – ganz ohne Root. Einmal einrichten, und deine Apps starten bei jedem Hochfahren ohne manuelles Tippen. Die kostenlose Version startet 1 App automatisch, während PRO unbegrenzt viele Apps in der von dir gewählten Reihenfolge freischaltet. Sie benachrichtigt dich, falls ein Start fehlschlägt, und führt dich durch die Autostart-Einstellungen auf OEM-Geräten wie Samsung und Xiaomi.",
@@ -122,6 +124,7 @@
     "floatcalc": {
       "name": "FloatCalc+",
       "tag": "Schwebend",
+      "seo": "Schwebender Rechner für Android",
       "desc": "Ein schwebender Rechner, Währungs- & Einheitenrechner über jeder App.",
       "tagline": "Ein schwebender Rechner, der über jeder App bleibt, damit du zum Rechnen nie die App verlässt.",
       "long": "FloatCalc+ ist ein schwebender Rechner, der über jeder App bleibt, sodass du für schnelle Berechnungen nie den Bildschirm wechseln musst. Ein integrierter Währungsrechner, Einheitenrechner und eine Schnellnotiz funktionieren alle direkt im Overlay-Fenster. Zieh das Fenster an eine beliebige Stelle und kopiere Ergebnisse oder speichere sie mit einem Tippen als Notiz. Er ist leicht, schnell und funktioniert offline (Wechselkurse werden täglich zwischengespeichert).",
@@ -151,6 +154,7 @@
     "floatcrypto": {
       "name": "FloatCrypto+",
       "tag": "Schwebend",
+      "seo": "Schwebender Bitcoin-Ticker",
       "desc": "Live-Kurse für Bitcoin & Krypto, schwebend über jeder App.",
       "tagline": "Behalte den Live-Bitcoin-Kurs schwebend auf deinem Bildschirm – 100 % kostenlos.",
       "long": "FloatCrypto+ lässt einen Echtzeit-Krypto-Ticker über jeder App schweben – YouTube, Chrome, Spiele, Telegram – sodass du BTC, ETH, SOL, XRP, DOGE, BNB und über 1.000 Altcoins verfolgen kannst, ohne je die App zu wechseln. Angetrieben von Binance-Marktdaten mit CoinGecko als Fallback, bringt es Live-Charts, Preisalarme und eine Watchlist an einem Ort zusammen. Es ist 100 % kostenlos – ohne Login, ohne E-Mail und ohne Wallet – und in Sekunden einsatzbereit.",
@@ -180,6 +184,7 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Schwebend",
+      "seo": "Schwebender Intervall-Timer",
       "desc": "Ein schwebender Intervall-, Pomodoro- & Multi-Timer über jeder App.",
       "tagline": "Ein Intervall-, Pomodoro- und Multi-Timer, Zähler und Stoppuhr, der über jeder App schwebt.",
       "long": "FloatTimer+ ist eine schwebende Overlay-App, die einen Intervall-Timer, Multi-Timer, Zähler und eine Stoppuhr über jeder App hält, die du nutzt. Dein Timer bleibt sichtbar, während du mehreres gleichzeitig erledigst, und du kannst ihn überall auf den Bildschirm ziehen und dabei Größe, Deckkraft und Hintergrundfarbe anpassen. Er läuft im Hintergrund weiter, auch wenn du die App wechselst oder den Bildschirm sperrst. Einmal einstellen und weiter kochen, trainieren, lernen oder spielen, ohne deinen Timer je aus den Augen zu verlieren.",
@@ -209,6 +214,7 @@
     "volumebooster": {
       "name": "VolumeBooster+",
       "tag": "Audio",
+      "seo": "Lautstärke-Booster & Equalizer",
       "desc": "Lautstärke-Booster, Equalizer & Bass-Boost mit echten, gemessenen dB.",
       "tagline": "Mach jede App lauter – in echten, gemessenen Dezibel, nicht in bedeutungslosen 200 %.",
       "long": "VolumeBooster+ ist ein Lautstärke-Booster, der deine gesamte Systemausgabe anhebt – leise Lautsprecher, schwache Ohrhörer, schwer verständliche Videos, Anrufe, Musik und Spiele – damit du sie endlich klar hörst. Er verstärkt in echten Dezibel (0 bis +15 dB) statt in einem bedeutungslosen „200 %“ und zeigt WHO-basierte Zonen für Sicher / Vorsicht / Gefahr, sodass du lauter drehen und dabei dein Gehör schützen kannst. Er vereint einen 5-Band-Equalizer, Bass-Booster, 3D-Virtualizer und AutoEQ-Kopfhörerkorrektur in einer einzigen App.",
@@ -238,6 +244,7 @@
     "photocleaner": {
       "name": "PhotoCleaner+",
       "tag": "Datenschutz",
+      "seo": "Persönliche Daten maskieren",
       "desc": "Verbirg persönliche Daten in Fotos & PDFs, komplett auf dem Gerät.",
       "tagline": "Verbirg persönliche Daten in Fotos und PDFs mit einer deckenden Maske, komplett auf deinem Gerät.",
       "long": "PhotoCleaner+ verbirgt persönliche Daten in Fotos und PDFs vollständig auf deinem Gerät. Es überdeckt sensible Bereiche mit einer deckenden, undurchsichtigen Maske (keine Unschärfe oder Verpixelung, sodass überdeckte Bereiche nicht wiederhergestellt werden können) und exportiert eine saubere Kopie. Ein integrierter Detektor schlägt wahrscheinlich sensible Texte wie Ausweisnummern, Karten, Telefonnummern und E-Mails als Ausgangspunkt vor, doch du zeichnest und passt die Masken selbst an und entscheidest genau, was verborgen wird. Kein Foto wird je hochgeladen, alles läuft offline, und es wird niemals eine Galerie- oder Speicherberechtigung angefordert.",
@@ -267,6 +274,7 @@
     "secretalbum": {
       "name": "SecretAlbum+",
       "tag": "Datenschutz",
+      "seo": "Foto-Tresor mit PIN-Sperre",
       "desc": "Verbirg Fotos & Videos mit AES-256-Verschlüsselung und PIN-Sperre.",
       "tagline": "Verbirg und schütze deine Fotos und Videos mit AES-256-Verschlüsselung und einer PIN-Sperre.",
       "long": "SecretAlbum+ ist ein privater Tresor, der deine wertvollen Fotos und Videos mit AES-256-Verschlüsselung in Militärqualität schützt. Er arbeitet vollständig offline auf deinem Gerät und lädt niemals Dateien auf einen externen Server hoch. Jede Datei, die du importierst, wird sofort verschlüsselt und ist ohne deinen persönlichen Schlüssel nicht zugänglich – sie verschwindet vollständig aus deiner Galerie, ohne Spuren zu hinterlassen. Du kannst das App-Symbol sogar als Rechner-, Notizen-, Wetter- oder Uhr-App tarnen, sodass niemand weiß, dass sie installiert ist.",
@@ -296,6 +304,7 @@
     "readfocus": {
       "name": "ReadFocus+",
       "tag": "Barrierefreiheit",
+      "seo": "Lesehilfe bei Legasthenie & ADHS",
       "desc": "Eine Lesehilfe bei Legasthenie & ADHS mit Zeilenhervorhebung & Lesemaske.",
       "tagline": "Eine Lesehilfe bei Legasthenie & ADHS: Zeilenhervorhebung und Lesemaske halten deine Augen in der Spur und lindern die Augenermüdung.",
       "long": "ReadFocus+ ist ein Leselineal, eine Lesemaske und eine Lesehilfe bei Legasthenie und ADHS für Android. Erteile einmal die Overlay-Berechtigung, und ein durchscheinender Fokusstreifen schwebt über jeder App – E-Book-Reader, Browser, PDF, Nachrichten, Comics – und hält deine Augen in der Zeile, die du gerade liest. Das reduziert das Überspringen oder wiederholte Lesen derselben Zeile, lindert die Augenermüdung und steigert Lesekonzentration und -effizienz.",
@@ -325,6 +334,7 @@
     "colorcards": {
       "name": "Color Cards+",
       "tag": "Kinder",
+      "seo": "Farb-Lernkarten für Kinder",
       "desc": "Sprechende Farb-Lernkarten, die Kleinkindern helfen, Farben zu lernen.",
       "tagline": "Sprechende Farb-Lernkarten, bei denen Kleinkinder sehen, hören und nachsprechen, um Farben zu lernen",
       "long": "Color Cards+ ist eine sprechende, zuhörende Farb-Lernkarten-App für Kleinkinder. Sie zeigt kindgerechte Objektkarten in sechs Farben (Rot, Blau, Gelb, Grün, Orange und Lila) und liest jeden Namen laut vor, damit Kinder nachsprechen und Farben ganz natürlich lernen. Mehrere Lernmodi wie automatische Wiedergabe, Wort ausblenden, Karten mischen und eine zweisprachige Ansicht werden in vielen Sprachen unterstützt. Eine klare, ablenkungsfreie Umgebung hilft deinem Kind, beim Lernen konzentriert zu bleiben.",
@@ -354,6 +364,7 @@
     "wordcards": {
       "name": "Word Cards+",
       "tag": "Kinder",
+      "seo": "Wörter-Lernkarten für Kinder",
       "desc": "Lernkarten für Kleinkinder, um Wörter zu sprechen und zu hören.",
       "tagline": "Die ersten Wörter deines Kindes – sehen, hören und mit Karten aussprechen.",
       "long": "Word Cards+ ist eine Bild-Lernkarten-App, die Kleinkindern hilft, Wörter auf spielerische Weise zu lernen. Mit niedlichen Karten zu vertrauten Themen wie Tieren, Früchten, Fahrzeugen und Alltagsgegenständen können Kinder jedes Bild betrachten, das Wort hören und es laut aussprechen. Klare weiße Hintergründe und deutliche Illustrationen helfen den Kleinen, sich auf jedes Objekt zu konzentrieren und ihren Wortschatz ganz natürlich zu erweitern.",
@@ -383,6 +394,7 @@
     "sleepbaby": {
       "name": "SleepBaby+",
       "tag": "Elternschaft",
+      "seo": "Schlaflieder & weißes Rauschen",
       "desc": "Beruhigende Schlaflieder und weißes Rauschen, damit dein Baby einschläft.",
       "tagline": "Beruhigende Schlaflieder und weißes Rauschen, damit dein Baby einschläft.",
       "long": "SleepBaby+ ist eine Schlaflied- und Weißes-Rauschen-App, die deinem Baby hilft, friedlich einzuschlafen. Sie bietet beruhigende Klänge wie Brahms' Wiegenlied, sanfte Meereswellen, einen plätschernden Bach im Tal und ein knisterndes Lagerfeuer. Ein integrierter Sleep-Timer stoppt die Wiedergabe automatisch nach der von dir gewählten Dauer, und die einstellbare Lautstärke bringt Baby und Eltern gleichermaßen erholsame Ruhe.",
@@ -412,6 +424,7 @@
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Windows-App",
+      "seo": "Zwischenablage-Manager",
       "desc": "Ein Windows-Tray-Zwischenablage-Manager, der sich mit der Android-App Clipboard+ synchronisiert.",
       "tagline": "Ein Windows-Tray-Zwischenablage-Manager, der sich über dein eigenes Google Drive mit deinem Android-Handy synchronisiert.",
       "long": "Clipboard+ for Windows ist ein im Tray ansässiger Zwischenablage-Manager, der die von dir kopierten Texte und Bilder automatisch aufzeichnet. Er nutzt dasselbe Datenformat wie die Android-App Clipboard+, sodass sich dein Handy und dein PC über dein eigenes Google Drive (einen app-privaten, versteckten Ordner) bidirektional synchronisieren – ganz ohne eigenen Server. Er erfasst Einträge über native Windows-Zwischenablage-Ereignisse ohne Polling und lässt dich Texte und Bilder in Gruppen und Snippets ordnen und darin suchen.",

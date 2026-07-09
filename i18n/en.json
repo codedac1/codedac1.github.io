@@ -64,6 +64,7 @@
     "clipboard": {
       "name": "Clipboard+",
       "tag": "Clipboard",
+      "seo": "Android Clipboard Manager",
       "desc": "Auto-saves your clipboard history to paste anywhere, anytime.",
       "tagline": "Auto-save every copy with the smartest clipboard manager for Android",
       "long": "Clipboard+ is an Android clipboard manager that automatically saves every copied text and image in real time. A resizable floating overlay lets you reach your clipboard history from any screen without switching apps. Organize frequently used text into snippets and groups, and paste any clip fast with keyword search, a home screen widget, and a notification panel. You can also export your history to PDF and back up or restore your clips anytime.",
@@ -93,6 +94,7 @@
     "autostart": {
       "name": "AutoStart+",
       "tag": "Auto Start",
+      "seo": "Auto Start Manager for Android",
       "desc": "Auto-launch your apps on boot. No root required, set once.",
       "tagline": "Auto start your apps the moment your phone boots. No root, set once, runs forever.",
       "long": "AutoStart+ is the easiest auto start manager for Android, launching your selected apps automatically the moment your device boots up, with no root required. Set it once and your apps launch at every startup without any manual tapping. The free version auto starts 1 app, while PRO unlocks unlimited apps launched in the order you choose. It notifies you if a launch fails, and guides you through the auto start settings on OEM devices like Samsung and Xiaomi.",
@@ -122,6 +124,7 @@
     "floatcalc": {
       "name": "FloatCalc+",
       "tag": "Floating",
+      "seo": "Floating Calculator for Android",
       "desc": "A floating calculator, FX & unit converter on top of any app.",
       "tagline": "A floating calculator that stays on top of any app so you never leave to do the math.",
       "long": "FloatCalc+ is a floating calculator that stays on top of any app, so you never have to switch screens just to do quick math. A built-in currency converter, unit converter, and quick memo all work right inside the overlay window. Drag the window wherever you need it, then copy results or save them to a memo with a single tap. It's lightweight, fast, and works offline (FX rates are cached daily).",
@@ -151,6 +154,7 @@
     "floatcrypto": {
       "name": "FloatCrypto+",
       "tag": "Floating",
+      "seo": "Floating Bitcoin Price Ticker",
       "desc": "Live Bitcoin & crypto prices floating over any app.",
       "tagline": "Keep the live Bitcoin price floating on your screen — 100% free.",
       "long": "FloatCrypto+ floats a real-time crypto ticker on top of any app — YouTube, Chrome, games, Telegram — so you can track BTC, ETH, SOL, XRP, DOGE, BNB and 1,000+ altcoins without ever switching apps. Powered by Binance market data with a CoinGecko fallback, it adds live charts, price alerts, and a watchlist in one place. It is 100% free with no login, no email, and no wallet required — ready to use in seconds.",
@@ -180,6 +184,7 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Floating",
+      "seo": "Floating Pomodoro Interval Timer",
       "desc": "A floating interval, Pomodoro & multi-timer over any app.",
       "tagline": "An interval, Pomodoro, and multi-timer, counter, and stopwatch that floats on top of every app.",
       "long": "FloatTimer+ is a floating overlay app that keeps an interval timer, multi-timer, counter, and stopwatch on top of any app you use. Your timer stays visible while you multitask, and you can drag it anywhere on screen while customizing its size, opacity, and background color. It runs in the background, so it keeps going even when you switch apps or lock the screen. Set it once and keep cooking, exercising, studying, or gaming without ever losing sight of your timer.",
@@ -209,6 +214,7 @@
     "volumebooster": {
       "name": "VolumeBooster+",
       "tag": "Audio",
+      "seo": "Volume Booster & Equalizer",
       "desc": "Volume booster, equalizer & bass boost with real, measured dB.",
       "tagline": "Make every app louder in real, measured decibels — not a meaningless 200%.",
       "long": "VolumeBooster+ is a volume booster that raises your entire system output — quiet speakers, low earphones, hard-to-hear videos, calls, music and games — so you finally hear them clearly. It boosts in true decibels (0 to +15 dB) rather than a meaningless \"200%\", and shows WHO-based Safe / Caution / Danger zones so you can turn things up while protecting your hearing. It combines a 5-band equalizer, bass booster, 3D virtualizer and AutoEQ headphone correction in a single app.",
@@ -238,6 +244,7 @@
     "photocleaner": {
       "name": "PhotoCleaner+",
       "tag": "Privacy",
+      "seo": "Photo & PDF Redaction Tool",
       "desc": "Hide personal info in photos & PDFs, fully on-device.",
       "tagline": "Hide personal info in photos and PDFs with a solid mask, entirely on your device.",
       "long": "PhotoCleaner+ hides personal information in photos and PDFs entirely on your device. It covers sensitive areas with a solid, opaque mask (not a blur or mosaic, so covered areas can't be recovered) and exports a clean copy. A built-in detector suggests likely sensitive text such as ID numbers, cards, phone numbers, and emails as a starting point, but you draw and adjust masks by hand to decide exactly what gets hidden. No photo is ever uploaded, everything runs offline, and no gallery or storage permission is ever requested.",
@@ -267,6 +274,7 @@
     "secretalbum": {
       "name": "SecretAlbum+",
       "tag": "Privacy",
+      "seo": "Hidden Photo Vault with PIN Lock",
       "desc": "Hide photos & videos with AES-256 encryption and a PIN lock.",
       "tagline": "Hide and protect your photos and videos with AES-256 encryption and a PIN lock.",
       "long": "SecretAlbum+ is a private vault that protects your precious photos and videos with military-grade AES-256 encryption. It works entirely offline on your device and never uploads files to any external server. Every file you import is encrypted instantly and cannot be accessed without your personal key, disappearing completely from your gallery with no traces left behind. You can even disguise the app icon as a Calculator, Notes, Weather, or Clock app so no one knows it is installed.",
@@ -296,6 +304,7 @@
     "readfocus": {
       "name": "ReadFocus+",
       "tag": "Accessibility",
+      "seo": "Reading Ruler for Dyslexia & ADHD",
       "desc": "A dyslexia & ADHD reading aid with line highlight & mask.",
       "tagline": "A dyslexia & ADHD reading aid: line highlight and reading mask keep your eyes on track and ease eye strain.",
       "long": "ReadFocus+ is a reading ruler, reading mask and reading aid for dyslexia and ADHD on Android. Grant the overlay permission once and a translucent focus strip floats on top of any app — ebook readers, browsers, PDF, news, comics — keeping your eyes on the line you're reading. It reduces skipping or re-reading the same row, easing eye strain and boosting reading concentration and efficiency.",
@@ -325,6 +334,7 @@
     "colorcards": {
       "name": "Color Cards+",
       "tag": "Kids",
+      "seo": "Color Flashcards for Toddlers",
       "desc": "Talking color flashcards that help toddlers learn colors.",
       "tagline": "Talking color flashcards where toddlers see, hear, and repeat to learn colors",
       "long": "Color Cards+ is a talking, listening color flashcard app for toddlers. It presents child-friendly object cards across six colors (red, blue, yellow, green, orange, and purple) and reads each name aloud so children can repeat along and learn colors naturally. Multiple learning modes such as auto play, hide word, card shuffle, and a bilingual view are supported across many languages. A clean, distraction-free environment helps your child stay focused while learning.",
@@ -354,6 +364,7 @@
     "wordcards": {
       "name": "Word Cards+",
       "tag": "Kids",
+      "seo": "Word Flashcards for Toddlers",
       "desc": "Flashcards for toddlers to speak and listen to words.",
       "tagline": "Your child's first words — see them, hear them, and say them with cards.",
       "long": "Word Cards+ is a picture flashcard app that helps toddlers learn words in a fun way. With cute cards on familiar themes like animals, fruits, vehicles, and everyday objects, children can look at each picture, hear the word, and say it out loud. Clean white backgrounds and clear illustrations help little ones focus on each object and naturally grow their vocabulary.",
@@ -383,6 +394,7 @@
     "sleepbaby": {
       "name": "SleepBaby+",
       "tag": "Parenting",
+      "seo": "Baby Lullabies & White Noise",
       "desc": "Soothing lullabies and white noise to help your baby sleep.",
       "tagline": "Soothing lullabies and white noise to help your baby sleep.",
       "long": "SleepBaby+ is a lullaby and white noise app that helps your baby fall asleep peacefully. It offers calming sounds such as Brahms' Lullaby, gentle ocean waves, a flowing valley stream, and a crackling bonfire. A built-in sleep timer stops playback automatically after your chosen duration, and adjustable volume brings peaceful rest to both baby and parents.",
@@ -412,6 +424,7 @@
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Windows App",
+      "seo": "Desktop Clipboard Manager",
       "desc": "A Windows tray clipboard manager that syncs with the Clipboard+ Android app.",
       "tagline": "A Windows tray clipboard manager that syncs with your Android phone through your own Google Drive.",
       "long": "Clipboard+ for Windows is a tray-resident clipboard manager that automatically records the text and images you copy. It shares the same data format as the Android Clipboard+ app, so your phone and PC sync bidirectionally through your own Google Drive (an app-private hidden folder) with no dedicated server. It captures clips via native Windows clipboard events without polling, and lets you organize text and images into groups and snippets and search across them.",

@@ -64,6 +64,7 @@
     "clipboard": {
       "name": "Clipboard+",
       "tag": "Área de transferência",
+      "seo": "gerenciador de área de transferência",
       "desc": "Salva automaticamente o histórico da área de transferência para colar em qualquer lugar, a qualquer hora.",
       "tagline": "Salve automaticamente tudo o que você copia com o gerenciador de área de transferência mais inteligente para Android",
       "long": "O Clipboard+ é um gerenciador de área de transferência para Android que salva automaticamente, em tempo real, todo texto e imagem copiados. Uma sobreposição flutuante redimensionável permite acessar o histórico da área de transferência em qualquer tela, sem trocar de app. Organize textos usados com frequência em snippets e grupos, e cole qualquer item rapidamente com busca por palavra-chave, widget na tela inicial e painel de notificações. Você também pode exportar o histórico para PDF e fazer backup ou restaurar seus itens a qualquer momento.",
@@ -93,6 +94,7 @@
     "autostart": {
       "name": "AutoStart+",
       "tag": "Início automático",
+      "seo": "gerenciador de início automático",
       "desc": "Inicie seus apps automaticamente ao ligar o celular. Sem root, configure uma vez.",
       "tagline": "Inicie seus apps automaticamente assim que o celular liga. Sem root, configure uma vez, funciona para sempre.",
       "long": "O AutoStart+ é o gerenciador de início automático mais fácil para Android, iniciando os apps selecionados automaticamente no instante em que o aparelho liga, sem precisar de root. Configure uma vez e seus apps abrem a cada inicialização, sem nenhum toque manual. A versão gratuita inicia 1 app automaticamente, enquanto a PRO libera apps ilimitados iniciados na ordem que você escolher. Ele avisa se uma inicialização falhar e orienta você nas configurações de início automático em aparelhos de fabricantes como Samsung e Xiaomi.",
@@ -122,6 +124,7 @@
     "floatcalc": {
       "name": "FloatCalc+",
       "tag": "Flutuante",
+      "seo": "calculadora flutuante",
       "desc": "Uma calculadora flutuante, com câmbio e conversor de unidades sobre qualquer app.",
       "tagline": "Uma calculadora flutuante que fica sobre qualquer app, para você nunca sair da tela só para fazer contas.",
       "long": "O FloatCalc+ é uma calculadora flutuante que fica sobre qualquer app, para você nunca precisar trocar de tela só para fazer uma conta rápida. Um conversor de moedas, um conversor de unidades e um bloco de notas rápido funcionam direto na janela de sobreposição. Arraste a janela para onde precisar e copie os resultados ou salve-os em uma nota com um único toque. É leve, rápida e funciona offline (as taxas de câmbio são armazenadas em cache diariamente).",
@@ -151,6 +154,7 @@
     "floatcrypto": {
       "name": "FloatCrypto+",
       "tag": "Flutuante",
+      "seo": "preço de Bitcoin flutuante",
       "desc": "Preços de Bitcoin e cripto ao vivo, flutuando sobre qualquer app.",
       "tagline": "Mantenha o preço do Bitcoin ao vivo flutuando na sua tela — 100% grátis.",
       "long": "O FloatCrypto+ deixa um ticker de cripto em tempo real flutuando sobre qualquer app — YouTube, Chrome, jogos, Telegram — para que você acompanhe BTC, ETH, SOL, XRP, DOGE, BNB e mais de 1.000 altcoins sem nunca trocar de app. Movido por dados de mercado da Binance, com a CoinGecko como fonte reserva, ele reúne gráficos ao vivo, alertas de preço e uma lista de favoritos em um só lugar. É 100% grátis, sem login, sem e-mail e sem carteira — pronto para usar em segundos.",
@@ -180,6 +184,7 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Flutuante",
+      "seo": "timer flutuante Pomodoro",
       "desc": "Um timer de intervalo, Pomodoro e multitimer flutuante sobre qualquer app.",
       "tagline": "Um timer de intervalo, Pomodoro e multitimer, contador e cronômetro que flutua sobre todos os apps.",
       "long": "O FloatTimer+ é um app de sobreposição flutuante que mantém um timer de intervalo, multitimer, contador e cronômetro sobre qualquer app que você usar. Seu timer fica visível enquanto você faz várias tarefas, e você pode arrastá-lo para qualquer lugar da tela, personalizando tamanho, opacidade e cor de fundo. Ele funciona em segundo plano, então continua rodando mesmo quando você troca de app ou bloqueia a tela. Configure uma vez e continue cozinhando, treinando, estudando ou jogando sem nunca perder o timer de vista.",
@@ -209,6 +214,7 @@
     "volumebooster": {
       "name": "VolumeBooster+",
       "tag": "Áudio",
+      "seo": "amplificador de volume",
       "desc": "Amplificador de volume, equalizador e reforço de graves com dB real e medido.",
       "tagline": "Deixe cada app mais alto em decibéis reais e medidos — não um 200% sem sentido.",
       "long": "O VolumeBooster+ é um amplificador de volume que aumenta toda a saída do sistema — alto-falantes fracos, fones baixos, vídeos difíceis de ouvir, chamadas, música e jogos — para você finalmente ouvir tudo com clareza. Ele amplifica em decibéis reais (0 a +15 dB), e não em um \"200%\" sem sentido, e mostra as zonas Segura / Atenção / Perigo baseadas na OMS, para você aumentar o som protegendo a audição. Reúne equalizador de 5 bandas, reforço de graves, virtualizador 3D e correção de fone AutoEQ em um único app.",
@@ -238,6 +244,7 @@
     "photocleaner": {
       "name": "PhotoCleaner+",
       "tag": "Privacidade",
+      "seo": "máscara de dados em fotos e PDF",
       "desc": "Oculte dados pessoais em fotos e PDFs, totalmente no aparelho.",
       "tagline": "Oculte dados pessoais em fotos e PDFs com uma máscara sólida, inteiramente no seu aparelho.",
       "long": "O PhotoCleaner+ oculta dados pessoais em fotos e PDFs inteiramente no seu aparelho. Ele cobre áreas sensíveis com uma máscara sólida e opaca (não é desfoque nem mosaico, então as áreas cobertas não podem ser recuperadas) e exporta uma cópia limpa. Um detector integrado sugere textos provavelmente sensíveis, como números de documento, cartões, telefones e e-mails, como ponto de partida, mas você desenha e ajusta as máscaras à mão para decidir exatamente o que será ocultado. Nenhuma foto é enviada para a nuvem, tudo funciona offline, e nenhuma permissão de galeria ou armazenamento é solicitada.",
@@ -267,6 +274,7 @@
     "secretalbum": {
       "name": "SecretAlbum+",
       "tag": "Privacidade",
+      "seo": "cofre privado de fotos e vídeos",
       "desc": "Oculte fotos e vídeos com criptografia AES-256 e bloqueio por PIN.",
       "tagline": "Oculte e proteja suas fotos e vídeos com criptografia AES-256 e bloqueio por PIN.",
       "long": "O SecretAlbum+ é um cofre privado que protege suas fotos e vídeos preciosos com criptografia AES-256 de nível militar. Ele funciona inteiramente offline no seu aparelho e nunca envia arquivos para nenhum servidor externo. Cada arquivo importado é criptografado na hora e não pode ser acessado sem sua chave pessoal, desaparecendo por completo da galeria, sem deixar rastros. Você pode até disfarçar o ícone do app como uma Calculadora, Notas, Clima ou Relógio, para que ninguém saiba que ele está instalado.",
@@ -296,6 +304,7 @@
     "readfocus": {
       "name": "ReadFocus+",
       "tag": "Acessibilidade",
+      "seo": "régua de leitura para dislexia",
       "desc": "Um apoio à leitura para dislexia e TDAH, com destaque de linha e máscara.",
       "tagline": "Um apoio à leitura para dislexia e TDAH: destaque de linha e máscara de leitura mantêm seus olhos no rumo e aliviam o cansaço visual.",
       "long": "O ReadFocus+ é uma régua de leitura, máscara de leitura e apoio à leitura para dislexia e TDAH no Android. Conceda a permissão de sobreposição uma vez e uma faixa de foco translúcida flutua sobre qualquer app — leitores de e-books, navegadores, PDF, notícias, quadrinhos — mantendo seus olhos na linha que você está lendo. Isso reduz o pular ou reler a mesma linha, aliviando o cansaço visual e aumentando a concentração e a eficiência na leitura.",
@@ -325,6 +334,7 @@
     "colorcards": {
       "name": "Color Cards+",
       "tag": "Infantil",
+      "seo": "cartões de cores para crianças",
       "desc": "Cartões falantes de cores que ajudam crianças pequenas a aprender as cores.",
       "tagline": "Cartões falantes de cores em que a criança vê, ouve e repete para aprender as cores",
       "long": "O Color Cards+ é um app de cartões de cores que fala e ouve, feito para crianças pequenas. Ele apresenta cartões de objetos adequados às crianças em seis cores (vermelho, azul, amarelo, verde, laranja e roxo) e lê cada nome em voz alta, para que a criança repita junto e aprenda as cores de forma natural. Vários modos de aprendizado, como reprodução automática, ocultar a palavra, embaralhar cartões e uma visualização bilíngue, são oferecidos em muitos idiomas. Um ambiente limpo e sem distrações ajuda a criança a manter o foco enquanto aprende.",
@@ -354,6 +364,7 @@
     "wordcards": {
       "name": "Word Cards+",
       "tag": "Infantil",
+      "seo": "cartões de palavras para crianças",
       "desc": "Cartões para crianças pequenas falarem e ouvirem palavras.",
       "tagline": "As primeiras palavras da sua criança — ver, ouvir e dizer com cartões.",
       "long": "O Word Cards+ é um app de cartões ilustrados que ajuda crianças pequenas a aprender palavras de um jeito divertido. Com cartões fofos sobre temas familiares, como animais, frutas, veículos e objetos do dia a dia, a criança pode olhar cada imagem, ouvir a palavra e dizê-la em voz alta. Fundos brancos e limpos e ilustrações nítidas ajudam os pequenos a focar em cada objeto e a ampliar o vocabulário de forma natural.",
@@ -383,6 +394,7 @@
     "sleepbaby": {
       "name": "SleepBaby+",
       "tag": "Maternidade",
+      "seo": "canções de ninar e ruído branco",
       "desc": "Canções de ninar suaves e ruído branco para ajudar seu bebê a dormir.",
       "tagline": "Canções de ninar suaves e ruído branco para ajudar seu bebê a dormir.",
       "long": "O SleepBaby+ é um app de canções de ninar e ruído branco que ajuda seu bebê a adormecer tranquilamente. Ele oferece sons calmantes, como a Canção de Ninar de Brahms, ondas suaves do mar, um riacho corrente de vale e uma fogueira crepitante. Um timer de sono integrado interrompe a reprodução automaticamente após o tempo escolhido, e o volume ajustável traz um descanso tranquilo tanto para o bebê quanto para os pais.",
@@ -412,6 +424,7 @@
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "App para Windows",
+      "seo": "área de transferência",
       "desc": "Um gerenciador de área de transferência na bandeja do Windows que sincroniza com o app Clipboard+ para Android.",
       "tagline": "Um gerenciador de área de transferência na bandeja do Windows que sincroniza com seu Android pelo seu próprio Google Drive.",
       "long": "O Clipboard+ for Windows é um gerenciador de área de transferência residente na bandeja que registra automaticamente os textos e imagens que você copia. Ele compartilha o mesmo formato de dados do app Clipboard+ para Android, então seu celular e seu PC sincronizam de forma bidirecional pelo seu próprio Google Drive (uma pasta oculta privada do app), sem servidor dedicado. Ele captura os itens por meio de eventos nativos da área de transferência do Windows, sem polling, e permite organizar textos e imagens em grupos e snippets, além de pesquisá-los.",
