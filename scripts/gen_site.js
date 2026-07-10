@@ -100,9 +100,7 @@ const LEGACY_ROOT_DIR = 'en';
 const LANG_ALIAS = { tl: 'fil' };
 
 // schema.org applicationCategory (slug 기준)
-const APP_SCHEMA_CAT = {
-  wordcards: 'EducationalApplication',
-};
+const APP_SCHEMA_CAT = {};
 const schemaCat = (slug) => APP_SCHEMA_CAT[slug] || 'UtilitiesApplication';
 
 // --- 데이터 로드 ---

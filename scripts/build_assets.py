@@ -25,7 +25,6 @@ APPS = {
     "readfocus":     (r"ReadFocus\Resource\icon_512.png", r"ReadFocus\Resource\screenshots\en", "*.png"),
     "secretalbum":   (r"SecretAlbum\SecretAlbum\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"SecretAlbum\Resource", "screenshot_en_*.png"),
     "volumebooster": (r"VolumeBooster\Resource\icon_512.png", r"VolumeBooster\Resource\play_store\en", "*.png"),
-    "wordcards":     (r"WordCards\WordCards\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"WordCards\Resource\PlayStore등록자료\en_Samsung Galaxy S21 (1620x2880)", "*.png"),
 }
 
 def rounded_mask(size, radius):
