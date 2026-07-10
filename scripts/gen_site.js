@@ -101,7 +101,6 @@ const LANG_ALIAS = { tl: 'fil' };
 
 // schema.org applicationCategory (slug 기준)
 const APP_SCHEMA_CAT = {
-  colorcards: 'EducationalApplication',
   wordcards: 'EducationalApplication',
 };
 const schemaCat = (slug) => APP_SCHEMA_CAT[slug] || 'UtilitiesApplication';

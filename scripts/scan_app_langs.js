@@ -19,7 +19,7 @@ const PROJECT = {
   clipboard: 'Clipboard', autostart: 'AutoStart', floatcalc: 'FloatCalc',
   floatcrypto: 'FloatCrypto', floattimer: 'FloatTimer', volumebooster: 'VolumeBooster',
   photocleaner: 'PhotoCleaner', secretalbum: 'SecretAlbum', readfocus: 'ReadFocus',
-  colorcards: 'ColorCards', wordcards: 'WordCards',
+  wordcards: 'WordCards',
 };
 
 // 구식/변형 코드 → 표준 2글자 언어 코드

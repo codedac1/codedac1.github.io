@@ -5,8 +5,8 @@
     "country": "us"
   },
   "aggregate": {
-    "publishedApps": 10,
-    "totalMinInstalls": 12050,
+    "publishedApps": 9,
+    "totalMinInstalls": 12000,
     "totalRatings": 190,
     "avgScore": 3.91
   },
@@ -66,13 +66,6 @@
       "ratings": 0,
       "installs": "100+",
       "minInstalls": 100
-    },
-    "colorcards": {
-      "appId": "com.codedac.colorcards",
-      "score": null,
-      "ratings": 0,
-      "installs": "50+",
-      "minInstalls": 50
     },
     "wordcards": {
       "appId": "com.codedac.wordcards",
