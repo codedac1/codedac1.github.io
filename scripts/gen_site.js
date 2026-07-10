@@ -103,7 +103,6 @@ const LANG_ALIAS = { tl: 'fil' };
 const APP_SCHEMA_CAT = {
   colorcards: 'EducationalApplication',
   wordcards: 'EducationalApplication',
-  sleepbaby: 'LifestyleApplication',
 };
 const schemaCat = (slug) => APP_SCHEMA_CAT[slug] || 'UtilitiesApplication';
 
