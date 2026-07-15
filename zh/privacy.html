@@ -105,7 +105,7 @@
   <main class="legal">
     <a href="/zh/" class="back">← 返回首页</a>
     <h1>隐私政策</h1>
-    <p class="eff">生效日期：2026 年 7 月 6 日</p>
+    <p class="eff">生效日期：2026 年 7 月 15 日</p>
 <p>本隐私政策适用于 CodeDAC（以下称“我们”）开发并提供的所有应用程序（以下称“本应用”）。</p>
 <h2>1. 核心原则</h2>
 <p>本应用不要求你创建账号或登录，我们也不会在自有服务器上收集或存储可识别个人身份的信息。大部分处理完全在你的设备上进行。</p>
@@ -114,6 +114,15 @@
 <ul>
 <li>提供功能所需的应用数据（例如历史记录、列表和设置）。</li>
 <li>部分应用处理的照片、视频和文档等内容绝不会被上传；它们在你的设备上本地处理，并在适用时进行加密。</li>
+</ul>
+<h2>Windows 版 Clipboard+ — 云同步（可选）</h2>
+<p>Windows 版 Clipboard+ 是一款剪贴板管理应用，会将您复制的文本和图片保存在设备上，以便您日后查找。本节说明该数据的处理方式，并且仅就可选的同步功能，对上述第 1 条和第 2 条作出补充与限定。</p>
+<ul>
+<li><strong>Google 登录（仅在您启用同步时）。</strong> 云同步默认关闭。若您开启它，应用会请求您使用 Google 账号登录，其唯一目的是访问您本人的 Google Drive。不登录也可完整使用本应用。</li>
+<li><strong>您的数据去向。</strong> 同步开启时，您复制的项目会被上传到<strong>您本人 Google Drive</strong> 中仅供本应用使用的私有区域（隐藏的 <code>appDataFolder</code>），以在您的设备之间同步。数据发送至您的 Google 账号，<strong>而非 CodeDAC。我们不运营自有服务器，也绝不会接收您的剪贴板内容。</strong></li>
+<li><strong>受限的访问权限。</strong> 应用仅请求 <code>drive.appdata</code> 权限范围，该范围只能看到本应用自身在该隐藏文件夹中创建的文件，无法访问您 Google Drive 中的其他文件。</li>
+<li><strong>您的控制权。</strong> 您可随时关闭同步或退出登录。从 Google Drive 中删除本应用的数据文件夹，或清除应用的本地数据，即可移除已同步的副本。</li>
+<li><strong>购买。</strong> 在 Windows 上，PRO 功能通过 <strong>Microsoft Store</strong> 购买；付款由 Microsoft 处理，我们不会收到您的付款信息。（上文关于 Google Play 结算的说明适用于我们的 Android 应用。）</li>
 </ul>
 <h2>3. 第三方服务收集的信息</h2>
 <p>为支持我们的免费应用和购买，我们使用以下第三方服务，它们可能会依据各自的政策收集信息：</p>
