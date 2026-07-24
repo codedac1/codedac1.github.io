@@ -621,17 +621,10 @@ ${Array.from({ length: app.shots }, (_, i) =>
     </div>
   </section>` : '';
 
-  // 플랫폼(app.platform)과 출시 여부(app.store 유무)는 서로 독립적이다.
-  // 넷 중 어떤 조합이든 성립한다:
-  //   Android + 출시    → 스토어 버튼
-  //   Android + 미출시  → '출시 준비 중'
-  //   Windows + 출시    → 다운로드 버튼 + 'Windows 데스크톱 앱'
-  //   Windows + 미출시  → 'Windows 데스크톱 앱 · 출시 준비 중'
-  const notes = [];
-  if (app.platform === 'windows') notes.push(ui['platform.windows']);
-  if (!app.store) notes.push(ui['platform.soon']);
-  const noteHtml = notes.length
-    ? `<span class="app-platform-note">${escText(notes.join(' · '))}</span>`
+  // 미출시 앱에만 '출시 준비 중'을 붙인다. 플랫폼은 앱 이름·아이콘과 스토어
+  // 버튼 문구(Microsoft Store / Google Play)에서 이미 드러나므로 따로 적지 않는다.
+  const noteHtml = !app.store
+    ? `<span class="app-platform-note">${escText(ui['platform.soon'])}</span>`
     : '';
   const storeBtn = app.store
     ? `<a href="${escAttr(app.store)}" class="btn btn-primary" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
