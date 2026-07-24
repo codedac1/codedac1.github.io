@@ -440,6 +440,9 @@ function langBadge(slug, ui) {
   return `<span class="app-langs" aria-label="${escAttr(label)}"><span class="globe" aria-hidden="true">🌐</span>${escText(label)}</span>`;
 }
 
+// 스토어 버튼 문구는 배포처를 따라간다 — Windows 앱은 Microsoft Store, 나머지는 Google Play.
+const storeLabel = (app, ui) => (app.platform === 'windows' ? ui['store.ms'] : ui['store']);
+
 // ---------- 홈 페이지 ----------
 function buildHome(lang) {
   const code = lang.code;
@@ -456,7 +459,7 @@ ${Array.from({ length: cardShots }, (_, i) =>
       `          <img class="shot" src="/images/shots/${app.slug}-${i + 1}.jpg?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}" loading="lazy" data-idx="${i}" />`).join('\n')}
         </div>` : '';
     const store = app.store
-      ? `<a class="app-link" href="${escAttr(app.store)}" target="_blank" rel="noopener">${escText(ui['store'])}</a>`
+      ? `<a class="app-link" href="${escAttr(app.store)}" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
       : '';
     return `        <article class="app-card">
           <div class="app-head">
@@ -631,9 +634,11 @@ ${Array.from({ length: app.shots }, (_, i) =>
     ? `<span class="app-platform-note">${escText(notes.join(' · '))}</span>`
     : '';
   const storeBtn = app.store
-    ? `<a href="${escAttr(app.store)}" class="btn btn-primary" target="_blank" rel="noopener">${escText(ui['store'])}</a>`
+    ? `<a href="${escAttr(app.store)}" class="btn btn-primary" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
     : '';
-  const heroAction = `${storeBtn}${noteHtml}`;
+  // 플랫폼 표기는 버튼들 뒤에 둔다 — 스토어·문의 버튼 사이에 끼면 두 버튼이 갈라져 보인다.
+  const contactBtn = `<a href="mailto:codedac1@gmail.com" class="btn btn-ghost">${escText(ui['contact'])}</a>`;
+  const heroAction = [storeBtn, contactBtn, noteHtml].filter(Boolean).join('\n          ');
 
   const lightbox = app.shots ? `
   <div class="lightbox" id="lightbox" aria-hidden="true">
@@ -686,7 +691,6 @@ ${header(code, 'detail', app.slug, ui)}
         <h2 class="app-tagline">${escText(a.tagline)}</h2>
         <div class="app-hero-actions">
           ${heroAction}
-          <a href="mailto:codedac1@gmail.com" class="btn btn-ghost">${escText(ui['contact'])}</a>
         </div>
       </div>
     </div>
