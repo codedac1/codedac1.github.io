@@ -371,6 +371,24 @@ img { max-width: 100%; }
   border-radius: 6px; font-size: 12px; font-weight: 900;
 }
 
+/* 다른 플랫폼 버전으로 가는 상호 링크 카드 (Clipboard+ ↔ Clipboard+ for Windows).
+   카드 전체가 하나의 링크라 안쪽 요소는 전부 인라인(span)이고, 아이콘/이름/설명은
+   앱 카드와 같은 크기를 써서 같은 물건의 다른 버전이라는 인상을 유지한다.
+   화살표 › 는 Bidi_Mirrored 문자라 RTL 에서 브라우저가 알아서 뒤집는다. */
+.counterpart {
+  display: flex; align-items: center; gap: 16px; max-width: 640px;
+  background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 18px 22px; box-shadow: var(--shadow-sm);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.counterpart:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: #cfd6e4; }
+.cp-text { display: flex; flex-direction: column; gap: 4px; min-width: 0; flex: 1; }
+.cp-name { font-size: 17px; font-weight: 800; color: var(--ink); }
+.counterpart:hover .cp-name { color: var(--brand); }
+.cp-desc { color: var(--muted); font-size: 14px; }
+.cp-go { color: var(--link-teal); font-size: 26px; line-height: 1; font-weight: 700; }
+:root[data-theme="dark"] .counterpart:hover { border-color: #39424f; }
+
 .faq-list { display: grid; gap: 14px; max-width: 840px; }
 .faq-item { border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; background: var(--bg); box-shadow: var(--shadow-sm); transition: border-color .2s, box-shadow .2s; }
 .faq-item:hover { border-color: #cfd6e4; box-shadow: var(--shadow); }

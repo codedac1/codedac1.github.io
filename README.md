@@ -47,7 +47,8 @@ CodeDAC는 **Clipboard+**, **AutoStart+** 등 스마트폰 유틸리티 앱을 �
 
 ## 데이터 모델 (단일 소스)
 
-- **앱 기본정보** — `scripts/apps_base.json`: `slug`, `name`, `shots`(스크린샷 수), `store`(스토어 주소, 없으면 `""`), `platform`(안드로이드가 아니면 명시 — 예: `"windows"`). 언어와 무관. 스토어 버튼 문구는 `platform` 을 따라갑니다 — `windows` 는 Microsoft Store(`ui['store.ms']`), 그 외는 Google Play(`ui['store']`).
+- **앱 기본정보** — `scripts/apps_base.json`: `slug`, `name`, `shots`(스크린샷 수), `store`(스토어 주소, 없으면 `""`), `platform`(안드로이드가 아니면 명시 — 예: `"windows"`), `counterpart`(같은 앱의 다른 플랫폼 버전 slug, 선택). 언어와 무관. 스토어 버튼 문구는 `platform` 을 따라갑니다 — `windows` 는 Microsoft Store(`ui['store.ms']`), 그 외는 Google Play(`ui['store']`).
+  - `counterpart` 를 넣으면 앱 상세의 개요 아래에 상대 버전으로 가는 링크 카드가 붙습니다(예: `clipboard` ↔ `clipboardwin`). **양쪽 앱에 서로를 가리키도록 넣어야** 상호 링크가 됩니다. 제목은 `ui['counterpart.title']` 의 `{platform}` 자리에 상대 앱의 플랫폼 이름이 들어가고, 카드 본문은 상대 앱의 언어별 `name`·`desc` 를 그대로 씁니다.
 - **언어별 문구** — `i18n/<lang>.json`: `ui`(사이트 UI 문구)와 `apps`(앱별 `tag`·`seo`·`desc`·`tagline`·`long`·`features[6]`·`faq[3]`). 각 언어 파일은 **키 구조가 동일**해야 합니다(기준: `en.json`).
   - `tag` 는 화면의 카테고리 칩(`클립보드`), `seo` 는 `<title>` 에 들어가는 **그 언어의 실제 검색어구**(`안드로이드 클립보드 관리자`)입니다. 둘은 일부러 분리돼 있습니다 — `Floating` 같은 명사 하나로는 아무도 검색하지 않습니다.
   - `seo` 는 짧은 명사구여야 하고, 앱 이름·`+`·`CodeDAC` 를 넣지 않습니다. `<AppName> — <seo> | CodeDAC` 전체가 표시 폭 60(전각은 2로 계산) 이내여야 잘리지 않습니다.

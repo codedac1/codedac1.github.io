@@ -17,7 +17,7 @@ const crypto = require('crypto');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
-const V = '34'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
+const V = '35'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -443,6 +443,36 @@ function langBadge(slug, ui) {
 // 스토어 버튼 문구는 배포처를 따라간다 — Windows 앱은 Microsoft Store, 나머지는 Google Play.
 const storeLabel = (app, ui) => (app.platform === 'windows' ? ui['store.ms'] : ui['store']);
 
+// 플랫폼 이름. 고유명사라 번역하지 않고 모든 언어에서 그대로 쓴다(홈의 앱 그룹 제목과 같은 규칙).
+const platformOf = (app) => (app.platform === 'windows' ? 'Windows' : 'Android');
+
+// 같은 앱의 다른 플랫폼 버전으로 가는 상호 링크 (Clipboard+ ↔ Clipboard+ for Windows).
+// apps_base.json 의 counterpart 가 가리키는 앱이 실제로 있을 때만 렌더한다.
+//
+// 링크 문구는 상대 앱의 이름과 desc — 이미 언어별로 있는 문장이라 따로 번역할 게 없고,
+// 앵커 텍스트에 상대 페이지의 실제 제목이 들어가 검색엔진에도 두 페이지의 관계가 드러난다.
+function counterpartSection(code, app, ui) {
+  const other = APPS.find((x) => x.slug === app.counterpart);
+  if (!other) return '';
+  const o = L[code].apps[other.slug];
+  if (!o) return '';
+  const title = String(ui['counterpart.title']).replace('{platform}', platformOf(other));
+  return `
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">${escText(title)}</h2>
+      <a class="counterpart" href="${pathFor(code, 'detail', other.slug)}">
+        <img class="app-icon" src="/images/icons/${other.slug}.png?v=${V}" alt="${escAttr(o.name)} icon" loading="lazy" width="56" height="56" />
+        <span class="cp-text">
+          <span class="cp-name">${bdiName(o.name)}</span>
+          <span class="cp-desc">${escText(o.desc)}</span>
+        </span>
+        <span class="cp-go" aria-hidden="true">&#8250;</span>
+      </a>
+    </div>
+  </section>`;
+}
+
 // ---------- 홈 페이지 ----------
 function buildHome(lang) {
   const code = lang.code;
@@ -587,8 +617,7 @@ function buildDetail(lang, app) {
   const a = d.apps[app.slug];
   const canonical = urlFor(code, 'detail', app.slug);
   const iconAbs = `${BASE}/images/icons/${app.slug}.png`;
-  const isWindows = app.slug === 'clipboardwin';
-  const os = isWindows ? 'Windows' : 'Android';
+  const os = platformOf(app);
 
   const shotAbs = [];
   for (let i = 1; i <= app.shots; i++) shotAbs.push(`${BASE}/images/shots/${app.slug}-${i}.jpg`);
@@ -708,7 +737,7 @@ ${header(code, 'detail', app.slug, ui)}
       <p class="detail-long">${escText(a.long)}</p>
     </div>
   </section>
-
+${counterpartSection(code, app, ui)}
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">${escText(ui['features'])}</h2>

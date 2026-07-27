@@ -3,7 +3,8 @@
     "slug": "clipboard",
     "name": "Clipboard+",
     "shots": 5,
-    "store": "https://play.google.com/store/apps/details?id=com.codedac.clipboard"
+    "store": "https://play.google.com/store/apps/details?id=com.codedac.clipboard",
+    "counterpart": "clipboardwin"
   },
   {
     "slug": "autostart",
@@ -58,6 +59,7 @@
     "name": "Clipboard+ for Windows",
     "shots": 4,
     "store": "https://apps.microsoft.com/detail/9N9SRKQV1R6D",
-    "platform": "windows"
+    "platform": "windows",
+    "counterpart": "clipboard"
   }
 ]
