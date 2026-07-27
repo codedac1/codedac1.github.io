@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-07-13",
+  "generatedAt": "2026-07-27",
   "source": {
     "lang": "en",
     "country": "us"
   },
   "aggregate": {
     "publishedApps": 9,
-    "totalMinInstalls": 11900,
-    "totalRatings": 194,
+    "totalMinInstalls": 17305,
+    "totalRatings": 207,
     "avgScore": 3.89
   },
   "apps": {
     "clipboard": {
       "appId": "com.codedac.clipboard",
       "score": 3.9,
-      "ratings": 148,
-      "installs": "5,000+",
-      "minInstalls": 5000
+      "ratings": 158,
+      "installs": "10,000+",
+      "minInstalls": 10000
     },
     "autostart": {
       "appId": "com.codedac.autostart",
       "score": 3.86,
-      "ratings": 46,
+      "ratings": 49,
       "installs": "5,000+",
       "minInstalls": 5000
     },
@@ -57,8 +57,8 @@
       "appId": "com.codedac.photocleaner",
       "score": null,
       "ratings": 0,
-      "installs": "0+",
-      "minInstalls": 0
+      "installs": "5+",
+      "minInstalls": 5
     },
     "secretalbum": {
       "appId": "com.codedac.secretalbum",
@@ -71,8 +71,8 @@
       "appId": "com.codedac.readfocus",
       "score": null,
       "ratings": 0,
-      "installs": "100+",
-      "minInstalls": 100
+      "installs": "500+",
+      "minInstalls": 500
     }
   }
 }
