@@ -361,6 +361,36 @@
           "a": "Para i-on ang Google Drive sync, gumawa ng isang desktop OAuth client nang isang beses sa Google Cloud Console, ilagay ang google_client.json file sa app folder, pagkatapos ay i-click ang sync sa app para gawin ang one-time na Google sign-in at pagbibigay ng pahintulot."
         }
       ]
+    },
+    "readfocuswin": {
+      "name": "ReadFocus+ for Windows",
+      "tag": "Accessibility",
+      "seo": "Reading Ruler para sa PC",
+      "desc": "Isang click-through na reading guide para sa Windows — Reading Mask at Line Highlight ang nagpapanatili ng tingin mo sa linya.",
+      "tagline": "Isang reading guide sa Windows na nakatira sa system tray: pinapanatili ng Reading Mask o Line Highlight ang tingin mo sa linya, at dumadaan ang mga click diretso sa app sa ilalim.",
+      "long": "Ang ReadFocus+ for Windows ay ang desktop na bersyon ng ReadFocus+ para sa Android. Naglalapag ito ng tahimik na reading guide sa ibabaw ng kung ano man ang binabasa mo — web page, PDF, dokumento, code — para hindi ka mawala sa linya. Marahang dinidilim ng Reading Mask ang itaas at ibaba ng screen at nag-iiwan ng malinaw na banda sa gitna; minamarkahan naman ng Line Highlight ang kasalukuyang linya gamit ang malambot na kulay na guhit. Click-through ang guide, kaya patuloy kang makaka-scroll, makakapili at makakapag-click sa ilalim gaya ng dati, at may maliit na floating panel na nagpapalit ng mode, naglilipat o nagla-lock ng banda, at nagtatago nito nang hindi ka umaalis sa binabasa mo.",
+      "features": [
+        "Dalawang mode ng pagbasa — dinidilim ng Reading Mask ang lahat maliban sa malinaw na banda, minamarkahan ng Line Highlight ang kasalukuyang linya",
+        "Click-through: patuloy na mag-scroll, pumili at mag-click sa app sa ilalim — walang humaharang sa mouse",
+        "Floating panel para magpalit ng mode, ilipat o i-lock ang strip, at itago ito; natitiklop sa isang hilera kapag hindi kailangan",
+        "Mga keyboard shortcut para sa simula at hinto, mode, pagpapakita at pagtatago, pag-lock, at paggalaw ng strip pataas o pababa",
+        "Multi-monitor: sinusundan ng reading band ang panel sa kahit anong screen mo ito ilipat, at nananatili sa system tray kapag hindi ginagamit",
+        "Walang ads. Isang beses lang ang bayad sa Pro: premium na tema, mga setting ng Focus Strip, panatilihing naka-on ang screen, at walang limitasyon sa oras"
+      ],
+      "faq": [
+        {
+          "q": "Pareho ba ito sa ReadFocus+ sa Android?",
+          "a": "Pareho itong app na ginawa para sa Windows, at pareho rin ang dalawang mode ng pagbasa. Hiwalay ang pagbili sa bawat store at walang kailangang i-sync — hindi kailanman iniimbak ng ReadFocus+ ang binabasa mo."
+        },
+        {
+          "q": "Anong mga app ang gumagana rito?",
+          "a": "Kahit anong app na nasa screen: mga browser, PDF at ebook reader, dokumento, code editor, research paper, at mahahabang email o chat. Iginuguhit ang guide sa ibabaw ng screen, kaya hindi kailangang suportahan ito ng app sa ilalim."
+        },
+        {
+          "q": "Libre ba ito?",
+          "a": "Oo. Ang libreng bersyon ay nagbabasa sa mga session na hanggang 60 minuto at kasama ang dalawang mode ng pagbasa at dalawang tema. Ang Pro ay isang beses na bayad, hindi subscription, at nagdadagdag ng premium na tema, mga setting ng Focus Strip (taas, opacity, sulok), at panatilihing naka-on ang screen, at inaalis ang limitasyon sa oras. Walang ads ang bersyon para sa Windows."
+        }
+      ]
     }
   }
 }

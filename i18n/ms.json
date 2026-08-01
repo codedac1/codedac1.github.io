@@ -361,6 +361,36 @@
           "a": "Untuk menghidupkan penyegerakan Google Drive, cipta klien OAuth desktop sekali sahaja di Google Cloud Console, letakkan fail google_client.json dalam folder aplikasi, kemudian klik segerak dalam aplikasi untuk membuat log masuk Google sekali sahaja dan memberi kebenaran."
         }
       ]
+    },
+    "readfocuswin": {
+      "name": "ReadFocus+ for Windows",
+      "tag": "Kebolehcapaian",
+      "seo": "Pembaris Bacaan PC",
+      "desc": "Panduan bacaan tembus klik untuk Windows — Topeng Bacaan dan Sorotan Baris mengekalkan mata anda pada baris.",
+      "tagline": "Panduan bacaan Windows yang menetap di dulang sistem: Topeng Bacaan atau Sorotan Baris mengekalkan mata anda pada baris, dan klik terus menembusi ke aplikasi di bawahnya.",
+      "long": "ReadFocus+ for Windows ialah versi desktop bagi aplikasi ReadFocus+ untuk Android. Ia meletakkan panduan bacaan yang tenang di atas apa sahaja yang anda baca — halaman web, PDF, dokumen atau kod — supaya lebih mudah untuk tidak tersasar baris. Topeng Bacaan malapkan bahagian atas dan bawah skrin dengan lembut dan meninggalkan jalur cerah di tengah; Sorotan Baris pula menanda baris yang sedang dibaca dengan jalur warna lembut. Panduan ini tembus klik, jadi anda terus menatal, memilih dan mengklik aplikasi di bawahnya seperti biasa, dan panel apungan kecil boleh menukar mod, mengalih atau mengunci jalur serta menyembunyikannya tanpa meninggalkan bahan bacaan anda.",
+      "features": [
+        "Dua mod bacaan — Topeng Bacaan malapkan semua di luar jalur cerah, Sorotan Baris menanda baris yang sedang dibaca",
+        "Tembus klik: terus menatal, memilih dan mengklik aplikasi di bawahnya — tiada apa yang memintas tetikus",
+        "Panel apungan untuk menukar mod, mengalih atau mengunci jalur dan menyembunyikannya; boleh dilipat menjadi satu baris",
+        "Pintasan papan kekunci untuk mula dan henti, mod, tunjuk dan sembunyi, kunci, serta mengalih jalur ke atas atau ke bawah",
+        "Berbilang monitor: jalur bacaan mengikut panel ke mana-mana skrin, dan selebihnya menetap di dulang sistem",
+        "Tiada iklan. Pro ialah pembelian sekali sahaja: tema premium, tetapan Jalur Fokus, pastikan skrin menyala, dan tiada had masa"
+      ],
+      "faq": [
+        {
+          "q": "Adakah ini aplikasi yang sama dengan ReadFocus+ di Android?",
+          "a": "Ia aplikasi yang sama dibina untuk Windows, dengan dua mod bacaan yang sama. Pembelian adalah berasingan di setiap gedung dan tiada apa-apa untuk disegerakkan — ReadFocus+ tidak pernah menyimpan apa yang anda baca."
+        },
+        {
+          "q": "Ia berfungsi dengan aplikasi apa?",
+          "a": "Dengan mana-mana aplikasi pada skrin: pelayar, pembaca PDF dan e-buku, dokumen, penyunting kod, kertas penyelidikan, serta e-mel atau sejarah sembang yang panjang. Panduan dilukis di atas skrin, jadi aplikasi di bawahnya tidak perlu menyokong apa-apa."
+        },
+        {
+          "q": "Adakah ia percuma?",
+          "a": "Ya. Versi percuma membaca dalam sesi sehingga 60 minit dan merangkumi kedua-dua mod bacaan serta dua tema. Pro ialah pembelian sekali sahaja, bukan langganan, dan menambah tema premium, tetapan Jalur Fokus (tinggi, kelegapan, bucu) dan pastikan skrin menyala, di samping menghapuskan had masa. Versi Windows tiada iklan."
+        }
+      ]
     }
   }
 }

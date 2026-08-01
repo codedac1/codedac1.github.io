@@ -361,6 +361,36 @@
           "a": "To turn on Google Drive sync, create a desktop OAuth client once in the Google Cloud Console, place the google_client.json file in the app folder, then click sync in the app to do a one-time Google sign-in and permission grant."
         }
       ]
+    },
+    "readfocuswin": {
+      "name": "ReadFocus+ for Windows",
+      "tag": "Accessibility",
+      "seo": "Reading Ruler for PC",
+      "desc": "A click-through reading guide for Windows — Reading Mask and Line Highlight keep your eyes on the line.",
+      "tagline": "A tray-resident reading guide for Windows: a Reading Mask or Line Highlight keeps your eyes on the line, and every click passes straight through to the app underneath.",
+      "long": "ReadFocus+ for Windows is the desktop version of the Android ReadFocus+ app. It lays a calm reading guide over whatever you are reading — a web page, a PDF, a document, code — so it is easier to stay on the line. Reading Mask gently dims the top and bottom of the screen and leaves a clear band across the middle; Line Highlight marks the line you are on with a soft tinted strip. The guide is click-through, so you keep scrolling, selecting and clicking underneath exactly as before, and a small floating panel switches modes, moves or locks the band and hides it away without making you leave what you are reading.",
+      "features": [
+        "Two reading modes — Reading Mask dims everything outside a clear band, Line Highlight marks the line you are on",
+        "Click-through: keep scrolling, selecting and clicking the app underneath — nothing intercepts your mouse",
+        "A floating panel to switch mode, move or lock the strip and hide it, collapsing to a single row when you do not need it",
+        "Keyboard shortcuts for start and stop, mode, show and hide, lock, and nudging the strip up or down",
+        "Multi-monitor: the reading band follows the panel to whichever screen you move it to, and waits in the system tray until you need it",
+        "No ads. Pro is a one-time purchase: premium themes, Focus Strip settings, Keep Screen On, and no time limit"
+      ],
+      "faq": [
+        {
+          "q": "Is this the same app as ReadFocus+ on Android?",
+          "a": "It is the same app built for Windows, with the same two reading modes. The two are bought separately on their own stores, and there is nothing to sync — ReadFocus+ never stores what you read."
+        },
+        {
+          "q": "Which apps does it work with?",
+          "a": "Any app on screen: browsers, PDF and ebook readers, documents, code editors, research papers, and long emails or chat logs. The reading guide is drawn on top of the screen, so the app underneath does not have to support anything."
+        },
+        {
+          "q": "Is it free to use?",
+          "a": "Yes. The free version reads in sessions of up to 60 minutes and includes both reading modes and two themes. Pro is a one-time purchase — not a subscription — and adds premium themes, Focus Strip settings (height, opacity, corners) and Keep Screen On, and removes the time limit. The Windows version has no ads."
+        }
+      ]
     }
   }
 }

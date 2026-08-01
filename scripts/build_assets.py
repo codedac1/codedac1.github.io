@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """C:\\CodeDAC 하위 앱들의 아이콘/스크린샷을 홈페이지용으로 복사·변환한다."""
-import os, glob
+import os, glob, sys
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = r"C:\CodeDAC"
-SITE = r"C:\CodeDAC\codedac"
+# 이 스크립트가 있는 저장소(codedac1.github.io) 자체가 사이트다. 폴더명이 바뀌어도 따라간다.
+SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ICON_DIR = os.path.join(SITE, "images", "icons")
 SHOT_DIR = os.path.join(SITE, "images", "shots")
 os.makedirs(ICON_DIR, exist_ok=True)
@@ -23,6 +24,8 @@ APPS = {
     "floattimer":    (r"FloatTimer\FloatTimer\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatTimer\Resource\screenshots_en", "*.png"),
     "photocleaner":  (r"PhotoCleaner\Resource\icon_512.png", r"PhotoCleaner\Resource\PlayStore\screenshots\en", "*.png"),
     "readfocus":     (r"ReadFocus\Resource\icon_512.png", r"ReadFocus\Resource\screenshots\en", "*.png"),
+    # "0*.png" 는 영어 스크린샷만 고른다(한국어는 ko- 접두사).
+    "readfocuswin":  (r"ReadFocusWin\src\ReadFocusPlus\Assets\app.ico", r"ReadFocusWin\docs\store-screenshots", "0*.png"),
     "secretalbum":   (r"SecretAlbum\SecretAlbum\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"SecretAlbum\Resource", "screenshot_en_*.png"),
     "volumebooster": (r"VolumeBooster\Resource\icon_512.png", r"VolumeBooster\Resource\play_store\en", "*.png"),
 }
@@ -80,8 +83,15 @@ def make_shot(src, out):
         im = im.resize((int(w * target_h / h), target_h), Image.LANCZOS)
     im.save(out, "JPEG", quality=82, optimize=True)
 
+# 인자로 slug 를 주면 그 앱만 다시 만든다(전체 재생성은 기존 파일을 모두 덮어쓴다).
+only = set(sys.argv[1:])
+if only - set(APPS):
+    sys.exit(f"알 수 없는 slug: {', '.join(sorted(only - set(APPS)))}")
+
 report = {}
 for slug, (icon, shotdir, pat) in APPS.items():
+    if only and slug not in only:
+        continue
     # 아이콘
     icon_out = os.path.join(ICON_DIR, slug + ".png")
     if icon.startswith("GEN:"):

@@ -361,6 +361,36 @@
           "a": "Per attivare la sincronizzazione con Google Drive, crea una volta un client OAuth desktop nella Google Cloud Console, colloca il file google_client.json nella cartella dell'app, poi fai clic su sincronizza nell'app per eseguire un accesso a Google e una concessione dei permessi una tantum."
         }
       ]
+    },
+    "readfocuswin": {
+      "name": "ReadFocus+ for Windows",
+      "tag": "Accessibilità",
+      "seo": "righello di lettura PC",
+      "desc": "Una guida di lettura a clic passante per Windows: Maschera di lettura ed Evidenzia riga tengono l'occhio sulla riga.",
+      "tagline": "Una guida di lettura per Windows che vive nell'area di notifica: la Maschera di lettura o l'Evidenzia riga tiene l'occhio sulla riga, e i clic passano dritti all'app sottostante.",
+      "long": "ReadFocus+ for Windows è la versione desktop dell'app Android ReadFocus+. Appoggia una guida di lettura discreta su qualsiasi cosa tu stia leggendo — una pagina web, un PDF, un documento, del codice — così è più facile non perdere la riga. La Maschera di lettura scurisce delicatamente la parte alta e bassa dello schermo e lascia una fascia chiara al centro; l'Evidenzia riga segna la riga corrente con una striscia di colore tenue. La guida lascia passare i clic, quindi continui a scorrere, selezionare e cliccare sotto come prima, e un piccolo pannello flottante cambia modalità, sposta o blocca la fascia e la nasconde senza farti lasciare la lettura.",
+      "features": [
+        "Due modalità di lettura — la Maschera di lettura scurisce tutto fuori da una fascia chiara, l'Evidenzia riga segna la riga corrente",
+        "Clic passante: continui a scorrere, selezionare e cliccare nell’app sottostante — nulla intercetta il mouse",
+        "Pannello flottante per cambiare modalità, spostare o bloccare la striscia e nasconderla; si riduce a una sola riga quando non serve",
+        "Scorciatoie da tastiera per avviare e fermare, cambiare modalità, mostrare e nascondere, bloccare e spostare la striscia su o giù",
+        "Più monitor: la fascia di lettura segue il pannello sullo schermo che scegli, e per il resto l'app resta nell'area di notifica",
+        "Nessuna pubblicità. Pro è un acquisto una tantum: temi premium, impostazioni della striscia di focus, schermo sempre acceso e nessun limite di tempo"
+      ],
+      "faq": [
+        {
+          "q": "È la stessa app di ReadFocus+ per Android?",
+          "a": "È la stessa app realizzata per Windows, con le stesse due modalità di lettura. Gli acquisti sono separati sui rispettivi store e non c’è nulla da sincronizzare: ReadFocus+ non salva mai ciò che leggi."
+        },
+        {
+          "q": "Con quali applicazioni funziona?",
+          "a": "Con qualsiasi app a schermo: browser, lettori di PDF ed ebook, documenti, editor di codice, articoli scientifici e lunghe email o cronologie di chat. La guida viene disegnata sopra lo schermo, quindi l'app sottostante non deve supportare nulla."
+        },
+        {
+          "q": "È gratuita?",
+          "a": "Sì. La versione gratuita legge in sessioni fino a 60 minuti e include entrambe le modalità di lettura e due temi. Pro è un acquisto una tantum, non un abbonamento, e aggiunge i temi premium, le impostazioni della striscia di focus (altezza, opacità, angoli) e lo schermo sempre acceso, oltre a togliere il limite di tempo. La versione Windows non contiene pubblicità."
+        }
+      ]
     }
   }
 }

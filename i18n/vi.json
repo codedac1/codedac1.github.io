@@ -361,6 +361,36 @@
           "a": "Để bật đồng bộ Google Drive, hãy tạo một OAuth client cho máy tính một lần trong Google Cloud Console, đặt tệp google_client.json vào thư mục ứng dụng, rồi nhấn đồng bộ trong ứng dụng để đăng nhập Google và cấp quyền một lần duy nhất."
         }
       ]
+    },
+    "readfocuswin": {
+      "name": "ReadFocus+ for Windows",
+      "tag": "Trợ năng",
+      "seo": "Thước đọc cho PC",
+      "desc": "Hướng dẫn đọc xuyên chuột cho Windows — Mặt nạ đọc và Tô sáng dòng giữ mắt bạn trên đúng dòng.",
+      "tagline": "Hướng dẫn đọc thường trú ở khay hệ thống Windows: Mặt nạ đọc hoặc Tô sáng dòng giữ mắt bạn trên đúng dòng, còn thao tác nhấp thì xuyên thẳng xuống ứng dụng bên dưới.",
+      "long": "ReadFocus+ for Windows là phiên bản máy tính của ứng dụng ReadFocus+ trên Android. Nó đặt một dải hướng dẫn đọc nhẹ nhàng lên trên bất cứ thứ gì bạn đang đọc — trang web, PDF, tài liệu hay mã nguồn — để bạn không bị lạc dòng. Mặt nạ đọc làm tối dịu phần trên và dưới màn hình, chừa lại một dải sáng ở giữa; Tô sáng dòng đánh dấu dòng bạn đang đọc bằng một dải màu nhạt. Dải hướng dẫn cho chuột xuyên qua, nên bạn vẫn cuộn, chọn và nhấp vào ứng dụng bên dưới như cũ, và một bảng điều khiển nổi nhỏ giúp đổi chế độ, di chuyển hoặc khóa dải, ẩn nó đi mà không phải rời khỏi trang đang đọc.",
+      "features": [
+        "Hai chế độ đọc — Mặt nạ đọc làm tối mọi thứ ngoài dải sáng, Tô sáng dòng đánh dấu dòng bạn đang đọc",
+        "Xuyên chuột: vẫn cuộn, chọn và nhấp vào ứng dụng bên dưới — không có gì chặn con trỏ",
+        "Bảng điều khiển nổi để đổi chế độ, di chuyển hoặc khóa dải và ẩn nó; thu gọn thành một hàng khi không cần",
+        "Phím tắt cho bật và tắt, đổi chế độ, hiện và ẩn, khóa, và dịch dải lên hoặc xuống",
+        "Nhiều màn hình: dải đọc đi theo bảng điều khiển sang màn hình bạn chọn, còn lại nằm yên trong khay hệ thống",
+        "Không quảng cáo. Pro là mua một lần: chủ đề cao cấp, cài đặt dải tập trung, giữ màn hình luôn bật và không giới hạn thời gian"
+      ],
+      "faq": [
+        {
+          "q": "Đây có phải cùng một ứng dụng với ReadFocus+ trên Android không?",
+          "a": "Đây là cùng một ứng dụng được làm cho Windows, với hai chế độ đọc giống hệt. Hai bản được mua riêng ở từng cửa hàng và không có gì để đồng bộ — ReadFocus+ không bao giờ lưu nội dung bạn đọc."
+        },
+        {
+          "q": "Nó dùng được với những ứng dụng nào?",
+          "a": "Với mọi ứng dụng đang hiển thị: trình duyệt, trình đọc PDF và sách điện tử, tài liệu, trình soạn mã, bài báo khoa học, email hay lịch sử trò chuyện dài. Dải hướng dẫn được vẽ lên trên màn hình nên ứng dụng bên dưới không cần hỗ trợ gì."
+        },
+        {
+          "q": "Có miễn phí không?",
+          "a": "Có. Bản miễn phí cho mỗi phiên đọc tối đa 60 phút, gồm cả hai chế độ đọc và hai chủ đề. Pro là mua một lần chứ không phải thuê bao, bổ sung chủ đề cao cấp, cài đặt dải tập trung (chiều cao, độ mờ, bo góc) và giữ màn hình luôn bật, đồng thời bỏ giới hạn thời gian. Bản Windows không có quảng cáo."
+        }
+      ]
     }
   }
 }

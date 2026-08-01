@@ -361,6 +361,36 @@
           "a": "Google Drive senkronizasyonunu açmak için Google Cloud Console'da bir kez masaüstü OAuth istemcisi oluşturun, google_client.json dosyasını uygulama klasörüne yerleştirin, ardından tek seferlik bir Google oturum açma ve izin verme işlemi için uygulamada senkronizasyona tıklayın."
         }
       ]
+    },
+    "readfocuswin": {
+      "name": "ReadFocus+ for Windows",
+      "tag": "Erişilebilirlik",
+      "seo": "PC okuma yardımcısı",
+      "desc": "Windows için tıklamayı geçiren bir okuma kılavuzu — Okuma maskesi ve Satır vurgulama gözünüzü satırda tutar.",
+      "tagline": "Sistem tepsisinde duran bir Windows okuma kılavuzu: Okuma maskesi ya da Satır vurgulama gözünüzü satırda tutar, tıklamalar ise doğrudan alttaki uygulamaya geçer.",
+      "long": "ReadFocus+ for Windows, Android'deki ReadFocus+ uygulamasının masaüstü sürümüdür. Ne okuyorsanız — bir web sayfası, PDF, belge ya da kod — üzerine sakin bir okuma kılavuzu koyar, böylece satırı kaybetmek zorlaşır. Okuma maskesi ekranın üstünü ve altını hafifçe karartıp ortada açık bir şerit bırakır; Satır vurgulama okuduğunuz satırı yumuşak renkli bir şeritle işaretler. Kılavuz tıklamayı geçirir, yani alttaki uygulamada kaydırmaya, seçmeye ve tıklamaya eskisi gibi devam edersiniz; küçük bir yüzen panel de modu değiştirir, şeridi taşır ya da kilitler ve gizler — okuduğunuz yerden ayrılmadan.",
+      "features": [
+        "İki okuma modu — Okuma maskesi açık şeridin dışındaki her yeri karartır, Satır vurgulama okuduğunuz satırı işaretler",
+        "Tıklamayı geçirir: alttaki uygulamada kaydırma, seçme ve tıklama aynen sürer — fareyi hiçbir şey kesmez",
+        "Modu değiştiren, şeridi taşıyan veya kilitleyen ve gizleyen yüzen panel; gerekmediğinde tek satıra katlanır",
+        "Başlatma ve durdurma, mod, gösterme ve gizleme, kilitleme ve şeridi yukarı aşağı kaydırma için klavye kısayolları",
+        "Çoklu monitör: okuma şeridi paneli taşıdığınız ekrana gelir, geri kalan zamanda uygulama sistem tepsisinde bekler",
+        "Reklam yok. Pro tek seferlik satın almadır: premium temalar, odak şeridi ayarları, ekran kapanmasını önleme ve süre sınırı olmaması"
+      ],
+      "faq": [
+        {
+          "q": "Bu, Android'deki ReadFocus+ ile aynı uygulama mı?",
+          "a": "Windows için yapılmış aynı uygulama; iki okuma modu da aynı. Satın alma her mağazada ayrıdır ve eşitlenecek bir şey yoktur — ReadFocus+ okuduklarınızı asla saklamaz."
+        },
+        {
+          "q": "Hangi uygulamalarla çalışır?",
+          "a": "Ekrandaki her uygulamayla: tarayıcılar, PDF ve e-kitap okuyucular, belgeler, kod düzenleyiciler, akademik makaleler, uzun e-postalar ya da sohbet geçmişleri. Kılavuz ekranın üzerine çizilir, alttaki uygulamanın hiçbir şeyi desteklemesi gerekmez."
+        },
+        {
+          "q": "Ücretsiz mi?",
+          "a": "Evet. Ücretsiz sürüm 60 dakikaya kadar süren oturumlarla okur ve iki okuma modunu ve iki temayı içerir. Pro abonelik değil tek seferlik satın almadır; premium temaları, odak şeridi ayarlarını (yükseklik, saydamlık, köşeler) ve ekran kapanmasını önlemeyi ekler, süre sınırını da kaldırır. Windows sürümünde reklam yoktur."
+        }
+      ]
     }
   }
 }

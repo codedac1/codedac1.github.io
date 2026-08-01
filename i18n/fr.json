@@ -361,6 +361,36 @@
           "a": "Pour activer la synchronisation Google Drive, créez une fois un client OAuth de bureau dans la Google Cloud Console, placez le fichier google_client.json dans le dossier de l'application, puis cliquez sur synchroniser dans l'application pour effectuer une connexion Google unique et accorder l'autorisation."
         }
       ]
+    },
+    "readfocuswin": {
+      "name": "ReadFocus+ for Windows",
+      "tag": "Accessibilité",
+      "seo": "Aide à la lecture PC",
+      "desc": "Une aide à la lecture traversante pour Windows : Masque de lecture et Surlignage de ligne gardent l’œil sur la ligne.",
+      "tagline": "Une aide à la lecture pour Windows, logée dans la zone de notification : le Masque de lecture ou le Surlignage de ligne garde l’œil sur la ligne, et les clics passent directement à l’application en dessous.",
+      "long": "ReadFocus+ for Windows est la version bureau de l’application Android ReadFocus+. Elle pose un repère de lecture discret sur ce que vous lisez — une page web, un PDF, un document, du code — pour ne plus perdre la ligne. Le Masque de lecture assombrit doucement le haut et le bas de l’écran et laisse une bande claire au centre ; le Surlignage de ligne marque la ligne en cours d’une bande teintée légère. Le repère laisse passer les clics : vous continuez à faire défiler, sélectionner et cliquer en dessous comme avant, et un petit panneau flottant change de mode, déplace ou verrouille la bande et la masque sans vous faire quitter votre lecture.",
+      "features": [
+        "Deux modes de lecture — le Masque de lecture assombrit tout sauf une bande claire, le Surlignage de ligne marque la ligne en cours",
+        "Clic traversant : vous continuez à faire défiler, sélectionner et cliquer dans l’application en dessous — rien n’intercepte la souris",
+        "Panneau flottant pour changer de mode, déplacer ou verrouiller la bande et la masquer ; il se replie sur une seule ligne quand il gêne",
+        "Raccourcis clavier pour démarrer et arrêter, changer de mode, afficher ou masquer, verrouiller et déplacer la bande vers le haut ou le bas",
+        "Multi-écran : la bande de lecture suit le panneau sur l’écran de votre choix, et le reste du temps l’application attend dans la zone de notification",
+        "Sans publicité. Pro est un achat unique : thèmes premium, réglages de la bande de focus, écran toujours allumé et aucune limite de temps"
+      ],
+      "faq": [
+        {
+          "q": "Est-ce la même application que ReadFocus+ sur Android ?",
+          "a": "C’est la même application conçue pour Windows, avec les deux mêmes modes de lecture. Les achats sont séparés sur chaque boutique et il n’y a rien à synchroniser : ReadFocus+ n’enregistre jamais ce que vous lisez."
+        },
+        {
+          "q": "Avec quelles applications fonctionne-t-elle ?",
+          "a": "Avec n’importe quelle application à l’écran : navigateurs, lecteurs de PDF et de livres numériques, documents, éditeurs de code, articles de recherche, longs e-mails ou historiques de discussion. Le repère est dessiné par-dessus l’écran : l’application en dessous n’a rien à prendre en charge."
+        },
+        {
+          "q": "Est-elle gratuite ?",
+          "a": "Oui. La version gratuite propose des sessions de lecture jusqu’à 60 minutes, les deux modes de lecture et deux thèmes. Pro est un achat unique, pas un abonnement : il ajoute les thèmes premium, les réglages de la bande de focus (hauteur, opacité, coins) et le maintien de l’écran allumé, et supprime la limite de temps. La version Windows ne contient aucune publicité."
+        }
+      ]
     }
   }
 }

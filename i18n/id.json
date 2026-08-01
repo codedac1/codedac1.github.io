@@ -361,6 +361,36 @@
           "a": "Untuk mengaktifkan sinkronisasi Google Drive, buat satu kali klien OAuth desktop di Google Cloud Console, letakkan file google_client.json di folder aplikasi, lalu klik sinkronisasi di aplikasi untuk melakukan login Google satu kali dan memberikan izin."
         }
       ]
+    },
+    "readfocuswin": {
+      "name": "ReadFocus+ for Windows",
+      "tag": "Aksesibilitas",
+      "seo": "Alat Bantu Baca PC",
+      "desc": "Panduan baca tembus-klik untuk Windows — Masker Membaca dan Sorot Baris menjaga mata tetap di barisnya.",
+      "tagline": "Panduan baca Windows yang menetap di baki sistem: Masker Membaca atau Sorot Baris menjaga mata tetap di barisnya, dan klik langsung diteruskan ke aplikasi di bawahnya.",
+      "long": "ReadFocus+ for Windows adalah versi desktop dari aplikasi ReadFocus+ untuk Android. Aplikasi ini meletakkan panduan baca yang tenang di atas apa pun yang sedang Anda baca — halaman web, PDF, dokumen, kode — agar lebih mudah tidak kehilangan baris. Masker Membaca meredupkan bagian atas dan bawah layar dengan lembut dan menyisakan pita terang di tengah; Sorot Baris menandai baris yang sedang dibaca dengan pita warna lembut. Panduan ini tembus klik, jadi Anda tetap menggulir, memilih, dan mengklik aplikasi di bawahnya seperti biasa, dan panel mengambang kecil dapat mengganti mode, memindahkan atau mengunci pita, serta menyembunyikannya tanpa meninggalkan bacaan Anda.",
+      "features": [
+        "Dua mode membaca — Masker Membaca meredupkan semua di luar pita terang, Sorot Baris menandai baris yang sedang dibaca",
+        "Tembus klik: tetap menggulir, memilih, dan mengklik aplikasi di bawahnya — tidak ada yang mencegat mouse",
+        "Panel mengambang untuk mengganti mode, memindahkan atau mengunci pita, dan menyembunyikannya; dapat dilipat menjadi satu baris",
+        "Pintasan keyboard untuk mulai dan berhenti, ganti mode, tampilkan dan sembunyikan, kunci, serta menggeser pita ke atas atau bawah",
+        "Multi-monitor: pita baca mengikuti panel ke layar mana pun, dan selebihnya menetap di baki sistem",
+        "Tanpa iklan. Pro adalah pembelian sekali bayar: tema premium, pengaturan Pita Fokus, tetap nyalakan layar, dan tanpa batas waktu"
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini aplikasi yang sama dengan ReadFocus+ di Android?",
+          "a": "Ini aplikasi yang sama yang dibuat untuk Windows, dengan dua mode membaca yang sama. Keduanya dibeli terpisah di toko masing-masing dan tidak ada yang perlu disinkronkan — ReadFocus+ tidak pernah menyimpan apa yang Anda baca."
+        },
+        {
+          "q": "Bekerja dengan aplikasi apa saja?",
+          "a": "Dengan aplikasi apa pun di layar: peramban, pembaca PDF dan e-book, dokumen, editor kode, makalah penelitian, serta email atau riwayat obrolan yang panjang. Panduan digambar di atas layar, jadi aplikasi di bawahnya tidak perlu mendukung apa pun."
+        },
+        {
+          "q": "Apakah gratis?",
+          "a": "Ya. Versi gratis membaca dalam sesi hingga 60 menit dan mencakup kedua mode membaca serta dua tema. Pro adalah pembelian sekali bayar, bukan langganan, dan menambahkan tema premium, pengaturan Pita Fokus (tinggi, opasitas, sudut), dan tetap nyalakan layar, sekaligus menghapus batas waktu. Versi Windows tidak memiliki iklan."
+        }
+      ]
     }
   }
 }
