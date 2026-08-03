@@ -5,13 +5,19 @@
     "country": "us"
   },
   "aggregate": {
-    "publishedApps": 9,
+    "publishedApps": 11,
     "totalMinInstalls": 17310,
     "totalRatings": 211,
-    "avgScore": 3.86
+    "avgScore": 3.86,
+    "byStore": {
+      "play": 17310,
+      "msstore": 0
+    }
   },
+  "msInstallsUpdatedAt": null,
   "apps": {
     "clipboard": {
+      "store": "play",
       "appId": "com.codedac.clipboard",
       "score": 3.86,
       "ratings": 161,
@@ -19,6 +25,7 @@
       "minInstalls": 10000
     },
     "autostart": {
+      "store": "play",
       "appId": "com.codedac.autostart",
       "score": 3.86,
       "ratings": 50,
@@ -26,6 +33,7 @@
       "minInstalls": 5000
     },
     "floatcalc": {
+      "store": "play",
       "appId": "com.codedac.floatcalc",
       "score": null,
       "ratings": 0,
@@ -33,6 +41,7 @@
       "minInstalls": 1000
     },
     "floatcrypto": {
+      "store": "play",
       "appId": "com.codedac.floatcrypto",
       "score": null,
       "ratings": 0,
@@ -40,6 +49,7 @@
       "minInstalls": 100
     },
     "floattimer": {
+      "store": "play",
       "appId": "com.codedac.floattimer",
       "score": null,
       "ratings": 0,
@@ -47,6 +57,7 @@
       "minInstalls": 500
     },
     "volumebooster": {
+      "store": "play",
       "appId": "com.codedac.volumebooster",
       "score": null,
       "ratings": 0,
@@ -54,6 +65,7 @@
       "minInstalls": 100
     },
     "photocleaner": {
+      "store": "play",
       "appId": "com.codedac.photocleaner",
       "score": null,
       "ratings": 0,
@@ -61,6 +73,7 @@
       "minInstalls": 10
     },
     "secretalbum": {
+      "store": "play",
       "appId": "com.codedac.secretalbum",
       "score": null,
       "ratings": 0,
@@ -68,11 +81,28 @@
       "minInstalls": 100
     },
     "readfocus": {
+      "store": "play",
       "appId": "com.codedac.readfocus",
       "score": null,
       "ratings": 0,
       "installs": "500+",
       "minInstalls": 500
+    },
+    "clipboardwin": {
+      "store": "msstore",
+      "appId": "9N9SRKQV1R6D",
+      "score": null,
+      "ratings": 0,
+      "installs": null,
+      "minInstalls": 0
+    },
+    "readfocuswin": {
+      "store": "msstore",
+      "appId": "9NMSHKKX3R5C",
+      "score": null,
+      "ratings": 0,
+      "installs": null,
+      "minInstalls": 0
     }
   }
 }

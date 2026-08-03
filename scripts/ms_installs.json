@@ -1,0 +1,15 @@
+{
+  "_comment": [
+    "Microsoft Store 설치수 수동 입력값. 공개 API(DisplayCatalog)는 평점만 제공하고",
+    "획득/설치 수는 노출하지 않아, Partner Center 로그인 없이는 자동 수집이 불가능하다.",
+    "Partner Center > 앱 > 분석 > 획득 > '수명 기간 획득 수'를 보고 손으로 갱신한다.",
+    "여기 적힌 값은 fetch_store_stats.js 가 그대로 읽어 누적 다운로드 합계에 더한다.",
+    "(Google Play 쪽은 스토어가 '10,000+' 처럼 구간으로만 공개해 하한값을 쓰지만,",
+    " Partner Center 는 정확한 수치를 주므로 여기 값은 반올림 없이 실수치를 적는다.)"
+  ],
+  "updatedAt": "",
+  "installs": {
+    "clipboardwin": 0,
+    "readfocuswin": 0
+  }
+}
