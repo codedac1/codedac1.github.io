@@ -421,6 +421,36 @@
           "a": "Ja. Die kostenlose Version liest in Sitzungen von bis zu 60 Minuten und enthält beide Lesemodi und zwei Themes. Pro ist ein Einmalkauf, kein Abo, und ergänzt Premium-Themes, die Fokusstreifen-Einstellungen (Höhe, Deckkraft, Ecken) und „Bildschirm anlassen“ – und hebt das Zeitlimit auf. Die Windows-Version enthält keine Werbung."
         }
       ]
+    },
+    "floatnotewin": {
+      "name": "FloatNote+ for Windows",
+      "tag": "Notizen",
+      "seo": "Haftnotizen für Windows",
+      "desc": "Haftnotizen, die über jedem Fenster unter Windows schweben und sich mit der Android-App FloatNote+ synchronisieren.",
+      "tagline": "Haftnotizen, die über dem schweben, woran du gerade arbeitest: schreiben, ohne dein Fenster zu verlassen – und ohne ihm den Fokus zu nehmen.",
+      "long": "FloatNote+ for Windows ist die Desktop-Fassung der Android-App FloatNote+. Jede Notiz lebt als kleiner Chip über Browser, Editor oder Tabelle; ein Klick öffnet sie an Ort und Stelle als Karte zum Lesen oder Bearbeiten, und Esc klappt sie wieder zum Chip ein. Ein Chip nimmt der App dahinter nie den Fokus, dein Text bleibt also genau so, wie er war – und einen Speichern-Knopf gibt es nicht, denn jeder Tastenanschlag wird für dich festgehalten. Sieben Pastellfarben, Rich-Text und Bilder in der Notiz halten sie auseinander, ein Archivfenster übernimmt Suche, Anheften und Verwaltung, und die optionale Synchronisierung führt deine Notizen über einen app-privaten Ordner in deinem eigenen Google Drive – denselben, den die Android-App nutzt.",
+      "features": [
+        "Haftnotizen, die über jedem Fenster schweben: Der Chip öffnet sich an Ort und Stelle als bearbeitbare Karte, Esc klappt ihn wieder ein",
+        "Nimmt nie den Fokus – ziehe oder klicke einen Chip, und dein Cursor bleibt in der App, in der du geschrieben hast",
+        "Kein Speichern-Knopf: Jeder Tastenanschlag wird festgehalten, und ein Archivfenster übernimmt Suche, Anheften und Verwaltung",
+        "Rich-Text – fett, kursiv, unterstrichen, durchgestrichen, Textfarbe und -größe – dazu 7 Pastellfarben und Bilder in der Notiz",
+        "Private Synchronisierung über einen app-privaten Ordner in deinem eigenen Google Drive, gemeinsam mit der Android-App – ohne Server von uns",
+        "Globale Tastenkürzel, Infobereich, helles und dunkles Design, Start bei der Anmeldung, 18 Sprachen. Keine Werbung, Pro ist ein Einmalkauf"
+      ],
+      "faq": [
+        {
+          "q": "Ist das dieselbe App wie FloatNote+ für Android?",
+          "a": "Es ist dieselbe App für Windows, mit denselben Chips und Karten. Gekauft wird sie im jeweiligen Store getrennt, doch beide synchronisieren über denselben app-privaten Ordner in deinem eigenen Google Drive: Eine am PC geschriebene Notiz liegt auf dem Handy und umgekehrt. Bilder in einer Notiz bleiben auf dem Gerät, auf dem du sie hinzugefügt hast – unterwegs ist nur die Notiz selbst."
+        },
+        {
+          "q": "Stört sie die App darunter?",
+          "a": "Nein. Ein Chip ist ein schwebendes Fenster, das nie den Fokus übernimmt: Klicken oder Ziehen lässt den Cursor genau dort, wo du geschrieben hast. Ein Klick auf den Chip öffnet die Karte; Esc oder ein Klick daneben klappt sie gespeichert wieder ein."
+        },
+        {
+          "q": "Ist sie kostenlos?",
+          "a": "Ja. Notizen zu schreiben und zu speichern ist kostenlos und unbegrenzt, und die Windows-Version enthält keine Werbung. Die kostenlose Version lässt jeweils eine Notiz auf dem Bildschirm schweben und gibt dir zwei der sieben Farben. Pro ist ein Einmalkauf, kein Abo, und ergänzt unbegrenzte schwebende Notizen, die volle Palette, Bilder in der Notiz, einstellbare Transparenz, Google-Drive-Sync sowie Export und Import."
+        }
+      ]
     }
   }
 }

@@ -421,6 +421,36 @@
           "a": "Tak. Wersja bezpłatna czyta w sesjach do 60 minut i zawiera oba tryby czytania oraz dwa motywy. Pro to jednorazowy zakup, a nie subskrypcja — dodaje motywy premium, ustawienia paska skupienia (wysokość, krycie, zaokrąglenie) i „Nie wygaszaj ekranu”, a także znosi limit czasu. Wersja dla Windows nie zawiera reklam."
         }
       ]
+    },
+    "floatnotewin": {
+      "name": "FloatNote+ for Windows",
+      "tag": "Notatki",
+      "seo": "Karteczki na pulpit",
+      "desc": "Karteczki, które pływają nad każdym oknem w Windows i synchronizują się z aplikacją FloatNote+ na Androida.",
+      "tagline": "Karteczki, które pływają nad tym, nad czym właśnie pracujesz: pisz bez opuszczania swojego okna, a one nigdy nie zabiorą mu fokusu.",
+      "long": "FloatNote+ for Windows to komputerowa wersja aplikacji FloatNote+ na Androida. Każda notatka żyje jako mały kafelek nad przeglądarką, edytorem czy arkuszem; kliknięcie rozwija ją w tym samym miejscu w kartę gotową do czytania i edycji, a Esc zwija ją z powrotem do kafelka. Kafelek nigdy nie odbiera fokusu aplikacji pod spodem, więc to, co pisałeś, zostaje nietknięte — nie ma też przycisku zapisu, bo każde naciśnięcie klawisza jest zapisywane za Ciebie. Siedem pastelowych kolorów, formatowanie i obrazy w notatce pozwalają je odróżnić, okno archiwum przejmuje wyszukiwanie, przypinanie i porządkowanie, a opcjonalna synchronizacja prowadzi notatki przez prywatny folder aplikacji na Twoim własnym Dysku Google — ten sam, z którego korzysta aplikacja na Androida.",
+      "features": [
+        "Karteczki pływające nad każdym oknem: kafelek rozwija się w miejscu w edytowalną kartę, a Esc zwija go z powrotem",
+        "Nigdy nie zabiera fokusu — przeciągnij lub kliknij kafelek, a kursor zostaje w aplikacji, w której pisałeś",
+        "Bez przycisku zapisu: każde naciśnięcie klawisza jest zapisywane, a okno archiwum przejmuje wyszukiwanie, przypinanie i porządkowanie",
+        "Formatowanie — pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu — oraz 7 pastelowych kolorów i obrazy w notatce",
+        "Prywatna synchronizacja przez prywatny folder aplikacji na Twoim własnym Dysku Google, wspólny z aplikacją na Androida — bez naszego serwera",
+        "Globalne skróty, zasobnik systemowy, jasny i ciemny motyw, uruchamianie przy logowaniu, 18 języków. Bez reklam, a Pro to jednorazowy zakup"
+      ],
+      "faq": [
+        {
+          "q": "Czy to ta sama aplikacja co FloatNote+ na Androida?",
+          "a": "To ta sama aplikacja zbudowana dla Windows, z tymi samymi kafelkami i kartami. Kupuje się je osobno w każdym sklepie, ale obie synchronizują się przez ten sam prywatny folder aplikacji na Twoim własnym Dysku Google, więc notatka napisana na komputerze jest na telefonie i odwrotnie. Obrazy dołączone do notatki zostają na urządzeniu, na którym je dodałeś — w podróż rusza sama notatka."
+        },
+        {
+          "q": "Czy przeszkadza aplikacji pod spodem?",
+          "a": "Nie. Kafelek to pływające okno, które nigdy nie przejmuje fokusu, więc kliknięcie lub przeciągnięcie zostawia kursor dokładnie tam, gdzie pisałeś. Kliknij kafelek, aby rozwinąć kartę; naciśnij Esc lub kliknij obok, a zwinie się już zapisana."
+        },
+        {
+          "q": "Czy jest darmowa?",
+          "a": "Tak. Pisanie i przechowywanie notatek jest darmowe i nieograniczone, a wersja dla Windows nie zawiera reklam. Wersja bezpłatna trzyma na ekranie jedną pływającą notatkę naraz i daje dwa z siedmiu kolorów. Pro to jednorazowy zakup, a nie subskrypcja — dodaje nieograniczone pływające notatki, pełną paletę, obrazy w notatce, regulowaną przezroczystość, synchronizację z Dyskiem Google oraz eksport i import."
+        }
+      ]
     }
   }
 }

@@ -421,6 +421,36 @@
           "a": "Yes. The free version reads in sessions of up to 60 minutes and includes both reading modes and two themes. Pro is a one-time purchase — not a subscription — and adds premium themes, Focus Strip settings (height, opacity, corners) and Keep Screen On, and removes the time limit. The Windows version has no ads."
         }
       ]
+    },
+    "floatnotewin": {
+      "name": "FloatNote+ for Windows",
+      "tag": "Notes",
+      "seo": "Desktop Sticky Notes",
+      "desc": "Sticky notes that float over any window on Windows, syncing with the FloatNote+ Android app.",
+      "tagline": "Sticky notes that float on top of whatever you are working in: write without leaving the window you are in, and they never steal its focus.",
+      "long": "FloatNote+ for Windows is the desktop version of the Android FloatNote+ app. Every note lives as a small chip above your browser, your editor or your spreadsheet; click it and it expands into a card right there, ready to read or edit, and Esc folds it back into a chip. A chip never takes focus from the app behind it, so whatever you were typing stays exactly as it was — and there is no save button, since every keystroke is committed for you. Seven pastel colors, rich text and inline images keep notes apart, a library window handles search, pinning and management, and optional sync moves your notes through an app-private folder in your own Google Drive, the same one the Android app uses.",
+      "features": [
+        "Sticky notes that float above every window: a chip expands into an editable card in place, and Esc folds it back",
+        "Never steals focus — drag or click a chip and your cursor stays in the app you were typing in",
+        "No save button: every keystroke is committed for you, and a library window handles search, pinning and management",
+        "Rich text — bold, italic, underline, strikethrough, text color and size — with 7 pastel note colors and inline images",
+        "Private sync through an app-private folder in your own Google Drive, shared with the Android app — no server of ours in between",
+        "Global hotkeys, system tray, light and dark themes, run at logon, 18 languages. No ads, and Pro is a one-time purchase"
+      ],
+      "faq": [
+        {
+          "q": "Is this the same app as FloatNote+ on Android?",
+          "a": "It is the same app built for Windows, with the same chips and cards. The two are bought separately on their own stores, but both sync through the same app-private folder in your own Google Drive, so a note written on your PC is on your phone and the other way around. Images attached to a note stay on the device they were added on — only the note itself travels."
+        },
+        {
+          "q": "Does it get in the way of the app underneath?",
+          "a": "No. A chip is a floating window that never takes focus, so clicking or dragging one leaves your cursor exactly where you were typing. Click a chip to expand the card, press Esc or click elsewhere and it folds back, already saved."
+        },
+        {
+          "q": "Is it free to use?",
+          "a": "Yes. Writing and storing notes is free and unlimited, and the Windows version has no ads. The free version floats one note on screen at a time and gives you two of the seven colors. Pro is a one-time purchase — not a subscription — and adds unlimited floating notes, the full palette, inline images, adjustable note transparency, Google Drive sync, and note export and import."
+        }
+      ]
     }
   }
 }

@@ -22,6 +22,8 @@ APPS = {
     "floatcalc":     (r"FloatCalc\FloatCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatCalc\Resource\PlayStore등록자료\screenshots_v3\en", "*.png"),
     "floatcrypto":   (r"FloatCrypto\Resource\PlayStore_template\images\app_icon.png", r"FloatCrypto\Resource\PlayStore_등록자료\en", "*.png"),
     "floatnote":     (r"FloatNote\Resource\icon_512.png", r"FloatNote\Resource\PlayStore등록자료\en", "*.png"),
+    # 한국어 스크린샷은 store-ko-* 라 영어만 고른다.
+    "floatnotewin":  (r"FloatNoteWin\src\FloatNotePlus\Assets\app.ico", r"FloatNoteWin\Resource\shots", "store-en-*.png"),
     "floattimer":    (r"FloatTimer\FloatTimer\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatTimer\Resource\screenshots_en", "*.png"),
     "photocleaner":  (r"PhotoCleaner\Resource\icon_512.png", r"PhotoCleaner\Resource\PlayStore\screenshots\en", "*.png"),
     "readfocus":     (r"ReadFocus\Resource\icon_512.png", r"ReadFocus\Resource\screenshots\en", "*.png"),

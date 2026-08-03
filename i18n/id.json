@@ -421,6 +421,36 @@
           "a": "Ya. Versi gratis membaca dalam sesi hingga 60 menit dan mencakup kedua mode membaca serta dua tema. Pro adalah pembelian sekali bayar, bukan langganan, dan menambahkan tema premium, pengaturan Pita Fokus (tinggi, opasitas, sudut), dan tetap nyalakan layar, sekaligus menghapus batas waktu. Versi Windows tidak memiliki iklan."
         }
       ]
+    },
+    "floatnotewin": {
+      "name": "FloatNote+ for Windows",
+      "tag": "Catatan",
+      "seo": "Catatan Tempel PC",
+      "desc": "Catatan tempel yang mengambang di atas jendela mana pun di Windows dan tersinkron dengan aplikasi Android FloatNote+.",
+      "tagline": "Catatan tempel yang mengambang di atas apa pun yang sedang Anda kerjakan: menulis tanpa meninggalkan jendela Anda, dan tanpa merebut fokusnya.",
+      "long": "FloatNote+ for Windows adalah versi desktop dari aplikasi FloatNote+ untuk Android. Setiap catatan hadir sebagai chip kecil di atas browser, editor, atau lembar kerja Anda; klik sekali dan ia terbentang di tempat menjadi kartu yang siap dibaca atau disunting, lalu Esc menciutkannya kembali menjadi chip. Chip tidak pernah merebut fokus dari aplikasi di belakangnya, jadi yang sedang Anda ketik tetap utuh — dan tidak ada tombol simpan, karena setiap ketikan sudah dicatat untuk Anda. Tujuh warna pastel, teks kaya, dan gambar di dalam catatan membedakan satu dari yang lain; jendela pustaka menangani pencarian, penyematan, dan pengelolaan, sedangkan sinkronisasi opsional membawa catatan Anda lewat folder khusus aplikasi di Google Drive Anda sendiri — folder yang sama dengan yang dipakai aplikasi Android.",
+      "features": [
+        "Catatan tempel yang mengambang di atas setiap jendela: chip terbentang di tempat menjadi kartu yang bisa disunting, dan Esc menciutkannya kembali",
+        "Tidak pernah merebut fokus — seret atau klik chip, kursor Anda tetap di aplikasi tempat Anda mengetik",
+        "Tanpa tombol simpan: setiap ketikan dicatat untuk Anda, dan jendela pustaka menangani pencarian, penyematan, dan pengelolaan",
+        "Teks kaya — tebal, miring, garis bawah, coret, warna dan ukuran teks — dengan 7 warna pastel dan gambar di dalam catatan",
+        "Sinkronisasi privat lewat folder khusus aplikasi di Google Drive Anda sendiri, berbagi dengan aplikasi Android — tanpa server kami di tengah",
+        "Hotkey global, baki sistem, tema terang dan gelap, jalan saat logon, 18 bahasa. Tanpa iklan, dan Pro adalah pembelian sekali bayar"
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini aplikasi yang sama dengan FloatNote+ di Android?",
+          "a": "Ini aplikasi yang sama yang dibuat untuk Windows, dengan chip dan kartu yang sama. Keduanya dibeli terpisah di toko masing-masing, tetapi sama-sama tersinkron lewat folder khusus aplikasi yang sama di Google Drive Anda sendiri, jadi catatan yang ditulis di PC ada di ponsel dan sebaliknya. Gambar yang dilampirkan ke catatan tetap di perangkat tempat Anda menambahkannya — yang berpindah adalah catatannya."
+        },
+        {
+          "q": "Apakah ia mengganggu aplikasi di bawahnya?",
+          "a": "Tidak. Chip adalah jendela mengambang yang tidak pernah mengambil fokus, jadi mengeklik atau menyeretnya membiarkan kursor tetap persis di tempat Anda mengetik. Klik chip untuk membentangkan kartu; tekan Esc atau klik di luar dan ia menciut, sudah tersimpan."
+        },
+        {
+          "q": "Apakah gratis?",
+          "a": "Ya. Menulis dan menyimpan catatan gratis dan tanpa batas, dan versi Windows tidak memiliki iklan. Versi gratis mengambangkan satu catatan di layar pada satu waktu dan memberi Anda dua dari tujuh warna. Pro adalah pembelian sekali bayar, bukan langganan, dan menambahkan catatan mengambang tanpa batas, palet lengkap, gambar di dalam catatan, opasitas yang bisa diatur, sinkronisasi Google Drive, serta ekspor dan impor catatan."
+        }
+      ]
     }
   }
 }

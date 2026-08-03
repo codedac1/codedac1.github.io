@@ -421,6 +421,36 @@
           "a": "Sí. La versión gratuita permite sesiones de hasta 60 minutos e incluye los dos modos de lectura y dos temas. Pro es una compra única, no una suscripción, y añade temas premium, los ajustes de la franja de enfoque (altura, opacidad y esquinas) y mantener la pantalla encendida, además de quitar el límite de tiempo. La versión de Windows no tiene anuncios."
         }
       ]
+    },
+    "floatnotewin": {
+      "name": "FloatNote+ for Windows",
+      "tag": "Notas",
+      "seo": "notas adhesivas para PC",
+      "desc": "Notas adhesivas que flotan sobre cualquier ventana de Windows y se sincronizan con la app de Android FloatNote+.",
+      "tagline": "Notas adhesivas que flotan sobre aquello en lo que estás trabajando: escribe sin salir de tu ventana, y nunca le quitan el foco.",
+      "long": "FloatNote+ for Windows es la versión de escritorio de la app FloatNote+ para Android. Cada nota vive como un chip pequeño sobre tu navegador, tu editor o tu hoja de cálculo; haz clic y se abre ahí mismo como tarjeta, lista para leer o editar, y con Esc vuelve a plegarse en chip. Un chip nunca le quita el foco a la app que tiene detrás, así que lo que estabas escribiendo sigue igual, y no hay botón de guardar: cada pulsación se guarda por ti. Siete colores pastel, texto enriquecido e imágenes dentro de la nota las distinguen; una ventana de archivo se encarga de buscar, fijar y organizar, y la sincronización opcional lleva tus notas por una carpeta privada de la app en tu propio Google Drive, la misma que usa la app de Android.",
+      "features": [
+        "Notas adhesivas que flotan sobre cualquier ventana: el chip se abre ahí mismo como tarjeta editable y Esc lo vuelve a plegar",
+        "Nunca quita el foco: arrastra o haz clic en un chip y el cursor sigue en la app en la que escribías",
+        "Sin botón de guardar: cada pulsación se guarda por ti, y una ventana de archivo se encarga de buscar, fijar y organizar",
+        "Texto enriquecido —negrita, cursiva, subrayado, tachado, color y tamaño— con 7 colores pastel de nota e imágenes dentro de la nota",
+        "Sincronización privada por una carpeta privada de la app en tu propio Google Drive, compartida con la app de Android, sin ningún servidor nuestro",
+        "Atajos globales, bandeja del sistema, temas claro y oscuro, inicio con la sesión y 18 idiomas. Sin anuncios y Pro es una compra única"
+      ],
+      "faq": [
+        {
+          "q": "¿Es la misma app que FloatNote+ para Android?",
+          "a": "Es la misma app creada para Windows, con los mismos chips y tarjetas. Se compran por separado en cada tienda, pero ambas se sincronizan por la misma carpeta privada de la app en tu propio Google Drive, así que una nota escrita en el PC está en el teléfono y al revés. Las imágenes adjuntas a una nota se quedan en el dispositivo donde las añadiste: lo que viaja es la nota."
+        },
+        {
+          "q": "¿Molesta a la app que hay debajo?",
+          "a": "No. Un chip es una ventana flotante que nunca toma el foco, así que al hacer clic o arrastrarlo el cursor se queda justo donde escribías. Haz clic en el chip para abrir la tarjeta; pulsa Esc o haz clic fuera y se pliega, ya guardada."
+        },
+        {
+          "q": "¿Es gratis?",
+          "a": "Sí. Escribir y guardar notas es gratis e ilimitado, y la versión de Windows no tiene anuncios. La versión gratuita hace flotar una nota a la vez y te da dos de los siete colores. Pro es una compra única, no una suscripción, y añade notas flotantes ilimitadas, la paleta completa, imágenes dentro de la nota, opacidad ajustable, sincronización con Google Drive y exportar e importar notas."
+        }
+      ]
     }
   }
 }

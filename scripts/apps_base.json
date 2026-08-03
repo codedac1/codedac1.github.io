@@ -59,7 +59,8 @@
     "slug": "floatnote",
     "name": "FloatNote+",
     "shots": 5,
-    "store": ""
+    "store": "",
+    "counterpart": "floatnotewin"
   },
   {
     "slug": "clipboardwin",
@@ -76,5 +77,13 @@
     "store": "https://apps.microsoft.com/detail/9NMSHKKX3R5C",
     "platform": "windows",
     "counterpart": "readfocus"
+  },
+  {
+    "slug": "floatnotewin",
+    "name": "FloatNote+ for Windows",
+    "shots": 4,
+    "store": "",
+    "platform": "windows",
+    "counterpart": "floatnote"
   }
 ]

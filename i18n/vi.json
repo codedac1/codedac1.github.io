@@ -421,6 +421,36 @@
           "a": "Có. Bản miễn phí cho mỗi phiên đọc tối đa 60 phút, gồm cả hai chế độ đọc và hai chủ đề. Pro là mua một lần chứ không phải thuê bao, bổ sung chủ đề cao cấp, cài đặt dải tập trung (chiều cao, độ mờ, bo góc) và giữ màn hình luôn bật, đồng thời bỏ giới hạn thời gian. Bản Windows không có quảng cáo."
         }
       ]
+    },
+    "floatnotewin": {
+      "name": "FloatNote+ for Windows",
+      "tag": "Ghi chú",
+      "seo": "Ghi chú dán cho PC",
+      "desc": "Ghi chú dán nổi trên mọi cửa sổ Windows, đồng bộ với ứng dụng FloatNote+ trên Android.",
+      "tagline": "Ghi chú dán nổi ngay trên thứ bạn đang làm: viết mà không rời cửa sổ đang mở, và không bao giờ cướp tiêu điểm của nó.",
+      "long": "FloatNote+ for Windows là phiên bản máy tính của ứng dụng FloatNote+ trên Android. Mỗi ghi chú nằm dưới dạng chip nhỏ trên trình duyệt, trình soạn thảo hay bảng tính; nhấp vào là nó mở ngay tại chỗ thành thẻ để đọc hoặc sửa, nhấn Esc thì thu lại thành chip. Chip không bao giờ lấy tiêu điểm khỏi ứng dụng phía sau, nên những gì bạn đang gõ vẫn nguyên vẹn — và cũng không có nút lưu, vì mỗi lần gõ đều được ghi lại giúp bạn. Bảy màu pastel, định dạng và hình ảnh trong ghi chú giúp phân biệt từng ghi chú; cửa sổ kho lưu lo việc tìm kiếm, ghim và quản lý, còn đồng bộ tùy chọn đưa ghi chú qua một thư mục riêng của ứng dụng trong chính Google Drive của bạn — đúng thư mục mà bản Android dùng.",
+      "features": [
+        "Ghi chú dán nổi trên mọi cửa sổ: chip mở ngay tại chỗ thành thẻ chỉnh sửa được, nhấn Esc thì thu lại",
+        "Không cướp tiêu điểm — kéo hay nhấp vào chip, con trỏ vẫn ở ứng dụng bạn đang gõ",
+        "Không có nút lưu: mỗi lần gõ đều được ghi lại, còn cửa sổ kho lưu lo tìm kiếm, ghim và quản lý",
+        "Định dạng — in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ — cùng 7 màu pastel và hình ảnh trong ghi chú",
+        "Đồng bộ riêng tư qua thư mục riêng của ứng dụng trong chính Google Drive của bạn, dùng chung với bản Android — không qua máy chủ nào của chúng tôi",
+        "Phím tắt toàn cục, khay hệ thống, giao diện sáng và tối, chạy khi đăng nhập, 18 ngôn ngữ. Không quảng cáo, và Pro là mua một lần"
+      ],
+      "faq": [
+        {
+          "q": "Đây có phải cùng một ứng dụng với FloatNote+ trên Android không?",
+          "a": "Đây là cùng một ứng dụng được làm cho Windows, với chip và thẻ giống hệt. Hai bản mua riêng ở từng cửa hàng, nhưng đều đồng bộ qua cùng một thư mục riêng của ứng dụng trong chính Google Drive của bạn, nên ghi chú viết trên máy tính sẽ có trên điện thoại và ngược lại. Riêng ảnh đính kèm vẫn ở lại thiết bị đã thêm — thứ đi lại là nội dung ghi chú."
+        },
+        {
+          "q": "Nó có cản trở ứng dụng bên dưới không?",
+          "a": "Không. Chip là cửa sổ nổi không bao giờ nhận tiêu điểm, nên nhấp hay kéo nó đều để con trỏ đúng chỗ bạn đang gõ. Nhấp vào chip để mở thẻ; nhấn Esc hoặc nhấp ra ngoài thì thẻ thu lại và đã được lưu."
+        },
+        {
+          "q": "Có dùng miễn phí được không?",
+          "a": "Có. Viết và lưu ghi chú là miễn phí, không giới hạn, và bản Windows không có quảng cáo. Bản miễn phí cho nổi một ghi chú tại một thời điểm và cho bạn hai trong bảy màu. Pro là mua một lần chứ không phải thuê bao, bổ sung ghi chú nổi không giới hạn, đủ bảng màu, hình ảnh trong ghi chú, chỉnh độ mờ, đồng bộ Google Drive cùng xuất và nhập ghi chú."
+        }
+      ]
     }
   }
 }

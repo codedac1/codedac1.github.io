@@ -421,6 +421,36 @@
           "a": "Oui. La version gratuite propose des sessions de lecture jusqu’à 60 minutes, les deux modes de lecture et deux thèmes. Pro est un achat unique, pas un abonnement : il ajoute les thèmes premium, les réglages de la bande de focus (hauteur, opacité, coins) et le maintien de l’écran allumé, et supprime la limite de temps. La version Windows ne contient aucune publicité."
         }
       ]
+    },
+    "floatnotewin": {
+      "name": "FloatNote+ for Windows",
+      "tag": "Notes",
+      "seo": "pense-bêtes pour PC",
+      "desc": "Des pense-bêtes qui flottent au-dessus de n'importe quelle fenêtre Windows et se synchronisent avec l'appli Android FloatNote+.",
+      "tagline": "Des pense-bêtes qui flottent au-dessus de ce sur quoi vous travaillez : écrivez sans quitter votre fenêtre, ils ne lui prennent jamais le focus.",
+      "long": "FloatNote+ for Windows est la version bureau de l'application Android FloatNote+. Chaque note vit sous forme de pastille au-dessus du navigateur, de l'éditeur ou du tableur ; un clic l'ouvre sur place en carte, prête à lire ou à modifier, et Échap la referme en pastille. Une pastille ne prend jamais le focus de l'application derrière elle : ce que vous étiez en train de taper reste intact. Il n'y a pas non plus de bouton d'enregistrement, chaque frappe est écrite pour vous. Sept couleurs pastel, le texte enrichi et les images dans la note les distinguent, une fenêtre bibliothèque prend en charge la recherche, l'épinglage et la gestion, et la synchronisation facultative fait passer vos notes par un dossier privé à l'application dans votre propre Google Drive, celui-là même qu'utilise l'appli Android.",
+      "features": [
+        "Des pense-bêtes qui flottent au-dessus de chaque fenêtre : la pastille s'ouvre sur place en carte modifiable, Échap la referme",
+        "Ne prend jamais le focus : déplacez ou cliquez une pastille, votre curseur reste dans l'application où vous tapiez",
+        "Aucun bouton d'enregistrement : chaque frappe est écrite pour vous, et une fenêtre bibliothèque gère recherche, épinglage et rangement",
+        "Texte enrichi — gras, italique, souligné, barré, couleur et taille — avec 7 couleurs pastel et des images dans la note",
+        "Synchronisation privée via un dossier privé à l'application dans votre propre Google Drive, partagé avec l'appli Android — sans aucun serveur de notre part",
+        "Raccourcis globaux, zone de notification, thèmes clair et sombre, lancement à l'ouverture de session, 18 langues. Sans publicité, et Pro est un achat unique"
+      ],
+      "faq": [
+        {
+          "q": "Est-ce la même application que FloatNote+ sur Android ?",
+          "a": "C'est la même application conçue pour Windows, avec les mêmes pastilles et cartes. Les achats sont séparés sur chaque boutique, mais les deux se synchronisent via le même dossier privé à l'application dans votre propre Google Drive : une note écrite sur le PC se retrouve sur le téléphone, et inversement. Les images jointes à une note restent sur l'appareil où vous les avez ajoutées — seule la note voyage."
+        },
+        {
+          "q": "Gêne-t-elle l'application en dessous ?",
+          "a": "Non. Une pastille est une fenêtre flottante qui ne prend jamais le focus : la cliquer ou la déplacer laisse le curseur exactement là où vous tapiez. Cliquez sur la pastille pour ouvrir la carte ; appuyez sur Échap ou cliquez ailleurs et elle se referme, déjà enregistrée."
+        },
+        {
+          "q": "Est-elle gratuite ?",
+          "a": "Oui. Écrire et conserver des notes est gratuit et illimité, et la version Windows ne contient aucune publicité. La version gratuite fait flotter une note à la fois et propose deux des sept couleurs. Pro est un achat unique, pas un abonnement : il ajoute les notes flottantes illimitées, la palette complète, les images dans la note, l'opacité réglable, la synchro Google Drive, ainsi que l'export et l'import."
+        }
+      ]
     }
   }
 }

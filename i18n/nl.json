@@ -421,6 +421,36 @@
           "a": "Ja. De gratis versie leest in sessies van maximaal 60 minuten en bevat beide leesmodi en twee thema's. Pro is een eenmalige aankoop, geen abonnement, en voegt premium thema's, de instellingen voor de focusstrook (hoogte, dekking, hoeken) en scherm aan houden toe, en haalt de tijdslimiet weg. De Windows-versie bevat geen advertenties."
         }
       ]
+    },
+    "floatnotewin": {
+      "name": "FloatNote+ for Windows",
+      "tag": "Notities",
+      "seo": "Plaknotities voor pc",
+      "desc": "Plaknotities die boven elk venster in Windows zweven en synchroniseren met de Android-app FloatNote+.",
+      "tagline": "Plaknotities die zweven boven waar je mee bezig bent: schrijf zonder je venster te verlaten, en ze pakken de focus nooit af.",
+      "long": "FloatNote+ for Windows is de desktopversie van de Android-app FloatNote+. Elke notitie leeft als een kleine chip boven je browser, je editor of je spreadsheet; klik erop en hij vouwt ter plekke open tot een kaart om te lezen of te bewerken, en met Esc vouwt hij weer in tot chip. Een chip pakt de app erachter nooit de focus af, dus wat je aan het typen was blijft precies zoals het was — en een opslaanknop is er niet, want elke toetsaanslag wordt voor je vastgelegd. Zeven pasteltinten, tekstopmaak en afbeeldingen in de notitie houden je notities uit elkaar, een archiefvenster verzorgt zoeken, vastpinnen en beheren, en optionele synchronisatie loopt via een app-privé map in je eigen Google Drive, dezelfde die de Android-app gebruikt.",
+      "features": [
+        "Plaknotities die boven elk venster zweven: de chip vouwt ter plekke open tot een bewerkbare kaart en Esc vouwt hem weer in",
+        "Pakt nooit de focus af — sleep of klik een chip en je cursor blijft in de app waarin je typte",
+        "Geen opslaanknop: elke toetsaanslag wordt voor je vastgelegd, en een archiefvenster verzorgt zoeken, vastpinnen en beheren",
+        "Tekstopmaak — vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte — met 7 pastelkleuren en afbeeldingen in de notitie",
+        "Privésynchronisatie via een app-privé map in je eigen Google Drive, gedeeld met de Android-app — zonder server van ons ertussen",
+        "Globale sneltoetsen, systeemvak, licht en donker thema, starten bij aanmelden, 18 talen. Geen advertenties en Pro is een eenmalige aankoop"
+      ],
+      "faq": [
+        {
+          "q": "Is dit dezelfde app als FloatNote+ op Android?",
+          "a": "Het is dezelfde app, gebouwd voor Windows, met dezelfde chips en kaarten. Je koopt ze apart in elke store, maar beide synchroniseren via dezelfde app-privé map in je eigen Google Drive: een notitie die je op de pc schrijft staat op je telefoon en andersom. Afbeeldingen in een notitie blijven op het apparaat waar je ze toevoegde — alleen de notitie zelf reist mee."
+        },
+        {
+          "q": "Zit het de app eronder in de weg?",
+          "a": "Nee. Een chip is een zwevend venster dat nooit de focus overneemt, dus klikken of slepen laat je cursor precies waar je typte. Klik op de chip om de kaart te openen; druk op Esc of klik ernaast en hij vouwt weer in, al opgeslagen."
+        },
+        {
+          "q": "Is het gratis?",
+          "a": "Ja. Notities schrijven en bewaren is gratis en onbeperkt, en de Windows-versie bevat geen advertenties. De gratis versie laat één notitie tegelijk zweven en geeft je twee van de zeven kleuren. Pro is een eenmalige aankoop, geen abonnement, en voegt onbeperkt zwevende notities toe, het volledige palet, afbeeldingen in de notitie, instelbare transparantie, Google Drive-synchronisatie en export en import."
+        }
+      ]
     }
   }
 }

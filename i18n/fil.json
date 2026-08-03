@@ -421,6 +421,36 @@
           "a": "Oo. Ang libreng bersyon ay nagbabasa sa mga session na hanggang 60 minuto at kasama ang dalawang mode ng pagbasa at dalawang tema. Ang Pro ay isang beses na bayad, hindi subscription, at nagdadagdag ng premium na tema, mga setting ng Focus Strip (taas, opacity, sulok), at panatilihing naka-on ang screen, at inaalis ang limitasyon sa oras. Walang ads ang bersyon para sa Windows."
         }
       ]
+    },
+    "floatnotewin": {
+      "name": "FloatNote+ for Windows",
+      "tag": "Notes",
+      "seo": "Sticky Notes para sa PC",
+      "desc": "Sticky notes na lumulutang sa ibabaw ng kahit anong window sa Windows, naka-sync sa FloatNote+ Android app.",
+      "tagline": "Sticky notes na lumulutang sa ibabaw ng pinagtatrabahuhan mo: magsulat nang hindi umaalis sa window mo, at hindi nito kinukuha ang focus nito.",
+      "long": "Ang FloatNote+ for Windows ay ang desktop na bersyon ng FloatNote+ para sa Android. Ang bawat nota ay nakalutang bilang maliit na chip sa ibabaw ng browser, editor, o spreadsheet mo; i-click ito at bubukas agad bilang card na puwedeng basahin o i-edit, at sa Esc babalik ito sa chip. Hindi kailanman kinukuha ng chip ang focus ng app sa likod nito, kaya nananatili ang tinitipa mo; wala ring save button dahil awtomatikong naitatala ang bawat keystroke. Pitong pastel na kulay, rich text, at larawan sa loob ng nota ang nagpapaiba sa bawat isa, ang library window ang humahawak sa paghahanap, pag-pin, at pamamahala, at ang opsyonal na sync ay dumadaan sa isang app-private na folder sa sarili mong Google Drive — ang mismong folder na ginagamit ng Android app.",
+      "features": [
+        "Sticky notes na lumulutang sa ibabaw ng bawat window: bumubukas ang chip bilang card na puwedeng i-edit, at sa Esc babalik ito sa chip",
+        "Hindi kumukuha ng focus — i-drag o i-click ang chip at mananatili ang cursor mo sa app na tinitipa mo",
+        "Walang save button: awtomatikong naitatala ang bawat keystroke, at ang library window ang humahawak sa paghahanap, pag-pin, at pamamahala",
+        "Rich text — bold, italic, underline, strikethrough, kulay at laki ng teksto — kasama ang 7 pastel na kulay at larawan sa loob ng nota",
+        "Pribadong sync sa pamamagitan ng app-private na folder sa sarili mong Google Drive, kapareho ng Android app — walang server namin sa pagitan",
+        "Global hotkeys, system tray, light at dark theme, pagtakbo sa logon, 18 wika. Walang ads, at isang beses lang ang bayad sa Pro"
+      ],
+      "faq": [
+        {
+          "q": "Pareho ba ito sa FloatNote+ sa Android?",
+          "a": "Pareho itong app na ginawa para sa Windows, at pareho rin ang chip at card. Hiwalay ang pagbili sa bawat store, pero pareho silang nagsi-sync sa iisang app-private na folder sa sarili mong Google Drive, kaya ang notang isinulat sa PC ay nasa telepono at gayundin sa kabaligtaran. Ang mga larawang nakalakip sa nota ay nananatili sa device kung saan mo idinagdag — ang nota mismo ang naglalakbay."
+        },
+        {
+          "q": "Nakakaabala ba ito sa app na nasa ilalim?",
+          "a": "Hindi. Ang chip ay lumulutang na window na hindi kumukuha ng focus, kaya kapag ini-click o hinila mo ito, nananatili ang cursor sa mismong pinagtatipahan mo. I-click ang chip para buksan ang card; pindutin ang Esc o mag-click sa labas at babalik itong nakatiklop, naka-save na."
+        },
+        {
+          "q": "Libre ba ito?",
+          "a": "Oo. Libre at walang limitasyon ang pagsulat at pag-imbak ng nota, at walang ads ang bersyon para sa Windows. Ang libreng bersyon ay naglulutang ng isang nota sa bawat pagkakataon at may dalawa sa pitong kulay. Ang Pro ay isang beses na bayad, hindi subscription, at nagdadagdag ng walang limitasyong lumulutang na nota, buong palette, larawan sa loob ng nota, naiaayos na opacity, Google Drive sync, at export at import ng nota."
+        }
+      ]
     }
   }
 }

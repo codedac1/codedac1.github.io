@@ -421,6 +421,36 @@
           "a": "Evet. Ücretsiz sürüm 60 dakikaya kadar süren oturumlarla okur ve iki okuma modunu ve iki temayı içerir. Pro abonelik değil tek seferlik satın almadır; premium temaları, odak şeridi ayarlarını (yükseklik, saydamlık, köşeler) ve ekran kapanmasını önlemeyi ekler, süre sınırını da kaldırır. Windows sürümünde reklam yoktur."
         }
       ]
+    },
+    "floatnotewin": {
+      "name": "FloatNote+ for Windows",
+      "tag": "Notlar",
+      "seo": "PC yapışkan notlar",
+      "desc": "Windows'ta her pencerenin üstünde yüzen yapışkan notlar; FloatNote+ Android uygulamasıyla eşitlenir.",
+      "tagline": "Üzerinde çalıştığınız şeyin üstünde yüzen yapışkan notlar: penceredeninizden çıkmadan yazın, odağı da asla almazlar.",
+      "long": "FloatNote+ for Windows, Android'deki FloatNote+ uygulamasının masaüstü sürümüdür. Her not, tarayıcınızın, düzenleyicinizin ya da hesap tablonuzun üstünde küçük bir çip olarak durur; tıkladığınızda olduğu yerde karta genişleyip okumaya ve düzenlemeye hazır olur, Esc ile yeniden çipe katlanır. Çip, arkasındaki uygulamanın odağını asla almaz; yazdığınız metin olduğu gibi kalır. Kaydet düğmesi de yoktur, her tuş vuruşu sizin için yazılır. Yedi pastel renk, zengin metin ve not içi görseller notları birbirinden ayırır; arşiv penceresi arama, sabitleme ve düzeni üstlenir. İsteğe bağlı eşitleme ise notlarınızı kendi Google Drive'ınızdaki uygulamaya özel bir klasör üzerinden taşır — Android sürümünün kullandığı klasörün aynısı.",
+      "features": [
+        "Her pencerenin üstünde yüzen yapışkan notlar: çip olduğu yerde düzenlenebilir karta genişler, Esc ile geri katlanır",
+        "Odağı asla almaz — çipi sürükleyin ya da tıklayın, imleç yazdığınız uygulamada kalır",
+        "Kaydet düğmesi yok: her tuş vuruşu sizin için yazılır ve arşiv penceresi arama, sabitleme ve düzeni üstlenir",
+        "Zengin metin — kalın, italik, altı çizili, üstü çizili, metin rengi ve boyutu — ayrıca 7 pastel not rengi ve not içi görseller",
+        "Kendi Google Drive'ınızdaki uygulamaya özel klasör üzerinden gizli eşitleme; Android sürümüyle aynı klasör, araya giren bir sunucumuz yok",
+        "Global kısayollar, sistem tepsisi, açık ve koyu tema, oturum açılışında başlatma, 18 dil. Reklam yok, Pro tek seferlik satın alma"
+      ],
+      "faq": [
+        {
+          "q": "Bu, Android'deki FloatNote+ ile aynı uygulama mı?",
+          "a": "Windows için yapılmış aynı uygulama; çipler ve kartlar da aynı. Satın alma her mağazada ayrıdır, ancak ikisi de kendi Google Drive'ınızdaki aynı uygulamaya özel klasör üzerinden eşitlenir; bilgisayarda yazdığınız not telefonunuzda, telefonda yazdığınız not bilgisayarınızda olur. Nota eklenen görseller ise eklendikleri cihazda kalır — yolculuk eden notun kendisidir."
+        },
+        {
+          "q": "Alttaki uygulamayı engeller mi?",
+          "a": "Hayır. Çip, odağı asla almayan yüzen bir penceredir; tıklamak ya da sürüklemek imlecinizi tam yazdığınız yerde bırakır. Kartı açmak için çipe tıklayın; Esc'e basın ya da başka bir yere tıklayın, kaydedilmiş olarak geri katlanır."
+        },
+        {
+          "q": "Ücretsiz mi?",
+          "a": "Evet. Not yazmak ve saklamak ücretsiz ve sınırsızdır, Windows sürümünde reklam yoktur. Ücretsiz sürüm ekranda aynı anda bir not yüzdürür ve yedi rengin ikisini verir. Pro abonelik değil tek seferlik satın almadır; sınırsız yüzen not, tüm palet, not içi görseller, ayarlanabilir not saydamlığı, Google Drive eşitlemesi ile dışa ve içe aktarma ekler."
+        }
+      ]
     }
   }
 }
