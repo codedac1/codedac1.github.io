@@ -332,6 +332,36 @@
         }
       ]
     },
+    "floatnote": {
+      "name": "FloatNote+",
+      "tag": "Notlar",
+      "seo": "yüzen yapışkan notlar",
+      "desc": "Her uygulamanın üstünde yüzen yapışkan notlar. Çipe küçült, kart olarak aç; renkler ve zengin metin.",
+      "tagline": "Her uygulamanın üstünde yüzen yapışkan notlar: hızlıca bir not al, ekranında kalsın; her zaman bir dokunuş uzağında.",
+      "long": "FloatNote+, yapışkan notları her uygulamanın üstünde yüzer tutar. Kaplama iznini bir kez verin; her not tarayıcının, sohbetin, videonun ya da ana ekranın üstünde küçük bir çip olarak durur, dokunduğunuzda ise olduğu yerde tam bir karta genişleyerek okumaya, düzenlemeye ve paylaşmaya hazır olur. Renkler, zengin metin ve görseller notları birbirinden ayırır; ana uygulama ise arama, sabitleme ve sıralama için arşiv görevi görür. Açık ve koyu tema birlikte gelir.",
+      "features": [
+        "Yüzen kaplama notlar: notu küçük bir çipe küçültün, her uygulamanın üstünde tam kart olarak açın",
+        "7 not rengi ve zengin metin: kalın, italik, altı çizili, üstü çizili, metin rengi ve boyutu",
+        "Notta görsel: fotoğrafları doğrudan notun içine ekleyin",
+        "Hızlı yakalama: paylaşım menüsünden, başka bir uygulamada seçili metinden veya Hızlı Ayarlar döşemesinden",
+        "Anında arama, sabitleme ve sürükleyerek sıralama sunan arşiv; çipi alttaki bölgeye bırakmak notu silmez, kaldırır",
+        "Pro: sınırsız yüzen not, 7 rengin tümü, görseller, ayarlanabilir saydamlık, Google Drive eşitleme, dışa/içe aktarma, reklamsız"
+      ],
+      "faq": [
+        {
+          "q": "Yüzen notlar nasıl çalışır?",
+          "a": "Kaplama iznini bir kez verin; notlarınız diğer uygulamaların üstünde küçük çipler olarak yüzer. Çipe dokunarak kart olarak açar ve orada düzenlersiniz; kartın dışına dokunduğunuzda otomatik kaydedip küçülür. Çipi ekranın altındaki bölgeye sürüklemek notu yalnızca kaldırır — gerçek silme her zaman onay ister."
+        },
+        {
+          "q": "Nerede kullanabilirim?",
+          "a": "Ekranda her yerde: tarayıcının, sohbetin, videonun, bir belgenin veya ana ekranın üstünde. Uygulamayı açmadan da not oluşturabilirsiniz: paylaşım menüsünden, başka bir uygulamada seçtiğiniz metinden ya da Hızlı Ayarlar döşemesinden."
+        },
+        {
+          "q": "Ücretsiz mi?",
+          "a": "Evet. Not kaydetmek sınırsız ve ücretsizdir; ücretsiz sürüm 2 renkli yüzen yapışkan notlar sunar ve reklam gösterir. Pro; sınırsız yüzen not, 7 rengin tümü, görseller, ayarlanabilir saydamlık, Google Drive eşitleme, dışa/içe aktarma ekler ve reklamları kaldırır."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Pano",

@@ -332,6 +332,36 @@
         }
       ]
     },
+    "floatnote": {
+      "name": "FloatNote+",
+      "tag": "Catatan",
+      "seo": "Catatan Tempel Mengambang",
+      "desc": "Catatan tempel yang mengambang di atas aplikasi apa pun. Ciutkan jadi chip, bentangkan jadi kartu, dengan warna dan teks kaya.",
+      "tagline": "Catatan tempel yang mengambang di atas aplikasi apa pun: tulis satu ide dan tetap di layar, selalu sejauh satu ketukan.",
+      "long": "FloatNote+ membuat catatan tempel mengambang di atas aplikasi apa pun. Beri izin overlay sekali saja, dan setiap catatan hadir sebagai chip kecil di atas browser, obrolan, video, atau layar utama; ketuk chip itu dan catatan langsung terbentang jadi kartu penuh untuk dibaca, disunting, dan dibagikan. Warna, teks kaya, dan gambar membedakan tiap catatan, sementara aplikasi utama menjadi pustaka untuk mencari, menyematkan, dan mengurutkan. Tema terang dan gelap sama-sama tersedia.",
+      "features": [
+        "Catatan overlay mengambang: ciutkan catatan jadi chip, bentangkan jadi kartu penuh di atas aplikasi apa pun",
+        "7 warna catatan dan teks kaya: tebal, miring, garis bawah, coret, warna dan ukuran teks",
+        "Gambar dalam catatan: lampirkan foto langsung di dalamnya",
+        "Tangkap cepat dari menu bagikan, dari teks terpilih di aplikasi lain, atau dari ubin Pengaturan cepat",
+        "Pustaka dengan pencarian seketika, penyematan, dan pengurutan dengan menyeret; menyeret chip ke area bawah menyimpan catatan, bukan menghapusnya",
+        "Pro: catatan mengambang tanpa batas, 7 warna lengkap, gambar, opasitas yang bisa diatur, sinkronisasi Google Drive, ekspor & impor, tanpa iklan"
+      ],
+      "faq": [
+        {
+          "q": "Bagaimana cara kerja catatan mengambang?",
+          "a": "Beri izin overlay sekali, lalu catatan Anda mengambang di atas aplikasi lain sebagai chip kecil. Ketuk chip untuk membentangkannya jadi kartu dan menyuntingnya di tempat; ketuk di luar kartu maka ia menciut dan tersimpan otomatis. Menyeret chip ke area di bagian bawah layar hanya menyimpan catatan — penghapusan sungguhan selalu meminta konfirmasi."
+        },
+        {
+          "q": "Di mana saya bisa memakainya?",
+          "a": "Di mana saja pada layar: di atas browser, obrolan, video, dokumen, atau layar utama. Anda juga bisa membuat catatan tanpa membuka aplikasi: dari menu bagikan, dari teks yang dipilih di aplikasi lain, atau dari ubin Pengaturan cepat."
+        },
+        {
+          "q": "Apakah gratis?",
+          "a": "Ya. Menyimpan catatan gratis dan tanpa batas, dan versi gratis menampilkan catatan tempel mengambang dengan 2 warna beserta iklan. Pro menambahkan catatan mengambang tanpa batas, 7 warna lengkap, gambar, opasitas yang bisa diatur, sinkronisasi Google Drive, ekspor dan impor, serta menghilangkan iklan."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Clipboard",

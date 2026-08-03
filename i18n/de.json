@@ -332,6 +332,36 @@
         }
       ]
     },
+    "floatnote": {
+      "name": "FloatNote+",
+      "tag": "Notizen",
+      "seo": "Schwebende Haftnotizen App",
+      "desc": "Haftnotizen, die über jeder App schweben. Als Chip einklappen, als Karte öffnen – mit Farben und Rich-Text.",
+      "tagline": "Haftnotizen, die über jeder App schweben – notiere einen Gedanken, und er bleibt auf dem Bildschirm, immer nur einen Tipp entfernt.",
+      "long": "FloatNote+ lässt Haftnotizen über jeder App schweben. Erteile die Overlay-Berechtigung einmal, und jede Notiz lebt als kleiner Chip über Browser, Chat, Video oder Startbildschirm; ein Tipp öffnet sie an Ort und Stelle als volle Karte zum Lesen, Bearbeiten und Teilen. Farben, Rich-Text und Bilder halten die Notizen auseinander, während die Haupt-App als Archiv zum Suchen, Anheften und Sortieren dient. Helles und dunkles Design sind beide enthalten.",
+      "features": [
+        "Schwebende Overlay-Notizen: zu einem Chip einklappen, über jeder App als volle Karte öffnen",
+        "7 Haftnotiz-Farben und Rich-Text: fett, kursiv, unterstrichen, durchgestrichen, Textfarbe und -größe",
+        "Bilder in der Notiz: Fotos direkt in eine Notiz einfügen",
+        "Schnell erfassen: aus dem Teilen-Menü, aus markiertem Text in jeder App oder über die Schnelleinstellungs-Kachel",
+        "Archiv mit sofortiger Suche, Anheften und Neuordnen per Ziehen – ein Chip in die Zone am unteren Rand legt die Notiz ab, statt sie zu löschen",
+        "Pro: unbegrenzte schwebende Notizen, alle 7 Farben, Bilder, einstellbare Transparenz, Google-Drive-Sync, Export & Import, keine Werbung"
+      ],
+      "faq": [
+        {
+          "q": "Wie funktionieren schwebende Notizen?",
+          "a": "Erteile die Overlay-Berechtigung einmal, und deine Notizen schweben als kleine Chips über anderen Apps. Ein Tipp öffnet den Chip als Karte, die du direkt bearbeitest; ein Tipp daneben klappt sie wieder ein und speichert automatisch. Ziehst du einen Chip in die Zone am unteren Rand, wird die Notiz nur abgelegt – echtes Löschen fragt immer nach."
+        },
+        {
+          "q": "Wo kann ich es verwenden?",
+          "a": "Überall auf dem Bildschirm – über Browser, Chat, Video, Dokument oder Startbildschirm. Du kannst eine Notiz auch erstellen, ohne die App zu öffnen: aus dem Teilen-Menü, aus markiertem Text in einer anderen App oder über die Schnelleinstellungs-Kachel."
+        },
+        {
+          "q": "Ist es kostenlos?",
+          "a": "Ja. Notizen zu speichern ist unbegrenzt und kostenlos, und die kostenlose Version lässt Haftnotizen mit 2 Farben schweben und zeigt Werbung. Pro ergänzt unbegrenzte schwebende Notizen, alle 7 Farben, Bilder, einstellbare Transparenz, Google-Drive-Sync, Export und Import – und entfernt die Werbung."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Zwischenablage",

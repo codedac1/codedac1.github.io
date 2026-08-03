@@ -332,6 +332,36 @@
         }
       ]
     },
+    "floatnote": {
+      "name": "FloatNote+",
+      "tag": "Notities",
+      "seo": "Zwevende plaknotities",
+      "desc": "Plaknotities die boven elke app zweven. Vouw in tot een chip, open als kaart — met kleuren en opmaak.",
+      "tagline": "Plaknotities die boven elke app zweven: noteer een gedachte en hij blijft op je scherm, altijd één tik weg.",
+      "long": "FloatNote+ laat plaknotities boven elke app zweven. Geef één keer toestemming voor het overlay-venster en elke notitie leeft als een kleine chip boven je browser, chat, video of startscherm; één tik vouwt hem ter plekke open tot een volledige kaart om te lezen, bewerken en delen. Kleuren, tekstopmaak en afbeeldingen houden je notities uit elkaar, terwijl de hoofd-app als archief dient om te zoeken, vast te pinnen en te ordenen. Licht en donker thema zitten er allebei in.",
+      "features": [
+        "Zwevende overlay-notities: vouw een notitie in tot een chip en open hem als volledige kaart boven elke app",
+        "7 notitiekleuren en tekstopmaak: vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte",
+        "Afbeeldingen in de notitie: voeg foto's direct in een notitie toe",
+        "Snel vastleggen vanuit het deelmenu, vanuit geselecteerde tekst in een andere app of via de tegel in Snelle instellingen",
+        "Archief met directe zoekfunctie, vastpinnen en slepen om te ordenen; een chip naar de zone onderaan slepen bergt de notitie op in plaats van hem te verwijderen",
+        "Pro: onbeperkt zwevende notities, alle 7 kleuren, afbeeldingen, instelbare transparantie, Google Drive-synchronisatie, export & import, geen advertenties"
+      ],
+      "faq": [
+        {
+          "q": "Hoe werken zwevende notities?",
+          "a": "Geef één keer toestemming voor het overlay-venster en je notities zweven als kleine chips boven andere apps. Tik op een chip om hem als kaart te openen en meteen te bewerken; tik ernaast en hij vouwt weer in en slaat automatisch op. Een chip naar de zone onderaan het scherm slepen bergt de notitie alleen op — echt verwijderen vraagt altijd om bevestiging."
+        },
+        {
+          "q": "Waar kan ik het gebruiken?",
+          "a": "Overal op het scherm: boven een browser, een chat, een video, een document of het startscherm. Je kunt ook een notitie maken zonder de app te openen: vanuit het deelmenu, vanuit tekst die je in een andere app selecteert, of via de tegel in Snelle instellingen."
+        },
+        {
+          "q": "Is het gratis?",
+          "a": "Ja. Notities opslaan is onbeperkt en gratis, en de gratis versie laat plaknotities met 2 kleuren zweven en toont advertenties. Pro voegt onbeperkt zwevende notities toe, alle 7 kleuren, afbeeldingen, instelbare transparantie, Google Drive-synchronisatie, export en import, en verwijdert de advertenties."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Klembord",

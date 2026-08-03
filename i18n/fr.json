@@ -332,6 +332,36 @@
         }
       ]
     },
+    "floatnote": {
+      "name": "FloatNote+",
+      "tag": "Notes",
+      "seo": "pense-bêtes flottants",
+      "desc": "Des pense-bêtes qui flottent sur toute appli. Réduisez en pastille, ouvrez en carte, avec couleurs et texte enrichi.",
+      "tagline": "Des pense-bêtes qui flottent au-dessus de chaque appli : notez une idée, elle reste à l'écran, toujours à portée de doigt.",
+      "long": "FloatNote+ garde des pense-bêtes flottant au-dessus de chaque appli. Accordez l'autorisation de superposition une seule fois : chaque note vit sous forme de pastille au-dessus du navigateur, d'une messagerie, d'une vidéo ou de l'écran d'accueil, et un appui l'ouvre sur place en carte complète pour lire, modifier et partager. Les couleurs, le texte enrichi et les images distinguent chaque note, tandis que l'application principale sert de bibliothèque pour rechercher, épingler et réorganiser. Thèmes clair et sombre inclus.",
+      "features": [
+        "Notes flottantes en surimpression : réduisez une note en pastille, ouvrez-la en carte au-dessus de toute appli",
+        "7 couleurs de pense-bête et texte enrichi : gras, italique, souligné, barré, couleur et taille du texte",
+        "Images dans la note : ajoutez des photos directement à l'intérieur",
+        "Capture rapide depuis le menu de partage, depuis du texte sélectionné dans une autre appli ou depuis la tuile des Réglages rapides",
+        "Bibliothèque avec recherche instantanée, épinglage et réorganisation par glisser ; amener une pastille dans la zone du bas range la note au lieu de la supprimer",
+        "Pro : notes flottantes illimitées, les 7 couleurs, images, opacité réglable, synchro Google Drive, export et import, sans publicité"
+      ],
+      "faq": [
+        {
+          "q": "Comment fonctionnent les notes flottantes ?",
+          "a": "Accordez l'autorisation de superposition une fois et vos notes flottent au-dessus des autres applis sous forme de petites pastilles. Appuyez sur une pastille pour l'ouvrir en carte et la modifier sur place ; appuyez à côté et elle se referme en enregistrant automatiquement. Amener une pastille dans la zone du bas ne fait que ranger la note — une vraie suppression demande toujours confirmation."
+        },
+        {
+          "q": "Où puis-je l'utiliser ?",
+          "a": "Partout à l'écran : par-dessus un navigateur, une messagerie, une vidéo, un document ou l'écran d'accueil. Vous pouvez aussi créer une note sans ouvrir l'appli : depuis le menu de partage, depuis du texte sélectionné dans une autre appli ou depuis la tuile des Réglages rapides."
+        },
+        {
+          "q": "Est-ce gratuit ?",
+          "a": "Oui. L'enregistrement des notes est illimité et gratuit, et la version gratuite fait flotter des pense-bêtes avec 2 couleurs et affiche des publicités. Pro ajoute les notes flottantes illimitées, les 7 couleurs, les images, l'opacité réglable, la synchro Google Drive, l'export et l'import, et supprime la publicité."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Presse-papiers",

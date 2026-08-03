@@ -332,6 +332,36 @@
         }
       ]
     },
+    "floatnote": {
+      "name": "FloatNote+",
+      "tag": "Notas",
+      "seo": "notas adhesivas flotantes",
+      "desc": "Notas adhesivas que flotan sobre cualquier app. Contrae en un chip, abre como tarjeta, con colores y texto enriquecido.",
+      "tagline": "Notas adhesivas que flotan sobre cualquier app: anota una idea y se queda en pantalla, siempre a un toque.",
+      "long": "FloatNote+ mantiene notas adhesivas flotando sobre cualquier app. Concede el permiso de superposición una vez y cada nota vive como un chip pequeño sobre el navegador, el chat, el vídeo o la pantalla de inicio; al tocarlo se abre ahí mismo como tarjeta completa para leer, editar y compartir. Los colores, el texto enriquecido y las imágenes distinguen cada nota, mientras la app principal funciona como archivo para buscar, fijar y reordenar. Incluye tema claro y oscuro.",
+      "features": [
+        "Notas overlay flotantes: contrae una nota en un chip y ábrela como tarjeta sobre cualquier app",
+        "7 colores de nota y texto enriquecido: negrita, cursiva, subrayado, tachado, color y tamaño del texto",
+        "Imágenes en la nota: adjunta fotos dentro de la propia nota",
+        "Captura rápida desde el menú de compartir, desde texto seleccionado en otra app o desde el mosaico de Ajustes rápidos",
+        "Archivo con búsqueda instantánea, notas fijadas y reordenación arrastrando; llevar un chip a la zona inferior guarda la nota en lugar de borrarla",
+        "Pro: notas flotantes ilimitadas, los 7 colores, imágenes, opacidad ajustable, sincronización con Google Drive, exportar e importar, sin anuncios"
+      ],
+      "faq": [
+        {
+          "q": "¿Cómo funcionan las notas flotantes?",
+          "a": "Concede el permiso de superposición una vez y tus notas flotarán como chips pequeños sobre otras apps. Toca un chip para abrirlo como tarjeta y editarlo ahí mismo; toca fuera y se contrae guardando automáticamente. Arrastrar un chip a la zona inferior solo guarda la nota: borrar de verdad siempre pide confirmación."
+        },
+        {
+          "q": "¿Dónde puedo usarlo?",
+          "a": "En cualquier parte de la pantalla: sobre el navegador, un chat, un vídeo, un documento o la pantalla de inicio. También puedes crear una nota sin abrir la app, desde el menú de compartir, desde texto seleccionado en otra app o desde el mosaico de Ajustes rápidos."
+        },
+        {
+          "q": "¿Es gratis?",
+          "a": "Sí. Guardar notas es ilimitado y gratuito, y la versión gratuita hace flotar notas adhesivas con 2 colores e incluye anuncios. Pro añade notas flotantes ilimitadas, los 7 colores, imágenes, opacidad ajustable, sincronización con Google Drive, exportar e importar, y quita los anuncios."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Portapapeles",

@@ -388,9 +388,11 @@ function footer(code, ui) {
 
 
 // 히어로 지표 스트립 (출시 앱 수 · 누적 다운로드 · 지원 언어 수)
+// '출시 앱' 이므로 스토어 링크가 있는 앱만 센다 — 출시 준비 중인 앱(store: "")은
+// 상세 페이지에 '출시 준비 중' 배지를 달고 목록에는 나오지만, 아직 출시된 앱이 아니다.
 function statStrip(ui) {
   const items = [
-    { num: String(APPS.length), label: ui['stats.apps'] },
+    { num: String(APPS.filter((a) => a.store).length), label: ui['stats.apps'] },
     DL_DISPLAY ? { num: DL_DISPLAY, label: ui['stats.downloads'] } : null,
     { num: APP_LANG_DISPLAY || String(ACTIVE.length), label: ui['stats.languages'] },
   ].filter(Boolean);

@@ -332,6 +332,36 @@
         }
       ]
     },
+    "floatnote": {
+      "name": "FloatNote+",
+      "tag": "Notatki",
+      "seo": "Pływające karteczki samoprzylepne",
+      "desc": "Karteczki, które pływają nad każdą aplikacją. Zwiń do kafelka, rozwiń w kartę — z kolorami i formatowaniem.",
+      "tagline": "Karteczki, które pływają nad każdą aplikacją: zapisz myśl, a zostanie na ekranie, zawsze o jedno dotknięcie.",
+      "long": "FloatNote+ utrzymuje karteczki pływające nad każdą aplikacją. Wystarczy raz przyznać uprawnienie nakładki, a każda notatka będzie żyć jako mały kafelek nad przeglądarką, czatem, wideo lub ekranem głównym; dotknięcie rozwija ją w tym samym miejscu w pełną kartę do czytania, edycji i udostępniania. Kolory, formatowanie i obrazy odróżniają notatki, a główna aplikacja pełni rolę archiwum do wyszukiwania, przypinania i porządkowania. Jasny i ciemny motyw są w komplecie.",
+      "features": [
+        "Pływające notatki overlay: zwiń notatkę do kafelka, rozwiń w pełną kartę nad dowolną aplikacją",
+        "7 kolorów karteczek i formatowanie: pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu",
+        "Obrazy w notatce: dołącz zdjęcia bezpośrednio w środku",
+        "Szybki zapis z menu udostępniania, z zaznaczonego tekstu w innej aplikacji lub z kafelka Szybkich ustawień",
+        "Archiwum z natychmiastowym wyszukiwaniem, przypinaniem i zmianą kolejności przeciąganiem; przeciągnięcie kafelka do strefy na dole chowa notatkę, a nie usuwa",
+        "Pro: nieograniczone pływające notatki, wszystkie 7 kolorów, obrazy, regulowana przezroczystość, synchronizacja z Google Dyskiem, eksport i import, bez reklam"
+      ],
+      "faq": [
+        {
+          "q": "Jak działają pływające notatki?",
+          "a": "Przyznaj uprawnienie nakładki jeden raz, a notatki będą pływać nad innymi aplikacjami jako małe kafelki. Dotknij kafelka, aby rozwinąć go w kartę i edytować od razu; dotknięcie obok zwija ją i zapisuje automatycznie. Przeciągnięcie kafelka do strefy na dole ekranu tylko chowa notatkę — prawdziwe usunięcie zawsze prosi o potwierdzenie."
+        },
+        {
+          "q": "Gdzie mogę tego używać?",
+          "a": "Wszędzie na ekranie: nad przeglądarką, czatem, wideo, dokumentem lub ekranem głównym. Notatkę można też utworzyć bez otwierania aplikacji: z menu udostępniania, z tekstu zaznaczonego w innej aplikacji lub z kafelka Szybkich ustawień."
+        },
+        {
+          "q": "Czy to jest darmowe?",
+          "a": "Tak. Zapisywanie notatek jest nieograniczone i darmowe, a wersja darmowa pokazuje pływające karteczki w 2 kolorach oraz reklamy. Pro dodaje nieograniczone pływające notatki, wszystkie 7 kolorów, obrazy, regulowaną przezroczystość, synchronizację z Google Dyskiem, eksport i import oraz usuwa reklamy."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Schowek",

@@ -332,6 +332,36 @@
         }
       ]
     },
+    "floatnote": {
+      "name": "FloatNote+",
+      "tag": "Ghi chú",
+      "seo": "Ghi chú dán nổi trên màn hình",
+      "desc": "Ghi chú dán nổi trên mọi ứng dụng. Thu gọn thành chip, mở thành thẻ, có màu sắc và định dạng.",
+      "tagline": "Ghi chú dán nổi trên mọi ứng dụng: ghi nhanh một ý và nó ở lại trên màn hình, luôn cách bạn một chạm.",
+      "long": "FloatNote+ giữ ghi chú dán nổi trên mọi ứng dụng. Chỉ cần cấp quyền hiển thị trên ứng dụng khác một lần, mỗi ghi chú sẽ nằm dưới dạng chip nhỏ trên trình duyệt, trò chuyện, video hay màn hình chính; chạm vào là mở ngay tại chỗ thành thẻ đầy đủ để đọc, sửa và chia sẻ. Màu sắc, định dạng và hình ảnh giúp phân biệt từng ghi chú, còn ứng dụng chính đóng vai trò kho lưu để tìm kiếm, ghim và sắp xếp. Có cả giao diện sáng và tối.",
+      "features": [
+        "Ghi chú lớp phủ nổi: thu gọn thành chip nhỏ, mở thành thẻ đầy đủ trên mọi ứng dụng",
+        "7 màu ghi chú và định dạng: in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ",
+        "Hình ảnh trong ghi chú: đính kèm ảnh ngay bên trong",
+        "Ghi nhanh từ menu chia sẻ, từ văn bản đã chọn trong ứng dụng khác hoặc từ ô Cài đặt nhanh",
+        "Kho lưu với tìm kiếm tức thì, ghim và kéo để sắp xếp; kéo chip xuống vùng dưới màn hình là cất đi chứ không xóa",
+        "Pro: ghi chú nổi không giới hạn, đủ 7 màu, hình ảnh, chỉnh độ mờ, đồng bộ Google Drive, xuất và nhập, không quảng cáo"
+      ],
+      "faq": [
+        {
+          "q": "Ghi chú nổi hoạt động thế nào?",
+          "a": "Cấp quyền hiển thị trên ứng dụng khác một lần, ghi chú của bạn sẽ nổi trên các ứng dụng khác dưới dạng chip nhỏ. Chạm vào chip để mở thành thẻ và sửa ngay tại chỗ; chạm ra ngoài thì thẻ thu lại và tự động lưu. Kéo chip xuống vùng dưới màn hình chỉ cất ghi chú đi — xóa thật luôn có bước xác nhận."
+        },
+        {
+          "q": "Có thể dùng ở đâu?",
+          "a": "Ở bất cứ đâu trên màn hình: trên trình duyệt, cuộc trò chuyện, video, tài liệu hay màn hình chính. Bạn cũng có thể tạo ghi chú mà không cần mở ứng dụng: từ menu chia sẻ, từ văn bản đã chọn trong ứng dụng khác hoặc từ ô Cài đặt nhanh."
+        },
+        {
+          "q": "Có dùng miễn phí được không?",
+          "a": "Có. Lưu ghi chú là miễn phí và không giới hạn, bản miễn phí cho ghi chú dán nổi với 2 màu và có quảng cáo. Pro thêm ghi chú nổi không giới hạn, đủ 7 màu, hình ảnh, chỉnh độ mờ, đồng bộ Google Drive, xuất và nhập, đồng thời gỡ quảng cáo."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Bộ nhớ tạm",

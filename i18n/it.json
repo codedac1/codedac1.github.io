@@ -332,6 +332,36 @@
         }
       ]
     },
+    "floatnote": {
+      "name": "FloatNote+",
+      "tag": "Note",
+      "seo": "note adesive fluttuanti",
+      "desc": "Note adesive che fluttuano su ogni app. Riduci a chip, apri come scheda, con colori e testo ricco.",
+      "tagline": "Note adesive che fluttuano sopra ogni app: annota un'idea e resta sullo schermo, sempre a portata di tocco.",
+      "long": "FloatNote+ tiene le note adesive fluttuanti sopra ogni app. Concedi il permesso di sovrapposizione una volta e ogni nota vive come un piccolo chip sopra browser, chat, video o schermata Home; un tocco la apre sul posto come scheda completa per leggere, modificare e condividere. Colori, testo ricco e immagini distinguono ogni nota, mentre l'app principale funziona da archivio per cercare, fissare e riordinare. Sono inclusi tema chiaro e scuro.",
+      "features": [
+        "Note fluttuanti in overlay: riduci una nota a un chip e aprila come scheda sopra qualsiasi app",
+        "7 colori delle note e testo ricco: grassetto, corsivo, sottolineato, barrato, colore e dimensione del testo",
+        "Immagini nella nota: allega foto direttamente all'interno",
+        "Cattura rapida dal menu di condivisione, dal testo selezionato in un'altra app o dal riquadro delle Impostazioni rapide",
+        "Archivio con ricerca istantanea, note fissate e riordino trascinando; portare un chip nell'area in basso mette via la nota invece di eliminarla",
+        "Pro: note fluttuanti illimitate, tutti e 7 i colori, immagini, opacità regolabile, sincronizzazione Google Drive, esporta e importa, senza annunci"
+      ],
+      "faq": [
+        {
+          "q": "Come funzionano le note fluttuanti?",
+          "a": "Concedi il permesso di sovrapposizione una volta e le note fluttuano sopra le altre app come piccoli chip. Tocca un chip per aprirlo come scheda e modificarlo sul posto; tocca fuori e si richiude salvando automaticamente. Trascinare un chip nell'area in basso mette solo via la nota: l'eliminazione vera chiede sempre conferma."
+        },
+        {
+          "q": "Dove posso usarlo?",
+          "a": "Ovunque sullo schermo: sopra un browser, una chat, un video, un documento o la schermata Home. Puoi anche creare una nota senza aprire l'app, dal menu di condivisione, dal testo selezionato in un'altra app o dal riquadro delle Impostazioni rapide."
+        },
+        {
+          "q": "È gratis?",
+          "a": "Sì. Salvare le note è illimitato e gratuito, e la versione gratuita fa fluttuare note adesive con 2 colori e mostra annunci. Pro aggiunge note fluttuanti illimitate, tutti e 7 i colori, le immagini, l'opacità regolabile, la sincronizzazione con Google Drive, esportazione e importazione, e rimuove gli annunci."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Appunti",

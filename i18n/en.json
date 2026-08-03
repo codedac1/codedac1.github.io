@@ -332,6 +332,36 @@
         }
       ]
     },
+    "floatnote": {
+      "name": "FloatNote+",
+      "tag": "Notes",
+      "seo": "Floating Sticky Notes App",
+      "desc": "Sticky notes that float over any app. Collapse to a chip, expand to a card, with colors and rich text.",
+      "tagline": "Sticky notes that float over any app! Jot down a thought and it stays on your screen, always one tap away.",
+      "long": "FloatNote+ keeps sticky notes floating on top of any app. Grant the overlay permission once and every note lives as a small chip above your browser, chat, video or home screen; tap it and the chip expands into a full card you can read, edit and share on the spot. Colors, rich text and inline images keep each note distinct, while the main app works as a library for searching, pinning and reordering. Light and dark themes are both included.",
+      "features": [
+        "Floating overlay notes: collapse a note to a chip, expand it to a full card over any app",
+        "7 sticky-note colors and rich text: bold, italic, underline, strikethrough, text color and size",
+        "Inline images: attach photos right inside a note",
+        "Quick capture from the share sheet, from selected text in any app, or from the Quick Settings tile",
+        "Library with instant search, pinning and drag-to-reorder — dragging a chip to the bottom zone stashes the note instead of deleting it",
+        "Pro: unlimited floating notes, all 7 colors, inline images, adjustable opacity, Google Drive sync, export & import, no ads"
+      ],
+      "faq": [
+        {
+          "q": "How do floating notes work?",
+          "a": "Grant the overlay permission once and your notes float above other apps as small chips. Tap a chip to expand it into a card and edit it right there; tap outside and it collapses back, saving automatically. Dragging a chip to the zone at the bottom of the screen only stashes the note — real deletion always asks for confirmation."
+        },
+        {
+          "q": "Where can I use it?",
+          "a": "Anywhere on screen — over a browser, a chat, a video, a document or the home screen. You can also create a note without opening the app: from the share sheet, from text you select in another app, or from the Quick Settings tile."
+        },
+        {
+          "q": "Is it free?",
+          "a": "Yes. Saving notes is unlimited and free, and the free version floats sticky notes with 2 colors and shows ads. Pro adds unlimited floating notes, all 7 colors, inline images, adjustable opacity, Google Drive sync, export and import, and removes ads."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Clipboard",

@@ -38,7 +38,7 @@ CodeDAC는 **Clipboard+**, **AutoStart+** 등 스마트폰 유틸리티 앱을 �
     ├── scan_app_langs.js     # 각 앱 프로젝트의 res/values-* 스캔 → app_langs.json
     ├── reviews.json          # 홈 후기 섹션에 노출할 5★ 리뷰(손수 큐레이션)
     ├── fetch_reviews.js      # Play Store 5★ 리뷰 후보 수집 → _reviews_pool.json(커밋 제외)
-    ├── gen_site.js           # ★ 사이트 생성기 (252개 페이지 + 껍데기 + sitemap 전부 생성)
+    ├── gen_site.js           # ★ 사이트 생성기 (294개 페이지 + 껍데기 + sitemap 전부 생성)
     ├── build_assets.py       # C:\CodeDAC 각 앱의 아이콘·스크린샷 변환·복사
     └── make_og.py            # OG 공유 이미지 생성
 ```
@@ -85,7 +85,7 @@ node scripts/gen_site.js
 콘텐츠(`i18n/*.json`)나 앱 기본정보(`apps_base.json`)를 바꾼 뒤:
 
 ```bash
-node scripts/gen_site.js     # 21개 언어 × (홈 + 앱상세 10 + 개인정보처리방침) = 252개 페이지 + sitemap.xml 생성
+node scripts/gen_site.js     # 21개 언어 × (홈 + 앱상세 12 + 개인정보처리방침) = 294개 페이지 + sitemap.xml 생성
 ```
 
 - 자산(아이콘/스크린샷)을 바꾸면 `scripts/gen_site.js`의 `const V`(캐시 버전)를 올리세요.

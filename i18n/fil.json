@@ -332,6 +332,36 @@
         }
       ]
     },
+    "floatnote": {
+      "name": "FloatNote+",
+      "tag": "Notes",
+      "seo": "Lumulutang na Sticky Notes",
+      "desc": "Sticky notes na lumulutang sa anumang app. I-collapse sa chip, palawakin bilang card, may kulay at rich text.",
+      "tagline": "Sticky notes na lumulutang sa ibabaw ng kahit anong app: magsulat ng tala at mananatili ito sa screen, laging isang tap lang.",
+      "long": "Pinananatili ng FloatNote+ na lumulutang ang sticky notes sa ibabaw ng kahit anong app. Isang beses lang ang pagbibigay ng overlay permission, at ang bawat nota ay nagiging maliit na chip sa ibabaw ng browser, chat, video, o home screen; i-tap ito at bubukas agad bilang buong card na puwedeng basahin, i-edit, at i-share. Ang mga kulay, rich text, at larawan ang nagpapaiba sa bawat nota, habang ang pangunahing app ang silbing aklatan para maghanap, mag-pin, at mag-ayos. Kasama ang light at dark theme.",
+      "features": [
+        "Lumulutang na overlay notes: i-collapse ang nota sa chip, palawakin bilang buong card sa ibabaw ng kahit anong app",
+        "7 kulay ng nota at rich text: bold, italic, underline, strikethrough, kulay at laki ng teksto",
+        "Larawan sa nota: maglakip ng litrato mismo sa loob",
+        "Mabilis na pag-capture mula sa share menu, sa napiling teksto sa ibang app, o sa Quick Settings tile",
+        "Aklatan na may agarang paghahanap, pag-pin, at pag-aayos sa pag-drag; ang paghila ng chip sa ibabang bahagi ay nagtatago ng nota, hindi nagbubura",
+        "Pro: walang limitasyong lumulutang na nota, lahat ng 7 kulay, larawan, naiaayos na opacity, Google Drive sync, export at import, walang ad"
+      ],
+      "faq": [
+        {
+          "q": "Paano gumagana ang lumulutang na nota?",
+          "a": "Magbigay ng overlay permission nang isang beses at lulutang ang mga nota mo sa ibabaw ng ibang app bilang maliliit na chip. I-tap ang chip para palawakin ito bilang card at i-edit mismo doon; i-tap sa labas at babalik ito sa chip habang awtomatikong nagse-save. Ang paghila ng chip sa ibabang bahagi ng screen ay nagtatago lang ng nota — laging may kumpirmasyon bago tunay na mabura."
+        },
+        {
+          "q": "Saan ko ito magagamit?",
+          "a": "Kahit saan sa screen: sa ibabaw ng browser, chat, video, dokumento, o home screen. Puwede ring gumawa ng nota nang hindi binubuksan ang app: mula sa share menu, sa tekstong napili sa ibang app, o sa Quick Settings tile."
+        },
+        {
+          "q": "Libre ba ito?",
+          "a": "Oo. Walang limitasyon at libre ang pag-save ng nota, at ang libreng bersyon ay may lumulutang na sticky notes na 2 kulay kasama ang mga ad. Nagdadagdag ang Pro ng walang limitasyong lumulutang na nota, lahat ng 7 kulay, larawan, naiaayos na opacity, Google Drive sync, export at import, at inaalis ang mga ad."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Clipboard",
