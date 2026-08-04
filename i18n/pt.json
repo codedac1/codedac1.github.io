@@ -186,29 +186,29 @@
       "name": "FloatTimer+",
       "tag": "Flutuante",
       "seo": "timer flutuante Pomodoro",
-      "desc": "Um timer de intervalo, Pomodoro e multitimer flutuante sobre qualquer app.",
-      "tagline": "Um timer de intervalo, Pomodoro e multitimer, contador e cronômetro que flutua sobre todos os apps.",
-      "long": "O FloatTimer+ é um app de sobreposição flutuante que mantém um timer de intervalo, multitimer, contador e cronômetro sobre qualquer app que você usar. Seu timer fica visível enquanto você faz várias tarefas, e você pode arrastá-lo para qualquer lugar da tela, personalizando tamanho, opacidade e cor de fundo. Ele funciona em segundo plano, então continua rodando mesmo quando você troca de app ou bloqueia a tela. Configure uma vez e continue cozinhando, treinando, estudando ou jogando sem nunca perder o timer de vista.",
+      "desc": "Um timer, contador e cronômetro flutuante sobre qualquer app.",
+      "tagline": "Uma contagem regressiva, um contador e um cronômetro que flutuam sobre todos os apps.",
+      "long": "O FloatTimer+ é um app de janela flutuante que mantém contagem regressiva, contador e cronômetro por cima de qualquer aplicativo que você use. O timer continua à vista enquanto você faz outra coisa: arraste para onde quiser, ajuste tamanho, opacidade e cor de fundo de cada item ou recolha em uma pequena cápsula quando precisar da tela. Dá para iniciar, pausar e zerar pelo menu da sobreposição sem abrir o app, e tudo continua rodando em segundo plano mesmo se você trocar de aplicativo ou bloquear a tela. Configure uma vez e siga cozinhando, treinando, estudando ou jogando sem perder o tempo de vista.",
       "features": [
-        "Sobreposição flutuante — timers, contadores e cronômetro flutuam sobre qualquer app, com tamanho, opacidade e cor de fundo por item",
-        "Multitimer — rode vários cronômetros regressivos personalizados de horas/minutos/segundos ao mesmo tempo e anexe uma nota a cada um",
-        "Timer de intervalo — monte fases de Trabalho/Descanso com rounds para HIIT e Tabata, além de presets em um toque (Pomodoro, HIIT, Tabata, pausas)",
-        "Contador manual — contador flutuante de contar por toque, com passo personalizado para somar ou subtrair qualquer valor (+1, +2, +5, +10…)",
-        "Cronômetro flutuante — inicie, pause e reinicie sem nunca sair do app atual",
-        "Estatísticas, sequências e backup — histórico de uso diário e sequências, backup e restauração de arquivos de timer/contador, exportação em CSV (Pro)"
+        "Janela flutuante — timers, contadores e cronômetros flutuam sobre qualquer app; arraste para onde quiser e ajuste tamanho, opacidade e cor de fundo de cada item",
+        "Multi timer — qualquer duração em horas, minutos e segundos, com atalhos de 1, 5, 10, 25, 30 e 60 minutos e quantos timers quiser ao mesmo tempo",
+        "Controle na sobreposição — inicie, pause e zere pelo menu flutuante sem abrir o app, ou recolha em uma cápsula e toque para expandir",
+        "Contador — toque para somar ou subtrair direto na sobreposição, com passo de 1, 2, 5 ou 10 e quantos contadores precisar",
+        "Cronômetro — vários cronômetros medidos separadamente; inicie, pause e zere sem sair do app que está usando",
+        "Avisos e backup — som, vibração ou alerta em tela cheia ao terminar, além de exportar para um arquivo e restaurar juntando ou substituindo tudo"
       ],
       "faq": [
         {
           "q": "O timer continua visível enquanto uso outros apps?",
-          "a": "Sim. O timer, o contador e o cronômetro flutuam sobre qualquer app e funcionam em segundo plano, então continuam rodando mesmo quando você troca de app ou bloqueia a tela."
+          "a": "Sim. Timer, contador e cronômetro flutuam sobre qualquer aplicativo e rodam em segundo plano, então continuam mesmo se você trocar de app ou bloquear a tela."
         },
         {
-          "q": "Ele suporta timers de intervalo e Pomodoro?",
-          "a": "Sim. Você pode montar fases personalizadas de Trabalho/Descanso com vários rounds para HIIT e Tabata, e há presets em um toque para Pomodoro, HIIT, Tabata, pausa curta e pausa longa."
+          "q": "Posso usar como timer Pomodoro ou de treino?",
+          "a": "Sim. Há atalhos como 25 minutos, você pode definir qualquer duração e rodar vários timers ao mesmo tempo para séries e descansos. No Pro, o timer se repete 2, 3, 5 vezes ou infinitamente."
         },
         {
-          "q": "Posso rodar vários timers ou contadores ao mesmo tempo?",
-          "a": "Rodar vários timers e contadores simultaneamente é um recurso Pro. A versão gratuita ainda permite usar um único timer, contador e cronômetro."
+          "q": "O que a versão grátis inclui?",
+          "a": "Timers, contadores e cronômetros ilimitados, sem limite diário de uso. A única limitação grátis é mostrar uma janela flutuante por vez — no Pro você mostra quantas quiser, ou assiste a um anúncio curto para um Free Pass de 24 horas."
         }
       ]
     },

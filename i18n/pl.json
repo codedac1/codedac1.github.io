@@ -185,30 +185,30 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Pływające narzędzia",
-      "seo": "Pływający minutnik interwałowy",
-      "desc": "Pływający minutnik interwałowy, Pomodoro i wielominutnik nad każdą aplikacją.",
-      "tagline": "Minutnik interwałowy, Pomodoro oraz wielominutnik, licznik i stoper, które pływają nad każdą aplikacją.",
-      "long": "FloatTimer+ to aplikacja z pływającą nakładką, która utrzymuje minutnik interwałowy, wielominutnik, licznik i stoper nad każdą używaną aplikacją. Twój minutnik pozostaje widoczny podczas wielozadaniowości, a możesz przeciągnąć go w dowolne miejsce ekranu, dostosowując jego rozmiar, przezroczystość i kolor tła. Działa w tle, więc odlicza dalej nawet po przełączeniu aplikacji lub zablokowaniu ekranu. Ustaw raz i gotuj, ćwicz, ucz się lub graj, nie tracąc minutnika z oczu.",
+      "seo": "Pływający minutnik Pomodoro",
+      "desc": "Pływający minutnik, licznik i stoper nad każdą aplikacją.",
+      "tagline": "Odliczanie, licznik i stoper, które pływają nad każdą aplikacją.",
+      "long": "FloatTimer+ to aplikacja z pływającym oknem, które trzyma odliczanie, licznik i stoper nad każdą używaną aplikacją. Minutnik pozostaje widoczny, gdy robisz coś innego: przeciągnij go w dowolne miejsce, ustaw rozmiar, przezroczystość i kolor tła dla każdego elementu albo zwiń do małej pigułki, gdy potrzebujesz ekranu. Start, pauzę i reset obsłużysz z menu nakładki bez otwierania aplikacji, a wszystko działa w tle, nawet gdy przełączysz aplikację lub zablokujesz ekran. Ustaw raz i gotuj, ćwicz, ucz się albo graj, nie tracąc czasu z oczu.",
       "features": [
-        "Pływająca nakładka — minutniki, liczniki i stoper pływają nad każdą aplikacją, z rozmiarem, przezroczystością i kolorem tła osobno dla każdego elementu",
-        "Wielominutnik — uruchom jednocześnie kilka własnych odliczań w godzinach/minutach/sekundach i dołącz notatkę do każdego z nich",
-        "Minutnik interwałowy — buduj fazy Praca/Odpoczynek z rundami dla HIIT i Tabaty, plus gotowe ustawienia jednym dotknięciem (Pomodoro, HIIT, Tabata, przerwy)",
-        "Licznik zliczający — pływający licznik dotykowy z własnym krokiem, by dodawać lub odejmować dowolną wartość (+1, +2, +5, +10…)",
-        "Pływający stoper — uruchamiaj, wstrzymuj i resetuj, nigdy nie opuszczając bieżącej aplikacji",
-        "Statystyki, serie i kopia zapasowa — dzienna historia użycia i serie, kopia zapasowa i przywracanie plików minutników/liczników, eksport do CSV (Pro)"
+        "Pływające okno — minutniki, liczniki i stopery unoszą się nad każdą aplikacją; przeciągnij je gdzie chcesz i ustaw rozmiar, przezroczystość oraz kolor tła osobno",
+        "Wiele minutników — dowolny czas w godzinach, minutach i sekundach, z szybkim wyborem 1, 5, 10, 25, 30 i 60 minut oraz dowolną liczbą minutników naraz",
+        "Sterowanie z nakładki — start, pauza i reset z menu nakładki bez otwierania aplikacji albo zwinięcie do pigułki i rozwinięcie dotknięciem",
+        "Licznik — dodawaj i odejmuj dotykiem wprost na nakładce, z krokiem 1, 2, 5 lub 10 i dowolną liczbą liczników",
+        "Stoper — wiele stoperów mierzonych osobno; start, pauza i reset bez wychodzenia z bieżącej aplikacji",
+        "Powiadomienia i kopia zapasowa — dźwięk, wibracja lub alert pełnoekranowy po zakończeniu, a także eksport do pliku i przywracanie przez scalenie lub zastąpienie"
       ],
       "faq": [
         {
-          "q": "Czy minutnik pozostaje widoczny, gdy korzystam z innych aplikacji?",
-          "a": "Tak. Minutnik, licznik i stoper pływają nad każdą aplikacją i działają w tle, więc odliczają dalej nawet po przełączeniu aplikacji lub zablokowaniu ekranu."
+          "q": "Czy minutnik jest widoczny, gdy korzystam z innych aplikacji?",
+          "a": "Tak. Minutnik, licznik i stoper unoszą się nad każdą aplikacją i działają w tle, więc odliczają dalej nawet po przełączeniu aplikacji lub zablokowaniu ekranu."
         },
         {
-          "q": "Czy obsługuje minutniki interwałowe i Pomodoro?",
-          "a": "Tak. Możesz budować własne fazy Praca/Odpoczynek z wieloma rundami dla HIIT i Tabaty, a do dyspozycji masz gotowe ustawienia jednym dotknięciem dla Pomodoro, HIIT, Tabaty, krótkiej i długiej przerwy."
+          "q": "Czy mogę używać go jako minutnika Pomodoro lub treningowego?",
+          "a": "Tak. Są szybkie ustawienia, na przykład 25 minut, możesz ustawić dowolny czas i uruchomić kilka minutników naraz na pracę i przerwę. W wersji Pro minutnik powtarza się 2, 3, 5 razy lub bez końca."
         },
         {
-          "q": "Czy mogę uruchomić kilka minutników lub liczników naraz?",
-          "a": "Jednoczesne działanie kilku minutników i liczników to funkcja Pro. Wersja darmowa nadal pozwala korzystać z pojedynczego minutnika, licznika i stopera."
+          "q": "Co zawiera wersja darmowa?",
+          "a": "Nieograniczoną liczbę minutników, liczników i stoperów, bez dziennego limitu czasu. Jedynym darmowym ograniczeniem jest jedna nakładka naraz — Pro pokazuje ich dowolnie wiele, albo obejrzyj krótką reklamę, by zgarnąć 24-godzinny Free Pass."
         }
       ]
     },

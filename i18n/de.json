@@ -185,30 +185,30 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Schwebend",
-      "seo": "Schwebender Intervall-Timer",
-      "desc": "Ein schwebender Intervall-, Pomodoro- & Multi-Timer über jeder App.",
-      "tagline": "Ein Intervall-, Pomodoro- und Multi-Timer, Zähler und Stoppuhr, der über jeder App schwebt.",
-      "long": "FloatTimer+ ist eine schwebende Overlay-App, die einen Intervall-Timer, Multi-Timer, Zähler und eine Stoppuhr über jeder App hält, die du nutzt. Dein Timer bleibt sichtbar, während du mehreres gleichzeitig erledigst, und du kannst ihn überall auf den Bildschirm ziehen und dabei Größe, Deckkraft und Hintergrundfarbe anpassen. Er läuft im Hintergrund weiter, auch wenn du die App wechselst oder den Bildschirm sperrst. Einmal einstellen und weiter kochen, trainieren, lernen oder spielen, ohne deinen Timer je aus den Augen zu verlieren.",
+      "seo": "Schwebender Timer über jeder App",
+      "desc": "Ein schwebender Timer, Zähler und eine Stoppuhr über jeder App.",
+      "tagline": "Countdown-Timer, Zähler und Stoppuhr, die über jeder App schweben.",
+      "long": "FloatTimer+ ist eine Overlay-App, die Countdown-Timer, Zähler und Stoppuhr über jeder App im Blick behält. Dein Timer bleibt sichtbar, während du etwas anderes machst: Zieh ihn an eine beliebige Stelle, stelle Größe, Transparenz und Hintergrundfarbe je Element ein oder klappe ihn zu einem kleinen Chip ein, wenn du den Bildschirm brauchst. Starten, Pausieren und Zurücksetzen geht direkt im Overlay-Menü, ohne die App zu öffnen, und alles läuft im Hintergrund weiter, auch wenn du die App wechselst oder den Bildschirm sperrst. Einmal einstellen und weiter kochen, trainieren, lernen oder spielen, ohne die Zeit aus den Augen zu verlieren.",
       "features": [
-        "Schwebendes Overlay – Timer, Zähler und eine Stoppuhr schweben über jeder App, mit Größe, Deckkraft und Hintergrundfarbe je Element",
-        "Multi-Timer – mehrere eigene Countdowns in Stunden/Minuten/Sekunden gleichzeitig laufen lassen und jedem eine Notiz anhängen",
-        "Intervall-Timer – Arbeits-/Pausenphasen mit Runden für HIIT und Tabata erstellen, plus Ein-Tipp-Presets (Pomodoro, HIIT, Tabata, Pausen)",
-        "Zähl-Counter – schwebender Zähler zum Tippen mit eigenem Schritt zum Addieren oder Subtrahieren beliebiger Werte (+1, +2, +5, +10 …)",
-        "Schwebende Stoppuhr – starten, pausieren und zurücksetzen, ohne je deine aktuelle App zu verlassen",
-        "Statistiken, Serien und Sicherung – täglicher Nutzungsverlauf und Serien, Timer-/Zähler-Dateisicherung und -Wiederherstellung, CSV-Export (Pro)"
+        "Schwebendes Fenster — Timer, Zähler und Stoppuhren schweben über jeder App; überall platzieren und Größe, Transparenz sowie Hintergrundfarbe je Element einstellen",
+        "Multi-Timer — beliebige Dauer in Stunden, Minuten und Sekunden, mit Schnellauswahl für 1, 5, 10, 25, 30 und 60 Minuten und beliebig vielen Timern gleichzeitig",
+        "Steuerung im Overlay — Start, Pause und Reset direkt im Overlay-Menü, ohne die App zu öffnen, oder zu einem kompakten Chip einklappen und zum Ausklappen antippen",
+        "Zähler — direkt im Overlay hoch- und runterzählen, mit Schrittweite 1, 2, 5 oder 10 und so vielen Zählern, wie du brauchst",
+        "Stoppuhr — mehrere Stoppuhren, jede separat gemessen; starten, pausieren und zurücksetzen, ohne die aktuelle App zu verlassen",
+        "Alarme und Backup — Ton, Vibration oder Vollbild-Alarm bei Ablauf, dazu Export in eine Datei und Wiederherstellen per Zusammenführen oder Ersetzen"
       ],
       "faq": [
         {
           "q": "Bleibt der Timer sichtbar, während ich andere Apps nutze?",
-          "a": "Ja. Der Timer, der Zähler und die Stoppuhr schweben über jeder App und laufen im Hintergrund weiter, auch wenn du die App wechselst oder den Bildschirm sperrst."
+          "a": "Ja. Timer, Zähler und Stoppuhr schweben über jeder App und laufen im Hintergrund weiter — auch wenn du die App wechselst oder den Bildschirm sperrst."
         },
         {
-          "q": "Unterstützt er Intervall-Timer und Pomodoro?",
-          "a": "Ja. Du kannst eigene Arbeits-/Pausenphasen mit mehreren Runden für HIIT und Tabata erstellen, und es gibt Ein-Tipp-Presets für Pomodoro, HIIT, Tabata, kurze Pause und lange Pause."
+          "q": "Kann ich ihn als Pomodoro- oder Workout-Timer nutzen?",
+          "a": "Ja. Es gibt Schnellauswahlen wie 25 Minuten, du kannst jede Dauer frei einstellen und mehrere Timer gleichzeitig für Belastung und Pause laufen lassen. Pro wiederholt einen Timer 2-, 3-, 5-mal oder endlos."
         },
         {
-          "q": "Kann ich mehrere Timer oder Zähler gleichzeitig laufen lassen?",
-          "a": "Mehrere Timer und Zähler gleichzeitig zu betreiben ist eine Pro-Funktion. Die kostenlose Version lässt dich trotzdem einen einzelnen Timer, Zähler und eine Stoppuhr nutzen."
+          "q": "Was ist in der Gratis-Version enthalten?",
+          "a": "Unbegrenzt viele Timer, Zähler und Stoppuhren, ohne Tageslimit. Die einzige Einschränkung ist ein schwebendes Fenster gleichzeitig — mit Pro sind es beliebig viele, oder du siehst dir eine kurze Werbung für einen 24-Stunden-Free-Pass an."
         }
       ]
     },

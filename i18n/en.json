@@ -185,17 +185,17 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Floating",
-      "seo": "Floating Pomodoro Interval Timer",
-      "desc": "A floating interval, Pomodoro & multi-timer over any app.",
-      "tagline": "An interval, Pomodoro, and multi-timer, counter, and stopwatch that floats on top of every app.",
-      "long": "FloatTimer+ is a floating overlay app that keeps an interval timer, multi-timer, counter, and stopwatch on top of any app you use. Your timer stays visible while you multitask, and you can drag it anywhere on screen while customizing its size, opacity, and background color. It runs in the background, so it keeps going even when you switch apps or lock the screen. Set it once and keep cooking, exercising, studying, or gaming without ever losing sight of your timer.",
+      "seo": "Floating Pomodoro & Multi-Timer",
+      "desc": "A floating timer, counter and stopwatch that stays over any app.",
+      "tagline": "A countdown timer, tally counter, and stopwatch that floats on top of every app.",
+      "long": "FloatTimer+ is a floating overlay app that keeps a countdown timer, tally counter, and stopwatch on top of any app you use. Your timer stays visible while you do something else — drag it anywhere on screen, set size, opacity, and background color per item, or fold it into a compact chip when you need the screen back. Play, pause, and reset straight from the overlay menu without opening the app, and everything keeps running in the background even when you switch apps or lock the screen. Set it once and keep cooking, exercising, studying, or gaming without ever losing sight of the time.",
       "features": [
-        "Floating overlay — timers, counters, and a stopwatch float on any app, with per-item size, opacity, and background color",
-        "Multi-timer — run several custom hours/minutes/seconds countdowns at once and attach a memo to each",
-        "Interval timer — build Work/Rest phases with rounds for HIIT and Tabata, plus one-tap presets (Pomodoro, HIIT, Tabata, breaks)",
-        "Tally counter — tap-to-count floating counter with a custom step to add or subtract any amount (+1, +2, +5, +10…)",
-        "Floating stopwatch — start, pause, and reset without ever leaving your current app",
-        "Statistics, streaks, and backup — daily usage history and streaks, timer/counter file backup and restore, CSV export (Pro)"
+        "Floating overlay — timers, counters, and stopwatches float on any app; drag them anywhere and set size, opacity, and background color per item",
+        "Multi-timer — any hours/minutes/seconds countdown, with 1, 5, 10, 25, 30 and 60-minute quick presets and as many timers running at once as you like",
+        "Overlay controls — play, pause, and reset from the overlay menu without opening the app, or fold it into a compact chip and tap to expand",
+        "Tally counter — tap to count up or down right on the overlay, with a step of 1, 2, 5, or 10 and as many counters as you need",
+        "Stopwatch — several stopwatches, each timed separately; start, pause, and reset without leaving your current app",
+        "Alerts and backup — sound, vibration, or a full-screen alert when time is up, plus file export and restore that merges or replaces"
       ],
       "faq": [
         {
@@ -203,12 +203,12 @@
           "a": "Yes. The timer, counter, and stopwatch float on top of any app and run in the background, so they keep going even when you switch apps or lock the screen."
         },
         {
-          "q": "Does it support interval timers and Pomodoro?",
-          "a": "Yes. You can build custom Work/Rest phases with multiple rounds for HIIT and Tabata, and there are one-tap presets for Pomodoro, HIIT, Tabata, short break, and long break."
+          "q": "Can I use it as a Pomodoro or workout timer?",
+          "a": "Yes. Quick presets include 25 minutes, you can set any duration you like, and you can run several timers at once for work and rest rounds. Pro repeats a timer 2, 3, or 5 times, or endlessly."
         },
         {
-          "q": "Can I run multiple timers or counters at once?",
-          "a": "Running several timers and counters at the same time is a Pro feature. The free version still lets you use a single timer, counter, and stopwatch."
+          "q": "What does the free version include?",
+          "a": "Unlimited timers, counters, and stopwatches, with no daily time limit. The only free limit is one floating overlay at a time — Pro shows as many as you like at once, or you can watch a short ad for a 24-hour Free Pass."
         }
       ]
     },

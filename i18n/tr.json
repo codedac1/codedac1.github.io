@@ -185,30 +185,30 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Kayan Pencere",
-      "seo": "Kayan interval zamanlayıcı",
-      "desc": "Her uygulamanın üzerinde kayan interval, Pomodoro ve çoklu zamanlayıcı.",
-      "tagline": "Her uygulamanın üzerinde kayan interval, Pomodoro ve çoklu zamanlayıcı, sayaç ve kronometre.",
-      "long": "FloatTimer+, kullandığınız her uygulamanın üzerinde interval zamanlayıcı, çoklu zamanlayıcı, sayaç ve kronometre tutan kayan bir üst katman uygulamasıdır. Çoklu görev yaparken zamanlayıcınız görünür kalır; ekranda istediğiniz yere sürükleyebilir, boyutunu, opaklığını ve arka plan rengini özelleştirebilirsiniz. Arka planda çalışır; bu nedenle uygulama değiştirseniz veya ekranı kilitleseniz bile çalışmaya devam eder. Bir kez ayarlayın; yemek yaparken, egzersiz yaparken, ders çalışırken veya oyun oynarken zamanlayıcınızı gözden kaçırmadan devam edin.",
+      "seo": "Kayan zamanlayıcı ve sayaç",
+      "desc": "Her uygulamanın üstünde kayan zamanlayıcı, sayaç ve kronometre.",
+      "tagline": "Her uygulamanın üstünde kayan geri sayım, sayaç ve kronometre.",
+      "long": "FloatTimer+, geri sayım zamanlayıcısını, sayacı ve kronometreyi her uygulamanın üstünde tutan bir kayan pencere uygulamasıdır. Başka bir işle uğraşırken bile zamanlayıcı görünür kalır: istediğin yere sürükle, her öğe için boyut, saydamlık ve arka plan rengini ayarla ya da ekrana ihtiyacın olduğunda küçük bir çipe küçült. Uygulamayı açmadan pencere menüsünden oynatabilir, duraklatabilir ve sıfırlayabilirsin; uygulama değiştirsen veya ekranı kilitlesen de her şey arka planda çalışmaya devam eder. Bir kez ayarla; yemek yaparken, spor yaparken, ders çalışırken ya da oyun oynarken zamanı gözden kaçırma.",
       "features": [
-        "Kayan pencere — zamanlayıcılar, sayaçlar ve kronometre her uygulamanın üzerinde kayar; her öğe için ayrı boyut, opaklık ve arka plan rengi",
-        "Çoklu zamanlayıcı — birden fazla özel saat/dakika/saniye geri sayımını aynı anda çalıştırın ve her birine bir not ekleyin",
-        "İnterval zamanlayıcı — HIIT ve Tabata için turlu Çalışma/Dinlenme aşamaları oluşturun, ayrıca tek dokunuşluk hazır ayarlar (Pomodoro, HIIT, Tabata, molalar)",
-        "Sayım sayacı — özel adımla dokunarak sayan kayan sayaç; istediğiniz miktarı ekleyip çıkarın (+1, +2, +5, +10…)",
-        "Kayan kronometre — mevcut uygulamanızdan hiç ayrılmadan başlatın, duraklatın ve sıfırlayın",
-        "İstatistikler, seriler ve yedekleme — günlük kullanım geçmişi ve seriler, zamanlayıcı/sayaç dosyası yedekleme ve geri yükleme, CSV dışa aktarma (Pro)"
+        "Kayan pencere — zamanlayıcı, sayaç ve kronometreler her uygulamanın üstünde durur; istediğin yere sürükle, her öğe için boyut, saydamlık ve arka plan rengini ayarla",
+        "Çoklu zamanlayıcı — saat, dakika, saniye cinsinden istediğin süre; 1, 5, 10, 25, 30 ve 60 dakikalık hızlı seçimler ve aynı anda istediğin kadar zamanlayıcı",
+        "Pencere kontrolleri — uygulamayı açmadan menüden oynat, duraklat ve sıfırla; ekrana ihtiyaç duyduğunda küçük bir çipe küçült, dokununca geri aç",
+        "Sayaç — doğrudan kayan pencere üzerinde dokunarak artır veya azalt; adım 1, 2, 5 ya da 10 ve ihtiyacın kadar sayaç",
+        "Kronometre — birden fazla kronometre ayrı ayrı ölçülür; kullandığın uygulamadan çıkmadan başlat, duraklat ve sıfırla",
+        "Uyarılar ve yedekleme — süre bitince ses, titreşim veya tam ekran uyarı; ayrıca dosyaya aktarma ve birleştirerek ya da tamamen değiştirerek geri yükleme"
       ],
       "faq": [
         {
-          "q": "Diğer uygulamaları kullanırken zamanlayıcı görünür kalıyor mu?",
-          "a": "Evet. Zamanlayıcı, sayaç ve kronometre her uygulamanın üzerinde kayar ve arka planda çalışır; böylece uygulama değiştirseniz veya ekranı kilitleseniz bile çalışmaya devam ederler."
+          "q": "Başka uygulamaları kullanırken zamanlayıcı görünür kalıyor mu?",
+          "a": "Evet. Zamanlayıcı, sayaç ve kronometre her uygulamanın üstünde durur ve arka planda çalışır; uygulama değiştirsen ya da ekranı kilitlesen de devam eder."
         },
         {
-          "q": "İnterval zamanlayıcıları ve Pomodoro'yu destekliyor mu?",
-          "a": "Evet. HIIT ve Tabata için birden fazla turlu özel Çalışma/Dinlenme aşamaları oluşturabilirsiniz; ayrıca Pomodoro, HIIT, Tabata, kısa mola ve uzun mola için tek dokunuşluk hazır ayarlar vardır."
+          "q": "Pomodoro veya antrenman zamanlayıcısı olarak kullanabilir miyim?",
+          "a": "Evet. 25 dakika gibi hızlı seçimler var, istediğin süreyi ayarlayabilir ve çalışma ile dinlenme için birden fazla zamanlayıcıyı aynı anda çalıştırabilirsin. Pro'da zamanlayıcı 2, 3, 5 kez veya sonsuz tekrarlanır."
         },
         {
-          "q": "Aynı anda birden fazla zamanlayıcı veya sayaç çalıştırabilir miyim?",
-          "a": "Aynı anda birden fazla zamanlayıcı ve sayaç çalıştırmak bir Pro özelliğidir. Ücretsiz sürüm yine de tek bir zamanlayıcı, sayaç ve kronometre kullanmanıza olanak tanır."
+          "q": "Ücretsiz sürümde neler var?",
+          "a": "Sınırsız zamanlayıcı, sayaç ve kronometre; günlük süre sınırı yok. Ücretsiz sürümdeki tek sınır aynı anda tek kayan pencere göstermesi — Pro ile istediğin kadar gösterebilir ya da kısa bir reklam izleyip 24 saatlik Free Pass alabilirsin."
         }
       ]
     },

@@ -186,29 +186,29 @@
       "name": "FloatTimer+",
       "tag": "Floating",
       "seo": "Timer Mengambang & Pomodoro",
-      "desc": "Timer interval, Pomodoro & multi-timer mengambang di atas aplikasi apa pun.",
-      "tagline": "Timer interval, Pomodoro, dan multi-timer, penghitung, serta stopwatch yang mengambang di atas setiap aplikasi.",
-      "long": "FloatTimer+ adalah aplikasi overlay mengambang yang menjaga timer interval, multi-timer, penghitung, dan stopwatch tetap di atas aplikasi apa pun yang Anda pakai. Timer Anda tetap terlihat saat menjalankan banyak tugas, dan Anda bisa menyeretnya ke mana pun di layar sambil menyesuaikan ukuran, opasitas, dan warna latarnya. Aplikasi berjalan di latar belakang, jadi terus berjalan meski Anda berpindah aplikasi atau mengunci layar. Atur sekali dan lanjutkan memasak, berolahraga, belajar, atau bermain game tanpa pernah kehilangan pandangan atas timer Anda.",
+      "desc": "Timer, penghitung, dan stopwatch mengambang di atas aplikasi apa pun.",
+      "tagline": "Timer hitung mundur, penghitung, dan stopwatch yang mengambang di atas setiap aplikasi.",
+      "long": "FloatTimer+ adalah aplikasi jendela mengambang yang menjaga timer hitung mundur, penghitung, dan stopwatch tetap tampil di atas aplikasi apa pun yang kamu pakai. Timer tetap terlihat saat kamu mengerjakan hal lain: seret ke mana saja, atur ukuran, transparansi, dan warna latar tiap item, atau ciutkan jadi chip kecil ketika layar dibutuhkan. Putar, jeda, dan reset bisa langsung dari menu overlay tanpa membuka aplikasi, dan semuanya tetap berjalan di latar belakang meski kamu berpindah aplikasi atau mengunci layar. Atur sekali lalu lanjutkan memasak, berolahraga, belajar, atau bermain tanpa kehilangan pandangan pada waktu.",
       "features": [
-        "Overlay mengambang — timer, penghitung, dan stopwatch mengambang di atas aplikasi apa pun, dengan ukuran, opasitas, dan warna latar per item",
-        "Multi-timer — jalankan beberapa hitung mundur jam/menit/detik kustom sekaligus dan lampirkan memo pada tiap timer",
-        "Timer interval — susun fase Kerja/Istirahat dengan ronde untuk HIIT dan Tabata, plus preset satu ketukan (Pomodoro, HIIT, Tabata, istirahat)",
-        "Penghitung tally — penghitung mengambang ketuk-untuk-menghitung dengan langkah kustom untuk menambah atau mengurangi jumlah apa pun (+1, +2, +5, +10…)",
-        "Stopwatch mengambang — mulai, jeda, dan reset tanpa perlu meninggalkan aplikasi Anda saat ini",
-        "Statistik, streak, dan cadangan — riwayat pemakaian harian dan streak, cadang serta pulihkan file timer/penghitung, ekspor CSV (Pro)"
+        "Jendela mengambang — timer, penghitung, dan stopwatch mengambang di atas semua aplikasi; seret ke mana saja dan atur ukuran, transparansi, serta warna latar tiap item",
+        "Multi timer — durasi bebas dalam jam, menit, detik, dengan pilihan cepat 1, 5, 10, 25, 30, dan 60 menit serta sebanyak apa pun timer sekaligus",
+        "Kontrol overlay — putar, jeda, dan reset dari menu overlay tanpa membuka aplikasi, atau ciutkan jadi chip kecil dan ketuk untuk membukanya lagi",
+        "Penghitung — ketuk untuk menambah atau mengurangi langsung di overlay, dengan langkah 1, 2, 5, atau 10 dan sebanyak yang kamu butuhkan",
+        "Stopwatch — beberapa stopwatch dihitung terpisah; mulai, jeda, dan reset tanpa meninggalkan aplikasi yang sedang dipakai",
+        "Peringatan dan cadangan — suara, getaran, atau notifikasi layar penuh saat selesai, plus ekspor ke file dan pemulihan dengan menggabungkan atau mengganti"
       ],
       "faq": [
         {
           "q": "Apakah timer tetap terlihat saat saya memakai aplikasi lain?",
-          "a": "Ya. Timer, penghitung, dan stopwatch mengambang di atas aplikasi apa pun dan berjalan di latar belakang, sehingga terus berjalan meski Anda berpindah aplikasi atau mengunci layar."
+          "a": "Ya. Timer, penghitung, dan stopwatch mengambang di atas aplikasi apa pun dan berjalan di latar belakang, jadi tetap berjalan meski kamu berpindah aplikasi atau mengunci layar."
         },
         {
-          "q": "Apakah mendukung timer interval dan Pomodoro?",
-          "a": "Ya. Anda bisa menyusun fase Kerja/Istirahat kustom dengan beberapa ronde untuk HIIT dan Tabata, dan tersedia preset satu ketukan untuk Pomodoro, HIIT, Tabata, istirahat pendek, dan istirahat panjang."
+          "q": "Bisakah dipakai sebagai timer Pomodoro atau olahraga?",
+          "a": "Bisa. Ada pilihan cepat seperti 25 menit, kamu juga bisa mengatur durasi apa pun dan menjalankan beberapa timer sekaligus untuk sesi latihan dan istirahat. Pro dapat mengulang timer 2, 3, 5 kali, atau tanpa henti."
         },
         {
-          "q": "Bisakah saya menjalankan beberapa timer atau penghitung sekaligus?",
-          "a": "Menjalankan beberapa timer dan penghitung secara bersamaan adalah fitur Pro. Versi gratis tetap memungkinkan Anda memakai satu timer, penghitung, dan stopwatch."
+          "q": "Apa saja yang ada di versi gratis?",
+          "a": "Timer, penghitung, dan stopwatch tanpa batas jumlah, tanpa batas waktu harian. Satu-satunya batasan gratis adalah satu overlay mengambang dalam satu waktu — Pro menampilkan sebanyak yang kamu mau, atau tonton iklan singkat untuk Free Pass 24 jam."
         }
       ]
     },

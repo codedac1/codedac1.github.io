@@ -186,29 +186,29 @@
       "name": "FloatTimer+",
       "tag": "Zwevend",
       "seo": "Zwevende pomodoro timer",
-      "desc": "Een zwevende interval-, Pomodoro- & multitimer over elke app.",
-      "tagline": "Een interval-, Pomodoro- en multitimer, teller en stopwatch die boven elke app zweeft.",
-      "long": "FloatTimer+ is een zwevende overlay-app die een intervaltimer, multitimer, teller en stopwatch boven elke app houdt die je gebruikt. Je timer blijft zichtbaar terwijl je meerdere dingen tegelijk doet, en je kunt hem overal op het scherm slepen en daarbij zijn grootte, dekking en achtergrondkleur aanpassen. Hij draait op de achtergrond, dus hij gaat door, ook als je van app wisselt of het scherm vergrendelt. Eén keer instellen en verder koken, sporten, studeren of gamen zonder je timer ooit uit het oog te verliezen.",
+      "desc": "Een zwevende timer, teller en stopwatch boven elke app.",
+      "tagline": "Een afteltimer, teller en stopwatch die boven elke app zweven.",
+      "long": "FloatTimer+ is een app met een zwevend venster dat een afteltimer, teller en stopwatch boven elke app houdt die je gebruikt. Je timer blijft zichtbaar terwijl je iets anders doet: sleep hem waar je wilt, stel per item grootte, transparantie en achtergrondkleur in, of vouw hem op tot een kleine chip wanneer je het scherm nodig hebt. Starten, pauzeren en resetten kan direct in het menu van het zwevende venster zonder de app te openen, en alles loopt door op de achtergrond, ook als je van app wisselt of je scherm vergrendelt. Eén keer instellen en verder koken, sporten, studeren of gamen zonder de tijd uit het oog te verliezen.",
       "features": [
-        "Zwevend overlay – timers, tellers en een stopwatch zweven over elke app, met grootte, dekking en achtergrondkleur per item",
-        "Multitimer – meerdere eigen countdowns in uren/minuten/seconden tegelijk laten lopen en aan elk een memo koppelen",
-        "Intervaltimer – werk-/rustfasen met rondes bouwen voor HIIT en Tabata, plus presets met één tik (Pomodoro, HIIT, Tabata, pauzes)",
-        "Turfteller – zwevende teller om te tikken met een eigen stap om elk bedrag op te tellen of af te trekken (+1, +2, +5, +10 …)",
-        "Zwevende stopwatch – starten, pauzeren en resetten zonder ooit je huidige app te verlaten",
-        "Statistieken, reeksen en back-up – dagelijkse gebruiksgeschiedenis en reeksen, back-up en herstel van timer-/tellerbestanden, CSV-export (Pro)"
+        "Zwevend venster — timers, tellers en stopwatches zweven boven elke app; sleep ze waarheen je wilt en stel per item grootte, transparantie en achtergrondkleur in",
+        "Multitimer — elke duur in uren, minuten en seconden, met snelkeuzes van 1, 5, 10, 25, 30 en 60 minuten en zoveel timers tegelijk als je wilt",
+        "Bediening in het venster — start, pauzeer en reset via het menu zonder de app te openen, of vouw het op tot een compacte chip en tik om uit te klappen",
+        "Teller — tel omhoog of omlaag met één tik op het zwevende venster, met stapgrootte 1, 2, 5 of 10 en zoveel tellers als je nodig hebt",
+        "Stopwatch — meerdere stopwatches die apart lopen; starten, pauzeren en resetten zonder je huidige app te verlaten",
+        "Meldingen en back-up — geluid, trilling of een melding op het volledige scherm als de tijd om is, plus export naar een bestand en herstel door samenvoegen of vervangen"
       ],
       "faq": [
         {
           "q": "Blijft de timer zichtbaar terwijl ik andere apps gebruik?",
-          "a": "Ja. De timer, de teller en de stopwatch zweven boven elke app en draaien op de achtergrond door, ook als je van app wisselt of het scherm vergrendelt."
+          "a": "Ja. De timer, teller en stopwatch zweven boven elke app en draaien op de achtergrond, dus ze lopen door als je van app wisselt of je scherm vergrendelt."
         },
         {
-          "q": "Ondersteunt het intervaltimers en Pomodoro?",
-          "a": "Ja. Je kunt eigen werk-/rustfasen met meerdere rondes bouwen voor HIIT en Tabata, en er zijn presets met één tik voor Pomodoro, HIIT, Tabata, korte pauze en lange pauze."
+          "q": "Kan ik hem gebruiken als pomodoro- of workouttimer?",
+          "a": "Ja. Er zijn snelkeuzes zoals 25 minuten, je kunt elke duur instellen en meerdere timers tegelijk laten lopen voor inspanning en rust. Met Pro herhaalt een timer zich 2, 3, 5 keer of eindeloos."
         },
         {
-          "q": "Kan ik meerdere timers of tellers tegelijk laten lopen?",
-          "a": "Meerdere timers en tellers tegelijk gebruiken is een Pro-functie. De gratis versie laat je nog steeds één timer, teller en stopwatch gebruiken."
+          "q": "Wat zit er in de gratis versie?",
+          "a": "Onbeperkt timers, tellers en stopwatches, zonder daglimiet. De enige gratis beperking is één zwevend venster tegelijk — met Pro toon je er zoveel je wilt, of bekijk je een korte advertentie voor een Free Pass van 24 uur."
         }
       ]
     },

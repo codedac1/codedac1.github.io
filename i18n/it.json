@@ -186,29 +186,29 @@
       "name": "FloatTimer+",
       "tag": "Flottante",
       "seo": "timer flottante Pomodoro",
-      "desc": "Un timer flottante a intervalli, Pomodoro e multi-timer sopra qualsiasi app.",
-      "tagline": "Un timer a intervalli, Pomodoro e multi-timer, contatore e cronometro che fluttua sopra ogni app.",
-      "long": "FloatTimer+ è un'app overlay flottante che mantiene un timer a intervalli, un multi-timer, un contatore e un cronometro sopra qualsiasi app tu stia usando. Il tuo timer resta visibile mentre fai più cose contemporaneamente e puoi trascinarlo in qualsiasi punto dello schermo, personalizzandone dimensione, opacità e colore di sfondo. Funziona in background, quindi continua a scorrere anche quando cambi app o blocchi lo schermo. Impostalo una volta e continua a cucinare, allenarti, studiare o giocare senza mai perdere di vista il timer.",
+      "desc": "Un timer, contatore e cronometro flottante sopra qualsiasi app.",
+      "tagline": "Conto alla rovescia, contatore e cronometro che flottano sopra ogni app.",
+      "long": "FloatTimer+ è un'app a finestra flottante che tiene conto alla rovescia, contatore e cronometro sopra qualsiasi app tu stia usando. Il timer resta visibile mentre fai altro: trascinalo dove vuoi, regola dimensione, opacità e colore di sfondo per ogni elemento oppure riducilo a una piccola pillola quando ti serve lo schermo. Puoi avviarlo, metterlo in pausa e azzerarlo dal menu dell'overlay senza aprire l'app, e tutto continua in background anche se cambi applicazione o blocchi lo schermo. Impostalo una volta e continua a cucinare, allenarti, studiare o giocare senza perdere di vista il tempo.",
       "features": [
-        "Overlay flottante: timer, contatori e cronometro fluttuano su qualsiasi app, con dimensione, opacità e colore di sfondo per ciascun elemento",
-        "Multi-timer: avvia più conti alla rovescia personalizzati in ore/minuti/secondi contemporaneamente e associa un promemoria a ciascuno",
-        "Timer a intervalli: crea fasi di Lavoro/Riposo con round per HIIT e Tabata, oltre a preset con un tocco (Pomodoro, HIIT, Tabata, pause)",
-        "Contatore: contatore flottante tap-to-count con passo personalizzato per aggiungere o sottrarre qualsiasi quantità (+1, +2, +5, +10…)",
-        "Cronometro flottante: avvia, metti in pausa e azzera senza mai uscire dall'app che stai usando",
-        "Statistiche, serie e backup: cronologia d'uso giornaliera e serie, backup e ripristino dei file di timer/contatore, esportazione CSV (Pro)"
+        "Finestra flottante — timer, contatori e cronometri flottano sopra ogni app; trascinali dove vuoi e regola dimensione, opacità e colore di sfondo per ciascuno",
+        "Multi timer — qualsiasi durata in ore, minuti e secondi, con scelte rapide da 1, 5, 10, 25, 30 e 60 minuti e tutti i timer che vuoi in contemporanea",
+        "Controlli sull'overlay — avvio, pausa e reset dal menu della finestra senza aprire l'app, oppure riducila a pillola e tocca per riaprirla",
+        "Contatore — tocca per aumentare o diminuire direttamente sull'overlay, con passo 1, 2, 5 o 10 e tutti i contatori che ti servono",
+        "Cronometro — più cronometri misurati separatamente; avvia, metti in pausa e azzera senza lasciare l'app che stai usando",
+        "Avvisi e backup — suono, vibrazione o avviso a schermo intero a fine tempo, più esportazione in un file e ripristino unendo o sostituendo"
       ],
       "faq": [
         {
           "q": "Il timer resta visibile mentre uso altre app?",
-          "a": "Sì. Il timer, il contatore e il cronometro fluttuano sopra qualsiasi app e funzionano in background, quindi continuano a scorrere anche quando cambi app o blocchi lo schermo."
+          "a": "Sì. Timer, contatore e cronometro flottano sopra qualsiasi app e continuano in background, anche se cambi applicazione o blocchi lo schermo."
         },
         {
-          "q": "Supporta i timer a intervalli e il Pomodoro?",
-          "a": "Sì. Puoi creare fasi personalizzate di Lavoro/Riposo con più round per HIIT e Tabata, e ci sono preset con un tocco per Pomodoro, HIIT, Tabata, pausa breve e pausa lunga."
+          "q": "Posso usarlo come timer Pomodoro o per l'allenamento?",
+          "a": "Sì. Ci sono scelte rapide come 25 minuti, puoi impostare qualsiasi durata e avviare più timer insieme per lavoro e recupero. Con Pro un timer si ripete 2, 3, 5 volte o all'infinito."
         },
         {
-          "q": "Posso avviare più timer o contatori contemporaneamente?",
-          "a": "L'esecuzione simultanea di più timer e contatori è una funzione Pro. La versione gratuita ti permette comunque di usare un singolo timer, contatore e cronometro."
+          "q": "Cosa include la versione gratuita?",
+          "a": "Timer, contatori e cronometri illimitati, senza limite di tempo giornaliero. L'unico limite gratuito è una finestra flottante alla volta: con Pro ne mostri quante vuoi, oppure guardi un breve annuncio per un Free Pass di 24 ore."
         }
       ]
     },

@@ -185,30 +185,30 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Floating",
-      "seo": "Floating Interval & Pomodoro Timer",
-      "desc": "Isang floating interval, Pomodoro at multi-timer sa ibabaw ng anumang app.",
-      "tagline": "Isang interval, Pomodoro, at multi-timer, counter, at stopwatch na lumulutang sa ibabaw ng bawat app.",
-      "long": "Ang FloatTimer+ ay isang floating overlay app na nagpapanatili ng interval timer, multi-timer, counter, at stopwatch sa ibabaw ng anumang app na ginagamit mo. Nananatiling nakikita ang timer mo habang nagmu-multitask ka, at maaari mo itong i-drag kahit saan sa screen habang ini-customize ang laki, opacity, at background color nito. Tumatakbo ito sa background, kaya patuloy itong gumagana kahit lumipat ka ng app o i-lock ang screen. I-setup ito nang isang beses at magpatuloy sa pagluluto, pag-eehersisyo, pag-aaral, o paglalaro nang hindi nawawala sa paningin ang timer mo.",
+      "seo": "Floating Pomodoro & Multi Timer",
+      "desc": "Floating timer, counter, at stopwatch sa ibabaw ng kahit anong app.",
+      "tagline": "Countdown timer, counter, at stopwatch na lumulutang sa ibabaw ng bawat app.",
+      "long": "Ang FloatTimer+ ay isang floating overlay app na pinananatili ang countdown timer, counter, at stopwatch sa ibabaw ng kahit anong app na ginagamit mo. Nananatiling nakikita ang timer habang may ibang ginagawa ka: i-drag kahit saan, ayusin ang laki, opacity, at kulay ng bawat item, o tiklupin bilang maliit na chip kapag kailangan mo ang screen. Puwedeng i-play, i-pause, at i-reset mula mismo sa overlay menu nang hindi binubuksan ang app, at patuloy ang lahat sa background kahit lumipat ka ng app o i-lock ang screen. I-set nang isang beses at ituloy ang pagluluto, ehersisyo, pag-aaral, o paglalaro nang hindi nawawala sa paningin ang oras.",
       "features": [
-        "Floating overlay — lumulutang ang mga timer, counter, at stopwatch sa anumang app, na may per-item na laki, opacity, at background color",
-        "Multi-timer — magpatakbo ng maraming custom na oras/minuto/segundo na countdown nang sabay-sabay at maglagay ng memo sa bawat isa",
-        "Interval timer — bumuo ng mga Work/Rest phase na may mga round para sa HIIT at Tabata, kasama ang one-tap na preset (Pomodoro, HIIT, Tabata, mga break)",
-        "Tally counter — tap-to-count na floating counter na may custom na step para magdagdag o magbawas ng anumang halaga (+1, +2, +5, +10…)",
-        "Floating stopwatch — mag-start, mag-pause, at mag-reset nang hindi umaalis sa kasalukuyan mong app",
-        "Estadistika, streak, at backup — pang-araw-araw na kasaysayan ng paggamit at mga streak, backup at restore ng timer/counter file, CSV export (Pro)"
+        "Floating overlay — lumulutang ang mga timer, counter, at stopwatch sa ibabaw ng lahat ng app; i-drag kahit saan at ayusin ang laki, opacity, at kulay ng bawat item",
+        "Multi timer — kahit anong tagal sa oras, minuto, segundo, may mabilisang pagpipiliang 1, 5, 10, 25, 30, at 60 minuto at kahit ilang timer nang sabay",
+        "Kontrol sa overlay — play, pause, at reset mula sa overlay menu nang hindi binubuksan ang app, o tiklupin bilang chip at i-tap para buksan muli",
+        "Counter — i-tap para magdagdag o magbawas mismo sa overlay, may step na 1, 2, 5, o 10 at kahit ilang counter na kailangan mo",
+        "Stopwatch — maraming stopwatch na hiwalay na sinusubaybayan; simulan, i-pause, at i-reset nang hindi umaalis sa kasalukuyang app",
+        "Mga alerto at backup — tunog, vibration, o full-screen alert kapag tapos na, plus i-export sa file at i-restore sa pamamagitan ng pagsasama o pagpapalit"
       ],
       "faq": [
         {
-          "q": "Mananatili bang nakikita ang timer habang gumagamit ako ng ibang app?",
-          "a": "Oo. Lumulutang ang timer, counter, at stopwatch sa ibabaw ng anumang app at tumatakbo sa background, kaya patuloy ang mga ito kahit lumipat ka ng app o i-lock ang screen."
+          "q": "Nananatili bang nakikita ang timer habang gumagamit ako ng ibang app?",
+          "a": "Oo. Lumulutang ang timer, counter, at stopwatch sa ibabaw ng kahit anong app at tumatakbo sa background, kaya tuloy-tuloy ang bilang kahit lumipat ka ng app o i-lock ang screen."
         },
         {
-          "q": "Sinusuportahan ba nito ang interval timer at Pomodoro?",
-          "a": "Oo. Maaari kang bumuo ng custom na Work/Rest phase na may maraming round para sa HIIT at Tabata, at may mga one-tap na preset para sa Pomodoro, HIIT, Tabata, maikling break, at mahabang break."
+          "q": "Puwede ba itong gamiting Pomodoro o workout timer?",
+          "a": "Oo. May mabilisang pagpipilian tulad ng 25 minuto, puwede kang magtakda ng kahit anong tagal, at magpatakbo ng ilang timer nang sabay para sa ehersisyo at pahinga. Sa Pro, uulitin ang timer nang 2, 3, 5 beses, o walang hanggan."
         },
         {
-          "q": "Maaari ba akong magpatakbo ng maraming timer o counter nang sabay-sabay?",
-          "a": "Ang pagpapatakbo ng maraming timer at counter nang sabay-sabay ay isang Pro feature. Pinapayagan ka pa rin ng libreng bersyon na gumamit ng iisang timer, counter, at stopwatch."
+          "q": "Ano ang kasama sa libreng bersyon?",
+          "a": "Walang limitasyon sa dami ng timer, counter, at stopwatch, at walang pang-araw-araw na limitasyon sa oras. Ang tanging limitasyon ay isang floating overlay sa isang pagkakataon — sa Pro, kahit ilan nang sabay, o manood ng maikling ad para sa 24-oras na Free Pass."
         }
       ]
     },

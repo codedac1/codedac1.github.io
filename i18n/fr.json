@@ -185,30 +185,30 @@
     "floattimer": {
       "name": "FloatTimer+",
       "tag": "Flottant",
-      "seo": "Minuteur d'intervalles flottant",
-      "desc": "Un minuteur d'intervalles, Pomodoro et multi-minuteur par-dessus toute application.",
-      "tagline": "Un minuteur d'intervalles, Pomodoro et multi-minuteur, un compteur et un chronomètre qui flottent par-dessus chaque application.",
-      "long": "FloatTimer+ est une application à fenêtre flottante qui garde un minuteur d'intervalles, un multi-minuteur, un compteur et un chronomètre au-dessus de toute application que vous utilisez. Votre minuteur reste visible pendant que vous faites plusieurs choses à la fois, et vous pouvez le faire glisser où vous voulez sur l'écran tout en personnalisant sa taille, son opacité et sa couleur de fond. Il fonctionne en arrière-plan et continue donc même lorsque vous changez d'appli ou verrouillez l'écran. Réglez-le une fois et continuez à cuisiner, à faire du sport, à étudier ou à jouer sans jamais perdre votre minuteur de vue.",
+      "seo": "Minuteur flottant Pomodoro",
+      "desc": "Un minuteur, compteur et chronomètre flottant par-dessus toute application.",
+      "tagline": "Un compte à rebours, un compteur et un chronomètre qui flottent par-dessus chaque application.",
+      "long": "FloatTimer+ est une application de fenêtre flottante qui garde un compte à rebours, un compteur et un chronomètre par-dessus n'importe quelle application. Votre minuteur reste visible pendant que vous faites autre chose : déplacez-le où vous voulez, réglez la taille, l'opacité et la couleur de fond de chaque élément, ou repliez-le en une petite pastille quand vous avez besoin de l'écran. Vous pouvez le lancer, le mettre en pause et le remettre à zéro depuis le menu flottant sans ouvrir l'appli, et tout continue en arrière-plan même si vous changez d'application ou verrouillez l'écran. Réglez-le une fois et continuez à cuisiner, vous entraîner, réviser ou jouer sans perdre le temps de vue.",
       "features": [
-        "Fenêtre flottante — minuteurs, compteurs et chronomètre flottent par-dessus toute appli, avec taille, opacité et couleur de fond réglables pour chaque élément",
-        "Multi-minuteur — lancez plusieurs comptes à rebours personnalisés en heures/minutes/secondes à la fois et associez un mémo à chacun",
-        "Minuteur d'intervalles — créez des phases Effort/Repos avec des séries pour le HIIT et le Tabata, plus des préréglages en un toucher (Pomodoro, HIIT, Tabata, pauses)",
-        "Compteur — compteur flottant qui compte au toucher, avec un pas personnalisé pour ajouter ou retrancher n'importe quelle valeur (+1, +2, +5, +10…)",
-        "Chronomètre flottant — démarrez, mettez en pause et réinitialisez sans jamais quitter votre application en cours",
-        "Statistiques, séries et sauvegarde — historique d'utilisation quotidien et séries, sauvegarde et restauration des fichiers de minuteurs/compteurs, export CSV (Pro)"
+        "Fenêtre flottante — minuteurs, compteurs et chronomètres flottent au-dessus de toutes les applis ; placez-les où vous voulez et réglez taille, opacité et couleur de fond pour chacun",
+        "Multi-minuteur — n'importe quelle durée en heures, minutes et secondes, avec des choix rapides de 1, 5, 10, 25, 30 et 60 minutes et autant de minuteurs en même temps que vous voulez",
+        "Commandes flottantes — lecture, pause et remise à zéro depuis le menu de la fenêtre sans ouvrir l'appli, ou repliez-la en pastille et touchez pour la déplier",
+        "Compteur — comptez en plus ou en moins directement sur la fenêtre flottante, avec un pas de 1, 2, 5 ou 10 et autant de compteurs que nécessaire",
+        "Chronomètre — plusieurs chronomètres suivis séparément ; démarrez, mettez en pause et remettez à zéro sans quitter votre appli",
+        "Alertes et sauvegarde — son, vibration ou alerte plein écran à la fin, plus l'export dans un fichier et la restauration par fusion ou remplacement"
       ],
       "faq": [
         {
-          "q": "Le minuteur reste-t-il visible pendant que j'utilise d'autres applications ?",
-          "a": "Oui. Le minuteur, le compteur et le chronomètre flottent par-dessus toute application et fonctionnent en arrière-plan : ils continuent même lorsque vous changez d'appli ou verrouillez l'écran."
+          "q": "Le minuteur reste-t-il visible quand j'utilise d'autres applis ?",
+          "a": "Oui. Le minuteur, le compteur et le chronomètre flottent au-dessus de toutes les applications et tournent en arrière-plan : ils continuent même si vous changez d'appli ou verrouillez l'écran."
         },
         {
-          "q": "Prend-il en charge les minuteurs d'intervalles et Pomodoro ?",
-          "a": "Oui. Vous pouvez créer des phases Effort/Repos personnalisées avec plusieurs séries pour le HIIT et le Tabata, et des préréglages en un toucher sont disponibles pour le Pomodoro, le HIIT, le Tabata, la pause courte et la pause longue."
+          "q": "Puis-je l'utiliser comme minuteur Pomodoro ou de sport ?",
+          "a": "Oui. Des choix rapides comme 25 minutes sont prévus, vous pouvez régler n'importe quelle durée et lancer plusieurs minuteurs en même temps pour l'effort et la récupération. Avec Pro, un minuteur se répète 2, 3, 5 fois ou à l'infini."
         },
         {
-          "q": "Puis-je lancer plusieurs minuteurs ou compteurs à la fois ?",
-          "a": "Lancer plusieurs minuteurs et compteurs en même temps est une fonctionnalité Pro. La version gratuite vous permet tout de même d'utiliser un seul minuteur, un seul compteur et un seul chronomètre."
+          "q": "Que contient la version gratuite ?",
+          "a": "Des minuteurs, compteurs et chronomètres illimités, sans limite de temps quotidienne. La seule limite gratuite est une fenêtre flottante à la fois : Pro en affiche autant que vous voulez, ou regardez une courte pub pour un Free Pass de 24 h."
         }
       ]
     },

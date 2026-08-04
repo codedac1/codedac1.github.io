@@ -186,29 +186,29 @@
       "name": "FloatTimer+",
       "tag": "Flotante",
       "seo": "temporizador flotante Pomodoro",
-      "desc": "Un temporizador de intervalos, Pomodoro y multitemporizador flotante sobre cualquier app.",
-      "tagline": "Un temporizador de intervalos, Pomodoro y multitemporizador, contador y cronómetro que flota sobre cada app.",
-      "long": "FloatTimer+ es una app de superposición flotante que mantiene un temporizador de intervalos, un multitemporizador, un contador y un cronómetro sobre cualquier app que uses. Tu temporizador permanece visible mientras haces varias cosas a la vez, y puedes arrastrarlo a cualquier parte de la pantalla ajustando su tamaño, opacidad y color de fondo. Funciona en segundo plano, así que sigue corriendo incluso cuando cambias de app o bloqueas la pantalla. Configúralo una vez y sigue cocinando, entrenando, estudiando o jugando sin perder de vista tu temporizador.",
+      "desc": "Un temporizador, contador y cronómetro flotante sobre cualquier app.",
+      "tagline": "Una cuenta atrás, un contador y un cronómetro que flotan sobre cada aplicación.",
+      "long": "FloatTimer+ es una app de ventana flotante que mantiene una cuenta atrás, un contador y un cronómetro encima de cualquier aplicación que uses. El temporizador sigue a la vista mientras haces otra cosa: arrástralo a donde quieras, ajusta tamaño, opacidad y color de fondo de cada elemento, o contráelo a una pequeña pastilla cuando necesites la pantalla. Puedes iniciarlo, pausarlo y reiniciarlo desde el menú flotante sin abrir la app, y todo sigue funcionando en segundo plano aunque cambies de aplicación o bloquees la pantalla. Configúralo una vez y sigue cocinando, entrenando, estudiando o jugando sin perder de vista el tiempo.",
       "features": [
-        "Superposición flotante: temporizadores, contadores y un cronómetro flotan sobre cualquier app, con tamaño, opacidad y color de fondo por elemento",
-        "Multitemporizador: ejecuta a la vez varias cuentas regresivas personalizadas de horas/minutos/segundos y añade una nota a cada una",
-        "Temporizador de intervalos: crea fases de Trabajo/Descanso con rondas para HIIT y Tabata, además de ajustes predeterminados de un toque (Pomodoro, HIIT, Tabata, descansos)",
-        "Contador manual: contador flotante que cuenta al tocar, con paso personalizado para sumar o restar cualquier cantidad (+1, +2, +5, +10…)",
-        "Cronómetro flotante: inicia, pausa y reinicia sin salir nunca de la app que estás usando",
-        "Estadísticas, rachas y copia de seguridad: historial de uso diario y rachas, copia y restauración de archivos de temporizador/contador, exportación a CSV (Pro)"
+        "Ventana flotante — temporizadores, contadores y cronómetros flotan sobre cualquier app; arrástralos donde quieras y ajusta tamaño, opacidad y color de fondo de cada uno",
+        "Multitemporizador — cualquier duración en horas, minutos y segundos, con ajustes rápidos de 1, 5, 10, 25, 30 y 60 minutos y todos los que quieras a la vez",
+        "Control desde la ventana — inicia, pausa y reinicia desde el menú flotante sin abrir la app, o contráela a una pastilla y tócala para desplegarla",
+        "Contador — suma y resta tocando directamente en la ventana flotante, con paso de 1, 2, 5 o 10 y tantos contadores como necesites",
+        "Cronómetro — varios cronómetros medidos por separado; inicia, pausa y reinicia sin salir de la app que estás usando",
+        "Avisos y copia de seguridad — sonido, vibración o alerta a pantalla completa al terminar, más exportación a un archivo y restauración combinando o reemplazando"
       ],
       "faq": [
         {
           "q": "¿El temporizador sigue visible mientras uso otras apps?",
-          "a": "Sí. El temporizador, el contador y el cronómetro flotan sobre cualquier app y funcionan en segundo plano, así que siguen corriendo incluso cuando cambias de app o bloqueas la pantalla."
+          "a": "Sí. El temporizador, el contador y el cronómetro flotan sobre cualquier aplicación y funcionan en segundo plano, así que siguen contando aunque cambies de app o bloquees la pantalla."
         },
         {
-          "q": "¿Admite temporizadores de intervalos y Pomodoro?",
-          "a": "Sí. Puedes crear fases personalizadas de Trabajo/Descanso con varias rondas para HIIT y Tabata, y hay ajustes predeterminados de un toque para Pomodoro, HIIT, Tabata, descanso corto y descanso largo."
+          "q": "¿Puedo usarlo como temporizador Pomodoro o de entrenamiento?",
+          "a": "Sí. Hay ajustes rápidos como 25 minutos, puedes definir cualquier duración y ejecutar varios temporizadores a la vez para series y descansos. Pro repite un temporizador 2, 3 o 5 veces, o sin fin."
         },
         {
-          "q": "¿Puedo ejecutar varios temporizadores o contadores a la vez?",
-          "a": "Ejecutar varios temporizadores y contadores al mismo tiempo es una función Pro. La versión gratuita te permite usar un único temporizador, contador y cronómetro."
+          "q": "¿Qué incluye la versión gratuita?",
+          "a": "Temporizadores, contadores y cronómetros ilimitados, sin límite diario de uso. La única limitación gratuita es mostrar una ventana flotante a la vez: con Pro muestras todas las que quieras, o mira un anuncio corto para un Free Pass de 24 horas."
         }
       ]
     },

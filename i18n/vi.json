@@ -186,29 +186,29 @@
       "name": "FloatTimer+",
       "tag": "Cửa sổ nổi",
       "seo": "Hẹn giờ nổi trên mọi ứng dụng",
-      "desc": "Hẹn giờ interval, Pomodoro và đa hẹn giờ dạng nổi trên mọi ứng dụng.",
-      "tagline": "Hẹn giờ interval, Pomodoro, đa hẹn giờ, bộ đếm và bấm giờ nổi trên mọi ứng dụng.",
-      "long": "FloatTimer+ là ứng dụng lớp phủ nổi giữ hẹn giờ interval, đa hẹn giờ, bộ đếm và bấm giờ trên mọi ứng dụng bạn dùng. Hẹn giờ luôn hiển thị khi bạn làm nhiều việc cùng lúc, và bạn có thể kéo đến bất cứ đâu trên màn hình cùng tùy chỉnh kích thước, độ trong suốt và màu nền. Ứng dụng chạy nền nên vẫn tiếp tục ngay cả khi bạn chuyển ứng dụng hay tắt màn hình. Cài một lần rồi tiếp tục nấu ăn, tập luyện, học tập hay chơi game mà không bao giờ mất dấu hẹn giờ.",
+      "desc": "Hẹn giờ, bộ đếm và bấm giờ dạng nổi trên mọi ứng dụng.",
+      "tagline": "Đếm ngược, bộ đếm và đồng hồ bấm giờ nổi trên mọi ứng dụng.",
+      "long": "FloatTimer+ là ứng dụng cửa sổ nổi, giữ bộ đếm ngược, bộ đếm và đồng hồ bấm giờ luôn hiển thị trên mọi ứng dụng bạn dùng. Bộ hẹn giờ vẫn trong tầm mắt khi bạn làm việc khác: kéo tới bất kỳ đâu, chỉnh kích thước, độ trong suốt và màu nền cho từng mục, hoặc thu gọn thành một chip nhỏ khi cần màn hình. Bạn có thể chạy, tạm dừng và đặt lại ngay trong menu cửa sổ nổi mà không cần mở ứng dụng, và mọi thứ vẫn chạy nền kể cả khi bạn chuyển ứng dụng hay khóa màn hình. Đặt một lần rồi tiếp tục nấu ăn, tập luyện, học hay chơi game mà không rời mắt khỏi thời gian.",
       "features": [
-        "Lớp phủ nổi — hẹn giờ, bộ đếm và bấm giờ nổi trên mọi ứng dụng, với kích thước, độ trong suốt và màu nền riêng cho từng mục",
-        "Đa hẹn giờ — chạy nhiều bộ đếm ngược giờ/phút/giây tùy chỉnh cùng lúc và gắn ghi chú cho từng cái",
-        "Hẹn giờ interval — tạo các giai đoạn Tập/Nghỉ với số hiệp cho HIIT và Tabata, kèm mẫu có sẵn chạm một lần (Pomodoro, HIIT, Tabata, giờ nghỉ)",
-        "Bộ đếm số — bộ đếm nổi chạm-để-đếm với bước tùy chỉnh để cộng hoặc trừ bất kỳ giá trị nào (+1, +2, +5, +10…)",
-        "Bấm giờ nổi — bắt đầu, tạm dừng và đặt lại mà không bao giờ rời khỏi ứng dụng hiện tại",
-        "Thống kê, chuỗi ngày và sao lưu — lịch sử sử dụng và chuỗi ngày theo ngày, sao lưu và khôi phục tệp hẹn giờ/bộ đếm, xuất CSV (Pro)"
+        "Cửa sổ nổi — hẹn giờ, bộ đếm và bấm giờ nổi trên mọi ứng dụng; kéo tới bất kỳ đâu và chỉnh kích thước, độ trong suốt, màu nền cho từng mục",
+        "Đa hẹn giờ — đặt thời lượng tùy ý theo giờ, phút, giây, kèm lựa chọn nhanh 1, 5, 10, 25, 30 và 60 phút, chạy bao nhiêu bộ cùng lúc tùy thích",
+        "Điều khiển trên cửa sổ nổi — chạy, tạm dừng và đặt lại ngay trong menu mà không cần mở ứng dụng, hoặc thu gọn thành chip và chạm để mở lại",
+        "Bộ đếm — chạm để tăng hoặc giảm ngay trên cửa sổ nổi, bước nhảy 1, 2, 5 hoặc 10, tạo bao nhiêu bộ đếm tùy nhu cầu",
+        "Bấm giờ — nhiều đồng hồ bấm giờ tính riêng từng cái; bắt đầu, tạm dừng và đặt lại mà không rời ứng dụng đang dùng",
+        "Cảnh báo và sao lưu — âm thanh, rung hoặc cảnh báo toàn màn hình khi hết giờ, cùng xuất ra tệp và khôi phục theo kiểu gộp hoặc thay thế"
       ],
       "faq": [
         {
-          "q": "Hẹn giờ có luôn hiển thị khi tôi dùng ứng dụng khác không?",
-          "a": "Có. Hẹn giờ, bộ đếm và bấm giờ nổi trên mọi ứng dụng và chạy nền, nên vẫn tiếp tục ngay cả khi bạn chuyển ứng dụng hay tắt màn hình."
+          "q": "Bộ hẹn giờ có hiển thị khi tôi dùng ứng dụng khác không?",
+          "a": "Có. Hẹn giờ, bộ đếm và bấm giờ nổi trên mọi ứng dụng và chạy nền, nên vẫn tiếp tục kể cả khi bạn chuyển ứng dụng hay khóa màn hình."
         },
         {
-          "q": "Ứng dụng có hỗ trợ hẹn giờ interval và Pomodoro không?",
-          "a": "Có. Bạn có thể tạo các giai đoạn Tập/Nghỉ tùy chỉnh với nhiều hiệp cho HIIT và Tabata, và có sẵn các mẫu chạm một lần cho Pomodoro, HIIT, Tabata, nghỉ ngắn và nghỉ dài."
+          "q": "Có dùng được như bộ hẹn giờ Pomodoro hoặc tập luyện không?",
+          "a": "Có. Có lựa chọn nhanh như 25 phút, bạn cũng đặt được thời lượng tùy ý và chạy nhiều bộ hẹn giờ cùng lúc cho hiệp tập và nghỉ. Bản Pro cho phép lặp lại 2, 3, 5 lần hoặc vô hạn."
         },
         {
-          "q": "Tôi có thể chạy nhiều hẹn giờ hoặc bộ đếm cùng lúc không?",
-          "a": "Chạy nhiều hẹn giờ và bộ đếm cùng lúc là tính năng Pro. Bản miễn phí vẫn cho bạn dùng một hẹn giờ, một bộ đếm và một bấm giờ."
+          "q": "Bản miễn phí có những gì?",
+          "a": "Không giới hạn số lượng hẹn giờ, bộ đếm và bấm giờ, cũng không giới hạn thời gian mỗi ngày. Giới hạn duy nhất là hiển thị một cửa sổ nổi tại một thời điểm — bản Pro hiển thị bao nhiêu tùy ý, hoặc xem quảng cáo ngắn để nhận Free Pass 24 giờ."
         }
       ]
     },
