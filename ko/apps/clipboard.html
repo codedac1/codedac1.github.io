@@ -61,7 +61,7 @@
   "name": "Clipboard+",
   "operatingSystem": "Android",
   "applicationCategory": "UtilitiesApplication",
-  "description": "Clipboard+는 복사한 모든 텍스트와 이미지를 실시간으로 자동 저장하는 Android 클립보드 관리자입니다. 플로팅 오버레이를 통해 앱 전환 없이 어떤 화면에서든 클립보드 기록에 바로 접근할 수 있습니다. 자주 쓰는 텍스트는 스니펫과 그룹으로 정리하고, 키워드 검색과 위젯, 알림창 패널로 원하는 클립을 빠르게 붙여넣으세요. 클립보드 기록은 PDF로 내보내거나 언제든지 백업하고 복원할 수 있습니다.",
+  "description": "Clipboard+는 복사한 모든 텍스트와 이미지를 실시간으로 자동 저장하는 Android 클립보드 관리자입니다. 플로팅 오버레이를 통해 앱 전환 없이 어떤 화면에서든 클립보드 기록에 바로 접근할 수 있습니다. 자주 쓰는 텍스트는 스니펫과 그룹으로 정리하고, 키워드 검색과 위젯, 알림창 패널로 원하는 클립을 빠르게 붙여넣으세요. 클립보드 기록은 PDF로 내보내거나 언제든지 백업하고 복원할 수 있습니다. Windows용 Clipboard+와 함께 쓰면 폰에서 복사한 내용을 PC에서, PC에서 복사한 내용을 폰에서 그대로 붙여넣을 수 있습니다. 두 앱에서 같은 계정으로 Google Drive에 로그인하기만 하면 되고, 복사한 내용은 CodeDAC 서버를 거치지 않고 사용자 본인의 구글 드라이브에만 저장됩니다.",
   "image": "https://codedac.com/images/icons/clipboard.png",
   "url": "https://codedac.com/ko/apps/clipboard.html",
   "inLanguage": "ko",
@@ -135,6 +135,14 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "네, 크기 조절이 가능한 플로팅 오버레이를 통해 앱 전환 없이 어떤 화면에서든 기록에 접근할 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Windows PC와 동기화되나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네. Windows용 Clipboard+를 함께 설치한 뒤, 두 앱의 설정에서 각각 Google Drive에 같은 계정으로 로그인하고 자동 동기화를 켜 주시면 됩니다. 그러면 폰에서 복사한 내용을 PC에서, PC에서 복사한 내용을 폰에서 붙여넣을 수 있습니다. 복사한 내용은 CodeDAC 서버를 거치지 않고 사용자 본인의 구글 드라이브에만 저장됩니다."
       }
     },
     {
@@ -226,7 +234,7 @@
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">개요</h2>
-      <p class="detail-long">Clipboard+는 복사한 모든 텍스트와 이미지를 실시간으로 자동 저장하는 Android 클립보드 관리자입니다. 플로팅 오버레이를 통해 앱 전환 없이 어떤 화면에서든 클립보드 기록에 바로 접근할 수 있습니다. 자주 쓰는 텍스트는 스니펫과 그룹으로 정리하고, 키워드 검색과 위젯, 알림창 패널로 원하는 클립을 빠르게 붙여넣으세요. 클립보드 기록은 PDF로 내보내거나 언제든지 백업하고 복원할 수 있습니다.</p>
+      <p class="detail-long">Clipboard+는 복사한 모든 텍스트와 이미지를 실시간으로 자동 저장하는 Android 클립보드 관리자입니다. 플로팅 오버레이를 통해 앱 전환 없이 어떤 화면에서든 클립보드 기록에 바로 접근할 수 있습니다. 자주 쓰는 텍스트는 스니펫과 그룹으로 정리하고, 키워드 검색과 위젯, 알림창 패널로 원하는 클립을 빠르게 붙여넣으세요. 클립보드 기록은 PDF로 내보내거나 언제든지 백업하고 복원할 수 있습니다. Windows용 Clipboard+와 함께 쓰면 폰에서 복사한 내용을 PC에서, PC에서 복사한 내용을 폰에서 그대로 붙여넣을 수 있습니다. 두 앱에서 같은 계정으로 Google Drive에 로그인하기만 하면 되고, 복사한 내용은 CodeDAC 서버를 거치지 않고 사용자 본인의 구글 드라이브에만 저장됩니다.</p>
     </div>
   </section>
 
@@ -252,7 +260,7 @@
         <li>자주 쓰는 텍스트를 스니펫과 그룹으로 정리</li>
         <li>키워드, 텍스트, 이미지, 날짜로 즉시 검색 및 필터</li>
         <li>위젯, 빠른 설정 타일, 알림창으로 빠른 붙여넣기</li>
-        <li>클립보드 기록 PDF 내보내기 및 백업 복원</li>
+        <li>내 구글 드라이브를 통한 폰↔PC 양방향 동기화, 클립보드 기록 PDF 내보내기 및 백업 복원</li>
       </ul>
     </div>
   </section>
@@ -276,6 +284,7 @@
       <div class="faq-list">
         <div class="faq-item"><p class="faq-q">클립보드 기록이 어떻게 저장되나요?</p><p class="faq-a">복사한 텍스트와 이미지가 실시간으로 자동 저장되어 별도 조작 없이 언제든지 다시 꺼내 쓸 수 있습니다.</p></div>
         <div class="faq-item"><p class="faq-q">다른 앱을 사용할 때도 클립보드 기록을 볼 수 있나요?</p><p class="faq-a">네, 크기 조절이 가능한 플로팅 오버레이를 통해 앱 전환 없이 어떤 화면에서든 기록에 접근할 수 있습니다.</p></div>
+        <div class="faq-item"><p class="faq-q">Windows PC와 동기화되나요?</p><p class="faq-a">네. Windows용 Clipboard+를 함께 설치한 뒤, 두 앱의 설정에서 각각 Google Drive에 같은 계정으로 로그인하고 자동 동기화를 켜 주시면 됩니다. 그러면 폰에서 복사한 내용을 PC에서, PC에서 복사한 내용을 폰에서 붙여넣을 수 있습니다. 복사한 내용은 CodeDAC 서버를 거치지 않고 사용자 본인의 구글 드라이브에만 저장됩니다.</p></div>
         <div class="faq-item"><p class="faq-q">무료와 프로의 차이는 무엇인가요?</p><p class="faq-a">무료는 광고와 함께 전체 관리 기능을 사용할 수 있고, 프로는 광고 없이 클립보드 기록을 무제한으로 저장하며 모든 기능이 해제됩니다. FreePass로 광고를 시청하면 24시간 동안 프로 기능을 사용할 수 있습니다.</p></div>
       </div>
     </div>

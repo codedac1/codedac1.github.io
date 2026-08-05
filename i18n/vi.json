@@ -68,14 +68,14 @@
       "seo": "Trình quản lý bộ nhớ tạm Android",
       "desc": "Tự động lưu lịch sử bộ nhớ tạm để dán lại mọi lúc, mọi nơi.",
       "tagline": "Tự động lưu mọi thứ bạn sao chép với trình quản lý bộ nhớ tạm thông minh nhất cho Android",
-      "long": "Clipboard+ là trình quản lý bộ nhớ tạm cho Android, tự động lưu mọi văn bản và hình ảnh bạn sao chép theo thời gian thực. Lớp phủ nổi có thể chỉnh kích thước giúp bạn truy cập lịch sử bộ nhớ tạm từ bất kỳ màn hình nào mà không cần chuyển ứng dụng. Sắp xếp các đoạn văn bản hay dùng thành snippet và nhóm, rồi dán nhanh bất kỳ mục nào bằng tìm kiếm từ khóa, widget màn hình chính và bảng thông báo. Bạn cũng có thể xuất lịch sử ra PDF và sao lưu hoặc khôi phục các mục bất cứ lúc nào.",
+      "long": "Clipboard+ là trình quản lý bộ nhớ tạm cho Android, tự động lưu mọi văn bản và hình ảnh bạn sao chép theo thời gian thực. Lớp phủ nổi có thể chỉnh kích thước giúp bạn truy cập lịch sử bộ nhớ tạm từ bất kỳ màn hình nào mà không cần chuyển ứng dụng. Sắp xếp các đoạn văn bản hay dùng thành snippet và nhóm, rồi dán nhanh bất kỳ mục nào bằng tìm kiếm từ khóa, widget màn hình chính và bảng thông báo. Bạn cũng có thể xuất lịch sử ra PDF và sao lưu hoặc khôi phục các mục bất cứ lúc nào. Dùng chung với Clipboard+ for Windows, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Bạn chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng; nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn.",
       "features": [
         "Tự động lưu văn bản và hình ảnh đã sao chép theo thời gian thực",
         "Lớp phủ nổi chỉnh được kích thước, dùng trên mọi ứng dụng",
         "Sắp xếp văn bản hay dùng thành snippet và nhóm",
         "Tìm kiếm và lọc tức thì theo từ khóa, văn bản, hình ảnh hoặc ngày",
         "Dán nhanh qua widget, ô Cài đặt nhanh và bảng thông báo",
-        "Xuất lịch sử bộ nhớ tạm ra PDF, kèm sao lưu và khôi phục"
+        "Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn, xuất lịch sử bộ nhớ tạm ra PDF, kèm sao lưu và khôi phục"
       ],
       "faq": [
         {
@@ -85,6 +85,10 @@
         {
           "q": "Tôi có thể xem lịch sử bộ nhớ tạm khi đang dùng ứng dụng khác không?",
           "a": "Có. Lớp phủ nổi chỉnh được kích thước giúp bạn truy cập lịch sử từ bất kỳ màn hình nào mà không cần chuyển ứng dụng."
+        },
+        {
+          "q": "Ứng dụng có đồng bộ với máy tính Windows không?",
+          "a": "Có. Hãy cài thêm Clipboard+ for Windows, rồi trong phần cài đặt của cả hai ứng dụng, đăng nhập Google Drive bằng cùng một tài khoản và bật đồng bộ tự động. Sau đó, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn."
         },
         {
           "q": "Bản Miễn phí và bản Pro khác nhau thế nào?",
@@ -128,14 +132,14 @@
       "seo": "Máy tính nổi trên mọi ứng dụng",
       "desc": "Máy tính, chuyển đổi tỷ giá và đơn vị dạng nổi trên mọi ứng dụng.",
       "tagline": "Máy tính nổi luôn hiển thị trên mọi ứng dụng để bạn không phải thoát ra chỉ để tính toán.",
-      "long": "FloatCalc+ là máy tính nổi luôn hiển thị trên mọi ứng dụng, nên bạn không phải chuyển màn hình chỉ để tính toán nhanh. Bộ chuyển đổi tiền tệ, chuyển đổi đơn vị và ghi chú nhanh tích hợp sẵn đều hoạt động ngay trong cửa sổ lớp phủ. Kéo cửa sổ đến bất cứ đâu bạn cần, rồi sao chép kết quả hoặc lưu vào ghi chú chỉ với một chạm. Ứng dụng nhẹ, nhanh và hoạt động ngoại tuyến (tỷ giá được lưu vào bộ nhớ đệm hằng ngày).",
+      "long": "FloatCalc+ là máy tính nổi luôn hiển thị trên mọi ứng dụng, nên bạn không phải chuyển màn hình chỉ để tính toán. Máy tính, bộ đổi đơn vị và bộ đổi tiền tệ đều nằm trong cùng một cửa sổ nổi, chỉ cách nhau một chạm. Kéo cửa sổ tới chỗ bạn muốn và sao chép kết quả chỉ với một chạm. Ứng dụng miễn phí kèm quảng cáo, không giới hạn thời gian, nhẹ và nhanh, dùng được cả khi ngoại tuyến (tỷ giá được lưu đệm mỗi ngày).",
       "features": [
         "Nổi trên mọi ứng dụng — YouTube, bản đồ, trình duyệt, ngân hàng, mua sắm, bảng tính",
         "Cửa sổ lớp phủ kéo được, sao chép kết quả vào bộ nhớ tạm chỉ với một chạm",
-        "Chuyển đổi đơn vị: chiều dài, khối lượng, nhiệt độ, diện tích, thể tích, tốc độ và thời gian",
+        "Bộ đổi đơn vị: chiều dài, khối lượng, nhiệt độ, tiền tệ, diện tích, thể tích, tốc độ và thời gian",
         "Tỷ giá ECB thời gian thực cho hơn 30 loại tiền tệ, cập nhật hằng ngày",
-        "Ghi chú nhanh để lưu kết quả tính toán hoặc ghi chú ngay từ cửa sổ nổi",
-        "Chọn chế độ khởi động (Máy tính/Đơn vị/Tỷ giá/Ghi chú), 8 giao diện, hoạt động ngoại tuyến"
+        "Mở nhanh: mở ứng dụng là máy tính nổi hiện ra ngay thay vì màn hình cài đặt, và bạn có thể mở lại cài đặt bất cứ lúc nào từ thông báo",
+        "Chọn chế độ khởi động (máy tính / đơn vị / tiền tệ), 8 giao diện, chạy ngoại tuyến"
       ],
       "faq": [
         {
@@ -148,7 +152,7 @@
         },
         {
           "q": "Tôi được dùng miễn phí đến mức nào?",
-          "a": "Gói miễn phí gồm 5 phiên mỗi ngày, mỗi phiên tối đa 20 phút. Một giao diện mặc định được miễn phí, còn 7 giao diện bổ sung và một số tính năng có trong bản Pro."
+          "a": "Máy tính nổi dùng miễn phí kèm quảng cáo và không giới hạn thời gian. Bản miễn phí gồm giao diện mặc định và quy đổi chiều dài; Pro bỏ quảng cáo và thêm 7 giao diện cao cấp, các nhóm đơn vị còn lại, bộ đổi tiền tệ nâng cao, cài đặt bảng và mở nhanh. Bạn cũng có thể xem một quảng cáo ngắn để mở miễn phí một tính năng Pro trong 24 giờ."
         }
       ]
     },
@@ -338,7 +342,7 @@
       "seo": "Ghi chú dán nổi trên màn hình",
       "desc": "Ghi chú dán nổi trên mọi ứng dụng. Thu gọn thành chip, mở thành thẻ, có màu sắc và định dạng.",
       "tagline": "Ghi chú dán nổi trên mọi ứng dụng: ghi nhanh một ý và nó ở lại trên màn hình, luôn cách bạn một chạm.",
-      "long": "FloatNote+ giữ ghi chú dán nổi trên mọi ứng dụng. Chỉ cần cấp quyền hiển thị trên ứng dụng khác một lần, mỗi ghi chú sẽ nằm dưới dạng chip nhỏ trên trình duyệt, trò chuyện, video hay màn hình chính; chạm vào là mở ngay tại chỗ thành thẻ đầy đủ để đọc, sửa và chia sẻ. Màu sắc, định dạng và hình ảnh giúp phân biệt từng ghi chú, còn ứng dụng chính đóng vai trò kho lưu để tìm kiếm, ghim và sắp xếp. Có cả giao diện sáng và tối.",
+      "long": "FloatNote+ giữ ghi chú dán nổi trên mọi ứng dụng. Chỉ cần cấp quyền hiển thị trên ứng dụng khác một lần, mỗi ghi chú sẽ nằm dưới dạng chip nhỏ trên trình duyệt, trò chuyện, video hay màn hình chính; chạm vào là mở ngay tại chỗ thành thẻ đầy đủ để đọc, sửa và chia sẻ. Màu sắc, định dạng và hình ảnh giúp phân biệt từng ghi chú, còn ứng dụng chính đóng vai trò kho lưu để tìm kiếm, ghim và sắp xếp. Có cả giao diện sáng và tối. Dùng chung với FloatNote+ for Windows, ghi chú viết trên điện thoại sẽ hiện trên máy tính, và ghi chú viết trên máy tính sẽ hiện trên điện thoại. Bạn chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng; ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn.",
       "features": [
         "Ghi chú lớp phủ nổi: thu gọn thành chip nhỏ, mở thành thẻ đầy đủ trên mọi ứng dụng",
         "7 màu ghi chú và định dạng: in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ",
@@ -355,6 +359,10 @@
         {
           "q": "Có thể dùng ở đâu?",
           "a": "Ở bất cứ đâu trên màn hình: trên trình duyệt, cuộc trò chuyện, video, tài liệu hay màn hình chính. Bạn cũng có thể tạo ghi chú mà không cần mở ứng dụng: từ menu chia sẻ, từ văn bản đã chọn trong ứng dụng khác hoặc từ ô Cài đặt nhanh."
+        },
+        {
+          "q": "Ứng dụng có đồng bộ với máy tính Windows không?",
+          "a": "Có. Hãy cài thêm FloatNote+ for Windows, rồi trong phần cài đặt của cả hai ứng dụng, đăng nhập Google Drive bằng cùng một tài khoản và bật đồng bộ tự động. Sau đó, ghi chú viết trên điện thoại sẽ hiện trên máy tính và ghi chú viết trên máy tính sẽ hiện trên điện thoại. Ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn. Ảnh đính kèm trong ghi chú vẫn nằm trên thiết bị đã thêm ảnh; thứ di chuyển qua lại là nội dung chữ của ghi chú."
         },
         {
           "q": "Có dùng miễn phí được không?",
@@ -434,13 +442,13 @@
         "Không cướp tiêu điểm — kéo hay nhấp vào chip, con trỏ vẫn ở ứng dụng bạn đang gõ",
         "Không có nút lưu: mỗi lần gõ đều được ghi lại, còn cửa sổ kho lưu lo tìm kiếm, ghim và quản lý",
         "Định dạng — in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ — cùng 7 màu pastel và hình ảnh trong ghi chú",
-        "Đồng bộ riêng tư qua thư mục riêng của ứng dụng trong chính Google Drive của bạn, dùng chung với bản Android — không qua máy chủ nào của chúng tôi",
+        "Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn — cùng một thư mục riêng của ứng dụng mà bản Android dùng, không qua máy chủ nào của CodeDAC",
         "Phím tắt toàn cục, khay hệ thống, giao diện sáng và tối, chạy khi đăng nhập, 18 ngôn ngữ. Không quảng cáo, và Pro là mua một lần"
       ],
       "faq": [
         {
           "q": "Đây có phải cùng một ứng dụng với FloatNote+ trên Android không?",
-          "a": "Đây là cùng một ứng dụng được làm cho Windows, với chip và thẻ giống hệt. Hai bản mua riêng ở từng cửa hàng, nhưng đều đồng bộ qua cùng một thư mục riêng của ứng dụng trong chính Google Drive của bạn, nên ghi chú viết trên máy tính sẽ có trên điện thoại và ngược lại. Riêng ảnh đính kèm vẫn ở lại thiết bị đã thêm — thứ đi lại là nội dung ghi chú."
+          "a": "Đây là cùng một ứng dụng được làm cho Windows, với chip và thẻ y hệt. Bạn mua riêng ở từng cửa hàng, nhưng chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng và bật đồng bộ tự động là ghi chú viết trên máy tính sẽ sang điện thoại và ghi chú viết trên điện thoại sẽ sang máy tính. Ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn. Ảnh đính kèm trong ghi chú vẫn nằm trên thiết bị đã thêm ảnh; thứ di chuyển qua lại là nội dung chữ của ghi chú."
         },
         {
           "q": "Nó có cản trở ứng dụng bên dưới không?",

@@ -68,14 +68,14 @@
       "seo": "Zwischenablage-Manager für Android",
       "desc": "Speichert deinen Zwischenablage-Verlauf automatisch, damit du ihn jederzeit überall einfügen kannst.",
       "tagline": "Speichere jede Kopie automatisch – mit dem smartesten Zwischenablage-Manager für Android",
-      "long": "Clipboard+ ist ein Zwischenablage-Manager für Android, der jeden kopierten Text und jedes Bild automatisch in Echtzeit speichert. Ein größenverstellbares schwebendes Overlay lässt dich deinen Zwischenablage-Verlauf von jedem Bildschirm aus erreichen, ohne die App zu wechseln. Ordne häufig genutzte Texte in Snippets und Gruppen und füge jeden Eintrag blitzschnell ein – per Stichwortsuche, Startbildschirm-Widget und Benachrichtigungsleiste. Du kannst deinen Verlauf zudem als PDF exportieren und deine Einträge jederzeit sichern oder wiederherstellen.",
+      "long": "Clipboard+ ist ein Zwischenablage-Manager für Android, der jeden kopierten Text und jedes Bild automatisch in Echtzeit speichert. Ein größenverstellbares schwebendes Overlay lässt dich deinen Zwischenablage-Verlauf von jedem Bildschirm aus erreichen, ohne die App zu wechseln. Ordne häufig genutzte Texte in Snippets und Gruppen und füge jeden Eintrag blitzschnell ein – per Stichwortsuche, Startbildschirm-Widget und Benachrichtigungsleiste. Du kannst deinen Verlauf zudem als PDF exportieren und deine Einträge jederzeit sichern oder wiederherstellen. Zusammen mit Clipboard+ for Windows fügst du auf dem PC ein, was du am Handy kopiert hast, und am Handy, was du am PC kopiert hast. Du meldest dich dafür in beiden Apps mit demselben Konto bei Google Drive an; das Kopierte läuft über keinen CodeDAC-Server, sondern wird nur in deinem eigenen Google Drive gespeichert.",
       "features": [
         "Kopierte Texte und Bilder automatisch in Echtzeit speichern",
         "Größenverstellbares schwebendes Overlay zur Nutzung über jeder App",
         "Häufige Texte in Snippets und Gruppen ordnen",
         "Sofortsuche und Filter nach Stichwort, Text, Bild oder Datum",
         "Schnelles Einfügen per Widget, Schnelleinstellungen-Kachel und Benachrichtigungsleiste",
-        "Zwischenablage-Verlauf als PDF exportieren, plus Sicherung und Wiederherstellung"
+        "Bidirektionale Handy-zu-PC-Synchronisierung über dein eigenes Google Drive, Zwischenablage-Verlauf als PDF exportieren, plus Sicherung und Wiederherstellung"
       ],
       "faq": [
         {
@@ -85,6 +85,10 @@
         {
           "q": "Kann ich meinen Zwischenablage-Verlauf auch während der Nutzung anderer Apps aufrufen?",
           "a": "Ja. Ein größenverstellbares schwebendes Overlay lässt dich deinen Verlauf von jedem Bildschirm aus erreichen, ohne die App zu wechseln."
+        },
+        {
+          "q": "Synchronisiert es sich mit meinem Windows-PC?",
+          "a": "Ja. Installiere zusätzlich Clipboard+ for Windows, melde dich in den Einstellungen beider Apps mit demselben Konto bei Google Drive an und schalte die automatische Synchronisierung ein. Danach fügst du auf dem PC ein, was du am Handy kopiert hast, und am Handy, was du am PC kopiert hast. Das Kopierte läuft über keinen CodeDAC-Server, sondern wird nur in deinem eigenen Google Drive gespeichert."
         },
         {
           "q": "Was ist der Unterschied zwischen Free und Pro?",
@@ -128,14 +132,14 @@
       "seo": "Schwebender Rechner für Android",
       "desc": "Ein schwebender Rechner, Währungs- & Einheitenrechner über jeder App.",
       "tagline": "Ein schwebender Rechner, der über jeder App bleibt, damit du zum Rechnen nie die App verlässt.",
-      "long": "FloatCalc+ ist ein schwebender Rechner, der über jeder App bleibt, sodass du für schnelle Berechnungen nie den Bildschirm wechseln musst. Ein integrierter Währungsrechner, Einheitenrechner und eine Schnellnotiz funktionieren alle direkt im Overlay-Fenster. Zieh das Fenster an eine beliebige Stelle und kopiere Ergebnisse oder speichere sie mit einem Tippen als Notiz. Er ist leicht, schnell und funktioniert offline (Wechselkurse werden täglich zwischengespeichert).",
+      "long": "FloatCalc+ ist ein schwebender Taschenrechner, der über jeder App bleibt — du musst also nie den Bildschirm wechseln, nur um etwas auszurechnen. Rechner, Einheitenumrechner und Währungsrechner stecken alle im selben Overlay-Fenster, einen Tipp voneinander entfernt. Zieh das Fenster hin, wo du es brauchst, und kopiere jedes Ergebnis mit einem Tipp. Mit Werbung ist die App kostenlos und ohne Zeitlimit nutzbar, dabei leicht und schnell, und sie läuft auch offline (Kurse werden täglich zwischengespeichert).",
       "features": [
         "Schwebt über jeder App – YouTube, Karten, Browser, Banking, Shopping, Tabellen",
         "Verschiebbares Overlay-Fenster mit Ergebnis-Kopie in die Zwischenablage per Tippen",
-        "Einheitenrechner für Länge, Gewicht, Temperatur, Fläche, Volumen, Geschwindigkeit und Zeit",
+        "Einheitenumrechner: Länge, Gewicht, Temperatur, Währung, Fläche, Volumen, Geschwindigkeit und Zeit",
         "Echtzeit-EZB-Wechselkurse für über 30 Währungen, täglich aktualisiert",
-        "Schnellnotiz, um Rechenergebnisse oder Notizen direkt aus dem schwebenden Fenster zu speichern",
-        "Wähle einen Startmodus (Rechner/Einheiten/Währung/Notiz), 8 Designs, funktioniert offline"
+        "Schnellstart: Beim Öffnen der App erscheint direkt der schwebende Rechner statt des Einstellungsbildschirms — den holst du jederzeit über die Benachrichtigung zurück",
+        "Startmodus wählbar (Rechner / Einheiten / Währung), 8 Themes, funktioniert offline"
       ],
       "faq": [
         {
@@ -148,7 +152,7 @@
         },
         {
           "q": "Wie viel kann ich kostenlos nutzen?",
-          "a": "Die kostenlose Stufe umfasst 5 Sitzungen pro Tag mit je bis zu 20 Minuten. Ein Standard-Design ist kostenlos, während 7 weitere Designs und einige Funktionen mit Pro verfügbar sind."
+          "a": "Der schwebende Rechner ist mit Werbung kostenlos und ohne Zeitlimit nutzbar. Kostenlos enthalten sind das Standard-Theme und die Längenumrechnung; Pro entfernt die Werbung und ergänzt die 7 Premium-Themes, die übrigen Einheitenkategorien, den erweiterten Währungsrechner, die Panel-Einstellungen und den Schnellstart. Du kannst auch einen kurzen Werbespot ansehen und eine einzelne Pro-Funktion 24 Stunden lang gratis freischalten."
         }
       ]
     },
@@ -338,7 +342,7 @@
       "seo": "Schwebende Haftnotizen App",
       "desc": "Haftnotizen, die über jeder App schweben. Als Chip einklappen, als Karte öffnen – mit Farben und Rich-Text.",
       "tagline": "Haftnotizen, die über jeder App schweben – notiere einen Gedanken, und er bleibt auf dem Bildschirm, immer nur einen Tipp entfernt.",
-      "long": "FloatNote+ lässt Haftnotizen über jeder App schweben. Erteile die Overlay-Berechtigung einmal, und jede Notiz lebt als kleiner Chip über Browser, Chat, Video oder Startbildschirm; ein Tipp öffnet sie an Ort und Stelle als volle Karte zum Lesen, Bearbeiten und Teilen. Farben, Rich-Text und Bilder halten die Notizen auseinander, während die Haupt-App als Archiv zum Suchen, Anheften und Sortieren dient. Helles und dunkles Design sind beide enthalten.",
+      "long": "FloatNote+ lässt Haftnotizen über jeder App schweben. Erteile die Overlay-Berechtigung einmal, und jede Notiz lebt als kleiner Chip über Browser, Chat, Video oder Startbildschirm; ein Tipp öffnet sie an Ort und Stelle als volle Karte zum Lesen, Bearbeiten und Teilen. Farben, Rich-Text und Bilder halten die Notizen auseinander, während die Haupt-App als Archiv zum Suchen, Anheften und Sortieren dient. Helles und dunkles Design sind beide enthalten. Zusammen mit FloatNote+ for Windows tauchen am Handy geschriebene Notizen auf dem PC auf und am PC geschriebene Notizen auf dem Handy. Du meldest dich dafür in beiden Apps mit demselben Konto bei Google Drive an; die Notizen laufen über keinen CodeDAC-Server, sondern werden nur in deinem eigenen Google Drive gespeichert.",
       "features": [
         "Schwebende Overlay-Notizen: zu einem Chip einklappen, über jeder App als volle Karte öffnen",
         "7 Haftnotiz-Farben und Rich-Text: fett, kursiv, unterstrichen, durchgestrichen, Textfarbe und -größe",
@@ -355,6 +359,10 @@
         {
           "q": "Wo kann ich es verwenden?",
           "a": "Überall auf dem Bildschirm – über Browser, Chat, Video, Dokument oder Startbildschirm. Du kannst eine Notiz auch erstellen, ohne die App zu öffnen: aus dem Teilen-Menü, aus markiertem Text in einer anderen App oder über die Schnelleinstellungs-Kachel."
+        },
+        {
+          "q": "Synchronisiert es sich mit meinem Windows-PC?",
+          "a": "Ja. Installiere zusätzlich FloatNote+ for Windows, melde dich in den Einstellungen beider Apps mit demselben Konto bei Google Drive an und schalte die automatische Synchronisierung ein. Danach tauchen am Handy geschriebene Notizen auf dem PC auf und am PC geschriebene Notizen auf dem Handy. Die Notizen laufen über keinen CodeDAC-Server, sondern werden nur in deinem eigenen Google Drive gespeichert. In eine Notiz eingefügte Bilder bleiben auf dem Gerät, auf dem sie hinzugefügt wurden — unterwegs ist der Notiztext."
         },
         {
           "q": "Ist es kostenlos?",
@@ -434,13 +442,13 @@
         "Nimmt nie den Fokus – ziehe oder klicke einen Chip, und dein Cursor bleibt in der App, in der du geschrieben hast",
         "Kein Speichern-Knopf: Jeder Tastenanschlag wird festgehalten, und ein Archivfenster übernimmt Suche, Anheften und Verwaltung",
         "Rich-Text – fett, kursiv, unterstrichen, durchgestrichen, Textfarbe und -größe – dazu 7 Pastellfarben und Bilder in der Notiz",
-        "Private Synchronisierung über einen app-privaten Ordner in deinem eigenen Google Drive, gemeinsam mit der Android-App – ohne Server von uns",
+        "Bidirektionale Handy-zu-PC-Synchronisierung über dein eigenes Google Drive — derselbe app-private Ordner wie in der Android-App, und niemals ein CodeDAC-Server",
         "Globale Tastenkürzel, Infobereich, helles und dunkles Design, Start bei der Anmeldung, 18 Sprachen. Keine Werbung, Pro ist ein Einmalkauf"
       ],
       "faq": [
         {
           "q": "Ist das dieselbe App wie FloatNote+ für Android?",
-          "a": "Es ist dieselbe App für Windows, mit denselben Chips und Karten. Gekauft wird sie im jeweiligen Store getrennt, doch beide synchronisieren über denselben app-privaten Ordner in deinem eigenen Google Drive: Eine am PC geschriebene Notiz liegt auf dem Handy und umgekehrt. Bilder in einer Notiz bleiben auf dem Gerät, auf dem du sie hinzugefügt hast – unterwegs ist nur die Notiz selbst."
+          "a": "Es ist dieselbe App für Windows, mit denselben Chips und Karten. Gekauft wird jeweils im eigenen Store, aber sobald du dich in beiden Apps mit demselben Konto bei Google Drive anmeldest und die automatische Synchronisierung einschaltest, landen am PC geschriebene Notizen auf dem Handy und am Handy geschriebene auf dem PC. Die Notizen laufen über keinen CodeDAC-Server, sondern werden nur in deinem eigenen Google Drive gespeichert. In eine Notiz eingefügte Bilder bleiben auf dem Gerät, auf dem sie hinzugefügt wurden — unterwegs ist der Notiztext."
         },
         {
           "q": "Stört sie die App darunter?",

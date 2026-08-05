@@ -68,14 +68,14 @@
       "seo": "Pengelola Clipboard Android",
       "desc": "Menyimpan otomatis riwayat clipboard Anda untuk ditempel di mana saja, kapan saja.",
       "tagline": "Simpan otomatis setiap salinan dengan pengelola clipboard tercerdas untuk Android",
-      "long": "Clipboard+ adalah pengelola clipboard Android yang secara otomatis menyimpan setiap teks dan gambar yang disalin secara real-time. Overlay mengambang yang bisa diubah ukurannya memungkinkan Anda mengakses riwayat clipboard dari layar mana pun tanpa berpindah aplikasi. Rapikan teks yang sering dipakai ke dalam snippet dan grup, lalu tempel klip apa pun dengan cepat lewat pencarian kata kunci, widget layar utama, dan panel notifikasi. Anda juga bisa mengekspor riwayat ke PDF serta mencadangkan atau memulihkan klip kapan saja.",
+      "long": "Clipboard+ adalah pengelola clipboard Android yang secara otomatis menyimpan setiap teks dan gambar yang disalin secara real-time. Overlay mengambang yang bisa diubah ukurannya memungkinkan Anda mengakses riwayat clipboard dari layar mana pun tanpa berpindah aplikasi. Rapikan teks yang sering dipakai ke dalam snippet dan grup, lalu tempel klip apa pun dengan cepat lewat pencarian kata kunci, widget layar utama, dan panel notifikasi. Anda juga bisa mengekspor riwayat ke PDF serta mencadangkan atau memulihkan klip kapan saja. Dipakai bersama Clipboard+ for Windows, apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Cukup masuk ke Google Drive dengan akun yang sama di kedua aplikasi; isi salinan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri.",
       "features": [
         "Simpan otomatis teks dan gambar yang disalin secara real-time",
         "Overlay mengambang yang bisa diubah ukurannya untuk dipakai di atas aplikasi apa pun",
         "Rapikan teks yang sering dipakai ke dalam snippet dan grup",
         "Pencarian dan filter instan berdasarkan kata kunci, teks, gambar, atau tanggal",
         "Tempel cepat lewat widget, tile Setelan Cepat, dan panel notifikasi",
-        "Ekspor riwayat clipboard ke PDF, plus cadang dan pulihkan"
+        "Sinkronisasi dua arah ponsel-ke-PC melalui Google Drive Anda sendiri, ekspor riwayat clipboard ke PDF, plus cadang dan pulihkan"
       ],
       "faq": [
         {
@@ -85,6 +85,10 @@
         {
           "q": "Bisakah saya mengakses riwayat clipboard saat memakai aplikasi lain?",
           "a": "Bisa. Overlay mengambang yang bisa diubah ukurannya memungkinkan Anda mengakses riwayat dari layar mana pun tanpa berpindah aplikasi."
+        },
+        {
+          "q": "Apakah bisa tersinkron dengan PC Windows saya?",
+          "a": "Ya. Pasang juga Clipboard+ for Windows, lalu di pengaturan kedua aplikasi masuk ke Google Drive dengan akun yang sama dan aktifkan sinkronisasi otomatis. Setelah itu, apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Isi salinan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri."
         },
         {
           "q": "Apa perbedaan antara Gratis dan Pro?",
@@ -128,14 +132,14 @@
       "seo": "Kalkulator Mengambang Android",
       "desc": "Kalkulator mengambang, konverter kurs & satuan di atas aplikasi apa pun.",
       "tagline": "Kalkulator mengambang yang tetap di atas aplikasi apa pun sehingga Anda tak perlu keluar untuk berhitung.",
-      "long": "FloatCalc+ adalah kalkulator mengambang yang tetap berada di atas aplikasi apa pun, sehingga Anda tak perlu berpindah layar hanya untuk berhitung cepat. Konverter mata uang bawaan, konverter satuan, dan memo cepat semuanya bekerja langsung di dalam jendela overlay. Seret jendela ke mana pun Anda butuhkan, lalu salin hasilnya atau simpan ke memo dengan satu ketukan. Ringan, cepat, dan berfungsi offline (kurs disimpan cache setiap hari).",
+      "long": "FloatCalc+ adalah kalkulator mengambang yang tetap berada di atas aplikasi apa pun, jadi Anda tidak perlu berpindah layar hanya untuk menghitung. Kalkulator, konverter satuan, dan konverter mata uang ada di jendela overlay yang sama, tinggal satu ketukan. Geser jendelanya ke mana saja dan salin hasil hitungan dengan sekali ketuk. Gratis dengan iklan dan tanpa batas waktu, ringan dan cepat, serta jalan secara offline (kurs disimpan tiap hari).",
       "features": [
         "Mengambang di atas aplikasi apa pun — YouTube, peta, browser, perbankan, belanja, spreadsheet",
         "Jendela overlay yang bisa diseret dengan salin hasil satu ketukan ke clipboard",
-        "Konverter satuan untuk panjang, berat, suhu, luas, volume, kecepatan, dan waktu",
+        "Konverter satuan: panjang, berat, suhu, mata uang, luas, volume, kecepatan, dan waktu",
         "Kurs ECB real-time untuk 30+ mata uang, diperbarui setiap hari",
-        "Memo cepat untuk menyimpan hasil hitungan atau catatan dari jendela mengambang",
-        "Pilih mode mulai (Kalkulator/Satuan/Kurs/Memo), 8 tema, berfungsi offline"
+        "Peluncuran cepat: membuka aplikasi langsung menampilkan kalkulator mengambang, bukan layar pengaturan, yang bisa dibuka lagi kapan saja lewat notifikasi",
+        "Pilih mode awal (kalkulator / satuan / mata uang), 8 tema, jalan secara offline"
       ],
       "faq": [
         {
@@ -148,7 +152,7 @@
         },
         {
           "q": "Seberapa banyak yang bisa saya pakai secara gratis?",
-          "a": "Tingkat gratis mencakup 5 sesi per hari, masing-masing hingga 20 menit. Satu tema default gratis, sedangkan 7 tema tambahan dan beberapa fitur tersedia dengan Pro."
+          "a": "Kalkulator mengambang bisa dipakai gratis dengan iklan dan tanpa batas waktu. Versi gratis mencakup tema bawaan dan konversi panjang; Pro menghilangkan iklan serta menambahkan 7 tema premium, kategori satuan lainnya, konverter mata uang lanjutan, pengaturan panel, dan peluncuran cepat. Anda juga bisa menonton iklan singkat untuk membuka satu fitur Pro gratis selama 24 jam."
         }
       ]
     },
@@ -338,7 +342,7 @@
       "seo": "Catatan Tempel Mengambang",
       "desc": "Catatan tempel yang mengambang di atas aplikasi apa pun. Ciutkan jadi chip, bentangkan jadi kartu, dengan warna dan teks kaya.",
       "tagline": "Catatan tempel yang mengambang di atas aplikasi apa pun: tulis satu ide dan tetap di layar, selalu sejauh satu ketukan.",
-      "long": "FloatNote+ membuat catatan tempel mengambang di atas aplikasi apa pun. Beri izin overlay sekali saja, dan setiap catatan hadir sebagai chip kecil di atas browser, obrolan, video, atau layar utama; ketuk chip itu dan catatan langsung terbentang jadi kartu penuh untuk dibaca, disunting, dan dibagikan. Warna, teks kaya, dan gambar membedakan tiap catatan, sementara aplikasi utama menjadi pustaka untuk mencari, menyematkan, dan mengurutkan. Tema terang dan gelap sama-sama tersedia.",
+      "long": "FloatNote+ membuat catatan tempel mengambang di atas aplikasi apa pun. Beri izin overlay sekali saja, dan setiap catatan hadir sebagai chip kecil di atas browser, obrolan, video, atau layar utama; ketuk chip itu dan catatan langsung terbentang jadi kartu penuh untuk dibaca, disunting, dan dibagikan. Warna, teks kaya, dan gambar membedakan tiap catatan, sementara aplikasi utama menjadi pustaka untuk mencari, menyematkan, dan mengurutkan. Tema terang dan gelap sama-sama tersedia. Dipakai bersama FloatNote+ for Windows, catatan yang ditulis di ponsel muncul di PC, dan yang ditulis di PC muncul di ponsel. Cukup masuk ke Google Drive dengan akun yang sama di kedua aplikasi; catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri.",
       "features": [
         "Catatan overlay mengambang: ciutkan catatan jadi chip, bentangkan jadi kartu penuh di atas aplikasi apa pun",
         "7 warna catatan dan teks kaya: tebal, miring, garis bawah, coret, warna dan ukuran teks",
@@ -355,6 +359,10 @@
         {
           "q": "Di mana saya bisa memakainya?",
           "a": "Di mana saja pada layar: di atas browser, obrolan, video, dokumen, atau layar utama. Anda juga bisa membuat catatan tanpa membuka aplikasi: dari menu bagikan, dari teks yang dipilih di aplikasi lain, atau dari ubin Pengaturan cepat."
+        },
+        {
+          "q": "Apakah bisa tersinkron dengan PC Windows saya?",
+          "a": "Bisa. Pasang juga FloatNote+ for Windows, lalu di pengaturan kedua aplikasi masuk ke Google Drive dengan akun yang sama dan aktifkan sinkronisasi otomatis. Setelah itu, catatan yang ditulis di ponsel muncul di PC, dan yang ditulis di PC muncul di ponsel. Catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Gambar yang dilampirkan pada catatan tetap berada di perangkat tempat gambar itu ditambahkan; yang berpindah adalah teks catatannya."
         },
         {
           "q": "Apakah gratis?",
@@ -434,13 +442,13 @@
         "Tidak pernah merebut fokus — seret atau klik chip, kursor Anda tetap di aplikasi tempat Anda mengetik",
         "Tanpa tombol simpan: setiap ketikan dicatat untuk Anda, dan jendela pustaka menangani pencarian, penyematan, dan pengelolaan",
         "Teks kaya — tebal, miring, garis bawah, coret, warna dan ukuran teks — dengan 7 warna pastel dan gambar di dalam catatan",
-        "Sinkronisasi privat lewat folder khusus aplikasi di Google Drive Anda sendiri, berbagi dengan aplikasi Android — tanpa server kami di tengah",
+        "Sinkronisasi dua arah ponsel-ke-PC melalui Google Drive Anda sendiri — folder khusus aplikasi yang sama dengan yang dipakai aplikasi Android, tanpa melewati server CodeDAC",
         "Hotkey global, baki sistem, tema terang dan gelap, jalan saat logon, 18 bahasa. Tanpa iklan, dan Pro adalah pembelian sekali bayar"
       ],
       "faq": [
         {
           "q": "Apakah ini aplikasi yang sama dengan FloatNote+ di Android?",
-          "a": "Ini aplikasi yang sama yang dibuat untuk Windows, dengan chip dan kartu yang sama. Keduanya dibeli terpisah di toko masing-masing, tetapi sama-sama tersinkron lewat folder khusus aplikasi yang sama di Google Drive Anda sendiri, jadi catatan yang ditulis di PC ada di ponsel dan sebaliknya. Gambar yang dilampirkan ke catatan tetap di perangkat tempat Anda menambahkannya — yang berpindah adalah catatannya."
+          "a": "Ini aplikasi yang sama yang dibuat untuk Windows, dengan chip dan kartu yang sama. Pembelian dilakukan terpisah di masing-masing toko, tetapi begitu Anda masuk ke Google Drive dengan akun yang sama di kedua aplikasi dan mengaktifkan sinkronisasi otomatis, catatan yang ditulis di PC muncul di ponsel dan yang ditulis di ponsel muncul di PC. Catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Gambar yang dilampirkan pada catatan tetap berada di perangkat tempat gambar itu ditambahkan; yang berpindah adalah teks catatannya."
         },
         {
           "q": "Apakah ia mengganggu aplikasi di bawahnya?",

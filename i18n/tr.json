@@ -68,14 +68,14 @@
       "seo": "Android için pano yöneticisi",
       "desc": "Pano geçmişinizi otomatik kaydeder; istediğiniz her yere, her zaman yapıştırın.",
       "tagline": "Android için en akıllı pano yöneticisiyle kopyaladığınız her şeyi otomatik kaydedin",
-      "long": "Clipboard+, kopyaladığınız her metni ve görseli gerçek zamanlı olarak otomatik kaydeden bir Android pano yöneticisidir. Boyutu ayarlanabilen kayan bir pencere sayesinde uygulama değiştirmeden herhangi bir ekrandan pano geçmişinize ulaşabilirsiniz. Sık kullandığınız metinleri snippet'ler ve gruplar halinde düzenleyin; anahtar kelime aramasıyla, ana ekran widget'ıyla ve bildirim paneliyle istediğiniz kaydı hızla yapıştırın. Geçmişinizi PDF olarak dışa aktarabilir, kayıtlarınızı istediğiniz zaman yedekleyip geri yükleyebilirsiniz.",
+      "long": "Clipboard+, kopyaladığınız her metni ve görseli gerçek zamanlı olarak otomatik kaydeden bir Android pano yöneticisidir. Boyutu ayarlanabilen kayan bir pencere sayesinde uygulama değiştirmeden herhangi bir ekrandan pano geçmişinize ulaşabilirsiniz. Sık kullandığınız metinleri snippet'ler ve gruplar halinde düzenleyin; anahtar kelime aramasıyla, ana ekran widget'ıyla ve bildirim paneliyle istediğiniz kaydı hızla yapıştırın. Geçmişinizi PDF olarak dışa aktarabilir, kayıtlarınızı istediğiniz zaman yedekleyip geri yükleyebilirsiniz. Clipboard+ for Windows ile birlikte kullandığınızda telefonda kopyaladığınızı bilgisayarda, bilgisayarda kopyaladığınızı telefonda yapıştırırsınız. Bunun için her iki uygulamada da aynı hesapla Google Drive'a giriş yapmanız yeterli; kopyaladıklarınız hiçbir CodeDAC sunucusundan geçmez, yalnızca kendi Google Drive'ınızda saklanır.",
       "features": [
         "Kopyalanan metinleri ve görselleri gerçek zamanlı otomatik kaydeder",
         "Her uygulamanın üzerinde kullanılabilen, boyutu ayarlanabilir kayan pencere",
         "Sık kullanılan metinleri snippet'ler ve gruplar halinde düzenleyin",
         "Anahtar kelime, metin, görsel veya tarihe göre anında arama ve filtreleme",
         "Widget, Hızlı Ayarlar döşemesi ve bildirim paneli ile hızlı yapıştırma",
-        "Pano geçmişini PDF'e aktarma, ayrıca yedekleme ve geri yükleme"
+        "Kendi Google Drive'ınız üzerinden telefondan bilgisayara çift yönlü senkronizasyon, pano geçmişini PDF'e aktarma, ayrıca yedekleme ve geri yükleme"
       ],
       "faq": [
         {
@@ -85,6 +85,10 @@
         {
           "q": "Diğer uygulamaları kullanırken pano geçmişime erişebilir miyim?",
           "a": "Evet. Boyutu ayarlanabilen kayan bir pencere sayesinde uygulama değiştirmeden herhangi bir ekrandan geçmişinize ulaşabilirsiniz."
+        },
+        {
+          "q": "Windows bilgisayarımla senkronize oluyor mu?",
+          "a": "Evet. Clipboard+ for Windows'u da kurun, ardından her iki uygulamanın ayarlarında aynı hesapla Google Drive'a giriş yapıp otomatik senkronizasyonu açın. Bundan sonra telefonda kopyaladığınızı bilgisayarda, bilgisayarda kopyaladığınızı telefonda yapıştırabilirsiniz. Kopyaladıklarınız hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır."
         },
         {
           "q": "Ücretsiz ile Pro arasındaki fark nedir?",
@@ -128,14 +132,14 @@
       "seo": "Kayan hesap makinesi ve çevirici",
       "desc": "Her uygulamanın üzerinde çalışan kayan hesap makinesi, döviz ve birim çevirici.",
       "tagline": "Hesap yapmak için ekrandan çıkmanıza gerek bırakmayan, her uygulamanın üzerinde duran kayan hesap makinesi.",
-      "long": "FloatCalc+, her uygulamanın üzerinde duran kayan bir hesap makinesidir; hızlı bir hesap için ekran değiştirmenize gerek kalmaz. Yerleşik döviz çevirici, birim çevirici ve hızlı not, hepsi doğrudan kayan pencerenin içinde çalışır. Pencereyi istediğiniz yere sürükleyin, ardından sonuçları tek dokunuşla kopyalayın veya bir nota kaydedin. Hafif, hızlıdır ve çevrimdışı çalışır (döviz kurları her gün önbelleğe alınır).",
+      "long": "FloatCalc+, her uygulamanın üzerinde duran bir yüzen hesap makinesidir; bir şey hesaplamak için ekran değiştirmeniz gerekmez. Hesap makinesi, birim çevirici ve döviz çevirici aynı yüzen pencerede, bir dokunuş mesafesinde durur. Pencereyi istediğiniz yere sürükleyin, sonucu tek dokunuşla kopyalayın. Reklamlarla birlikte süre sınırı olmadan ücretsizdir; hafif, hızlıdır ve çevrimdışı da çalışır (kurlar her gün önbelleğe alınır).",
       "features": [
         "Her uygulamanın üzerinde durur — YouTube, harita, tarayıcı, bankacılık, alışveriş, hesap tabloları",
         "Sürüklenebilir kayan pencere ve sonuçları panoya tek dokunuşla kopyalama",
-        "Uzunluk, ağırlık, sıcaklık, alan, hacim, hız ve zaman için birim çevirici",
+        "Birim çevirici: uzunluk, ağırlık, sıcaklık, döviz, alan, hacim, hız ve zaman",
         "30'dan fazla para birimi için her gün güncellenen gerçek zamanlı ECB döviz kurları",
-        "Hesap sonuçlarını veya notları kayan pencereden kaydeden hızlı not",
-        "Başlangıç modu seçimi (Hesap Makinesi/Birim/Döviz/Not), 8 tema, çevrimdışı çalışma"
+        "Hızlı başlatma: uygulamayı açtığınızda ayarlar ekranı yerine doğrudan yüzen hesap makinesi gelir; ayarları bildirimden istediğiniz an yeniden açabilirsiniz",
+        "Başlangıç modu seçimi (hesap makinesi / birim / döviz), 8 tema, çevrimdışı çalışma"
       ],
       "faq": [
         {
@@ -148,7 +152,7 @@
         },
         {
           "q": "Ücretsiz olarak ne kadar kullanabilirim?",
-          "a": "Ücretsiz kademe, günde her biri en fazla 20 dakika olmak üzere 5 oturum içerir. Bir varsayılan tema ücretsizdir; 7 ek tema ve bazı özellikler Pro ile kullanılabilir."
+          "a": "Yüzen hesap makinesi reklamlarla birlikte süre sınırı olmadan ücretsiz kullanılabilir. Ücretsiz sürümde varsayılan tema ve uzunluk çevirisi vardır; Pro reklamları kaldırır ve 7 premium temayı, kalan birim kategorilerini, gelişmiş döviz çeviriciyi, panel ayarlarını ve hızlı başlatmayı ekler. Kısa bir ödüllü reklam izleyerek tek bir Pro özelliğini 24 saat boyunca ücretsiz de açabilirsiniz."
         }
       ]
     },
@@ -338,7 +342,7 @@
       "seo": "yüzen yapışkan notlar",
       "desc": "Her uygulamanın üstünde yüzen yapışkan notlar. Çipe küçült, kart olarak aç; renkler ve zengin metin.",
       "tagline": "Her uygulamanın üstünde yüzen yapışkan notlar: hızlıca bir not al, ekranında kalsın; her zaman bir dokunuş uzağında.",
-      "long": "FloatNote+, yapışkan notları her uygulamanın üstünde yüzer tutar. Kaplama iznini bir kez verin; her not tarayıcının, sohbetin, videonun ya da ana ekranın üstünde küçük bir çip olarak durur, dokunduğunuzda ise olduğu yerde tam bir karta genişleyerek okumaya, düzenlemeye ve paylaşmaya hazır olur. Renkler, zengin metin ve görseller notları birbirinden ayırır; ana uygulama ise arama, sabitleme ve sıralama için arşiv görevi görür. Açık ve koyu tema birlikte gelir.",
+      "long": "FloatNote+, yapışkan notları her uygulamanın üstünde yüzer tutar. Kaplama iznini bir kez verin; her not tarayıcının, sohbetin, videonun ya da ana ekranın üstünde küçük bir çip olarak durur, dokunduğunuzda ise olduğu yerde tam bir karta genişleyerek okumaya, düzenlemeye ve paylaşmaya hazır olur. Renkler, zengin metin ve görseller notları birbirinden ayırır; ana uygulama ise arama, sabitleme ve sıralama için arşiv görevi görür. Açık ve koyu tema birlikte gelir. FloatNote+ for Windows ile birlikte kullandığınızda telefonda yazdığınız notlar bilgisayarda, bilgisayarda yazdığınız notlar telefonda görünür. Bunun için her iki uygulamada da aynı hesapla Google Drive'a giriş yapmanız yeterli; notlar hiçbir CodeDAC sunucusundan geçmez, yalnızca kendi Google Drive'ınızda saklanır.",
       "features": [
         "Yüzen kaplama notlar: notu küçük bir çipe küçültün, her uygulamanın üstünde tam kart olarak açın",
         "7 not rengi ve zengin metin: kalın, italik, altı çizili, üstü çizili, metin rengi ve boyutu",
@@ -355,6 +359,10 @@
         {
           "q": "Nerede kullanabilirim?",
           "a": "Ekranda her yerde: tarayıcının, sohbetin, videonun, bir belgenin veya ana ekranın üstünde. Uygulamayı açmadan da not oluşturabilirsiniz: paylaşım menüsünden, başka bir uygulamada seçtiğiniz metinden ya da Hızlı Ayarlar döşemesinden."
+        },
+        {
+          "q": "Windows bilgisayarımla senkronize oluyor mu?",
+          "a": "Evet. FloatNote+ for Windows'u da kurun, ardından her iki uygulamanın ayarlarında aynı hesapla Google Drive'a giriş yapıp otomatik senkronizasyonu açın. Bundan sonra telefonda yazdığınız notlar bilgisayarda, bilgisayarda yazdığınız notlar telefonda görünür. Notlar hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Nota eklenen görseller eklendikleri cihazda kalır; gidip gelen, notun metnidir."
         },
         {
           "q": "Ücretsiz mi?",
@@ -434,13 +442,13 @@
         "Odağı asla almaz — çipi sürükleyin ya da tıklayın, imleç yazdığınız uygulamada kalır",
         "Kaydet düğmesi yok: her tuş vuruşu sizin için yazılır ve arşiv penceresi arama, sabitleme ve düzeni üstlenir",
         "Zengin metin — kalın, italik, altı çizili, üstü çizili, metin rengi ve boyutu — ayrıca 7 pastel not rengi ve not içi görseller",
-        "Kendi Google Drive'ınızdaki uygulamaya özel klasör üzerinden gizli eşitleme; Android sürümüyle aynı klasör, araya giren bir sunucumuz yok",
+        "Kendi Google Drive'ınız üzerinden telefondan bilgisayara çift yönlü senkronizasyon — Android uygulamasının kullandığı uygulamaya özel klasörün aynısı, hiçbir CodeDAC sunucusu devrede değil",
         "Global kısayollar, sistem tepsisi, açık ve koyu tema, oturum açılışında başlatma, 18 dil. Reklam yok, Pro tek seferlik satın alma"
       ],
       "faq": [
         {
           "q": "Bu, Android'deki FloatNote+ ile aynı uygulama mı?",
-          "a": "Windows için yapılmış aynı uygulama; çipler ve kartlar da aynı. Satın alma her mağazada ayrıdır, ancak ikisi de kendi Google Drive'ınızdaki aynı uygulamaya özel klasör üzerinden eşitlenir; bilgisayarda yazdığınız not telefonunuzda, telefonda yazdığınız not bilgisayarınızda olur. Nota eklenen görseller ise eklendikleri cihazda kalır — yolculuk eden notun kendisidir."
+          "a": "Windows için yapılmış aynı uygulama; çipler ve kartlar da aynı. Satın alma her mağazada ayrı yapılır, ancak her iki uygulamanın ayarlarında aynı hesapla Google Drive'a giriş yapıp otomatik senkronizasyonu açtığınızda bilgisayarda yazdığınız notlar telefona, telefonda yazdıklarınız bilgisayara gelir. Notlar hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Nota eklenen görseller eklendikleri cihazda kalır; gidip gelen, notun metnidir."
         },
         {
           "q": "Alttaki uygulamayı engeller mi?",

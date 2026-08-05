@@ -68,14 +68,14 @@
       "seo": "gerenciador de área de transferência",
       "desc": "Salva automaticamente o histórico da área de transferência para colar em qualquer lugar, a qualquer hora.",
       "tagline": "Salve automaticamente tudo o que você copia com o gerenciador de área de transferência mais inteligente para Android",
-      "long": "O Clipboard+ é um gerenciador de área de transferência para Android que salva automaticamente, em tempo real, todo texto e imagem copiados. Uma sobreposição flutuante redimensionável permite acessar o histórico da área de transferência em qualquer tela, sem trocar de app. Organize textos usados com frequência em snippets e grupos, e cole qualquer item rapidamente com busca por palavra-chave, widget na tela inicial e painel de notificações. Você também pode exportar o histórico para PDF e fazer backup ou restaurar seus itens a qualquer momento.",
+      "long": "O Clipboard+ é um gerenciador de área de transferência para Android que salva automaticamente, em tempo real, todo texto e imagem copiados. Uma sobreposição flutuante redimensionável permite acessar o histórico da área de transferência em qualquer tela, sem trocar de app. Organize textos usados com frequência em snippets e grupos, e cole qualquer item rapidamente com busca por palavra-chave, widget na tela inicial e painel de notificações. Você também pode exportar o histórico para PDF e fazer backup ou restaurar seus itens a qualquer momento. Usando junto com o Clipboard+ for Windows, o que você copia no celular você cola no PC, e o que copia no PC você cola no celular. Basta fazer login no Google Drive com a mesma conta nos dois apps; o que é copiado não passa por nenhum servidor da CodeDAC: fica guardado apenas no seu próprio Google Drive.",
       "features": [
         "Salvamento automático de textos e imagens copiados em tempo real",
         "Sobreposição flutuante redimensionável para usar sobre qualquer app",
         "Organização de textos frequentes em snippets e grupos",
         "Busca e filtro instantâneos por palavra-chave, texto, imagem ou data",
         "Colagem rápida por widget, bloco de Configurações rápidas e painel de notificações",
-        "Exportação do histórico para PDF, além de backup e restauração"
+        "Sincronização bidirecional entre celular e PC pelo seu próprio Google Drive, exportação do histórico para PDF, além de backup e restauração"
       ],
       "faq": [
         {
@@ -85,6 +85,10 @@
         {
           "q": "Posso acessar o histórico enquanto uso outros apps?",
           "a": "Sim. Uma sobreposição flutuante redimensionável permite acessar o histórico em qualquer tela, sem trocar de app."
+        },
+        {
+          "q": "Ele sincroniza com o meu PC com Windows?",
+          "a": "Sim. Instale também o Clipboard+ for Windows e, nas configurações dos dois apps, faça login no Google Drive com a mesma conta e ative a sincronização automática. A partir daí, o que você copiar no celular poderá colar no PC, e o que copiar no PC poderá colar no celular. O que é copiado não passa por nenhum servidor da CodeDAC: fica guardado apenas no seu próprio Google Drive."
         },
         {
           "q": "Qual é a diferença entre Grátis e Pro?",
@@ -128,14 +132,14 @@
       "seo": "calculadora flutuante",
       "desc": "Uma calculadora flutuante, com câmbio e conversor de unidades sobre qualquer app.",
       "tagline": "Uma calculadora flutuante que fica sobre qualquer app, para você nunca sair da tela só para fazer contas.",
-      "long": "O FloatCalc+ é uma calculadora flutuante que fica sobre qualquer app, para você nunca precisar trocar de tela só para fazer uma conta rápida. Um conversor de moedas, um conversor de unidades e um bloco de notas rápido funcionam direto na janela de sobreposição. Arraste a janela para onde precisar e copie os resultados ou salve-os em uma nota com um único toque. É leve, rápida e funciona offline (as taxas de câmbio são armazenadas em cache diariamente).",
+      "long": "O FloatCalc+ é uma calculadora flutuante que fica por cima de qualquer app, então você nunca precisa trocar de tela só para fazer uma conta. Calculadora, conversor de unidades e conversor de moedas ficam na mesma janela sobreposta, a um toque de distância. Arraste a janela para onde quiser e copie qualquer resultado com um toque. É grátis com anúncios e sem limite de tempo, leve e rápida, e funciona offline (as taxas ficam em cache diariamente).",
       "features": [
         "Flutua sobre qualquer app — YouTube, mapas, navegador, banco, compras, planilhas",
         "Janela de sobreposição arrastável, com cópia dos resultados para a área de transferência em um toque",
-        "Conversor de unidades para comprimento, peso, temperatura, área, volume, velocidade e tempo",
+        "Conversor de unidades: comprimento, peso, temperatura, moedas, área, volume, velocidade e tempo",
         "Taxas de câmbio ECB em tempo real para mais de 30 moedas, atualizadas diariamente",
-        "Nota rápida para salvar resultados de cálculo ou anotações direto da janela flutuante",
-        "Escolha o modo inicial (Calculadora/Unidade/Câmbio/Nota), 8 temas, funciona offline"
+        "Início rápido: abrir o app já traz a calculadora flutuante em vez da tela de configurações, que você pode reabrir a qualquer momento pela notificação",
+        "Escolha o modo inicial (calculadora / unidades / moedas), 8 temas, funciona offline"
       ],
       "faq": [
         {
@@ -148,7 +152,7 @@
         },
         {
           "q": "Quanto posso usar de graça?",
-          "a": "A versão gratuita inclui 5 sessões por dia, de até 20 minutos cada. Um tema padrão é gratuito, enquanto 7 temas adicionais e alguns recursos estão disponíveis no Pro."
+          "a": "A calculadora flutuante é gratuita com anúncios e sem limite de tempo. A versão gratuita inclui o tema padrão e a conversão de comprimento; o Pro remove os anúncios e adiciona os 7 temas premium, as demais categorias de unidades, o conversor de moedas avançado, as configurações de painel e o início rápido. Também dá para assistir a um anúncio curto e liberar qualquer recurso Pro de graça por 24 horas."
         }
       ]
     },
@@ -338,7 +342,7 @@
       "seo": "notas adesivas flutuantes",
       "desc": "Notas adesivas que flutuam sobre qualquer app. Recolha em um chip, abra como cartão, com cores e texto rico.",
       "tagline": "Notas adesivas que flutuam sobre qualquer app: anote uma ideia e ela fica na tela, sempre a um toque.",
-      "long": "O FloatNote+ mantém notas adesivas flutuando sobre qualquer app. Conceda a permissão de sobreposição uma vez e cada nota vira um chip pequeno sobre o navegador, o chat, o vídeo ou a tela inicial; um toque abre a nota ali mesmo como cartão completo para ler, editar e compartilhar. Cores, texto rico e imagens diferenciam cada nota, enquanto o app principal funciona como acervo para buscar, fixar e reordenar. Tema claro e escuro estão inclusos.",
+      "long": "O FloatNote+ mantém notas adesivas flutuando sobre qualquer app. Conceda a permissão de sobreposição uma vez e cada nota vira um chip pequeno sobre o navegador, o chat, o vídeo ou a tela inicial; um toque abre a nota ali mesmo como cartão completo para ler, editar e compartilhar. Cores, texto rico e imagens diferenciam cada nota, enquanto o app principal funciona como acervo para buscar, fixar e reordenar. Tema claro e escuro estão inclusos. Usando junto com o FloatNote+ for Windows, as notas escritas no celular aparecem no PC, e as escritas no PC aparecem no celular. Basta fazer login no Google Drive com a mesma conta nos dois apps; as notas não passam por nenhum servidor da CodeDAC: ficam guardadas apenas no seu próprio Google Drive.",
       "features": [
         "Notas flutuantes em overlay: recolha a nota em um chip e abra como cartão sobre qualquer app",
         "7 cores de nota e texto rico: negrito, itálico, sublinhado, tachado, cor e tamanho do texto",
@@ -355,6 +359,10 @@
         {
           "q": "Onde posso usar?",
           "a": "Em qualquer lugar da tela: sobre o navegador, um chat, um vídeo, um documento ou a tela inicial. Você também pode criar uma nota sem abrir o app, pelo menu de compartilhar, por texto selecionado em outro app ou pelo bloco das Configurações rápidas."
+        },
+        {
+          "q": "Ele sincroniza com o meu PC com Windows?",
+          "a": "Sim. Instale também o FloatNote+ for Windows e, nas configurações dos dois apps, faça login no Google Drive com a mesma conta e ative a sincronização automática. A partir daí, as notas escritas no celular aparecem no PC, e as escritas no PC aparecem no celular. As notas não passam por nenhum servidor da CodeDAC: ficam guardadas apenas no seu próprio Google Drive. As imagens anexadas a uma nota ficam no aparelho em que foram adicionadas; o que viaja é o texto da nota."
         },
         {
           "q": "É grátis?",
@@ -434,13 +442,13 @@
         "Nunca tira o foco: arraste ou clique em um chip e o cursor continua no app em que você digitava",
         "Sem botão de salvar: cada tecla é gravada para você, e uma janela de acervo cuida de buscar, fixar e organizar",
         "Texto rico — negrito, itálico, sublinhado, tachado, cor e tamanho — com 7 cores pastel de nota e imagens dentro da nota",
-        "Sincronização privada por uma pasta privada do app no seu próprio Google Drive, a mesma do app de Android — sem nenhum servidor nosso",
+        "Sincronização bidirecional entre celular e PC pelo seu próprio Google Drive — a mesma pasta privada do app que a versão Android usa, sem passar por nenhum servidor da CodeDAC",
         "Atalhos globais, bandeja do sistema, temas claro e escuro, iniciar com o logon e 18 idiomas. Sem anúncios, e o Pro é uma compra única"
       ],
       "faq": [
         {
           "q": "É o mesmo app do FloatNote+ para Android?",
-          "a": "É o mesmo app feito para Windows, com os mesmos chips e cartões. A compra é separada em cada loja, mas os dois sincronizam pela mesma pasta privada do app no seu próprio Google Drive, então uma nota escrita no PC está no celular e vice-versa. Já as imagens anexadas ficam no aparelho em que foram adicionadas — o que viaja é a nota."
+          "a": "É o mesmo app feito para Windows, com os mesmos chips e cartões. Cada versão é comprada na sua própria loja, mas basta fazer login no Google Drive com a mesma conta nos dois apps e ativar a sincronização automática para que as notas escritas no PC apareçam no celular e as escritas no celular apareçam no PC. As notas não passam por nenhum servidor da CodeDAC: ficam guardadas apenas no seu próprio Google Drive. As imagens anexadas a uma nota ficam no aparelho em que foram adicionadas; o que viaja é o texto da nota."
         },
         {
           "q": "Ele atrapalha o app que está embaixo?",

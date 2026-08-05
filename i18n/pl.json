@@ -68,14 +68,14 @@
       "seo": "Menedżer schowka na Androida",
       "desc": "Automatycznie zapisuje historię schowka, byś mógł wkleić ją wszędzie i o każdej porze.",
       "tagline": "Automatycznie zapisuj każdą kopię dzięki najinteligentniejszemu menedżerowi schowka na Androida",
-      "long": "Clipboard+ to menedżer schowka na Androida, który w czasie rzeczywistym automatycznie zapisuje każdy skopiowany tekst i obraz. Skalowalna pływająca nakładka pozwala sięgnąć po historię schowka z dowolnego ekranu, bez przełączania aplikacji. Uporządkuj często używane teksty we fragmenty i grupy, a dowolny wpis wklejaj błyskawicznie dzięki wyszukiwaniu słów kluczowych, widżetowi na ekranie głównym i panelowi powiadomień. Historię możesz też wyeksportować do pliku PDF oraz w każdej chwili utworzyć kopię zapasową lub przywrócić swoje wpisy.",
+      "long": "Clipboard+ to menedżer schowka na Androida, który w czasie rzeczywistym automatycznie zapisuje każdy skopiowany tekst i obraz. Skalowalna pływająca nakładka pozwala sięgnąć po historię schowka z dowolnego ekranu, bez przełączania aplikacji. Uporządkuj często używane teksty we fragmenty i grupy, a dowolny wpis wklejaj błyskawicznie dzięki wyszukiwaniu słów kluczowych, widżetowi na ekranie głównym i panelowi powiadomień. Historię możesz też wyeksportować do pliku PDF oraz w każdej chwili utworzyć kopię zapasową lub przywrócić swoje wpisy. W parze z Clipboard+ for Windows to, co skopiujesz na telefonie, wkleisz na komputerze, a to, co skopiujesz na komputerze — na telefonie. Wystarczy zalogować się do Dysku Google na to samo konto w obu aplikacjach; kopiowane treści nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google.",
       "features": [
         "Automatyczny zapis kopiowanych tekstów i obrazów w czasie rzeczywistym",
         "Skalowalna pływająca nakładka do korzystania nad dowolną aplikacją",
         "Porządkowanie często używanych tekstów we fragmenty i grupy",
         "Natychmiastowe wyszukiwanie i filtrowanie według słowa kluczowego, tekstu, obrazu lub daty",
         "Szybkie wklejanie dzięki widżetowi, kafelkowi Szybkich ustawień i panelowi powiadomień",
-        "Eksport historii schowka do pliku PDF oraz kopia zapasowa i przywracanie"
+        "Dwukierunkowa synchronizacja telefon–komputer przez Twój własny Dysk Google, eksport historii schowka do pliku PDF oraz kopia zapasowa i przywracanie"
       ],
       "faq": [
         {
@@ -85,6 +85,10 @@
         {
           "q": "Czy mogę korzystać z historii schowka podczas używania innych aplikacji?",
           "a": "Tak. Skalowalna pływająca nakładka pozwala sięgnąć po historię z dowolnego ekranu, bez przełączania aplikacji."
+        },
+        {
+          "q": "Czy synchronizuje się z moim komputerem z Windows?",
+          "a": "Tak. Zainstaluj także Clipboard+ for Windows, a następnie w ustawieniach obu aplikacji zaloguj się do Dysku Google na to samo konto i włącz automatyczną synchronizację. Od tej pory to, co skopiujesz na telefonie, wkleisz na komputerze, a to, co skopiujesz na komputerze — na telefonie. Kopiowane treści nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google."
         },
         {
           "q": "Jaka jest różnica między wersją darmową a Pro?",
@@ -128,14 +132,14 @@
       "seo": "Pływający kalkulator",
       "desc": "Pływający kalkulator, przelicznik walut i jednostek nad każdą aplikacją.",
       "tagline": "Pływający kalkulator, który pozostaje nad każdą aplikacją, więc nigdy nie musisz jej opuszczać, by coś obliczyć.",
-      "long": "FloatCalc+ to pływający kalkulator, który pozostaje nad każdą aplikacją, więc nigdy nie musisz przełączać ekranów, aby wykonać szybkie obliczenia. Wbudowany przelicznik walut, przelicznik jednostek i szybka notatka działają bezpośrednio w oknie nakładki. Przeciągnij okno tam, gdzie go potrzebujesz, a następnie jednym dotknięciem skopiuj wyniki lub zapisz je w notatce. Jest lekki, szybki i działa offline (kursy walut są buforowane każdego dnia).",
+      "long": "FloatCalc+ to pływający kalkulator, który zostaje na wierzchu dowolnej aplikacji, więc nie musisz przełączać ekranu tylko po to, żeby coś policzyć. Kalkulator, przelicznik jednostek i przelicznik walut mieszczą się w tym samym pływającym oknie, o jedno dotknięcie od siebie. Przeciągnij okno tam, gdzie chcesz, i skopiuj dowolny wynik jednym dotknięciem. Z reklamami aplikacja jest darmowa i bez limitu czasu, lekka i szybka, działa też offline (kursy są buforowane codziennie).",
       "features": [
         "Pływa nad każdą aplikacją — YouTube, mapami, przeglądarką, bankowością, zakupami, arkuszami kalkulacyjnymi",
         "Przeciągane okno nakładki z kopiowaniem wyników do schowka jednym dotknięciem",
-        "Przelicznik jednostek dla długości, wagi, temperatury, powierzchni, objętości, prędkości i czasu",
+        "Przelicznik jednostek: długość, masa, temperatura, waluty, powierzchnia, objętość, prędkość i czas",
         "Kursy walut EBC w czasie rzeczywistym dla ponad 30 walut, odświeżane codziennie",
-        "Szybka notatka do zapisywania wyników obliczeń lub uwag z pływającego okna",
-        "Wybór trybu startowego (Kalkulator/Jednostki/Waluty/Notatka), 8 motywów, działanie offline"
+        "Szybkie uruchamianie: po otwarciu aplikacji od razu pojawia się pływający kalkulator zamiast ekranu ustawień, które w każdej chwili otworzysz z powiadomienia",
+        "Wybór trybu startowego (kalkulator / jednostki / waluty), 8 motywów, działanie offline"
       ],
       "faq": [
         {
@@ -148,7 +152,7 @@
         },
         {
           "q": "Ile mogę korzystać za darmo?",
-          "a": "Wersja darmowa obejmuje 5 sesji dziennie, każda do 20 minut. Jeden domyślny motyw jest darmowy, a 7 dodatkowych motywów i część funkcji jest dostępna w wersji Pro."
+          "a": "Z pływającego kalkulatora można korzystać za darmo, z reklamami i bez limitu czasu. W wersji darmowej dostępny jest domyślny motyw i przeliczanie długości; Pro usuwa reklamy oraz dodaje 7 motywów premium, pozostałe kategorie jednostek, zaawansowany przelicznik walut, ustawienia panelu i szybkie uruchamianie. Możesz też obejrzeć krótką reklamę i odblokować pojedynczą funkcję Pro za darmo na 24 godziny."
         }
       ]
     },
@@ -338,7 +342,7 @@
       "seo": "Pływające karteczki samoprzylepne",
       "desc": "Karteczki, które pływają nad każdą aplikacją. Zwiń do kafelka, rozwiń w kartę — z kolorami i formatowaniem.",
       "tagline": "Karteczki, które pływają nad każdą aplikacją: zapisz myśl, a zostanie na ekranie, zawsze o jedno dotknięcie.",
-      "long": "FloatNote+ utrzymuje karteczki pływające nad każdą aplikacją. Wystarczy raz przyznać uprawnienie nakładki, a każda notatka będzie żyć jako mały kafelek nad przeglądarką, czatem, wideo lub ekranem głównym; dotknięcie rozwija ją w tym samym miejscu w pełną kartę do czytania, edycji i udostępniania. Kolory, formatowanie i obrazy odróżniają notatki, a główna aplikacja pełni rolę archiwum do wyszukiwania, przypinania i porządkowania. Jasny i ciemny motyw są w komplecie.",
+      "long": "FloatNote+ utrzymuje karteczki pływające nad każdą aplikacją. Wystarczy raz przyznać uprawnienie nakładki, a każda notatka będzie żyć jako mały kafelek nad przeglądarką, czatem, wideo lub ekranem głównym; dotknięcie rozwija ją w tym samym miejscu w pełną kartę do czytania, edycji i udostępniania. Kolory, formatowanie i obrazy odróżniają notatki, a główna aplikacja pełni rolę archiwum do wyszukiwania, przypinania i porządkowania. Jasny i ciemny motyw są w komplecie. W parze z FloatNote+ for Windows notatki napisane na telefonie pojawiają się na komputerze, a napisane na komputerze — na telefonie. Wystarczy zalogować się do Dysku Google na to samo konto w obu aplikacjach; notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google.",
       "features": [
         "Pływające notatki overlay: zwiń notatkę do kafelka, rozwiń w pełną kartę nad dowolną aplikacją",
         "7 kolorów karteczek i formatowanie: pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu",
@@ -355,6 +359,10 @@
         {
           "q": "Gdzie mogę tego używać?",
           "a": "Wszędzie na ekranie: nad przeglądarką, czatem, wideo, dokumentem lub ekranem głównym. Notatkę można też utworzyć bez otwierania aplikacji: z menu udostępniania, z tekstu zaznaczonego w innej aplikacji lub z kafelka Szybkich ustawień."
+        },
+        {
+          "q": "Czy synchronizuje się z moim komputerem z Windows?",
+          "a": "Tak. Zainstaluj także FloatNote+ for Windows, a następnie w ustawieniach obu aplikacji zaloguj się do Dysku Google na to samo konto i włącz automatyczną synchronizację. Od tej pory notatki napisane na telefonie pojawiają się na komputerze, a napisane na komputerze — na telefonie. Notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Obrazy dołączone do notatki zostają na urządzeniu, na którym je dodano; wędruje sam tekst notatki."
         },
         {
           "q": "Czy to jest darmowe?",
@@ -434,13 +442,13 @@
         "Nigdy nie zabiera fokusu — przeciągnij lub kliknij kafelek, a kursor zostaje w aplikacji, w której pisałeś",
         "Bez przycisku zapisu: każde naciśnięcie klawisza jest zapisywane, a okno archiwum przejmuje wyszukiwanie, przypinanie i porządkowanie",
         "Formatowanie — pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu — oraz 7 pastelowych kolorów i obrazy w notatce",
-        "Prywatna synchronizacja przez prywatny folder aplikacji na Twoim własnym Dysku Google, wspólny z aplikacją na Androida — bez naszego serwera",
+        "Dwukierunkowa synchronizacja telefon–komputer przez Twój własny Dysk Google — ten sam prywatny folder aplikacji, którego używa wersja na Androida, bez żadnego serwera CodeDAC",
         "Globalne skróty, zasobnik systemowy, jasny i ciemny motyw, uruchamianie przy logowaniu, 18 języków. Bez reklam, a Pro to jednorazowy zakup"
       ],
       "faq": [
         {
           "q": "Czy to ta sama aplikacja co FloatNote+ na Androida?",
-          "a": "To ta sama aplikacja zbudowana dla Windows, z tymi samymi kafelkami i kartami. Kupuje się je osobno w każdym sklepie, ale obie synchronizują się przez ten sam prywatny folder aplikacji na Twoim własnym Dysku Google, więc notatka napisana na komputerze jest na telefonie i odwrotnie. Obrazy dołączone do notatki zostają na urządzeniu, na którym je dodałeś — w podróż rusza sama notatka."
+          "a": "To ta sama aplikacja przygotowana na Windows, z tymi samymi kaflami i kartami. Kupuje się ją osobno w każdym sklepie, ale gdy zalogujesz się do Dysku Google na to samo konto w obu aplikacjach i włączysz automatyczną synchronizację, notatki napisane na komputerze trafią na telefon, a napisane na telefonie — na komputer. Notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Obrazy dołączone do notatki zostają na urządzeniu, na którym je dodano; wędruje sam tekst notatki."
         },
         {
           "q": "Czy przeszkadza aplikacji pod spodem?",

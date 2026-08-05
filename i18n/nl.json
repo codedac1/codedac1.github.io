@@ -68,14 +68,14 @@
       "seo": "Klembordmanager voor Android",
       "desc": "Slaat je klembordgeschiedenis automatisch op, zodat je altijd en overal kunt plakken.",
       "tagline": "Sla elke kopie automatisch op – met de slimste klembordmanager voor Android",
-      "long": "Clipboard+ is een klembordmanager voor Android die elke gekopieerde tekst en afbeelding automatisch in realtime opslaat. Een schaalbaar zwevend overlay laat je je klembordgeschiedenis vanaf elk scherm bereiken zonder van app te wisselen. Orden veelgebruikte teksten in snippets en groepen en plak elk item razendsnel – met trefwoordzoeken, een widget op het startscherm en het meldingenpaneel. Je kunt je geschiedenis ook exporteren naar PDF en je items op elk moment back-uppen of herstellen.",
+      "long": "Clipboard+ is een klembordmanager voor Android die elke gekopieerde tekst en afbeelding automatisch in realtime opslaat. Een schaalbaar zwevend overlay laat je je klembordgeschiedenis vanaf elk scherm bereiken zonder van app te wisselen. Orden veelgebruikte teksten in snippets en groepen en plak elk item razendsnel – met trefwoordzoeken, een widget op het startscherm en het meldingenpaneel. Je kunt je geschiedenis ook exporteren naar PDF en je items op elk moment back-uppen of herstellen. Gebruik je hem samen met Clipboard+ for Windows, dan plak je op je pc wat je op je telefoon hebt gekopieerd, en op je telefoon wat je op je pc hebt gekopieerd. Je meldt je daarvoor in beide apps met hetzelfde account aan bij Google Drive; wat je kopieert gaat langs geen enkele CodeDAC-server: het wordt alleen in je eigen Google Drive bewaard.",
       "features": [
         "Gekopieerde teksten en afbeeldingen automatisch in realtime opslaan",
         "Schaalbaar zwevend overlay voor gebruik over elke app",
         "Veelgebruikte teksten ordenen in snippets en groepen",
         "Direct zoeken en filteren op trefwoord, tekst, afbeelding of datum",
         "Snel plakken via widget, Snelle-instellingen-tegel en meldingenpaneel",
-        "Klembordgeschiedenis exporteren naar PDF, plus back-up en herstel"
+        "Tweerichtingssynchronisatie telefoon-pc via je eigen Google Drive, klembordgeschiedenis exporteren naar PDF, plus back-up en herstel"
       ],
       "faq": [
         {
@@ -85,6 +85,10 @@
         {
           "q": "Kan ik mijn klembordgeschiedenis ook bekijken terwijl ik andere apps gebruik?",
           "a": "Ja. Een schaalbaar zwevend overlay laat je je geschiedenis vanaf elk scherm bereiken zonder van app te wisselen."
+        },
+        {
+          "q": "Synchroniseert het met mijn Windows-pc?",
+          "a": "Ja. Installeer ook Clipboard+ for Windows, meld je daarna in de instellingen van beide apps met hetzelfde account aan bij Google Drive en zet de automatische synchronisatie aan. Vanaf dat moment plak je op je pc wat je op je telefoon hebt gekopieerd, en op je telefoon wat je op je pc hebt gekopieerd. Wat je kopieert gaat langs geen enkele CodeDAC-server: het wordt alleen in je eigen Google Drive bewaard."
         },
         {
           "q": "Wat is het verschil tussen Free en Pro?",
@@ -128,14 +132,14 @@
       "seo": "Zwevende rekenmachine voor Android",
       "desc": "Een zwevende rekenmachine, valuta- & eenhedenomrekener over elke app.",
       "tagline": "Een zwevende rekenmachine die boven elke app blijft, zodat je nooit de app verlaat om te rekenen.",
-      "long": "FloatCalc+ is een zwevende rekenmachine die boven elke app blijft, zodat je voor snelle berekeningen nooit van scherm hoeft te wisselen. Een ingebouwde valutaomrekener, eenhedenomrekener en een snelle memo werken allemaal direct in het overlayvenster. Sleep het venster naar elke gewenste plek en kopieer resultaten of sla ze met één tik op als memo. Hij is licht, snel en werkt offline (wisselkoersen worden dagelijks gecachet).",
+      "long": "FloatCalc+ is een zwevende rekenmachine die boven op elke app blijft staan, zodat je nooit van scherm hoeft te wisselen om even iets uit te rekenen. Rekenmachine, eenhedenomzetter en valutaomzetter zitten in hetzelfde overlayvenster, één tik van elkaar verwijderd. Sleep het venster waar je wilt en kopieer elk resultaat met één tik. Met advertenties is de app gratis en zonder tijdslimiet, licht en snel, en hij werkt ook offline (koersen worden dagelijks gecachet).",
       "features": [
         "Zweeft over elke app – YouTube, kaarten, browser, bankieren, shoppen, spreadsheets",
         "Versleepbaar overlayvenster met resultaten kopiëren naar het klembord met één tik",
-        "Eenhedenomrekener voor lengte, gewicht, temperatuur, oppervlakte, volume, snelheid en tijd",
+        "Eenhedenomzetter: lengte, gewicht, temperatuur, valuta, oppervlakte, volume, snelheid en tijd",
         "Realtime ECB-wisselkoersen voor 30+ valuta's, dagelijks bijgewerkt",
-        "Snelle memo om rekenresultaten of notities direct vanuit het zwevende venster op te slaan",
-        "Kies een startmodus (Rekenmachine/Eenheden/Valuta/Memo), 8 thema's, werkt offline"
+        "Snel starten: bij het openen van de app verschijnt meteen de zwevende rekenmachine in plaats van het instellingenscherm, dat je altijd opnieuw opent via de melding",
+        "Startmodus kiezen (rekenmachine / eenheden / valuta), 8 thema's, werkt offline"
       ],
       "faq": [
         {
@@ -148,7 +152,7 @@
         },
         {
           "q": "Hoeveel kan ik gratis gebruiken?",
-          "a": "De gratis versie bevat 5 sessies per dag van elk maximaal 20 minuten. Eén standaardthema is gratis, terwijl 7 extra thema's en enkele functies beschikbaar zijn met Pro."
+          "a": "De zwevende rekenmachine is gratis te gebruiken met advertenties en zonder tijdslimiet. Gratis krijg je het standaardthema en de lengteomrekening; Pro haalt de advertenties weg en voegt de 7 premiumthema's, de overige eenheidscategorieën, de geavanceerde valutaomzetter, de paneelinstellingen en snel starten toe. Je kunt ook een korte beloningsadvertentie bekijken om één Pro-functie 24 uur gratis te ontgrendelen."
         }
       ]
     },
@@ -338,7 +342,7 @@
       "seo": "Zwevende plaknotities",
       "desc": "Plaknotities die boven elke app zweven. Vouw in tot een chip, open als kaart — met kleuren en opmaak.",
       "tagline": "Plaknotities die boven elke app zweven: noteer een gedachte en hij blijft op je scherm, altijd één tik weg.",
-      "long": "FloatNote+ laat plaknotities boven elke app zweven. Geef één keer toestemming voor het overlay-venster en elke notitie leeft als een kleine chip boven je browser, chat, video of startscherm; één tik vouwt hem ter plekke open tot een volledige kaart om te lezen, bewerken en delen. Kleuren, tekstopmaak en afbeeldingen houden je notities uit elkaar, terwijl de hoofd-app als archief dient om te zoeken, vast te pinnen en te ordenen. Licht en donker thema zitten er allebei in.",
+      "long": "FloatNote+ laat plaknotities boven elke app zweven. Geef één keer toestemming voor het overlay-venster en elke notitie leeft als een kleine chip boven je browser, chat, video of startscherm; één tik vouwt hem ter plekke open tot een volledige kaart om te lezen, bewerken en delen. Kleuren, tekstopmaak en afbeeldingen houden je notities uit elkaar, terwijl de hoofd-app als archief dient om te zoeken, vast te pinnen en te ordenen. Licht en donker thema zitten er allebei in. Gebruik je hem samen met FloatNote+ for Windows, dan verschijnen notities die je op je telefoon schrijft op je pc, en notities die je op je pc schrijft op je telefoon. Je meldt je daarvoor in beide apps met hetzelfde account aan bij Google Drive; de notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard.",
       "features": [
         "Zwevende overlay-notities: vouw een notitie in tot een chip en open hem als volledige kaart boven elke app",
         "7 notitiekleuren en tekstopmaak: vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte",
@@ -355,6 +359,10 @@
         {
           "q": "Waar kan ik het gebruiken?",
           "a": "Overal op het scherm: boven een browser, een chat, een video, een document of het startscherm. Je kunt ook een notitie maken zonder de app te openen: vanuit het deelmenu, vanuit tekst die je in een andere app selecteert, of via de tegel in Snelle instellingen."
+        },
+        {
+          "q": "Synchroniseert het met mijn Windows-pc?",
+          "a": "Ja. Installeer ook FloatNote+ for Windows, meld je daarna in de instellingen van beide apps met hetzelfde account aan bij Google Drive en zet de automatische synchronisatie aan. Vanaf dat moment verschijnen notities die je op je telefoon schrijft op je pc, en notities die je op je pc schrijft op je telefoon. De notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard. Afbeeldingen die je aan een notitie toevoegt blijven op het apparaat waar je ze toevoegde; wat meereist is de tekst van de notitie."
         },
         {
           "q": "Is het gratis?",
@@ -434,13 +442,13 @@
         "Pakt nooit de focus af — sleep of klik een chip en je cursor blijft in de app waarin je typte",
         "Geen opslaanknop: elke toetsaanslag wordt voor je vastgelegd, en een archiefvenster verzorgt zoeken, vastpinnen en beheren",
         "Tekstopmaak — vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte — met 7 pastelkleuren en afbeeldingen in de notitie",
-        "Privésynchronisatie via een app-privé map in je eigen Google Drive, gedeeld met de Android-app — zonder server van ons ertussen",
+        "Tweerichtingssynchronisatie telefoon-pc via je eigen Google Drive — dezelfde app-privé map die de Android-app gebruikt, en nooit een CodeDAC-server",
         "Globale sneltoetsen, systeemvak, licht en donker thema, starten bij aanmelden, 18 talen. Geen advertenties en Pro is een eenmalige aankoop"
       ],
       "faq": [
         {
           "q": "Is dit dezelfde app als FloatNote+ op Android?",
-          "a": "Het is dezelfde app, gebouwd voor Windows, met dezelfde chips en kaarten. Je koopt ze apart in elke store, maar beide synchroniseren via dezelfde app-privé map in je eigen Google Drive: een notitie die je op de pc schrijft staat op je telefoon en andersom. Afbeeldingen in een notitie blijven op het apparaat waar je ze toevoegde — alleen de notitie zelf reist mee."
+          "a": "Het is dezelfde app, gemaakt voor Windows, met dezelfde chips en kaarten. Je koopt hem apart in elke store, maar zodra je je in beide apps met hetzelfde account aanmeldt bij Google Drive en de automatische synchronisatie aanzet, komen notities die je op de pc schrijft op de telefoon terecht en notities die je op de telefoon schrijft op de pc. De notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard. Afbeeldingen die je aan een notitie toevoegt blijven op het apparaat waar je ze toevoegde; wat meereist is de tekst van de notitie."
         },
         {
           "q": "Zit het de app eronder in de weg?",

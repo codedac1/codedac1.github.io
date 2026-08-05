@@ -68,14 +68,14 @@
       "seo": "Clipboard Manager para sa Android",
       "desc": "Awtomatikong nagse-save ng clipboard history mo para ma-paste kahit saan, anumang oras.",
       "tagline": "Awtomatikong i-save ang bawat kopya gamit ang pinakamatalinong clipboard manager para sa Android",
-      "long": "Ang Clipboard+ ay isang clipboard manager para sa Android na awtomatikong nagse-save ng bawat kinopyang teksto at larawan nang real time. Isang resizable na floating overlay ang tutulong sa iyong maabot ang clipboard history mo mula sa anumang screen nang hindi lumilipat ng app. Ayusin ang madalas gamitin na teksto sa mga snippet at grupo, at i-paste agad ang anumang clip gamit ang keyword search, isang home screen widget, at ang notification panel. Maaari mo ring i-export ang history mo sa PDF at i-back up o i-restore ang mga clip mo anumang oras.",
+      "long": "Ang Clipboard+ ay isang clipboard manager para sa Android na awtomatikong nagse-save ng bawat kinopyang teksto at larawan nang real time. Isang resizable na floating overlay ang tutulong sa iyong maabot ang clipboard history mo mula sa anumang screen nang hindi lumilipat ng app. Ayusin ang madalas gamitin na teksto sa mga snippet at grupo, at i-paste agad ang anumang clip gamit ang keyword search, isang home screen widget, at ang notification panel. Maaari mo ring i-export ang history mo sa PDF at i-back up o i-restore ang mga clip mo anumang oras. Kapag ginamit kasabay ng Clipboard+ for Windows, ang kinopya mo sa telepono ay maipa-paste mo sa PC, at ang kinopya mo sa PC ay maipa-paste mo sa telepono. Kailangan mo lang mag-sign in sa Google Drive gamit ang iisang account sa dalawang app; hindi dumadaan sa anumang server ng CodeDAC ang kinokopya mo — nakaimbak lamang ito sa sarili mong Google Drive.",
       "features": [
         "Awtomatikong i-save ang kinopyang teksto at larawan nang real time",
         "Resizable na floating overlay para magamit sa ibabaw ng anumang app",
         "Ayusin ang madalas gamitin na teksto sa mga snippet at grupo",
         "Agarang paghahanap at pag-filter ayon sa keyword, teksto, larawan, o petsa",
         "Mabilis na pag-paste gamit ang widget, Quick Settings tile, at notification panel",
-        "I-export ang clipboard history sa PDF, kasama ang backup at restore"
+        "Bidirectional na sync ng phone-to-PC sa pamamagitan ng sarili mong Google Drive, i-export ang clipboard history sa PDF, kasama ang backup at restore"
       ],
       "faq": [
         {
@@ -85,6 +85,10 @@
         {
           "q": "Maa-access ko ba ang clipboard history ko habang gumagamit ng ibang app?",
           "a": "Oo. Isang resizable na floating overlay ang tutulong sa iyong maabot ang history mo mula sa anumang screen nang hindi lumilipat ng app."
+        },
+        {
+          "q": "Nagsi-sync ba ito sa Windows PC ko?",
+          "a": "Oo. I-install din ang Clipboard+ for Windows, tapos sa settings ng dalawang app ay mag-sign in sa Google Drive gamit ang iisang account at i-on ang automatic sync. Pagkatapos noon, ang kinopya mo sa telepono ay maipa-paste mo sa PC, at ang kinopya mo sa PC ay maipa-paste mo sa telepono. Hindi dumadaan sa anumang server ng CodeDAC ang kinokopya mo — nakaimbak lamang ito sa sarili mong Google Drive."
         },
         {
           "q": "Ano ang pagkakaiba ng Free at Pro?",
@@ -128,14 +132,14 @@
       "seo": "Floating Calculator para sa Android",
       "desc": "Isang floating calculator, FX at unit converter sa ibabaw ng anumang app.",
       "tagline": "Isang floating calculator na nananatili sa ibabaw ng anumang app para hindi ka na umalis para lang magkalkula.",
-      "long": "Ang FloatCalc+ ay isang floating calculator na nananatili sa ibabaw ng anumang app, kaya hindi mo na kailangang lumipat ng screen para lang gumawa ng mabilisang kalkulasyon. Ang built-in na currency converter, unit converter, at quick memo ay gumagana lahat sa loob mismo ng overlay window. I-drag ang window kung saan mo ito kailangan, pagkatapos ay kopyahin ang mga resulta o i-save ang mga ito sa memo sa isang tap. Magaan ito, mabilis, at gumagana offline (araw-araw na naka-cache ang mga FX rate).",
+      "long": "Ang FloatCalc+ ay isang floating calculator na nananatili sa ibabaw ng kahit anong app, kaya hindi mo na kailangang lumipat ng screen para lang magkuwenta. Nasa iisang overlay window ang calculator, unit converter at currency converter — isang tap lang ang layo. I-drag ang window kung saan mo gusto at kopyahin ang anumang resulta sa isang tap. Libre ito na may ads at walang limitasyon sa oras, magaan at mabilis, at gumagana kahit offline (araw-araw na naka-cache ang mga rate).",
       "features": [
         "Lumulutang sa ibabaw ng anumang app — YouTube, mapa, browser, banking, shopping, spreadsheet",
         "Draggable na overlay window na may one-tap na pagkopya ng mga resulta sa clipboard",
-        "Unit converter para sa haba, timbang, temperatura, sukat, volume, bilis, at oras",
+        "Unit converter: haba, timbang, temperatura, pera, lawak, volume, bilis at oras",
         "Real-time na ECB exchange rate para sa 30+ na pera, ina-update araw-araw",
-        "Quick memo para i-save ang mga resulta ng kalkulasyon o tala mula sa floating window",
-        "Pumili ng start mode (Calculator/Unit/FX/Memo), 8 tema, gumagana offline"
+        "Quick Launch: pagbukas ng app ay agad lumalabas ang floating calculator sa halip na ang settings screen, na maaari mong buksang muli anumang oras mula sa notification",
+        "Pumili ng start mode (calculator / units / pera), 8 tema, gumagana offline"
       ],
       "faq": [
         {
@@ -148,7 +152,7 @@
         },
         {
           "q": "Gaano karami ang magagamit ko nang libre?",
-          "a": "Kasama sa free tier ang 5 session bawat araw, hanggang 20 minuto ang bawat isa. Isang default na tema ang libre, samantalang 7 karagdagang tema at ilang feature ay available sa Pro."
+          "a": "Libreng magagamit ang floating calculator na may ads at walang limitasyon sa oras. Kasama sa libre ang default na tema at ang conversion ng haba; inaalis ng Pro ang mga ad at idinaragdag ang 7 premium na tema, ang natitirang mga kategorya ng unit, ang advanced na currency converter, ang panel settings at ang Quick Launch. Puwede ring manood ng maikling rewarded ad para ma-unlock nang libre ang isang Pro feature sa loob ng 24 na oras."
         }
       ]
     },
@@ -338,7 +342,7 @@
       "seo": "Lumulutang na Sticky Notes",
       "desc": "Sticky notes na lumulutang sa anumang app. I-collapse sa chip, palawakin bilang card, may kulay at rich text.",
       "tagline": "Sticky notes na lumulutang sa ibabaw ng kahit anong app: magsulat ng tala at mananatili ito sa screen, laging isang tap lang.",
-      "long": "Pinananatili ng FloatNote+ na lumulutang ang sticky notes sa ibabaw ng kahit anong app. Isang beses lang ang pagbibigay ng overlay permission, at ang bawat nota ay nagiging maliit na chip sa ibabaw ng browser, chat, video, o home screen; i-tap ito at bubukas agad bilang buong card na puwedeng basahin, i-edit, at i-share. Ang mga kulay, rich text, at larawan ang nagpapaiba sa bawat nota, habang ang pangunahing app ang silbing aklatan para maghanap, mag-pin, at mag-ayos. Kasama ang light at dark theme.",
+      "long": "Pinananatili ng FloatNote+ na lumulutang ang sticky notes sa ibabaw ng kahit anong app. Isang beses lang ang pagbibigay ng overlay permission, at ang bawat nota ay nagiging maliit na chip sa ibabaw ng browser, chat, video, o home screen; i-tap ito at bubukas agad bilang buong card na puwedeng basahin, i-edit, at i-share. Ang mga kulay, rich text, at larawan ang nagpapaiba sa bawat nota, habang ang pangunahing app ang silbing aklatan para maghanap, mag-pin, at mag-ayos. Kasama ang light at dark theme. Kapag ginamit kasabay ng FloatNote+ for Windows, ang mga notang sinulat sa telepono ay lumalabas sa PC, at ang sinulat sa PC ay lumalabas sa telepono. Kailangan mo lang mag-sign in sa Google Drive gamit ang iisang account sa dalawang app; hindi dumadaan sa anumang server ng CodeDAC ang mga nota — nakaimbak lamang ang mga ito sa sarili mong Google Drive.",
       "features": [
         "Lumulutang na overlay notes: i-collapse ang nota sa chip, palawakin bilang buong card sa ibabaw ng kahit anong app",
         "7 kulay ng nota at rich text: bold, italic, underline, strikethrough, kulay at laki ng teksto",
@@ -355,6 +359,10 @@
         {
           "q": "Saan ko ito magagamit?",
           "a": "Kahit saan sa screen: sa ibabaw ng browser, chat, video, dokumento, o home screen. Puwede ring gumawa ng nota nang hindi binubuksan ang app: mula sa share menu, sa tekstong napili sa ibang app, o sa Quick Settings tile."
+        },
+        {
+          "q": "Nagsi-sync ba ito sa Windows PC ko?",
+          "a": "Oo. I-install din ang FloatNote+ for Windows, tapos sa settings ng dalawang app ay mag-sign in sa Google Drive gamit ang iisang account at i-on ang automatic sync. Pagkatapos noon, ang mga notang sinulat sa telepono ay lumalabas sa PC, at ang sinulat sa PC ay lumalabas sa telepono. Hindi dumadaan sa anumang server ng CodeDAC ang mga nota — nakaimbak lamang ang mga ito sa sarili mong Google Drive. Ang mga larawang nakalakip sa isang nota ay nananatili sa device na pinagdagdagan; ang naglalakbay ay ang teksto ng nota."
         },
         {
           "q": "Libre ba ito?",
@@ -434,13 +442,13 @@
         "Hindi kumukuha ng focus — i-drag o i-click ang chip at mananatili ang cursor mo sa app na tinitipa mo",
         "Walang save button: awtomatikong naitatala ang bawat keystroke, at ang library window ang humahawak sa paghahanap, pag-pin, at pamamahala",
         "Rich text — bold, italic, underline, strikethrough, kulay at laki ng teksto — kasama ang 7 pastel na kulay at larawan sa loob ng nota",
-        "Pribadong sync sa pamamagitan ng app-private na folder sa sarili mong Google Drive, kapareho ng Android app — walang server namin sa pagitan",
+        "Bidirectional na sync ng phone-to-PC sa pamamagitan ng sarili mong Google Drive — ang parehong app-private na folder na ginagamit ng Android app, at hindi kailanman dumadaan sa server ng CodeDAC",
         "Global hotkeys, system tray, light at dark theme, pagtakbo sa logon, 18 wika. Walang ads, at isang beses lang ang bayad sa Pro"
       ],
       "faq": [
         {
           "q": "Pareho ba ito sa FloatNote+ sa Android?",
-          "a": "Pareho itong app na ginawa para sa Windows, at pareho rin ang chip at card. Hiwalay ang pagbili sa bawat store, pero pareho silang nagsi-sync sa iisang app-private na folder sa sarili mong Google Drive, kaya ang notang isinulat sa PC ay nasa telepono at gayundin sa kabaligtaran. Ang mga larawang nakalakip sa nota ay nananatili sa device kung saan mo idinagdag — ang nota mismo ang naglalakbay."
+          "a": "Iisang app ito na ginawa para sa Windows, pareho rin ang mga chip at card. Hiwalay ang bili sa bawat store, pero kapag nag-sign in ka sa Google Drive gamit ang iisang account sa dalawang app at in-on ang automatic sync, ang mga notang sinulat sa PC ay dumarating sa telepono at ang sinulat sa telepono ay dumarating sa PC. Hindi dumadaan sa anumang server ng CodeDAC ang mga nota — nakaimbak lamang ang mga ito sa sarili mong Google Drive. Ang mga larawang nakalakip sa isang nota ay nananatili sa device na pinagdagdagan; ang naglalakbay ay ang teksto ng nota."
         },
         {
           "q": "Nakakaabala ba ito sa app na nasa ilalim?",
