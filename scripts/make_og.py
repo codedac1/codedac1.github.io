@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 """소셜 공유용 OG 이미지(1200x630) 생성."""
+from pathlib import Path
+
 from PIL import Image, ImageDraw, ImageFont
+
+OUT = Path(__file__).resolve().parent.parent / "images" / "og-image.png"
 
 W, H = 1200, 630
 # 대표 앱 Clipboard+ 팔레트: colorPrimary #2F3B59 → colorPrimaryVariant #1E2A47
@@ -34,5 +38,5 @@ d.text((86, 405), "Smartphone Utility Apps  ·  App / Web Dev  ·  Consulting", 
 # 하단 강조 바 (틸 액센트)
 d.rectangle([80, 470, 200, 478], fill=ACCENT)
 
-img.save(r"C:\CodeDAC\codedac\images\og-image.png", "PNG")
+img.save(OUT, "PNG")
 print("og-image.png 생성 완료:", img.size)
