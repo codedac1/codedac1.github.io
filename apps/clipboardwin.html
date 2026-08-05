@@ -62,7 +62,7 @@
   "name": "Clipboard+ for Windows",
   "operatingSystem": "Windows",
   "applicationCategory": "UtilitiesApplication",
-  "description": "Clipboard+ for Windows is a tray-resident clipboard manager that automatically records the text and images you copy. It shares the same data format as the Android Clipboard+ app, so your phone and PC sync bidirectionally through your own Google Drive (an app-private hidden folder) with no dedicated server. It captures clips via native Windows clipboard events without polling, and lets you organize text and images into groups and snippets and search across them.",
+  "description": "Clipboard+ for Windows is a tray-resident clipboard manager that automatically saves the text and images you copy. Everything is recorded the moment you copy it, so even if you overwrite something by accident you can pull the earlier item back and paste it. Pair it with the Android Clipboard+ app and what you copy on your phone pastes on your PC, and what you copy on your PC pastes on your phone. Your clips never pass through a CodeDAC server — they are stored only in your own Google Drive. Saved items can be organized into groups and snippets and searched.",
   "image": "https://codedac.com/images/icons/clipboardwin.png",
   "url": "https://codedac.com/apps/clipboardwin.html",
   "inLanguage": "en",
@@ -126,7 +126,7 @@
       "name": "Does it sync with the Android Clipboard+ app?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Both apps share the same sync format and keep your phone and PC clipboards in sync bidirectionally through an app-private folder in your own Google Drive, with no dedicated server involved."
+        "text": "Yes. Turn on sync with the same Google account on both devices, and what you copy on your phone pastes on your PC, and what you copy on your PC pastes on your phone. Your clips never pass through a CodeDAC server — they travel only through your own Google Drive."
       }
     },
     {
@@ -134,7 +134,7 @@
       "name": "Where is my clipboard data stored, and is it safe?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Local data is stored in %APPDATA%\\ClipboardPlus on your PC, and synced data lives only in an app-private hidden area of your own Google Drive. The app uses only the drive.appdata scope, so it never touches your regular Drive files."
+        "text": "Your clip history is kept on your PC by default (in the %APPDATA%\\ClipboardPlus folder). If you turn on sync, it is also stored in a private app area of your own Google Drive — an area that stays hidden from your Drive view and cannot be opened by anything other than Clipboard+. The app uses only that private area, so it cannot reach any of your other photos or documents on Drive."
       }
     },
     {
@@ -142,7 +142,7 @@
       "name": "What do I need to enable sync?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "To turn on Google Drive sync, create a desktop OAuth client once in the Google Cloud Console, place the google_client.json file in the app folder, then click sync in the app to do a one-time Google sign-in and permission grant."
+        "text": "In the settings of both the Android app and the Windows app, sign in to Google Drive with the same account, then turn on automatic sync. From then on, the clipboards on both devices stay in sync on their own."
       }
     }
   ]
@@ -226,7 +226,7 @@
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">Overview</h2>
-      <p class="detail-long">Clipboard+ for Windows is a tray-resident clipboard manager that automatically records the text and images you copy. It shares the same data format as the Android Clipboard+ app, so your phone and PC sync bidirectionally through your own Google Drive (an app-private hidden folder) with no dedicated server. It captures clips via native Windows clipboard events without polling, and lets you organize text and images into groups and snippets and search across them.</p>
+      <p class="detail-long">Clipboard+ for Windows is a tray-resident clipboard manager that automatically saves the text and images you copy. Everything is recorded the moment you copy it, so even if you overwrite something by accident you can pull the earlier item back and paste it. Pair it with the Android Clipboard+ app and what you copy on your phone pastes on your PC, and what you copy on your PC pastes on your phone. Your clips never pass through a CodeDAC server — they are stored only in your own Google Drive. Saved items can be organized into groups and snippets and searched.</p>
     </div>
   </section>
 
@@ -247,12 +247,12 @@
     <div class="container">
       <h2 class="detail-title">Key Features</h2>
       <ul class="feature-list">
-        <li>Tray-resident with poll-free real-time clipboard monitoring (Win32 events), auto-capturing text and images</li>
-        <li>Bidirectional phone-to-PC sync through your own Google Drive — no dedicated server, using only the drive.appdata scope</li>
+        <li>Sits in the tray and saves text and images the moment you copy them — it never has to keep checking in the background, so it stays light</li>
+        <li>Bidirectional phone-to-PC sync through your own Google Drive</li>
         <li>Android-style UI with light/dark themes, group sidebar, snippets, and pin/copy/edit/search</li>
         <li>Multi-select bulk move, delete, and merge, newest/oldest sorting, and a full-size image viewer</li>
         <li>Global hotkeys to open the window and instantly capture text selected in other apps, plus run-at-startup</li>
-        <li>Export/import compatible with the Android Clipboard+ backup format (text JSON, image ZIP)</li>
+        <li>Export/import compatible with the Android Clipboard+ backup format</li>
       </ul>
     </div>
   </section>
@@ -273,9 +273,9 @@
     <div class="container">
       <h2 class="detail-title">FAQ</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Does it sync with the Android Clipboard+ app?</p><p class="faq-a">Yes. Both apps share the same sync format and keep your phone and PC clipboards in sync bidirectionally through an app-private folder in your own Google Drive, with no dedicated server involved.</p></div>
-        <div class="faq-item"><p class="faq-q">Where is my clipboard data stored, and is it safe?</p><p class="faq-a">Local data is stored in %APPDATA%\ClipboardPlus on your PC, and synced data lives only in an app-private hidden area of your own Google Drive. The app uses only the drive.appdata scope, so it never touches your regular Drive files.</p></div>
-        <div class="faq-item"><p class="faq-q">What do I need to enable sync?</p><p class="faq-a">To turn on Google Drive sync, create a desktop OAuth client once in the Google Cloud Console, place the google_client.json file in the app folder, then click sync in the app to do a one-time Google sign-in and permission grant.</p></div>
+        <div class="faq-item"><p class="faq-q">Does it sync with the Android Clipboard+ app?</p><p class="faq-a">Yes. Turn on sync with the same Google account on both devices, and what you copy on your phone pastes on your PC, and what you copy on your PC pastes on your phone. Your clips never pass through a CodeDAC server — they travel only through your own Google Drive.</p></div>
+        <div class="faq-item"><p class="faq-q">Where is my clipboard data stored, and is it safe?</p><p class="faq-a">Your clip history is kept on your PC by default (in the %APPDATA%\ClipboardPlus folder). If you turn on sync, it is also stored in a private app area of your own Google Drive — an area that stays hidden from your Drive view and cannot be opened by anything other than Clipboard+. The app uses only that private area, so it cannot reach any of your other photos or documents on Drive.</p></div>
+        <div class="faq-item"><p class="faq-q">What do I need to enable sync?</p><p class="faq-a">In the settings of both the Android app and the Windows app, sign in to Google Drive with the same account, then turn on automatic sync. From then on, the clipboards on both devices stay in sync on their own.</p></div>
       </div>
     </div>
   </section>

@@ -368,27 +368,27 @@
       "seo": "Pengurus Papan Keratan PC",
       "desc": "Pengurus papan keratan dulang Windows yang menyegerak dengan aplikasi Android Clipboard+.",
       "tagline": "Pengurus papan keratan dulang Windows yang menyegerak dengan telefon Android anda melalui Google Drive anda sendiri.",
-      "long": "Clipboard+ for Windows ialah pengurus papan keratan yang menetap di dulang dan secara automatik merekod teks serta imej yang anda salin. Ia berkongsi format data yang sama dengan aplikasi Android Clipboard+, jadi telefon dan PC anda menyegerak dua hala melalui Google Drive anda sendiri (folder tersembunyi khusus aplikasi) tanpa pelayan khusus. Ia menangkap keratan menerusi acara papan keratan Windows asli tanpa tinjauan, dan membolehkan anda menyusun teks serta imej ke dalam kumpulan dan snippet lalu mencarinya.",
+      "long": "Clipboard+ for Windows ialah pengurus papan keratan yang menetap di dulang dan menyimpan teks serta imej yang anda salin secara automatik. Semuanya direkod pada saat anda menyalinnya, jadi walaupun tertimpa tanpa sengaja, kandungan terdahulu boleh dipanggil semula dan ditampal. Digunakan bersama aplikasi Android Clipboard+, apa yang anda salin di telefon boleh ditampal di PC, dan apa yang anda salin di PC boleh ditampal di telefon. Kandungan yang disalin tidak melalui mana-mana pelayan CodeDAC — ia disimpan di dalam Google Drive anda sendiri sahaja. Kandungan yang tersimpan boleh disusun ke dalam kumpulan dan snippet serta dicari.",
       "features": [
-        "Menetap di dulang dengan pemantauan papan keratan masa nyata tanpa tinjauan (acara Win32), menangkap teks dan imej secara automatik",
-        "Penyegerakan dua hala telefon-ke-PC melalui Google Drive anda sendiri — tanpa pelayan khusus, hanya menggunakan skop drive.appdata",
+        "Menetap di dulang dan menyimpan teks serta imej sebaik sahaja anda menyalinnya — tidak perlu menyemak berterusan di latar belakang, jadi ia kekal ringan",
+        "Penyegerakan dua hala telefon-ke-PC melalui Google Drive anda sendiri",
         "UI bergaya Android dengan tema cerah/gelap, bar sisi kumpulan, snippet, dan pin/salin/edit/cari",
         "Gerak, padam dan gabung pukal berbilang pilihan, isihan terbaharu/terlama, dan pemapar imej saiz penuh",
         "Kekunci pintas global untuk membuka tetingkap dan segera menangkap teks yang dipilih dalam aplikasi lain, serta jalan semasa permulaan",
-        "Eksport/import serasi dengan format sandaran Android Clipboard+ (teks JSON, imej ZIP)"
+        "Eksport/import serasi dengan format sandaran Android Clipboard+"
       ],
       "faq": [
         {
           "q": "Adakah ia menyegerak dengan aplikasi Android Clipboard+?",
-          "a": "Ya. Kedua-dua aplikasi berkongsi format penyegerakan yang sama dan mengekalkan papan keratan telefon serta PC anda tersegerak dua hala melalui folder khusus aplikasi di Google Drive anda sendiri, tanpa pelayan khusus yang terlibat."
+          "a": "Ya. Hidupkan penyegerakan dengan akaun Google yang sama pada kedua-dua peranti, dan apa yang anda salin di telefon boleh ditampal di PC, manakala apa yang anda salin di PC boleh ditampal di telefon. Kandungan tidak melalui mana-mana pelayan CodeDAC — ia bergerak melalui Google Drive anda sendiri sahaja."
         },
         {
           "q": "Di manakah data papan keratan saya disimpan, dan adakah ia selamat?",
-          "a": "Data tempatan disimpan di %APPDATA%\\ClipboardPlus pada PC anda, dan data yang tersegerak hanya berada di kawasan tersembunyi khusus aplikasi di Google Drive anda sendiri. Aplikasi ini hanya menggunakan skop drive.appdata, jadi ia tidak pernah menyentuh fail Drive biasa anda."
+          "a": "Sejarah salinan secara lalai disimpan di dalam PC anda sahaja (folder %APPDATA%\\ClipboardPlus). Jika penyegerakan dihidupkan, ia turut disimpan di ruang khusus aplikasi dalam Google Drive anda sendiri — ruang yang tidak kelihatan pada skrin Drive dan tidak boleh dibuka oleh apa-apa selain Clipboard+. Aplikasi ini hanya menggunakan ruang khusus itu, jadi ia tidak boleh mencapai foto atau dokumen anda yang lain di Drive."
         },
         {
           "q": "Apakah yang saya perlukan untuk mengaktifkan penyegerakan?",
-          "a": "Untuk menghidupkan penyegerakan Google Drive, cipta klien OAuth desktop sekali sahaja di Google Cloud Console, letakkan fail google_client.json dalam folder aplikasi, kemudian klik segerak dalam aplikasi untuk membuat log masuk Google sekali sahaja dan memberi kebenaran."
+          "a": "Dalam tetapan aplikasi Android dan aplikasi Windows, log masuk ke Google Drive dengan akaun yang sama, kemudian hidupkan penyegerakan automatik. Selepas itu, papan keratan kedua-dua peranti akan kekal tersegerak dengan sendirinya."
         }
       ]
     },

@@ -61,7 +61,7 @@
   "name": "Clipboard+ for Windows",
   "operatingSystem": "Windows",
   "applicationCategory": "UtilitiesApplication",
-  "description": "O Clipboard+ for Windows é um gerenciador de área de transferência residente na bandeja que registra automaticamente os textos e imagens que você copia. Ele compartilha o mesmo formato de dados do app Clipboard+ para Android, então seu celular e seu PC sincronizam de forma bidirecional pelo seu próprio Google Drive (uma pasta oculta privada do app), sem servidor dedicado. Ele captura os itens por meio de eventos nativos da área de transferência do Windows, sem polling, e permite organizar textos e imagens em grupos e snippets, além de pesquisá-los.",
+  "description": "O Clipboard+ for Windows é um gerenciador de área de transferência residente na bandeja que salva automaticamente os textos e imagens que você copia. Tudo é registrado no momento em que você copia, então mesmo que sobrescreva algo sem querer dá para recuperar o item anterior e colar de novo. Usando junto com o app Clipboard+ para Android, o que você copia no celular você cola no PC, e o que copia no PC você cola no celular. O que é copiado não passa por nenhum servidor da CodeDAC: fica guardado apenas no seu próprio Google Drive. O que está salvo pode ser organizado em grupos e snippets e pesquisado.",
   "image": "https://codedac.com/images/icons/clipboardwin.png",
   "url": "https://codedac.com/pt/apps/clipboardwin.html",
   "inLanguage": "pt-BR",
@@ -125,7 +125,7 @@
       "name": "Ele sincroniza com o app Clipboard+ para Android?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sim. Os dois apps compartilham o mesmo formato de sincronização e mantêm as áreas de transferência do celular e do PC sincronizadas de forma bidirecional por uma pasta privada do app no seu próprio Google Drive, sem nenhum servidor dedicado envolvido."
+        "text": "Sim. Ative a sincronização com a mesma conta do Google nos dois aparelhos e o que você copiar no celular poderá colar no PC, e o que copiar no PC poderá colar no celular. O que é copiado não passa por nenhum servidor da CodeDAC: trafega somente pelo seu próprio Google Drive."
       }
     },
     {
@@ -133,7 +133,7 @@
       "name": "Onde meus dados da área de transferência ficam armazenados, e é seguro?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Os dados locais ficam armazenados em %APPDATA%\\ClipboardPlus no seu PC, e os dados sincronizados ficam apenas em uma área oculta privada do app no seu próprio Google Drive. O app usa apenas o escopo drive.appdata, então nunca toca nos seus arquivos normais do Drive."
+        "text": "O histórico de cópias fica, por padrão, apenas no seu PC (na pasta %APPDATA%\\ClipboardPlus). Se você ativar a sincronização, ele também fica em um espaço privado do app dentro do seu próprio Google Drive — um espaço que não aparece na tela do Drive e que só o Clipboard+ consegue abrir. O app usa apenas esse espaço privado, então não consegue acessar suas outras fotos ou documentos do Drive."
       }
     },
     {
@@ -141,7 +141,7 @@
       "name": "O que preciso para ativar a sincronização?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Para ativar a sincronização com o Google Drive, crie uma vez um cliente OAuth de desktop no Google Cloud Console, coloque o arquivo google_client.json na pasta do app e, então, clique em sincronizar no app para fazer um login único no Google e conceder a permissão."
+        "text": "Nas configurações do app Android e do app Windows, faça login no Google Drive com a mesma conta e ative a sincronização automática. A partir daí, as áreas de transferência dos dois aparelhos ficam sincronizadas sozinhas."
       }
     }
   ]
@@ -225,7 +225,7 @@
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">Visão geral</h2>
-      <p class="detail-long">O Clipboard+ for Windows é um gerenciador de área de transferência residente na bandeja que registra automaticamente os textos e imagens que você copia. Ele compartilha o mesmo formato de dados do app Clipboard+ para Android, então seu celular e seu PC sincronizam de forma bidirecional pelo seu próprio Google Drive (uma pasta oculta privada do app), sem servidor dedicado. Ele captura os itens por meio de eventos nativos da área de transferência do Windows, sem polling, e permite organizar textos e imagens em grupos e snippets, além de pesquisá-los.</p>
+      <p class="detail-long">O Clipboard+ for Windows é um gerenciador de área de transferência residente na bandeja que salva automaticamente os textos e imagens que você copia. Tudo é registrado no momento em que você copia, então mesmo que sobrescreva algo sem querer dá para recuperar o item anterior e colar de novo. Usando junto com o app Clipboard+ para Android, o que você copia no celular você cola no PC, e o que copia no PC você cola no celular. O que é copiado não passa por nenhum servidor da CodeDAC: fica guardado apenas no seu próprio Google Drive. O que está salvo pode ser organizado em grupos e snippets e pesquisado.</p>
     </div>
   </section>
 
@@ -246,12 +246,12 @@
     <div class="container">
       <h2 class="detail-title">Principais recursos</h2>
       <ul class="feature-list">
-        <li>Residente na bandeja, com monitoramento da área de transferência em tempo real e sem polling (eventos Win32), capturando textos e imagens automaticamente</li>
-        <li>Sincronização bidirecional entre celular e PC pelo seu próprio Google Drive — sem servidor dedicado, usando apenas o escopo drive.appdata</li>
+        <li>Fica na bandeja e salva textos e imagens no instante em que você copia — sem precisar ficar verificando em segundo plano, então é leve</li>
+        <li>Sincronização bidirecional entre celular e PC pelo seu próprio Google Drive</li>
         <li>Interface no estilo Android com temas claro/escuro, barra lateral de grupos, snippets e fixar/copiar/editar/pesquisar</li>
         <li>Mover, excluir e mesclar em lote com seleção múltipla, ordenação do mais novo/mais antigo e visualizador de imagem em tamanho real</li>
         <li>Atalhos globais para abrir a janela e capturar na hora o texto selecionado em outros apps, além de iniciar com o sistema</li>
-        <li>Exportação/importação compatível com o formato de backup do Clipboard+ para Android (JSON de texto, ZIP de imagem)</li>
+        <li>Exportação/importação compatível com o formato de backup do Clipboard+ para Android</li>
       </ul>
     </div>
   </section>
@@ -272,9 +272,9 @@
     <div class="container">
       <h2 class="detail-title">Perguntas frequentes</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Ele sincroniza com o app Clipboard+ para Android?</p><p class="faq-a">Sim. Os dois apps compartilham o mesmo formato de sincronização e mantêm as áreas de transferência do celular e do PC sincronizadas de forma bidirecional por uma pasta privada do app no seu próprio Google Drive, sem nenhum servidor dedicado envolvido.</p></div>
-        <div class="faq-item"><p class="faq-q">Onde meus dados da área de transferência ficam armazenados, e é seguro?</p><p class="faq-a">Os dados locais ficam armazenados em %APPDATA%\ClipboardPlus no seu PC, e os dados sincronizados ficam apenas em uma área oculta privada do app no seu próprio Google Drive. O app usa apenas o escopo drive.appdata, então nunca toca nos seus arquivos normais do Drive.</p></div>
-        <div class="faq-item"><p class="faq-q">O que preciso para ativar a sincronização?</p><p class="faq-a">Para ativar a sincronização com o Google Drive, crie uma vez um cliente OAuth de desktop no Google Cloud Console, coloque o arquivo google_client.json na pasta do app e, então, clique em sincronizar no app para fazer um login único no Google e conceder a permissão.</p></div>
+        <div class="faq-item"><p class="faq-q">Ele sincroniza com o app Clipboard+ para Android?</p><p class="faq-a">Sim. Ative a sincronização com a mesma conta do Google nos dois aparelhos e o que você copiar no celular poderá colar no PC, e o que copiar no PC poderá colar no celular. O que é copiado não passa por nenhum servidor da CodeDAC: trafega somente pelo seu próprio Google Drive.</p></div>
+        <div class="faq-item"><p class="faq-q">Onde meus dados da área de transferência ficam armazenados, e é seguro?</p><p class="faq-a">O histórico de cópias fica, por padrão, apenas no seu PC (na pasta %APPDATA%\ClipboardPlus). Se você ativar a sincronização, ele também fica em um espaço privado do app dentro do seu próprio Google Drive — um espaço que não aparece na tela do Drive e que só o Clipboard+ consegue abrir. O app usa apenas esse espaço privado, então não consegue acessar suas outras fotos ou documentos do Drive.</p></div>
+        <div class="faq-item"><p class="faq-q">O que preciso para ativar a sincronização?</p><p class="faq-a">Nas configurações do app Android e do app Windows, faça login no Google Drive com a mesma conta e ative a sincronização automática. A partir daí, as áreas de transferência dos dois aparelhos ficam sincronizadas sozinhas.</p></div>
       </div>
     </div>
   </section>

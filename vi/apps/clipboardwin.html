@@ -61,7 +61,7 @@
   "name": "Clipboard+ for Windows",
   "operatingSystem": "Windows",
   "applicationCategory": "UtilitiesApplication",
-  "description": "Clipboard+ for Windows là trình quản lý bộ nhớ tạm thường trú trên khay hệ thống, tự động ghi lại văn bản và hình ảnh bạn sao chép. Ứng dụng dùng chung định dạng dữ liệu với ứng dụng Clipboard+ trên Android, nên điện thoại và máy tính của bạn đồng bộ hai chiều qua chính Google Drive của bạn (một thư mục ẩn riêng của ứng dụng) mà không cần máy chủ chuyên dụng. Ứng dụng bắt các mục sao chép qua sự kiện bộ nhớ tạm gốc của Windows mà không cần dò liên tục, đồng thời cho phép bạn sắp xếp văn bản và hình ảnh thành nhóm và snippet rồi tìm kiếm trong đó.",
+  "description": "Clipboard+ for Windows là trình quản lý bộ nhớ tạm thường trú trên khay hệ thống, tự động lưu lại văn bản và hình ảnh bạn sao chép. Mọi thứ được ghi ngay khi bạn sao chép, nên dù lỡ ghi đè, bạn vẫn lấy lại được nội dung trước đó để dán. Dùng chung với ứng dụng Clipboard+ trên Android, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính, và thứ bạn sao chép trên máy tính sẽ dán được trên điện thoại. Nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn. Những gì đã lưu có thể sắp xếp thành nhóm và snippet rồi tìm kiếm.",
   "image": "https://codedac.com/images/icons/clipboardwin.png",
   "url": "https://codedac.com/vi/apps/clipboardwin.html",
   "inLanguage": "vi",
@@ -125,7 +125,7 @@
       "name": "Ứng dụng có đồng bộ với ứng dụng Clipboard+ trên Android không?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Có. Cả hai ứng dụng dùng chung định dạng đồng bộ và giữ bộ nhớ tạm của điện thoại và máy tính đồng bộ hai chiều qua một thư mục riêng của ứng dụng trong chính Google Drive của bạn, mà không cần máy chủ chuyên dụng nào."
+        "text": "Có. Bật đồng bộ bằng cùng một tài khoản Google trên cả hai thiết bị, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Nội dung không đi qua máy chủ nào của CodeDAC — nó chỉ đi qua chính Google Drive của bạn."
       }
     },
     {
@@ -133,7 +133,7 @@
       "name": "Dữ liệu bộ nhớ tạm của tôi được lưu ở đâu và có an toàn không?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Dữ liệu cục bộ được lưu tại %APPDATA%\\ClipboardPlus trên máy tính của bạn, còn dữ liệu đồng bộ chỉ nằm trong một vùng ẩn riêng của ứng dụng trong chính Google Drive của bạn. Ứng dụng chỉ dùng phạm vi drive.appdata, nên không bao giờ đụng đến các tệp Drive thông thường của bạn."
+        "text": "Lịch sử sao chép mặc định chỉ nằm trong máy tính của bạn (thư mục %APPDATA%\\ClipboardPlus). Nếu bật đồng bộ, nó cũng được lưu vào vùng riêng của ứng dụng trong chính Google Drive của bạn — vùng này không hiện ra trên màn hình Drive và ngoài Clipboard+ thì không gì mở được. Ứng dụng chỉ dùng vùng riêng đó nên không thể chạm tới ảnh hay tài liệu khác của bạn trên Drive."
       }
     },
     {
@@ -141,7 +141,7 @@
       "name": "Tôi cần gì để bật đồng bộ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Để bật đồng bộ Google Drive, hãy tạo một OAuth client cho máy tính một lần trong Google Cloud Console, đặt tệp google_client.json vào thư mục ứng dụng, rồi nhấn đồng bộ trong ứng dụng để đăng nhập Google và cấp quyền một lần duy nhất."
+        "text": "Trong phần cài đặt của ứng dụng Android và ứng dụng Windows, hãy đăng nhập Google Drive bằng cùng một tài khoản, rồi bật đồng bộ tự động. Sau đó, bộ nhớ tạm trên cả hai thiết bị sẽ tự đồng bộ với nhau."
       }
     }
   ]
@@ -225,7 +225,7 @@
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">Tổng quan</h2>
-      <p class="detail-long">Clipboard+ for Windows là trình quản lý bộ nhớ tạm thường trú trên khay hệ thống, tự động ghi lại văn bản và hình ảnh bạn sao chép. Ứng dụng dùng chung định dạng dữ liệu với ứng dụng Clipboard+ trên Android, nên điện thoại và máy tính của bạn đồng bộ hai chiều qua chính Google Drive của bạn (một thư mục ẩn riêng của ứng dụng) mà không cần máy chủ chuyên dụng. Ứng dụng bắt các mục sao chép qua sự kiện bộ nhớ tạm gốc của Windows mà không cần dò liên tục, đồng thời cho phép bạn sắp xếp văn bản và hình ảnh thành nhóm và snippet rồi tìm kiếm trong đó.</p>
+      <p class="detail-long">Clipboard+ for Windows là trình quản lý bộ nhớ tạm thường trú trên khay hệ thống, tự động lưu lại văn bản và hình ảnh bạn sao chép. Mọi thứ được ghi ngay khi bạn sao chép, nên dù lỡ ghi đè, bạn vẫn lấy lại được nội dung trước đó để dán. Dùng chung với ứng dụng Clipboard+ trên Android, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính, và thứ bạn sao chép trên máy tính sẽ dán được trên điện thoại. Nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn. Những gì đã lưu có thể sắp xếp thành nhóm và snippet rồi tìm kiếm.</p>
     </div>
   </section>
 
@@ -246,12 +246,12 @@
     <div class="container">
       <h2 class="detail-title">Tính năng chính</h2>
       <ul class="feature-list">
-        <li>Thường trú trên khay với giám sát bộ nhớ tạm thời gian thực không cần dò (sự kiện Win32), tự động bắt văn bản và hình ảnh</li>
-        <li>Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn — không cần máy chủ chuyên dụng, chỉ dùng phạm vi drive.appdata</li>
+        <li>Thường trú trên khay, lưu văn bản và hình ảnh ngay khi bạn sao chép — không phải liên tục kiểm tra ở nền nên rất nhẹ</li>
+        <li>Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn</li>
         <li>Giao diện kiểu Android với chủ đề sáng/tối, thanh bên nhóm, snippet và ghim/sao chép/chỉnh sửa/tìm kiếm</li>
         <li>Chọn nhiều để di chuyển, xóa và gộp hàng loạt, sắp xếp mới nhất/cũ nhất, và trình xem ảnh kích thước đầy đủ</li>
         <li>Phím tắt toàn cục để mở cửa sổ và bắt tức thì văn bản đang chọn ở ứng dụng khác, cùng chạy khi khởi động</li>
-        <li>Xuất/nhập tương thích với định dạng sao lưu của Clipboard+ trên Android (văn bản JSON, hình ảnh ZIP)</li>
+        <li>Xuất/nhập tương thích với định dạng sao lưu của Clipboard+ trên Android</li>
       </ul>
     </div>
   </section>
@@ -272,9 +272,9 @@
     <div class="container">
       <h2 class="detail-title">Câu hỏi thường gặp</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Ứng dụng có đồng bộ với ứng dụng Clipboard+ trên Android không?</p><p class="faq-a">Có. Cả hai ứng dụng dùng chung định dạng đồng bộ và giữ bộ nhớ tạm của điện thoại và máy tính đồng bộ hai chiều qua một thư mục riêng của ứng dụng trong chính Google Drive của bạn, mà không cần máy chủ chuyên dụng nào.</p></div>
-        <div class="faq-item"><p class="faq-q">Dữ liệu bộ nhớ tạm của tôi được lưu ở đâu và có an toàn không?</p><p class="faq-a">Dữ liệu cục bộ được lưu tại %APPDATA%\ClipboardPlus trên máy tính của bạn, còn dữ liệu đồng bộ chỉ nằm trong một vùng ẩn riêng của ứng dụng trong chính Google Drive của bạn. Ứng dụng chỉ dùng phạm vi drive.appdata, nên không bao giờ đụng đến các tệp Drive thông thường của bạn.</p></div>
-        <div class="faq-item"><p class="faq-q">Tôi cần gì để bật đồng bộ?</p><p class="faq-a">Để bật đồng bộ Google Drive, hãy tạo một OAuth client cho máy tính một lần trong Google Cloud Console, đặt tệp google_client.json vào thư mục ứng dụng, rồi nhấn đồng bộ trong ứng dụng để đăng nhập Google và cấp quyền một lần duy nhất.</p></div>
+        <div class="faq-item"><p class="faq-q">Ứng dụng có đồng bộ với ứng dụng Clipboard+ trên Android không?</p><p class="faq-a">Có. Bật đồng bộ bằng cùng một tài khoản Google trên cả hai thiết bị, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Nội dung không đi qua máy chủ nào của CodeDAC — nó chỉ đi qua chính Google Drive của bạn.</p></div>
+        <div class="faq-item"><p class="faq-q">Dữ liệu bộ nhớ tạm của tôi được lưu ở đâu và có an toàn không?</p><p class="faq-a">Lịch sử sao chép mặc định chỉ nằm trong máy tính của bạn (thư mục %APPDATA%\ClipboardPlus). Nếu bật đồng bộ, nó cũng được lưu vào vùng riêng của ứng dụng trong chính Google Drive của bạn — vùng này không hiện ra trên màn hình Drive và ngoài Clipboard+ thì không gì mở được. Ứng dụng chỉ dùng vùng riêng đó nên không thể chạm tới ảnh hay tài liệu khác của bạn trên Drive.</p></div>
+        <div class="faq-item"><p class="faq-q">Tôi cần gì để bật đồng bộ?</p><p class="faq-a">Trong phần cài đặt của ứng dụng Android và ứng dụng Windows, hãy đăng nhập Google Drive bằng cùng một tài khoản, rồi bật đồng bộ tự động. Sau đó, bộ nhớ tạm trên cả hai thiết bị sẽ tự đồng bộ với nhau.</p></div>
       </div>
     </div>
   </section>

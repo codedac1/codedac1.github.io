@@ -368,27 +368,27 @@
       "seo": "Pano yöneticisi",
       "desc": "Clipboard+ Android uygulamasıyla senkronize olan bir Windows tepsi pano yöneticisi.",
       "tagline": "Kendi Google Drive'ınız üzerinden Android telefonunuzla senkronize olan bir Windows tepsi pano yöneticisi.",
-      "long": "Clipboard+ for Windows, kopyaladığınız metinleri ve görselleri otomatik olarak kaydeden, tepside yerleşik bir pano yöneticisidir. Android Clipboard+ uygulamasıyla aynı veri biçimini paylaşır; böylece telefonunuz ve bilgisayarınız, özel bir sunucu olmadan kendi Google Drive'ınız (uygulamaya özel gizli bir klasör) üzerinden çift yönlü senkronize olur. Kayıtları yoklama yapmadan yerel Windows pano olaylarıyla yakalar ve metinleri ile görselleri gruplar ile snippet'ler halinde düzenleyip aralarında arama yapmanıza olanak tanır.",
+      "long": "Clipboard+ for Windows, kopyaladığınız metinleri ve görselleri otomatik olarak kaydeden, tepside yerleşik bir pano yöneticisidir. Her şey kopyaladığınız anda kaydedilir; yanlışlıkla üzerine yazsanız bile önceki içeriği geri çağırıp yapıştırabilirsiniz. Android Clipboard+ uygulamasıyla birlikte kullandığınızda telefonda kopyaladığınızı bilgisayarda, bilgisayarda kopyaladığınızı telefonda yapıştırırsınız. Kopyaladıklarınız hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Kaydedilenleri gruplar ve snippet'ler halinde düzenleyip arayabilirsiniz.",
       "features": [
-        "Tepside yerleşik, yoklamasız gerçek zamanlı pano izleme (Win32 olayları); metinleri ve görselleri otomatik yakalar",
-        "Kendi Google Drive'ınız üzerinden telefondan bilgisayara çift yönlü senkronizasyon — özel sunucu yok, yalnızca drive.appdata kapsamı kullanılır",
+        "Tepside durur ve kopyaladığınız anda metinleri ve görselleri otomatik kaydeder — arka planda sürekli yoklama yapmadığı için hafiftir",
+        "Kendi Google Drive'ınız üzerinden telefondan bilgisayara çift yönlü senkronizasyon",
         "Açık/koyu temalar, grup kenar çubuğu, snippet'ler ve sabitleme/kopyalama/düzenleme/arama içeren Android tarzı arayüz",
         "Çoklu seçimle toplu taşıma, silme ve birleştirme; en yeni/en eski sıralaması ve tam boyutlu görsel görüntüleyici",
         "Pencereyi açmak ve diğer uygulamalarda seçili metni anında yakalamak için global kısayol tuşları, ayrıca başlangıçta çalıştırma",
-        "Android Clipboard+ yedekleme biçimiyle uyumlu dışa/içe aktarma (metin JSON, görsel ZIP)"
+        "Android Clipboard+ yedekleme biçimiyle uyumlu dışa/içe aktarma"
       ],
       "faq": [
         {
           "q": "Android Clipboard+ uygulamasıyla senkronize oluyor mu?",
-          "a": "Evet. Her iki uygulama da aynı senkronizasyon biçimini paylaşır ve telefon ile bilgisayar panolarınızı, kendi Google Drive'ınızdaki uygulamaya özel bir klasör üzerinden çift yönlü olarak senkronize tutar; hiçbir özel sunucu devreye girmez."
+          "a": "Evet. Her iki cihazda da aynı Google hesabıyla senkronizasyonu açın; telefonda kopyaladığınızı bilgisayarda, bilgisayarda kopyaladığınızı telefonda yapıştırabilirsiniz. İçerik hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınız üzerinden gidip gelir."
         },
         {
           "q": "Pano verilerim nerede saklanıyor ve güvenli mi?",
-          "a": "Yerel veriler bilgisayarınızda %APPDATA%\\ClipboardPlus konumunda saklanır; senkronize edilen veriler ise yalnızca kendi Google Drive'ınızın uygulamaya özel gizli bir alanında bulunur. Uygulama yalnızca drive.appdata kapsamını kullanır; bu nedenle normal Drive dosyalarınıza asla dokunmaz."
+          "a": "Kopyalama geçmişi varsayılan olarak yalnızca bilgisayarınızda tutulur (%APPDATA%\\ClipboardPlus klasörü). Senkronizasyonu açarsanız kendi Google Drive'ınızdaki uygulamaya özel alanda da saklanır; bu alan Drive ekranınızda görünmez ve Clipboard+ dışında hiçbir şey onu açamaz. Uygulama yalnızca bu özel alanı kullandığı için Drive'daki diğer fotoğraf ve belgelerinize erişemez."
         },
         {
           "q": "Senkronizasyonu etkinleştirmek için neye ihtiyacım var?",
-          "a": "Google Drive senkronizasyonunu açmak için Google Cloud Console'da bir kez masaüstü OAuth istemcisi oluşturun, google_client.json dosyasını uygulama klasörüne yerleştirin, ardından tek seferlik bir Google oturum açma ve izin verme işlemi için uygulamada senkronizasyona tıklayın."
+          "a": "Android uygulamasının ve Windows uygulamasının ayarlarında aynı hesapla Google Drive'a giriş yapın, ardından otomatik senkronizasyonu açın. Bundan sonra iki cihazın panosu kendiliğinden senkron kalır."
         }
       ]
     },

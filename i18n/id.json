@@ -368,27 +368,27 @@
       "seo": "Pengelola Clipboard PC",
       "desc": "Pengelola clipboard tray Windows yang tersinkron dengan aplikasi Android Clipboard+.",
       "tagline": "Pengelola clipboard tray Windows yang tersinkron dengan ponsel Android Anda melalui Google Drive Anda sendiri.",
-      "long": "Clipboard+ for Windows adalah pengelola clipboard yang tinggal di tray dan secara otomatis merekam teks serta gambar yang Anda salin. Aplikasi ini memakai format data yang sama dengan aplikasi Android Clipboard+, sehingga ponsel dan PC Anda tersinkron dua arah melalui Google Drive Anda sendiri (folder tersembunyi khusus aplikasi) tanpa server khusus. Aplikasi menangkap klip lewat event clipboard Windows native tanpa polling, dan memungkinkan Anda merapikan teks serta gambar ke dalam grup dan snippet lalu mencarinya.",
+      "long": "Clipboard+ for Windows adalah pengelola clipboard yang tinggal di tray dan otomatis menyimpan teks serta gambar yang Anda salin. Semuanya tercatat begitu Anda menyalinnya, jadi kalaupun tertimpa tanpa sengaja, isi sebelumnya bisa dipanggil kembali dan ditempel lagi. Dipakai bersama aplikasi Android Clipboard+, apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Isi salinan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Yang tersimpan bisa dirapikan ke dalam grup dan snippet lalu dicari.",
       "features": [
-        "Tinggal di tray dengan pemantauan clipboard real-time tanpa polling (event Win32), menangkap otomatis teks dan gambar",
-        "Sinkronisasi dua arah ponsel-ke-PC melalui Google Drive Anda sendiri — tanpa server khusus, hanya memakai scope drive.appdata",
+        "Tinggal di tray dan menyimpan teks serta gambar begitu Anda menyalinnya — tidak perlu terus memeriksa di latar belakang, jadi tetap ringan",
+        "Sinkronisasi dua arah ponsel-ke-PC melalui Google Drive Anda sendiri",
         "UI bergaya Android dengan tema terang/gelap, sidebar grup, snippet, dan pin/salin/edit/cari",
         "Pindah, hapus, dan gabung massal multi-pilih, urutan terbaru/terlama, dan penampil gambar ukuran penuh",
         "Hotkey global untuk membuka jendela dan langsung menangkap teks yang dipilih di aplikasi lain, plus jalan otomatis saat startup",
-        "Ekspor/impor kompatibel dengan format cadangan Android Clipboard+ (teks JSON, gambar ZIP)"
+        "Ekspor/impor kompatibel dengan format cadangan Android Clipboard+"
       ],
       "faq": [
         {
           "q": "Apakah tersinkron dengan aplikasi Android Clipboard+?",
-          "a": "Ya. Kedua aplikasi memakai format sinkronisasi yang sama dan menjaga clipboard ponsel serta PC Anda tersinkron dua arah melalui folder khusus aplikasi di Google Drive Anda sendiri, tanpa server khusus yang terlibat."
+          "a": "Ya. Aktifkan sinkronisasi dengan akun Google yang sama di kedua perangkat, lalu apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Isi salinan tidak melewati server CodeDAC, melainkan hanya melintas lewat Google Drive Anda sendiri."
         },
         {
           "q": "Di mana data clipboard saya disimpan, dan apakah aman?",
-          "a": "Data lokal disimpan di %APPDATA%\\ClipboardPlus pada PC Anda, dan data yang tersinkron hanya berada di area tersembunyi khusus aplikasi di Google Drive Anda sendiri. Aplikasi hanya memakai scope drive.appdata, sehingga tidak pernah menyentuh file Drive biasa Anda."
+          "a": "Riwayat salinan secara bawaan hanya tersimpan di PC Anda (folder %APPDATA%\\ClipboardPlus). Jika sinkronisasi diaktifkan, riwayat juga tersimpan di ruang khusus aplikasi dalam Google Drive Anda sendiri — ruang yang tidak tampak di tampilan Drive dan tidak bisa dibuka selain oleh Clipboard+. Aplikasi hanya memakai ruang khusus itu, sehingga tidak bisa menjangkau foto atau dokumen Anda yang lain di Drive."
         },
         {
           "q": "Apa yang saya butuhkan untuk mengaktifkan sinkronisasi?",
-          "a": "Untuk mengaktifkan sinkronisasi Google Drive, buat satu kali klien OAuth desktop di Google Cloud Console, letakkan file google_client.json di folder aplikasi, lalu klik sinkronisasi di aplikasi untuk melakukan login Google satu kali dan memberikan izin."
+          "a": "Di pengaturan aplikasi Android dan aplikasi Windows, masuk ke Google Drive dengan akun yang sama, lalu aktifkan sinkronisasi otomatis. Setelah itu, clipboard kedua perangkat tersinkron dengan sendirinya."
         }
       ]
     },

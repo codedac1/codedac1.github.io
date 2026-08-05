@@ -61,7 +61,7 @@
   "name": "Clipboard+ for Windows",
   "operatingSystem": "Windows",
   "applicationCategory": "UtilitiesApplication",
-  "description": "Clipboard+ for Windows 是一款常驻托盘的剪贴板管理器，会自动记录你复制的文字和图片。它与 Android 版 Clipboard+ 应用采用相同的数据格式，因此手机和电脑无需专用服务器，即可通过你自己的 Google Drive（一个应用专属的隐藏文件夹）双向同步。它借助 Windows 原生剪贴板事件捕获剪贴、无需轮询，并可将文字和图片整理成分组和常用短语并进行跨项搜索。",
+  "description": "Clipboard+ for Windows 是一款常驻托盘的剪贴板管理器，会自动保存你复制的文字和图片。复制的瞬间就已记录，所以就算不小心覆盖了，也能把之前的内容重新调出来粘贴。搭配 Android 版 Clipboard+ 应用使用时，在手机上复制的内容可以在电脑上粘贴，在电脑上复制的内容也可以在手机上粘贴。复制的内容不经过 CodeDAC 的服务器，只保存在你自己的 Google Drive 里。保存下来的记录可以整理成分组和常用短语，并进行搜索。",
   "image": "https://codedac.com/images/icons/clipboardwin.png",
   "url": "https://codedac.com/zh/apps/clipboardwin.html",
   "inLanguage": "zh-Hans",
@@ -125,7 +125,7 @@
       "name": "它会与 Android 版 Clipboard+ 应用同步吗？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "会。两款应用共享相同的同步格式，通过你自己 Google Drive 中一个应用专属的文件夹，让手机和电脑的剪贴板双向同步，全程不涉及任何专用服务器。"
+        "text": "会。在两台设备上用同一个 Google 账号开启同步后，手机上复制的内容可以在电脑上粘贴，电脑上复制的内容也可以在手机上粘贴。内容不经过 CodeDAC 的服务器，只在你自己的 Google Drive 之间往来。"
       }
     },
     {
@@ -133,7 +133,7 @@
       "name": "我的剪贴板数据存在哪里？安全吗？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "本地数据保存在你电脑的 %APPDATA%\\ClipboardPlus 中，同步数据仅存放在你自己 Google Drive 的应用专属隐藏区域内。本应用仅使用 drive.appdata 权限范围，因此绝不会触及你常规的云端硬盘文件。"
+        "text": "复制记录默认只保存在你的电脑里（%APPDATA%\\ClipboardPlus 文件夹）。开启同步后，还会保存到你自己 Google Drive 中的应用专属空间——这个空间不会出现在云端硬盘界面中，除了 Clipboard+ 之外谁也打不开。应用只使用这个专属空间，因此无法访问你在云端硬盘里的其他照片或文档。"
       }
     },
     {
@@ -141,7 +141,7 @@
       "name": "启用同步需要什么？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "要开启 Google Drive 同步，只需在 Google Cloud Console 中创建一次桌面版 OAuth 客户端，将 google_client.json 文件放入应用文件夹，然后在应用中点击同步，完成一次性的 Google 登录和授权即可。"
+        "text": "在 Android 版应用和 Windows 版应用的设置中，分别用同一个账号登录 Google Drive，然后开启自动同步即可。之后两台设备的剪贴板就会自动保持同步。"
       }
     }
   ]
@@ -225,7 +225,7 @@
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">概览</h2>
-      <p class="detail-long">Clipboard+ for Windows 是一款常驻托盘的剪贴板管理器，会自动记录你复制的文字和图片。它与 Android 版 Clipboard+ 应用采用相同的数据格式，因此手机和电脑无需专用服务器，即可通过你自己的 Google Drive（一个应用专属的隐藏文件夹）双向同步。它借助 Windows 原生剪贴板事件捕获剪贴、无需轮询，并可将文字和图片整理成分组和常用短语并进行跨项搜索。</p>
+      <p class="detail-long">Clipboard+ for Windows 是一款常驻托盘的剪贴板管理器，会自动保存你复制的文字和图片。复制的瞬间就已记录，所以就算不小心覆盖了，也能把之前的内容重新调出来粘贴。搭配 Android 版 Clipboard+ 应用使用时，在手机上复制的内容可以在电脑上粘贴，在电脑上复制的内容也可以在手机上粘贴。复制的内容不经过 CodeDAC 的服务器，只保存在你自己的 Google Drive 里。保存下来的记录可以整理成分组和常用短语，并进行搜索。</p>
     </div>
   </section>
 
@@ -246,12 +246,12 @@
     <div class="container">
       <h2 class="detail-title">主要功能</h2>
       <ul class="feature-list">
-        <li>常驻托盘、无需轮询的实时剪贴板监控（Win32 事件），自动捕获文字和图片</li>
-        <li>通过你自己的 Google Drive 实现手机与电脑的双向同步——无专用服务器，仅使用 drive.appdata 权限范围</li>
+        <li>常驻托盘，复制的瞬间自动保存文字和图片——无需在后台反复查看，因此十分轻量</li>
+        <li>通过你自己的 Google Drive 实现手机与电脑的双向同步</li>
         <li>Android 风格界面，含浅色／深色主题、分组侧栏、常用短语，以及置顶／复制／编辑／搜索</li>
         <li>多选批量移动、删除和合并，最新／最旧排序，以及原尺寸图片查看器</li>
         <li>全局热键可打开窗口并即时捕获其他应用中选中的文字，还支持开机自启</li>
-        <li>导出／导入兼容 Android 版 Clipboard+ 的备份格式（文本 JSON、图片 ZIP）</li>
+        <li>导出／导入兼容 Android 版 Clipboard+ 的备份格式</li>
       </ul>
     </div>
   </section>
@@ -272,9 +272,9 @@
     <div class="container">
       <h2 class="detail-title">常见问题</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">它会与 Android 版 Clipboard+ 应用同步吗？</p><p class="faq-a">会。两款应用共享相同的同步格式，通过你自己 Google Drive 中一个应用专属的文件夹，让手机和电脑的剪贴板双向同步，全程不涉及任何专用服务器。</p></div>
-        <div class="faq-item"><p class="faq-q">我的剪贴板数据存在哪里？安全吗？</p><p class="faq-a">本地数据保存在你电脑的 %APPDATA%\ClipboardPlus 中，同步数据仅存放在你自己 Google Drive 的应用专属隐藏区域内。本应用仅使用 drive.appdata 权限范围，因此绝不会触及你常规的云端硬盘文件。</p></div>
-        <div class="faq-item"><p class="faq-q">启用同步需要什么？</p><p class="faq-a">要开启 Google Drive 同步，只需在 Google Cloud Console 中创建一次桌面版 OAuth 客户端，将 google_client.json 文件放入应用文件夹，然后在应用中点击同步，完成一次性的 Google 登录和授权即可。</p></div>
+        <div class="faq-item"><p class="faq-q">它会与 Android 版 Clipboard+ 应用同步吗？</p><p class="faq-a">会。在两台设备上用同一个 Google 账号开启同步后，手机上复制的内容可以在电脑上粘贴，电脑上复制的内容也可以在手机上粘贴。内容不经过 CodeDAC 的服务器，只在你自己的 Google Drive 之间往来。</p></div>
+        <div class="faq-item"><p class="faq-q">我的剪贴板数据存在哪里？安全吗？</p><p class="faq-a">复制记录默认只保存在你的电脑里（%APPDATA%\ClipboardPlus 文件夹）。开启同步后，还会保存到你自己 Google Drive 中的应用专属空间——这个空间不会出现在云端硬盘界面中，除了 Clipboard+ 之外谁也打不开。应用只使用这个专属空间，因此无法访问你在云端硬盘里的其他照片或文档。</p></div>
+        <div class="faq-item"><p class="faq-q">启用同步需要什么？</p><p class="faq-a">在 Android 版应用和 Windows 版应用的设置中，分别用同一个账号登录 Google Drive，然后开启自动同步即可。之后两台设备的剪贴板就会自动保持同步。</p></div>
       </div>
     </div>
   </section>

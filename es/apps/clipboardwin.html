@@ -61,7 +61,7 @@
   "name": "Clipboard+ for Windows",
   "operatingSystem": "Windows",
   "applicationCategory": "UtilitiesApplication",
-  "description": "Clipboard+ for Windows es un gestor de portapapeles residente en la bandeja que registra automáticamente los textos e imágenes que copias. Comparte el mismo formato de datos que la app de Android Clipboard+, así que tu teléfono y tu PC se sincronizan de forma bidireccional a través de tu propio Google Drive (una carpeta oculta privada de la app), sin ningún servidor dedicado. Captura los elementos mediante eventos nativos del portapapeles de Windows, sin sondeo, y te permite organizar textos e imágenes en grupos y fragmentos y buscarlos.",
+  "description": "Clipboard+ for Windows es un gestor de portapapeles residente en la bandeja que guarda automáticamente los textos e imágenes que copias. Todo queda registrado en el momento de copiarlo, así que aunque sobrescribas algo sin querer puedes recuperar lo anterior y volver a pegarlo. Si lo usas junto con la app de Android Clipboard+, lo que copias en el teléfono lo pegas en el PC, y lo que copias en el PC lo pegas en el teléfono. Lo copiado no pasa por ningún servidor de CodeDAC: se guarda solo en tu propio Google Drive. Lo guardado se puede organizar en grupos y fragmentos, y buscar.",
   "image": "https://codedac.com/images/icons/clipboardwin.png",
   "url": "https://codedac.com/es/apps/clipboardwin.html",
   "inLanguage": "es",
@@ -125,7 +125,7 @@
       "name": "¿Se sincroniza con la app de Android Clipboard+?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sí. Ambas apps comparten el mismo formato de sincronización y mantienen los portapapeles de tu teléfono y tu PC sincronizados de forma bidireccional a través de una carpeta privada de la app en tu propio Google Drive, sin ningún servidor dedicado de por medio."
+        "text": "Sí. Activa la sincronización con la misma cuenta de Google en ambos dispositivos y lo que copies en el teléfono lo pegarás en el PC, y lo que copies en el PC lo pegarás en el teléfono. Lo copiado no pasa por ningún servidor de CodeDAC: viaja únicamente por tu propio Google Drive."
       }
     },
     {
@@ -133,7 +133,7 @@
       "name": "¿Dónde se guardan los datos de mi portapapeles y son seguros?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Los datos locales se guardan en %APPDATA%\\ClipboardPlus en tu PC, y los datos sincronizados residen únicamente en un área oculta privada de la app dentro de tu propio Google Drive. La app usa solo el ámbito drive.appdata, así que nunca toca tus archivos normales de Drive."
+        "text": "El historial de copias se guarda de forma predeterminada solo en tu PC (en la carpeta %APPDATA%\\ClipboardPlus). Si activas la sincronización, también se guarda en un espacio privado de la app dentro de tu propio Google Drive: un espacio que no aparece en tu Drive y que nada más que Clipboard+ puede abrir. La app usa solo ese espacio privado, así que no puede acceder a tus otras fotos o documentos de Drive."
       }
     },
     {
@@ -141,7 +141,7 @@
       "name": "¿Qué necesito para activar la sincronización?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Para activar la sincronización con Google Drive, crea una vez un cliente OAuth de escritorio en la Google Cloud Console, coloca el archivo google_client.json en la carpeta de la app y luego haz clic en sincronizar dentro de la app para hacer un inicio de sesión de Google y una concesión de permisos de una sola vez."
+        "text": "En los ajustes de la app de Android y de la app de Windows, inicia sesión en Google Drive con la misma cuenta y activa la sincronización automática. A partir de ahí, los portapapeles de ambos dispositivos se sincronizan solos."
       }
     }
   ]
@@ -225,7 +225,7 @@
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">Resumen</h2>
-      <p class="detail-long">Clipboard+ for Windows es un gestor de portapapeles residente en la bandeja que registra automáticamente los textos e imágenes que copias. Comparte el mismo formato de datos que la app de Android Clipboard+, así que tu teléfono y tu PC se sincronizan de forma bidireccional a través de tu propio Google Drive (una carpeta oculta privada de la app), sin ningún servidor dedicado. Captura los elementos mediante eventos nativos del portapapeles de Windows, sin sondeo, y te permite organizar textos e imágenes en grupos y fragmentos y buscarlos.</p>
+      <p class="detail-long">Clipboard+ for Windows es un gestor de portapapeles residente en la bandeja que guarda automáticamente los textos e imágenes que copias. Todo queda registrado en el momento de copiarlo, así que aunque sobrescribas algo sin querer puedes recuperar lo anterior y volver a pegarlo. Si lo usas junto con la app de Android Clipboard+, lo que copias en el teléfono lo pegas en el PC, y lo que copias en el PC lo pegas en el teléfono. Lo copiado no pasa por ningún servidor de CodeDAC: se guarda solo en tu propio Google Drive. Lo guardado se puede organizar en grupos y fragmentos, y buscar.</p>
     </div>
   </section>
 
@@ -246,12 +246,12 @@
     <div class="container">
       <h2 class="detail-title">Funciones principales</h2>
       <ul class="feature-list">
-        <li>Residente en la bandeja con monitoreo del portapapeles en tiempo real y sin sondeo (eventos Win32), capturando textos e imágenes automáticamente</li>
-        <li>Sincronización bidireccional teléfono-PC a través de tu propio Google Drive, sin servidor dedicado, usando solo el ámbito drive.appdata</li>
+        <li>Residente en la bandeja: guarda textos e imágenes en cuanto los copias, sin tener que comprobar el portapapeles en segundo plano, así que es ligero</li>
+        <li>Sincronización bidireccional teléfono-PC a través de tu propio Google Drive</li>
         <li>Interfaz al estilo de Android con temas claro/oscuro, barra lateral de grupos, fragmentos y anclar/copiar/editar/buscar</li>
         <li>Selección múltiple para mover, eliminar y combinar en bloque, orden por más reciente/más antiguo y un visor de imágenes a tamaño completo</li>
         <li>Atajos globales para abrir la ventana y capturar al instante el texto seleccionado en otras apps, además de ejecución al inicio</li>
-        <li>Exportación/importación compatible con el formato de copia de seguridad de Android Clipboard+ (texto en JSON, imágenes en ZIP)</li>
+        <li>Exportación/importación compatible con el formato de copia de seguridad de Android Clipboard+</li>
       </ul>
     </div>
   </section>
@@ -272,9 +272,9 @@
     <div class="container">
       <h2 class="detail-title">Preguntas frecuentes</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">¿Se sincroniza con la app de Android Clipboard+?</p><p class="faq-a">Sí. Ambas apps comparten el mismo formato de sincronización y mantienen los portapapeles de tu teléfono y tu PC sincronizados de forma bidireccional a través de una carpeta privada de la app en tu propio Google Drive, sin ningún servidor dedicado de por medio.</p></div>
-        <div class="faq-item"><p class="faq-q">¿Dónde se guardan los datos de mi portapapeles y son seguros?</p><p class="faq-a">Los datos locales se guardan en %APPDATA%\ClipboardPlus en tu PC, y los datos sincronizados residen únicamente en un área oculta privada de la app dentro de tu propio Google Drive. La app usa solo el ámbito drive.appdata, así que nunca toca tus archivos normales de Drive.</p></div>
-        <div class="faq-item"><p class="faq-q">¿Qué necesito para activar la sincronización?</p><p class="faq-a">Para activar la sincronización con Google Drive, crea una vez un cliente OAuth de escritorio en la Google Cloud Console, coloca el archivo google_client.json en la carpeta de la app y luego haz clic en sincronizar dentro de la app para hacer un inicio de sesión de Google y una concesión de permisos de una sola vez.</p></div>
+        <div class="faq-item"><p class="faq-q">¿Se sincroniza con la app de Android Clipboard+?</p><p class="faq-a">Sí. Activa la sincronización con la misma cuenta de Google en ambos dispositivos y lo que copies en el teléfono lo pegarás en el PC, y lo que copies en el PC lo pegarás en el teléfono. Lo copiado no pasa por ningún servidor de CodeDAC: viaja únicamente por tu propio Google Drive.</p></div>
+        <div class="faq-item"><p class="faq-q">¿Dónde se guardan los datos de mi portapapeles y son seguros?</p><p class="faq-a">El historial de copias se guarda de forma predeterminada solo en tu PC (en la carpeta %APPDATA%\ClipboardPlus). Si activas la sincronización, también se guarda en un espacio privado de la app dentro de tu propio Google Drive: un espacio que no aparece en tu Drive y que nada más que Clipboard+ puede abrir. La app usa solo ese espacio privado, así que no puede acceder a tus otras fotos o documentos de Drive.</p></div>
+        <div class="faq-item"><p class="faq-q">¿Qué necesito para activar la sincronización?</p><p class="faq-a">En los ajustes de la app de Android y de la app de Windows, inicia sesión en Google Drive con la misma cuenta y activa la sincronización automática. A partir de ahí, los portapapeles de ambos dispositivos se sincronizan solos.</p></div>
       </div>
     </div>
   </section>

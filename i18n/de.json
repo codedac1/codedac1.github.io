@@ -368,27 +368,27 @@
       "seo": "Zwischenablage-Manager",
       "desc": "Ein Windows-Tray-Zwischenablage-Manager, der sich mit der Android-App Clipboard+ synchronisiert.",
       "tagline": "Ein Windows-Tray-Zwischenablage-Manager, der sich über dein eigenes Google Drive mit deinem Android-Handy synchronisiert.",
-      "long": "Clipboard+ for Windows ist ein im Tray ansässiger Zwischenablage-Manager, der die von dir kopierten Texte und Bilder automatisch aufzeichnet. Er nutzt dasselbe Datenformat wie die Android-App Clipboard+, sodass sich dein Handy und dein PC über dein eigenes Google Drive (einen app-privaten, versteckten Ordner) bidirektional synchronisieren – ganz ohne eigenen Server. Er erfasst Einträge über native Windows-Zwischenablage-Ereignisse ohne Polling und lässt dich Texte und Bilder in Gruppen und Snippets ordnen und darin suchen.",
+      "long": "Clipboard+ for Windows ist ein im Tray ansässiger Zwischenablage-Manager, der die von dir kopierten Texte und Bilder automatisch speichert. Alles wird im Moment des Kopierens festgehalten – überschreibst du also versehentlich etwas, holst du den früheren Eintrag einfach zurück und fügst ihn erneut ein. Zusammen mit der Android-App Clipboard+ fügst du auf dem PC ein, was du am Handy kopiert hast, und am Handy, was du am PC kopiert hast. Das Kopierte läuft dabei über keinen CodeDAC-Server, sondern wird nur in deinem eigenen Google Drive gespeichert. Gespeichertes lässt sich in Gruppen und Snippets ordnen und durchsuchen.",
       "features": [
-        "Im Tray ansässig mit polling-freier Echtzeit-Überwachung der Zwischenablage (Win32-Ereignisse), erfasst Texte und Bilder automatisch",
-        "Bidirektionale Handy-zu-PC-Synchronisierung über dein eigenes Google Drive – ohne eigenen Server, nur mit dem Scope drive.appdata",
+        "Sitzt im Tray und speichert Texte und Bilder im Moment des Kopierens – ohne im Hintergrund ständig nachsehen zu müssen, also schön leichtgewichtig",
+        "Bidirektionale Handy-zu-PC-Synchronisierung über dein eigenes Google Drive",
         "UI im Android-Stil mit hellen/dunklen Designs, Gruppen-Seitenleiste, Snippets sowie Anheften/Kopieren/Bearbeiten/Suchen",
         "Mehrfachauswahl zum stapelweisen Verschieben, Löschen und Zusammenführen, Sortierung nach neuesten/ältesten und ein Bildbetrachter in Originalgröße",
         "Globale Tastenkürzel zum Öffnen des Fensters und sofortigen Erfassen von in anderen Apps markiertem Text, plus Autostart",
-        "Export/Import kompatibel mit dem Backup-Format der Android-App Clipboard+ (Text-JSON, Bild-ZIP)"
+        "Export/Import kompatibel mit dem Backup-Format der Android-App Clipboard+"
       ],
       "faq": [
         {
           "q": "Synchronisiert es sich mit der Android-App Clipboard+?",
-          "a": "Ja. Beide Apps nutzen dasselbe Sync-Format und halten die Zwischenablagen von Handy und PC bidirektional über einen app-privaten Ordner in deinem eigenen Google Drive synchron – ohne dass ein eigener Server beteiligt ist."
+          "a": "Ja. Schalte auf beiden Geräten mit demselben Google-Konto die Synchronisierung ein, und du fügst auf dem PC ein, was du am Handy kopiert hast, und am Handy, was du am PC kopiert hast. Das Kopierte läuft über keinen CodeDAC-Server, sondern ausschließlich über dein eigenes Google Drive."
         },
         {
           "q": "Wo werden meine Zwischenablage-Daten gespeichert, und ist das sicher?",
-          "a": "Lokale Daten werden unter %APPDATA%\\ClipboardPlus auf deinem PC gespeichert, und synchronisierte Daten liegen nur in einem app-privaten, versteckten Bereich deines eigenen Google Drive. Die App nutzt ausschließlich den Scope drive.appdata und berührt daher niemals deine normalen Drive-Dateien."
+          "a": "Der Kopierverlauf bleibt standardmäßig nur auf deinem PC (im Ordner %APPDATA%\\ClipboardPlus). Schaltest du die Synchronisierung ein, liegt er zusätzlich in einem app-privaten Bereich deines eigenen Google Drive – einem Bereich, der in deiner Drive-Ansicht nicht auftaucht und den nichts außer Clipboard+ öffnen kann. Die App nutzt nur diesen privaten Bereich und kommt deshalb an deine übrigen Fotos oder Dokumente in Drive gar nicht heran."
         },
         {
           "q": "Was brauche ich, um die Synchronisierung zu aktivieren?",
-          "a": "Um die Google-Drive-Synchronisierung einzuschalten, erstellst du einmal einen Desktop-OAuth-Client in der Google Cloud Console, legst die Datei google_client.json in den App-Ordner und klickst in der App auf Synchronisieren, um eine einmalige Google-Anmeldung und Berechtigungserteilung durchzuführen."
+          "a": "Melde dich in den Einstellungen der Android-App und der Windows-App jeweils mit demselben Konto bei Google Drive an und schalte die automatische Synchronisierung ein. Danach halten sich die Zwischenablagen beider Geräte von selbst synchron."
         }
       ]
     },

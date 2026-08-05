@@ -368,27 +368,27 @@
       "seo": "Presse-papiers Windows",
       "desc": "Un gestionnaire de presse-papiers Windows dans la barre d'état système, synchronisé avec l'appli Android Clipboard+.",
       "tagline": "Un gestionnaire de presse-papiers Windows dans la barre d'état système, synchronisé avec votre téléphone Android via votre propre Google Drive.",
-      "long": "Clipboard+ for Windows est un gestionnaire de presse-papiers résidant dans la barre d'état système qui enregistre automatiquement les textes et images que vous copiez. Il partage le même format de données que l'appli Android Clipboard+, ce qui permet à votre téléphone et à votre PC de se synchroniser dans les deux sens via votre propre Google Drive (un dossier caché privé à l'application), sans serveur dédié. Il capture les éléments grâce aux événements natifs du presse-papiers Windows, sans interrogation périodique, et vous permet d'organiser textes et images en groupes et extraits, puis de faire des recherches parmi eux.",
+      "long": "Clipboard+ for Windows est un gestionnaire de presse-papiers résidant dans la barre d'état système qui enregistre automatiquement les textes et images que vous copiez. Tout est sauvegardé au moment même de la copie : si vous écrasez un élément par mégarde, vous pouvez récupérer le précédent et le recoller. Associé à l'appli Android Clipboard+, ce que vous copiez sur votre téléphone se colle sur votre PC, et ce que vous copiez sur votre PC se colle sur votre téléphone. Les éléments copiés ne transitent par aucun serveur CodeDAC : ils sont enregistrés uniquement dans votre propre Google Drive. Ce qui est enregistré peut être classé en groupes et en extraits, puis recherché.",
       "features": [
-        "Résident dans la barre d'état système, avec surveillance du presse-papiers en temps réel sans interrogation (événements Win32), capturant automatiquement textes et images",
-        "Synchronisation bidirectionnelle téléphone-PC via votre propre Google Drive — sans serveur dédié, en utilisant uniquement la portée drive.appdata",
+        "Résident dans la barre d'état système, il enregistre textes et images à l'instant où vous les copiez — sans avoir à surveiller en permanence en arrière-plan, donc très léger",
+        "Synchronisation bidirectionnelle téléphone-PC via votre propre Google Drive",
         "Interface de style Android avec thèmes clair/sombre, barre latérale de groupes, extraits et épingler/copier/modifier/rechercher",
         "Déplacement, suppression et fusion en masse par sélection multiple, tri du plus récent au plus ancien, et visionneuse d'image en taille réelle",
         "Raccourcis clavier globaux pour ouvrir la fenêtre et capturer instantanément le texte sélectionné dans d'autres applis, plus lancement au démarrage",
-        "Export/import compatible avec le format de sauvegarde Android Clipboard+ (texte JSON, images ZIP)"
+        "Export/import compatible avec le format de sauvegarde Android Clipboard+"
       ],
       "faq": [
         {
           "q": "Se synchronise-t-il avec l'appli Android Clipboard+ ?",
-          "a": "Oui. Les deux applications partagent le même format de synchronisation et gardent les presse-papiers de votre téléphone et de votre PC synchronisés dans les deux sens via un dossier privé à l'application dans votre propre Google Drive, sans serveur dédié."
+          "a": "Oui. Activez la synchronisation avec le même compte Google sur les deux appareils : ce que vous copiez sur votre téléphone se colle sur votre PC, et ce que vous copiez sur votre PC se colle sur votre téléphone. Les éléments copiés ne transitent par aucun serveur CodeDAC : ils passent uniquement par votre propre Google Drive."
         },
         {
           "q": "Où sont stockées mes données de presse-papiers, et est-ce sûr ?",
-          "a": "Les données locales sont stockées dans %APPDATA%\\ClipboardPlus sur votre PC, et les données synchronisées ne résident que dans une zone cachée privée à l'application de votre propre Google Drive. L'application n'utilise que la portée drive.appdata, elle ne touche donc jamais à vos fichiers Drive habituels."
+          "a": "L'historique des copies reste par défaut sur votre seul PC (dans le dossier %APPDATA%\\ClipboardPlus). Si vous activez la synchronisation, il est aussi enregistré dans un espace privé de l'application au sein de votre propre Google Drive — un espace qui n'apparaît pas dans votre Drive et que rien d'autre que Clipboard+ ne peut ouvrir. L'application n'utilise que cet espace privé : elle ne peut donc pas accéder à vos autres photos ou documents sur Drive."
         },
         {
           "q": "De quoi ai-je besoin pour activer la synchronisation ?",
-          "a": "Pour activer la synchronisation Google Drive, créez une fois un client OAuth de bureau dans la Google Cloud Console, placez le fichier google_client.json dans le dossier de l'application, puis cliquez sur synchroniser dans l'application pour effectuer une connexion Google unique et accorder l'autorisation."
+          "a": "Dans les paramètres de l'appli Android et de l'appli Windows, connectez-vous à Google Drive avec le même compte, puis activez la synchronisation automatique. Ensuite, les presse-papiers des deux appareils restent synchronisés tout seuls."
         }
       ]
     },

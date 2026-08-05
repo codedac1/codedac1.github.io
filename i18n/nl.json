@@ -368,27 +368,27 @@
       "seo": "Klembordmanager Windows",
       "desc": "Een Windows-klembordmanager in het systeemvak die synchroniseert met de Android-app Clipboard+.",
       "tagline": "Een Windows-klembordmanager in het systeemvak die via je eigen Google Drive synchroniseert met je Android-telefoon.",
-      "long": "Clipboard+ for Windows is een klembordmanager die in het systeemvak zit en de teksten en afbeeldingen die je kopieert automatisch vastlegt. Hij gebruikt hetzelfde gegevensformaat als de Android-app Clipboard+, zodat je telefoon en pc via je eigen Google Drive (een app-privé verborgen map) bidirectioneel synchroniseren – helemaal zonder eigen server. Hij legt items vast via native Windows-klembordgebeurtenissen zonder polling en laat je teksten en afbeeldingen ordenen in groepen en snippets en erin zoeken.",
+      "long": "Clipboard+ for Windows is een klembordmanager die in het systeemvak zit en de teksten en afbeeldingen die je kopieert automatisch opslaat. Alles wordt vastgelegd op het moment dat je kopieert, dus als je per ongeluk iets overschrijft, haal je het vorige item gewoon terug en plak je het opnieuw. Gebruik je hem samen met de Android-app Clipboard+, dan plak je op je pc wat je op je telefoon hebt gekopieerd, en op je telefoon wat je op je pc hebt gekopieerd. Wat je kopieert gaat langs geen enkele CodeDAC-server: het wordt alleen in je eigen Google Drive bewaard. Wat is opgeslagen kun je ordenen in groepen en snippets en doorzoeken.",
       "features": [
-        "In het systeemvak met polling-vrije realtime bewaking van het klembord (Win32-gebeurtenissen), legt teksten en afbeeldingen automatisch vast",
-        "Bidirectionele synchronisatie van telefoon naar pc via je eigen Google Drive – zonder eigen server, alleen met de scope drive.appdata",
+        "Zit in het systeemvak en slaat teksten en afbeeldingen op zodra je ze kopieert — hoeft niet voortdurend op de achtergrond te kijken en blijft daardoor licht",
+        "Bidirectionele synchronisatie van telefoon naar pc via je eigen Google Drive",
         "UI in Android-stijl met lichte/donkere thema's, groepszijbalk, snippets en vastmaken/kopiëren/bewerken/zoeken",
         "Meervoudige selectie om in bulk te verplaatsen, verwijderen en samen te voegen, sorteren op nieuwste/oudste en een beeldviewer op ware grootte",
         "Globale sneltoetsen om het venster te openen en direct in andere apps geselecteerde tekst vast te leggen, plus automatisch starten",
-        "Export/import compatibel met het back-upformaat van de Android-app Clipboard+ (tekst-JSON, afbeelding-ZIP)"
+        "Export/import compatibel met het back-upformaat van de Android-app Clipboard+"
       ],
       "faq": [
         {
           "q": "Synchroniseert het met de Android-app Clipboard+?",
-          "a": "Ja. Beide apps gebruiken hetzelfde synchronisatieformaat en houden de klemborden van telefoon en pc bidirectioneel synchroon via een app-privé map in je eigen Google Drive, zonder dat er een eigen server bij betrokken is."
+          "a": "Ja. Zet op beide apparaten de synchronisatie aan met hetzelfde Google-account en je plakt op je pc wat je op je telefoon hebt gekopieerd, en op je telefoon wat je op je pc hebt gekopieerd. De inhoud gaat langs geen enkele CodeDAC-server: die reist alleen via je eigen Google Drive."
         },
         {
           "q": "Waar worden mijn klembordgegevens opgeslagen, en is dat veilig?",
-          "a": "Lokale gegevens worden opgeslagen onder %APPDATA%\\ClipboardPlus op je pc, en gesynchroniseerde gegevens staan alleen in een app-privé verborgen gebied van je eigen Google Drive. De app gebruikt uitsluitend de scope drive.appdata en raakt daarom nooit je gewone Drive-bestanden aan."
+          "a": "Je kopieergeschiedenis blijft standaard alleen op je pc staan (in de map %APPDATA%\\ClipboardPlus). Zet je de synchronisatie aan, dan staat ze ook in een app-privé gedeelte van je eigen Google Drive — een gedeelte dat niet in je Drive-scherm verschijnt en dat niets anders dan Clipboard+ kan openen. De app gebruikt alleen dat privégedeelte en kan dus niet bij je andere foto's of documenten op Drive."
         },
         {
           "q": "Wat heb ik nodig om de synchronisatie in te schakelen?",
-          "a": "Om Google Drive-synchronisatie in te schakelen, maak je eenmalig een desktop-OAuth-client aan in de Google Cloud Console, plaats je het bestand google_client.json in de app-map en klik je in de app op synchroniseren om een eenmalige Google-aanmelding en rechtenverlening uit te voeren."
+          "a": "Meld je in de instellingen van de Android-app en van de Windows-app met hetzelfde account aan bij Google Drive en zet daarna de automatische synchronisatie aan. Vanaf dat moment blijven de klemborden van beide apparaten vanzelf synchroon."
         }
       ]
     },

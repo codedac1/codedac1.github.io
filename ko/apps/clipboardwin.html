@@ -61,7 +61,7 @@
   "name": "Clipboard+ for Windows",
   "operatingSystem": "Windows",
   "applicationCategory": "UtilitiesApplication",
-  "description": "Clipboard+ for Windows는 시스템 트레이에 상주하며 복사한 텍스트와 이미지를 자동으로 기록하는 클립보드 매니저입니다. 안드로이드 Clipboard+ 앱과 동일한 데이터 구조를 사용해, 별도 서버 없이 사용자 본인의 구글 드라이브(앱 전용 숨김 영역)를 통해 폰과 PC의 클립보드를 양방향으로 동기화합니다. 폴링 없이 Windows 클립보드 이벤트를 감지해 캡처하며, 텍스트와 이미지를 그룹·스니펫으로 정리하고 검색할 수 있습니다.",
+  "description": "Clipboard+ for Windows는 시스템 트레이에 상주하며 복사한 텍스트와 이미지를 자동으로 저장해 주는 클립보드 매니저입니다. 복사하는 순간 바로 기록되므로 실수로 덮어써도 지난 내용을 다시 꺼내 붙여넣을 수 있습니다. 안드로이드 Clipboard+ 앱을 함께 쓰면 폰에서 복사한 내용을 PC에서, PC에서 복사한 내용을 폰에서 그대로 붙여넣을 수 있습니다. 이때 복사한 내용은 CodeDAC 서버를 거치지 않고 사용자 본인의 구글 드라이브에만 저장됩니다. 저장된 기록은 그룹과 스니펫으로 정리하고 검색할 수 있습니다.",
   "image": "https://codedac.com/images/icons/clipboardwin.png",
   "url": "https://codedac.com/ko/apps/clipboardwin.html",
   "inLanguage": "ko",
@@ -125,7 +125,7 @@
       "name": "안드로이드 Clipboard+ 앱과 동기화되나요?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "네. 두 앱이 동일한 동기화 포맷을 공유하며, 사용자 본인의 구글 드라이브 앱 전용 폴더를 통해 폰과 PC의 클립보드가 양방향으로 동기화됩니다. 별도의 서버는 사용하지 않습니다."
+        "text": "네. 두 기기에서 같은 구글 계정으로 동기화를 켜면, 폰에서 복사한 내용을 PC에서 붙여넣고 PC에서 복사한 내용을 폰에서 붙여넣을 수 있습니다. 내용은 CodeDAC 서버를 거치지 않고 사용자 본인의 구글 드라이브로만 오갑니다."
       }
     },
     {
@@ -133,7 +133,7 @@
       "name": "제 클립보드 데이터는 어디에 저장되나요? 안전한가요?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "로컬 데이터는 PC의 %APPDATA%\\ClipboardPlus 폴더에 저장되고, 동기화 데이터는 오직 사용자 본인 구글 드라이브의 앱 전용 숨김 영역에만 저장됩니다. 앱은 drive.appdata 스코프만 사용하므로 사용자의 일반 드라이브 파일에는 접근하지 않습니다."
+        "text": "복사 기록은 기본적으로 내 PC 안에만 저장됩니다(%APPDATA%\\ClipboardPlus 폴더). 동기화를 켜면 내 구글 드라이브의 앱 전용 공간에도 저장되는데, 이 공간은 드라이브 화면에 보이지 않고 Clipboard+ 외에는 열 수 없습니다. 앱은 이 전용 공간만 사용하므로 드라이브에 있는 다른 사진이나 문서에는 접근할 수 없습니다."
       }
     },
     {
@@ -141,7 +141,7 @@
       "name": "동기화를 사용하려면 무엇이 필요한가요?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "구글 드라이브 동기화를 켜려면 구글 클라우드 콘솔에서 데스크톱용 OAuth 클라이언트를 한 번 발급받아 google_client.json 파일을 앱 폴더에 넣고, 앱에서 동기화 버튼을 눌러 최초 1회 구글 로그인/권한 동의를 하면 됩니다."
+        "text": "안드로이드 앱과 Windows 앱의 설정에서 각각 Google Drive에 같은 계정으로 로그인한 다음, 자동 동기화를 켜 주시면 됩니다. 그러면 두 기기의 클립보드가 알아서 동기화됩니다."
       }
     }
   ]
@@ -225,7 +225,7 @@
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">개요</h2>
-      <p class="detail-long">Clipboard+ for Windows는 시스템 트레이에 상주하며 복사한 텍스트와 이미지를 자동으로 기록하는 클립보드 매니저입니다. 안드로이드 Clipboard+ 앱과 동일한 데이터 구조를 사용해, 별도 서버 없이 사용자 본인의 구글 드라이브(앱 전용 숨김 영역)를 통해 폰과 PC의 클립보드를 양방향으로 동기화합니다. 폴링 없이 Windows 클립보드 이벤트를 감지해 캡처하며, 텍스트와 이미지를 그룹·스니펫으로 정리하고 검색할 수 있습니다.</p>
+      <p class="detail-long">Clipboard+ for Windows는 시스템 트레이에 상주하며 복사한 텍스트와 이미지를 자동으로 저장해 주는 클립보드 매니저입니다. 복사하는 순간 바로 기록되므로 실수로 덮어써도 지난 내용을 다시 꺼내 붙여넣을 수 있습니다. 안드로이드 Clipboard+ 앱을 함께 쓰면 폰에서 복사한 내용을 PC에서, PC에서 복사한 내용을 폰에서 그대로 붙여넣을 수 있습니다. 이때 복사한 내용은 CodeDAC 서버를 거치지 않고 사용자 본인의 구글 드라이브에만 저장됩니다. 저장된 기록은 그룹과 스니펫으로 정리하고 검색할 수 있습니다.</p>
     </div>
   </section>
 
@@ -246,12 +246,12 @@
     <div class="container">
       <h2 class="detail-title">주요 기능</h2>
       <ul class="feature-list">
-        <li>트레이 상주 + 폴링 없는 실시간 클립보드 감시(Win32 이벤트), 텍스트·이미지 자동 캡처</li>
-        <li>내 구글 드라이브를 통한 폰↔PC 양방향 동기화(전용 서버 없음, drive.appdata 스코프만 사용)</li>
+        <li>트레이에 상주하며 복사하는 즉시 텍스트·이미지를 자동 저장 — 백그라운드에서 계속 들여다보지 않아 가볍습니다</li>
+        <li>내 구글 드라이브를 통한 폰↔PC 양방향 동기화</li>
         <li>안드로이드 스타일 UI — 라이트/다크 테마, 그룹 사이드바, 스니펫, 핀·복사·편집·검색</li>
         <li>다중 선택 일괄 이동/삭제/병합, 최신·오래된순 정렬, 이미지 원본 뷰어</li>
         <li>전역 단축키로 창 열기 및 타 앱에서 선택한 텍스트 바로 캡처, Windows 자동 실행</li>
-        <li>안드로이드 Clipboard+ 백업 포맷 호환 내보내기/가져오기(텍스트 JSON, 이미지 ZIP)</li>
+        <li>안드로이드 Clipboard+ 백업 포맷 호환 내보내기/가져오기</li>
       </ul>
     </div>
   </section>
@@ -272,9 +272,9 @@
     <div class="container">
       <h2 class="detail-title">자주 묻는 질문</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">안드로이드 Clipboard+ 앱과 동기화되나요?</p><p class="faq-a">네. 두 앱이 동일한 동기화 포맷을 공유하며, 사용자 본인의 구글 드라이브 앱 전용 폴더를 통해 폰과 PC의 클립보드가 양방향으로 동기화됩니다. 별도의 서버는 사용하지 않습니다.</p></div>
-        <div class="faq-item"><p class="faq-q">제 클립보드 데이터는 어디에 저장되나요? 안전한가요?</p><p class="faq-a">로컬 데이터는 PC의 %APPDATA%\ClipboardPlus 폴더에 저장되고, 동기화 데이터는 오직 사용자 본인 구글 드라이브의 앱 전용 숨김 영역에만 저장됩니다. 앱은 drive.appdata 스코프만 사용하므로 사용자의 일반 드라이브 파일에는 접근하지 않습니다.</p></div>
-        <div class="faq-item"><p class="faq-q">동기화를 사용하려면 무엇이 필요한가요?</p><p class="faq-a">구글 드라이브 동기화를 켜려면 구글 클라우드 콘솔에서 데스크톱용 OAuth 클라이언트를 한 번 발급받아 google_client.json 파일을 앱 폴더에 넣고, 앱에서 동기화 버튼을 눌러 최초 1회 구글 로그인/권한 동의를 하면 됩니다.</p></div>
+        <div class="faq-item"><p class="faq-q">안드로이드 Clipboard+ 앱과 동기화되나요?</p><p class="faq-a">네. 두 기기에서 같은 구글 계정으로 동기화를 켜면, 폰에서 복사한 내용을 PC에서 붙여넣고 PC에서 복사한 내용을 폰에서 붙여넣을 수 있습니다. 내용은 CodeDAC 서버를 거치지 않고 사용자 본인의 구글 드라이브로만 오갑니다.</p></div>
+        <div class="faq-item"><p class="faq-q">제 클립보드 데이터는 어디에 저장되나요? 안전한가요?</p><p class="faq-a">복사 기록은 기본적으로 내 PC 안에만 저장됩니다(%APPDATA%\ClipboardPlus 폴더). 동기화를 켜면 내 구글 드라이브의 앱 전용 공간에도 저장되는데, 이 공간은 드라이브 화면에 보이지 않고 Clipboard+ 외에는 열 수 없습니다. 앱은 이 전용 공간만 사용하므로 드라이브에 있는 다른 사진이나 문서에는 접근할 수 없습니다.</p></div>
+        <div class="faq-item"><p class="faq-q">동기화를 사용하려면 무엇이 필요한가요?</p><p class="faq-a">안드로이드 앱과 Windows 앱의 설정에서 각각 Google Drive에 같은 계정으로 로그인한 다음, 자동 동기화를 켜 주시면 됩니다. 그러면 두 기기의 클립보드가 알아서 동기화됩니다.</p></div>
       </div>
     </div>
   </section>

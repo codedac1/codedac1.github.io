@@ -61,7 +61,7 @@
   "name": "Clipboard+ for Windows",
   "operatingSystem": "Windows",
   "applicationCategory": "UtilitiesApplication",
-  "description": "Clipboard+ for Windows è un gestore degli appunti residente nella barra delle applicazioni che registra automaticamente i testi e le immagini che copi. Condivide lo stesso formato dati dell'app Android Clipboard+, così telefono e PC si sincronizzano in modo bidirezionale tramite il tuo Google Drive (una cartella nascosta privata dell'app) senza alcun server dedicato. Cattura gli elementi tramite gli eventi nativi degli appunti di Windows senza polling, e ti permette di organizzare testi e immagini in gruppi e snippet e di cercarvi all'interno.",
+  "description": "Clipboard+ for Windows è un gestore degli appunti residente nella barra delle applicazioni che salva automaticamente i testi e le immagini che copi. Tutto viene registrato nell'istante in cui copi, così anche se sovrascrivi qualcosa per sbaglio puoi recuperare l'elemento precedente e incollarlo di nuovo. Usandolo insieme all'app Android Clipboard+, ciò che copi sul telefono lo incolli sul PC e ciò che copi sul PC lo incolli sul telefono. Quello che copi non passa da alcun server CodeDAC: viene salvato solo nel tuo Google Drive. Ciò che è salvato si può organizzare in gruppi e snippet e cercare.",
   "image": "https://codedac.com/images/icons/clipboardwin.png",
   "url": "https://codedac.com/it/apps/clipboardwin.html",
   "inLanguage": "it",
@@ -125,7 +125,7 @@
       "name": "Si sincronizza con l'app Android Clipboard+?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sì. Entrambe le app condividono lo stesso formato di sincronizzazione e mantengono gli appunti di telefono e PC sincronizzati in modo bidirezionale tramite una cartella privata dell'app nel tuo Google Drive, senza alcun server dedicato coinvolto."
+        "text": "Sì. Attiva la sincronizzazione con lo stesso account Google su entrambi i dispositivi: ciò che copi sul telefono lo incolli sul PC e ciò che copi sul PC lo incolli sul telefono. I contenuti non passano da alcun server CodeDAC: viaggiano solo attraverso il tuo Google Drive."
       }
     },
     {
@@ -133,7 +133,7 @@
       "name": "Dove vengono memorizzati i dati degli appunti e sono al sicuro?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "I dati locali sono memorizzati in %APPDATA%\\ClipboardPlus sul tuo PC, e i dati sincronizzati risiedono solo in un'area nascosta privata dell'app nel tuo Google Drive. L'app usa solo l'ambito drive.appdata, quindi non tocca mai i tuoi normali file di Drive."
+        "text": "La cronologia delle copie resta per impostazione predefinita solo sul tuo PC (nella cartella %APPDATA%\\ClipboardPlus). Se attivi la sincronizzazione viene salvata anche in uno spazio privato dell'app nel tuo Google Drive: uno spazio che non compare nella schermata di Drive e che nulla al di fuori di Clipboard+ può aprire. L'app usa solo quello spazio privato, quindi non può accedere alle tue altre foto o documenti su Drive."
       }
     },
     {
@@ -141,7 +141,7 @@
       "name": "Cosa mi serve per attivare la sincronizzazione?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Per attivare la sincronizzazione con Google Drive, crea una volta un client OAuth desktop nella Google Cloud Console, colloca il file google_client.json nella cartella dell'app, poi fai clic su sincronizza nell'app per eseguire un accesso a Google e una concessione dei permessi una tantum."
+        "text": "Nelle impostazioni dell'app Android e dell'app Windows accedi a Google Drive con lo stesso account, poi attiva la sincronizzazione automatica. Da quel momento gli appunti dei due dispositivi restano sincronizzati da soli."
       }
     }
   ]
@@ -225,7 +225,7 @@
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">Panoramica</h2>
-      <p class="detail-long">Clipboard+ for Windows è un gestore degli appunti residente nella barra delle applicazioni che registra automaticamente i testi e le immagini che copi. Condivide lo stesso formato dati dell'app Android Clipboard+, così telefono e PC si sincronizzano in modo bidirezionale tramite il tuo Google Drive (una cartella nascosta privata dell'app) senza alcun server dedicato. Cattura gli elementi tramite gli eventi nativi degli appunti di Windows senza polling, e ti permette di organizzare testi e immagini in gruppi e snippet e di cercarvi all'interno.</p>
+      <p class="detail-long">Clipboard+ for Windows è un gestore degli appunti residente nella barra delle applicazioni che salva automaticamente i testi e le immagini che copi. Tutto viene registrato nell'istante in cui copi, così anche se sovrascrivi qualcosa per sbaglio puoi recuperare l'elemento precedente e incollarlo di nuovo. Usandolo insieme all'app Android Clipboard+, ciò che copi sul telefono lo incolli sul PC e ciò che copi sul PC lo incolli sul telefono. Quello che copi non passa da alcun server CodeDAC: viene salvato solo nel tuo Google Drive. Ciò che è salvato si può organizzare in gruppi e snippet e cercare.</p>
     </div>
   </section>
 
@@ -246,12 +246,12 @@
     <div class="container">
       <h2 class="detail-title">Funzioni principali</h2>
       <ul class="feature-list">
-        <li>Residente nella barra delle applicazioni con monitoraggio degli appunti in tempo reale senza polling (eventi Win32), catturando automaticamente testi e immagini</li>
-        <li>Sincronizzazione bidirezionale telefono-PC tramite il tuo Google Drive, senza server dedicato, usando solo l'ambito drive.appdata</li>
+        <li>Resta nella barra delle applicazioni e salva testi e immagini nell'istante in cui li copi — non deve controllare di continuo in background, quindi resta leggero</li>
+        <li>Sincronizzazione bidirezionale telefono-PC tramite il tuo Google Drive</li>
         <li>Interfaccia in stile Android con temi chiaro/scuro, barra laterale dei gruppi, snippet e funzioni di aggiungi/copia/modifica/cerca</li>
         <li>Selezione multipla per spostare, eliminare e unire in blocco, ordinamento dal più recente/più vecchio e visualizzatore di immagini a dimensione piena</li>
         <li>Tasti di scelta rapida globali per aprire la finestra e catturare all'istante il testo selezionato in altre app, oltre all'avvio automatico all'accensione</li>
-        <li>Esportazione/importazione compatibile con il formato di backup di Android Clipboard+ (JSON per il testo, ZIP per le immagini)</li>
+        <li>Esportazione/importazione compatibile con il formato di backup di Android Clipboard+</li>
       </ul>
     </div>
   </section>
@@ -272,9 +272,9 @@
     <div class="container">
       <h2 class="detail-title">FAQ</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Si sincronizza con l'app Android Clipboard+?</p><p class="faq-a">Sì. Entrambe le app condividono lo stesso formato di sincronizzazione e mantengono gli appunti di telefono e PC sincronizzati in modo bidirezionale tramite una cartella privata dell'app nel tuo Google Drive, senza alcun server dedicato coinvolto.</p></div>
-        <div class="faq-item"><p class="faq-q">Dove vengono memorizzati i dati degli appunti e sono al sicuro?</p><p class="faq-a">I dati locali sono memorizzati in %APPDATA%\ClipboardPlus sul tuo PC, e i dati sincronizzati risiedono solo in un'area nascosta privata dell'app nel tuo Google Drive. L'app usa solo l'ambito drive.appdata, quindi non tocca mai i tuoi normali file di Drive.</p></div>
-        <div class="faq-item"><p class="faq-q">Cosa mi serve per attivare la sincronizzazione?</p><p class="faq-a">Per attivare la sincronizzazione con Google Drive, crea una volta un client OAuth desktop nella Google Cloud Console, colloca il file google_client.json nella cartella dell'app, poi fai clic su sincronizza nell'app per eseguire un accesso a Google e una concessione dei permessi una tantum.</p></div>
+        <div class="faq-item"><p class="faq-q">Si sincronizza con l'app Android Clipboard+?</p><p class="faq-a">Sì. Attiva la sincronizzazione con lo stesso account Google su entrambi i dispositivi: ciò che copi sul telefono lo incolli sul PC e ciò che copi sul PC lo incolli sul telefono. I contenuti non passano da alcun server CodeDAC: viaggiano solo attraverso il tuo Google Drive.</p></div>
+        <div class="faq-item"><p class="faq-q">Dove vengono memorizzati i dati degli appunti e sono al sicuro?</p><p class="faq-a">La cronologia delle copie resta per impostazione predefinita solo sul tuo PC (nella cartella %APPDATA%\ClipboardPlus). Se attivi la sincronizzazione viene salvata anche in uno spazio privato dell'app nel tuo Google Drive: uno spazio che non compare nella schermata di Drive e che nulla al di fuori di Clipboard+ può aprire. L'app usa solo quello spazio privato, quindi non può accedere alle tue altre foto o documenti su Drive.</p></div>
+        <div class="faq-item"><p class="faq-q">Cosa mi serve per attivare la sincronizzazione?</p><p class="faq-a">Nelle impostazioni dell'app Android e dell'app Windows accedi a Google Drive con lo stesso account, poi attiva la sincronizzazione automatica. Da quel momento gli appunti dei due dispositivi restano sincronizzati da soli.</p></div>
       </div>
     </div>
   </section>

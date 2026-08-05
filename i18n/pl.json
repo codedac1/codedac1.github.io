@@ -368,27 +368,27 @@
       "seo": "Menedżer schowka Windows",
       "desc": "Menedżer schowka w zasobniku Windows, który synchronizuje się z aplikacją Clipboard+ na Androida.",
       "tagline": "Menedżer schowka w zasobniku Windows, który synchronizuje się z Twoim telefonem z Androidem przez Twój własny Dysk Google.",
-      "long": "Clipboard+ for Windows to menedżer schowka rezydujący w zasobniku systemowym, który automatycznie rejestruje kopiowane teksty i obrazy. Współdzieli ten sam format danych co aplikacja Clipboard+ na Androida, więc Twój telefon i komputer synchronizują się dwukierunkowo przez Twój własny Dysk Google (prywatny, ukryty folder aplikacji), bez dedykowanego serwera. Przechwytuje wpisy dzięki natywnym zdarzeniom schowka Windows, bez odpytywania, i pozwala porządkować teksty oraz obrazy w grupy i fragmenty, a także wyszukiwać wśród nich.",
+      "long": "Clipboard+ for Windows to menedżer schowka rezydujący w zasobniku systemowym, który automatycznie zapisuje kopiowane teksty i obrazy. Wszystko zostaje zapisane w chwili kopiowania, więc nawet jeśli przypadkiem nadpiszesz schowek, możesz przywrócić poprzednią pozycję i wkleić ją ponownie. W parze z aplikacją Clipboard+ na Androida to, co skopiujesz na telefonie, wkleisz na komputerze, a to, co skopiujesz na komputerze — na telefonie. Kopiowane treści nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Zapisane wpisy możesz porządkować w grupy i fragmenty oraz przeszukiwać.",
       "features": [
-        "Rezyduje w zasobniku z monitorowaniem schowka w czasie rzeczywistym bez odpytywania (zdarzenia Win32), automatycznie przechwytując teksty i obrazy",
-        "Dwukierunkowa synchronizacja telefon–komputer przez Twój własny Dysk Google — bez dedykowanego serwera, z użyciem wyłącznie zakresu drive.appdata",
+        "Rezyduje w zasobniku i zapisuje teksty oraz obrazy w chwili skopiowania — nie musi stale sprawdzać schowka w tle, więc pozostaje lekki",
+        "Dwukierunkowa synchronizacja telefon–komputer przez Twój własny Dysk Google",
         "Interfejs w stylu Androida z jasnym/ciemnym motywem, paskiem bocznym grup, fragmentami oraz przypinaniem/kopiowaniem/edycją/wyszukiwaniem",
         "Zbiorcze przenoszenie, usuwanie i scalanie wielu zaznaczonych elementów, sortowanie od najnowszych/najstarszych oraz podgląd obrazu w pełnym rozmiarze",
         "Globalne skróty klawiszowe do otwierania okna i natychmiastowego przechwytywania tekstu zaznaczonego w innych aplikacjach, plus uruchamianie przy starcie systemu",
-        "Eksport/import zgodny z formatem kopii zapasowej Clipboard+ na Androida (tekst w JSON, obrazy w ZIP)"
+        "Eksport/import zgodny z formatem kopii zapasowej Clipboard+ na Androida"
       ],
       "faq": [
         {
           "q": "Czy synchronizuje się z aplikacją Clipboard+ na Androida?",
-          "a": "Tak. Obie aplikacje współdzielą ten sam format synchronizacji i utrzymują schowki telefonu oraz komputera zsynchronizowane dwukierunkowo przez prywatny folder aplikacji na Twoim własnym Dysku Google, bez udziału dedykowanego serwera."
+          "a": "Tak. Włącz synchronizację na obu urządzeniach na tym samym koncie Google, a to, co skopiujesz na telefonie, wkleisz na komputerze, a to, co skopiujesz na komputerze — na telefonie. Treści nie przechodzą przez żaden serwer CodeDAC: krążą wyłącznie przez Twój własny Dysk Google."
         },
         {
           "q": "Gdzie przechowywane są dane mojego schowka i czy są bezpieczne?",
-          "a": "Dane lokalne są przechowywane w folderze %APPDATA%\\ClipboardPlus na Twoim komputerze, a dane zsynchronizowane znajdują się wyłącznie w prywatnym, ukrytym obszarze aplikacji na Twoim własnym Dysku Google. Aplikacja używa tylko zakresu drive.appdata, więc nigdy nie dotyka Twoich zwykłych plików na Dysku."
+          "a": "Historia kopiowania domyślnie pozostaje tylko na Twoim komputerze (w folderze %APPDATA%\\ClipboardPlus). Po włączeniu synchronizacji zapisuje się także w prywatnym obszarze aplikacji na Twoim własnym Dysku Google — obszarze, który nie pojawia się w widoku Dysku i którego nie otworzy nic poza Clipboard+. Aplikacja korzysta wyłącznie z tego obszaru, więc nie sięga do Twoich pozostałych zdjęć ani dokumentów na Dysku."
         },
         {
           "q": "Czego potrzebuję, aby włączyć synchronizację?",
-          "a": "Aby włączyć synchronizację z Dyskiem Google, utwórz raz klienta OAuth typu desktop w Google Cloud Console, umieść plik google_client.json w folderze aplikacji, a następnie kliknij synchronizację w aplikacji, by jednorazowo zalogować się do Google i przyznać uprawnienia."
+          "a": "W ustawieniach aplikacji na Androida i aplikacji na Windows zaloguj się do Dysku Google na to samo konto, a następnie włącz automatyczną synchronizację. Od tej pory schowki obu urządzeń synchronizują się same."
         }
       ]
     },

@@ -368,27 +368,27 @@
       "seo": "PC Clipboard Manager",
       "desc": "Isang Windows tray clipboard manager na naka-sync sa Clipboard+ Android app.",
       "tagline": "Isang Windows tray clipboard manager na naka-sync sa Android phone mo sa pamamagitan ng sarili mong Google Drive.",
-      "long": "Ang Clipboard+ for Windows ay isang tray-resident na clipboard manager na awtomatikong nagre-record ng teksto at larawan na kinokopya mo. Ginagamit nito ang parehong format ng data ng Android Clipboard+ app, kaya nag-sync nang bidirectional ang phone at PC mo sa pamamagitan ng sarili mong Google Drive (isang app-private na nakatagong folder) nang walang dedikadong server. Kinukuha nito ang mga clip sa pamamagitan ng native na Windows clipboard event nang walang polling, at binibigyang-daan kang ayusin ang teksto at larawan sa mga grupo at snippet at maghanap sa mga ito.",
+      "long": "Ang Clipboard+ for Windows ay isang clipboard manager na nakatira sa tray at awtomatikong nagse-save ng teksto at larawang kinokopya mo. Naitatala ang lahat sa mismong sandali ng pagkopya, kaya kahit hindi mo sinasadyang mapatungan ito, mababawi mo pa rin ang naunang laman at maipa-paste muli. Kapag ginamit kasabay ng Android Clipboard+ app, ang kinopya mo sa telepono ay maipa-paste mo sa PC, at ang kinopya mo sa PC ay maipa-paste mo sa telepono. Hindi dumadaan sa anumang server ng CodeDAC ang kinokopya mo — nakaimbak lamang ito sa sarili mong Google Drive. Ang mga naka-save ay maaaring ayusin sa mga grupo at snippet at hanapin.",
       "features": [
-        "Tray-resident na may poll-free at real-time na clipboard monitoring (Win32 events), awtomatikong kinukuha ang teksto at larawan",
-        "Bidirectional na sync ng phone-to-PC sa pamamagitan ng sarili mong Google Drive — walang dedikadong server, gamit lamang ang drive.appdata scope",
+        "Nakatira sa tray at nagse-save ng teksto at larawan sa mismong sandali ng pagkopya — hindi kailangang tuloy-tuloy na sumilip sa background, kaya magaan ito",
+        "Bidirectional na sync ng phone-to-PC sa pamamagitan ng sarili mong Google Drive",
         "Android-style na UI na may light/dark theme, group sidebar, snippet, at pin/copy/edit/search",
         "Multi-select na bulk move, delete, at merge, newest/oldest na sorting, at isang full-size na image viewer",
         "Global hotkey para buksan ang window at agad na kunin ang teksto na napili sa ibang app, kasama ang run-at-startup",
-        "Export/import na compatible sa backup format ng Android Clipboard+ (text JSON, image ZIP)"
+        "Export/import na compatible sa backup format ng Android Clipboard+"
       ],
       "faq": [
         {
           "q": "Nag-sync ba ito sa Android Clipboard+ app?",
-          "a": "Oo. Parehong ginagamit ng mga app ang parehong sync format at pinapanatiling naka-sync nang bidirectional ang clipboard ng phone at PC mo sa pamamagitan ng isang app-private na folder sa sarili mong Google Drive, nang walang dedikadong server na kasangkot."
+          "a": "Oo. I-on ang sync gamit ang iisang Google account sa dalawang device, at ang kinopya mo sa telepono ay maipa-paste mo sa PC, at ang kinopya mo sa PC ay maipa-paste mo sa telepono. Hindi dumadaan sa anumang server ng CodeDAC ang laman — dumadaan lamang ito sa sarili mong Google Drive."
         },
         {
           "q": "Saan iniimbak ang aking clipboard data, at ligtas ba ito?",
-          "a": "Ang lokal na data ay iniimbak sa %APPDATA%\\ClipboardPlus sa PC mo, at ang naka-sync na data ay nananatili lamang sa isang app-private na nakatagong bahagi ng sarili mong Google Drive. Ginagamit lamang ng app ang drive.appdata scope, kaya hindi nito hinihipo ang iyong mga regular na Drive file."
+          "a": "Ang kasaysayan ng kinopya ay nananatili sa PC mo lamang bilang default (sa folder na %APPDATA%\\ClipboardPlus). Kapag in-on mo ang sync, naiimbak din ito sa isang pribadong bahagi ng app sa sarili mong Google Drive — isang bahaging hindi lumalabas sa screen ng Drive at hindi mabubuksan ng kahit ano maliban sa Clipboard+. Ang app ay gumagamit lamang ng pribadong bahaging iyon, kaya hindi nito maaabot ang iba mong larawan o dokumento sa Drive."
         },
         {
           "q": "Ano ang kailangan ko para i-enable ang sync?",
-          "a": "Para i-on ang Google Drive sync, gumawa ng isang desktop OAuth client nang isang beses sa Google Cloud Console, ilagay ang google_client.json file sa app folder, pagkatapos ay i-click ang sync sa app para gawin ang one-time na Google sign-in at pagbibigay ng pahintulot."
+          "a": "Sa settings ng Android app at ng Windows app, mag-sign in sa Google Drive gamit ang iisang account, tapos i-on ang automatic sync. Pagkatapos noon, kusa nang mananatiling naka-sync ang clipboard ng dalawang device."
         }
       ]
     },
