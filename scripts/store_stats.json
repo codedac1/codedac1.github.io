@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-03",
+  "generatedAt": "2026-08-11",
   "source": {
     "lang": "en",
     "country": "us"
   },
   "aggregate": {
     "publishedApps": 12,
-    "totalMinInstalls": 17310,
-    "totalRatings": 211,
-    "avgScore": 3.86,
+    "totalMinInstalls": 17810,
+    "totalRatings": 219,
+    "avgScore": 3.87,
     "byStore": {
-      "play": 17310,
+      "play": 17810,
       "msstore": 0
     }
   },
@@ -19,8 +19,8 @@
     "clipboard": {
       "store": "play",
       "appId": "com.codedac.clipboard",
-      "score": 3.86,
-      "ratings": 161,
+      "score": 3.87,
+      "ratings": 167,
       "installs": "10,000+",
       "minInstalls": 10000
     },
@@ -28,7 +28,7 @@
       "store": "play",
       "appId": "com.codedac.autostart",
       "score": 3.86,
-      "ratings": 50,
+      "ratings": 52,
       "installs": "5,000+",
       "minInstalls": 5000
     },
@@ -53,8 +53,8 @@
       "appId": "com.codedac.floattimer",
       "score": null,
       "ratings": 0,
-      "installs": "500+",
-      "minInstalls": 500
+      "installs": "1,000+",
+      "minInstalls": 1000
     },
     "volumebooster": {
       "store": "play",
