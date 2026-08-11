@@ -455,6 +455,36 @@
           "a": "Tak. Pisanie i przechowywanie notatek jest darmowe i nieograniczone, a wersja dla Windows nie zawiera reklam. Wersja bezpłatna trzyma na ekranie jedną pływającą notatkę naraz i daje dwa z siedmiu kolorów. Pro to jednorazowy zakup, a nie subskrypcja — dodaje nieograniczone pływające notatki, pełną paletę, obrazy w notatce, regulowaną przezroczystość, synchronizację z Dyskiem Google oraz eksport i import."
         }
       ]
+    },
+    "floattimerwin": {
+      "name": "FloatTimer+ for Windows",
+      "tag": "Pływające narzędzia",
+      "seo": "Pływający minutnik PC",
+      "desc": "Minutniki, liczniki i stopery, które pływają nad każdym oknem w Windows jako małe pastelowe karteczki.",
+      "tagline": "Minutniki, liczniki i stopery pływające nad tym, nad czym właśnie pracujesz: małe pastelowe karteczki, które przeciągasz, gdzie chcesz — i które nigdy nie zabierają fokusu aplikacji pod spodem.",
+      "long": "FloatTimer+ for Windows to wersja na komputer aplikacji FloatTimer+ na Androida. Zamiast okna, do którego trzeba się przełączać, każdy minutnik staje się małą pastelową karteczką pływającą nad Twoją pracą — nad edytorem, przeglądarką, rozmową wideo — i odlicza na widoku. Kliknij karteczkę, aby ją uruchomić lub zatrzymać, przeciągnij ją tam, gdzie pasuje, albo złóż do małej pastylki, gdy potrzebujesz ekranu. Karteczka nigdy nie odbiera fokusu aplikacji za nią, więc kursor zostaje dokładnie tam, gdzie go zostawiłeś podczas pisania. Liczniki odejmują i dodają po kliknięciu lewej lub prawej połowy, stopery liczą w górę, a dziewięć pastelowych kolorów pozwala je odróżnić na pierwszy rzut oka. Aplikacja siedzi w zasobniku systemowym, nie wymaga konta i nigdy nie korzysta z sieci — Twoje minutniki zostają w pliku na Twoim własnym komputerze.",
+      "features": [
+        "Minutniki, liczniki i stopery pływają nad każdym oknem jako małe pastelowe karteczki — przeciągaj je, zmieniaj rozmiar lub składaj do pastylki",
+        "Nigdy nie zabiera fokusu — kliknij lub przeciągnij karteczkę, a kursor zostanie w dokumencie, w którym pisałeś",
+        "Start, pauza i zerowanie prosto z karteczki, bez otwierania aplikacji; liczniki dodają i odejmują po kliknięciu połowy",
+        "Dziewięć pastelowych kolorów, regulowany rozmiar i przezroczystość karteczki oraz okna zgodne z jasnym lub ciemnym motywem",
+        "Plik kopii zapasowej ma ten sam format co w aplikacji na Androida — wyeksportuj po jednej stronie i przywróć po drugiej",
+        "Skróty globalne, zasobnik systemowy, uruchamianie przy logowaniu, 18 języków. Bez konta, bez sieci, bez reklam — a Pro to jednorazowy zakup"
+      ],
+      "faq": [
+        {
+          "q": "Czy to ta sama aplikacja co FloatTimer+ na Androida?",
+          "a": "To ta sama aplikacja zbudowana dla Windows, z tymi samymi pływającymi karteczkami. Każdą kupuje się w jej własnym sklepie. Obie nie synchronizują się automatycznie, ale czytają i zapisują ten sam plik kopii zapasowej — wyeksportuj po jednej stronie i przywróć po drugiej, aby przenieść listę."
+        },
+        {
+          "q": "Czy przeszkadza aplikacji pod spodem?",
+          "a": "Nie. Karteczka to pływające okno, które nigdy nie przejmuje fokusu, więc kliknięcie lub przeciągnięcie zostawia kursor dokładnie tam, gdzie pisałeś. Gdy potrzebujesz ekranu, złóż karteczkę do małej pastylki albo ukryj wszystkie naraz skrótem klawiszowym."
+        },
+        {
+          "q": "Czy można korzystać za darmo?",
+          "a": "Tak. Możesz utworzyć dowolnie wiele minutników, liczników i stoperów — lista nigdy nie jest ograniczona — a wersja na Windows nie ma reklam. W wersji bezpłatnej na ekranie pływa jedna karteczka naraz. Pro to jednorazowy zakup, nie subskrypcja, i dodaje nieograniczoną liczbę pływających karteczek, automatyczne powtarzanie minutników, dowolny kolor oraz własny dźwięk alarmu lub alert pełnoekranowy."
+        }
+      ]
     }
   }
 }

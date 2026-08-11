@@ -455,6 +455,36 @@
           "a": "Sì. Scrivere e conservare le note è gratuito e illimitato, e la versione Windows non contiene pubblicità. La versione gratuita fa fluttuare una nota alla volta e offre due dei sette colori. Pro è un acquisto una tantum, non un abbonamento, e aggiunge note fluttuanti illimitate, l'intera palette, le immagini nella nota, l'opacità regolabile, la sincronizzazione con Google Drive ed esportazione e importazione."
         }
       ]
+    },
+    "floattimerwin": {
+      "name": "FloatTimer+ for Windows",
+      "tag": "Flottante",
+      "seo": "timer flottante per PC",
+      "desc": "Timer, contatori e cronometri che fluttuano sopra qualsiasi finestra di Windows come piccole schede pastello.",
+      "tagline": "Timer, contatori e cronometri che fluttuano sopra ciò su cui stai lavorando: piccole schede pastello da trascinare dove vuoi, che non rubano mai il focus all'app sottostante.",
+      "long": "FloatTimer+ for Windows è la versione desktop dell'app Android FloatTimer+. Invece di una finestra a cui devi passare, ogni timer diventa una piccola scheda pastello che fluttua sopra il tuo lavoro — sopra l'editor, il browser, la videochiamata — e scorre bene in vista. Fai clic su una scheda per avviarla o metterla in pausa, trascinala dove serve oppure ripiegala in una pastiglia quando ti serve lo schermo. La scheda non toglie mai il focus all'app che sta dietro, quindi il cursore resta esattamente dove lo hai lasciato mentre scrivi. I contatori tolgono e aggiungono con un clic sulle due metà della scheda, i cronometri contano in avanti e nove colori pastello li tengono distinti a colpo d'occhio. L'app resta nell'area di notifica, non richiede alcun account e non usa mai la rete: i tuoi timer restano in un file sul tuo PC.",
+      "features": [
+        "Timer, contatori e cronometri fluttuano sopra ogni finestra come piccole schede pastello — trascinale ovunque, ridimensionale o ripiegale in una pastiglia",
+        "Non ruba mai il focus — fai clic o trascina una scheda e il cursore resta nel documento che stavi scrivendo",
+        "Avvio, pausa e azzeramento dalla scheda stessa senza aprire l'app; i contatori aggiungono e tolgono con un clic sulle due metà",
+        "Nove colori pastello, dimensione e opacità delle schede regolabili e finestre che seguono il tema chiaro o scuro",
+        "Il file di backup ha lo stesso formato dell'app Android: esporti da una parte e ripristini dall'altra",
+        "Scorciatoie globali, area di notifica, avvio all'accesso, 18 lingue. Nessun account, nessuna rete, nessuna pubblicità — e Pro è un acquisto una tantum"
+      ],
+      "faq": [
+        {
+          "q": "È la stessa app di FloatTimer+ su Android?",
+          "a": "È la stessa app realizzata per Windows, con le stesse schede flottanti. Ognuna si acquista nel proprio store. Le due non si sincronizzano automaticamente, ma leggono e scrivono lo stesso file di backup: esporta da una parte e ripristina dall'altra per spostare il tuo elenco."
+        },
+        {
+          "q": "Dà fastidio all'app che sta sotto?",
+          "a": "No. Una scheda è una finestra flottante che non prende mai il focus, quindi facendo clic o trascinandola il cursore resta esattamente dove stavi scrivendo. Quando ti serve lo schermo, ripiega la scheda in una piccola pastiglia oppure nascondile tutte con una scorciatoia."
+        },
+        {
+          "q": "Si può usare gratis?",
+          "a": "Sì. Puoi creare tutti i timer, i contatori e i cronometri che vuoi — l'elenco non ha mai limiti — e la versione Windows non ha pubblicità. La versione gratuita tiene una scheda flottante alla volta. Pro è un acquisto una tantum, non un abbonamento, e aggiunge schede flottanti illimitate, timer che si ripetono, qualsiasi colore e un suono di avviso a tua scelta o un avviso a schermo intero."
+        }
+      ]
     }
   }
 }

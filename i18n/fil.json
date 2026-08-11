@@ -455,6 +455,36 @@
           "a": "Oo. Libre at walang limitasyon ang pagsulat at pag-imbak ng nota, at walang ads ang bersyon para sa Windows. Ang libreng bersyon ay naglulutang ng isang nota sa bawat pagkakataon at may dalawa sa pitong kulay. Ang Pro ay isang beses na bayad, hindi subscription, at nagdadagdag ng walang limitasyong lumulutang na nota, buong palette, larawan sa loob ng nota, naiaayos na opacity, Google Drive sync, at export at import ng nota."
         }
       ]
+    },
+    "floattimerwin": {
+      "name": "FloatTimer+ for Windows",
+      "tag": "Floating",
+      "seo": "Floating Timer sa PC",
+      "desc": "Mga timer, counter at stopwatch na lumulutang sa ibabaw ng kahit anong window sa Windows bilang maliliit na pastel card.",
+      "tagline": "Mga timer, counter at stopwatch na lumulutang sa ibabaw ng kung ano man ang ginagawa mo: maliliit na pastel card na maikakaladkad mo kahit saan, at hindi kailanman inaagaw ang focus ng app sa ilalim.",
+      "long": "Ang FloatTimer+ for Windows ay ang desktop na bersyon ng Android app na FloatTimer+. Sa halip na window na kailangan mong lipatan, ang bawat timer ay nagiging maliit na pastel card na lumulutang sa ibabaw ng trabaho mo — sa ibabaw ng editor, ng browser, ng video call — at nagbibilang pababa sa mismong harap mo. I-click ang card para simulan o i-pause, ikaladkad ito kung saan mo gusto, o itiklop bilang maliit na chip kapag kailangan mo ang screen. Hindi kailanman kinukuha ng card ang focus mula sa app sa likod nito, kaya nananatili ang cursor mo mismo sa pinag-i-type mo. Ang mga counter ay nagbabawas at nagdaragdag sa pag-click sa kaliwa o kanang kalahati ng card, ang mga stopwatch ay bumibilang pataas, at siyam na pastel na kulay ang nagpapadali para makilala mo agad ang bawat isa. Nakatira ito sa system tray, walang kailangang account, at hindi gumagamit ng network — nananatili ang mga timer mo sa isang file sa sarili mong PC.",
+      "features": [
+        "Lumulutang ang mga timer, counter at stopwatch sa ibabaw ng lahat ng window bilang maliliit na pastel card — ikaladkad kahit saan, baguhin ang laki, o itiklop bilang chip",
+        "Hindi umaagaw ng focus — i-click o ikaladkad ang card at mananatili ang cursor mo sa dokumentong pinag-i-type mo",
+        "Simulan, i-pause at i-reset mula mismo sa card nang hindi binubuksan ang app; nagdaragdag at nagbabawas ang counter sa pag-click sa bawat kalahati",
+        "Siyam na pastel na kulay, naa-adjust na laki at transparency ng card, at mga window ng app na sumusunod sa light o dark theme mo",
+        "Pareho ang format ng backup file sa Android app: mag-export sa isang panig at i-restore sa kabila",
+        "Global hotkeys, system tray, tumatakbo sa logon, 18 wika. Walang account, walang network, walang ads — at isang beses lang bayaran ang Pro"
+      ],
+      "faq": [
+        {
+          "q": "Pareho ba ito sa FloatTimer+ sa Android?",
+          "a": "Iisa lang ang app, ginawa para sa Windows, at pareho rin ang lumulutang na mga card. Hiwalay ang binibili sa bawat store. Hindi sila awtomatikong nagsi-sync, pero pareho ang backup file na binabasa at sinusulatan nila, kaya mailalipat mo ang listahan mo sa pag-export sa isang panig at pag-restore sa kabila."
+        },
+        {
+          "q": "Nakakasagabal ba ito sa app sa ilalim?",
+          "a": "Hindi. Ang card ay lumulutang na window na hindi kailanman kumukuha ng focus, kaya kahit i-click o ikaladkad mo, nananatili ang cursor mo mismo sa pinag-i-type mo. Kapag kailangan mo ang screen, itiklop ang card bilang maliit na chip o itago lahat ng card nang sabay sa isang hotkey."
+        },
+        {
+          "q": "Libre ba itong gamitin?",
+          "a": "Oo. Makakagawa ka ng kahit ilang timer, counter at stopwatch — walang limitasyon ang listahan — at walang ads ang bersyong Windows. Isang card lang ang pinalulutang ng libreng bersyon sa screen nang sabay. Ang Pro ay isahang bayad, hindi subscription, at nagdaragdag ng walang limitasyong lumulutang na card, umuulit na timer, kahit anong kulay, at sarili mong alert sound o full-screen alert."
+        }
+      ]
     }
   }
 }

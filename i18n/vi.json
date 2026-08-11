@@ -455,6 +455,36 @@
           "a": "Có. Viết và lưu ghi chú là miễn phí, không giới hạn, và bản Windows không có quảng cáo. Bản miễn phí cho nổi một ghi chú tại một thời điểm và cho bạn hai trong bảy màu. Pro là mua một lần chứ không phải thuê bao, bổ sung ghi chú nổi không giới hạn, đủ bảng màu, hình ảnh trong ghi chú, chỉnh độ mờ, đồng bộ Google Drive cùng xuất và nhập ghi chú."
         }
       ]
+    },
+    "floattimerwin": {
+      "name": "FloatTimer+ for Windows",
+      "tag": "Cửa sổ nổi",
+      "seo": "Hẹn giờ nổi cho PC",
+      "desc": "Bộ hẹn giờ, bộ đếm và đồng hồ bấm giờ nổi trên mọi cửa sổ Windows dưới dạng thẻ pastel nhỏ.",
+      "tagline": "Bộ hẹn giờ, bộ đếm và đồng hồ bấm giờ nổi ngay trên thứ bạn đang làm: những tấm thẻ pastel nhỏ kéo đến đâu cũng được, và không bao giờ cướp tiêu điểm của ứng dụng bên dưới.",
+      "long": "FloatTimer+ for Windows là phiên bản máy tính của ứng dụng FloatTimer+ trên Android. Thay vì một cửa sổ bạn phải chuyển sang, mỗi bộ hẹn giờ trở thành một tấm thẻ pastel nhỏ nổi trên công việc của bạn — trên trình soạn thảo, trình duyệt hay cuộc gọi video — và đếm ngược ngay trước mắt. Nhấp vào thẻ để bắt đầu hoặc tạm dừng, kéo nó tới chỗ bạn muốn, hoặc thu gọn thành một chip nhỏ khi cần chỗ trên màn hình. Thẻ không bao giờ lấy tiêu điểm khỏi ứng dụng phía sau, nên con trỏ vẫn nằm đúng chỗ bạn đang gõ. Bộ đếm trừ và cộng khi bạn nhấp vào nửa trái hoặc nửa phải của thẻ, đồng hồ bấm giờ đếm lên, và chín màu pastel giúp phân biệt chúng chỉ trong một cái liếc. Ứng dụng nằm trong khay hệ thống, không cần tài khoản và không bao giờ dùng mạng — bộ hẹn giờ của bạn nằm trong một tệp trên chính máy tính của bạn.",
+      "features": [
+        "Bộ hẹn giờ, bộ đếm và đồng hồ bấm giờ nổi trên mọi cửa sổ dưới dạng thẻ pastel nhỏ — kéo tới bất cứ đâu, đổi kích thước hoặc thu gọn thành chip",
+        "Không bao giờ cướp tiêu điểm — nhấp hay kéo thẻ, con trỏ vẫn ở trong tài liệu bạn đang gõ",
+        "Bắt đầu, tạm dừng và đặt lại ngay trên thẻ mà không cần mở ứng dụng; bộ đếm cộng và trừ khi nhấp vào từng nửa thẻ",
+        "Chín màu pastel, chỉnh được kích thước và độ trong của thẻ, cửa sổ ứng dụng đi theo giao diện sáng hoặc tối",
+        "Tệp sao lưu cùng định dạng với ứng dụng Android: xuất ở bên này rồi khôi phục ở bên kia",
+        "Phím tắt toàn cục, khay hệ thống, chạy khi đăng nhập, 18 ngôn ngữ. Không tài khoản, không mạng, không quảng cáo — và Pro là mua một lần"
+      ],
+      "faq": [
+        {
+          "q": "Đây có phải cùng một ứng dụng với FloatTimer+ trên Android không?",
+          "a": "Đây là cùng một ứng dụng được dựng cho Windows, với những tấm thẻ nổi giống hệt. Mỗi bên được mua trên cửa hàng riêng. Hai bên không tự đồng bộ, nhưng cùng đọc và ghi một định dạng tệp sao lưu, nên bạn có thể chuyển danh sách bằng cách xuất ở bên này và khôi phục ở bên kia."
+        },
+        {
+          "q": "Nó có cản trở ứng dụng bên dưới không?",
+          "a": "Không. Thẻ là một cửa sổ nổi không bao giờ nhận tiêu điểm, nên nhấp hay kéo nó đều để con trỏ đúng ở chỗ bạn đang gõ. Khi cần chỗ trên màn hình, hãy thu thẻ thành một chip nhỏ, hoặc ẩn toàn bộ thẻ cùng lúc bằng phím tắt."
+        },
+        {
+          "q": "Có dùng miễn phí được không?",
+          "a": "Có. Bạn có thể tạo bao nhiêu bộ hẹn giờ, bộ đếm và đồng hồ bấm giờ tuỳ thích — danh sách không bao giờ bị giới hạn — và bản Windows không có quảng cáo. Bản miễn phí cho nổi một thẻ trên màn hình tại một thời điểm. Pro là mua một lần chứ không phải thuê bao, thêm số thẻ nổi không giới hạn, hẹn giờ lặp lại, màu tuỳ ý và âm báo riêng hoặc cảnh báo toàn màn hình."
+        }
+      ]
     }
   }
 }

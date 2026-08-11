@@ -455,6 +455,36 @@
           "a": "Evet. Not yazmak ve saklamak ücretsiz ve sınırsızdır, Windows sürümünde reklam yoktur. Ücretsiz sürüm ekranda aynı anda bir not yüzdürür ve yedi rengin ikisini verir. Pro abonelik değil tek seferlik satın almadır; sınırsız yüzen not, tüm palet, not içi görseller, ayarlanabilir not saydamlığı, Google Drive eşitlemesi ile dışa ve içe aktarma ekler."
         }
       ]
+    },
+    "floattimerwin": {
+      "name": "FloatTimer+ for Windows",
+      "tag": "Kayan Pencere",
+      "seo": "PC kayan zamanlayıcı",
+      "desc": "Windows'ta her pencerenin üzerinde küçük pastel kartlar olarak kayan zamanlayıcılar, sayaçlar ve kronometreler.",
+      "tagline": "Üzerinde çalıştığınız her şeyin üstünde kayan zamanlayıcılar, sayaçlar ve kronometreler: istediğiniz yere sürüklediğiniz küçük pastel kartlar, alttaki uygulamanın odağını asla çalmaz.",
+      "long": "FloatTimer+ for Windows, Android'deki FloatTimer+ uygulamasının masaüstü sürümüdür. Geçiş yapmanız gereken bir pencere yerine, her zamanlayıcı çalışmanızın üzerinde — düzenleyicinizin, tarayıcınızın, görüntülü görüşmenizin üzerinde — kayan küçük bir pastel karta dönüşür ve göz önünde geri sayar. Başlatmak veya duraklatmak için karta tıklayın, ait olduğu yere sürükleyin ya da ekrana ihtiyacınız olduğunda küçük bir çipe katlayın. Kart, arkasındaki uygulamanın odağını asla almaz; yazarken karta dokunsanız bile imleç tam bıraktığınız yerde kalır. Sayaçlar kartın sol ve sağ yarısına tıklayarak azaltıp artırır, kronometreler yukarı doğru sayar ve dokuz pastel renk hepsini bir bakışta ayırt etmenizi sağlar. Uygulama sistem tepsisinde durur, hesap istemez ve ağa hiç çıkmaz — zamanlayıcılarınız kendi bilgisayarınızdaki bir dosyada kalır.",
+      "features": [
+        "Zamanlayıcılar, sayaçlar ve kronometreler her pencerenin üzerinde küçük pastel kartlar olarak kayar — istediğiniz yere sürükleyin, boyutlandırın veya çipe katlayın",
+        "Odağı asla çalmaz — karta tıklayın ya da sürükleyin, imleciniz yazdığınız belgede kalır",
+        "Uygulamayı açmadan doğrudan kart üzerinde başlatın, duraklatın ve sıfırlayın; sayaçlar iki yarısına tıklayarak artar ve azalır",
+        "Dokuz pastel renk, ayarlanabilir kart boyutu ve saydamlık, açık veya koyu temanızı izleyen uygulama pencereleri",
+        "Yedek dosyası Android uygulamasıyla aynı biçimde: bir tarafta dışa aktarın, diğerinde geri yükleyin",
+        "Genel kısayollar, sistem tepsisi, oturum açıldığında başlatma, 18 dil. Hesap yok, ağ yok, reklam yok — ve Pro tek seferlik bir satın alma"
+      ],
+      "faq": [
+        {
+          "q": "Bu, Android'deki FloatTimer+ ile aynı uygulama mı?",
+          "a": "Windows için yapılmış aynı uygulama; kayan kartlar da aynı. Her biri kendi mağazasından satın alınır. İkisi otomatik olarak eşitlenmez ama aynı yedek dosyasını okuyup yazarlar; bir tarafta dışa aktarıp diğerinde geri yükleyerek listenizi taşıyabilirsiniz."
+        },
+        {
+          "q": "Alttaki uygulamayı engeller mi?",
+          "a": "Hayır. Kart, odağı hiç almayan kayan bir penceredir; tıklamanız veya sürüklemeniz imlecinizi tam yazdığınız yerde bırakır. Ekrana ihtiyacınız olduğunda kartı küçük bir çipe katlayın ya da bir kısayolla tüm kartları aynı anda gizleyin."
+        },
+        {
+          "q": "Ücretsiz kullanılabilir mi?",
+          "a": "Evet. İstediğiniz kadar zamanlayıcı, sayaç ve kronometre oluşturabilirsiniz — listede hiçbir sınır yok — ve Windows sürümünde reklam bulunmaz. Ücretsiz sürüm ekranda aynı anda bir kart gösterir. Pro, abonelik değil tek seferlik bir satın almadır; sınırsız kayan kart, kendini tekrarlayan zamanlayıcılar, dilediğiniz renk ve kendi uyarı sesiniz ya da tam ekran uyarı ekler."
+        }
+      ]
     }
   }
 }

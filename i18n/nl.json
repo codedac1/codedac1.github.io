@@ -455,6 +455,36 @@
           "a": "Ja. Notities schrijven en bewaren is gratis en onbeperkt, en de Windows-versie bevat geen advertenties. De gratis versie laat één notitie tegelijk zweven en geeft je twee van de zeven kleuren. Pro is een eenmalige aankoop, geen abonnement, en voegt onbeperkt zwevende notities toe, het volledige palet, afbeeldingen in de notitie, instelbare transparantie, Google Drive-synchronisatie en export en import."
         }
       ]
+    },
+    "floattimerwin": {
+      "name": "FloatTimer+ for Windows",
+      "tag": "Zwevend",
+      "seo": "Zwevende timer voor pc",
+      "desc": "Timers, tellers en stopwatches die als kleine pastelkaartjes boven elk venster in Windows zweven.",
+      "tagline": "Timers, tellers en stopwatches die zweven boven waar u mee bezig bent: kleine pastelkaartjes die u neerzet waar u wilt, en die de app eronder nooit de focus afpakken.",
+      "long": "FloatTimer+ for Windows is de desktopversie van de Android-app FloatTimer+. In plaats van een venster waar u naartoe moet schakelen, wordt elke timer een klein pastelkaartje dat boven uw werk zweeft — boven uw editor, uw browser, uw videogesprek — en gewoon in beeld aftelt. Klik op een kaartje om het te starten of te pauzeren, sleep het waar het hoort, of vouw het op tot een chip als u het scherm nodig hebt. Het kaartje pakt de app erachter nooit de focus af, dus uw cursor blijft precies waar u hem liet terwijl u typt. Tellers tellen af en op met een klik op de linker- of rechterhelft, stopwatches tellen op, en negen pasteltinten houden alles uit elkaar. De app woont in het systeemvak, vraagt geen account en gebruikt nooit het netwerk — uw timers blijven in een bestand op uw eigen pc.",
+      "features": [
+        "Timers, tellers en stopwatches zweven als kleine pastelkaartjes boven elk venster — sleep ze waarheen u wilt, pas de grootte aan of vouw ze op tot een chip",
+        "Pakt nooit de focus af — klik of sleep een kaartje en uw cursor blijft in het document waarin u aan het typen was",
+        "Starten, pauzeren en resetten vanaf het kaartje zelf, zonder de app te openen; tellers tellen op en af met een klik op elke helft",
+        "Negen pasteltinten, instelbare kaartgrootte en doorzichtigheid, en appvensters die uw lichte of donkere thema volgen",
+        "Het back-upbestand heeft dezelfde indeling als in de Android-app: exporteren aan de ene kant, terugzetten aan de andere",
+        "Globale sneltoetsen, systeemvak, starten bij aanmelden, 18 talen. Geen account, geen netwerk, geen advertenties — en Pro is een eenmalige aankoop"
+      ],
+      "faq": [
+        {
+          "q": "Is dit dezelfde app als FloatTimer+ op Android?",
+          "a": "Het is dezelfde app, gebouwd voor Windows, met dezelfde zwevende kaartjes. U koopt ze allebei in hun eigen store. Ze synchroniseren niet automatisch, maar lezen en schrijven wel hetzelfde back-upbestand: exporteer aan de ene kant en zet terug aan de andere om uw lijst mee te nemen."
+        },
+        {
+          "q": "Zit het de app eronder in de weg?",
+          "a": "Nee. Een kaartje is een zwevend venster dat nooit de focus overneemt, dus klikken of slepen laat uw cursor precies staan waar u aan het typen was. Hebt u het scherm nodig, vouw dan een kaartje op tot een kleine chip of verberg ze allemaal tegelijk met een sneltoets."
+        },
+        {
+          "q": "Is het gratis te gebruiken?",
+          "a": "Ja. U kunt zo veel timers, tellers en stopwatches maken als u wilt — de lijst is nooit beperkt — en de Windows-versie heeft geen advertenties. In de gratis versie zweeft er één kaartje tegelijk op het scherm. Pro is een eenmalige aankoop, geen abonnement, en voegt onbeperkt zwevende kaartjes toe, timers die zichzelf herhalen, elke kleur die u wilt en uw eigen waarschuwingsgeluid of een schermvullende melding."
+        }
+      ]
     }
   }
 }

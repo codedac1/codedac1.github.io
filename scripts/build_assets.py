@@ -25,6 +25,8 @@ APPS = {
     # 한국어 스크린샷은 store-ko-* 라 영어만 고른다.
     "floatnotewin":  (r"FloatNoteWin\src\FloatNotePlus\Assets\app.ico", r"FloatNoteWin\Resource\shots", "store-en-*.png"),
     "floattimer":    (r"FloatTimer\FloatTimer\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatTimer\Resource\screenshots_en", "*.png"),
+    # 한국어 스크린샷은 store-ko-* 라 영어만 고른다.
+    "floattimerwin": (r"FloatTimerWin\src\FloatTimerPlus\Assets\app.ico", r"FloatTimerWin\Resource\shots", "store-en-*.png"),
     "photocleaner":  (r"PhotoCleaner\Resource\icon_512.png", r"PhotoCleaner\Resource\PlayStore\screenshots\en", "*.png"),
     "readfocus":     (r"ReadFocus\Resource\icon_512.png", r"ReadFocus\Resource\screenshots\en", "*.png"),
     # "0*.png" 는 영어 스크린샷만 고른다(한국어는 ko- 접두사).

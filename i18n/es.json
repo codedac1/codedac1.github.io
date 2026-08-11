@@ -455,6 +455,36 @@
           "a": "Sí. Escribir y guardar notas es gratis e ilimitado, y la versión de Windows no tiene anuncios. La versión gratuita hace flotar una nota a la vez y te da dos de los siete colores. Pro es una compra única, no una suscripción, y añade notas flotantes ilimitadas, la paleta completa, imágenes dentro de la nota, opacidad ajustable, sincronización con Google Drive y exportar e importar notas."
         }
       ]
+    },
+    "floattimerwin": {
+      "name": "FloatTimer+ for Windows",
+      "tag": "Flotante",
+      "seo": "temporizador flotante PC",
+      "desc": "Temporizadores, contadores y cronómetros que flotan sobre cualquier ventana de Windows como pequeñas tarjetas pastel.",
+      "tagline": "Temporizadores, contadores y cronómetros que flotan sobre lo que estés haciendo: pequeñas tarjetas pastel que arrastras donde quieras y que nunca roban el foco a la aplicación de abajo.",
+      "long": "FloatTimer+ for Windows es la versión de escritorio de la aplicación FloatTimer+ para Android. En lugar de una ventana a la que tienes que cambiar, cada temporizador es una pequeña tarjeta pastel que flota sobre tu trabajo — sobre el editor, el navegador o la videollamada — y va contando a la vista. Pulsa una tarjeta para iniciarla o pausarla, arrástrala donde te convenga o pliégala en una pastilla cuando necesites la pantalla. La tarjeta nunca le quita el foco a la aplicación que tiene detrás, así que el cursor se queda exactamente donde lo dejaste mientras escribes. Los contadores restan y suman al pulsar cada mitad de la tarjeta, los cronómetros cuentan hacia arriba y nueve colores pastel te permiten distinguirlos de un vistazo. Vive en la bandeja del sistema, no necesita cuenta y no usa la red: tus temporizadores se quedan en un archivo de tu propio PC.",
+      "features": [
+        "Temporizadores, contadores y cronómetros flotan sobre cualquier ventana como pequeñas tarjetas pastel: arrástralas, cambia su tamaño o pliégalas en una pastilla",
+        "Nunca roba el foco: pulsa o arrastra una tarjeta y el cursor sigue en el documento que estabas escribiendo",
+        "Inicia, pausa y reinicia desde la propia tarjeta sin abrir la aplicación; los contadores suman y restan al pulsar cada mitad",
+        "Nueve colores pastel, tamaño y opacidad de tarjeta ajustables, y ventanas que siguen tu tema claro u oscuro",
+        "El archivo de copia de seguridad tiene el mismo formato que en Android: exporta en un lado y restaura en el otro",
+        "Atajos globales, bandeja del sistema, inicio con la sesión y 18 idiomas. Sin cuenta, sin red y sin anuncios; Pro es un pago único"
+      ],
+      "faq": [
+        {
+          "q": "¿Es la misma aplicación que FloatTimer+ en Android?",
+          "a": "Es la misma aplicación creada para Windows, con las mismas tarjetas flotantes. Cada una se compra en su propia tienda. No se sincronizan automáticamente, pero leen y escriben el mismo archivo de copia de seguridad, así que puedes llevar tu lista de una a otra exportando en un lado y restaurando en el otro."
+        },
+        {
+          "q": "¿Estorba a la aplicación que está debajo?",
+          "a": "No. La tarjeta es una ventana flotante que nunca toma el foco, así que al pulsarla o arrastrarla el cursor se queda justo donde estabas escribiendo. Cuando necesites la pantalla, pliega la tarjeta en una pastilla u oculta todas a la vez con un atajo."
+        },
+        {
+          "q": "¿Se puede usar gratis?",
+          "a": "Sí. Puedes crear todos los temporizadores, contadores y cronómetros que quieras — la lista nunca tiene límite — y la versión de Windows no tiene anuncios. La versión gratuita mantiene una tarjeta flotando a la vez. Pro es un pago único, no una suscripción, y añade tarjetas flotantes ilimitadas, temporizadores que se repiten, cualquier color y tu propio sonido de aviso o una alerta a pantalla completa."
+        }
+      ]
     }
   }
 }

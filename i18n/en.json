@@ -455,6 +455,36 @@
           "a": "Yes. Writing and storing notes is free and unlimited, and the Windows version has no ads. The free version floats one note on screen at a time and gives you two of the seven colors. Pro is a one-time purchase — not a subscription — and adds unlimited floating notes, the full palette, inline images, adjustable note transparency, Google Drive sync, and note export and import."
         }
       ]
+    },
+    "floattimerwin": {
+      "name": "FloatTimer+ for Windows",
+      "tag": "Floating",
+      "seo": "Floating Desktop Timer",
+      "desc": "Timers, counters and stopwatches that float over any window on Windows as small pastel cards.",
+      "tagline": "Timers, counters and stopwatches that float on top of whatever you are working in: small pastel cards you drag where you want them, and they never steal focus from the app underneath.",
+      "long": "FloatTimer+ for Windows is the desktop version of the Android FloatTimer+ app. Instead of a window you have to switch to, each timer becomes a small pastel card floating above your work — your editor, your browser, your video call — counting down in plain sight. Click a card to start or pause it, drag it wherever it belongs, or fold it into a chip when you want the screen back. The card never takes focus from the app behind it, so your cursor stays exactly where you left it while you type. Counters add and subtract with a click on either half, stopwatches count up, and nine pastel colors keep them apart. It lives in the system tray, needs no account and never touches the network — your timers stay in a file on your own PC.",
+      "features": [
+        "Timers, counters and stopwatches float above every window as small pastel cards — drag one anywhere, resize it, or fold it into a chip",
+        "Never steals focus — click or drag a card and your cursor stays in the document you were typing in",
+        "Start, pause and reset from the card itself without opening the app; counters add and subtract with a click on either half",
+        "Nine pastel colors, adjustable card size and opacity, and app windows that follow your light or dark theme",
+        "The backup file is the same format as the Android app, so you can export on one and restore on the other",
+        "Global hotkeys, system tray, run at logon, 18 languages. No account, no network, no ads — and Pro is a one-time purchase"
+      ],
+      "faq": [
+        {
+          "q": "Is this the same app as FloatTimer+ on Android?",
+          "a": "It is the same app built for Windows, with the same floating cards. You buy each one in its own store. The two do not sync automatically, but they read and write the same backup file, so you can move your list between them by exporting on one and restoring on the other."
+        },
+        {
+          "q": "Does it get in the way of the app underneath?",
+          "a": "No. A card is a floating window that never takes focus, so clicking or dragging it leaves your cursor exactly where you were typing. When you want the screen back, fold a card into a small chip, or hide every card at once with a hotkey."
+        },
+        {
+          "q": "Is it free to use?",
+          "a": "Yes. You can make as many timers, counters and stopwatches as you like — the list is never limited — and the Windows version has no ads. The free version floats one card on screen at a time. Pro is a one-time purchase — not a subscription — and adds unlimited floating cards, repeating timers, any color you like, and your own alert sound or a full-screen alert."
+        }
+      ]
     }
   }
 }

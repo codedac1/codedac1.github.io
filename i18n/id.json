@@ -455,6 +455,36 @@
           "a": "Ya. Menulis dan menyimpan catatan gratis dan tanpa batas, dan versi Windows tidak memiliki iklan. Versi gratis mengambangkan satu catatan di layar pada satu waktu dan memberi Anda dua dari tujuh warna. Pro adalah pembelian sekali bayar, bukan langganan, dan menambahkan catatan mengambang tanpa batas, palet lengkap, gambar di dalam catatan, opasitas yang bisa diatur, sinkronisasi Google Drive, serta ekspor dan impor catatan."
         }
       ]
+    },
+    "floattimerwin": {
+      "name": "FloatTimer+ for Windows",
+      "tag": "Floating",
+      "seo": "Timer Mengambang PC",
+      "desc": "Timer, penghitung, dan stopwatch yang mengambang di atas jendela mana pun di Windows sebagai kartu pastel kecil.",
+      "tagline": "Timer, penghitung, dan stopwatch yang mengambang di atas apa pun yang sedang Anda kerjakan: kartu pastel kecil yang bisa diseret ke mana saja, dan tidak pernah merebut fokus aplikasi di bawahnya.",
+      "long": "FloatTimer+ for Windows adalah versi desktop dari aplikasi Android FloatTimer+. Alih-alih jendela yang harus Anda tuju, setiap timer menjadi kartu pastel kecil yang mengambang di atas pekerjaan Anda — di atas editor, browser, atau panggilan video — dan menghitung mundur di depan mata. Klik kartu untuk memulai atau menjedanya, seret ke tempat yang Anda mau, atau lipat menjadi chip kecil saat layar dibutuhkan. Kartu tidak pernah mengambil fokus dari aplikasi di belakangnya, jadi kursor tetap persis di tempat Anda meninggalkannya saat mengetik. Penghitung mengurangi dan menambah lewat klik pada separuh kiri atau kanan kartu, stopwatch menghitung naik, dan sembilan warna pastel membuat semuanya mudah dibedakan sekilas. Aplikasi ini tinggal di baki sistem, tidak butuh akun, dan tidak pernah memakai jaringan — timer Anda tetap berada di sebuah berkas di PC Anda sendiri.",
+      "features": [
+        "Timer, penghitung, dan stopwatch mengambang di atas setiap jendela sebagai kartu pastel kecil — seret ke mana saja, ubah ukurannya, atau lipat menjadi chip",
+        "Tidak pernah merebut fokus — klik atau seret kartu, kursor Anda tetap di dokumen yang sedang Anda ketik",
+        "Mulai, jeda, dan atur ulang langsung dari kartu tanpa membuka aplikasi; penghitung menambah dan mengurangi lewat klik pada tiap separuhnya",
+        "Sembilan warna pastel, ukuran dan transparansi kartu yang dapat diatur, serta jendela aplikasi yang mengikuti tema terang atau gelap",
+        "Berkas cadangan memakai format yang sama dengan aplikasi Android: ekspor di satu sisi, pulihkan di sisi lain",
+        "Pintasan global, baki sistem, jalan saat masuk Windows, 18 bahasa. Tanpa akun, tanpa jaringan, tanpa iklan — dan Pro adalah pembelian sekali bayar"
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini aplikasi yang sama dengan FloatTimer+ di Android?",
+          "a": "Ini aplikasi yang sama yang dibuat untuk Windows, dengan kartu mengambang yang sama. Masing-masing dibeli di tokonya sendiri. Keduanya tidak tersinkron otomatis, tetapi membaca dan menulis berkas cadangan yang sama, jadi Anda bisa memindahkan daftar dengan mengekspor di satu sisi dan memulihkannya di sisi lain."
+        },
+        {
+          "q": "Apakah mengganggu aplikasi di bawahnya?",
+          "a": "Tidak. Kartu adalah jendela mengambang yang tidak pernah mengambil fokus, jadi mengekliknya atau menyeretnya membuat kursor tetap persis di tempat Anda mengetik. Saat layar dibutuhkan, lipat kartu menjadi chip kecil atau sembunyikan semua kartu sekaligus dengan pintasan."
+        },
+        {
+          "q": "Apakah gratis?",
+          "a": "Ya. Anda bisa membuat timer, penghitung, dan stopwatch sebanyak yang Anda mau — daftarnya tidak pernah dibatasi — dan versi Windows tidak memiliki iklan. Versi gratis mengambangkan satu kartu di layar dalam satu waktu. Pro adalah pembelian sekali bayar, bukan langganan, dan menambahkan kartu mengambang tanpa batas, timer yang berulang otomatis, warna sesuka Anda, serta suara peringatan sendiri atau peringatan layar penuh."
+        }
+      ]
     }
   }
 }

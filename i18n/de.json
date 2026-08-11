@@ -455,6 +455,36 @@
           "a": "Ja. Notizen zu schreiben und zu speichern ist kostenlos und unbegrenzt, und die Windows-Version enthält keine Werbung. Die kostenlose Version lässt jeweils eine Notiz auf dem Bildschirm schweben und gibt dir zwei der sieben Farben. Pro ist ein Einmalkauf, kein Abo, und ergänzt unbegrenzte schwebende Notizen, die volle Palette, Bilder in der Notiz, einstellbare Transparenz, Google-Drive-Sync sowie Export und Import."
         }
       ]
+    },
+    "floattimerwin": {
+      "name": "FloatTimer+ for Windows",
+      "tag": "Schwebend",
+      "seo": "Schwebender PC-Timer",
+      "desc": "Timer, Zähler und Stoppuhren, die als kleine Pastellkarten über jedem Fenster in Windows schweben.",
+      "tagline": "Timer, Zähler und Stoppuhren, die über dem schweben, woran Sie gerade arbeiten: kleine Pastellkarten, die Sie hinziehen, wo Sie sie brauchen — und die der App darunter nie den Fokus nehmen.",
+      "long": "FloatTimer+ for Windows ist die Desktop-Version der Android-App FloatTimer+. Statt eines Fensters, zu dem Sie erst wechseln müssen, wird jeder Timer zu einer kleinen Pastellkarte, die über Ihrer Arbeit schwebt — über dem Editor, dem Browser, der Videokonferenz — und sichtbar herunterzählt. Ein Klick startet oder pausiert die Karte, ziehen Sie sie dorthin, wo sie hingehört, oder klappen Sie sie zu einem Chip zusammen, wenn Sie den Bildschirm brauchen. Die Karte nimmt der App dahinter nie den Fokus, Ihr Cursor bleibt beim Tippen also genau dort, wo er war. Zähler zählen mit einem Klick auf die linke oder rechte Hälfte herunter und herauf, Stoppuhren zählen aufwärts, und neun Pastellfarben halten alles auseinander. Die App sitzt im Infobereich, braucht kein Konto und geht nie ins Netz — Ihre Timer bleiben in einer Datei auf Ihrem eigenen PC.",
+      "features": [
+        "Timer, Zähler und Stoppuhren schweben als kleine Pastellkarten über jedem Fenster — beliebig verschieben, in der Größe ändern oder zu einem Chip zusammenklappen",
+        "Nimmt nie den Fokus — klicken oder ziehen Sie eine Karte, und der Cursor bleibt in dem Dokument, in dem Sie gerade schreiben",
+        "Starten, pausieren und zurücksetzen direkt auf der Karte, ohne die App zu öffnen; Zähler addieren und subtrahieren per Klick auf die jeweilige Hälfte",
+        "Neun Pastellfarben, einstellbare Kartengröße und Deckkraft, und App-Fenster, die Ihrem hellen oder dunklen Design folgen",
+        "Die Sicherungsdatei hat dasselbe Format wie in der Android-App: auf der einen Seite exportieren, auf der anderen wiederherstellen",
+        "Globale Tastenkürzel, Infobereich, Start bei der Anmeldung, 18 Sprachen. Kein Konto, kein Netz, keine Werbung — und Pro ist ein einmaliger Kauf"
+      ],
+      "faq": [
+        {
+          "q": "Ist das dieselbe App wie FloatTimer+ auf Android?",
+          "a": "Es ist dieselbe App, gebaut für Windows, mit denselben schwebenden Karten. Gekauft wird jede in ihrem eigenen Store. Beide synchronisieren sich nicht automatisch, lesen und schreiben aber dieselbe Sicherungsdatei — Sie können Ihre Liste also mitnehmen, indem Sie auf der einen Seite exportieren und auf der anderen wiederherstellen."
+        },
+        {
+          "q": "Stört sie die App darunter?",
+          "a": "Nein. Eine Karte ist ein schwebendes Fenster, das nie den Fokus übernimmt; Klicken oder Ziehen lässt Ihren Cursor genau dort, wo Sie geschrieben haben. Wenn Sie den Bildschirm brauchen, klappen Sie eine Karte zu einem kleinen Chip zusammen oder blenden per Tastenkürzel alle Karten auf einmal aus."
+        },
+        {
+          "q": "Ist die Nutzung kostenlos?",
+          "a": "Ja. Sie können so viele Timer, Zähler und Stoppuhren anlegen, wie Sie möchten — die Liste ist nie begrenzt — und die Windows-Version zeigt keine Werbung. In der kostenlosen Version schwebt eine Karte gleichzeitig auf dem Bildschirm. Pro ist ein einmaliger Kauf, kein Abo, und ergänzt unbegrenzt schwebende Karten, sich wiederholende Timer, jede beliebige Farbe sowie einen eigenen Hinweiston oder eine Vollbildmeldung."
+        }
+      ]
     }
   }
 }

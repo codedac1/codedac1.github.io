@@ -455,6 +455,36 @@
           "a": "Oui. Écrire et conserver des notes est gratuit et illimité, et la version Windows ne contient aucune publicité. La version gratuite fait flotter une note à la fois et propose deux des sept couleurs. Pro est un achat unique, pas un abonnement : il ajoute les notes flottantes illimitées, la palette complète, les images dans la note, l'opacité réglable, la synchro Google Drive, ainsi que l'export et l'import."
         }
       ]
+    },
+    "floattimerwin": {
+      "name": "FloatTimer+ for Windows",
+      "tag": "Flottant",
+      "seo": "Minuteur flottant PC",
+      "desc": "Minuteurs, compteurs et chronomètres qui flottent au-dessus de n'importe quelle fenêtre Windows, sous forme de petites cartes pastel.",
+      "tagline": "Des minuteurs, compteurs et chronomètres qui flottent au-dessus de ce que vous êtes en train de faire : de petites cartes pastel que vous placez où vous voulez, et qui ne volent jamais le focus à l'application en dessous.",
+      "long": "FloatTimer+ for Windows est la version bureau de l'application Android FloatTimer+. Au lieu d'une fenêtre vers laquelle il faut basculer, chaque minuteur devient une petite carte pastel qui flotte au-dessus de votre travail — votre éditeur, votre navigateur, votre visioconférence — et défile sous vos yeux. Cliquez sur une carte pour la lancer ou la mettre en pause, faites-la glisser où elle a sa place, ou repliez-la en pastille quand vous avez besoin de l'écran. La carte ne prend jamais le focus à l'application derrière elle : votre curseur reste exactement là où vous l'avez laissé pendant que vous tapez. Les compteurs retirent ou ajoutent selon la moitié de carte cliquée, les chronomètres comptent vers le haut, et neuf couleurs pastel permettent de les distinguer d'un coup d'œil. L'application vit dans la zone de notification, ne demande aucun compte et n'utilise jamais le réseau : vos minuteurs restent dans un fichier sur votre propre PC.",
+      "features": [
+        "Minuteurs, compteurs et chronomètres flottent au-dessus de toutes les fenêtres en petites cartes pastel — déplacez-les, redimensionnez-les ou repliez-les en pastille",
+        "Ne vole jamais le focus — cliquez ou faites glisser une carte, votre curseur reste dans le document que vous étiez en train d'écrire",
+        "Démarrage, pause et remise à zéro depuis la carte elle-même, sans ouvrir l'application ; les compteurs ajoutent et retirent selon la moitié cliquée",
+        "Neuf couleurs pastel, taille et opacité des cartes réglables, et des fenêtres qui suivent votre thème clair ou sombre",
+        "Le fichier de sauvegarde a le même format que celui de l'application Android : exportez d'un côté, restaurez de l'autre",
+        "Raccourcis globaux, zone de notification, lancement à l'ouverture de session, 18 langues. Aucun compte, aucun réseau, aucune publicité — et Pro est un achat unique"
+      ],
+      "faq": [
+        {
+          "q": "Est-ce la même application que FloatTimer+ sur Android ?",
+          "a": "C'est la même application conçue pour Windows, avec les mêmes cartes flottantes. Chacune s'achète sur sa propre boutique. Les deux ne se synchronisent pas automatiquement, mais elles lisent et écrivent le même fichier de sauvegarde : exportez d'un côté et restaurez de l'autre pour emporter votre liste."
+        },
+        {
+          "q": "Est-ce que cela gêne l'application en dessous ?",
+          "a": "Non. Une carte est une fenêtre flottante qui ne prend jamais le focus : la cliquer ou la déplacer laisse votre curseur exactement là où vous écriviez. Quand vous avez besoin de l'écran, repliez une carte en petite pastille ou masquez-les toutes d'un raccourci."
+        },
+        {
+          "q": "L'application est-elle gratuite ?",
+          "a": "Oui. Vous pouvez créer autant de minuteurs, compteurs et chronomètres que vous voulez — la liste n'est jamais limitée — et la version Windows est sans publicité. La version gratuite fait flotter une carte à la fois. Pro est un achat unique, pas un abonnement, et ajoute les cartes flottantes illimitées, la répétition automatique des minuteurs, la couleur de votre choix ainsi que votre propre son d'alerte ou une alerte en plein écran."
+        }
+      ]
     }
   }
 }

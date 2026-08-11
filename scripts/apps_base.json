@@ -28,7 +28,8 @@
     "slug": "floattimer",
     "name": "FloatTimer+",
     "shots": 6,
-    "store": "https://play.google.com/store/apps/details?id=com.codedac.floattimer"
+    "store": "https://play.google.com/store/apps/details?id=com.codedac.floattimer",
+    "counterpart": "floattimerwin"
   },
   {
     "slug": "volumebooster",
@@ -85,5 +86,13 @@
     "store": "https://apps.microsoft.com/detail/9NW6610397TC",
     "platform": "windows",
     "counterpart": "floatnote"
+  },
+  {
+    "slug": "floattimerwin",
+    "name": "FloatTimer+ for Windows",
+    "shots": 4,
+    "store": "",
+    "platform": "windows",
+    "counterpart": "floattimer"
   }
 ]

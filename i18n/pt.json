@@ -455,6 +455,36 @@
           "a": "Sim. Escrever e guardar notas é gratuito e ilimitado, e a versão para Windows não tem anúncios. A versão gratuita faz flutuar uma nota por vez e oferece duas das sete cores. O Pro é uma compra única, não uma assinatura, e acrescenta notas flutuantes ilimitadas, a paleta completa, imagens dentro da nota, opacidade ajustável, sincronização com Google Drive e exportar e importar notas."
         }
       ]
+    },
+    "floattimerwin": {
+      "name": "FloatTimer+ for Windows",
+      "tag": "Flutuante",
+      "seo": "timer flutuante para PC",
+      "desc": "Timers, contadores e cronômetros que flutuam sobre qualquer janela do Windows como pequenos cartões pastel.",
+      "tagline": "Timers, contadores e cronômetros que flutuam sobre o que você está fazendo: pequenos cartões pastel que você arrasta para onde quiser e que nunca roubam o foco do aplicativo de baixo.",
+      "long": "O FloatTimer+ for Windows é a versão para desktop do aplicativo FloatTimer+ para Android. Em vez de uma janela para a qual você precisa alternar, cada timer vira um pequeno cartão pastel que flutua sobre o seu trabalho — sobre o editor, o navegador, a videochamada — contando à vista. Clique no cartão para iniciar ou pausar, arraste-o para onde ele fizer sentido ou recolha-o em uma pastilha quando precisar da tela. O cartão nunca tira o foco do aplicativo atrás dele, então o cursor fica exatamente onde você o deixou enquanto digita. Os contadores diminuem e aumentam ao clicar em cada metade do cartão, os cronômetros contam para cima e nove cores pastel deixam tudo fácil de distinguir. Ele fica na bandeja do sistema, não pede conta e não usa a rede — seus timers ficam em um arquivo no seu próprio PC.",
+      "features": [
+        "Timers, contadores e cronômetros flutuam sobre qualquer janela como pequenos cartões pastel — arraste, redimensione ou recolha em uma pastilha",
+        "Nunca rouba o foco — clique ou arraste um cartão e o cursor continua no documento que você estava digitando",
+        "Inicie, pause e zere no próprio cartão, sem abrir o aplicativo; os contadores somam e subtraem ao clicar em cada metade",
+        "Nove cores pastel, tamanho e opacidade do cartão ajustáveis e janelas que seguem o tema claro ou escuro",
+        "O arquivo de backup tem o mesmo formato do aplicativo Android: exporte de um lado e restaure no outro",
+        "Atalhos globais, bandeja do sistema, iniciar com o logon e 18 idiomas. Sem conta, sem rede e sem anúncios — e o Pro é compra única"
+      ],
+      "faq": [
+        {
+          "q": "É o mesmo aplicativo do FloatTimer+ no Android?",
+          "a": "É o mesmo aplicativo feito para Windows, com os mesmos cartões flutuantes. Cada um é comprado na sua própria loja. Os dois não sincronizam automaticamente, mas leem e gravam o mesmo arquivo de backup, então dá para levar a sua lista de um para o outro exportando de um lado e restaurando no outro."
+        },
+        {
+          "q": "Atrapalha o aplicativo que está embaixo?",
+          "a": "Não. O cartão é uma janela flutuante que nunca assume o foco, então clicar ou arrastar deixa o cursor exatamente onde você estava digitando. Quando precisar da tela, recolha o cartão em uma pastilha ou esconda todos de uma vez com um atalho."
+        },
+        {
+          "q": "Dá para usar de graça?",
+          "a": "Sim. Você pode criar quantos timers, contadores e cronômetros quiser — a lista nunca tem limite — e a versão para Windows não tem anúncios. A versão gratuita mantém um cartão flutuando por vez. O Pro é compra única, não assinatura, e acrescenta cartões flutuantes ilimitados, timers que se repetem, qualquer cor e o seu próprio som de alerta ou um alerta em tela cheia."
+        }
+      ]
     }
   }
 }
