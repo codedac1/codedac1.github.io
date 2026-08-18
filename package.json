@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fetch-stats": "node scripts/fetch_store_stats.js",
-    "build": "node scripts/gen_site.js"
+    "build": "node scripts/gen_site.js",
+    "build-housead": "python scripts/build_housead.py"
   },
   "repository": {
     "type": "git",
