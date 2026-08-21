@@ -1,6 +1,6 @@
 // =====================================================================
 //  앱별 지원 언어 수 스캔 → scripts/app_langs.json 캐시
-//  - 각 안드로이드 프로젝트(C:\CodeDAC\<Project>)의 res/values-<locale>/ 폴더에서
+//  - 각 안드로이드 프로젝트(<APPS_ROOT>/<Project>)의 res/values-<locale>/ 폴더에서
 //    지원 언어를 도출한다. 기본 res/values/ 는 영어(en)로 간주.
 //  - .NET(Windows) 프로젝트는 <Name>.<locale>.resx 위성 리소스로 도출한다.
 //    로케일 없는 기본 <Name>.resx 는 영어(en)로 간주.
@@ -13,7 +13,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const APPS_ROOT = path.join('C:', 'CodeDAC');
+// 앱 소스는 이 저장소의 형제 폴더에 있다. 저장소가 옮겨 다녀도 따라가도록
+// 저장소 위치에서 거슬러 올라가 잡고, 환경변수로 덮어쓸 수 있게 둔다.
+const APPS_ROOT = process.env.CODEDAC_ROOT || path.resolve(__dirname, '..', '..');
 const OUT = path.join(__dirname, 'app_langs.json');
 
 // slug → 안드로이드 프로젝트 폴더명 (res/values-<locale>/ 스캔)
