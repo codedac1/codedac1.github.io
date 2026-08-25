@@ -218,27 +218,27 @@
       "seo": "Amplificateur de volume",
       "desc": "Amplificateur de volume, égaliseur et amplification des basses en dB réels et mesurés.",
       "tagline": "Rendez chaque application plus forte en décibels réels et mesurés — pas en un « 200 % » qui ne veut rien dire.",
-      "long": "VolumeBooster+ est un amplificateur de volume qui augmente l'ensemble de la sortie système — haut-parleurs faibles, écouteurs peu puissants, vidéos, appels, musique et jeux difficiles à entendre — pour enfin les percevoir clairement. Il amplifie en véritables décibels (0 à +15 dB) plutôt qu'en un « 200 % » dénué de sens, et affiche des zones Sûr / Prudence / Danger basées sur l'OMS afin de monter le son tout en protégeant votre audition. Il combine un égaliseur à 5 bandes, un amplificateur de basses, un virtualiseur 3D et une correction de casque AutoEQ dans une seule application.",
+      "long": "VolumeBooster+ est un amplificateur de son qui élève la sortie de tout le système — haut-parleurs faibles, écouteurs trop bas, vidéos inaudibles, appels, musique et jeux deviennent enfin clairs. Il amplifie en décibels réels plutôt qu'avec un \"200%\" qui ne veut rien dire : la version gratuite atteint +10 dB, et Pro ou un Free Pass ouvre toute la plage +15 dB, avec les zones Sûr / Attention / Danger fondées sur l'OMS affichées en permanence. Loudness Maximizer, égaliseur 5 bandes, amplificateur de basses, virtualiseur 3D et AutoEQ fort de 2 456 profils de casques mesurés cohabitent dans la même application.",
       "features": [
-        "Amplification du volume en décibels réels (0 → +15 dB) avec étiquettes Sûr/Prudence/Danger, amplifiant chaque application à l'échelle du système",
-        "Loudness Maximizer et limiteur de crête toujours actif pour un son vraiment plus fort, sans écrêtage ni distorsion",
-        "Égaliseur à 5 bandes avec 12 préréglages ajustés (Pop, Rock, Voix, Film, Classique, Jazz, EDM, Jeux, Nuit et plus)",
-        "Amplificateur de basses + virtualiseur 3D pour un son plus profond et plus ample",
-        "Correction de casque AutoEQ utilisant des données mesurées de réponse en fréquence",
-        "Score de santé auditive + surveillance de l'exposition basée sur l'OMS, minuteur de veille, équilibre des canaux et widget flottant (Pro)"
+        "Amplification en décibels réels avec repères Sûr/Attention/Danger — +10 dB gratuit, jusqu'à +15 dB avec Pro ou un Free Pass, sur toutes les applications du système",
+        "Loudness Maximizer et limiteur de crête toujours actif : vraiment plus fort, sans écrêtage ni distorsion",
+        "Égaliseur 5 bandes et 12 préréglages — Neutre, Pop, Rock et Voix gratuits, plus Film, Voix/Podcast, Classique, Jazz, EDM, Jeux et Nuit",
+        "Amplificateur de basses + virtualiseur 3D et AutoEQ avec 2 456 profils mesurés de 357 marques (Apple, Samsung, Sony, Bose, JBL et autres grandes marques gratuites)",
+        "Free Pass — une courte publicité donne 24 heures d'une fonction Pro : amplification maximale, catalogue AutoEQ complet ou panneau flottant",
+        "Score de santé auditive avec suivi d'exposition basé sur l'OMS, minuteur de veille, balance des canaux, tuile Réglages rapides, widget et commandes dans la notification"
       ],
       "faq": [
         {
-          "q": "Rend-il vraiment mon téléphone plus fort ?",
-          "a": "Oui. Le Loudness Maximizer utilise une compression multibande et un gain de compensation pour augmenter réellement le volume perçu, et il élève l'ensemble de la sortie système de 0 à +15 dB — pas seulement une application. Cela s'applique à la musique, aux vidéos, à YouTube, aux jeux, aux appels et à tout le reste."
+          "q": "Le téléphone devient-il vraiment plus fort ?",
+          "a": "Oui. Le Loudness Maximizer s'appuie sur la compression multibande et le gain de compensation pour augmenter réellement le volume perçu, et il élève la sortie de tout le système, pas d'une seule application : musique, vidéos, YouTube, jeux et appels compris. La version gratuite monte jusqu'à +10 dB, Pro ou un Free Pass ouvre toute la plage +15 dB."
         },
         {
-          "q": "En quoi est-ce différent des amplificateurs « 200 % » ?",
-          "a": "Les chiffres comme « 200 % » ou « 500 % » que crient les autres amplificateurs ne veulent rien dire. VolumeBooster+ affiche le gain réel en décibels et marque les zones Sûr, Prudence et Danger basées sur l'OMS, pour que vous sachiez toujours exactement à quel point vous montez le son."
+          "q": "Est-ce vraiment gratuit ou faut-il un abonnement ?",
+          "a": "Gratuitement, vous avez l'amplification jusqu'à +10 dB, les préréglages Neutre, Pop, Rock et Voix, et AutoEQ pour les grandes marques comme Apple, Samsung, Sony, Bose, JBL et Beats. Un Free Pass ajoute 24 heures d'une fonction Pro — amplification maximale, catalogue AutoEQ complet ou panneau flottant — contre une courte publicité, sans carte bancaire ni essai à résilier. Pro débloque tout et supprime les publicités : mensuel, annuel ou achat à vie."
         },
         {
-          "q": "La valeur en dB affichée est-elle une mesure exacte ?",
-          "a": "La valeur en décibels est une estimation fondée sur le volume de votre système et le gain appliqué, et le volume réel varie selon l'appareil, le casque et le contenu. L'application n'est pas un dispositif médical : si vous ressentez une douleur ou des acouphènes, baissez le volume et consultez un professionnel."
+          "q": "La valeur en décibels est-elle une mesure exacte ?",
+          "a": "Contrairement aux \"200%\" ou \"500%\" que crient d'autres amplificateurs, VolumeBooster+ affiche le gain réel en décibels et signale les zones Sûr, Attention et Danger fondées sur l'OMS. Il s'agit néanmoins d'une estimation basée sur le volume système et le gain appliqué, et le niveau réel varie selon l'appareil, le casque et le contenu. L'application n'est pas un dispositif médical : en cas de douleur ou d'acouphènes, baissez le volume et consultez un professionnel."
         }
       ]
     },
