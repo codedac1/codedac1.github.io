@@ -126,29 +126,29 @@
       "name": "FloatCalc+",
       "tag": "Floating",
       "seo": "Kalkulator Mengambang Android",
-      "desc": "Kalkulator mengambang, konverter kurs & satuan di atas aplikasi apa pun.",
-      "tagline": "Kalkulator mengambang yang tetap di atas aplikasi apa pun sehingga Anda tak perlu keluar untuk berhitung.",
-      "long": "FloatCalc+ adalah kalkulator mengambang yang tetap berada di atas aplikasi apa pun, jadi Anda tidak perlu berpindah layar hanya untuk menghitung. Kalkulator, konverter satuan, dan konverter mata uang ada di jendela overlay yang sama, tinggal satu ketukan. Geser jendelanya ke mana saja dan salin hasil hitungan dengan sekali ketuk. Gratis dengan iklan dan tanpa batas waktu, ringan dan cepat, serta jalan secara offline (kurs disimpan tiap hari).",
+      "desc": "Kalkulator melayang dengan konverter kurs dan satuan di atas aplikasi apa pun.",
+      "tagline": "Hitung tanpa keluar dari aplikasi — kalkulator yang selalu melayang di atas.",
+      "long": "FloatCalc+ adalah kalkulator melayang yang tetap berada di atas aplikasi apa pun, jadi Anda tak perlu menutup layar belanja, perbankan, atau browser hanya untuk menghitung. Kalkulator, konverter satuan, dan konverter mata uang berbagi satu jendela yang bisa digeser: ketik ekspresinya, hasilnya langsung muncul, lalu salin ke papan klip. Kurs berasal dari ECB, diperbarui setiap hari dan tersimpan di cache sehingga semuanya tetap jalan saat offline. Gratis tanpa batas waktu — tanpa batas harian, tanpa hitung mundur, tanpa gangguan.",
       "features": [
-        "Mengambang di atas aplikasi apa pun — YouTube, peta, browser, perbankan, belanja, spreadsheet",
-        "Jendela overlay yang bisa diseret dengan salin hasil satu ketukan ke clipboard",
-        "Konverter satuan: panjang, berat, suhu, mata uang, luas, volume, kecepatan, dan waktu",
-        "Kurs ECB real-time untuk 30+ mata uang, diperbarui setiap hari",
-        "Peluncuran cepat: membuka aplikasi langsung menampilkan kalkulator mengambang, bukan layar pengaturan, yang bisa dibuka lagi kapan saja lewat notifikasi",
-        "Pilih mode awal (kalkulator / satuan / mata uang), 8 tema, jalan secara offline"
+        "Overlay di atas aplikasi apa pun — YouTube, peta, browser, perbankan, belanja, dokumen",
+        "Baris operator sekali ketuk: + − × ÷ ( ) % tepat di atas keyboard, hapus mundur untuk salah ketik",
+        "Pangkat, akar, dan persen — 2^10, √144, 100+10% — hasil disalin sekali ketuk",
+        "Konverter satuan di dalam jendela: panjang, berat, suhu, luas, volume, kecepatan, dan waktu",
+        "Konverter mata uang dengan kurs ECB harian untuk 30+ mata uang, disegarkan seketika lewat ↻",
+        "Jendela bisa digeser dengan ukuran, lebar, dan transparansi yang diatur, 8 tema, dan terbuka pada mode terakhir"
       ],
       "faq": [
         {
           "q": "Apakah saya harus menutup aplikasi setiap kali ingin menghitung?",
-          "a": "Tidak. FloatCalc+ bekerja sebagai jendela mengambang yang tetap di atas aplikasi lain, sehingga Anda bisa menghitung tanpa meninggalkan layar belanja, perbankan, atau browser Anda."
+          "a": "Tidak. FloatCalc+ berupa jendela melayang yang tetap di atas aplikasi lain, jadi Anda bisa menghitung diskon atau mengonversi harga tanpa meninggalkan layar belanja, perbankan, atau browser. Geser jendelanya ke mana pun, ambil hasilnya, lalu lanjutkan tepat di tempat Anda tadi."
         },
         {
           "q": "Dari mana kurs mata uangnya berasal?",
-          "a": "Aplikasi menggunakan kurs ECB (European Central Bank) real-time yang diperbarui setiap hari. Anda bisa mengonversi USD, EUR, JPY, KRW, CNY dan 30+ mata uang dunia langsung di dalam overlay, dan kurs di-cache setiap hari sehingga tetap berfungsi offline."
+          "a": "Dari Bank Sentral Eropa (ECB), diperbarui setiap hari — dan Anda bisa mengetuk ↻ kapan saja untuk kurs terbaru. USD, EUR, JPY, GBP, KRW, CNY dan 30+ mata uang dunia dikonversi langsung di dalam jendela, dan karena kurs disimpan setiap hari, aplikasi ini juga bisa dipakai offline."
         },
         {
-          "q": "Seberapa banyak yang bisa saya pakai secara gratis?",
-          "a": "Kalkulator mengambang bisa dipakai gratis dengan iklan dan tanpa batas waktu. Versi gratis mencakup tema bawaan dan konversi panjang; Pro menghilangkan iklan serta menambahkan 7 tema premium, kategori satuan lainnya, konverter mata uang lanjutan, pengaturan panel, dan peluncuran cepat. Anda juga bisa menonton iklan singkat untuk membuka satu fitur Pro gratis selama 24 jam."
+          "q": "Sejauh apa bisa dipakai gratis?",
+          "a": "Kalkulator melayangnya gratis tanpa batas waktu — tanpa batas harian dan tanpa hitung mundur. Pro menghilangkan iklan serta membuka sisa kategori satuan dan 30+ mata uang, 7 tema premium, dan kustomisasi panel penuh (transparansi, ukuran, lebar), tersedia bulanan, tahunan, atau sekali bayar seumur hidup. Anda juga bisa menonton satu iklan singkat untuk memakai satu fitur Pro gratis selama 24 jam."
         }
       ]
     },
@@ -156,29 +156,29 @@
       "name": "FloatCrypto+",
       "tag": "Floating",
       "seo": "Harga Bitcoin Mengambang",
-      "desc": "Harga Bitcoin & kripto langsung mengambang di atas aplikasi apa pun.",
-      "tagline": "Biarkan harga Bitcoin langsung mengambang di layar Anda — 100% gratis.",
-      "long": "FloatCrypto+ menampilkan ticker kripto real-time mengambang di atas aplikasi apa pun — YouTube, Chrome, game, Telegram — sehingga Anda bisa memantau BTC, ETH, SOL, XRP, DOGE, BNB dan 1.000+ altcoin tanpa perlu berpindah aplikasi. Didukung data pasar Binance dengan cadangan CoinGecko, aplikasi ini menambahkan grafik langsung, peringatan harga, dan watchlist dalam satu tempat. 100% gratis tanpa login, tanpa email, dan tanpa dompet — siap dipakai dalam hitungan detik.",
+      "desc": "Ticker kripto langsung yang mengambang di atas aplikasi apa pun, dengan alarm dan grafik.",
+      "tagline": "Bitcoin, Ethereum, dan altcoin Anda tetap di layar — di atas aplikasi apa pun.",
+      "long": "FloatCrypto+ menampilkan ticker kripto langsung di atas semua aplikasi, jadi Anda bisa memantau pasar sambil menonton YouTube, membaca berita, atau membalas pesan — tanpa berpindah aplikasi, tanpa memuat ulang. Geser ke mana saja, atur ukuran, dan turunkan opasitasnya agar tak pernah mengganggu. Tetapkan batas atas atau bawah dan Anda diberi tahu begitu pasar melewatinya, susun daftar pantauan berisi koin yang benar-benar Anda ikuti, lalu buka grafik 1 hari, 7 hari, dan 30 hari lengkap dengan tertinggi, terendah, pembukaan, dan perubahan periode. Harga berasal dari Binance dengan CoinGecko sebagai cadangan otomatis, sehingga ticker tetap jalan meski satu sumber tak terjangkau.",
       "features": [
-        "Overlay mengambang yang menjaga harga Bitcoin dan Ethereum langsung di atas setiap aplikasi — tanpa berpindah aplikasi",
-        "Seret untuk memindahkan, cubit untuk mengubah ukuran, dengan opasitas dan ukuran font yang bisa disesuaikan",
-        "Grafik kripto langsung 1H/7H/30H didukung data Binance, dengan perubahan 24 jam %",
-        "Peringatan harga instan dengan ambang atas dan bawah serta pemantauan latar belakang 24/7",
-        "Pencarian koin cepat di 1.000+ token dengan watchlist real-time dan pelacak harga",
-        "100% gratis, tanpa login atau dompet, berjalan sebagai layanan ringan yang hemat baterai"
+        "Ticker harga mengambang di atas semua aplikasi — geser, atur ukuran, turunkan opasitas",
+        "Alarm harga pada batas atas atau bawah, dibuat langsung dari kartu koin yang sudah terisi",
+        "Daftar pantauan dengan harga langsung, perubahan 24 jam, dan urutan yang bisa digeser",
+        "Grafik 1 hari / 7 hari / 30 hari dengan tertinggi, terendah, pembukaan, dan perubahan periode",
+        "Warna Barat dan Timur — hijau naik/merah turun, atau merah naik/biru turun",
+        "Harga Binance dengan cadangan otomatis CoinGecko agar ticker tak berhenti"
       ],
       "faq": [
         {
-          "q": "Apakah FloatCrypto+ gratis? Apakah saya butuh akun?",
-          "a": "100% gratis. Tidak ada login, tidak ada email, dan tidak ada koneksi dompet — cukup pasang dan mulai memantau dalam hitungan detik."
+          "q": "Bisakah saya melihat harga sambil memakai aplikasi lain?",
+          "a": "Bisa. Tickernya mengambang di atas semua aplikasi, jadi Anda tetap memantau pasar saat menonton YouTube, bermain game, atau mengobrol — tanpa berpindah aplikasi dan tanpa memuat ulang. Geser ke mana saja, atur ukurannya, dan turunkan opasitasnya agar tidak menutupi yang sedang Anda baca."
         },
         {
-          "q": "Koin apa saja yang didukung dan dari mana datanya berasal?",
-          "a": "Mendukung Bitcoin, Ethereum, Solana, XRP, Dogecoin, BNB dan lebih dari 1.000 altcoin, menggunakan data pasar Binance dengan cadangan CoinGecko demi keandalan."
+          "q": "Bagaimana cara kerja alarm harga?",
+          "a": "Tetapkan batas atas atau bawah, dan FloatCrypto+ memberi tahu begitu pasar melewatinya. Alarm bisa dibuat langsung dari kartu koin — ketuk ⋮ dan koinnya sudah terisi — sedangkan ikon lonceng menandai setiap koin yang sedang Anda pantau."
         },
         {
-          "q": "Bisakah saya melihat harga saat memakai aplikasi lain?",
-          "a": "Bisa. Overlay mengambang tetap di atas setiap aplikasi, sehingga Anda bisa memantau harga langsung sambil menonton YouTube, bermain game, atau mengobrol — tanpa perlu berpindah aplikasi."
+          "q": "Apa yang saya dapat secara gratis?",
+          "a": "Versi gratis memantau 2 koin dengan 1 alarm harga dan menampilkan iklan, sedangkan akses gratis memberi 24 jam Pro penuh dengan menonton satu iklan singkat. Pro menaikkannya ke 10 koin dengan alarm tanpa batas, menghilangkan iklan, memperbarui ticker tiap 10 detik, dan membuka riwayat grafik penuh — bulanan, tahunan (dengan masa coba gratis), atau sekali bayar seumur hidup."
         }
       ]
     },

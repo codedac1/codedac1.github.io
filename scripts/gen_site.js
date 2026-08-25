@@ -17,7 +17,7 @@ const crypto = require('crypto');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
-const V = '43'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
+const V = '44'; // 자산 캐시 버전 (css/js). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------

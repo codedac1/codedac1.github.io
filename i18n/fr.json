@@ -126,29 +126,29 @@
       "name": "FloatCalc+",
       "tag": "Flottant",
       "seo": "Calculatrice flottante",
-      "desc": "Une calculatrice, un convertisseur de devises et d'unités flottant par-dessus toute application.",
-      "tagline": "Une calculatrice flottante qui reste au-dessus de toute application, pour ne plus jamais quitter votre écran pour un calcul.",
-      "long": "FloatCalc+ est une calculatrice flottante qui reste au-dessus de n'importe quelle appli : vous n'avez plus à changer d'écran juste pour faire un calcul. Calculatrice, convertisseur d'unités et convertisseur de devises cohabitent dans la même fenêtre superposée, à une touche l'un de l'autre. Déplacez la fenêtre où vous voulez et copiez n'importe quel résultat d'une seule touche. L'appli est gratuite avec publicités et sans limite de temps, légère et rapide, et fonctionne hors ligne (les taux sont mis en cache chaque jour).",
+      "desc": "Une calculatrice flottante avec devises et unités, au-dessus de toute appli.",
+      "tagline": "Calculez sans quitter votre appli — une calculatrice qui reste au-dessus de tout.",
+      "long": "FloatCalc+ est une calculatrice flottante qui reste au-dessus de toutes vos applis : plus besoin de fermer votre écran de shopping, de banque ou votre navigateur juste pour faire un calcul. La calculatrice, le convertisseur d'unités et le convertisseur de devises partagent une même fenêtre déplaçable : tapez une expression, obtenez le résultat immédiatement et copiez-le dans le presse-papiers. Les taux viennent de la BCE, sont actualisés chaque jour et mis en cache, si bien que tout continue de fonctionner hors ligne. C'est gratuit et sans limite de temps — pas de quota quotidien, pas de compte à rebours, pas d'interruption.",
       "features": [
-        "Flotte par-dessus toute application — YouTube, cartes, navigateur, banque, achats, tableurs",
-        "Fenêtre flottante déplaçable, avec copie des résultats dans le presse-papiers d'un seul toucher",
-        "Convertisseur d'unités : longueur, poids, température, devises, surface, volume, vitesse et temps",
-        "Taux de change ECB en temps réel pour plus de 30 devises, actualisés chaque jour",
-        "Lancement rapide : ouvrir l'appli fait apparaître directement la calculatrice flottante au lieu de l'écran des réglages, que vous pouvez rouvrir à tout moment depuis la notification",
-        "Choix du mode de démarrage (calculatrice / unités / devises), 8 thèmes, fonctionne hors ligne"
+        "Superposition au-dessus de toute appli — YouTube, cartes, navigateur, banque, achats, documents",
+        "Barre d'opérateurs en un tap : + − × ÷ ( ) % au-dessus du clavier, retour arrière pour corriger une faute",
+        "Puissances, racines et pourcentages — 2^10, √144, 100+10% — avec copie du résultat en un tap",
+        "Convertisseur d'unités dans la fenêtre : longueur, poids, température, surface, volume, vitesse et temps",
+        "Convertisseur de devises avec les taux quotidiens de la BCE pour plus de 30 devises, actualisables via ↻",
+        "Fenêtre déplaçable avec taille, largeur et opacité réglables, 8 thèmes, et réouverture dans le dernier mode utilisé"
       ],
       "faq": [
         {
-          "q": "Dois-je fermer mon application à chaque fois que je veux calculer ?",
-          "a": "Non. FloatCalc+ fonctionne comme une fenêtre flottante qui reste au-dessus des autres applications : vous pouvez calculer sans quitter votre écran d'achats, de banque ou de navigation."
+          "q": "Dois-je fermer mon appli à chaque fois que je veux calculer ?",
+          "a": "Non. FloatCalc+ est une fenêtre flottante qui reste au-dessus des autres applis : vous calculez une remise ou convertissez un prix sans quitter votre écran de shopping, de banque ou votre navigateur. Déplacez la fenêtre où vous voulez, obtenez votre résultat et reprenez exactement où vous étiez."
         },
         {
-          "q": "D'où proviennent les taux de change ?",
-          "a": "Elle utilise les taux ECB (Banque centrale européenne) en temps réel, actualisés chaque jour. Vous pouvez convertir l'USD, l'EUR, le JPY, le KRW, le CNY et plus de 30 devises mondiales directement dans la fenêtre flottante, et les taux sont mis en cache chaque jour pour fonctionner aussi hors ligne."
+          "q": "D'où viennent les taux de change ?",
+          "a": "De la Banque centrale européenne, actualisés chaque jour — et vous pouvez toucher ↻ à tout moment pour récupérer les derniers taux. USD, EUR, JPY, GBP, KRW, CNY et plus de 30 devises se convertissent directement dans la fenêtre, et comme les taux sont mis en cache chaque jour, cela fonctionne aussi hors ligne."
         },
         {
-          "q": "Jusqu'où puis-je l'utiliser gratuitement ?",
-          "a": "La calculatrice flottante est gratuite avec publicités et sans limite de temps. La version gratuite comprend le thème par défaut et la conversion de longueur ; Pro supprime les publicités et ajoute les 7 thèmes premium, les autres catégories d'unités, le convertisseur de devises avancé, les réglages du panneau et le lancement rapide. Vous pouvez aussi regarder une courte publicité pour débloquer gratuitement une fonction Pro pendant 24 heures."
+          "q": "Jusqu'où puis-je aller gratuitement ?",
+          "a": "La calculatrice flottante est gratuite et sans limite de temps — ni quota quotidien, ni compte à rebours. Pro supprime les publicités et ajoute les autres catégories d'unités et plus de 30 devises, 7 thèmes premium et la personnalisation complète (opacité, taille, largeur), en mensuel, annuel ou achat unique à vie. Une courte publicité vous donne aussi un pass de 24 h sur la fonction Pro de votre choix."
         }
       ]
     },
@@ -156,29 +156,29 @@
       "name": "FloatCrypto+",
       "tag": "Flottant",
       "seo": "Cours du Bitcoin flottant",
-      "desc": "Cours en direct du Bitcoin et des cryptos, flottant par-dessus toute application.",
-      "tagline": "Gardez le cours du Bitcoin en direct flottant sur votre écran — 100 % gratuit.",
-      "long": "FloatCrypto+ fait flotter un téléscripteur crypto en temps réel par-dessus toute application — YouTube, Chrome, jeux, Telegram — pour suivre le BTC, l'ETH, le SOL, le XRP, le DOGE, le BNB et plus de 1 000 altcoins sans jamais changer d'application. Alimentée par les données de marché Binance avec CoinGecko en secours, elle réunit graphiques en direct, alertes de prix et liste de suivi au même endroit. Elle est 100 % gratuite, sans connexion, sans e-mail et sans portefeuille — prête à l'emploi en quelques secondes.",
+      "desc": "Un bandeau de cours crypto flottant, avec alertes et graphiques.",
+      "tagline": "Bitcoin, Ethereum et vos altcoins sous les yeux — au-dessus de l'appli que vous utilisez.",
+      "long": "FloatCrypto+ fait flotter un bandeau de cours en direct au-dessus de toutes vos applis : suivez le marché pendant que vous regardez YouTube, lisez l'actualité ou répondez à un message, sans changer d'écran ni recharger. Déplacez-le, redimensionnez-le et baissez son opacité pour qu'il ne gêne jamais. Fixez un seuil haut ou bas et vous êtes prévenu dès que le marché le franchit, composez une liste de suivi avec les cryptos qui comptent vraiment, et ouvrez des graphiques 1 jour, 7 jours et 30 jours avec plus haut, plus bas, ouverture et variation de la période. Les cours proviennent de Binance, avec CoinGecko en secours automatique, pour que le bandeau continue de fonctionner si une source est injoignable.",
       "features": [
-        "Fenêtre flottante qui garde les cours en direct du Bitcoin et de l'Ethereum au-dessus de chaque application — sans changer d'appli",
-        "Faites glisser pour déplacer, pincez pour redimensionner, avec opacité et taille de police ajustables",
-        "Graphiques crypto en direct 1J/7J/30J alimentés par les données Binance, avec variation sur 24 h en %",
-        "Alertes de prix instantanées avec seuils haut et bas, et surveillance en arrière-plan 24 h/24 et 7 j/7",
-        "Recherche rapide de plus de 1 000 jetons, avec liste de suivi en temps réel et suivi des cours",
-        "100 % gratuit, sans connexion ni portefeuille, fonctionnant comme un service léger et économe en batterie"
+        "Bandeau de cours flottant au-dessus de toutes les applis — déplaçable, redimensionnable, opacité réglable",
+        "Alertes sur un seuil haut ou bas, créées depuis la carte de la crypto, déjà sélectionnée",
+        "Liste de suivi avec cours en direct, variation sur 24 h et réorganisation par glisser-déposer",
+        "Graphiques 1 jour / 7 jours / 30 jours avec plus haut, plus bas, ouverture et variation",
+        "Couleurs occidentales et orientales — vert hausse/rouge baisse, ou rouge hausse/bleu baisse",
+        "Cours Binance avec secours automatique CoinGecko, pour un bandeau qui ne s'arrête pas"
       ],
       "faq": [
         {
-          "q": "FloatCrypto+ est-il gratuit ? Ai-je besoin d'un compte ?",
-          "a": "Il est 100 % gratuit. Aucune connexion, aucun e-mail, aucune connexion de portefeuille — installez et commencez à suivre les cours en quelques secondes."
+          "q": "Puis-je voir les cours en utilisant d'autres applis ?",
+          "a": "Oui. Le bandeau flotte au-dessus de toutes les applis : vous suivez le marché pendant que vous êtes sur YouTube, dans un jeu ou dans une conversation, sans changer d'écran ni recharger. Déplacez-le, redimensionnez-le et baissez son opacité pour qu'il ne masque jamais ce que vous lisez."
         },
         {
-          "q": "Quelles cryptos sont prises en charge et d'où proviennent les données ?",
-          "a": "Il prend en charge le Bitcoin, l'Ethereum, le Solana, le XRP, le Dogecoin, le BNB et plus de 1 000 altcoins, en utilisant les données de marché Binance avec CoinGecko en secours pour plus de fiabilité."
+          "q": "Comment fonctionnent les alertes de prix ?",
+          "a": "Fixez un seuil haut ou bas et FloatCrypto+ vous prévient dès que le marché le franchit. Vous pouvez créer l'alerte depuis la carte d'une crypto — appuyez sur ⋮ et la crypto est déjà sélectionnée — et une cloche signale chaque crypto surveillée."
         },
         {
-          "q": "Puis-je voir les cours en utilisant d'autres applications ?",
-          "a": "Oui. La fenêtre flottante reste au-dessus de chaque application : vous pouvez suivre les cours en direct tout en regardant YouTube, en jouant ou en discutant — sans changer d'appli."
+          "q": "Que puis-je faire gratuitement ?",
+          "a": "La version gratuite suit 2 cryptos avec 1 alerte et affiche des publicités, et un pass gratuit vous offre 24 h de Pro complet pour une courte publicité. Pro passe à 10 cryptos avec alertes illimitées, supprime les publicités, actualise le bandeau toutes les 10 secondes et débloque l'historique complet des graphiques — en mensuel, annuel (avec essai gratuit) ou achat unique à vie."
         }
       ]
     },

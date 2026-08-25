@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
-"""C:\\CodeDAC 하위 앱들의 아이콘/스크린샷을 홈페이지용으로 복사·변환한다."""
+"""형제 폴더에 있는 앱들의 아이콘/스크린샷을 홈페이지용으로 복사·변환한다."""
 import os, glob, sys
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT = r"C:\CodeDAC"
+# 앱 소스는 이 저장소의 형제 폴더에 있다. 저장소가 옮겨 다녀도 따라가도록
+# 저장소 위치에서 거슬러 올라가 잡고, 환경변수로 덮어쓸 수 있게 둔다.
+ROOT = os.environ.get("CODEDAC_ROOT") or os.path.dirname(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 # 이 스크립트가 있는 저장소(codedac1.github.io) 자체가 사이트다. 폴더명이 바뀌어도 따라간다.
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ICON_DIR = os.path.join(SITE, "images", "icons")
@@ -19,8 +22,8 @@ APPS = {
     "autostart":     (r"AutoStart\Resource\icon_512.jpg", r"AutoStart\Resource\screenshots\en", "*.png"),
     "clipboard":     (r"Clipboard\Resource\icon_512.png", r"Clipboard\Resource\PlayStore등록자료\en", "*.png"),
     "clipboardwin":  (r"ClipboardWin\src\ClipboardPlus\Assets\app.ico", r"ClipboardWin\Resource\shots", "store-en-*.png"),
-    "floatcalc":     (r"FloatCalc\FloatCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatCalc\Resource\PlayStore등록자료\screenshots_v3\en", "*.png"),
-    "floatcrypto":   (r"FloatCrypto\Resource\PlayStore_template\images\app_icon.png", r"FloatCrypto\Resource\PlayStore_등록자료\en", "*.png"),
+    "floatcalc":     (r"FloatCalc\FloatCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatCalc\Resource\PlayStore등록자료\screenshots_v5\en", "*.png"),
+    "floatcrypto":   (r"FloatCrypto\Resource\icon_512.png", r"FloatCrypto\Resource\PlayStore_등록자료\en", "*.png"),
     "floatnote":     (r"FloatNote\Resource\icon_512.png", r"FloatNote\Resource\PlayStore등록자료\en", "*.png"),
     # 한국어 스크린샷은 store-ko-* 라 영어만 고른다.
     "floatnotewin":  (r"FloatNoteWin\src\FloatNotePlus\Assets\app.ico", r"FloatNoteWin\Resource\shots", "store-en-*.png"),

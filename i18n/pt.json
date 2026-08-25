@@ -126,29 +126,29 @@
       "name": "FloatCalc+",
       "tag": "Flutuante",
       "seo": "calculadora flutuante",
-      "desc": "Uma calculadora flutuante, com câmbio e conversor de unidades sobre qualquer app.",
-      "tagline": "Uma calculadora flutuante que fica sobre qualquer app, para você nunca sair da tela só para fazer contas.",
-      "long": "O FloatCalc+ é uma calculadora flutuante que fica por cima de qualquer app, então você nunca precisa trocar de tela só para fazer uma conta. Calculadora, conversor de unidades e conversor de moedas ficam na mesma janela sobreposta, a um toque de distância. Arraste a janela para onde quiser e copie qualquer resultado com um toque. É grátis com anúncios e sem limite de tempo, leve e rápida, e funciona offline (as taxas ficam em cache diariamente).",
+      "desc": "Calculadora flutuante com conversor de câmbio e unidades sobre qualquer app.",
+      "tagline": "Calcule sem sair do app — uma calculadora flutuante sempre por cima.",
+      "long": "O FloatCalc+ é uma calculadora flutuante que fica por cima de qualquer app, então você nunca precisa fechar a tela de compras, do banco ou do navegador só para fazer uma conta. Calculadora, conversor de unidades e conversor de moedas dividem a mesma janela arrastável: digite a expressão, veja o resultado na hora e copie para a área de transferência. As taxas de câmbio vêm do BCE, são atualizadas diariamente e ficam em cache, então tudo continua funcionando offline. É grátis e sem limite de tempo — sem limite diário, sem contagem regressiva, sem interrupções.",
       "features": [
-        "Flutua sobre qualquer app — YouTube, mapas, navegador, banco, compras, planilhas",
-        "Janela de sobreposição arrastável, com cópia dos resultados para a área de transferência em um toque",
-        "Conversor de unidades: comprimento, peso, temperatura, moedas, área, volume, velocidade e tempo",
-        "Taxas de câmbio ECB em tempo real para mais de 30 moedas, atualizadas diariamente",
-        "Início rápido: abrir o app já traz a calculadora flutuante em vez da tela de configurações, que você pode reabrir a qualquer momento pela notificação",
-        "Escolha o modo inicial (calculadora / unidades / moedas), 8 temas, funciona offline"
+        "Sobreposição em qualquer app — YouTube, mapas, navegador, banco, compras, documentos",
+        "Barra de operadores com um toque: + − × ÷ ( ) % logo acima do teclado, com retrocesso para corrigir um erro",
+        "Potências, raízes e porcentagens — 2^10, √144, 100+10% — com cópia do resultado em um toque",
+        "Conversor de unidades dentro da janela: comprimento, peso, temperatura, área, volume, velocidade e tempo",
+        "Conversor de moedas com taxas diárias do BCE para mais de 30 moedas, atualizadas na hora com ↻",
+        "Janela arrastável com tamanho, largura e opacidade ajustáveis, 8 temas e reabertura no último modo usado"
       ],
       "faq": [
         {
-          "q": "Preciso fechar o app toda vez que quero calcular?",
-          "a": "Não. O FloatCalc+ funciona como uma janela flutuante que fica sobre os outros apps, então você pode calcular sem sair da tela de compras, do banco ou do navegador."
+          "q": "Preciso fechar meu app toda vez que quiser calcular?",
+          "a": "Não. O FloatCalc+ é uma janela flutuante que fica por cima dos outros apps, então dá para calcular um desconto ou converter um preço sem sair da tela de compras, do banco ou do navegador. Arraste a janela para onde quiser, veja o resultado e continue exatamente de onde parou."
         },
         {
           "q": "De onde vêm as taxas de câmbio?",
-          "a": "Ele usa as taxas do ECB (Banco Central Europeu) em tempo real, atualizadas diariamente. Você pode converter USD, EUR, JPY, KRW, CNY e mais de 30 moedas mundiais direto na sobreposição, e as taxas ficam em cache a cada dia, então também funciona offline."
+          "a": "Do Banco Central Europeu, atualizadas diariamente — e você pode tocar em ↻ a qualquer momento para buscar as mais recentes. USD, EUR, JPY, GBP, KRW, CNY e mais de 30 moedas são convertidas dentro da própria janela, e como as taxas ficam em cache todo dia, funciona offline também."
         },
         {
-          "q": "Quanto posso usar de graça?",
-          "a": "A calculadora flutuante é gratuita com anúncios e sem limite de tempo. A versão gratuita inclui o tema padrão e a conversão de comprimento; o Pro remove os anúncios e adiciona os 7 temas premium, as demais categorias de unidades, o conversor de moedas avançado, as configurações de painel e o início rápido. Também dá para assistir a um anúncio curto e liberar qualquer recurso Pro de graça por 24 horas."
+          "q": "Até onde dá para usar de graça?",
+          "a": "A calculadora flutuante é grátis e sem limite de tempo — sem limite diário e sem contagem regressiva. O Pro remove os anúncios e libera as demais categorias de unidades e mais de 30 moedas, 7 temas premium e a personalização completa (opacidade, tamanho e largura), nos planos mensal, anual ou vitalício. Você também pode assistir a um anúncio curto e usar qualquer recurso Pro por 24 horas."
         }
       ]
     },
@@ -156,29 +156,29 @@
       "name": "FloatCrypto+",
       "tag": "Flutuante",
       "seo": "preço de Bitcoin flutuante",
-      "desc": "Preços de Bitcoin e cripto ao vivo, flutuando sobre qualquer app.",
-      "tagline": "Mantenha o preço do Bitcoin ao vivo flutuando na sua tela — 100% grátis.",
-      "long": "O FloatCrypto+ deixa um ticker de cripto em tempo real flutuando sobre qualquer app — YouTube, Chrome, jogos, Telegram — para que você acompanhe BTC, ETH, SOL, XRP, DOGE, BNB e mais de 1.000 altcoins sem nunca trocar de app. Movido por dados de mercado da Binance, com a CoinGecko como fonte reserva, ele reúne gráficos ao vivo, alertas de preço e uma lista de favoritos em um só lugar. É 100% grátis, sem login, sem e-mail e sem carteira — pronto para usar em segundos.",
+      "desc": "Ticker cripto ao vivo flutuando sobre qualquer app, com alertas e gráficos.",
+      "tagline": "Bitcoin, Ethereum e suas altcoins na tela — sobre o app que você estiver usando.",
+      "long": "O FloatCrypto+ deixa uma cotação ao vivo flutuando por cima de todos os apps, então você acompanha o mercado enquanto assiste ao YouTube, lê notícias ou responde mensagens — sem trocar de tela e sem recarregar. Arraste para onde quiser, ajuste o tamanho e reduza a opacidade para nunca atrapalhar. Defina um limite superior ou inferior e receba um aviso no instante em que o mercado cruzar esse valor, monte uma lista só com as moedas que interessam e abra gráficos de 1 dia, 7 dias e 30 dias com máxima, mínima, abertura e variação do período. Os preços vêm da Binance, com CoinGecko como alternativa automática, assim o ticker continua funcionando se uma fonte ficar indisponível.",
       "features": [
-        "Sobreposição flutuante que mantém os preços de Bitcoin e Ethereum ao vivo sobre todos os apps — sem trocar de app",
-        "Arraste para mover, use os dedos para redimensionar, com opacidade e tamanho de fonte ajustáveis",
-        "Gráficos de cripto ao vivo de 1D/7D/30D com dados da Binance, com variação de 24h em %",
-        "Alertas de preço instantâneos com limites superior e inferior e monitoramento em segundo plano 24/7",
-        "Busca rápida de moedas entre mais de 1.000 tokens, com lista de favoritos e rastreador de preços em tempo real",
-        "100% grátis, sem login ou carteira, funcionando como um serviço leve e econômico para a bateria"
+        "Ticker flutuante por cima de todos os apps — arraste, ajuste o tamanho e reduza a opacidade",
+        "Alertas de preço com limite superior ou inferior, criados direto no card da moeda já preenchida",
+        "Lista de acompanhamento com preço ao vivo, variação de 24 h e reordenação arrastando",
+        "Gráficos de 1 dia / 7 dias / 30 dias com máxima, mínima, abertura e variação do período",
+        "Cores ocidentais e orientais — verde alta/vermelho baixa, ou vermelho alta/azul baixa",
+        "Preços da Binance com alternativa automática do CoinGecko, para o ticker não parar"
       ],
       "faq": [
         {
-          "q": "O FloatCrypto+ é grátis? Preciso de uma conta?",
-          "a": "É 100% grátis. Não há login, e-mail nem conexão de carteira — basta instalar e começar a acompanhar em segundos."
+          "q": "Dá para ver os preços usando outros apps?",
+          "a": "Sim. O ticker flutua por cima de todos os apps, então você acompanha o mercado enquanto está no YouTube, num jogo ou numa conversa — sem trocar de tela e sem recarregar. Arraste para onde quiser, ajuste o tamanho e reduza a opacidade para nunca cobrir o que você está lendo."
         },
         {
-          "q": "Quais moedas são suportadas e de onde vêm os dados?",
-          "a": "Ele suporta Bitcoin, Ethereum, Solana, XRP, Dogecoin, BNB e mais de 1.000 altcoins, usando dados de mercado da Binance com a CoinGecko como fonte reserva para maior confiabilidade."
+          "q": "Como funcionam os alertas de preço?",
+          "a": "Defina um limite superior ou inferior e o FloatCrypto+ avisa no instante em que o mercado cruzar esse valor. Dá para criar o alerta direto no card da moeda — toque em ⋮ e a moeda já vem preenchida — e um sino marca cada moeda que você está monitorando."
         },
         {
-          "q": "Posso ver os preços enquanto uso outros apps?",
-          "a": "Sim. A sobreposição flutuante fica sobre todos os apps, então você pode acompanhar os preços ao vivo enquanto usa o YouTube, joga ou conversa — sem precisar trocar de app."
+          "q": "O que dá para fazer de graça?",
+          "a": "No plano grátis você acompanha 2 moedas com 1 alerta e com anúncios, e um passe grátis libera 24 horas de Pro completo por um anúncio curto. O Pro sobe para 10 moedas com alertas ilimitados, remove os anúncios, atualiza o ticker a cada 10 segundos e libera o histórico completo dos gráficos — mensal, anual (com teste grátis) ou vitalício."
         }
       ]
     },

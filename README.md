@@ -39,7 +39,7 @@ CodeDAC는 **Clipboard+**, **AutoStart+** 등 스마트폰 유틸리티 앱을 �
     ├── reviews.json          # 홈 후기 섹션에 노출할 5★ 리뷰(손수 큐레이션)
     ├── fetch_reviews.js      # Play Store 5★ 리뷰 후보 수집 → _reviews_pool.json(커밋 제외)
     ├── gen_site.js           # ★ 사이트 생성기 (336개 페이지 + 껍데기 + sitemap 전부 생성)
-    ├── build_assets.py       # C:\CodeDAC 각 앱의 아이콘·스크린샷 변환·복사
+    ├── build_assets.py       # D:\CodeDAC 각 앱의 아이콘·스크린샷 변환·복사
     └── make_og.py            # OG 공유 이미지 생성
 ```
 
@@ -65,7 +65,7 @@ node scripts/gen_site.js
 
 다운로드 표기는 앱별 **최소 설치수(minInstalls) 합계를 1,000 단위로 내림**해 `12,000+`처럼 보수적으로 표시합니다.
 
-- **앱별 지원 언어 수** — `scripts/app_langs.json`: 각 앱 안드로이드 프로젝트(`C:\CodeDAC\<Project>`)의 `res/values-<locale>/` 폴더를 스캔해 도출(지역 변형은 기본 언어로 정규화·중복 제거, 기본 `values/`는 영어로 간주). 앱 카드·상세 히어로의 `🌐 N개 언어` 배지에 쓰입니다. 앱 소스는 이 저장소 밖(형제 폴더)이라 스캔은 개발 PC에서만 수행하고 산출물만 커밋합니다.
+- **앱별 지원 언어 수** — `scripts/app_langs.json`: 각 앱 안드로이드 프로젝트(`D:\CodeDAC\<Project>`)의 `res/values-<locale>/` 폴더를 스캔해 도출(지역 변형은 기본 언어로 정규화·중복 제거, 기본 `values/`는 영어로 간주). 앱 카드·상세 히어로의 `🌐 N개 언어` 배지에 쓰입니다. 앱 소스는 이 저장소 밖(형제 폴더)이라 스캔은 개발 PC에서만 수행하고 산출물만 커밋합니다.
 
 ```bash
 node scripts/scan_app_langs.js   # 앱별 언어 수 재스캔 → scripts/app_langs.json

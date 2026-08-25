@@ -126,29 +126,29 @@
       "name": "FloatCalc+",
       "tag": "Cửa sổ nổi",
       "seo": "Máy tính nổi trên mọi ứng dụng",
-      "desc": "Máy tính, chuyển đổi tỷ giá và đơn vị dạng nổi trên mọi ứng dụng.",
-      "tagline": "Máy tính nổi luôn hiển thị trên mọi ứng dụng để bạn không phải thoát ra chỉ để tính toán.",
-      "long": "FloatCalc+ là máy tính nổi luôn hiển thị trên mọi ứng dụng, nên bạn không phải chuyển màn hình chỉ để tính toán. Máy tính, bộ đổi đơn vị và bộ đổi tiền tệ đều nằm trong cùng một cửa sổ nổi, chỉ cách nhau một chạm. Kéo cửa sổ tới chỗ bạn muốn và sao chép kết quả chỉ với một chạm. Ứng dụng miễn phí kèm quảng cáo, không giới hạn thời gian, nhẹ và nhanh, dùng được cả khi ngoại tuyến (tỷ giá được lưu đệm mỗi ngày).",
+      "desc": "Máy tính nổi kèm chuyển đổi tỷ giá và đơn vị, trên mọi ứng dụng.",
+      "tagline": "Tính toán mà không rời ứng dụng — máy tính luôn nổi trên màn hình.",
+      "long": "FloatCalc+ là máy tính nổi luôn hiện trên mọi ứng dụng, nên bạn không phải đóng màn hình mua sắm, ngân hàng hay trình duyệt chỉ để tính nhanh một phép tính. Máy tính, bộ chuyển đổi đơn vị và bộ chuyển đổi tiền tệ nằm chung một cửa sổ kéo thả được: gõ biểu thức, có kết quả ngay và sao chép vào bộ nhớ tạm. Tỷ giá lấy từ ECB, cập nhật hằng ngày và được lưu lại nên vẫn dùng được khi ngoại tuyến. Miễn phí không giới hạn thời gian — không giới hạn lượt mỗi ngày, không đếm ngược, không bị ngắt quãng.",
       "features": [
-        "Nổi trên mọi ứng dụng — YouTube, bản đồ, trình duyệt, ngân hàng, mua sắm, bảng tính",
-        "Cửa sổ lớp phủ kéo được, sao chép kết quả vào bộ nhớ tạm chỉ với một chạm",
-        "Bộ đổi đơn vị: chiều dài, khối lượng, nhiệt độ, tiền tệ, diện tích, thể tích, tốc độ và thời gian",
-        "Tỷ giá ECB thời gian thực cho hơn 30 loại tiền tệ, cập nhật hằng ngày",
-        "Mở nhanh: mở ứng dụng là máy tính nổi hiện ra ngay thay vì màn hình cài đặt, và bạn có thể mở lại cài đặt bất cứ lúc nào từ thông báo",
-        "Chọn chế độ khởi động (máy tính / đơn vị / tiền tệ), 8 giao diện, chạy ngoại tuyến"
+        "Nổi trên mọi ứng dụng — YouTube, bản đồ, trình duyệt, ngân hàng, mua sắm, tài liệu",
+        "Thanh toán tử một chạm: + − × ÷ ( ) % ngay trên bàn phím, xóa lùi để sửa lỗi gõ",
+        "Lũy thừa, căn bậc hai và phần trăm — 2^10, √144, 100+10% — sao chép kết quả chỉ một chạm",
+        "Chuyển đổi đơn vị ngay trong cửa sổ: chiều dài, khối lượng, nhiệt độ, diện tích, thể tích, tốc độ và thời gian",
+        "Chuyển đổi tiền tệ với tỷ giá ECB hằng ngày cho hơn 30 loại tiền, làm mới tức thì bằng ↻",
+        "Cửa sổ kéo thả được, chỉnh kích thước, chiều rộng và độ trong suốt, 8 giao diện, mở lại ở chế độ dùng lần trước"
       ],
       "faq": [
         {
-          "q": "Tôi có phải đóng ứng dụng mỗi khi muốn tính toán không?",
-          "a": "Không. FloatCalc+ hoạt động như một cửa sổ nổi luôn hiển thị trên các ứng dụng khác, nên bạn có thể tính toán mà không cần rời khỏi màn hình mua sắm, ngân hàng hay trình duyệt."
+          "q": "Mỗi lần tính toán tôi có phải đóng ứng dụng đang dùng không?",
+          "a": "Không. FloatCalc+ là cửa sổ nổi nằm trên các ứng dụng khác, nên bạn có thể tính giá sau giảm hay quy đổi giá mà không rời màn hình mua sắm, ngân hàng hay trình duyệt. Kéo cửa sổ đến chỗ bạn cần, lấy kết quả rồi tiếp tục ngay nơi bạn đang xem."
         },
         {
           "q": "Tỷ giá lấy từ đâu?",
-          "a": "Ứng dụng sử dụng tỷ giá ECB (Ngân hàng Trung ương Châu Âu) theo thời gian thực, cập nhật hằng ngày. Bạn có thể quy đổi USD, EUR, JPY, KRW, CNY và hơn 30 loại tiền tệ trên thế giới ngay trong lớp phủ, và tỷ giá được lưu vào bộ nhớ đệm mỗi ngày để dùng được cả khi ngoại tuyến."
+          "a": "Từ Ngân hàng Trung ương châu Âu (ECB), cập nhật hằng ngày — và bạn có thể chạm ↻ bất cứ lúc nào để lấy tỷ giá mới nhất. USD, EUR, JPY, GBP, KRW, CNY và hơn 30 loại tiền được quy đổi ngay trong cửa sổ, tỷ giá được lưu mỗi ngày nên vẫn dùng được khi ngoại tuyến."
         },
         {
-          "q": "Tôi được dùng miễn phí đến mức nào?",
-          "a": "Máy tính nổi dùng miễn phí kèm quảng cáo và không giới hạn thời gian. Bản miễn phí gồm giao diện mặc định và quy đổi chiều dài; Pro bỏ quảng cáo và thêm 7 giao diện cao cấp, các nhóm đơn vị còn lại, bộ đổi tiền tệ nâng cao, cài đặt bảng và mở nhanh. Bạn cũng có thể xem một quảng cáo ngắn để mở miễn phí một tính năng Pro trong 24 giờ."
+          "q": "Dùng miễn phí được tới đâu?",
+          "a": "Máy tính nổi miễn phí không giới hạn thời gian — không giới hạn lượt mỗi ngày, không đếm ngược. Pro gỡ quảng cáo và mở thêm các danh mục đơn vị còn lại cùng hơn 30 loại tiền tệ, 7 giao diện cao cấp và tùy chỉnh bảng đầy đủ (độ trong suốt, kích thước, chiều rộng), theo tháng, theo năm hoặc mua một lần trọn đời. Bạn cũng có thể xem một quảng cáo ngắn để dùng miễn phí một tính năng Pro trong 24 giờ."
         }
       ]
     },
@@ -156,29 +156,29 @@
       "name": "FloatCrypto+",
       "tag": "Cửa sổ nổi",
       "seo": "Giá Bitcoin nổi trên mọi ứng dụng",
-      "desc": "Giá Bitcoin và tiền mã hóa trực tiếp, nổi trên mọi ứng dụng.",
-      "tagline": "Luôn giữ giá Bitcoin trực tiếp nổi trên màn hình — hoàn toàn miễn phí.",
-      "long": "FloatCrypto+ hiển thị bảng giá tiền mã hóa thời gian thực nổi trên mọi ứng dụng — YouTube, Chrome, game, Telegram — để bạn theo dõi BTC, ETH, SOL, XRP, DOGE, BNB và hơn 1.000 altcoin mà không cần chuyển ứng dụng. Dựa trên dữ liệu thị trường của Binance với CoinGecko làm nguồn dự phòng, ứng dụng còn có biểu đồ trực tiếp, cảnh báo giá và danh sách theo dõi ở cùng một nơi. Hoàn toàn miễn phí, không cần đăng nhập, không cần email và không cần ví — sẵn sàng dùng trong vài giây.",
+      "desc": "Thanh giá crypto trực tiếp nổi trên mọi ứng dụng, kèm cảnh báo và biểu đồ.",
+      "tagline": "Bitcoin, Ethereum và altcoin của bạn luôn trên màn hình — trên mọi ứng dụng.",
+      "long": "FloatCrypto+ giữ một thanh giá trực tiếp nổi bên trên mọi ứng dụng, để bạn theo dõi thị trường trong lúc xem YouTube, đọc tin hay trả lời tin nhắn — không cần chuyển qua lại, không cần tải lại. Kéo tới vị trí bạn muốn, đổi kích thước và giảm độ mờ để nó không bao giờ vướng mắt. Đặt ngưỡng trên hoặc dưới và ứng dụng sẽ báo ngay khi thị trường chạm mức đó; lập danh sách theo dõi chỉ gồm những coin bạn thật sự quan tâm và mở biểu đồ 1 ngày, 7 ngày, 30 ngày kèm giá cao nhất, thấp nhất, mở cửa và mức thay đổi trong kỳ. Giá lấy từ Binance, có CoinGecko dự phòng tự động nên thanh giá vẫn chạy khi một nguồn không truy cập được.",
       "features": [
-        "Lớp phủ nổi luôn giữ giá Bitcoin và Ethereum trực tiếp trên mọi ứng dụng — không cần chuyển ứng dụng",
-        "Kéo để di chuyển, chụm để thay đổi kích thước, điều chỉnh được độ trong suốt và cỡ chữ",
-        "Biểu đồ tiền mã hóa 1N/7N/30N trực tiếp dựa trên dữ liệu Binance, kèm % thay đổi 24 giờ",
-        "Cảnh báo giá tức thì với ngưỡng trên và dưới cùng giám sát nền 24/7",
-        "Tìm kiếm coin nhanh trong hơn 1.000 token với danh sách theo dõi và bảng giá thời gian thực",
-        "Hoàn toàn miễn phí, không cần đăng nhập hay ví, chạy như một dịch vụ nền nhẹ và tiết kiệm pin"
+        "Thanh giá nổi trên mọi ứng dụng — kéo tới vị trí bất kỳ, đổi kích thước, giảm độ mờ",
+        "Cảnh báo giá theo ngưỡng trên hoặc dưới, tạo ngay trên thẻ coin đã được chọn sẵn",
+        "Danh sách theo dõi với giá trực tiếp, biến động 24 giờ và kéo để sắp xếp lại",
+        "Biểu đồ 1 ngày / 7 ngày / 30 ngày kèm giá cao nhất, thấp nhất, mở cửa và mức thay đổi",
+        "Màu phương Tây và phương Đông — xanh tăng/đỏ giảm, hoặc đỏ tăng/xanh dương giảm",
+        "Giá Binance với CoinGecko dự phòng tự động để thanh giá không ngừng chạy"
       ],
       "faq": [
         {
-          "q": "FloatCrypto+ có miễn phí không? Tôi có cần tài khoản không?",
-          "a": "Hoàn toàn miễn phí. Không cần đăng nhập, không cần email và không cần kết nối ví — chỉ cần cài đặt và bắt đầu theo dõi trong vài giây."
+          "q": "Tôi có xem được giá khi đang dùng ứng dụng khác không?",
+          "a": "Có. Thanh giá nổi trên mọi ứng dụng, nên bạn vẫn theo dõi thị trường khi đang xem YouTube, chơi game hay trò chuyện — không cần chuyển qua lại, không cần tải lại. Kéo tới vị trí bạn muốn, đổi kích thước và giảm độ mờ để nó không che phần bạn đang đọc."
         },
         {
-          "q": "Ứng dụng hỗ trợ những coin nào và dữ liệu đến từ đâu?",
-          "a": "Ứng dụng hỗ trợ Bitcoin, Ethereum, Solana, XRP, Dogecoin, BNB và hơn 1.000 altcoin, sử dụng dữ liệu thị trường của Binance với CoinGecko làm nguồn dự phòng để đảm bảo độ ổn định."
+          "q": "Cảnh báo giá hoạt động thế nào?",
+          "a": "Bạn đặt ngưỡng trên hoặc dưới, FloatCrypto+ sẽ báo ngay khi thị trường chạm mức đó. Có thể tạo cảnh báo ngay trên thẻ coin — chạm ⋮ và coin đã được chọn sẵn — còn biểu tượng chuông đánh dấu mọi coin bạn đang theo dõi."
         },
         {
-          "q": "Tôi có thể xem giá khi đang dùng ứng dụng khác không?",
-          "a": "Có. Lớp phủ nổi luôn hiển thị trên mọi ứng dụng, nên bạn có thể theo dõi giá trực tiếp khi đang xem YouTube, chơi game hay trò chuyện — không cần chuyển ứng dụng."
+          "q": "Bản miễn phí có gì?",
+          "a": "Bản miễn phí theo dõi 2 coin với 1 cảnh báo giá và có quảng cáo; vé miễn phí cho bạn dùng trọn Pro trong 24 giờ khi xem một quảng cáo ngắn. Pro nâng lên 10 coin với cảnh báo không giới hạn, gỡ quảng cáo, cập nhật thanh giá mỗi 10 giây và mở đầy đủ lịch sử biểu đồ — theo tháng, theo năm (có dùng thử miễn phí) hoặc mua một lần trọn đời."
         }
       ]
     },

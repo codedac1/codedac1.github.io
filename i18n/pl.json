@@ -126,29 +126,29 @@
       "name": "FloatCalc+",
       "tag": "Pływające narzędzia",
       "seo": "Pływający kalkulator",
-      "desc": "Pływający kalkulator, przelicznik walut i jednostek nad każdą aplikacją.",
-      "tagline": "Pływający kalkulator, który pozostaje nad każdą aplikacją, więc nigdy nie musisz jej opuszczać, by coś obliczyć.",
-      "long": "FloatCalc+ to pływający kalkulator, który zostaje na wierzchu dowolnej aplikacji, więc nie musisz przełączać ekranu tylko po to, żeby coś policzyć. Kalkulator, przelicznik jednostek i przelicznik walut mieszczą się w tym samym pływającym oknie, o jedno dotknięcie od siebie. Przeciągnij okno tam, gdzie chcesz, i skopiuj dowolny wynik jednym dotknięciem. Z reklamami aplikacja jest darmowa i bez limitu czasu, lekka i szybka, działa też offline (kursy są buforowane codziennie).",
+      "desc": "Pływający kalkulator z przelicznikiem walut i jednostek nad każdą aplikacją.",
+      "tagline": "Licz bez wychodzenia z aplikacji — kalkulator zawsze na wierzchu.",
+      "long": "FloatCalc+ to pływający kalkulator, który zostaje na wierzchu każdej aplikacji, więc nie musisz zamykać zakupów, banku ani przeglądarki tylko po to, żeby coś policzyć. Kalkulator, przelicznik jednostek i przelicznik walut dzielą jedno przeciągane okno: wpisz wyrażenie, od razu zobacz wynik i skopiuj go do schowka. Kursy pochodzą z EBC, są odświeżane codziennie i zapisywane w pamięci, dzięki czemu wszystko działa też offline. Aplikacja jest darmowa bez limitu czasu — bez dziennego limitu, bez odliczania i bez przerywania.",
       "features": [
-        "Pływa nad każdą aplikacją — YouTube, mapami, przeglądarką, bankowością, zakupami, arkuszami kalkulacyjnymi",
-        "Przeciągane okno nakładki z kopiowaniem wyników do schowka jednym dotknięciem",
-        "Przelicznik jednostek: długość, masa, temperatura, waluty, powierzchnia, objętość, prędkość i czas",
-        "Kursy walut EBC w czasie rzeczywistym dla ponad 30 walut, odświeżane codziennie",
-        "Szybkie uruchamianie: po otwarciu aplikacji od razu pojawia się pływający kalkulator zamiast ekranu ustawień, które w każdej chwili otworzysz z powiadomienia",
-        "Wybór trybu startowego (kalkulator / jednostki / waluty), 8 motywów, działanie offline"
+        "Nakładka nad dowolną aplikacją — YouTube, mapy, przeglądarka, bank, zakupy, dokumenty",
+        "Pasek operatorów jednym dotknięciem: + − × ÷ ( ) % tuż nad klawiaturą, backspace poprawia literówkę",
+        "Potęgi, pierwiastki i procenty — 2^10, √144, 100+10% — z kopiowaniem wyniku jednym dotknięciem",
+        "Przelicznik jednostek w oknie: długość, waga, temperatura, powierzchnia, objętość, prędkość i czas",
+        "Przelicznik walut z codziennymi kursami EBC dla ponad 30 walut, odświeżany od razu przyciskiem ↻",
+        "Przeciągane okno z regulacją rozmiaru, szerokości i przezroczystości, 8 motywów i otwieranie w ostatnim trybie"
       ],
       "faq": [
         {
-          "q": "Czy za każdym razem muszę zamykać aplikację, by coś obliczyć?",
-          "a": "Nie. FloatCalc+ działa jako pływające okno, które pozostaje nad innymi aplikacjami, więc możesz liczyć bez opuszczania ekranu zakupów, bankowości czy przeglądarki."
+          "q": "Czy muszę zamykać aplikację za każdym razem, gdy chcę coś policzyć?",
+          "a": "Nie. FloatCalc+ to pływające okno, które zostaje nad innymi aplikacjami, więc policzysz rabat albo przeliczysz cenę bez opuszczania zakupów, banku czy przeglądarki. Przeciągnij okno tam, gdzie go potrzebujesz, odczytaj wynik i wróć dokładnie do tego, co robiłeś."
         },
         {
           "q": "Skąd pochodzą kursy walut?",
-          "a": "Korzysta z kursów EBC (Europejskiego Banku Centralnego) w czasie rzeczywistym, odświeżanych codziennie. Bezpośrednio w nakładce możesz przeliczać USD, EUR, JPY, KRW, CNY i ponad 30 walut świata, a kursy są buforowane każdego dnia, więc działa też offline."
+          "a": "Z Europejskiego Banku Centralnego, odświeżane codziennie — a przyciskiem ↻ w każdej chwili pobierzesz najnowsze. USD, EUR, JPY, GBP, KRW, CNY i ponad 30 walut przeliczysz bez opuszczania okna, a ponieważ kursy są codziennie zapisywane, działa to również offline."
         },
         {
           "q": "Ile mogę korzystać za darmo?",
-          "a": "Z pływającego kalkulatora można korzystać za darmo, z reklamami i bez limitu czasu. W wersji darmowej dostępny jest domyślny motyw i przeliczanie długości; Pro usuwa reklamy oraz dodaje 7 motywów premium, pozostałe kategorie jednostek, zaawansowany przelicznik walut, ustawienia panelu i szybkie uruchamianie. Możesz też obejrzeć krótką reklamę i odblokować pojedynczą funkcję Pro za darmo na 24 godziny."
+          "a": "Pływający kalkulator jest darmowy bez limitu czasu — bez dziennego limitu i bez odliczania. Pro usuwa reklamy oraz dodaje pozostałe kategorie jednostek i ponad 30 walut, 7 motywów premium i pełną personalizację panelu (przezroczystość, rozmiar, szerokość) — miesięcznie, rocznie lub jednorazowo na zawsze. Możesz też obejrzeć krótką reklamę i korzystać z wybranej funkcji Pro przez 24 godziny za darmo."
         }
       ]
     },
@@ -156,29 +156,29 @@
       "name": "FloatCrypto+",
       "tag": "Pływające narzędzia",
       "seo": "Pływające ceny Bitcoina",
-      "desc": "Aktualne ceny Bitcoina i kryptowalut pływające nad każdą aplikacją.",
-      "tagline": "Miej aktualną cenę Bitcoina na ekranie w pływającym okienku — w 100% za darmo.",
-      "long": "FloatCrypto+ wyświetla pływający ticker kryptowalut w czasie rzeczywistym nad każdą aplikacją — YouTube, Chrome, grami, Telegramem — więc możesz śledzić BTC, ETH, SOL, XRP, DOGE, BNB i ponad 1000 altcoinów bez przełączania aplikacji. Napędzany danymi rynkowymi Binance z rezerwowym źródłem CoinGecko, dodaje w jednym miejscu wykresy na żywo, alerty cenowe i listę obserwowanych. Jest w 100% darmowy — bez logowania, adresu e-mail i portfela — gotowy do użycia w kilka sekund.",
+      "desc": "Pasek kursów krypto na żywo nad każdą aplikacją, z alertami i wykresami.",
+      "tagline": "Bitcoin, Ethereum i Twoje altcoiny stale na ekranie — nad używaną aplikacją.",
+      "long": "FloatCrypto+ trzyma pasek kursów na żywo nad wszystkimi aplikacjami, więc śledzisz rynek, oglądając YouTube, czytając wiadomości albo odpisując na komunikatory — bez przełączania i bez przeładowywania. Przeciągnij go gdzie chcesz, zmień rozmiar i zmniejsz krycie, żeby nigdy nie przeszkadzał. Ustaw górny lub dolny próg, a dostaniesz powiadomienie w chwili, gdy rynek go przekroczy; zbierz listę wyłącznie z monet, które naprawdę Cię interesują, i otwieraj wykresy 1 dzień, 7 dni i 30 dni z maksimum, minimum, otwarciem i zmianą w danym okresie. Kursy pochodzą z Binance, a gdy źródło jest nieosiągalne, automatycznie wchodzi CoinGecko i pasek działa dalej.",
       "features": [
-        "Pływająca nakładka utrzymująca aktualne ceny Bitcoina i Ethereum nad każdą aplikacją — bez przełączania aplikacji",
-        "Przeciągaj, by przesunąć, ściągaj palcami, by zmienić rozmiar, z regulowaną przezroczystością i wielkością czcionki",
-        "Wykresy kryptowalut na żywo 1D/7D/30D oparte na danych Binance, ze zmianą 24h w procentach",
-        "Natychmiastowe alerty cenowe z górnym i dolnym progiem oraz monitorowaniem w tle 24/7",
-        "Szybkie wyszukiwanie monet wśród ponad 1000 tokenów z listą obserwowanych i śledzeniem cen w czasie rzeczywistym",
-        "W 100% darmowy, bez logowania i portfela, działa jako lekka i oszczędzająca baterię usługa"
+        "Pływający pasek kursów nad wszystkimi aplikacjami — przeciągaj, zmieniaj rozmiar i krycie",
+        "Alerty cenowe na górny lub dolny próg, tworzone prosto z karty już wybranej monety",
+        "Lista obserwowanych z kursem na żywo, zmianą 24 h i kolejnością zmienianą przeciąganiem",
+        "Wykresy 1 dzień / 7 dni / 30 dni z maksimum, minimum, otwarciem i zmianą w okresie",
+        "Kolory zachodnie i wschodnie — zielony wzrost/czerwony spadek albo czerwony wzrost/niebieski spadek",
+        "Kursy z Binance z automatycznym przełączeniem na CoinGecko, żeby pasek nie przestał działać"
       ],
       "faq": [
         {
-          "q": "Czy FloatCrypto+ jest darmowy? Czy potrzebuję konta?",
-          "a": "Jest w 100% darmowy. Nie ma logowania, adresu e-mail ani łączenia portfela — po prostu zainstaluj i zacznij śledzić w kilka sekund."
+          "q": "Czy zobaczę kursy, korzystając z innych aplikacji?",
+          "a": "Tak. Pasek unosi się nad wszystkimi aplikacjami, więc śledzisz rynek na YouTube, w grze albo w rozmowie — bez przełączania i bez przeładowywania. Przeciągnij go gdzie chcesz, zmień rozmiar i zmniejsz krycie, żeby nigdy nie zasłaniał tego, co czytasz."
         },
         {
-          "q": "Jakie monety są obsługiwane i skąd pochodzą dane?",
-          "a": "Obsługuje Bitcoina, Ethereum, Solanę, XRP, Dogecoina, BNB i ponad 1000 altcoinów, korzystając z danych rynkowych Binance z rezerwowym źródłem CoinGecko dla większej niezawodności."
+          "q": "Jak działają alerty cenowe?",
+          "a": "Ustawiasz górny lub dolny próg, a FloatCrypto+ powiadamia Cię w chwili, gdy rynek go przekroczy. Alert utworzysz prosto z karty monety — dotknij ⋮, a moneta jest już wybrana — natomiast dzwonek oznacza każdą obserwowaną monetę."
         },
         {
-          "q": "Czy mogę widzieć ceny podczas korzystania z innych aplikacji?",
-          "a": "Tak. Pływająca nakładka pozostaje nad każdą aplikacją, więc możesz obserwować ceny na żywo, korzystając z YouTube, grając w gry czy rozmawiając — bez przełączania aplikacji."
+          "q": "Co dostaję za darmo?",
+          "a": "W wersji darmowej śledzisz 2 monety z 1 alertem i z reklamami, a krótka reklama daje darmowy dostęp do pełnego Pro przez 24 godziny. Pro podnosi limit do 10 monet z alertami bez limitu, usuwa reklamy, odświeża pasek co 10 sekund i odblokowuje pełną historię wykresów — miesięcznie, rocznie (z darmowym okresem próbnym) lub jednorazowo na zawsze."
         }
       ]
     },

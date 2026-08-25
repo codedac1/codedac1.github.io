@@ -126,29 +126,29 @@
       "name": "FloatCalc+",
       "tag": "Floating",
       "seo": "Floating Calculator for Android",
-      "desc": "A floating calculator, FX & unit converter on top of any app.",
-      "tagline": "A floating calculator that stays on top of any app so you never leave to do the math.",
-      "long": "FloatCalc+ is a floating calculator that stays on top of any app, so you never have to switch screens just to work something out. Calculator, unit converter and currency converter all live in the same overlay window, a tap apart. Drag the window wherever you like and copy any result with a single tap. It is free with ads and no time limit, light and fast, and works offline (rates are cached daily).",
+      "desc": "A floating calculator with FX and unit converters, on top of any app.",
+      "tagline": "Calculate without leaving your app — a floating calculator that stays on top.",
+      "long": "FloatCalc+ is a floating calculator that stays on top of any app, so you never have to close your shopping, banking or browser screen just to work something out. The calculator, unit converter and currency converter share one draggable window: type an expression, get the answer instantly and copy it to the clipboard. Exchange rates come from the ECB and refresh daily, cached so everything keeps working offline. It is free with no time limit — no daily session cap, no countdown, no interruptions.",
       "features": [
         "Floats over any app — YouTube, maps, browser, banking, shopping, spreadsheets",
-        "Draggable overlay window with one-tap copy of results to the clipboard",
-        "Unit converter: length, weight, temperature, currency, area, volume, speed and time",
-        "Real-time ECB exchange rates for 30+ currencies, refreshed daily",
-        "Quick Launch: opening the app brings up the floating calculator straight away instead of the settings screen, which you can reopen anytime from the notification",
-        "Choose a start mode (calculator / units / currency), 8 themes, works offline"
+        "One-tap operator row: + − × ÷ ( ) % right above the keyboard, with backspace to fix a single typo",
+        "Powers, roots and percentages — 2^10, √144, 100+10% — with one-tap copy of the result",
+        "Unit converter inside the window: length, weight, temperature, area, volume, speed and time",
+        "Currency converter with daily ECB rates for 30+ currencies, refreshed on demand with ↻",
+        "Draggable pop-up with adjustable size, width and opacity, 8 themes, and it reopens in the mode you used last"
       ],
       "faq": [
         {
           "q": "Do I have to close my app every time I want to calculate?",
-          "a": "No. FloatCalc+ works as a floating window that stays on top of other apps, so you can calculate without leaving your shopping, banking, or browser screen."
+          "a": "No. FloatCalc+ is a floating window that stays on top of other apps, so you can work out a discount or convert a price without leaving your shopping, banking or browser screen. Drag the window where you need it, get your answer, and carry on right where you were."
         },
         {
           "q": "Where do the exchange rates come from?",
-          "a": "It uses real-time ECB (European Central Bank) rates, refreshed daily. You can convert USD, EUR, JPY, KRW, CNY and 30+ world currencies right inside the overlay, and rates are cached each day so it works offline too."
+          "a": "From the European Central Bank, refreshed daily — and you can tap ↻ for the latest rates at any time. USD, EUR, JPY, GBP, KRW, CNY and 30+ world currencies convert right inside the overlay, and the rates are cached each day so it works offline too."
         },
         {
           "q": "How much can I use for free?",
-          "a": "The floating calculator is free to use with ads and no time limit. The free tier includes the default theme and length conversion; Pro removes the ads and adds the 7 premium themes, the remaining unit categories, the advanced currency converter, panel settings and Quick Launch. You can also watch a short rewarded ad to unlock any single Pro feature free for 24 hours."
+          "a": "The floating calculator is free with no time limit — no daily session cap and no countdown. Pro removes the ads and adds the remaining unit categories and 30+ currencies, 7 premium themes and full panel customization (opacity, size, width), monthly, yearly or as a one-time lifetime purchase. You can also watch a short ad for a 24-hour Free Pass to any single Pro feature."
         }
       ]
     },
@@ -156,29 +156,29 @@
       "name": "FloatCrypto+",
       "tag": "Floating",
       "seo": "Floating Bitcoin Price Ticker",
-      "desc": "Live Bitcoin & crypto prices floating over any app.",
-      "tagline": "Keep the live Bitcoin price floating on your screen — 100% free.",
-      "long": "FloatCrypto+ floats a real-time crypto ticker on top of any app — YouTube, Chrome, games, Telegram — so you can track BTC, ETH, SOL, XRP, DOGE, BNB and 1,000+ altcoins without ever switching apps. Powered by Binance market data with a CoinGecko fallback, it adds live charts, price alerts, and a watchlist in one place. It is 100% free with no login, no email, and no wallet required — ready to use in seconds.",
+      "desc": "A live crypto ticker floating over any app, with alerts and charts.",
+      "tagline": "Keep Bitcoin, Ethereum and your altcoins on screen — above whatever app you are using.",
+      "long": "FloatCrypto+ floats a live crypto ticker on top of every app, so you can check the market while you watch YouTube, read the news or reply to messages — no switching, no reloading. Drag it anywhere, resize it and dial the opacity down so it never gets in the way. Set an upper or lower target and it notifies you the moment the market crosses it, keep a watchlist of the coins you actually follow, and open 1-day, 7-day and 30-day charts with period high, low, open and change. Prices come from Binance with CoinGecko as an automatic fallback, so the ticker keeps working when one source is unreachable.",
       "features": [
-        "Floating overlay that keeps live Bitcoin and Ethereum prices on top of every app — no app switching",
-        "Drag to move, pinch to resize, with adjustable opacity and font size",
-        "Live 1D/7D/30D crypto charts powered by Binance data, with 24h change %",
-        "Instant price alerts with upper and lower thresholds and 24/7 background monitoring",
-        "Fast coin search across 1,000+ tokens with a real-time watchlist and price tracker",
-        "100% free, no login or wallet needed, running as a lightweight, battery-friendly service"
+        "Floating price ticker on top of every app — drag it anywhere, resize it, dial the opacity down",
+        "Price alerts on an upper or lower target, added straight from the coin card with the coin filled in",
+        "Watchlist of the coins you care about, with live price, 24-hour change and drag-to-reorder",
+        "1-day / 7-day / 30-day charts with period high, low, open and change",
+        "Eastern and Western color modes — green-up/red-down, or red-up/blue-down as read in Korea, Japan and China",
+        "Binance prices with an automatic CoinGecko fallback, so the ticker keeps working"
       ],
       "faq": [
         {
-          "q": "Is FloatCrypto+ free? Do I need an account?",
-          "a": "It is 100% free. There is no login, no email, and no wallet connection — just install and start tracking in seconds."
-        },
-        {
-          "q": "Which coins are supported and where does the data come from?",
-          "a": "It supports Bitcoin, Ethereum, Solana, XRP, Dogecoin, BNB and over 1,000 altcoins, using Binance market data with a CoinGecko fallback for reliability."
-        },
-        {
           "q": "Can I see prices while using other apps?",
-          "a": "Yes. The floating overlay stays on top of every app, so you can watch live prices while using YouTube, playing games, or chatting — no app switching needed."
+          "a": "Yes. The ticker floats on top of every app, so you can watch the market while you are on YouTube, in a game or in a chat — no switching, no reloading. Drag it anywhere, resize it, and lower the opacity so it never covers what you are reading."
+        },
+        {
+          "q": "How do price alerts work?",
+          "a": "Set an upper or lower target and FloatCrypto+ notifies you the moment the market crosses it. You can add an alert straight from a coin card — tap ⋮ and the coin is already filled in — and a bell badge marks every coin you are watching for."
+        },
+        {
+          "q": "What do I get for free?",
+          "a": "The free tier follows 2 coins with 1 price alert and shows ads, and a Free Pass gives you 24 hours of full Pro access for one short ad. Pro raises it to 10 coins with unlimited alerts, removes the ads, refreshes the ticker every 10 seconds and unlocks the full chart history — monthly, annual (with a free trial) or a one-time lifetime purchase."
         }
       ]
     },

@@ -126,29 +126,29 @@
       "name": "FloatCalc+",
       "tag": "Floating",
       "seo": "Floating Calculator para sa Android",
-      "desc": "Isang floating calculator, FX at unit converter sa ibabaw ng anumang app.",
-      "tagline": "Isang floating calculator na nananatili sa ibabaw ng anumang app para hindi ka na umalis para lang magkalkula.",
-      "long": "Ang FloatCalc+ ay isang floating calculator na nananatili sa ibabaw ng kahit anong app, kaya hindi mo na kailangang lumipat ng screen para lang magkuwenta. Nasa iisang overlay window ang calculator, unit converter at currency converter — isang tap lang ang layo. I-drag ang window kung saan mo gusto at kopyahin ang anumang resulta sa isang tap. Libre ito na may ads at walang limitasyon sa oras, magaan at mabilis, at gumagana kahit offline (araw-araw na naka-cache ang mga rate).",
+      "desc": "Floating calculator na may currency at unit converter sa ibabaw ng kahit anong app.",
+      "tagline": "Mag-compute nang hindi umaalis sa app — calculator na laging nasa ibabaw.",
+      "long": "Ang FloatCalc+ ay floating calculator na nananatili sa ibabaw ng kahit anong app, kaya hindi mo na kailangang isara ang shopping, banking o browser screen mo para lang mag-compute. Magkasama sa iisang nada-drag na window ang calculator, unit converter at currency converter: i-type ang expression, agad mong makikita ang sagot, at kopyahin ito sa clipboard. Galing sa ECB ang exchange rates, ina-update araw-araw at naka-cache kaya gumagana rin offline. Libre ito nang walang limitasyon sa oras — walang daily limit, walang countdown, at walang abala.",
       "features": [
-        "Lumulutang sa ibabaw ng anumang app — YouTube, mapa, browser, banking, shopping, spreadsheet",
-        "Draggable na overlay window na may one-tap na pagkopya ng mga resulta sa clipboard",
-        "Unit converter: haba, timbang, temperatura, pera, lawak, volume, bilis at oras",
-        "Real-time na ECB exchange rate para sa 30+ na pera, ina-update araw-araw",
-        "Quick Launch: pagbukas ng app ay agad lumalabas ang floating calculator sa halip na ang settings screen, na maaari mong buksang muli anumang oras mula sa notification",
-        "Pumili ng start mode (calculator / units / pera), 8 tema, gumagana offline"
+        "Nakapatong sa kahit anong app — YouTube, mapa, browser, banking, shopping, dokumento",
+        "Isang tap na operator row: + − × ÷ ( ) % sa ibabaw mismo ng keyboard, may backspace para itama ang mali",
+        "Power, square root at porsyento — 2^10, √144, 100+10% — kokopyahin ang resulta sa isang tap",
+        "Unit converter sa loob ng window: haba, bigat, temperatura, sukat, volume, bilis at oras",
+        "Currency converter na may araw-araw na ECB rates para sa 30+ pera, agad na na-refresh sa ↻",
+        "Nada-drag na window na nababago ang laki, lapad at opacity, 8 tema, at bubukas sa mode na huling ginamit"
       ],
       "faq": [
         {
-          "q": "Kailangan ko bang isara ang app ko tuwing gusto kong magkalkula?",
-          "a": "Hindi. Gumagana ang FloatCalc+ bilang isang floating window na nananatili sa ibabaw ng ibang app, kaya makakapagkalkula ka nang hindi umaalis sa iyong shopping, banking, o browser screen."
+          "q": "Kailangan ko bang isara ang app ko sa tuwing magko-compute ako?",
+          "a": "Hindi. Ang FloatCalc+ ay floating window na nananatili sa ibabaw ng ibang app, kaya makakakuwenta ka ng diskwento o makakapag-convert ng presyo nang hindi umaalis sa shopping, banking o browser screen mo. I-drag ang window kung saan mo kailangan, kunin ang sagot, at magpatuloy sa kinaroroonan mo."
         },
         {
-          "q": "Saan nagmumula ang mga exchange rate?",
-          "a": "Gumagamit ito ng real-time na ECB (European Central Bank) rate, na ina-update araw-araw. Maaari kang mag-convert ng USD, EUR, JPY, KRW, CNY at 30+ na pera sa mundo sa loob mismo ng overlay, at naka-cache ang mga rate araw-araw kaya gumagana rin ito offline."
+          "q": "Saan galing ang exchange rates?",
+          "a": "Sa European Central Bank (ECB), ina-update araw-araw — at puwede mong i-tap ang ↻ anumang oras para sa pinakabagong rates. Ang USD, EUR, JPY, GBP, KRW, CNY at 30+ pang pera ay makokonverte sa loob mismo ng window, at dahil naka-cache ang rates araw-araw, gumagana rin ito offline."
         },
         {
-          "q": "Gaano karami ang magagamit ko nang libre?",
-          "a": "Libreng magagamit ang floating calculator na may ads at walang limitasyon sa oras. Kasama sa libre ang default na tema at ang conversion ng haba; inaalis ng Pro ang mga ad at idinaragdag ang 7 premium na tema, ang natitirang mga kategorya ng unit, ang advanced na currency converter, ang panel settings at ang Quick Launch. Puwede ring manood ng maikling rewarded ad para ma-unlock nang libre ang isang Pro feature sa loob ng 24 na oras."
+          "q": "Hanggang saan ang libre?",
+          "a": "Libre ang floating calculator nang walang limitasyon sa oras — walang daily limit at walang countdown. Inaalis ng Pro ang ads at binubuksan ang natitirang mga kategorya ng unit at 30+ pera, 7 premium na tema, at buong customization ng panel (opacity, laki, lapad), buwanan, taunan o isahang bayad habambuhay. Puwede ka ring manood ng maikling ad para magamit nang libre ang isang Pro feature sa loob ng 24 oras."
         }
       ]
     },
@@ -156,29 +156,29 @@
       "name": "FloatCrypto+",
       "tag": "Floating",
       "seo": "Live Bitcoin Price Overlay",
-      "desc": "Live na presyo ng Bitcoin at crypto na lumulutang sa ibabaw ng anumang app.",
-      "tagline": "Panatilihing lumulutang sa screen mo ang live na presyo ng Bitcoin — 100% libre.",
-      "long": "Pinapalutang ng FloatCrypto+ ang isang real-time na crypto ticker sa ibabaw ng anumang app — YouTube, Chrome, mga laro, Telegram — kaya masusubaybayan mo ang BTC, ETH, SOL, XRP, DOGE, BNB at 1,000+ na altcoin nang hindi kailanman lumilipat ng app. Pinapagana ng market data ng Binance na may CoinGecko fallback, nagdaragdag ito ng mga live na chart, price alert, at watchlist sa iisang lugar. 100% libre ito na walang login, walang email, at walang kailangang wallet — handa nang gamitin sa ilang segundo.",
+      "desc": "Live na crypto ticker na lumulutang sa kahit anong app, may alerto at chart.",
+      "tagline": "Bitcoin, Ethereum at mga altcoin mo sa screen — sa ibabaw ng app na ginagamit mo.",
+      "long": "Pinananatili ng FloatCrypto+ ang live na ticker sa ibabaw ng lahat ng app, kaya matitingnan mo ang merkado habang nanonood ng YouTube, nagbabasa ng balita o sumasagot ng mensahe — walang paglipat ng app at walang pag-reload. I-drag kung saan mo gusto, baguhin ang laki, at hinaan ang opacity para hindi ito nakakaharang. Magtakda ng mataas o mababang target at maaabisuhan ka sa mismong sandaling malampasan ito ng merkado, bumuo ng watchlist ng mga coin na talagang mahalaga sa iyo, at buksan ang chart na 1 araw, 7 araw at 30 araw kasama ang pinakamataas, pinakamababa, pambungad at pagbabago sa panahong iyon. Galing sa Binance ang presyo, at awtomatikong CoinGecko ang kapalit kapag hindi maabot ang isang pinagkukunan, kaya patuloy pa rin ang ticker.",
       "features": [
-        "Floating overlay na nagpapanatili ng live na presyo ng Bitcoin at Ethereum sa ibabaw ng bawat app — walang paglipat ng app",
-        "I-drag para ilipat, i-pinch para baguhin ang laki, na may nababagong opacity at laki ng font",
-        "Live na 1D/7D/30D na crypto chart na pinapagana ng data ng Binance, na may 24h change %",
-        "Agarang price alert na may itaas at ibabang threshold at 24/7 na background monitoring",
-        "Mabilis na paghahanap ng coin sa 1,000+ na token na may real-time na watchlist at price tracker",
-        "100% libre, walang kailangang login o wallet, tumatakbo bilang magaan at battery-friendly na serbisyo"
+        "Lumulutang na ticker sa ibabaw ng lahat ng app — i-drag, baguhin ang laki, hinaan ang opacity",
+        "Alerto sa presyo na may mataas o mababang target, gawa mula mismo sa card ng napiling coin",
+        "Watchlist na may live na presyo, pagbabago sa 24 oras, at pag-aayos sa pamamagitan ng pag-drag",
+        "Chart na 1 araw / 7 araw / 30 araw kasama ang pinakamataas, pinakamababa, pambungad at pagbabago",
+        "Kulay ng Kanluran at Silangan — berde pataas/pula pababa, o pula pataas/asul pababa",
+        "Presyo mula sa Binance na may awtomatikong CoinGecko na kapalit para hindi tumigil ang ticker"
       ],
       "faq": [
         {
-          "q": "Libre ba ang FloatCrypto+? Kailangan ko ba ng account?",
-          "a": "100% libre ito. Walang login, walang email, at walang koneksyon sa wallet — i-install mo lang at magsimulang mag-track sa ilang segundo."
+          "q": "Makikita ko ba ang presyo habang gumagamit ng ibang app?",
+          "a": "Oo. Lumulutang ang ticker sa ibabaw ng lahat ng app, kaya matitingnan mo ang merkado habang nasa YouTube, naglalaro o nakikipag-chat — walang paglipat ng app at walang pag-reload. I-drag kung saan mo gusto, baguhin ang laki, at hinaan ang opacity para hindi nito matakpan ang binabasa mo."
         },
         {
-          "q": "Anong mga coin ang suportado at saan nagmumula ang data?",
-          "a": "Sumusuporta ito sa Bitcoin, Ethereum, Solana, XRP, Dogecoin, BNB at mahigit 1,000 na altcoin, gamit ang market data ng Binance na may CoinGecko fallback para sa pagiging maaasahan."
+          "q": "Paano gumagana ang mga alerto sa presyo?",
+          "a": "Magtakda ka ng mataas o mababang target at aabisuhan ka ng FloatCrypto+ sa mismong sandaling malampasan ito ng merkado. Puwedeng gumawa ng alerto mula mismo sa card ng coin — pindutin ang ⋮ at nakapili na ang coin — at may kampanang marka ang bawat coin na binabantayan mo."
         },
         {
-          "q": "Makikita ko ba ang mga presyo habang gumagamit ng ibang app?",
-          "a": "Oo. Nananatili ang floating overlay sa ibabaw ng bawat app, kaya mapapanood mo ang live na presyo habang gumagamit ng YouTube, naglalaro, o nakikipag-chat — walang kailangang paglipat ng app."
+          "q": "Ano ang makukuha ko nang libre?",
+          "a": "Sa libreng bersyon, 2 coin at 1 alerto ang masusubaybayan mo at may ads. Ang Free Pass naman ay nagbibigay ng 24 oras na buong Pro kapalit ng isang maikling ad. Ang Pro ay 10 coin na may walang limitasyong alerto, walang ads, update kada 10 segundo, at buong kasaysayan ng chart — buwanan, taunan (may libreng subok) o isahang bayad habambuhay."
         }
       ]
     },
