@@ -2,7 +2,7 @@
   "lang": "pl",
   "ui": {
     "meta.title": "CodeDAC | Aplikacje narzędziowe na co dzień",
-    "meta.desc": "CodeDAC tworzy i publikuje 14 aplikacji narzędziowych, w tym Clipboard+, AutoStart+ i FloatCalc+.",
+    "meta.desc": "CodeDAC tworzy i publikuje 13 aplikacji narzędziowych, w tym Clipboard+, AutoStart+ i FloatCalc+.",
     "nav.about": "O nas",
     "nav.services": "Usługi",
     "nav.apps": "Aplikacje",
@@ -269,36 +269,6 @@
         {
           "q": "Czy mogę polegać wyłącznie na automatycznym wykrywaniu przed eksportem?",
           "a": "Wykrywanie to tylko punkt wyjścia, który sugeruje prawdopodobnie wrażliwy tekst. Zawsze przejrzyj sugestie i samodzielnie dodaj lub usuń maski przed eksportem."
-        }
-      ]
-    },
-    "secretalbum": {
-      "name": "SecretAlbum+",
-      "tag": "Prywatność",
-      "seo": "Sejf na zdjęcia i filmy",
-      "desc": "Ukrywaj zdjęcia i filmy dzięki szyfrowaniu AES-256 i blokadzie PIN.",
-      "tagline": "Ukrywaj i chroń zdjęcia oraz filmy dzięki szyfrowaniu AES-256 i blokadzie PIN.",
-      "long": "SecretAlbum+ to prywatny sejf, który chroni Twoje cenne zdjęcia i filmy szyfrowaniem klasy wojskowej AES-256. Działa w całości offline na Twoim urządzeniu i nigdy nie przesyła plików na żaden zewnętrzny serwer. Każdy zaimportowany plik jest natychmiast szyfrowany i bez Twojego osobistego klucza pozostaje niedostępny, znikając całkowicie z galerii bez pozostawiania śladów. Możesz nawet zamaskować ikonę aplikacji jako Kalkulator, Notatki, Pogodę lub Zegar, by nikt nie wiedział, że jest zainstalowana.",
-      "features": [
-        "Szyfrowanie klasy wojskowej AES-256 natychmiast chroni każdy plik",
-        "6-cyfrowa blokada PIN z odzyskiwaniem tymczasowego PIN-u e-mailem po 5 nieudanych próbach",
-        "Tryb kamuflażu zmienia ikonę na aplikację Kalkulator, Notatki, Pogoda lub Zegar",
-        "Importuj wiele zdjęć i filmów z galerii, z automatycznym usuwaniem oryginałów",
-        "Podgląd pełnoekranowy z powiększaniem palcami i automatycznym pokazem slajdów",
-        "Działa w 100% offline z bezstratnym przywracaniem do galerii w dowolnej chwili"
-      ],
-      "faq": [
-        {
-          "q": "Czy moje pliki są wysyłane na jakiś zewnętrzny serwer lub do chmury?",
-          "a": "Nie. SecretAlbum+ działa całkowicie offline i nigdy nie łączy się z żadnym zewnętrznym serwerem. Wszystkie pliki są przechowywane wyłącznie w zaszyfrowanej przestrzeni na Twoim urządzeniu."
-        },
-        {
-          "q": "Co się stanie, jeśli zapomnę PIN-u?",
-          "a": "Po 5 kolejnych błędnych wpisaniach 6-cyfrowego PIN-u jednorazowy tymczasowy PIN jest automatycznie wysyłany e-mailem na Twój zarejestrowany adres odzyskiwania, więc nigdy nie zostaniesz trwale zablokowany."
-        },
-        {
-          "q": "Czy mogę przenieść ukryte pliki z powrotem do galerii?",
-          "a": "Tak. W dowolnej chwili możesz przywrócić dowolny plik do galerii, a proces odszyfrowywania jest bezstratny, więc każde zdjęcie i film wracają dokładnie jak oryginał, bez utraty jakości."
         }
       ]
     },

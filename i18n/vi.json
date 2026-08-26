@@ -2,7 +2,7 @@
   "lang": "vi",
   "ui": {
     "meta.title": "CodeDAC | Ứng dụng tiện ích hằng ngày",
-    "meta.desc": "CodeDAC phát triển và phát hành 14 ứng dụng tiện ích, bao gồm Clipboard+, AutoStart+ và FloatCalc+.",
+    "meta.desc": "CodeDAC phát triển và phát hành 13 ứng dụng tiện ích, bao gồm Clipboard+, AutoStart+ và FloatCalc+.",
     "nav.about": "Giới thiệu",
     "nav.services": "Dịch vụ",
     "nav.apps": "Ứng dụng",
@@ -269,36 +269,6 @@
         {
           "q": "Tôi có thể chỉ dựa vào phát hiện tự động trước khi xuất không?",
           "a": "Phát hiện chỉ là điểm khởi đầu, gợi ý những đoạn văn bản có thể nhạy cảm. Hãy luôn xem lại các gợi ý và tự thêm hoặc bớt lớp che trước khi xuất."
-        }
-      ]
-    },
-    "secretalbum": {
-      "name": "SecretAlbum+",
-      "tag": "Quyền riêng tư",
-      "seo": "Ứng dụng ẩn ảnh và video",
-      "desc": "Ẩn ảnh và video với mã hóa AES-256 và khóa PIN.",
-      "tagline": "Ẩn và bảo vệ ảnh, video của bạn với mã hóa AES-256 và khóa PIN.",
-      "long": "SecretAlbum+ là két riêng tư bảo vệ những bức ảnh và video quý giá của bạn bằng mã hóa AES-256 cấp quân sự. Ứng dụng hoạt động hoàn toàn ngoại tuyến trên thiết bị và không bao giờ tải tệp lên bất kỳ máy chủ bên ngoài nào. Mọi tệp bạn nhập vào đều được mã hóa ngay lập tức và không thể truy cập nếu không có khóa cá nhân của bạn, biến mất hoàn toàn khỏi thư viện mà không để lại dấu vết. Bạn thậm chí có thể ngụy trang biểu tượng ứng dụng thành Máy tính, Ghi chú, Thời tiết hay Đồng hồ để không ai biết ứng dụng đã được cài đặt.",
-      "features": [
-        "Mã hóa AES-256 cấp quân sự bảo vệ tức thì mọi tệp",
-        "Khóa PIN 6 chữ số với khôi phục PIN tạm qua email sau 5 lần nhập sai",
-        "Chế độ ngụy trang đổi biểu tượng thành ứng dụng Máy tính, Ghi chú, Thời tiết hay Đồng hồ",
-        "Nhập nhiều ảnh và video từ thư viện, bản gốc được xóa tự động",
-        "Trình xem toàn màn hình với chụm-để-phóng và trình chiếu tự động",
-        "Hoạt động 100% ngoại tuyến, khôi phục về thư viện không mất chất lượng bất cứ lúc nào"
-      ],
-      "faq": [
-        {
-          "q": "Tệp của tôi có được gửi lên máy chủ hay đám mây bên ngoài không?",
-          "a": "Không. SecretAlbum+ hoạt động hoàn toàn ngoại tuyến và không bao giờ kết nối tới bất kỳ máy chủ bên ngoài nào. Tất cả tệp chỉ được lưu trong một không gian mã hóa trên thiết bị của bạn."
-        },
-        {
-          "q": "Điều gì xảy ra nếu tôi quên PIN?",
-          "a": "Sau 5 lần nhập sai liên tiếp PIN 6 chữ số, một mã PIN tạm dùng một lần sẽ được tự động gửi tới email khôi phục đã đăng ký, nên bạn không bao giờ bị khóa vĩnh viễn."
-        },
-        {
-          "q": "Tôi có thể chuyển các tệp đã ẩn về lại thư viện không?",
-          "a": "Có. Bạn có thể khôi phục bất kỳ tệp nào về thư viện bất cứ lúc nào, và quá trình giải mã không mất chất lượng, nên mọi ảnh và video trở về đúng như bản gốc mà không giảm chất lượng."
         }
       ]
     },

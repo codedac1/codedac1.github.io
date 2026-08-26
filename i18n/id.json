@@ -2,7 +2,7 @@
   "lang": "id",
   "ui": {
     "meta.title": "CodeDAC | Aplikasi Utilitas Sehari-hari",
-    "meta.desc": "CodeDAC membuat dan merilis 14 aplikasi utilitas termasuk Clipboard+, AutoStart+, dan FloatCalc+.",
+    "meta.desc": "CodeDAC membuat dan merilis 13 aplikasi utilitas termasuk Clipboard+, AutoStart+, dan FloatCalc+.",
     "nav.about": "Tentang Kami",
     "nav.services": "Layanan",
     "nav.apps": "Aplikasi",
@@ -269,36 +269,6 @@
         {
           "q": "Bisakah saya hanya mengandalkan deteksi otomatis sebelum mengekspor?",
           "a": "Deteksi hanyalah titik awal yang menyarankan teks yang kemungkinan sensitif. Selalu tinjau saran dan tambahkan atau hapus masker sendiri sebelum mengekspor."
-        }
-      ]
-    },
-    "secretalbum": {
-      "name": "SecretAlbum+",
-      "tag": "Privasi",
-      "seo": "Brankas Foto & Video dengan PIN",
-      "desc": "Sembunyikan foto & video dengan enkripsi AES-256 dan kunci PIN.",
-      "tagline": "Sembunyikan dan lindungi foto serta video Anda dengan enkripsi AES-256 dan kunci PIN.",
-      "long": "SecretAlbum+ adalah brankas pribadi yang melindungi foto dan video berharga Anda dengan enkripsi AES-256 tingkat militer. Aplikasi bekerja sepenuhnya offline di perangkat Anda dan tidak pernah mengunggah file ke server eksternal mana pun. Setiap file yang Anda impor langsung dienkripsi dan tidak bisa diakses tanpa kunci pribadi Anda, hilang sepenuhnya dari galeri tanpa meninggalkan jejak. Anda bahkan bisa menyamarkan ikon aplikasi menjadi aplikasi Kalkulator, Catatan, Cuaca, atau Jam sehingga tak ada yang tahu aplikasi ini terpasang.",
-      "features": [
-        "Enkripsi AES-256 tingkat militer langsung melindungi setiap file",
-        "Kunci PIN 6 digit dengan pemulihan PIN sementara via email setelah 5 kali gagal",
-        "Mode penyamaran mengubah ikon menjadi aplikasi Kalkulator, Catatan, Cuaca, atau Jam",
-        "Impor banyak foto dan video dari galeri, dengan aslinya otomatis dihapus",
-        "Penampil layar penuh dengan cubit-untuk-zoom dan tayangan slide otomatis",
-        "Berfungsi 100% offline dengan pemulihan tanpa kehilangan kualitas kembali ke galeri kapan saja"
-      ],
-      "faq": [
-        {
-          "q": "Apakah file saya dikirim ke server atau cloud eksternal?",
-          "a": "Tidak. SecretAlbum+ bekerja sepenuhnya offline dan tidak pernah terhubung ke server eksternal mana pun. Semua file hanya disimpan di ruang terenkripsi pada perangkat Anda."
-        },
-        {
-          "q": "Apa yang terjadi jika saya lupa PIN?",
-          "a": "Setelah 5 kali salah memasukkan PIN 6 digit berturut-turut, PIN sementara sekali pakai otomatis dikirim ke alamat pemulihan terdaftar Anda sehingga Anda tidak pernah terkunci permanen."
-        },
-        {
-          "q": "Bisakah saya memindahkan file tersembunyi kembali ke galeri?",
-          "a": "Bisa. Anda bisa memulihkan file apa pun ke galeri kapan saja, dan proses dekripsinya tanpa kehilangan kualitas, sehingga setiap foto dan video kembali persis seperti aslinya tanpa penurunan kualitas."
         }
       ]
     },

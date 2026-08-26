@@ -22,7 +22,7 @@ const OUT = path.join(__dirname, 'app_langs.json');
 const PROJECT = {
   clipboard: 'Clipboard', autostart: 'AutoStart', floatcalc: 'FloatCalc',
   floatcrypto: 'FloatCrypto', floattimer: 'FloatTimer', volumebooster: 'VolumeBooster',
-  photocleaner: 'PhotoCleaner', secretalbum: 'SecretAlbum', readfocus: 'ReadFocus',
+  photocleaner: 'PhotoCleaner', readfocus: 'ReadFocus',
   floatnote: 'FloatNote',
 };
 

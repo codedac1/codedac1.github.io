@@ -2,7 +2,7 @@
   "lang": "fr",
   "ui": {
     "meta.title": "CodeDAC | Applications utilitaires du quotidien",
-    "meta.desc": "CodeDAC conçoit et publie 14 applications utilitaires, dont Clipboard+, AutoStart+ et FloatCalc+.",
+    "meta.desc": "CodeDAC conçoit et publie 13 applications utilitaires, dont Clipboard+, AutoStart+ et FloatCalc+.",
     "nav.about": "À propos",
     "nav.services": "Services",
     "nav.apps": "Applications",
@@ -269,36 +269,6 @@
         {
           "q": "Puis-je me fier uniquement à la détection automatique avant d'exporter ?",
           "a": "La détection n'est qu'un point de départ qui suggère les textes probablement sensibles. Vérifiez toujours les suggestions et ajoutez ou retirez vous-même des caches avant d'exporter."
-        }
-      ]
-    },
-    "secretalbum": {
-      "name": "SecretAlbum+",
-      "tag": "Confidentialité",
-      "seo": "Coffre-fort photos et vidéos",
-      "desc": "Masquez vos photos et vidéos avec le chiffrement AES-256 et un verrouillage par PIN.",
-      "tagline": "Masquez et protégez vos photos et vidéos grâce au chiffrement AES-256 et à un verrouillage par PIN.",
-      "long": "SecretAlbum+ est un coffre-fort privé qui protège vos photos et vidéos précieuses avec un chiffrement AES-256 de niveau militaire. Il fonctionne entièrement hors ligne sur votre appareil et n'envoie jamais de fichiers vers un serveur externe. Chaque fichier que vous importez est chiffré instantanément et reste inaccessible sans votre clé personnelle, disparaissant complètement de votre galerie sans laisser de trace. Vous pouvez même déguiser l'icône de l'application en une appli Calculatrice, Notes, Météo ou Horloge pour que personne ne sache qu'elle est installée.",
-      "features": [
-        "Le chiffrement AES-256 de niveau militaire protège instantanément chaque fichier",
-        "Verrouillage par PIN à 6 chiffres avec récupération d'un PIN temporaire par e-mail après 5 tentatives échouées",
-        "Le mode déguisement change l'icône en une appli Calculatrice, Notes, Météo ou Horloge",
-        "Importez plusieurs photos et vidéos depuis la galerie, les originaux étant supprimés automatiquement",
-        "Visionneuse plein écran avec zoom par pincement et diaporama automatique",
-        "Fonctionne 100 % hors ligne, avec restauration sans perte vers votre galerie à tout moment"
-      ],
-      "faq": [
-        {
-          "q": "Mes fichiers sont-ils envoyés vers un serveur externe ou le cloud ?",
-          "a": "Non. SecretAlbum+ fonctionne entièrement hors ligne et ne se connecte jamais à un serveur externe. Tous les fichiers sont stockés uniquement dans un espace chiffré sur votre appareil."
-        },
-        {
-          "q": "Que se passe-t-il si j'oublie mon PIN ?",
-          "a": "Après 5 saisies incorrectes consécutives de votre PIN à 6 chiffres, un PIN temporaire à usage unique est automatiquement envoyé par e-mail à votre adresse de récupération enregistrée, pour ne jamais rester bloqué de façon définitive."
-        },
-        {
-          "q": "Puis-je renvoyer les fichiers masqués vers ma galerie ?",
-          "a": "Oui. Vous pouvez restaurer n'importe quel fichier vers votre galerie à tout moment, et le déchiffrement se fait sans perte : chaque photo et vidéo revient exactement comme l'original, sans perte de qualité."
         }
       ]
     },

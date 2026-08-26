@@ -2,7 +2,7 @@
   "lang": "ms",
   "ui": {
     "meta.title": "CodeDAC | Aplikasi Utiliti Harian",
-    "meta.desc": "CodeDAC membina dan menerbitkan 14 aplikasi utiliti termasuk Clipboard+, AutoStart+ dan FloatCalc+.",
+    "meta.desc": "CodeDAC membina dan menerbitkan 13 aplikasi utiliti termasuk Clipboard+, AutoStart+ dan FloatCalc+.",
     "nav.about": "Tentang Kami",
     "nav.services": "Perkhidmatan",
     "nav.apps": "Aplikasi",
@@ -269,36 +269,6 @@
         {
           "q": "Bolehkah saya bergantung pada pengesanan automatik sahaja sebelum mengeksport?",
           "a": "Pengesanan hanyalah titik permulaan yang mencadangkan teks yang berkemungkinan sensitif. Sentiasa semak cadangan dan tambah atau buang topeng sendiri sebelum mengeksport."
-        }
-      ]
-    },
-    "secretalbum": {
-      "name": "SecretAlbum+",
-      "tag": "Privasi",
-      "seo": "Sembunyi Foto & Video PIN",
-      "desc": "Sembunyikan foto & video dengan penyulitan AES-256 dan kunci PIN.",
-      "tagline": "Sembunyikan dan lindungi foto serta video anda dengan penyulitan AES-256 dan kunci PIN.",
-      "long": "SecretAlbum+ ialah peti simpanan peribadi yang melindungi foto dan video berharga anda dengan penyulitan AES-256 bertaraf tentera. Ia berfungsi sepenuhnya luar talian pada peranti anda dan tidak pernah memuat naik fail ke mana-mana pelayan luar. Setiap fail yang anda import disulitkan serta-merta dan tidak boleh diakses tanpa kunci peribadi anda, hilang sepenuhnya dari galeri tanpa meninggalkan sebarang kesan. Anda juga boleh menyamarkan ikon aplikasi sebagai aplikasi Kalkulator, Nota, Cuaca atau Jam supaya tiada siapa tahu ia dipasang.",
-      "features": [
-        "Penyulitan AES-256 bertaraf tentera melindungi setiap fail serta-merta",
-        "Kunci PIN 6 digit dengan pemulihan PIN sementara melalui e-mel selepas 5 percubaan gagal",
-        "Mod penyamaran menukar ikon kepada aplikasi Kalkulator, Nota, Cuaca atau Jam",
-        "Import berbilang foto dan video dari galeri, dengan yang asal dibuang secara automatik",
-        "Pemapar skrin penuh dengan cubit-untuk-zum dan tayangan slaid automatik",
-        "Berfungsi 100% luar talian dengan pemulihan tanpa kehilangan kualiti kembali ke galeri anda bila-bila masa"
-      ],
-      "faq": [
-        {
-          "q": "Adakah fail saya dihantar ke mana-mana pelayan luar atau awan?",
-          "a": "Tidak. SecretAlbum+ berfungsi sepenuhnya luar talian dan tidak pernah menyambung ke mana-mana pelayan luar. Semua fail disimpan hanya di ruang tersulit pada peranti anda."
-        },
-        {
-          "q": "Apa yang berlaku jika saya terlupa PIN?",
-          "a": "Selepas 5 kali salah memasukkan PIN 6 digit berturut-turut, PIN sementara sekali guna dihantar secara automatik ke alamat pemulihan berdaftar anda supaya anda tidak pernah terkunci kekal."
-        },
-        {
-          "q": "Bolehkah saya memindahkan fail tersembunyi kembali ke galeri?",
-          "a": "Boleh. Anda boleh memulihkan mana-mana fail ke galeri bila-bila masa, dan proses nyahsulitnya tanpa kehilangan kualiti, jadi setiap foto dan video kembali persis seperti asal tanpa penurunan kualiti."
         }
       ]
     },

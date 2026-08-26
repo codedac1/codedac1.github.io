@@ -2,7 +2,7 @@
   "lang": "tr",
   "ui": {
     "meta.title": "CodeDAC | Her Güne Yardımcı Uygulamalar",
-    "meta.desc": "CodeDAC; Clipboard+, AutoStart+ ve FloatCalc+ dahil 14 yardımcı uygulama geliştirir ve yayınlar.",
+    "meta.desc": "CodeDAC; Clipboard+, AutoStart+ ve FloatCalc+ dahil 13 yardımcı uygulama geliştirir ve yayınlar.",
     "nav.about": "Hakkımızda",
     "nav.services": "Hizmetler",
     "nav.apps": "Uygulamalar",
@@ -269,36 +269,6 @@
         {
           "q": "Dışa aktarmadan önce yalnızca otomatik algılamaya güvenebilir miyim?",
           "a": "Algılama, yalnızca olası hassas metinleri öneren bir başlangıç noktasıdır. Dışa aktarmadan önce önerileri her zaman gözden geçirin ve maskeleri kendiniz ekleyin veya kaldırın."
-        }
-      ]
-    },
-    "secretalbum": {
-      "name": "SecretAlbum+",
-      "tag": "Gizlilik",
-      "seo": "Gizli fotoğraf ve video kasası",
-      "desc": "Fotoğrafları ve videoları AES-256 şifreleme ve PIN kilidiyle gizleyin.",
-      "tagline": "Fotoğraflarınızı ve videolarınızı AES-256 şifreleme ve PIN kilidiyle gizleyin ve koruyun.",
-      "long": "SecretAlbum+, değerli fotoğraflarınızı ve videolarınızı askeri düzeyde AES-256 şifrelemeyle koruyan gizli bir kasadır. Tamamen cihazınızda çevrimdışı çalışır ve dosyaları hiçbir harici sunucuya yüklemez. İçe aktardığınız her dosya anında şifrelenir ve kişisel anahtarınız olmadan erişilemez; galerinizden hiçbir iz bırakmadan tamamen kaybolur. Kimsenin yüklü olduğunu bilmemesi için uygulama simgesini bir Hesap Makinesi, Notlar, Hava Durumu veya Saat uygulaması gibi gizleyebilirsiniz.",
-      "features": [
-        "Askeri düzeyde AES-256 şifreleme her dosyayı anında korur",
-        "5 başarısız denemeden sonra e-posta ile geçici PIN kurtarmalı 6 haneli PIN kilidi",
-        "Gizleme modu simgeyi bir Hesap Makinesi, Notlar, Hava Durumu veya Saat uygulamasına dönüştürür",
-        "Galeriden birden fazla fotoğraf ve videoyu içe aktarın; orijinaller otomatik olarak kaldırılır",
-        "Kıstırarak yakınlaştırma ve otomatik slayt gösterisi içeren tam ekran görüntüleyici",
-        "%100 çevrimdışı çalışır ve istediğiniz zaman galerinize kayıpsız geri yükleme yapar"
-      ],
-      "faq": [
-        {
-          "q": "Dosyalarım herhangi bir harici sunucuya veya buluta gönderiliyor mu?",
-          "a": "Hayır. SecretAlbum+ tamamen çevrimdışı çalışır ve hiçbir harici sunucuya bağlanmaz. Tüm dosyalar yalnızca cihazınızdaki şifreli bir alanda saklanır."
-        },
-        {
-          "q": "PIN'imi unutursam ne olur?",
-          "a": "6 haneli PIN'inizi 5 kez üst üste yanlış girdikten sonra, kayıtlı kurtarma adresinize otomatik olarak tek kullanımlık geçici bir PIN e-postayla gönderilir; böylece asla kalıcı olarak kilitlenmezsiniz."
-        },
-        {
-          "q": "Gizlenen dosyaları galerime geri taşıyabilir miyim?",
-          "a": "Evet. İstediğiniz dosyayı istediğiniz zaman galerinize geri yükleyebilirsiniz; şifre çözme işlemi kayıpsız olduğundan her fotoğraf ve video kalite kaybı olmadan tam olarak orijinali gibi geri döner."
         }
       ]
     },

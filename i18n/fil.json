@@ -2,7 +2,7 @@
   "lang": "fil",
   "ui": {
     "meta.title": "CodeDAC | Mga Utility App para sa Araw-araw",
-    "meta.desc": "Gumagawa at naglalathala ang CodeDAC ng 14 utility app, kasama ang Clipboard+, AutoStart+ at FloatCalc+.",
+    "meta.desc": "Gumagawa at naglalathala ang CodeDAC ng 13 utility app, kasama ang Clipboard+, AutoStart+ at FloatCalc+.",
     "nav.about": "Tungkol",
     "nav.services": "Mga Serbisyo",
     "nav.apps": "Mga App",
@@ -269,36 +269,6 @@
         {
           "q": "Maaari ba akong umasa sa auto-detection lang bago mag-export?",
           "a": "Ang detection ay panimula lamang na nagmumungkahi ng malamang na sensitibong teksto. Palaging suriin ang mga mungkahi at magdagdag o mag-alis ng mga mask nang ikaw mismo bago mag-export."
-        }
-      ]
-    },
-    "secretalbum": {
-      "name": "SecretAlbum+",
-      "tag": "Privacy",
-      "seo": "Photo Vault na may PIN Lock",
-      "desc": "Itago ang mga larawan at video gamit ang AES-256 encryption at PIN lock.",
-      "tagline": "Itago at protektahan ang mga larawan at video mo gamit ang AES-256 encryption at PIN lock.",
-      "long": "Ang SecretAlbum+ ay isang pribadong vault na nagpoprotekta sa mahahalagang larawan at video mo gamit ang military-grade na AES-256 encryption. Gumagana ito nang buong-buo offline sa iyong device at hindi kailanman nag-a-upload ng mga file sa anumang external na server. Ang bawat file na ini-import mo ay agad na na-encrypt at hindi maa-access nang wala ang personal mong key, na tuluyang nawawala sa gallery mo nang walang naiiwang bakas. Maaari mo pang i-disguise ang icon ng app bilang isang Calculator, Notes, Weather, o Clock app para walang makaalam na naka-install ito.",
-      "features": [
-        "Agad na pinoprotektahan ng military-grade na AES-256 encryption ang bawat file",
-        "6-digit na PIN lock na may email na temporary-PIN recovery pagkatapos ng 5 nabigong pagtatangka",
-        "Binabago ng disguise mode ang icon papuntang Calculator, Notes, Weather, o Clock app",
-        "Mag-import ng maraming larawan at video mula sa gallery, na awtomatikong inaalis ang mga orihinal",
-        "Full-screen viewer na may pinch-to-zoom at awtomatikong slideshow",
-        "Gumagana 100% offline na may lossless na restore pabalik sa gallery mo anumang oras"
-      ],
-      "faq": [
-        {
-          "q": "Ipinapadala ba ang mga file ko sa anumang external na server o cloud?",
-          "a": "Hindi. Gumagana ang SecretAlbum+ nang buong-buo offline at hindi kailanman kumokonekta sa anumang external na server. Lahat ng file ay iniimbak lamang sa isang naka-encrypt na espasyo sa iyong device."
-        },
-        {
-          "q": "Ano ang mangyayari kung makalimutan ko ang PIN ko?",
-          "a": "Pagkatapos ng 5 sunod-sunod na maling paglalagay ng 6-digit mong PIN, isang one-time na temporary PIN ang awtomatikong ipinapadala sa email sa iyong nakarehistrong recovery address kaya hindi ka kailanman tuluyang mala-lock out."
-        },
-        {
-          "q": "Maaari ko bang ibalik ang mga nakatagong file sa gallery ko?",
-          "a": "Oo. Maaari mong i-restore ang anumang file sa gallery mo anumang oras, at lossless ang proseso ng decryption, kaya ang bawat larawan at video ay bumabalik nang eksaktong tulad ng orihinal nang walang pagkawala ng kalidad."
         }
       ]
     },

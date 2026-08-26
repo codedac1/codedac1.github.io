@@ -2,7 +2,7 @@
   "lang": "pt",
   "ui": {
     "meta.title": "CodeDAC | Apps utilitários para o dia a dia",
-    "meta.desc": "A CodeDAC desenvolve e publica 14 apps utilitários, incluindo Clipboard+, AutoStart+ e FloatCalc+.",
+    "meta.desc": "A CodeDAC desenvolve e publica 13 apps utilitários, incluindo Clipboard+, AutoStart+ e FloatCalc+.",
     "nav.about": "Sobre",
     "nav.services": "Serviços",
     "nav.apps": "Apps",
@@ -269,36 +269,6 @@
         {
           "q": "Posso confiar só na detecção automática antes de exportar?",
           "a": "A detecção é apenas um ponto de partida que sugere textos provavelmente sensíveis. Sempre revise as sugestões e adicione ou remova máscaras você mesmo antes de exportar."
-        }
-      ]
-    },
-    "secretalbum": {
-      "name": "SecretAlbum+",
-      "tag": "Privacidade",
-      "seo": "cofre privado de fotos e vídeos",
-      "desc": "Oculte fotos e vídeos com criptografia AES-256 e bloqueio por PIN.",
-      "tagline": "Oculte e proteja suas fotos e vídeos com criptografia AES-256 e bloqueio por PIN.",
-      "long": "O SecretAlbum+ é um cofre privado que protege suas fotos e vídeos preciosos com criptografia AES-256 de nível militar. Ele funciona inteiramente offline no seu aparelho e nunca envia arquivos para nenhum servidor externo. Cada arquivo importado é criptografado na hora e não pode ser acessado sem sua chave pessoal, desaparecendo por completo da galeria, sem deixar rastros. Você pode até disfarçar o ícone do app como uma Calculadora, Notas, Clima ou Relógio, para que ninguém saiba que ele está instalado.",
-      "features": [
-        "Criptografia AES-256 de nível militar protege cada arquivo na hora",
-        "Bloqueio por PIN de 6 dígitos com recuperação por PIN temporário via e-mail após 5 tentativas erradas",
-        "Modo disfarce muda o ícone para um app de Calculadora, Notas, Clima ou Relógio",
-        "Importe várias fotos e vídeos da galeria, com os originais removidos automaticamente",
-        "Visualizador em tela cheia com zoom por pinça e apresentação de slides automática",
-        "Funciona 100% offline, com restauração sem perdas para a galeria a qualquer momento"
-      ],
-      "faq": [
-        {
-          "q": "Meus arquivos são enviados para algum servidor externo ou nuvem?",
-          "a": "Não. O SecretAlbum+ funciona totalmente offline e nunca se conecta a nenhum servidor externo. Todos os arquivos ficam armazenados apenas em um espaço criptografado no seu aparelho."
-        },
-        {
-          "q": "O que acontece se eu esquecer meu PIN?",
-          "a": "Após 5 tentativas incorretas seguidas do seu PIN de 6 dígitos, um PIN temporário de uso único é enviado automaticamente por e-mail para o endereço de recuperação cadastrado, para que você nunca fique bloqueado de forma permanente."
-        },
-        {
-          "q": "Posso mover os arquivos ocultos de volta para a galeria?",
-          "a": "Sim. Você pode restaurar qualquer arquivo para a galeria a qualquer momento, e o processo de descriptografia é sem perdas, então cada foto e vídeo volta exatamente como o original, sem perda de qualidade."
         }
       ]
     },

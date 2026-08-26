@@ -85,7 +85,7 @@ node scripts/gen_site.js
 콘텐츠(`i18n/*.json`)나 앱 기본정보(`apps_base.json`)를 바꾼 뒤:
 
 ```bash
-node scripts/gen_site.js     # 21개 언어 × (홈 + 앱상세 14 + 개인정보처리방침) = 336개 페이지 + sitemap.xml 생성
+node scripts/gen_site.js     # 21개 언어 × (홈 + 앱상세 13 + 개인정보처리방침) = 315개 페이지 + sitemap.xml 생성
 ```
 
 - 자산(아이콘/스크린샷)을 바꾸면 `scripts/gen_site.js`의 `const V`(캐시 버전)를 올리세요.

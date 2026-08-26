@@ -2,7 +2,7 @@
   "lang": "de",
   "ui": {
     "meta.title": "CodeDAC | Utility-Apps für jeden Tag",
-    "meta.desc": "CodeDAC entwickelt und veröffentlicht 14 Utility-Apps, darunter Clipboard+, AutoStart+ und FloatCalc+.",
+    "meta.desc": "CodeDAC entwickelt und veröffentlicht 13 Utility-Apps, darunter Clipboard+, AutoStart+ und FloatCalc+.",
     "nav.about": "Über uns",
     "nav.services": "Leistungen",
     "nav.apps": "Apps",
@@ -269,36 +269,6 @@
         {
           "q": "Kann ich mich vor dem Export allein auf die automatische Erkennung verlassen?",
           "a": "Die Erkennung ist nur ein Ausgangspunkt, der wahrscheinlich sensible Texte vorschlägt. Prüfe die Vorschläge immer und füge selbst Masken hinzu oder entferne sie, bevor du exportierst."
-        }
-      ]
-    },
-    "secretalbum": {
-      "name": "SecretAlbum+",
-      "tag": "Datenschutz",
-      "seo": "Foto-Tresor mit PIN-Sperre",
-      "desc": "Verbirg Fotos & Videos mit AES-256-Verschlüsselung und PIN-Sperre.",
-      "tagline": "Verbirg und schütze deine Fotos und Videos mit AES-256-Verschlüsselung und einer PIN-Sperre.",
-      "long": "SecretAlbum+ ist ein privater Tresor, der deine wertvollen Fotos und Videos mit AES-256-Verschlüsselung in Militärqualität schützt. Er arbeitet vollständig offline auf deinem Gerät und lädt niemals Dateien auf einen externen Server hoch. Jede Datei, die du importierst, wird sofort verschlüsselt und ist ohne deinen persönlichen Schlüssel nicht zugänglich – sie verschwindet vollständig aus deiner Galerie, ohne Spuren zu hinterlassen. Du kannst das App-Symbol sogar als Rechner-, Notizen-, Wetter- oder Uhr-App tarnen, sodass niemand weiß, dass sie installiert ist.",
-      "features": [
-        "AES-256-Verschlüsselung in Militärqualität schützt sofort jede Datei",
-        "6-stellige PIN-Sperre mit temporärer PIN-Wiederherstellung per E-Mail nach 5 Fehlversuchen",
-        "Tarnmodus ändert das Symbol in eine Rechner-, Notizen-, Wetter- oder Uhr-App",
-        "Mehrere Fotos und Videos aus der Galerie importieren, wobei die Originale automatisch entfernt werden",
-        "Vollbild-Viewer mit Zoom per Fingergeste und automatischer Diashow",
-        "Funktioniert zu 100 % offline mit verlustfreier Wiederherstellung zurück in deine Galerie – jederzeit"
-      ],
-      "faq": [
-        {
-          "q": "Werden meine Dateien an einen externen Server oder eine Cloud gesendet?",
-          "a": "Nein. SecretAlbum+ arbeitet vollständig offline und verbindet sich niemals mit einem externen Server. Alle Dateien werden nur in einem verschlüsselten Bereich auf deinem Gerät gespeichert."
-        },
-        {
-          "q": "Was passiert, wenn ich meine PIN vergesse?",
-          "a": "Nach 5 aufeinanderfolgenden Falscheingaben deiner 6-stelligen PIN wird automatisch eine einmalige temporäre PIN an deine hinterlegte Wiederherstellungsadresse gesendet, sodass du nie dauerhaft ausgesperrt bist."
-        },
-        {
-          "q": "Kann ich verborgene Dateien zurück in meine Galerie verschieben?",
-          "a": "Ja. Du kannst jede Datei jederzeit in deine Galerie wiederherstellen, und der Entschlüsselungsvorgang ist verlustfrei, sodass jedes Foto und Video exakt wie das Original ohne Qualitätsverlust zurückkehrt."
         }
       ]
     },

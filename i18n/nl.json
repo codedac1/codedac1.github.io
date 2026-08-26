@@ -2,7 +2,7 @@
   "lang": "nl",
   "ui": {
     "meta.title": "CodeDAC | Handige apps voor elke dag",
-    "meta.desc": "CodeDAC ontwikkelt en publiceert 14 handige apps, waaronder Clipboard+, AutoStart+ en FloatCalc+.",
+    "meta.desc": "CodeDAC ontwikkelt en publiceert 13 handige apps, waaronder Clipboard+, AutoStart+ en FloatCalc+.",
     "nav.about": "Over ons",
     "nav.services": "Diensten",
     "nav.apps": "Apps",
@@ -269,36 +269,6 @@
         {
           "q": "Kan ik vóór het exporteren alleen op de automatische detectie vertrouwen?",
           "a": "De detectie is slechts een vertrekpunt dat waarschijnlijk gevoelige tekst voorstelt. Controleer de suggesties altijd en voeg zelf maskers toe of verwijder ze voordat je exporteert."
-        }
-      ]
-    },
-    "secretalbum": {
-      "name": "SecretAlbum+",
-      "tag": "Privacy",
-      "seo": "Verborgen fotokluis met pincode",
-      "desc": "Verberg foto's & video's met AES-256-versleuteling en een pincodevergrendeling.",
-      "tagline": "Verberg en bescherm je foto's en video's met AES-256-versleuteling en een pincodevergrendeling.",
-      "long": "SecretAlbum+ is een privékluis die je kostbare foto's en video's beschermt met AES-256-versleuteling van militaire kwaliteit. Hij werkt volledig offline op je toestel en uploadt nooit bestanden naar een externe server. Elk bestand dat je importeert, wordt direct versleuteld en is zonder jouw persoonlijke sleutel niet toegankelijk – het verdwijnt volledig uit je galerij, zonder sporen achter te laten. Je kunt het app-icoon zelfs vermommen als een rekenmachine-, notities-, weer- of klok-app, zodat niemand weet dat hij geïnstalleerd is.",
-      "features": [
-        "AES-256-versleuteling van militaire kwaliteit beschermt direct elk bestand",
-        "6-cijferige pincodevergrendeling met tijdelijk-pincodeherstel per e-mail na 5 mislukte pogingen",
-        "Vermommingsmodus verandert het icoon in een rekenmachine-, notities-, weer- of klok-app",
-        "Meerdere foto's en video's uit de galerij importeren, waarbij de originelen automatisch worden verwijderd",
-        "Volledig scherm-viewer met knijpzoomen en een automatische diavoorstelling",
-        "Werkt 100% offline met verliesvrij herstel terug naar je galerij, op elk moment"
-      ],
-      "faq": [
-        {
-          "q": "Worden mijn bestanden naar een externe server of cloud verzonden?",
-          "a": "Nee. SecretAlbum+ werkt volledig offline en maakt nooit verbinding met een externe server. Alle bestanden worden alleen opgeslagen in een versleutelde ruimte op je toestel."
-        },
-        {
-          "q": "Wat gebeurt er als ik mijn pincode vergeet?",
-          "a": "Na 5 opeenvolgende foutieve invoeren van je 6-cijferige pincode wordt automatisch een eenmalige tijdelijke pincode gemaild naar je opgegeven herstel-adres, zodat je nooit permanent buitengesloten raakt."
-        },
-        {
-          "q": "Kan ik verborgen bestanden terugzetten naar mijn galerij?",
-          "a": "Ja. Je kunt elk bestand op elk moment terugzetten naar je galerij, en het ontsleutelingsproces is verliesvrij, zodat elke foto en video exact als het origineel terugkomt, zonder kwaliteitsverlies."
         }
       ]
     },

@@ -2,7 +2,7 @@
   "lang": "it",
   "ui": {
     "meta.title": "CodeDAC | App di utilità per ogni giorno",
-    "meta.desc": "CodeDAC crea e pubblica 14 app di utilità, tra cui Clipboard+, AutoStart+ e FloatCalc+.",
+    "meta.desc": "CodeDAC crea e pubblica 13 app di utilità, tra cui Clipboard+, AutoStart+ e FloatCalc+.",
     "nav.about": "Chi siamo",
     "nav.services": "Servizi",
     "nav.apps": "App",
@@ -269,36 +269,6 @@
         {
           "q": "Posso affidarmi solo al rilevamento automatico prima di esportare?",
           "a": "Il rilevamento è solo un punto di partenza che suggerisce il testo probabilmente sensibile. Rivedi sempre i suggerimenti e aggiungi o rimuovi le maschere tu stesso prima di esportare."
-        }
-      ]
-    },
-    "secretalbum": {
-      "name": "SecretAlbum+",
-      "tag": "Privacy",
-      "seo": "cassaforte per foto e video",
-      "desc": "Nascondi foto e video con crittografia AES-256 e blocco con PIN.",
-      "tagline": "Nascondi e proteggi le tue foto e i tuoi video con crittografia AES-256 e blocco con PIN.",
-      "long": "SecretAlbum+ è una cassaforte privata che protegge le tue foto e i tuoi video più preziosi con la crittografia AES-256 di livello militare. Funziona interamente offline sul tuo dispositivo e non carica mai i file su alcun server esterno. Ogni file che importi viene crittografato all'istante e non è accessibile senza la tua chiave personale, scomparendo completamente dalla galleria senza lasciare tracce. Puoi persino mascherare l'icona dell'app come una Calcolatrice, un'app Note, Meteo o Orologio, così nessuno saprà che è installata.",
-      "features": [
-        "La crittografia AES-256 di livello militare protegge all'istante ogni file",
-        "Blocco con PIN a 6 cifre con recupero via email di un PIN temporaneo dopo 5 tentativi falliti",
-        "La modalità mimetica cambia l'icona in un'app Calcolatrice, Note, Meteo o Orologio",
-        "Importa più foto e video dalla galleria, con rimozione automatica degli originali",
-        "Visualizzatore a schermo intero con zoom a due dita e presentazione automatica",
-        "Funziona 100% offline con ripristino senza perdita di qualità nella galleria in qualsiasi momento"
-      ],
-      "faq": [
-        {
-          "q": "I miei file vengono inviati a qualche server esterno o cloud?",
-          "a": "No. SecretAlbum+ funziona completamente offline e non si connette mai ad alcun server esterno. Tutti i file sono memorizzati solo in uno spazio crittografato sul tuo dispositivo."
-        },
-        {
-          "q": "Cosa succede se dimentico il PIN?",
-          "a": "Dopo 5 inserimenti errati consecutivi del PIN a 6 cifre, un PIN temporaneo monouso viene inviato automaticamente all'indirizzo di recupero registrato, così non resti mai bloccato in modo permanente."
-        },
-        {
-          "q": "Posso riportare i file nascosti nella galleria?",
-          "a": "Sì. Puoi ripristinare qualsiasi file nella galleria in qualsiasi momento, e il processo di decrittografia è senza perdita di qualità, così ogni foto e video torna esattamente come l'originale, senza alcuna perdita."
         }
       ]
     },

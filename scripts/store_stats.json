@@ -5,12 +5,12 @@
     "country": "us"
   },
   "aggregate": {
-    "publishedApps": 14,
-    "totalMinInstalls": 17810,
+    "publishedApps": 13,
+    "totalMinInstalls": 17710,
     "totalRatings": 219,
     "avgScore": 3.87,
     "byStore": {
-      "play": 17810,
+      "play": 17710,
       "msstore": 0
     }
   },
@@ -71,14 +71,6 @@
       "ratings": 0,
       "installs": "10+",
       "minInstalls": 10
-    },
-    "secretalbum": {
-      "store": "play",
-      "appId": "com.codedac.secretalbum",
-      "score": null,
-      "ratings": 0,
-      "installs": "100+",
-      "minInstalls": 100
     },
     "readfocus": {
       "store": "play",

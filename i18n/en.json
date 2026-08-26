@@ -2,7 +2,7 @@
   "lang": "en",
   "ui": {
     "meta.title": "CodeDAC | Everyday Utility Apps",
-    "meta.desc": "CodeDAC builds and publishes 14 utility apps including Clipboard+, AutoStart+ and FloatCalc+.",
+    "meta.desc": "CodeDAC builds and publishes 13 utility apps including Clipboard+, AutoStart+ and FloatCalc+.",
     "nav.about": "About",
     "nav.services": "Services",
     "nav.apps": "Apps",
@@ -269,36 +269,6 @@
         {
           "q": "Can I rely on auto-detection alone before exporting?",
           "a": "Detection is only a starting point that suggests likely sensitive text. Always review the suggestions and add or remove masks yourself before exporting."
-        }
-      ]
-    },
-    "secretalbum": {
-      "name": "SecretAlbum+",
-      "tag": "Privacy",
-      "seo": "Hidden Photo Vault with PIN Lock",
-      "desc": "Hide photos & videos with AES-256 encryption and a PIN lock.",
-      "tagline": "Hide and protect your photos and videos with AES-256 encryption and a PIN lock.",
-      "long": "SecretAlbum+ is a private vault that protects your precious photos and videos with military-grade AES-256 encryption. It works entirely offline on your device and never uploads files to any external server. Every file you import is encrypted instantly and cannot be accessed without your personal key, disappearing completely from your gallery with no traces left behind. You can even disguise the app icon as a Calculator, Notes, Weather, or Clock app so no one knows it is installed.",
-      "features": [
-        "Military-grade AES-256 encryption instantly protects every file",
-        "6-digit PIN lock with email temporary-PIN recovery after 5 failed attempts",
-        "Disguise mode changes the icon to a Calculator, Notes, Weather, or Clock app",
-        "Import multiple photos and videos from the gallery, with originals removed automatically",
-        "Full-screen viewer with pinch-to-zoom and an automatic slideshow",
-        "Works 100% offline with lossless restore back to your gallery anytime"
-      ],
-      "faq": [
-        {
-          "q": "Are my files sent to any external server or cloud?",
-          "a": "No. SecretAlbum+ works completely offline and never connects to any external server. All files are stored only in an encrypted space on your device."
-        },
-        {
-          "q": "What happens if I forget my PIN?",
-          "a": "After 5 consecutive incorrect entries of your 6-digit PIN, a one-time temporary PIN is automatically emailed to your registered recovery address so you are never permanently locked out."
-        },
-        {
-          "q": "Can I move hidden files back to my gallery?",
-          "a": "Yes. You can restore any file to your gallery at any time, and the decryption process is lossless, so every photo and video returns exactly as the original with no quality loss."
         }
       ]
     },

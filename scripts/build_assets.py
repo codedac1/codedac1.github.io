@@ -34,7 +34,6 @@ APPS = {
     "readfocus":     (r"ReadFocus\Resource\icon_512.png", r"ReadFocus\Resource\screenshots\en", "*.png"),
     # "0*.png" 는 영어 스크린샷만 고른다(한국어는 ko- 접두사).
     "readfocuswin":  (r"ReadFocusWin\src\ReadFocusPlus\Assets\app.ico", r"ReadFocusWin\docs\store-screenshots", "0*.png"),
-    "secretalbum":   (r"SecretAlbum\SecretAlbum\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"SecretAlbum\Resource", "screenshot_en_*.png"),
     # "0*.png" 는 번호 붙은 폰 스크린샷만 고른다(feature_graphic_1024x500.png 제외).
     "volumebooster": (r"VolumeBooster\Resource\icon_512.png", r"VolumeBooster\Resource\play_store\en", "0*.png"),
 }
