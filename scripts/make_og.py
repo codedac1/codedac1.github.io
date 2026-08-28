@@ -10,7 +10,7 @@ W, H = 1200, 630
 # 대표 앱 Clipboard+ 팔레트: colorPrimary #2F3B59 → colorPrimaryVariant #1E2A47
 BRAND = (47, 59, 89)      # #2F3B59 딥 네이비
 BRAND2 = (30, 42, 71)     # #1E2A47 네이비 variant
-ACCENT = (77, 182, 172)   # #4DB6AC 틸 액센트
+ACCENT = (39, 192, 184)   # #27C0B8 Clipboard+ 강조색
 img = Image.new("RGB", (W, H), BRAND)
 d = ImageDraw.Draw(img)
 # 대각 그라데이션

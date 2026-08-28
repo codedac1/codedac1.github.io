@@ -19,7 +19,7 @@ BRAND2 = (31, 79, 208)
 
 # slug -> (icon_source_relpath|GEN:Letter, screenshot_dir_relpath|None, screenshot_glob)
 APPS = {
-    "autostart":     (r"AutoStart\Resource\icon_512.jpg", r"AutoStart\Resource\screenshots\en", "*.png"),
+    "autostart":     (r"AutoStart\Resource\icon_512.png", r"AutoStart\Resource\screenshots\en", "*.png"),
     "clipboard":     (r"Clipboard\Resource\icon_512.png", r"Clipboard\Resource\PlayStore등록자료\en", "*.png"),
     "clipboardwin":  (r"ClipboardWin\src\ClipboardPlus\Assets\app.ico", r"ClipboardWin\Resource\shots", "store-en-*.png"),
     "floatcalc":     (r"FloatCalc\FloatCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatCalc\Resource\PlayStore등록자료\screenshots_v5\en", "*.png"),
