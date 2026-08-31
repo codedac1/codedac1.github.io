@@ -282,8 +282,8 @@
       "features": [
         "Satır Vurgusu (Okuma Cetveli): gözlerinizi yolda tutmak için mevcut satırınızı aydınlatır",
         "Okuma Maskesi: tünel görüşü odağı için okuma bölgeniz dışındaki her şeyi karartır",
-        "Tamamen ayarlanabilir odak şeridi: yükseklik (50dp–300dp), opaklık (%10–%100) ve köşe yuvarlaklığı",
-        "6 renk teması (2 ücretsiz + 4 Pro)",
+        "Tamamen ayarlanabilir odak şeridi: yükseklik (50dp–300dp) ve opaklık (%10–%100)",
+        "10 renk teması (3 ücretsiz + 7 Pro)",
         "Her uygulamanın üzerinde çalışır — e-kitaplar, PDF, webtoon'lar, haberler, araştırma makaleleri",
         "Pro: reklamsız deneyim, sınırsız üst katman süresi ve okurken ekranı açık tutma"
       ],
@@ -298,7 +298,7 @@
         },
         {
           "q": "Kullanımı ücretsiz mi?",
-          "a": "Evet. Ücretsiz sürüm oturum başına 60 dakika üst katman süresi ve 2 renk teması verir. Pro; reklamsız deneyim, tüm 6 tema ve sınırsız üst katman süresi ekler — ayrıca kısa bir ödüllü reklam izleyerek herhangi bir Pro özelliğini 24 saatliğine ücretsiz açabilirsiniz."
+          "a": "Evet. Ücretsiz sürüm oturum başına 60 dakika üst katman süresi ve 3 renk teması verir. Pro; reklamsız deneyim, tüm 10 tema ve sınırsız üst katman süresi ekler — ayrıca kısa bir ödüllü reklam izleyerek herhangi bir Pro özelliğini 24 saatliğine ücretsiz açabilirsiniz."
         }
       ]
     },
@@ -370,11 +370,11 @@
       "name": "ReadFocus+ for Windows",
       "tag": "Erişilebilirlik",
       "seo": "PC okuma yardımcısı",
-      "desc": "Windows için tıklamayı geçiren bir okuma kılavuzu — Okuma maskesi ve Satır vurgulama gözünüzü satırda tutar.",
-      "tagline": "Sistem tepsisinde duran bir Windows okuma kılavuzu: Okuma maskesi ya da Satır vurgulama gözünüzü satırda tutar, tıklamalar ise doğrudan alttaki uygulamaya geçer.",
-      "long": "ReadFocus+ for Windows, Android'deki ReadFocus+ uygulamasının masaüstü sürümüdür. Ne okuyorsanız — bir web sayfası, PDF, belge ya da kod — üzerine sakin bir okuma kılavuzu koyar, böylece satırı kaybetmek zorlaşır. Okuma maskesi ekranın üstünü ve altını hafifçe karartıp ortada açık bir şerit bırakır; Satır vurgulama okuduğunuz satırı yumuşak renkli bir şeritle işaretler. Kılavuz tıklamayı geçirir, yani alttaki uygulamada kaydırmaya, seçmeye ve tıklamaya eskisi gibi devam edersiniz; küçük bir yüzen panel de modu değiştirir, şeridi taşır ya da kilitler ve gizler — okuduğunuz yerden ayrılmadan.",
+      "desc": "Windows için tıklamayı geçiren bir odak şeridi — Maske ve Vurgulama gözünüzü satırda tutar.",
+      "tagline": "Sistem tepsisinde duran bir Windows odak şeridi: Maske ya da Vurgulama gözünüzü satırda tutar, tıklamalar ise doğrudan alttaki uygulamaya geçer.",
+      "long": "ReadFocus+ for Windows, Android'deki ReadFocus+ uygulamasının masaüstü sürümüdür. Ne okuyorsanız — bir web sayfası, PDF, belge ya da kod — üzerine sakin bir odak şeridi koyar, böylece satırı kaybetmek zorlaşır. Maske ekranın üstünü ve altını hafifçe karartıp ortada açık bir şerit bırakır; Vurgulama okuduğunuz satırı yumuşak renkli bir şeritle işaretler. Odak şeridi tıklamayı geçirir, yani alttaki uygulamada kaydırmaya, seçmeye ve tıklamaya eskisi gibi devam edersiniz; küçük bir yüzen panel de modu değiştirir, şeridi taşır ya da kilitler ve gizler — okuduğunuz yerden ayrılmadan.",
       "features": [
-        "İki okuma modu — Okuma maskesi açık şeridin dışındaki her yeri karartır, Satır vurgulama okuduğunuz satırı işaretler",
+        "İki okuma modu — Maske açık şeridin dışındaki her yeri karartır, Vurgulama okuduğunuz satırı işaretler",
         "Tıklamayı geçirir: alttaki uygulamada kaydırma, seçme ve tıklama aynen sürer — fareyi hiçbir şey kesmez",
         "Modu değiştiren, şeridi taşıyan veya kilitleyen ve gizleyen yüzen panel; gerekmediğinde tek satıra katlanır",
         "Başlatma ve durdurma, mod, gösterme ve gizleme, kilitleme ve şeridi yukarı aşağı kaydırma için klavye kısayolları",
@@ -388,11 +388,11 @@
         },
         {
           "q": "Hangi uygulamalarla çalışır?",
-          "a": "Ekrandaki her uygulamayla: tarayıcılar, PDF ve e-kitap okuyucular, belgeler, kod düzenleyiciler, akademik makaleler, uzun e-postalar ya da sohbet geçmişleri. Kılavuz ekranın üzerine çizilir, alttaki uygulamanın hiçbir şeyi desteklemesi gerekmez."
+          "a": "Ekrandaki her uygulamayla: tarayıcılar, PDF ve e-kitap okuyucular, belgeler, kod düzenleyiciler, akademik makaleler, uzun e-postalar ya da sohbet geçmişleri. Odak şeridi ekranın üzerine çizilir, alttaki uygulamanın hiçbir şeyi desteklemesi gerekmez."
         },
         {
           "q": "Ücretsiz mi?",
-          "a": "Evet. Ücretsiz sürüm 60 dakikaya kadar süren oturumlarla okur ve iki okuma modunu ve iki temayı içerir. Pro abonelik değil tek seferlik satın almadır; premium temaları, odak şeridi ayarlarını (yükseklik, saydamlık, köşeler) ve ekran kapanmasını önlemeyi ekler, süre sınırını da kaldırır. Windows sürümünde reklam yoktur."
+          "a": "Evet. Ücretsiz sürüm 60 dakikaya kadar süren oturumlarla okur ve iki okuma modunu ve on temanın üçünü içerir. Pro abonelik değil tek seferlik satın almadır; premium temaları, odak şeridi ayarlarını (yükseklik, saydamlık) ve ekran kapanmasını önlemeyi ekler, süre sınırını da kaldırır. Windows sürümünde reklam yoktur."
         }
       ]
     },

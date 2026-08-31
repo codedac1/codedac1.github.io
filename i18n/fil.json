@@ -282,8 +282,8 @@
       "features": [
         "Line Highlight (Reading Ruler): pinapaliwanag ang kasalukuyan mong linya para manatili sa tamang landas ang mga mata",
         "Reading Mask: dinidilim ang lahat maliban sa reading zone mo para sa tunnel-vision na pokus",
-        "Ganap na nababagong focus strip: taas (50dp–300dp), opacity (10%–100%), at pagkabilog ng sulok",
-        "6 na color theme (2 libre + 4 Pro)",
+        "Ganap na nababagong focus strip: taas (50dp–300dp) at opacity (10%–100%)",
+        "10 na color theme (3 libre + 7 Pro)",
         "Gumagana sa ibabaw ng anumang app — mga ebook, PDF, webtoon, balita, research paper",
         "Pro: karanasang walang ad, walang limitasyong oras ng overlay, at panatilihing nakabukas ang screen habang nagbabasa"
       ],
@@ -298,7 +298,7 @@
         },
         {
           "q": "Libre ba itong gamitin?",
-          "a": "Oo. Binibigyan ka ng libreng bersyon ng 60 minutong oras ng overlay bawat session at 2 color theme. Nagdaragdag ang Pro ng karanasang walang ad, lahat ng 6 na tema, at walang limitasyong oras ng overlay — at maaari ka ring manood ng maikling rewarded na ad para i-unlock ang anumang Pro feature nang libre sa loob ng 24 oras."
+          "a": "Oo. Binibigyan ka ng libreng bersyon ng 60 minutong oras ng overlay bawat session at 3 color theme. Nagdaragdag ang Pro ng karanasang walang ad, lahat ng 10 tema, at walang limitasyong oras ng overlay — at maaari ka ring manood ng maikling rewarded na ad para i-unlock ang anumang Pro feature nang libre sa loob ng 24 oras."
         }
       ]
     },
@@ -370,11 +370,11 @@
       "name": "ReadFocus+ for Windows",
       "tag": "Accessibility",
       "seo": "Reading Ruler para sa PC",
-      "desc": "Isang click-through na reading guide para sa Windows — Reading Mask at Line Highlight ang nagpapanatili ng tingin mo sa linya.",
-      "tagline": "Isang reading guide sa Windows na nakatira sa system tray: pinapanatili ng Reading Mask o Line Highlight ang tingin mo sa linya, at dumadaan ang mga click diretso sa app sa ilalim.",
-      "long": "Ang ReadFocus+ for Windows ay ang desktop na bersyon ng ReadFocus+ para sa Android. Naglalapag ito ng tahimik na reading guide sa ibabaw ng kung ano man ang binabasa mo — web page, PDF, dokumento, code — para hindi ka mawala sa linya. Marahang dinidilim ng Reading Mask ang itaas at ibaba ng screen at nag-iiwan ng malinaw na banda sa gitna; minamarkahan naman ng Line Highlight ang kasalukuyang linya gamit ang malambot na kulay na guhit. Click-through ang guide, kaya patuloy kang makaka-scroll, makakapili at makakapag-click sa ilalim gaya ng dati, at may maliit na floating panel na nagpapalit ng mode, naglilipat o nagla-lock ng banda, at nagtatago nito nang hindi ka umaalis sa binabasa mo.",
+      "desc": "Isang click-through na Focus Strip para sa Windows — Mask at Highlight ang nagpapanatili ng tingin mo sa linya.",
+      "tagline": "Isang Focus Strip sa Windows na nakatira sa system tray: pinapanatili ng Mask o Highlight ang tingin mo sa linya, at dumadaan ang mga click diretso sa app sa ilalim.",
+      "long": "Ang ReadFocus+ for Windows ay ang desktop na bersyon ng ReadFocus+ para sa Android. Naglalapag ito ng tahimik na Focus Strip sa ibabaw ng kung ano man ang binabasa mo — web page, PDF, dokumento, code — para hindi ka mawala sa linya. Marahang dinidilim ng Mask ang itaas at ibaba ng screen at nag-iiwan ng malinaw na banda sa gitna; minamarkahan naman ng Highlight ang kasalukuyang linya gamit ang malambot na kulay na guhit. Click-through ang Focus Strip, kaya patuloy kang makaka-scroll, makakapili at makakapag-click sa ilalim gaya ng dati, at may maliit na floating panel na nagpapalit ng mode, naglilipat o nagla-lock ng banda, at nagtatago nito nang hindi ka umaalis sa binabasa mo.",
       "features": [
-        "Dalawang mode ng pagbasa — dinidilim ng Reading Mask ang lahat maliban sa malinaw na banda, minamarkahan ng Line Highlight ang kasalukuyang linya",
+        "Dalawang mode ng pagbasa — dinidilim ng Mask ang lahat maliban sa malinaw na banda, minamarkahan ng Highlight ang kasalukuyang linya",
         "Click-through: patuloy na mag-scroll, pumili at mag-click sa app sa ilalim — walang humaharang sa mouse",
         "Floating panel para magpalit ng mode, ilipat o i-lock ang strip, at itago ito; natitiklop sa isang hilera kapag hindi kailangan",
         "Mga keyboard shortcut para sa simula at hinto, mode, pagpapakita at pagtatago, pag-lock, at paggalaw ng strip pataas o pababa",
@@ -388,11 +388,11 @@
         },
         {
           "q": "Anong mga app ang gumagana rito?",
-          "a": "Kahit anong app na nasa screen: mga browser, PDF at ebook reader, dokumento, code editor, research paper, at mahahabang email o chat. Iginuguhit ang guide sa ibabaw ng screen, kaya hindi kailangang suportahan ito ng app sa ilalim."
+          "a": "Kahit anong app na nasa screen: mga browser, PDF at ebook reader, dokumento, code editor, research paper, at mahahabang email o chat. Iginuguhit ang Focus Strip sa ibabaw ng screen, kaya hindi kailangang suportahan ito ng app sa ilalim."
         },
         {
           "q": "Libre ba ito?",
-          "a": "Oo. Ang libreng bersyon ay nagbabasa sa mga session na hanggang 60 minuto at kasama ang dalawang mode ng pagbasa at dalawang tema. Ang Pro ay isang beses na bayad, hindi subscription, at nagdadagdag ng premium na tema, mga setting ng Focus Strip (taas, opacity, sulok), at panatilihing naka-on ang screen, at inaalis ang limitasyon sa oras. Walang ads ang bersyon para sa Windows."
+          "a": "Oo. Ang libreng bersyon ay nagbabasa sa mga session na hanggang 60 minuto at kasama ang dalawang mode ng pagbasa at tatlo sa sampung tema. Ang Pro ay isang beses na bayad, hindi subscription, at nagdadagdag ng premium na tema, mga setting ng Focus Strip (taas, opacity), at panatilihing naka-on ang screen, at inaalis ang limitasyon sa oras. Walang ads ang bersyon para sa Windows."
         }
       ]
     },

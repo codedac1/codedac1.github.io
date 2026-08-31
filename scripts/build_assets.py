@@ -32,8 +32,8 @@ APPS = {
     "floattimerwin": (r"FloatTimerWin\src\FloatTimerPlus\Assets\app.ico", r"FloatTimerWin\Resource\shots", "store-en-*.png"),
     "photocleaner":  (r"PhotoCleaner\Resource\icon_512.png", r"PhotoCleaner\Resource\PlayStore\screenshots\en", "*.png"),
     "readfocus":     (r"ReadFocus\Resource\icon_512.png", r"ReadFocus\Resource\screenshots\en", "*.png"),
-    # "0*.png" 는 영어 스크린샷만 고른다(한국어는 ko- 접두사).
-    "readfocuswin":  (r"ReadFocusWin\src\ReadFocusPlus\Assets\app.ico", r"ReadFocusWin\docs\store-screenshots", "0*.png"),
+    # 스크린샷이 언어별 폴더로 갈라졌다(en/ko/…). 영어만 쓴다.
+    "readfocuswin":  (r"ReadFocusWin\src\ReadFocusPlus\Assets\app.ico", r"ReadFocusWin\docs\store-screenshots\en", "store-en-*.png"),
     # "0*.png" 는 번호 붙은 폰 스크린샷만 고른다(feature_graphic_1024x500.png 제외).
     "volumebooster": (r"VolumeBooster\Resource\icon_512.png", r"VolumeBooster\Resource\play_store\en", "0*.png"),
 }

@@ -282,8 +282,8 @@
       "features": [
         "Line Highlight (Reading Ruler): illuminates your current line to keep eyes on track",
         "Reading Mask: dims everything except your reading zone for tunnel-vision focus",
-        "Fully adjustable focus strip: height (50dp–300dp), opacity (10%–100%), and corner roundness",
-        "6 color themes (2 free + 4 Pro)",
+        "Fully adjustable focus strip: height (50dp–300dp) and opacity (10%–100%)",
+        "10 color themes (3 free + 7 Pro)",
         "Works on top of any app — ebooks, PDF, webtoons, news, research papers",
         "Pro: ad-free experience, unlimited overlay time, and keep screen on while reading"
       ],
@@ -298,7 +298,7 @@
         },
         {
           "q": "Is it free to use?",
-          "a": "Yes. The free version gives 60 minutes of overlay time per session and 2 color themes. Pro adds an ad-free experience, all 6 themes, and unlimited overlay time — and you can also watch a short rewarded ad to unlock any Pro feature free for 24 hours."
+          "a": "Yes. The free version gives 60 minutes of overlay time per session and 3 color themes. Pro adds an ad-free experience, all 10 themes, and unlimited overlay time — and you can also watch a short rewarded ad to unlock any Pro feature free for 24 hours."
         }
       ]
     },
@@ -370,11 +370,11 @@
       "name": "ReadFocus+ for Windows",
       "tag": "Accessibility",
       "seo": "Reading Ruler for PC",
-      "desc": "A click-through reading guide for Windows — Reading Mask and Line Highlight keep your eyes on the line.",
-      "tagline": "A tray-resident reading guide for Windows: a Reading Mask or Line Highlight keeps your eyes on the line, and every click passes straight through to the app underneath.",
-      "long": "ReadFocus+ for Windows is the desktop version of the Android ReadFocus+ app. It lays a calm reading guide over whatever you are reading — a web page, a PDF, a document, code — so it is easier to stay on the line. Reading Mask gently dims the top and bottom of the screen and leaves a clear band across the middle; Line Highlight marks the line you are on with a soft tinted strip. The guide is click-through, so you keep scrolling, selecting and clicking underneath exactly as before, and a small floating panel switches modes, moves or locks the band and hides it away without making you leave what you are reading.",
+      "desc": "A click-through focus strip for Windows — Mask and Highlight keep your eyes on the line.",
+      "tagline": "A tray-resident focus strip for Windows: Mask or Highlight keeps your eyes on the line, and every click passes straight through to the app underneath.",
+      "long": "ReadFocus+ for Windows is the desktop version of the Android ReadFocus+ app. It lays a calm focus strip over whatever you are reading — a web page, a PDF, a document, code — so it is easier to stay on the line. Mask gently dims the top and bottom of the screen and leaves a clear band across the middle; Highlight marks the line you are on with a soft tinted strip. The Focus Strip is click-through, so you keep scrolling, selecting and clicking underneath exactly as before, and a small floating panel switches modes, moves or locks the band and hides it away without making you leave what you are reading.",
       "features": [
-        "Two reading modes — Reading Mask dims everything outside a clear band, Line Highlight marks the line you are on",
+        "Two reading modes — Mask dims everything outside a clear band, Highlight marks the line you are on",
         "Click-through: keep scrolling, selecting and clicking the app underneath — nothing intercepts your mouse",
         "A floating panel to switch mode, move or lock the strip and hide it, collapsing to a single row when you do not need it",
         "Keyboard shortcuts for start and stop, mode, show and hide, lock, and nudging the strip up or down",
@@ -388,11 +388,11 @@
         },
         {
           "q": "Which apps does it work with?",
-          "a": "Any app on screen: browsers, PDF and ebook readers, documents, code editors, research papers, and long emails or chat logs. The reading guide is drawn on top of the screen, so the app underneath does not have to support anything."
+          "a": "Any app on screen: browsers, PDF and ebook readers, documents, code editors, research papers, and long emails or chat logs. The Focus Strip is drawn on top of the screen, so the app underneath does not have to support anything."
         },
         {
           "q": "Is it free to use?",
-          "a": "Yes. The free version reads in sessions of up to 60 minutes and includes both reading modes and two themes. Pro is a one-time purchase — not a subscription — and adds premium themes, Focus Strip settings (height, opacity, corners) and Keep Screen On, and removes the time limit. The Windows version has no ads."
+          "a": "Yes. The free version reads in sessions of up to 60 minutes and includes both reading modes and three of the ten themes. Pro is a one-time purchase — not a subscription — and adds premium themes, Focus Strip settings (height, opacity) and Keep Screen On, and removes the time limit. The Windows version has no ads."
         }
       ]
     },
