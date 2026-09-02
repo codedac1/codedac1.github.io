@@ -98,23 +98,23 @@
       "seo": "Autostart-manager voor Android",
       "desc": "Start je apps automatisch bij het opstarten. Geen root nodig, één keer instellen.",
       "tagline": "Start je apps automatisch zodra je telefoon opstart. Geen root, één keer instellen, werkt voor altijd.",
-      "long": "AutoStart+ is de eenvoudigste autostart-manager voor Android en start je geselecteerde apps automatisch op het moment dat je toestel opstart – helemaal zonder root. Eén keer instellen en je apps starten bij elke keer opstarten zonder handmatig tikken. De gratis versie start 1 app automatisch, terwijl PRO onbeperkt veel apps ontgrendelt die worden gestart in de volgorde die jij kiest. Het waarschuwt je als een start mislukt en leidt je door de autostart-instellingen op OEM-toestellen zoals Samsung en Xiaomi.",
+      "long": "AutoStart+ is de eenvoudigste autostart-manager voor Android: kies je apps en zodra het toestel klaar is met opstarten, gaan ze vanzelf open. Geen root, geen scripts, geen dagelijkse tikjes. Zoek in al je geïnstalleerde apps, voeg ze in seconden toe, zet ze aan of uit met één tik en sleep de rijen in de gewenste startvolgorde. Herstarten om te testen hoeft niet: het ⋮-menu op elke rij opent die app direct, en na het opstarten vertelt een kort bericht wat er is gestart — de rest volgt met één tik. Gratis start 1 app automatisch; PRO haalt de limiet weg zodat je hele lijst op volgorde start, en wil je nog geen abonnement, dan ontgrendelt een korte advertentie de limiet 24 uur.",
       "features": [
-        "Start je geselecteerde apps direct automatisch bij het opstarten",
-        "Werkt op gewone Android-toestellen zonder root",
-        "Geïnstalleerde apps in seconden toevoegen en elke met één tik in- of uitschakelen",
-        "Slimme opstartmelding waarschuwt je als een app niet start",
-        "Opstart-overlaybanner laat je apps al vóór het ontgrendelen starten (PRO)",
-        "Onbeperkt veel apps automatisch starten in de volgorde die jij kiest (PRO)"
+        "Start je gekozen apps zodra het toestel klaar is met opstarten — zonder root of custom ROM",
+        "Zoek in al je geïnstalleerde apps, voeg ze in seconden toe en zet ze aan of uit met één tik",
+        "Sleep de rijen om te bepalen welke app bij elke start als eerste opent",
+        "«Nu starten» in het ⋮-menu van elke rij — controleer je lijst zonder te herstarten",
+        "De opstartbanner start je hele lijst met één tik, zelfs vanaf het vergrendelscherm (PRO)",
+        "Gratis 1 app, PRO zonder limiet — of een korte advertentie ontgrendelt hem 24 uur"
       ],
       "faq": [
         {
           "q": "Mijn apps starten niet na het opstarten. Wat moet ik doen?",
-          "a": "Sommige fabrikanten (Samsung, Xiaomi en andere) blokkeren de autostart van apps uit zichzelf. Volg de handleiding in de app om de fabrikantspecifieke instelling 'autostart toestaan' af te ronden."
+          "a": "Xiaomi, OPPO, vivo en Huawei blokkeren standaard het starten op de achtergrond. AutoStart+ herkent je toestel en brengt je rechtstreeks naar het scherm «Automatisch starten» in de beveiligingsinstellingen van je telefoon — sta het daar toe en het starten bij het opstarten werkt. De app uitsluiten van batterijoptimalisatie helpt ook."
         },
         {
           "q": "Hoeveel apps kan ik automatisch starten?",
-          "a": "De gratis versie ondersteunt 1 app, terwijl de PRO-versie je een onbeperkt aantal apps automatisch laat starten."
+          "a": "Gratis start er 1 app per keer opstarten. PRO haalt de limiet weg: je hele lijst opent in de volgorde die je hebt ingesteld. Wil je geen abonnement, dan ontgrendelt een korte advertentie de limiet 24 uur."
         },
         {
           "q": "Verbruikt het mijn batterij?",

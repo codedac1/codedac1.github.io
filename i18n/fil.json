@@ -98,23 +98,23 @@
       "seo": "Auto Start Manager para sa Android",
       "desc": "Awtomatikong i-launch ang mga app mo sa boot. Walang root, isang setup lang.",
       "tagline": "Awtomatikong i-start ang mga app mo sa sandaling mag-boot ang telepono. Walang root, isang setup lang, tumatakbo habambuhay.",
-      "long": "Ang AutoStart+ ay ang pinakamadaling auto start manager para sa Android, na awtomatikong naglulunsad ng mga napili mong app sa sandaling mag-boot ang device mo, nang walang kailangang root. I-setup ito nang isang beses at maglu-launch ang mga app mo sa bawat startup nang hindi na kailangang mag-tap. Ang libreng bersyon ay awtomatikong nagsi-start ng 1 app, samantalang binubuksan ng PRO ang walang limitasyong app na inilulunsad ayon sa pagkakasunod na gusto mo. Ipinapaalam nito kung nabigo ang isang paglulunsad, at ginagabayan ka nito sa mga setting ng auto start sa mga OEM device tulad ng Samsung at Xiaomi.",
+      "long": "Ang AutoStart+ ang pinakasimpleng auto start manager para sa Android: piliin ang mga app na gusto mo, at sa oras na matapos mag-boot ang device, kusa na silang bubukas — walang root, walang script, walang araw-araw na pag-tap. Hanapin ang lahat ng naka-install na app, idagdag sa listahan sa ilang segundo, i-on o i-off sa isang tap, at i-drag ang mga row para itakda ang pagkakasunod ng paglunsad. Hindi mo rin kailangang mag-restart para subukan: ang ⋮ menu sa bawat row ay agad na nagbubukas ng app na iyon, at pagkatapos mag-boot ay may maikling mensaheng nagsasabi kung ano ang nabuksan — isang tap na lang ang natitira. Sa libreng bersyon, 1 app ang bumubukas; inaalis ng PRO ang limitasyon kaya buong listahan ang tatakbo nang sunod-sunod, o manood ng maikling ad para alisin ang limitasyon nang 24 oras.",
       "features": [
-        "Agad na awtomatikong nilu-launch ang mga napili mong app sa boot",
-        "Gumagana sa mga karaniwang Android device nang walang kailangang root",
-        "Idagdag ang mga naka-install na app sa ilang segundo at i-toggle ang bawat isa nang isang tap",
-        "Ang smart boot notification ay nagbibigay-alerto kung nabigong mag-launch ang isang app",
-        "Ang boot overlay banner ay nagbibigay-daan sa paglulunsad ng mga app bago mag-unlock (PRO)",
-        "Awtomatikong i-start ang walang limitasyong app ayon sa napili mong pagkakasunod (PRO)"
+        "Binubuksan ang piniling apps sa oras na matapos mag-boot ang device — walang root, walang custom ROM",
+        "Hanapin ang lahat ng naka-install na app, idagdag sa ilang segundo, at i-on o i-off sa isang tap",
+        "I-drag ang mga row para piliin kung aling app ang unang bubukas sa bawat boot",
+        "«Patakbuhin ngayon» sa ⋮ menu ng kahit anong row — subukan ang listahan nang hindi nagre-restart",
+        "Ang boot banner ay naglulunsad ng buong listahan sa isang tap, kahit mula sa lock screen (PRO)",
+        "Libre: 1 app; inaalis ng PRO ang limitasyon — o maikling ad para sa 24 oras na walang limitasyon"
       ],
       "faq": [
         {
           "q": "Hindi nagla-launch ang mga app ko pagkatapos ng boot. Ano ang dapat kong gawin?",
-          "a": "May ilang manufacturer (Samsung, Xiaomi, at iba pa) na nagba-block ng autostart ng app sa kanilang sarili. Sundin ang gabay sa loob ng app para makumpleto ang setting na 'payagan ang autostart' na tukoy sa manufacturer."
+          "a": "Hinaharangan ng Xiaomi, OPPO, vivo at Huawei ang background startup bilang default. Nakikilala ng AutoStart+ ang device mo at dadalhin ka diretso sa «Autostart» screen sa sariling security settings ng telepono — payagan doon at gagana na ang boot launching. Nakakatulong din kung ilalabas mo ang app sa battery optimization."
         },
         {
           "q": "Ilang app ang maaari kong i-auto start?",
-          "a": "Sumusuporta ang libreng bersyon sa 1 app, samantalang binibigyang-daan ka ng PRO na mag-auto start ng walang limitasyong app."
+          "a": "Sa libreng bersyon, 1 app ang bumubukas kada boot. Inaalis ng PRO ang limitasyon kaya buong listahan ang bubukas sa pagkakasunod na itinakda mo. Kung ayaw mo pang mag-subscribe, ang panonood ng maikling ad ay nag-aalis ng limitasyon sa loob ng 24 oras."
         },
         {
           "q": "Uubusin ba nito ang baterya ko?",

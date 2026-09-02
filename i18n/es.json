@@ -98,23 +98,23 @@
       "seo": "gestor de inicio automático Android",
       "desc": "Inicia tus apps automáticamente al arrancar. Sin root, configúralo una vez.",
       "tagline": "Inicia tus apps automáticamente en cuanto arranca tu teléfono. Sin root, configúralo una vez y funciona para siempre.",
-      "long": "AutoStart+ es el gestor de inicio automático más sencillo para Android: abre las apps que elijas de forma automática en cuanto tu dispositivo arranca, sin necesidad de root. Configúralo una vez y tus apps se iniciarán en cada arranque sin ningún toque manual. La versión gratuita inicia automáticamente 1 app, mientras que PRO desbloquea un número ilimitado de apps abiertas en el orden que elijas. Te avisa si un inicio falla y te guía por los ajustes de inicio automático en dispositivos OEM como Samsung y Xiaomi.",
+      "long": "AutoStart+ es el gestor de inicio automático más sencillo para Android: elige tus apps y, en cuanto el dispositivo termina de arrancar, se abren solas. Sin root, sin scripts, sin toques cada mañana. Busca entre todas las apps instaladas, añádelas en segundos, actívalas o desactívalas con un toque y arrastra las filas para fijar el orden de arranque. No hace falta reiniciar para probarlo: el menú ⋮ de cada fila abre esa app al instante y, tras el arranque, un aviso breve te dice qué se ha abierto y lanza el resto con un toque. La versión gratuita inicia 1 app; PRO quita el límite y toda la lista se abre en orden, y si aún no quieres suscribirte, un anuncio corto lo desbloquea durante 24 horas.",
       "features": [
-        "Inicia al instante y de forma automática las apps que elijas al arrancar",
-        "Funciona en dispositivos Android estándar, sin necesidad de root",
-        "Añade apps instaladas en segundos y activa o desactiva cada una con un toque",
-        "La notificación de arranque inteligente te avisa si una app no logra iniciarse",
-        "El banner superpuesto de arranque te permite abrir apps antes de desbloquear (PRO)",
-        "Inicia automáticamente apps ilimitadas en el orden que elijas (PRO)"
+        "Abre las apps seleccionadas en cuanto el dispositivo termina de arrancar, sin root ni ROM personalizada",
+        "Busca entre todas las apps instaladas, añádelas en segundos y actívalas o desactívalas con un toque",
+        "Arrastra las filas para decidir qué app se abre primero en cada arranque",
+        "«Ejecutar ahora» en el menú ⋮ de cualquier fila: comprueba tu lista sin reiniciar el móvil",
+        "El banner de inicio lanza toda tu lista con un toque, incluso desde la pantalla de bloqueo (PRO)",
+        "Gratis inicia 1 app; PRO quita el límite, o un anuncio corto lo desbloquea 24 horas"
       ],
       "faq": [
         {
           "q": "Mis apps no se inician después del arranque. ¿Qué hago?",
-          "a": "Algunos fabricantes (Samsung, Xiaomi y otros) bloquean por su cuenta el inicio automático de apps. Sigue la guía dentro de la app para completar el ajuste de 'permitir inicio automático' propio de cada fabricante."
+          "a": "Xiaomi, OPPO, vivo y Huawei bloquean el inicio en segundo plano por defecto. AutoStart+ detecta tu dispositivo y te lleva directo a la pantalla «Inicio automático» de los ajustes de seguridad del móvil: concédelo ahí y el arranque funcionará. Dejar la app fuera de la optimización de batería también ayuda."
         },
         {
           "q": "¿Cuántas apps puedo iniciar automáticamente?",
-          "a": "La versión gratuita admite 1 app, mientras que la versión PRO te permite iniciar automáticamente un número ilimitado de apps."
+          "a": "La versión gratuita inicia 1 app en cada arranque. PRO quita el límite y toda la lista se abre en el orden que hayas fijado. Si prefieres no suscribirte, ver un anuncio corto desbloquea el límite durante 24 horas."
         },
         {
           "q": "¿Consumirá mi batería?",

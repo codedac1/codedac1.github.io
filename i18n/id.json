@@ -98,23 +98,23 @@
       "seo": "Pengelola Auto Start Android",
       "desc": "Jalankan aplikasi otomatis saat booting. Tanpa root, cukup atur sekali.",
       "tagline": "Jalankan aplikasi otomatis begitu ponsel menyala. Tanpa root, atur sekali, berjalan selamanya.",
-      "long": "AutoStart+ adalah pengelola auto start termudah untuk Android, yang menjalankan aplikasi pilihan Anda secara otomatis begitu perangkat menyala, tanpa perlu root. Atur sekali dan aplikasi Anda akan berjalan di setiap startup tanpa perlu ketukan manual. Versi gratis menjalankan otomatis 1 aplikasi, sedangkan PRO membuka aplikasi tanpa batas yang berjalan sesuai urutan yang Anda pilih. Aplikasi ini memberi tahu jika peluncuran gagal, dan memandu Anda melewati pengaturan auto start pada perangkat OEM seperti Samsung dan Xiaomi.",
+      "long": "AutoStart+ adalah pengelola mulai otomatis paling sederhana untuk Android: pilih aplikasimu, dan begitu perangkat selesai booting semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketukan setiap pagi. Cari semua aplikasi terpasang, tambahkan dalam hitungan detik, nyalakan atau matikan dengan sekali ketuk, dan seret barisnya untuk mengatur urutan mulai. Tak perlu reboot untuk menguji: menu ⋮ di tiap baris membuka aplikasi itu seketika, dan setelah boot muncul pesan singkat berisi apa saja yang sudah jalan, sisanya cukup sekali ketuk. Versi gratis menjalankan 1 aplikasi; PRO menghapus batas itu sehingga seluruh daftar jalan berurutan, atau tonton iklan singkat untuk membuka batasnya selama 24 jam.",
       "features": [
-        "Menjalankan otomatis aplikasi pilihan Anda secara instan saat booting",
-        "Berjalan di perangkat Android standar tanpa perlu root",
-        "Tambahkan aplikasi terpasang dalam hitungan detik dan aktif/nonaktifkan tiap aplikasi dengan satu ketukan",
-        "Notifikasi booting pintar memberi tahu Anda jika sebuah aplikasi gagal dijalankan",
-        "Banner overlay booting memungkinkan menjalankan aplikasi sebelum membuka kunci (PRO)",
-        "Jalankan otomatis aplikasi tanpa batas sesuai urutan pilihan Anda (PRO)"
+        "Menjalankan aplikasi pilihanmu begitu perangkat selesai booting — tanpa root, tanpa ROM kustom",
+        "Cari semua aplikasi terpasang, tambahkan dalam hitungan detik, dan nyalakan atau matikan sekali ketuk",
+        "Seret barisnya untuk menentukan aplikasi mana yang jalan lebih dulu di tiap boot",
+        "«Jalankan sekarang» dari menu ⋮ tiap baris — uji daftarmu tanpa menyalakan ulang ponsel",
+        "Banner boot menjalankan seluruh daftar sekali ketuk, bahkan dari layar kunci (PRO)",
+        "Gratis 1 aplikasi; PRO tanpa batas — atau iklan singkat membuka batasnya 24 jam"
       ],
       "faq": [
         {
           "q": "Aplikasi saya tidak jalan setelah booting. Apa yang harus saya lakukan?",
-          "a": "Beberapa produsen (Samsung, Xiaomi, dan lainnya) memblokir autostart aplikasi secara mandiri. Ikuti panduan di dalam aplikasi untuk menyelesaikan pengaturan 'izinkan autostart' khusus produsen."
+          "a": "Xiaomi, OPPO, vivo, dan Huawei memblokir mulai di latar belakang secara bawaan. AutoStart+ mengenali perangkatmu dan membawamu langsung ke layar «Mulai otomatis» di pengaturan keamanan ponsel — izinkan di sana dan mulai saat boot pun bekerja. Mengeluarkan aplikasi dari optimasi baterai juga membantu."
         },
         {
           "q": "Berapa banyak aplikasi yang bisa saya jalankan otomatis?",
-          "a": "Versi gratis mendukung 1 aplikasi, sedangkan versi PRO memungkinkan Anda menjalankan otomatis aplikasi dalam jumlah tak terbatas."
+          "a": "Versi gratis menjalankan 1 aplikasi tiap boot. PRO menghapus batas itu sehingga seluruh daftar jalan sesuai urutan yang kamu atur. Kalau belum mau berlangganan, menonton iklan singkat membuka batas itu selama 24 jam."
         },
         {
           "q": "Apakah ini akan menguras baterai saya?",

@@ -53,7 +53,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='22' width='100' height='100' fill='%232F3B59'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="/css/style.css?v=51" />
+  <link rel="stylesheet" href="/css/style.css?v=52" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -61,7 +61,7 @@
   "name": "AutoStart+",
   "operatingSystem": "Android",
   "applicationCategory": "UtilitiesApplication",
-  "description": "AutoStart+ è il gestore dell'avvio automatico più semplice per Android: avvia automaticamente le app che scegli nel momento stesso in cui il dispositivo si accende, senza bisogno di root. Impostalo una volta sola e le tue app si avvieranno a ogni accensione, senza alcun tocco manuale. La versione gratuita avvia automaticamente 1 app, mentre PRO sblocca un numero illimitato di app avviate nell'ordine che preferisci. Ti avvisa se un avvio non riesce e ti guida tra le impostazioni di avvio automatico sui dispositivi OEM come Samsung e Xiaomi.",
+  "description": "AutoStart+ è il gestore di avvio automatico più semplice per Android: scegli le app e, appena il dispositivo ha finito di avviarsi, partono da sole. Senza root, senza script, senza tocchi ogni mattina. Cerca tra tutte le app installate, aggiungile in pochi secondi, attivale o disattivale con un tocco e trascina le righe per fissare l'ordine di avvio. Per provarlo non serve riavviare: il menu ⋮ di ogni riga apre subito quell'app e, dopo l'avvio, un breve messaggio dice che cosa è partito e lancia il resto con un tocco. La versione gratuita avvia 1 app; PRO toglie il limite e tutto l'elenco parte in ordine, e se non vuoi ancora abbonarti un breve annuncio lo sblocca per 24 ore.",
   "image": "https://codedac.com/images/icons/autostart.png",
   "url": "https://codedac.com/it/apps/autostart.html",
   "inLanguage": "it",
@@ -125,7 +125,7 @@
       "name": "Le mie app non si avviano dopo l'accensione. Cosa devo fare?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Alcuni produttori (Samsung, Xiaomi e altri) bloccano l'avvio automatico delle app in modo autonomo. Segui la guida nell'app per completare l'impostazione 'consenti avvio automatico' specifica del produttore."
+        "text": "Xiaomi, OPPO, vivo e Huawei bloccano l'avvio in background per impostazione predefinita. AutoStart+ riconosce il dispositivo e ti porta direttamente alla schermata «Avvio automatico» nelle impostazioni di sicurezza del telefono: concedi il permesso lì e l'avvio funziona. Escludere l'app dall'ottimizzazione della batteria aiuta ancora di più."
       }
     },
     {
@@ -133,7 +133,7 @@
       "name": "Quante app posso avviare automaticamente?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "La versione gratuita supporta 1 app, mentre la versione PRO ti permette di avviare automaticamente un numero illimitato di app."
+        "text": "La versione gratuita avvia 1 app a ogni accensione. PRO toglie il limite e tutto l'elenco parte nell'ordine che hai stabilito. Se preferisci non abbonarti, un breve annuncio sblocca il limite per 24 ore."
       }
     },
     {
@@ -207,7 +207,7 @@
 
   <section class="app-hero-d">
     <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/autostart.png?v=51" alt="AutoStart+ icon" width="96" height="96" />
+      <img class="app-icon-lg" src="/images/icons/autostart.png?v=52" alt="AutoStart+ icon" width="96" height="96" />
       <div class="app-hero-text">
         <span class="app-meta-row"><span class="app-tag">Avvio automatico</span><span class="app-langs" aria-label="21 lingue"><span class="globe" aria-hidden="true">🌐</span>21 lingue</span></span>
         <h1><bdi>AutoStart+</bdi></h1>
@@ -225,7 +225,7 @@
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">Panoramica</h2>
-      <p class="detail-long">AutoStart+ è il gestore dell'avvio automatico più semplice per Android: avvia automaticamente le app che scegli nel momento stesso in cui il dispositivo si accende, senza bisogno di root. Impostalo una volta sola e le tue app si avvieranno a ogni accensione, senza alcun tocco manuale. La versione gratuita avvia automaticamente 1 app, mentre PRO sblocca un numero illimitato di app avviate nell'ordine che preferisci. Ti avvisa se un avvio non riesce e ti guida tra le impostazioni di avvio automatico sui dispositivi OEM come Samsung e Xiaomi.</p>
+      <p class="detail-long">AutoStart+ è il gestore di avvio automatico più semplice per Android: scegli le app e, appena il dispositivo ha finito di avviarsi, partono da sole. Senza root, senza script, senza tocchi ogni mattina. Cerca tra tutte le app installate, aggiungile in pochi secondi, attivale o disattivale con un tocco e trascina le righe per fissare l'ordine di avvio. Per provarlo non serve riavviare: il menu ⋮ di ogni riga apre subito quell'app e, dopo l'avvio, un breve messaggio dice che cosa è partito e lancia il resto con un tocco. La versione gratuita avvia 1 app; PRO toglie il limite e tutto l'elenco parte in ordine, e se non vuoi ancora abbonarti un breve annuncio lo sblocca per 24 ore.</p>
     </div>
   </section>
 
@@ -233,12 +233,12 @@
     <div class="container">
       <h2 class="detail-title">Funzioni principali</h2>
       <ul class="feature-list">
-        <li>Avvia istantaneamente e in automatico le app che scegli all'accensione</li>
-        <li>Funziona su dispositivi Android standard senza bisogno di root</li>
-        <li>Aggiungi le app installate in pochi secondi e attiva o disattiva ciascuna con un tocco</li>
-        <li>La notifica intelligente di avvio ti avvisa se un'app non si avvia</li>
-        <li>Il banner overlay all'avvio ti consente di aprire le app prima di sbloccare il telefono (PRO)</li>
-        <li>Avvio automatico di app illimitate nell'ordine da te scelto (PRO)</li>
+        <li>Avvia le app selezionate appena il dispositivo ha finito di accendersi — senza root né ROM personalizzate</li>
+        <li>Cerca tra tutte le app installate, aggiungile in pochi secondi e attivale o disattivale con un tocco</li>
+        <li>Trascina le righe per decidere quale app parte per prima a ogni avvio</li>
+        <li>«Avvia ora» dal menu ⋮ di qualsiasi riga: prova l'elenco senza riavviare il telefono</li>
+        <li>Il banner di avvio lancia tutto l'elenco con un tocco, anche dalla schermata di blocco (PRO)</li>
+        <li>Gratis avvia 1 app, PRO toglie il limite — oppure un breve annuncio lo sblocca per 24 ore</li>
       </ul>
     </div>
   </section>
@@ -248,10 +248,10 @@
       <h2 class="detail-title">Screenshot</h2>
       <p class="section-lead" style="margin-bottom:22px">Tocca uno screenshot per ingrandirlo.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/autostart-1.jpg?v=51" alt="AutoStart+ Screenshot 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/autostart-2.jpg?v=51" alt="AutoStart+ Screenshot 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/autostart-3.jpg?v=51" alt="AutoStart+ Screenshot 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/autostart-4.jpg?v=51" alt="AutoStart+ Screenshot 4" loading="lazy" data-idx="3" />
+        <img class="shot" src="/images/shots/autostart-1.jpg?v=52" alt="AutoStart+ Screenshot 1" loading="lazy" data-idx="0" />
+        <img class="shot" src="/images/shots/autostart-2.jpg?v=52" alt="AutoStart+ Screenshot 2" loading="lazy" data-idx="1" />
+        <img class="shot" src="/images/shots/autostart-3.jpg?v=52" alt="AutoStart+ Screenshot 3" loading="lazy" data-idx="2" />
+        <img class="shot" src="/images/shots/autostart-4.jpg?v=52" alt="AutoStart+ Screenshot 4" loading="lazy" data-idx="3" />
       </div>
     </div>
   </section>
@@ -259,8 +259,8 @@
     <div class="container">
       <h2 class="detail-title">FAQ</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Le mie app non si avviano dopo l'accensione. Cosa devo fare?</p><p class="faq-a">Alcuni produttori (Samsung, Xiaomi e altri) bloccano l'avvio automatico delle app in modo autonomo. Segui la guida nell'app per completare l'impostazione 'consenti avvio automatico' specifica del produttore.</p></div>
-        <div class="faq-item"><p class="faq-q">Quante app posso avviare automaticamente?</p><p class="faq-a">La versione gratuita supporta 1 app, mentre la versione PRO ti permette di avviare automaticamente un numero illimitato di app.</p></div>
+        <div class="faq-item"><p class="faq-q">Le mie app non si avviano dopo l'accensione. Cosa devo fare?</p><p class="faq-a">Xiaomi, OPPO, vivo e Huawei bloccano l'avvio in background per impostazione predefinita. AutoStart+ riconosce il dispositivo e ti porta direttamente alla schermata «Avvio automatico» nelle impostazioni di sicurezza del telefono: concedi il permesso lì e l'avvio funziona. Escludere l'app dall'ottimizzazione della batteria aiuta ancora di più.</p></div>
+        <div class="faq-item"><p class="faq-q">Quante app posso avviare automaticamente?</p><p class="faq-a">La versione gratuita avvia 1 app a ogni accensione. PRO toglie il limite e tutto l'elenco parte nell'ordine che hai stabilito. Se preferisci non abbonarti, un breve annuncio sblocca il limite per 24 ore.</p></div>
         <div class="faq-item"><p class="faq-q">Consuma la batteria?</p><p class="faq-a">AutoStart+ si esegue una sola volta all'accensione e non è un'app sempre attiva in background, quindi ha un impatto quasi nullo sulla durata della batteria.</p></div>
       </div>
     </div>
@@ -315,6 +315,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"it","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/autostart.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/autostart.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/autostart.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/autostart.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/autostart.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/autostart.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/autostart.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/autostart.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/autostart.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/autostart.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/autostart.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/autostart.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/autostart.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/autostart.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/autostart.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/autostart.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/autostart.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/autostart.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/autostart.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/autostart.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/autostart.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=51"></script>
+  <script src="/js/site.js?v=52"></script>
 </body>
 </html>

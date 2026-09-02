@@ -98,23 +98,23 @@
       "seo": "Gestionnaire de lancement automatique",
       "desc": "Lancez vos applis automatiquement au démarrage. Sans root, réglé une seule fois.",
       "tagline": "Lancez vos applis automatiquement dès le démarrage du téléphone. Sans root, réglé une fois, actif pour toujours.",
-      "long": "AutoStart+ est le gestionnaire de lancement automatique le plus simple pour Android : il lance automatiquement les applications de votre choix dès le démarrage de votre appareil, sans root. Réglez-le une seule fois et vos applis se lancent à chaque démarrage, sans aucune manipulation. La version gratuite lance automatiquement 1 application, tandis que la version PRO en débloque un nombre illimité, lancées dans l'ordre de votre choix. Elle vous prévient en cas d'échec d'un lancement et vous guide dans les réglages de lancement automatique sur les appareils OEM comme Samsung et Xiaomi.",
+      "long": "AutoStart+ est le gestionnaire de démarrage automatique le plus simple pour Android : choisissez vos applis et, dès que l'appareil a fini de démarrer, elles s'ouvrent toutes seules. Sans root, sans script, sans geste quotidien. Cherchez parmi toutes les applis installées, ajoutez-les en quelques secondes, activez ou désactivez d'un toucher et glissez les lignes pour fixer l'ordre de lancement. Pas besoin de redémarrer pour tester : le menu ⋮ de chaque ligne ouvre l'appli immédiatement, et après le démarrage un court message indique ce qui s'est lancé, le reste suit d'un toucher. La version gratuite lance 1 appli ; PRO lève la limite et toute la liste démarre dans l'ordre, et si vous préférez ne pas vous abonner, une courte pub la débloque pendant 24 heures.",
       "features": [
-        "Lance instantanément et automatiquement les applications choisies au démarrage",
-        "Fonctionne sur les appareils Android standard, sans root",
-        "Ajoutez des applis installées en quelques secondes et activez ou désactivez chacune d'un simple toucher",
-        "Une notification de démarrage intelligente vous alerte si une appli ne parvient pas à se lancer",
-        "Une bannière superposée au démarrage permet de lancer des applis avant le déverrouillage (PRO)",
-        "Lancement automatique d'un nombre illimité d'applis dans l'ordre choisi (PRO)"
+        "Lance les applis choisies dès que l'appareil a fini de démarrer — sans root ni ROM personnalisée",
+        "Cherchez parmi toutes les applis installées, ajoutez-les en quelques secondes, activez ou désactivez d'un toucher",
+        "Glissez les lignes pour décider quelle appli démarre en premier à chaque boot",
+        "« Lancer maintenant » dans le menu ⋮ de chaque ligne : vérifiez votre liste sans redémarrer",
+        "La bannière de démarrage lance toute la liste d'un toucher, même depuis l'écran verrouillé (PRO)",
+        "Gratuit : 1 appli ; PRO lève la limite — ou une courte pub la débloque 24 heures"
       ],
       "faq": [
         {
           "q": "Mes applis ne se lancent pas après le démarrage. Que dois-je faire ?",
-          "a": "Certains fabricants (Samsung, Xiaomi et d'autres) bloquent d'eux-mêmes le lancement automatique des applications. Suivez le guide intégré pour effectuer le réglage « autoriser le lancement automatique » propre à votre fabricant."
+          "a": "Xiaomi, OPPO, vivo et Huawei bloquent le démarrage en arrière-plan par défaut. AutoStart+ reconnaît votre appareil et vous emmène directement à l'écran « Démarrage auto » des réglages de sécurité du téléphone : autorisez-le là et le lancement au boot fonctionne. Exclure l'appli de l'optimisation de batterie aide également."
         },
         {
           "q": "Combien d'applis puis-je lancer automatiquement ?",
-          "a": "La version gratuite prend en charge 1 application, tandis que la version PRO vous permet de lancer automatiquement un nombre illimité d'applications."
+          "a": "La version gratuite lance 1 appli à chaque démarrage. PRO lève la limite : toute la liste s'ouvre dans l'ordre que vous avez défini. Si vous préférez ne pas vous abonner, une courte pub débloque la limite pendant 24 heures."
         },
         {
           "q": "Cela va-t-il vider ma batterie ?",

@@ -98,23 +98,23 @@
       "seo": "Ứng dụng tự khởi động Android",
       "desc": "Tự động mở ứng dụng khi khởi động máy. Không cần root, cài đặt một lần.",
       "tagline": "Tự động mở ứng dụng ngay khi điện thoại khởi động. Không cần root, cài một lần, chạy mãi.",
-      "long": "AutoStart+ là trình quản lý tự khởi động dễ dùng nhất cho Android, tự động mở các ứng dụng bạn chọn ngay khi thiết bị khởi động, mà không cần quyền root. Cài đặt một lần và ứng dụng của bạn sẽ mở mỗi lần khởi động mà không cần chạm tay. Bản miễn phí tự khởi động 1 ứng dụng, còn bản PRO mở khóa số lượng ứng dụng không giới hạn, chạy theo thứ tự bạn chọn. Ứng dụng sẽ thông báo nếu việc khởi động thất bại, và hướng dẫn bạn thiết lập tự khởi động trên các thiết bị OEM như Samsung và Xiaomi.",
+      "long": "AutoStart+ là trình quản lý tự khởi chạy đơn giản nhất trên Android: chọn ứng dụng bạn muốn, và ngay khi máy khởi động xong chúng tự mở — không root, không script, không phải chạm mỗi sáng. Tìm trong toàn bộ ứng dụng đã cài, thêm vào danh sách trong vài giây, bật tắt chỉ với một chạm và kéo các dòng để đặt thứ tự khởi chạy. Cũng không cần khởi động lại để thử: menu ⋮ ở mỗi dòng mở ứng dụng đó tức thì, còn sau khi máy khởi động sẽ có thông báo ngắn cho biết những gì đã chạy, phần còn lại chỉ cần một chạm. Bản miễn phí tự mở 1 ứng dụng; PRO bỏ giới hạn để cả danh sách chạy theo thứ tự, hoặc xem một quảng cáo ngắn để bỏ giới hạn miễn phí trong 24 giờ.",
       "features": [
-        "Tự động mở ngay các ứng dụng bạn chọn khi khởi động máy",
-        "Hoạt động trên thiết bị Android thông thường, không cần root",
-        "Thêm ứng dụng đã cài trong vài giây, bật/tắt từng ứng dụng chỉ với một chạm",
-        "Thông báo khởi động thông minh báo cho bạn nếu một ứng dụng không mở được",
-        "Biểu ngữ lớp phủ khi khởi động cho phép mở ứng dụng trước khi mở khóa (PRO)",
-        "Tự khởi động không giới hạn ứng dụng theo thứ tự bạn chọn (PRO)"
+        "Tự mở các ứng dụng đã chọn ngay khi máy khởi động xong — không root, không ROM tùy chỉnh",
+        "Tìm trong toàn bộ ứng dụng đã cài, thêm vào trong vài giây và bật tắt chỉ với một chạm",
+        "Kéo các dòng để quyết định ứng dụng nào chạy trước ở mỗi lần bật máy",
+        "«Chạy ngay» trong menu ⋮ của mỗi dòng — kiểm tra danh sách mà không cần khởi động lại",
+        "Banner sau khởi động mở cả danh sách chỉ với một chạm, kể cả từ màn hình khóa (PRO)",
+        "Miễn phí 1 ứng dụng, PRO bỏ giới hạn — hoặc quảng cáo ngắn bỏ giới hạn trong 24 giờ"
       ],
       "faq": [
         {
           "q": "Ứng dụng của tôi không mở sau khi khởi động. Tôi nên làm gì?",
-          "a": "Một số nhà sản xuất (Samsung, Xiaomi và các hãng khác) tự chặn tính năng tự khởi động ứng dụng. Hãy làm theo hướng dẫn trong ứng dụng để hoàn tất thiết lập 'cho phép tự khởi động' riêng của từng hãng."
+          "a": "Xiaomi, OPPO, vivo và Huawei chặn khởi chạy nền theo mặc định. AutoStart+ nhận ra máy của bạn và đưa thẳng tới màn hình «Tự khởi chạy» trong phần cài đặt bảo mật của máy — cấp quyền ở đó là chạy được. Loại ứng dụng khỏi phần tối ưu hóa pin cũng giúp ổn định hơn."
         },
         {
           "q": "Tôi có thể tự khởi động bao nhiêu ứng dụng?",
-          "a": "Bản miễn phí hỗ trợ 1 ứng dụng, còn bản PRO cho phép tự khởi động số lượng ứng dụng không giới hạn."
+          "a": "Bản miễn phí mở 1 ứng dụng mỗi lần khởi động. PRO bỏ giới hạn, cả danh sách sẽ chạy theo thứ tự bạn đặt. Nếu chưa muốn đăng ký, xem một quảng cáo ngắn sẽ bỏ giới hạn trong 24 giờ."
         },
         {
           "q": "Ứng dụng có làm hao pin không?",

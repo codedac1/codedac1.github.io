@@ -98,23 +98,23 @@
       "seo": "Menedżer automatycznego uruchamiania",
       "desc": "Automatycznie uruchamiaj aplikacje po starcie systemu. Bez roota, ustaw raz.",
       "tagline": "Automatycznie uruchamiaj aplikacje w chwili startu telefonu. Bez roota, ustaw raz, działa zawsze.",
-      "long": "AutoStart+ to najprostszy menedżer automatycznego uruchamiania na Androida — uruchamia wybrane aplikacje automatycznie w chwili startu urządzenia, bez potrzeby roota. Ustaw raz, a Twoje aplikacje będą uruchamiać się przy każdym starcie, bez ręcznego dotykania. Wersja darmowa uruchamia automatycznie 1 aplikację, a PRO odblokowuje nieograniczoną liczbę aplikacji uruchamianych w wybranej kolejności. Powiadamia Cię, jeśli uruchomienie się nie powiedzie, i przeprowadza przez ustawienia automatycznego uruchamiania na urządzeniach producentów takich jak Samsung czy Xiaomi.",
+      "long": "AutoStart+ to najprostszy menedżer autostartu dla Androida: wybierz aplikacje, a gdy tylko urządzenie zakończy uruchamianie, otworzą się same. Bez roota, bez skryptów, bez codziennego stukania. Przeszukaj wszystkie zainstalowane aplikacje, dodaj je w sekundy, włączaj i wyłączaj jednym dotknięciem, a przeciągając wiersze ustaw kolejność startu. Nie musisz restartować, żeby to sprawdzić: menu ⋮ w każdym wierszu otwiera daną aplikację od razu, a po starcie krótki komunikat pokazuje, co już ruszyło — resztę uruchomisz jednym dotknięciem. W wersji darmowej startuje 1 aplikacja; PRO znosi limit i cała lista uruchamia się po kolei, a jeśli nie chcesz subskrypcji, krótka reklama zdejmuje limit na 24 godziny.",
       "features": [
-        "Natychmiast automatycznie uruchamia wybrane aplikacje po starcie systemu",
-        "Działa na standardowych urządzeniach z Androidem, bez potrzeby roota",
-        "Dodawaj zainstalowane aplikacje w kilka sekund i włączaj lub wyłączaj każdą jednym dotknięciem",
-        "Inteligentne powiadomienie po starcie ostrzega, jeśli aplikacja się nie uruchomi",
-        "Baner nakładki po starcie pozwala uruchamiać aplikacje przed odblokowaniem (PRO)",
-        "Automatyczne uruchamianie nieograniczonej liczby aplikacji w wybranej kolejności (PRO)"
+        "Uruchamia wybrane aplikacje, gdy tylko urządzenie zakończy start — bez roota i custom ROM-u",
+        "Przeszukaj wszystkie zainstalowane aplikacje, dodaj je w sekundy i włączaj jednym dotknięciem",
+        "Przeciągaj wiersze, aby ustalić, która aplikacja rusza pierwsza przy każdym starcie",
+        "„Uruchom teraz” w menu ⋮ każdego wiersza — sprawdź listę bez restartu telefonu",
+        "Baner startowy uruchamia całą listę jednym dotknięciem, nawet z ekranu blokady (PRO)",
+        "Za darmo 1 aplikacja, PRO bez limitu — albo krótka reklama zdejmuje limit na 24 godziny"
       ],
       "faq": [
         {
           "q": "Moje aplikacje nie uruchamiają się po starcie. Co powinienem zrobić?",
-          "a": "Niektórzy producenci (Samsung, Xiaomi i inni) samodzielnie blokują automatyczne uruchamianie aplikacji. Postępuj zgodnie z instrukcją w aplikacji, aby dokończyć ustawienie „zezwól na automatyczne uruchamianie” specyficzne dla danego producenta."
+          "a": "Xiaomi, OPPO, vivo i Huawei domyślnie blokują uruchamianie w tle. AutoStart+ rozpoznaje urządzenie i przenosi Cię prosto do ekranu „Autostart” w ustawieniach bezpieczeństwa telefonu — zgoda w tym miejscu sprawia, że start przy uruchamianiu działa. Pomaga też wyłączenie aplikacji z optymalizacji baterii."
         },
         {
           "q": "Ile aplikacji mogę uruchamiać automatycznie?",
-          "a": "Wersja darmowa obsługuje 1 aplikację, a wersja PRO pozwala automatycznie uruchamiać nieograniczoną liczbę aplikacji."
+          "a": "W wersji darmowej startuje 1 aplikacja przy każdym uruchomieniu. PRO znosi limit i cała lista rusza w ustalonej przez Ciebie kolejności. Jeśli nie chcesz subskrypcji, krótka reklama zdejmuje limit na 24 godziny."
         },
         {
           "q": "Czy będzie zużywać baterię?",

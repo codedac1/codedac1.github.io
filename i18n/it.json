@@ -98,23 +98,23 @@
       "seo": "gestore avvio automatico Android",
       "desc": "Avvia automaticamente le tue app all'accensione. Nessun root, imposta una volta sola.",
       "tagline": "Avvia automaticamente le tue app nel momento in cui il telefono si accende. Nessun root, imposta una volta, funziona per sempre.",
-      "long": "AutoStart+ è il gestore dell'avvio automatico più semplice per Android: avvia automaticamente le app che scegli nel momento stesso in cui il dispositivo si accende, senza bisogno di root. Impostalo una volta sola e le tue app si avvieranno a ogni accensione, senza alcun tocco manuale. La versione gratuita avvia automaticamente 1 app, mentre PRO sblocca un numero illimitato di app avviate nell'ordine che preferisci. Ti avvisa se un avvio non riesce e ti guida tra le impostazioni di avvio automatico sui dispositivi OEM come Samsung e Xiaomi.",
+      "long": "AutoStart+ è il gestore di avvio automatico più semplice per Android: scegli le app e, appena il dispositivo ha finito di avviarsi, partono da sole. Senza root, senza script, senza tocchi ogni mattina. Cerca tra tutte le app installate, aggiungile in pochi secondi, attivale o disattivale con un tocco e trascina le righe per fissare l'ordine di avvio. Per provarlo non serve riavviare: il menu ⋮ di ogni riga apre subito quell'app e, dopo l'avvio, un breve messaggio dice che cosa è partito e lancia il resto con un tocco. La versione gratuita avvia 1 app; PRO toglie il limite e tutto l'elenco parte in ordine, e se non vuoi ancora abbonarti un breve annuncio lo sblocca per 24 ore.",
       "features": [
-        "Avvia istantaneamente e in automatico le app che scegli all'accensione",
-        "Funziona su dispositivi Android standard senza bisogno di root",
-        "Aggiungi le app installate in pochi secondi e attiva o disattiva ciascuna con un tocco",
-        "La notifica intelligente di avvio ti avvisa se un'app non si avvia",
-        "Il banner overlay all'avvio ti consente di aprire le app prima di sbloccare il telefono (PRO)",
-        "Avvio automatico di app illimitate nell'ordine da te scelto (PRO)"
+        "Avvia le app selezionate appena il dispositivo ha finito di accendersi — senza root né ROM personalizzate",
+        "Cerca tra tutte le app installate, aggiungile in pochi secondi e attivale o disattivale con un tocco",
+        "Trascina le righe per decidere quale app parte per prima a ogni avvio",
+        "«Avvia ora» dal menu ⋮ di qualsiasi riga: prova l'elenco senza riavviare il telefono",
+        "Il banner di avvio lancia tutto l'elenco con un tocco, anche dalla schermata di blocco (PRO)",
+        "Gratis avvia 1 app, PRO toglie il limite — oppure un breve annuncio lo sblocca per 24 ore"
       ],
       "faq": [
         {
           "q": "Le mie app non si avviano dopo l'accensione. Cosa devo fare?",
-          "a": "Alcuni produttori (Samsung, Xiaomi e altri) bloccano l'avvio automatico delle app in modo autonomo. Segui la guida nell'app per completare l'impostazione 'consenti avvio automatico' specifica del produttore."
+          "a": "Xiaomi, OPPO, vivo e Huawei bloccano l'avvio in background per impostazione predefinita. AutoStart+ riconosce il dispositivo e ti porta direttamente alla schermata «Avvio automatico» nelle impostazioni di sicurezza del telefono: concedi il permesso lì e l'avvio funziona. Escludere l'app dall'ottimizzazione della batteria aiuta ancora di più."
         },
         {
           "q": "Quante app posso avviare automaticamente?",
-          "a": "La versione gratuita supporta 1 app, mentre la versione PRO ti permette di avviare automaticamente un numero illimitato di app."
+          "a": "La versione gratuita avvia 1 app a ogni accensione. PRO toglie il limite e tutto l'elenco parte nell'ordine che hai stabilito. Se preferisci non abbonarti, un breve annuncio sblocca il limite per 24 ore."
         },
         {
           "q": "Consuma la batteria?",

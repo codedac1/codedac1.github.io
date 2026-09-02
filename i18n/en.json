@@ -98,23 +98,23 @@
       "seo": "Auto Start Manager for Android",
       "desc": "Auto-launch your apps on boot. No root required, set once.",
       "tagline": "Auto start your apps the moment your phone boots. No root, set once, runs forever.",
-      "long": "AutoStart+ is the easiest auto start manager for Android, launching your selected apps automatically the moment your device boots up, with no root required. Set it once and your apps launch at every startup without any manual tapping. The free version auto starts 1 app, while PRO unlocks unlimited apps launched in the order you choose. It notifies you if a launch fails, and guides you through the auto start settings on OEM devices like Samsung and Xiaomi.",
+      "long": "AutoStart+ is the simplest auto start manager for Android: pick the apps you want and they launch on their own the moment the device finishes booting — no root, no scripts, no daily tapping. Search every installed app to add it in seconds, switch each one on or off with a tap, and drag the rows to set the order they start in. You don't have to reboot to test it: the ⋮ menu on any row opens that app right away, and after boot a short message tells you what started, with one tap to run the rest. The free version auto starts 1 app; PRO lifts the limit so the whole list launches in order, and if you'd rather not subscribe, a short ad unlocks it for 24 hours.",
       "features": [
-        "Instantly auto-launches your selected apps on boot",
-        "Works on standard Android devices with no root required",
-        "Add installed apps in seconds and toggle each on or off with one tap",
-        "Smart boot notification alerts you if an app fails to launch",
-        "Boot overlay banner lets you launch apps before unlocking (PRO)",
-        "Auto start unlimited apps in your chosen order (PRO)"
+        "Auto starts your selected apps the moment the device finishes booting — no root, no custom ROM",
+        "Search every installed app, add it in seconds, and switch each one on or off with a single tap",
+        "Drag the rows to decide which app starts first at every boot",
+        "Run now from any row's ⋮ menu — check your list without rebooting the phone",
+        "Boot overlay banner starts your whole list in one tap, even from the lock screen (PRO)",
+        "Free auto starts 1 app; PRO lifts the limit, or a short ad unlocks it for 24 hours"
       ],
       "faq": [
         {
           "q": "My apps don't launch after boot. What should I do?",
-          "a": "Some manufacturers (Samsung, Xiaomi, and others) block app autostart on their own. Follow the in-app guide to complete the manufacturer-specific 'allow autostart' setting."
+          "a": "Xiaomi, OPPO, vivo and Huawei block background startup by default. AutoStart+ recognises your device and takes you straight to the “Autostart” screen in the phone's own security settings — allow it there and boot launching works. Leaving AutoStart+ out of battery optimisation helps too."
         },
         {
           "q": "How many apps can I auto start?",
-          "a": "The free version supports 1 app, while the PRO version lets you auto start an unlimited number of apps."
+          "a": "The free version starts 1 app per boot. PRO removes the limit, so the whole list launches in the order you set. If you'd rather not subscribe, watching a short ad unlocks the limit for 24 hours."
         },
         {
           "q": "Will it drain my battery?",

@@ -98,23 +98,23 @@
       "seo": "Autostart-Manager für Android",
       "desc": "Starte deine Apps automatisch beim Hochfahren. Kein Root nötig, einmal einrichten.",
       "tagline": "Starte deine Apps automatisch, sobald dein Handy hochfährt. Kein Root, einmal einrichten, läuft für immer.",
-      "long": "AutoStart+ ist der einfachste Autostart-Manager für Android und startet deine ausgewählten Apps automatisch in dem Moment, in dem dein Gerät hochfährt – ganz ohne Root. Einmal einrichten, und deine Apps starten bei jedem Hochfahren ohne manuelles Tippen. Die kostenlose Version startet 1 App automatisch, während PRO unbegrenzt viele Apps in der von dir gewählten Reihenfolge freischaltet. Sie benachrichtigt dich, falls ein Start fehlschlägt, und führt dich durch die Autostart-Einstellungen auf OEM-Geräten wie Samsung und Xiaomi.",
+      "long": "AutoStart+ ist der einfachste Autostart-Manager für Android: Apps auswählen — sobald das Gerät fertig gebootet hat, starten sie von selbst. Kein Root, keine Skripte, kein tägliches Tippen. Durchsuchen Sie alle installierten Apps, fügen Sie sie in Sekunden hinzu, schalten Sie jede mit einem Tipp ein oder aus und ziehen Sie die Zeilen in die gewünschte Startreihenfolge. Zum Testen ist kein Neustart nötig: Das ⋮-Menü jeder Zeile öffnet die App sofort, und nach dem Start meldet eine kurze Nachricht, was gestartet ist — der Rest folgt mit einem Tipp. In der Gratisversion startet 1 App automatisch; PRO hebt das Limit auf, sodass die ganze Liste der Reihe nach läuft, und wer noch kein Abo möchte, schaltet das Limit mit einem kurzen Werbeclip 24 Stunden lang frei.",
       "features": [
-        "Startet deine ausgewählten Apps sofort automatisch beim Hochfahren",
-        "Funktioniert auf gängigen Android-Geräten ohne Root",
-        "Installierte Apps in Sekunden hinzufügen und jede mit einem Tippen ein- oder ausschalten",
-        "Smarte Boot-Benachrichtigung warnt dich, wenn eine App nicht startet",
-        "Boot-Overlay-Banner lässt dich Apps schon vor dem Entsperren starten (PRO)",
-        "Unbegrenzt viele Apps in deiner gewählten Reihenfolge automatisch starten (PRO)"
+        "Startet die ausgewählten Apps, sobald das Gerät fertig gebootet hat — ohne Root, ohne Custom-ROM",
+        "Alle installierten Apps durchsuchen, in Sekunden hinzufügen und mit einem Tipp ein- oder ausschalten",
+        "Zeilen per Drag & Drop ziehen und so festlegen, welche App zuerst startet",
+        "„Jetzt starten“ im ⋮-Menü jeder Zeile — die Liste prüfen, ohne neu zu starten",
+        "Boot-Overlay-Banner startet die ganze Liste mit einem Tipp, sogar vom Sperrbildschirm (PRO)",
+        "Gratis startet 1 App, PRO hebt das Limit auf — oder ein kurzer Werbeclip schaltet es 24 Stunden frei"
       ],
       "faq": [
         {
           "q": "Meine Apps starten nach dem Hochfahren nicht. Was soll ich tun?",
-          "a": "Einige Hersteller (Samsung, Xiaomi und andere) blockieren den Autostart von Apps von sich aus. Folge der Anleitung in der App, um die herstellerspezifische Einstellung „Autostart erlauben“ abzuschließen."
+          "a": "Xiaomi, OPPO, vivo und Huawei blockieren den Hintergrundstart standardmäßig. AutoStart+ erkennt Ihr Gerät und bringt Sie direkt zum „Autostart“-Bildschirm in den Sicherheitseinstellungen Ihres Handys — erteilen Sie die Freigabe dort, dann funktioniert der Boot-Start. Hilfreich ist außerdem, die App von der Akku-Optimierung auszunehmen."
         },
         {
           "q": "Wie viele Apps kann ich automatisch starten?",
-          "a": "Die kostenlose Version unterstützt 1 App, während die PRO-Version dich unbegrenzt viele Apps automatisch starten lässt."
+          "a": "In der Gratisversion startet 1 App pro Bootvorgang. PRO hebt das Limit auf, sodass die ganze Liste in der von Ihnen festgelegten Reihenfolge läuft. Wenn Sie kein Abo möchten, schaltet ein kurzer Werbeclip das Limit 24 Stunden lang frei."
         },
         {
           "q": "Verbraucht das meinen Akku?",

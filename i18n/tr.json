@@ -98,23 +98,23 @@
       "seo": "Android otomatik başlatma yöneticisi",
       "desc": "Uygulamalarınızı açılışta otomatik başlatın. Root gerekmez, bir kez ayarlayın.",
       "tagline": "Telefonunuz açılır açılmaz uygulamalarınızı otomatik başlatın. Root yok, bir kez ayarla, hep çalışsın.",
-      "long": "AutoStart+, cihazınız açılır açılmaz seçtiğiniz uygulamaları root gerektirmeden otomatik başlatan, Android için en kolay otomatik başlatma yöneticisidir. Bir kez ayarlayın; uygulamalarınız her açılışta elle dokunmanıza gerek kalmadan başlasın. Ücretsiz sürüm 1 uygulamayı otomatik başlatır, PRO ise seçtiğiniz sırayla sınırsız uygulama başlatmanın kilidini açar. Bir başlatma başarısız olursa sizi bilgilendirir ve Samsung ile Xiaomi gibi OEM cihazlardaki otomatik başlatma ayarlarında size rehberlik eder.",
+      "long": "AutoStart+, Android için en basit otomatik başlatma yöneticisidir: uygulamalarınızı seçin, cihaz açılışını tamamladığı anda kendiliğinden başlasınlar. Root yok, betik yok, her sabah dokunma yok. Yüklü tüm uygulamalarda arayın, saniyeler içinde ekleyin, tek dokunuşla açıp kapatın ve satırları sürükleyerek başlatma sırasını belirleyin. Denemek için yeniden başlatmanıza da gerek yok: her satırdaki ⋮ menüsü o uygulamayı hemen açar, açılıştan sonra kısa bir mesaj nelerin başladığını bildirir, kalanı da tek dokunuşla çalışır. Ücretsiz sürüm 1 uygulama başlatır; PRO sınırı kaldırır ve listeniz sırayla açılır, abone olmak istemiyorsanız kısa bir reklam sınırı 24 saat kaldırır.",
       "features": [
-        "Seçtiğiniz uygulamaları açılışta anında otomatik başlatır",
-        "Root gerektirmeden standart Android cihazlarda çalışır",
-        "Yüklü uygulamaları saniyeler içinde ekleyin ve her birini tek dokunuşla açıp kapatın",
-        "Akıllı açılış bildirimi, bir uygulama başlatılamazsa sizi uyarır",
-        "Açılış üst katman afişi, kilidi açmadan önce uygulamaları başlatmanızı sağlar (PRO)",
-        "Sınırsız uygulamayı seçtiğiniz sırayla otomatik başlatın (PRO)"
+        "Cihaz açılışını tamamlar tamamlamaz seçtiğiniz uygulamaları başlatır — root ve özel ROM gerekmez",
+        "Yüklü tüm uygulamalarda arayın, saniyeler içinde ekleyin, tek dokunuşla açıp kapatın",
+        "Satırları sürükleyerek her açılışta hangi uygulamanın önce başlayacağını belirleyin",
+        "Her satırın ⋮ menüsünde «Şimdi çalıştır» — telefonu yeniden başlatmadan listenizi deneyin",
+        "Açılış banner'ı listenizin tamamını tek dokunuşla, kilit ekranından bile başlatır (PRO)",
+        "Ücretsiz sürümde 1 uygulama, PRO'da sınır yok — ya da kısa bir reklamla 24 saat sınırsız"
       ],
       "faq": [
         {
           "q": "Uygulamalarım açılıştan sonra başlamıyor. Ne yapmalıyım?",
-          "a": "Bazı üreticiler (Samsung, Xiaomi ve diğerleri) uygulama otomatik başlatmayı kendileri engeller. Üreticiye özel 'otomatik başlatmaya izin ver' ayarını tamamlamak için uygulama içindeki kılavuzu izleyin."
+          "a": "Xiaomi, OPPO, vivo ve Huawei arka planda başlatmayı varsayılan olarak engeller. AutoStart+ cihazınızı tanır ve sizi doğrudan telefonunuzun güvenlik ayarlarındaki «Otomatik başlatma» ekranına götürür; oradan izin verdiğinizde açılışta başlatma çalışır. Uygulamayı pil optimizasyonu dışında bırakmak da işi sağlamlaştırır."
         },
         {
           "q": "Kaç uygulamayı otomatik başlatabilirim?",
-          "a": "Ücretsiz sürüm 1 uygulamayı desteklerken PRO sürüm sınırsız sayıda uygulamayı otomatik başlatmanıza olanak tanır."
+          "a": "Ücretsiz sürüm her açılışta 1 uygulama başlatır. PRO sınırı kaldırır, liste belirlediğiniz sırayla açılır. Abone olmak istemiyorsanız kısa bir reklam izleyerek sınırı 24 saatliğine kaldırabilirsiniz."
         },
         {
           "q": "Pilimi tüketir mi?",

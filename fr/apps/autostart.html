@@ -53,7 +53,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='22' width='100' height='100' fill='%232F3B59'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="/css/style.css?v=51" />
+  <link rel="stylesheet" href="/css/style.css?v=52" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -61,7 +61,7 @@
   "name": "AutoStart+",
   "operatingSystem": "Android",
   "applicationCategory": "UtilitiesApplication",
-  "description": "AutoStart+ est le gestionnaire de lancement automatique le plus simple pour Android : il lance automatiquement les applications de votre choix dès le démarrage de votre appareil, sans root. Réglez-le une seule fois et vos applis se lancent à chaque démarrage, sans aucune manipulation. La version gratuite lance automatiquement 1 application, tandis que la version PRO en débloque un nombre illimité, lancées dans l'ordre de votre choix. Elle vous prévient en cas d'échec d'un lancement et vous guide dans les réglages de lancement automatique sur les appareils OEM comme Samsung et Xiaomi.",
+  "description": "AutoStart+ est le gestionnaire de démarrage automatique le plus simple pour Android : choisissez vos applis et, dès que l'appareil a fini de démarrer, elles s'ouvrent toutes seules. Sans root, sans script, sans geste quotidien. Cherchez parmi toutes les applis installées, ajoutez-les en quelques secondes, activez ou désactivez d'un toucher et glissez les lignes pour fixer l'ordre de lancement. Pas besoin de redémarrer pour tester : le menu ⋮ de chaque ligne ouvre l'appli immédiatement, et après le démarrage un court message indique ce qui s'est lancé, le reste suit d'un toucher. La version gratuite lance 1 appli ; PRO lève la limite et toute la liste démarre dans l'ordre, et si vous préférez ne pas vous abonner, une courte pub la débloque pendant 24 heures.",
   "image": "https://codedac.com/images/icons/autostart.png",
   "url": "https://codedac.com/fr/apps/autostart.html",
   "inLanguage": "fr",
@@ -125,7 +125,7 @@
       "name": "Mes applis ne se lancent pas après le démarrage. Que dois-je faire ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Certains fabricants (Samsung, Xiaomi et d'autres) bloquent d'eux-mêmes le lancement automatique des applications. Suivez le guide intégré pour effectuer le réglage « autoriser le lancement automatique » propre à votre fabricant."
+        "text": "Xiaomi, OPPO, vivo et Huawei bloquent le démarrage en arrière-plan par défaut. AutoStart+ reconnaît votre appareil et vous emmène directement à l'écran « Démarrage auto » des réglages de sécurité du téléphone : autorisez-le là et le lancement au boot fonctionne. Exclure l'appli de l'optimisation de batterie aide également."
       }
     },
     {
@@ -133,7 +133,7 @@
       "name": "Combien d'applis puis-je lancer automatiquement ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "La version gratuite prend en charge 1 application, tandis que la version PRO vous permet de lancer automatiquement un nombre illimité d'applications."
+        "text": "La version gratuite lance 1 appli à chaque démarrage. PRO lève la limite : toute la liste s'ouvre dans l'ordre que vous avez défini. Si vous préférez ne pas vous abonner, une courte pub débloque la limite pendant 24 heures."
       }
     },
     {
@@ -207,7 +207,7 @@
 
   <section class="app-hero-d">
     <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/autostart.png?v=51" alt="AutoStart+ icon" width="96" height="96" />
+      <img class="app-icon-lg" src="/images/icons/autostart.png?v=52" alt="AutoStart+ icon" width="96" height="96" />
       <div class="app-hero-text">
         <span class="app-meta-row"><span class="app-tag">Lancement automatique</span><span class="app-langs" aria-label="21 langues"><span class="globe" aria-hidden="true">🌐</span>21 langues</span></span>
         <h1><bdi>AutoStart+</bdi></h1>
@@ -225,7 +225,7 @@
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">Aperçu</h2>
-      <p class="detail-long">AutoStart+ est le gestionnaire de lancement automatique le plus simple pour Android : il lance automatiquement les applications de votre choix dès le démarrage de votre appareil, sans root. Réglez-le une seule fois et vos applis se lancent à chaque démarrage, sans aucune manipulation. La version gratuite lance automatiquement 1 application, tandis que la version PRO en débloque un nombre illimité, lancées dans l'ordre de votre choix. Elle vous prévient en cas d'échec d'un lancement et vous guide dans les réglages de lancement automatique sur les appareils OEM comme Samsung et Xiaomi.</p>
+      <p class="detail-long">AutoStart+ est le gestionnaire de démarrage automatique le plus simple pour Android : choisissez vos applis et, dès que l'appareil a fini de démarrer, elles s'ouvrent toutes seules. Sans root, sans script, sans geste quotidien. Cherchez parmi toutes les applis installées, ajoutez-les en quelques secondes, activez ou désactivez d'un toucher et glissez les lignes pour fixer l'ordre de lancement. Pas besoin de redémarrer pour tester : le menu ⋮ de chaque ligne ouvre l'appli immédiatement, et après le démarrage un court message indique ce qui s'est lancé, le reste suit d'un toucher. La version gratuite lance 1 appli ; PRO lève la limite et toute la liste démarre dans l'ordre, et si vous préférez ne pas vous abonner, une courte pub la débloque pendant 24 heures.</p>
     </div>
   </section>
 
@@ -233,12 +233,12 @@
     <div class="container">
       <h2 class="detail-title">Fonctionnalités clés</h2>
       <ul class="feature-list">
-        <li>Lance instantanément et automatiquement les applications choisies au démarrage</li>
-        <li>Fonctionne sur les appareils Android standard, sans root</li>
-        <li>Ajoutez des applis installées en quelques secondes et activez ou désactivez chacune d'un simple toucher</li>
-        <li>Une notification de démarrage intelligente vous alerte si une appli ne parvient pas à se lancer</li>
-        <li>Une bannière superposée au démarrage permet de lancer des applis avant le déverrouillage (PRO)</li>
-        <li>Lancement automatique d'un nombre illimité d'applis dans l'ordre choisi (PRO)</li>
+        <li>Lance les applis choisies dès que l'appareil a fini de démarrer — sans root ni ROM personnalisée</li>
+        <li>Cherchez parmi toutes les applis installées, ajoutez-les en quelques secondes, activez ou désactivez d'un toucher</li>
+        <li>Glissez les lignes pour décider quelle appli démarre en premier à chaque boot</li>
+        <li>« Lancer maintenant » dans le menu ⋮ de chaque ligne : vérifiez votre liste sans redémarrer</li>
+        <li>La bannière de démarrage lance toute la liste d'un toucher, même depuis l'écran verrouillé (PRO)</li>
+        <li>Gratuit : 1 appli ; PRO lève la limite — ou une courte pub la débloque 24 heures</li>
       </ul>
     </div>
   </section>
@@ -248,10 +248,10 @@
       <h2 class="detail-title">Captures d'écran</h2>
       <p class="section-lead" style="margin-bottom:22px">Touchez une capture d'écran pour l'agrandir.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/autostart-1.jpg?v=51" alt="AutoStart+ Captures d'écran 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/autostart-2.jpg?v=51" alt="AutoStart+ Captures d'écran 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/autostart-3.jpg?v=51" alt="AutoStart+ Captures d'écran 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/autostart-4.jpg?v=51" alt="AutoStart+ Captures d'écran 4" loading="lazy" data-idx="3" />
+        <img class="shot" src="/images/shots/autostart-1.jpg?v=52" alt="AutoStart+ Captures d'écran 1" loading="lazy" data-idx="0" />
+        <img class="shot" src="/images/shots/autostart-2.jpg?v=52" alt="AutoStart+ Captures d'écran 2" loading="lazy" data-idx="1" />
+        <img class="shot" src="/images/shots/autostart-3.jpg?v=52" alt="AutoStart+ Captures d'écran 3" loading="lazy" data-idx="2" />
+        <img class="shot" src="/images/shots/autostart-4.jpg?v=52" alt="AutoStart+ Captures d'écran 4" loading="lazy" data-idx="3" />
       </div>
     </div>
   </section>
@@ -259,8 +259,8 @@
     <div class="container">
       <h2 class="detail-title">FAQ</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Mes applis ne se lancent pas après le démarrage. Que dois-je faire ?</p><p class="faq-a">Certains fabricants (Samsung, Xiaomi et d'autres) bloquent d'eux-mêmes le lancement automatique des applications. Suivez le guide intégré pour effectuer le réglage « autoriser le lancement automatique » propre à votre fabricant.</p></div>
-        <div class="faq-item"><p class="faq-q">Combien d'applis puis-je lancer automatiquement ?</p><p class="faq-a">La version gratuite prend en charge 1 application, tandis que la version PRO vous permet de lancer automatiquement un nombre illimité d'applications.</p></div>
+        <div class="faq-item"><p class="faq-q">Mes applis ne se lancent pas après le démarrage. Que dois-je faire ?</p><p class="faq-a">Xiaomi, OPPO, vivo et Huawei bloquent le démarrage en arrière-plan par défaut. AutoStart+ reconnaît votre appareil et vous emmène directement à l'écran « Démarrage auto » des réglages de sécurité du téléphone : autorisez-le là et le lancement au boot fonctionne. Exclure l'appli de l'optimisation de batterie aide également.</p></div>
+        <div class="faq-item"><p class="faq-q">Combien d'applis puis-je lancer automatiquement ?</p><p class="faq-a">La version gratuite lance 1 appli à chaque démarrage. PRO lève la limite : toute la liste s'ouvre dans l'ordre que vous avez défini. Si vous préférez ne pas vous abonner, une courte pub débloque la limite pendant 24 heures.</p></div>
         <div class="faq-item"><p class="faq-q">Cela va-t-il vider ma batterie ?</p><p class="faq-a">AutoStart+ ne s'exécute qu'une seule fois au démarrage et n'est pas une application active en permanence en arrière-plan : son impact sur l'autonomie de la batterie est donc quasi nul.</p></div>
       </div>
     </div>
@@ -315,6 +315,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"fr","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/autostart.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/autostart.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/autostart.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/autostart.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/autostart.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/autostart.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/autostart.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/autostart.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/autostart.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/autostart.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/autostart.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/autostart.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/autostart.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/autostart.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/autostart.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/autostart.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/autostart.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/autostart.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/autostart.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/autostart.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/autostart.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=51"></script>
+  <script src="/js/site.js?v=52"></script>
 </body>
 </html>
