@@ -158,14 +158,14 @@
       "seo": "Harga Bitcoin Terapung",
       "desc": "Ticker kripto langsung terapung atas mana-mana apl, dengan amaran dan carta.",
       "tagline": "Bitcoin, Ethereum dan syiling anda pada skrin — atas apl yang sedang diguna.",
-      "long": "FloatCrypto+ mengekalkan ticker kripto langsung di atas semua aplikasi, jadi anda boleh pantau pasaran sambil menonton YouTube, membaca berita atau membalas mesej — tanpa bertukar apl dan tanpa memuat semula. Seret ke mana-mana, ubah saiz dan turunkan kelegapan supaya ia tidak pernah menghalang. Tetapkan had atas atau bawah dan anda menerima pemberitahuan sebaik pasaran melepasinya, bina senarai pantauan dengan syiling yang benar-benar penting bagi anda, dan buka carta 1 hari, 7 hari dan 30 hari lengkap dengan tertinggi, terendah, pembukaan dan perubahan tempoh. Harga datang dari Binance dengan CoinGecko sebagai sandaran automatik, jadi ticker terus berjalan walaupun satu sumber tidak dapat dihubungi.",
+      "long": "FloatCrypto+ mengekalkan ticker kripto langsung di atas semua aplikasi, jadi anda boleh pantau pasaran sambil menonton YouTube, membaca berita atau membalas mesej — tanpa bertukar apl dan tanpa memuat semula. Seret ke mana-mana, ubah saiz dan turunkan kelegapan supaya ia tidak pernah menghalang. Tetapkan had atas atau bawah dan anda menerima pemberitahuan sebaik pasaran melepasinya, bina senarai pantauan dengan syiling yang benar-benar penting bagi anda, dan buka carta 1 hari, 7 hari dan 30 hari lengkap dengan tertinggi, terendah, pembukaan dan perubahan tempoh. Harga datang daripada Binance dengan pertukaran sumber automatik apabila satu sumber tidak dapat dicapai, jadi ticker terus berjalan. Data tertunda sehingga 30 saat (10 saat pada Pro) dan hanya sebagai rujukan — bukan nasihat pelaburan.",
       "features": [
         "Ticker harga terapung di atas semua aplikasi — seret ke mana-mana, ubah saiz, turunkan kelegapan",
         "Amaran harga pada had atas atau bawah, dicipta terus dari kad syiling yang sudah dipilih",
         "Senarai pantauan dengan harga langsung, perubahan 24 jam dan susunan yang boleh diseret",
         "Carta 1 hari / 7 hari / 30 hari dengan tertinggi, terendah, pembukaan dan perubahan tempoh",
         "Warna Barat dan Timur — hijau naik/merah turun, atau merah naik/biru turun",
-        "Harga Binance dengan sandaran automatik CoinGecko supaya ticker tidak berhenti"
+        "Harga Binance dengan pertukaran sumber automatik, tertunda sehingga 30 saat (10 saat pada Pro)"
       ],
       "faq": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "q": "Apa yang saya dapat secara percuma?",
-          "a": "Versi percuma memantau 2 syiling dengan 1 amaran harga dan memaparkan iklan, manakala pas percuma memberi 24 jam Pro penuh selepas menonton satu iklan pendek. Pro menaikkannya kepada 10 syiling dengan amaran tanpa had, membuang iklan, mengemas kini ticker setiap 10 saat dan membuka sejarah carta penuh — bulanan, tahunan (dengan percubaan percuma) atau bayaran sekali seumur hidup."
+          "a": "Versi percuma memantau 2 syiling dengan 1 makluman dan ticker dimuat semula setiap 30 saat. Free Pass membuka satu ciri selama 24 jam selepas menonton satu iklan pendek: Chart Free Pass membuka carta 7 dan 30 hari, Watchlist Free Pass memberi 10 syiling dan makluman tanpa had — satu setiap satu sehari, tanpa had bilangan hari, dan iklan kekal dipaparkan sepanjang pas aktif. Pro memberi 10 syiling, makluman tanpa had, muat semula setiap 10 saat, sejarah carta penuh dan tanpa iklan — bulanan, tahunan atau bayaran sekali seumur hidup."
         }
       ]
     },

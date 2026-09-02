@@ -158,14 +158,14 @@
       "seo": "Floating Bitcoin Price Ticker",
       "desc": "A live crypto ticker floating over any app, with alerts and charts.",
       "tagline": "Keep Bitcoin, Ethereum and your altcoins on screen — above whatever app you are using.",
-      "long": "FloatCrypto+ floats a live crypto ticker on top of every app, so you can check the market while you watch YouTube, read the news or reply to messages — no switching, no reloading. Drag it anywhere, resize it and dial the opacity down so it never gets in the way. Set an upper or lower target and it notifies you the moment the market crosses it, keep a watchlist of the coins you actually follow, and open 1-day, 7-day and 30-day charts with period high, low, open and change. Prices come from Binance with CoinGecko as an automatic fallback, so the ticker keeps working when one source is unreachable.",
+      "long": "FloatCrypto+ floats a live crypto ticker on top of every app, so you can check the market while you watch YouTube, read the news or reply to messages — no switching, no reloading. Drag it anywhere, resize it and dial the opacity down so it never gets in the way. Set an upper or lower target and it notifies you the moment the market crosses it, keep a watchlist of the coins you actually follow, and open 1-day, 7-day and 30-day charts with period high, low, open and change. Prices come from Binance with an automatic fallback, so the ticker keeps working when one source is unreachable. Market data is delayed by up to 30 seconds — 10 seconds on Pro — and is for reference only, not investment advice.",
       "features": [
         "Floating price ticker on top of every app — drag it anywhere, resize it, dial the opacity down",
         "Price alerts on an upper or lower target, added straight from the coin card with the coin filled in",
         "Watchlist of the coins you care about, with live price, 24-hour change and drag-to-reorder",
         "1-day / 7-day / 30-day charts with period high, low, open and change",
         "Eastern and Western color modes — green-up/red-down, or red-up/blue-down as read in Korea, Japan and China",
-        "Binance prices with an automatic CoinGecko fallback, so the ticker keeps working"
+        "Binance prices with an automatic fallback source, delayed by up to 30 seconds (10 on Pro)"
       ],
       "faq": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "q": "What do I get for free?",
-          "a": "The free tier follows 2 coins with 1 price alert and shows ads, and a Free Pass gives you 24 hours of full Pro access for one short ad. Pro raises it to 10 coins with unlimited alerts, removes the ads, refreshes the ticker every 10 seconds and unlocks the full chart history — monthly, annual (with a free trial) or a one-time lifetime purchase."
+          "a": "Free follows 2 coins with 1 price alert and refreshes the ticker every 30 seconds. A Free Pass opens one feature for 24 hours in exchange for one short ad — the Chart pass unlocks the 7-day and 30-day charts, the Watchlist pass gives 10 coins and unlimited alerts — one of each per day, for as many days as you like, and ads keep running while a pass is active. Pro gives 10 coins, unlimited alerts, a 10-second refresh, the full chart history and no ads, monthly, annually or as a one-time lifetime purchase."
         }
       ]
     },

@@ -158,14 +158,14 @@
       "seo": "Kayan canlı Bitcoin fiyatları",
       "desc": "Her uygulamanın üzerinde canlı kripto ticker, alarm ve grafiklerle.",
       "tagline": "Bitcoin, Ethereum ve altcoin'leriniz ekranda — kullandığınız uygulamanın üzerinde.",
-      "long": "FloatCrypto+, tüm uygulamaların üzerinde canlı bir fiyat çubuğu tutar; YouTube izlerken, haber okurken ya da mesaj yanıtlarken piyasayı kontrol edersiniz — uygulama değiştirmeden, yeniden yüklemeden. İstediğiniz yere sürükleyin, boyutunu ayarlayın, saydamlığını düşürün; asla önünüze geçmez. Üst ya da alt hedef belirleyin, piyasa o seviyeyi geçtiği anda bildirim alın; gerçekten önemsediğiniz coin'lerden bir izleme listesi kurun ve 1 gün, 7 gün, 30 gün grafiklerini dönem en yüksek, en düşük, açılış ve değişim bilgisiyle açın. Fiyatlar Binance'ten gelir, kaynak erişilemezse otomatik olarak CoinGecko devreye girer ve çubuk çalışmayı sürdürür.",
+      "long": "FloatCrypto+, tüm uygulamaların üzerinde canlı bir fiyat çubuğu tutar; YouTube izlerken, haber okurken ya da mesaj yanıtlarken piyasayı kontrol edersiniz — uygulama değiştirmeden, yeniden yüklemeden. İstediğiniz yere sürükleyin, boyutunu ayarlayın, saydamlığını düşürün; asla önünüze geçmez. Üst ya da alt hedef belirleyin, piyasa o seviyeyi geçtiği anda bildirim alın; gerçekten önemsediğiniz coin'lerden bir izleme listesi kurun ve 1 gün, 7 gün, 30 gün grafiklerini dönem en yüksek, en düşük, açılış ve değişim bilgisiyle açın. Fiyatlar Binance'ten gelir; bir kaynak erişilemezse otomatik olarak diğerine geçilir ve çubuk çalışmayı sürdürür. Veriler en fazla 30 saniye (Pro'da 10 saniye) gecikmelidir ve yalnızca bilgi amaçlıdır — yatırım tavsiyesi değildir.",
       "features": [
         "Tüm uygulamaların üzerinde yüzen fiyat çubuğu — sürükleyin, boyutlandırın, saydamlığını düşürün",
         "Üst ya da alt hedefe fiyat alarmı, coin kartından coin seçili olarak doğrudan eklenir",
         "İzleme listesi: canlı fiyat, 24 saatlik değişim ve sürükleyerek sıralama",
         "1 gün / 7 gün / 30 gün grafikleri — dönem en yüksek, en düşük, açılış ve değişim",
         "Batı ve Doğu renkleri — yükseliş yeşil/düşüş kırmızı ya da yükseliş kırmızı/düşüş mavi",
-        "Binance fiyatları ve otomatik CoinGecko yedeği ile kesintisiz çubuk"
+        "Binance fiyatları ve otomatik kaynak değişimi, en fazla 30 saniye (Pro'da 10 saniye) gecikmeli"
       ],
       "faq": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "q": "Ücretsiz sürümde neler var?",
-          "a": "Ücretsiz sürümde 2 coin ve 1 alarm reklamlarla birlikte kullanılır; kısa bir reklam izleyerek 24 saat boyunca tüm Pro özellikleri açan ücretsiz geçiş kazanırsınız. Pro 10 coin ve sınırsız alarm sunar, reklamları kaldırır, çubuğu 10 saniyede bir günceller ve tüm grafik geçmişini açar — aylık, yıllık (ücretsiz denemeli) ya da tek seferlik ömür boyu."
+          "a": "Ücretsiz sürümde 2 coin ve 1 alarm kullanılır, çubuk 30 saniyede bir yenilenir. Free Pass kısa bir reklam karşılığında bir özelliği 24 saat açar: Chart Free Pass 7 ve 30 günlük grafikleri, Watchlist Free Pass 10 coin ve sınırsız alarmı açar; günde birer kez, gün sayısında sınır yok ve geçiş sürerken reklamlar görünmeye devam eder. Pro 10 coin, sınırsız alarm, 10 saniyede bir yenileme, tam grafik geçmişi ve reklamsız kullanım sunar — aylık, yıllık ya da tek seferlik ömür boyu."
         }
       ]
     },

@@ -158,14 +158,14 @@
       "seo": "Schwebender Bitcoin-Ticker",
       "desc": "Live-Krypto-Ticker über jeder App, mit Alarmen und Charts.",
       "tagline": "Bitcoin, Ethereum und deine Altcoins immer im Blick — über jeder App.",
-      "long": "FloatCrypto+ lässt einen Live-Krypto-Ticker über allen Apps schweben, sodass du den Markt verfolgst, während du YouTube schaust, Nachrichten liest oder antwortest — ohne Wechseln, ohne Neuladen. Zieh ihn hin, wo du willst, ändere die Größe und senke die Deckkraft, damit er nie stört. Leg eine obere oder untere Schwelle fest und werde benachrichtigt, sobald der Markt sie überschreitet, führe eine Watchlist aus genau den Coins, die dich interessieren, und öffne Charts über 1 Tag, 7 Tage und 30 Tage mit Hoch, Tief, Eröffnung und Veränderung. Die Kurse kommen von Binance, mit CoinGecko als automatischem Ersatz — so läuft der Ticker weiter, wenn eine Quelle ausfällt.",
+      "long": "FloatCrypto+ lässt einen Live-Krypto-Ticker über allen Apps schweben, sodass du den Markt verfolgst, während du YouTube schaust, Nachrichten liest oder antwortest — ohne Wechseln, ohne Neuladen. Zieh ihn hin, wo du willst, ändere die Größe und senke die Deckkraft, damit er nie stört. Leg eine obere oder untere Schwelle fest und werde benachrichtigt, sobald der Markt sie überschreitet, führe eine Watchlist aus genau den Coins, die dich interessieren, und öffne Charts über 1 Tag, 7 Tage und 30 Tage mit Hoch, Tief, Eröffnung und Veränderung. Die Kurse kommen von Binance und wechseln automatisch die Quelle, wenn eine nicht erreichbar ist — so läuft der Ticker weiter. Die Daten sind um bis zu 30 Sekunden verzögert (10 Sekunden mit Pro) und dienen nur zur Orientierung, nicht als Anlageberatung.",
       "features": [
         "Schwebender Kurs-Ticker über allen Apps — beliebig verschieben, Größe und Deckkraft einstellen",
         "Kursalarme auf eine obere oder untere Schwelle, direkt auf der Coin-Karte mit vorausgewählter Coin angelegt",
         "Watchlist mit Live-Kurs, 24-Stunden-Änderung und Sortieren per Drag & Drop",
         "Charts über 1 Tag / 7 Tage / 30 Tage mit Hoch, Tief, Eröffnung und Veränderung",
         "Westliche und östliche Farben — grün steigend/rot fallend, oder rot steigend/blau fallend",
-        "Binance-Kurse mit automatischem CoinGecko-Ersatz, damit der Ticker weiterläuft"
+        "Binance-Kurse mit automatischem Quellenwechsel, bis zu 30 Sekunden verzögert (10 mit Pro)"
       ],
       "faq": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "q": "Was bekomme ich gratis?",
-          "a": "Gratis verfolgst du 2 Coins mit 1 Kursalarm und Werbung, und ein kurzer Werbespot schaltet als Freipass 24 Stunden lang alles frei. Pro erhöht auf 10 Coins mit unbegrenzten Alarmen, entfernt die Werbung, aktualisiert den Ticker alle 10 Sekunden und schaltet die volle Chart-Historie frei — monatlich, jährlich (mit Testphase) oder einmalig auf Lebenszeit."
+          "a": "Gratis verfolgst du 2 Coins mit 1 Preisalarm, der Ticker aktualisiert alle 30 Sekunden. Ein Free Pass öffnet für ein kurzes Werbevideo eine Funktion 24 Stunden lang: Der Chart Free Pass schaltet die 7- und 30-Tage-Charts frei, der Watchlist Free Pass gibt 10 Coins und unbegrenzte Alarme — je einmal pro Tag, ohne Begrenzung der Tage, und die Werbung läuft während eines Passes weiter. Pro bringt 10 Coins, unbegrenzte Alarme, Aktualisierung alle 10 Sekunden, die volle Chart-Historie und keine Werbung — monatlich, jährlich oder einmalig auf Lebenszeit."
         }
       ]
     },

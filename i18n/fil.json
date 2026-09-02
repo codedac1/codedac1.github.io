@@ -158,14 +158,14 @@
       "seo": "Live Bitcoin Price Overlay",
       "desc": "Live na crypto ticker na lumulutang sa kahit anong app, may alerto at chart.",
       "tagline": "Bitcoin, Ethereum at mga altcoin mo sa screen — sa ibabaw ng app na ginagamit mo.",
-      "long": "Pinananatili ng FloatCrypto+ ang live na ticker sa ibabaw ng lahat ng app, kaya matitingnan mo ang merkado habang nanonood ng YouTube, nagbabasa ng balita o sumasagot ng mensahe — walang paglipat ng app at walang pag-reload. I-drag kung saan mo gusto, baguhin ang laki, at hinaan ang opacity para hindi ito nakakaharang. Magtakda ng mataas o mababang target at maaabisuhan ka sa mismong sandaling malampasan ito ng merkado, bumuo ng watchlist ng mga coin na talagang mahalaga sa iyo, at buksan ang chart na 1 araw, 7 araw at 30 araw kasama ang pinakamataas, pinakamababa, pambungad at pagbabago sa panahong iyon. Galing sa Binance ang presyo, at awtomatikong CoinGecko ang kapalit kapag hindi maabot ang isang pinagkukunan, kaya patuloy pa rin ang ticker.",
+      "long": "Pinananatili ng FloatCrypto+ ang live na ticker sa ibabaw ng lahat ng app, kaya matitingnan mo ang merkado habang nanonood ng YouTube, nagbabasa ng balita o sumasagot ng mensahe — walang paglipat ng app at walang pag-reload. I-drag kung saan mo gusto, baguhin ang laki, at hinaan ang opacity para hindi ito nakakaharang. Magtakda ng mataas o mababang target at maaabisuhan ka sa mismong sandaling malampasan ito ng merkado, bumuo ng watchlist ng mga coin na talagang mahalaga sa iyo, at buksan ang chart na 1 araw, 7 araw at 30 araw kasama ang pinakamataas, pinakamababa, pambungad at pagbabago sa panahong iyon. Galing sa Binance ang presyo, at awtomatikong lilipat ng pinagkukunan kapag hindi maabot ang isa, kaya patuloy pa rin ang ticker. Naaantala ang datos nang hanggang 30 segundo (10 segundo sa Pro) at para sa sanggunian lamang — hindi ito payo sa pamumuhunan.",
       "features": [
         "Lumulutang na ticker sa ibabaw ng lahat ng app — i-drag, baguhin ang laki, hinaan ang opacity",
         "Alerto sa presyo na may mataas o mababang target, gawa mula mismo sa card ng napiling coin",
         "Watchlist na may live na presyo, pagbabago sa 24 oras, at pag-aayos sa pamamagitan ng pag-drag",
         "Chart na 1 araw / 7 araw / 30 araw kasama ang pinakamataas, pinakamababa, pambungad at pagbabago",
         "Kulay ng Kanluran at Silangan — berde pataas/pula pababa, o pula pataas/asul pababa",
-        "Presyo mula sa Binance na may awtomatikong CoinGecko na kapalit para hindi tumigil ang ticker"
+        "Presyo mula sa Binance na awtomatikong lumilipat ng pinagkukunan, naaantala nang hanggang 30 segundo (10 sa Pro)"
       ],
       "faq": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "q": "Ano ang makukuha ko nang libre?",
-          "a": "Sa libreng bersyon, 2 coin at 1 alerto ang masusubaybayan mo at may ads. Ang Free Pass naman ay nagbibigay ng 24 oras na buong Pro kapalit ng isang maikling ad. Ang Pro ay 10 coin na may walang limitasyong alerto, walang ads, update kada 10 segundo, at buong kasaysayan ng chart — buwanan, taunan (may libreng subok) o isahang bayad habambuhay."
+          "a": "Sa libreng bersyon, 2 coin at 1 alerto ang masusubaybayan mo at nagre-refresh ang ticker tuwing 30 segundo. Ang Free Pass ay nagbubukas ng isang feature nang 24 oras kapalit ng isang maikling ad: binubuksan ng Chart Free Pass ang 7 at 30 araw na chart, at nagbibigay ang Watchlist Free Pass ng 10 coin at walang limitasyong alerto — tig-isa bawat araw, walang limitasyon sa bilang ng araw, at may ads pa rin habang aktibo ang pass. Ang Pro ay 10 coin, walang limitasyong alerto, refresh tuwing 10 segundo, buong kasaysayan ng chart at walang ad — buwanan, taunan o isahang bayad na panghabambuhay."
         }
       ]
     },

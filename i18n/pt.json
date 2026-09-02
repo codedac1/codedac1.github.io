@@ -158,14 +158,14 @@
       "seo": "preço de Bitcoin flutuante",
       "desc": "Ticker cripto ao vivo flutuando sobre qualquer app, com alertas e gráficos.",
       "tagline": "Bitcoin, Ethereum e suas altcoins na tela — sobre o app que você estiver usando.",
-      "long": "O FloatCrypto+ deixa uma cotação ao vivo flutuando por cima de todos os apps, então você acompanha o mercado enquanto assiste ao YouTube, lê notícias ou responde mensagens — sem trocar de tela e sem recarregar. Arraste para onde quiser, ajuste o tamanho e reduza a opacidade para nunca atrapalhar. Defina um limite superior ou inferior e receba um aviso no instante em que o mercado cruzar esse valor, monte uma lista só com as moedas que interessam e abra gráficos de 1 dia, 7 dias e 30 dias com máxima, mínima, abertura e variação do período. Os preços vêm da Binance, com CoinGecko como alternativa automática, assim o ticker continua funcionando se uma fonte ficar indisponível.",
+      "long": "O FloatCrypto+ deixa uma cotação ao vivo flutuando por cima de todos os apps, então você acompanha o mercado enquanto assiste ao YouTube, lê notícias ou responde mensagens — sem trocar de tela e sem recarregar. Arraste para onde quiser, ajuste o tamanho e reduza a opacidade para nunca atrapalhar. Defina um limite superior ou inferior e receba um aviso no instante em que o mercado cruzar esse valor, monte uma lista só com as moedas que interessam e abra gráficos de 1 dia, 7 dias e 30 dias com máxima, mínima, abertura e variação do período. Os preços vêm da Binance, com troca automática de fonte quando uma fica indisponível, assim o ticker continua funcionando. Os dados têm atraso de até 30 segundos (10 segundos no Pro) e servem apenas como referência — não são recomendação de investimento.",
       "features": [
         "Ticker flutuante por cima de todos os apps — arraste, ajuste o tamanho e reduza a opacidade",
         "Alertas de preço com limite superior ou inferior, criados direto no card da moeda já preenchida",
         "Lista de acompanhamento com preço ao vivo, variação de 24 h e reordenação arrastando",
         "Gráficos de 1 dia / 7 dias / 30 dias com máxima, mínima, abertura e variação do período",
         "Cores ocidentais e orientais — verde alta/vermelho baixa, ou vermelho alta/azul baixa",
-        "Preços da Binance com alternativa automática do CoinGecko, para o ticker não parar"
+        "Preços da Binance com troca automática de fonte, com atraso de até 30 segundos (10 no Pro)"
       ],
       "faq": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "q": "O que dá para fazer de graça?",
-          "a": "No plano grátis você acompanha 2 moedas com 1 alerta e com anúncios, e um passe grátis libera 24 horas de Pro completo por um anúncio curto. O Pro sobe para 10 moedas com alertas ilimitados, remove os anúncios, atualiza o ticker a cada 10 segundos e libera o histórico completo dos gráficos — mensal, anual (com teste grátis) ou vitalício."
+          "a": "No plano grátis você acompanha 2 moedas com 1 alerta e o ticker atualiza a cada 30 segundos. O Free Pass abre um recurso por 24 horas em troca de um anúncio curto: o Chart Free Pass libera os gráficos de 7 e 30 dias e o Watchlist Free Pass dá 10 moedas e alertas ilimitados; um de cada por dia, sem limite de dias, e os anúncios continuam enquanto o passe está ativo. O Pro dá 10 moedas, alertas ilimitados, atualização a cada 10 segundos, histórico completo dos gráficos e sem anúncios — mensal, anual ou vitalício com pagamento único."
         }
       ]
     },

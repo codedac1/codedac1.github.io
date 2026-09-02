@@ -158,14 +158,14 @@
       "seo": "Cours du Bitcoin flottant",
       "desc": "Un bandeau de cours crypto flottant, avec alertes et graphiques.",
       "tagline": "Bitcoin, Ethereum et vos altcoins sous les yeux — au-dessus de l'appli que vous utilisez.",
-      "long": "FloatCrypto+ fait flotter un bandeau de cours en direct au-dessus de toutes vos applis : suivez le marché pendant que vous regardez YouTube, lisez l'actualité ou répondez à un message, sans changer d'écran ni recharger. Déplacez-le, redimensionnez-le et baissez son opacité pour qu'il ne gêne jamais. Fixez un seuil haut ou bas et vous êtes prévenu dès que le marché le franchit, composez une liste de suivi avec les cryptos qui comptent vraiment, et ouvrez des graphiques 1 jour, 7 jours et 30 jours avec plus haut, plus bas, ouverture et variation de la période. Les cours proviennent de Binance, avec CoinGecko en secours automatique, pour que le bandeau continue de fonctionner si une source est injoignable.",
+      "long": "FloatCrypto+ fait flotter un bandeau de cours en direct au-dessus de toutes vos applis : suivez le marché pendant que vous regardez YouTube, lisez l'actualité ou répondez à un message, sans changer d'écran ni recharger. Déplacez-le, redimensionnez-le et baissez son opacité pour qu'il ne gêne jamais. Fixez un seuil haut ou bas et vous êtes prévenu dès que le marché le franchit, composez une liste de suivi avec les cryptos qui comptent vraiment, et ouvrez des graphiques 1 jour, 7 jours et 30 jours avec plus haut, plus bas, ouverture et variation de la période. Les cours proviennent de Binance, avec bascule automatique vers une autre source si l'une devient injoignable, pour que le bandeau continue de fonctionner. Les données sont différées de 30 secondes au maximum (10 secondes avec Pro) et sont fournies à titre indicatif : il ne s'agit pas de conseil en investissement.",
       "features": [
         "Bandeau de cours flottant au-dessus de toutes les applis — déplaçable, redimensionnable, opacité réglable",
         "Alertes sur un seuil haut ou bas, créées depuis la carte de la crypto, déjà sélectionnée",
         "Liste de suivi avec cours en direct, variation sur 24 h et réorganisation par glisser-déposer",
         "Graphiques 1 jour / 7 jours / 30 jours avec plus haut, plus bas, ouverture et variation",
         "Couleurs occidentales et orientales — vert hausse/rouge baisse, ou rouge hausse/bleu baisse",
-        "Cours Binance avec secours automatique CoinGecko, pour un bandeau qui ne s'arrête pas"
+        "Cours Binance avec bascule automatique de source, différés de 30 secondes au maximum (10 avec Pro)"
       ],
       "faq": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "q": "Que puis-je faire gratuitement ?",
-          "a": "La version gratuite suit 2 cryptos avec 1 alerte et affiche des publicités, et un pass gratuit vous offre 24 h de Pro complet pour une courte publicité. Pro passe à 10 cryptos avec alertes illimitées, supprime les publicités, actualise le bandeau toutes les 10 secondes et débloque l'historique complet des graphiques — en mensuel, annuel (avec essai gratuit) ou achat unique à vie."
+          "a": "En gratuit, vous suivez 2 cryptos avec 1 alerte et le bandeau s'actualise toutes les 30 secondes. Un Free Pass ouvre une fonctionnalité pendant 24 heures contre une courte publicité : le Chart Free Pass déverrouille les graphiques 7 et 30 jours, le Watchlist Free Pass donne 10 cryptos et des alertes illimitées — un de chaque par jour, sans limite de jours, et la publicité reste affichée pendant le pass. Pro offre 10 cryptos, des alertes illimitées, une actualisation toutes les 10 secondes, l'historique complet des graphiques et aucune publicité — en mensuel, annuel ou achat unique à vie."
         }
       ]
     },

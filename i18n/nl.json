@@ -158,14 +158,14 @@
       "seo": "Zwevende bitcoin koers ticker",
       "desc": "Live crypto-koersbalk zwevend over elke app, met meldingen en grafieken.",
       "tagline": "Bitcoin, Ethereum en je altcoins in beeld — boven welke app je ook gebruikt.",
-      "long": "FloatCrypto+ laat een live koersbalk boven alle apps zweven, zodat je de markt volgt terwijl je YouTube kijkt, nieuws leest of berichten beantwoordt — zonder te wisselen en zonder opnieuw te laden. Sleep hem waar je wilt, pas de grootte aan en verlaag de dekking zodat hij nooit in de weg zit. Stel een boven- of ondergrens in en je krijgt bericht op het moment dat de markt die passeert, houd een volglijst bij met de munten die er voor jou toe doen en open grafieken van 1 dag, 7 dagen en 30 dagen met hoogste, laagste, opening en verandering over die periode. De koersen komen van Binance, met CoinGecko als automatische reserve, zodat de balk blijft werken als één bron onbereikbaar is.",
+      "long": "FloatCrypto+ laat een live koersbalk boven alle apps zweven, zodat je de markt volgt terwijl je YouTube kijkt, nieuws leest of berichten beantwoordt — zonder te wisselen en zonder opnieuw te laden. Sleep hem waar je wilt, pas de grootte aan en verlaag de dekking zodat hij nooit in de weg zit. Stel een boven- of ondergrens in en je krijgt bericht op het moment dat de markt die passeert, houd een volglijst bij met de munten die er voor jou toe doen en open grafieken van 1 dag, 7 dagen en 30 dagen met hoogste, laagste, opening en verandering over die periode. De koersen komen van Binance en schakelen automatisch over op een andere bron als er één onbereikbaar is, zodat de balk blijft werken. De gegevens zijn tot 30 seconden vertraagd (10 seconden met Pro) en dienen alleen ter referentie — het is geen beleggingsadvies.",
       "features": [
         "Zwevende koersbalk boven alle apps — sleep hem waar je wilt, pas grootte en dekking aan",
         "Koersmeldingen op een boven- of ondergrens, direct vanaf de muntkaart met de munt al ingevuld",
         "Volglijst met live koers, verandering over 24 uur en herschikken door te slepen",
         "Grafieken van 1 dag / 7 dagen / 30 dagen met hoogste, laagste, opening en verandering",
         "Westerse en oosterse kleuren — groen omhoog/rood omlaag, of rood omhoog/blauw omlaag",
-        "Binance-koersen met automatische CoinGecko-reserve, zodat de balk blijft werken"
+        "Binance-koersen met automatische bronwissel, tot 30 seconden vertraagd (10 met Pro)"
       ],
       "faq": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "q": "Wat krijg ik gratis?",
-          "a": "Gratis volg je 2 munten met 1 koersmelding en met advertenties, en een gratis pas geeft je 24 uur volledige Pro voor één korte advertentie. Pro gaat naar 10 munten met onbeperkte meldingen, is advertentievrij, ververst de balk elke 10 seconden en ontgrendelt de volledige grafiekgeschiedenis — maandelijks, jaarlijks (met gratis proefperiode) of eenmalig levenslang."
+          "a": "Gratis volg je 2 munten met 1 koersmelding en ververst de balk elke 30 seconden. Een Free Pass opent één functie voor 24 uur in ruil voor één korte advertentie: de Chart Free Pass ontgrendelt de grafieken van 7 en 30 dagen, de Watchlist Free Pass geeft 10 munten en onbeperkte meldingen — elk één keer per dag, zonder limiet op het aantal dagen, en advertenties blijven lopen zolang een pass actief is. Pro geeft 10 munten, onbeperkte meldingen, verversing elke 10 seconden, de volledige grafiekgeschiedenis en geen advertenties — maandelijks, jaarlijks of eenmalig levenslang."
         }
       ]
     },

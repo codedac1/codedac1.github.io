@@ -54,7 +54,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='22' width='100' height='100' fill='%232F3B59'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="/css/style.css?v=49" />
+  <link rel="stylesheet" href="/css/style.css?v=50" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,7 +62,7 @@
   "name": "FloatCrypto+",
   "operatingSystem": "Android",
   "applicationCategory": "UtilitiesApplication",
-  "description": "FloatCrypto+ floats a live crypto ticker on top of every app, so you can check the market while you watch YouTube, read the news or reply to messages — no switching, no reloading. Drag it anywhere, resize it and dial the opacity down so it never gets in the way. Set an upper or lower target and it notifies you the moment the market crosses it, keep a watchlist of the coins you actually follow, and open 1-day, 7-day and 30-day charts with period high, low, open and change. Prices come from Binance with CoinGecko as an automatic fallback, so the ticker keeps working when one source is unreachable.",
+  "description": "FloatCrypto+ floats a live crypto ticker on top of every app, so you can check the market while you watch YouTube, read the news or reply to messages — no switching, no reloading. Drag it anywhere, resize it and dial the opacity down so it never gets in the way. Set an upper or lower target and it notifies you the moment the market crosses it, keep a watchlist of the coins you actually follow, and open 1-day, 7-day and 30-day charts with period high, low, open and change. Prices come from Binance with an automatic fallback, so the ticker keeps working when one source is unreachable. Market data is delayed by up to 30 seconds — 10 seconds on Pro — and is for reference only, not investment advice.",
   "image": "https://codedac.com/images/icons/floatcrypto.png",
   "url": "https://codedac.com/apps/floatcrypto.html",
   "inLanguage": "en",
@@ -143,7 +143,7 @@
       "name": "What do I get for free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The free tier follows 2 coins with 1 price alert and shows ads, and a Free Pass gives you 24 hours of full Pro access for one short ad. Pro raises it to 10 coins with unlimited alerts, removes the ads, refreshes the ticker every 10 seconds and unlocks the full chart history — monthly, annual (with a free trial) or a one-time lifetime purchase."
+        "text": "Free follows 2 coins with 1 price alert and refreshes the ticker every 30 seconds. A Free Pass opens one feature for 24 hours in exchange for one short ad — the Chart pass unlocks the 7-day and 30-day charts, the Watchlist pass gives 10 coins and unlimited alerts — one of each per day, for as many days as you like, and ads keep running while a pass is active. Pro gives 10 coins, unlimited alerts, a 10-second refresh, the full chart history and no ads, monthly, annually or as a one-time lifetime purchase."
       }
     }
   ]
@@ -209,7 +209,7 @@
 
   <section class="app-hero-d">
     <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floatcrypto.png?v=49" alt="FloatCrypto+ icon" width="96" height="96" />
+      <img class="app-icon-lg" src="/images/icons/floatcrypto.png?v=50" alt="FloatCrypto+ icon" width="96" height="96" />
       <div class="app-hero-text">
         <span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 languages"><span class="globe" aria-hidden="true">🌐</span>21 languages</span></span>
         <h1><bdi>FloatCrypto+</bdi></h1>
@@ -227,7 +227,7 @@
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">Overview</h2>
-      <p class="detail-long">FloatCrypto+ floats a live crypto ticker on top of every app, so you can check the market while you watch YouTube, read the news or reply to messages — no switching, no reloading. Drag it anywhere, resize it and dial the opacity down so it never gets in the way. Set an upper or lower target and it notifies you the moment the market crosses it, keep a watchlist of the coins you actually follow, and open 1-day, 7-day and 30-day charts with period high, low, open and change. Prices come from Binance with CoinGecko as an automatic fallback, so the ticker keeps working when one source is unreachable.</p>
+      <p class="detail-long">FloatCrypto+ floats a live crypto ticker on top of every app, so you can check the market while you watch YouTube, read the news or reply to messages — no switching, no reloading. Drag it anywhere, resize it and dial the opacity down so it never gets in the way. Set an upper or lower target and it notifies you the moment the market crosses it, keep a watchlist of the coins you actually follow, and open 1-day, 7-day and 30-day charts with period high, low, open and change. Prices come from Binance with an automatic fallback, so the ticker keeps working when one source is unreachable. Market data is delayed by up to 30 seconds — 10 seconds on Pro — and is for reference only, not investment advice.</p>
     </div>
   </section>
 
@@ -240,7 +240,7 @@
         <li>Watchlist of the coins you care about, with live price, 24-hour change and drag-to-reorder</li>
         <li>1-day / 7-day / 30-day charts with period high, low, open and change</li>
         <li>Eastern and Western color modes — green-up/red-down, or red-up/blue-down as read in Korea, Japan and China</li>
-        <li>Binance prices with an automatic CoinGecko fallback, so the ticker keeps working</li>
+        <li>Binance prices with an automatic fallback source, delayed by up to 30 seconds (10 on Pro)</li>
       </ul>
     </div>
   </section>
@@ -250,11 +250,11 @@
       <h2 class="detail-title">Screenshots</h2>
       <p class="section-lead" style="margin-bottom:22px">Tap a screenshot to view it larger.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=49" alt="FloatCrypto+ Screenshots 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=49" alt="FloatCrypto+ Screenshots 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=49" alt="FloatCrypto+ Screenshots 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floatcrypto-4.jpg?v=49" alt="FloatCrypto+ Screenshots 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floatcrypto-5.jpg?v=49" alt="FloatCrypto+ Screenshots 5" loading="lazy" data-idx="4" />
+        <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=50" alt="FloatCrypto+ Screenshots 1" loading="lazy" data-idx="0" />
+        <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=50" alt="FloatCrypto+ Screenshots 2" loading="lazy" data-idx="1" />
+        <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=50" alt="FloatCrypto+ Screenshots 3" loading="lazy" data-idx="2" />
+        <img class="shot" src="/images/shots/floatcrypto-4.jpg?v=50" alt="FloatCrypto+ Screenshots 4" loading="lazy" data-idx="3" />
+        <img class="shot" src="/images/shots/floatcrypto-5.jpg?v=50" alt="FloatCrypto+ Screenshots 5" loading="lazy" data-idx="4" />
       </div>
     </div>
   </section>
@@ -264,7 +264,7 @@
       <div class="faq-list">
         <div class="faq-item"><p class="faq-q">Can I see prices while using other apps?</p><p class="faq-a">Yes. The ticker floats on top of every app, so you can watch the market while you are on YouTube, in a game or in a chat — no switching, no reloading. Drag it anywhere, resize it, and lower the opacity so it never covers what you are reading.</p></div>
         <div class="faq-item"><p class="faq-q">How do price alerts work?</p><p class="faq-a">Set an upper or lower target and FloatCrypto+ notifies you the moment the market crosses it. You can add an alert straight from a coin card — tap ⋮ and the coin is already filled in — and a bell badge marks every coin you are watching for.</p></div>
-        <div class="faq-item"><p class="faq-q">What do I get for free?</p><p class="faq-a">The free tier follows 2 coins with 1 price alert and shows ads, and a Free Pass gives you 24 hours of full Pro access for one short ad. Pro raises it to 10 coins with unlimited alerts, removes the ads, refreshes the ticker every 10 seconds and unlocks the full chart history — monthly, annual (with a free trial) or a one-time lifetime purchase.</p></div>
+        <div class="faq-item"><p class="faq-q">What do I get for free?</p><p class="faq-a">Free follows 2 coins with 1 price alert and refreshes the ticker every 30 seconds. A Free Pass opens one feature for 24 hours in exchange for one short ad — the Chart pass unlocks the 7-day and 30-day charts, the Watchlist pass gives 10 coins and unlimited alerts — one of each per day, for as many days as you like, and ads keep running while a pass is active. Pro gives 10 coins, unlimited alerts, a 10-second refresh, the full chart history and no ads, monthly, annually or as a one-time lifetime purchase.</p></div>
       </div>
     </div>
   </section>
@@ -295,6 +295,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"en","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floatcrypto.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floatcrypto.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floatcrypto.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floatcrypto.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floatcrypto.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floatcrypto.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floatcrypto.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floatcrypto.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floatcrypto.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floatcrypto.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floatcrypto.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floatcrypto.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floatcrypto.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floatcrypto.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floatcrypto.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floatcrypto.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floatcrypto.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floatcrypto.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floatcrypto.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floatcrypto.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floatcrypto.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=49"></script>
+  <script src="/js/site.js?v=50"></script>
 </body>
 </html>

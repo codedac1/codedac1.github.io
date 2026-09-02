@@ -158,14 +158,14 @@
       "seo": "Giá Bitcoin nổi trên mọi ứng dụng",
       "desc": "Thanh giá crypto trực tiếp nổi trên mọi ứng dụng, kèm cảnh báo và biểu đồ.",
       "tagline": "Bitcoin, Ethereum và altcoin của bạn luôn trên màn hình — trên mọi ứng dụng.",
-      "long": "FloatCrypto+ giữ một thanh giá trực tiếp nổi bên trên mọi ứng dụng, để bạn theo dõi thị trường trong lúc xem YouTube, đọc tin hay trả lời tin nhắn — không cần chuyển qua lại, không cần tải lại. Kéo tới vị trí bạn muốn, đổi kích thước và giảm độ mờ để nó không bao giờ vướng mắt. Đặt ngưỡng trên hoặc dưới và ứng dụng sẽ báo ngay khi thị trường chạm mức đó; lập danh sách theo dõi chỉ gồm những coin bạn thật sự quan tâm và mở biểu đồ 1 ngày, 7 ngày, 30 ngày kèm giá cao nhất, thấp nhất, mở cửa và mức thay đổi trong kỳ. Giá lấy từ Binance, có CoinGecko dự phòng tự động nên thanh giá vẫn chạy khi một nguồn không truy cập được.",
+      "long": "FloatCrypto+ giữ một thanh giá trực tiếp nổi bên trên mọi ứng dụng, để bạn theo dõi thị trường trong lúc xem YouTube, đọc tin hay trả lời tin nhắn — không cần chuyển qua lại, không cần tải lại. Kéo tới vị trí bạn muốn, đổi kích thước và giảm độ mờ để nó không bao giờ vướng mắt. Đặt ngưỡng trên hoặc dưới và ứng dụng sẽ báo ngay khi thị trường chạm mức đó; lập danh sách theo dõi chỉ gồm những coin bạn thật sự quan tâm và mở biểu đồ 1 ngày, 7 ngày, 30 ngày kèm giá cao nhất, thấp nhất, mở cửa và mức thay đổi trong kỳ. Giá lấy từ Binance và tự động chuyển nguồn khi một nguồn không truy cập được, nên thanh giá vẫn chạy. Dữ liệu trễ tối đa 30 giây (10 giây với Pro) và chỉ mang tính tham khảo — không phải lời khuyên đầu tư.",
       "features": [
         "Thanh giá nổi trên mọi ứng dụng — kéo tới vị trí bất kỳ, đổi kích thước, giảm độ mờ",
         "Cảnh báo giá theo ngưỡng trên hoặc dưới, tạo ngay trên thẻ coin đã được chọn sẵn",
         "Danh sách theo dõi với giá trực tiếp, biến động 24 giờ và kéo để sắp xếp lại",
         "Biểu đồ 1 ngày / 7 ngày / 30 ngày kèm giá cao nhất, thấp nhất, mở cửa và mức thay đổi",
         "Màu phương Tây và phương Đông — xanh tăng/đỏ giảm, hoặc đỏ tăng/xanh dương giảm",
-        "Giá Binance với CoinGecko dự phòng tự động để thanh giá không ngừng chạy"
+        "Giá Binance với tự động chuyển nguồn, trễ tối đa 30 giây (10 giây với Pro)"
       ],
       "faq": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "q": "Bản miễn phí có gì?",
-          "a": "Bản miễn phí theo dõi 2 coin với 1 cảnh báo giá và có quảng cáo; vé miễn phí cho bạn dùng trọn Pro trong 24 giờ khi xem một quảng cáo ngắn. Pro nâng lên 10 coin với cảnh báo không giới hạn, gỡ quảng cáo, cập nhật thanh giá mỗi 10 giây và mở đầy đủ lịch sử biểu đồ — theo tháng, theo năm (có dùng thử miễn phí) hoặc mua một lần trọn đời."
+          "a": "Bản miễn phí theo dõi 2 đồng với 1 cảnh báo và thanh giá làm mới mỗi 30 giây. Free Pass mở một tính năng trong 24 giờ khi xem một quảng cáo ngắn: Chart Free Pass mở biểu đồ 7 và 30 ngày, Watchlist Free Pass cho 10 đồng và cảnh báo không giới hạn — mỗi loại một lần mỗi ngày, không giới hạn số ngày, và quảng cáo vẫn hiển thị trong lúc dùng pass. Pro cho 10 đồng, cảnh báo không giới hạn, làm mới mỗi 10 giây, đầy đủ lịch sử biểu đồ và không quảng cáo — theo tháng, theo năm hoặc mua một lần trọn đời."
         }
       ]
     },

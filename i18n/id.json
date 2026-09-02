@@ -158,14 +158,14 @@
       "seo": "Harga Bitcoin Mengambang",
       "desc": "Ticker kripto langsung yang mengambang di atas aplikasi apa pun, dengan alarm dan grafik.",
       "tagline": "Bitcoin, Ethereum, dan altcoin Anda tetap di layar — di atas aplikasi apa pun.",
-      "long": "FloatCrypto+ menampilkan ticker kripto langsung di atas semua aplikasi, jadi Anda bisa memantau pasar sambil menonton YouTube, membaca berita, atau membalas pesan — tanpa berpindah aplikasi, tanpa memuat ulang. Geser ke mana saja, atur ukuran, dan turunkan opasitasnya agar tak pernah mengganggu. Tetapkan batas atas atau bawah dan Anda diberi tahu begitu pasar melewatinya, susun daftar pantauan berisi koin yang benar-benar Anda ikuti, lalu buka grafik 1 hari, 7 hari, dan 30 hari lengkap dengan tertinggi, terendah, pembukaan, dan perubahan periode. Harga berasal dari Binance dengan CoinGecko sebagai cadangan otomatis, sehingga ticker tetap jalan meski satu sumber tak terjangkau.",
+      "long": "FloatCrypto+ menampilkan ticker kripto langsung di atas semua aplikasi, jadi Anda bisa memantau pasar sambil menonton YouTube, membaca berita, atau membalas pesan — tanpa berpindah aplikasi, tanpa memuat ulang. Geser ke mana saja, atur ukuran, dan turunkan opasitasnya agar tak pernah mengganggu. Tetapkan batas atas atau bawah dan Anda diberi tahu begitu pasar melewatinya, susun daftar pantauan berisi koin yang benar-benar Anda ikuti, lalu buka grafik 1 hari, 7 hari, dan 30 hari lengkap dengan tertinggi, terendah, pembukaan, dan perubahan periode. Harga berasal dari Binance dengan pengalihan sumber otomatis saat satu sumber tidak tersedia, sehingga ticker tetap jalan. Data tertunda hingga 30 detik (10 detik pada Pro) dan hanya sebagai referensi — bukan saran investasi.",
       "features": [
         "Ticker harga mengambang di atas semua aplikasi — geser, atur ukuran, turunkan opasitas",
         "Alarm harga pada batas atas atau bawah, dibuat langsung dari kartu koin yang sudah terisi",
         "Daftar pantauan dengan harga langsung, perubahan 24 jam, dan urutan yang bisa digeser",
         "Grafik 1 hari / 7 hari / 30 hari dengan tertinggi, terendah, pembukaan, dan perubahan periode",
         "Warna Barat dan Timur — hijau naik/merah turun, atau merah naik/biru turun",
-        "Harga Binance dengan cadangan otomatis CoinGecko agar ticker tak berhenti"
+        "Harga Binance dengan pengalihan sumber otomatis, tertunda hingga 30 detik (10 detik pada Pro)"
       ],
       "faq": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "q": "Apa yang saya dapat secara gratis?",
-          "a": "Versi gratis memantau 2 koin dengan 1 alarm harga dan menampilkan iklan, sedangkan akses gratis memberi 24 jam Pro penuh dengan menonton satu iklan singkat. Pro menaikkannya ke 10 koin dengan alarm tanpa batas, menghilangkan iklan, memperbarui ticker tiap 10 detik, dan membuka riwayat grafik penuh — bulanan, tahunan (dengan masa coba gratis), atau sekali bayar seumur hidup."
+          "a": "Versi gratis memantau 2 koin dengan 1 alarm harga dan ticker menyegar tiap 30 detik. Free Pass membuka satu fitur selama 24 jam setelah menonton satu iklan singkat: Chart Free Pass membuka grafik 7 dan 30 hari, Watchlist Free Pass memberi 10 koin dan alarm tanpa batas — masing-masing sekali sehari, tanpa batas jumlah hari, dan iklan tetap tampil selama pass berjalan. Pro memberi 10 koin, alarm tanpa batas, penyegaran tiap 10 detik, riwayat grafik penuh, dan tanpa iklan — bulanan, tahunan, atau sekali bayar seumur hidup."
         }
       ]
     },

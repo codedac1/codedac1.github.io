@@ -158,14 +158,14 @@
       "seo": "Pływające ceny Bitcoina",
       "desc": "Pasek kursów krypto na żywo nad każdą aplikacją, z alertami i wykresami.",
       "tagline": "Bitcoin, Ethereum i Twoje altcoiny stale na ekranie — nad używaną aplikacją.",
-      "long": "FloatCrypto+ trzyma pasek kursów na żywo nad wszystkimi aplikacjami, więc śledzisz rynek, oglądając YouTube, czytając wiadomości albo odpisując na komunikatory — bez przełączania i bez przeładowywania. Przeciągnij go gdzie chcesz, zmień rozmiar i zmniejsz krycie, żeby nigdy nie przeszkadzał. Ustaw górny lub dolny próg, a dostaniesz powiadomienie w chwili, gdy rynek go przekroczy; zbierz listę wyłącznie z monet, które naprawdę Cię interesują, i otwieraj wykresy 1 dzień, 7 dni i 30 dni z maksimum, minimum, otwarciem i zmianą w danym okresie. Kursy pochodzą z Binance, a gdy źródło jest nieosiągalne, automatycznie wchodzi CoinGecko i pasek działa dalej.",
+      "long": "FloatCrypto+ trzyma pasek kursów na żywo nad wszystkimi aplikacjami, więc śledzisz rynek, oglądając YouTube, czytając wiadomości albo odpisując na komunikatory — bez przełączania i bez przeładowywania. Przeciągnij go gdzie chcesz, zmień rozmiar i zmniejsz krycie, żeby nigdy nie przeszkadzał. Ustaw górny lub dolny próg, a dostaniesz powiadomienie w chwili, gdy rynek go przekroczy; zbierz listę wyłącznie z monet, które naprawdę Cię interesują, i otwieraj wykresy 1 dzień, 7 dni i 30 dni z maksimum, minimum, otwarciem i zmianą w danym okresie. Kursy pochodzą z Binance, a gdy jedno źródło jest nieosiągalne, przełączają się automatycznie na inne i pasek działa dalej. Dane są opóźnione do 30 sekund (10 sekund w Pro) i mają charakter wyłącznie orientacyjny — nie stanowią porady inwestycyjnej.",
       "features": [
         "Pływający pasek kursów nad wszystkimi aplikacjami — przeciągaj, zmieniaj rozmiar i krycie",
         "Alerty cenowe na górny lub dolny próg, tworzone prosto z karty już wybranej monety",
         "Lista obserwowanych z kursem na żywo, zmianą 24 h i kolejnością zmienianą przeciąganiem",
         "Wykresy 1 dzień / 7 dni / 30 dni z maksimum, minimum, otwarciem i zmianą w okresie",
         "Kolory zachodnie i wschodnie — zielony wzrost/czerwony spadek albo czerwony wzrost/niebieski spadek",
-        "Kursy z Binance z automatycznym przełączeniem na CoinGecko, żeby pasek nie przestał działać"
+        "Kursy z Binance z automatycznym przełączeniem źródła, opóźnione do 30 sekund (10 w Pro)"
       ],
       "faq": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "q": "Co dostaję za darmo?",
-          "a": "W wersji darmowej śledzisz 2 monety z 1 alertem i z reklamami, a krótka reklama daje darmowy dostęp do pełnego Pro przez 24 godziny. Pro podnosi limit do 10 monet z alertami bez limitu, usuwa reklamy, odświeża pasek co 10 sekund i odblokowuje pełną historię wykresów — miesięcznie, rocznie (z darmowym okresem próbnym) lub jednorazowo na zawsze."
+          "a": "Za darmo śledzisz 2 monety z 1 alertem, a pasek odświeża się co 30 sekund. Free Pass otwiera jedną funkcję na 24 godziny za obejrzenie krótkiej reklamy: Chart Free Pass odblokowuje wykresy 7- i 30-dniowe, a Watchlist Free Pass daje 10 monet i nieograniczone alerty — po jednym dziennie, bez limitu dni, a reklamy w trakcie przepustki pozostają. Pro daje 10 monet, nieograniczone alerty, odświeżanie co 10 sekund, pełną historię wykresów i brak reklam — miesięcznie, rocznie lub jednorazowo dożywotnio."
         }
       ]
     },
