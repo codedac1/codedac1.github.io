@@ -128,14 +128,14 @@
       "seo": "Schwebender Rechner für Android",
       "desc": "Schwebender Rechner mit Währungs- und Einheitenumrechner über jeder App.",
       "tagline": "Rechnen, ohne die App zu verlassen — ein Rechner, der über allem schwebt.",
-      "long": "FloatCalc+ ist ein schwebender Taschenrechner, der über jeder App bleibt — du musst deine Shopping-, Banking- oder Browser-Ansicht nie mehr schließen, nur um kurz zu rechnen. Rechner, Einheitenumrechner und Währungsrechner teilen sich ein verschiebbares Fenster: Ausdruck eintippen, Ergebnis sofort sehen und in die Zwischenablage kopieren. Die Wechselkurse kommen von der EZB, werden täglich aktualisiert und zwischengespeichert, sodass alles auch offline funktioniert. Kostenlos ohne Zeitlimit — kein Tageslimit, kein Countdown, keine Unterbrechungen.",
+      "long": "FloatCalc+ ist ein schwebender Rechner, der über jeder App bleibt — du musst deine Shopping-, Banking- oder Browser-Ansicht nie schließen, nur um kurz etwas auszurechnen. Rechner, Einheiten- und Währungsumrechner teilen sich ein verschiebbares Fenster: Rechnung über den eingebauten Ziffernblock eingeben, Ergebnis sofort erhalten und in die Zwischenablage kopieren. Klapp die Tastatur weg, wenn eine Zeile reicht, oder verkleinere das ganze Panel zu einem schwebenden Symbol, das am Bildschirmrand andockt. Die Kurse stammen von der EZB, werden täglich aktualisiert und zwischengespeichert, sodass alles auch offline funktioniert. Der schwebende Rechner ist täglich 60 Minuten gratis — die Restzeit steht in der Titelzeile des Panels — und eine kurze Anzeige bringt dir einen 24-Stunden-Pass, wenn du mehr brauchst.",
       "features": [
-        "Overlay über jeder App — YouTube, Karten, Browser, Banking, Shopping, Dokumente",
-        "Operatorleiste mit einem Tipp: + − × ÷ ( ) % direkt über der Tastatur, Rücktaste korrigiert einzelne Tippfehler",
-        "Potenzen, Wurzeln und Prozente — 2^10, √144, 100+10% — mit Ergebnis-Kopie per Tipp",
+        "Overlay über jeder App — YouTube, Karten, Browser, Banking, Shopping, Dokumente — und öffnet wieder im zuletzt genutzten Modus",
+        "Operatorleiste mit einem Tipp: + − × ÷ ( ) % direkt über dem eingebauten Ziffernblock, Rücktaste korrigiert einen Tippfehler",
+        "Potenzen, Wurzeln und Prozente — 2^10, √144, 100+10% — und die Rechnung bleibt nach „=“ sichtbar, ein Tipp holt sie zum Bearbeiten zurück",
         "Einheitenumrechner im Fenster: Länge, Gewicht, Temperatur, Fläche, Volumen, Geschwindigkeit und Zeit",
-        "Währungsrechner mit täglichen EZB-Kursen für über 30 Währungen, per ↻ sofort aktualisiert",
-        "Verschiebbares Pop-up mit einstellbarer Größe, Breite und Transparenz, 8 Designs, öffnet im zuletzt genutzten Modus"
+        "Währungsrechner mit täglichen EZB-Kursen für über 30 Währungen; in den Einstellungen stehen Stand und Quelle",
+        "Tastatur auf eine Zeile einklappen oder das Panel zu einem am Rand angedockten Symbol verkleinern — mit Größe, Breite, Transparenz und 8 Designs"
       ],
       "faq": [
         {
@@ -144,11 +144,11 @@
         },
         {
           "q": "Woher kommen die Wechselkurse?",
-          "a": "Von der Europäischen Zentralbank, täglich aktualisiert — und mit ↻ holst du dir jederzeit die neuesten Kurse. USD, EUR, JPY, GBP, KRW, CNY und über 30 Weltwährungen rechnest du direkt im Overlay um, und weil die Kurse täglich zwischengespeichert werden, klappt das auch offline."
+          "a": "Von der Europäischen Zentralbank, einmal täglich aktualisiert. Unter Einstellungen › Allgemein stehen Stand und Quelle der Kurse, und du kannst sie dort jederzeit neu laden. USD, EUR, JPY, GBP, KRW, CNY und über 30 Weltwährungen rechnest du direkt im Overlay um; durch den täglichen Cache klappt das auch offline."
         },
         {
           "q": "Wie viel kann ich gratis nutzen?",
-          "a": "Der schwebende Rechner ist kostenlos und ohne Zeitlimit — kein Tageslimit, kein Countdown. Pro entfernt die Werbung und schaltet die übrigen Einheiten-Kategorien und über 30 Währungen, 7 Premium-Designs sowie die volle Anpassung (Transparenz, Größe, Breite) frei — monatlich, jährlich oder einmalig auf Lebenszeit. Mit einem kurzen Werbespot bekommst du außerdem einen Freipass über 24 Stunden für eine einzelne Pro-Funktion."
+          "a": "Der schwebende Rechner ist täglich 60 Minuten kostenlos, und die Titelzeile des Panels zeigt die verbleibende Zeit. Brauchst du mehr, bekommst du mit einer kurzen Anzeige einen 24-Stunden-Pass. Pro entfernt das tägliche Zeitlimit und die Werbung und bringt alle übrigen Einheiten-Kategorien und über 30 Währungen, 7 Premium-Designs und die volle Panel-Anpassung (Transparenz, Größe, Breite) — monatlich, jährlich oder einmalig für immer."
         }
       ]
     },

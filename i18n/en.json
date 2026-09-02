@@ -128,14 +128,14 @@
       "seo": "Floating Calculator for Android",
       "desc": "A floating calculator with FX and unit converters, on top of any app.",
       "tagline": "Calculate without leaving your app — a floating calculator that stays on top.",
-      "long": "FloatCalc+ is a floating calculator that stays on top of any app, so you never have to close your shopping, banking or browser screen just to work something out. The calculator, unit converter and currency converter share one draggable window: type an expression, get the answer instantly and copy it to the clipboard. Exchange rates come from the ECB and refresh daily, cached so everything keeps working offline. It is free with no time limit — no daily session cap, no countdown, no interruptions.",
+      "long": "FloatCalc+ is a floating calculator that stays on top of any app, so you never have to close your shopping, banking or browser screen just to work something out. The calculator, unit converter and currency converter share one draggable window: type an expression on the built-in number pad, get the answer instantly and copy it to the clipboard. Fold the keypad away when a single line is all you need, or shrink the whole panel to a floating icon that docks to the edge of the screen. Exchange rates come from the ECB and refresh daily, cached so everything keeps working offline. The floating calculator is free for 60 minutes a day — the time left is shown in the panel's title bar — and a short ad gets you a 24-hour pass when you need more.",
       "features": [
-        "Floats over any app — YouTube, maps, browser, banking, shopping, spreadsheets",
-        "One-tap operator row: + − × ÷ ( ) % right above the keyboard, with backspace to fix a single typo",
-        "Powers, roots and percentages — 2^10, √144, 100+10% — with one-tap copy of the result",
+        "Floats over any app — YouTube, maps, browser, banking, shopping, documents — and reopens in the mode you used last",
+        "One-tap operator row: + − × ÷ ( ) % right above the built-in number pad, with backspace to fix a single typo",
+        "Powers, roots and percentages — 2^10, √144, 100+10% — and the expression stays on screen after “=”, so a tap brings it back to edit",
         "Unit converter inside the window: length, weight, temperature, area, volume, speed and time",
-        "Currency converter with daily ECB rates for 30+ currencies, refreshed on demand with ↻",
-        "Draggable pop-up with adjustable size, width and opacity, 8 themes, and it reopens in the mode you used last"
+        "Currency converter with daily ECB rates for 30+ currencies; Settings shows the date of the last update and its source",
+        "Fold the keypad down to one line or shrink the panel to an icon docked at the screen edge, with adjustable size, width, opacity and 8 themes"
       ],
       "faq": [
         {
@@ -144,11 +144,11 @@
         },
         {
           "q": "Where do the exchange rates come from?",
-          "a": "From the European Central Bank, refreshed daily — and you can tap ↻ for the latest rates at any time. USD, EUR, JPY, GBP, KRW, CNY and 30+ world currencies convert right inside the overlay, and the rates are cached each day so it works offline too."
+          "a": "From the European Central Bank, refreshed once a day. Settings › General shows the date the rates are from and their source, and updates them on demand. USD, EUR, JPY, GBP, KRW, CNY and 30+ world currencies convert right inside the overlay, and the daily cache keeps it working offline."
         },
         {
           "q": "How much can I use for free?",
-          "a": "The floating calculator is free with no time limit — no daily session cap and no countdown. Pro removes the ads and adds the remaining unit categories and 30+ currencies, 7 premium themes and full panel customization (opacity, size, width), monthly, yearly or as a one-time lifetime purchase. You can also watch a short ad for a 24-hour Free Pass to any single Pro feature."
+          "a": "The floating calculator is free for 60 minutes a day, and the panel's title bar shows how much of that is left. When you need more, watch a short ad for a 24-hour pass. Pro removes the daily time limit and the ads and adds the remaining unit categories and 30+ currencies, 7 premium themes and full panel customization (opacity, size, width), monthly, yearly or as a one-time lifetime purchase."
         }
       ]
     },

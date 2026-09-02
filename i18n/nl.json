@@ -128,14 +128,14 @@
       "seo": "Zwevende rekenmachine voor Android",
       "desc": "Zwevende rekenmachine met valuta- en eenheidsomrekener boven elke app.",
       "tagline": "Reken zonder de app te verlaten — een rekenmachine die boven alles blijft.",
-      "long": "FloatCalc+ is een zwevende rekenmachine die boven elke app blijft staan, zodat je je winkel-, bank- of browserscherm nooit hoeft te sluiten om even te rekenen. De rekenmachine, de eenheidsomrekener en de valutaomrekener delen één versleepbaar venster: typ je berekening, zie het resultaat direct en kopieer het naar het klembord. De wisselkoersen komen van de ECB, worden dagelijks bijgewerkt en gecachet, zodat alles ook offline blijft werken. Gratis zonder tijdslimiet — geen daglimiet, geen aftelklok, geen onderbrekingen.",
+      "long": "FloatCalc+ is een zwevende rekenmachine die boven elke app blijft staan, dus je hoeft je webshop, bankapp of browser nooit te sluiten om even iets uit te rekenen. De rekenmachine, de eenhedenomzetter en de valutaomzetter delen één versleepbaar venster: typ de berekening op het ingebouwde cijferblok, zie meteen het antwoord en kopieer het naar het klembord. Klap het toetsenblok in als één regel genoeg is, of verklein het hele paneel tot een zwevend pictogram dat aan de rand van het scherm blijft hangen. De koersen komen van de ECB, worden dagelijks bijgewerkt en gecachet, zodat alles ook offline blijft werken. De zwevende rekenmachine is elke dag 60 minuten gratis — de resterende tijd staat in de titelbalk van het paneel — en met een korte advertentie krijg je een pas van 24 uur als je meer nodig hebt.",
       "features": [
-        "Overlay boven elke app — YouTube, Maps, browser, bankieren, webshops, documenten",
-        "Operatorbalk met één tik: + − × ÷ ( ) % direct boven het toetsenbord, backspace corrigeert een typfout",
-        "Machten, wortels en percentages — 2^10, √144, 100+10% — met het resultaat in één tik gekopieerd",
-        "Eenheidsomrekener in het venster: lengte, gewicht, temperatuur, oppervlakte, volume, snelheid en tijd",
-        "Valutaomrekener met dagelijkse ECB-koersen voor meer dan 30 valuta, direct te vernieuwen met ↻",
-        "Versleepbaar venster met instelbare grootte, breedte en transparantie, 8 thema's en opent in de laatst gebruikte modus"
+        "Overlay boven elke app — YouTube, Maps, browser, bankieren, webshops, documenten — en opent weer in de modus die je het laatst gebruikte",
+        "Operatorbalk met één tik: + − × ÷ ( ) % direct boven het ingebouwde cijferblok, backspace corrigeert één typfout",
+        "Machten, wortels en percentages — 2^10, √144, 100+10% — de berekening blijft na «=» in beeld, tik erop om hem aan te passen",
+        "Eenhedenomzetter in hetzelfde venster: lengte, gewicht, temperatuur, oppervlakte, volume, snelheid en tijd",
+        "Valutaomzetter met dagelijkse ECB-koersen voor meer dan 30 valuta; in Instellingen staan de datum van de laatste update en de bron",
+        "Klap het toetsenblok in tot één regel of verklein het paneel tot een pictogram aan de schermrand, met instelbare grootte, breedte, transparantie en 8 thema's"
       ],
       "faq": [
         {
@@ -144,11 +144,11 @@
         },
         {
           "q": "Waar komen de wisselkoersen vandaan?",
-          "a": "Van de Europese Centrale Bank, dagelijks bijgewerkt — en met een tik op ↻ haal je op elk moment de nieuwste koersen op. USD, EUR, JPY, GBP, KRW, CNY en meer dan 30 valuta reken je om binnen de overlay zelf, en omdat de koersen elke dag worden gecachet, werkt het ook offline."
+          "a": "Van de Europese Centrale Bank, één keer per dag bijgewerkt. Bij Instellingen › Algemeen staan de datum van de koersen en de bron, en kun je ze op elk moment verversen. USD, EUR, JPY, GBP, KRW, CNY en meer dan 30 wereldvaluta reken je om binnen het zwevende venster zelf, en door de dagelijkse cache werkt het ook offline."
         },
         {
           "q": "Hoeveel kan ik gratis gebruiken?",
-          "a": "De zwevende rekenmachine is gratis en zonder tijdslimiet — geen daglimiet en geen aftelklok. Pro verwijdert de advertenties en voegt de overige eenheidscategorieën en meer dan 30 valuta toe, plus 7 premiumthema's en volledige aanpassing van het paneel (transparantie, grootte en breedte), maandelijks, jaarlijks of eenmalig voor altijd. Met één korte advertentie krijg je daarnaast 24 uur toegang tot een losse Pro-functie."
+          "a": "De zwevende rekenmachine is elke dag 60 minuten gratis, en de titelbalk van het paneel laat zien hoeveel tijd er nog over is. Heb je meer nodig, bekijk dan een korte advertentie voor een pas van 24 uur. Pro haalt de dagelijkse tijdslimiet en de advertenties weg en voegt de overige eenheidscategorieën en meer dan 30 valuta toe, plus 7 premiumthema's en volledige aanpassing van het paneel (transparantie, grootte, breedte) — maandelijks, jaarlijks of eenmalig voor altijd."
         }
       ]
     },

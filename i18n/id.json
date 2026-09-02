@@ -128,14 +128,14 @@
       "seo": "Kalkulator Mengambang Android",
       "desc": "Kalkulator melayang dengan konverter kurs dan satuan di atas aplikasi apa pun.",
       "tagline": "Hitung tanpa keluar dari aplikasi — kalkulator yang selalu melayang di atas.",
-      "long": "FloatCalc+ adalah kalkulator melayang yang tetap berada di atas aplikasi apa pun, jadi Anda tak perlu menutup layar belanja, perbankan, atau browser hanya untuk menghitung. Kalkulator, konverter satuan, dan konverter mata uang berbagi satu jendela yang bisa digeser: ketik ekspresinya, hasilnya langsung muncul, lalu salin ke papan klip. Kurs berasal dari ECB, diperbarui setiap hari dan tersimpan di cache sehingga semuanya tetap jalan saat offline. Gratis tanpa batas waktu — tanpa batas harian, tanpa hitung mundur, tanpa gangguan.",
+      "long": "FloatCalc+ adalah kalkulator melayang yang tetap berada di atas aplikasi apa pun, jadi Anda tak perlu menutup layar belanja, perbankan, atau browser hanya untuk menghitung. Kalkulator, konverter satuan, dan konverter mata uang berbagi satu jendela yang bisa digeser: ketik perhitungan di papan angka bawaan, dapatkan hasilnya seketika, lalu salin ke papan klip. Lipat papan tombolnya saat satu baris sudah cukup, atau perkecil seluruh panel menjadi ikon melayang yang menempel di tepi layar. Kurs berasal dari ECB, diperbarui setiap hari dan disimpan, sehingga semuanya tetap jalan saat offline. Kalkulator melayang gratis 60 menit per hari — sisa waktunya tampil di baris judul panel — dan iklan singkat memberi Anda pass 24 jam saat butuh lebih.",
       "features": [
-        "Overlay di atas aplikasi apa pun — YouTube, peta, browser, perbankan, belanja, dokumen",
-        "Baris operator sekali ketuk: + − × ÷ ( ) % tepat di atas keyboard, hapus mundur untuk salah ketik",
-        "Pangkat, akar, dan persen — 2^10, √144, 100+10% — hasil disalin sekali ketuk",
+        "Overlay di atas aplikasi apa pun — YouTube, peta, browser, perbankan, belanja, dokumen — dan terbuka kembali pada mode terakhir",
+        "Baris operator sekali ketuk: + − × ÷ ( ) % tepat di atas papan angka bawaan, hapus mundur memperbaiki satu salah ketik",
+        "Pangkat, akar, dan persen — 2^10, √144, 100+10% — perhitungan tetap di layar setelah «=», ketuk untuk mengeditnya",
         "Konverter satuan di dalam jendela: panjang, berat, suhu, luas, volume, kecepatan, dan waktu",
-        "Konverter mata uang dengan kurs ECB harian untuk 30+ mata uang, disegarkan seketika lewat ↻",
-        "Jendela bisa digeser dengan ukuran, lebar, dan transparansi yang diatur, 8 tema, dan terbuka pada mode terakhir"
+        "Konverter mata uang dengan kurs ECB harian untuk 30+ mata uang; Pengaturan menampilkan tanggal pembaruan terakhir dan sumbernya",
+        "Lipat papan tombol jadi satu baris atau perkecil panel jadi ikon di tepi layar, dengan ukuran, lebar, transparansi yang bisa diatur dan 8 tema"
       ],
       "faq": [
         {
@@ -144,11 +144,11 @@
         },
         {
           "q": "Dari mana kurs mata uangnya berasal?",
-          "a": "Dari Bank Sentral Eropa (ECB), diperbarui setiap hari — dan Anda bisa mengetuk ↻ kapan saja untuk kurs terbaru. USD, EUR, JPY, GBP, KRW, CNY dan 30+ mata uang dunia dikonversi langsung di dalam jendela, dan karena kurs disimpan setiap hari, aplikasi ini juga bisa dipakai offline."
+          "a": "Dari Bank Sentral Eropa, diperbarui sekali sehari. Pengaturan › Umum menampilkan tanggal kurs dan sumbernya, dan bisa memperbaruinya kapan saja. USD, EUR, JPY, GBP, KRW, CNY, dan 30+ mata uang dunia dikonversi langsung di jendela melayang, dan cache harian membuatnya tetap jalan offline."
         },
         {
           "q": "Sejauh apa bisa dipakai gratis?",
-          "a": "Kalkulator melayangnya gratis tanpa batas waktu — tanpa batas harian dan tanpa hitung mundur. Pro menghilangkan iklan serta membuka sisa kategori satuan dan 30+ mata uang, 7 tema premium, dan kustomisasi panel penuh (transparansi, ukuran, lebar), tersedia bulanan, tahunan, atau sekali bayar seumur hidup. Anda juga bisa menonton satu iklan singkat untuk memakai satu fitur Pro gratis selama 24 jam."
+          "a": "Kalkulator melayang gratis 60 menit per hari, dan baris judul panel menunjukkan sisa waktunya. Kalau butuh lebih, tonton iklan singkat untuk pass 24 jam. Pro menghapus batas waktu harian dan iklan, lalu menambahkan sisa kategori satuan dan 30+ mata uang, 7 tema premium, serta kustomisasi panel penuh (transparansi, ukuran, lebar) — bulanan, tahunan, atau sekali bayar seumur hidup."
         }
       ]
     },

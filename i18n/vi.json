@@ -128,14 +128,14 @@
       "seo": "Máy tính nổi trên mọi ứng dụng",
       "desc": "Máy tính nổi kèm chuyển đổi tỷ giá và đơn vị, trên mọi ứng dụng.",
       "tagline": "Tính toán mà không rời ứng dụng — máy tính luôn nổi trên màn hình.",
-      "long": "FloatCalc+ là máy tính nổi luôn hiện trên mọi ứng dụng, nên bạn không phải đóng màn hình mua sắm, ngân hàng hay trình duyệt chỉ để tính nhanh một phép tính. Máy tính, bộ chuyển đổi đơn vị và bộ chuyển đổi tiền tệ nằm chung một cửa sổ kéo thả được: gõ biểu thức, có kết quả ngay và sao chép vào bộ nhớ tạm. Tỷ giá lấy từ ECB, cập nhật hằng ngày và được lưu lại nên vẫn dùng được khi ngoại tuyến. Miễn phí không giới hạn thời gian — không giới hạn lượt mỗi ngày, không đếm ngược, không bị ngắt quãng.",
+      "long": "FloatCalc+ là máy tính nổi luôn ở trên mọi ứng dụng, nên bạn không phải đóng màn hình mua sắm, ngân hàng hay trình duyệt chỉ để tính một phép tính. Máy tính, bộ đổi đơn vị và bộ đổi tiền tệ dùng chung một cửa sổ kéo thả được: nhập phép tính trên bàn phím số tích hợp, có kết quả ngay và sao chép vào bộ nhớ tạm. Gấp bàn phím lại khi chỉ cần một dòng, hoặc thu cả bảng thành một biểu tượng nổi bám vào mép màn hình. Tỷ giá lấy từ ECB, cập nhật hằng ngày và được lưu lại nên mọi thứ vẫn chạy khi ngoại tuyến. Máy tính nổi miễn phí 60 phút mỗi ngày — thời gian còn lại hiện trên thanh tiêu đề của bảng — và một quảng cáo ngắn sẽ cho bạn vé 24 giờ khi cần thêm.",
       "features": [
-        "Nổi trên mọi ứng dụng — YouTube, bản đồ, trình duyệt, ngân hàng, mua sắm, tài liệu",
-        "Thanh toán tử một chạm: + − × ÷ ( ) % ngay trên bàn phím, xóa lùi để sửa lỗi gõ",
-        "Lũy thừa, căn bậc hai và phần trăm — 2^10, √144, 100+10% — sao chép kết quả chỉ một chạm",
-        "Chuyển đổi đơn vị ngay trong cửa sổ: chiều dài, khối lượng, nhiệt độ, diện tích, thể tích, tốc độ và thời gian",
-        "Chuyển đổi tiền tệ với tỷ giá ECB hằng ngày cho hơn 30 loại tiền, làm mới tức thì bằng ↻",
-        "Cửa sổ kéo thả được, chỉnh kích thước, chiều rộng và độ trong suốt, 8 giao diện, mở lại ở chế độ dùng lần trước"
+        "Nổi trên mọi ứng dụng — YouTube, bản đồ, trình duyệt, ngân hàng, mua sắm, tài liệu — và mở lại ở chế độ bạn dùng lần trước",
+        "Thanh toán tử một chạm: + − × ÷ ( ) % ngay trên bàn phím số tích hợp, xóa lùi chỉ sửa chỗ gõ sai",
+        "Lũy thừa, căn bậc hai và phần trăm — 2^10, √144, 100+10% — phép tính vẫn trên màn hình sau «=», chạm để chỉnh sửa",
+        "Bộ đổi đơn vị ngay trong cửa sổ: chiều dài, khối lượng, nhiệt độ, diện tích, thể tích, tốc độ và thời gian",
+        "Bộ đổi tiền tệ với tỷ giá ECB hằng ngày cho hơn 30 loại tiền; phần Cài đặt hiển thị ngày cập nhật gần nhất và nguồn",
+        "Gấp bàn phím còn một dòng hoặc thu bảng thành biểu tượng bám mép màn hình; chỉnh kích thước, chiều rộng, độ trong suốt và 8 giao diện"
       ],
       "faq": [
         {
@@ -144,11 +144,11 @@
         },
         {
           "q": "Tỷ giá lấy từ đâu?",
-          "a": "Từ Ngân hàng Trung ương châu Âu (ECB), cập nhật hằng ngày — và bạn có thể chạm ↻ bất cứ lúc nào để lấy tỷ giá mới nhất. USD, EUR, JPY, GBP, KRW, CNY và hơn 30 loại tiền được quy đổi ngay trong cửa sổ, tỷ giá được lưu mỗi ngày nên vẫn dùng được khi ngoại tuyến."
+          "a": "Từ Ngân hàng Trung ương châu Âu, cập nhật mỗi ngày một lần. Cài đặt › Chung hiển thị ngày của tỷ giá và nguồn, đồng thời cho phép cập nhật bất cứ lúc nào. USD, EUR, JPY, GBP, KRW, CNY và hơn 30 loại tiền tệ được quy đổi ngay trong cửa sổ nổi, và bộ nhớ đệm hằng ngày giúp nó dùng được cả khi ngoại tuyến."
         },
         {
           "q": "Dùng miễn phí được tới đâu?",
-          "a": "Máy tính nổi miễn phí không giới hạn thời gian — không giới hạn lượt mỗi ngày, không đếm ngược. Pro gỡ quảng cáo và mở thêm các danh mục đơn vị còn lại cùng hơn 30 loại tiền tệ, 7 giao diện cao cấp và tùy chỉnh bảng đầy đủ (độ trong suốt, kích thước, chiều rộng), theo tháng, theo năm hoặc mua một lần trọn đời. Bạn cũng có thể xem một quảng cáo ngắn để dùng miễn phí một tính năng Pro trong 24 giờ."
+          "a": "Máy tính nổi miễn phí 60 phút mỗi ngày, và thanh tiêu đề của bảng cho biết còn lại bao nhiêu. Khi cần thêm, xem một quảng cáo ngắn để nhận vé 24 giờ. Pro bỏ giới hạn thời gian mỗi ngày và quảng cáo, đồng thời mở toàn bộ danh mục đơn vị và hơn 30 loại tiền tệ, 7 giao diện cao cấp cùng tùy chỉnh bảng đầy đủ (độ trong suốt, kích thước, chiều rộng) — theo tháng, theo năm hoặc mua một lần trọn đời."
         }
       ]
     },

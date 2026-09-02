@@ -128,14 +128,14 @@
       "seo": "Calculatrice flottante",
       "desc": "Une calculatrice flottante avec devises et unités, au-dessus de toute appli.",
       "tagline": "Calculez sans quitter votre appli — une calculatrice qui reste au-dessus de tout.",
-      "long": "FloatCalc+ est une calculatrice flottante qui reste au-dessus de toutes vos applis : plus besoin de fermer votre écran de shopping, de banque ou votre navigateur juste pour faire un calcul. La calculatrice, le convertisseur d'unités et le convertisseur de devises partagent une même fenêtre déplaçable : tapez une expression, obtenez le résultat immédiatement et copiez-le dans le presse-papiers. Les taux viennent de la BCE, sont actualisés chaque jour et mis en cache, si bien que tout continue de fonctionner hors ligne. C'est gratuit et sans limite de temps — pas de quota quotidien, pas de compte à rebours, pas d'interruption.",
+      "long": "FloatCalc+ est une calculatrice flottante qui reste au-dessus de toutes les applis : plus besoin de quitter votre boutique en ligne, votre banque ou votre navigateur pour faire un calcul. La calculatrice, le convertisseur d'unités et le convertisseur de devises partagent une même fenêtre déplaçable : tapez l'opération sur le pavé numérique intégré, obtenez le résultat aussitôt et copiez-le dans le presse-papiers. Repliez le clavier quand une seule ligne suffit, ou réduisez tout le panneau en une icône flottante qui s'accroche au bord de l'écran. Les taux viennent de la BCE, sont actualisés chaque jour et mis en cache, donc tout continue de fonctionner hors ligne. La calculatrice flottante est gratuite 60 minutes par jour — le temps restant s'affiche dans la barre de titre — et une courte publicité vous donne un pass de 24 h si vous en voulez plus.",
       "features": [
-        "Superposition au-dessus de toute appli — YouTube, cartes, navigateur, banque, achats, documents",
-        "Barre d'opérateurs en un tap : + − × ÷ ( ) % au-dessus du clavier, retour arrière pour corriger une faute",
-        "Puissances, racines et pourcentages — 2^10, √144, 100+10% — avec copie du résultat en un tap",
+        "Superposée à n'importe quelle appli — YouTube, cartes, navigateur, banque, achats, documents — et rouvre dans le mode utilisé la dernière fois",
+        "Barre d'opérateurs en un tap : + − × ÷ ( ) % juste au-dessus du pavé numérique intégré, retour arrière pour corriger une faute",
+        "Puissances, racines et pourcentages — 2^10, √144, 100+10% — le calcul reste affiché après « = », touchez-le pour le modifier",
         "Convertisseur d'unités dans la fenêtre : longueur, poids, température, surface, volume, vitesse et temps",
-        "Convertisseur de devises avec les taux quotidiens de la BCE pour plus de 30 devises, actualisables via ↻",
-        "Fenêtre déplaçable avec taille, largeur et opacité réglables, 8 thèmes, et réouverture dans le dernier mode utilisé"
+        "Convertisseur de devises avec les taux BCE quotidiens pour plus de 30 devises ; les Réglages indiquent la date et la source",
+        "Repliez le clavier sur une ligne ou réduisez le panneau en une icône ancrée au bord de l'écran — taille, largeur, opacité réglables et 8 thèmes"
       ],
       "faq": [
         {
@@ -144,11 +144,11 @@
         },
         {
           "q": "D'où viennent les taux de change ?",
-          "a": "De la Banque centrale européenne, actualisés chaque jour — et vous pouvez toucher ↻ à tout moment pour récupérer les derniers taux. USD, EUR, JPY, GBP, KRW, CNY et plus de 30 devises se convertissent directement dans la fenêtre, et comme les taux sont mis en cache chaque jour, cela fonctionne aussi hors ligne."
+          "a": "De la Banque centrale européenne, actualisés une fois par jour. Réglages › Général affiche la date des taux et leur source, et permet de les rafraîchir à tout moment. USD, EUR, JPY, GBP, KRW, CNY et plus de 30 devises se convertissent directement dans la fenêtre flottante, et le cache quotidien fait que tout marche hors ligne."
         },
         {
           "q": "Jusqu'où puis-je aller gratuitement ?",
-          "a": "La calculatrice flottante est gratuite et sans limite de temps — ni quota quotidien, ni compte à rebours. Pro supprime les publicités et ajoute les autres catégories d'unités et plus de 30 devises, 7 thèmes premium et la personnalisation complète (opacité, taille, largeur), en mensuel, annuel ou achat unique à vie. Une courte publicité vous donne aussi un pass de 24 h sur la fonction Pro de votre choix."
+          "a": "La calculatrice flottante est gratuite 60 minutes par jour, et la barre de titre du panneau indique le temps restant. S'il vous en faut plus, une courte publicité vous donne un pass de 24 heures. Pro supprime la limite de temps quotidienne et les publicités, et ajoute toutes les catégories d'unités et plus de 30 devises, 7 thèmes premium et la personnalisation complète du panneau (opacité, taille, largeur), en mensuel, annuel ou en achat unique à vie."
         }
       ]
     },

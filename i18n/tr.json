@@ -128,14 +128,14 @@
       "seo": "Kayan hesap makinesi ve çevirici",
       "desc": "Her uygulamanın üstünde yüzen hesap makinesi, döviz ve birim çevirici.",
       "tagline": "Uygulamadan çıkmadan hesapla — her şeyin üstünde duran yüzen hesap makinesi.",
-      "long": "FloatCalc+, her uygulamanın üstünde duran yüzen bir hesap makinesidir; hızlıca hesap yapmak için alışveriş, bankacılık ya da tarayıcı ekranını kapatmanız gerekmez. Hesap makinesi, birim çevirici ve döviz çevirici tek bir sürüklenebilir pencerede: ifadeyi yazın, sonucu anında görün ve panoya kopyalayın. Kurlar ECB'den gelir, her gün güncellenir ve önbelleğe alınır; böylece çevrimdışıyken de çalışır. Süre sınırı olmadan ücretsizdir — günlük kullanım sınırı yok, geri sayım yok, kesinti yok.",
+      "long": "FloatCalc+, her uygulamanın üstünde duran yüzen bir hesap makinesidir; küçük bir hesap için alışveriş, bankacılık ya da tarayıcı ekranını kapatmanız gerekmez. Hesap makinesi, birim çevirici ve döviz çevirici tek bir sürüklenebilir pencereyi paylaşır: işlemi yerleşik sayı tuşlarıyla yazın, sonucu anında alın ve panoya kopyalayın. Tek satır yettiğinde tuş takımını katlayın, ekrana ihtiyacınız olduğunda ise tüm paneli ekranın kenarına yaslanan küçük bir simgeye küçültün. Kurlar AMB'den gelir, her gün güncellenir ve önbelleğe alınır; böylece her şey çevrimdışı da çalışır. Yüzen hesap makinesi günde 60 dakika ücretsizdir — kalan süre panelin başlık satırında görünür — ve daha fazlası gerektiğinde kısa bir reklam size 24 saatlik geçiş verir.",
       "features": [
-        "Her uygulamanın üstünde — YouTube, haritalar, tarayıcı, bankacılık, alışveriş, belgeler",
-        "Tek dokunuşla işleç çubuğu: klavyenin hemen üstünde + − × ÷ ( ) %, geri silme ile yazım hatasını düzeltme",
-        "Üs, kök ve yüzde — 2^10, √144, 100+10% — sonucu tek dokunuşla kopyalama",
+        "Her uygulamanın üstünde — YouTube, haritalar, tarayıcı, bankacılık, alışveriş, belgeler — ve en son kullandığınız modda açılır",
+        "Tek dokunuşla işleç çubuğu: yerleşik sayı tuşlarının hemen üstünde + − × ÷ ( ) %, geri silme yalnızca yazım hatasını siler",
+        "Üs, kök ve yüzde — 2^10, √144, 100+10% — işlem «=» sonrasında ekranda kalır, dokunup düzenleyin",
         "Pencerenin içinde birim çevirici: uzunluk, ağırlık, sıcaklık, alan, hacim, hız ve zaman",
-        "30'dan fazla para birimi için günlük ECB kurlarıyla döviz çevirici, ↻ ile anında yenileme",
-        "Sürüklenebilir pencere; boyut, genişlik ve saydamlık ayarı, 8 tema ve en son kullanılan modda açılma"
+        "30'dan fazla para birimi için günlük AMB kurlarıyla döviz çevirici; Ayarlar son güncelleme tarihini ve kaynağı gösterir",
+        "Tuş takımını tek satıra katlayın ya da paneli ekran kenarına yaslanan bir simgeye küçültün; boyut, genişlik, saydamlık ayarlanabilir, 8 tema"
       ],
       "faq": [
         {
@@ -144,11 +144,11 @@
         },
         {
           "q": "Döviz kurları nereden geliyor?",
-          "a": "Avrupa Merkez Bankası'ndan; her gün güncellenir ve ↻ simgesine dokunarak istediğiniz an en güncel kurları alabilirsiniz. USD, EUR, JPY, GBP, KRW, CNY ve 30'dan fazla para birimini pencereden çıkmadan çevirirsiniz; kurlar her gün önbelleğe alındığı için çevrimdışıyken de çalışır."
+          "a": "Avrupa Merkez Bankası'ndan, günde bir kez güncellenir. Ayarlar › Genel bölümünde kurların tarihi ve kaynağı yazar; oradan istediğiniz an yenileyebilirsiniz. USD, EUR, JPY, GBP, KRW, CNY ve 30'dan fazla dünya para birimi doğrudan yüzen pencerede çevrilir, günlük önbellek sayesinde çevrimdışı da çalışır."
         },
         {
           "q": "Ücretsiz olarak nereye kadar kullanabilirim?",
-          "a": "Yüzen hesap makinesi süre sınırı olmadan ücretsizdir — günlük kullanım sınırı ve geri sayım yoktur. Pro reklamları kaldırır; kalan birim kategorilerini ve 30'dan fazla para birimini, 7 premium temayı ve tam panel özelleştirmesini (saydamlık, boyut, genişlik) açar. Aylık, yıllık veya tek seferlik ömür boyu seçenekleri vardır. Ayrıca kısa bir reklam izleyerek tek bir Pro özelliği 24 saat boyunca ücretsiz kullanabilirsiniz."
+          "a": "Yüzen hesap makinesi günde 60 dakika ücretsizdir ve panelin başlık satırı kalan süreyi gösterir. Daha fazlası lazımsa kısa bir reklam izleyip 24 saatlik geçiş alırsınız. Pro, günlük süre sınırını ve reklamları kaldırır; kalan birim kategorilerini ve 30'dan fazla para birimini, 7 premium temayı ve tam panel özelleştirmesini (saydamlık, boyut, genişlik) ekler — aylık, yıllık ya da tek seferlik ömür boyu."
         }
       ]
     },

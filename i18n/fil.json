@@ -128,14 +128,14 @@
       "seo": "Floating Calculator para sa Android",
       "desc": "Floating calculator na may currency at unit converter sa ibabaw ng kahit anong app.",
       "tagline": "Mag-compute nang hindi umaalis sa app — calculator na laging nasa ibabaw.",
-      "long": "Ang FloatCalc+ ay floating calculator na nananatili sa ibabaw ng kahit anong app, kaya hindi mo na kailangang isara ang shopping, banking o browser screen mo para lang mag-compute. Magkasama sa iisang nada-drag na window ang calculator, unit converter at currency converter: i-type ang expression, agad mong makikita ang sagot, at kopyahin ito sa clipboard. Galing sa ECB ang exchange rates, ina-update araw-araw at naka-cache kaya gumagana rin offline. Libre ito nang walang limitasyon sa oras — walang daily limit, walang countdown, at walang abala.",
+      "long": "Ang FloatCalc+ ay isang floating calculator na nananatili sa ibabaw ng kahit anong app, kaya hindi mo na kailangang isara ang shopping, banking o browser mo para lang mag-compute. Magkasama sa iisang nada-drag na window ang calculator, unit converter at currency converter: i-type ang computation sa built-in na number pad, makuha agad ang sagot, at kopyahin ito sa clipboard. Tiklupin ang keypad kapag isang linya lang ang kailangan, o liitin ang buong panel sa isang floating icon na dumidikit sa gilid ng screen. Galing sa ECB ang palitan, ina-update araw-araw at naka-cache, kaya gumagana pa rin ang lahat offline. Libre ang floating calculator nang 60 minuto kada araw — makikita ang natitirang oras sa title bar ng panel — at may 24-oras na pass kapag nanood ka ng maikling ad.",
       "features": [
-        "Nakapatong sa kahit anong app — YouTube, mapa, browser, banking, shopping, dokumento",
-        "Isang tap na operator row: + − × ÷ ( ) % sa ibabaw mismo ng keyboard, may backspace para itama ang mali",
-        "Power, square root at porsyento — 2^10, √144, 100+10% — kokopyahin ang resulta sa isang tap",
-        "Unit converter sa loob ng window: haba, bigat, temperatura, sukat, volume, bilis at oras",
-        "Currency converter na may araw-araw na ECB rates para sa 30+ pera, agad na na-refresh sa ↻",
-        "Nada-drag na window na nababago ang laki, lapad at opacity, 8 tema, at bubukas sa mode na huling ginamit"
+        "Nakapatong sa kahit anong app — YouTube, mapa, browser, banking, shopping, dokumento — at bumubukas sa mode na huli mong ginamit",
+        "Isang tap na operator row: + − × ÷ ( ) % sa ibabaw mismo ng built-in na number pad, may backspace para itama ang isang mali",
+        "Power, square root at porsyento — 2^10, √144, 100+10% — nananatili sa screen ang computation pagkatapos ng «=», i-tap para i-edit",
+        "Unit converter sa loob mismo ng window: haba, timbang, temperatura, sukat, volume, bilis at oras",
+        "Currency converter na may araw-araw na rates ng ECB para sa 30+ pera; nasa Settings ang petsa ng huling update at ang pinagkunan",
+        "Tiklupin ang keypad sa isang linya o liitin ang panel sa icon na nakadikit sa gilid ng screen; nababago ang laki, lapad, opacity at may 8 tema"
       ],
       "faq": [
         {
@@ -144,11 +144,11 @@
         },
         {
           "q": "Saan galing ang exchange rates?",
-          "a": "Sa European Central Bank (ECB), ina-update araw-araw — at puwede mong i-tap ang ↻ anumang oras para sa pinakabagong rates. Ang USD, EUR, JPY, GBP, KRW, CNY at 30+ pang pera ay makokonverte sa loob mismo ng window, at dahil naka-cache ang rates araw-araw, gumagana rin ito offline."
+          "a": "Mula sa European Central Bank, ina-update isang beses sa isang araw. Sa Settings › Pangkalahatan makikita ang petsa ng rates at ang pinagkunan, at puwede itong i-update anumang oras. Ang USD, EUR, JPY, GBP, KRW, CNY at 30+ pang pera ay napapalitan sa loob mismo ng floating window, at dahil naka-cache araw-araw, gumagana ito kahit offline."
         },
         {
           "q": "Hanggang saan ang libre?",
-          "a": "Libre ang floating calculator nang walang limitasyon sa oras — walang daily limit at walang countdown. Inaalis ng Pro ang ads at binubuksan ang natitirang mga kategorya ng unit at 30+ pera, 7 premium na tema, at buong customization ng panel (opacity, laki, lapad), buwanan, taunan o isahang bayad habambuhay. Puwede ka ring manood ng maikling ad para magamit nang libre ang isang Pro feature sa loob ng 24 oras."
+          "a": "Libre ang floating calculator nang 60 minuto kada araw, at nasa title bar ng panel ang natitirang oras. Kapag kulang pa, manood ng maikling ad para sa 24-oras na pass. Inaalis ng Pro ang pang-araw-araw na limitasyon sa oras at ang mga ad, at idinaragdag ang natitirang kategorya ng unit at 30+ pera, 7 premium na tema, at buong customization ng panel (opacity, laki, lapad) — buwanan, taunan o isahang bayad habambuhay."
         }
       ]
     },

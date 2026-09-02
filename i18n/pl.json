@@ -128,14 +128,14 @@
       "seo": "Pływający kalkulator",
       "desc": "Pływający kalkulator z przelicznikiem walut i jednostek nad każdą aplikacją.",
       "tagline": "Licz bez wychodzenia z aplikacji — kalkulator zawsze na wierzchu.",
-      "long": "FloatCalc+ to pływający kalkulator, który zostaje na wierzchu każdej aplikacji, więc nie musisz zamykać zakupów, banku ani przeglądarki tylko po to, żeby coś policzyć. Kalkulator, przelicznik jednostek i przelicznik walut dzielą jedno przeciągane okno: wpisz wyrażenie, od razu zobacz wynik i skopiuj go do schowka. Kursy pochodzą z EBC, są odświeżane codziennie i zapisywane w pamięci, dzięki czemu wszystko działa też offline. Aplikacja jest darmowa bez limitu czasu — bez dziennego limitu, bez odliczania i bez przerywania.",
+      "long": "FloatCalc+ to pływający kalkulator, który zostaje nad każdą aplikacją, więc nie musisz zamykać zakupów, banku ani przeglądarki tylko po to, żeby coś policzyć. Kalkulator, przelicznik jednostek i przelicznik walut dzielą jedno przeciągane okno: wpisz działanie na wbudowanej klawiaturze numerycznej, natychmiast zobacz wynik i skopiuj go do schowka. Złóż klawiaturę, gdy wystarczy jedna linia, albo zwiń cały panel do pływającej ikony, która przykleja się do krawędzi ekranu. Kursy pochodzą z EBC, odświeżają się codziennie i są zapisywane, więc wszystko działa też offline. Pływający kalkulator jest darmowy przez 60 minut dziennie — pozostały czas widać w pasku tytułu panelu — a krótka reklama daje przepustkę na 24 godziny, gdy potrzebujesz więcej.",
       "features": [
-        "Nakładka nad dowolną aplikacją — YouTube, mapy, przeglądarka, bank, zakupy, dokumenty",
-        "Pasek operatorów jednym dotknięciem: + − × ÷ ( ) % tuż nad klawiaturą, backspace poprawia literówkę",
-        "Potęgi, pierwiastki i procenty — 2^10, √144, 100+10% — z kopiowaniem wyniku jednym dotknięciem",
+        "Nakładka nad dowolną aplikacją — YouTube, mapy, przeglądarka, bank, zakupy, dokumenty — otwiera się w trybie użytym ostatnio",
+        "Pasek operatorów jednym dotknięciem: + − × ÷ ( ) % tuż nad wbudowaną klawiaturą numeryczną, backspace poprawia literówkę",
+        "Potęgi, pierwiastki i procenty — 2^10, √144, 100+10% — działanie zostaje na ekranie po «=», dotknij, aby je poprawić",
         "Przelicznik jednostek w oknie: długość, waga, temperatura, powierzchnia, objętość, prędkość i czas",
-        "Przelicznik walut z codziennymi kursami EBC dla ponad 30 walut, odświeżany od razu przyciskiem ↻",
-        "Przeciągane okno z regulacją rozmiaru, szerokości i przezroczystości, 8 motywów i otwieranie w ostatnim trybie"
+        "Przelicznik walut z dziennymi kursami EBC dla ponad 30 walut; w Ustawieniach widać datę ostatniej aktualizacji i źródło",
+        "Złóż klawiaturę do jednej linii lub zwiń panel do ikony przy krawędzi ekranu; regulowany rozmiar, szerokość, przezroczystość i 8 motywów"
       ],
       "faq": [
         {
@@ -144,11 +144,11 @@
         },
         {
           "q": "Skąd pochodzą kursy walut?",
-          "a": "Z Europejskiego Banku Centralnego, odświeżane codziennie — a przyciskiem ↻ w każdej chwili pobierzesz najnowsze. USD, EUR, JPY, GBP, KRW, CNY i ponad 30 walut przeliczysz bez opuszczania okna, a ponieważ kursy są codziennie zapisywane, działa to również offline."
+          "a": "Z Europejskiego Banku Centralnego, odświeżane raz dziennie. W Ustawieniach › Ogólne widać datę kursów i ich źródło, a odświeżyć można je w każdej chwili. USD, EUR, JPY, GBP, KRW, CNY i ponad 30 walut przeliczysz bez wychodzenia z pływającego okna, a dzienny zapis kursów sprawia, że działa to również offline."
         },
         {
           "q": "Ile mogę korzystać za darmo?",
-          "a": "Pływający kalkulator jest darmowy bez limitu czasu — bez dziennego limitu i bez odliczania. Pro usuwa reklamy oraz dodaje pozostałe kategorie jednostek i ponad 30 walut, 7 motywów premium i pełną personalizację panelu (przezroczystość, rozmiar, szerokość) — miesięcznie, rocznie lub jednorazowo na zawsze. Możesz też obejrzeć krótką reklamę i korzystać z wybranej funkcji Pro przez 24 godziny za darmo."
+          "a": "Pływający kalkulator jest darmowy przez 60 minut dziennie, a pasek tytułu panelu pokazuje, ile czasu zostało. Gdy potrzebujesz więcej, obejrzyj krótką reklamę i dostań przepustkę na 24 godziny. Pro znosi dzienny limit czasu i usuwa reklamy oraz dodaje pozostałe kategorie jednostek i ponad 30 walut, 7 motywów premium i pełną personalizację panelu (przezroczystość, rozmiar, szerokość) — miesięcznie, rocznie lub jednorazowo na zawsze."
         }
       ]
     },

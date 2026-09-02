@@ -128,14 +128,14 @@
       "seo": "calculadora flutuante",
       "desc": "Calculadora flutuante com conversor de câmbio e unidades sobre qualquer app.",
       "tagline": "Calcule sem sair do app — uma calculadora flutuante sempre por cima.",
-      "long": "O FloatCalc+ é uma calculadora flutuante que fica por cima de qualquer app, então você nunca precisa fechar a tela de compras, do banco ou do navegador só para fazer uma conta. Calculadora, conversor de unidades e conversor de moedas dividem a mesma janela arrastável: digite a expressão, veja o resultado na hora e copie para a área de transferência. As taxas de câmbio vêm do BCE, são atualizadas diariamente e ficam em cache, então tudo continua funcionando offline. É grátis e sem limite de tempo — sem limite diário, sem contagem regressiva, sem interrupções.",
+      "long": "O FloatCalc+ é uma calculadora flutuante que fica por cima de qualquer app, então você nunca precisa fechar a tela de compras, do banco ou do navegador só para fazer uma conta. Calculadora, conversor de unidades e conversor de moedas dividem a mesma janela arrastável: digite a conta no teclado numérico integrado, veja o resultado na hora e copie para a área de transferência. Recolha o teclado quando uma linha bastar, ou reduza o painel inteiro a um ícone flutuante que encosta na borda da tela. As taxas vêm do BCE, são atualizadas todo dia e ficam em cache, então tudo continua funcionando offline. A calculadora flutuante é grátis por 60 minutos por dia — o tempo restante aparece na barra de título do painel — e um anúncio curto garante um passe de 24 horas quando você precisa de mais.",
       "features": [
-        "Sobreposição em qualquer app — YouTube, mapas, navegador, banco, compras, documentos",
-        "Barra de operadores com um toque: + − × ÷ ( ) % logo acima do teclado, com retrocesso para corrigir um erro",
-        "Potências, raízes e porcentagens — 2^10, √144, 100+10% — com cópia do resultado em um toque",
+        "Sobreposta a qualquer app — YouTube, mapas, navegador, banco, compras, documentos — e reabre no modo que você usou por último",
+        "Barra de operadores com um toque: + − × ÷ ( ) % logo acima do teclado numérico integrado, com retrocesso para corrigir um erro",
+        "Potências, raízes e porcentagens — 2^10, √144, 100+10% — e a conta continua na tela depois do «=», toque para editar",
         "Conversor de unidades dentro da janela: comprimento, peso, temperatura, área, volume, velocidade e tempo",
-        "Conversor de moedas com taxas diárias do BCE para mais de 30 moedas, atualizadas na hora com ↻",
-        "Janela arrastável com tamanho, largura e opacidade ajustáveis, 8 temas e reabertura no último modo usado"
+        "Conversor de moedas com taxas diárias do BCE para mais de 30 moedas; as Configurações mostram a data da última atualização e a fonte",
+        "Recolha o teclado para uma linha ou reduza o painel a um ícone encostado na borda da tela, com tamanho, largura e opacidade ajustáveis e 8 temas"
       ],
       "faq": [
         {
@@ -144,11 +144,11 @@
         },
         {
           "q": "De onde vêm as taxas de câmbio?",
-          "a": "Do Banco Central Europeu, atualizadas diariamente — e você pode tocar em ↻ a qualquer momento para buscar as mais recentes. USD, EUR, JPY, GBP, KRW, CNY e mais de 30 moedas são convertidas dentro da própria janela, e como as taxas ficam em cache todo dia, funciona offline também."
+          "a": "Do Banco Central Europeu, atualizadas uma vez por dia. Em Configurações › Geral aparecem a data das taxas e a fonte, e dá para atualizá-las quando quiser. USD, EUR, JPY, GBP, KRW, CNY e mais de 30 moedas se convertem dentro da própria janela flutuante, e o cache diário mantém tudo funcionando offline."
         },
         {
           "q": "Até onde dá para usar de graça?",
-          "a": "A calculadora flutuante é grátis e sem limite de tempo — sem limite diário e sem contagem regressiva. O Pro remove os anúncios e libera as demais categorias de unidades e mais de 30 moedas, 7 temas premium e a personalização completa (opacidade, tamanho e largura), nos planos mensal, anual ou vitalício. Você também pode assistir a um anúncio curto e usar qualquer recurso Pro por 24 horas."
+          "a": "A calculadora flutuante é grátis por 60 minutos por dia, e a barra de título do painel mostra quanto tempo resta. Se precisar de mais, assista a um anúncio curto e ganhe um passe de 24 horas. O Pro tira o limite diário de tempo e os anúncios e acrescenta as demais categorias de unidades e mais de 30 moedas, 7 temas premium e a personalização completa do painel (opacidade, tamanho, largura), em plano mensal, anual ou compra única vitalícia."
         }
       ]
     },

@@ -128,14 +128,14 @@
       "seo": "calculadora flotante",
       "desc": "Calculadora flotante con conversor de divisas y unidades sobre cualquier app.",
       "tagline": "Calcula sin salir de tu app — una calculadora flotante siempre a la vista.",
-      "long": "FloatCalc+ es una calculadora flotante que se mantiene sobre cualquier app, así que nunca tienes que cerrar tu pantalla de compras, de banca o el navegador solo para hacer una cuenta. La calculadora, el conversor de unidades y el de divisas comparten una misma ventana arrastrable: escribe una expresión, obtén el resultado al instante y cópialo al portapapeles. Los tipos de cambio son del BCE, se actualizan a diario y quedan en caché, así que todo sigue funcionando sin conexión. Es gratis y sin límite de tiempo: sin límite diario, sin cuenta atrás y sin interrupciones.",
+      "long": "FloatCalc+ es una calculadora flotante que se queda encima de cualquier app, así que nunca tienes que cerrar la tienda, el banco o el navegador solo para hacer una cuenta. La calculadora, el conversor de unidades y el de divisas comparten una misma ventana arrastrable: escribe la operación en el teclado numérico integrado, obtén el resultado al instante y cópialo al portapapeles. Pliega el teclado cuando te baste una línea, o reduce todo el panel a un icono flotante que se acopla al borde de la pantalla. Los tipos de cambio vienen del BCE, se actualizan a diario y quedan en caché, de modo que todo sigue funcionando sin conexión. La calculadora flotante es gratis 60 minutos al día — el tiempo restante aparece en la barra de título del panel — y un anuncio corto te da un pase de 24 horas cuando necesitas más.",
       "features": [
-        "Superposición sobre cualquier app — YouTube, mapas, navegador, banca, compras, documentos",
-        "Barra de operadores con un toque: + − × ÷ ( ) % sobre el teclado, con retroceso para corregir un error",
-        "Potencias, raíces y porcentajes — 2^10, √144, 100+10% — con copia del resultado en un toque",
+        "Se superpone a cualquier app — YouTube, mapas, navegador, banca, compras, documentos — y se abre en el modo que usaste por última vez",
+        "Barra de operadores con un toque: + − × ÷ ( ) % sobre el teclado numérico integrado, con retroceso para corregir un error",
+        "Potencias, raíces y porcentajes — 2^10, √144, 100+10% — y la operación sigue en pantalla tras «=», tócala para editarla",
         "Conversor de unidades dentro de la ventana: longitud, peso, temperatura, área, volumen, velocidad y tiempo",
-        "Conversor de divisas con tipos diarios del BCE para más de 30 monedas, actualizables al momento con ↻",
-        "Ventana arrastrable con tamaño, ancho y opacidad ajustables, 8 temas y reapertura en el último modo usado"
+        "Conversor de divisas con tasas diarias del BCE para más de 30 monedas; en Ajustes se ven la fecha y la fuente",
+        "Pliega el teclado a una línea o reduce el panel a un icono acoplado al borde de la pantalla, con tamaño, ancho y opacidad ajustables y 8 temas"
       ],
       "faq": [
         {
@@ -144,11 +144,11 @@
         },
         {
           "q": "¿De dónde salen los tipos de cambio?",
-          "a": "Del Banco Central Europeo, actualizados a diario, y puedes tocar ↻ en cualquier momento para traer los últimos. USD, EUR, JPY, GBP, KRW, CNY y más de 30 divisas se convierten dentro de la propia ventana, y como los tipos se guardan en caché cada día también funciona sin conexión."
+          "a": "Del Banco Central Europeo, actualizadas una vez al día. En Ajustes › General se muestran la fecha de las tasas y su fuente, y puedes actualizarlas cuando quieras. USD, EUR, JPY, GBP, KRW, CNY y más de 30 divisas se convierten dentro de la ventana flotante, y la caché diaria hace que funcione sin conexión."
         },
         {
           "q": "¿Hasta dónde puedo usarla gratis?",
-          "a": "La calculadora flotante es gratis y sin límite de tiempo: sin límite diario y sin cuenta atrás. Pro quita los anuncios y añade el resto de categorías de unidades y más de 30 divisas, 7 temas premium y la personalización completa (opacidad, tamaño y ancho), en plan mensual, anual o pago único de por vida. Además, con un anuncio corto consigues un pase de 24 horas para cualquier función Pro."
+          "a": "La calculadora flotante es gratis 60 minutos al día, y la barra de título del panel muestra cuánto tiempo queda. Si necesitas más, mira un anuncio corto y consigue un pase de 24 horas. Pro quita el límite diario de tiempo y los anuncios, y añade el resto de categorías de unidades y más de 30 divisas, 7 temas premium y la personalización completa del panel (opacidad, tamaño, ancho), en modalidad mensual, anual o pago único de por vida."
         }
       ]
     },
