@@ -41,6 +41,11 @@ body {
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  /* 21개 언어라 어느 문장에 얼마나 긴 단어가 들어올지 미리 알 수 없다.
+     네덜란드어 gehoorbeschermingsstatistieken(30자)처럼 띄어쓰기도 하이픈도
+     없는 낱말은 좁은 화면에서 컨테이너를 밀어내 가로 스크롤을 만든다.
+     넘칠 때만 낱말 안에서 끊게 해 둔다(평소 줄바꿈에는 영향이 없다). */
+  overflow-wrap: break-word;
 }
 h1, h2, h3, h4 { color: var(--ink); line-height: 1.3; margin: 0; }
 h1, h2 { letter-spacing: -.02em; }
@@ -440,22 +445,38 @@ img { max-width: 100%; }
   .grid-3 { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: 1fr; }
   .app-grid { grid-template-columns: 1fr; }
+  /* auto-fill 의 트랙은 minmax 의 최소값(300px) 밑으로 줄어들지 않는다. 화면이 348px
+     보다 좁으면(.container 안쪽 = 화면폭 - 48) 카드가 컨테이너를 밀어내 페이지에
+     가로 스크롤이 생긴다 — 320px 기기에서 28px. .app-grid 처럼 한 칸으로 고정한다. */
+  .reviews-grid { grid-template-columns: 1fr; }
   .app-shots .shot { height: 130px; }
   .feature-list { grid-template-columns: 1fr; }
   .detail-shots .shot { height: 300px; }
   .app-hero-inner { gap: 18px; }
   .app-icon-lg { width: 72px; height: 72px; flex-basis: 72px; }
+  /* min-width 는 아이콘 옆에 나란히 둘지 줄을 바꿀지 정하는 값이라, 이미 줄이
+     바뀐 폰에서는 할 일이 없다. 남겨 두면 화면이 308px 보다 좁을 때 제목 블록이
+     그 폭을 고집해 페이지를 밀어낸다. */
+  .app-hero-text { min-width: 0; }
   .lb-nav { width: 42px; height: 42px; font-size: 26px; }
   .lb-prev { inset-inline-start: 10px; }
   .lb-next { inset-inline-end: 10px; }
   .br-pc { display: none; }
+  /* 지표 사이의 세로 구분선은 세 항목이 한 줄일 때만 뜻이 있다. 폰에서는
+     라벨이 길어(프랑스어 LANGUES DES APPLIS 등) 줄이 넘어가는데, 그러면
+     넘어간 항목의 왼쪽에 짝 없는 선 하나가 떠 있게 된다. */
+  .hstat + .hstat::before { display: none; }
   .nav {
     position: absolute; top: 68px; inset-inline: 0;
     flex-direction: column; gap: 0;
     background: #fff; border-bottom: 1px solid var(--line);
     max-height: 0; overflow: hidden; transition: max-height .3s ease;
   }
-  .nav.open { max-height: 260px; }
+  /* 높이는 항목 수에 맞춰 재지 않는다 — 예전엔 260px 였는데, 메뉴가 4개에서 5개로
+     늘자 마지막 항목이 잘렸다(한 칸 60.2px = 16*2 padding + 1 border + 16px*1.7).
+     화면 높이로 잡아 두면 항목이 더 늘어도 안 잘리고, 작은 화면에서 메뉴가
+     화면 밖으로 흘러넘치지도 않는다(넘치면 메뉴 안에서 스크롤). */
+  .nav.open { max-height: 70vh; overflow-y: auto; }
   .nav a { padding: 16px 24px; border-top: 1px solid var(--line); }
   .nav a::after { display: none; }
   .nav-toggle { display: flex; }
@@ -562,6 +583,10 @@ img { max-width: 100%; }
 @media (max-width: 640px) {
   .lang-banner { padding: 12px 48px; gap: 10px; }
   .lang-banner-text { font-size: 14px; }
+  /* 배너 CTA 는 그 방문자의 언어로 적히는데, 인도네시아어("Lihat dalam Bahasa
+     Indonesia", 28자)처럼 긴 라벨은 nowrap 인 채로는 좁은 화면(양옆 48px 는 닫기
+     버튼 자리)에서 화면 밖으로 나간다. 두 줄이 되는 편이 잘리는 것보다 낫다. */
+  .lang-banner-cta { white-space: normal; }
 }
 
 /* ===== RTL (아랍어) =====
