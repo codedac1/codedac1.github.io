@@ -1,38 +1,48 @@
 {
-  "note": "홈/앱상세에 노출할 5★ Google Play 리뷰(손수 큐레이션, 60자 미만·오해 소지 리뷰 배제, 긴 리뷰는 발췌). 후보는 `node scripts/fetch_reviews.js`(다국가) → scripts/_reviews_pool.json. byApp[slug] 를 고치면 해당 앱 상세 + 홈 후기(앱별로 섞어 최대 6개)가 바뀝니다. 리뷰 원문 언어는 그대로 둡니다.",
+  "note": "홈/앱상세에 노출할 Google Play 리뷰(손수 큐레이션). 4★ 이상·60자 이상만 쓰고, 미해결 불만이나 오해를 부를 리뷰는 배제하며 긴 리뷰는 앞뒤를 잘라 발췌한다. score 는 원래 별점 그대로 두어(4★는 별 4개로 찍힌다) 5★인 척하지 않는다. 후보는 `node scripts/fetch_reviews.js`(다국가) → scripts/_reviews_pool.json. byApp[slug] 를 고치면 해당 앱 상세 + 홈 후기(앱별로 섞어 최대 6개)가 바뀝니다. 리뷰 원문 언어는 그대로 둡니다.",
   "byApp": {
     "clipboard": [
+      {
+        "name": "Magic Jimmie",
+        "score": 5,
+        "text": "It saves text from anywhere, images that have been copied. Copied items can be given a title, which can be helpful when copying phone numbers. Clips can be moved to groups for easy sorting. Best of all it has a floating overlay, which allows access to clips from anywhere."
+      },
+      {
+        "name": "Carl Scott",
+        "score": 5,
+        "text": "I always used to use ClipMate. But I couldn't get it working on my new phone. So I did some hunting around on the net, and discovered this app. Although I have only been using it a week or so, I am loving this app so far. It does what it says it does, and is very easy to use."
+      },
       {
         "name": "Fabio Rodriguez",
         "score": 5,
         "text": "I reported my frustration about not being able to import a backup from my previous clipboard manager, and the developer promptly updated the app to add that feature. Developers who listen to and act on user feedback deserve high praise."
       },
       {
-        "name": "Will Burr",
+        "name": "Klaus Will",
         "score": 5,
-        "text": "After the developer's reply, I appreciate their willingness to work my suggestion into the app. 5 stars! Also, I found the clip icon, which copies clips with one touch."
+        "text": "Lifetime-Kaufoption wurde hinzugefügt – vorbildlich! Pro-Version in Lifetime somit erworben. Auch funktionsmäßig ganz hervorragende App, welche den Zwischenablageinhalt sogar selektiv speichern und kopieren kann. 5 Sterne sind noch zu wenig, ich ziehe meinen Hut!"
+      },
+      {
+        "name": "Nick Khoury",
+        "score": 4,
+        "text": "It's probably a 5 star app, and the pro version is available for a reasonable month fee, a yearly fee, or a 1 time purchase. Most importantly, you're able to utilize the pro features for a limited amount of time (very smart of the devs) by watching ads. I would never buy something that I cannot test drive beforehand."
       },
       {
         "name": "Joseph Younger",
         "score": 5,
         "text": "Very easy to understand and use. Really handy, particularly when I am using an older keyboard (one without built-in clipboard access). Thanks so much!!"
-      },
-      {
-        "name": "Liz W",
-        "score": 5,
-        "text": "Fantastic app, does exactly what I want it to do. Saves all my clips and I can add titles and organize them."
-      },
-      {
-        "name": "Jontay",
-        "score": 5,
-        "text": "Absolutely perfect. A bit pricey, but a one-time purchase for an app that covers practically every base of what I'm looking for is a price I'm willing to pay."
       }
     ],
     "autostart": [
       {
         "name": "James Franke",
         "score": 5,
-        "text": "All I wanted was my app to open on startup. I tried other apps that were recommended, too complicated, and they didn't work. AutoStart+ was easy and it worked the first time."
+        "text": "All I wanted was my app to open on startup. I tried other apps that were recommended, too complicated, and they didn't work. AutoStart+ was easy and it worked the first time. You want an app to open at startup, get this app!"
+      },
+      {
+        "name": "CodeDive",
+        "score": 5,
+        "text": "Android 부팅 후 특정 앱을 자동으로 실행하게 하려고 여러 앱을 써봤는데, 그중에서도 가장 안정적이고 가볍습니다. 백그라운드 리소스도 거의 차지하지 않고, MIUI나 OneUI처럼 제한 많은 환경에서도 정상 동작하는 게 정말 인상적입니다. 개발자분이 기능 구현을 신중하게 해주신 것 같아 신뢰가 갑니다."
       },
       {
         "name": "Nexter1",
@@ -49,7 +59,7 @@
       {
         "name": "Liz W",
         "score": 5,
-        "text": "WOW! what a difference! I am trying free version & 3 decibel boost helps immensely already! It even has different settings for various types of sound like music, podcast, etc like an equalizer. Already using Clipboard+ from the same developer & it is an awesome app! Highly recommend it!"
+        "text": "WOW! what a difference! I am trying free version & 3 decibel boost helps immensely already! I've been playing podcasts on tablet using an external speaker. With this app I can hear very clearly just from the tablet. It even has different settings for various types of sound like music, podcast, etc like an equalizer. Already using Clipboard+ from the same developer & it is an awesome app! Highly recommend it!"
       }
     ],
     "readfocus": [
