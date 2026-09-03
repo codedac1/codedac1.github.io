@@ -17,7 +17,7 @@ const crypto = require('crypto');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
-const V = '53'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '54'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -356,6 +356,7 @@ function header(code, kind, slug, ui) {
         <a href="${pathFor(code, 'home')}#services">${escText(ui['nav.services'])}</a>
         <a href="${pathFor(code, 'home')}#apps">${escText(ui['nav.apps'])}</a>${HAS_REVIEWS ? `
         <a href="${pathFor(code, 'home')}#reviews">${escText(ui['nav.reviews'])}</a>` : ''}
+        <a href="${pathFor(code, 'home')}#ideas">${escText(ui['nav.ideas'])}</a>
       </nav>
       <div class="nav-right">
         <button type="button" class="theme-toggle" id="themeToggle" aria-label="${escAttr(ui['theme.toggle'])}" title="${escAttr(ui['theme.toggle'])}">
@@ -473,6 +474,48 @@ function counterpartSection(code, app, ui) {
       </a>
     </div>
   </section>`;
+}
+
+// 앱 아이디어 제보 섹션 (홈 전용). 정적 사이트라 받아 줄 서버가 없고, 사이트의 다른 CTA 와
+// 같은 mailto: 로 받는다 — 다만 빈 메일창이 열리면 대개 그냥 닫으므로, 제목과 세 항목 서식을
+// 방문자 언어로 채워 둔다(본문 줄바꿈은 encodeURIComponent 가 %0A 로 바꿔 준다).
+// '제보가 실제로 반영된다'는 증거 카드는 reviews.json 에서 proof:true 인 리뷰를 그대로 쓴다.
+// 새 문구를 짓지 않는 것이 핵심이다 — 홈 후기에 이미 떠 있는 진짜 리뷰여야 근거가 된다.
+const PROOF_REVIEW = (() => {
+  for (const [slug, list] of Object.entries(REVIEWS_BY_APP)) {
+    const hit = (list || []).find((r) => r.proof);
+    if (hit) return { ...hit, slug };
+  }
+  return null;
+})();
+
+function ideasSection(code, ui) {
+  const mail = 'mailto:codedac1@gmail.com'
+    + '?subject=' + encodeURIComponent(ui['ideas.mail.subject'])
+    + '&body=' + encodeURIComponent(ui['ideas.mail.body']);
+  const proof = PROOF_REVIEW ? `
+      <div class="ideas-proof">
+        <p class="ideas-proof-label">${escText(ui['ideas.proof'])}</p>
+${reviewCard(PROOF_REVIEW, code, true)}
+      </div>` : '';
+  return `
+  <section class="section" id="ideas">
+    <div class="container">
+      <p class="section-label">IDEAS</p>
+      <h2 class="section-title">${escText(ui['ideas.title'])}</h2>
+      <p class="section-lead">${escText(ui['ideas.lead'])}</p>
+      <div class="grid grid-3">
+        <div class="card"><div class="card-icon">😖</div><h3>${escText(ui['ideas.c1.t'])}</h3><p>${escText(ui['ideas.c1.d'])}</p></div>
+        <div class="card"><div class="card-icon">💡</div><h3>${escText(ui['ideas.c2.t'])}</h3><p>${escText(ui['ideas.c2.d'])}</p></div>
+        <div class="card"><div class="card-icon">🔧</div><h3>${escText(ui['ideas.c3.t'])}</h3><p>${escText(ui['ideas.c3.d'])}</p></div>
+      </div>
+      <div class="services-cta">
+        <a href="${escAttr(mail)}" class="btn btn-primary">${escText(ui['ideas.cta'])}</a>
+        <p class="ideas-note">${escText(ui['ideas.note'])}</p>
+      </div>${proof}
+    </div>
+  </section>
+`;
 }
 
 // ---------- 홈 페이지 ----------
@@ -596,6 +639,7 @@ ${appGroups}
     </div>
   </section>
 ${reviewsSection(code, ui, featuredReviews(), { alt: true, showApp: true })}
+${ideasSection(code, ui)}
 ${footer(code, ui)}
 
   <div class="lightbox" id="lightbox" aria-hidden="true">

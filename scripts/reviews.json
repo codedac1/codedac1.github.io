@@ -1,5 +1,5 @@
 {
-  "note": "홈/앱상세에 노출할 Google Play 리뷰(손수 큐레이션). 4★ 이상·60자 이상만 쓰고, 미해결 불만이나 오해를 부를 리뷰는 배제하며 긴 리뷰는 앞뒤를 잘라 발췌한다. score 는 원래 별점 그대로 두어(4★는 별 4개로 찍힌다) 5★인 척하지 않는다. 후보는 `node scripts/fetch_reviews.js`(다국가) → scripts/_reviews_pool.json. byApp[slug] 를 고치면 해당 앱 상세 + 홈 후기(앱별로 섞어 최대 6개)가 바뀝니다. 리뷰 원문 언어는 그대로 둡니다.",
+  "note": "홈/앱상세에 노출할 Google Play 리뷰(손수 큐레이션). 4★ 이상·60자 이상만 쓰고, 미해결 불만이나 오해를 부를 리뷰는 배제하며 긴 리뷰는 앞뒤를 잘라 발췌한다. score 는 원래 별점 그대로 두어(4★는 별 4개로 찍힌다) 5★인 척하지 않는다. 후보는 `node scripts/fetch_reviews.js`(다국가) → scripts/_reviews_pool.json. byApp[slug] 를 고치면 해당 앱 상세 + 홈 후기(앱별로 섞어 최대 6개)가 바뀝니다. 리뷰 원문 언어는 그대로 둡니다. \"proof\": true 인 리뷰 하나는 홈의 아이디어 제보 섹션에도 '제보가 실제로 반영된 증거'로 실립니다 — 사용자 제안이 앱에 들어간 이야기여야 하고, 없으면 그 카드는 렌더되지 않습니다.",
   "byApp": {
     "clipboard": [
       {
@@ -15,6 +15,7 @@
       {
         "name": "Fabio Rodriguez",
         "score": 5,
+        "proof": true,
         "text": "I reported my frustration about not being able to import a backup from my previous clipboard manager, and the developer promptly updated the app to add that feature. Developers who listen to and act on user feedback deserve high praise."
       },
       {
