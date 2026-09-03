@@ -66,21 +66,21 @@
       "name": "Clipboard+",
       "tag": "Área de transferência",
       "seo": "gerenciador de área de transferência",
-      "desc": "Salva automaticamente o histórico da área de transferência para colar em qualquer lugar, a qualquer hora.",
-      "tagline": "Salve automaticamente tudo o que você copia com o gerenciador de área de transferência mais inteligente para Android",
-      "long": "O Clipboard+ é um gerenciador de área de transferência para Android que salva automaticamente, em tempo real, todo texto e imagem copiados. Uma sobreposição flutuante redimensionável permite acessar o histórico da área de transferência em qualquer tela, sem trocar de app. Organize textos usados com frequência em snippets e grupos, e cole qualquer item rapidamente com busca por palavra-chave, widget na tela inicial e painel de notificações. Você também pode exportar o histórico para PDF e fazer backup ou restaurar seus itens a qualquer momento. Usando junto com o Clipboard+ for Windows, o que você copia no celular você cola no PC, e o que copia no PC você cola no celular. Basta fazer login no Google Drive com a mesma conta nos dois apps; o que é copiado não passa por nenhum servidor da CodeDAC: fica guardado apenas no seu próprio Google Drive.",
+      "desc": "Histórico da área de transferência: texto e imagens. Busque e sincronize no PC.",
+      "tagline": "Não perca nada do que você copia: cada texto e imagem em um histórico pesquisável",
+      "long": "O Clipboard+ é um gerenciador de área de transferência para Android que guarda todo texto e imagem copiados em um histórico pesquisável, do mais recente ao mais antigo. Desde o Android 10 nenhum app pode ler a área de transferência em segundo plano, então o Clipboard+ salva o que você copiou assim que fica ativo: ao abrir o app, ao tocar no painel flutuante ou ao usar o widget — ou na hora, se você tocar em Clipboard+ no menu de seleção de texto. Uma sobreposição flutuante redimensionável permite acessar o histórico da área de transferência em qualquer tela, sem trocar de app. Organize textos usados com frequência em snippets e grupos, e cole qualquer item rapidamente com busca por palavra-chave, widget na tela inicial e painel de notificações. Você também pode exportar o histórico para PDF e fazer backup ou restaurar seus itens a qualquer momento. Usando junto com o Clipboard+ for Windows, o que você copia no celular você cola no PC, e o que copia no PC você cola no celular. Basta fazer login no Google Drive com a mesma conta nos dois apps; o que é copiado não passa por nenhum servidor da CodeDAC: fica guardado apenas no seu próprio Google Drive.",
       "features": [
-        "Salvamento automático de textos e imagens copiados em tempo real",
+        "Todo texto e imagem copiados em um histórico pesquisável, do mais recente ao mais antigo",
         "Sobreposição flutuante redimensionável para usar sobre qualquer app",
         "Organização de textos frequentes em snippets e grupos",
         "Busca e filtro instantâneos por palavra-chave, texto, imagem ou data",
-        "Colagem rápida por widget, bloco de Configurações rápidas e painel de notificações",
+        "Colagem rápida pelo widget e pelo painel de notificações, e salvamento de qualquer app pelo menu de seleção de texto",
         "Sincronização bidirecional entre celular e PC pelo seu próprio Google Drive, exportação do histórico para PDF, além de backup e restauração"
       ],
       "faq": [
         {
-          "q": "Como o histórico da área de transferência é salvo?",
-          "a": "Todo texto e imagem copiados são salvos automaticamente em tempo real, então você pode recuperar qualquer item quando quiser, sem passos extras."
+          "q": "Quando o que eu copio é salvo?",
+          "a": "Desde o Android 10, o Google impede que apps leiam a área de transferência em segundo plano, e nenhum gerenciador consegue contornar isso. O Clipboard+ salva o que você copiou assim que fica ativo: ao abrir o app, ao tocar no painel flutuante ou ao usar o widget. Para salvar sem trocar de app, selecione o texto e toque em Clipboard+ no menu de seleção."
         },
         {
           "q": "Posso acessar o histórico enquanto uso outros apps?",
@@ -342,14 +342,14 @@
       "seo": "área de transferência",
       "desc": "Um gerenciador de área de transferência na bandeja do Windows que sincroniza com o app Clipboard+ para Android.",
       "tagline": "Um gerenciador de área de transferência na bandeja do Windows que sincroniza com seu Android pelo seu próprio Google Drive.",
-      "long": "O Clipboard+ for Windows é um gerenciador de área de transferência residente na bandeja que salva automaticamente os textos e imagens que você copia. Tudo é registrado no momento em que você copia, então mesmo que sobrescreva algo sem querer dá para recuperar o item anterior e colar de novo. Usando junto com o app Clipboard+ para Android, o que você copia no celular você cola no PC, e o que copia no PC você cola no celular. O que é copiado não passa por nenhum servidor da CodeDAC: fica guardado apenas no seu próprio Google Drive. O que está salvo pode ser organizado em grupos e snippets e pesquisado.",
+      "long": "O Clipboard+ for Windows é um gerenciador de área de transferência residente na bandeja que salva automaticamente os textos e imagens que você copia. Tudo é registrado no momento em que você copia, então mesmo que sobrescreva algo sem querer dá para recuperar o item anterior e colar de novo. Um atalho global abre uma janela de seleção rápida bem onde está o cursor: escolha um item com Ctrl+1–9 e o Enter cola no lugar em que você estava digitando, sem sair da janela. Usando junto com o app Clipboard+ para Android, o que você copia no celular você cola no PC, e o que copia no PC você cola no celular. O que é copiado não passa por nenhum servidor da CodeDAC: fica guardado apenas no seu próprio Google Drive. O que está salvo pode ser organizado em grupos e snippets e pesquisado.",
       "features": [
         "Fica na bandeja e salva textos e imagens no instante em que você copia — sem precisar ficar verificando em segundo plano, então é leve",
         "Sincronização bidirecional entre celular e PC pelo seu próprio Google Drive",
         "Interface no estilo Android com temas claro/escuro, barra lateral de grupos, snippets e fixar/copiar/editar/pesquisar",
         "Mover, excluir e mesclar em lote com seleção múltipla, ordenação do mais novo/mais antigo e visualizador de imagem em tamanho real",
-        "Atalhos globais para abrir a janela e capturar na hora o texto selecionado em outros apps, além de iniciar com o sistema",
-        "Exportação/importação compatível com o formato de backup do Clipboard+ para Android"
+        "Janela de seleção rápida no cursor com atalho global, além de atalhos para abrir a janela e capturar o texto selecionado em outros apps, e inicialização com o Windows",
+        "Exportação/importação compatível com o formato de backup do Clipboard+ para Android, e exportação em PDF"
       ],
       "faq": [
         {
@@ -361,8 +361,8 @@
           "a": "O histórico de cópias fica, por padrão, apenas no seu PC (na pasta %APPDATA%\\ClipboardPlus). Se você ativar a sincronização, ele também fica em um espaço privado do app dentro do seu próprio Google Drive — um espaço que não aparece na tela do Drive e que só o Clipboard+ consegue abrir. O app usa apenas esse espaço privado, então não consegue acessar suas outras fotos ou documentos do Drive."
         },
         {
-          "q": "O que preciso para ativar a sincronização?",
-          "a": "Nas configurações do app Android e do app Windows, faça login no Google Drive com a mesma conta e ative a sincronização automática. A partir daí, as áreas de transferência dos dois aparelhos ficam sincronizadas sozinhas."
+          "q": "O que é gratuito e o que o Pro acrescenta?",
+          "a": "O histórico da área de transferência, os trechos e grupos, a pesquisa, a janela de seleção rápida e os temas claro e escuro são gratuitos. O Pro acrescenta sincronização com o Google Drive, copiar itens de imagem para a área de transferência, exportação em PDF, importação de backup, grupos ilimitados e armazenamento de imagens ilimitado — no gratuito, o armazenamento de imagens é de 50 MB."
         }
       ]
     },

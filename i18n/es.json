@@ -66,21 +66,21 @@
       "name": "Clipboard+",
       "tag": "Portapapeles",
       "seo": "gestor de portapapeles Android",
-      "desc": "Guarda automáticamente el historial de tu portapapeles para pegarlo donde y cuando quieras.",
-      "tagline": "Guarda cada copia automáticamente con el gestor de portapapeles más inteligente para Android",
-      "long": "Clipboard+ es un gestor de portapapeles para Android que guarda automáticamente y en tiempo real cada texto e imagen que copias. Una superposición flotante de tamaño ajustable te permite acceder al historial del portapapeles desde cualquier pantalla, sin cambiar de app. Organiza el texto que usas con frecuencia en fragmentos y grupos, y pega cualquier elemento al instante con la búsqueda por palabra clave, un widget en la pantalla de inicio y el panel de notificaciones. También puedes exportar tu historial a PDF y hacer copias de seguridad o restaurar tus elementos cuando quieras. Si lo usas junto con Clipboard+ for Windows, lo que copias en el teléfono lo pegas en el PC, y lo que copias en el PC lo pegas en el teléfono. Basta con iniciar sesión en Google Drive con la misma cuenta en ambas apps; lo copiado no pasa por ningún servidor de CodeDAC: se guarda solo en tu propio Google Drive.",
+      "desc": "Historial del portapapeles: texto e imágenes. Busca, pega y sincroniza con PC.",
+      "tagline": "No pierdas nada de lo que copias: cada texto e imagen en un historial que puedes buscar",
+      "long": "Clipboard+ es un gestor de portapapeles para Android que guarda cada texto e imagen que copias en un historial con búsqueda, del más reciente al más antiguo. Desde Android 10 ninguna app puede leer el portapapeles en segundo plano, así que Clipboard+ guarda lo copiado en cuanto se activa: al abrir la app, al tocar el panel flotante o al usar el widget; o al instante si tocas Clipboard+ en el menú de selección de texto. Una superposición flotante de tamaño ajustable te permite acceder al historial del portapapeles desde cualquier pantalla, sin cambiar de app. Organiza el texto que usas con frecuencia en fragmentos y grupos, y pega cualquier elemento al instante con la búsqueda por palabra clave, un widget en la pantalla de inicio y el panel de notificaciones. También puedes exportar tu historial a PDF y hacer copias de seguridad o restaurar tus elementos cuando quieras. Si lo usas junto con Clipboard+ for Windows, lo que copias en el teléfono lo pegas en el PC, y lo que copias en el PC lo pegas en el teléfono. Basta con iniciar sesión en Google Drive con la misma cuenta en ambas apps; lo copiado no pasa por ningún servidor de CodeDAC: se guarda solo en tu propio Google Drive.",
       "features": [
-        "Guarda automáticamente y en tiempo real los textos e imágenes copiados",
+        "Cada texto e imagen copiados en un historial con búsqueda, del más reciente al más antiguo",
         "Superposición flotante de tamaño ajustable para usar sobre cualquier app",
         "Organiza el texto frecuente en fragmentos y grupos",
         "Búsqueda y filtro al instante por palabra clave, texto, imagen o fecha",
-        "Pegado rápido mediante widget, mosaico de Ajustes rápidos y panel de notificaciones",
+        "Pegado rápido desde el widget y el panel de notificaciones, y guardado desde cualquier app con el menú de selección de texto",
         "Sincronización bidireccional teléfono-PC a través de tu propio Google Drive, exporta el historial del portapapeles a PDF, con copia de seguridad y restauración"
       ],
       "faq": [
         {
-          "q": "¿Cómo se guarda el historial de mi portapapeles?",
-          "a": "Cada texto e imagen que copias se guarda automáticamente y en tiempo real, así que puedes recuperar cualquier elemento cuando quieras sin pasos adicionales."
+          "q": "¿Cuándo se guarda lo que copio?",
+          "a": "Desde Android 10, Google impide que las apps lean el portapapeles en segundo plano, y ningún gestor de portapapeles puede saltárselo. Clipboard+ guarda lo copiado en cuanto se activa: al abrir la app, al tocar el panel flotante o al usar el widget. Para guardar sin cambiar de app, selecciona el texto y toca Clipboard+ en el menú de selección."
         },
         {
           "q": "¿Puedo acceder al historial del portapapeles mientras uso otras apps?",
@@ -342,14 +342,14 @@
       "seo": "portapapeles para Windows",
       "desc": "Un gestor de portapapeles en la bandeja de Windows que se sincroniza con la app de Android Clipboard+.",
       "tagline": "Un gestor de portapapeles en la bandeja de Windows que se sincroniza con tu teléfono Android a través de tu propio Google Drive.",
-      "long": "Clipboard+ for Windows es un gestor de portapapeles residente en la bandeja que guarda automáticamente los textos e imágenes que copias. Todo queda registrado en el momento de copiarlo, así que aunque sobrescribas algo sin querer puedes recuperar lo anterior y volver a pegarlo. Si lo usas junto con la app de Android Clipboard+, lo que copias en el teléfono lo pegas en el PC, y lo que copias en el PC lo pegas en el teléfono. Lo copiado no pasa por ningún servidor de CodeDAC: se guarda solo en tu propio Google Drive. Lo guardado se puede organizar en grupos y fragmentos, y buscar.",
+      "long": "Clipboard+ for Windows es un gestor de portapapeles residente en la bandeja que guarda automáticamente los textos e imágenes que copias. Todo queda registrado en el momento de copiarlo, así que aunque sobrescribas algo sin querer puedes recuperar lo anterior y volver a pegarlo. Un atajo global abre una ventana de selección rápida justo donde está el cursor: elige un elemento con Ctrl+1–9 y Enter lo pega donde estabas escribiendo, sin salir de la ventana. Si lo usas junto con la app de Android Clipboard+, lo que copias en el teléfono lo pegas en el PC, y lo que copias en el PC lo pegas en el teléfono. Lo copiado no pasa por ningún servidor de CodeDAC: se guarda solo en tu propio Google Drive. Lo guardado se puede organizar en grupos y fragmentos, y buscar.",
       "features": [
         "Residente en la bandeja: guarda textos e imágenes en cuanto los copias, sin tener que comprobar el portapapeles en segundo plano, así que es ligero",
         "Sincronización bidireccional teléfono-PC a través de tu propio Google Drive",
         "Interfaz al estilo de Android con temas claro/oscuro, barra lateral de grupos, fragmentos y anclar/copiar/editar/buscar",
         "Selección múltiple para mover, eliminar y combinar en bloque, orden por más reciente/más antiguo y un visor de imágenes a tamaño completo",
-        "Atajos globales para abrir la ventana y capturar al instante el texto seleccionado en otras apps, además de ejecución al inicio",
-        "Exportación/importación compatible con el formato de copia de seguridad de Android Clipboard+"
+        "Ventana de selección rápida en el cursor con un atajo global, además de atajos para abrir la ventana y capturar el texto seleccionado en otras apps, e inicio automático con Windows",
+        "Exportación/importación compatible con el formato de copia de seguridad de Clipboard+ para Android, y exportación a PDF"
       ],
       "faq": [
         {
@@ -361,8 +361,8 @@
           "a": "El historial de copias se guarda de forma predeterminada solo en tu PC (en la carpeta %APPDATA%\\ClipboardPlus). Si activas la sincronización, también se guarda en un espacio privado de la app dentro de tu propio Google Drive: un espacio que no aparece en tu Drive y que nada más que Clipboard+ puede abrir. La app usa solo ese espacio privado, así que no puede acceder a tus otras fotos o documentos de Drive."
         },
         {
-          "q": "¿Qué necesito para activar la sincronización?",
-          "a": "En los ajustes de la app de Android y de la app de Windows, inicia sesión en Google Drive con la misma cuenta y activa la sincronización automática. A partir de ahí, los portapapeles de ambos dispositivos se sincronizan solos."
+          "q": "¿Qué es gratis y qué añade Pro?",
+          "a": "El historial del portapapeles, los fragmentos y grupos, la búsqueda, la ventana de selección rápida y los temas claro y oscuro son gratuitos. Pro añade la sincronización con Google Drive, copiar elementos de imagen al portapapeles, la exportación a PDF, la importación de copias de seguridad, grupos ilimitados y almacenamiento de imágenes ilimitado; en la versión gratuita el almacenamiento de imágenes es de 50 MB."
         }
       ]
     },

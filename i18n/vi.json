@@ -66,21 +66,21 @@
       "name": "Clipboard+",
       "tag": "Bộ nhớ tạm",
       "seo": "Trình quản lý bộ nhớ tạm Android",
-      "desc": "Tự động lưu lịch sử bộ nhớ tạm để dán lại mọi lúc, mọi nơi.",
-      "tagline": "Tự động lưu mọi thứ bạn sao chép với trình quản lý bộ nhớ tạm thông minh nhất cho Android",
-      "long": "Clipboard+ là trình quản lý bộ nhớ tạm cho Android, tự động lưu mọi văn bản và hình ảnh bạn sao chép theo thời gian thực. Lớp phủ nổi có thể chỉnh kích thước giúp bạn truy cập lịch sử bộ nhớ tạm từ bất kỳ màn hình nào mà không cần chuyển ứng dụng. Sắp xếp các đoạn văn bản hay dùng thành snippet và nhóm, rồi dán nhanh bất kỳ mục nào bằng tìm kiếm từ khóa, widget màn hình chính và bảng thông báo. Bạn cũng có thể xuất lịch sử ra PDF và sao lưu hoặc khôi phục các mục bất cứ lúc nào. Dùng chung với Clipboard+ for Windows, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Bạn chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng; nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn.",
+      "desc": "Lưu mọi văn bản và ảnh đã sao chép. Tìm kiếm, dán và đồng bộ sang PC.",
+      "tagline": "Không đánh mất thứ bạn đã sao chép — mọi văn bản và hình ảnh trong lịch sử tìm kiếm được",
+      "long": "Clipboard+ là trình quản lý bộ nhớ tạm cho Android, giữ mọi văn bản và hình ảnh bạn sao chép trong một lịch sử tìm kiếm được, mới nhất lên đầu. Từ Android 10, không ứng dụng nào được đọc clipboard ở nền, nên Clipboard+ lưu nội dung bạn sao chép ngay khi nó hoạt động — khi bạn mở ứng dụng, chạm vào bảng nổi hoặc dùng tiện ích — hoặc ngay lập tức nếu bạn chạm Clipboard+ trong trình đơn chọn văn bản. Lớp phủ nổi có thể chỉnh kích thước giúp bạn truy cập lịch sử bộ nhớ tạm từ bất kỳ màn hình nào mà không cần chuyển ứng dụng. Sắp xếp các đoạn văn bản hay dùng thành snippet và nhóm, rồi dán nhanh bất kỳ mục nào bằng tìm kiếm từ khóa, widget màn hình chính và bảng thông báo. Bạn cũng có thể xuất lịch sử ra PDF và sao lưu hoặc khôi phục các mục bất cứ lúc nào. Dùng chung với Clipboard+ for Windows, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Bạn chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng; nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn.",
       "features": [
-        "Tự động lưu văn bản và hình ảnh đã sao chép theo thời gian thực",
+        "Mọi văn bản và hình ảnh đã sao chép nằm trong lịch sử tìm kiếm được, mới nhất lên đầu",
         "Lớp phủ nổi chỉnh được kích thước, dùng trên mọi ứng dụng",
         "Sắp xếp văn bản hay dùng thành snippet và nhóm",
         "Tìm kiếm và lọc tức thì theo từ khóa, văn bản, hình ảnh hoặc ngày",
-        "Dán nhanh qua widget, ô Cài đặt nhanh và bảng thông báo",
+        "Dán nhanh từ widget màn hình chính và bảng thông báo, lưu từ mọi ứng dụng qua trình đơn chọn văn bản",
         "Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn, xuất lịch sử bộ nhớ tạm ra PDF, kèm sao lưu và khôi phục"
       ],
       "faq": [
         {
-          "q": "Lịch sử bộ nhớ tạm của tôi được lưu như thế nào?",
-          "a": "Mọi văn bản và hình ảnh đã sao chép đều được lưu tự động theo thời gian thực, nên bạn có thể lấy lại bất kỳ mục nào bất cứ lúc nào mà không cần thao tác thêm."
+          "q": "Khi nào nội dung tôi sao chép được lưu?",
+          "a": "Từ Android 10, Google chặn ứng dụng đọc clipboard ở nền và không trình quản lý clipboard nào vượt qua được. Clipboard+ lưu nội dung bạn sao chép ngay khi nó hoạt động — khi bạn mở ứng dụng, chạm vào bảng nổi hoặc dùng tiện ích. Để lưu mà không chuyển ứng dụng, hãy chọn văn bản rồi chạm Clipboard+ trong trình đơn chọn."
         },
         {
           "q": "Tôi có thể xem lịch sử bộ nhớ tạm khi đang dùng ứng dụng khác không?",
@@ -342,14 +342,14 @@
       "seo": "Trình quản lý bộ nhớ tạm",
       "desc": "Trình quản lý bộ nhớ tạm trên khay Windows, đồng bộ với ứng dụng Clipboard+ trên Android.",
       "tagline": "Trình quản lý bộ nhớ tạm trên khay Windows, đồng bộ với điện thoại Android của bạn qua chính Google Drive của bạn.",
-      "long": "Clipboard+ for Windows là trình quản lý bộ nhớ tạm thường trú trên khay hệ thống, tự động lưu lại văn bản và hình ảnh bạn sao chép. Mọi thứ được ghi ngay khi bạn sao chép, nên dù lỡ ghi đè, bạn vẫn lấy lại được nội dung trước đó để dán. Dùng chung với ứng dụng Clipboard+ trên Android, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính, và thứ bạn sao chép trên máy tính sẽ dán được trên điện thoại. Nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn. Những gì đã lưu có thể sắp xếp thành nhóm và snippet rồi tìm kiếm.",
+      "long": "Clipboard+ for Windows là trình quản lý bộ nhớ tạm thường trú trên khay hệ thống, tự động lưu lại văn bản và hình ảnh bạn sao chép. Mọi thứ được ghi ngay khi bạn sao chép, nên dù lỡ ghi đè, bạn vẫn lấy lại được nội dung trước đó để dán. Một phím tắt toàn cục mở cửa sổ chọn nhanh ngay tại vị trí con trỏ: chọn một mục bằng Ctrl+1–9 rồi nhấn Enter là nó được dán vào đúng nơi bạn đang gõ, không phải rời khỏi cửa sổ. Dùng chung với ứng dụng Clipboard+ trên Android, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính, và thứ bạn sao chép trên máy tính sẽ dán được trên điện thoại. Nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn. Những gì đã lưu có thể sắp xếp thành nhóm và snippet rồi tìm kiếm.",
       "features": [
         "Thường trú trên khay, lưu văn bản và hình ảnh ngay khi bạn sao chép — không phải liên tục kiểm tra ở nền nên rất nhẹ",
         "Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn",
         "Giao diện kiểu Android với chủ đề sáng/tối, thanh bên nhóm, snippet và ghim/sao chép/chỉnh sửa/tìm kiếm",
         "Chọn nhiều để di chuyển, xóa và gộp hàng loạt, sắp xếp mới nhất/cũ nhất, và trình xem ảnh kích thước đầy đủ",
-        "Phím tắt toàn cục để mở cửa sổ và bắt tức thì văn bản đang chọn ở ứng dụng khác, cùng chạy khi khởi động",
-        "Xuất/nhập tương thích với định dạng sao lưu của Clipboard+ trên Android"
+        "Cửa sổ chọn nhanh tại con trỏ bằng phím tắt toàn cục, cùng phím tắt mở cửa sổ và thu văn bản đang chọn ở ứng dụng khác, và tự khởi động cùng Windows",
+        "Xuất/nhập tương thích với định dạng sao lưu của Clipboard+ trên Android, và xuất PDF"
       ],
       "faq": [
         {
@@ -361,8 +361,8 @@
           "a": "Lịch sử sao chép mặc định chỉ nằm trong máy tính của bạn (thư mục %APPDATA%\\ClipboardPlus). Nếu bật đồng bộ, nó cũng được lưu vào vùng riêng của ứng dụng trong chính Google Drive của bạn — vùng này không hiện ra trên màn hình Drive và ngoài Clipboard+ thì không gì mở được. Ứng dụng chỉ dùng vùng riêng đó nên không thể chạm tới ảnh hay tài liệu khác của bạn trên Drive."
         },
         {
-          "q": "Tôi cần gì để bật đồng bộ?",
-          "a": "Trong phần cài đặt của ứng dụng Android và ứng dụng Windows, hãy đăng nhập Google Drive bằng cùng một tài khoản, rồi bật đồng bộ tự động. Sau đó, bộ nhớ tạm trên cả hai thiết bị sẽ tự đồng bộ với nhau."
+          "q": "Miễn phí có gì và bản Pro thêm gì?",
+          "a": "Lịch sử clipboard, đoạn và nhóm, tìm kiếm, cửa sổ chọn nhanh cùng giao diện sáng và tối đều miễn phí. Bản Pro thêm đồng bộ Google Drive, sao chép clip hình ảnh trở lại clipboard, xuất PDF, nhập bản sao lưu, nhóm không giới hạn và dung lượng ảnh không giới hạn — bản miễn phí giới hạn 50 MB cho ảnh."
         }
       ]
     },

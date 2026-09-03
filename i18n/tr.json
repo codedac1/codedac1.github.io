@@ -66,21 +66,21 @@
       "name": "Clipboard+",
       "tag": "Pano",
       "seo": "Android için pano yöneticisi",
-      "desc": "Pano geçmişinizi otomatik kaydeder; istediğiniz her yere, her zaman yapıştırın.",
-      "tagline": "Android için en akıllı pano yöneticisiyle kopyaladığınız her şeyi otomatik kaydedin",
-      "long": "Clipboard+, kopyaladığınız her metni ve görseli gerçek zamanlı olarak otomatik kaydeden bir Android pano yöneticisidir. Boyutu ayarlanabilen kayan bir pencere sayesinde uygulama değiştirmeden herhangi bir ekrandan pano geçmişinize ulaşabilirsiniz. Sık kullandığınız metinleri snippet'ler ve gruplar halinde düzenleyin; anahtar kelime aramasıyla, ana ekran widget'ıyla ve bildirim paneliyle istediğiniz kaydı hızla yapıştırın. Geçmişinizi PDF olarak dışa aktarabilir, kayıtlarınızı istediğiniz zaman yedekleyip geri yükleyebilirsiniz. Clipboard+ for Windows ile birlikte kullandığınızda telefonda kopyaladığınızı bilgisayarda, bilgisayarda kopyaladığınızı telefonda yapıştırırsınız. Bunun için her iki uygulamada da aynı hesapla Google Drive'a giriş yapmanız yeterli; kopyaladıklarınız hiçbir CodeDAC sunucusundan geçmez, yalnızca kendi Google Drive'ınızda saklanır.",
+      "desc": "Kopyalanan metin ve görselleri saklayın. Arayın, yapıştırın, PC ile eşitleyin.",
+      "tagline": "Kopyaladığınızı kaybetmeyin — her metin ve görsel aranabilir bir geçmişte",
+      "long": "Clipboard+, kopyaladığınız her metni ve görseli en yeniden başlayarak aranabilir bir geçmişte tutan bir Android pano yöneticisidir. Android 10'dan bu yana hiçbir uygulama panoyu arka planda okuyamaz; bu yüzden Clipboard+ kopyaladığınızı etkin hale geldiği anda kaydeder: uygulamayı açtığınızda, yüzen panele dokunduğunuzda veya widget'ı kullandığınızda — ya da metin seçim menüsünde Clipboard+ öğesine dokunduğunuzda hemen. Boyutu ayarlanabilen kayan bir pencere sayesinde uygulama değiştirmeden herhangi bir ekrandan pano geçmişinize ulaşabilirsiniz. Sık kullandığınız metinleri snippet'ler ve gruplar halinde düzenleyin; anahtar kelime aramasıyla, ana ekran widget'ıyla ve bildirim paneliyle istediğiniz kaydı hızla yapıştırın. Geçmişinizi PDF olarak dışa aktarabilir, kayıtlarınızı istediğiniz zaman yedekleyip geri yükleyebilirsiniz. Clipboard+ for Windows ile birlikte kullandığınızda telefonda kopyaladığınızı bilgisayarda, bilgisayarda kopyaladığınızı telefonda yapıştırırsınız. Bunun için her iki uygulamada da aynı hesapla Google Drive'a giriş yapmanız yeterli; kopyaladıklarınız hiçbir CodeDAC sunucusundan geçmez, yalnızca kendi Google Drive'ınızda saklanır.",
       "features": [
-        "Kopyalanan metinleri ve görselleri gerçek zamanlı otomatik kaydeder",
+        "Kopyalanan her metin ve görsel, en yeniden başlayarak aranabilir bir geçmişte",
         "Her uygulamanın üzerinde kullanılabilen, boyutu ayarlanabilir kayan pencere",
         "Sık kullanılan metinleri snippet'ler ve gruplar halinde düzenleyin",
         "Anahtar kelime, metin, görsel veya tarihe göre anında arama ve filtreleme",
-        "Widget, Hızlı Ayarlar döşemesi ve bildirim paneli ile hızlı yapıştırma",
+        "Ana ekran widget'ı ve bildirim panelinden hızlı yapıştırma, metin seçim menüsüyle her uygulamadan kaydetme",
         "Kendi Google Drive'ınız üzerinden telefondan bilgisayara çift yönlü senkronizasyon, pano geçmişini PDF'e aktarma, ayrıca yedekleme ve geri yükleme"
       ],
       "faq": [
         {
-          "q": "Pano geçmişim nasıl kaydediliyor?",
-          "a": "Kopyalanan her metin ve görsel gerçek zamanlı olarak otomatik kaydedilir; böylece istediğiniz kaydı ekstra adım olmadan istediğiniz zaman geri getirebilirsiniz."
+          "q": "Kopyaladığım şey ne zaman kaydedilir?",
+          "a": "Android 10'dan bu yana Google, uygulamaların panoyu arka planda okumasını engelliyor ve hiçbir pano yöneticisi bunu aşamaz. Clipboard+ kopyaladığınızı etkin hale geldiği anda kaydeder: uygulamayı açtığınızda, yüzen panele dokunduğunuzda veya widget'ı kullandığınızda. Uygulama değiştirmeden kaydetmek için metni seçin ve seçim menüsünde Clipboard+ öğesine dokunun."
         },
         {
           "q": "Diğer uygulamaları kullanırken pano geçmişime erişebilir miyim?",
@@ -342,14 +342,14 @@
       "seo": "Pano yöneticisi",
       "desc": "Clipboard+ Android uygulamasıyla senkronize olan bir Windows tepsi pano yöneticisi.",
       "tagline": "Kendi Google Drive'ınız üzerinden Android telefonunuzla senkronize olan bir Windows tepsi pano yöneticisi.",
-      "long": "Clipboard+ for Windows, kopyaladığınız metinleri ve görselleri otomatik olarak kaydeden, tepside yerleşik bir pano yöneticisidir. Her şey kopyaladığınız anda kaydedilir; yanlışlıkla üzerine yazsanız bile önceki içeriği geri çağırıp yapıştırabilirsiniz. Android Clipboard+ uygulamasıyla birlikte kullandığınızda telefonda kopyaladığınızı bilgisayarda, bilgisayarda kopyaladığınızı telefonda yapıştırırsınız. Kopyaladıklarınız hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Kaydedilenleri gruplar ve snippet'ler halinde düzenleyip arayabilirsiniz.",
+      "long": "Clipboard+ for Windows, kopyaladığınız metinleri ve görselleri otomatik olarak kaydeden, tepside yerleşik bir pano yöneticisidir. Her şey kopyaladığınız anda kaydedilir; yanlışlıkla üzerine yazsanız bile önceki içeriği geri çağırıp yapıştırabilirsiniz. Genel bir kısayol, tam imlecinizin bulunduğu yerde hızlı seçim penceresini açar: Ctrl+1–9 ile bir kaydı seçin, Enter onu yazmakta olduğunuz yere yapıştırır — pencereden çıkmanıza gerek kalmadan. Android Clipboard+ uygulamasıyla birlikte kullandığınızda telefonda kopyaladığınızı bilgisayarda, bilgisayarda kopyaladığınızı telefonda yapıştırırsınız. Kopyaladıklarınız hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Kaydedilenleri gruplar ve snippet'ler halinde düzenleyip arayabilirsiniz.",
       "features": [
         "Tepside durur ve kopyaladığınız anda metinleri ve görselleri otomatik kaydeder — arka planda sürekli yoklama yapmadığı için hafiftir",
         "Kendi Google Drive'ınız üzerinden telefondan bilgisayara çift yönlü senkronizasyon",
         "Açık/koyu temalar, grup kenar çubuğu, snippet'ler ve sabitleme/kopyalama/düzenleme/arama içeren Android tarzı arayüz",
         "Çoklu seçimle toplu taşıma, silme ve birleştirme; en yeni/en eski sıralaması ve tam boyutlu görsel görüntüleyici",
-        "Pencereyi açmak ve diğer uygulamalarda seçili metni anında yakalamak için global kısayol tuşları, ayrıca başlangıçta çalıştırma",
-        "Android Clipboard+ yedekleme biçimiyle uyumlu dışa/içe aktarma"
+        "Genel kısayolla imlecin yanında açılan hızlı seçim penceresi, ayrıca pencereyi açma ve diğer uygulamalarda seçili metni alma kısayolları ile Windows'la birlikte başlatma",
+        "Android Clipboard+ yedek biçimiyle uyumlu dışa/içe aktarma ve PDF dışa aktarma"
       ],
       "faq": [
         {
@@ -361,8 +361,8 @@
           "a": "Kopyalama geçmişi varsayılan olarak yalnızca bilgisayarınızda tutulur (%APPDATA%\\ClipboardPlus klasörü). Senkronizasyonu açarsanız kendi Google Drive'ınızdaki uygulamaya özel alanda da saklanır; bu alan Drive ekranınızda görünmez ve Clipboard+ dışında hiçbir şey onu açamaz. Uygulama yalnızca bu özel alanı kullandığı için Drive'daki diğer fotoğraf ve belgelerinize erişemez."
         },
         {
-          "q": "Senkronizasyonu etkinleştirmek için neye ihtiyacım var?",
-          "a": "Android uygulamasının ve Windows uygulamasının ayarlarında aynı hesapla Google Drive'a giriş yapın, ardından otomatik senkronizasyonu açın. Bundan sonra iki cihazın panosu kendiliğinden senkron kalır."
+          "q": "Ücretsiz olarak neler var, Pro neler ekliyor?",
+          "a": "Pano geçmişi, kesitler ve gruplar, arama, hızlı seçim penceresi ile açık ve koyu temaların tümü ücretsizdir. Pro; Google Drive eşitlemesi, görsel kayıtları panoya kopyalama, PDF dışa aktarma, yedek içe aktarma, sınırsız grup ve sınırsız görsel depolama ekler — ücretsiz sürümde görsel depolama 50 MB ile sınırlıdır."
         }
       ]
     },

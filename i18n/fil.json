@@ -66,21 +66,21 @@
       "name": "Clipboard+",
       "tag": "Clipboard",
       "seo": "Clipboard Manager para sa Android",
-      "desc": "Awtomatikong nagse-save ng clipboard history mo para ma-paste kahit saan, anumang oras.",
-      "tagline": "Awtomatikong i-save ang bawat kopya gamit ang pinakamatalinong clipboard manager para sa Android",
-      "long": "Ang Clipboard+ ay isang clipboard manager para sa Android na awtomatikong nagse-save ng bawat kinopyang teksto at larawan nang real time. Isang resizable na floating overlay ang tutulong sa iyong maabot ang clipboard history mo mula sa anumang screen nang hindi lumilipat ng app. Ayusin ang madalas gamitin na teksto sa mga snippet at grupo, at i-paste agad ang anumang clip gamit ang keyword search, isang home screen widget, at ang notification panel. Maaari mo ring i-export ang history mo sa PDF at i-back up o i-restore ang mga clip mo anumang oras. Kapag ginamit kasabay ng Clipboard+ for Windows, ang kinopya mo sa telepono ay maipa-paste mo sa PC, at ang kinopya mo sa PC ay maipa-paste mo sa telepono. Kailangan mo lang mag-sign in sa Google Drive gamit ang iisang account sa dalawang app; hindi dumadaan sa anumang server ng CodeDAC ang kinokopya mo — nakaimbak lamang ito sa sarili mong Google Drive.",
+      "desc": "I-save ang bawat kinopyang teksto at larawan. Hanapin, i-paste, i-sync sa PC.",
+      "tagline": "Huwag nang mawala ang kinopya mo — bawat teksto at larawan sa history na masasaliksik",
+      "long": "Ang Clipboard+ ay isang clipboard manager para sa Android na nag-iingat ng bawat kinopyang teksto at larawan sa isang history na masasaliksik, pinakabago muna. Mula Android 10 ay wala nang app na makakabasa ng clipboard sa background, kaya sine-save ng Clipboard+ ang kinopya mo sa sandaling maging aktibo ito — kapag binuksan mo ang app, tinapik ang floating panel, o ginamit ang widget — o agad-agad kapag tinapik mo ang Clipboard+ sa text selection menu. Isang resizable na floating overlay ang tutulong sa iyong maabot ang clipboard history mo mula sa anumang screen nang hindi lumilipat ng app. Ayusin ang madalas gamitin na teksto sa mga snippet at grupo, at i-paste agad ang anumang clip gamit ang keyword search, isang home screen widget, at ang notification panel. Maaari mo ring i-export ang history mo sa PDF at i-back up o i-restore ang mga clip mo anumang oras. Kapag ginamit kasabay ng Clipboard+ for Windows, ang kinopya mo sa telepono ay maipa-paste mo sa PC, at ang kinopya mo sa PC ay maipa-paste mo sa telepono. Kailangan mo lang mag-sign in sa Google Drive gamit ang iisang account sa dalawang app; hindi dumadaan sa anumang server ng CodeDAC ang kinokopya mo — nakaimbak lamang ito sa sarili mong Google Drive.",
       "features": [
-        "Awtomatikong i-save ang kinopyang teksto at larawan nang real time",
+        "Bawat kinopyang teksto at larawan sa isang history na masasaliksik, pinakabago muna",
         "Resizable na floating overlay para magamit sa ibabaw ng anumang app",
         "Ayusin ang madalas gamitin na teksto sa mga snippet at grupo",
         "Agarang paghahanap at pag-filter ayon sa keyword, teksto, larawan, o petsa",
-        "Mabilis na pag-paste gamit ang widget, Quick Settings tile, at notification panel",
+        "Mabilis na paste mula sa home screen widget at notification panel, at pag-save mula sa anumang app gamit ang text selection menu",
         "Bidirectional na sync ng phone-to-PC sa pamamagitan ng sarili mong Google Drive, i-export ang clipboard history sa PDF, kasama ang backup at restore"
       ],
       "faq": [
         {
-          "q": "Paano nase-save ang aking clipboard history?",
-          "a": "Ang bawat kinopyang teksto at larawan ay awtomatikong nase-save nang real time, kaya makukuha mo ulit ang anumang clip anumang oras nang walang dagdag na hakbang."
+          "q": "Kailan nase-save ang kinokopya ko?",
+          "a": "Mula Android 10, hinaharangan ng Google ang mga app sa pagbabasa ng clipboard sa background at walang clipboard manager ang makakalusot dito. Sine-save ng Clipboard+ ang kinopya mo sa sandaling maging aktibo ito — kapag binuksan mo ang app, tinapik ang panel, o ginamit ang widget. Para makapag-save nang hindi lumilipat ng app, piliin ang teksto at i-tap ang Clipboard+ sa selection menu."
         },
         {
           "q": "Maa-access ko ba ang clipboard history ko habang gumagamit ng ibang app?",
@@ -342,14 +342,14 @@
       "seo": "PC Clipboard Manager",
       "desc": "Isang Windows tray clipboard manager na naka-sync sa Clipboard+ Android app.",
       "tagline": "Isang Windows tray clipboard manager na naka-sync sa Android phone mo sa pamamagitan ng sarili mong Google Drive.",
-      "long": "Ang Clipboard+ for Windows ay isang clipboard manager na nakatira sa tray at awtomatikong nagse-save ng teksto at larawang kinokopya mo. Naitatala ang lahat sa mismong sandali ng pagkopya, kaya kahit hindi mo sinasadyang mapatungan ito, mababawi mo pa rin ang naunang laman at maipa-paste muli. Kapag ginamit kasabay ng Android Clipboard+ app, ang kinopya mo sa telepono ay maipa-paste mo sa PC, at ang kinopya mo sa PC ay maipa-paste mo sa telepono. Hindi dumadaan sa anumang server ng CodeDAC ang kinokopya mo — nakaimbak lamang ito sa sarili mong Google Drive. Ang mga naka-save ay maaaring ayusin sa mga grupo at snippet at hanapin.",
+      "long": "Ang Clipboard+ for Windows ay isang clipboard manager na nakatira sa tray at awtomatikong nagse-save ng teksto at larawang kinokopya mo. Naitatala ang lahat sa mismong sandali ng pagkopya, kaya kahit hindi mo sinasadyang mapatungan ito, mababawi mo pa rin ang naunang laman at maipa-paste muli. May global hotkey na nagbubukas ng quick-pick popup mismo sa kinaroroonan ng cursor: pumili ng clip gamit ang Ctrl+1–9 at ipa-paste ito ng Enter sa mismong pinagta-type mo, nang hindi umaalis sa window. Kapag ginamit kasabay ng Android Clipboard+ app, ang kinopya mo sa telepono ay maipa-paste mo sa PC, at ang kinopya mo sa PC ay maipa-paste mo sa telepono. Hindi dumadaan sa anumang server ng CodeDAC ang kinokopya mo — nakaimbak lamang ito sa sarili mong Google Drive. Ang mga naka-save ay maaaring ayusin sa mga grupo at snippet at hanapin.",
       "features": [
         "Nakatira sa tray at nagse-save ng teksto at larawan sa mismong sandali ng pagkopya — hindi kailangang tuloy-tuloy na sumilip sa background, kaya magaan ito",
         "Bidirectional na sync ng phone-to-PC sa pamamagitan ng sarili mong Google Drive",
         "Android-style na UI na may light/dark theme, group sidebar, snippet, at pin/copy/edit/search",
         "Multi-select na bulk move, delete, at merge, newest/oldest na sorting, at isang full-size na image viewer",
-        "Global hotkey para buksan ang window at agad na kunin ang teksto na napili sa ibang app, kasama ang run-at-startup",
-        "Export/import na compatible sa backup format ng Android Clipboard+"
+        "Quick-pick popup sa cursor gamit ang global hotkey, saka mga hotkey para buksan ang window at kunin ang tekstong napili sa ibang app, at pagtakbo kasabay ng pagbukas ng Windows",
+        "Export/import na tugma sa backup format ng Android Clipboard+, at PDF export"
       ],
       "faq": [
         {
@@ -361,8 +361,8 @@
           "a": "Ang kasaysayan ng kinopya ay nananatili sa PC mo lamang bilang default (sa folder na %APPDATA%\\ClipboardPlus). Kapag in-on mo ang sync, naiimbak din ito sa isang pribadong bahagi ng app sa sarili mong Google Drive — isang bahaging hindi lumalabas sa screen ng Drive at hindi mabubuksan ng kahit ano maliban sa Clipboard+. Ang app ay gumagamit lamang ng pribadong bahaging iyon, kaya hindi nito maaabot ang iba mong larawan o dokumento sa Drive."
         },
         {
-          "q": "Ano ang kailangan ko para i-enable ang sync?",
-          "a": "Sa settings ng Android app at ng Windows app, mag-sign in sa Google Drive gamit ang iisang account, tapos i-on ang automatic sync. Pagkatapos noon, kusa nang mananatiling naka-sync ang clipboard ng dalawang device."
+          "q": "Ano ang libre at ano ang idinaragdag ng Pro?",
+          "a": "Libre ang clipboard history, ang mga snippet at grupo, ang paghahanap, ang quick-pick popup, at ang light at dark theme. Idinaragdag ng Pro ang Google Drive sync, ang pagkopya ng mga image clip pabalik sa clipboard, ang PDF export, ang pag-import ng backup, walang limitasyong grupo, at walang limitasyong imbakan ng larawan — sa libreng bersyon ay 50 MB ang hangganan ng imbakan ng larawan."
         }
       ]
     },

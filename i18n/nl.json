@@ -66,21 +66,21 @@
       "name": "Clipboard+",
       "tag": "Klembord",
       "seo": "Klembordmanager voor Android",
-      "desc": "Slaat je klembordgeschiedenis automatisch op, zodat je altijd en overal kunt plakken.",
-      "tagline": "Sla elke kopie automatisch op – met de slimste klembordmanager voor Android",
-      "long": "Clipboard+ is een klembordmanager voor Android die elke gekopieerde tekst en afbeelding automatisch in realtime opslaat. Een schaalbaar zwevend overlay laat je je klembordgeschiedenis vanaf elk scherm bereiken zonder van app te wisselen. Orden veelgebruikte teksten in snippets en groepen en plak elk item razendsnel – met trefwoordzoeken, een widget op het startscherm en het meldingenpaneel. Je kunt je geschiedenis ook exporteren naar PDF en je items op elk moment back-uppen of herstellen. Gebruik je hem samen met Clipboard+ for Windows, dan plak je op je pc wat je op je telefoon hebt gekopieerd, en op je telefoon wat je op je pc hebt gekopieerd. Je meldt je daarvoor in beide apps met hetzelfde account aan bij Google Drive; wat je kopieert gaat langs geen enkele CodeDAC-server: het wordt alleen in je eigen Google Drive bewaard.",
+      "desc": "Klembordgeschiedenis voor tekst en beeld. Zoeken, plakken en syncen met pc.",
+      "tagline": "Verlies nooit meer wat je kopieerde – elke tekst en afbeelding in een doorzoekbare geschiedenis",
+      "long": "Clipboard+ is een klembordmanager voor Android die elke gekopieerde tekst en afbeelding bewaart in een doorzoekbare geschiedenis, het nieuwste bovenaan. Sinds Android 10 mag geen enkele app het klembord op de achtergrond lezen, dus bewaart Clipboard+ wat je kopieerde zodra het actief wordt: bij het openen van de app, bij een tik op het zwevende paneel of bij gebruik van de widget – of meteen, als je in het selectiemenu op Clipboard+ tikt. Een schaalbaar zwevend overlay laat je je klembordgeschiedenis vanaf elk scherm bereiken zonder van app te wisselen. Orden veelgebruikte teksten in snippets en groepen en plak elk item razendsnel – met trefwoordzoeken, een widget op het startscherm en het meldingenpaneel. Je kunt je geschiedenis ook exporteren naar PDF en je items op elk moment back-uppen of herstellen. Gebruik je hem samen met Clipboard+ for Windows, dan plak je op je pc wat je op je telefoon hebt gekopieerd, en op je telefoon wat je op je pc hebt gekopieerd. Je meldt je daarvoor in beide apps met hetzelfde account aan bij Google Drive; wat je kopieert gaat langs geen enkele CodeDAC-server: het wordt alleen in je eigen Google Drive bewaard.",
       "features": [
-        "Gekopieerde teksten en afbeeldingen automatisch in realtime opslaan",
+        "Elke gekopieerde tekst en afbeelding in een doorzoekbare geschiedenis, het nieuwste bovenaan",
         "Schaalbaar zwevend overlay voor gebruik over elke app",
         "Veelgebruikte teksten ordenen in snippets en groepen",
         "Direct zoeken en filteren op trefwoord, tekst, afbeelding of datum",
-        "Snel plakken via widget, Snelle-instellingen-tegel en meldingenpaneel",
+        "Snel plakken via de widget en het meldingenpaneel, en opslaan vanuit elke app via het selectiemenu",
         "Tweerichtingssynchronisatie telefoon-pc via je eigen Google Drive, klembordgeschiedenis exporteren naar PDF, plus back-up en herstel"
       ],
       "faq": [
         {
-          "q": "Hoe wordt mijn klembordgeschiedenis opgeslagen?",
-          "a": "Elke gekopieerde tekst en afbeelding wordt automatisch in realtime opgeslagen, zodat je elk item op elk moment zonder extra stappen weer kunt oproepen."
+          "q": "Wanneer wordt bewaard wat ik kopieer?",
+          "a": "Sinds Android 10 verbiedt Google apps om het klembord op de achtergrond te lezen, en geen enkel klembordbeheer kan daaromheen. Clipboard+ bewaart wat je kopieerde zodra het actief wordt: bij het openen van de app, bij een tik op het zwevende paneel of bij gebruik van de widget. Wil je bewaren zonder van app te wisselen, selecteer de tekst en tik op Clipboard+ in het selectiemenu."
         },
         {
           "q": "Kan ik mijn klembordgeschiedenis ook bekijken terwijl ik andere apps gebruik?",
@@ -342,14 +342,14 @@
       "seo": "Klembordmanager Windows",
       "desc": "Een Windows-klembordmanager in het systeemvak die synchroniseert met de Android-app Clipboard+.",
       "tagline": "Een Windows-klembordmanager in het systeemvak die via je eigen Google Drive synchroniseert met je Android-telefoon.",
-      "long": "Clipboard+ for Windows is een klembordmanager die in het systeemvak zit en de teksten en afbeeldingen die je kopieert automatisch opslaat. Alles wordt vastgelegd op het moment dat je kopieert, dus als je per ongeluk iets overschrijft, haal je het vorige item gewoon terug en plak je het opnieuw. Gebruik je hem samen met de Android-app Clipboard+, dan plak je op je pc wat je op je telefoon hebt gekopieerd, en op je telefoon wat je op je pc hebt gekopieerd. Wat je kopieert gaat langs geen enkele CodeDAC-server: het wordt alleen in je eigen Google Drive bewaard. Wat is opgeslagen kun je ordenen in groepen en snippets en doorzoeken.",
+      "long": "Clipboard+ for Windows is een klembordmanager die in het systeemvak zit en de teksten en afbeeldingen die je kopieert automatisch opslaat. Alles wordt vastgelegd op het moment dat je kopieert, dus als je per ongeluk iets overschrijft, haal je het vorige item gewoon terug en plak je het opnieuw. Een globale sneltoets opent een snelkeuzevenster precies waar je cursor staat: kies een item met Ctrl+1–9 en Enter plakt het waar je aan het typen was, zonder het venster te verlaten. Gebruik je hem samen met de Android-app Clipboard+, dan plak je op je pc wat je op je telefoon hebt gekopieerd, en op je telefoon wat je op je pc hebt gekopieerd. Wat je kopieert gaat langs geen enkele CodeDAC-server: het wordt alleen in je eigen Google Drive bewaard. Wat is opgeslagen kun je ordenen in groepen en snippets en doorzoeken.",
       "features": [
         "Zit in het systeemvak en slaat teksten en afbeeldingen op zodra je ze kopieert — hoeft niet voortdurend op de achtergrond te kijken en blijft daardoor licht",
         "Bidirectionele synchronisatie van telefoon naar pc via je eigen Google Drive",
         "UI in Android-stijl met lichte/donkere thema's, groepszijbalk, snippets en vastmaken/kopiëren/bewerken/zoeken",
         "Meervoudige selectie om in bulk te verplaatsen, verwijderen en samen te voegen, sorteren op nieuwste/oudste en een beeldviewer op ware grootte",
-        "Globale sneltoetsen om het venster te openen en direct in andere apps geselecteerde tekst vast te leggen, plus automatisch starten",
-        "Export/import compatibel met het back-upformaat van de Android-app Clipboard+"
+        "Snelkeuzevenster bij de cursor via een globale sneltoets, plus sneltoetsen om het venster te openen en geselecteerde tekst uit andere apps over te nemen, en meestarten met Windows",
+        "Export/import compatibel met het back-upformaat van Clipboard+ voor Android, plus PDF-export"
       ],
       "faq": [
         {
@@ -361,8 +361,8 @@
           "a": "Je kopieergeschiedenis blijft standaard alleen op je pc staan (in de map %APPDATA%\\ClipboardPlus). Zet je de synchronisatie aan, dan staat ze ook in een app-privé gedeelte van je eigen Google Drive — een gedeelte dat niet in je Drive-scherm verschijnt en dat niets anders dan Clipboard+ kan openen. De app gebruikt alleen dat privégedeelte en kan dus niet bij je andere foto's of documenten op Drive."
         },
         {
-          "q": "Wat heb ik nodig om de synchronisatie in te schakelen?",
-          "a": "Meld je in de instellingen van de Android-app en van de Windows-app met hetzelfde account aan bij Google Drive en zet daarna de automatische synchronisatie aan. Vanaf dat moment blijven de klemborden van beide apparaten vanzelf synchroon."
+          "q": "Wat is gratis en wat voegt Pro toe?",
+          "a": "De klembordgeschiedenis, fragmenten en groepen, zoeken, het snelkeuzevenster en het lichte en donkere thema zijn allemaal gratis. Pro voegt Google Drive-synchronisatie toe, het kopiëren van afbeeldingsitems naar het klembord, PDF-export, het importeren van back-ups, onbeperkte groepen en onbeperkte afbeeldingsopslag – gratis is de afbeeldingsopslag 50 MB."
         }
       ]
     },

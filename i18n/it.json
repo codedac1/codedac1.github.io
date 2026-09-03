@@ -66,21 +66,21 @@
       "name": "Clipboard+",
       "tag": "Appunti",
       "seo": "gestore degli appunti Android",
-      "desc": "Salva automaticamente la cronologia degli appunti per incollare ovunque, in qualsiasi momento.",
-      "tagline": "Salva automaticamente ogni copia con il gestore degli appunti più intelligente per Android",
-      "long": "Clipboard+ è un gestore degli appunti per Android che salva automaticamente in tempo reale ogni testo e immagine copiati. Un overlay flottante ridimensionabile ti permette di raggiungere la cronologia degli appunti da qualsiasi schermata, senza cambiare app. Organizza i testi che usi più spesso in snippet e gruppi e incolla qualsiasi elemento in un attimo grazie alla ricerca per parola chiave, a un widget per la schermata home e al pannello delle notifiche. Puoi anche esportare la cronologia in PDF e fare il backup o il ripristino dei tuoi elementi in qualsiasi momento. Usandolo insieme a Clipboard+ for Windows, ciò che copi sul telefono lo incolli sul PC e ciò che copi sul PC lo incolli sul telefono. Basta accedere a Google Drive con lo stesso account in entrambe le app; quello che copi non passa da alcun server CodeDAC: viene salvato solo nel tuo Google Drive.",
+      "desc": "Cronologia appunti per testi e immagini. Cerca, incolla e sincronizza col PC.",
+      "tagline": "Non perdere più ciò che copi: ogni testo e immagine in una cronologia ricercabile",
+      "long": "Clipboard+ è un gestore degli appunti per Android che conserva ogni testo e immagine copiati in una cronologia ricercabile, dal più recente al più vecchio. Da Android 10 nessuna app può leggere gli appunti in background, così Clipboard+ salva ciò che hai copiato nel momento in cui diventa attivo — quando apri l'app, quando tocchi il pannello flottante o quando usi il widget — oppure subito, se tocchi Clipboard+ nel menu di selezione del testo. Un overlay flottante ridimensionabile ti permette di raggiungere la cronologia degli appunti da qualsiasi schermata, senza cambiare app. Organizza i testi che usi più spesso in snippet e gruppi e incolla qualsiasi elemento in un attimo grazie alla ricerca per parola chiave, a un widget per la schermata home e al pannello delle notifiche. Puoi anche esportare la cronologia in PDF e fare il backup o il ripristino dei tuoi elementi in qualsiasi momento. Usandolo insieme a Clipboard+ for Windows, ciò che copi sul telefono lo incolli sul PC e ciò che copi sul PC lo incolli sul telefono. Basta accedere a Google Drive con lo stesso account in entrambe le app; quello che copi non passa da alcun server CodeDAC: viene salvato solo nel tuo Google Drive.",
       "features": [
-        "Salvataggio automatico di testi e immagini copiati in tempo reale",
+        "Ogni testo e immagine copiati in una cronologia ricercabile, dal più recente",
         "Overlay flottante ridimensionabile per l'uso sopra qualsiasi app",
         "Organizzazione dei testi frequenti in snippet e gruppi",
         "Ricerca e filtro immediati per parola chiave, testo, immagine o data",
-        "Incolla rapido tramite widget, riquadro delle Impostazioni rapide e pannello delle notifiche",
+        "Incolla rapido dal widget e dal pannello delle notifiche, e salvataggio da qualsiasi app con il menu di selezione del testo",
         "Sincronizzazione bidirezionale telefono-PC tramite il tuo Google Drive, esportazione della cronologia degli appunti in PDF, oltre a backup e ripristino"
       ],
       "faq": [
         {
-          "q": "Come viene salvata la cronologia degli appunti?",
-          "a": "Ogni testo e immagine copiati vengono salvati automaticamente in tempo reale, così puoi recuperare qualsiasi elemento quando vuoi senza passaggi aggiuntivi."
+          "q": "Quando viene salvato ciò che copio?",
+          "a": "Da Android 10 Google impedisce alle app di leggere gli appunti in background e nessun gestore può aggirarlo. Clipboard+ salva ciò che hai copiato nel momento in cui diventa attivo: quando apri l'app, quando tocchi il pannello flottante o quando usi il widget. Per salvare senza cambiare app, seleziona il testo e tocca Clipboard+ nel menu di selezione."
         },
         {
           "q": "Posso accedere alla cronologia degli appunti mentre uso altre app?",
@@ -342,14 +342,14 @@
       "seo": "gestore appunti Windows",
       "desc": "Un gestore degli appunti per Windows nella barra delle applicazioni che si sincronizza con l'app Android Clipboard+.",
       "tagline": "Un gestore degli appunti per Windows nella barra delle applicazioni che si sincronizza con il tuo telefono Android tramite il tuo Google Drive.",
-      "long": "Clipboard+ for Windows è un gestore degli appunti residente nella barra delle applicazioni che salva automaticamente i testi e le immagini che copi. Tutto viene registrato nell'istante in cui copi, così anche se sovrascrivi qualcosa per sbaglio puoi recuperare l'elemento precedente e incollarlo di nuovo. Usandolo insieme all'app Android Clipboard+, ciò che copi sul telefono lo incolli sul PC e ciò che copi sul PC lo incolli sul telefono. Quello che copi non passa da alcun server CodeDAC: viene salvato solo nel tuo Google Drive. Ciò che è salvato si può organizzare in gruppi e snippet e cercare.",
+      "long": "Clipboard+ for Windows è un gestore degli appunti residente nella barra delle applicazioni che salva automaticamente i testi e le immagini che copi. Tutto viene registrato nell'istante in cui copi, così anche se sovrascrivi qualcosa per sbaglio puoi recuperare l'elemento precedente e incollarlo di nuovo. Una scorciatoia globale apre una finestra di selezione rapida proprio dove si trova il cursore: scegli un elemento con Ctrl+1–9 e Invio lo incolla dove stavi scrivendo, senza uscire dalla finestra. Usandolo insieme all'app Android Clipboard+, ciò che copi sul telefono lo incolli sul PC e ciò che copi sul PC lo incolli sul telefono. Quello che copi non passa da alcun server CodeDAC: viene salvato solo nel tuo Google Drive. Ciò che è salvato si può organizzare in gruppi e snippet e cercare.",
       "features": [
         "Resta nella barra delle applicazioni e salva testi e immagini nell'istante in cui li copi — non deve controllare di continuo in background, quindi resta leggero",
         "Sincronizzazione bidirezionale telefono-PC tramite il tuo Google Drive",
         "Interfaccia in stile Android con temi chiaro/scuro, barra laterale dei gruppi, snippet e funzioni di aggiungi/copia/modifica/cerca",
         "Selezione multipla per spostare, eliminare e unire in blocco, ordinamento dal più recente/più vecchio e visualizzatore di immagini a dimensione piena",
-        "Tasti di scelta rapida globali per aprire la finestra e catturare all'istante il testo selezionato in altre app, oltre all'avvio automatico all'accensione",
-        "Esportazione/importazione compatibile con il formato di backup di Android Clipboard+"
+        "Finestra di selezione rapida al cursore con una scorciatoia globale, più scorciatoie per aprire la finestra e catturare il testo selezionato in altre app, e avvio automatico",
+        "Esportazione/importazione compatibile con il formato di backup di Clipboard+ per Android, ed esportazione in PDF"
       ],
       "faq": [
         {
@@ -361,8 +361,8 @@
           "a": "La cronologia delle copie resta per impostazione predefinita solo sul tuo PC (nella cartella %APPDATA%\\ClipboardPlus). Se attivi la sincronizzazione viene salvata anche in uno spazio privato dell'app nel tuo Google Drive: uno spazio che non compare nella schermata di Drive e che nulla al di fuori di Clipboard+ può aprire. L'app usa solo quello spazio privato, quindi non può accedere alle tue altre foto o documenti su Drive."
         },
         {
-          "q": "Cosa mi serve per attivare la sincronizzazione?",
-          "a": "Nelle impostazioni dell'app Android e dell'app Windows accedi a Google Drive con lo stesso account, poi attiva la sincronizzazione automatica. Da quel momento gli appunti dei due dispositivi restano sincronizzati da soli."
+          "q": "Che cosa è gratis e che cosa aggiunge Pro?",
+          "a": "La cronologia degli appunti, i frammenti e i gruppi, la ricerca, la finestra di selezione rapida e i temi chiaro e scuro sono gratuiti. Pro aggiunge la sincronizzazione con Google Drive, la copia degli elementi immagine negli appunti, l'esportazione in PDF, l'importazione dei backup, gruppi illimitati e spazio illimitato per le immagini: nella versione gratuita lo spazio per le immagini è di 50 MB."
         }
       ]
     },

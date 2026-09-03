@@ -66,21 +66,21 @@
       "name": "Clipboard+",
       "tag": "Schowek",
       "seo": "Menedżer schowka na Androida",
-      "desc": "Automatycznie zapisuje historię schowka, byś mógł wkleić ją wszędzie i o każdej porze.",
-      "tagline": "Automatycznie zapisuj każdą kopię dzięki najinteligentniejszemu menedżerowi schowka na Androida",
-      "long": "Clipboard+ to menedżer schowka na Androida, który w czasie rzeczywistym automatycznie zapisuje każdy skopiowany tekst i obraz. Skalowalna pływająca nakładka pozwala sięgnąć po historię schowka z dowolnego ekranu, bez przełączania aplikacji. Uporządkuj często używane teksty we fragmenty i grupy, a dowolny wpis wklejaj błyskawicznie dzięki wyszukiwaniu słów kluczowych, widżetowi na ekranie głównym i panelowi powiadomień. Historię możesz też wyeksportować do pliku PDF oraz w każdej chwili utworzyć kopię zapasową lub przywrócić swoje wpisy. W parze z Clipboard+ for Windows to, co skopiujesz na telefonie, wkleisz na komputerze, a to, co skopiujesz na komputerze — na telefonie. Wystarczy zalogować się do Dysku Google na to samo konto w obu aplikacjach; kopiowane treści nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google.",
+      "desc": "Historia schowka dla tekstu i obrazów. Szukaj, wklejaj i synchronizuj z PC.",
+      "tagline": "Nie trać tego, co skopiujesz — każdy tekst i obraz w przeszukiwalnej historii",
+      "long": "Clipboard+ to menedżer schowka na Androida, który przechowuje każdy skopiowany tekst i obraz w przeszukiwalnej historii, od najnowszych. Od Androida 10 żadna aplikacja nie może odczytywać schowka w tle, więc Clipboard+ zapisuje skopiowaną treść w chwili, gdy staje się aktywny: po otwarciu aplikacji, po dotknięciu pływającego panelu albo przy użyciu widżetu — lub od razu, gdy dotkniesz Clipboard+ w menu zaznaczenia tekstu. Skalowalna pływająca nakładka pozwala sięgnąć po historię schowka z dowolnego ekranu, bez przełączania aplikacji. Uporządkuj często używane teksty we fragmenty i grupy, a dowolny wpis wklejaj błyskawicznie dzięki wyszukiwaniu słów kluczowych, widżetowi na ekranie głównym i panelowi powiadomień. Historię możesz też wyeksportować do pliku PDF oraz w każdej chwili utworzyć kopię zapasową lub przywrócić swoje wpisy. W parze z Clipboard+ for Windows to, co skopiujesz na telefonie, wkleisz na komputerze, a to, co skopiujesz na komputerze — na telefonie. Wystarczy zalogować się do Dysku Google na to samo konto w obu aplikacjach; kopiowane treści nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google.",
       "features": [
-        "Automatyczny zapis kopiowanych tekstów i obrazów w czasie rzeczywistym",
+        "Każdy skopiowany tekst i obraz w przeszukiwalnej historii, od najnowszych",
         "Skalowalna pływająca nakładka do korzystania nad dowolną aplikacją",
         "Porządkowanie często używanych tekstów we fragmenty i grupy",
         "Natychmiastowe wyszukiwanie i filtrowanie według słowa kluczowego, tekstu, obrazu lub daty",
-        "Szybkie wklejanie dzięki widżetowi, kafelkowi Szybkich ustawień i panelowi powiadomień",
+        "Szybkie wklejanie z widżetu i panelu powiadomień oraz zapis z dowolnej aplikacji przez menu zaznaczenia tekstu",
         "Dwukierunkowa synchronizacja telefon–komputer przez Twój własny Dysk Google, eksport historii schowka do pliku PDF oraz kopia zapasowa i przywracanie"
       ],
       "faq": [
         {
-          "q": "Jak zapisywana jest moja historia schowka?",
-          "a": "Każdy skopiowany tekst i obraz jest zapisywany automatycznie w czasie rzeczywistym, więc w każdej chwili możesz przywołać dowolny wpis bez dodatkowych czynności."
+          "q": "Kiedy zapisywane jest to, co kopiuję?",
+          "a": "Od Androida 10 Google blokuje aplikacjom odczyt schowka w tle i żaden menedżer schowka tego nie obejdzie. Clipboard+ zapisuje skopiowaną treść w chwili, gdy staje się aktywny: po otwarciu aplikacji, po dotknięciu pływającego panelu albo przy użyciu widżetu. Aby zapisać bez przełączania aplikacji, zaznacz tekst i dotknij Clipboard+ w menu zaznaczenia."
         },
         {
           "q": "Czy mogę korzystać z historii schowka podczas używania innych aplikacji?",
@@ -342,14 +342,14 @@
       "seo": "Menedżer schowka Windows",
       "desc": "Menedżer schowka w zasobniku Windows, który synchronizuje się z aplikacją Clipboard+ na Androida.",
       "tagline": "Menedżer schowka w zasobniku Windows, który synchronizuje się z Twoim telefonem z Androidem przez Twój własny Dysk Google.",
-      "long": "Clipboard+ for Windows to menedżer schowka rezydujący w zasobniku systemowym, który automatycznie zapisuje kopiowane teksty i obrazy. Wszystko zostaje zapisane w chwili kopiowania, więc nawet jeśli przypadkiem nadpiszesz schowek, możesz przywrócić poprzednią pozycję i wkleić ją ponownie. W parze z aplikacją Clipboard+ na Androida to, co skopiujesz na telefonie, wkleisz na komputerze, a to, co skopiujesz na komputerze — na telefonie. Kopiowane treści nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Zapisane wpisy możesz porządkować w grupy i fragmenty oraz przeszukiwać.",
+      "long": "Clipboard+ for Windows to menedżer schowka rezydujący w zasobniku systemowym, który automatycznie zapisuje kopiowane teksty i obrazy. Wszystko zostaje zapisane w chwili kopiowania, więc nawet jeśli przypadkiem nadpiszesz schowek, możesz przywrócić poprzednią pozycję i wkleić ją ponownie. Skrót globalny otwiera okno szybkiego wyboru dokładnie tam, gdzie stoi kursor: wybierz wpis klawiszami Ctrl+1–9, a Enter wklei go w miejscu, w którym pisałeś, bez opuszczania okna. W parze z aplikacją Clipboard+ na Androida to, co skopiujesz na telefonie, wkleisz na komputerze, a to, co skopiujesz na komputerze — na telefonie. Kopiowane treści nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Zapisane wpisy możesz porządkować w grupy i fragmenty oraz przeszukiwać.",
       "features": [
         "Rezyduje w zasobniku i zapisuje teksty oraz obrazy w chwili skopiowania — nie musi stale sprawdzać schowka w tle, więc pozostaje lekki",
         "Dwukierunkowa synchronizacja telefon–komputer przez Twój własny Dysk Google",
         "Interfejs w stylu Androida z jasnym/ciemnym motywem, paskiem bocznym grup, fragmentami oraz przypinaniem/kopiowaniem/edycją/wyszukiwaniem",
         "Zbiorcze przenoszenie, usuwanie i scalanie wielu zaznaczonych elementów, sortowanie od najnowszych/najstarszych oraz podgląd obrazu w pełnym rozmiarze",
-        "Globalne skróty klawiszowe do otwierania okna i natychmiastowego przechwytywania tekstu zaznaczonego w innych aplikacjach, plus uruchamianie przy starcie systemu",
-        "Eksport/import zgodny z formatem kopii zapasowej Clipboard+ na Androida"
+        "Okno szybkiego wyboru przy kursorze pod skrótem globalnym, a do tego skróty do otwierania okna i przechwytywania tekstu zaznaczonego w innych aplikacjach oraz uruchamianie wraz z Windows",
+        "Eksport/import zgodny z formatem kopii zapasowej Clipboard+ na Androida oraz eksport do PDF"
       ],
       "faq": [
         {
@@ -361,8 +361,8 @@
           "a": "Historia kopiowania domyślnie pozostaje tylko na Twoim komputerze (w folderze %APPDATA%\\ClipboardPlus). Po włączeniu synchronizacji zapisuje się także w prywatnym obszarze aplikacji na Twoim własnym Dysku Google — obszarze, który nie pojawia się w widoku Dysku i którego nie otworzy nic poza Clipboard+. Aplikacja korzysta wyłącznie z tego obszaru, więc nie sięga do Twoich pozostałych zdjęć ani dokumentów na Dysku."
         },
         {
-          "q": "Czego potrzebuję, aby włączyć synchronizację?",
-          "a": "W ustawieniach aplikacji na Androida i aplikacji na Windows zaloguj się do Dysku Google na to samo konto, a następnie włącz automatyczną synchronizację. Od tej pory schowki obu urządzeń synchronizują się same."
+          "q": "Co jest darmowe, a co dodaje Pro?",
+          "a": "Historia schowka, fragmenty i grupy, wyszukiwanie, okno szybkiego wyboru oraz motyw jasny i ciemny są darmowe. Pro dodaje synchronizację z Dyskiem Google, kopiowanie wpisów graficznych do schowka, eksport do PDF, import kopii zapasowych, nieograniczoną liczbę grup i nieograniczone miejsce na obrazy — w wersji darmowej limit obrazów wynosi 50 MB."
         }
       ]
     },

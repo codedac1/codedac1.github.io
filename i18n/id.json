@@ -66,21 +66,21 @@
       "name": "Clipboard+",
       "tag": "Clipboard",
       "seo": "Pengelola Clipboard Android",
-      "desc": "Menyimpan otomatis riwayat clipboard Anda untuk ditempel di mana saja, kapan saja.",
-      "tagline": "Simpan otomatis setiap salinan dengan pengelola clipboard tercerdas untuk Android",
-      "long": "Clipboard+ adalah pengelola clipboard Android yang secara otomatis menyimpan setiap teks dan gambar yang disalin secara real-time. Overlay mengambang yang bisa diubah ukurannya memungkinkan Anda mengakses riwayat clipboard dari layar mana pun tanpa berpindah aplikasi. Rapikan teks yang sering dipakai ke dalam snippet dan grup, lalu tempel klip apa pun dengan cepat lewat pencarian kata kunci, widget layar utama, dan panel notifikasi. Anda juga bisa mengekspor riwayat ke PDF serta mencadangkan atau memulihkan klip kapan saja. Dipakai bersama Clipboard+ for Windows, apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Cukup masuk ke Google Drive dengan akun yang sama di kedua aplikasi; isi salinan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri.",
+      "desc": "Simpan semua teks dan gambar yang disalin. Cari, tempel, sinkron ke PC.",
+      "tagline": "Jangan kehilangan yang sudah disalin — teks dan gambar dalam riwayat yang bisa dicari",
+      "long": "Clipboard+ adalah pengelola clipboard Android yang menyimpan setiap teks dan gambar yang Anda salin ke dalam riwayat yang bisa dicari, terbaru di atas. Sejak Android 10 tidak ada aplikasi yang boleh membaca papan klip di latar belakang, jadi Clipboard+ menyimpan salinan Anda begitu ia menjadi aktif — saat Anda membuka aplikasi, mengetuk panel melayang, atau memakai widget — atau langsung saat itu juga bila Anda mengetuk Clipboard+ di menu seleksi teks. Overlay mengambang yang bisa diubah ukurannya memungkinkan Anda mengakses riwayat clipboard dari layar mana pun tanpa berpindah aplikasi. Rapikan teks yang sering dipakai ke dalam snippet dan grup, lalu tempel klip apa pun dengan cepat lewat pencarian kata kunci, widget layar utama, dan panel notifikasi. Anda juga bisa mengekspor riwayat ke PDF serta mencadangkan atau memulihkan klip kapan saja. Dipakai bersama Clipboard+ for Windows, apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Cukup masuk ke Google Drive dengan akun yang sama di kedua aplikasi; isi salinan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri.",
       "features": [
-        "Simpan otomatis teks dan gambar yang disalin secara real-time",
+        "Setiap teks dan gambar yang disalin tersimpan dalam riwayat yang bisa dicari, terbaru di atas",
         "Overlay mengambang yang bisa diubah ukurannya untuk dipakai di atas aplikasi apa pun",
         "Rapikan teks yang sering dipakai ke dalam snippet dan grup",
         "Pencarian dan filter instan berdasarkan kata kunci, teks, gambar, atau tanggal",
-        "Tempel cepat lewat widget, tile Setelan Cepat, dan panel notifikasi",
+        "Tempel cepat lewat widget layar utama dan panel notifikasi, serta simpan dari aplikasi mana pun lewat menu seleksi teks",
         "Sinkronisasi dua arah ponsel-ke-PC melalui Google Drive Anda sendiri, ekspor riwayat clipboard ke PDF, plus cadang dan pulihkan"
       ],
       "faq": [
         {
-          "q": "Bagaimana riwayat clipboard saya disimpan?",
-          "a": "Setiap teks dan gambar yang disalin tersimpan otomatis secara real-time, jadi Anda bisa memanggil kembali klip apa pun kapan saja tanpa langkah tambahan."
+          "q": "Kapan salinan saya disimpan?",
+          "a": "Sejak Android 10, Google melarang aplikasi membaca papan klip di latar belakang, dan tidak ada pengelola papan klip yang bisa melewatinya. Clipboard+ menyimpan salinan Anda begitu ia menjadi aktif — saat Anda membuka aplikasi, mengetuk panel melayang, atau memakai widget. Untuk menyimpan tanpa berpindah aplikasi, pilih teksnya lalu ketuk Clipboard+ di menu seleksi."
         },
         {
           "q": "Bisakah saya mengakses riwayat clipboard saat memakai aplikasi lain?",
@@ -342,14 +342,14 @@
       "seo": "Pengelola Clipboard PC",
       "desc": "Pengelola clipboard tray Windows yang tersinkron dengan aplikasi Android Clipboard+.",
       "tagline": "Pengelola clipboard tray Windows yang tersinkron dengan ponsel Android Anda melalui Google Drive Anda sendiri.",
-      "long": "Clipboard+ for Windows adalah pengelola clipboard yang tinggal di tray dan otomatis menyimpan teks serta gambar yang Anda salin. Semuanya tercatat begitu Anda menyalinnya, jadi kalaupun tertimpa tanpa sengaja, isi sebelumnya bisa dipanggil kembali dan ditempel lagi. Dipakai bersama aplikasi Android Clipboard+, apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Isi salinan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Yang tersimpan bisa dirapikan ke dalam grup dan snippet lalu dicari.",
+      "long": "Clipboard+ for Windows adalah pengelola clipboard yang tinggal di tray dan otomatis menyimpan teks serta gambar yang Anda salin. Semuanya tercatat begitu Anda menyalinnya, jadi kalaupun tertimpa tanpa sengaja, isi sebelumnya bisa dipanggil kembali dan ditempel lagi. Pintasan global membuka popup pilih cepat tepat di posisi kursor: pilih klip dengan Ctrl+1–9 lalu Enter menempelkannya ke tempat Anda mengetik, tanpa meninggalkan jendela. Dipakai bersama aplikasi Android Clipboard+, apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Isi salinan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Yang tersimpan bisa dirapikan ke dalam grup dan snippet lalu dicari.",
       "features": [
         "Tinggal di tray dan menyimpan teks serta gambar begitu Anda menyalinnya — tidak perlu terus memeriksa di latar belakang, jadi tetap ringan",
         "Sinkronisasi dua arah ponsel-ke-PC melalui Google Drive Anda sendiri",
         "UI bergaya Android dengan tema terang/gelap, sidebar grup, snippet, dan pin/salin/edit/cari",
         "Pindah, hapus, dan gabung massal multi-pilih, urutan terbaru/terlama, dan penampil gambar ukuran penuh",
-        "Hotkey global untuk membuka jendela dan langsung menangkap teks yang dipilih di aplikasi lain, plus jalan otomatis saat startup",
-        "Ekspor/impor kompatibel dengan format cadangan Android Clipboard+"
+        "Popup pilih cepat di posisi kursor lewat pintasan global, ditambah pintasan untuk membuka jendela dan menangkap teks yang dipilih di aplikasi lain, serta jalan otomatis saat Windows dinyalakan",
+        "Ekspor/impor yang kompatibel dengan format cadangan Clipboard+ Android, plus ekspor PDF"
       ],
       "faq": [
         {
@@ -361,8 +361,8 @@
           "a": "Riwayat salinan secara bawaan hanya tersimpan di PC Anda (folder %APPDATA%\\ClipboardPlus). Jika sinkronisasi diaktifkan, riwayat juga tersimpan di ruang khusus aplikasi dalam Google Drive Anda sendiri — ruang yang tidak tampak di tampilan Drive dan tidak bisa dibuka selain oleh Clipboard+. Aplikasi hanya memakai ruang khusus itu, sehingga tidak bisa menjangkau foto atau dokumen Anda yang lain di Drive."
         },
         {
-          "q": "Apa yang saya butuhkan untuk mengaktifkan sinkronisasi?",
-          "a": "Di pengaturan aplikasi Android dan aplikasi Windows, masuk ke Google Drive dengan akun yang sama, lalu aktifkan sinkronisasi otomatis. Setelah itu, clipboard kedua perangkat tersinkron dengan sendirinya."
+          "q": "Apa yang gratis dan apa yang ditambahkan Pro?",
+          "a": "Riwayat papan klip, cuplikan dan grup, pencarian, popup pilih cepat, serta tema terang dan gelap semuanya gratis. Pro menambahkan sinkronisasi Google Drive, menyalin klip gambar kembali ke papan klip, ekspor PDF, impor cadangan, grup tanpa batas, dan penyimpanan gambar tanpa batas — pada versi gratis penyimpanan gambar dibatasi 50 MB."
         }
       ]
     },

@@ -66,21 +66,21 @@
       "name": "Clipboard+",
       "tag": "Presse-papiers",
       "seo": "Gestionnaire de presse-papiers",
-      "desc": "Enregistre automatiquement l'historique de votre presse-papiers pour coller partout, à tout moment.",
-      "tagline": "Enregistrez automatiquement chaque copie avec le gestionnaire de presse-papiers le plus intelligent pour Android",
-      "long": "Clipboard+ est un gestionnaire de presse-papiers Android qui enregistre automatiquement, en temps réel, chaque texte et image copiés. Une fenêtre flottante redimensionnable vous donne accès à l'historique de votre presse-papiers depuis n'importe quel écran, sans changer d'application. Classez vos textes fréquents en extraits et en groupes, et collez n'importe quel élément rapidement grâce à la recherche par mot-clé, à un widget d'écran d'accueil et au panneau de notifications. Vous pouvez aussi exporter votre historique en PDF, et sauvegarder ou restaurer vos éléments à tout moment. Associé à Clipboard+ for Windows, ce que vous copiez sur votre téléphone se colle sur votre PC, et ce que vous copiez sur votre PC se colle sur votre téléphone. Il suffit de vous connecter à Google Drive avec le même compte dans les deux applis ; les éléments copiés ne transitent par aucun serveur CodeDAC : ils sont enregistrés uniquement dans votre propre Google Drive.",
+      "desc": "Historique du presse-papiers : textes et images. Recherche et sync avec le PC.",
+      "tagline": "Ne perdez plus rien de ce que vous copiez : textes et images dans un historique consultable",
+      "long": "Clipboard+ est un gestionnaire de presse-papiers Android qui conserve chaque texte et image copiés dans un historique consultable, du plus récent au plus ancien. Depuis Android 10, aucune application ne peut lire le presse-papiers en arrière-plan : Clipboard+ enregistre donc ce que vous avez copié dès qu'il devient actif — ouverture de l'appli, appui sur le panneau flottant ou usage du widget — ou immédiatement si vous touchez Clipboard+ dans le menu de sélection de texte. Une fenêtre flottante redimensionnable vous donne accès à l'historique de votre presse-papiers depuis n'importe quel écran, sans changer d'application. Classez vos textes fréquents en extraits et en groupes, et collez n'importe quel élément rapidement grâce à la recherche par mot-clé, à un widget d'écran d'accueil et au panneau de notifications. Vous pouvez aussi exporter votre historique en PDF, et sauvegarder ou restaurer vos éléments à tout moment. Associé à Clipboard+ for Windows, ce que vous copiez sur votre téléphone se colle sur votre PC, et ce que vous copiez sur votre PC se colle sur votre téléphone. Il suffit de vous connecter à Google Drive avec le même compte dans les deux applis ; les éléments copiés ne transitent par aucun serveur CodeDAC : ils sont enregistrés uniquement dans votre propre Google Drive.",
       "features": [
-        "Enregistrement automatique en temps réel des textes et images copiés",
+        "Chaque texte et image copiés dans un historique consultable, du plus récent au plus ancien",
         "Fenêtre flottante redimensionnable pour une utilisation par-dessus toute application",
         "Classement des textes fréquents en extraits et en groupes",
         "Recherche et filtrage instantanés par mot-clé, texte, image ou date",
-        "Collage rapide via widget, tuile de réglages rapides et panneau de notifications",
+        "Collage rapide depuis le widget et le panneau de notifications, et enregistrement depuis n'importe quelle appli via le menu de sélection",
         "Synchronisation bidirectionnelle téléphone-PC via votre propre Google Drive, export de l'historique du presse-papiers en PDF, plus sauvegarde et restauration"
       ],
       "faq": [
         {
-          "q": "Comment mon historique de presse-papiers est-il enregistré ?",
-          "a": "Chaque texte et image copiés sont enregistrés automatiquement en temps réel, ce qui vous permet de récupérer n'importe quel élément à tout moment, sans manipulation supplémentaire."
+          "q": "Quand ce que je copie est-il enregistré ?",
+          "a": "Depuis Android 10, Google interdit aux applications de lire le presse-papiers en arrière-plan, et aucun gestionnaire ne peut contourner cette règle. Clipboard+ enregistre ce que vous avez copié dès qu'il devient actif : ouverture de l'appli, appui sur le panneau flottant ou usage du widget. Pour enregistrer sans changer d'appli, sélectionnez le texte et touchez Clipboard+ dans le menu de sélection."
         },
         {
           "q": "Puis-je accéder à mon historique de presse-papiers en utilisant d'autres applications ?",
@@ -342,14 +342,14 @@
       "seo": "Presse-papiers Windows",
       "desc": "Un gestionnaire de presse-papiers Windows dans la barre d'état système, synchronisé avec l'appli Android Clipboard+.",
       "tagline": "Un gestionnaire de presse-papiers Windows dans la barre d'état système, synchronisé avec votre téléphone Android via votre propre Google Drive.",
-      "long": "Clipboard+ for Windows est un gestionnaire de presse-papiers résidant dans la barre d'état système qui enregistre automatiquement les textes et images que vous copiez. Tout est sauvegardé au moment même de la copie : si vous écrasez un élément par mégarde, vous pouvez récupérer le précédent et le recoller. Associé à l'appli Android Clipboard+, ce que vous copiez sur votre téléphone se colle sur votre PC, et ce que vous copiez sur votre PC se colle sur votre téléphone. Les éléments copiés ne transitent par aucun serveur CodeDAC : ils sont enregistrés uniquement dans votre propre Google Drive. Ce qui est enregistré peut être classé en groupes et en extraits, puis recherché.",
+      "long": "Clipboard+ for Windows est un gestionnaire de presse-papiers résidant dans la barre d'état système qui enregistre automatiquement les textes et images que vous copiez. Tout est sauvegardé au moment même de la copie : si vous écrasez un élément par mégarde, vous pouvez récupérer le précédent et le recoller. Un raccourci global ouvre une fenêtre de sélection rapide à l'endroit exact du curseur : choisissez un élément avec Ctrl+1–9 et Entrée le colle là où vous écriviez, sans quitter la fenêtre. Associé à l'appli Android Clipboard+, ce que vous copiez sur votre téléphone se colle sur votre PC, et ce que vous copiez sur votre PC se colle sur votre téléphone. Les éléments copiés ne transitent par aucun serveur CodeDAC : ils sont enregistrés uniquement dans votre propre Google Drive. Ce qui est enregistré peut être classé en groupes et en extraits, puis recherché.",
       "features": [
         "Résident dans la barre d'état système, il enregistre textes et images à l'instant où vous les copiez — sans avoir à surveiller en permanence en arrière-plan, donc très léger",
         "Synchronisation bidirectionnelle téléphone-PC via votre propre Google Drive",
         "Interface de style Android avec thèmes clair/sombre, barre latérale de groupes, extraits et épingler/copier/modifier/rechercher",
         "Déplacement, suppression et fusion en masse par sélection multiple, tri du plus récent au plus ancien, et visionneuse d'image en taille réelle",
-        "Raccourcis clavier globaux pour ouvrir la fenêtre et capturer instantanément le texte sélectionné dans d'autres applis, plus lancement au démarrage",
-        "Export/import compatible avec le format de sauvegarde Android Clipboard+"
+        "Fenêtre de sélection rapide au curseur via un raccourci global, plus des raccourcis pour ouvrir la fenêtre et capturer le texte sélectionné dans d'autres applis, et lancement au démarrage",
+        "Export/import compatible avec le format de sauvegarde de Clipboard+ pour Android, et export PDF"
       ],
       "faq": [
         {
@@ -361,8 +361,8 @@
           "a": "L'historique des copies reste par défaut sur votre seul PC (dans le dossier %APPDATA%\\ClipboardPlus). Si vous activez la synchronisation, il est aussi enregistré dans un espace privé de l'application au sein de votre propre Google Drive — un espace qui n'apparaît pas dans votre Drive et que rien d'autre que Clipboard+ ne peut ouvrir. L'application n'utilise que cet espace privé : elle ne peut donc pas accéder à vos autres photos ou documents sur Drive."
         },
         {
-          "q": "De quoi ai-je besoin pour activer la synchronisation ?",
-          "a": "Dans les paramètres de l'appli Android et de l'appli Windows, connectez-vous à Google Drive avec le même compte, puis activez la synchronisation automatique. Ensuite, les presse-papiers des deux appareils restent synchronisés tout seuls."
+          "q": "Qu'est-ce qui est gratuit et qu'apporte Pro ?",
+          "a": "L'historique du presse-papiers, les extraits et les groupes, la recherche, la fenêtre de sélection rapide et les thèmes clair et sombre sont gratuits. Pro ajoute la synchronisation Google Drive, la copie des éléments image dans le presse-papiers, l'export PDF, l'import de sauvegardes, les groupes illimités et le stockage d'images illimité — la version gratuite est limitée à 50 Mo d'images."
         }
       ]
     },

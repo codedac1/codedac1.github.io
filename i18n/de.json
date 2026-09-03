@@ -66,21 +66,21 @@
       "name": "Clipboard+",
       "tag": "Zwischenablage",
       "seo": "Zwischenablage-Manager für Android",
-      "desc": "Speichert deinen Zwischenablage-Verlauf automatisch, damit du ihn jederzeit überall einfügen kannst.",
-      "tagline": "Speichere jede Kopie automatisch – mit dem smartesten Zwischenablage-Manager für Android",
-      "long": "Clipboard+ ist ein Zwischenablage-Manager für Android, der jeden kopierten Text und jedes Bild automatisch in Echtzeit speichert. Ein größenverstellbares schwebendes Overlay lässt dich deinen Zwischenablage-Verlauf von jedem Bildschirm aus erreichen, ohne die App zu wechseln. Ordne häufig genutzte Texte in Snippets und Gruppen und füge jeden Eintrag blitzschnell ein – per Stichwortsuche, Startbildschirm-Widget und Benachrichtigungsleiste. Du kannst deinen Verlauf zudem als PDF exportieren und deine Einträge jederzeit sichern oder wiederherstellen. Zusammen mit Clipboard+ for Windows fügst du auf dem PC ein, was du am Handy kopiert hast, und am Handy, was du am PC kopiert hast. Du meldest dich dafür in beiden Apps mit demselben Konto bei Google Drive an; das Kopierte läuft über keinen CodeDAC-Server, sondern wird nur in deinem eigenen Google Drive gespeichert.",
+      "desc": "Zwischenablage-Verlauf für Text und Bilder. Suchen, einfügen, mit PC syncen.",
+      "tagline": "Verliere nie wieder etwas Kopiertes – jeder Text und jedes Bild im durchsuchbaren Verlauf",
+      "long": "Clipboard+ ist ein Zwischenablage-Manager für Android, der jeden kopierten Text und jedes Bild in einem durchsuchbaren Verlauf aufbewahrt – das Neueste zuerst. Seit Android 10 darf keine App die Zwischenablage im Hintergrund lesen; Clipboard+ speichert das Kopierte deshalb, sobald es aktiv wird – beim Öffnen der App, beim Antippen des schwebenden Panels oder beim Nutzen des Widgets – oder sofort, wenn du im Auswahlmenü Clipboard+ antippst. Ein größenverstellbares schwebendes Overlay lässt dich deinen Zwischenablage-Verlauf von jedem Bildschirm aus erreichen, ohne die App zu wechseln. Ordne häufig genutzte Texte in Snippets und Gruppen und füge jeden Eintrag blitzschnell ein – per Stichwortsuche, Startbildschirm-Widget und Benachrichtigungsleiste. Du kannst deinen Verlauf zudem als PDF exportieren und deine Einträge jederzeit sichern oder wiederherstellen. Zusammen mit Clipboard+ for Windows fügst du auf dem PC ein, was du am Handy kopiert hast, und am Handy, was du am PC kopiert hast. Du meldest dich dafür in beiden Apps mit demselben Konto bei Google Drive an; das Kopierte läuft über keinen CodeDAC-Server, sondern wird nur in deinem eigenen Google Drive gespeichert.",
       "features": [
-        "Kopierte Texte und Bilder automatisch in Echtzeit speichern",
+        "Jeder kopierte Text und jedes Bild im durchsuchbaren Verlauf, das Neueste zuerst",
         "Größenverstellbares schwebendes Overlay zur Nutzung über jeder App",
         "Häufige Texte in Snippets und Gruppen ordnen",
         "Sofortsuche und Filter nach Stichwort, Text, Bild oder Datum",
-        "Schnelles Einfügen per Widget, Schnelleinstellungen-Kachel und Benachrichtigungsleiste",
+        "Schnelles Einfügen per Startbildschirm-Widget und Benachrichtigungsleiste, Speichern aus jeder App über das Auswahlmenü",
         "Bidirektionale Handy-zu-PC-Synchronisierung über dein eigenes Google Drive, Zwischenablage-Verlauf als PDF exportieren, plus Sicherung und Wiederherstellung"
       ],
       "faq": [
         {
-          "q": "Wie wird mein Zwischenablage-Verlauf gespeichert?",
-          "a": "Jeder kopierte Text und jedes Bild wird automatisch in Echtzeit gespeichert, sodass du jeden Eintrag jederzeit ohne zusätzliche Schritte wieder hervorholen kannst."
+          "q": "Wann speichert Clipboard+ das Kopierte?",
+          "a": "Seit Android 10 dürfen Apps die Zwischenablage im Hintergrund nicht mehr lesen, und kein Zwischenablage-Manager kann das umgehen. Clipboard+ speichert das Kopierte, sobald es aktiv wird – beim Öffnen der App, beim Antippen des schwebenden Panels oder beim Nutzen des Widgets. Ohne App-Wechsel speicherst du, indem du den Text markierst und im Auswahlmenü Clipboard+ antippst."
         },
         {
           "q": "Kann ich meinen Zwischenablage-Verlauf auch während der Nutzung anderer Apps aufrufen?",
@@ -342,14 +342,14 @@
       "seo": "Zwischenablage-Manager",
       "desc": "Ein Windows-Tray-Zwischenablage-Manager, der sich mit der Android-App Clipboard+ synchronisiert.",
       "tagline": "Ein Windows-Tray-Zwischenablage-Manager, der sich über dein eigenes Google Drive mit deinem Android-Handy synchronisiert.",
-      "long": "Clipboard+ for Windows ist ein im Tray ansässiger Zwischenablage-Manager, der die von dir kopierten Texte und Bilder automatisch speichert. Alles wird im Moment des Kopierens festgehalten – überschreibst du also versehentlich etwas, holst du den früheren Eintrag einfach zurück und fügst ihn erneut ein. Zusammen mit der Android-App Clipboard+ fügst du auf dem PC ein, was du am Handy kopiert hast, und am Handy, was du am PC kopiert hast. Das Kopierte läuft dabei über keinen CodeDAC-Server, sondern wird nur in deinem eigenen Google Drive gespeichert. Gespeichertes lässt sich in Gruppen und Snippets ordnen und durchsuchen.",
+      "long": "Clipboard+ for Windows ist ein im Tray ansässiger Zwischenablage-Manager, der die von dir kopierten Texte und Bilder automatisch speichert. Alles wird im Moment des Kopierens festgehalten – überschreibst du also versehentlich etwas, holst du den früheren Eintrag einfach zurück und fügst ihn erneut ein. Ein globaler Hotkey öffnet ein Quick-Pick-Fenster genau dort, wo dein Cursor steht: Eintrag mit Strg+1–9 wählen, Enter fügt ihn ein – ohne das Fenster zu verlassen, in dem du gerade schreibst. Zusammen mit der Android-App Clipboard+ fügst du auf dem PC ein, was du am Handy kopiert hast, und am Handy, was du am PC kopiert hast. Das Kopierte läuft dabei über keinen CodeDAC-Server, sondern wird nur in deinem eigenen Google Drive gespeichert. Gespeichertes lässt sich in Gruppen und Snippets ordnen und durchsuchen.",
       "features": [
         "Sitzt im Tray und speichert Texte und Bilder im Moment des Kopierens – ohne im Hintergrund ständig nachsehen zu müssen, also schön leichtgewichtig",
         "Bidirektionale Handy-zu-PC-Synchronisierung über dein eigenes Google Drive",
         "UI im Android-Stil mit hellen/dunklen Designs, Gruppen-Seitenleiste, Snippets sowie Anheften/Kopieren/Bearbeiten/Suchen",
         "Mehrfachauswahl zum stapelweisen Verschieben, Löschen und Zusammenführen, Sortierung nach neuesten/ältesten und ein Bildbetrachter in Originalgröße",
-        "Globale Tastenkürzel zum Öffnen des Fensters und sofortigen Erfassen von in anderen Apps markiertem Text, plus Autostart",
-        "Export/Import kompatibel mit dem Backup-Format der Android-App Clipboard+"
+        "Quick-Pick-Fenster am Cursor per globalem Hotkey, dazu Hotkeys zum Öffnen des Fensters und zum Übernehmen markierten Texts aus anderen Apps sowie Autostart",
+        "Export/Import kompatibel mit dem Backup-Format von Clipboard+ für Android, dazu PDF-Export"
       ],
       "faq": [
         {
@@ -361,8 +361,8 @@
           "a": "Der Kopierverlauf bleibt standardmäßig nur auf deinem PC (im Ordner %APPDATA%\\ClipboardPlus). Schaltest du die Synchronisierung ein, liegt er zusätzlich in einem app-privaten Bereich deines eigenen Google Drive – einem Bereich, der in deiner Drive-Ansicht nicht auftaucht und den nichts außer Clipboard+ öffnen kann. Die App nutzt nur diesen privaten Bereich und kommt deshalb an deine übrigen Fotos oder Dokumente in Drive gar nicht heran."
         },
         {
-          "q": "Was brauche ich, um die Synchronisierung zu aktivieren?",
-          "a": "Melde dich in den Einstellungen der Android-App und der Windows-App jeweils mit demselben Konto bei Google Drive an und schalte die automatische Synchronisierung ein. Danach halten sich die Zwischenablagen beider Geräte von selbst synchron."
+          "q": "Was ist kostenlos, und was bringt Pro?",
+          "a": "Der Zwischenablage-Verlauf, Snippets und Gruppen, die Suche, das Quick-Pick-Fenster sowie helles und dunkles Design sind kostenlos. Pro ergänzt Google-Drive-Sync, das Kopieren von Bild-Einträgen in die Zwischenablage, PDF-Export, den Import von Backups, unbegrenzte Gruppen und unbegrenzten Bildspeicher – kostenlos sind 50 MB Bildspeicher."
         }
       ]
     },
