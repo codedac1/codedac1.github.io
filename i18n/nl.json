@@ -326,10 +326,10 @@
       "features": [
         "Zwevende overlay-notities: vouw een notitie in tot een chip en open hem als volledige kaart boven elke app",
         "7 notitiekleuren en tekstopmaak: vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte",
-        "Afbeeldingen in de notitie: voeg foto's direct in een notitie toe",
+        "Afbeeldingen in de notitie (Pro): voeg foto's direct in een notitie toe",
         "Snel vastleggen vanuit het deelmenu, vanuit geselecteerde tekst in een andere app of via de tegel in Snelle instellingen",
         "Archief met directe zoekfunctie, vastpinnen en slepen om te ordenen; een chip naar de zone onderaan slepen bergt de notitie op in plaats van hem te verwijderen",
-        "Pro: onbeperkt zwevende notities, alle 7 kleuren, afbeeldingen, instelbare transparantie, Google Drive-synchronisatie, export & import, geen advertenties"
+        "Pro: onbeperkt zwevende notities, afbeeldingen, instelbare transparantie, Google Drive-synchronisatie, export & import, geen advertenties"
       ],
       "faq": [
         {
@@ -342,11 +342,11 @@
         },
         {
           "q": "Synchroniseert het met mijn Windows-pc?",
-          "a": "Ja. Installeer ook FloatNote+ for Windows, meld je daarna in de instellingen van beide apps met hetzelfde account aan bij Google Drive en zet de automatische synchronisatie aan. Vanaf dat moment verschijnen notities die je op je telefoon schrijft op je pc, en notities die je op je pc schrijft op je telefoon. De notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard. Afbeeldingen die je aan een notitie toevoegt blijven op het apparaat waar je ze toevoegde; wat meereist is de tekst van de notitie."
+          "a": "Ja. Installeer ook FloatNote+ for Windows, meld je daarna in de instellingen van beide apps met hetzelfde account aan bij Google Drive en zet de automatische synchronisatie aan. Vanaf dat moment verschijnen notities die je op je telefoon schrijft op je pc, en notities die je op je pc schrijft op je telefoon. De notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard. Zowel de notitietekst als de bijgevoegde afbeeldingen reizen mee tussen apparaten."
         },
         {
           "q": "Is het gratis?",
-          "a": "Ja. Notities opslaan is onbeperkt en gratis, en de gratis versie laat plaknotities met 2 kleuren zweven en toont advertenties. Pro voegt onbeperkt zwevende notities toe, alle 7 kleuren, afbeeldingen, instelbare transparantie, Google Drive-synchronisatie, export en import, en verwijdert de advertenties."
+          "a": "Ja. Notities opslaan is onbeperkt en gratis, en de gratis versie laat één notitie tegelijk zweven, biedt alle 7 kleuren en toont advertenties. Pro voegt onbeperkt zwevende notities toe, afbeeldingen, instelbare transparantie, Google Drive-synchronisatie, export en import, en verwijdert de advertenties."
         }
       ]
     },
@@ -428,7 +428,7 @@
       "faq": [
         {
           "q": "Is dit dezelfde app als FloatNote+ op Android?",
-          "a": "Het is dezelfde app, gemaakt voor Windows, met dezelfde chips en kaarten. Je koopt hem apart in elke store, maar zodra je je in beide apps met hetzelfde account aanmeldt bij Google Drive en de automatische synchronisatie aanzet, komen notities die je op de pc schrijft op de telefoon terecht en notities die je op de telefoon schrijft op de pc. De notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard. Afbeeldingen die je aan een notitie toevoegt blijven op het apparaat waar je ze toevoegde; wat meereist is de tekst van de notitie."
+          "a": "Het is dezelfde app, gemaakt voor Windows, met dezelfde chips en kaarten. Je koopt hem apart in elke store, maar zodra je je in beide apps met hetzelfde account aanmeldt bij Google Drive en de automatische synchronisatie aanzet, komen notities die je op de pc schrijft op de telefoon terecht en notities die je op de telefoon schrijft op de pc. De notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard. Zowel de notitietekst als de bijgevoegde afbeeldingen reizen mee tussen apparaten."
         },
         {
           "q": "Zit het de app eronder in de weg?",
@@ -436,7 +436,7 @@
         },
         {
           "q": "Is het gratis?",
-          "a": "Ja. Notities schrijven en bewaren is gratis en onbeperkt, en de Windows-versie bevat geen advertenties. De gratis versie laat één notitie tegelijk zweven en geeft je twee van de zeven kleuren. Pro is een eenmalige aankoop, geen abonnement, en voegt onbeperkt zwevende notities toe, het volledige palet, afbeeldingen in de notitie, instelbare transparantie, Google Drive-synchronisatie en export en import."
+          "a": "Ja. Notities schrijven en bewaren is gratis en onbeperkt, en de Windows-versie bevat geen advertenties. De gratis versie laat één notitie tegelijk zweven, met alle zeven kleuren. Pro is een eenmalige aankoop, geen abonnement, en voegt onbeperkt zwevende notities toe, afbeeldingen in de notitie, instelbare transparantie, Google Drive-synchronisatie en export en import."
         }
       ]
     },

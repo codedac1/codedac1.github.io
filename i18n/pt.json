@@ -326,10 +326,10 @@
       "features": [
         "Notas flutuantes em overlay: recolha a nota em um chip e abra como cartão sobre qualquer app",
         "7 cores de nota e texto rico: negrito, itálico, sublinhado, tachado, cor e tamanho do texto",
-        "Imagens na nota: anexe fotos dentro da própria nota",
+        "Imagens na nota (Pro): anexe fotos dentro da própria nota",
         "Captura rápida pelo menu de compartilhar, por texto selecionado em outro app ou pelo bloco das Configurações rápidas",
         "Acervo com busca instantânea, notas fixadas e reordenação arrastando; levar um chip à área inferior guarda a nota em vez de excluí-la",
-        "Pro: notas flutuantes ilimitadas, as 7 cores, imagens, opacidade ajustável, sincronização com Google Drive, exportar e importar, sem anúncios"
+        "Pro: notas flutuantes ilimitadas, imagens, opacidade ajustável, sincronização com Google Drive, exportar e importar, sem anúncios"
       ],
       "faq": [
         {
@@ -342,11 +342,11 @@
         },
         {
           "q": "Ele sincroniza com o meu PC com Windows?",
-          "a": "Sim. Instale também o FloatNote+ for Windows e, nas configurações dos dois apps, faça login no Google Drive com a mesma conta e ative a sincronização automática. A partir daí, as notas escritas no celular aparecem no PC, e as escritas no PC aparecem no celular. As notas não passam por nenhum servidor da CodeDAC: ficam guardadas apenas no seu próprio Google Drive. As imagens anexadas a uma nota ficam no aparelho em que foram adicionadas; o que viaja é o texto da nota."
+          "a": "Sim. Instale também o FloatNote+ for Windows e, nas configurações dos dois apps, faça login no Google Drive com a mesma conta e ative a sincronização automática. A partir daí, as notas escritas no celular aparecem no PC, e as escritas no PC aparecem no celular. As notas não passam por nenhum servidor da CodeDAC: ficam guardadas apenas no seu próprio Google Drive. O texto da nota e as imagens anexadas viajam entre os aparelhos."
         },
         {
           "q": "É grátis?",
-          "a": "Sim. Salvar notas é ilimitado e gratuito, e a versão grátis faz flutuar notas adesivas com 2 cores e exibe anúncios. O Pro adiciona notas flutuantes ilimitadas, as 7 cores, imagens, opacidade ajustável, sincronização com Google Drive, exportar e importar, e remove os anúncios."
+          "a": "Sim. Salvar notas é ilimitado e gratuito, e a versão grátis faz flutuar uma nota por vez, oferece as 7 cores e exibe anúncios. O Pro adiciona notas flutuantes ilimitadas, imagens, opacidade ajustável, sincronização com Google Drive, exportar e importar, e remove os anúncios."
         }
       ]
     },
@@ -428,7 +428,7 @@
       "faq": [
         {
           "q": "É o mesmo app do FloatNote+ para Android?",
-          "a": "É o mesmo app feito para Windows, com os mesmos chips e cartões. Cada versão é comprada na sua própria loja, mas basta fazer login no Google Drive com a mesma conta nos dois apps e ativar a sincronização automática para que as notas escritas no PC apareçam no celular e as escritas no celular apareçam no PC. As notas não passam por nenhum servidor da CodeDAC: ficam guardadas apenas no seu próprio Google Drive. As imagens anexadas a uma nota ficam no aparelho em que foram adicionadas; o que viaja é o texto da nota."
+          "a": "É o mesmo app feito para Windows, com os mesmos chips e cartões. Cada versão é comprada na sua própria loja, mas basta fazer login no Google Drive com a mesma conta nos dois apps e ativar a sincronização automática para que as notas escritas no PC apareçam no celular e as escritas no celular apareçam no PC. As notas não passam por nenhum servidor da CodeDAC: ficam guardadas apenas no seu próprio Google Drive. O texto da nota e as imagens anexadas viajam entre os aparelhos."
         },
         {
           "q": "Ele atrapalha o app que está embaixo?",
@@ -436,7 +436,7 @@
         },
         {
           "q": "É gratuito?",
-          "a": "Sim. Escrever e guardar notas é gratuito e ilimitado, e a versão para Windows não tem anúncios. A versão gratuita faz flutuar uma nota por vez e oferece duas das sete cores. O Pro é uma compra única, não uma assinatura, e acrescenta notas flutuantes ilimitadas, a paleta completa, imagens dentro da nota, opacidade ajustável, sincronização com Google Drive e exportar e importar notas."
+          "a": "Sim. Escrever e guardar notas é gratuito e ilimitado, e a versão para Windows não tem anúncios. A versão gratuita faz flutuar uma nota por vez, com as sete cores. O Pro é uma compra única, não uma assinatura, e acrescenta notas flutuantes ilimitadas, imagens dentro da nota, opacidade ajustável, sincronização com Google Drive e exportar e importar notas."
         }
       ]
     },

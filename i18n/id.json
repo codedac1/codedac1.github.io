@@ -326,10 +326,10 @@
       "features": [
         "Catatan overlay mengambang: ciutkan catatan jadi chip, bentangkan jadi kartu penuh di atas aplikasi apa pun",
         "7 warna catatan dan teks kaya: tebal, miring, garis bawah, coret, warna dan ukuran teks",
-        "Gambar dalam catatan: lampirkan foto langsung di dalamnya",
+        "Gambar dalam catatan (Pro): lampirkan foto langsung di dalamnya",
         "Tangkap cepat dari menu bagikan, dari teks terpilih di aplikasi lain, atau dari ubin Pengaturan cepat",
         "Pustaka dengan pencarian seketika, penyematan, dan pengurutan dengan menyeret; menyeret chip ke area bawah menyimpan catatan, bukan menghapusnya",
-        "Pro: catatan mengambang tanpa batas, 7 warna lengkap, gambar, opasitas yang bisa diatur, sinkronisasi Google Drive, ekspor & impor, tanpa iklan"
+        "Pro: catatan mengambang tanpa batas, gambar, opasitas yang bisa diatur, sinkronisasi Google Drive, ekspor & impor, tanpa iklan"
       ],
       "faq": [
         {
@@ -342,11 +342,11 @@
         },
         {
           "q": "Apakah bisa tersinkron dengan PC Windows saya?",
-          "a": "Bisa. Pasang juga FloatNote+ for Windows, lalu di pengaturan kedua aplikasi masuk ke Google Drive dengan akun yang sama dan aktifkan sinkronisasi otomatis. Setelah itu, catatan yang ditulis di ponsel muncul di PC, dan yang ditulis di PC muncul di ponsel. Catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Gambar yang dilampirkan pada catatan tetap berada di perangkat tempat gambar itu ditambahkan; yang berpindah adalah teks catatannya."
+          "a": "Bisa. Pasang juga FloatNote+ for Windows, lalu di pengaturan kedua aplikasi masuk ke Google Drive dengan akun yang sama dan aktifkan sinkronisasi otomatis. Setelah itu, catatan yang ditulis di ponsel muncul di PC, dan yang ditulis di PC muncul di ponsel. Catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Teks catatan dan gambar lampiran sama-sama berpindah antarperangkat."
         },
         {
           "q": "Apakah gratis?",
-          "a": "Ya. Menyimpan catatan gratis dan tanpa batas, dan versi gratis menampilkan catatan tempel mengambang dengan 2 warna beserta iklan. Pro menambahkan catatan mengambang tanpa batas, 7 warna lengkap, gambar, opasitas yang bisa diatur, sinkronisasi Google Drive, ekspor dan impor, serta menghilangkan iklan."
+          "a": "Ya. Menyimpan catatan gratis dan tanpa batas, dan versi gratis mengambangkan satu catatan sekaligus dengan 7 warna lengkap beserta iklan. Pro menambahkan catatan mengambang tanpa batas, gambar, opasitas yang bisa diatur, sinkronisasi Google Drive, ekspor dan impor, serta menghilangkan iklan."
         }
       ]
     },
@@ -428,7 +428,7 @@
       "faq": [
         {
           "q": "Apakah ini aplikasi yang sama dengan FloatNote+ di Android?",
-          "a": "Ini aplikasi yang sama yang dibuat untuk Windows, dengan chip dan kartu yang sama. Pembelian dilakukan terpisah di masing-masing toko, tetapi begitu Anda masuk ke Google Drive dengan akun yang sama di kedua aplikasi dan mengaktifkan sinkronisasi otomatis, catatan yang ditulis di PC muncul di ponsel dan yang ditulis di ponsel muncul di PC. Catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Gambar yang dilampirkan pada catatan tetap berada di perangkat tempat gambar itu ditambahkan; yang berpindah adalah teks catatannya."
+          "a": "Ini aplikasi yang sama yang dibuat untuk Windows, dengan chip dan kartu yang sama. Pembelian dilakukan terpisah di masing-masing toko, tetapi begitu Anda masuk ke Google Drive dengan akun yang sama di kedua aplikasi dan mengaktifkan sinkronisasi otomatis, catatan yang ditulis di PC muncul di ponsel dan yang ditulis di ponsel muncul di PC. Catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Teks catatan dan gambar lampiran sama-sama berpindah antarperangkat."
         },
         {
           "q": "Apakah ia mengganggu aplikasi di bawahnya?",
@@ -436,7 +436,7 @@
         },
         {
           "q": "Apakah gratis?",
-          "a": "Ya. Menulis dan menyimpan catatan gratis dan tanpa batas, dan versi Windows tidak memiliki iklan. Versi gratis mengambangkan satu catatan di layar pada satu waktu dan memberi Anda dua dari tujuh warna. Pro adalah pembelian sekali bayar, bukan langganan, dan menambahkan catatan mengambang tanpa batas, palet lengkap, gambar di dalam catatan, opasitas yang bisa diatur, sinkronisasi Google Drive, serta ekspor dan impor catatan."
+          "a": "Ya. Menulis dan menyimpan catatan gratis dan tanpa batas, dan versi Windows tidak memiliki iklan. Versi gratis mengambangkan satu catatan di layar pada satu waktu, dengan ketujuh warna. Pro adalah pembelian sekali bayar, bukan langganan, dan menambahkan catatan mengambang tanpa batas, gambar di dalam catatan, opasitas yang bisa diatur, sinkronisasi Google Drive, serta ekspor dan impor catatan."
         }
       ]
     },

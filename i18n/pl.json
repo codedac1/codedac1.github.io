@@ -326,10 +326,10 @@
       "features": [
         "Pływające notatki overlay: zwiń notatkę do kafelka, rozwiń w pełną kartę nad dowolną aplikacją",
         "7 kolorów karteczek i formatowanie: pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu",
-        "Obrazy w notatce: dołącz zdjęcia bezpośrednio w środku",
+        "Obrazy w notatce (Pro): dołącz zdjęcia bezpośrednio w środku",
         "Szybki zapis z menu udostępniania, z zaznaczonego tekstu w innej aplikacji lub z kafelka Szybkich ustawień",
         "Archiwum z natychmiastowym wyszukiwaniem, przypinaniem i zmianą kolejności przeciąganiem; przeciągnięcie kafelka do strefy na dole chowa notatkę, a nie usuwa",
-        "Pro: nieograniczone pływające notatki, wszystkie 7 kolorów, obrazy, regulowana przezroczystość, synchronizacja z Google Dyskiem, eksport i import, bez reklam"
+        "Pro: nieograniczone pływające notatki, obrazy, regulowana przezroczystość, synchronizacja z Google Dyskiem, eksport i import, bez reklam"
       ],
       "faq": [
         {
@@ -342,11 +342,11 @@
         },
         {
           "q": "Czy synchronizuje się z moim komputerem z Windows?",
-          "a": "Tak. Zainstaluj także FloatNote+ for Windows, a następnie w ustawieniach obu aplikacji zaloguj się do Dysku Google na to samo konto i włącz automatyczną synchronizację. Od tej pory notatki napisane na telefonie pojawiają się na komputerze, a napisane na komputerze — na telefonie. Notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Obrazy dołączone do notatki zostają na urządzeniu, na którym je dodano; wędruje sam tekst notatki."
+          "a": "Tak. Zainstaluj także FloatNote+ for Windows, a następnie w ustawieniach obu aplikacji zaloguj się do Dysku Google na to samo konto i włącz automatyczną synchronizację. Od tej pory notatki napisane na telefonie pojawiają się na komputerze, a napisane na komputerze — na telefonie. Notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Między urządzeniami wędrują zarówno tekst notatki, jak i dołączone obrazy."
         },
         {
           "q": "Czy to jest darmowe?",
-          "a": "Tak. Zapisywanie notatek jest nieograniczone i darmowe, a wersja darmowa pokazuje pływające karteczki w 2 kolorach oraz reklamy. Pro dodaje nieograniczone pływające notatki, wszystkie 7 kolorów, obrazy, regulowaną przezroczystość, synchronizację z Google Dyskiem, eksport i import oraz usuwa reklamy."
+          "a": "Tak. Zapisywanie notatek jest nieograniczone i darmowe, a wersja darmowa pokazuje jedną pływającą karteczkę naraz we wszystkich 7 kolorach oraz reklamy. Pro dodaje nieograniczone pływające notatki, obrazy, regulowaną przezroczystość, synchronizację z Google Dyskiem, eksport i import oraz usuwa reklamy."
         }
       ]
     },
@@ -428,7 +428,7 @@
       "faq": [
         {
           "q": "Czy to ta sama aplikacja co FloatNote+ na Androida?",
-          "a": "To ta sama aplikacja przygotowana na Windows, z tymi samymi kaflami i kartami. Kupuje się ją osobno w każdym sklepie, ale gdy zalogujesz się do Dysku Google na to samo konto w obu aplikacjach i włączysz automatyczną synchronizację, notatki napisane na komputerze trafią na telefon, a napisane na telefonie — na komputer. Notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Obrazy dołączone do notatki zostają na urządzeniu, na którym je dodano; wędruje sam tekst notatki."
+          "a": "To ta sama aplikacja przygotowana na Windows, z tymi samymi kaflami i kartami. Kupuje się ją osobno w każdym sklepie, ale gdy zalogujesz się do Dysku Google na to samo konto w obu aplikacjach i włączysz automatyczną synchronizację, notatki napisane na komputerze trafią na telefon, a napisane na telefonie — na komputer. Notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Między urządzeniami wędrują zarówno tekst notatki, jak i dołączone obrazy."
         },
         {
           "q": "Czy przeszkadza aplikacji pod spodem?",
@@ -436,7 +436,7 @@
         },
         {
           "q": "Czy jest darmowa?",
-          "a": "Tak. Pisanie i przechowywanie notatek jest darmowe i nieograniczone, a wersja dla Windows nie zawiera reklam. Wersja bezpłatna trzyma na ekranie jedną pływającą notatkę naraz i daje dwa z siedmiu kolorów. Pro to jednorazowy zakup, a nie subskrypcja — dodaje nieograniczone pływające notatki, pełną paletę, obrazy w notatce, regulowaną przezroczystość, synchronizację z Dyskiem Google oraz eksport i import."
+          "a": "Tak. Pisanie i przechowywanie notatek jest darmowe i nieograniczone, a wersja dla Windows nie zawiera reklam. Wersja bezpłatna trzyma na ekranie jedną pływającą notatkę naraz, we wszystkich siedmiu kolorach. Pro to jednorazowy zakup, a nie subskrypcja — dodaje nieograniczone pływające notatki, obrazy w notatce, regulowaną przezroczystość, synchronizację z Dyskiem Google oraz eksport i import."
         }
       ]
     },

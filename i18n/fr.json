@@ -326,10 +326,10 @@
       "features": [
         "Notes flottantes en surimpression : réduisez une note en pastille, ouvrez-la en carte au-dessus de toute appli",
         "7 couleurs de pense-bête et texte enrichi : gras, italique, souligné, barré, couleur et taille du texte",
-        "Images dans la note : ajoutez des photos directement à l'intérieur",
+        "Images dans la note (Pro) : ajoutez des photos directement à l'intérieur",
         "Capture rapide depuis le menu de partage, depuis du texte sélectionné dans une autre appli ou depuis la tuile des Réglages rapides",
         "Bibliothèque avec recherche instantanée, épinglage et réorganisation par glisser ; amener une pastille dans la zone du bas range la note au lieu de la supprimer",
-        "Pro : notes flottantes illimitées, les 7 couleurs, images, opacité réglable, synchro Google Drive, export et import, sans publicité"
+        "Pro : notes flottantes illimitées, images, opacité réglable, synchro Google Drive, export et import, sans publicité"
       ],
       "faq": [
         {
@@ -342,11 +342,11 @@
         },
         {
           "q": "Se synchronise-t-il avec mon PC Windows ?",
-          "a": "Oui. Installez également FloatNote+ for Windows, puis, dans les paramètres des deux applis, connectez-vous à Google Drive avec le même compte et activez la synchronisation automatique. Les notes écrites sur votre téléphone apparaissent alors sur votre PC, et celles écrites sur votre PC apparaissent sur votre téléphone. Les notes ne transitent par aucun serveur CodeDAC : elles sont enregistrées uniquement dans votre propre Google Drive. Les images jointes à une note restent sur l'appareil où elles ont été ajoutées ; ce qui circule, c'est le texte de la note."
+          "a": "Oui. Installez également FloatNote+ for Windows, puis, dans les paramètres des deux applis, connectez-vous à Google Drive avec le même compte et activez la synchronisation automatique. Les notes écrites sur votre téléphone apparaissent alors sur votre PC, et celles écrites sur votre PC apparaissent sur votre téléphone. Les notes ne transitent par aucun serveur CodeDAC : elles sont enregistrées uniquement dans votre propre Google Drive. Le texte et les images jointes sont tous deux synchronisés."
         },
         {
           "q": "Est-ce gratuit ?",
-          "a": "Oui. L'enregistrement des notes est illimité et gratuit, et la version gratuite fait flotter des pense-bêtes avec 2 couleurs et affiche des publicités. Pro ajoute les notes flottantes illimitées, les 7 couleurs, les images, l'opacité réglable, la synchro Google Drive, l'export et l'import, et supprime la publicité."
+          "a": "Oui. L'enregistrement des notes est illimité et gratuit, et la version gratuite fait flotter une note à la fois, propose les 7 couleurs et affiche des publicités. Pro ajoute les notes flottantes illimitées, les images, l'opacité réglable, la synchro Google Drive, l'export et l'import, et supprime la publicité."
         }
       ]
     },
@@ -428,7 +428,7 @@
       "faq": [
         {
           "q": "Est-ce la même application que FloatNote+ sur Android ?",
-          "a": "C'est la même application conçue pour Windows, avec les mêmes pastilles et les mêmes cartes. L'achat se fait séparément sur chaque boutique, mais dès que vous vous connectez à Google Drive avec le même compte dans les deux applis et activez la synchronisation automatique, les notes écrites sur le PC arrivent sur le téléphone et celles écrites sur le téléphone arrivent sur le PC. Les notes ne transitent par aucun serveur CodeDAC : elles sont enregistrées uniquement dans votre propre Google Drive. Les images jointes à une note restent sur l'appareil où elles ont été ajoutées ; ce qui circule, c'est le texte de la note."
+          "a": "C'est la même application conçue pour Windows, avec les mêmes pastilles et les mêmes cartes. L'achat se fait séparément sur chaque boutique, mais dès que vous vous connectez à Google Drive avec le même compte dans les deux applis et activez la synchronisation automatique, les notes écrites sur le PC arrivent sur le téléphone et celles écrites sur le téléphone arrivent sur le PC. Les notes ne transitent par aucun serveur CodeDAC : elles sont enregistrées uniquement dans votre propre Google Drive. Le texte et les images jointes sont tous deux synchronisés."
         },
         {
           "q": "Gêne-t-elle l'application en dessous ?",
@@ -436,7 +436,7 @@
         },
         {
           "q": "Est-elle gratuite ?",
-          "a": "Oui. Écrire et conserver des notes est gratuit et illimité, et la version Windows ne contient aucune publicité. La version gratuite fait flotter une note à la fois et propose deux des sept couleurs. Pro est un achat unique, pas un abonnement : il ajoute les notes flottantes illimitées, la palette complète, les images dans la note, l'opacité réglable, la synchro Google Drive, ainsi que l'export et l'import."
+          "a": "Oui. Écrire et conserver des notes est gratuit et illimité, et la version Windows ne contient aucune publicité. La version gratuite fait flotter une note à la fois, avec les sept couleurs. Pro est un achat unique, pas un abonnement : il ajoute les notes flottantes illimitées, les images dans la note, l'opacité réglable, la synchro Google Drive, ainsi que l'export et l'import."
         }
       ]
     },

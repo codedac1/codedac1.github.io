@@ -326,10 +326,10 @@
       "features": [
         "Ghi chú lớp phủ nổi: thu gọn thành chip nhỏ, mở thành thẻ đầy đủ trên mọi ứng dụng",
         "7 màu ghi chú và định dạng: in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ",
-        "Hình ảnh trong ghi chú: đính kèm ảnh ngay bên trong",
+        "Hình ảnh trong ghi chú (Pro): đính kèm ảnh ngay bên trong",
         "Ghi nhanh từ menu chia sẻ, từ văn bản đã chọn trong ứng dụng khác hoặc từ ô Cài đặt nhanh",
         "Kho lưu với tìm kiếm tức thì, ghim và kéo để sắp xếp; kéo chip xuống vùng dưới màn hình là cất đi chứ không xóa",
-        "Pro: ghi chú nổi không giới hạn, đủ 7 màu, hình ảnh, chỉnh độ mờ, đồng bộ Google Drive, xuất và nhập, không quảng cáo"
+        "Pro: ghi chú nổi không giới hạn, hình ảnh, chỉnh độ mờ, đồng bộ Google Drive, xuất và nhập, không quảng cáo"
       ],
       "faq": [
         {
@@ -342,11 +342,11 @@
         },
         {
           "q": "Ứng dụng có đồng bộ với máy tính Windows không?",
-          "a": "Có. Hãy cài thêm FloatNote+ for Windows, rồi trong phần cài đặt của cả hai ứng dụng, đăng nhập Google Drive bằng cùng một tài khoản và bật đồng bộ tự động. Sau đó, ghi chú viết trên điện thoại sẽ hiện trên máy tính và ghi chú viết trên máy tính sẽ hiện trên điện thoại. Ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn. Ảnh đính kèm trong ghi chú vẫn nằm trên thiết bị đã thêm ảnh; thứ di chuyển qua lại là nội dung chữ của ghi chú."
+          "a": "Có. Hãy cài thêm FloatNote+ for Windows, rồi trong phần cài đặt của cả hai ứng dụng, đăng nhập Google Drive bằng cùng một tài khoản và bật đồng bộ tự động. Sau đó, ghi chú viết trên điện thoại sẽ hiện trên máy tính và ghi chú viết trên máy tính sẽ hiện trên điện thoại. Ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn. Cả nội dung chữ lẫn ảnh đính kèm đều di chuyển giữa các máy."
         },
         {
           "q": "Có dùng miễn phí được không?",
-          "a": "Có. Lưu ghi chú là miễn phí và không giới hạn, bản miễn phí cho ghi chú dán nổi với 2 màu và có quảng cáo. Pro thêm ghi chú nổi không giới hạn, đủ 7 màu, hình ảnh, chỉnh độ mờ, đồng bộ Google Drive, xuất và nhập, đồng thời gỡ quảng cáo."
+          "a": "Có. Lưu ghi chú là miễn phí và không giới hạn, bản miễn phí cho nổi một ghi chú mỗi lần, đủ 7 màu và có quảng cáo. Pro thêm ghi chú nổi không giới hạn, hình ảnh, chỉnh độ mờ, đồng bộ Google Drive, xuất và nhập, đồng thời gỡ quảng cáo."
         }
       ]
     },
@@ -428,7 +428,7 @@
       "faq": [
         {
           "q": "Đây có phải cùng một ứng dụng với FloatNote+ trên Android không?",
-          "a": "Đây là cùng một ứng dụng được làm cho Windows, với chip và thẻ y hệt. Bạn mua riêng ở từng cửa hàng, nhưng chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng và bật đồng bộ tự động là ghi chú viết trên máy tính sẽ sang điện thoại và ghi chú viết trên điện thoại sẽ sang máy tính. Ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn. Ảnh đính kèm trong ghi chú vẫn nằm trên thiết bị đã thêm ảnh; thứ di chuyển qua lại là nội dung chữ của ghi chú."
+          "a": "Đây là cùng một ứng dụng được làm cho Windows, với chip và thẻ y hệt. Bạn mua riêng ở từng cửa hàng, nhưng chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng và bật đồng bộ tự động là ghi chú viết trên máy tính sẽ sang điện thoại và ghi chú viết trên điện thoại sẽ sang máy tính. Ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn. Cả nội dung chữ lẫn ảnh đính kèm đều di chuyển giữa các máy."
         },
         {
           "q": "Nó có cản trở ứng dụng bên dưới không?",
@@ -436,7 +436,7 @@
         },
         {
           "q": "Có dùng miễn phí được không?",
-          "a": "Có. Viết và lưu ghi chú là miễn phí, không giới hạn, và bản Windows không có quảng cáo. Bản miễn phí cho nổi một ghi chú tại một thời điểm và cho bạn hai trong bảy màu. Pro là mua một lần chứ không phải thuê bao, bổ sung ghi chú nổi không giới hạn, đủ bảng màu, hình ảnh trong ghi chú, chỉnh độ mờ, đồng bộ Google Drive cùng xuất và nhập ghi chú."
+          "a": "Có. Viết và lưu ghi chú là miễn phí, không giới hạn, và bản Windows không có quảng cáo. Bản miễn phí cho nổi một ghi chú tại một thời điểm, với đủ bảy màu. Pro là mua một lần chứ không phải thuê bao, bổ sung ghi chú nổi không giới hạn, hình ảnh trong ghi chú, chỉnh độ mờ, đồng bộ Google Drive cùng xuất và nhập ghi chú."
         }
       ]
     },

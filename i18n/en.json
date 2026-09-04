@@ -326,10 +326,10 @@
       "features": [
         "Floating overlay notes: collapse a note to a chip, expand it to a full card over any app",
         "7 sticky-note colors and rich text: bold, italic, underline, strikethrough, text color and size",
-        "Inline images: attach photos right inside a note",
+        "Inline images (Pro): attach photos right inside a note",
         "Quick capture from the share sheet, from selected text in any app, or from the Quick Settings tile",
         "Library with instant search, pinning and drag-to-reorder — dragging a chip to the bottom zone stashes the note instead of deleting it",
-        "Pro: unlimited floating notes, all 7 colors, inline images, adjustable opacity, Google Drive sync, export & import, no ads"
+        "Pro: unlimited floating notes, inline images, adjustable opacity, Google Drive sync, export & import, no ads"
       ],
       "faq": [
         {
@@ -342,11 +342,11 @@
         },
         {
           "q": "Does it sync with my Windows PC?",
-          "a": "Yes. Install FloatNote+ for Windows as well, then in the settings of both apps sign in to Google Drive with the same account and turn on automatic sync. Notes written on your phone then show up on your PC, and notes written on your PC show up on your phone. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Images attached to a note stay on the device they were added on; what travels is the note text."
+          "a": "Yes. Install FloatNote+ for Windows as well, then in the settings of both apps sign in to Google Drive with the same account and turn on automatic sync. Notes written on your phone then show up on your PC, and notes written on your PC show up on your phone. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices."
         },
         {
           "q": "Is it free?",
-          "a": "Yes. Saving notes is unlimited and free, and the free version floats sticky notes with 2 colors and shows ads. Pro adds unlimited floating notes, all 7 colors, inline images, adjustable opacity, Google Drive sync, export and import, and removes ads."
+          "a": "Yes. Saving notes is unlimited and free, and the free version floats one note at a time, gives you all 7 colors and shows ads. Pro adds unlimited floating notes, inline images, adjustable opacity, Google Drive sync, export and import, and removes ads."
         }
       ]
     },
@@ -428,7 +428,7 @@
       "faq": [
         {
           "q": "Is this the same app as FloatNote+ on Android?",
-          "a": "It is the same app built for Windows, with the same chips and cards. You buy each one in its own store, but once you sign in to Google Drive with the same account in both apps and turn on automatic sync, notes written on the PC show up on the phone and notes written on the phone show up on the PC. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Images attached to a note stay on the device they were added on; what travels is the note text."
+          "a": "It is the same app built for Windows, with the same chips and cards. You buy each one in its own store, but once you sign in to Google Drive with the same account in both apps and turn on automatic sync, notes written on the PC show up on the phone and notes written on the phone show up on the PC. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices."
         },
         {
           "q": "Does it get in the way of the app underneath?",
@@ -436,7 +436,7 @@
         },
         {
           "q": "Is it free to use?",
-          "a": "Yes. Writing and storing notes is free and unlimited, and the Windows version has no ads. The free version floats one note on screen at a time and gives you two of the seven colors. Pro is a one-time purchase — not a subscription — and adds unlimited floating notes, the full palette, inline images, adjustable note transparency, Google Drive sync, and note export and import."
+          "a": "Yes. Writing and storing notes is free and unlimited, and the Windows version has no ads. The free version floats one note on screen at a time, with all seven colors. Pro is a one-time purchase — not a subscription — and adds unlimited floating notes, inline images, adjustable note transparency, Google Drive sync, and note export and import."
         }
       ]
     },

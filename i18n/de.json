@@ -326,10 +326,10 @@
       "features": [
         "Schwebende Overlay-Notizen: zu einem Chip einklappen, über jeder App als volle Karte öffnen",
         "7 Haftnotiz-Farben und Rich-Text: fett, kursiv, unterstrichen, durchgestrichen, Textfarbe und -größe",
-        "Bilder in der Notiz: Fotos direkt in eine Notiz einfügen",
+        "Bilder in der Notiz (Pro): Fotos direkt in eine Notiz einfügen",
         "Schnell erfassen: aus dem Teilen-Menü, aus markiertem Text in jeder App oder über die Schnelleinstellungs-Kachel",
         "Archiv mit sofortiger Suche, Anheften und Neuordnen per Ziehen – ein Chip in die Zone am unteren Rand legt die Notiz ab, statt sie zu löschen",
-        "Pro: unbegrenzte schwebende Notizen, alle 7 Farben, Bilder, einstellbare Transparenz, Google-Drive-Sync, Export & Import, keine Werbung"
+        "Pro: unbegrenzte schwebende Notizen, Bilder, einstellbare Transparenz, Google-Drive-Sync, Export & Import, keine Werbung"
       ],
       "faq": [
         {
@@ -342,11 +342,11 @@
         },
         {
           "q": "Synchronisiert es sich mit meinem Windows-PC?",
-          "a": "Ja. Installiere zusätzlich FloatNote+ for Windows, melde dich in den Einstellungen beider Apps mit demselben Konto bei Google Drive an und schalte die automatische Synchronisierung ein. Danach tauchen am Handy geschriebene Notizen auf dem PC auf und am PC geschriebene Notizen auf dem Handy. Die Notizen laufen über keinen CodeDAC-Server, sondern werden nur in deinem eigenen Google Drive gespeichert. In eine Notiz eingefügte Bilder bleiben auf dem Gerät, auf dem sie hinzugefügt wurden — unterwegs ist der Notiztext."
+          "a": "Ja. Installiere zusätzlich FloatNote+ for Windows, melde dich in den Einstellungen beider Apps mit demselben Konto bei Google Drive an und schalte die automatische Synchronisierung ein. Danach tauchen am Handy geschriebene Notizen auf dem PC auf und am PC geschriebene Notizen auf dem Handy. Die Notizen laufen über keinen CodeDAC-Server, sondern werden nur in deinem eigenen Google Drive gespeichert. Notiztexte und angehängte Bilder werden dabei beide synchronisiert."
         },
         {
           "q": "Ist es kostenlos?",
-          "a": "Ja. Notizen zu speichern ist unbegrenzt und kostenlos, und die kostenlose Version lässt Haftnotizen mit 2 Farben schweben und zeigt Werbung. Pro ergänzt unbegrenzte schwebende Notizen, alle 7 Farben, Bilder, einstellbare Transparenz, Google-Drive-Sync, Export und Import – und entfernt die Werbung."
+          "a": "Ja. Notizen zu speichern ist unbegrenzt und kostenlos, und die kostenlose Version lässt eine Notiz gleichzeitig schweben, bietet alle 7 Farben und zeigt Werbung. Pro ergänzt unbegrenzte schwebende Notizen, Bilder, einstellbare Transparenz, Google-Drive-Sync, Export und Import – und entfernt die Werbung."
         }
       ]
     },
@@ -428,7 +428,7 @@
       "faq": [
         {
           "q": "Ist das dieselbe App wie FloatNote+ für Android?",
-          "a": "Es ist dieselbe App für Windows, mit denselben Chips und Karten. Gekauft wird jeweils im eigenen Store, aber sobald du dich in beiden Apps mit demselben Konto bei Google Drive anmeldest und die automatische Synchronisierung einschaltest, landen am PC geschriebene Notizen auf dem Handy und am Handy geschriebene auf dem PC. Die Notizen laufen über keinen CodeDAC-Server, sondern werden nur in deinem eigenen Google Drive gespeichert. In eine Notiz eingefügte Bilder bleiben auf dem Gerät, auf dem sie hinzugefügt wurden — unterwegs ist der Notiztext."
+          "a": "Es ist dieselbe App für Windows, mit denselben Chips und Karten. Gekauft wird jeweils im eigenen Store, aber sobald du dich in beiden Apps mit demselben Konto bei Google Drive anmeldest und die automatische Synchronisierung einschaltest, landen am PC geschriebene Notizen auf dem Handy und am Handy geschriebene auf dem PC. Die Notizen laufen über keinen CodeDAC-Server, sondern werden nur in deinem eigenen Google Drive gespeichert. Notiztexte und angehängte Bilder werden dabei beide synchronisiert."
         },
         {
           "q": "Stört sie die App darunter?",
@@ -436,7 +436,7 @@
         },
         {
           "q": "Ist sie kostenlos?",
-          "a": "Ja. Notizen zu schreiben und zu speichern ist kostenlos und unbegrenzt, und die Windows-Version enthält keine Werbung. Die kostenlose Version lässt jeweils eine Notiz auf dem Bildschirm schweben und gibt dir zwei der sieben Farben. Pro ist ein Einmalkauf, kein Abo, und ergänzt unbegrenzte schwebende Notizen, die volle Palette, Bilder in der Notiz, einstellbare Transparenz, Google-Drive-Sync sowie Export und Import."
+          "a": "Ja. Notizen zu schreiben und zu speichern ist kostenlos und unbegrenzt, und die Windows-Version enthält keine Werbung. Die kostenlose Version lässt jeweils eine Notiz auf dem Bildschirm schweben, mit allen sieben Farben. Pro ist ein Einmalkauf, kein Abo, und ergänzt unbegrenzte schwebende Notizen, Bilder in der Notiz, einstellbare Transparenz, Google-Drive-Sync sowie Export und Import."
         }
       ]
     },

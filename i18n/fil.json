@@ -326,10 +326,10 @@
       "features": [
         "Lumulutang na overlay notes: i-collapse ang nota sa chip, palawakin bilang buong card sa ibabaw ng kahit anong app",
         "7 kulay ng nota at rich text: bold, italic, underline, strikethrough, kulay at laki ng teksto",
-        "Larawan sa nota: maglakip ng litrato mismo sa loob",
+        "Larawan sa nota (Pro): maglakip ng litrato mismo sa loob",
         "Mabilis na pag-capture mula sa share menu, sa napiling teksto sa ibang app, o sa Quick Settings tile",
         "Aklatan na may agarang paghahanap, pag-pin, at pag-aayos sa pag-drag; ang paghila ng chip sa ibabang bahagi ay nagtatago ng nota, hindi nagbubura",
-        "Pro: walang limitasyong lumulutang na nota, lahat ng 7 kulay, larawan, naiaayos na opacity, Google Drive sync, export at import, walang ad"
+        "Pro: walang limitasyong lumulutang na nota, larawan, naiaayos na opacity, Google Drive sync, export at import, walang ad"
       ],
       "faq": [
         {
@@ -342,11 +342,11 @@
         },
         {
           "q": "Nagsi-sync ba ito sa Windows PC ko?",
-          "a": "Oo. I-install din ang FloatNote+ for Windows, tapos sa settings ng dalawang app ay mag-sign in sa Google Drive gamit ang iisang account at i-on ang automatic sync. Pagkatapos noon, ang mga notang sinulat sa telepono ay lumalabas sa PC, at ang sinulat sa PC ay lumalabas sa telepono. Hindi dumadaan sa anumang server ng CodeDAC ang mga nota — nakaimbak lamang ang mga ito sa sarili mong Google Drive. Ang mga larawang nakalakip sa isang nota ay nananatili sa device na pinagdagdagan; ang naglalakbay ay ang teksto ng nota."
+          "a": "Oo. I-install din ang FloatNote+ for Windows, tapos sa settings ng dalawang app ay mag-sign in sa Google Drive gamit ang iisang account at i-on ang automatic sync. Pagkatapos noon, ang mga notang sinulat sa telepono ay lumalabas sa PC, at ang sinulat sa PC ay lumalabas sa telepono. Hindi dumadaan sa anumang server ng CodeDAC ang mga nota — nakaimbak lamang ang mga ito sa sarili mong Google Drive. Nagsi-sync ang teksto at ang mga naka-attach na larawan."
         },
         {
           "q": "Libre ba ito?",
-          "a": "Oo. Walang limitasyon at libre ang pag-save ng nota, at ang libreng bersyon ay may lumulutang na sticky notes na 2 kulay kasama ang mga ad. Nagdadagdag ang Pro ng walang limitasyong lumulutang na nota, lahat ng 7 kulay, larawan, naiaayos na opacity, Google Drive sync, export at import, at inaalis ang mga ad."
+          "a": "Oo. Walang limitasyon at libre ang pag-save ng nota, at ang libreng bersyon ay naglulutang ng isang nota sa bawat pagkakataon, may lahat ng 7 kulay at may mga ad. Nagdadagdag ang Pro ng walang limitasyong lumulutang na nota, larawan, naiaayos na opacity, Google Drive sync, export at import, at inaalis ang mga ad."
         }
       ]
     },
@@ -428,7 +428,7 @@
       "faq": [
         {
           "q": "Pareho ba ito sa FloatNote+ sa Android?",
-          "a": "Iisang app ito na ginawa para sa Windows, pareho rin ang mga chip at card. Hiwalay ang bili sa bawat store, pero kapag nag-sign in ka sa Google Drive gamit ang iisang account sa dalawang app at in-on ang automatic sync, ang mga notang sinulat sa PC ay dumarating sa telepono at ang sinulat sa telepono ay dumarating sa PC. Hindi dumadaan sa anumang server ng CodeDAC ang mga nota — nakaimbak lamang ang mga ito sa sarili mong Google Drive. Ang mga larawang nakalakip sa isang nota ay nananatili sa device na pinagdagdagan; ang naglalakbay ay ang teksto ng nota."
+          "a": "Iisang app ito na ginawa para sa Windows, pareho rin ang mga chip at card. Hiwalay ang bili sa bawat store, pero kapag nag-sign in ka sa Google Drive gamit ang iisang account sa dalawang app at in-on ang automatic sync, ang mga notang sinulat sa PC ay dumarating sa telepono at ang sinulat sa telepono ay dumarating sa PC. Hindi dumadaan sa anumang server ng CodeDAC ang mga nota — nakaimbak lamang ang mga ito sa sarili mong Google Drive. Nagsi-sync ang teksto at ang mga naka-attach na larawan."
         },
         {
           "q": "Nakakaabala ba ito sa app na nasa ilalim?",
@@ -436,7 +436,7 @@
         },
         {
           "q": "Libre ba ito?",
-          "a": "Oo. Libre at walang limitasyon ang pagsulat at pag-imbak ng nota, at walang ads ang bersyon para sa Windows. Ang libreng bersyon ay naglulutang ng isang nota sa bawat pagkakataon at may dalawa sa pitong kulay. Ang Pro ay isang beses na bayad, hindi subscription, at nagdadagdag ng walang limitasyong lumulutang na nota, buong palette, larawan sa loob ng nota, naiaayos na opacity, Google Drive sync, at export at import ng nota."
+          "a": "Oo. Libre at walang limitasyon ang pagsulat at pag-imbak ng nota, at walang ads ang bersyon para sa Windows. Ang libreng bersyon ay naglulutang ng isang nota sa bawat pagkakataon, kasama ang lahat ng pitong kulay. Ang Pro ay isang beses na bayad, hindi subscription, at nagdadagdag ng walang limitasyong lumulutang na nota, larawan sa loob ng nota, naiaayos na opacity, Google Drive sync, at export at import ng nota."
         }
       ]
     },

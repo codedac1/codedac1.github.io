@@ -326,10 +326,10 @@
       "features": [
         "Yüzen kaplama notlar: notu küçük bir çipe küçültün, her uygulamanın üstünde tam kart olarak açın",
         "7 not rengi ve zengin metin: kalın, italik, altı çizili, üstü çizili, metin rengi ve boyutu",
-        "Notta görsel: fotoğrafları doğrudan notun içine ekleyin",
+        "Notta görsel (Pro): fotoğrafları doğrudan notun içine ekleyin",
         "Hızlı yakalama: paylaşım menüsünden, başka bir uygulamada seçili metinden veya Hızlı Ayarlar döşemesinden",
         "Anında arama, sabitleme ve sürükleyerek sıralama sunan arşiv; çipi alttaki bölgeye bırakmak notu silmez, kaldırır",
-        "Pro: sınırsız yüzen not, 7 rengin tümü, görseller, ayarlanabilir saydamlık, Google Drive eşitleme, dışa/içe aktarma, reklamsız"
+        "Pro: sınırsız yüzen not, görseller, ayarlanabilir saydamlık, Google Drive eşitleme, dışa/içe aktarma, reklamsız"
       ],
       "faq": [
         {
@@ -342,11 +342,11 @@
         },
         {
           "q": "Windows bilgisayarımla senkronize oluyor mu?",
-          "a": "Evet. FloatNote+ for Windows'u da kurun, ardından her iki uygulamanın ayarlarında aynı hesapla Google Drive'a giriş yapıp otomatik senkronizasyonu açın. Bundan sonra telefonda yazdığınız notlar bilgisayarda, bilgisayarda yazdığınız notlar telefonda görünür. Notlar hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Nota eklenen görseller eklendikleri cihazda kalır; gidip gelen, notun metnidir."
+          "a": "Evet. FloatNote+ for Windows'u da kurun, ardından her iki uygulamanın ayarlarında aynı hesapla Google Drive'a giriş yapıp otomatik senkronizasyonu açın. Bundan sonra telefonda yazdığınız notlar bilgisayarda, bilgisayarda yazdığınız notlar telefonda görünür. Notlar hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Not metni de ekli görseller de cihazlar arasında taşınır."
         },
         {
           "q": "Ücretsiz mi?",
-          "a": "Evet. Not kaydetmek sınırsız ve ücretsizdir; ücretsiz sürüm 2 renkli yüzen yapışkan notlar sunar ve reklam gösterir. Pro; sınırsız yüzen not, 7 rengin tümü, görseller, ayarlanabilir saydamlık, Google Drive eşitleme, dışa/içe aktarma ekler ve reklamları kaldırır."
+          "a": "Evet. Not kaydetmek sınırsız ve ücretsizdir; ücretsiz sürüm aynı anda tek yüzen not sunar, yedi rengin tümünü verir ve reklam gösterir. Pro; sınırsız yüzen not, görseller, ayarlanabilir saydamlık, Google Drive eşitleme, dışa/içe aktarma ekler ve reklamları kaldırır."
         }
       ]
     },
@@ -428,7 +428,7 @@
       "faq": [
         {
           "q": "Bu, Android'deki FloatNote+ ile aynı uygulama mı?",
-          "a": "Windows için yapılmış aynı uygulama; çipler ve kartlar da aynı. Satın alma her mağazada ayrı yapılır, ancak her iki uygulamanın ayarlarında aynı hesapla Google Drive'a giriş yapıp otomatik senkronizasyonu açtığınızda bilgisayarda yazdığınız notlar telefona, telefonda yazdıklarınız bilgisayara gelir. Notlar hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Nota eklenen görseller eklendikleri cihazda kalır; gidip gelen, notun metnidir."
+          "a": "Windows için yapılmış aynı uygulama; çipler ve kartlar da aynı. Satın alma her mağazada ayrı yapılır, ancak her iki uygulamanın ayarlarında aynı hesapla Google Drive'a giriş yapıp otomatik senkronizasyonu açtığınızda bilgisayarda yazdığınız notlar telefona, telefonda yazdıklarınız bilgisayara gelir. Notlar hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Not metni de ekli görseller de cihazlar arasında taşınır."
         },
         {
           "q": "Alttaki uygulamayı engeller mi?",
@@ -436,7 +436,7 @@
         },
         {
           "q": "Ücretsiz mi?",
-          "a": "Evet. Not yazmak ve saklamak ücretsiz ve sınırsızdır, Windows sürümünde reklam yoktur. Ücretsiz sürüm ekranda aynı anda bir not yüzdürür ve yedi rengin ikisini verir. Pro abonelik değil tek seferlik satın almadır; sınırsız yüzen not, tüm palet, not içi görseller, ayarlanabilir not saydamlığı, Google Drive eşitlemesi ile dışa ve içe aktarma ekler."
+          "a": "Evet. Not yazmak ve saklamak ücretsiz ve sınırsızdır, Windows sürümünde reklam yoktur. Ücretsiz sürüm ekranda aynı anda bir not yüzdürür ve yedi rengin tümünü verir. Pro abonelik değil tek seferlik satın almadır; sınırsız yüzen not, not içi görseller, ayarlanabilir not saydamlığı, Google Drive eşitlemesi ile dışa ve içe aktarma ekler."
         }
       ]
     },

@@ -26,8 +26,8 @@ APPS = {
     "floatcalc":     (r"FloatCalc\FloatCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatCalc\Resource\PlayStore등록자료\screenshots_v5\en", "*.png"),
     "floatcrypto":   (r"FloatCrypto\Resource\icon_512.png", r"FloatCrypto\Resource\PlayStore_등록자료\en", "*.png"),
     "floatnote":     (r"FloatNote\Resource\icon_512.png", r"FloatNote\Resource\PlayStore등록자료\en", "*.png"),
-    # 한국어 스크린샷은 store-ko-* 라 영어만 고른다.
-    "floatnotewin":  (r"FloatNoteWin\src\FloatNotePlus\Assets\app.ico", r"FloatNoteWin\Resource\shots", "store-en-*.png"),
+    # 스크린샷이 언어별 폴더로 갈라지면서 docs\store-screenshots\en 으로 옮겨 갔다(ClipboardWin 과 같은 배치).
+    "floatnotewin":  (r"FloatNoteWin\src\FloatNotePlus\Assets\app.ico", r"FloatNoteWin\docs\store-screenshots\en", "store-en-*.png"),
     "floattimer":    (r"FloatTimer\FloatTimer\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatTimer\Resource\screenshots_en", "*.png"),
     # 한국어 스크린샷은 store-ko-* 라 영어만 고른다.
     "floattimerwin": (r"FloatTimerWin\src\FloatTimerPlus\Assets\app.ico", r"FloatTimerWin\Resource\shots", "store-en-*.png"),
