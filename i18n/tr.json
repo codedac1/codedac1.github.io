@@ -202,11 +202,11 @@
       "seo": "Kayan zamanlayıcı ve sayaç",
       "desc": "Her uygulamanın üstünde kayan zamanlayıcı, sayaç ve kronometre.",
       "tagline": "Her uygulamanın üstünde kayan geri sayım, sayaç ve kronometre.",
-      "long": "FloatTimer+, geri sayım zamanlayıcısını, sayacı ve kronometreyi her uygulamanın üstünde tutan bir kayan pencere uygulamasıdır. Başka bir işle uğraşırken bile zamanlayıcı görünür kalır: istediğin yere sürükle, her öğe için boyut, saydamlık ve arka plan rengini ayarla ya da ekrana ihtiyacın olduğunda küçük bir çipe küçült. Uygulamayı açmadan pencere menüsünden oynatabilir, duraklatabilir ve sıfırlayabilirsin; uygulama değiştirsen veya ekranı kilitlesen de her şey arka planda çalışmaya devam eder. Bir kez ayarla; yemek yaparken, spor yaparken, ders çalışırken ya da oyun oynarken zamanı gözden kaçırma.",
+      "long": "FloatTimer+, geri sayım zamanlayıcısını, sayacı ve kronometreyi her uygulamanın üstünde tutan bir kayan pencere uygulamasıdır. Başka bir işle uğraşırken bile zamanlayıcı görünür kalır: istediğin yere sürükle, her öğe için boyut, saydamlık ve arka plan rengini ayarla ya da ekrana ihtiyacın olduğunda uygulama simgesini taşıyan bir balona katla: balonun herhangi bir yerine dokun, yeniden açılsın; sadece simge kalacak kadar küçült ya da ekran kenarına it, yarısı gizli dursun. Uygulamayı açmadan pencere menüsünden oynatabilir, duraklatabilir ve sıfırlayabilirsin; uygulama değiştirsen veya ekranı kilitlesen de her şey arka planda çalışmaya devam eder. Bir kez ayarla; yemek yaparken, spor yaparken, ders çalışırken ya da oyun oynarken zamanı gözden kaçırma.",
       "features": [
         "Kayan pencere — zamanlayıcı, sayaç ve kronometreler her uygulamanın üstünde durur; istediğin yere sürükle, her öğe için boyut, saydamlık ve arka plan rengini ayarla",
         "Çoklu zamanlayıcı — saat, dakika, saniye cinsinden istediğin süre; 1, 5, 10, 25, 30 ve 60 dakikalık hızlı seçimler ve aynı anda istediğin kadar zamanlayıcı",
-        "Pencere kontrolleri — uygulamayı açmadan menüden oynat, duraklat ve sıfırla; ekrana ihtiyaç duyduğunda küçük bir çipe küçült, dokununca geri aç",
+        "Pencere kontrolleri — uygulamayı açmadan menüden oynat, duraklat ve sıfırla; ekrana ihtiyaç duyduğunda uygulama simgesini taşıyan bir balona katla, herhangi bir yerine dokununca geri açılsın",
         "Sayaç — doğrudan kayan pencere üzerinde dokunarak artır veya azalt; adım 1, 2, 5 ya da 10 ve ihtiyacın kadar sayaç",
         "Kronometre — birden fazla kronometre ayrı ayrı ölçülür; kullandığın uygulamadan çıkmadan başlat, duraklat ve sıfırla",
         "Uyarılar ve yedekleme — süre bitince ses, titreşim veya tam ekran uyarı; ayrıca dosyaya aktarma ve birleştirerek ya da tamamen değiştirerek geri yükleme"
@@ -446,9 +446,9 @@
       "seo": "PC kayan zamanlayıcı",
       "desc": "Windows'ta her pencerenin üzerinde küçük pastel kartlar olarak kayan zamanlayıcılar, sayaçlar ve kronometreler.",
       "tagline": "Üzerinde çalıştığınız her şeyin üstünde kayan zamanlayıcılar, sayaçlar ve kronometreler: istediğiniz yere sürüklediğiniz küçük pastel kartlar, alttaki uygulamanın odağını asla çalmaz.",
-      "long": "FloatTimer+ for Windows, Android'deki FloatTimer+ uygulamasının masaüstü sürümüdür. Geçiş yapmanız gereken bir pencere yerine, her zamanlayıcı çalışmanızın üzerinde — düzenleyicinizin, tarayıcınızın, görüntülü görüşmenizin üzerinde — kayan küçük bir pastel karta dönüşür ve göz önünde geri sayar. Başlatmak veya duraklatmak için karta tıklayın, ait olduğu yere sürükleyin ya da ekrana ihtiyacınız olduğunda küçük bir çipe katlayın. Kart, arkasındaki uygulamanın odağını asla almaz; yazarken karta dokunsanız bile imleç tam bıraktığınız yerde kalır. Sayaçlar kartın sol ve sağ yarısına tıklayarak azaltıp artırır, kronometreler yukarı doğru sayar ve dokuz pastel renk hepsini bir bakışta ayırt etmenizi sağlar. Uygulama sistem tepsisinde durur, hesap istemez ve ağa hiç çıkmaz — zamanlayıcılarınız kendi bilgisayarınızdaki bir dosyada kalır.",
+      "long": "FloatTimer+ for Windows, Android'deki FloatTimer+ uygulamasının masaüstü sürümüdür. Geçiş yapmanız gereken bir pencere yerine, her zamanlayıcı çalışmanızın üzerinde — düzenleyicinizin, tarayıcınızın, görüntülü görüşmenizin üzerinde — kayan küçük bir pastel karta dönüşür ve göz önünde geri sayar. Başlatmak veya duraklatmak için karta tıklayın, ait olduğu yere sürükleyin ya da ekrana ihtiyacınız olduğunda bir düğmeden az büyük, üzerinde uygulama simgesi olan bir balona katlayın: balonun herhangi bir yerine tıklamak kartı yeniden açar, onu yalnızca simge kalacak kadar küçültebilir ya da ekranın kenarına itebilirsiniz; orada yarısı gizli durur. Kart, arkasındaki uygulamanın odağını asla almaz; yazarken karta dokunsanız bile imleç tam bıraktığınız yerde kalır. Sayaçlar kartın sol ve sağ yarısına tıklayarak azaltıp artırır, kronometreler yukarı doğru sayar ve dokuz pastel renk hepsini bir bakışta ayırt etmenizi sağlar. Uygulama sistem tepsisinde durur, hesap istemez ve ağa hiç çıkmaz — zamanlayıcılarınız kendi bilgisayarınızdaki bir dosyada kalır.",
       "features": [
-        "Zamanlayıcılar, sayaçlar ve kronometreler her pencerenin üzerinde küçük pastel kartlar olarak kayar — istediğiniz yere sürükleyin, boyutlandırın veya çipe katlayın",
+        "Zamanlayıcılar, sayaçlar ve kronometreler her pencerenin üzerinde küçük pastel kartlar olarak kayar — istediğiniz yere sürükleyin, boyutlandırın veya uygulama simgesini taşıyan bir balona katlayın",
         "Odağı asla çalmaz — karta tıklayın ya da sürükleyin, imleciniz yazdığınız belgede kalır",
         "Uygulamayı açmadan doğrudan kart üzerinde başlatın, duraklatın ve sıfırlayın; sayaçlar iki yarısına tıklayarak artar ve azalır",
         "Dokuz pastel renk, ayarlanabilir kart boyutu ve saydamlık, açık veya koyu temanızı izleyen uygulama pencereleri",
@@ -462,7 +462,7 @@
         },
         {
           "q": "Alttaki uygulamayı engeller mi?",
-          "a": "Hayır. Kart, odağı hiç almayan kayan bir penceredir; tıklamanız veya sürüklemeniz imlecinizi tam yazdığınız yerde bırakır. Ekrana ihtiyacınız olduğunda kartı küçük bir çipe katlayın ya da bir kısayolla tüm kartları aynı anda gizleyin."
+          "a": "Hayır. Kart, odağı hiç almayan kayan bir penceredir; tıklamanız veya sürüklemeniz imlecinizi tam yazdığınız yerde bırakır. Ekrana ihtiyacınız olduğunda kartı bir düğmeden az büyük bir balona katlayın, ekranın kenarına iterek yarısını gizleyin ya da bir kısayolla tüm kartları aynı anda gizleyin."
         },
         {
           "q": "Ücretsiz kullanılabilir mi?",

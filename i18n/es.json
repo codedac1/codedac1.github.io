@@ -202,11 +202,11 @@
       "seo": "temporizador flotante Pomodoro",
       "desc": "Un temporizador, contador y cronómetro flotante sobre cualquier app.",
       "tagline": "Una cuenta atrás, un contador y un cronómetro que flotan sobre cada aplicación.",
-      "long": "FloatTimer+ es una app de ventana flotante que mantiene una cuenta atrás, un contador y un cronómetro encima de cualquier aplicación que uses. El temporizador sigue a la vista mientras haces otra cosa: arrástralo a donde quieras, ajusta tamaño, opacidad y color de fondo de cada elemento, o contráelo a una pequeña pastilla cuando necesites la pantalla. Puedes iniciarlo, pausarlo y reiniciarlo desde el menú flotante sin abrir la app, y todo sigue funcionando en segundo plano aunque cambies de aplicación o bloquees la pantalla. Configúralo una vez y sigue cocinando, entrenando, estudiando o jugando sin perder de vista el tiempo.",
+      "long": "FloatTimer+ es una app de ventana flotante que mantiene una cuenta atrás, un contador y un cronómetro encima de cualquier aplicación que uses. El temporizador sigue a la vista mientras haces otra cosa: arrástralo a donde quieras, ajusta tamaño, opacidad y color de fondo de cada elemento, o pliégalo en una burbuja con el icono de la app cuando necesites la pantalla: toca en cualquier punto para volver a abrirla, redúcela aún más hasta dejar solo el icono o empújala al borde y se esconde a medias. Puedes iniciarlo, pausarlo y reiniciarlo desde el menú flotante sin abrir la app, y todo sigue funcionando en segundo plano aunque cambies de aplicación o bloquees la pantalla. Configúralo una vez y sigue cocinando, entrenando, estudiando o jugando sin perder de vista el tiempo.",
       "features": [
         "Ventana flotante — temporizadores, contadores y cronómetros flotan sobre cualquier app; arrástralos donde quieras y ajusta tamaño, opacidad y color de fondo de cada uno",
         "Multitemporizador — cualquier duración en horas, minutos y segundos, con ajustes rápidos de 1, 5, 10, 25, 30 y 60 minutos y todos los que quieras a la vez",
-        "Control desde la ventana — inicia, pausa y reinicia desde el menú flotante sin abrir la app, o contráela a una pastilla y tócala para desplegarla",
+        "Control desde la ventana — inicia, pausa y reinicia desde el menú flotante sin abrir la app, o pliégala en una burbuja con el icono de la app y toca en cualquier punto para volver a abrirla",
         "Contador — suma y resta tocando directamente en la ventana flotante, con paso de 1, 2, 5 o 10 y tantos contadores como necesites",
         "Cronómetro — varios cronómetros medidos por separado; inicia, pausa y reinicia sin salir de la app que estás usando",
         "Avisos y copia de seguridad — sonido, vibración o alerta a pantalla completa al terminar, más exportación a un archivo y restauración combinando o reemplazando"
@@ -446,9 +446,9 @@
       "seo": "temporizador flotante PC",
       "desc": "Temporizadores, contadores y cronómetros que flotan sobre cualquier ventana de Windows como pequeñas tarjetas pastel.",
       "tagline": "Temporizadores, contadores y cronómetros que flotan sobre lo que estés haciendo: pequeñas tarjetas pastel que arrastras donde quieras y que nunca roban el foco a la aplicación de abajo.",
-      "long": "FloatTimer+ for Windows es la versión de escritorio de la aplicación FloatTimer+ para Android. En lugar de una ventana a la que tienes que cambiar, cada temporizador es una pequeña tarjeta pastel que flota sobre tu trabajo — sobre el editor, el navegador o la videollamada — y va contando a la vista. Pulsa una tarjeta para iniciarla o pausarla, arrástrala donde te convenga o pliégala en una pastilla cuando necesites la pantalla. La tarjeta nunca le quita el foco a la aplicación que tiene detrás, así que el cursor se queda exactamente donde lo dejaste mientras escribes. Los contadores restan y suman al pulsar cada mitad de la tarjeta, los cronómetros cuentan hacia arriba y nueve colores pastel te permiten distinguirlos de un vistazo. Vive en la bandeja del sistema, no necesita cuenta y no usa la red: tus temporizadores se quedan en un archivo de tu propio PC.",
+      "long": "FloatTimer+ for Windows es la versión de escritorio de la aplicación FloatTimer+ para Android. En lugar de una ventana a la que tienes que cambiar, cada temporizador es una pequeña tarjeta pastel que flota sobre tu trabajo — sobre el editor, el navegador o la videollamada — y va contando a la vista. Pulsa una tarjeta para iniciarla o pausarla, arrástrala donde te convenga o pliégala en una burbuja apenas mayor que un botón y con el icono de la aplicación cuando necesites la pantalla: haz clic en cualquier punto para volver a abrir la tarjeta, redúcela hasta dejar solo el icono o empújala contra el borde de la pantalla, donde se esconde a medias. La tarjeta nunca le quita el foco a la aplicación que tiene detrás, así que el cursor se queda exactamente donde lo dejaste mientras escribes. Los contadores restan y suman al pulsar cada mitad de la tarjeta, los cronómetros cuentan hacia arriba y nueve colores pastel te permiten distinguirlos de un vistazo. Vive en la bandeja del sistema, no necesita cuenta y no usa la red: tus temporizadores se quedan en un archivo de tu propio PC.",
       "features": [
-        "Temporizadores, contadores y cronómetros flotan sobre cualquier ventana como pequeñas tarjetas pastel: arrástralas, cambia su tamaño o pliégalas en una pastilla",
+        "Temporizadores, contadores y cronómetros flotan sobre cualquier ventana como pequeñas tarjetas pastel: arrástralas, cambia su tamaño o pliégalas en una burbuja con el icono de la aplicación",
         "Nunca roba el foco: pulsa o arrastra una tarjeta y el cursor sigue en el documento que estabas escribiendo",
         "Inicia, pausa y reinicia desde la propia tarjeta sin abrir la aplicación; los contadores suman y restan al pulsar cada mitad",
         "Nueve colores pastel, tamaño y opacidad de tarjeta ajustables, y ventanas que siguen tu tema claro u oscuro",
@@ -462,7 +462,7 @@
         },
         {
           "q": "¿Estorba a la aplicación que está debajo?",
-          "a": "No. La tarjeta es una ventana flotante que nunca toma el foco, así que al pulsarla o arrastrarla el cursor se queda justo donde estabas escribiendo. Cuando necesites la pantalla, pliega la tarjeta en una pastilla u oculta todas a la vez con un atajo."
+          "a": "No. La tarjeta es una ventana flotante que nunca toma el foco, así que al pulsarla o arrastrarla el cursor se queda justo donde estabas escribiendo. Cuando necesites la pantalla, pliega la tarjeta en una burbuja apenas mayor que un botón, empújala contra el borde de la pantalla para que se esconda a medias u oculta todas a la vez con un atajo."
         },
         {
           "q": "¿Se puede usar gratis?",

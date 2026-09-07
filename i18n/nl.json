@@ -202,11 +202,11 @@
       "seo": "Zwevende pomodoro timer",
       "desc": "Een zwevende timer, teller en stopwatch boven elke app.",
       "tagline": "Een afteltimer, teller en stopwatch die boven elke app zweven.",
-      "long": "FloatTimer+ is een app met een zwevend venster dat een afteltimer, teller en stopwatch boven elke app houdt die je gebruikt. Je timer blijft zichtbaar terwijl je iets anders doet: sleep hem waar je wilt, stel per item grootte, transparantie en achtergrondkleur in, of vouw hem op tot een kleine chip wanneer je het scherm nodig hebt. Starten, pauzeren en resetten kan direct in het menu van het zwevende venster zonder de app te openen, en alles loopt door op de achtergrond, ook als je van app wisselt of je scherm vergrendelt. Eén keer instellen en verder koken, sporten, studeren of gamen zonder de tijd uit het oog te verliezen.",
+      "long": "FloatTimer+ is een app met een zwevend venster dat een afteltimer, teller en stopwatch boven elke app houdt die je gebruikt. Je timer blijft zichtbaar terwijl je iets anders doet: sleep hem waar je wilt, stel per item grootte, transparantie en achtergrondkleur in, of klap hem in tot een bubbel met het app-pictogram wanneer je het scherm nodig hebt: tik er ergens op en hij opent weer, krimp hem verder tot alleen het pictogram, of duw hem tegen de rand waar hij half verdwijnt. Starten, pauzeren en resetten kan direct in het menu van het zwevende venster zonder de app te openen, en alles loopt door op de achtergrond, ook als je van app wisselt of je scherm vergrendelt. Eén keer instellen en verder koken, sporten, studeren of gamen zonder de tijd uit het oog te verliezen.",
       "features": [
         "Zwevend venster — timers, tellers en stopwatches zweven boven elke app; sleep ze waarheen je wilt en stel per item grootte, transparantie en achtergrondkleur in",
         "Multitimer — elke duur in uren, minuten en seconden, met snelkeuzes van 1, 5, 10, 25, 30 en 60 minuten en zoveel timers tegelijk als je wilt",
-        "Bediening in het venster — start, pauzeer en reset via het menu zonder de app te openen, of vouw het op tot een compacte chip en tik om uit te klappen",
+        "Bediening in het venster — start, pauzeer en reset via het menu zonder de app te openen, of klap het in tot een bubbel met het app-pictogram en tik er ergens op om het weer te openen",
         "Teller — tel omhoog of omlaag met één tik op het zwevende venster, met stapgrootte 1, 2, 5 of 10 en zoveel tellers als je nodig hebt",
         "Stopwatch — meerdere stopwatches die apart lopen; starten, pauzeren en resetten zonder je huidige app te verlaten",
         "Meldingen en back-up — geluid, trilling of een melding op het volledige scherm als de tijd om is, plus export naar een bestand en herstel door samenvoegen of vervangen"
@@ -446,9 +446,9 @@
       "seo": "Zwevende timer voor pc",
       "desc": "Timers, tellers en stopwatches die als kleine pastelkaartjes boven elk venster in Windows zweven.",
       "tagline": "Timers, tellers en stopwatches die zweven boven waar u mee bezig bent: kleine pastelkaartjes die u neerzet waar u wilt, en die de app eronder nooit de focus afpakken.",
-      "long": "FloatTimer+ for Windows is de desktopversie van de Android-app FloatTimer+. In plaats van een venster waar u naartoe moet schakelen, wordt elke timer een klein pastelkaartje dat boven uw werk zweeft — boven uw editor, uw browser, uw videogesprek — en gewoon in beeld aftelt. Klik op een kaartje om het te starten of te pauzeren, sleep het waar het hoort, of vouw het op tot een chip als u het scherm nodig hebt. Het kaartje pakt de app erachter nooit de focus af, dus uw cursor blijft precies waar u hem liet terwijl u typt. Tellers tellen af en op met een klik op de linker- of rechterhelft, stopwatches tellen op, en negen pasteltinten houden alles uit elkaar. De app woont in het systeemvak, vraagt geen account en gebruikt nooit het netwerk — uw timers blijven in een bestand op uw eigen pc.",
+      "long": "FloatTimer+ for Windows is de desktopversie van de Android-app FloatTimer+. In plaats van een venster waar u naartoe moet schakelen, wordt elke timer een klein pastelkaartje dat boven uw werk zweeft — boven uw editor, uw browser, uw videogesprek — en gewoon in beeld aftelt. Klik op een kaartje om het te starten of te pauzeren, sleep het waar het hoort, of klap het in tot een bubbel, nauwelijks groter dan een knop en met het app-pictogram erop, als u het scherm nodig hebt: klik er ergens op om de kaart weer te openen, krimp hem tot alleen het pictogram, of duw hem tegen de schermrand waar hij zich half verstopt. Het kaartje pakt de app erachter nooit de focus af, dus uw cursor blijft precies waar u hem liet terwijl u typt. Tellers tellen af en op met een klik op de linker- of rechterhelft, stopwatches tellen op, en negen pasteltinten houden alles uit elkaar. De app woont in het systeemvak, vraagt geen account en gebruikt nooit het netwerk — uw timers blijven in een bestand op uw eigen pc.",
       "features": [
-        "Timers, tellers en stopwatches zweven als kleine pastelkaartjes boven elk venster — sleep ze waarheen u wilt, pas de grootte aan of vouw ze op tot een chip",
+        "Timers, tellers en stopwatches zweven als kleine pastelkaartjes boven elk venster — sleep ze waarheen u wilt, pas de grootte aan of klap ze in tot een bubbel met het app-pictogram",
         "Pakt nooit de focus af — klik of sleep een kaartje en uw cursor blijft in het document waarin u aan het typen was",
         "Starten, pauzeren en resetten vanaf het kaartje zelf, zonder de app te openen; tellers tellen op en af met een klik op elke helft",
         "Negen pasteltinten, instelbare kaartgrootte en doorzichtigheid, en appvensters die uw lichte of donkere thema volgen",
@@ -462,7 +462,7 @@
         },
         {
           "q": "Zit het de app eronder in de weg?",
-          "a": "Nee. Een kaartje is een zwevend venster dat nooit de focus overneemt, dus klikken of slepen laat uw cursor precies staan waar u aan het typen was. Hebt u het scherm nodig, vouw dan een kaartje op tot een kleine chip of verberg ze allemaal tegelijk met een sneltoets."
+          "a": "Nee. Een kaartje is een zwevend venster dat nooit de focus overneemt, dus klikken of slepen laat uw cursor precies staan waar u aan het typen was. Hebt u het scherm nodig, klap dan een kaartje in tot een bubbel die nauwelijks groter is dan een knop, duw het tegen de schermrand waar het zich half verstopt, of verberg ze allemaal tegelijk met een sneltoets."
         },
         {
           "q": "Is het gratis te gebruiken?",

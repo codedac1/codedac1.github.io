@@ -202,11 +202,11 @@
       "seo": "timer flutuante Pomodoro",
       "desc": "Um timer, contador e cronômetro flutuante sobre qualquer app.",
       "tagline": "Uma contagem regressiva, um contador e um cronômetro que flutuam sobre todos os apps.",
-      "long": "O FloatTimer+ é um app de janela flutuante que mantém contagem regressiva, contador e cronômetro por cima de qualquer aplicativo que você use. O timer continua à vista enquanto você faz outra coisa: arraste para onde quiser, ajuste tamanho, opacidade e cor de fundo de cada item ou recolha em uma pequena cápsula quando precisar da tela. Dá para iniciar, pausar e zerar pelo menu da sobreposição sem abrir o app, e tudo continua rodando em segundo plano mesmo se você trocar de aplicativo ou bloquear a tela. Configure uma vez e siga cozinhando, treinando, estudando ou jogando sem perder o tempo de vista.",
+      "long": "O FloatTimer+ é um app de janela flutuante que mantém contagem regressiva, contador e cronômetro por cima de qualquer aplicativo que você use. O timer continua à vista enquanto você faz outra coisa: arraste para onde quiser, ajuste tamanho, opacidade e cor de fundo de cada item ou recolha em uma bolha com o ícone do app quando precisar da tela: toque em qualquer ponto para abrir de novo, reduza ainda mais até só o ícone ou empurre para a borda, onde ela se esconde pela metade. Dá para iniciar, pausar e zerar pelo menu da sobreposição sem abrir o app, e tudo continua rodando em segundo plano mesmo se você trocar de aplicativo ou bloquear a tela. Configure uma vez e siga cozinhando, treinando, estudando ou jogando sem perder o tempo de vista.",
       "features": [
         "Janela flutuante — timers, contadores e cronômetros flutuam sobre qualquer app; arraste para onde quiser e ajuste tamanho, opacidade e cor de fundo de cada item",
         "Multi timer — qualquer duração em horas, minutos e segundos, com atalhos de 1, 5, 10, 25, 30 e 60 minutos e quantos timers quiser ao mesmo tempo",
-        "Controle na sobreposição — inicie, pause e zere pelo menu flutuante sem abrir o app, ou recolha em uma cápsula e toque para expandir",
+        "Controle na sobreposição — inicie, pause e zere pelo menu flutuante sem abrir o app, ou recolha em uma bolha com o ícone do app e toque em qualquer ponto para abrir de novo",
         "Contador — toque para somar ou subtrair direto na sobreposição, com passo de 1, 2, 5 ou 10 e quantos contadores precisar",
         "Cronômetro — vários cronômetros medidos separadamente; inicie, pause e zere sem sair do app que está usando",
         "Avisos e backup — som, vibração ou alerta em tela cheia ao terminar, além de exportar para um arquivo e restaurar juntando ou substituindo tudo"
@@ -446,9 +446,9 @@
       "seo": "timer flutuante para PC",
       "desc": "Timers, contadores e cronômetros que flutuam sobre qualquer janela do Windows como pequenos cartões pastel.",
       "tagline": "Timers, contadores e cronômetros que flutuam sobre o que você está fazendo: pequenos cartões pastel que você arrasta para onde quiser e que nunca roubam o foco do aplicativo de baixo.",
-      "long": "O FloatTimer+ for Windows é a versão para desktop do aplicativo FloatTimer+ para Android. Em vez de uma janela para a qual você precisa alternar, cada timer vira um pequeno cartão pastel que flutua sobre o seu trabalho — sobre o editor, o navegador, a videochamada — contando à vista. Clique no cartão para iniciar ou pausar, arraste-o para onde ele fizer sentido ou recolha-o em uma pastilha quando precisar da tela. O cartão nunca tira o foco do aplicativo atrás dele, então o cursor fica exatamente onde você o deixou enquanto digita. Os contadores diminuem e aumentam ao clicar em cada metade do cartão, os cronômetros contam para cima e nove cores pastel deixam tudo fácil de distinguir. Ele fica na bandeja do sistema, não pede conta e não usa a rede — seus timers ficam em um arquivo no seu próprio PC.",
+      "long": "O FloatTimer+ for Windows é a versão para desktop do aplicativo FloatTimer+ para Android. Em vez de uma janela para a qual você precisa alternar, cada timer vira um pequeno cartão pastel que flutua sobre o seu trabalho — sobre o editor, o navegador, a videochamada — contando à vista. Clique no cartão para iniciar ou pausar, arraste-o para onde ele fizer sentido ou recolha-o em uma bolha pouco maior que um botão e com o ícone do aplicativo quando precisar da tela: clique em qualquer ponto para abrir o cartão de novo, reduza até só o ícone ou empurre-a contra a borda da tela, onde ela se esconde pela metade. O cartão nunca tira o foco do aplicativo atrás dele, então o cursor fica exatamente onde você o deixou enquanto digita. Os contadores diminuem e aumentam ao clicar em cada metade do cartão, os cronômetros contam para cima e nove cores pastel deixam tudo fácil de distinguir. Ele fica na bandeja do sistema, não pede conta e não usa a rede — seus timers ficam em um arquivo no seu próprio PC.",
       "features": [
-        "Timers, contadores e cronômetros flutuam sobre qualquer janela como pequenos cartões pastel — arraste, redimensione ou recolha em uma pastilha",
+        "Timers, contadores e cronômetros flutuam sobre qualquer janela como pequenos cartões pastel — arraste, redimensione ou recolha em uma bolha com o ícone do aplicativo",
         "Nunca rouba o foco — clique ou arraste um cartão e o cursor continua no documento que você estava digitando",
         "Inicie, pause e zere no próprio cartão, sem abrir o aplicativo; os contadores somam e subtraem ao clicar em cada metade",
         "Nove cores pastel, tamanho e opacidade do cartão ajustáveis e janelas que seguem o tema claro ou escuro",
@@ -462,7 +462,7 @@
         },
         {
           "q": "Atrapalha o aplicativo que está embaixo?",
-          "a": "Não. O cartão é uma janela flutuante que nunca assume o foco, então clicar ou arrastar deixa o cursor exatamente onde você estava digitando. Quando precisar da tela, recolha o cartão em uma pastilha ou esconda todos de uma vez com um atalho."
+          "a": "Não. O cartão é uma janela flutuante que nunca assume o foco, então clicar ou arrastar deixa o cursor exatamente onde você estava digitando. Quando precisar da tela, recolha o cartão em uma bolha pouco maior que um botão, empurre-a contra a borda da tela para se esconder pela metade ou esconda todos de uma vez com um atalho."
         },
         {
           "q": "Dá para usar de graça?",

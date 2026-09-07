@@ -202,11 +202,11 @@
       "seo": "Pływający minutnik Pomodoro",
       "desc": "Pływający minutnik, licznik i stoper nad każdą aplikacją.",
       "tagline": "Odliczanie, licznik i stoper, które pływają nad każdą aplikacją.",
-      "long": "FloatTimer+ to aplikacja z pływającym oknem, które trzyma odliczanie, licznik i stoper nad każdą używaną aplikacją. Minutnik pozostaje widoczny, gdy robisz coś innego: przeciągnij go w dowolne miejsce, ustaw rozmiar, przezroczystość i kolor tła dla każdego elementu albo zwiń do małej pigułki, gdy potrzebujesz ekranu. Start, pauzę i reset obsłużysz z menu nakładki bez otwierania aplikacji, a wszystko działa w tle, nawet gdy przełączysz aplikację lub zablokujesz ekran. Ustaw raz i gotuj, ćwicz, ucz się albo graj, nie tracąc czasu z oczu.",
+      "long": "FloatTimer+ to aplikacja z pływającym oknem, które trzyma odliczanie, licznik i stoper nad każdą używaną aplikacją. Minutnik pozostaje widoczny, gdy robisz coś innego: przeciągnij go w dowolne miejsce, ustaw rozmiar, przezroczystość i kolor tła dla każdego elementu albo zwiń do bąbelka z ikoną aplikacji, gdy potrzebujesz ekranu: dotknij go w dowolnym miejscu, aby otworzyć go ponownie, zmniejsz jeszcze bardziej do samej ikony albo dosuń do krawędzi, gdzie schowa się do połowy. Start, pauzę i reset obsłużysz z menu nakładki bez otwierania aplikacji, a wszystko działa w tle, nawet gdy przełączysz aplikację lub zablokujesz ekran. Ustaw raz i gotuj, ćwicz, ucz się albo graj, nie tracąc czasu z oczu.",
       "features": [
         "Pływające okno — minutniki, liczniki i stopery unoszą się nad każdą aplikacją; przeciągnij je gdzie chcesz i ustaw rozmiar, przezroczystość oraz kolor tła osobno",
         "Wiele minutników — dowolny czas w godzinach, minutach i sekundach, z szybkim wyborem 1, 5, 10, 25, 30 i 60 minut oraz dowolną liczbą minutników naraz",
-        "Sterowanie z nakładki — start, pauza i reset z menu nakładki bez otwierania aplikacji albo zwinięcie do pigułki i rozwinięcie dotknięciem",
+        "Sterowanie z nakładki — start, pauza i reset z menu nakładki bez otwierania aplikacji albo zwinięcie do bąbelka z ikoną aplikacji i rozwinięcie dotknięciem w dowolnym miejscu",
         "Licznik — dodawaj i odejmuj dotykiem wprost na nakładce, z krokiem 1, 2, 5 lub 10 i dowolną liczbą liczników",
         "Stoper — wiele stoperów mierzonych osobno; start, pauza i reset bez wychodzenia z bieżącej aplikacji",
         "Powiadomienia i kopia zapasowa — dźwięk, wibracja lub alert pełnoekranowy po zakończeniu, a także eksport do pliku i przywracanie przez scalenie lub zastąpienie"
@@ -446,9 +446,9 @@
       "seo": "Pływający minutnik PC",
       "desc": "Minutniki, liczniki i stopery, które pływają nad każdym oknem w Windows jako małe pastelowe karteczki.",
       "tagline": "Minutniki, liczniki i stopery pływające nad tym, nad czym właśnie pracujesz: małe pastelowe karteczki, które przeciągasz, gdzie chcesz — i które nigdy nie zabierają fokusu aplikacji pod spodem.",
-      "long": "FloatTimer+ for Windows to wersja na komputer aplikacji FloatTimer+ na Androida. Zamiast okna, do którego trzeba się przełączać, każdy minutnik staje się małą pastelową karteczką pływającą nad Twoją pracą — nad edytorem, przeglądarką, rozmową wideo — i odlicza na widoku. Kliknij karteczkę, aby ją uruchomić lub zatrzymać, przeciągnij ją tam, gdzie pasuje, albo złóż do małej pastylki, gdy potrzebujesz ekranu. Karteczka nigdy nie odbiera fokusu aplikacji za nią, więc kursor zostaje dokładnie tam, gdzie go zostawiłeś podczas pisania. Liczniki odejmują i dodają po kliknięciu lewej lub prawej połowy, stopery liczą w górę, a dziewięć pastelowych kolorów pozwala je odróżnić na pierwszy rzut oka. Aplikacja siedzi w zasobniku systemowym, nie wymaga konta i nigdy nie korzysta z sieci — Twoje minutniki zostają w pliku na Twoim własnym komputerze.",
+      "long": "FloatTimer+ for Windows to wersja na komputer aplikacji FloatTimer+ na Androida. Zamiast okna, do którego trzeba się przełączać, każdy minutnik staje się małą pastelową karteczką pływającą nad Twoją pracą — nad edytorem, przeglądarką, rozmową wideo — i odlicza na widoku. Kliknij karteczkę, aby ją uruchomić lub zatrzymać, przeciągnij ją tam, gdzie pasuje, albo złóż do bąbelka niewiele większego od przycisku, z ikoną aplikacji, gdy potrzebujesz ekranu: kliknij w dowolnym miejscu bąbelka, aby znów otworzyć karteczkę, zmniejsz go do samej ikony albo dosuń do krawędzi ekranu, gdzie schowa się do połowy. Karteczka nigdy nie odbiera fokusu aplikacji za nią, więc kursor zostaje dokładnie tam, gdzie go zostawiłeś podczas pisania. Liczniki odejmują i dodają po kliknięciu lewej lub prawej połowy, stopery liczą w górę, a dziewięć pastelowych kolorów pozwala je odróżnić na pierwszy rzut oka. Aplikacja siedzi w zasobniku systemowym, nie wymaga konta i nigdy nie korzysta z sieci — Twoje minutniki zostają w pliku na Twoim własnym komputerze.",
       "features": [
-        "Minutniki, liczniki i stopery pływają nad każdym oknem jako małe pastelowe karteczki — przeciągaj je, zmieniaj rozmiar lub składaj do pastylki",
+        "Minutniki, liczniki i stopery pływają nad każdym oknem jako małe pastelowe karteczki — przeciągaj je, zmieniaj rozmiar lub składaj do bąbelka z ikoną aplikacji",
         "Nigdy nie zabiera fokusu — kliknij lub przeciągnij karteczkę, a kursor zostanie w dokumencie, w którym pisałeś",
         "Start, pauza i zerowanie prosto z karteczki, bez otwierania aplikacji; liczniki dodają i odejmują po kliknięciu połowy",
         "Dziewięć pastelowych kolorów, regulowany rozmiar i przezroczystość karteczki oraz okna zgodne z jasnym lub ciemnym motywem",
@@ -462,7 +462,7 @@
         },
         {
           "q": "Czy przeszkadza aplikacji pod spodem?",
-          "a": "Nie. Karteczka to pływające okno, które nigdy nie przejmuje fokusu, więc kliknięcie lub przeciągnięcie zostawia kursor dokładnie tam, gdzie pisałeś. Gdy potrzebujesz ekranu, złóż karteczkę do małej pastylki albo ukryj wszystkie naraz skrótem klawiszowym."
+          "a": "Nie. Karteczka to pływające okno, które nigdy nie przejmuje fokusu, więc kliknięcie lub przeciągnięcie zostawia kursor dokładnie tam, gdzie pisałeś. Gdy potrzebujesz ekranu, złóż karteczkę do bąbelka niewiele większego od przycisku, dosuń ją do krawędzi ekranu, gdzie schowa się do połowy, albo ukryj wszystkie naraz skrótem klawiszowym."
         },
         {
           "q": "Czy można korzystać za darmo?",

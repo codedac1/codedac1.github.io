@@ -202,11 +202,11 @@
       "seo": "Timer Mengambang & Pomodoro",
       "desc": "Timer, penghitung, dan stopwatch mengambang di atas aplikasi apa pun.",
       "tagline": "Timer hitung mundur, penghitung, dan stopwatch yang mengambang di atas setiap aplikasi.",
-      "long": "FloatTimer+ adalah aplikasi jendela mengambang yang menjaga timer hitung mundur, penghitung, dan stopwatch tetap tampil di atas aplikasi apa pun yang kamu pakai. Timer tetap terlihat saat kamu mengerjakan hal lain: seret ke mana saja, atur ukuran, transparansi, dan warna latar tiap item, atau ciutkan jadi chip kecil ketika layar dibutuhkan. Putar, jeda, dan reset bisa langsung dari menu overlay tanpa membuka aplikasi, dan semuanya tetap berjalan di latar belakang meski kamu berpindah aplikasi atau mengunci layar. Atur sekali lalu lanjutkan memasak, berolahraga, belajar, atau bermain tanpa kehilangan pandangan pada waktu.",
+      "long": "FloatTimer+ adalah aplikasi jendela mengambang yang menjaga timer hitung mundur, penghitung, dan stopwatch tetap tampil di atas aplikasi apa pun yang kamu pakai. Timer tetap terlihat saat kamu mengerjakan hal lain: seret ke mana saja, atur ukuran, transparansi, dan warna latar tiap item, atau lipat menjadi gelembung bertanda ikon aplikasi ketika layar dibutuhkan: ketuk di mana saja untuk membukanya lagi, kecilkan lagi hingga tinggal ikonnya, atau dorong ke tepi layar agar bersembunyi separuh. Putar, jeda, dan reset bisa langsung dari menu overlay tanpa membuka aplikasi, dan semuanya tetap berjalan di latar belakang meski kamu berpindah aplikasi atau mengunci layar. Atur sekali lalu lanjutkan memasak, berolahraga, belajar, atau bermain tanpa kehilangan pandangan pada waktu.",
       "features": [
         "Jendela mengambang — timer, penghitung, dan stopwatch mengambang di atas semua aplikasi; seret ke mana saja dan atur ukuran, transparansi, serta warna latar tiap item",
         "Multi timer — durasi bebas dalam jam, menit, detik, dengan pilihan cepat 1, 5, 10, 25, 30, dan 60 menit serta sebanyak apa pun timer sekaligus",
-        "Kontrol overlay — putar, jeda, dan reset dari menu overlay tanpa membuka aplikasi, atau ciutkan jadi chip kecil dan ketuk untuk membukanya lagi",
+        "Kontrol overlay — putar, jeda, dan reset dari menu overlay tanpa membuka aplikasi, atau lipat menjadi gelembung bertanda ikon aplikasi dan ketuk di mana saja untuk membukanya lagi",
         "Penghitung — ketuk untuk menambah atau mengurangi langsung di overlay, dengan langkah 1, 2, 5, atau 10 dan sebanyak yang kamu butuhkan",
         "Stopwatch — beberapa stopwatch dihitung terpisah; mulai, jeda, dan reset tanpa meninggalkan aplikasi yang sedang dipakai",
         "Peringatan dan cadangan — suara, getaran, atau notifikasi layar penuh saat selesai, plus ekspor ke file dan pemulihan dengan menggabungkan atau mengganti"
@@ -446,9 +446,9 @@
       "seo": "Timer Mengambang PC",
       "desc": "Timer, penghitung, dan stopwatch yang mengambang di atas jendela mana pun di Windows sebagai kartu pastel kecil.",
       "tagline": "Timer, penghitung, dan stopwatch yang mengambang di atas apa pun yang sedang Anda kerjakan: kartu pastel kecil yang bisa diseret ke mana saja, dan tidak pernah merebut fokus aplikasi di bawahnya.",
-      "long": "FloatTimer+ for Windows adalah versi desktop dari aplikasi Android FloatTimer+. Alih-alih jendela yang harus Anda tuju, setiap timer menjadi kartu pastel kecil yang mengambang di atas pekerjaan Anda — di atas editor, browser, atau panggilan video — dan menghitung mundur di depan mata. Klik kartu untuk memulai atau menjedanya, seret ke tempat yang Anda mau, atau lipat menjadi chip kecil saat layar dibutuhkan. Kartu tidak pernah mengambil fokus dari aplikasi di belakangnya, jadi kursor tetap persis di tempat Anda meninggalkannya saat mengetik. Penghitung mengurangi dan menambah lewat klik pada separuh kiri atau kanan kartu, stopwatch menghitung naik, dan sembilan warna pastel membuat semuanya mudah dibedakan sekilas. Aplikasi ini tinggal di baki sistem, tidak butuh akun, dan tidak pernah memakai jaringan — timer Anda tetap berada di sebuah berkas di PC Anda sendiri.",
+      "long": "FloatTimer+ for Windows adalah versi desktop dari aplikasi Android FloatTimer+. Alih-alih jendela yang harus Anda tuju, setiap timer menjadi kartu pastel kecil yang mengambang di atas pekerjaan Anda — di atas editor, browser, atau panggilan video — dan menghitung mundur di depan mata. Klik kartu untuk memulai atau menjedanya, seret ke tempat yang Anda mau, atau lipat menjadi gelembung yang hanya sedikit lebih besar dari sebuah tombol dan bertanda ikon aplikasi saat layar dibutuhkan: klik di mana saja pada gelembung untuk membuka kartunya lagi, kecilkan hingga tinggal ikonnya, atau dorong ke tepi layar agar bersembunyi separuh. Kartu tidak pernah mengambil fokus dari aplikasi di belakangnya, jadi kursor tetap persis di tempat Anda meninggalkannya saat mengetik. Penghitung mengurangi dan menambah lewat klik pada separuh kiri atau kanan kartu, stopwatch menghitung naik, dan sembilan warna pastel membuat semuanya mudah dibedakan sekilas. Aplikasi ini tinggal di baki sistem, tidak butuh akun, dan tidak pernah memakai jaringan — timer Anda tetap berada di sebuah berkas di PC Anda sendiri.",
       "features": [
-        "Timer, penghitung, dan stopwatch mengambang di atas setiap jendela sebagai kartu pastel kecil — seret ke mana saja, ubah ukurannya, atau lipat menjadi chip",
+        "Timer, penghitung, dan stopwatch mengambang di atas setiap jendela sebagai kartu pastel kecil — seret ke mana saja, ubah ukurannya, atau lipat menjadi gelembung bertanda ikon aplikasi",
         "Tidak pernah merebut fokus — klik atau seret kartu, kursor Anda tetap di dokumen yang sedang Anda ketik",
         "Mulai, jeda, dan atur ulang langsung dari kartu tanpa membuka aplikasi; penghitung menambah dan mengurangi lewat klik pada tiap separuhnya",
         "Sembilan warna pastel, ukuran dan transparansi kartu yang dapat diatur, serta jendela aplikasi yang mengikuti tema terang atau gelap",
@@ -462,7 +462,7 @@
         },
         {
           "q": "Apakah mengganggu aplikasi di bawahnya?",
-          "a": "Tidak. Kartu adalah jendela mengambang yang tidak pernah mengambil fokus, jadi mengekliknya atau menyeretnya membuat kursor tetap persis di tempat Anda mengetik. Saat layar dibutuhkan, lipat kartu menjadi chip kecil atau sembunyikan semua kartu sekaligus dengan pintasan."
+          "a": "Tidak. Kartu adalah jendela mengambang yang tidak pernah mengambil fokus, jadi mengekliknya atau menyeretnya membuat kursor tetap persis di tempat Anda mengetik. Saat layar dibutuhkan, lipat kartu menjadi gelembung yang hanya sedikit lebih besar dari sebuah tombol, dorong ke tepi layar agar bersembunyi separuh, atau sembunyikan semua kartu sekaligus dengan pintasan."
         },
         {
           "q": "Apakah gratis?",

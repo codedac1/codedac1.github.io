@@ -202,11 +202,11 @@
       "seo": "Floating Pomodoro & Multi-Timer",
       "desc": "A floating timer, counter and stopwatch that stays over any app.",
       "tagline": "A countdown timer, tally counter, and stopwatch that floats on top of every app.",
-      "long": "FloatTimer+ is a floating overlay app that keeps a countdown timer, tally counter, and stopwatch on top of any app you use. Your timer stays visible while you do something else — drag it anywhere on screen, set size, opacity, and background color per item, or fold it into a compact chip when you need the screen back. Play, pause, and reset straight from the overlay menu without opening the app, and everything keeps running in the background even when you switch apps or lock the screen. Set it once and keep cooking, exercising, studying, or gaming without ever losing sight of the time.",
+      "long": "FloatTimer+ is a floating overlay app that keeps a countdown timer, tally counter, and stopwatch on top of any app you use. Your timer stays visible while you do something else — drag it anywhere on screen, set size, opacity, and background color per item, or collapse it into a bubble marked with the app icon that reopens wherever you tap it. Shrink that bubble to the icon alone, or push it to the screen edge and it tucks half out of view until you want it back. Play, pause, and reset straight from the overlay menu without opening the app, and everything keeps running in the background even when you switch apps or lock the screen. Set it once and keep cooking, exercising, studying, or gaming without ever losing sight of the time.",
       "features": [
         "Floating overlay — timers, counters, and stopwatches float on any app; drag them anywhere and set size, opacity, and background color per item",
         "Multi-timer — any hours/minutes/seconds countdown, with 1, 5, 10, 25, 30 and 60-minute quick presets and as many timers running at once as you like",
-        "Overlay controls — play, pause, and reset from the overlay menu without opening the app, or fold it into a compact chip and tap to expand",
+        "Overlay controls — play, pause, and reset from the overlay menu without opening the app, or collapse it to a bubble marked with the app icon and tap anywhere on it to open it again",
         "Tally counter — tap to count up or down right on the overlay, with a step of 1, 2, 5, or 10 and as many counters as you need",
         "Stopwatch — several stopwatches, each timed separately; start, pause, and reset without leaving your current app",
         "Alerts and backup — sound, vibration, or a full-screen alert when time is up, plus file export and restore that merges or replaces"
@@ -446,9 +446,9 @@
       "seo": "Floating Desktop Timer",
       "desc": "Timers, counters and stopwatches that float over any window on Windows as small pastel cards.",
       "tagline": "Timers, counters and stopwatches that float on top of whatever you are working in: small pastel cards you drag where you want them, and they never steal focus from the app underneath.",
-      "long": "FloatTimer+ for Windows is the desktop version of the Android FloatTimer+ app. Instead of a window you have to switch to, each timer becomes a small pastel card floating above your work — your editor, your browser, your video call — counting down in plain sight. Click a card to start or pause it, drag it wherever it belongs, or fold it into a chip when you want the screen back. The card never takes focus from the app behind it, so your cursor stays exactly where you left it while you type. Counters add and subtract with a click on either half, stopwatches count up, and nine pastel colors keep them apart. It lives in the system tray, needs no account and never touches the network — your timers stay in a file on your own PC.",
+      "long": "FloatTimer+ for Windows is the desktop version of the Android FloatTimer+ app. Instead of a window you have to switch to, each timer becomes a small pastel card floating above your work — your editor, your browser, your video call — counting down in plain sight. Click a card to start or pause it, drag it wherever it belongs, or collapse it into a bubble barely bigger than a button and marked with the app icon — click anywhere on it to open the card again, shrink it to the icon alone, or push it against the screen edge where it tucks half out of view. The card never takes focus from the app behind it, so your cursor stays exactly where you left it while you type. Counters add and subtract with a click on either half, stopwatches count up, and nine pastel colors keep them apart. It lives in the system tray, needs no account and never touches the network — your timers stay in a file on your own PC.",
       "features": [
-        "Timers, counters and stopwatches float above every window as small pastel cards — drag one anywhere, resize it, or fold it into a chip",
+        "Timers, counters and stopwatches float above every window as small pastel cards — drag one anywhere, resize it, or collapse it to a bubble marked with the app icon",
         "Never steals focus — click or drag a card and your cursor stays in the document you were typing in",
         "Start, pause and reset from the card itself without opening the app; counters add and subtract with a click on either half",
         "Nine pastel colors, adjustable card size and opacity, and app windows that follow your light or dark theme",
@@ -462,7 +462,7 @@
         },
         {
           "q": "Does it get in the way of the app underneath?",
-          "a": "No. A card is a floating window that never takes focus, so clicking or dragging it leaves your cursor exactly where you were typing. When you want the screen back, fold a card into a small chip, or hide every card at once with a hotkey."
+          "a": "No. A card is a floating window that never takes focus, so clicking or dragging it leaves your cursor exactly where you were typing. When you want the screen back, collapse a card into a bubble barely bigger than a button, push it against the screen edge to tuck it half out of view, or hide every card at once with a hotkey."
         },
         {
           "q": "Is it free to use?",
