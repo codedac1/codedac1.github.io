@@ -262,14 +262,14 @@
       "seo": "máscara de datos en fotos y PDF",
       "desc": "Oculta datos personales en fotos y PDF, totalmente en el dispositivo.",
       "tagline": "Oculta datos personales en fotos y PDF con una máscara sólida, por completo en tu dispositivo.",
-      "long": "PhotoCleaner+ oculta la información personal en fotos y PDF por completo en tu dispositivo. Cubre las zonas sensibles con una máscara sólida y opaca (no un desenfoque ni un mosaico, así que las áreas cubiertas no se pueden recuperar) y exporta una copia limpia. Un detector integrado sugiere, como punto de partida, texto probablemente sensible como números de identificación, tarjetas, teléfonos y correos, pero tú dibujas y ajustas las máscaras a mano para decidir exactamente qué se oculta. Ninguna foto se sube jamás, todo funciona sin conexión y nunca se solicita permiso de galería ni de almacenamiento.",
+      "long": "PhotoCleaner+ oculta la información personal en fotos y PDF por completo en tu dispositivo. Cubre las zonas sensibles con una máscara sólida y opaca (no un desenfoque ni un mosaico, así que las áreas cubiertas no se pueden recuperar) y exporta una copia limpia. Un detector integrado sugiere gratis y sin límite el texto probablemente sensible —números de identificación, tarjetas, teléfonos y correos—, pero eres tú quien dibuja y ajusta las máscaras y decide exactamente qué se oculta. Funciona con fotos, documentos de identidad y PDF de varias páginas, cada copia guardada o compartida se recodifica sin EXIF y nunca se solicita permiso de galería ni de almacenamiento. La detección, la edición y el enmascarado son ilimitados incluso en la versión gratuita, y ninguna exportación lleva marca de agua; gratis puedes exportar 3 veces al día, mientras que Pro quita ese límite y añade exportación a PDF, impresión y cualquier color de máscara. Activa «Elegir dónde guardar» y tú decides la carpeta y el nombre del archivo.",
       "features": [
         "Máscara sólida y opaca que no se puede recuperar (no un desenfoque ni un mosaico)",
         "Dibuja máscaras a mano y luego muévelas, redimensiónalas o elimínalas, con zoom para mayor precisión",
-        "La detección integrada sugiere texto probablemente sensible (números de identificación, tarjetas, teléfonos, correos) para que empieces",
+        "La detección integrada sugiere gratis y sin límite texto probablemente sensible (números de identificación, tarjetas, teléfonos, correos); tú lo revisas",
         "Enmascara fotos, documentos de identidad y documentos PDF de varias páginas",
-        "Aviso de EXIF y GPS, y cada copia guardada o compartida se recodifica sin EXIF",
-        "Cero permisos y exportación de imágenes limpia y sin marca de agua para todos"
+        "Cero permisos, aviso de EXIF y GPS, y cada copia guardada o compartida se recodifica sin EXIF",
+        "Sin marca de agua para nadie: 3 exportaciones al día en la versión gratuita, ilimitadas con Pro junto con la exportación a PDF y la impresión, o un anuncio corto abre una durante 24 horas"
       ],
       "faq": [
         {
@@ -283,6 +283,10 @@
         {
           "q": "¿Puedo fiarme solo de la detección automática antes de exportar?",
           "a": "La detección es solo un punto de partida que sugiere texto probablemente sensible. Revisa siempre las sugerencias y añade o quita máscaras tú mismo antes de exportar."
+        },
+        {
+          "q": "¿Cuántas veces puedo exportar gratis?",
+          "a": "Tres veces al día. Lo que cuenta es el botón Exportar, hagas lo que hagas después: guardar, compartir, exportar a PDF o imprimir. La detección, la edición y el enmascarado nunca tienen límite. Pro elimina el límite diario y, si prefieres no suscribirte, un anuncio corto lo levanta durante 24 horas."
         }
       ]
     },

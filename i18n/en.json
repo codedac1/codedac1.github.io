@@ -262,14 +262,14 @@
       "seo": "Photo & PDF Redaction Tool",
       "desc": "Hide personal info in photos & PDFs, fully on-device.",
       "tagline": "Hide personal info in photos and PDFs with a solid mask, entirely on your device.",
-      "long": "PhotoCleaner+ hides personal information in photos and PDFs entirely on your device. It covers sensitive areas with a solid, opaque mask (not a blur or mosaic, so covered areas can't be recovered) and exports a clean copy. A built-in detector suggests likely sensitive text such as ID numbers, cards, phone numbers, and emails as a starting point, but you draw and adjust masks by hand to decide exactly what gets hidden. No photo is ever uploaded, everything runs offline, and no gallery or storage permission is ever requested.",
+      "long": "PhotoCleaner+ hides personal information in photos and PDFs entirely on your device. It covers sensitive areas with a solid, opaque mask (not a blur or mosaic, so covered areas can't be recovered) and exports a clean copy. A built-in detector suggests likely sensitive text such as ID numbers, cards, phone numbers and emails — free and unlimited — but you draw and adjust the masks by hand and decide exactly what gets hidden. Photos, ID cards and multi-page PDFs are all handled, every saved or shared copy is re-encoded with no EXIF, and no gallery or storage permission is ever requested. Detection, editing and masking stay unlimited on the free version and no export ever carries a watermark; free exports 3 times a day, while Pro lifts that limit and adds PDF export, printing and any mask color. Turn on “Choose where to save” and you pick the folder and file name yourself.",
       "features": [
         "Solid opaque mask that can't be recovered (not a blur or mosaic)",
         "Draw masks by hand, then move, resize or delete them, with zoom for precision",
-        "Built-in detection suggests likely sensitive text (ID numbers, cards, phones, emails) to get you started",
+        "Built-in detection suggests likely sensitive text (ID numbers, cards, phones, emails) — free and unlimited, as a starting point you review",
         "Mask photos, ID cards and multi-page PDF documents",
-        "EXIF & GPS notice, and every saved or shared copy is re-encoded with no EXIF",
-        "Zero permissions, and clean image export with no watermark for everyone"
+        "Zero permissions, an EXIF & GPS notice, and every saved or shared copy re-encoded with no EXIF",
+        "No watermark for anyone: 3 exports a day on free, unlimited with Pro along with PDF export and printing — or a short ad opens either for 24 hours"
       ],
       "faq": [
         {
@@ -283,6 +283,10 @@
         {
           "q": "Can I rely on auto-detection alone before exporting?",
           "a": "Detection is only a starting point that suggests likely sensitive text. Always review the suggestions and add or remove masks yourself before exporting."
+        },
+        {
+          "q": "How many times can I export for free?",
+          "a": "Three times a day. What counts is the Export button, whatever you do with the result: save, share, PDF or print. Detection, editing and masking are never capped. Pro removes the daily limit, and if you'd rather not subscribe, a short ad lifts it for 24 hours."
         }
       ]
     },

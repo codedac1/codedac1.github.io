@@ -262,14 +262,14 @@
       "seo": "Photo & PDF Privacy Mask",
       "desc": "Itago ang personal na impormasyon sa mga larawan at PDF, buong-buo sa device.",
       "tagline": "Itago ang personal na impormasyon sa mga larawan at PDF gamit ang isang solidong mask, buong-buo sa iyong device.",
-      "long": "Itinatago ng PhotoCleaner+ ang personal na impormasyon sa mga larawan at PDF nang buong-buo sa iyong device. Tinatakpan nito ang mga sensitibong bahagi ng isang solido at opaque na mask (hindi blur o mosaic, kaya hindi na mababawi ang mga natakpang bahagi) at nag-e-export ng malinis na kopya. Isang built-in na detector ang nagmumungkahi ng mga malamang na sensitibong teksto tulad ng ID number, card, numero ng telepono, at email bilang panimula, ngunit ikaw mismo ang gumuguhit at nag-aayos ng mga mask para magpasya kung ano talaga ang itatago. Walang larawang ina-upload kahit kailan, tumatakbo lahat offline, at hindi kailanman humihingi ng pahintulot sa gallery o storage.",
+      "long": "Itinatago ng PhotoCleaner+ ang personal na impormasyon sa mga larawan at PDF nang buong-buo sa iyong device. Tinatakpan nito ang mga sensitibong bahagi ng isang solido at opaque na mask (hindi blur o mosaic, kaya hindi na mababawi ang mga natakpang bahagi) at nag-e-export ng malinis na kopya. Libre at walang limitasyong nagmumungkahi ang built-in na detector ng mga malamang na sensitibong teksto tulad ng ID number, card, numero ng telepono, at email, ngunit ikaw mismo ang gumuguhit at nag-aayos ng mga mask at nagpapasya kung ano talaga ang itatago. Kaya nitong hawakan ang mga larawan, ID card at multi-page na PDF, ang bawat na-save o na-share na kopya ay muling ni-encode nang walang EXIF, at hindi kailanman humihingi ng pahintulot sa gallery o storage. Walang limitasyon ang pagtuklas, pag-edit at pagtakip kahit sa libreng bersyon at walang watermark ang anumang export; 3 export kada araw sa libre, habang inaalis ng Pro ang limitasyong iyon at nagdaragdag ng PDF export, pag-print at kahit anong kulay ng takip. I-on ang “Piliin kung saan i-save” at ikaw ang pipili ng folder at pangalan ng file.",
       "features": [
         "Solido at opaque na mask na hindi na mababawi (hindi blur o mosaic)",
         "Gumuhit ng mga mask nang manu-mano, pagkatapos ay ilipat, baguhin ang laki o tanggalin ang mga ito, na may zoom para sa katumpakan",
-        "Nagmumungkahi ang built-in na detection ng malamang na sensitibong teksto (ID number, card, telepono, email) para makapagsimula ka",
+        "Nagmumungkahi ang built-in na detection ng malamang na sensitibong teksto (ID number, card, telepono, email) — libre at walang limitasyon, at ikaw ang nagre-review",
         "Mag-mask ng mga larawan, ID card at multi-page na PDF na dokumento",
-        "May paalala sa EXIF at GPS, at ang bawat na-save o na-share na kopya ay muling ni-encode nang walang EXIF",
-        "Walang pahintulot, at malinis na image export nang walang watermark para sa lahat"
+        "Walang pahintulot, may paalala sa EXIF at GPS, at ang bawat na-save o na-share na kopya ay muling ni-encode nang walang EXIF",
+        "Walang watermark para kaninuman: 3 export kada araw sa libre, walang limitasyon sa Pro kasama ang PDF export at pag-print — o buksan ang alinman sa 24 oras sa isang maikling ad"
       ],
       "faq": [
         {
@@ -283,6 +283,10 @@
         {
           "q": "Maaari ba akong umasa sa auto-detection lang bago mag-export?",
           "a": "Ang detection ay panimula lamang na nagmumungkahi ng malamang na sensitibong teksto. Palaging suriin ang mga mungkahi at magdagdag o mag-alis ng mga mask nang ikaw mismo bago mag-export."
+        },
+        {
+          "q": "Ilang beses ako makakapag-export nang libre?",
+          "a": "Tatlong beses kada araw. Ang binibilang ay ang Export button, anuman ang gawin mo sa resulta: i-save, i-share, gawing PDF o i-print. Hindi kailanman nililimitahan ang pagtuklas, pag-edit at pagtakip. Inaalis ng Pro ang pang-araw-araw na limitasyon, at kung ayaw mong mag-subscribe, isang maikling ad ang nag-aalis nito nang 24 oras."
         }
       ]
     },

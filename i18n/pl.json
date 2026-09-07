@@ -262,14 +262,14 @@
       "seo": "Ukrywanie danych osobowych",
       "desc": "Ukrywaj dane osobowe na zdjęciach i w plikach PDF, w pełni na urządzeniu.",
       "tagline": "Ukrywaj dane osobowe na zdjęciach i w plikach PDF solidną maską, w całości na swoim urządzeniu.",
-      "long": "PhotoCleaner+ ukrywa dane osobowe na zdjęciach i w plikach PDF w całości na Twoim urządzeniu. Zakrywa wrażliwe obszary solidną, nieprzezroczystą maską (nie rozmyciem ani mozaiką, więc zakrytych fragmentów nie da się odtworzyć) i eksportuje czystą kopię. Wbudowany detektor sugeruje prawdopodobnie wrażliwy tekst, taki jak numery dowodów, karty, numery telefonów i adresy e-mail, jako punkt wyjścia, ale to Ty rysujesz i dopasowujesz maski ręcznie, decydując dokładnie, co zostanie ukryte. Żadne zdjęcie nigdy nie jest przesyłane, wszystko działa offline, a aplikacja nigdy nie prosi o uprawnienie do galerii ani pamięci.",
+      "long": "PhotoCleaner+ ukrywa dane osobowe na zdjęciach i w plikach PDF w całości na Twoim urządzeniu. Zakrywa wrażliwe obszary solidną, nieprzezroczystą maską (nie rozmyciem ani mozaiką, więc zakrytych fragmentów nie da się odtworzyć) i eksportuje czystą kopię. Wbudowany detektor bezpłatnie i bez limitu sugeruje prawdopodobnie wrażliwy tekst, taki jak numery dowodów, karty, numery telefonów i adresy e-mail, ale to Ty rysujesz i dopasowujesz maski, decydując dokładnie, co zostanie ukryte. Obsługiwane są zdjęcia, dowody tożsamości i wielostronicowe pliki PDF, każda zapisana lub udostępniona kopia jest ponownie kodowana bez EXIF, a aplikacja nigdy nie prosi o uprawnienie do galerii ani pamięci. Wykrywanie, edycja i zasłanianie pozostają bez limitu również w wersji darmowej, a żaden eksport nie ma znaku wodnego; w wersji darmowej dostępne są 3 eksporty dziennie, a Pro znosi ten limit i dodaje eksport PDF, drukowanie oraz dowolny kolor maski. Włącz „Wybierz miejsce zapisu”, a folder i nazwę pliku ustalisz sam.",
       "features": [
         "Solidna, nieprzezroczysta maska, której nie da się odtworzyć (nie rozmycie ani mozaika)",
         "Rysuj maski ręcznie, a następnie przesuwaj je, zmieniaj ich rozmiar lub usuwaj, z powiększeniem dla precyzji",
-        "Wbudowane wykrywanie sugeruje prawdopodobnie wrażliwy tekst (numery dowodów, karty, telefony, e-maile), by Cię ukierunkować",
+        "Wbudowane wykrywanie sugeruje prawdopodobnie wrażliwy tekst (numery dowodów, karty, telefony, e-maile) — bezpłatnie i bez limitu, jako punkt wyjścia, który sprawdzasz",
         "Maskuj zdjęcia, dowody tożsamości i wielostronicowe dokumenty PDF",
-        "Informacja o danych EXIF i GPS, a każda zapisana lub udostępniona kopia jest ponownie kodowana bez EXIF",
-        "Zero uprawnień oraz eksport czystego obrazu bez znaku wodnego dla każdego"
+        "Zero uprawnień, informacja o danych EXIF i GPS oraz każda zapisana lub udostępniona kopia kodowana ponownie bez EXIF",
+        "Bez znaku wodnego dla nikogo: 3 eksporty dziennie w wersji darmowej, bez limitu w Pro wraz z eksportem PDF i drukowaniem — albo krótka reklama otwiera jedno z nich na 24 godziny"
       ],
       "faq": [
         {
@@ -283,6 +283,10 @@
         {
           "q": "Czy mogę polegać wyłącznie na automatycznym wykrywaniu przed eksportem?",
           "a": "Wykrywanie to tylko punkt wyjścia, który sugeruje prawdopodobnie wrażliwy tekst. Zawsze przejrzyj sugestie i samodzielnie dodaj lub usuń maski przed eksportem."
+        },
+        {
+          "q": "Ile razy mogę eksportować za darmo?",
+          "a": "Trzy razy dziennie. Liczy się przycisk Eksportuj — niezależnie od tego, czy wynik zapiszesz, udostępnisz, zrobisz z niego PDF czy wydrukujesz. Wykrywanie, edycja i zasłanianie nigdy nie mają limitu. Pro znosi dzienny limit, a jeśli wolisz nie wykupywać subskrypcji, krótka reklama znosi go na 24 godziny."
         }
       ]
     },

@@ -262,14 +262,14 @@
       "seo": "Masker Foto & PDF Privasi",
       "desc": "Sembunyikan info pribadi di foto & PDF, sepenuhnya di perangkat.",
       "tagline": "Sembunyikan info pribadi di foto dan PDF dengan masker padat, sepenuhnya di perangkat Anda.",
-      "long": "PhotoCleaner+ menyembunyikan informasi pribadi di foto dan PDF sepenuhnya di perangkat Anda. Aplikasi menutup area sensitif dengan masker padat yang tidak tembus pandang (bukan blur atau mosaik, sehingga area yang tertutup tidak bisa dipulihkan) dan mengekspor salinan yang bersih. Detektor bawaan menyarankan teks yang kemungkinan sensitif seperti nomor identitas, kartu, nomor telepon, dan email sebagai titik awal, tetapi Anda menggambar dan menyesuaikan masker secara manual untuk menentukan persis apa yang disembunyikan. Tidak ada foto yang diunggah, semuanya berjalan offline, dan tidak ada izin galeri atau penyimpanan yang diminta.",
+      "long": "PhotoCleaner+ menyembunyikan informasi pribadi di foto dan PDF sepenuhnya di perangkat Anda. Aplikasi menutup area sensitif dengan masker padat yang tidak tembus pandang (bukan blur atau mosaik, sehingga area yang tertutup tidak bisa dipulihkan) dan mengekspor salinan yang bersih. Detektor bawaan menyarankan teks yang kemungkinan sensitif seperti nomor identitas, kartu, nomor telepon, dan email secara gratis dan tanpa batas, tetapi Anda sendiri yang menggambar dan menyesuaikan masker serta menentukan persis apa yang disembunyikan. Foto, kartu identitas, dan PDF multi-halaman semuanya ditangani, setiap salinan yang disimpan atau dibagikan dikodekan ulang tanpa EXIF, dan tidak ada izin galeri atau penyimpanan yang diminta. Deteksi, penyuntingan, dan penyamaran tetap tanpa batas di versi gratis dan tidak ada hasil ekspor yang berwatermark; versi gratis mengekspor 3 kali sehari, sedangkan Pro melepas batas itu dan menambahkan ekspor PDF, cetak, serta warna masker bebas. Aktifkan “Pilih lokasi penyimpanan” dan Anda sendiri yang menentukan folder serta nama berkas.",
       "features": [
         "Masker padat tak tembus pandang yang tidak bisa dipulihkan (bukan blur atau mosaik)",
         "Gambar masker secara manual, lalu pindahkan, ubah ukuran, atau hapus, dengan zoom untuk presisi",
-        "Deteksi bawaan menyarankan teks yang kemungkinan sensitif (nomor identitas, kartu, telepon, email) untuk memulai",
+        "Deteksi bawaan menyarankan teks yang kemungkinan sensitif (nomor identitas, kartu, telepon, email) — gratis dan tanpa batas, sebagai titik awal yang Anda periksa",
         "Masker foto, kartu identitas, dan dokumen PDF multi-halaman",
-        "Pemberitahuan EXIF & GPS, dan setiap salinan yang disimpan atau dibagikan dikodekan ulang tanpa EXIF",
-        "Tanpa izin apa pun, dan ekspor gambar bersih tanpa watermark untuk semua orang"
+        "Tanpa izin apa pun, pemberitahuan EXIF & GPS, dan setiap salinan yang disimpan atau dibagikan dikodekan ulang tanpa EXIF",
+        "Tanpa watermark untuk siapa pun: 3 ekspor per hari di versi gratis, tanpa batas di Pro berikut ekspor PDF dan cetak — atau satu iklan singkat membukanya selama 24 jam"
       ],
       "faq": [
         {
@@ -283,6 +283,10 @@
         {
           "q": "Bisakah saya hanya mengandalkan deteksi otomatis sebelum mengekspor?",
           "a": "Deteksi hanyalah titik awal yang menyarankan teks yang kemungkinan sensitif. Selalu tinjau saran dan tambahkan atau hapus masker sendiri sebelum mengekspor."
+        },
+        {
+          "q": "Berapa kali saya bisa mengekspor secara gratis?",
+          "a": "Tiga kali sehari. Yang dihitung adalah tombol Ekspor, apa pun yang Anda lakukan dengan hasilnya: menyimpan, membagikan, membuat PDF, atau mencetak. Deteksi, penyuntingan, dan penyamaran tidak pernah dibatasi. Pro melepas batas harian, dan jika Anda tidak ingin berlangganan, satu iklan singkat melepasnya selama 24 jam."
         }
       ]
     },

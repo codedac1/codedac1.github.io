@@ -262,14 +262,14 @@
       "seo": "Fotoğrafta kişisel bilgi gizleme",
       "desc": "Fotoğraflardaki ve PDF'lerdeki kişisel bilgileri tamamen cihazınızda gizleyin.",
       "tagline": "Fotoğraflardaki ve PDF'lerdeki kişisel bilgileri, tamamen cihazınızda sağlam bir maskeyle gizleyin.",
-      "long": "PhotoCleaner+, fotoğraflardaki ve PDF'lerdeki kişisel bilgileri tamamen cihazınızda gizler. Hassas alanları düz, opak bir maskeyle örter (bulanıklaştırma veya mozaik değildir; bu yüzden örtülen alanlar geri getirilemez) ve temiz bir kopya olarak dışa aktarır. Yerleşik bir algılayıcı, kimlik numaraları, kartlar, telefon numaraları ve e-postalar gibi olası hassas metinleri başlangıç noktası olarak önerir; ancak maskeleri elle çizip ayarlayarak neyin gizleneceğine tam olarak siz karar verirsiniz. Hiçbir fotoğraf yüklenmez, her şey çevrimdışı çalışır ve hiçbir zaman galeri veya depolama izni istenmez.",
+      "long": "PhotoCleaner+, fotoğraflardaki ve PDF'lerdeki kişisel bilgileri tamamen cihazınızda gizler. Hassas alanları düz, opak bir maskeyle örter (bulanıklaştırma veya mozaik değildir; bu yüzden örtülen alanlar geri getirilemez) ve temiz bir kopya olarak dışa aktarır. Yerleşik algılayıcı, kimlik numaraları, kartlar, telefon numaraları ve e-postalar gibi olası hassas metinleri ücretsiz ve sınırsız olarak önerir; ancak maskeleri elle çizip ayarlayarak neyin gizleneceğine tam olarak siz karar verirsiniz. Fotoğraflar, kimlik kartları ve çok sayfalı PDF'ler desteklenir, kaydedilen veya paylaşılan her kopya EXIF olmadan yeniden kodlanır ve hiçbir zaman galeri veya depolama izni istenmez. Algılama, düzenleme ve maskeleme ücretsiz sürümde de sınırsızdır ve hiçbir çıktı filigran taşımaz; ücretsiz sürümde günde 3 dışa aktarma yapabilirsiniz, Pro ise bu sınırı kaldırır ve PDF dışa aktarma, yazdırma ile istediğiniz maske rengini ekler. “Kaydetme yerini seç” seçeneğini açtığınızda klasörü ve dosya adını kendiniz belirlersiniz.",
       "features": [
         "Geri getirilemeyen, düz opak maske (bulanıklaştırma veya mozaik değildir)",
         "Maskeleri elle çizin, ardından taşıyın, yeniden boyutlandırın veya silin; hassasiyet için yakınlaştırın",
-        "Yerleşik algılama, başlamanız için olası hassas metinleri (kimlik numaraları, kartlar, telefonlar, e-postalar) önerir",
+        "Yerleşik algılama olası hassas metinleri (kimlik numaraları, kartlar, telefonlar, e-postalar) ücretsiz ve sınırsız önerir — gözden geçirmek size kalır",
         "Fotoğrafları, kimlik kartlarını ve çok sayfalı PDF belgelerini maskeleyin",
-        "EXIF ve GPS uyarısı; kaydedilen veya paylaşılan her kopya EXIF olmadan yeniden kodlanır",
-        "Sıfır izin ve herkes için filigransız temiz görsel dışa aktarma"
+        "Sıfır izin, EXIF ve GPS uyarısı ve kaydedilen veya paylaşılan her kopya EXIF olmadan yeniden kodlanır",
+        "Hiç kimse için filigran yok: ücretsizde günde 3 dışa aktarma, Pro'da sınırsız; ayrıca PDF dışa aktarma ve yazdırma — ya da kısa bir reklam bunlardan birini 24 saat açar"
       ],
       "faq": [
         {
@@ -283,6 +283,10 @@
         {
           "q": "Dışa aktarmadan önce yalnızca otomatik algılamaya güvenebilir miyim?",
           "a": "Algılama, yalnızca olası hassas metinleri öneren bir başlangıç noktasıdır. Dışa aktarmadan önce önerileri her zaman gözden geçirin ve maskeleri kendiniz ekleyin veya kaldırın."
+        },
+        {
+          "q": "Ücretsiz sürümde günde kaç kez dışa aktarabilirim?",
+          "a": "Günde üç kez. Sayılan şey Dışa Aktar düğmesidir; sonucu kaydetseniz de paylaşsanız da, PDF yapsanız da yazdırsanız da fark etmez. Algılama, düzenleme ve maskeleme hiçbir zaman sınırlanmaz. Pro günlük sınırı kaldırır; abone olmak istemiyorsanız kısa bir reklam sınırı 24 saatliğine kaldırır."
         }
       ]
     },

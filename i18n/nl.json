@@ -262,14 +262,14 @@
       "seo": "Persoonlijke gegevens verbergen",
       "desc": "Verberg persoonlijke gegevens in foto's & PDF's, volledig op je toestel.",
       "tagline": "Verberg persoonlijke gegevens in foto's en PDF's met een dekkend masker, volledig op je toestel.",
-      "long": "PhotoCleaner+ verbergt persoonlijke gegevens in foto's en PDF's volledig op je toestel. Het bedekt gevoelige delen met een dekkend, ondoorzichtig masker (geen vervaging of mozaïek, zodat bedekte delen niet kunnen worden hersteld) en exporteert een schone kopie. Een ingebouwde detector stelt waarschijnlijk gevoelige tekst voor, zoals ID-nummers, kaarten, telefoonnummers en e-mails, als vertrekpunt, maar je tekent en past de maskers zelf aan en bepaalt precies wat verborgen wordt. Geen enkele foto wordt ooit geüpload, alles draait offline en er wordt nooit een galerij- of opslagrecht aangevraagd.",
+      "long": "PhotoCleaner+ verbergt persoonlijke gegevens in foto's en PDF's volledig op je toestel. Het bedekt gevoelige delen met een dekkend, ondoorzichtig masker (geen vervaging of mozaïek, zodat bedekte delen niet kunnen worden hersteld) en exporteert een schone kopie. Een ingebouwde detector stelt gratis en onbeperkt waarschijnlijk gevoelige tekst voor, zoals ID-nummers, kaarten, telefoonnummers en e-mails, maar jij tekent en past de maskers zelf aan en bepaalt precies wat verborgen wordt. Foto's, ID-kaarten en PDF's van meerdere pagina's worden allemaal ondersteund, elke opgeslagen of gedeelde kopie wordt zonder EXIF opnieuw gecodeerd, en er wordt nooit een galerij- of opslagrecht aangevraagd. Detecteren, bewerken en maskeren blijven ook gratis onbeperkt en geen enkele export draagt een watermerk; gratis exporteer je 3 keer per dag, terwijl Pro die limiet opheft en pdf-export, afdrukken en elke maskerkleur toevoegt. Zet ‘Kies waar op te slaan’ aan en je bepaalt zelf map en bestandsnaam.",
       "features": [
         "Dekkend, ondoorzichtig masker dat niet kan worden hersteld (geen vervaging of mozaïek)",
         "Maskers met de hand tekenen en ze daarna verplaatsen, schalen of verwijderen, met zoom voor precisie",
-        "Ingebouwde detectie stelt waarschijnlijk gevoelige tekst voor (ID-nummers, kaarten, telefoons, e-mails) om te beginnen",
+        "Ingebouwde detectie stelt waarschijnlijk gevoelige tekst voor (ID-nummers, kaarten, telefoons, e-mails) — gratis en onbeperkt, als vertrekpunt dat jij nakijkt",
         "Foto's, ID-kaarten en PDF-documenten van meerdere pagina's maskeren",
-        "EXIF- & GPS-melding, en elke opgeslagen of gedeelde kopie wordt zonder EXIF opnieuw gecodeerd",
-        "Geen rechten, en schone beeldexport zonder watermerk voor iedereen"
+        "Geen rechten, EXIF- & GPS-melding, en elke opgeslagen of gedeelde kopie wordt zonder EXIF opnieuw gecodeerd",
+        "Geen watermerk voor niemand: 3 exports per dag gratis, onbeperkt met Pro samen met pdf-export en afdrukken — of een korte video opent er een voor 24 uur"
       ],
       "faq": [
         {
@@ -283,6 +283,10 @@
         {
           "q": "Kan ik vóór het exporteren alleen op de automatische detectie vertrouwen?",
           "a": "De detectie is slechts een vertrekpunt dat waarschijnlijk gevoelige tekst voorstelt. Controleer de suggesties altijd en voeg zelf maskers toe of verwijder ze voordat je exporteert."
+        },
+        {
+          "q": "Hoe vaak kan ik gratis exporteren?",
+          "a": "Drie keer per dag. Het gaat om de knop Exporteren, wat je daarna ook met het resultaat doet: opslaan, delen, een pdf maken of afdrukken. Detecteren, bewerken en maskeren zijn nooit beperkt. Pro heft de daglimiet op, en als je liever geen abonnement neemt, haalt een korte video de limiet 24 uur weg."
         }
       ]
     },

@@ -262,14 +262,14 @@
       "seo": "maschera dati in foto e PDF",
       "desc": "Nascondi le informazioni personali in foto e PDF, interamente sul dispositivo.",
       "tagline": "Nascondi le informazioni personali in foto e PDF con una maschera piena, interamente sul tuo dispositivo.",
-      "long": "PhotoCleaner+ nasconde le informazioni personali in foto e PDF interamente sul tuo dispositivo. Copre le aree sensibili con una maschera piena e opaca (non una sfocatura o un mosaico, così le aree coperte non possono essere recuperate) ed esporta una copia pulita. Un rilevatore integrato suggerisce come punto di partenza il testo probabilmente sensibile, come numeri di documento, carte, numeri di telefono ed email, ma sei tu a disegnare e regolare le maschere a mano per decidere esattamente cosa nascondere. Nessuna foto viene mai caricata, tutto funziona offline e non viene mai richiesto alcun permesso di accesso alla galleria o all'archivio.",
+      "long": "PhotoCleaner+ nasconde le informazioni personali in foto e PDF interamente sul tuo dispositivo. Copre le aree sensibili con una maschera piena e opaca (non una sfocatura o un mosaico, così le aree coperte non possono essere recuperate) ed esporta una copia pulita. Un rilevatore integrato suggerisce gratis e senza limiti il testo probabilmente sensibile, come numeri di documento, carte, numeri di telefono ed email, ma sei tu a disegnare e regolare le maschere a mano e a decidere esattamente cosa nascondere. Gestisce foto, documenti di identità e PDF multipagina, ogni copia salvata o condivisa viene ricodificata senza EXIF e non viene mai richiesto alcun permesso di galleria o archivio. Rilevamento, modifica e mascheratura restano illimitati anche nella versione gratuita e nessuna esportazione porta la filigrana; con la versione gratuita esporti 3 volte al giorno, mentre Pro toglie il limite e aggiunge esportazione PDF, stampa e colore della maschera a scelta. Attiva «Scegli dove salvare» e decidi tu cartella e nome del file.",
       "features": [
         "Maschera piena e opaca non recuperabile (non una sfocatura o un mosaico)",
         "Disegna le maschere a mano, poi spostale, ridimensionale o eliminale, con lo zoom per la precisione",
-        "Il rilevamento integrato suggerisce il testo probabilmente sensibile (numeri di documento, carte, telefoni, email) per iniziare",
+        "Il rilevamento integrato suggerisce il testo probabilmente sensibile (numeri di documento, carte, telefoni, email) — gratis e senza limiti, come punto di partenza da verificare",
         "Maschera foto, documenti di identità e PDF multipagina",
-        "Avviso EXIF e GPS, e ogni copia salvata o condivisa viene ricodificata senza EXIF",
-        "Zero permessi ed esportazione dell'immagine pulita senza filigrana per tutti"
+        "Zero permessi, avviso EXIF e GPS, e ogni copia salvata o condivisa ricodificata senza EXIF",
+        "Nessuna filigrana per nessuno: 3 esportazioni al giorno con la versione gratuita, illimitate con Pro insieme a esportazione PDF e stampa — oppure un breve video ne apre una per 24 ore"
       ],
       "faq": [
         {
@@ -283,6 +283,10 @@
         {
           "q": "Posso affidarmi solo al rilevamento automatico prima di esportare?",
           "a": "Il rilevamento è solo un punto di partenza che suggerisce il testo probabilmente sensibile. Rivedi sempre i suggerimenti e aggiungi o rimuovi le maschere tu stesso prima di esportare."
+        },
+        {
+          "q": "Quante volte posso esportare gratis?",
+          "a": "Tre volte al giorno. Conta il pulsante Esporta, qualunque cosa tu faccia poi del risultato: salvare, condividere, esportare in PDF o stampare. Rilevamento, modifica e mascheratura non sono mai limitati. Pro toglie il limite giornaliero e, se preferisci non abbonarti, un breve video lo rimuove per 24 ore."
         }
       ]
     },

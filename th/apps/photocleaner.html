@@ -53,7 +53,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='22' width='100' height='100' fill='%232F3B59'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="/css/style.css?v=57" />
+  <link rel="stylesheet" href="/css/style.css?v=58" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -61,7 +61,7 @@
   "name": "PhotoCleaner+",
   "operatingSystem": "Android",
   "applicationCategory": "UtilitiesApplication",
-  "description": "PhotoCleaner+ ปิดบังข้อมูลส่วนตัวในรูปภาพและ PDF บนเครื่องของคุณทั้งหมด มันปิดบริเวณที่ละเอียดอ่อนด้วยมาสก์ทึบแสง (ไม่ใช่การเบลอหรือโมเสก บริเวณที่ปิดจึงกู้คืนไม่ได้) แล้วส่งออกเป็นสำเนาที่สะอาด ตัวตรวจจับในตัวจะแนะนำข้อความที่น่าจะละเอียดอ่อน เช่น เลขบัตรประชาชน บัตร หมายเลขโทรศัพท์ และอีเมล เป็นจุดตั้งต้น แต่คุณเป็นผู้วาดและปรับมาสก์เองเพื่อกำหนดว่าจะปิดบังสิ่งใด ไม่มีการอัปโหลดรูปภาพใดๆ ทุกอย่างทำงานออฟไลน์ และไม่มีการขอสิทธิ์เข้าถึงแกลเลอรีหรือที่จัดเก็บเลย",
+  "description": "PhotoCleaner+ ปิดบังข้อมูลส่วนตัวในรูปภาพและ PDF บนเครื่องของคุณทั้งหมด มันปิดบริเวณที่ละเอียดอ่อนด้วยมาสก์ทึบแสง (ไม่ใช่การเบลอหรือโมเสก บริเวณที่ปิดจึงกู้คืนไม่ได้) แล้วส่งออกเป็นสำเนาที่สะอาด ตัวตรวจจับในตัวจะแนะนำข้อความที่น่าจะละเอียดอ่อน เช่น เลขบัตรประชาชน บัตร หมายเลขโทรศัพท์ และอีเมล ได้ฟรีไม่จำกัดจำนวนครั้ง แต่คุณเป็นผู้วาดและปรับมาสก์เองเพื่อกำหนดว่าจะปิดบังสิ่งใด รองรับทั้งรูปภาพ บัตรประชาชน และ PDF หลายหน้า สำเนาที่บันทึกหรือแชร์ทุกไฟล์จะถูกเข้ารหัสใหม่โดยไม่มี EXIF และไม่มีการขอสิทธิ์เข้าถึงแกลเลอรีหรือที่จัดเก็บเลย การตรวจจับ แก้ไข และปิดบังไม่จำกัดแม้ในเวอร์ชันฟรี และไฟล์ที่ส่งออกไม่มีลายน้ำสำหรับทุกคน เวอร์ชันฟรีส่งออกได้วันละ 3 ครั้ง ส่วน Pro ปลดขีดจำกัดนี้พร้อมเพิ่มการส่งออก PDF การพิมพ์ และเลือกสีมาสก์ได้อิสระ เปิด “เลือกที่จัดเก็บ” แล้วคุณกำหนดโฟลเดอร์และชื่อไฟล์เองได้",
   "image": "https://codedac.com/images/icons/photocleaner.png",
   "url": "https://codedac.com/th/apps/photocleaner.html",
   "inLanguage": "th",
@@ -143,6 +143,14 @@
         "@type": "Answer",
         "text": "การตรวจจับเป็นเพียงจุดตั้งต้นที่แนะนำข้อความที่น่าจะละเอียดอ่อน โปรดตรวจทานคำแนะนำและเพิ่มหรือลบมาสก์ด้วยตัวเองเสมอก่อนส่งออก"
       }
+    },
+    {
+      "@type": "Question",
+      "name": "เวอร์ชันฟรีส่งออกได้กี่ครั้งต่อวัน?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "วันละ 3 ครั้ง นับที่การกดปุ่มส่งออก ไม่ว่าคุณจะบันทึก แชร์ ทำเป็น PDF หรือพิมพ์ก็ตาม การตรวจจับ แก้ไข และปิดบังไม่มีการจำกัด Pro ปลดขีดจำกัดต่อวัน และหากไม่อยากสมัครสมาชิก ดูโฆษณาสั้น ๆ หนึ่งครั้งก็ปลดขีดจำกัดได้ 24 ชั่วโมง"
+      }
     }
   ]
 }
@@ -208,7 +216,7 @@
 
   <section class="app-hero-d">
     <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/photocleaner.png?v=57" alt="PhotoCleaner+ icon" width="96" height="96" />
+      <img class="app-icon-lg" src="/images/icons/photocleaner.png?v=58" alt="PhotoCleaner+ icon" width="96" height="96" />
       <div class="app-hero-text">
         <span class="app-meta-row"><span class="app-tag">ความเป็นส่วนตัว</span><span class="app-langs" aria-label="21 ภาษา"><span class="globe" aria-hidden="true">🌐</span>21 ภาษา</span></span>
         <h1><bdi>PhotoCleaner+</bdi></h1>
@@ -226,7 +234,7 @@
   <section class="detail-section">
     <div class="container">
       <h2 class="detail-title">ภาพรวม</h2>
-      <p class="detail-long">PhotoCleaner+ ปิดบังข้อมูลส่วนตัวในรูปภาพและ PDF บนเครื่องของคุณทั้งหมด มันปิดบริเวณที่ละเอียดอ่อนด้วยมาสก์ทึบแสง (ไม่ใช่การเบลอหรือโมเสก บริเวณที่ปิดจึงกู้คืนไม่ได้) แล้วส่งออกเป็นสำเนาที่สะอาด ตัวตรวจจับในตัวจะแนะนำข้อความที่น่าจะละเอียดอ่อน เช่น เลขบัตรประชาชน บัตร หมายเลขโทรศัพท์ และอีเมล เป็นจุดตั้งต้น แต่คุณเป็นผู้วาดและปรับมาสก์เองเพื่อกำหนดว่าจะปิดบังสิ่งใด ไม่มีการอัปโหลดรูปภาพใดๆ ทุกอย่างทำงานออฟไลน์ และไม่มีการขอสิทธิ์เข้าถึงแกลเลอรีหรือที่จัดเก็บเลย</p>
+      <p class="detail-long">PhotoCleaner+ ปิดบังข้อมูลส่วนตัวในรูปภาพและ PDF บนเครื่องของคุณทั้งหมด มันปิดบริเวณที่ละเอียดอ่อนด้วยมาสก์ทึบแสง (ไม่ใช่การเบลอหรือโมเสก บริเวณที่ปิดจึงกู้คืนไม่ได้) แล้วส่งออกเป็นสำเนาที่สะอาด ตัวตรวจจับในตัวจะแนะนำข้อความที่น่าจะละเอียดอ่อน เช่น เลขบัตรประชาชน บัตร หมายเลขโทรศัพท์ และอีเมล ได้ฟรีไม่จำกัดจำนวนครั้ง แต่คุณเป็นผู้วาดและปรับมาสก์เองเพื่อกำหนดว่าจะปิดบังสิ่งใด รองรับทั้งรูปภาพ บัตรประชาชน และ PDF หลายหน้า สำเนาที่บันทึกหรือแชร์ทุกไฟล์จะถูกเข้ารหัสใหม่โดยไม่มี EXIF และไม่มีการขอสิทธิ์เข้าถึงแกลเลอรีหรือที่จัดเก็บเลย การตรวจจับ แก้ไข และปิดบังไม่จำกัดแม้ในเวอร์ชันฟรี และไฟล์ที่ส่งออกไม่มีลายน้ำสำหรับทุกคน เวอร์ชันฟรีส่งออกได้วันละ 3 ครั้ง ส่วน Pro ปลดขีดจำกัดนี้พร้อมเพิ่มการส่งออก PDF การพิมพ์ และเลือกสีมาสก์ได้อิสระ เปิด “เลือกที่จัดเก็บ” แล้วคุณกำหนดโฟลเดอร์และชื่อไฟล์เองได้</p>
     </div>
   </section>
 
@@ -236,10 +244,10 @@
       <ul class="feature-list">
         <li>มาสก์ทึบแสงที่กู้คืนไม่ได้ (ไม่ใช่การเบลอหรือโมเสก)</li>
         <li>วาดมาสก์เอง แล้วย้าย ปรับขนาด หรือลบได้ พร้อมซูมเพื่อความแม่นยำ</li>
-        <li>การตรวจจับในตัวแนะนำข้อความที่น่าจะละเอียดอ่อน (เลขบัตรประชาชน บัตร โทรศัพท์ อีเมล) เพื่อเริ่มต้นให้คุณ</li>
+        <li>การตรวจจับในตัวแนะนำข้อความที่น่าจะละเอียดอ่อน (เลขบัตรประชาชน บัตร โทรศัพท์ อีเมล) ฟรีไม่จำกัด และคุณเป็นผู้ตรวจทาน</li>
         <li>ปิดบังได้ทั้งรูปภาพ บัตรประชาชน และเอกสาร PDF หลายหน้า</li>
-        <li>แจ้งเตือน EXIF และ GPS และสำเนาที่บันทึกหรือแชร์ทุกไฟล์จะถูกเข้ารหัสใหม่โดยไม่มี EXIF</li>
-        <li>ไม่ขอสิทธิ์ใดๆ และส่งออกรูปภาพที่สะอาดไร้ลายน้ำสำหรับทุกคน</li>
+        <li>ไม่ขอสิทธิ์ใดๆ แจ้งเตือน EXIF และ GPS และสำเนาที่บันทึกหรือแชร์ทุกไฟล์จะถูกเข้ารหัสใหม่โดยไม่มี EXIF</li>
+        <li>ไม่มีลายน้ำสำหรับทุกคน — ฟรีส่งออกวันละ 3 ครั้ง Pro ไม่จำกัดพร้อมส่งออก PDF และพิมพ์ หรือดูโฆษณาสั้น ๆ เพื่อเปิดใช้ 24 ชั่วโมง</li>
       </ul>
     </div>
   </section>
@@ -249,10 +257,10 @@
       <h2 class="detail-title">ภาพหน้าจอ</h2>
       <p class="section-lead" style="margin-bottom:22px">แตะที่ภาพหน้าจอเพื่อดูขนาดใหญ่ขึ้น</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/photocleaner-1.jpg?v=57" alt="PhotoCleaner+ ภาพหน้าจอ 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/photocleaner-2.jpg?v=57" alt="PhotoCleaner+ ภาพหน้าจอ 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/photocleaner-3.jpg?v=57" alt="PhotoCleaner+ ภาพหน้าจอ 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/photocleaner-4.jpg?v=57" alt="PhotoCleaner+ ภาพหน้าจอ 4" loading="lazy" data-idx="3" />
+        <img class="shot" src="/images/shots/photocleaner-1.jpg?v=58" alt="PhotoCleaner+ ภาพหน้าจอ 1" loading="lazy" data-idx="0" />
+        <img class="shot" src="/images/shots/photocleaner-2.jpg?v=58" alt="PhotoCleaner+ ภาพหน้าจอ 2" loading="lazy" data-idx="1" />
+        <img class="shot" src="/images/shots/photocleaner-3.jpg?v=58" alt="PhotoCleaner+ ภาพหน้าจอ 3" loading="lazy" data-idx="2" />
+        <img class="shot" src="/images/shots/photocleaner-4.jpg?v=58" alt="PhotoCleaner+ ภาพหน้าจอ 4" loading="lazy" data-idx="3" />
       </div>
     </div>
   </section>
@@ -263,6 +271,7 @@
         <div class="faq-item"><p class="faq-q">การปิดบังเป็นการเบลอหรือโมเสกไหม?</p><p class="faq-a">ไม่ใช่ การปิดบังใช้รูปแบบเดียวคือการเติมสีทึบแสง และบริเวณที่ปิดกู้คืนไม่ได้ ด้วย Pro คุณเลือกสีมาสก์ได้ตามใจ</p></div>
         <div class="faq-item"><p class="faq-q">รูปภาพของฉันถูกอัปโหลดไปที่ไหนไหม?</p><p class="faq-a">ไม่ ทุกอย่างทำงานออฟไลน์บนเครื่องของคุณ และไม่มีการอัปโหลดรูปภาพใดๆ อีกทั้งแอปยังไม่เคยขอสิทธิ์เข้าถึงแกลเลอรีหรือที่จัดเก็บ</p></div>
         <div class="faq-item"><p class="faq-q">ฉันพึ่งการตรวจจับอัตโนมัติอย่างเดียวก่อนส่งออกได้ไหม?</p><p class="faq-a">การตรวจจับเป็นเพียงจุดตั้งต้นที่แนะนำข้อความที่น่าจะละเอียดอ่อน โปรดตรวจทานคำแนะนำและเพิ่มหรือลบมาสก์ด้วยตัวเองเสมอก่อนส่งออก</p></div>
+        <div class="faq-item"><p class="faq-q">เวอร์ชันฟรีส่งออกได้กี่ครั้งต่อวัน?</p><p class="faq-a">วันละ 3 ครั้ง นับที่การกดปุ่มส่งออก ไม่ว่าคุณจะบันทึก แชร์ ทำเป็น PDF หรือพิมพ์ก็ตาม การตรวจจับ แก้ไข และปิดบังไม่มีการจำกัด Pro ปลดขีดจำกัดต่อวัน และหากไม่อยากสมัครสมาชิก ดูโฆษณาสั้น ๆ หนึ่งครั้งก็ปลดขีดจำกัดได้ 24 ชั่วโมง</p></div>
       </div>
     </div>
   </section>
@@ -293,6 +302,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"th","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/photocleaner.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/photocleaner.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/photocleaner.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/photocleaner.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/photocleaner.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/photocleaner.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/photocleaner.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/photocleaner.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/photocleaner.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/photocleaner.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/photocleaner.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/photocleaner.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/photocleaner.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/photocleaner.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/photocleaner.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/photocleaner.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/photocleaner.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/photocleaner.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/photocleaner.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/photocleaner.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/photocleaner.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=57"></script>
+  <script src="/js/site.js?v=58"></script>
 </body>
 </html>

@@ -262,14 +262,14 @@
       "seo": "Masquer photos et PDF",
       "desc": "Masquez les informations personnelles dans vos photos et PDF, entièrement sur l'appareil.",
       "tagline": "Masquez les informations personnelles dans vos photos et PDF avec un cache opaque, entièrement sur votre appareil.",
-      "long": "PhotoCleaner+ masque les informations personnelles dans les photos et les PDF entièrement sur votre appareil. Il recouvre les zones sensibles d'un cache opaque et uni (ni flou ni mosaïque, afin que les zones couvertes ne puissent pas être récupérées) et exporte une copie propre. Un détecteur intégré suggère, comme point de départ, les textes probablement sensibles tels que numéros d'identité, cartes, numéros de téléphone et e-mails, mais vous dessinez et ajustez les caches à la main pour décider précisément de ce qui est masqué. Aucune photo n'est jamais envoyée, tout fonctionne hors ligne, et aucune autorisation de galerie ou de stockage n'est jamais demandée.",
+      "long": "PhotoCleaner+ masque les informations personnelles dans vos photos et PDF entièrement sur votre appareil. Il recouvre les zones sensibles d'un cache opaque et uni (ni flou ni mosaïque, les zones couvertes ne peuvent donc pas être récupérées) et exporte une copie propre. Un détecteur intégré suggère gratuitement et sans limite les textes probablement sensibles — numéros d'identité, cartes, téléphones, e-mails — mais c'est vous qui dessinez et ajustez les caches et décidez précisément de ce qui est masqué. Photos, pièces d'identité et PDF de plusieurs pages sont pris en charge, chaque copie enregistrée ou partagée est réencodée sans EXIF, et aucune autorisation de galerie ou de stockage n'est jamais demandée. La détection, la retouche et le masquage restent illimités même en version gratuite, et aucun export ne porte de filigrane ; la version gratuite permet 3 exports par jour, tandis que Pro lève cette limite et ajoute l'export PDF, l'impression et le choix de la couleur du cache. Activez « Choisir où enregistrer » et vous choisissez vous-même le dossier et le nom du fichier.",
       "features": [
         "Cache opaque et uni impossible à récupérer (ni flou ni mosaïque)",
         "Dessinez les caches à la main, puis déplacez-les, redimensionnez-les ou supprimez-les, avec zoom pour plus de précision",
-        "La détection intégrée suggère les textes probablement sensibles (numéros d'identité, cartes, téléphones, e-mails) pour vous aider à démarrer",
+        "La détection intégrée suggère gratuitement et sans limite les textes probablement sensibles (numéros d'identité, cartes, téléphones, e-mails) — à vous de les vérifier",
         "Masquez photos, pièces d'identité et documents PDF de plusieurs pages",
-        "Avertissement EXIF et GPS, et chaque copie enregistrée ou partagée est réencodée sans EXIF",
-        "Aucune autorisation, et export d'image propre sans filigrane pour tous"
+        "Aucune autorisation, avertissement EXIF et GPS, et chaque copie enregistrée ou partagée réencodée sans EXIF",
+        "Aucun filigrane pour personne : 3 exports par jour en gratuit, illimités avec Pro avec l'export PDF et l'impression — ou une courte vidéo en ouvre un pendant 24 heures"
       ],
       "faq": [
         {
@@ -283,6 +283,10 @@
         {
           "q": "Puis-je me fier uniquement à la détection automatique avant d'exporter ?",
           "a": "La détection n'est qu'un point de départ qui suggère les textes probablement sensibles. Vérifiez toujours les suggestions et ajoutez ou retirez vous-même des caches avant d'exporter."
+        },
+        {
+          "q": "Combien d'exports puis-je faire gratuitement ?",
+          "a": "Trois par jour. C'est le bouton Exporter qui compte, quel que soit l'usage ensuite : enregistrer, partager, exporter en PDF ou imprimer. La détection, la retouche et le masquage ne sont jamais limités. Pro supprime la limite quotidienne et, si vous préférez ne pas vous abonner, une courte vidéo la lève pendant 24 heures."
         }
       ]
     },

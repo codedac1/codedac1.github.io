@@ -262,14 +262,14 @@
       "seo": "Sensor Foto & PDF Peribadi",
       "desc": "Sembunyikan maklumat peribadi dalam foto & PDF, sepenuhnya pada peranti.",
       "tagline": "Sembunyikan maklumat peribadi dalam foto dan PDF dengan topeng padat, sepenuhnya pada peranti anda.",
-      "long": "PhotoCleaner+ menyembunyikan maklumat peribadi dalam foto dan PDF sepenuhnya pada peranti anda. Ia menutup kawasan sensitif dengan topeng padat yang legap (bukan kabur atau mozek, jadi kawasan yang ditutup tidak boleh dipulihkan) dan mengeksport salinan yang bersih. Pengesan terbina dalam mencadangkan teks yang berkemungkinan sensitif seperti nombor pengenalan, kad, nombor telefon dan e-mel sebagai titik permulaan, tetapi anda melukis dan melaraskan topeng secara manual untuk menentukan dengan tepat apa yang disembunyikan. Tiada foto dimuat naik, semuanya berjalan luar talian, dan tiada kebenaran galeri atau storan yang diminta.",
+      "long": "PhotoCleaner+ menyembunyikan maklumat peribadi dalam foto dan PDF sepenuhnya pada peranti anda. Ia menutup kawasan sensitif dengan topeng padat yang legap (bukan kabur atau mozek, jadi kawasan yang ditutup tidak boleh dipulihkan) dan mengeksport salinan yang bersih. Pengesan terbina dalam mencadangkan teks yang berkemungkinan sensitif seperti nombor pengenalan, kad, nombor telefon dan e-mel secara percuma dan tanpa had, tetapi anda sendiri melukis dan melaraskan topeng serta menentukan dengan tepat apa yang disembunyikan. Foto, kad pengenalan dan PDF berbilang halaman semuanya dikendalikan, setiap salinan yang disimpan atau dikongsi dikodkan semula tanpa EXIF, dan tiada kebenaran galeri atau storan yang diminta. Pengesanan, penyuntingan dan penopengan kekal tanpa had dalam versi percuma dan tiada eksport yang membawa tera air; versi percuma mengeksport 3 kali sehari, manakala Pro menanggalkan had itu dan menambah eksport PDF, cetak serta apa-apa warna topeng. Hidupkan “Pilih lokasi simpanan” dan anda sendiri menentukan folder serta nama fail.",
       "features": [
         "Topeng padat legap yang tidak boleh dipulihkan (bukan kabur atau mozek)",
         "Lukis topeng secara manual, kemudian gerak, ubah saiz atau padamkannya, dengan zum untuk ketepatan",
-        "Pengesanan terbina dalam mencadangkan teks yang berkemungkinan sensitif (nombor pengenalan, kad, telefon, e-mel) untuk memulakan",
+        "Pengesanan terbina dalam mencadangkan teks yang berkemungkinan sensitif (nombor pengenalan, kad, telefon, e-mel) — percuma dan tanpa had, dan anda yang menyemaknya",
         "Topeng foto, kad pengenalan dan dokumen PDF berbilang halaman",
-        "Pemberitahuan EXIF & GPS, dan setiap salinan yang disimpan atau dikongsi dikodkan semula tanpa EXIF",
-        "Tiada kebenaran, dan eksport imej bersih tanpa tera air untuk semua orang"
+        "Tiada kebenaran, pemberitahuan EXIF & GPS, dan setiap salinan yang disimpan atau dikongsi dikodkan semula tanpa EXIF",
+        "Tiada tera air untuk sesiapa pun: 3 eksport sehari dalam versi percuma, tanpa had dengan Pro berserta eksport PDF dan cetak — atau satu iklan pendek membukanya selama 24 jam"
       ],
       "faq": [
         {
@@ -283,6 +283,10 @@
         {
           "q": "Bolehkah saya bergantung pada pengesanan automatik sahaja sebelum mengeksport?",
           "a": "Pengesanan hanyalah titik permulaan yang mencadangkan teks yang berkemungkinan sensitif. Sentiasa semak cadangan dan tambah atau buang topeng sendiri sebelum mengeksport."
+        },
+        {
+          "q": "Berapa kali saya boleh mengeksport secara percuma?",
+          "a": "Tiga kali sehari. Yang dikira ialah butang Eksport, apa jua yang anda lakukan dengan hasilnya: menyimpan, berkongsi, menjadikannya PDF atau mencetak. Pengesanan, penyuntingan dan penopengan tidak pernah dihadkan. Pro menanggalkan had harian, dan jika anda tidak mahu melanggan, satu iklan pendek menanggalkannya selama 24 jam."
         }
       ]
     },

@@ -262,14 +262,14 @@
       "seo": "Persönliche Daten maskieren",
       "desc": "Verbirg persönliche Daten in Fotos & PDFs, komplett auf dem Gerät.",
       "tagline": "Verbirg persönliche Daten in Fotos und PDFs mit einer deckenden Maske, komplett auf deinem Gerät.",
-      "long": "PhotoCleaner+ verbirgt persönliche Daten in Fotos und PDFs vollständig auf deinem Gerät. Es überdeckt sensible Bereiche mit einer deckenden, undurchsichtigen Maske (keine Unschärfe oder Verpixelung, sodass überdeckte Bereiche nicht wiederhergestellt werden können) und exportiert eine saubere Kopie. Ein integrierter Detektor schlägt wahrscheinlich sensible Texte wie Ausweisnummern, Karten, Telefonnummern und E-Mails als Ausgangspunkt vor, doch du zeichnest und passt die Masken selbst an und entscheidest genau, was verborgen wird. Kein Foto wird je hochgeladen, alles läuft offline, und es wird niemals eine Galerie- oder Speicherberechtigung angefordert.",
+      "long": "PhotoCleaner+ verbirgt persönliche Daten in Fotos und PDFs vollständig auf deinem Gerät. Es überdeckt sensible Bereiche mit einer deckenden, undurchsichtigen Maske (keine Unschärfe oder Verpixelung, überdeckte Bereiche lassen sich also nicht wiederherstellen) und exportiert eine saubere Kopie. Eine integrierte Erkennung schlägt kostenlos und unbegrenzt wahrscheinlich sensible Texte wie Ausweisnummern, Karten, Telefonnummern und E-Mails vor, doch du zeichnest und veränderst die Masken selbst und entscheidest genau, was verborgen wird. Fotos, Ausweise und mehrseitige PDFs sind gleichermaßen abgedeckt, jede gespeicherte oder geteilte Kopie wird ohne EXIF neu codiert, und es wird niemals eine Galerie- oder Speicherberechtigung angefordert. Erkennung, Bearbeiten und Maskieren bleiben auch kostenlos unbegrenzt, und kein Export trägt ein Wasserzeichen; kostenlos sind 3 Exporte pro Tag möglich, Pro hebt dieses Limit auf und ergänzt PDF-Export, Drucken und beliebige Maskenfarben. Schalte „Speicherort wählen“ ein, und du bestimmst Ordner und Dateinamen selbst.",
       "features": [
         "Deckende, undurchsichtige Maske, die nicht wiederherstellbar ist (keine Unschärfe oder Verpixelung)",
         "Masken von Hand zeichnen und dann verschieben, skalieren oder löschen, mit Zoom für Präzision",
-        "Integrierte Erkennung schlägt wahrscheinlich sensible Texte vor (Ausweisnummern, Karten, Telefone, E-Mails) für den Einstieg",
+        "Integrierte Erkennung schlägt wahrscheinlich sensible Texte vor (Ausweisnummern, Karten, Telefone, E-Mails) — kostenlos und unbegrenzt, als Ausgangspunkt, den du prüfst",
         "Fotos, Ausweise und mehrseitige PDF-Dokumente maskieren",
-        "EXIF- & GPS-Hinweis, und jede gespeicherte oder geteilte Kopie wird ohne EXIF neu codiert",
-        "Keine Berechtigungen, und sauberer Bildexport ohne Wasserzeichen für alle"
+        "Keine Berechtigungen, EXIF- & GPS-Hinweis, und jede gespeicherte oder geteilte Kopie wird ohne EXIF neu codiert",
+        "Kein Wasserzeichen für niemanden: 3 Exporte pro Tag kostenlos, unbegrenzt mit Pro samt PDF-Export und Drucken — oder ein kurzes Video öffnet eines davon für 24 Stunden"
       ],
       "faq": [
         {
@@ -283,6 +283,10 @@
         {
           "q": "Kann ich mich vor dem Export allein auf die automatische Erkennung verlassen?",
           "a": "Die Erkennung ist nur ein Ausgangspunkt, der wahrscheinlich sensible Texte vorschlägt. Prüfe die Vorschläge immer und füge selbst Masken hinzu oder entferne sie, bevor du exportierst."
+        },
+        {
+          "q": "Wie oft kann ich kostenlos exportieren?",
+          "a": "Dreimal am Tag. Gezählt wird der Export-Button — unabhängig davon, ob du das Ergebnis speicherst, teilst, als PDF ausgibst oder druckst. Erkennung, Bearbeiten und Maskieren sind nie begrenzt. Pro hebt das Tageslimit auf, und wer nicht abonnieren möchte, öffnet es mit einem kurzen Video für 24 Stunden."
         }
       ]
     },

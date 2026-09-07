@@ -262,14 +262,14 @@
       "seo": "máscara de dados em fotos e PDF",
       "desc": "Oculte dados pessoais em fotos e PDFs, totalmente no aparelho.",
       "tagline": "Oculte dados pessoais em fotos e PDFs com uma máscara sólida, inteiramente no seu aparelho.",
-      "long": "O PhotoCleaner+ oculta dados pessoais em fotos e PDFs inteiramente no seu aparelho. Ele cobre áreas sensíveis com uma máscara sólida e opaca (não é desfoque nem mosaico, então as áreas cobertas não podem ser recuperadas) e exporta uma cópia limpa. Um detector integrado sugere textos provavelmente sensíveis, como números de documento, cartões, telefones e e-mails, como ponto de partida, mas você desenha e ajusta as máscaras à mão para decidir exatamente o que será ocultado. Nenhuma foto é enviada para a nuvem, tudo funciona offline, e nenhuma permissão de galeria ou armazenamento é solicitada.",
+      "long": "O PhotoCleaner+ oculta dados pessoais em fotos e PDFs inteiramente no seu aparelho. Ele cobre áreas sensíveis com uma máscara sólida e opaca (não é desfoque nem mosaico, então as áreas cobertas não podem ser recuperadas) e exporta uma cópia limpa. Um detector integrado sugere, de graça e sem limite, textos provavelmente sensíveis como números de documento, cartões, telefones e e-mails, mas é você quem desenha e ajusta as máscaras à mão e decide exatamente o que será ocultado. Ele lida com fotos, documentos de identidade e PDFs de várias páginas, toda cópia salva ou compartilhada é recodificada sem EXIF, e nenhuma permissão de galeria ou armazenamento é solicitada. Detecção, edição e máscara continuam ilimitadas na versão gratuita e nenhuma exportação leva marca d'água; no gratuito são 3 exportações por dia, enquanto o Pro tira esse limite e acrescenta exportação em PDF, impressão e qualquer cor de máscara. Ative “Escolher onde salvar” e você define a pasta e o nome do arquivo.",
       "features": [
         "Máscara sólida e opaca que não pode ser recuperada (não é desfoque nem mosaico)",
         "Desenhe máscaras à mão e, depois, mova, redimensione ou exclua-as, com zoom para precisão",
-        "Detecção integrada sugere textos provavelmente sensíveis (números de documento, cartões, telefones, e-mails) para você começar",
+        "Detecção integrada sugere textos provavelmente sensíveis (números de documento, cartões, telefones, e-mails) — de graça e sem limite, como ponto de partida que você revisa",
         "Oculte fotos, documentos de identidade e PDFs de várias páginas",
-        "Aviso sobre EXIF e GPS, e toda cópia salva ou compartilhada é recodificada sem EXIF",
-        "Zero permissões e exportação de imagem limpa, sem marca d'água, para todos"
+        "Zero permissões, aviso sobre EXIF e GPS, e toda cópia salva ou compartilhada recodificada sem EXIF",
+        "Sem marca d'água para ninguém: 3 exportações por dia no gratuito, ilimitadas no Pro junto com exportação em PDF e impressão — ou um anúncio curto abre uma delas por 24 horas"
       ],
       "faq": [
         {
@@ -283,6 +283,10 @@
         {
           "q": "Posso confiar só na detecção automática antes de exportar?",
           "a": "A detecção é apenas um ponto de partida que sugere textos provavelmente sensíveis. Sempre revise as sugestões e adicione ou remova máscaras você mesmo antes de exportar."
+        },
+        {
+          "q": "Quantas vezes posso exportar de graça?",
+          "a": "Três por dia. O que conta é o botão Exportar, faça o que fizer depois com o resultado: salvar, compartilhar, gerar PDF ou imprimir. Detecção, edição e máscara nunca têm limite. O Pro remove o limite diário e, se você preferir não assinar, um anúncio curto o levanta por 24 horas."
         }
       ]
     },
