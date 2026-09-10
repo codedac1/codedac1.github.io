@@ -446,6 +446,36 @@ function langBadge(slug, ui) {
 // 스토어 버튼 문구는 배포처를 따라간다 — Windows 앱은 Microsoft Store, 나머지는 Google Play.
 const storeLabel = (app, ui) => (app.platform === 'windows' ? ui['store.ms'] : ui['store']);
 
+// 스토어 링크에 유입 계측을 붙인다. referrer 없이 열면 Play Console 에서 유입이 전부
+// '탐색/기타'로 뭉개져, 사이트가 설치를 만들고 있는지조차 알 수 없다.
+//   · Google Play    — install referrer 는 `&referrer=<URL 인코딩한 utm 문자열>`.
+//   · Microsoft Store — utm 을 받지 않고 캠페인 ID 하나(`cid`)만 Partner Center 에 넘긴다.
+// placement 는 같은 페이지 안의 어느 버튼이었는지, campaign 은 어느 로케일 페이지였는지.
+const storeUrl = (app, code, placement) => {
+  if (!app.store) return '';
+  const sep = app.store.includes('?') ? '&' : '?';
+  if (app.platform === 'windows') return `${app.store}${sep}cid=site-${placement}-${code}`;
+  const ref = `utm_source=codedac_site&utm_medium=${placement}&utm_campaign=${code}`;
+  return `${app.store}${sep}referrer=${encodeURIComponent(ref)}`;
+};
+
+// 구조화 데이터의 별점. 검색 결과에 ★를 띄우려면 aggregateRating 이 필요하지만,
+// 표본이 적은 평점을 박으면 CTR 이 오히려 떨어진다 — 리뷰 몇 개짜리 앱의 낮은 점수가
+// 그대로 노출된다. 그래서 평점수와 점수의 하한을 둘 다 넘긴 앱에만 넣고,
+// 리뷰가 쌓이면 다음 빌드에서 자동으로 켜지게 둔다.
+const SCHEMA_RATING_MIN_COUNT = 30;
+const SCHEMA_RATING_MIN_SCORE = 3.5;
+const ratingFor = (slug) => {
+  const s = (STATS.apps || {})[slug];
+  if (!s || !s.score || !s.ratings) return null;
+  if (s.ratings < SCHEMA_RATING_MIN_COUNT || s.score < SCHEMA_RATING_MIN_SCORE) return null;
+  return {
+    '@type': 'AggregateRating',
+    ratingValue: String(s.score), ratingCount: String(s.ratings),
+    bestRating: '5', worstRating: '1',
+  };
+};
+
 // 플랫폼 이름. 고유명사라 번역하지 않고 모든 언어에서 그대로 쓴다(홈의 앱 그룹 제목과 같은 규칙).
 const platformOf = (app) => (app.platform === 'windows' ? 'Windows' : 'Android');
 
@@ -534,7 +564,7 @@ ${Array.from({ length: cardShots }, (_, i) =>
       `          <img class="shot" src="/images/shots/${app.slug}-${i + 1}.jpg?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}" loading="lazy" data-idx="${i}" />`).join('\n')}
         </div>` : '';
     const store = app.store
-      ? `<a class="app-link" href="${escAttr(app.store)}" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
+      ? `<a class="app-link" href="${escAttr(storeUrl(app, code, 'home-card'))}" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
       : '';
     return `        <article class="app-card">
           <div class="app-head">
@@ -679,6 +709,8 @@ function buildDetail(lang, app) {
   };
   if (shotAbs.length) ldApp.screenshot = shotAbs;
   if (app.store) ldApp.installUrl = app.store;
+  const ldRating = ratingFor(app.slug);
+  if (ldRating) ldApp.aggregateRating = ldRating;
 
   const ldBreadcrumb = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList',
@@ -715,7 +747,7 @@ ${Array.from({ length: app.shots }, (_, i) =>
     ? `<span class="app-platform-note">${escText(ui['platform.soon'])}</span>`
     : '';
   const storeBtn = app.store
-    ? `<a href="${escAttr(app.store)}" class="btn btn-primary" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
+    ? `<a href="${escAttr(storeUrl(app, code, 'detail-hero'))}" class="btn btn-primary" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
     : '';
   // 플랫폼 표기는 버튼들 뒤에 둔다 — 스토어·문의 버튼 사이에 끼면 두 버튼이 갈라져 보인다.
   const contactBtn = `<a href="mailto:codedac1@gmail.com" class="btn btn-ghost">${escText(ui['contact'])}</a>`;
