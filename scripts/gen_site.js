@@ -17,6 +17,8 @@ const crypto = require('crypto');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
+// 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
+const EMAIL = 'contact@codedac.com';
 const V = '58'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
@@ -379,7 +381,7 @@ function footer(code, ui) {
         <span class="footer-based">${escText(ui['footer.based'])}</span>
       </div>
       <div class="footer-right">
-        <a class="footer-email" href="mailto:codedac1@gmail.com">codedac1@gmail.com</a>
+        <a class="footer-email" href="mailto:${EMAIL}">${EMAIL}</a>
         <a class="footer-email" href="${pathFor(code, 'privacy')}">${escText(ui['footer.privacy'])}</a>
         <p>&copy; <span id="year">${new Date().getFullYear()}</span> CodeDAC. All rights reserved.</p>
       </div>
@@ -520,7 +522,7 @@ const PROOF_REVIEW = (() => {
 })();
 
 function ideasSection(code, ui) {
-  const mail = 'mailto:codedac1@gmail.com'
+  const mail = `mailto:${EMAIL}`
     + '?subject=' + encodeURIComponent(ui['ideas.mail.subject'])
     + '&body=' + encodeURIComponent(ui['ideas.mail.body']);
   const proof = PROOF_REVIEW ? `
@@ -595,9 +597,9 @@ ${list.map(cardHtml).join('\n')}
     '@context': 'https://schema.org', '@type': 'Organization',
     name: 'CodeDAC', alternateName: '코드댁', url: `${BASE}/`,
     logo: `${BASE}/images/og-image.png`, image: `${BASE}/images/og-image.png`,
-    email: 'codedac1@gmail.com', slogan: 'Code-based Development And Consulting',
+    email: EMAIL, slogan: 'Code-based Development And Consulting',
     description: String(ui['meta.desc']).replace(/<[^>]+>/g, ''),
-    contactPoint: { '@type': 'ContactPoint', email: 'codedac1@gmail.com', contactType: 'customer support' },
+    contactPoint: { '@type': 'ContactPoint', email: EMAIL, contactType: 'customer support' },
   };
 
 
@@ -619,7 +621,7 @@ ${header(code, 'home', undefined, ui)}
       <p class="hero-sub">${ui['hero.sub']}</p>
       <div class="hero-actions">
         <a href="#apps" class="btn btn-primary">${escText(ui['hero.cta1'])}</a>
-        <a href="mailto:codedac1@gmail.com" class="btn btn-ghost">${escText(ui['hero.cta2'])}</a>
+        <a href="mailto:${EMAIL}" class="btn btn-ghost">${escText(ui['hero.cta2'])}</a>
       </div>
 ${statStrip(ui)}
     </div>
@@ -655,7 +657,7 @@ ${statStrip(ui)}
         <div class="card"><div class="card-icon">🛠️</div><h3>${escText(ui['services.s4.t'])}</h3><p>${escText(ui['services.s4.d'])}</p></div>
       </div>
       <div class="services-cta">
-        <a href="mailto:codedac1@gmail.com?subject=%5BCodeDAC%5D%20Project%20inquiry" class="btn btn-primary">${escText(ui['services.cta'])}</a>
+        <a href="mailto:${EMAIL}?subject=%5BCodeDAC%5D%20Project%20inquiry" class="btn btn-primary">${escText(ui['services.cta'])}</a>
       </div>
     </div>
   </section>
@@ -750,7 +752,7 @@ ${Array.from({ length: app.shots }, (_, i) =>
     ? `<a href="${escAttr(storeUrl(app, code, 'detail-hero'))}" class="btn btn-primary" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
     : '';
   // 플랫폼 표기는 버튼들 뒤에 둔다 — 스토어·문의 버튼 사이에 끼면 두 버튼이 갈라져 보인다.
-  const contactBtn = `<a href="mailto:codedac1@gmail.com" class="btn btn-ghost">${escText(ui['contact'])}</a>`;
+  const contactBtn = `<a href="mailto:${EMAIL}" class="btn btn-ghost">${escText(ui['contact'])}</a>`;
   const heroAction = [storeBtn, contactBtn, noteHtml].filter(Boolean).join('\n          ');
 
   const lightbox = app.shots ? `
