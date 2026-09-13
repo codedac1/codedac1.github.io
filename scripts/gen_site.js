@@ -657,7 +657,8 @@ ${statStrip(ui)}
         <div class="card"><div class="card-icon">🛠️</div><h3>${escText(ui['services.s4.t'])}</h3><p>${escText(ui['services.s4.d'])}</p></div>
       </div>
       <div class="services-cta">
-        <a href="mailto:${EMAIL}?subject=%5BCodeDAC%5D%20Project%20inquiry" class="btn btn-primary">${escText(ui['services.cta'])}</a>
+        <a href="${escAttr(`mailto:${EMAIL}?subject=%5BCodeDAC%5D%20Project%20inquiry&body=${encodeURIComponent(ui['services.mail.body'])}`)}" class="btn btn-primary">${escText(ui['services.cta'])}</a>
+        <p class="ideas-note">${escText(ui['services.note'])}</p>
       </div>
     </div>
   </section>
