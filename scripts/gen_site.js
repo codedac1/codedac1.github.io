@@ -234,7 +234,10 @@ ${items}
       </div>`;
 }
 
-const FAVICON = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='22' width='100' height='100' fill='%232F3B59'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Arial,sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E`;
+// 파비콘 파일은 저장소 루트/images 에 둔다(원본: ReadFocus/Resource/marketing/youtube-profile-cd.png).
+const FAVICON_LINKS = `<link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />`;
 
 // 저장된 언어 선택에 따른 리다이렉트 (루트 페이지에만 삽입).
 //
@@ -345,7 +348,7 @@ ${hreflangLinks(kind, slug, langSet)}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
-  <link rel="icon" href="${FAVICON}" />
+  ${FAVICON_LINKS}
   <link rel="stylesheet" href="/css/style.css?v=${V}" />`;
 }
 
@@ -926,7 +929,7 @@ function notFoundPage() {
   <meta name="robots" content="noindex" />
   <title>Page not found | CodeDAC</title>
   <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
-  <link rel="icon" href="${FAVICON}" />
+  ${FAVICON_LINKS}
   <link rel="stylesheet" href="/css/style.css?v=${V}" />
 </head>
 <body>
