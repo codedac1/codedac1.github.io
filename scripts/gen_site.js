@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '61'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '62'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -249,7 +249,7 @@ function langSwitcher(curCode, kind, slug) {
     return `        <a class="lang-item${active}" data-lang="${l.code}" href="${pathFor(l.code, kind, slug)}" hreflang="${l.hreflang}" lang="${l.htmlLang}">${l.native}</a>`;
   }).join('\n');
   return `<div class="lang-switch">
-        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false">${cur.native} <span class="caret">▾</span></button>
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="${cur.native}"><span class="lang-name">${cur.native}</span><span class="lang-code" aria-hidden="true">${cur.code.toUpperCase()}</span> <span class="caret" aria-hidden="true">▾</span></button>
         <div class="lang-menu" id="langMenu" role="menu">
 ${items}
         </div>

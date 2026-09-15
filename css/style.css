@@ -151,6 +151,23 @@ img { max-width: 100%; }
 .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: 0; cursor: pointer; padding: 8px; }
 .nav-toggle span { width: 24px; height: 2px; background: var(--ink); border-radius: 2px; transition: .3s; }
 
+/* 좁은 폰(320~400px). 로고 + 다크 모드 + 언어 버튼 + 메뉴 버튼이 한 줄에 약 340px 를 차지해
+   320px 화면에서 헤더가 넘쳤고, 그 넘침이 페이지 전체에 가로 스크롤을 만들었다(아랍어는 왼쪽으로 밀림).
+   언어 버튼은 'Nederlands' 같은 긴 이름 대신 코드(NL)만 보이고, 여백과 버튼을 조금씩 줄인다. */
+.lang-code { display: none; }
+@media (max-width: 400px) {
+  .container { padding-inline: 16px; }
+  .nav-right { gap: 8px; }
+  .logo { font-size: 19px; gap: 7px; }
+  .logo-mark { width: 26px; height: 26px; border-radius: 7px; }
+  .theme-toggle { width: 34px; height: 34px; font-size: 14px; }
+  .lang-btn { padding: 6px 10px; }
+  .lang-name { display: none; }
+  .lang-code { display: inline; }
+  .nav-toggle { padding: 6px; }
+  .nav a { padding-inline: 16px; }
+}
+
 /* ===== 히어로 (브랜드 배너) =====
    원본은 D:\CodeDAC\Data\CodeDAC 배경2_4096.png 배너다. 그림을 그대로 깔지 않고 HTML 로 옮겼다 —
    글자가 그림에 박혀 있으면 21개 언어로 바꿀 수 없고, 16:9 그림을 폰 폭에 맞추면
@@ -626,6 +643,9 @@ img { max-width: 100%; }
   border-radius: 10px; background: var(--accent-tint); color: var(--link-teal-h);
 }
 .fg-icon .ic { width: 18px; height: 18px; stroke-width: 2.4; }
+/* 'jasnym/ciemnym/…' 처럼 빗금으로 이어진 낱말은 끊을 자리가 없어, flex 항목이 그 길이 밑으로
+   줄지 않고 카드를 화면 밖으로 밀어냈다(pl·tr·de Clipboard+ for Windows, nl VolumeBooster+). */
+.feature-grid li > span:last-child { min-width: 0; overflow-wrap: anywhere; }
 
 /* 다른 앱 카드 */
 .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr)); gap: 14px; }
