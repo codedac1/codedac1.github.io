@@ -1,5 +1,5 @@
 {
-  "note": "홈/앱상세에 노출할 Google Play 리뷰(손수 큐레이션). 4★ 이상·60자 이상만 쓰고, 미해결 불만이나 오해를 부를 리뷰는 배제하며 긴 리뷰는 앞뒤를 잘라 발췌한다. score 는 원래 별점 그대로 두어(4★는 별 4개로 찍힌다) 5★인 척하지 않는다. 후보는 `node scripts/fetch_reviews.js`(다국가) → scripts/_reviews_pool.json. byApp[slug] 를 고치면 해당 앱 상세 + 홈 후기(앱별로 섞어 최대 6개)가 바뀝니다. 리뷰 원문 언어는 그대로 둡니다. \"proof\": true 인 리뷰 하나는 홈의 아이디어 제보 섹션에도 '제보가 실제로 반영된 증거'로 실립니다 — 사용자 제안이 앱에 들어간 이야기여야 하고, 없으면 그 카드는 렌더되지 않습니다.",
+  "note": "홈/앱상세에 노출할 Google Play 리뷰(손수 큐레이션). 5★·충분히 긴(대략 90자 이상) 긍정 리뷰만 쓰고, 불만·버그 제보·기능 요청이 중심인 리뷰나 오해를 부를 리뷰는 배제하며 긴 리뷰는 앞뒤를 잘라 발췌한다. 후보는 `node scripts/fetch_reviews.js`(다국가) → scripts/_reviews_pool.json. byApp[slug] 를 고치면 해당 앱 상세 + 홈 후기(앱별로 섞어 최대 6개)가 바뀝니다. 리뷰 원문 언어는 그대로 둡니다. \"proof\": true 인 리뷰 하나는 홈의 아이디어 제보 섹션에도 '제보가 실제로 반영된 증거'로 실립니다 — 사용자 제안이 앱에 들어간 이야기여야 하고, 없으면 그 카드는 렌더되지 않습니다.",
   "byApp": {
     "clipboard": [
       {
@@ -24,9 +24,19 @@
         "text": "Lifetime-Kaufoption wurde hinzugefügt – vorbildlich! Pro-Version in Lifetime somit erworben. Auch funktionsmäßig ganz hervorragende App, welche den Zwischenablageinhalt sogar selektiv speichern und kopieren kann. 5 Sterne sind noch zu wenig, ich ziehe meinen Hut!"
       },
       {
-        "name": "Nick Khoury",
-        "score": 4,
-        "text": "It's probably a 5 star app, and the pro version is available for a reasonable month fee, a yearly fee, or a 1 time purchase. Most importantly, you're able to utilize the pro features for a limited amount of time (very smart of the devs) by watching ads. I would never buy something that I cannot test drive beforehand."
+        "name": "HaJo Kerß",
+        "score": 5,
+        "text": "Funktioniert gut. Keinerlei Probleme. Ein sauberes Arbeiten. Gut auch der Dark Mode, das spart zusätzlich Akku 🔋. Preis-Leistungs-Verhältnis stimmt auch. Ich habe nichts auszusetzen."
+      },
+      {
+        "name": "Naomi Oen",
+        "score": 5,
+        "text": "위젯이 있어서 다른 앱들과 차별됩니다. 영업 업무를 하는 사람들이 반복적으로 고객에게 답해야 하는 텍스트를 준비할 때에 좋습니다."
+      },
+      {
+        "name": "Вирфи",
+        "score": 5,
+        "text": "Я планирую перейти на клавиатуру, в которой не будет буфера обмена, поэтому это приложение для меня просто спасение. Спасибо!"
       },
       {
         "name": "Joseph Younger",
@@ -68,6 +78,13 @@
         "name": "다비",
         "score": 5,
         "text": "난독증 있어서 종이책도 라인자가 있어야 읽는 사람이라, 이북 읽고 싶은 것도 못 읽고 인터넷 자료 서핑도 힘들었는데 이 어플 덕분에 읽을 수 있게 됐습니다. 월정액이나 1년 플랜 다 저렴하고, 무엇보다 영구 결제가 된다는 게 좋네요. 피드백도 빨리 받아주셔서 감사하고, 오래오래 잘 됐으면 좋겠어서 주변에 추천하고 다닐 생각입니다. 저한테 정말 절실한 어플이었어요. 만들어주셔서 감사합니다."
+      }
+    ],
+    "floatnote": [
+      {
+        "name": "Cristina Escobar",
+        "score": 5,
+        "text": "This app is great! I can move my FloatNote from place to place, so it gets my attention! Thank you!"
       }
     ]
   }
