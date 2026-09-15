@@ -48,7 +48,7 @@
     {
       "id": "device",
       "title": "2. 기기 안에서 처리되는 정보",
-      "html": "<ul><li>앱 사용에 필요한 데이터(클립보드 기록, 메모, 타이머, 설정값 등)는 기기에만 저장되며 회사로 전송되지 않습니다.</li><li>PhotoCleaner+가 사진·PDF에서 개인정보를 찾아 가리는 기능(글자·얼굴·바코드 인식)은 앱에 내장된 Google ML Kit 모델로 기기 안에서 처리합니다. 사진과 문서는 업로드되지 않습니다.</li><li>앱을 삭제하면 기기에 저장된 앱 데이터도 함께 삭제됩니다.</li></ul>"
+      "html": "<ul><li>앱 사용에 필요한 데이터(클립보드 기록, 메모, 타이머, 설정값 등)는 기기에만 저장되며 회사로 전송되지 않습니다.</li><li>PhotoCleaner+(Android)가 사진·PDF에서 개인정보를 찾아 가리는 기능(글자·얼굴·바코드 인식)은 앱에 내장된 Google ML Kit 모델로 기기 안에서 처리합니다. 사진과 문서는 업로드되지 않습니다.</li><li>PhotoCleaner+ for Windows는 Windows에 내장된 글자·얼굴 인식과 앱에 포함된 바코드 판독기로 같은 기능을 PC 안에서 처리합니다. 사진·PDF·붙여넣은 이미지는 업로드되지 않습니다. 저장본은 픽셀에서 새로 인코딩되어 원본의 메타데이터(위치·촬영 시각·기기 정보)가 담기지 않습니다. 연 파일 목록을 남기지 않으며, 공유·인쇄용 임시 파일은 앱을 시작하고 닫을 때 삭제됩니다. 항상 가리도록 입력한 단어는 PC의 앱 설정에만 저장됩니다.</li><li>앱을 삭제하면 기기에 저장된 앱 데이터도 함께 삭제됩니다.</li></ul>"
     },
     {
       "id": "drive",
@@ -58,7 +58,7 @@
     {
       "id": "network",
       "title": "4. 인터넷으로 주고받는 정보",
-      "html": "<p>일부 기능은 인터넷에서 정보를 받아 옵니다. 이 요청에는 이용자를 식별하는 정보가 들어가지 않지만, 여느 인터넷 요청과 마찬가지로 상대 서버에는 기기의 IP 주소가 전달됩니다.</p><ul><li><strong>FloatCalc+ 환율.</strong> 환율을 변환할 때 공개 환율 API(Frankfurter)에서 환율을 받아 옵니다.</li><li><strong>FloatCrypto+ 시세.</strong> 암호화폐 시세와 차트를 공개 API(CoinGecko, Binance)에서 받아 옵니다.</li><li><strong>PhotoCleaner+의 ML Kit.</strong> 이미지 인식은 기기 안에서 이루어지지만, Google ML Kit은 기능 개선과 오류 확인을 위해 기기 정보(제조사·모델·OS 버전), 앱 정보, 성능·오류 지표 같은 진단 정보를 Google로 보낼 수 있습니다. 사진이나 인식된 내용은 포함되지 않습니다.</li><li><strong>Windows 앱의 Microsoft Store.</strong> Windows 앱은 PRO 이용 권한(라이선스)과 구매를 확인하기 위해 Microsoft Store와 통신합니다.</li></ul>"
+      "html": "<p>일부 기능은 인터넷에서 정보를 받아 옵니다. 이 요청에는 이용자를 식별하는 정보가 들어가지 않지만, 여느 인터넷 요청과 마찬가지로 상대 서버에는 기기의 IP 주소가 전달됩니다.</p><ul><li><strong>FloatCalc+ 환율.</strong> 환율을 변환할 때 공개 환율 API(Frankfurter)에서 환율을 받아 옵니다.</li><li><strong>FloatCrypto+ 시세.</strong> 암호화폐 시세와 차트를 공개 API(CoinGecko, Binance)에서 받아 옵니다.</li><li><strong>PhotoCleaner+(Android)의 ML Kit.</strong> 이미지 인식은 기기 안에서 이루어지지만, Google ML Kit은 기능 개선과 오류 확인을 위해 기기 정보(제조사·모델·OS 버전), 앱 정보, 성능·오류 지표 같은 진단 정보를 Google로 보낼 수 있습니다. 사진이나 인식된 내용은 포함되지 않습니다.</li><li><strong>Windows 앱의 Microsoft Store.</strong> Windows 앱은 PRO 이용 권한(라이선스)과 구매를 확인하기 위해 Microsoft Store와 통신합니다.</li></ul>"
     },
     {
       "id": "ads",
@@ -103,7 +103,7 @@
     {
       "id": "history",
       "title": "변경 이력",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> 앱별 정보 처리 현황을 추가하고, Android용 Clipboard+·FloatNote+의 Google Drive 백업·동기화, 광고 동의, 인터넷 연결(환율·시세·ML Kit), 웹사이트 저장소와 문의 메일 안내를 더했습니다. 권한 설명을 실제 앱에 맞게 고치고 구성을 정리했습니다.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 문의 이메일 주소를 변경했습니다.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Windows용 FloatNote+의 클라우드 동기화 안내를 추가했습니다.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Windows용 Clipboard+의 클라우드 동기화 안내를 추가했습니다.</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> 앱별 정보 처리 현황을 추가하고, Android용 Clipboard+·FloatNote+의 Google Drive 백업·동기화, 광고 동의, 인터넷 연결(환율·시세·ML Kit), 웹사이트 저장소와 문의 메일 안내를 더했습니다. 권한 설명을 실제 앱에 맞게 고치고 구성을 정리했습니다. PhotoCleaner+ for Windows 안내를 더했습니다.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 문의 이메일 주소를 변경했습니다.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Windows용 FloatNote+의 클라우드 동기화 안내를 추가했습니다.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Windows용 Clipboard+의 클라우드 동기화 안내를 추가했습니다.</li></ul>"
     }
   ]
 }
