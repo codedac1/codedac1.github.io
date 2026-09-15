@@ -2,7 +2,7 @@
   "lang": "th",
   "ui": {
     "meta.title": "CodeDAC | แอปยูทิลิตีสำหรับทุกวัน",
-    "meta.desc": "CodeDAC พัฒนาและเผยแพร่แอปยูทิลิตีรวม 13 แอป เช่น Clipboard+, AutoStart+ และ FloatCalc+",
+    "meta.desc": "CodeDAC พัฒนาและเผยแพร่แอปยูทิลิตีรวม {n} แอป เช่น Clipboard+, AutoStart+ และ FloatCalc+",
     "nav.about": "เกี่ยวกับเรา",
     "nav.apps": "แอป",
     "nav.work": "ร่วมงานกับเรา",
@@ -35,6 +35,9 @@
     "work.b.badge": "ฟรี",
     "work.b.title": "เสนอไอเดียแอป",
     "work.b.list": "แค่บอกเรา 3 เรื่องนี้",
+    "work.mail.hint": "แอปอีเมลไม่เปิดขึ้นมาใช่ไหม คัดลอกที่อยู่แล้วส่งอีเมลถึงเราโดยตรงได้เลย",
+    "work.mail.copy": "คัดลอก",
+    "work.mail.copied": "คัดลอกแล้ว",
     "services.cta": "เริ่มโปรเจกต์",
     "services.note": "งานพัฒนาแบบมีค่าใช้จ่ายสำหรับผลิตภัณฑ์ของคุณเอง ผลงานที่ได้เป็นของคุณ",
     "services.mail.body": "1. คุณอยากสร้างอะไร\n- \n\n2. แพลตฟอร์ม (Android / iOS / Windows / Web)\n- \n\n3. ระยะเวลาและงบประมาณ (คร่าว ๆ ก็ได้)\n- \n",

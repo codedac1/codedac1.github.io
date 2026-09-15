@@ -2,7 +2,7 @@
   "lang": "fil",
   "ui": {
     "meta.title": "CodeDAC | Mga Utility App para sa Araw-araw",
-    "meta.desc": "Gumagawa at naglalathala ang CodeDAC ng 13 utility app, kasama ang Clipboard+, AutoStart+ at FloatCalc+.",
+    "meta.desc": "Gumagawa at naglalathala ang CodeDAC ng {n} utility app, kasama ang Clipboard+, AutoStart+ at FloatCalc+.",
     "nav.about": "Tungkol",
     "nav.apps": "Mga App",
     "nav.work": "Makipagtulungan",
@@ -35,6 +35,9 @@
     "work.b.badge": "Libre",
     "work.b.title": "Magmungkahi ng ideya para sa app",
     "work.b.list": "Sabihin sa amin ang tatlong bagay na ito",
+    "work.mail.hint": "Hindi nabuksan ang email app? Kopyahin ang address at direktang magpadala sa amin.",
+    "work.mail.copy": "Kopyahin",
+    "work.mail.copied": "Nakopya",
     "services.cta": "Simulan ang isang proyekto",
     "services.note": "May bayad na development para sa iyong sariling produkto — ang aming bubuuin ay sa iyo.",
     "services.mail.body": "1. Ano ang nais mong ipagawa?\n- \n\n2. Platform (Android / iOS / Windows / Web)\n- \n\n3. Timeline at budget (tantiya ay okay)\n- \n",

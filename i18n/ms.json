@@ -2,7 +2,7 @@
   "lang": "ms",
   "ui": {
     "meta.title": "CodeDAC | Aplikasi Utiliti Harian",
-    "meta.desc": "CodeDAC membina dan menerbitkan 13 aplikasi utiliti termasuk Clipboard+, AutoStart+ dan FloatCalc+.",
+    "meta.desc": "CodeDAC membina dan menerbitkan {n} aplikasi utiliti termasuk Clipboard+, AutoStart+ dan FloatCalc+.",
     "nav.about": "Tentang Kami",
     "nav.apps": "Aplikasi",
     "nav.work": "Kerjasama",
@@ -35,6 +35,9 @@
     "work.b.badge": "Percuma",
     "work.b.title": "Cadangkan idea aplikasi",
     "work.b.list": "Hanya beritahu kami tiga perkara",
+    "work.mail.hint": "Aplikasi e-mel tidak terbuka? Salin alamat dan hantar e-mel terus kepada kami.",
+    "work.mail.copy": "Salin",
+    "work.mail.copied": "Disalin",
     "services.cta": "Mulakan projek",
     "services.note": "Pembangunan berbayar untuk produk anda sendiri — hasilnya milik anda.",
     "services.mail.body": "1. Apakah yang anda mahu bina?\n- \n\n2. Platform (Android / iOS / Windows / Web)\n- \n\n3. Tempoh dan bajet (anggaran pun memadai)\n- \n",

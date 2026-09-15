@@ -2,7 +2,7 @@
   "lang": "es",
   "ui": {
     "meta.title": "CodeDAC | Apps de utilidades para el día a día",
-    "meta.desc": "CodeDAC crea y publica 13 apps de utilidades, entre ellas Clipboard+, AutoStart+ y FloatCalc+.",
+    "meta.desc": "CodeDAC crea y publica {n} apps de utilidades, entre ellas Clipboard+, AutoStart+ y FloatCalc+.",
     "nav.about": "Nosotros",
     "nav.apps": "Apps",
     "nav.work": "Crea con nosotros",
@@ -35,6 +35,9 @@
     "work.b.badge": "Gratis",
     "work.b.title": "Propón una idea de app",
     "work.b.list": "Solo cuéntanos tres cosas",
+    "work.mail.hint": "¿No se abrió tu app de correo? Copia la dirección y escríbenos directamente.",
+    "work.mail.copy": "Copiar",
+    "work.mail.copied": "Copiado",
     "services.cta": "Iniciar un proyecto",
     "services.note": "Desarrollo de pago para tu propio producto: lo que construimos es tuyo.",
     "services.mail.body": "1. ¿Qué quieres crear?\n- \n\n2. Plataforma (Android / iOS / Windows / Web)\n- \n\n3. Plazo y presupuesto (aproximado está bien)\n- \n",

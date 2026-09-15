@@ -2,7 +2,7 @@
   "lang": "uk",
   "ui": {
     "meta.title": "CodeDAC | Корисні застосунки на щодень",
-    "meta.desc": "CodeDAC розробляє та публікує 13 корисних застосунків, зокрема Clipboard+, AutoStart+ і FloatCalc+.",
+    "meta.desc": "CodeDAC розробляє та публікує {n} корисних застосунків, зокрема Clipboard+, AutoStart+ і FloatCalc+.",
     "nav.about": "Про нас",
     "nav.apps": "Застосунки",
     "nav.work": "Співпраця",
@@ -35,6 +35,9 @@
     "work.b.badge": "Безкоштовно",
     "work.b.title": "Запропонувати ідею застосунку",
     "work.b.list": "Розкажіть нам лише три речі",
+    "work.mail.hint": "Поштовий застосунок не відкрився? Скопіюйте адресу й напишіть нам напряму.",
+    "work.mail.copy": "Копіювати",
+    "work.mail.copied": "Скопійовано",
     "services.cta": "Розпочати проєкт",
     "services.note": "Платна розробка вашого власного продукту — результат належить вам.",
     "services.mail.body": "1. Що ви хочете створити?\n- \n\n2. Платформа (Android / iOS / Windows / Web)\n- \n\n3. Терміни та бюджет (можна приблизно)\n- \n",

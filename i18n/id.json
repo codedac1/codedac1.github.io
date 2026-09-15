@@ -2,7 +2,7 @@
   "lang": "id",
   "ui": {
     "meta.title": "CodeDAC | Aplikasi Utilitas Sehari-hari",
-    "meta.desc": "CodeDAC membuat dan merilis 13 aplikasi utilitas termasuk Clipboard+, AutoStart+, dan FloatCalc+.",
+    "meta.desc": "CodeDAC membuat dan merilis {n} aplikasi utilitas termasuk Clipboard+, AutoStart+, dan FloatCalc+.",
     "nav.about": "Tentang Kami",
     "nav.apps": "Aplikasi",
     "nav.work": "Kerja sama",
@@ -35,6 +35,9 @@
     "work.b.badge": "Gratis",
     "work.b.title": "Usulkan ide aplikasi",
     "work.b.list": "Cukup ceritakan tiga hal ini",
+    "work.mail.hint": "Aplikasi email tidak terbuka? Salin alamatnya dan kirim email langsung kepada kami.",
+    "work.mail.copy": "Salin",
+    "work.mail.copied": "Tersalin",
     "services.cta": "Mulai proyek",
     "services.note": "Pengembangan berbayar untuk produk Anda sendiri — hasilnya milik Anda.",
     "services.mail.body": "1. Apa yang ingin Anda buat?\n- \n\n2. Platform (Android / iOS / Windows / Web)\n- \n\n3. Jadwal dan anggaran (perkiraan saja cukup)\n- \n",

@@ -2,7 +2,7 @@
   "lang": "vi",
   "ui": {
     "meta.title": "CodeDAC | Ứng dụng tiện ích hằng ngày",
-    "meta.desc": "CodeDAC phát triển và phát hành 13 ứng dụng tiện ích, bao gồm Clipboard+, AutoStart+ và FloatCalc+.",
+    "meta.desc": "CodeDAC phát triển và phát hành {n} ứng dụng tiện ích, bao gồm Clipboard+, AutoStart+ và FloatCalc+.",
     "nav.about": "Giới thiệu",
     "nav.apps": "Ứng dụng",
     "nav.work": "Hợp tác",
@@ -35,6 +35,9 @@
     "work.b.badge": "Miễn phí",
     "work.b.title": "Đề xuất ý tưởng ứng dụng",
     "work.b.list": "Chỉ cần cho chúng tôi biết 3 điều",
+    "work.mail.hint": "Ứng dụng email không mở ra? Hãy sao chép địa chỉ và gửi email trực tiếp cho chúng tôi.",
+    "work.mail.copy": "Sao chép",
+    "work.mail.copied": "Đã sao chép",
     "services.cta": "Bắt đầu dự án",
     "services.note": "Dịch vụ phát triển có trả phí cho sản phẩm của riêng bạn — sản phẩm làm ra thuộc về bạn.",
     "services.mail.body": "1. Bạn muốn làm gì?\n- \n\n2. Nền tảng (Android / iOS / Windows / Web)\n- \n\n3. Thời gian và ngân sách (ước lượng là được)\n- \n",

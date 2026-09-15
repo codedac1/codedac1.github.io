@@ -2,7 +2,7 @@
   "lang": "hi",
   "ui": {
     "meta.title": "CodeDAC | रोज़मर्रा के यूटिलिटी ऐप्स",
-    "meta.desc": "CodeDAC, Clipboard+, AutoStart+ और FloatCalc+ सहित 13 यूटिलिटी ऐप्स बनाता और प्रकाशित करता है।",
+    "meta.desc": "CodeDAC, Clipboard+, AutoStart+ और FloatCalc+ सहित {n} यूटिलिटी ऐप्स बनाता और प्रकाशित करता है।",
     "nav.about": "हमारे बारे में",
     "nav.apps": "ऐप्स",
     "nav.work": "साथ काम करें",
@@ -35,6 +35,9 @@
     "work.b.badge": "मुफ़्त",
     "work.b.title": "ऐप आइडिया सुझाएं",
     "work.b.list": "बस तीन बातें बताइए",
+    "work.mail.hint": "ईमेल ऐप नहीं खुला? पता कॉपी करें और हमें सीधे ईमेल भेजें।",
+    "work.mail.copy": "कॉपी",
+    "work.mail.copied": "कॉपी हो गया",
     "services.cta": "प्रोजेक्ट शुरू करें",
     "services.note": "आपके अपने प्रोडक्ट के लिए सशुल्क डेवलपमेंट — जो हम बनाते हैं, वह आपका होता है।",
     "services.mail.body": "1. आप क्या बनाना चाहते हैं?\n- \n\n2. प्लेटफ़ॉर्म (Android / iOS / Windows / Web)\n- \n\n3. समय-सीमा और बजट (अनुमान काफ़ी है)\n- \n",

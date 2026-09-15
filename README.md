@@ -1,7 +1,7 @@
 # CodeDAC 회사 홈페이지
 
 CodeDAC는 **Clipboard+**, **AutoStart+** 등 스마트폰 유틸리티 앱을 만들고 배포하는 개발사입니다.
-이 저장소는 순수 HTML / CSS / JavaScript로 만든 **21개 언어 지원** 회사 홈페이지로, **GitHub Pages**(사용자 사이트 `codedac1.github.io`) 루트에 그대로 배포됩니다.
+이 저장소는 순수 HTML / CSS / JavaScript로 만든 **21개 언어 지원** 회사 홈페이지로, **GitHub Pages**(저장소 `codedac1.github.io`) 루트에 그대로 배포되고, 커스텀 도메인 **https://codedac.com** (`CNAME`)으로 공개됩니다.
 
 > 지원 언어: English(en, 루트) · 한국어(ko) · 日本語(ja) · Español(es) · Português(pt-BR) · Deutsch(de) · Français(fr) · Bahasa Indonesia(id) · हिन्दी(hi) · Tiếng Việt(vi) · 简体中文(zh) · Русский(ru) · Türkçe(tr) · Italiano(it) · Polski(pl) · ไทย(th) · Filipino(fil) · العربية(ar, RTL) · Nederlands(nl) · Українська(uk) · Bahasa Melayu(ms)
 
@@ -23,7 +23,9 @@ CodeDAC는 **Clipboard+**, **AutoStart+** 등 스마트폰 유틸리티 앱을 �
 ├── js/site.js            # 공용 스크립트 (언어 드롭다운 · 모바일 메뉴 · 라이트박스)
 ├── images/icons/         # 앱 아이콘
 ├── images/shots/         # 앱 스크린샷 (앱당 최대 3장)
-├── images/og-image.png   # 소셜 공유(OG) 이미지 1200x630
+├── images/og-image.png   # 소셜 공유(OG) 이미지 1200x630 — 홈·개인정보처리방침
+├── images/og/<slug>.png  # 앱 상세 공유 이미지 1200x630 — make_og.py 산출물
+├── images/logo-512.png   # 정사각형 CD 로고 (구조화 데이터 Organization.logo)
 ├── i18n/                 # ★ 콘텐츠 원본 (언어별 1파일) — 여기를 편집
 │   ├── en.json  ko.json  ja.json  es.json  pt.json  de.json
 │   ├── fr.json  id.json  hi.json  vi.json  zh.json  ru.json
@@ -38,9 +40,9 @@ CodeDAC는 **Clipboard+**, **AutoStart+** 등 스마트폰 유틸리티 앱을 �
     ├── scan_app_langs.js     # 각 앱 프로젝트의 res/values-* 스캔 → app_langs.json
     ├── reviews.json          # 홈 후기 섹션에 노출할 5★ 리뷰(손수 큐레이션)
     ├── fetch_reviews.js      # Play Store 5★ 리뷰 후보 수집 → _reviews_pool.json(커밋 제외)
-    ├── gen_site.js           # ★ 사이트 생성기 (336개 페이지 + 껍데기 + sitemap 전부 생성)
+    ├── gen_site.js           # ★ 사이트 생성기 (315개 페이지 + 껍데기 + sitemap 전부 생성)
     ├── build_assets.py       # D:\CodeDAC 각 앱의 아이콘·스크린샷 변환·복사
-    └── make_og.py            # OG 공유 이미지 생성 (브랜드 배너 D:\CodeDAC\Data\CodeDAC 배경2_4096.png 를 1200x630 으로 잘라냄)
+    └── make_og.py            # OG 공유 이미지 생성 — 홈용(브랜드 배너 D:\CodeDAC\Data\CodeDAC 배경2_4096.png 에서 잘라냄) + 앱 상세용 images/og/<slug>.png
 ```
 
 `index.html`, `apps/`, `<lang>/`, `en/`, `404.html`, `sitemap.xml` 은 **모두 생성물**입니다. 직접 편집하지 말고 `i18n/*.json` · `scripts/apps_base.json` 을 고친 뒤 생성기를 다시 돌리세요.
@@ -104,7 +106,7 @@ node scripts/gen_site.js     # 21개 언어 × (홈 + 앱상세 13 + 개인정�
 - **`og:locale`** — Open Graph 는 `언어_지역` 형태를 요구하므로 `LANGS` 에 언어마다 명시합니다. 필리핀어는 `fil_PH` 가 목록에 없어 `tl_PH` 를 씁니다.
 - **404** — `404.html` 은 GitHub Pages 가 없는 경로에 404 상태 코드와 함께 돌려주는 페이지입니다. 루트 언어로 쓰고 `noindex` 를 답니다.
 - **구조화 데이터(JSON-LD)** — 홈은 `Organization`, 앱 상세는 `SoftwareApplication` · `BreadcrumbList` · `FAQPage`.
-- **사이트맵 제출** — Google Search Console / 네이버 서치어드바이저에 `https://codedac1.github.io/sitemap.xml` 제출. 사이트맵에 언어 대체 링크가 포함돼 있습니다.
+- **사이트맵 제출** — Google Search Console / 네이버 서치어드바이저에 `https://codedac.com/sitemap.xml` 제출. 사이트맵에 언어 대체 링크가 포함돼 있습니다.
 - 언어 전환은 우측 상단 **드롭다운**(같은 페이지의 다른 언어 URL로 이동).
 
 ## 새 언어 추가하기
@@ -126,8 +128,11 @@ node scripts/gen_site.js     # 21개 언어 × (홈 + 앱상세 13 + 개인정�
 
 `css/style.css` 최상단 `:root` 변수 값만 바꾸면 전체 색상이 일괄 변경됩니다.
 
+웹폰트는 언어별로 다르게 불러옵니다(일본어 JP · 중국어 SC · 태국어/힌디어/아랍어는 KR + 문자 전용 폰트, 나머지는 KR).
+바꿀 때는 `scripts/gen_site.js` 의 `FONT_BY_LANG`(불러올 폰트)과 `css/style.css` 의 `:root[lang] --font-body`(적용 순서)를 함께 고치세요.
+
 ## GitHub Pages 배포
 
-이 저장소는 사용자 사이트(`codedac1.github.io`)라 `main` 브랜치 루트가 곧 `https://codedac1.github.io/` 로 공개됩니다. push 하면 1~2분 뒤 반영됩니다.
+`main` 브랜치 루트가 GitHub Pages 로 배포되고, 저장소 루트의 `CNAME` 에 적힌 커스텀 도메인 `https://codedac.com/` 으로 공개됩니다. push 하면 1~2분 뒤 반영됩니다.
 
-> 커스텀 도메인을 쓰려면 Settings → Pages의 **Custom domain**에 도메인을 입력하고 DNS를 GitHub Pages로 설정하세요.
+> 도메인을 바꿀 때는 `CNAME`, Settings → Pages 의 **Custom domain**, `scripts/gen_site.js` 의 `BASE`(canonical·hreflang·sitemap 주소)를 함께 바꿔야 합니다.

@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '59'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '60'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -55,6 +55,13 @@ function trackLastmod(url, html) {
   LASTMOD_NEXT[url] = { h, d: date };
   LASTMOD_BY_URL[url] = date;
 }
+
+// 조직 구조화 데이터의 sameAs — 사이트 밖의 공식 채널. 채널이 늘면 여기에 추가한다.
+// (Google Play 개발자 ID 는 google-play-scraper 의 developerId 로 확인한 값)
+const SAME_AS = [
+  'https://play.google.com/store/apps/dev?id=7664967150833158704',
+  'https://www.youtube.com/@CodeDAC',
+];
 
 // GA4 측정 ID. 빈 문자열로 두면 모든 페이지에서 분석 스크립트가 빠진다.
 const GA_ID = 'G-RVR49V8M2Z';
@@ -156,10 +163,17 @@ function featuredReviews() {
   return out;
 }
 
-// 앱들이 통틀어 지원하는 언어 수(합집합) → "50+" (10 단위로 내림). 지표 스트립용.
+// 앱들이 통틀어 지원하는 언어 수(합집합). 지표 스트립용.
+// 예전엔 10 단위로 내려 "20+" 로 적었는데, 바로 아래 앱 카드마다 "21개 언어" 가 붙어 있어
+// 숫자가 서로 어긋나 보였고 실제보다 적게 읽혔다. 정확한 수를 그대로 쓴다.
 const APP_LANG_UNION = new Set();
 for (const v of Object.values(APP_LANGS)) (v.codes || []).forEach((c) => APP_LANG_UNION.add(c));
-const APP_LANG_DISPLAY = APP_LANG_UNION.size ? (Math.floor(APP_LANG_UNION.size / 10) * 10) + '+' : null;
+const APP_LANG_DISPLAY = APP_LANG_UNION.size ? String(APP_LANG_UNION.size) : null;
+
+// 출시된 앱 수(스토어 링크가 있는 앱). 지표 스트립과 홈 설명문(meta.desc 의 {n})이 같은 값을 쓴다.
+// 설명문에 숫자를 박아 두면 앱을 추가할 때 21개 언어 파일이 한꺼번에 틀린 수를 말하게 된다.
+const PUBLISHED_APPS = APPS.filter((a) => a.store).length;
+const homeDesc = (ui) => String(ui['meta.desc']).replace('{n}', PUBLISHED_APPS).replace(/<[^>]+>/g, '');
 const L = {};
 for (const lang of LANGS) {
   const p = path.join(ROOT, 'i18n', `${lang.code}.json`);
@@ -237,6 +251,24 @@ ${items}
 // 파비콘 파일은 저장소 루트/images 에 둔다(원본: ReadFocus/Resource/marketing/youtube-profile-cd.png).
 // 헤더·푸터 워드마크 앞의 CD 마크(파비콘과 같은 그림). 글자 로고와 나란히 읽히므로 alt 는 비운다.
 const LOGO_MARK = '<img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" />';
+
+// 언어별 웹폰트. 모든 언어에 Noto Sans KR 하나를 쓰면 일본어·중국어 한자가 한국식 자형으로 그려지고,
+// 태국어·힌디어·아랍어는 KR 에 글자가 없어 시스템 폰트로 대체돼 한 화면 안에서 글꼴이 섞인다.
+// 라틴 글자는 어느 언어에서나 같은 모양이 되도록 KR(또는 같은 계열의 JP·SC)을 앞에 두고,
+// 그 뒤에 문자 전용 폰트를 둔다. 목록 순서는 css/style.css 의 :root[lang] --font-body 와 짝이다.
+// Google Fonts 는 unicode-range 로 잘게 쪼개 주므로 페이지에 실제로 쓰인 글자 조각만 내려받는다.
+const FONT_BY_LANG = {
+  ja: ['Noto Sans JP'],
+  zh: ['Noto Sans SC'],
+  th: ['Noto Sans KR', 'Noto Sans Thai'],
+  hi: ['Noto Sans KR', 'Noto Sans Devanagari'],
+  ar: ['Noto Sans KR', 'Noto Sans Arabic'],
+};
+// style.css 가 쓰는 굵기(400·500·700·800·900). 800 은 예전엔 받지 않아 900 으로 대신 그려졌다.
+const FONT_WEIGHTS = '400;500;700;800;900';
+const fontHref = (code) => 'https://fonts.googleapis.com/css2?'
+  + (FONT_BY_LANG[code] || ['Noto Sans KR']).map((f) => `family=${f.replace(/ /g, '+')}:wght@${FONT_WEIGHTS}`).join('&')
+  + '&display=swap';
 
 const FAVICON_LINKS = `<link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
@@ -350,7 +382,7 @@ ${hreflangLinks(kind, slug, langSet)}
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link href="${escAttr(fontHref(lang.code))}" rel="stylesheet" />
   ${FAVICON_LINKS}
   <link rel="stylesheet" href="/css/style.css?v=${V}" />`;
 }
@@ -400,7 +432,7 @@ function footer(code, ui) {
 // 상세 페이지에 '출시 준비 중' 배지를 달고 목록에는 나오지만, 아직 출시된 앱이 아니다.
 function statStrip(ui) {
   const items = [
-    { num: String(APPS.filter((a) => a.store).length), label: ui['stats.apps'] },
+    { num: String(PUBLISHED_APPS), label: ui['stats.apps'] },
     DL_DISPLAY ? { num: DL_DISPLAY, label: ui['stats.downloads'] } : null,
     { num: APP_LANG_DISPLAY || String(ACTIVE.length), label: ui['stats.languages'] },
   ].filter(Boolean);
@@ -666,6 +698,11 @@ ${hints}
           <a href="${escAttr(ideaMail)}" class="btn btn-primary work-btn">${escText(ui['ideas.cta'])}${icon('arrow', 'ic ic-flip')}</a>
         </article>
       </div>
+      <!-- 두 버튼은 mailto: 라, 메일 앱이 설정돼 있지 않은 PC·웹메일 사용자에게는 눌러도 아무 일이 없다.
+           그 사람들이 그대로 떠나지 않도록 주소를 한 번에 복사할 수 있게 둔다(js/site.js). -->
+      <p class="work-mail">${escText(ui['work.mail.hint'])}
+        <button type="button" class="copy-mail" data-copy="${EMAIL}" data-copied="${escAttr(ui['work.mail.copied'])}"><span class="cm-addr" dir="ltr">${EMAIL}</span><span class="cm-label" aria-live="polite">${escText(ui['work.mail.copy'])}</span></button>
+      </p>
     </div>
   </section>
 `;
@@ -733,9 +770,12 @@ ${groups.flatMap((g) => g.list).map(cardHtml).join('\n')}
   const orgLd = {
     '@context': 'https://schema.org', '@type': 'Organization',
     name: 'CodeDAC', alternateName: '코드댁', url: `${BASE}/`,
-    logo: `${BASE}/images/og-image.png`, image: `${BASE}/images/og-image.png`,
+    // 로고는 정사각형이어야 한다 — 가로 배너(og-image)를 넣으면 검색 결과의 로고 자리에서 잘린다.
+    logo: `${BASE}/images/logo-512.png`, image: `${BASE}/images/og-image.png`,
+    // 같은 회사의 공식 채널. 검색엔진이 사이트와 스토어 개발자 페이지를 한 조직으로 묶는다.
+    sameAs: SAME_AS,
     email: EMAIL, slogan: 'Code-based Development And Consulting',
-    description: String(ui['meta.desc']).replace(/<[^>]+>/g, ''),
+    description: homeDesc(ui),
     contactPoint: { '@type': 'ContactPoint', email: EMAIL, contactType: 'customer support' },
   };
 
@@ -743,7 +783,7 @@ ${groups.flatMap((g) => g.list).map(cardHtml).join('\n')}
   return `<!DOCTYPE html>
 <html lang="${lang.htmlLang}"${lang.dir ? ` dir="${lang.dir}"` : ''}>
 <head>
-${headCommon(lang, { title: ui['meta.title'], desc: String(ui['meta.desc']).replace(/<[^>]+>/g, ''), canonical, ogImage: `${BASE}/images/og-image.png`, kind: 'home' })}
+${headCommon(lang, { title: ui['meta.title'], desc: homeDesc(ui), canonical, ogImage: `${BASE}/images/og-image.png`, kind: 'home' })}
   <script type="application/ld+json">
 ${JSON.stringify(orgLd, null, 2)}
   </script>
@@ -799,6 +839,11 @@ ${bannerData(code, 'home', null, ACTIVE)}  <script src="/js/site.js?v=${V}"></sc
 </html>
 `;
 }
+
+// 앱 상세 공유 이미지. scripts/make_og.py 가 만든 가로형(1200x630) 카드가 있으면 그것을 쓴다.
+// 없으면 첫 스크린샷으로 돌아가는데, 세로 이미지라 가로 미리보기 카드에서 가운데만 잘린다.
+const detailOgImage = (app, fallback) =>
+  (fs.existsSync(path.join(ROOT, 'images', 'og', `${app.slug}.png`)) ? `${BASE}/images/og/${app.slug}.png` : fallback);
 
 // ---------- 앱 상세 페이지 ----------
 function buildDetail(lang, app) {
@@ -884,7 +929,7 @@ ${Array.from({ length: app.shots }, (_, i) =>
   return `<!DOCTYPE html>
 <html lang="${lang.htmlLang}"${lang.dir ? ` dir="${lang.dir}"` : ''}>
 <head>
-${headCommon(lang, { title, desc: metaDesc, canonical, ogImage: shotAbs[0] || iconAbs, kind: 'detail', slug: app.slug })}
+${headCommon(lang, { title, desc: metaDesc, canonical, ogImage: detailOgImage(app, shotAbs[0] || iconAbs), kind: 'detail', slug: app.slug })}
   <script type="application/ld+json">
 ${JSON.stringify(ldApp, null, 2)}
   </script>

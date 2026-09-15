@@ -2,7 +2,7 @@
   "lang": "tr",
   "ui": {
     "meta.title": "CodeDAC | Her Güne Yardımcı Uygulamalar",
-    "meta.desc": "CodeDAC; Clipboard+, AutoStart+ ve FloatCalc+ dahil 13 yardımcı uygulama geliştirir ve yayınlar.",
+    "meta.desc": "CodeDAC; Clipboard+, AutoStart+ ve FloatCalc+ dahil {n} yardımcı uygulama geliştirir ve yayınlar.",
     "nav.about": "Hakkımızda",
     "nav.apps": "Uygulamalar",
     "nav.work": "İş birliği",
@@ -35,6 +35,9 @@
     "work.b.badge": "Ücretsiz",
     "work.b.title": "Uygulama fikri önerin",
     "work.b.list": "Bize yalnızca üç şey anlatın",
+    "work.mail.hint": "E-posta uygulaması açılmadı mı? Adresi kopyalayıp bize doğrudan yazın.",
+    "work.mail.copy": "Kopyala",
+    "work.mail.copied": "Kopyalandı",
     "services.cta": "Bir proje başlatın",
     "services.note": "Kendi ürününüz için ücretli geliştirme; ortaya çıkan ürün sizindir.",
     "services.mail.body": "1. Ne geliştirmek istiyorsunuz?\n- \n\n2. Platform (Android / iOS / Windows / Web)\n- \n\n3. Takvim ve bütçe (yaklaşık olması yeterli)\n- \n",

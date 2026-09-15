@@ -2,7 +2,7 @@
   "lang": "ko",
   "ui": {
     "meta.title": "CodeDAC | 매일 쓰는 유틸리티 앱",
-    "meta.desc": "CodeDAC는 Clipboard+, AutoStart+, FloatCalc+ 등 13종의 유틸리티 앱을 만들고 배포합니다.",
+    "meta.desc": "CodeDAC는 Clipboard+, AutoStart+, FloatCalc+ 등 {n}종의 유틸리티 앱을 만들고 배포합니다.",
     "nav.about": "회사 소개",
     "nav.apps": "앱 소개",
     "nav.work": "함께 만들기",
@@ -35,6 +35,9 @@
     "work.b.badge": "무료",
     "work.b.title": "앱 아이디어 제보",
     "work.b.list": "이 세 가지만 알려주세요",
+    "work.mail.hint": "메일 앱이 열리지 않나요? 주소를 복사해 직접 보내 주세요.",
+    "work.mail.copy": "복사",
+    "work.mail.copied": "복사됨",
     "services.cta": "프로젝트 문의하기",
     "services.note": "고객님의 제품을 만드는 유료 개발이며, 결과물은 고객님 소유입니다.",
     "services.mail.body": "1. 무엇을 만들고 싶으신가요?\n- \n\n2. 플랫폼 (Android / iOS / Windows / 웹)\n- \n\n3. 희망 일정과 예산 (대략적이어도 괜찮습니다)\n- \n",

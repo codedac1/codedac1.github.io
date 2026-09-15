@@ -2,7 +2,7 @@
   "lang": "nl",
   "ui": {
     "meta.title": "CodeDAC | Handige apps voor elke dag",
-    "meta.desc": "CodeDAC ontwikkelt en publiceert 13 handige apps, waaronder Clipboard+, AutoStart+ en FloatCalc+.",
+    "meta.desc": "CodeDAC ontwikkelt en publiceert {n} handige apps, waaronder Clipboard+, AutoStart+ en FloatCalc+.",
     "nav.about": "Over ons",
     "nav.apps": "Apps",
     "nav.work": "Samenwerken",
@@ -35,6 +35,9 @@
     "work.b.badge": "Gratis",
     "work.b.title": "App-idee insturen",
     "work.b.list": "Vertel ons alleen drie dingen",
+    "work.mail.hint": "Ging je e-mailapp niet open? Kopieer het adres en stuur ons zelf een e-mail.",
+    "work.mail.copy": "Kopiëren",
+    "work.mail.copied": "Gekopieerd",
     "services.cta": "Project starten",
     "services.note": "Betaalde ontwikkeling voor je eigen product: wat we bouwen is van jou.",
     "services.mail.body": "1. Wat wil je laten bouwen?\n- \n\n2. Platform (Android / iOS / Windows / Web)\n- \n\n3. Planning en budget (een schatting is prima)\n- \n",

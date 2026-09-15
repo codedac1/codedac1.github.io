@@ -157,6 +157,43 @@
   if (y) y.textContent = new Date().getFullYear();
 })();
 
+// ===== 이메일 주소 복사 =====
+//  의뢰·제보 버튼은 mailto: 라 메일 앱이 없는 환경에서는 아무 일도 일어나지 않는다.
+//  주소를 복사해 웹메일에 붙여 넣을 수 있게 한다. navigator.clipboard 는 https·localhost 에서만
+//  있으므로, 없거나 거부되면 숨긴 textarea + execCommand 로 한 번 더 시도한다.
+(function () {
+  const buttons = document.querySelectorAll('.copy-mail');
+  if (!buttons.length) return;
+  const legacyCopy = (text) => {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) { /* 미지원 */ }
+    ta.remove();
+    return ok;
+  };
+  buttons.forEach((btn) => {
+    const label = btn.querySelector('.cm-label');
+    const original = label ? label.textContent : '';
+    let timer = 0;
+    btn.addEventListener('click', async () => {
+      const text = btn.getAttribute('data-copy') || '';
+      let ok = false;
+      try { await navigator.clipboard.writeText(text); ok = true; } catch (e) { ok = legacyCopy(text); }
+      if (!ok || !label) return;
+      label.textContent = btn.getAttribute('data-copied') || original;
+      btn.classList.add('is-copied');
+      clearTimeout(timer);
+      timer = setTimeout(() => { label.textContent = original; btn.classList.remove('is-copied'); }, 1800);
+    });
+  });
+})();
+
 // ===== 다크 모드 토글 (초기 테마는 <head> 인라인 스크립트가 설정) =====
 (function () {
   const btn = document.getElementById('themeToggle');

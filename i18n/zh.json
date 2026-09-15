@@ -2,7 +2,7 @@
   "lang": "zh",
   "ui": {
     "meta.title": "CodeDAC | 每天都用得上的实用工具应用",
-    "meta.desc": "CodeDAC 开发并发布 13 款实用工具应用，包括 Clipboard+、AutoStart+ 和 FloatCalc+。",
+    "meta.desc": "CodeDAC 开发并发布 {n} 款实用工具应用，包括 Clipboard+、AutoStart+ 和 FloatCalc+。",
     "nav.about": "关于我们",
     "nav.apps": "应用",
     "nav.work": "合作",
@@ -35,6 +35,9 @@
     "work.b.badge": "免费",
     "work.b.title": "提交应用点子",
     "work.b.list": "只需告诉我们三件事",
+    "work.mail.hint": "邮件应用没有打开？复制地址，直接给我们发邮件吧。",
+    "work.mail.copy": "复制",
+    "work.mail.copied": "已复制",
     "services.cta": "启动项目",
     "services.note": "这是为你自己的产品提供的付费开发服务，成果归你所有。",
     "services.mail.body": "1. 你想做什么？\n- \n\n2. 平台（Android / iOS / Windows / Web）\n- \n\n3. 期望的时间和预算（大概即可）\n- \n",

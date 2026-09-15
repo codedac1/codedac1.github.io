@@ -2,7 +2,7 @@
   "lang": "ja",
   "ui": {
     "meta.title": "CodeDAC | 毎日使うユーティリティアプリ",
-    "meta.desc": "CodeDACは、Clipboard+、AutoStart+、FloatCalc+ など13本のユーティリティアプリを開発・配信しています。",
+    "meta.desc": "CodeDACは、Clipboard+、AutoStart+、FloatCalc+ など{n}本のユーティリティアプリを開発・配信しています。",
     "nav.about": "会社概要",
     "nav.apps": "アプリ",
     "nav.work": "一緒につくる",
@@ -35,6 +35,9 @@
     "work.b.badge": "無償",
     "work.b.title": "アプリのアイデアを提案",
     "work.b.list": "この3つだけ教えてください",
+    "work.mail.hint": "メールアプリが開きませんか？アドレスをコピーして、直接お送りください。",
+    "work.mail.copy": "コピー",
+    "work.mail.copied": "コピーしました",
     "services.cta": "プロジェクトを相談する",
     "services.note": "お客様の製品を開発する有償サービスで、成果物はお客様のものになります。",
     "services.mail.body": "1. 何を作りたいですか？\n- \n\n2. プラットフォーム（Android / iOS / Windows / Web）\n- \n\n3. 希望の時期と予算（おおよそで構いません）\n- \n",
