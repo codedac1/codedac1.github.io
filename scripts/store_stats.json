@@ -5,7 +5,7 @@
     "country": "us"
   },
   "aggregate": {
-    "publishedApps": 13,
+    "publishedApps": 14,
     "totalMinInstalls": 18610,
     "totalRatings": 249,
     "avgScore": 3.85,
@@ -115,6 +115,14 @@
     "floattimerwin": {
       "store": "msstore",
       "appId": "9P3CTX3SXTGW",
+      "score": null,
+      "ratings": 0,
+      "installs": null,
+      "minInstalls": 0
+    },
+    "photocleanerwin": {
+      "store": "msstore",
+      "appId": "9P22XH3N66VM",
       "score": null,
       "ratings": 0,
       "installs": null,
