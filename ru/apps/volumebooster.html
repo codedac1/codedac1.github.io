@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 7.0+",
   "screenshot": [
     "https://codedac.com/images/shots/volumebooster-1.jpg",
     "https://codedac.com/images/shots/volumebooster-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/ru/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/ru/">Главная</a>
-      <span class="sep">/</span>
-      <a href="/ru/#apps">Приложения</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>VolumeBooster+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/volumebooster.png?v=60" alt="VolumeBooster+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Аудио</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span>
-        <h1><bdi>VolumeBooster+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Громче в любом приложении — до +15 дБ, в реальных децибелах с безопасными зонами.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dru" class="btn btn-primary" target="_blank" rel="noopener">Открыть в Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Связаться с нами</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ru/">Главная</a>
+        <span class="sep">/</span>
+        <a href="/ru/#apps">Приложения</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>VolumeBooster+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Аудио</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span>
+              <h1><bdi>VolumeBooster+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Громче в любом приложении — до +15 дБ, в реальных децибелах с безопасными зонами.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 7.0+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dru" class="btn btn-primary" target="_blank" rel="noopener">Открыть в Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BVolumeBooster%2B%5D%20%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0%20%D0%B8%20%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8&amp;body=1.%20%D0%A7%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%BE%D1%88%D0%BB%D0%BE%3F%20(%D0%A8%D0%B0%D0%B3%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%B2%D0%BE%D1%81%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%D1%87%D0%B5%D0%BD%D1%8C%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D1%83%D1%82)%0A-%20%0A%0A2.%20%D0%A3%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%20%D0%9E%D0%A1%0A-%20%0A%0A3.%20%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%0A-%20%0A" class="btn btn-glass">Поддержка и ошибки</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=61" alt="VolumeBooster+ Скриншоты 1" data-idx="0" />
+          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=61" alt="VolumeBooster+ Скриншоты 2" data-idx="1" />
+          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=61" alt="VolumeBooster+ Скриншоты 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -227,66 +241,94 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Обзор</h2>
-      <p class="detail-long">Телефон звучит слишком тихо? VolumeBooster+ поднимает весь системный вывод, а не одно приложение: тихие динамики, слабые наушники, плохо слышные видео, звонки, музыка и игры наконец звучат чётко. Усиление показывается в децибелах, до +15 дБ, с зонами «Безопасно / Внимание / Опасно» на основе рекомендаций ВОЗ, поэтому вы всегда видите, насколько подняли громкость. Бесплатно доступно +10 дБ, с Pro или Free Pass открывается полный диапазон. Максимайзер громкости, 5-полосный эквалайзер с девятью бесплатными пресетами, усилитель басов, 3D-виртуализатор и коррекция AutoEQ по 2456 измеренным профилям наушников — всё в одном приложении.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Ключевые возможности</h2>
-      <ul class="feature-list">
-        <li>Усиление во всей системе до +15 дБ с отметками «Безопасно / Внимание / Опасно» — бесплатно +10 дБ, полный диапазон с Pro или Free Pass</li>
-        <li>Максимайзер громкости с многополосной компрессией, компенсирующим усилением и постоянно активным пиковым лимитером: действительно громче, без искажений</li>
-        <li>5-полосный эквалайзер с 9 пресетами, все бесплатны: Flat, Pop, Rock, Vocal, Classical, EDM, Movie, Gaming и Night Mode</li>
-        <li>Усилитель басов, 3D-виртуализатор и AutoEQ: 2456 измеренных профилей наушников от 357 брендов, основные бренды (Apple, Samsung, Sony, Bose, JBL, Beats) бесплатно</li>
-        <li>Плавающая панель бесплатно для всех, а также статистика защиты слуха (Pro), таймер сна с затуханием, баланс каналов Л/П, плитка быстрых настроек, виджет и управление из уведомления</li>
-        <li>Free Pass: один короткий ролик даёт 24 часа Max Boost или AutoEQ; в остальное время бесплатное усиление работает 60 минут в день и сбрасывается в полночь</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Усиление во всей системе до +15 дБ с отметками «Безопасно / Внимание / Опасно» — бесплатно +10 дБ, полный диапазон с Pro или Free Pass</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Максимайзер громкости с многополосной компрессией, компенсирующим усилением и постоянно активным пиковым лимитером: действительно громче, без искажений</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>5-полосный эквалайзер с 9 пресетами, все бесплатны: Flat, Pop, Rock, Vocal, Classical, EDM, Movie, Gaming и Night Mode</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Усилитель басов, 3D-виртуализатор и AutoEQ: 2456 измеренных профилей наушников от 357 брендов, основные бренды (Apple, Samsung, Sony, Bose, JBL, Beats) бесплатно</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Плавающая панель бесплатно для всех, а также статистика защиты слуха (Pro), таймер сна с затуханием, баланс каналов Л/П, плитка быстрых настроек, виджет и управление из уведомления</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Free Pass: один короткий ролик даёт 24 часа Max Boost или AutoEQ; в остальное время бесплатное усиление работает 60 минут в день и сбрасывается в полночь</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Скриншоты</h2>
-      <p class="section-lead" style="margin-bottom:22px">Нажмите на скриншот, чтобы увеличить его.</p>
+      <p class="detail-lead">Нажмите на скриншот, чтобы увеличить его.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/volumebooster-1.jpg?v=60" alt="VolumeBooster+ Скриншоты 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/volumebooster-2.jpg?v=60" alt="VolumeBooster+ Скриншоты 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/volumebooster-3.jpg?v=60" alt="VolumeBooster+ Скриншоты 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/volumebooster-4.jpg?v=60" alt="VolumeBooster+ Скриншоты 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/volumebooster-5.jpg?v=60" alt="VolumeBooster+ Скриншоты 5" loading="lazy" data-idx="4" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Частые вопросы</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Телефон действительно станет громче?</p><p class="faq-a">Да. Максимайзер громкости использует многополосную компрессию и компенсирующее усиление, чтобы реально повысить воспринимаемую громкость, и поднимает весь системный вывод, а не одно приложение — музыку, видео, YouTube, игры и звонки. Бесплатно доступно до +10 дБ, с Pro или Free Pass — полный диапазон +15 дБ.</p></div>
-        <div class="faq-item"><p class="faq-q">Приложение действительно бесплатное или нужна подписка?</p><p class="faq-a">Бесплатно доступны до +10 дБ, все 9 пресетов, 5-полосный эквалайзер, плавающая панель и AutoEQ для основных брендов — Apple, Samsung, Sony, Bose, JBL, Beats; бесплатное усиление ограничено 60 минутами в день и сбрасывается в полночь. Free Pass за один короткий ролик даёт 24 часа Max Boost (полный диапазон +15 дБ без дневного лимита) или AutoEQ (весь каталог наушников) — без карты и без пробного периода, который нужно отменять. Pro открывает полный диапазон, неограниченное время, все профили AutoEQ и панель защиты слуха и убирает рекламу: помесячно, на год или разовая покупка навсегда.</p></div>
-        <div class="faq-item"><p class="faq-q">Показанные децибелы — это точное измерение?</p><p class="faq-a">Это оценка. Усиление показывается в реальных децибелах с зонами ВОЗ «Безопасно», «Внимание» и «Опасно», но значение рассчитывается из системной громкости и применённого усиления, а реальная громкость зависит от устройства, наушников и контента. Приложение не является медицинским изделием: при боли в ушах или звоне уменьшите громкость и обратитесь к специалисту.</p></div>
-      </div>
+          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=61" alt="VolumeBooster+ Скриншоты 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=61" alt="VolumeBooster+ Скриншоты 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=61" alt="VolumeBooster+ Скриншоты 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/volumebooster-4.jpg?v=61" alt="VolumeBooster+ Скриншоты 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/volumebooster-5.jpg?v=61" alt="VolumeBooster+ Скриншоты 5" loading="lazy" data-idx="4" />
+        </div>
     </div>
   </section>
 
-  <section class="detail-section" id="reviews">
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Обзор</h2>
+      <div class="detail-long">
+          <p>Телефон звучит слишком тихо? VolumeBooster+ поднимает весь системный вывод, а не одно приложение: тихие динамики, слабые наушники, плохо слышные видео, звонки, музыка и игры наконец звучат чётко. Усиление показывается в децибелах, до +15 дБ, с зонами «Безопасно / Внимание / Опасно» на основе рекомендаций ВОЗ, поэтому вы всегда видите, насколько подняли громкость.</p>
+          <p>Бесплатно доступно +10 дБ, с Pro или Free Pass открывается полный диапазон. Максимайзер громкости, 5-полосный эквалайзер с девятью бесплатными пресетами, усилитель басов, 3D-виртуализатор и коррекция AutoEQ по 2456 измеренным профилям наушников — всё в одном приложении.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt" id="reviews">
     <div class="container">
       <h2 class="detail-title">Отзывы пользователей</h2>
-      <p class="section-lead" style="margin-bottom:22px">Настоящие отзывы, оставленные в Google Play.</p>
+      <p class="detail-lead">Настоящие отзывы, оставленные в Google Play.</p>
       <div class="reviews-grid">
         <figure class="review-card">
           <div class="review-stars" aria-label="5 / 5">★★★★★</div>
           <blockquote class="review-text">WOW! what a difference! I am trying free version &amp; 3 decibel boost helps immensely already! I've been playing podcasts on tablet using an external speaker. With this app I can hear very clearly just from the tablet. It even has different settings for various types of sound like music, podcast, etc like an equalizer. Already using Clipboard+ from the same developer &amp; it is an awesome app! Highly recommend it!</blockquote>
           <figcaption class="review-meta"><span class="review-name">Liz W</span><span class="review-app">Google Play</span></figcaption>
         </figure>
-      </div>
+        </div>
     </div>
   </section>
 
-  <div class="detail-cta">
-    <a href="/ru/#apps" class="btn btn-primary">Смотреть другие приложения</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Частые вопросы</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Телефон действительно станет громче?</p><p class="faq-a">Да. Максимайзер громкости использует многополосную компрессию и компенсирующее усиление, чтобы реально повысить воспринимаемую громкость, и поднимает весь системный вывод, а не одно приложение — музыку, видео, YouTube, игры и звонки. Бесплатно доступно до +10 дБ, с Pro или Free Pass — полный диапазон +15 дБ.</p></div>
+          <div class="faq-item"><p class="faq-q">Приложение действительно бесплатное или нужна подписка?</p><p class="faq-a">Бесплатно доступны до +10 дБ, все 9 пресетов, 5-полосный эквалайзер, плавающая панель и AutoEQ для основных брендов — Apple, Samsung, Sony, Bose, JBL, Beats; бесплатное усиление ограничено 60 минутами в день и сбрасывается в полночь. Free Pass за один короткий ролик даёт 24 часа Max Boost (полный диапазон +15 дБ без дневного лимита) или AutoEQ (весь каталог наушников) — без карты и без пробного периода, который нужно отменять. Pro открывает полный диапазон, неограниченное время, все профили AutoEQ и панель защиты слуха и убирает рекламу: помесячно, на год или разовая покупка навсегда.</p></div>
+          <div class="faq-item"><p class="faq-q">Показанные децибелы — это точное измерение?</p><p class="faq-a">Это оценка. Усиление показывается в реальных децибелах с зонами ВОЗ «Безопасно», «Внимание» и «Опасно», но значение рассчитывается из системной громкости и применённого усиления, а реальная громкость зависит от устройства, наушников и контента. Приложение не является медицинским изделием: при боли в ушах или звоне уменьшите громкость и обратитесь к специалисту.</p></div>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Смотреть другие приложения</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/ru/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">Скрывайте личные данные на фото и в PDF полностью на устройстве.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ru/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">Помощник чтения при дислексии и СДВГ с подсветкой строки и маской.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ru/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">Стикеры-заметки поверх любых приложений. Сверните в чип, разверните в карточку — с цветами и форматированием.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ru/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">История буфера обмена: текст и картинки. Поиск, вставка и синхронизация с ПК.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -302,6 +344,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/volumebooster.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>VolumeBooster+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dru" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -309,6 +357,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"ru","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/volumebooster.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/volumebooster.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/volumebooster.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/volumebooster.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/volumebooster.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/volumebooster.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/volumebooster.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/volumebooster.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/volumebooster.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/volumebooster.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/volumebooster.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/volumebooster.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/volumebooster.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/volumebooster.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/volumebooster.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/volumebooster.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/volumebooster.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/volumebooster.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/volumebooster.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/volumebooster.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/volumebooster.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

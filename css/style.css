@@ -543,37 +543,131 @@ img { max-width: 100%; }
 .app-links { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin-top: auto; }
 .app-links .app-link, .app-links .app-more { margin-top: 16px; }
 
-/* ===== 앱 상세 페이지 ===== */
-.breadcrumb { font-size: 13px; color: var(--muted); padding-top: 22px; }
-.breadcrumb a:hover { color: var(--brand); }
-.breadcrumb .sep { color: var(--line); margin: 0 8px; }
-.breadcrumb .current { color: var(--body); }
+/* ===== 앱 상세 페이지 =====
+   상단은 홈 배너와 같은 브랜드 그라디언트 띠다. 왼쪽에 앱 정보, 오른쪽에 대표 스크린샷을 둬
+   들어오자마자 '무엇을 하는 앱인지'가 보이게 한다. 띠는 테마와 무관하게 늘 어두워 색은 고정값이다. */
+.app-hero-d {
+  position: relative; isolation: isolate; overflow: hidden; color: #fff;
+  background: linear-gradient(135deg, #3e4e76 0%, #2f3b59 42%, #33566a 74%, #4db6ac 120%);
+  padding: 22px 0 60px;
+}
+.breadcrumb { font-size: 13px; color: rgba(255, 255, 255, .6); }
+.breadcrumb a:hover { color: #fff; }
+.breadcrumb .sep { color: rgba(255, 255, 255, .3); margin: 0 8px; }
+.breadcrumb .current { color: rgba(255, 255, 255, .88); }
 
-.app-hero-d { padding: 30px 0 14px; }
-.app-hero-inner { display: flex; gap: 28px; align-items: center; flex-wrap: wrap; }
+.app-hero-inner {
+  display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
+  gap: 48px; align-items: center; margin-top: 36px;
+}
+.app-hero-id { display: flex; align-items: center; gap: 20px; }
+.app-hero-name { min-width: 0; }
 .app-icon-lg {
   width: 96px; height: 96px; flex: 0 0 96px;
   border-radius: 24px; object-fit: cover;
-  box-shadow: 0 12px 30px rgba(20, 30, 60, .2);
+  box-shadow: 0 14px 34px rgba(8, 12, 26, .35);
 }
-.app-hero-text { flex: 1; min-width: 260px; }
-.app-hero-text h1 { font-size: clamp(26px, 4.4vw, 40px); font-weight: 900; letter-spacing: -.03em; margin-bottom: 12px; }
+.app-hero-d h1 { color: #fff; font-size: clamp(30px, 4.4vw, 46px); font-weight: 900; letter-spacing: -.03em; margin-top: 6px; }
+.app-hero-d .app-tag { background: rgba(77, 182, 172, .22); color: #9ee6dc; }
+.app-hero-d .app-langs { color: rgba(255, 255, 255, .72); }
 /* h2 지만 제목처럼 보이지 않아야 한다. 브라우저 기본 굵기와 h1,h2 의 자간을 되돌린다. */
-.app-tagline { color: var(--body); font-size: 18px; font-weight: 400; letter-spacing: normal; margin-top: 12px; max-width: 640px; }
-.app-hero-actions { margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap; }
-.app-platform-note { color: var(--muted); font-size: 14px; margin-top: 14px; }
+.app-tagline {
+  color: rgba(255, 255, 255, .84); font-size: clamp(17px, 1.9vw, 20px); font-weight: 400;
+  letter-spacing: normal; line-height: 1.6; margin-top: 22px; max-width: 560px;
+}
+.app-facts { list-style: none; margin: 20px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.app-facts li {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 5px 13px; border-radius: 999px;
+  background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .16);
+  color: rgba(255, 255, 255, .9); font-size: 13px; font-weight: 700;
+}
+.app-facts .pl-logo { width: 15px; height: 15px; flex: 0 0 auto; }
+.fact-android .pl-logo { color: #3ddc84; }
+.fact-windows .pl-logo { color: #4cc2ff; }
+.app-hero-actions { margin-top: 28px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.app-platform-note { color: rgba(255, 255, 255, .7); font-size: 14px; }
 
-.detail-section { padding: 48px 0; border-top: 1px solid var(--line); }
-.detail-title { font-size: 22px; font-weight: 900; margin-bottom: 22px; letter-spacing: -.02em; }
-.detail-long { font-size: 17px; color: var(--body); max-width: 780px; }
+/* 대표 스크린샷. 겹침 방향이 뒤집히지 않도록 RTL 에서도 이 묶음만은 왼쪽→오른쪽으로 둔다. */
+.app-hero-shots { position: relative; direction: ltr; }
+.app-hero-shots .shot {
+  display: block; cursor: zoom-in; background: #1e2a47;
+  border-radius: 18px; border: 1px solid rgba(255, 255, 255, .10);
+  box-shadow: 0 24px 50px rgba(8, 12, 26, .45);
+}
+.app-hero-shots-android { display: flex; justify-content: center; align-items: center; padding: 10px 0; }
+.app-hero-shots-android .shot { width: 33%; max-width: 210px; aspect-ratio: 506 / 900; object-fit: cover; }
+.app-hero-shots-android .shot:nth-child(1) { transform: translateX(24%) rotate(-7deg) scale(.9); }
+.app-hero-shots-android .shot:nth-child(2) { position: relative; z-index: 2; }
+.app-hero-shots-android .shot:nth-child(3) { transform: translateX(-24%) rotate(7deg) scale(.9); }
+.app-hero-shots-windows { aspect-ratio: 16 / 10.5; }
+.app-hero-shots-windows .shot { position: absolute; width: 84%; aspect-ratio: 16 / 9; object-fit: cover; }
+.app-hero-shots-windows .shot:nth-child(1) { left: 0; bottom: 3%; z-index: 2; }
+.app-hero-shots-windows .shot:nth-child(2) { right: 0; top: 3%; opacity: .92; }
 
-.feature-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 14px 30px; }
-.feature-list li { position: relative; padding-inline-start: 32px; color: var(--body); font-size: 15.5px; }
-.feature-list li::before {
-  content: '✓'; position: absolute; inset-inline-start: 0; top: 1px;
-  width: 20px; height: 20px; display: grid; place-items: center;
-  background: var(--accent-tint); color: var(--accent-dark);
-  border-radius: 6px; font-size: 12px; font-weight: 900;
+/* 본문 섹션: 구분선 대신 흰색·옅은 회색 바탕을 번갈아 둔다(gen_site.js 가 순번으로 .is-alt 를 붙인다). */
+.detail-section { padding: 64px 0; }
+.detail-section.is-alt { background: var(--bg-alt); }
+.detail-title { font-size: clamp(22px, 2.6vw, 26px); font-weight: 900; margin-bottom: 22px; letter-spacing: -.02em; }
+.detail-lead { color: var(--muted); font-size: 15.5px; margin: -12px 0 22px; }
+.detail-long { font-size: 17px; line-height: 1.85; color: var(--body); max-width: 780px; }
+.detail-long p + p { margin-top: 1em; }
+
+/* 주요 기능 카드 */
+.feature-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.feature-grid li {
+  display: flex; gap: 14px; align-items: flex-start;
+  padding: 20px; border-radius: var(--radius);
+  background: var(--bg); border: 1px solid var(--line); box-shadow: var(--shadow-sm);
+  color: var(--body); font-size: 15.5px; line-height: 1.65;
+}
+.fg-icon {
+  display: grid; place-items: center; flex: 0 0 34px; width: 34px; height: 34px;
+  border-radius: 10px; background: var(--accent-tint); color: var(--link-teal-h);
+}
+.fg-icon .ic { width: 18px; height: 18px; stroke-width: 2.4; }
+
+/* 다른 앱 카드 */
+.related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr)); gap: 14px; }
+.related-card {
+  display: flex; align-items: center; gap: 14px;
+  padding: 16px 18px; border-radius: var(--radius);
+  background: var(--bg); border: 1px solid var(--line); box-shadow: var(--shadow-sm);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.related-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: #cfd6e4; }
+.related-card .app-icon { width: 48px; height: 48px; flex: 0 0 48px; border-radius: 13px; }
+.rc-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1; }
+.rc-name { font-weight: 800; color: var(--ink); font-size: 15.5px; line-height: 1.35; }
+.related-card:hover .rc-name { color: var(--brand); }
+.rc-desc {
+  color: var(--muted); font-size: 13px; line-height: 1.5;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.rc-plat { align-self: flex-start; }
+.rc-plat .pl-logo { width: 16px; height: 16px; }
+.rc-plat-android .pl-logo { color: #32c374; }
+.rc-plat-windows .pl-logo { color: #0078d4; }
+
+/* 모바일 하단 설치 막대 (js/site.js 가 .is-shown 을 붙인다). 데스크톱에서는 상단 버튼이 늘 가깝다. */
+.install-bar { display: none; }
+@media (max-width: 860px) {
+  .install-bar {
+    display: flex; align-items: center; gap: 12px;
+    position: fixed; inset-inline: 0; bottom: var(--lb-h, 0px); z-index: 65;
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+    background: rgba(255, 255, 255, .95);
+    backdrop-filter: saturate(180%) blur(12px); -webkit-backdrop-filter: saturate(180%) blur(12px);
+    border-top: 1px solid var(--line); box-shadow: 0 -8px 24px rgba(20, 30, 60, .08);
+    transform: translateY(110%); transition: transform .3s cubic-bezier(.16, 1, .3, 1);
+  }
+  .install-bar.is-shown { transform: none; }
+  .ib-icon { width: 40px; height: 40px; flex: 0 0 40px; border-radius: 11px; }
+  .ib-name { flex: 1; min-width: 0; font-weight: 800; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ib-btn { padding: 10px 18px; font-size: 14px; white-space: nowrap; }
+  :root[data-theme="dark"] .install-bar { background: rgba(15, 17, 21, .94); box-shadow: 0 -8px 24px rgba(0, 0, 0, .5); }
+  /* 막대가 푸터 마지막 줄을 가리지 않게 */
+  body.has-install-bar .site-footer { padding-bottom: 96px; }
 }
 
 /* 다른 플랫폼 버전으로 가는 상호 링크 카드 (Clipboard+ ↔ Clipboard+ for Windows).
@@ -595,6 +689,7 @@ img { max-width: 100%; }
 :root[data-theme="dark"] .counterpart:hover { border-color: #39424f; }
 
 .faq-list { display: grid; gap: 14px; max-width: 840px; }
+.faq-q { font-size: 16px; }
 .faq-item { border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; background: var(--bg); box-shadow: var(--shadow-sm); transition: border-color .2s, box-shadow .2s; }
 .faq-item:hover { border-color: #cfd6e4; box-shadow: var(--shadow); }
 .faq-q { font-weight: 700; color: var(--ink); margin-bottom: 6px; }
@@ -629,6 +724,10 @@ img { max-width: 100%; }
 @media (max-width: 860px) {
   .about-wrap { grid-template-columns: 1fr; gap: 36px; }
   .work-grid { grid-template-columns: 1fr; }
+  .app-hero-inner { grid-template-columns: 1fr; gap: 36px; }
+  .app-hero-shots-android .shot { max-width: 180px; }
+  .app-hero-shots-windows { max-width: 560px; width: 100%; margin-inline: auto; }
+  .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 640px) {
   .section { padding: 72px 0; }
@@ -665,14 +764,18 @@ img { max-width: 100%; }
      가로 스크롤이 생긴다 — 320px 기기에서 28px. .app-grid 처럼 한 칸으로 고정한다. */
   .reviews-grid { grid-template-columns: 1fr; }
   .app-shots .shot { height: 130px; }
-  .feature-list { grid-template-columns: 1fr; }
   .detail-shots .shot { height: 300px; }
-  .app-hero-inner { gap: 18px; }
-  .app-icon-lg { width: 72px; height: 72px; flex-basis: 72px; }
-  /* min-width 는 아이콘 옆에 나란히 둘지 줄을 바꿀지 정하는 값이라, 이미 줄이
-     바뀐 폰에서는 할 일이 없다. 남겨 두면 화면이 308px 보다 좁을 때 제목 블록이
-     그 폭을 고집해 페이지를 밀어낸다. */
-  .app-hero-text { min-width: 0; }
+  /* 폰에서는 아이콘과 이름을 한 줄로, 태그라인은 전체 폭으로, 버튼 두 개는 나란히(넘치면 둘 다 전체 폭) 둔다.
+     예전엔 아이콘이 왼쪽 가운데에 떠 이름·태그라인이 좁은 칸에 끼여 여러 줄로 꺾였다. */
+  .app-hero-d { padding-bottom: 44px; }
+  .app-hero-inner { margin-top: 22px; }
+  .app-hero-id { gap: 14px; }
+  .app-icon-lg { width: 64px; height: 64px; flex-basis: 64px; border-radius: 17px; }
+  .app-tagline { margin-top: 18px; }
+  .app-hero-actions .btn { flex: 1 1 auto; justify-content: center; padding: 13px 16px; white-space: nowrap; }
+  .detail-section { padding: 48px 0; }
+  .feature-grid { grid-template-columns: 1fr; }
+  .feature-grid li { padding: 16px; }
   .lb-nav { width: 42px; height: 42px; font-size: 26px; }
   .lb-prev { inset-inline-start: 10px; }
   .lb-next { inset-inline-end: 10px; }
@@ -744,6 +847,8 @@ img { max-width: 100%; }
 /* 하드코딩된 라이트 색 보정 (다크) */
 :root[data-theme="dark"] .site-header { background: rgba(15, 17, 21, .72); }
 :root[data-theme="dark"] .site-header.is-scrolled { background: rgba(15, 17, 21, .88); box-shadow: 0 6px 24px rgba(0, 0, 0, .5); }
+:root[data-theme="dark"] .app-hero-d { background: linear-gradient(135deg, #34426a 0%, #262f4a 42%, #274656 74%, #3a9990 120%); }
+:root[data-theme="dark"] .related-card:hover { border-color: #39424f; }
 :root[data-theme="dark"] .hero { background: linear-gradient(135deg, #34426a 0%, #262f4a 42%, #274656 74%, #3a9990 120%); }
 :root[data-theme="dark"] .platform-android { --pc-soft: rgba(61, 220, 132, .07); --pc-line: rgba(61, 220, 132, .24); }
 :root[data-theme="dark"] .platform-windows { --pc-soft: rgba(0, 120, 212, .10); --pc-line: rgba(64, 156, 230, .30); }

@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 12+",
   "screenshot": [
     "https://codedac.com/images/shots/readfocus-1.jpg",
     "https://codedac.com/images/shots/readfocus-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/ms/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/ms/">Laman Utama</a>
-      <span class="sep">/</span>
-      <a href="/ms/#apps">Aplikasi</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>ReadFocus+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/readfocus.png?v=60" alt="ReadFocus+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Kebolehcapaian</span><span class="app-langs" aria-label="21 bahasa"><span class="globe" aria-hidden="true">🌐</span>21 bahasa</span></span>
-        <h1><bdi>ReadFocus+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Alat bantu bacaan disleksia &amp; ADHD: sorotan baris dan topeng bacaan memastikan mata anda kekal pada laluan dan meredakan ketegangan mata.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dms" class="btn btn-primary" target="_blank" rel="noopener">Lihat di Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Hubungi kami</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ms/">Laman Utama</a>
+        <span class="sep">/</span>
+        <a href="/ms/#apps">Aplikasi</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>ReadFocus+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Kebolehcapaian</span><span class="app-langs" aria-label="21 bahasa"><span class="globe" aria-hidden="true">🌐</span>21 bahasa</span></span>
+              <h1><bdi>ReadFocus+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Alat bantu bacaan disleksia &amp; ADHD: sorotan baris dan topeng bacaan memastikan mata anda kekal pada laluan dan meredakan ketegangan mata.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 12+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dms" class="btn btn-primary" target="_blank" rel="noopener">Lihat di Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BReadFocus%2B%5D%20Bantuan%20%26%20lapor%20pepijat&amp;body=1.%20Apa%20yang%20berlaku%3F%20(Langkah%20untuk%20mengulanginya%20amat%20membantu)%0A-%20%0A%0A2.%20Peranti%20dan%20versi%20OS%0A-%20%0A%0A3.%20Versi%20aplikasi%0A-%20%0A" class="btn btn-glass">Bantuan &amp; lapor pepijat</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/readfocus-1.jpg?v=61" alt="ReadFocus+ Tangkapan Skrin 1" data-idx="0" />
+          <img class="shot" src="/images/shots/readfocus-2.jpg?v=61" alt="ReadFocus+ Tangkapan Skrin 2" data-idx="1" />
+          <img class="shot" src="/images/shots/readfocus-3.jpg?v=61" alt="ReadFocus+ Tangkapan Skrin 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -227,16 +241,71 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Gambaran Keseluruhan</h2>
-      <p class="detail-long">ReadFocus+ ialah pembaris bacaan, topeng bacaan dan alat bantu bacaan untuk disleksia dan ADHD pada Android. Berikan kebenaran tindanan sekali sahaja dan sebuah jalur fokus lut cahaya akan terapung di atas mana-mana aplikasi — pembaca ebook, pelayar, PDF, berita, komik — memastikan mata anda kekal pada baris yang sedang anda baca. Ia mengurangkan terlangkau atau membaca semula baris yang sama, meredakan ketegangan mata serta meningkatkan tumpuan dan kecekapan membaca.</p>
+      <h2 class="detail-title">Ciri Utama</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Sorotan Baris (Pembaris Bacaan): menerangi baris semasa anda supaya mata kekal pada laluan</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Topeng Bacaan: malapkan segala-galanya kecuali zon bacaan anda untuk fokus penglihatan terowong</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Jalur fokus yang boleh dilaraskan sepenuhnya: tinggi (50dp–300dp) dan kelegapan (10%–100%)</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>10 tema warna (3 percuma + 7 Pro)</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Berfungsi di atas mana-mana aplikasi — ebook, PDF, webtoon, berita, kertas penyelidikan</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Pro: pengalaman bebas iklan, masa tindanan tanpa had, dan pastikan skrin menyala semasa membaca</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Tangkapan Skrin</h2>
+      <p class="detail-lead">Ketik tangkapan skrin untuk melihatnya lebih besar.</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/readfocus-1.jpg?v=61" alt="ReadFocus+ Tangkapan Skrin 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/readfocus-2.jpg?v=61" alt="ReadFocus+ Tangkapan Skrin 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/readfocus-3.jpg?v=61" alt="ReadFocus+ Tangkapan Skrin 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/readfocus-4.jpg?v=61" alt="ReadFocus+ Tangkapan Skrin 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/readfocus-5.jpg?v=61" alt="ReadFocus+ Tangkapan Skrin 5" loading="lazy" data-idx="4" />
+        </div>
     </div>
   </section>
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">Gambaran Keseluruhan</h2>
+      <div class="detail-long">
+          <p>ReadFocus+ ialah pembaris bacaan, topeng bacaan dan alat bantu bacaan untuk disleksia dan ADHD pada Android. Berikan kebenaran tindanan sekali sahaja dan sebuah jalur fokus lut cahaya akan terapung di atas mana-mana aplikasi — pembaca ebook, pelayar, PDF, berita, komik — memastikan mata anda kekal pada baris yang sedang anda baca. Ia mengurangkan terlangkau atau membaca semula baris yang sama, meredakan ketegangan mata serta meningkatkan tumpuan dan kecekapan membaca.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt" id="reviews">
+    <div class="container">
+      <h2 class="detail-title">Kata pengguna</h2>
+      <p class="detail-lead">Ulasan sebenar di Google Play.</p>
+      <div class="reviews-grid">
+        <figure class="review-card">
+          <div class="review-stars" aria-label="5 / 5">★★★★★</div>
+          <blockquote class="review-text">난독증 있어서 종이책도 라인자가 있어야 읽는 사람이라, 이북 읽고 싶은 것도 못 읽고 인터넷 자료 서핑도 힘들었는데 이 어플 덕분에 읽을 수 있게 됐습니다. 월정액이나 1년 플랜 다 저렴하고, 무엇보다 영구 결제가 된다는 게 좋네요. 피드백도 빨리 받아주셔서 감사하고, 오래오래 잘 됐으면 좋겠어서 주변에 추천하고 다닐 생각입니다. 저한테 정말 절실한 어플이었어요. 만들어주셔서 감사합니다.</blockquote>
+          <figcaption class="review-meta"><span class="review-name">다비</span><span class="review-app">Google Play</span></figcaption>
+        </figure>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Soalan Lazim</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Bagaimana ReadFocus+ berfungsi?</p><p class="faq-a">Berikan kebenaran tindanan sekali sahaja dan sebuah jalur fokus separa lutsinar akan terapung di atas mana-mana aplikasi. Seret ia ke baris yang sedang anda baca dan mata anda akan kekal pada laluan dan bukannya merayau atau melangkau baris.</p></div>
+          <div class="faq-item"><p class="faq-q">Aplikasi apakah yang boleh digunakan dengannya?</p><p class="faq-a">Ia berfungsi di atas mana-mana aplikasi pada skrin — pembaca ebook dan PDF, kertas penyelidikan, artikel web, blog, berita, nota belajar, buku teks, komik, webtoon, serta e-mel atau sejarah sembang yang panjang.</p></div>
+          <div class="faq-item"><p class="faq-q">Adakah ia percuma untuk digunakan?</p><p class="faq-a">Ya. Versi percuma memberi 60 minit masa tindanan setiap sesi dan 3 tema warna. Pro menambah pengalaman bebas iklan, kesemua 10 tema, dan masa tindanan tanpa had — dan anda juga boleh menonton iklan ganjaran ringkas untuk membuka mana-mana ciri Pro secara percuma selama 24 jam.</p></div>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
       <h2 class="detail-title">Turut tersedia di Windows</h2>
       <a class="counterpart" href="/ms/apps/readfocuswin.html">
-        <img class="app-icon" src="/images/icons/readfocuswin.png?v=60" alt="ReadFocus+ for Windows icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/readfocuswin.png?v=61" alt="ReadFocus+ for Windows icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>ReadFocus+ for Windows</bdi></span>
           <span class="cp-desc">Jalur Fokus tembus klik untuk Windows — Topeng dan Sorotan mengekalkan mata anda pada baris.</span>
@@ -245,61 +314,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Ciri Utama</h2>
-      <ul class="feature-list">
-        <li>Sorotan Baris (Pembaris Bacaan): menerangi baris semasa anda supaya mata kekal pada laluan</li>
-        <li>Topeng Bacaan: malapkan segala-galanya kecuali zon bacaan anda untuk fokus penglihatan terowong</li>
-        <li>Jalur fokus yang boleh dilaraskan sepenuhnya: tinggi (50dp–300dp) dan kelegapan (10%–100%)</li>
-        <li>10 tema warna (3 percuma + 7 Pro)</li>
-        <li>Berfungsi di atas mana-mana aplikasi — ebook, PDF, webtoon, berita, kertas penyelidikan</li>
-        <li>Pro: pengalaman bebas iklan, masa tindanan tanpa had, dan pastikan skrin menyala semasa membaca</li>
-      </ul>
-    </div>
-  </section>
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Tangkapan Skrin</h2>
-      <p class="section-lead" style="margin-bottom:22px">Ketik tangkapan skrin untuk melihatnya lebih besar.</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/readfocus-1.jpg?v=60" alt="ReadFocus+ Tangkapan Skrin 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/readfocus-2.jpg?v=60" alt="ReadFocus+ Tangkapan Skrin 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/readfocus-3.jpg?v=60" alt="ReadFocus+ Tangkapan Skrin 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/readfocus-4.jpg?v=60" alt="ReadFocus+ Tangkapan Skrin 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/readfocus-5.jpg?v=60" alt="ReadFocus+ Tangkapan Skrin 5" loading="lazy" data-idx="4" />
-      </div>
+      <h2 class="detail-title">Terokai lebih banyak aplikasi</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/ms/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">Nota melekat yang terapung di atas mana-mana apl. Kuncupkan jadi cip, kembangkan jadi kad — dengan warna dan teks kaya.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ms/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">Simpan semua teks dan imej yang disalin. Cari, tampal dan segerak ke PC.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ms/apps/autostart.html">
+            <img class="app-icon" src="/images/icons/autostart.png?v=61" alt="AutoStart+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>AutoStart+</bdi></span><span class="rc-desc">Lancarkan aplikasi anda secara automatik semasa but. Tanpa root, tetapkan sekali.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ms/apps/floatcalc.html">
+            <img class="app-icon" src="/images/icons/floatcalc.png?v=61" alt="FloatCalc+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCalc+</bdi></span><span class="rc-desc">Kalkulator terapung dengan penukar mata wang dan unit di atas mana-mana apl.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Soalan Lazim</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Bagaimana ReadFocus+ berfungsi?</p><p class="faq-a">Berikan kebenaran tindanan sekali sahaja dan sebuah jalur fokus separa lutsinar akan terapung di atas mana-mana aplikasi. Seret ia ke baris yang sedang anda baca dan mata anda akan kekal pada laluan dan bukannya merayau atau melangkau baris.</p></div>
-        <div class="faq-item"><p class="faq-q">Aplikasi apakah yang boleh digunakan dengannya?</p><p class="faq-a">Ia berfungsi di atas mana-mana aplikasi pada skrin — pembaca ebook dan PDF, kertas penyelidikan, artikel web, blog, berita, nota belajar, buku teks, komik, webtoon, serta e-mel atau sejarah sembang yang panjang.</p></div>
-        <div class="faq-item"><p class="faq-q">Adakah ia percuma untuk digunakan?</p><p class="faq-a">Ya. Versi percuma memberi 60 minit masa tindanan setiap sesi dan 3 tema warna. Pro menambah pengalaman bebas iklan, kesemua 10 tema, dan masa tindanan tanpa had — dan anda juga boleh menonton iklan ganjaran ringkas untuk membuka mana-mana ciri Pro secara percuma selama 24 jam.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="detail-section" id="reviews">
-    <div class="container">
-      <h2 class="detail-title">Kata pengguna</h2>
-      <p class="section-lead" style="margin-bottom:22px">Ulasan sebenar di Google Play.</p>
-      <div class="reviews-grid">
-        <figure class="review-card">
-          <div class="review-stars" aria-label="5 / 5">★★★★★</div>
-          <blockquote class="review-text">난독증 있어서 종이책도 라인자가 있어야 읽는 사람이라, 이북 읽고 싶은 것도 못 읽고 인터넷 자료 서핑도 힘들었는데 이 어플 덕분에 읽을 수 있게 됐습니다. 월정액이나 1년 플랜 다 저렴하고, 무엇보다 영구 결제가 된다는 게 좋네요. 피드백도 빨리 받아주셔서 감사하고, 오래오래 잘 됐으면 좋겠어서 주변에 추천하고 다닐 생각입니다. 저한테 정말 절실한 어플이었어요. 만들어주셔서 감사합니다.</blockquote>
-          <figcaption class="review-meta"><span class="review-name">다비</span><span class="review-app">Google Play</span></figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <div class="detail-cta">
-    <a href="/ms/#apps" class="btn btn-primary">Terokai lebih banyak aplikasi</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -315,6 +357,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/readfocus.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>ReadFocus+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dms" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -322,6 +370,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"ms","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/readfocus.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/readfocus.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/readfocus.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/readfocus.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/readfocus.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/readfocus.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/readfocus.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/readfocus.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/readfocus.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/readfocus.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/readfocus.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/readfocus.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/readfocus.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/readfocus.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/readfocus.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/readfocus.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/readfocus.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/readfocus.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/readfocus.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/readfocus.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/readfocus.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 7.0+",
   "screenshot": [
     "https://codedac.com/images/shots/volumebooster-1.jpg",
     "https://codedac.com/images/shots/volumebooster-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/ko/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/ko/">홈</a>
-      <span class="sep">/</span>
-      <a href="/ko/#apps">앱 소개</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>VolumeBooster+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/volumebooster.png?v=60" alt="VolumeBooster+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">오디오</span><span class="app-langs" aria-label="21개 언어"><span class="globe" aria-hidden="true">🌐</span>21개 언어</span></span>
-        <h1><bdi>VolumeBooster+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">모든 앱의 소리를 더 크게 — 최대 +15 dB, 데시벨로 표시되는 안전 구간과 함께.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dko" class="btn btn-primary" target="_blank" rel="noopener">Google Play에서 보기 →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">문의하기</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ko/">홈</a>
+        <span class="sep">/</span>
+        <a href="/ko/#apps">앱 소개</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>VolumeBooster+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">오디오</span><span class="app-langs" aria-label="21개 언어"><span class="globe" aria-hidden="true">🌐</span>21개 언어</span></span>
+              <h1><bdi>VolumeBooster+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">모든 앱의 소리를 더 크게 — 최대 +15 dB, 데시벨로 표시되는 안전 구간과 함께.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 7.0+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dko" class="btn btn-primary" target="_blank" rel="noopener">Google Play에서 보기 →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BVolumeBooster%2B%5D%20%EB%AC%B8%EC%9D%98%C2%B7%EB%B2%84%EA%B7%B8%20%EC%8B%A0%EA%B3%A0&amp;body=1.%20%EC%96%B4%EB%96%A4%20%EB%AC%B8%EC%A0%9C%EA%B0%80%20%EC%9E%88%EC%97%88%EB%82%98%EC%9A%94%3F%20(%EC%9E%AC%ED%98%84%20%EB%B0%A9%EB%B2%95%EC%9D%84%20%EC%95%8C%EB%A9%B4%20%ED%95%A8%EA%BB%98%20%EC%A0%81%EC%96%B4%20%EC%A3%BC%EC%84%B8%EC%9A%94)%0A-%20%0A%0A2.%20%EA%B8%B0%EA%B8%B0%EC%99%80%20OS%20%EB%B2%84%EC%A0%84%0A-%20%0A%0A3.%20%EC%95%B1%20%EB%B2%84%EC%A0%84%0A-%20%0A" class="btn btn-glass">문의·버그 신고</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=61" alt="VolumeBooster+ 스크린샷 1" data-idx="0" />
+          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=61" alt="VolumeBooster+ 스크린샷 2" data-idx="1" />
+          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=61" alt="VolumeBooster+ 스크린샷 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -227,66 +241,94 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">개요</h2>
-      <p class="detail-long">소리가 너무 작나요? VolumeBooster+는 특정 앱이 아니라 시스템 전체 출력을 키웁니다 — 작은 스피커, 소리 작은 이어폰, 잘 안 들리는 영상·통화·음악·게임까지 또렷하게 들립니다. 증폭량은 데시벨로 표시되며 최대 +15 dB이고, WHO 청력 권고를 바탕으로 한 안전·주의·위험 구간이 함께 나와 지금 얼마나 올렸는지 항상 알 수 있습니다. 무료로 +10 dB, Pro 또는 Free Pass로 전체 범위가 열립니다. 라우드니스 맥시마이저, 프리셋 9종이 모두 무료인 5밴드 이퀄라이저, 베이스 부스터, 3D 버추얼라이저, 실측 헤드폰 프로파일 2,456개 기반 AutoEQ가 한 앱에 들어 있습니다.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">주요 기능</h2>
-      <ul class="feature-list">
-        <li>시스템 전체 음량 증폭 최대 +15 dB, 안전·주의·위험 라벨 표시 — 무료 +10 dB, Pro 또는 Free Pass로 전체 범위</li>
-        <li>라우드니스 맥시마이저 — 멀티밴드 압축과 메이크업 게인, 상시 동작 피크 리미터로 클리핑·왜곡 없이 실제로 더 크게</li>
-        <li>5밴드 이퀄라이저와 프리셋 9종 전부 무료 — Flat, Pop, Rock, Vocal, Classical, EDM, Movie, Gaming, Night Mode</li>
-        <li>베이스 부스터와 3D 버추얼라이저, 357개 브랜드 2,456개 실측 프로파일의 AutoEQ(애플·삼성·소니·보스·JBL·비츠 등 주요 브랜드 무료)</li>
-        <li>플로팅 패널 전원 무료, 청력 보호 통계(Pro), 페이드 아웃 취침 타이머, 좌우 채널 밸런스, 퀵 설정 타일, 홈 화면 위젯, 알림 조작</li>
-        <li>Free Pass — 짧은 광고 한 편으로 Max Boost 또는 AutoEQ를 24시간. 그 외 무료 부스트는 하루 60분이며 자정에 초기화</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>시스템 전체 음량 증폭 최대 +15 dB, 안전·주의·위험 라벨 표시 — 무료 +10 dB, Pro 또는 Free Pass로 전체 범위</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>라우드니스 맥시마이저 — 멀티밴드 압축과 메이크업 게인, 상시 동작 피크 리미터로 클리핑·왜곡 없이 실제로 더 크게</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>5밴드 이퀄라이저와 프리셋 9종 전부 무료 — Flat, Pop, Rock, Vocal, Classical, EDM, Movie, Gaming, Night Mode</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>베이스 부스터와 3D 버추얼라이저, 357개 브랜드 2,456개 실측 프로파일의 AutoEQ(애플·삼성·소니·보스·JBL·비츠 등 주요 브랜드 무료)</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>플로팅 패널 전원 무료, 청력 보호 통계(Pro), 페이드 아웃 취침 타이머, 좌우 채널 밸런스, 퀵 설정 타일, 홈 화면 위젯, 알림 조작</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Free Pass — 짧은 광고 한 편으로 Max Boost 또는 AutoEQ를 24시간. 그 외 무료 부스트는 하루 60분이며 자정에 초기화</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">스크린샷</h2>
-      <p class="section-lead" style="margin-bottom:22px">스크린샷을 누르면 크게 볼 수 있습니다.</p>
+      <p class="detail-lead">스크린샷을 누르면 크게 볼 수 있습니다.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/volumebooster-1.jpg?v=60" alt="VolumeBooster+ 스크린샷 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/volumebooster-2.jpg?v=60" alt="VolumeBooster+ 스크린샷 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/volumebooster-3.jpg?v=60" alt="VolumeBooster+ 스크린샷 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/volumebooster-4.jpg?v=60" alt="VolumeBooster+ 스크린샷 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/volumebooster-5.jpg?v=60" alt="VolumeBooster+ 스크린샷 5" loading="lazy" data-idx="4" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">자주 묻는 질문</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">정말로 소리가 더 커지나요?</p><p class="faq-a">네. 라우드니스 맥시마이저가 멀티밴드 압축과 메이크업 게인으로 체감 음량을 실제로 올리고, 특정 앱이 아니라 시스템 전체 출력을 키웁니다 — 음악·영상·유튜브·게임·통화 모두에 적용됩니다. 무료로 +10 dB까지, Pro 또는 Free Pass로 +15 dB 전체 범위까지 올릴 수 있습니다.</p></div>
-        <div class="faq-item"><p class="faq-q">정말 무료인가요, 구독이 필요한가요?</p><p class="faq-a">무료로 +10 dB 부스트, 프리셋 9종 전부, 5밴드 이퀄라이저, 플로팅 패널, 애플·삼성·소니·보스·JBL·비츠 등 주요 브랜드 AutoEQ를 쓸 수 있습니다. 무료 부스트 사용 시간은 하루 60분이며 자정에 초기화됩니다. Free Pass는 짧은 광고 한 편으로 Max Boost(+15 dB 전체 범위, 하루 제한 없음) 또는 AutoEQ(전체 헤드폰 카탈로그)를 24시간 열어 주며, 카드 등록도 해지할 체험도 없습니다. Pro는 전체 범위와 무제한 사용 시간, 모든 AutoEQ 프로파일, 청력 보호 대시보드를 열고 광고를 없앱니다 — 월간·연간 또는 평생 1회 결제.</p></div>
-        <div class="faq-item"><p class="faq-q">표시되는 데시벨은 정확한 측정값인가요?</p><p class="faq-a">추정값입니다. 증폭량은 실제 데시벨로 표시되고 WHO 기준 안전·주의·위험 구간이 함께 나오지만, 이 값은 시스템 볼륨과 적용된 게인을 바탕으로 계산한 것이며 실제 음량은 기기·헤드폰·콘텐츠에 따라 달라집니다. 본 앱은 의료기기가 아니므로 귀 통증이나 이명이 느껴지면 볼륨을 낮추고 전문가와 상담하세요.</p></div>
-      </div>
+          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=61" alt="VolumeBooster+ 스크린샷 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=61" alt="VolumeBooster+ 스크린샷 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=61" alt="VolumeBooster+ 스크린샷 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/volumebooster-4.jpg?v=61" alt="VolumeBooster+ 스크린샷 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/volumebooster-5.jpg?v=61" alt="VolumeBooster+ 스크린샷 5" loading="lazy" data-idx="4" />
+        </div>
     </div>
   </section>
 
-  <section class="detail-section" id="reviews">
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">개요</h2>
+      <div class="detail-long">
+          <p>소리가 너무 작나요? VolumeBooster+는 특정 앱이 아니라 시스템 전체 출력을 키웁니다 — 작은 스피커, 소리 작은 이어폰, 잘 안 들리는 영상·통화·음악·게임까지 또렷하게 들립니다. 증폭량은 데시벨로 표시되며 최대 +15 dB이고, WHO 청력 권고를 바탕으로 한 안전·주의·위험 구간이 함께 나와 지금 얼마나 올렸는지 항상 알 수 있습니다.</p>
+          <p>무료로 +10 dB, Pro 또는 Free Pass로 전체 범위가 열립니다. 라우드니스 맥시마이저, 프리셋 9종이 모두 무료인 5밴드 이퀄라이저, 베이스 부스터, 3D 버추얼라이저, 실측 헤드폰 프로파일 2,456개 기반 AutoEQ가 한 앱에 들어 있습니다.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt" id="reviews">
     <div class="container">
       <h2 class="detail-title">사용자 후기</h2>
-      <p class="section-lead" style="margin-bottom:22px">Google Play에 남겨주신 실제 리뷰입니다.</p>
+      <p class="detail-lead">Google Play에 남겨주신 실제 리뷰입니다.</p>
       <div class="reviews-grid">
         <figure class="review-card">
           <div class="review-stars" aria-label="5 / 5">★★★★★</div>
           <blockquote class="review-text">WOW! what a difference! I am trying free version &amp; 3 decibel boost helps immensely already! I've been playing podcasts on tablet using an external speaker. With this app I can hear very clearly just from the tablet. It even has different settings for various types of sound like music, podcast, etc like an equalizer. Already using Clipboard+ from the same developer &amp; it is an awesome app! Highly recommend it!</blockquote>
           <figcaption class="review-meta"><span class="review-name">Liz W</span><span class="review-app">Google Play</span></figcaption>
         </figure>
-      </div>
+        </div>
     </div>
   </section>
 
-  <div class="detail-cta">
-    <a href="/ko/#apps" class="btn btn-primary">다른 앱 둘러보기</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">자주 묻는 질문</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">정말로 소리가 더 커지나요?</p><p class="faq-a">네. 라우드니스 맥시마이저가 멀티밴드 압축과 메이크업 게인으로 체감 음량을 실제로 올리고, 특정 앱이 아니라 시스템 전체 출력을 키웁니다 — 음악·영상·유튜브·게임·통화 모두에 적용됩니다. 무료로 +10 dB까지, Pro 또는 Free Pass로 +15 dB 전체 범위까지 올릴 수 있습니다.</p></div>
+          <div class="faq-item"><p class="faq-q">정말 무료인가요, 구독이 필요한가요?</p><p class="faq-a">무료로 +10 dB 부스트, 프리셋 9종 전부, 5밴드 이퀄라이저, 플로팅 패널, 애플·삼성·소니·보스·JBL·비츠 등 주요 브랜드 AutoEQ를 쓸 수 있습니다. 무료 부스트 사용 시간은 하루 60분이며 자정에 초기화됩니다. Free Pass는 짧은 광고 한 편으로 Max Boost(+15 dB 전체 범위, 하루 제한 없음) 또는 AutoEQ(전체 헤드폰 카탈로그)를 24시간 열어 주며, 카드 등록도 해지할 체험도 없습니다. Pro는 전체 범위와 무제한 사용 시간, 모든 AutoEQ 프로파일, 청력 보호 대시보드를 열고 광고를 없앱니다 — 월간·연간 또는 평생 1회 결제.</p></div>
+          <div class="faq-item"><p class="faq-q">표시되는 데시벨은 정확한 측정값인가요?</p><p class="faq-a">추정값입니다. 증폭량은 실제 데시벨로 표시되고 WHO 기준 안전·주의·위험 구간이 함께 나오지만, 이 값은 시스템 볼륨과 적용된 게인을 바탕으로 계산한 것이며 실제 음량은 기기·헤드폰·콘텐츠에 따라 달라집니다. 본 앱은 의료기기가 아니므로 귀 통증이나 이명이 느껴지면 볼륨을 낮추고 전문가와 상담하세요.</p></div>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">다른 앱 둘러보기</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/ko/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">사진·PDF 속 개인정보를 단색으로 가려 안전하게. 완전 오프라인.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ko/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">난독증·ADHD 읽기 보조. 줄 강조·마스크로 읽는 줄에 시선 고정.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ko/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">어떤 앱 위에도 뜨는 플로팅 스티커 메모. 칩으로 접었다 카드로 펼치고, 색상·서식·이미지까지.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ko/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">복사한 내용을 모두 저장하는 클립보드 매니저. PC와 클립 동기화까지.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -302,6 +344,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/volumebooster.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>VolumeBooster+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dko" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -309,6 +357,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"ko","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/volumebooster.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/volumebooster.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/volumebooster.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/volumebooster.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/volumebooster.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/volumebooster.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/volumebooster.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/volumebooster.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/volumebooster.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/volumebooster.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/volumebooster.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/volumebooster.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/volumebooster.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/volumebooster.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/volumebooster.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/volumebooster.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/volumebooster.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/volumebooster.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/volumebooster.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/volumebooster.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/volumebooster.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

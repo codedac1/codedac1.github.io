@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 12+",
   "screenshot": [
     "https://codedac.com/images/shots/floatcalc-1.jpg",
     "https://codedac.com/images/shots/floatcalc-2.jpg",
@@ -152,7 +153,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/ja/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -199,28 +200,42 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/ja/">ホーム</a>
-      <span class="sep">/</span>
-      <a href="/ja/#apps">アプリ</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatCalc+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floatcalc.png?v=60" alt="FloatCalc+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">フローティング</span><span class="app-langs" aria-label="21言語"><span class="globe" aria-hidden="true">🌐</span>21言語</span></span>
-        <h1><bdi>FloatCalc+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">アプリを閉じずに計算 — 常に最前面に浮かぶフローティング電卓。</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dja" class="btn btn-primary" target="_blank" rel="noopener">Google Playで見る →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">お問い合わせ</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ja/">ホーム</a>
+        <span class="sep">/</span>
+        <a href="/ja/#apps">アプリ</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatCalc+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floatcalc.png?v=61" alt="FloatCalc+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">フローティング</span><span class="app-langs" aria-label="21言語"><span class="globe" aria-hidden="true">🌐</span>21言語</span></span>
+              <h1><bdi>FloatCalc+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">アプリを閉じずに計算 — 常に最前面に浮かぶフローティング電卓。</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 12+</span></li>
+            <li><span dir="ltr">1,000+</span><span>ダウンロード</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dja" class="btn btn-primary" target="_blank" rel="noopener">Google Playで見る →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatCalc%2B%5D%20%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%83%BB%E3%83%90%E3%82%B0%E5%A0%B1%E5%91%8A&amp;body=1.%20%E3%81%A9%E3%82%93%E3%81%AA%E5%95%8F%E9%A1%8C%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F%E3%81%8B%EF%BC%9F%EF%BC%88%E5%86%8D%E7%8F%BE%E6%89%8B%E9%A0%86%E3%81%8C%E3%82%8F%E3%81%8B%E3%82%8C%E3%81%B0%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%89%0A-%20%0A%0A2.%20%E7%AB%AF%E6%9C%AB%E3%81%A8OS%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%0A-%20%0A%0A3.%20%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%0A-%20%0A" class="btn btn-glass">お問い合わせ・バグ報告</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/floatcalc-1.jpg?v=61" alt="FloatCalc+ スクリーンショット 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcalc-2.jpg?v=61" alt="FloatCalc+ スクリーンショット 2" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcalc-3.jpg?v=61" alt="FloatCalc+ スクリーンショット 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -228,54 +243,81 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">概要</h2>
-      <p class="detail-long">FloatCalc+ はどのアプリの上にも表示されるフローティング電卓です。買い物中も、銀行アプリを見ているときも、計算のために画面を閉じる必要はありません。電卓・単位換算・為替がひとつのドラッグできるウィンドウに入っていて、内蔵テンキーで式を入力すればすぐに答えが出て、クリップボードにコピーできます。キーパッドが要らないときは一行に折りたたみ、画面が必要なときは小さなアイコンに縮めて端に寄せておけます。為替レートは ECB のもので毎日更新され、キャッシュされるのでオフラインでも動きます。フローティング電卓は 1 日 60 分無料で、残り時間はパネルのタイトル行に表示されます。もっと使いたいときは短い広告を見て 24 時間パスを受け取れます。</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">主な機能</h2>
-      <ul class="feature-list">
-        <li>どのアプリの上にも表示されるオーバーレイ — YouTube、地図、ブラウザ、銀行、ショッピング、文書。前回使ったモードで開きます</li>
-        <li>演算子バー — 内蔵テンキーの上に + − × ÷ ( ) % 、バックスペースで打ち間違いだけ削除</li>
-        <li>べき乗・平方根・パーセント — 2^10、√144、100+10%。「=」の後も式が残り、タップすれば入力欄に戻して編集できます</li>
-        <li>ウィンドウ内で単位換算 — 長さ・重さ・温度・面積・体積・速度・時間</li>
-        <li>30 以上の通貨に対応した ECB レートを毎日更新 — 設定に最終更新日と出典が表示され、その場で更新できます</li>
-        <li>キーパッドを一行に折りたたむ、または小さなアイコンに縮めて画面端にドッキング。サイズ・幅・透明度の調整と 8 種類のテーマ</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>どのアプリの上にも表示されるオーバーレイ — YouTube、地図、ブラウザ、銀行、ショッピング、文書。前回使ったモードで開きます</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>演算子バー — 内蔵テンキーの上に + − × ÷ ( ) % 、バックスペースで打ち間違いだけ削除</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>べき乗・平方根・パーセント — 2^10、√144、100+10%。「=」の後も式が残り、タップすれば入力欄に戻して編集できます</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>ウィンドウ内で単位換算 — 長さ・重さ・温度・面積・体積・速度・時間</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>30 以上の通貨に対応した ECB レートを毎日更新 — 設定に最終更新日と出典が表示され、その場で更新できます</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>キーパッドを一行に折りたたむ、または小さなアイコンに縮めて画面端にドッキング。サイズ・幅・透明度の調整と 8 種類のテーマ</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">スクリーンショット</h2>
-      <p class="section-lead" style="margin-bottom:22px">スクリーンショットをタップすると拡大表示できます。</p>
+      <p class="detail-lead">スクリーンショットをタップすると拡大表示できます。</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floatcalc-1.jpg?v=60" alt="FloatCalc+ スクリーンショット 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floatcalc-2.jpg?v=60" alt="FloatCalc+ スクリーンショット 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floatcalc-3.jpg?v=60" alt="FloatCalc+ スクリーンショット 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floatcalc-4.jpg?v=60" alt="FloatCalc+ スクリーンショット 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floatcalc-5.jpg?v=60" alt="FloatCalc+ スクリーンショット 5" loading="lazy" data-idx="4" />
-        <img class="shot" src="/images/shots/floatcalc-6.jpg?v=60" alt="FloatCalc+ スクリーンショット 6" loading="lazy" data-idx="5" />
-      </div>
+          <img class="shot" src="/images/shots/floatcalc-1.jpg?v=61" alt="FloatCalc+ スクリーンショット 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcalc-2.jpg?v=61" alt="FloatCalc+ スクリーンショット 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcalc-3.jpg?v=61" alt="FloatCalc+ スクリーンショット 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floatcalc-4.jpg?v=61" alt="FloatCalc+ スクリーンショット 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/floatcalc-5.jpg?v=61" alt="FloatCalc+ スクリーンショット 5" loading="lazy" data-idx="4" />
+          <img class="shot" src="/images/shots/floatcalc-6.jpg?v=61" alt="FloatCalc+ スクリーンショット 6" loading="lazy" data-idx="5" />
+        </div>
     </div>
   </section>
+
   <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">概要</h2>
+      <div class="detail-long">
+          <p>FloatCalc+ はどのアプリの上にも表示されるフローティング電卓です。買い物中も、銀行アプリを見ているときも、計算のために画面を閉じる必要はありません。電卓・単位換算・為替がひとつのドラッグできるウィンドウに入っていて、内蔵テンキーで式を入力すればすぐに答えが出て、クリップボードにコピーできます。</p>
+          <p>キーパッドが要らないときは一行に折りたたみ、画面が必要なときは小さなアイコンに縮めて端に寄せておけます。為替レートは ECB のもので毎日更新され、キャッシュされるのでオフラインでも動きます。フローティング電卓は 1 日 60 分無料で、残り時間はパネルのタイトル行に表示されます。もっと使いたいときは短い広告を見て 24 時間パスを受け取れます。</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">よくある質問</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">計算のたびに見ているアプリを閉じる必要がありますか？</p><p class="faq-a">いいえ。FloatCalc+ は他のアプリの上に浮かぶフローティングウィンドウなので、ショッピングや銀行、ブラウザの画面を開いたまま割引後の価格を計算したり、通貨を換算したりできます。好きな位置にドラッグして計算し、そのまま元の画面に戻れます。</p></div>
-        <div class="faq-item"><p class="faq-q">為替レートはどこから取得していますか？</p><p class="faq-a">欧州中央銀行（ECB）のレートを毎日更新して使っています。設定の「一般」にレートの基準日と出典が表示され、その場で最新のレートを取得できます。USD、EUR、JPY、GBP、KRW、CNY など 30 以上の通貨をオーバーレイのまま換算でき、毎日キャッシュされるのでオフラインでも動作します。</p></div>
-        <div class="faq-item"><p class="faq-q">無料でどこまで使えますか？</p><p class="faq-a">フローティング電卓は 1 日 60 分まで無料です。残り時間はパネルのタイトル行に表示され、足りないときは短い広告を 1 本見ると 24 時間パスがもらえます。Pro にすると 1 日の時間制限と広告がなくなり、すべての単位カテゴリと 30 以上の通貨、プレミアムテーマ 7 種、パネルのカスタマイズ（透明度・サイズ・幅）が使えます。月額・年額・買い切りから選べます。</p></div>
-      </div>
+          <div class="faq-item"><p class="faq-q">計算のたびに見ているアプリを閉じる必要がありますか？</p><p class="faq-a">いいえ。FloatCalc+ は他のアプリの上に浮かぶフローティングウィンドウなので、ショッピングや銀行、ブラウザの画面を開いたまま割引後の価格を計算したり、通貨を換算したりできます。好きな位置にドラッグして計算し、そのまま元の画面に戻れます。</p></div>
+          <div class="faq-item"><p class="faq-q">為替レートはどこから取得していますか？</p><p class="faq-a">欧州中央銀行（ECB）のレートを毎日更新して使っています。設定の「一般」にレートの基準日と出典が表示され、その場で最新のレートを取得できます。USD、EUR、JPY、GBP、KRW、CNY など 30 以上の通貨をオーバーレイのまま換算でき、毎日キャッシュされるのでオフラインでも動作します。</p></div>
+          <div class="faq-item"><p class="faq-q">無料でどこまで使えますか？</p><p class="faq-a">フローティング電卓は 1 日 60 分まで無料です。残り時間はパネルのタイトル行に表示され、足りないときは短い広告を 1 本見ると 24 時間パスがもらえます。Pro にすると 1 日の時間制限と広告がなくなり、すべての単位カテゴリと 30 以上の通貨、プレミアムテーマ 7 種、パネルのカスタマイズ（透明度・サイズ・幅）が使えます。月額・年額・買い切りから選べます。</p></div>
+        </div>
     </div>
   </section>
 
-
-  <div class="detail-cta">
-    <a href="/ja/#apps" class="btn btn-primary">他のアプリを見る</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">他のアプリを見る</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/ja/apps/floatcrypto.html">
+            <img class="app-icon" src="/images/icons/floatcrypto.png?v=61" alt="FloatCrypto+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCrypto+</bdi></span><span class="rc-desc">すべてのアプリの上に浮かぶ仮想通貨ティッカー・アラート・チャート。</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ja/apps/floattimer.html">
+            <img class="app-icon" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+</bdi></span><span class="rc-desc">タイマー・カウンター・ストップウォッチをどのアプリの上にも表示するフローティングタイマー。</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ja/apps/volumebooster.html">
+            <img class="app-icon" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>VolumeBooster+</bdi></span><span class="rc-desc">音量ブースト・イコライザー・低音強化で、どんな音も最大 +15 dB 大きく。</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ja/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">写真やPDFの個人情報を、端末内で完結して単色で隠す。</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -291,6 +333,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floatcalc.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatCalc+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dja" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -298,6 +346,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"ja","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floatcalc.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floatcalc.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floatcalc.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floatcalc.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floatcalc.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floatcalc.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floatcalc.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floatcalc.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floatcalc.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floatcalc.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floatcalc.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floatcalc.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floatcalc.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floatcalc.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floatcalc.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floatcalc.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floatcalc.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floatcalc.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floatcalc.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floatcalc.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floatcalc.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

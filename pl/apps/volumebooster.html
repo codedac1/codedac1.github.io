@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 7.0+",
   "screenshot": [
     "https://codedac.com/images/shots/volumebooster-1.jpg",
     "https://codedac.com/images/shots/volumebooster-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/pl/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/pl/">Strona główna</a>
-      <span class="sep">/</span>
-      <a href="/pl/#apps">Aplikacje</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>VolumeBooster+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/volumebooster.png?v=60" alt="VolumeBooster+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Dźwięk</span><span class="app-langs" aria-label="Języki: 21"><span class="globe" aria-hidden="true">🌐</span>Języki: 21</span></span>
-        <h1><bdi>VolumeBooster+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Pogłośnij każdą aplikację — do +15 dB, w prawdziwych decybelach i ze strefami bezpieczeństwa.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dpl" class="btn btn-primary" target="_blank" rel="noopener">Zobacz w Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Kontakt</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/pl/">Strona główna</a>
+        <span class="sep">/</span>
+        <a href="/pl/#apps">Aplikacje</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>VolumeBooster+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Dźwięk</span><span class="app-langs" aria-label="Języki: 21"><span class="globe" aria-hidden="true">🌐</span>Języki: 21</span></span>
+              <h1><bdi>VolumeBooster+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Pogłośnij każdą aplikację — do +15 dB, w prawdziwych decybelach i ze strefami bezpieczeństwa.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 7.0+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dpl" class="btn btn-primary" target="_blank" rel="noopener">Zobacz w Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BVolumeBooster%2B%5D%20Pomoc%20i%20b%C5%82%C4%99dy&amp;body=1.%20Co%20si%C4%99%20sta%C5%82o%3F%20(Kroki%20do%20odtworzenia%20bardzo%20pomagaj%C4%85)%0A-%20%0A%0A2.%20Urz%C4%85dzenie%20i%20wersja%20systemu%0A-%20%0A%0A3.%20Wersja%20aplikacji%0A-%20%0A" class="btn btn-glass">Pomoc i błędy</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=61" alt="VolumeBooster+ Zrzuty ekranu 1" data-idx="0" />
+          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=61" alt="VolumeBooster+ Zrzuty ekranu 2" data-idx="1" />
+          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=61" alt="VolumeBooster+ Zrzuty ekranu 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -227,66 +241,94 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Przegląd</h2>
-      <p class="detail-long">Telefon gra za cicho? VolumeBooster+ podnosi całe wyjście systemowe, a nie jedną aplikację: ciche głośniki, słabe słuchawki, trudne do usłyszenia filmy, rozmowy, muzykę i gry wreszcie słychać wyraźnie. Wzmocnienie pokazywane jest w decybelach, do +15 dB, ze strefami Bezpiecznie / Uwaga / Niebezpiecznie opartymi na zaleceniach WHO, więc zawsze widzisz, jak daleko zaszedłeś. Za darmo dostępne jest +10 dB, a Pro lub Free Pass otwiera pełny zakres. Maksymalizator głośności, 5-pasmowy korektor z dziewięcioma darmowymi presetami, wzmacniacz basów, wirtualizator 3D i korekcja AutoEQ oparta na 2456 zmierzonych profilach słuchawek są w tej samej aplikacji.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Najważniejsze funkcje</h2>
-      <ul class="feature-list">
-        <li>Wzmocnienie w całym systemie do +15 dB z oznaczeniami Bezpiecznie / Uwaga / Niebezpiecznie — za darmo +10 dB, pełny zakres z Pro lub Free Pass</li>
-        <li>Maksymalizator głośności z kompresją wielopasmową, wzmocnieniem wyrównującym i stale aktywnym limiterem szczytów: naprawdę głośniej, bez przesterowania</li>
-        <li>5-pasmowy korektor z 9 presetami, wszystkie darmowe: Flat, Pop, Rock, Vocal, Classical, EDM, Movie, Gaming i Night Mode</li>
-        <li>Wzmacniacz basów, wirtualizator 3D i AutoEQ: 2456 zmierzonych profili słuchawek z 357 marek, główne marki (Apple, Samsung, Sony, Bose, JBL, Beats) za darmo</li>
-        <li>Panel pływający darmowy dla wszystkich, a do tego statystyki ochrony słuchu (Pro), wyłącznik czasowy z wyciszaniem, balans kanałów L/P, kafelek Szybkich ustawień, widżet i sterowanie z powiadomienia</li>
-        <li>Free Pass: jedna krótka reklama daje 24 godziny Max Boost lub AutoEQ; poza tym darmowe wzmacnianie działa 60 minut dziennie i resetuje się o północy</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Wzmocnienie w całym systemie do +15 dB z oznaczeniami Bezpiecznie / Uwaga / Niebezpiecznie — za darmo +10 dB, pełny zakres z Pro lub Free Pass</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Maksymalizator głośności z kompresją wielopasmową, wzmocnieniem wyrównującym i stale aktywnym limiterem szczytów: naprawdę głośniej, bez przesterowania</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>5-pasmowy korektor z 9 presetami, wszystkie darmowe: Flat, Pop, Rock, Vocal, Classical, EDM, Movie, Gaming i Night Mode</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Wzmacniacz basów, wirtualizator 3D i AutoEQ: 2456 zmierzonych profili słuchawek z 357 marek, główne marki (Apple, Samsung, Sony, Bose, JBL, Beats) za darmo</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Panel pływający darmowy dla wszystkich, a do tego statystyki ochrony słuchu (Pro), wyłącznik czasowy z wyciszaniem, balans kanałów L/P, kafelek Szybkich ustawień, widżet i sterowanie z powiadomienia</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Free Pass: jedna krótka reklama daje 24 godziny Max Boost lub AutoEQ; poza tym darmowe wzmacnianie działa 60 minut dziennie i resetuje się o północy</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Zrzuty ekranu</h2>
-      <p class="section-lead" style="margin-bottom:22px">Dotknij zrzutu ekranu, aby zobaczyć go w powiększeniu.</p>
+      <p class="detail-lead">Dotknij zrzutu ekranu, aby zobaczyć go w powiększeniu.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/volumebooster-1.jpg?v=60" alt="VolumeBooster+ Zrzuty ekranu 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/volumebooster-2.jpg?v=60" alt="VolumeBooster+ Zrzuty ekranu 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/volumebooster-3.jpg?v=60" alt="VolumeBooster+ Zrzuty ekranu 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/volumebooster-4.jpg?v=60" alt="VolumeBooster+ Zrzuty ekranu 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/volumebooster-5.jpg?v=60" alt="VolumeBooster+ Zrzuty ekranu 5" loading="lazy" data-idx="4" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">FAQ</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Czy telefon naprawdę gra głośniej?</p><p class="faq-a">Tak. Maksymalizator głośności używa kompresji wielopasmowej i wzmocnienia wyrównującego, aby naprawdę zwiększyć odczuwaną głośność, i podnosi całe wyjście systemowe zamiast jednej aplikacji — muzykę, filmy, YouTube, gry i rozmowy. Za darmo do +10 dB, a Pro lub Free Pass otwiera pełny zakres +15 dB.</p></div>
-        <div class="faq-item"><p class="faq-q">Czy aplikacja jest naprawdę darmowa, czy potrzebna jest subskrypcja?</p><p class="faq-a">Za darmo dostajesz do +10 dB, wszystkie 9 presetów, 5-pasmowy korektor, panel pływający i AutoEQ dla głównych marek, takich jak Apple, Samsung, Sony, Bose, JBL i Beats; darmowe wzmacnianie jest ograniczone do 60 minut dziennie i resetuje się o północy. Free Pass za jedną krótką reklamę daje 24 godziny Max Boost (pełny zakres +15 dB bez limitu dziennego) lub AutoEQ (cały katalog słuchawek) — bez karty i bez okresu próbnego do anulowania. Pro odblokowuje pełny zakres, nieograniczony czas, wszystkie profile AutoEQ i panel ochrony słuchu oraz usuwa reklamy: miesięcznie, rocznie lub jednorazowo na zawsze.</p></div>
-        <div class="faq-item"><p class="faq-q">Czy pokazywana wartość w decybelach to dokładny pomiar?</p><p class="faq-a">To szacunek. Wzmocnienie pokazywane jest w prawdziwych decybelach ze strefami WHO Bezpiecznie, Uwaga i Niebezpiecznie, ale wartość wynika z głośności systemu i zastosowanego wzmocnienia, a rzeczywista głośność zależy od urządzenia, słuchawek i treści. Aplikacja nie jest wyrobem medycznym — przy bólu uszu lub szumach zmniejsz głośność i skonsultuj się ze specjalistą.</p></div>
-      </div>
+          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=61" alt="VolumeBooster+ Zrzuty ekranu 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=61" alt="VolumeBooster+ Zrzuty ekranu 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=61" alt="VolumeBooster+ Zrzuty ekranu 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/volumebooster-4.jpg?v=61" alt="VolumeBooster+ Zrzuty ekranu 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/volumebooster-5.jpg?v=61" alt="VolumeBooster+ Zrzuty ekranu 5" loading="lazy" data-idx="4" />
+        </div>
     </div>
   </section>
 
-  <section class="detail-section" id="reviews">
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Przegląd</h2>
+      <div class="detail-long">
+          <p>Telefon gra za cicho? VolumeBooster+ podnosi całe wyjście systemowe, a nie jedną aplikację: ciche głośniki, słabe słuchawki, trudne do usłyszenia filmy, rozmowy, muzykę i gry wreszcie słychać wyraźnie. Wzmocnienie pokazywane jest w decybelach, do +15 dB, ze strefami Bezpiecznie / Uwaga / Niebezpiecznie opartymi na zaleceniach WHO, więc zawsze widzisz, jak daleko zaszedłeś.</p>
+          <p>Za darmo dostępne jest +10 dB, a Pro lub Free Pass otwiera pełny zakres. Maksymalizator głośności, 5-pasmowy korektor z dziewięcioma darmowymi presetami, wzmacniacz basów, wirtualizator 3D i korekcja AutoEQ oparta na 2456 zmierzonych profilach słuchawek są w tej samej aplikacji.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt" id="reviews">
     <div class="container">
       <h2 class="detail-title">Co mówią użytkownicy</h2>
-      <p class="section-lead" style="margin-bottom:22px">Prawdziwe recenzje wystawione w Google Play.</p>
+      <p class="detail-lead">Prawdziwe recenzje wystawione w Google Play.</p>
       <div class="reviews-grid">
         <figure class="review-card">
           <div class="review-stars" aria-label="5 / 5">★★★★★</div>
           <blockquote class="review-text">WOW! what a difference! I am trying free version &amp; 3 decibel boost helps immensely already! I've been playing podcasts on tablet using an external speaker. With this app I can hear very clearly just from the tablet. It even has different settings for various types of sound like music, podcast, etc like an equalizer. Already using Clipboard+ from the same developer &amp; it is an awesome app! Highly recommend it!</blockquote>
           <figcaption class="review-meta"><span class="review-name">Liz W</span><span class="review-app">Google Play</span></figcaption>
         </figure>
-      </div>
+        </div>
     </div>
   </section>
 
-  <div class="detail-cta">
-    <a href="/pl/#apps" class="btn btn-primary">Zobacz więcej aplikacji</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">FAQ</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Czy telefon naprawdę gra głośniej?</p><p class="faq-a">Tak. Maksymalizator głośności używa kompresji wielopasmowej i wzmocnienia wyrównującego, aby naprawdę zwiększyć odczuwaną głośność, i podnosi całe wyjście systemowe zamiast jednej aplikacji — muzykę, filmy, YouTube, gry i rozmowy. Za darmo do +10 dB, a Pro lub Free Pass otwiera pełny zakres +15 dB.</p></div>
+          <div class="faq-item"><p class="faq-q">Czy aplikacja jest naprawdę darmowa, czy potrzebna jest subskrypcja?</p><p class="faq-a">Za darmo dostajesz do +10 dB, wszystkie 9 presetów, 5-pasmowy korektor, panel pływający i AutoEQ dla głównych marek, takich jak Apple, Samsung, Sony, Bose, JBL i Beats; darmowe wzmacnianie jest ograniczone do 60 minut dziennie i resetuje się o północy. Free Pass za jedną krótką reklamę daje 24 godziny Max Boost (pełny zakres +15 dB bez limitu dziennego) lub AutoEQ (cały katalog słuchawek) — bez karty i bez okresu próbnego do anulowania. Pro odblokowuje pełny zakres, nieograniczony czas, wszystkie profile AutoEQ i panel ochrony słuchu oraz usuwa reklamy: miesięcznie, rocznie lub jednorazowo na zawsze.</p></div>
+          <div class="faq-item"><p class="faq-q">Czy pokazywana wartość w decybelach to dokładny pomiar?</p><p class="faq-a">To szacunek. Wzmocnienie pokazywane jest w prawdziwych decybelach ze strefami WHO Bezpiecznie, Uwaga i Niebezpiecznie, ale wartość wynika z głośności systemu i zastosowanego wzmocnienia, a rzeczywista głośność zależy od urządzenia, słuchawek i treści. Aplikacja nie jest wyrobem medycznym — przy bólu uszu lub szumach zmniejsz głośność i skonsultuj się ze specjalistą.</p></div>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Zobacz więcej aplikacji</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/pl/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">Ukrywaj dane osobowe na zdjęciach i w plikach PDF, w pełni na urządzeniu.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/pl/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">Pomoc w czytaniu dla dysleksji i ADHD z podświetleniem wiersza i maską czytania.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/pl/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">Karteczki, które pływają nad każdą aplikacją. Zwiń do kafelka, rozwiń w kartę — z kolorami i formatowaniem.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/pl/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">Historia schowka dla tekstu i obrazów. Szukaj, wklejaj i synchronizuj z PC.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -302,6 +344,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/volumebooster.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>VolumeBooster+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dpl" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -309,6 +357,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"pl","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/volumebooster.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/volumebooster.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/volumebooster.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/volumebooster.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/volumebooster.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/volumebooster.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/volumebooster.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/volumebooster.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/volumebooster.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/volumebooster.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/volumebooster.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/volumebooster.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/volumebooster.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/volumebooster.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/volumebooster.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/volumebooster.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/volumebooster.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/volumebooster.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/volumebooster.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/volumebooster.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/volumebooster.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

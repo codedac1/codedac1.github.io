@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 7.0+",
   "screenshot": [
     "https://codedac.com/images/shots/volumebooster-1.jpg",
     "https://codedac.com/images/shots/volumebooster-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/vi/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/vi/">Trang chủ</a>
-      <span class="sep">/</span>
-      <a href="/vi/#apps">Ứng dụng</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>VolumeBooster+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/volumebooster.png?v=60" alt="VolumeBooster+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Âm thanh</span><span class="app-langs" aria-label="21 ngôn ngữ"><span class="globe" aria-hidden="true">🌐</span>21 ngôn ngữ</span></span>
-        <h1><bdi>VolumeBooster+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Làm mọi ứng dụng to hơn — lên đến +15 dB, hiển thị bằng decibel thật kèm vùng an toàn.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dvi" class="btn btn-primary" target="_blank" rel="noopener">Xem trên Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Liên hệ</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/vi/">Trang chủ</a>
+        <span class="sep">/</span>
+        <a href="/vi/#apps">Ứng dụng</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>VolumeBooster+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Âm thanh</span><span class="app-langs" aria-label="21 ngôn ngữ"><span class="globe" aria-hidden="true">🌐</span>21 ngôn ngữ</span></span>
+              <h1><bdi>VolumeBooster+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Làm mọi ứng dụng to hơn — lên đến +15 dB, hiển thị bằng decibel thật kèm vùng an toàn.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 7.0+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dvi" class="btn btn-primary" target="_blank" rel="noopener">Xem trên Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BVolumeBooster%2B%5D%20H%E1%BB%97%20tr%E1%BB%A3%20%26%20b%C3%A1o%20l%E1%BB%97i&amp;body=1.%20%C4%90%C3%A3%20x%E1%BA%A3y%20ra%20v%E1%BA%A5n%20%C4%91%E1%BB%81%20g%C3%AC%3F%20(N%E1%BA%BFu%20bi%E1%BA%BFt%20c%C3%A1c%20b%C6%B0%E1%BB%9Bc%20t%C3%A1i%20hi%E1%BB%87n%2C%20h%C3%A3y%20ghi%20th%C3%AAm)%0A-%20%0A%0A2.%20Thi%E1%BA%BFt%20b%E1%BB%8B%20v%C3%A0%20phi%C3%AAn%20b%E1%BA%A3n%20OS%0A-%20%0A%0A3.%20Phi%C3%AAn%20b%E1%BA%A3n%20%E1%BB%A9ng%20d%E1%BB%A5ng%0A-%20%0A" class="btn btn-glass">Hỗ trợ &amp; báo lỗi</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=61" alt="VolumeBooster+ Ảnh chụp màn hình 1" data-idx="0" />
+          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=61" alt="VolumeBooster+ Ảnh chụp màn hình 2" data-idx="1" />
+          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=61" alt="VolumeBooster+ Ảnh chụp màn hình 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -227,66 +241,94 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Tổng quan</h2>
-      <p class="detail-long">Điện thoại quá nhỏ tiếng? VolumeBooster+ nâng toàn bộ đầu ra hệ thống chứ không chỉ một ứng dụng: loa yếu, tai nghe nhỏ tiếng, video khó nghe, cuộc gọi, nhạc và game cuối cùng cũng nghe rõ. Mức tăng hiển thị bằng decibel, lên đến +15 dB, kèm vùng An toàn / Thận trọng / Nguy hiểm dựa trên hướng dẫn thính lực của WHO nên bạn luôn biết mình đã tăng đến đâu. Bản miễn phí đạt +10 dB, còn Pro hoặc Free Pass mở trọn dải. Bộ tối đa hóa độ lớn, bộ chỉnh âm 5 dải với chín preset đều miễn phí, bộ tăng bass, mô phỏng 3D và hiệu chỉnh AutoEQ dựa trên 2.456 hồ sơ tai nghe đo thực tế đều nằm trong cùng một ứng dụng.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Tính năng chính</h2>
-      <ul class="feature-list">
-        <li>Tăng âm toàn hệ thống lên đến +15 dB kèm nhãn An toàn / Thận trọng / Nguy hiểm — miễn phí +10 dB, trọn dải với Pro hoặc Free Pass</li>
-        <li>Bộ tối đa hóa độ lớn với nén đa băng tần, bù gain và bộ giới hạn đỉnh luôn bật: to hơn thật sự, không méo tiếng</li>
-        <li>Bộ chỉnh âm 5 dải với 9 preset, tất cả miễn phí: Flat, Pop, Rock, Vocal, Classical, EDM, Movie, Gaming và Night Mode</li>
-        <li>Tăng bass, mô phỏng 3D và AutoEQ: 2.456 hồ sơ tai nghe đo thực tế từ 357 thương hiệu, các thương hiệu phổ biến (Apple, Samsung, Sony, Bose, JBL, Beats) miễn phí</li>
-        <li>Bảng nổi miễn phí cho mọi người, cùng thống kê bảo vệ thính lực (Pro), hẹn giờ ngủ nhỏ dần, cân bằng kênh T/P, ô Cài đặt nhanh, tiện ích màn hình chính và điều khiển từ thông báo</li>
-        <li>Free Pass: một quảng cáo ngắn đổi lấy 24 giờ Max Boost hoặc AutoEQ; ngoài ra tăng âm miễn phí chạy 60 phút mỗi ngày và đặt lại lúc nửa đêm</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Tăng âm toàn hệ thống lên đến +15 dB kèm nhãn An toàn / Thận trọng / Nguy hiểm — miễn phí +10 dB, trọn dải với Pro hoặc Free Pass</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Bộ tối đa hóa độ lớn với nén đa băng tần, bù gain và bộ giới hạn đỉnh luôn bật: to hơn thật sự, không méo tiếng</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Bộ chỉnh âm 5 dải với 9 preset, tất cả miễn phí: Flat, Pop, Rock, Vocal, Classical, EDM, Movie, Gaming và Night Mode</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Tăng bass, mô phỏng 3D và AutoEQ: 2.456 hồ sơ tai nghe đo thực tế từ 357 thương hiệu, các thương hiệu phổ biến (Apple, Samsung, Sony, Bose, JBL, Beats) miễn phí</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Bảng nổi miễn phí cho mọi người, cùng thống kê bảo vệ thính lực (Pro), hẹn giờ ngủ nhỏ dần, cân bằng kênh T/P, ô Cài đặt nhanh, tiện ích màn hình chính và điều khiển từ thông báo</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Free Pass: một quảng cáo ngắn đổi lấy 24 giờ Max Boost hoặc AutoEQ; ngoài ra tăng âm miễn phí chạy 60 phút mỗi ngày và đặt lại lúc nửa đêm</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Ảnh chụp màn hình</h2>
-      <p class="section-lead" style="margin-bottom:22px">Chạm vào ảnh chụp màn hình để xem lớn hơn.</p>
+      <p class="detail-lead">Chạm vào ảnh chụp màn hình để xem lớn hơn.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/volumebooster-1.jpg?v=60" alt="VolumeBooster+ Ảnh chụp màn hình 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/volumebooster-2.jpg?v=60" alt="VolumeBooster+ Ảnh chụp màn hình 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/volumebooster-3.jpg?v=60" alt="VolumeBooster+ Ảnh chụp màn hình 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/volumebooster-4.jpg?v=60" alt="VolumeBooster+ Ảnh chụp màn hình 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/volumebooster-5.jpg?v=60" alt="VolumeBooster+ Ảnh chụp màn hình 5" loading="lazy" data-idx="4" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Câu hỏi thường gặp</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Điện thoại có thực sự to hơn không?</p><p class="faq-a">Có. Bộ tối đa hóa độ lớn dùng nén đa băng tần và bù gain để tăng thật sự độ lớn cảm nhận được, và nó nâng toàn bộ đầu ra hệ thống thay vì một ứng dụng — nhạc, video, YouTube, game và cuộc gọi đều vậy. Bản miễn phí tăng đến +10 dB, Pro hoặc Free Pass mở trọn dải +15 dB.</p></div>
-        <div class="faq-item"><p class="faq-q">Ứng dụng có thực sự miễn phí không, có cần thuê bao không?</p><p class="faq-a">Bản miễn phí cho bạn tối đa +10 dB, cả 9 preset, bộ chỉnh âm 5 dải, bảng nổi và AutoEQ cho các thương hiệu phổ biến như Apple, Samsung, Sony, Bose, JBL và Beats; tăng âm miễn phí giới hạn 60 phút mỗi ngày và đặt lại lúc nửa đêm. Free Pass chỉ cần một quảng cáo ngắn để có 24 giờ Max Boost (trọn dải +15 dB, không giới hạn hằng ngày) hoặc AutoEQ (toàn bộ danh mục tai nghe), không cần thẻ và không có bản dùng thử phải hủy. Pro mở trọn dải, thời gian không giới hạn, toàn bộ hồ sơ AutoEQ và bảng bảo vệ thính lực, đồng thời xóa quảng cáo: theo tháng, theo năm hoặc mua một lần trọn đời.</p></div>
-        <div class="faq-item"><p class="faq-q">Giá trị decibel hiển thị có phải là số đo chính xác không?</p><p class="faq-a">Đó là ước tính. Mức tăng hiển thị bằng decibel thật kèm vùng An toàn, Thận trọng và Nguy hiểm theo WHO, nhưng giá trị này được tính từ âm lượng hệ thống và mức khuếch đại áp dụng, còn độ lớn thực tế thay đổi theo thiết bị, tai nghe và nội dung. Ứng dụng không phải thiết bị y tế, nên nếu bạn thấy đau tai hoặc ù tai, hãy giảm âm lượng và tham khảo ý kiến chuyên gia.</p></div>
-      </div>
+          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=61" alt="VolumeBooster+ Ảnh chụp màn hình 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=61" alt="VolumeBooster+ Ảnh chụp màn hình 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=61" alt="VolumeBooster+ Ảnh chụp màn hình 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/volumebooster-4.jpg?v=61" alt="VolumeBooster+ Ảnh chụp màn hình 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/volumebooster-5.jpg?v=61" alt="VolumeBooster+ Ảnh chụp màn hình 5" loading="lazy" data-idx="4" />
+        </div>
     </div>
   </section>
 
-  <section class="detail-section" id="reviews">
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Tổng quan</h2>
+      <div class="detail-long">
+          <p>Điện thoại quá nhỏ tiếng? VolumeBooster+ nâng toàn bộ đầu ra hệ thống chứ không chỉ một ứng dụng: loa yếu, tai nghe nhỏ tiếng, video khó nghe, cuộc gọi, nhạc và game cuối cùng cũng nghe rõ. Mức tăng hiển thị bằng decibel, lên đến +15 dB, kèm vùng An toàn / Thận trọng / Nguy hiểm dựa trên hướng dẫn thính lực của WHO nên bạn luôn biết mình đã tăng đến đâu.</p>
+          <p>Bản miễn phí đạt +10 dB, còn Pro hoặc Free Pass mở trọn dải. Bộ tối đa hóa độ lớn, bộ chỉnh âm 5 dải với chín preset đều miễn phí, bộ tăng bass, mô phỏng 3D và hiệu chỉnh AutoEQ dựa trên 2.456 hồ sơ tai nghe đo thực tế đều nằm trong cùng một ứng dụng.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt" id="reviews">
     <div class="container">
       <h2 class="detail-title">Người dùng nói gì</h2>
-      <p class="section-lead" style="margin-bottom:22px">Đánh giá thực tế trên Google Play.</p>
+      <p class="detail-lead">Đánh giá thực tế trên Google Play.</p>
       <div class="reviews-grid">
         <figure class="review-card">
           <div class="review-stars" aria-label="5 / 5">★★★★★</div>
           <blockquote class="review-text">WOW! what a difference! I am trying free version &amp; 3 decibel boost helps immensely already! I've been playing podcasts on tablet using an external speaker. With this app I can hear very clearly just from the tablet. It even has different settings for various types of sound like music, podcast, etc like an equalizer. Already using Clipboard+ from the same developer &amp; it is an awesome app! Highly recommend it!</blockquote>
           <figcaption class="review-meta"><span class="review-name">Liz W</span><span class="review-app">Google Play</span></figcaption>
         </figure>
-      </div>
+        </div>
     </div>
   </section>
 
-  <div class="detail-cta">
-    <a href="/vi/#apps" class="btn btn-primary">Khám phá thêm ứng dụng</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Câu hỏi thường gặp</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Điện thoại có thực sự to hơn không?</p><p class="faq-a">Có. Bộ tối đa hóa độ lớn dùng nén đa băng tần và bù gain để tăng thật sự độ lớn cảm nhận được, và nó nâng toàn bộ đầu ra hệ thống thay vì một ứng dụng — nhạc, video, YouTube, game và cuộc gọi đều vậy. Bản miễn phí tăng đến +10 dB, Pro hoặc Free Pass mở trọn dải +15 dB.</p></div>
+          <div class="faq-item"><p class="faq-q">Ứng dụng có thực sự miễn phí không, có cần thuê bao không?</p><p class="faq-a">Bản miễn phí cho bạn tối đa +10 dB, cả 9 preset, bộ chỉnh âm 5 dải, bảng nổi và AutoEQ cho các thương hiệu phổ biến như Apple, Samsung, Sony, Bose, JBL và Beats; tăng âm miễn phí giới hạn 60 phút mỗi ngày và đặt lại lúc nửa đêm. Free Pass chỉ cần một quảng cáo ngắn để có 24 giờ Max Boost (trọn dải +15 dB, không giới hạn hằng ngày) hoặc AutoEQ (toàn bộ danh mục tai nghe), không cần thẻ và không có bản dùng thử phải hủy. Pro mở trọn dải, thời gian không giới hạn, toàn bộ hồ sơ AutoEQ và bảng bảo vệ thính lực, đồng thời xóa quảng cáo: theo tháng, theo năm hoặc mua một lần trọn đời.</p></div>
+          <div class="faq-item"><p class="faq-q">Giá trị decibel hiển thị có phải là số đo chính xác không?</p><p class="faq-a">Đó là ước tính. Mức tăng hiển thị bằng decibel thật kèm vùng An toàn, Thận trọng và Nguy hiểm theo WHO, nhưng giá trị này được tính từ âm lượng hệ thống và mức khuếch đại áp dụng, còn độ lớn thực tế thay đổi theo thiết bị, tai nghe và nội dung. Ứng dụng không phải thiết bị y tế, nên nếu bạn thấy đau tai hoặc ù tai, hãy giảm âm lượng và tham khảo ý kiến chuyên gia.</p></div>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Khám phá thêm ứng dụng</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/vi/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">Che thông tin cá nhân trong ảnh và PDF, hoàn toàn trên thiết bị.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/vi/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">Công cụ hỗ trợ đọc cho người khó đọc và ADHD với đánh dấu dòng và lớp che.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/vi/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">Ghi chú dán nổi trên mọi ứng dụng. Thu gọn thành chip, mở thành thẻ, có màu sắc và định dạng.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/vi/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">Lưu mọi văn bản và ảnh đã sao chép. Tìm kiếm, dán và đồng bộ sang PC.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -302,6 +344,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/volumebooster.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>VolumeBooster+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dvi" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -309,6 +357,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"vi","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/volumebooster.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/volumebooster.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/volumebooster.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/volumebooster.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/volumebooster.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/volumebooster.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/volumebooster.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/volumebooster.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/volumebooster.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/volumebooster.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/volumebooster.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/volumebooster.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/volumebooster.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/volumebooster.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/volumebooster.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/volumebooster.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/volumebooster.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/volumebooster.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/volumebooster.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/volumebooster.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/volumebooster.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Windows 10+",
   "screenshot": [
     "https://codedac.com/images/shots/floattimerwin-1.jpg",
     "https://codedac.com/images/shots/floattimerwin-2.jpg",
@@ -150,7 +151,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/fr/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -197,28 +198,40 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/fr/">Accueil</a>
-      <span class="sep">/</span>
-      <a href="/fr/#apps">Applications</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatTimer+ for Windows</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floattimerwin.png?v=60" alt="FloatTimer+ for Windows icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Flottant</span><span class="app-langs" aria-label="21 langues"><span class="globe" aria-hidden="true">🌐</span>21 langues</span></span>
-        <h1><bdi>FloatTimer+ for Windows</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Des minuteurs, compteurs et chronomètres qui flottent au-dessus de ce que vous êtes en train de faire : de petites cartes pastel que vous placez où vous voulez, et qui ne volent jamais le focus à l'application en dessous.</h2>
-        <div class="app-hero-actions">
-          <a href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-detail-hero-fr" class="btn btn-primary" target="_blank" rel="noopener">Voir sur le Microsoft Store →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Nous contacter</a>
+  <section class="app-hero-d app-hero-windows">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/fr/">Accueil</a>
+        <span class="sep">/</span>
+        <a href="/fr/#apps">Applications</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatTimer+ for Windows</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floattimerwin.png?v=61" alt="FloatTimer+ for Windows icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Flottant</span><span class="app-langs" aria-label="21 langues"><span class="globe" aria-hidden="true">🌐</span>21 langues</span></span>
+              <h1><bdi>FloatTimer+ for Windows</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Des minuteurs, compteurs et chronomètres qui flottent au-dessus de ce que vous êtes en train de faire : de petites cartes pastel que vous placez où vous voulez, et qui ne volent jamais le focus à l'application en dessous.</h2>
+          <ul class="app-facts">
+            <li class="fact-windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span dir="ltr">Windows · Microsoft Store</span></li>
+            <li><span dir="ltr">Windows 10+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-detail-hero-fr" class="btn btn-primary" target="_blank" rel="noopener">Voir sur le Microsoft Store →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatTimer%2B%20for%20Windows%5D%20Support%20et%20bugs&amp;body=1.%20Que%20s'est-il%20pass%C3%A9%20%3F%20(Les%20%C3%A9tapes%20pour%20reproduire%20le%20probl%C3%A8me%20aident%20beaucoup)%0A-%20%0A%0A2.%20Appareil%20et%20version%20de%20l'OS%0A-%20%0A%0A3.%20Version%20de%20l'application%0A-%20%0A" class="btn btn-glass">Support et bugs</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-windows">
+          <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=61" alt="FloatTimer+ for Windows Captures d'écran 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=61" alt="FloatTimer+ for Windows Captures d'écran 2" data-idx="1" />
         </div>
       </div>
     </div>
@@ -226,8 +239,50 @@
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">Fonctionnalités clés</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Minuteurs, compteurs et chronomètres flottent au-dessus de toutes les fenêtres en petites cartes pastel — déplacez-les, redimensionnez-les ou repliez-les en une bulle marquée de l'icône de l'application</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Ne vole jamais le focus — cliquez ou faites glisser une carte, votre curseur reste dans le document que vous étiez en train d'écrire</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Démarrage, pause et remise à zéro depuis la carte elle-même, sans ouvrir l'application ; les compteurs ajoutent et retirent selon la moitié cliquée</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Neuf couleurs pastel, taille et opacité des cartes réglables, et des fenêtres qui suivent votre thème clair ou sombre</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Le fichier de sauvegarde a le même format que celui de l'application Android : exportez d'un côté, restaurez de l'autre</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Raccourcis globaux, zone de notification, lancement à l'ouverture de session, 21 langues. Aucun compte, aucun réseau, aucune publicité — et Pro est un achat unique</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Captures d'écran</h2>
+      <p class="detail-lead">Touchez une capture d'écran pour l'agrandir.</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=61" alt="FloatTimer+ for Windows Captures d'écran 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=61" alt="FloatTimer+ for Windows Captures d'écran 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floattimerwin-3.jpg?v=61" alt="FloatTimer+ for Windows Captures d'écran 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floattimerwin-4.jpg?v=61" alt="FloatTimer+ for Windows Captures d'écran 4" loading="lazy" data-idx="3" />
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
       <h2 class="detail-title">Aperçu</h2>
-      <p class="detail-long">FloatTimer+ for Windows est la version bureau de l'application Android FloatTimer+. Au lieu d'une fenêtre vers laquelle il faut basculer, chaque minuteur devient une petite carte pastel qui flotte au-dessus de votre travail — votre éditeur, votre navigateur, votre visioconférence — et défile sous vos yeux. Cliquez sur une carte pour la lancer ou la mettre en pause, faites-la glisser où elle a sa place, ou repliez-la en une bulle à peine plus grande qu'un bouton, marquée de l'icône de l'application : cliquez n'importe où dessus pour rouvrir la carte, réduisez-la jusqu'à l'icône seule, ou poussez-la contre le bord de l'écran où elle se cache à moitié. La carte ne prend jamais le focus à l'application derrière elle : votre curseur reste exactement là où vous l'avez laissé pendant que vous tapez. Les compteurs retirent ou ajoutent selon la moitié de carte cliquée, les chronomètres comptent vers le haut, et neuf couleurs pastel permettent de les distinguer d'un coup d'œil. L'application vit dans la zone de notification, ne demande aucun compte et n'utilise jamais le réseau : vos minuteurs restent dans un fichier sur votre propre PC.</p>
+      <div class="detail-long">
+          <p>FloatTimer+ for Windows est la version bureau de l'application Android FloatTimer+. Au lieu d'une fenêtre vers laquelle il faut basculer, chaque minuteur devient une petite carte pastel qui flotte au-dessus de votre travail — votre éditeur, votre navigateur, votre visioconférence — et défile sous vos yeux.</p>
+          <p>Cliquez sur une carte pour la lancer ou la mettre en pause, faites-la glisser où elle a sa place, ou repliez-la en une bulle à peine plus grande qu'un bouton, marquée de l'icône de l'application : cliquez n'importe où dessus pour rouvrir la carte, réduisez-la jusqu'à l'icône seule, ou poussez-la contre le bord de l'écran où elle se cache à moitié. La carte ne prend jamais le focus à l'application derrière elle : votre curseur reste exactement là où vous l'avez laissé pendant que vous tapez.</p>
+          <p>Les compteurs retirent ou ajoutent selon la moitié de carte cliquée, les chronomètres comptent vers le haut, et neuf couleurs pastel permettent de les distinguer d'un coup d'œil. L'application vit dans la zone de notification, ne demande aucun compte et n'utilise jamais le réseau : vos minuteurs restent dans un fichier sur votre propre PC.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">FAQ</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Est-ce la même application que FloatTimer+ sur Android ?</p><p class="faq-a">C'est la même application conçue pour Windows, avec les mêmes cartes flottantes. Chacune s'achète sur sa propre boutique. Les deux ne se synchronisent pas automatiquement, mais elles lisent et écrivent le même fichier de sauvegarde : exportez d'un côté et restaurez de l'autre pour emporter votre liste.</p></div>
+          <div class="faq-item"><p class="faq-q">Est-ce que cela gêne l'application en dessous ?</p><p class="faq-a">Non. Une carte est une fenêtre flottante qui ne prend jamais le focus : la cliquer ou la déplacer laisse votre curseur exactement là où vous écriviez. Quand vous avez besoin de l'écran, repliez une carte en une bulle à peine plus grande qu'un bouton, poussez-la contre le bord de l'écran où elle se cache à moitié, ou masquez-les toutes d'un raccourci.</p></div>
+          <div class="faq-item"><p class="faq-q">L'application est-elle gratuite ?</p><p class="faq-a">Oui. Vous pouvez créer autant de minuteurs, compteurs et chronomètres que vous voulez — la liste n'est jamais limitée — et la version Windows est sans publicité. La version gratuite fait flotter une carte à la fois. Pro est un achat unique, pas un abonnement, et ajoute les cartes flottantes illimitées, la répétition automatique des minuteurs, la couleur de votre choix ainsi que votre propre son d'alerte ou une alerte en plein écran.</p></div>
+        </div>
     </div>
   </section>
 
@@ -235,7 +290,7 @@
     <div class="container">
       <h2 class="detail-title">Également disponible sur Android</h2>
       <a class="counterpart" href="/fr/apps/floattimer.html">
-        <img class="app-icon" src="/images/icons/floattimer.png?v=60" alt="FloatTimer+ icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>FloatTimer+</bdi></span>
           <span class="cp-desc">Un minuteur, compteur et chronomètre flottant par-dessus toute application.</span>
@@ -244,47 +299,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
+
+  <section class="detail-section is-alt">
     <div class="container">
-      <h2 class="detail-title">Fonctionnalités clés</h2>
-      <ul class="feature-list">
-        <li>Minuteurs, compteurs et chronomètres flottent au-dessus de toutes les fenêtres en petites cartes pastel — déplacez-les, redimensionnez-les ou repliez-les en une bulle marquée de l'icône de l'application</li>
-        <li>Ne vole jamais le focus — cliquez ou faites glisser une carte, votre curseur reste dans le document que vous étiez en train d'écrire</li>
-        <li>Démarrage, pause et remise à zéro depuis la carte elle-même, sans ouvrir l'application ; les compteurs ajoutent et retirent selon la moitié cliquée</li>
-        <li>Neuf couleurs pastel, taille et opacité des cartes réglables, et des fenêtres qui suivent votre thème clair ou sombre</li>
-        <li>Le fichier de sauvegarde a le même format que celui de l'application Android : exportez d'un côté, restaurez de l'autre</li>
-        <li>Raccourcis globaux, zone de notification, lancement à l'ouverture de session, 21 langues. Aucun compte, aucun réseau, aucune publicité — et Pro est un achat unique</li>
-      </ul>
+      <h2 class="detail-title">Découvrir d'autres applis</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/fr/apps/clipboardwin.html">
+            <img class="app-icon" src="/images/icons/clipboardwin.png?v=61" alt="Clipboard+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+ for Windows</bdi></span><span class="rc-desc">Un gestionnaire de presse-papiers Windows dans la barre d'état système, synchronisé avec l'appli Android Clipboard+.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/fr/apps/readfocuswin.html">
+            <img class="app-icon" src="/images/icons/readfocuswin.png?v=61" alt="ReadFocus+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+ for Windows</bdi></span><span class="rc-desc">Une bande de focus traversante pour Windows : Masque et Surlignage gardent l’œil sur la ligne.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/fr/apps/floatnotewin.html">
+            <img class="app-icon" src="/images/icons/floatnotewin.png?v=61" alt="FloatNote+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+ for Windows</bdi></span><span class="rc-desc">Des pense-bêtes qui flottent au-dessus de n'importe quelle fenêtre Windows et se synchronisent avec l'appli Android FloatNote+.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/fr/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">Historique du presse-papiers : textes et images. Recherche et sync avec le PC.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Captures d'écran</h2>
-      <p class="section-lead" style="margin-bottom:22px">Touchez une capture d'écran pour l'agrandir.</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=60" alt="FloatTimer+ for Windows Captures d'écran 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=60" alt="FloatTimer+ for Windows Captures d'écran 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floattimerwin-3.jpg?v=60" alt="FloatTimer+ for Windows Captures d'écran 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floattimerwin-4.jpg?v=60" alt="FloatTimer+ for Windows Captures d'écran 4" loading="lazy" data-idx="3" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">FAQ</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Est-ce la même application que FloatTimer+ sur Android ?</p><p class="faq-a">C'est la même application conçue pour Windows, avec les mêmes cartes flottantes. Chacune s'achète sur sa propre boutique. Les deux ne se synchronisent pas automatiquement, mais elles lisent et écrivent le même fichier de sauvegarde : exportez d'un côté et restaurez de l'autre pour emporter votre liste.</p></div>
-        <div class="faq-item"><p class="faq-q">Est-ce que cela gêne l'application en dessous ?</p><p class="faq-a">Non. Une carte est une fenêtre flottante qui ne prend jamais le focus : la cliquer ou la déplacer laisse votre curseur exactement là où vous écriviez. Quand vous avez besoin de l'écran, repliez une carte en une bulle à peine plus grande qu'un bouton, poussez-la contre le bord de l'écran où elle se cache à moitié, ou masquez-les toutes d'un raccourci.</p></div>
-        <div class="faq-item"><p class="faq-q">L'application est-elle gratuite ?</p><p class="faq-a">Oui. Vous pouvez créer autant de minuteurs, compteurs et chronomètres que vous voulez — la liste n'est jamais limitée — et la version Windows est sans publicité. La version gratuite fait flotter une carte à la fois. Pro est un achat unique, pas un abonnement, et ajoute les cartes flottantes illimitées, la répétition automatique des minuteurs, la couleur de votre choix ainsi que votre propre son d'alerte ou une alerte en plein écran.</p></div>
-      </div>
-    </div>
-  </section>
-
-
-  <div class="detail-cta">
-    <a href="/fr/#apps" class="btn btn-primary">Découvrir d'autres applis</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -300,6 +342,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floattimerwin.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatTimer+ for Windows</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-detail-sticky-fr" target="_blank" rel="noopener">Microsoft Store</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -307,6 +355,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"fr","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floattimerwin.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floattimerwin.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floattimerwin.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floattimerwin.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floattimerwin.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floattimerwin.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floattimerwin.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floattimerwin.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floattimerwin.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floattimerwin.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floattimerwin.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floattimerwin.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floattimerwin.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floattimerwin.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floattimerwin.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floattimerwin.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floattimerwin.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floattimerwin.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floattimerwin.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floattimerwin.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floattimerwin.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

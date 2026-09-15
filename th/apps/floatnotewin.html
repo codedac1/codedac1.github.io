@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Windows 10+",
   "screenshot": [
     "https://codedac.com/images/shots/floatnotewin-1.jpg",
     "https://codedac.com/images/shots/floatnotewin-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/th/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,40 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/th/">หน้าแรก</a>
-      <span class="sep">/</span>
-      <a href="/th/#apps">แอป</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatNote+ for Windows</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floatnotewin.png?v=60" alt="FloatNote+ for Windows icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">โน้ต</span><span class="app-langs" aria-label="21 ภาษา"><span class="globe" aria-hidden="true">🌐</span>21 ภาษา</span></span>
-        <h1><bdi>FloatNote+ for Windows</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">โน้ตกาวที่ลอยอยู่เหนือสิ่งที่คุณกำลังทำ เขียนได้โดยไม่ต้องออกจากหน้าต่างเดิม และไม่แย่งโฟกัสไปจากมัน</h2>
-        <div class="app-hero-actions">
-          <a href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-detail-hero-th" class="btn btn-primary" target="_blank" rel="noopener">ดูบน Microsoft Store →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">ติดต่อเรา</a>
+  <section class="app-hero-d app-hero-windows">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/th/">หน้าแรก</a>
+        <span class="sep">/</span>
+        <a href="/th/#apps">แอป</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatNote+ for Windows</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floatnotewin.png?v=61" alt="FloatNote+ for Windows icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">โน้ต</span><span class="app-langs" aria-label="21 ภาษา"><span class="globe" aria-hidden="true">🌐</span>21 ภาษา</span></span>
+              <h1><bdi>FloatNote+ for Windows</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">โน้ตกาวที่ลอยอยู่เหนือสิ่งที่คุณกำลังทำ เขียนได้โดยไม่ต้องออกจากหน้าต่างเดิม และไม่แย่งโฟกัสไปจากมัน</h2>
+          <ul class="app-facts">
+            <li class="fact-windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span dir="ltr">Windows · Microsoft Store</span></li>
+            <li><span dir="ltr">Windows 10+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-detail-hero-th" class="btn btn-primary" target="_blank" rel="noopener">ดูบน Microsoft Store →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatNote%2B%20for%20Windows%5D%20%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A1%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%81%E0%B8%88%E0%B9%89%E0%B8%87%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2&amp;body=1.%20%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%20(%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%97%E0%B8%B3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B8%8B%E0%B9%89%E0%B8%B3%20%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%84%E0%B8%A7%E0%B9%89%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2)%0A-%20%0A%0A2.%20%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B8%99%20OS%0A-%20%0A%0A3.%20%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%AD%E0%B8%9B%0A-%20%0A" class="btn btn-glass">สอบถามและแจ้งปัญหา</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-windows">
+          <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=61" alt="FloatNote+ for Windows ภาพหน้าจอ 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=61" alt="FloatNote+ for Windows ภาพหน้าจอ 2" data-idx="1" />
         </div>
       </div>
     </div>
@@ -227,8 +240,49 @@
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">ฟีเจอร์เด่น</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>โน้ตกาวที่ลอยเหนือทุกหน้าต่าง: ชิปขยายเป็นการ์ดที่แก้ไขได้ตรงนั้น และกด Esc เพื่อย่อกลับ</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>ไม่แย่งโฟกัส — ลากหรือคลิกชิปได้ โดยเคอร์เซอร์ยังอยู่ในแอปที่คุณกำลังพิมพ์</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>ไม่มีปุ่มบันทึก: ทุกการกดแป้นถูกบันทึกให้อัตโนมัติ และหน้าต่างคลังดูแลการค้นหา ปักหมุด และจัดการ</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>ข้อความจัดรูปแบบ — ตัวหนา เอียง ขีดเส้นใต้ ขีดฆ่า สีและขนาดตัวอักษร — พร้อมสีโน้ตพาสเทล 7 สีและรูปภาพในโน้ต</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>ซิงก์มือถือกับพีซีสองทางผ่าน Google Drive ของคุณเอง — โฟลเดอร์เฉพาะของแอปเดียวกับที่แอป Android ใช้ และไม่ผ่านเซิร์ฟเวอร์ของ CodeDAC</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>ฮอตคีย์ทั่วระบบ ถาดระบบ ธีมสว่างและมืด เริ่มทำงานเมื่อเข้าสู่ระบบ 21 ภาษา ไม่มีโฆษณา และ Pro เป็นการซื้อครั้งเดียว</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">ภาพหน้าจอ</h2>
+      <p class="detail-lead">แตะที่ภาพหน้าจอเพื่อดูขนาดใหญ่ขึ้น</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=61" alt="FloatNote+ for Windows ภาพหน้าจอ 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=61" alt="FloatNote+ for Windows ภาพหน้าจอ 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floatnotewin-3.jpg?v=61" alt="FloatNote+ for Windows ภาพหน้าจอ 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floatnotewin-4.jpg?v=61" alt="FloatNote+ for Windows ภาพหน้าจอ 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/floatnotewin-5.jpg?v=61" alt="FloatNote+ for Windows ภาพหน้าจอ 5" loading="lazy" data-idx="4" />
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
       <h2 class="detail-title">ภาพรวม</h2>
-      <p class="detail-long">FloatNote+ for Windows คือเวอร์ชันเดสก์ท็อปของแอป FloatNote+ บน Android โน้ตแต่ละใบจะอยู่เป็นชิปเล็ก ๆ เหนือเบราว์เซอร์ โปรแกรมแก้ไข หรือสเปรดชีต คลิกครั้งเดียวก็ขยายเป็นการ์ดตรงนั้นเพื่ออ่านหรือแก้ไข และกด Esc ก็ย่อกลับเป็นชิป ชิปไม่เคยแย่งโฟกัสจากแอปที่อยู่ด้านหลัง สิ่งที่คุณกำลังพิมพ์จึงคงอยู่เหมือนเดิม และไม่มีปุ่มบันทึกเพราะทุกการกดแป้นถูกบันทึกให้อัตโนมัติ สีพาสเทล 7 สี ข้อความจัดรูปแบบ และรูปภาพในโน้ตช่วยแยกแต่ละใบออกจากกัน ส่วนหน้าต่างคลังดูแลการค้นหา ปักหมุด และจัดการ ขณะที่การซิงค์แบบเลือกใช้จะส่งโน้ตผ่านโฟลเดอร์เฉพาะของแอปใน Google Drive ของคุณเอง ซึ่งเป็นโฟลเดอร์เดียวกับที่แอปบน Android ใช้</p>
+      <div class="detail-long">
+          <p>FloatNote+ for Windows คือเวอร์ชันเดสก์ท็อปของแอป FloatNote+ บน Android โน้ตแต่ละใบจะอยู่เป็นชิปเล็ก ๆ เหนือเบราว์เซอร์ โปรแกรมแก้ไข หรือสเปรดชีต คลิกครั้งเดียวก็ขยายเป็นการ์ดตรงนั้นเพื่ออ่านหรือแก้ไข และกด Esc ก็ย่อกลับเป็นชิป ชิปไม่เคยแย่งโฟกัสจากแอปที่อยู่ด้านหลัง สิ่งที่คุณกำลังพิมพ์จึงคงอยู่เหมือนเดิม และไม่มีปุ่มบันทึกเพราะทุกการกดแป้นถูกบันทึกให้อัตโนมัติ สีพาสเทล 7 สี ข้อความจัดรูปแบบ และรูปภาพในโน้ตช่วยแยกแต่ละใบออกจากกัน ส่วนหน้าต่างคลังดูแลการค้นหา ปักหมุด และจัดการ ขณะที่การซิงค์แบบเลือกใช้จะส่งโน้ตผ่านโฟลเดอร์เฉพาะของแอปใน Google Drive ของคุณเอง ซึ่งเป็นโฟลเดอร์เดียวกับที่แอปบน Android ใช้</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">คำถามที่พบบ่อย</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">แอปนี้เหมือนกับ FloatNote+ บน Android หรือไม่</p><p class="faq-a">เป็นแอปเดียวกันที่ทำขึ้นสำหรับ Windows ชิปและการ์ดก็เหมือนกัน การซื้อแยกกันตามสโตร์ของแต่ละฝั่ง แต่เมื่อลงชื่อเข้าใช้ Google Drive ด้วยบัญชีเดียวกันในทั้งสองแอปแล้วเปิดการซิงก์อัตโนมัติ โน้ตที่เขียนบนพีซีก็จะไปถึงมือถือ และโน้ตที่เขียนบนมือถือก็จะมาถึงพีซี โน้ตไม่ผ่านเซิร์ฟเวอร์ของ CodeDAC แต่ถูกเก็บไว้ใน Google Drive ของคุณเองเท่านั้น ทั้งข้อความและรูปที่แนบจะซิงก์ระหว่างเครื่อง</p></div>
+          <div class="faq-item"><p class="faq-q">มันรบกวนแอปที่อยู่ด้านล่างไหม</p><p class="faq-a">ไม่รบกวน ชิปเป็นหน้าต่างลอยที่ไม่รับโฟกัส คลิกหรือลากก็ได้โดยเคอร์เซอร์ยังอยู่ตรงที่คุณกำลังพิมพ์ คลิกชิปเพื่อขยายเป็นการ์ด กด Esc หรือคลิกที่อื่นแล้วมันจะย่อกลับพร้อมบันทึกไว้แล้ว</p></div>
+          <div class="faq-item"><p class="faq-q">ใช้ฟรีได้ไหม</p><p class="faq-a">ได้ การเขียนและเก็บโน้ตฟรีและไม่จำกัด และเวอร์ชัน Windows ไม่มีโฆษณา เวอร์ชันฟรีลอยโน้ตได้ครั้งละหนึ่งใบ และครบทั้งเจ็ดสี ส่วน Pro เป็นการซื้อครั้งเดียวไม่ใช่การสมัครสมาชิก เพิ่มโน้ตลอยไม่จำกัด รูปภาพในโน้ต ปรับความโปร่งใสของโน้ต ซิงค์ Google Drive และการส่งออกกับนำเข้าโน้ต</p></div>
+        </div>
     </div>
   </section>
 
@@ -236,7 +290,7 @@
     <div class="container">
       <h2 class="detail-title">มีให้ใช้งานบน Android ด้วย</h2>
       <a class="counterpart" href="/th/apps/floatnote.html">
-        <img class="app-icon" src="/images/icons/floatnote.png?v=60" alt="FloatNote+ icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>FloatNote+</bdi></span>
           <span class="cp-desc">โน้ตกาวที่ลอยอยู่เหนือทุกแอป ย่อเป็นชิป ขยายเป็นการ์ด พร้อมสีและข้อความจัดรูปแบบ</span>
@@ -245,48 +299,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
+
+  <section class="detail-section is-alt">
     <div class="container">
-      <h2 class="detail-title">ฟีเจอร์เด่น</h2>
-      <ul class="feature-list">
-        <li>โน้ตกาวที่ลอยเหนือทุกหน้าต่าง: ชิปขยายเป็นการ์ดที่แก้ไขได้ตรงนั้น และกด Esc เพื่อย่อกลับ</li>
-        <li>ไม่แย่งโฟกัส — ลากหรือคลิกชิปได้ โดยเคอร์เซอร์ยังอยู่ในแอปที่คุณกำลังพิมพ์</li>
-        <li>ไม่มีปุ่มบันทึก: ทุกการกดแป้นถูกบันทึกให้อัตโนมัติ และหน้าต่างคลังดูแลการค้นหา ปักหมุด และจัดการ</li>
-        <li>ข้อความจัดรูปแบบ — ตัวหนา เอียง ขีดเส้นใต้ ขีดฆ่า สีและขนาดตัวอักษร — พร้อมสีโน้ตพาสเทล 7 สีและรูปภาพในโน้ต</li>
-        <li>ซิงก์มือถือกับพีซีสองทางผ่าน Google Drive ของคุณเอง — โฟลเดอร์เฉพาะของแอปเดียวกับที่แอป Android ใช้ และไม่ผ่านเซิร์ฟเวอร์ของ CodeDAC</li>
-        <li>ฮอตคีย์ทั่วระบบ ถาดระบบ ธีมสว่างและมืด เริ่มทำงานเมื่อเข้าสู่ระบบ 21 ภาษา ไม่มีโฆษณา และ Pro เป็นการซื้อครั้งเดียว</li>
-      </ul>
+      <h2 class="detail-title">สำรวจแอปเพิ่มเติม</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/th/apps/floattimerwin.html">
+            <img class="app-icon" src="/images/icons/floattimerwin.png?v=61" alt="FloatTimer+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+ for Windows</bdi></span><span class="rc-desc">ตัวจับเวลา ตัวนับ และนาฬิกาจับเวลาที่ลอยอยู่เหนือทุกหน้าต่างบน Windows เป็นการ์ดพาสเทลใบเล็ก</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/th/apps/clipboardwin.html">
+            <img class="app-icon" src="/images/icons/clipboardwin.png?v=61" alt="Clipboard+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+ for Windows</bdi></span><span class="rc-desc">ตัวจัดการคลิปบอร์ดบนถาดระบบ Windows ที่ซิงก์กับแอป Clipboard+ บน Android</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/th/apps/readfocuswin.html">
+            <img class="app-icon" src="/images/icons/readfocuswin.png?v=61" alt="ReadFocus+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+ for Windows</bdi></span><span class="rc-desc">แถบโฟกัสบน Windows ที่คลิกทะลุได้ — มาสก์และไฮไลต์ช่วยให้สายตาอยู่กับบรรทัดเดิม</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/th/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">บันทึกทุกข้อความและรูปที่คัดลอก ค้นหา วาง และซิงก์กับพีซีได้</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">ภาพหน้าจอ</h2>
-      <p class="section-lead" style="margin-bottom:22px">แตะที่ภาพหน้าจอเพื่อดูขนาดใหญ่ขึ้น</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=60" alt="FloatNote+ for Windows ภาพหน้าจอ 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=60" alt="FloatNote+ for Windows ภาพหน้าจอ 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floatnotewin-3.jpg?v=60" alt="FloatNote+ for Windows ภาพหน้าจอ 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floatnotewin-4.jpg?v=60" alt="FloatNote+ for Windows ภาพหน้าจอ 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floatnotewin-5.jpg?v=60" alt="FloatNote+ for Windows ภาพหน้าจอ 5" loading="lazy" data-idx="4" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">คำถามที่พบบ่อย</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">แอปนี้เหมือนกับ FloatNote+ บน Android หรือไม่</p><p class="faq-a">เป็นแอปเดียวกันที่ทำขึ้นสำหรับ Windows ชิปและการ์ดก็เหมือนกัน การซื้อแยกกันตามสโตร์ของแต่ละฝั่ง แต่เมื่อลงชื่อเข้าใช้ Google Drive ด้วยบัญชีเดียวกันในทั้งสองแอปแล้วเปิดการซิงก์อัตโนมัติ โน้ตที่เขียนบนพีซีก็จะไปถึงมือถือ และโน้ตที่เขียนบนมือถือก็จะมาถึงพีซี โน้ตไม่ผ่านเซิร์ฟเวอร์ของ CodeDAC แต่ถูกเก็บไว้ใน Google Drive ของคุณเองเท่านั้น ทั้งข้อความและรูปที่แนบจะซิงก์ระหว่างเครื่อง</p></div>
-        <div class="faq-item"><p class="faq-q">มันรบกวนแอปที่อยู่ด้านล่างไหม</p><p class="faq-a">ไม่รบกวน ชิปเป็นหน้าต่างลอยที่ไม่รับโฟกัส คลิกหรือลากก็ได้โดยเคอร์เซอร์ยังอยู่ตรงที่คุณกำลังพิมพ์ คลิกชิปเพื่อขยายเป็นการ์ด กด Esc หรือคลิกที่อื่นแล้วมันจะย่อกลับพร้อมบันทึกไว้แล้ว</p></div>
-        <div class="faq-item"><p class="faq-q">ใช้ฟรีได้ไหม</p><p class="faq-a">ได้ การเขียนและเก็บโน้ตฟรีและไม่จำกัด และเวอร์ชัน Windows ไม่มีโฆษณา เวอร์ชันฟรีลอยโน้ตได้ครั้งละหนึ่งใบ และครบทั้งเจ็ดสี ส่วน Pro เป็นการซื้อครั้งเดียวไม่ใช่การสมัครสมาชิก เพิ่มโน้ตลอยไม่จำกัด รูปภาพในโน้ต ปรับความโปร่งใสของโน้ต ซิงค์ Google Drive และการส่งออกกับนำเข้าโน้ต</p></div>
-      </div>
-    </div>
-  </section>
-
-
-  <div class="detail-cta">
-    <a href="/th/#apps" class="btn btn-primary">สำรวจแอปเพิ่มเติม</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -302,6 +342,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floatnotewin.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatNote+ for Windows</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-detail-sticky-th" target="_blank" rel="noopener">Microsoft Store</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -309,6 +355,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"th","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floatnotewin.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floatnotewin.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floatnotewin.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floatnotewin.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floatnotewin.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floatnotewin.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floatnotewin.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floatnotewin.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floatnotewin.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floatnotewin.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floatnotewin.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floatnotewin.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floatnotewin.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floatnotewin.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floatnotewin.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floatnotewin.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floatnotewin.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floatnotewin.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floatnotewin.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floatnotewin.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floatnotewin.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

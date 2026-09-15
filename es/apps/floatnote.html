@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 8.0+",
   "screenshot": [
     "https://codedac.com/images/shots/floatnote-1.jpg",
     "https://codedac.com/images/shots/floatnote-2.jpg",
@@ -160,7 +161,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/es/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -207,28 +208,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/es/">Inicio</a>
-      <span class="sep">/</span>
-      <a href="/es/#apps">Apps</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatNote+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floatnote.png?v=60" alt="FloatNote+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Notas</span><span class="app-langs" aria-label="21 idiomas"><span class="globe" aria-hidden="true">🌐</span>21 idiomas</span></span>
-        <h1><bdi>FloatNote+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Notas adhesivas que flotan sobre cualquier app: anota una idea y se queda en pantalla, siempre a un toque.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Des" class="btn btn-primary" target="_blank" rel="noopener">Ver en Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Contáctanos</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/es/">Inicio</a>
+        <span class="sep">/</span>
+        <a href="/es/#apps">Apps</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatNote+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Notas</span><span class="app-langs" aria-label="21 idiomas"><span class="globe" aria-hidden="true">🌐</span>21 idiomas</span></span>
+              <h1><bdi>FloatNote+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Notas adhesivas que flotan sobre cualquier app: anota una idea y se queda en pantalla, siempre a un toque.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 8.0+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Des" class="btn btn-primary" target="_blank" rel="noopener">Ver en Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatNote%2B%5D%20Soporte%20y%20errores&amp;body=1.%20%C2%BFQu%C3%A9%20pas%C3%B3%3F%20(Los%20pasos%20para%20reproducirlo%20ayudan%20mucho)%0A-%20%0A%0A2.%20Dispositivo%20y%20versi%C3%B3n%20del%20sistema%0A-%20%0A%0A3.%20Versi%C3%B3n%20de%20la%20app%0A-%20%0A" class="btn btn-glass">Soporte y errores</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/floatnote-1.jpg?v=61" alt="FloatNote+ Capturas 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floatnote-2.jpg?v=61" alt="FloatNote+ Capturas 2" data-idx="1" />
+          <img class="shot" src="/images/shots/floatnote-3.jpg?v=61" alt="FloatNote+ Capturas 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -236,8 +250,53 @@
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">Funciones principales</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Notas overlay flotantes: contrae una nota en un chip y ábrela como tarjeta sobre cualquier app</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>7 colores de nota y texto enriquecido: negrita, cursiva, subrayado, tachado, color y tamaño del texto</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Imágenes en la nota (Pro): adjunta fotos dentro de la propia nota</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Captura rápida desde el menú de compartir, desde texto seleccionado en otra app o desde el mosaico de Ajustes rápidos</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Archivo con búsqueda instantánea, notas fijadas y reordenación arrastrando; llevar un chip a la zona inferior guarda la nota en lugar de borrarla</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Pro: notas flotantes ilimitadas, imágenes, opacidad ajustable, sincronización con Google Drive, exportar e importar, sin anuncios</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Capturas</h2>
+      <p class="detail-lead">Toca una captura para verla más grande.</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/floatnote-1.jpg?v=61" alt="FloatNote+ Capturas 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floatnote-2.jpg?v=61" alt="FloatNote+ Capturas 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floatnote-3.jpg?v=61" alt="FloatNote+ Capturas 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floatnote-4.jpg?v=61" alt="FloatNote+ Capturas 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/floatnote-5.jpg?v=61" alt="FloatNote+ Capturas 5" loading="lazy" data-idx="4" />
+          <img class="shot" src="/images/shots/floatnote-6.jpg?v=61" alt="FloatNote+ Capturas 6" loading="lazy" data-idx="5" />
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
       <h2 class="detail-title">Resumen</h2>
-      <p class="detail-long">FloatNote+ mantiene notas adhesivas flotando sobre cualquier app. Concede el permiso de superposición una vez y cada nota vive como un chip pequeño sobre el navegador, el chat, el vídeo o la pantalla de inicio; al tocarlo se abre ahí mismo como tarjeta completa para leer, editar y compartir. Los colores, el texto enriquecido y las imágenes distinguen cada nota, mientras la app principal funciona como archivo para buscar, fijar y reordenar. Incluye tema claro y oscuro. Si lo usas junto con FloatNote+ for Windows, las notas escritas en el teléfono aparecen en el PC, y las escritas en el PC aparecen en el teléfono. Basta con iniciar sesión en Google Drive con la misma cuenta en ambas apps; las notas no pasan por ningún servidor de CodeDAC: se guardan solo en tu propio Google Drive.</p>
+      <div class="detail-long">
+          <p>FloatNote+ mantiene notas adhesivas flotando sobre cualquier app. Concede el permiso de superposición una vez y cada nota vive como un chip pequeño sobre el navegador, el chat, el vídeo o la pantalla de inicio; al tocarlo se abre ahí mismo como tarjeta completa para leer, editar y compartir.</p>
+          <p>Los colores, el texto enriquecido y las imágenes distinguen cada nota, mientras la app principal funciona como archivo para buscar, fijar y reordenar. Incluye tema claro y oscuro.</p>
+          <p>Si lo usas junto con FloatNote+ for Windows, las notas escritas en el teléfono aparecen en el PC, y las escritas en el PC aparecen en el teléfono. Basta con iniciar sesión en Google Drive con la misma cuenta en ambas apps; las notas no pasan por ningún servidor de CodeDAC: se guardan solo en tu propio Google Drive.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Preguntas frecuentes</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">¿Cómo funcionan las notas flotantes?</p><p class="faq-a">Concede el permiso de superposición una vez y tus notas flotarán como chips pequeños sobre otras apps. Toca un chip para abrirlo como tarjeta y editarlo ahí mismo; toca fuera y se contrae guardando automáticamente. Arrastrar un chip a la zona inferior solo guarda la nota: borrar de verdad siempre pide confirmación.</p></div>
+          <div class="faq-item"><p class="faq-q">¿Dónde puedo usarlo?</p><p class="faq-a">En cualquier parte de la pantalla: sobre el navegador, un chat, un vídeo, un documento o la pantalla de inicio. También puedes crear una nota sin abrir la app, desde el menú de compartir, desde texto seleccionado en otra app o desde el mosaico de Ajustes rápidos.</p></div>
+          <div class="faq-item"><p class="faq-q">¿Se sincroniza con mi PC con Windows?</p><p class="faq-a">Sí. Instala también FloatNote+ for Windows y, en los ajustes de ambas apps, inicia sesión en Google Drive con la misma cuenta y activa la sincronización automática. A partir de ahí, las notas escritas en el teléfono aparecen en el PC, y las escritas en el PC aparecen en el teléfono. Las notas no pasan por ningún servidor de CodeDAC: se guardan solo en tu propio Google Drive. Se sincronizan tanto el texto como las imágenes adjuntas.</p></div>
+          <div class="faq-item"><p class="faq-q">¿Es gratis?</p><p class="faq-a">Sí. Guardar notas es ilimitado y gratuito, y la versión gratuita hace flotar una nota a la vez, incluye los 7 colores y muestra anuncios. Pro añade notas flotantes ilimitadas, imágenes, opacidad ajustable, sincronización con Google Drive, exportar e importar, y quita los anuncios.</p></div>
+        </div>
     </div>
   </section>
 
@@ -245,7 +304,7 @@
     <div class="container">
       <h2 class="detail-title">También disponible en Windows</h2>
       <a class="counterpart" href="/es/apps/floatnotewin.html">
-        <img class="app-icon" src="/images/icons/floatnotewin.png?v=60" alt="FloatNote+ for Windows icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/floatnotewin.png?v=61" alt="FloatNote+ for Windows icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>FloatNote+ for Windows</bdi></span>
           <span class="cp-desc">Notas adhesivas que flotan sobre cualquier ventana de Windows y se sincronizan con la app de Android FloatNote+.</span>
@@ -254,50 +313,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
+
+  <section class="detail-section is-alt">
     <div class="container">
-      <h2 class="detail-title">Funciones principales</h2>
-      <ul class="feature-list">
-        <li>Notas overlay flotantes: contrae una nota en un chip y ábrela como tarjeta sobre cualquier app</li>
-        <li>7 colores de nota y texto enriquecido: negrita, cursiva, subrayado, tachado, color y tamaño del texto</li>
-        <li>Imágenes en la nota (Pro): adjunta fotos dentro de la propia nota</li>
-        <li>Captura rápida desde el menú de compartir, desde texto seleccionado en otra app o desde el mosaico de Ajustes rápidos</li>
-        <li>Archivo con búsqueda instantánea, notas fijadas y reordenación arrastrando; llevar un chip a la zona inferior guarda la nota en lugar de borrarla</li>
-        <li>Pro: notas flotantes ilimitadas, imágenes, opacidad ajustable, sincronización con Google Drive, exportar e importar, sin anuncios</li>
-      </ul>
+      <h2 class="detail-title">Explora más apps</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/es/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">Historial del portapapeles: texto e imágenes. Busca, pega y sincroniza con PC.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/es/apps/autostart.html">
+            <img class="app-icon" src="/images/icons/autostart.png?v=61" alt="AutoStart+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>AutoStart+</bdi></span><span class="rc-desc">Inicia tus apps automáticamente al arrancar. Sin root, configúralo una vez.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/es/apps/floatcalc.html">
+            <img class="app-icon" src="/images/icons/floatcalc.png?v=61" alt="FloatCalc+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCalc+</bdi></span><span class="rc-desc">Calculadora flotante con conversor de divisas y unidades sobre cualquier app.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/es/apps/floatcrypto.html">
+            <img class="app-icon" src="/images/icons/floatcrypto.png?v=61" alt="FloatCrypto+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCrypto+</bdi></span><span class="rc-desc">Ticker cripto en vivo flotando sobre cualquier app, con alertas y gráficos.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Capturas</h2>
-      <p class="section-lead" style="margin-bottom:22px">Toca una captura para verla más grande.</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floatnote-1.jpg?v=60" alt="FloatNote+ Capturas 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floatnote-2.jpg?v=60" alt="FloatNote+ Capturas 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floatnote-3.jpg?v=60" alt="FloatNote+ Capturas 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floatnote-4.jpg?v=60" alt="FloatNote+ Capturas 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floatnote-5.jpg?v=60" alt="FloatNote+ Capturas 5" loading="lazy" data-idx="4" />
-        <img class="shot" src="/images/shots/floatnote-6.jpg?v=60" alt="FloatNote+ Capturas 6" loading="lazy" data-idx="5" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Preguntas frecuentes</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">¿Cómo funcionan las notas flotantes?</p><p class="faq-a">Concede el permiso de superposición una vez y tus notas flotarán como chips pequeños sobre otras apps. Toca un chip para abrirlo como tarjeta y editarlo ahí mismo; toca fuera y se contrae guardando automáticamente. Arrastrar un chip a la zona inferior solo guarda la nota: borrar de verdad siempre pide confirmación.</p></div>
-        <div class="faq-item"><p class="faq-q">¿Dónde puedo usarlo?</p><p class="faq-a">En cualquier parte de la pantalla: sobre el navegador, un chat, un vídeo, un documento o la pantalla de inicio. También puedes crear una nota sin abrir la app, desde el menú de compartir, desde texto seleccionado en otra app o desde el mosaico de Ajustes rápidos.</p></div>
-        <div class="faq-item"><p class="faq-q">¿Se sincroniza con mi PC con Windows?</p><p class="faq-a">Sí. Instala también FloatNote+ for Windows y, en los ajustes de ambas apps, inicia sesión en Google Drive con la misma cuenta y activa la sincronización automática. A partir de ahí, las notas escritas en el teléfono aparecen en el PC, y las escritas en el PC aparecen en el teléfono. Las notas no pasan por ningún servidor de CodeDAC: se guardan solo en tu propio Google Drive. Se sincronizan tanto el texto como las imágenes adjuntas.</p></div>
-        <div class="faq-item"><p class="faq-q">¿Es gratis?</p><p class="faq-a">Sí. Guardar notas es ilimitado y gratuito, y la versión gratuita hace flotar una nota a la vez, incluye los 7 colores y muestra anuncios. Pro añade notas flotantes ilimitadas, imágenes, opacidad ajustable, sincronización con Google Drive, exportar e importar, y quita los anuncios.</p></div>
-      </div>
-    </div>
-  </section>
-
-
-  <div class="detail-cta">
-    <a href="/es/#apps" class="btn btn-primary">Explora más apps</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -313,6 +356,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floatnote.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatNote+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Des" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -320,6 +369,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"es","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floatnote.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floatnote.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floatnote.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floatnote.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floatnote.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floatnote.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floatnote.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floatnote.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floatnote.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floatnote.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floatnote.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floatnote.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floatnote.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floatnote.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floatnote.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floatnote.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floatnote.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floatnote.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floatnote.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floatnote.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floatnote.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

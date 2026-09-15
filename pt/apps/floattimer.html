@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 8.0+",
   "screenshot": [
     "https://codedac.com/images/shots/floattimer-1.jpg",
     "https://codedac.com/images/shots/floattimer-2.jpg",
@@ -152,7 +153,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/pt/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -199,28 +200,42 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/pt/">Início</a>
-      <span class="sep">/</span>
-      <a href="/pt/#apps">Apps</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatTimer+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floattimer.png?v=60" alt="FloatTimer+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Flutuante</span><span class="app-langs" aria-label="21 idiomas"><span class="globe" aria-hidden="true">🌐</span>21 idiomas</span></span>
-        <h1><bdi>FloatTimer+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Uma contagem regressiva, um contador e um cronômetro que flutuam sobre todos os apps.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dpt" class="btn btn-primary" target="_blank" rel="noopener">Ver no Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Fale conosco</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/pt/">Início</a>
+        <span class="sep">/</span>
+        <a href="/pt/#apps">Apps</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatTimer+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Flutuante</span><span class="app-langs" aria-label="21 idiomas"><span class="globe" aria-hidden="true">🌐</span>21 idiomas</span></span>
+              <h1><bdi>FloatTimer+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Uma contagem regressiva, um contador e um cronômetro que flutuam sobre todos os apps.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 8.0+</span></li>
+            <li><span dir="ltr">1,000+</span><span>Downloads</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dpt" class="btn btn-primary" target="_blank" rel="noopener">Ver no Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatTimer%2B%5D%20Suporte%20e%20bugs&amp;body=1.%20O%20que%20aconteceu%3F%20(Os%20passos%20para%20reproduzir%20ajudam%20muito)%0A-%20%0A%0A2.%20Dispositivo%20e%20vers%C3%A3o%20do%20sistema%0A-%20%0A%0A3.%20Vers%C3%A3o%20do%20app%0A-%20%0A" class="btn btn-glass">Suporte e bugs</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/floattimer-1.jpg?v=61" alt="FloatTimer+ Capturas de tela 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floattimer-2.jpg?v=61" alt="FloatTimer+ Capturas de tela 2" data-idx="1" />
+          <img class="shot" src="/images/shots/floattimer-3.jpg?v=61" alt="FloatTimer+ Capturas de tela 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -228,8 +243,52 @@
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">Principais recursos</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Janela flutuante — timers, contadores e cronômetros flutuam sobre qualquer app; arraste para onde quiser e ajuste tamanho, opacidade e cor de fundo de cada item</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Multi timer — qualquer duração em horas, minutos e segundos, com atalhos de 1, 5, 10, 25, 30 e 60 minutos e quantos timers quiser ao mesmo tempo</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Controle na sobreposição — inicie, pause e zere pelo menu flutuante sem abrir o app, ou recolha em uma bolha com o ícone do app e toque em qualquer ponto para abrir de novo</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Contador — toque para somar ou subtrair direto na sobreposição, com passo de 1, 2, 5 ou 10 e quantos contadores precisar</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Cronômetro — vários cronômetros medidos separadamente; inicie, pause e zere sem sair do app que está usando</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Avisos e backup — som, vibração ou alerta em tela cheia ao terminar, além de exportar para um arquivo e restaurar juntando ou substituindo tudo</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Capturas de tela</h2>
+      <p class="detail-lead">Toque em uma captura de tela para vê-la ampliada.</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/floattimer-1.jpg?v=61" alt="FloatTimer+ Capturas de tela 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floattimer-2.jpg?v=61" alt="FloatTimer+ Capturas de tela 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floattimer-3.jpg?v=61" alt="FloatTimer+ Capturas de tela 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floattimer-4.jpg?v=61" alt="FloatTimer+ Capturas de tela 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/floattimer-5.jpg?v=61" alt="FloatTimer+ Capturas de tela 5" loading="lazy" data-idx="4" />
+          <img class="shot" src="/images/shots/floattimer-6.jpg?v=61" alt="FloatTimer+ Capturas de tela 6" loading="lazy" data-idx="5" />
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
       <h2 class="detail-title">Visão geral</h2>
-      <p class="detail-long">O FloatTimer+ é um app de janela flutuante que mantém contagem regressiva, contador e cronômetro por cima de qualquer aplicativo que você use. O timer continua à vista enquanto você faz outra coisa: arraste para onde quiser, ajuste tamanho, opacidade e cor de fundo de cada item ou recolha em uma bolha com o ícone do app quando precisar da tela: toque em qualquer ponto para abrir de novo, reduza ainda mais até só o ícone ou empurre para a borda, onde ela se esconde pela metade. Dá para iniciar, pausar e zerar pelo menu da sobreposição sem abrir o app, e tudo continua rodando em segundo plano mesmo se você trocar de aplicativo ou bloquear a tela. Configure uma vez e siga cozinhando, treinando, estudando ou jogando sem perder o tempo de vista.</p>
+      <div class="detail-long">
+          <p>O FloatTimer+ é um app de janela flutuante que mantém contagem regressiva, contador e cronômetro por cima de qualquer aplicativo que você use.</p>
+          <p>O timer continua à vista enquanto você faz outra coisa: arraste para onde quiser, ajuste tamanho, opacidade e cor de fundo de cada item ou recolha em uma bolha com o ícone do app quando precisar da tela: toque em qualquer ponto para abrir de novo, reduza ainda mais até só o ícone ou empurre para a borda, onde ela se esconde pela metade.</p>
+          <p>Dá para iniciar, pausar e zerar pelo menu da sobreposição sem abrir o app, e tudo continua rodando em segundo plano mesmo se você trocar de aplicativo ou bloquear a tela. Configure uma vez e siga cozinhando, treinando, estudando ou jogando sem perder o tempo de vista.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Perguntas frequentes</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">O timer continua visível enquanto uso outros apps?</p><p class="faq-a">Sim. Timer, contador e cronômetro flutuam sobre qualquer aplicativo e rodam em segundo plano, então continuam mesmo se você trocar de app ou bloquear a tela.</p></div>
+          <div class="faq-item"><p class="faq-q">Posso usar como timer Pomodoro ou de treino?</p><p class="faq-a">Sim. Há atalhos como 25 minutos, você pode definir qualquer duração e rodar vários timers ao mesmo tempo para séries e descansos. No Pro, o timer se repete 2, 3, 5 vezes ou infinitamente.</p></div>
+          <div class="faq-item"><p class="faq-q">O que a versão grátis inclui?</p><p class="faq-a">Timers, contadores e cronômetros ilimitados, sem limite diário de uso. A única limitação grátis é mostrar uma janela flutuante por vez — no Pro você mostra quantas quiser, ou assiste a um anúncio curto para um Free Pass de 24 horas.</p></div>
+        </div>
     </div>
   </section>
 
@@ -237,7 +296,7 @@
     <div class="container">
       <h2 class="detail-title">Também disponível no Windows</h2>
       <a class="counterpart" href="/pt/apps/floattimerwin.html">
-        <img class="app-icon" src="/images/icons/floattimerwin.png?v=60" alt="FloatTimer+ for Windows icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/floattimerwin.png?v=61" alt="FloatTimer+ for Windows icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>FloatTimer+ for Windows</bdi></span>
           <span class="cp-desc">Timers, contadores e cronômetros que flutuam sobre qualquer janela do Windows como pequenos cartões pastel.</span>
@@ -246,49 +305,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
+
+  <section class="detail-section is-alt">
     <div class="container">
-      <h2 class="detail-title">Principais recursos</h2>
-      <ul class="feature-list">
-        <li>Janela flutuante — timers, contadores e cronômetros flutuam sobre qualquer app; arraste para onde quiser e ajuste tamanho, opacidade e cor de fundo de cada item</li>
-        <li>Multi timer — qualquer duração em horas, minutos e segundos, com atalhos de 1, 5, 10, 25, 30 e 60 minutos e quantos timers quiser ao mesmo tempo</li>
-        <li>Controle na sobreposição — inicie, pause e zere pelo menu flutuante sem abrir o app, ou recolha em uma bolha com o ícone do app e toque em qualquer ponto para abrir de novo</li>
-        <li>Contador — toque para somar ou subtrair direto na sobreposição, com passo de 1, 2, 5 ou 10 e quantos contadores precisar</li>
-        <li>Cronômetro — vários cronômetros medidos separadamente; inicie, pause e zere sem sair do app que está usando</li>
-        <li>Avisos e backup — som, vibração ou alerta em tela cheia ao terminar, além de exportar para um arquivo e restaurar juntando ou substituindo tudo</li>
-      </ul>
+      <h2 class="detail-title">Explorar mais apps</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/pt/apps/volumebooster.html">
+            <img class="app-icon" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>VolumeBooster+</bdi></span><span class="rc-desc">Amplificador de volume, equalizador e graves: qualquer som mais alto, até +15 dB.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/pt/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">Oculte dados pessoais em fotos e PDFs, totalmente no aparelho.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/pt/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">Um apoio à leitura para dislexia e TDAH, com destaque de linha e máscara.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/pt/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">Notas adesivas que flutuam sobre qualquer app. Recolha em um chip, abra como cartão, com cores e texto rico.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Capturas de tela</h2>
-      <p class="section-lead" style="margin-bottom:22px">Toque em uma captura de tela para vê-la ampliada.</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floattimer-1.jpg?v=60" alt="FloatTimer+ Capturas de tela 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floattimer-2.jpg?v=60" alt="FloatTimer+ Capturas de tela 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floattimer-3.jpg?v=60" alt="FloatTimer+ Capturas de tela 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floattimer-4.jpg?v=60" alt="FloatTimer+ Capturas de tela 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floattimer-5.jpg?v=60" alt="FloatTimer+ Capturas de tela 5" loading="lazy" data-idx="4" />
-        <img class="shot" src="/images/shots/floattimer-6.jpg?v=60" alt="FloatTimer+ Capturas de tela 6" loading="lazy" data-idx="5" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Perguntas frequentes</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">O timer continua visível enquanto uso outros apps?</p><p class="faq-a">Sim. Timer, contador e cronômetro flutuam sobre qualquer aplicativo e rodam em segundo plano, então continuam mesmo se você trocar de app ou bloquear a tela.</p></div>
-        <div class="faq-item"><p class="faq-q">Posso usar como timer Pomodoro ou de treino?</p><p class="faq-a">Sim. Há atalhos como 25 minutos, você pode definir qualquer duração e rodar vários timers ao mesmo tempo para séries e descansos. No Pro, o timer se repete 2, 3, 5 vezes ou infinitamente.</p></div>
-        <div class="faq-item"><p class="faq-q">O que a versão grátis inclui?</p><p class="faq-a">Timers, contadores e cronômetros ilimitados, sem limite diário de uso. A única limitação grátis é mostrar uma janela flutuante por vez — no Pro você mostra quantas quiser, ou assiste a um anúncio curto para um Free Pass de 24 horas.</p></div>
-      </div>
-    </div>
-  </section>
-
-
-  <div class="detail-cta">
-    <a href="/pt/#apps" class="btn btn-primary">Explorar mais apps</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -304,6 +348,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floattimer.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatTimer+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dpt" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -311,6 +361,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"pt","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floattimer.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floattimer.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floattimer.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floattimer.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floattimer.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floattimer.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floattimer.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floattimer.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floattimer.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floattimer.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floattimer.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floattimer.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floattimer.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floattimer.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floattimer.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floattimer.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floattimer.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floattimer.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floattimer.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floattimer.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floattimer.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 8.0+",
   "screenshot": [
     "https://codedac.com/images/shots/floatcrypto-1.jpg",
     "https://codedac.com/images/shots/floatcrypto-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/fil/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/fil/">Home</a>
-      <span class="sep">/</span>
-      <a href="/fil/#apps">Mga App</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatCrypto+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floatcrypto.png?v=60" alt="FloatCrypto+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span>
-        <h1><bdi>FloatCrypto+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Bitcoin, Ethereum at mga altcoin mo sa screen — sa ibabaw ng app na ginagamit mo.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dfil" class="btn btn-primary" target="_blank" rel="noopener">Tingnan sa Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Makipag-ugnayan</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/fil/">Home</a>
+        <span class="sep">/</span>
+        <a href="/fil/#apps">Mga App</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatCrypto+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floatcrypto.png?v=61" alt="FloatCrypto+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span>
+              <h1><bdi>FloatCrypto+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Bitcoin, Ethereum at mga altcoin mo sa screen — sa ibabaw ng app na ginagamit mo.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 8.0+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dfil" class="btn btn-primary" target="_blank" rel="noopener">Tingnan sa Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatCrypto%2B%5D%20Suporta%20at%20bug%20report&amp;body=1.%20Ano%20ang%20nangyari%3F%20(Isulat%20ang%20mga%20hakbang%20para%20maulit%20ito%20kung%20maaari)%0A-%20%0A%0A2.%20Device%20at%20bersyon%20ng%20OS%0A-%20%0A%0A3.%20Bersyon%20ng%20app%0A-%20%0A" class="btn btn-glass">Suporta at bug report</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=61" alt="FloatCrypto+ Mga Screenshot 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=61" alt="FloatCrypto+ Mga Screenshot 2" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=61" alt="FloatCrypto+ Mga Screenshot 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -227,53 +241,81 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Pangkalahatang-tanaw</h2>
-      <p class="detail-long">Pinananatili ng FloatCrypto+ ang live na ticker sa ibabaw ng lahat ng app, kaya matitingnan mo ang merkado habang nanonood ng YouTube, nagbabasa ng balita o sumasagot ng mensahe — walang paglipat ng app at walang pag-reload. I-drag kung saan mo gusto, baguhin ang laki, at hinaan ang opacity para hindi ito nakakaharang. Magtakda ng mataas o mababang target at maaabisuhan ka sa mismong sandaling malampasan ito ng merkado, bumuo ng watchlist ng mga coin na talagang mahalaga sa iyo, at buksan ang chart na 1 araw, 7 araw at 30 araw kasama ang pinakamataas, pinakamababa, pambungad at pagbabago sa panahong iyon. Galing sa Binance ang presyo, at awtomatikong lilipat ng pinagkukunan kapag hindi maabot ang isa, kaya patuloy pa rin ang ticker. Naaantala ang datos nang hanggang 30 segundo (10 segundo sa Pro) at para sa sanggunian lamang — hindi ito payo sa pamumuhunan.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Mga Pangunahing Feature</h2>
-      <ul class="feature-list">
-        <li>Lumulutang na ticker sa ibabaw ng lahat ng app — i-drag, baguhin ang laki, hinaan ang opacity</li>
-        <li>Alerto sa presyo na may mataas o mababang target, gawa mula mismo sa card ng napiling coin</li>
-        <li>Watchlist na may live na presyo, pagbabago sa 24 oras, at pag-aayos sa pamamagitan ng pag-drag</li>
-        <li>Chart na 1 araw / 7 araw / 30 araw kasama ang pinakamataas, pinakamababa, pambungad at pagbabago</li>
-        <li>Kulay ng Kanluran at Silangan — berde pataas/pula pababa, o pula pataas/asul pababa</li>
-        <li>Presyo mula sa Binance na awtomatikong lumilipat ng pinagkukunan, naaantala nang hanggang 30 segundo (10 sa Pro)</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Lumulutang na ticker sa ibabaw ng lahat ng app — i-drag, baguhin ang laki, hinaan ang opacity</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Alerto sa presyo na may mataas o mababang target, gawa mula mismo sa card ng napiling coin</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Watchlist na may live na presyo, pagbabago sa 24 oras, at pag-aayos sa pamamagitan ng pag-drag</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Chart na 1 araw / 7 araw / 30 araw kasama ang pinakamataas, pinakamababa, pambungad at pagbabago</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Kulay ng Kanluran at Silangan — berde pataas/pula pababa, o pula pataas/asul pababa</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Presyo mula sa Binance na awtomatikong lumilipat ng pinagkukunan, naaantala nang hanggang 30 segundo (10 sa Pro)</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Mga Screenshot</h2>
-      <p class="section-lead" style="margin-bottom:22px">I-tap ang isang screenshot para tingnan ito nang mas malaki.</p>
+      <p class="detail-lead">I-tap ang isang screenshot para tingnan ito nang mas malaki.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=60" alt="FloatCrypto+ Mga Screenshot 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=60" alt="FloatCrypto+ Mga Screenshot 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=60" alt="FloatCrypto+ Mga Screenshot 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floatcrypto-4.jpg?v=60" alt="FloatCrypto+ Mga Screenshot 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floatcrypto-5.jpg?v=60" alt="FloatCrypto+ Mga Screenshot 5" loading="lazy" data-idx="4" />
-      </div>
+          <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=61" alt="FloatCrypto+ Mga Screenshot 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=61" alt="FloatCrypto+ Mga Screenshot 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=61" alt="FloatCrypto+ Mga Screenshot 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floatcrypto-4.jpg?v=61" alt="FloatCrypto+ Mga Screenshot 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/floatcrypto-5.jpg?v=61" alt="FloatCrypto+ Mga Screenshot 5" loading="lazy" data-idx="4" />
+        </div>
     </div>
   </section>
+
   <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Pangkalahatang-tanaw</h2>
+      <div class="detail-long">
+          <p>Pinananatili ng FloatCrypto+ ang live na ticker sa ibabaw ng lahat ng app, kaya matitingnan mo ang merkado habang nanonood ng YouTube, nagbabasa ng balita o sumasagot ng mensahe — walang paglipat ng app at walang pag-reload. I-drag kung saan mo gusto, baguhin ang laki, at hinaan ang opacity para hindi ito nakakaharang.</p>
+          <p>Magtakda ng mataas o mababang target at maaabisuhan ka sa mismong sandaling malampasan ito ng merkado, bumuo ng watchlist ng mga coin na talagang mahalaga sa iyo, at buksan ang chart na 1 araw, 7 araw at 30 araw kasama ang pinakamataas, pinakamababa, pambungad at pagbabago sa panahong iyon.</p>
+          <p>Galing sa Binance ang presyo, at awtomatikong lilipat ng pinagkukunan kapag hindi maabot ang isa, kaya patuloy pa rin ang ticker. Naaantala ang datos nang hanggang 30 segundo (10 segundo sa Pro) at para sa sanggunian lamang — hindi ito payo sa pamumuhunan.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">FAQ</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Makikita ko ba ang presyo habang gumagamit ng ibang app?</p><p class="faq-a">Oo. Lumulutang ang ticker sa ibabaw ng lahat ng app, kaya matitingnan mo ang merkado habang nasa YouTube, naglalaro o nakikipag-chat — walang paglipat ng app at walang pag-reload. I-drag kung saan mo gusto, baguhin ang laki, at hinaan ang opacity para hindi nito matakpan ang binabasa mo.</p></div>
-        <div class="faq-item"><p class="faq-q">Paano gumagana ang mga alerto sa presyo?</p><p class="faq-a">Magtakda ka ng mataas o mababang target at aabisuhan ka ng FloatCrypto+ sa mismong sandaling malampasan ito ng merkado. Puwedeng gumawa ng alerto mula mismo sa card ng coin — pindutin ang ⋮ at nakapili na ang coin — at may kampanang marka ang bawat coin na binabantayan mo.</p></div>
-        <div class="faq-item"><p class="faq-q">Ano ang makukuha ko nang libre?</p><p class="faq-a">Sa libreng bersyon, 2 coin at 1 alerto ang masusubaybayan mo at nagre-refresh ang ticker tuwing 30 segundo. Ang Free Pass ay nagbubukas ng isang feature nang 24 oras kapalit ng isang maikling ad: binubuksan ng Chart Free Pass ang 7 at 30 araw na chart, at nagbibigay ang Watchlist Free Pass ng 10 coin at walang limitasyong alerto — tig-isa bawat araw, walang limitasyon sa bilang ng araw, at may ads pa rin habang aktibo ang pass. Ang Pro ay 10 coin, walang limitasyong alerto, refresh tuwing 10 segundo, buong kasaysayan ng chart at walang ad — buwanan, taunan o isahang bayad na panghabambuhay.</p></div>
-      </div>
+          <div class="faq-item"><p class="faq-q">Makikita ko ba ang presyo habang gumagamit ng ibang app?</p><p class="faq-a">Oo. Lumulutang ang ticker sa ibabaw ng lahat ng app, kaya matitingnan mo ang merkado habang nasa YouTube, naglalaro o nakikipag-chat — walang paglipat ng app at walang pag-reload. I-drag kung saan mo gusto, baguhin ang laki, at hinaan ang opacity para hindi nito matakpan ang binabasa mo.</p></div>
+          <div class="faq-item"><p class="faq-q">Paano gumagana ang mga alerto sa presyo?</p><p class="faq-a">Magtakda ka ng mataas o mababang target at aabisuhan ka ng FloatCrypto+ sa mismong sandaling malampasan ito ng merkado. Puwedeng gumawa ng alerto mula mismo sa card ng coin — pindutin ang ⋮ at nakapili na ang coin — at may kampanang marka ang bawat coin na binabantayan mo.</p></div>
+          <div class="faq-item"><p class="faq-q">Ano ang makukuha ko nang libre?</p><p class="faq-a">Sa libreng bersyon, 2 coin at 1 alerto ang masusubaybayan mo at nagre-refresh ang ticker tuwing 30 segundo. Ang Free Pass ay nagbubukas ng isang feature nang 24 oras kapalit ng isang maikling ad: binubuksan ng Chart Free Pass ang 7 at 30 araw na chart, at nagbibigay ang Watchlist Free Pass ng 10 coin at walang limitasyong alerto — tig-isa bawat araw, walang limitasyon sa bilang ng araw, at may ads pa rin habang aktibo ang pass. Ang Pro ay 10 coin, walang limitasyong alerto, refresh tuwing 10 segundo, buong kasaysayan ng chart at walang ad — buwanan, taunan o isahang bayad na panghabambuhay.</p></div>
+        </div>
     </div>
   </section>
 
-
-  <div class="detail-cta">
-    <a href="/fil/#apps" class="btn btn-primary">Tuklasin pa ang mga app</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Tuklasin pa ang mga app</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/fil/apps/floattimer.html">
+            <img class="app-icon" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+</bdi></span><span class="rc-desc">Floating timer, counter, at stopwatch sa ibabaw ng kahit anong app.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/fil/apps/volumebooster.html">
+            <img class="app-icon" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>VolumeBooster+</bdi></span><span class="rc-desc">Volume booster, equalizer at bass: palakasin ang kahit anong tunog hanggang +15 dB.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/fil/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">Itago ang personal na impormasyon sa mga larawan at PDF, buong-buo sa device.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/fil/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">Isang reading aid para sa dyslexia at ADHD na may line highlight at mask.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -289,6 +331,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floatcrypto.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatCrypto+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dfil" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -296,6 +344,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"fil","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floatcrypto.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floatcrypto.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floatcrypto.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floatcrypto.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floatcrypto.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floatcrypto.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floatcrypto.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floatcrypto.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floatcrypto.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floatcrypto.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floatcrypto.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floatcrypto.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floatcrypto.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floatcrypto.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floatcrypto.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floatcrypto.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floatcrypto.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floatcrypto.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floatcrypto.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floatcrypto.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floatcrypto.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

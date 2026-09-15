@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 12+",
   "screenshot": [
     "https://codedac.com/images/shots/clipboard-1.jpg",
     "https://codedac.com/images/shots/clipboard-2.jpg",
@@ -90,14 +91,7 @@
     "https://codedac.com/images/shots/clipboard-5.jpg",
     "https://codedac.com/images/shots/clipboard-6.jpg"
   ],
-  "installUrl": "https://play.google.com/store/apps/details?id=com.codedac.clipboard",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "3.84",
-    "ratingCount": "189",
-    "bestRating": "5",
-    "worstRating": "1"
-  }
+  "installUrl": "https://play.google.com/store/apps/details?id=com.codedac.clipboard"
 }
   </script>
   <script type="application/ld+json">
@@ -159,7 +153,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/hi/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -206,28 +200,42 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/hi/">होम</a>
-      <span class="sep">/</span>
-      <a href="/hi/#apps">ऐप्स</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>Clipboard+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/clipboard.png?v=60" alt="Clipboard+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">क्लिपबोर्ड</span><span class="app-langs" aria-label="21 भाषाएँ"><span class="globe" aria-hidden="true">🌐</span>21 भाषाएँ</span></span>
-        <h1><bdi>Clipboard+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">कॉपी किया हुआ कुछ भी न खोएँ — हर टेक्स्ट और इमेज खोजने योग्य हिस्ट्री में</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dhi" class="btn btn-primary" target="_blank" rel="noopener">Google Play पर देखें →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">संपर्क करें</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/hi/">होम</a>
+        <span class="sep">/</span>
+        <a href="/hi/#apps">ऐप्स</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>Clipboard+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">क्लिपबोर्ड</span><span class="app-langs" aria-label="21 भाषाएँ"><span class="globe" aria-hidden="true">🌐</span>21 भाषाएँ</span></span>
+              <h1><bdi>Clipboard+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">कॉपी किया हुआ कुछ भी न खोएँ — हर टेक्स्ट और इमेज खोजने योग्य हिस्ट्री में</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 12+</span></li>
+            <li><span dir="ltr">10,000+</span><span>डाउनलोड</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dhi" class="btn btn-primary" target="_blank" rel="noopener">Google Play पर देखें →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BClipboard%2B%5D%20%E0%A4%B8%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%A4%E0%A4%BE%20%E0%A4%94%E0%A4%B0%20%E0%A4%AC%E0%A4%97%20%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A5%8B%E0%A4%B0%E0%A5%8D%E0%A4%9F&amp;body=1.%20%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%B9%E0%A5%81%E0%A4%86%3F%20(%E0%A4%A6%E0%A5%8B%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A4%BE%20%E0%A4%B9%E0%A5%8B%E0%A4%A8%E0%A5%87%20%E0%A4%95%E0%A5%87%20%E0%A4%9A%E0%A4%B0%E0%A4%A3%20%E0%A4%B2%E0%A4%BF%E0%A4%96%E0%A5%87%E0%A4%82%20%E0%A4%A4%E0%A5%8B%20%E0%A4%AC%E0%A4%B9%E0%A5%81%E0%A4%A4%20%E0%A4%AE%E0%A4%A6%E0%A4%A6%20%E0%A4%AE%E0%A4%BF%E0%A4%B2%E0%A5%87%E0%A4%97%E0%A5%80)%0A-%20%0A%0A2.%20%E0%A4%A1%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%87%E0%A4%B8%20%E0%A4%94%E0%A4%B0%20OS%20%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BC%E0%A4%A8%0A-%20%0A%0A3.%20%E0%A4%90%E0%A4%AA%20%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BC%E0%A4%A8%0A-%20%0A" class="btn btn-glass">सहायता और बग रिपोर्ट</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/clipboard-1.jpg?v=61" alt="Clipboard+ स्क्रीनशॉट 1" data-idx="0" />
+          <img class="shot" src="/images/shots/clipboard-2.jpg?v=61" alt="Clipboard+ स्क्रीनशॉट 2" data-idx="1" />
+          <img class="shot" src="/images/shots/clipboard-3.jpg?v=61" alt="Clipboard+ स्क्रीनशॉट 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -235,67 +243,48 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">अवलोकन</h2>
-      <p class="detail-long">Clipboard+ एक Android क्लिपबोर्ड मैनेजर है जो कॉपी किए गए हर टेक्स्ट और इमेज को नए से पुराने क्रम में खोजने योग्य हिस्ट्री में रखता है। Android 10 से कोई भी ऐप बैकग्राउंड में क्लिपबोर्ड नहीं पढ़ सकता, इसलिए Clipboard+ तब सेव करता है जब वह सक्रिय होता है — जब आप ऐप खोलते हैं, फ़्लोटिंग पैनल टैप करते हैं, या विजेट इस्तेमाल करते हैं — या तुरंत, जब आप टेक्स्ट चयन मेनू में Clipboard+ दबाते हैं। एक रीसाइज़ किया जा सकने वाला फ़्लोटिंग ओवरले आपको ऐप बदले बिना किसी भी स्क्रीन से अपनी क्लिपबोर्ड हिस्ट्री तक पहुंचने देता है। बार-बार इस्तेमाल होने वाले टेक्स्ट को स्निपेट और ग्रुप में व्यवस्थित करें, और कीवर्ड सर्च, होम स्क्रीन विजेट और नोटिफ़िकेशन पैनल से किसी भी क्लिप को तेज़ी से पेस्ट करें। आप अपनी हिस्ट्री को PDF में एक्सपोर्ट भी कर सकते हैं और अपनी क्लिप्स का कभी भी बैकअप या रीस्टोर कर सकते हैं। Clipboard+ for Windows के साथ इस्तेमाल करने पर फ़ोन पर कॉपी किया हुआ PC पर और PC पर कॉपी किया हुआ फ़ोन पर पेस्ट हो जाता है। इसके लिए बस दोनों ऐप में एक ही खाते से Google Drive में साइन इन करना होता है, और कॉपी किया गया कॉन्टेंट CodeDAC के किसी सर्वर से होकर नहीं जाता — वह सिर्फ़ आपके अपने Google Drive में सहेजा जाता है।</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Windows पर भी उपलब्ध है</h2>
-      <a class="counterpart" href="/hi/apps/clipboardwin.html">
-        <img class="app-icon" src="/images/icons/clipboardwin.png?v=60" alt="Clipboard+ for Windows icon" loading="lazy" width="56" height="56" />
-        <span class="cp-text">
-          <span class="cp-name"><bdi>Clipboard+ for Windows</bdi></span>
-          <span class="cp-desc">एक Windows ट्रे क्लिपबोर्ड मैनेजर जो Clipboard+ Android ऐप के साथ सिंक होता है।</span>
-        </span>
-        <span class="cp-go" aria-hidden="true">&#8250;</span>
-      </a>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">मुख्य फ़ीचर्स</h2>
-      <ul class="feature-list">
-        <li>कॉपी किया हर टेक्स्ट और इमेज नए से पुराने क्रम में खोजने योग्य हिस्ट्री में</li>
-        <li>किसी भी ऐप के ऊपर इस्तेमाल के लिए रीसाइज़ होने वाला फ़्लोटिंग ओवरले</li>
-        <li>बार-बार इस्तेमाल होने वाले टेक्स्ट को स्निपेट और ग्रुप में व्यवस्थित करें</li>
-        <li>कीवर्ड, टेक्स्ट, इमेज या तारीख से तुरंत सर्च और फ़िल्टर करें</li>
-        <li>होम स्क्रीन विजेट और नोटिफ़िकेशन पैनल से तेज़ पेस्ट, और टेक्स्ट चयन मेनू से किसी भी ऐप में सेव</li>
-        <li>आपके अपने Google Drive के ज़रिए फ़ोन-से-PC दोतरफ़ा सिंक, क्लिपबोर्ड हिस्ट्री को PDF में एक्सपोर्ट करें, साथ ही बैकअप और रीस्टोर</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>कॉपी किया हर टेक्स्ट और इमेज नए से पुराने क्रम में खोजने योग्य हिस्ट्री में</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>किसी भी ऐप के ऊपर इस्तेमाल के लिए रीसाइज़ होने वाला फ़्लोटिंग ओवरले</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>बार-बार इस्तेमाल होने वाले टेक्स्ट को स्निपेट और ग्रुप में व्यवस्थित करें</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>कीवर्ड, टेक्स्ट, इमेज या तारीख से तुरंत सर्च और फ़िल्टर करें</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>होम स्क्रीन विजेट और नोटिफ़िकेशन पैनल से तेज़ पेस्ट, और टेक्स्ट चयन मेनू से किसी भी ऐप में सेव</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>आपके अपने Google Drive के ज़रिए फ़ोन-से-PC दोतरफ़ा सिंक, क्लिपबोर्ड हिस्ट्री को PDF में एक्सपोर्ट करें, साथ ही बैकअप और रीस्टोर</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">स्क्रीनशॉट</h2>
-      <p class="section-lead" style="margin-bottom:22px">बड़ा देखने के लिए किसी स्क्रीनशॉट पर टैप करें।</p>
+      <p class="detail-lead">बड़ा देखने के लिए किसी स्क्रीनशॉट पर टैप करें।</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/clipboard-1.jpg?v=60" alt="Clipboard+ स्क्रीनशॉट 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/clipboard-2.jpg?v=60" alt="Clipboard+ स्क्रीनशॉट 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/clipboard-3.jpg?v=60" alt="Clipboard+ स्क्रीनशॉट 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/clipboard-4.jpg?v=60" alt="Clipboard+ स्क्रीनशॉट 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/clipboard-5.jpg?v=60" alt="Clipboard+ स्क्रीनशॉट 5" loading="lazy" data-idx="4" />
-        <img class="shot" src="/images/shots/clipboard-6.jpg?v=60" alt="Clipboard+ स्क्रीनशॉट 6" loading="lazy" data-idx="5" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">अक्सर पूछे जाने वाले सवाल</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">कॉपी किया गया कॉन्टेंट कब सेव होता है?</p><p class="faq-a">Android 10 से Google ऐप्स को बैकग्राउंड में क्लिपबोर्ड पढ़ने से रोकता है, और कोई भी क्लिपबोर्ड मैनेजर इसे बायपास नहीं कर सकता। Clipboard+ तब सेव करता है जब वह सक्रिय होता है — जब आप ऐप खोलते हैं, फ़्लोटिंग पैनल टैप करते हैं, या विजेट इस्तेमाल करते हैं। ऐप बदले बिना सेव करने के लिए टेक्स्ट चुनकर चयन मेनू में Clipboard+ दबाइए।</p></div>
-        <div class="faq-item"><p class="faq-q">क्या मैं दूसरे ऐप्स इस्तेमाल करते समय अपनी क्लिपबोर्ड हिस्ट्री देख सकता हूं?</p><p class="faq-a">हां। एक रीसाइज़ होने वाला फ़्लोटिंग ओवरले आपको ऐप बदले बिना किसी भी स्क्रीन से अपनी हिस्ट्री तक पहुंचने देता है।</p></div>
-        <div class="faq-item"><p class="faq-q">क्या यह मेरे Windows PC के साथ सिंक होता है?</p><p class="faq-a">हां। Clipboard+ for Windows भी इंस्टॉल करें, फिर दोनों ऐप की सेटिंग में एक ही खाते से Google Drive में साइन इन करके स्वचालित सिंक चालू कर दें। उसके बाद फ़ोन पर कॉपी किया हुआ PC पर और PC पर कॉपी किया हुआ फ़ोन पर पेस्ट किया जा सकता है। कॉपी किया गया कॉन्टेंट CodeDAC के किसी सर्वर से होकर नहीं जाता — वह सिर्फ़ आपके अपने Google Drive में सहेजा जाता है।</p></div>
-      </div>
+          <img class="shot" src="/images/shots/clipboard-1.jpg?v=61" alt="Clipboard+ स्क्रीनशॉट 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/clipboard-2.jpg?v=61" alt="Clipboard+ स्क्रीनशॉट 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/clipboard-3.jpg?v=61" alt="Clipboard+ स्क्रीनशॉट 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/clipboard-4.jpg?v=61" alt="Clipboard+ स्क्रीनशॉट 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/clipboard-5.jpg?v=61" alt="Clipboard+ स्क्रीनशॉट 5" loading="lazy" data-idx="4" />
+          <img class="shot" src="/images/shots/clipboard-6.jpg?v=61" alt="Clipboard+ स्क्रीनशॉट 6" loading="lazy" data-idx="5" />
+        </div>
     </div>
   </section>
 
-  <section class="detail-section" id="reviews">
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">अवलोकन</h2>
+      <div class="detail-long">
+          <p>Clipboard+ एक Android क्लिपबोर्ड मैनेजर है जो कॉपी किए गए हर टेक्स्ट और इमेज को नए से पुराने क्रम में खोजने योग्य हिस्ट्री में रखता है। Android 10 से कोई भी ऐप बैकग्राउंड में क्लिपबोर्ड नहीं पढ़ सकता, इसलिए Clipboard+ तब सेव करता है जब वह सक्रिय होता है — जब आप ऐप खोलते हैं, फ़्लोटिंग पैनल टैप करते हैं, या विजेट इस्तेमाल करते हैं — या तुरंत, जब आप टेक्स्ट चयन मेनू में Clipboard+ दबाते हैं।</p>
+          <p>एक रीसाइज़ किया जा सकने वाला फ़्लोटिंग ओवरले आपको ऐप बदले बिना किसी भी स्क्रीन से अपनी क्लिपबोर्ड हिस्ट्री तक पहुंचने देता है। बार-बार इस्तेमाल होने वाले टेक्स्ट को स्निपेट और ग्रुप में व्यवस्थित करें, और कीवर्ड सर्च, होम स्क्रीन विजेट और नोटिफ़िकेशन पैनल से किसी भी क्लिप को तेज़ी से पेस्ट करें। आप अपनी हिस्ट्री को PDF में एक्सपोर्ट भी कर सकते हैं और अपनी क्लिप्स का कभी भी बैकअप या रीस्टोर कर सकते हैं।</p>
+          <p>Clipboard+ for Windows के साथ इस्तेमाल करने पर फ़ोन पर कॉपी किया हुआ PC पर और PC पर कॉपी किया हुआ फ़ोन पर पेस्ट हो जाता है। इसके लिए बस दोनों ऐप में एक ही खाते से Google Drive में साइन इन करना होता है, और कॉपी किया गया कॉन्टेंट CodeDAC के किसी सर्वर से होकर नहीं जाता — वह सिर्फ़ आपके अपने Google Drive में सहेजा जाता है।</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt" id="reviews">
     <div class="container">
       <h2 class="detail-title">उपयोगकर्ता क्या कहते हैं</h2>
-      <p class="section-lead" style="margin-bottom:22px">Google Play पर दी गई असली समीक्षाएँ।</p>
+      <p class="detail-lead">Google Play पर दी गई असली समीक्षाएँ।</p>
       <div class="reviews-grid">
         <figure class="review-card">
           <div class="review-stars" aria-label="5 / 5">★★★★★</div>
@@ -327,13 +316,62 @@
           <blockquote class="review-text">Very easy to understand and use. Really handy, particularly when I am using an older keyboard (one without built-in clipboard access). Thanks so much!!</blockquote>
           <figcaption class="review-meta"><span class="review-name">Joseph Younger</span><span class="review-app">Google Play</span></figcaption>
         </figure>
-      </div>
+        </div>
     </div>
   </section>
 
-  <div class="detail-cta">
-    <a href="/hi/#apps" class="btn btn-primary">और ऐप्स देखें</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">अक्सर पूछे जाने वाले सवाल</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">कॉपी किया गया कॉन्टेंट कब सेव होता है?</p><p class="faq-a">Android 10 से Google ऐप्स को बैकग्राउंड में क्लिपबोर्ड पढ़ने से रोकता है, और कोई भी क्लिपबोर्ड मैनेजर इसे बायपास नहीं कर सकता। Clipboard+ तब सेव करता है जब वह सक्रिय होता है — जब आप ऐप खोलते हैं, फ़्लोटिंग पैनल टैप करते हैं, या विजेट इस्तेमाल करते हैं। ऐप बदले बिना सेव करने के लिए टेक्स्ट चुनकर चयन मेनू में Clipboard+ दबाइए।</p></div>
+          <div class="faq-item"><p class="faq-q">क्या मैं दूसरे ऐप्स इस्तेमाल करते समय अपनी क्लिपबोर्ड हिस्ट्री देख सकता हूं?</p><p class="faq-a">हां। एक रीसाइज़ होने वाला फ़्लोटिंग ओवरले आपको ऐप बदले बिना किसी भी स्क्रीन से अपनी हिस्ट्री तक पहुंचने देता है।</p></div>
+          <div class="faq-item"><p class="faq-q">क्या यह मेरे Windows PC के साथ सिंक होता है?</p><p class="faq-a">हां। Clipboard+ for Windows भी इंस्टॉल करें, फिर दोनों ऐप की सेटिंग में एक ही खाते से Google Drive में साइन इन करके स्वचालित सिंक चालू कर दें। उसके बाद फ़ोन पर कॉपी किया हुआ PC पर और PC पर कॉपी किया हुआ फ़ोन पर पेस्ट किया जा सकता है। कॉपी किया गया कॉन्टेंट CodeDAC के किसी सर्वर से होकर नहीं जाता — वह सिर्फ़ आपके अपने Google Drive में सहेजा जाता है।</p></div>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Windows पर भी उपलब्ध है</h2>
+      <a class="counterpart" href="/hi/apps/clipboardwin.html">
+        <img class="app-icon" src="/images/icons/clipboardwin.png?v=61" alt="Clipboard+ for Windows icon" loading="lazy" width="56" height="56" />
+        <span class="cp-text">
+          <span class="cp-name"><bdi>Clipboard+ for Windows</bdi></span>
+          <span class="cp-desc">एक Windows ट्रे क्लिपबोर्ड मैनेजर जो Clipboard+ Android ऐप के साथ सिंक होता है।</span>
+        </span>
+        <span class="cp-go" aria-hidden="true">&#8250;</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">और ऐप्स देखें</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/hi/apps/autostart.html">
+            <img class="app-icon" src="/images/icons/autostart.png?v=61" alt="AutoStart+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>AutoStart+</bdi></span><span class="rc-desc">बूट पर अपने ऐप्स अपने-आप लॉन्च करें। रूट की ज़रूरत नहीं, एक बार सेट करें।</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/hi/apps/floatcalc.html">
+            <img class="app-icon" src="/images/icons/floatcalc.png?v=61" alt="FloatCalc+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCalc+</bdi></span><span class="rc-desc">किसी भी ऐप के ऊपर फ्लोटिंग कैलकुलेटर, करेंसी और यूनिट कन्वर्टर।</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/hi/apps/floatcrypto.html">
+            <img class="app-icon" src="/images/icons/floatcrypto.png?v=61" alt="FloatCrypto+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCrypto+</bdi></span><span class="rc-desc">हर ऐप के ऊपर लाइव क्रिप्टो टिकर, अलर्ट और चार्ट के साथ।</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/hi/apps/floattimer.html">
+            <img class="app-icon" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+</bdi></span><span class="rc-desc">किसी भी ऐप के ऊपर फ़्लोटिंग टाइमर, काउंटर और स्टॉपवॉच।</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -349,6 +387,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/clipboard.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>Clipboard+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dhi" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -356,6 +400,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"hi","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/clipboard.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/clipboard.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/clipboard.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/clipboard.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/clipboard.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/clipboard.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/clipboard.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/clipboard.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/clipboard.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/clipboard.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/clipboard.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/clipboard.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/clipboard.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/clipboard.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/clipboard.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/clipboard.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/clipboard.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/clipboard.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/clipboard.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/clipboard.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/clipboard.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

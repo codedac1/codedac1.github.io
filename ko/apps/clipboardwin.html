@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Windows 10+",
   "screenshot": [
     "https://codedac.com/images/shots/clipboardwin-1.jpg",
     "https://codedac.com/images/shots/clipboardwin-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/ko/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,40 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/ko/">홈</a>
-      <span class="sep">/</span>
-      <a href="/ko/#apps">앱 소개</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>Clipboard+ for Windows</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/clipboardwin.png?v=60" alt="Clipboard+ for Windows icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">클립보드</span><span class="app-langs" aria-label="21개 언어"><span class="globe" aria-hidden="true">🌐</span>21개 언어</span></span>
-        <h1><bdi>Clipboard+ for Windows</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">안드로이드와 클립보드를 내 구글 드라이브로 잇는 Windows 트레이 클립보드 매니저</h2>
-        <div class="app-hero-actions">
-          <a href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-detail-hero-ko" class="btn btn-primary" target="_blank" rel="noopener">Microsoft Store에서 보기 →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">문의하기</a>
+  <section class="app-hero-d app-hero-windows">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ko/">홈</a>
+        <span class="sep">/</span>
+        <a href="/ko/#apps">앱 소개</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>Clipboard+ for Windows</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/clipboardwin.png?v=61" alt="Clipboard+ for Windows icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">클립보드</span><span class="app-langs" aria-label="21개 언어"><span class="globe" aria-hidden="true">🌐</span>21개 언어</span></span>
+              <h1><bdi>Clipboard+ for Windows</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">안드로이드와 클립보드를 내 구글 드라이브로 잇는 Windows 트레이 클립보드 매니저</h2>
+          <ul class="app-facts">
+            <li class="fact-windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span dir="ltr">Windows · Microsoft Store</span></li>
+            <li><span dir="ltr">Windows 10+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-detail-hero-ko" class="btn btn-primary" target="_blank" rel="noopener">Microsoft Store에서 보기 →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BClipboard%2B%20for%20Windows%5D%20%EB%AC%B8%EC%9D%98%C2%B7%EB%B2%84%EA%B7%B8%20%EC%8B%A0%EA%B3%A0&amp;body=1.%20%EC%96%B4%EB%96%A4%20%EB%AC%B8%EC%A0%9C%EA%B0%80%20%EC%9E%88%EC%97%88%EB%82%98%EC%9A%94%3F%20(%EC%9E%AC%ED%98%84%20%EB%B0%A9%EB%B2%95%EC%9D%84%20%EC%95%8C%EB%A9%B4%20%ED%95%A8%EA%BB%98%20%EC%A0%81%EC%96%B4%20%EC%A3%BC%EC%84%B8%EC%9A%94)%0A-%20%0A%0A2.%20%EA%B8%B0%EA%B8%B0%EC%99%80%20OS%20%EB%B2%84%EC%A0%84%0A-%20%0A%0A3.%20%EC%95%B1%20%EB%B2%84%EC%A0%84%0A-%20%0A" class="btn btn-glass">문의·버그 신고</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-windows">
+          <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=61" alt="Clipboard+ for Windows 스크린샷 1" data-idx="0" />
+          <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=61" alt="Clipboard+ for Windows 스크린샷 2" data-idx="1" />
         </div>
       </div>
     </div>
@@ -227,8 +240,50 @@
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">주요 기능</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>트레이에 상주하며 복사하는 즉시 텍스트·이미지를 자동 저장 — 백그라운드에서 계속 들여다보지 않아 가볍습니다</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>내 구글 드라이브를 통한 폰↔PC 양방향 동기화</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>안드로이드 스타일 UI — 라이트/다크 테마, 그룹 사이드바, 스니펫, 핀·복사·편집·검색</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>다중 선택 일괄 이동/삭제/병합, 최신·오래된순 정렬, 이미지 원본 뷰어</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>커서 자리에 뜨는 전역 단축키 빠른 선택 팝업, 창 열기와 타 앱 선택 텍스트 캡처 단축키, Windows 자동 실행</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>안드로이드 Clipboard+ 백업 포맷 호환 내보내기/가져오기, PDF 내보내기</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">스크린샷</h2>
+      <p class="detail-lead">스크린샷을 누르면 크게 볼 수 있습니다.</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=61" alt="Clipboard+ for Windows 스크린샷 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=61" alt="Clipboard+ for Windows 스크린샷 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/clipboardwin-3.jpg?v=61" alt="Clipboard+ for Windows 스크린샷 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/clipboardwin-4.jpg?v=61" alt="Clipboard+ for Windows 스크린샷 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/clipboardwin-5.jpg?v=61" alt="Clipboard+ for Windows 스크린샷 5" loading="lazy" data-idx="4" />
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
       <h2 class="detail-title">개요</h2>
-      <p class="detail-long">Clipboard+ for Windows는 시스템 트레이에 상주하며 복사한 텍스트와 이미지를 자동으로 저장해 주는 클립보드 매니저입니다. 복사하는 순간 바로 기록되므로 실수로 덮어써도 지난 내용을 다시 꺼내 붙여넣을 수 있습니다. 전역 단축키를 누르면 커서가 있는 자리에 빠른 선택 팝업이 떠서, Ctrl+1~9로 클립을 고르고 Enter를 누르면 창을 떠나지 않고 그대로 붙여넣습니다. 안드로이드 Clipboard+ 앱을 함께 쓰면 폰에서 복사한 내용을 PC에서, PC에서 복사한 내용을 폰에서 그대로 붙여넣을 수 있습니다. 이때 복사한 내용은 CodeDAC 서버를 거치지 않고 사용자 본인의 구글 드라이브에만 저장됩니다. 저장된 기록은 그룹과 스니펫으로 정리하고 검색할 수 있습니다.</p>
+      <div class="detail-long">
+          <p>Clipboard+ for Windows는 시스템 트레이에 상주하며 복사한 텍스트와 이미지를 자동으로 저장해 주는 클립보드 매니저입니다. 복사하는 순간 바로 기록되므로 실수로 덮어써도 지난 내용을 다시 꺼내 붙여넣을 수 있습니다. 전역 단축키를 누르면 커서가 있는 자리에 빠른 선택 팝업이 떠서, Ctrl+1~9로 클립을 고르고 Enter를 누르면 창을 떠나지 않고 그대로 붙여넣습니다.</p>
+          <p>안드로이드 Clipboard+ 앱을 함께 쓰면 폰에서 복사한 내용을 PC에서, PC에서 복사한 내용을 폰에서 그대로 붙여넣을 수 있습니다. 이때 복사한 내용은 CodeDAC 서버를 거치지 않고 사용자 본인의 구글 드라이브에만 저장됩니다. 저장된 기록은 그룹과 스니펫으로 정리하고 검색할 수 있습니다.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">자주 묻는 질문</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">안드로이드 Clipboard+ 앱과 동기화되나요?</p><p class="faq-a">네. 두 기기에서 같은 구글 계정으로 동기화를 켜면, 폰에서 복사한 내용을 PC에서 붙여넣고 PC에서 복사한 내용을 폰에서 붙여넣을 수 있습니다. 내용은 CodeDAC 서버를 거치지 않고 사용자 본인의 구글 드라이브로만 오갑니다.</p></div>
+          <div class="faq-item"><p class="faq-q">제 클립보드 데이터는 어디에 저장되나요? 안전한가요?</p><p class="faq-a">복사 기록은 기본적으로 내 PC 안에만 저장됩니다(%APPDATA%\ClipboardPlus 폴더). 동기화를 켜면 내 구글 드라이브의 앱 전용 공간에도 저장되는데, 이 공간은 드라이브 화면에 보이지 않고 Clipboard+ 외에는 열 수 없습니다. 앱은 이 전용 공간만 사용하므로 드라이브에 있는 다른 사진이나 문서에는 접근할 수 없습니다.</p></div>
+          <div class="faq-item"><p class="faq-q">무료로 어디까지 쓸 수 있고, Pro는 무엇이 열리나요?</p><p class="faq-a">클립보드 기록, 스니펫과 그룹, 검색, 빠른 선택 팝업, 라이트·다크 테마는 모두 무료입니다. Pro로 업그레이드하면 Google Drive 동기화, 이미지 클립 복사, PDF 내보내기, 백업 가져오기, 무제한 그룹, 무제한 이미지 저장 용량이 열립니다. 무료 이미지 저장 용량은 50MB까지입니다.</p></div>
+        </div>
     </div>
   </section>
 
@@ -236,7 +291,7 @@
     <div class="container">
       <h2 class="detail-title">Android에서도 사용할 수 있습니다</h2>
       <a class="counterpart" href="/ko/apps/clipboard.html">
-        <img class="app-icon" src="/images/icons/clipboard.png?v=60" alt="Clipboard+ icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>Clipboard+</bdi></span>
           <span class="cp-desc">복사한 내용을 모두 저장하는 클립보드 매니저. PC와 클립 동기화까지.</span>
@@ -245,48 +300,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
+
+  <section class="detail-section is-alt">
     <div class="container">
-      <h2 class="detail-title">주요 기능</h2>
-      <ul class="feature-list">
-        <li>트레이에 상주하며 복사하는 즉시 텍스트·이미지를 자동 저장 — 백그라운드에서 계속 들여다보지 않아 가볍습니다</li>
-        <li>내 구글 드라이브를 통한 폰↔PC 양방향 동기화</li>
-        <li>안드로이드 스타일 UI — 라이트/다크 테마, 그룹 사이드바, 스니펫, 핀·복사·편집·검색</li>
-        <li>다중 선택 일괄 이동/삭제/병합, 최신·오래된순 정렬, 이미지 원본 뷰어</li>
-        <li>커서 자리에 뜨는 전역 단축키 빠른 선택 팝업, 창 열기와 타 앱 선택 텍스트 캡처 단축키, Windows 자동 실행</li>
-        <li>안드로이드 Clipboard+ 백업 포맷 호환 내보내기/가져오기, PDF 내보내기</li>
-      </ul>
+      <h2 class="detail-title">다른 앱 둘러보기</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/ko/apps/readfocuswin.html">
+            <img class="app-icon" src="/images/icons/readfocuswin.png?v=61" alt="ReadFocus+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+ for Windows</bdi></span><span class="rc-desc">클릭이 통과하는 Windows 집중 스트립 — 마스크와 하이라이트로 읽던 줄을 놓치지 않습니다.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ko/apps/floatnotewin.html">
+            <img class="app-icon" src="/images/icons/floatnotewin.png?v=61" alt="FloatNote+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+ for Windows</bdi></span><span class="rc-desc">Windows의 어떤 창 위에도 떠 있는 스티커 메모. FloatNote+ 안드로이드 앱과 동기화됩니다.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ko/apps/floattimerwin.html">
+            <img class="app-icon" src="/images/icons/floattimerwin.png?v=61" alt="FloatTimer+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+ for Windows</bdi></span><span class="rc-desc">Windows의 어떤 창 위에도 작은 파스텔 카드로 떠 있는 타이머·카운터·스톱워치.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ko/apps/autostart.html">
+            <img class="app-icon" src="/images/icons/autostart.png?v=61" alt="AutoStart+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>AutoStart+</bdi></span><span class="rc-desc">부팅 시 원하는 앱을 자동으로 실행. 루트 불필요, 한 번 설정으로 끝.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">스크린샷</h2>
-      <p class="section-lead" style="margin-bottom:22px">스크린샷을 누르면 크게 볼 수 있습니다.</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=60" alt="Clipboard+ for Windows 스크린샷 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=60" alt="Clipboard+ for Windows 스크린샷 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/clipboardwin-3.jpg?v=60" alt="Clipboard+ for Windows 스크린샷 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/clipboardwin-4.jpg?v=60" alt="Clipboard+ for Windows 스크린샷 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/clipboardwin-5.jpg?v=60" alt="Clipboard+ for Windows 스크린샷 5" loading="lazy" data-idx="4" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">자주 묻는 질문</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">안드로이드 Clipboard+ 앱과 동기화되나요?</p><p class="faq-a">네. 두 기기에서 같은 구글 계정으로 동기화를 켜면, 폰에서 복사한 내용을 PC에서 붙여넣고 PC에서 복사한 내용을 폰에서 붙여넣을 수 있습니다. 내용은 CodeDAC 서버를 거치지 않고 사용자 본인의 구글 드라이브로만 오갑니다.</p></div>
-        <div class="faq-item"><p class="faq-q">제 클립보드 데이터는 어디에 저장되나요? 안전한가요?</p><p class="faq-a">복사 기록은 기본적으로 내 PC 안에만 저장됩니다(%APPDATA%\ClipboardPlus 폴더). 동기화를 켜면 내 구글 드라이브의 앱 전용 공간에도 저장되는데, 이 공간은 드라이브 화면에 보이지 않고 Clipboard+ 외에는 열 수 없습니다. 앱은 이 전용 공간만 사용하므로 드라이브에 있는 다른 사진이나 문서에는 접근할 수 없습니다.</p></div>
-        <div class="faq-item"><p class="faq-q">무료로 어디까지 쓸 수 있고, Pro는 무엇이 열리나요?</p><p class="faq-a">클립보드 기록, 스니펫과 그룹, 검색, 빠른 선택 팝업, 라이트·다크 테마는 모두 무료입니다. Pro로 업그레이드하면 Google Drive 동기화, 이미지 클립 복사, PDF 내보내기, 백업 가져오기, 무제한 그룹, 무제한 이미지 저장 용량이 열립니다. 무료 이미지 저장 용량은 50MB까지입니다.</p></div>
-      </div>
-    </div>
-  </section>
-
-
-  <div class="detail-cta">
-    <a href="/ko/#apps" class="btn btn-primary">다른 앱 둘러보기</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -302,6 +343,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/clipboardwin.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>Clipboard+ for Windows</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-detail-sticky-ko" target="_blank" rel="noopener">Microsoft Store</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -309,6 +356,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"ko","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/clipboardwin.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/clipboardwin.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/clipboardwin.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/clipboardwin.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/clipboardwin.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/clipboardwin.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/clipboardwin.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/clipboardwin.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/clipboardwin.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/clipboardwin.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/clipboardwin.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/clipboardwin.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/clipboardwin.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/clipboardwin.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/clipboardwin.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/clipboardwin.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/clipboardwin.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/clipboardwin.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/clipboardwin.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/clipboardwin.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/clipboardwin.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

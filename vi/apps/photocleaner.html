@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 10+",
   "screenshot": [
     "https://codedac.com/images/shots/photocleaner-1.jpg",
     "https://codedac.com/images/shots/photocleaner-2.jpg",
@@ -158,7 +159,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/vi/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -205,28 +206,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/vi/">Trang chủ</a>
-      <span class="sep">/</span>
-      <a href="/vi/#apps">Ứng dụng</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>PhotoCleaner+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/photocleaner.png?v=60" alt="PhotoCleaner+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Quyền riêng tư</span><span class="app-langs" aria-label="21 ngôn ngữ"><span class="globe" aria-hidden="true">🌐</span>21 ngôn ngữ</span></span>
-        <h1><bdi>PhotoCleaner+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Che thông tin cá nhân trong ảnh và PDF bằng lớp che đặc, hoàn toàn ngay trên thiết bị của bạn.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dvi" class="btn btn-primary" target="_blank" rel="noopener">Xem trên Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Liên hệ</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/vi/">Trang chủ</a>
+        <span class="sep">/</span>
+        <a href="/vi/#apps">Ứng dụng</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>PhotoCleaner+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Quyền riêng tư</span><span class="app-langs" aria-label="21 ngôn ngữ"><span class="globe" aria-hidden="true">🌐</span>21 ngôn ngữ</span></span>
+              <h1><bdi>PhotoCleaner+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Che thông tin cá nhân trong ảnh và PDF bằng lớp che đặc, hoàn toàn ngay trên thiết bị của bạn.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 10+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dvi" class="btn btn-primary" target="_blank" rel="noopener">Xem trên Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BPhotoCleaner%2B%5D%20H%E1%BB%97%20tr%E1%BB%A3%20%26%20b%C3%A1o%20l%E1%BB%97i&amp;body=1.%20%C4%90%C3%A3%20x%E1%BA%A3y%20ra%20v%E1%BA%A5n%20%C4%91%E1%BB%81%20g%C3%AC%3F%20(N%E1%BA%BFu%20bi%E1%BA%BFt%20c%C3%A1c%20b%C6%B0%E1%BB%9Bc%20t%C3%A1i%20hi%E1%BB%87n%2C%20h%C3%A3y%20ghi%20th%C3%AAm)%0A-%20%0A%0A2.%20Thi%E1%BA%BFt%20b%E1%BB%8B%20v%C3%A0%20phi%C3%AAn%20b%E1%BA%A3n%20OS%0A-%20%0A%0A3.%20Phi%C3%AAn%20b%E1%BA%A3n%20%E1%BB%A9ng%20d%E1%BB%A5ng%0A-%20%0A" class="btn btn-glass">Hỗ trợ &amp; báo lỗi</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/photocleaner-1.jpg?v=61" alt="PhotoCleaner+ Ảnh chụp màn hình 1" data-idx="0" />
+          <img class="shot" src="/images/shots/photocleaner-2.jpg?v=61" alt="PhotoCleaner+ Ảnh chụp màn hình 2" data-idx="1" />
+          <img class="shot" src="/images/shots/photocleaner-3.jpg?v=61" alt="PhotoCleaner+ Ảnh chụp màn hình 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -234,53 +248,81 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Tổng quan</h2>
-      <p class="detail-long">PhotoCleaner+ che thông tin cá nhân trong ảnh và PDF hoàn toàn ngay trên thiết bị của bạn. Ứng dụng phủ các vùng nhạy cảm bằng lớp che đặc, không trong suốt (không phải làm mờ hay mosaic, nên vùng đã che không thể khôi phục) và xuất ra một bản sao sạch. Bộ phát hiện tích hợp gợi ý miễn phí và không giới hạn những đoạn văn bản có thể nhạy cảm như số CMND/CCCD, thẻ, số điện thoại và email, nhưng bạn tự vẽ và điều chỉnh lớp che và quyết định chính xác điều gì được che. Ứng dụng xử lý ảnh, thẻ căn cước và cả PDF nhiều trang, mọi bản lưu hoặc chia sẻ đều được mã hóa lại không kèm EXIF, và không bao giờ yêu cầu quyền truy cập thư viện hay bộ nhớ. Nhận diện, chỉnh sửa và che vẫn không giới hạn ở bản miễn phí và không bản xuất nào có hình mờ; bản miễn phí xuất 3 lượt mỗi ngày, còn Pro gỡ giới hạn đó và thêm xuất PDF, in cùng màu lớp che tùy chọn. Bật “Chọn nơi lưu” để tự chọn thư mục và tên tệp.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Tính năng chính</h2>
-      <ul class="feature-list">
-        <li>Lớp che đặc, không trong suốt, không thể khôi phục (không phải làm mờ hay mosaic)</li>
-        <li>Vẽ lớp che bằng tay, rồi di chuyển, chỉnh kích thước hoặc xóa, có phóng to để chính xác</li>
-        <li>Phát hiện tích hợp gợi ý các đoạn văn bản có thể nhạy cảm (số CMND/CCCD, thẻ, số điện thoại, email) — miễn phí, không giới hạn, và bạn là người rà soát</li>
-        <li>Che ảnh, thẻ căn cước và tài liệu PDF nhiều trang</li>
-        <li>Không yêu cầu quyền, cảnh báo EXIF &amp; GPS, và mọi bản lưu hoặc chia sẻ đều được mã hóa lại không kèm EXIF</li>
-        <li>Không hình mờ với bất kỳ ai: 3 lượt xuất mỗi ngày ở bản miễn phí, không giới hạn với Pro cùng xuất PDF và in — hoặc một video ngắn mở một trong hai trong 24 giờ</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Lớp che đặc, không trong suốt, không thể khôi phục (không phải làm mờ hay mosaic)</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Vẽ lớp che bằng tay, rồi di chuyển, chỉnh kích thước hoặc xóa, có phóng to để chính xác</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Phát hiện tích hợp gợi ý các đoạn văn bản có thể nhạy cảm (số CMND/CCCD, thẻ, số điện thoại, email) — miễn phí, không giới hạn, và bạn là người rà soát</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Che ảnh, thẻ căn cước và tài liệu PDF nhiều trang</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Không yêu cầu quyền, cảnh báo EXIF &amp; GPS, và mọi bản lưu hoặc chia sẻ đều được mã hóa lại không kèm EXIF</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Không hình mờ với bất kỳ ai: 3 lượt xuất mỗi ngày ở bản miễn phí, không giới hạn với Pro cùng xuất PDF và in — hoặc một video ngắn mở một trong hai trong 24 giờ</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Ảnh chụp màn hình</h2>
-      <p class="section-lead" style="margin-bottom:22px">Chạm vào ảnh chụp màn hình để xem lớn hơn.</p>
+      <p class="detail-lead">Chạm vào ảnh chụp màn hình để xem lớn hơn.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/photocleaner-1.jpg?v=60" alt="PhotoCleaner+ Ảnh chụp màn hình 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/photocleaner-2.jpg?v=60" alt="PhotoCleaner+ Ảnh chụp màn hình 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/photocleaner-3.jpg?v=60" alt="PhotoCleaner+ Ảnh chụp màn hình 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/photocleaner-4.jpg?v=60" alt="PhotoCleaner+ Ảnh chụp màn hình 4" loading="lazy" data-idx="3" />
-      </div>
+          <img class="shot" src="/images/shots/photocleaner-1.jpg?v=61" alt="PhotoCleaner+ Ảnh chụp màn hình 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/photocleaner-2.jpg?v=61" alt="PhotoCleaner+ Ảnh chụp màn hình 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/photocleaner-3.jpg?v=61" alt="PhotoCleaner+ Ảnh chụp màn hình 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/photocleaner-4.jpg?v=61" alt="PhotoCleaner+ Ảnh chụp màn hình 4" loading="lazy" data-idx="3" />
+        </div>
     </div>
   </section>
+
   <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Tổng quan</h2>
+      <div class="detail-long">
+          <p>PhotoCleaner+ che thông tin cá nhân trong ảnh và PDF hoàn toàn ngay trên thiết bị của bạn. Ứng dụng phủ các vùng nhạy cảm bằng lớp che đặc, không trong suốt (không phải làm mờ hay mosaic, nên vùng đã che không thể khôi phục) và xuất ra một bản sao sạch.</p>
+          <p>Bộ phát hiện tích hợp gợi ý miễn phí và không giới hạn những đoạn văn bản có thể nhạy cảm như số CMND/CCCD, thẻ, số điện thoại và email, nhưng bạn tự vẽ và điều chỉnh lớp che và quyết định chính xác điều gì được che. Ứng dụng xử lý ảnh, thẻ căn cước và cả PDF nhiều trang, mọi bản lưu hoặc chia sẻ đều được mã hóa lại không kèm EXIF, và không bao giờ yêu cầu quyền truy cập thư viện hay bộ nhớ.</p>
+          <p>Nhận diện, chỉnh sửa và che vẫn không giới hạn ở bản miễn phí và không bản xuất nào có hình mờ; bản miễn phí xuất 3 lượt mỗi ngày, còn Pro gỡ giới hạn đó và thêm xuất PDF, in cùng màu lớp che tùy chọn. Bật “Chọn nơi lưu” để tự chọn thư mục và tên tệp.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Câu hỏi thường gặp</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Cách che là làm mờ hay mosaic?</p><p class="faq-a">Không. Việc che chỉ dùng một kiểu duy nhất là tô đặc, không trong suốt, và vùng đã che không thể khôi phục. Với bản Pro, bạn có thể chọn màu che tùy ý.</p></div>
-        <div class="faq-item"><p class="faq-q">Ảnh của tôi có bị tải lên đâu đó không?</p><p class="faq-a">Không. Mọi thứ chạy ngoại tuyến ngay trên thiết bị và không ảnh nào bị tải lên. Ứng dụng cũng không bao giờ yêu cầu quyền truy cập thư viện hay bộ nhớ.</p></div>
-        <div class="faq-item"><p class="faq-q">Tôi có thể chỉ dựa vào phát hiện tự động trước khi xuất không?</p><p class="faq-a">Phát hiện chỉ là điểm khởi đầu, gợi ý những đoạn văn bản có thể nhạy cảm. Hãy luôn xem lại các gợi ý và tự thêm hoặc bớt lớp che trước khi xuất.</p></div>
-        <div class="faq-item"><p class="faq-q">Bản miễn phí xuất được bao nhiêu lần mỗi ngày?</p><p class="faq-a">Ba lần một ngày. Tính theo nút Xuất, bất kể sau đó bạn lưu, chia sẻ, tạo PDF hay in. Nhận diện, chỉnh sửa và che không bao giờ bị giới hạn. Pro gỡ bỏ giới hạn hằng ngày, và nếu bạn không muốn đăng ký, một video ngắn sẽ gỡ giới hạn trong 24 giờ.</p></div>
-      </div>
+          <div class="faq-item"><p class="faq-q">Cách che là làm mờ hay mosaic?</p><p class="faq-a">Không. Việc che chỉ dùng một kiểu duy nhất là tô đặc, không trong suốt, và vùng đã che không thể khôi phục. Với bản Pro, bạn có thể chọn màu che tùy ý.</p></div>
+          <div class="faq-item"><p class="faq-q">Ảnh của tôi có bị tải lên đâu đó không?</p><p class="faq-a">Không. Mọi thứ chạy ngoại tuyến ngay trên thiết bị và không ảnh nào bị tải lên. Ứng dụng cũng không bao giờ yêu cầu quyền truy cập thư viện hay bộ nhớ.</p></div>
+          <div class="faq-item"><p class="faq-q">Tôi có thể chỉ dựa vào phát hiện tự động trước khi xuất không?</p><p class="faq-a">Phát hiện chỉ là điểm khởi đầu, gợi ý những đoạn văn bản có thể nhạy cảm. Hãy luôn xem lại các gợi ý và tự thêm hoặc bớt lớp che trước khi xuất.</p></div>
+          <div class="faq-item"><p class="faq-q">Bản miễn phí xuất được bao nhiêu lần mỗi ngày?</p><p class="faq-a">Ba lần một ngày. Tính theo nút Xuất, bất kể sau đó bạn lưu, chia sẻ, tạo PDF hay in. Nhận diện, chỉnh sửa và che không bao giờ bị giới hạn. Pro gỡ bỏ giới hạn hằng ngày, và nếu bạn không muốn đăng ký, một video ngắn sẽ gỡ giới hạn trong 24 giờ.</p></div>
+        </div>
     </div>
   </section>
 
-
-  <div class="detail-cta">
-    <a href="/vi/#apps" class="btn btn-primary">Khám phá thêm ứng dụng</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Khám phá thêm ứng dụng</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/vi/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">Công cụ hỗ trợ đọc cho người khó đọc và ADHD với đánh dấu dòng và lớp che.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/vi/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">Ghi chú dán nổi trên mọi ứng dụng. Thu gọn thành chip, mở thành thẻ, có màu sắc và định dạng.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/vi/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">Lưu mọi văn bản và ảnh đã sao chép. Tìm kiếm, dán và đồng bộ sang PC.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/vi/apps/autostart.html">
+            <img class="app-icon" src="/images/icons/autostart.png?v=61" alt="AutoStart+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>AutoStart+</bdi></span><span class="rc-desc">Tự động mở ứng dụng khi khởi động máy. Không cần root, cài đặt một lần.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -296,6 +338,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/photocleaner.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>PhotoCleaner+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dvi" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -303,6 +351,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"vi","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/photocleaner.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/photocleaner.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/photocleaner.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/photocleaner.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/photocleaner.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/photocleaner.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/photocleaner.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/photocleaner.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/photocleaner.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/photocleaner.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/photocleaner.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/photocleaner.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/photocleaner.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/photocleaner.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/photocleaner.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/photocleaner.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/photocleaner.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/photocleaner.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/photocleaner.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/photocleaner.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/photocleaner.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

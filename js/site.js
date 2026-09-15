@@ -87,11 +87,16 @@
   close.textContent = '×';
   close.addEventListener('click', () => {
     bar.remove();
+    document.documentElement.style.removeProperty('--lb-h');
     try { localStorage.setItem('langBannerOff', '1'); } catch (e) { /* 무시 */ }
   });
 
   bar.append(text, cta, close);
   document.body.appendChild(bar);
+  // 앱 상세의 하단 설치 막대가 이 배너 위에 서도록 높이를 알려 준다(글자 크기·줄바꿈에 따라 달라진다).
+  const setHeight = () => document.documentElement.style.setProperty('--lb-h', bar.offsetHeight + 'px');
+  setHeight();
+  window.addEventListener('resize', setHeight, { passive: true });
 })();
 
 // ===== 모바일 메뉴 =====
@@ -132,7 +137,7 @@
   document.addEventListener('click', (e) => {
     const img = e.target.closest('.shot');
     if (!img) return;
-    const group = img.closest('.app-shots, .detail-shots');
+    const group = img.closest('.app-shots, .detail-shots, .app-hero-shots');
     if (!group) return;
     const imgs = [...group.querySelectorAll('.shot')];
     open(imgs.map((i) => i.src), imgs.indexOf(img));
@@ -221,7 +226,7 @@
   // 리빌 대상: 섹션 헤더 문구·카드·앱 카드·상세 섹션
   const targets = document.querySelectorAll(
     '.section-label, .section-title, .section-lead, .name-meaning, .about-lead, .principle, .app-card, ' +
-    '.platform-head, .platform-jump, .work-card, .detail-section, .app-hero-inner, .faq-item'
+    '.platform-head, .platform-jump, .work-card, .detail-title, .feature-grid li, .related-card, .faq-item'
   );
   if (!targets.length) return;
   if (reduce || !('IntersectionObserver' in window)) {
@@ -242,4 +247,18 @@
     });
   }, { rootMargin: '0px 0px -8% 0px', threshold: 0.06 });
   targets.forEach((el) => io.observe(el));
+})();
+
+// ===== 앱 상세: 모바일 하단 설치 막대 =====
+//  상단의 스토어 버튼이 화면 위로 사라지면 막대를 올리고, 다시 보이면 내린다.
+//  숨어 있는 동안에는 inert 로 초점·클릭을 막는다(데스크톱에서는 CSS 가 막대를 아예 그리지 않는다).
+(function () {
+  const bar = document.getElementById('installBar');
+  const anchor = document.querySelector('.app-hero-actions');
+  if (!bar || !anchor || !('IntersectionObserver' in window)) return;
+  new IntersectionObserver(([entry]) => {
+    const show = !entry.isIntersecting && entry.boundingClientRect.top < 0;
+    bar.classList.toggle('is-shown', show);
+    bar.inert = !show;
+  }).observe(anchor);
 })();

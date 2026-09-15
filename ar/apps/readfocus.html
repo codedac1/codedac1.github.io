@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 12+",
   "screenshot": [
     "https://codedac.com/images/shots/readfocus-1.jpg",
     "https://codedac.com/images/shots/readfocus-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/ar/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/ar/">الرئيسية</a>
-      <span class="sep">/</span>
-      <a href="/ar/#apps">التطبيقات</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>ReadFocus+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/readfocus.png?v=60" alt="ReadFocus+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">إمكانية الوصول</span><span class="app-langs" aria-label="21 لغة"><span class="globe" aria-hidden="true">🌐</span>21 لغة</span></span>
-        <h1><bdi>ReadFocus+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">أداة قراءة لعسر القراءة وفرط الحركة: إبراز السطر وقناع القراءة يُبقيان عينيك على المسار ويخفّفان إجهاد العين.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dar" class="btn btn-primary" target="_blank" rel="noopener">عرض على Google Play ←</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">تواصل معنا</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ar/">الرئيسية</a>
+        <span class="sep">/</span>
+        <a href="/ar/#apps">التطبيقات</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>ReadFocus+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">إمكانية الوصول</span><span class="app-langs" aria-label="21 لغة"><span class="globe" aria-hidden="true">🌐</span>21 لغة</span></span>
+              <h1><bdi>ReadFocus+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">أداة قراءة لعسر القراءة وفرط الحركة: إبراز السطر وقناع القراءة يُبقيان عينيك على المسار ويخفّفان إجهاد العين.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 12+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dar" class="btn btn-primary" target="_blank" rel="noopener">عرض على Google Play ←</a>
+            <a href="mailto:contact@codedac.com?subject=%5BReadFocus%2B%5D%20%D8%A7%D9%84%D8%AF%D8%B9%D9%85%20%D9%88%D8%A7%D9%84%D8%A3%D8%AE%D8%B7%D8%A7%D8%A1&amp;body=1.%20%D9%85%D8%A7%20%D8%A7%D9%84%D8%B0%D9%8A%20%D8%AD%D8%AF%D8%AB%D8%9F%20(%D8%AE%D8%B7%D9%88%D8%A7%D8%AA%20%D8%AA%D9%83%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9%20%D8%AA%D8%B3%D8%A7%D8%B9%D8%AF%20%D9%83%D8%AB%D9%8A%D8%B1%D9%8B%D8%A7)%0A-%20%0A%0A2.%20%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2%20%D9%88%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1%20%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%0A-%20%0A%0A3.%20%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%0A-%20%0A" class="btn btn-glass">الدعم والأخطاء</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/readfocus-1.jpg?v=61" alt="ReadFocus+ لقطات الشاشة 1" data-idx="0" />
+          <img class="shot" src="/images/shots/readfocus-2.jpg?v=61" alt="ReadFocus+ لقطات الشاشة 2" data-idx="1" />
+          <img class="shot" src="/images/shots/readfocus-3.jpg?v=61" alt="ReadFocus+ لقطات الشاشة 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -227,16 +241,71 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">نظرة عامة</h2>
-      <p class="detail-long">ReadFocus+‎ هو مسطرة قراءة وقناع قراءة وأداة قراءة لعسر القراءة وفرط الحركة على Android. امنح إذن التراكب مرة واحدة ليطفو شريط تركيز شبه شفاف فوق أي تطبيق — قارئات الكتب الإلكترونية والمتصفحات وملفات PDF والأخبار والقصص المصوّرة — ليُبقي عينيك على السطر الذي تقرؤه. يقلّل من تخطّي الأسطر أو إعادة قراءة السطر نفسه، فيخفّف إجهاد العين ويعزّز التركيز والكفاءة في القراءة.</p>
+      <h2 class="detail-title">الميزات الرئيسية</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>إبراز السطر (مسطرة القراءة): يضيء سطرك الحالي لإبقاء العينين على المسار</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>قناع القراءة: يعتّم كل شيء عدا منطقة قراءتك للتركيز كرؤية نفقية</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>شريط تركيز قابل للضبط بالكامل: الارتفاع (50dp–300dp) والشفافية (10%–100%)</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>10 سمات ألوان (3 مجانية + 7 لـ Pro)</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>يعمل فوق أي تطبيق — الكتب الإلكترونية وملفات PDF والقصص المصوّرة على الويب والأخبار والأوراق البحثية</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Pro: تجربة خالية من الإعلانات، ووقت تراكب غير محدود، وإبقاء الشاشة قيد التشغيل أثناء القراءة</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">لقطات الشاشة</h2>
+      <p class="detail-lead">اضغط على لقطة الشاشة لعرضها بحجم أكبر.</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/readfocus-1.jpg?v=61" alt="ReadFocus+ لقطات الشاشة 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/readfocus-2.jpg?v=61" alt="ReadFocus+ لقطات الشاشة 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/readfocus-3.jpg?v=61" alt="ReadFocus+ لقطات الشاشة 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/readfocus-4.jpg?v=61" alt="ReadFocus+ لقطات الشاشة 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/readfocus-5.jpg?v=61" alt="ReadFocus+ لقطات الشاشة 5" loading="lazy" data-idx="4" />
+        </div>
     </div>
   </section>
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">نظرة عامة</h2>
+      <div class="detail-long">
+          <p>ReadFocus+‎ هو مسطرة قراءة وقناع قراءة وأداة قراءة لعسر القراءة وفرط الحركة على Android. امنح إذن التراكب مرة واحدة ليطفو شريط تركيز شبه شفاف فوق أي تطبيق — قارئات الكتب الإلكترونية والمتصفحات وملفات PDF والأخبار والقصص المصوّرة — ليُبقي عينيك على السطر الذي تقرؤه. يقلّل من تخطّي الأسطر أو إعادة قراءة السطر نفسه، فيخفّف إجهاد العين ويعزّز التركيز والكفاءة في القراءة.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt" id="reviews">
+    <div class="container">
+      <h2 class="detail-title">آراء المستخدمين</h2>
+      <p class="detail-lead">تقييمات حقيقية على Google Play.</p>
+      <div class="reviews-grid">
+        <figure class="review-card">
+          <div class="review-stars" aria-label="5 / 5">★★★★★</div>
+          <blockquote class="review-text">난독증 있어서 종이책도 라인자가 있어야 읽는 사람이라, 이북 읽고 싶은 것도 못 읽고 인터넷 자료 서핑도 힘들었는데 이 어플 덕분에 읽을 수 있게 됐습니다. 월정액이나 1년 플랜 다 저렴하고, 무엇보다 영구 결제가 된다는 게 좋네요. 피드백도 빨리 받아주셔서 감사하고, 오래오래 잘 됐으면 좋겠어서 주변에 추천하고 다닐 생각입니다. 저한테 정말 절실한 어플이었어요. 만들어주셔서 감사합니다.</blockquote>
+          <figcaption class="review-meta"><span class="review-name">다비</span><span class="review-app">Google Play</span></figcaption>
+        </figure>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">الأسئلة الشائعة</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">كيف يعمل ReadFocus+‎؟</p><p class="faq-a">امنح إذن التراكب مرة واحدة ليطفو شريط تركيز شبه شفاف فوق أي تطبيق. اسحبه إلى السطر الذي تقرؤه لتبقى عيناك على المسار بدلًا من التشتت أو تخطّي الأسطر.</p></div>
+          <div class="faq-item"><p class="faq-q">مع أي تطبيقات يعمل؟</p><p class="faq-a">يعمل فوق أي تطبيق على الشاشة — قارئات الكتب الإلكترونية وملفات PDF والأوراق البحثية والمقالات على الويب والمدونات والأخبار وملاحظات الدراسة والكتب المدرسية والقصص المصوّرة والقصص المصوّرة على الويب ورسائل البريد أو سجلات الدردشة الطويلة.</p></div>
+          <div class="faq-item"><p class="faq-q">هل استخدامه مجاني؟</p><p class="faq-a">نعم. تمنحك النسخة المجانية 60 دقيقة من وقت التراكب لكل جلسة وثلاث سمات ألوان. وتضيف Pro تجربة خالية من الإعلانات وجميع السمات العشر ووقت تراكب غير محدود — كما يمكنك مشاهدة إعلان قصير بمكافأة لفتح أي ميزة من ميزات Pro مجانًا لمدة 24 ساعة.</p></div>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
       <h2 class="detail-title">متوفر أيضًا على Windows</h2>
       <a class="counterpart" href="/ar/apps/readfocuswin.html">
-        <img class="app-icon" src="/images/icons/readfocuswin.png?v=60" alt="ReadFocus+ for Windows icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/readfocuswin.png?v=61" alt="ReadFocus+ for Windows icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>ReadFocus+ for Windows</bdi></span>
           <span class="cp-desc">شريط تركيز لويندوز تمرّ النقرات من خلاله — القناع والتمييز يُبقيان عينيك على السطر.</span>
@@ -245,61 +314,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">الميزات الرئيسية</h2>
-      <ul class="feature-list">
-        <li>إبراز السطر (مسطرة القراءة): يضيء سطرك الحالي لإبقاء العينين على المسار</li>
-        <li>قناع القراءة: يعتّم كل شيء عدا منطقة قراءتك للتركيز كرؤية نفقية</li>
-        <li>شريط تركيز قابل للضبط بالكامل: الارتفاع (50dp–300dp) والشفافية (10%–100%)</li>
-        <li>10 سمات ألوان (3 مجانية + 7 لـ Pro)</li>
-        <li>يعمل فوق أي تطبيق — الكتب الإلكترونية وملفات PDF والقصص المصوّرة على الويب والأخبار والأوراق البحثية</li>
-        <li>Pro: تجربة خالية من الإعلانات، ووقت تراكب غير محدود، وإبقاء الشاشة قيد التشغيل أثناء القراءة</li>
-      </ul>
-    </div>
-  </section>
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">لقطات الشاشة</h2>
-      <p class="section-lead" style="margin-bottom:22px">اضغط على لقطة الشاشة لعرضها بحجم أكبر.</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/readfocus-1.jpg?v=60" alt="ReadFocus+ لقطات الشاشة 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/readfocus-2.jpg?v=60" alt="ReadFocus+ لقطات الشاشة 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/readfocus-3.jpg?v=60" alt="ReadFocus+ لقطات الشاشة 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/readfocus-4.jpg?v=60" alt="ReadFocus+ لقطات الشاشة 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/readfocus-5.jpg?v=60" alt="ReadFocus+ لقطات الشاشة 5" loading="lazy" data-idx="4" />
-      </div>
+      <h2 class="detail-title">استكشف المزيد من التطبيقات</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/ar/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">ملاحظات لاصقة تطفو فوق أي تطبيق. اطوها إلى مربّع صغير ووسّعها إلى بطاقة، مع الألوان والنص المنسّق.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ar/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">حفظ تلقائي لكل ما تنسخه من نص وصور، مع بحث فوري ومزامنة مع ويندوز.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ar/apps/autostart.html">
+            <img class="app-icon" src="/images/icons/autostart.png?v=61" alt="AutoStart+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>AutoStart+</bdi></span><span class="rc-desc">تشغيل تطبيقاتك تلقائيًا عند الإقلاع. بدون روت، وإعداد لمرة واحدة.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ar/apps/floatcalc.html">
+            <img class="app-icon" src="/images/icons/floatcalc.png?v=61" alt="FloatCalc+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCalc+</bdi></span><span class="rc-desc">آلة حاسبة عائمة مع محوّل عملات ووحدات فوق أي تطبيق.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">الأسئلة الشائعة</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">كيف يعمل ReadFocus+‎؟</p><p class="faq-a">امنح إذن التراكب مرة واحدة ليطفو شريط تركيز شبه شفاف فوق أي تطبيق. اسحبه إلى السطر الذي تقرؤه لتبقى عيناك على المسار بدلًا من التشتت أو تخطّي الأسطر.</p></div>
-        <div class="faq-item"><p class="faq-q">مع أي تطبيقات يعمل؟</p><p class="faq-a">يعمل فوق أي تطبيق على الشاشة — قارئات الكتب الإلكترونية وملفات PDF والأوراق البحثية والمقالات على الويب والمدونات والأخبار وملاحظات الدراسة والكتب المدرسية والقصص المصوّرة والقصص المصوّرة على الويب ورسائل البريد أو سجلات الدردشة الطويلة.</p></div>
-        <div class="faq-item"><p class="faq-q">هل استخدامه مجاني؟</p><p class="faq-a">نعم. تمنحك النسخة المجانية 60 دقيقة من وقت التراكب لكل جلسة وثلاث سمات ألوان. وتضيف Pro تجربة خالية من الإعلانات وجميع السمات العشر ووقت تراكب غير محدود — كما يمكنك مشاهدة إعلان قصير بمكافأة لفتح أي ميزة من ميزات Pro مجانًا لمدة 24 ساعة.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="detail-section" id="reviews">
-    <div class="container">
-      <h2 class="detail-title">آراء المستخدمين</h2>
-      <p class="section-lead" style="margin-bottom:22px">تقييمات حقيقية على Google Play.</p>
-      <div class="reviews-grid">
-        <figure class="review-card">
-          <div class="review-stars" aria-label="5 / 5">★★★★★</div>
-          <blockquote class="review-text">난독증 있어서 종이책도 라인자가 있어야 읽는 사람이라, 이북 읽고 싶은 것도 못 읽고 인터넷 자료 서핑도 힘들었는데 이 어플 덕분에 읽을 수 있게 됐습니다. 월정액이나 1년 플랜 다 저렴하고, 무엇보다 영구 결제가 된다는 게 좋네요. 피드백도 빨리 받아주셔서 감사하고, 오래오래 잘 됐으면 좋겠어서 주변에 추천하고 다닐 생각입니다. 저한테 정말 절실한 어플이었어요. 만들어주셔서 감사합니다.</blockquote>
-          <figcaption class="review-meta"><span class="review-name">다비</span><span class="review-app">Google Play</span></figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <div class="detail-cta">
-    <a href="/ar/#apps" class="btn btn-primary">استكشف المزيد من التطبيقات</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -315,6 +357,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/readfocus.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>ReadFocus+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dar" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -322,6 +370,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"ar","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/readfocus.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/readfocus.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/readfocus.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/readfocus.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/readfocus.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/readfocus.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/readfocus.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/readfocus.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/readfocus.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/readfocus.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/readfocus.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/readfocus.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/readfocus.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/readfocus.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/readfocus.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/readfocus.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/readfocus.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/readfocus.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/readfocus.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/readfocus.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/readfocus.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

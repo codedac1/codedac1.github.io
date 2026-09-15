@@ -56,7 +56,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -83,6 +83,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 8.0+",
   "screenshot": [
     "https://codedac.com/images/shots/floatcrypto-1.jpg",
     "https://codedac.com/images/shots/floatcrypto-2.jpg",
@@ -152,7 +153,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -199,28 +200,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/">Home</a>
-      <span class="sep">/</span>
-      <a href="/#apps">Apps</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatCrypto+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floatcrypto.png?v=60" alt="FloatCrypto+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 languages"><span class="globe" aria-hidden="true">🌐</span>21 languages</span></span>
-        <h1><bdi>FloatCrypto+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Keep Bitcoin, Ethereum and your altcoins on screen — above whatever app you are using.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Den" class="btn btn-primary" target="_blank" rel="noopener">View on Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Contact us</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/">Home</a>
+        <span class="sep">/</span>
+        <a href="/#apps">Apps</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatCrypto+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floatcrypto.png?v=61" alt="FloatCrypto+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 languages"><span class="globe" aria-hidden="true">🌐</span>21 languages</span></span>
+              <h1><bdi>FloatCrypto+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Keep Bitcoin, Ethereum and your altcoins on screen — above whatever app you are using.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 8.0+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Den" class="btn btn-primary" target="_blank" rel="noopener">View on Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatCrypto%2B%5D%20Support%20%26%20bug%20report&amp;body=1.%20What%20happened%3F%20(Steps%20to%20reproduce%20help%20a%20lot)%0A-%20%0A%0A2.%20Device%20and%20OS%20version%0A-%20%0A%0A3.%20App%20version%0A-%20%0A" class="btn btn-glass">Support &amp; bug report</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=61" alt="FloatCrypto+ Screenshots 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=61" alt="FloatCrypto+ Screenshots 2" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=61" alt="FloatCrypto+ Screenshots 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -228,53 +242,81 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Overview</h2>
-      <p class="detail-long">FloatCrypto+ floats a live crypto ticker on top of every app, so you can check the market while you watch YouTube, read the news or reply to messages — no switching, no reloading. Drag it anywhere, resize it and dial the opacity down so it never gets in the way. Set an upper or lower target and it notifies you the moment the market crosses it, keep a watchlist of the coins you actually follow, and open 1-day, 7-day and 30-day charts with period high, low, open and change. Prices come from Binance with an automatic fallback, so the ticker keeps working when one source is unreachable. Market data is delayed by up to 30 seconds — 10 seconds on Pro — and is for reference only, not investment advice.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Key Features</h2>
-      <ul class="feature-list">
-        <li>Floating price ticker on top of every app — drag it anywhere, resize it, dial the opacity down</li>
-        <li>Price alerts on an upper or lower target, added straight from the coin card with the coin filled in</li>
-        <li>Watchlist of the coins you care about, with live price, 24-hour change and drag-to-reorder</li>
-        <li>1-day / 7-day / 30-day charts with period high, low, open and change</li>
-        <li>Eastern and Western color modes — green-up/red-down, or red-up/blue-down as read in Korea, Japan and China</li>
-        <li>Binance prices with an automatic fallback source, delayed by up to 30 seconds (10 on Pro)</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Floating price ticker on top of every app — drag it anywhere, resize it, dial the opacity down</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Price alerts on an upper or lower target, added straight from the coin card with the coin filled in</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Watchlist of the coins you care about, with live price, 24-hour change and drag-to-reorder</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>1-day / 7-day / 30-day charts with period high, low, open and change</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Eastern and Western color modes — green-up/red-down, or red-up/blue-down as read in Korea, Japan and China</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Binance prices with an automatic fallback source, delayed by up to 30 seconds (10 on Pro)</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Screenshots</h2>
-      <p class="section-lead" style="margin-bottom:22px">Tap a screenshot to view it larger.</p>
+      <p class="detail-lead">Tap a screenshot to view it larger.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=60" alt="FloatCrypto+ Screenshots 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=60" alt="FloatCrypto+ Screenshots 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=60" alt="FloatCrypto+ Screenshots 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floatcrypto-4.jpg?v=60" alt="FloatCrypto+ Screenshots 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floatcrypto-5.jpg?v=60" alt="FloatCrypto+ Screenshots 5" loading="lazy" data-idx="4" />
-      </div>
+          <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=61" alt="FloatCrypto+ Screenshots 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=61" alt="FloatCrypto+ Screenshots 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=61" alt="FloatCrypto+ Screenshots 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floatcrypto-4.jpg?v=61" alt="FloatCrypto+ Screenshots 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/floatcrypto-5.jpg?v=61" alt="FloatCrypto+ Screenshots 5" loading="lazy" data-idx="4" />
+        </div>
     </div>
   </section>
+
   <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Overview</h2>
+      <div class="detail-long">
+          <p>FloatCrypto+ floats a live crypto ticker on top of every app, so you can check the market while you watch YouTube, read the news or reply to messages — no switching, no reloading. Drag it anywhere, resize it and dial the opacity down so it never gets in the way.</p>
+          <p>Set an upper or lower target and it notifies you the moment the market crosses it, keep a watchlist of the coins you actually follow, and open 1-day, 7-day and 30-day charts with period high, low, open and change.</p>
+          <p>Prices come from Binance with an automatic fallback, so the ticker keeps working when one source is unreachable. Market data is delayed by up to 30 seconds — 10 seconds on Pro — and is for reference only, not investment advice.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">FAQ</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Can I see prices while using other apps?</p><p class="faq-a">Yes. The ticker floats on top of every app, so you can watch the market while you are on YouTube, in a game or in a chat — no switching, no reloading. Drag it anywhere, resize it, and lower the opacity so it never covers what you are reading.</p></div>
-        <div class="faq-item"><p class="faq-q">How do price alerts work?</p><p class="faq-a">Set an upper or lower target and FloatCrypto+ notifies you the moment the market crosses it. You can add an alert straight from a coin card — tap ⋮ and the coin is already filled in — and a bell badge marks every coin you are watching for.</p></div>
-        <div class="faq-item"><p class="faq-q">What do I get for free?</p><p class="faq-a">Free follows 2 coins with 1 price alert and refreshes the ticker every 30 seconds. A Free Pass opens one feature for 24 hours in exchange for one short ad — the Chart pass unlocks the 7-day and 30-day charts, the Watchlist pass gives 10 coins and unlimited alerts — one of each per day, for as many days as you like, and ads keep running while a pass is active. Pro gives 10 coins, unlimited alerts, a 10-second refresh, the full chart history and no ads, monthly, annually or as a one-time lifetime purchase.</p></div>
-      </div>
+          <div class="faq-item"><p class="faq-q">Can I see prices while using other apps?</p><p class="faq-a">Yes. The ticker floats on top of every app, so you can watch the market while you are on YouTube, in a game or in a chat — no switching, no reloading. Drag it anywhere, resize it, and lower the opacity so it never covers what you are reading.</p></div>
+          <div class="faq-item"><p class="faq-q">How do price alerts work?</p><p class="faq-a">Set an upper or lower target and FloatCrypto+ notifies you the moment the market crosses it. You can add an alert straight from a coin card — tap ⋮ and the coin is already filled in — and a bell badge marks every coin you are watching for.</p></div>
+          <div class="faq-item"><p class="faq-q">What do I get for free?</p><p class="faq-a">Free follows 2 coins with 1 price alert and refreshes the ticker every 30 seconds. A Free Pass opens one feature for 24 hours in exchange for one short ad — the Chart pass unlocks the 7-day and 30-day charts, the Watchlist pass gives 10 coins and unlimited alerts — one of each per day, for as many days as you like, and ads keep running while a pass is active. Pro gives 10 coins, unlimited alerts, a 10-second refresh, the full chart history and no ads, monthly, annually or as a one-time lifetime purchase.</p></div>
+        </div>
     </div>
   </section>
 
-
-  <div class="detail-cta">
-    <a href="/#apps" class="btn btn-primary">Explore more apps</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Explore more apps</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/apps/floattimer.html">
+            <img class="app-icon" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+</bdi></span><span class="rc-desc">A floating timer, counter and stopwatch that stays over any app.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/apps/volumebooster.html">
+            <img class="app-icon" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>VolumeBooster+</bdi></span><span class="rc-desc">Volume booster, equalizer and bass boost — make any sound louder, up to +15 dB.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">Hide personal info in photos &amp; PDFs, fully on-device.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">A dyslexia &amp; ADHD reading aid with line highlight &amp; mask.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -290,6 +332,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floatcrypto.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatCrypto+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Den" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -297,6 +345,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"en","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floatcrypto.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floatcrypto.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floatcrypto.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floatcrypto.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floatcrypto.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floatcrypto.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floatcrypto.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floatcrypto.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floatcrypto.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floatcrypto.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floatcrypto.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floatcrypto.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floatcrypto.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floatcrypto.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floatcrypto.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floatcrypto.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floatcrypto.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floatcrypto.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floatcrypto.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floatcrypto.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floatcrypto.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

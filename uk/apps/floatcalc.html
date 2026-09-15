@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 12+",
   "screenshot": [
     "https://codedac.com/images/shots/floatcalc-1.jpg",
     "https://codedac.com/images/shots/floatcalc-2.jpg",
@@ -152,7 +153,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/uk/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -199,28 +200,42 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/uk/">Головна</a>
-      <span class="sep">/</span>
-      <a href="/uk/#apps">Застосунки</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatCalc+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floatcalc.png?v=60" alt="FloatCalc+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Плаваюче вікно</span><span class="app-langs" aria-label="21 мов"><span class="globe" aria-hidden="true">🌐</span>21 мов</span></span>
-        <h1><bdi>FloatCalc+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Рахуйте, не виходячи з програми — калькулятор завжди поверх екрана.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Duk" class="btn btn-primary" target="_blank" rel="noopener">Відкрити у Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Зв’язатися з нами</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/uk/">Головна</a>
+        <span class="sep">/</span>
+        <a href="/uk/#apps">Застосунки</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatCalc+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floatcalc.png?v=61" alt="FloatCalc+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Плаваюче вікно</span><span class="app-langs" aria-label="21 мов"><span class="globe" aria-hidden="true">🌐</span>21 мов</span></span>
+              <h1><bdi>FloatCalc+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Рахуйте, не виходячи з програми — калькулятор завжди поверх екрана.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 12+</span></li>
+            <li><span dir="ltr">1,000+</span><span>Завантажень</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Duk" class="btn btn-primary" target="_blank" rel="noopener">Відкрити у Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatCalc%2B%5D%20%D0%9F%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B0%20%D0%B9%20%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8&amp;body=1.%20%D0%A9%D0%BE%20%D1%81%D1%82%D0%B0%D0%BB%D0%BE%D1%81%D1%8F%3F%20(%D0%9A%D1%80%D0%BE%D0%BA%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%B2%D1%96%D0%B4%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B4%D1%83%D0%B6%D0%B5%20%D0%B4%D0%BE%D0%BF%D0%BE%D0%BC%D0%BE%D0%B6%D1%83%D1%82%D1%8C)%0A-%20%0A%0A2.%20%D0%9F%D1%80%D0%B8%D1%81%D1%82%D1%80%D1%96%D0%B9%20%D1%96%20%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%20%D0%9E%D0%A1%0A-%20%0A%0A3.%20%D0%92%D0%B5%D1%80%D1%81%D1%96%D1%8F%20%D0%B7%D0%B0%D1%81%D1%82%D0%BE%D1%81%D1%83%D0%BD%D0%BA%D1%83%0A-%20%0A" class="btn btn-glass">Підтримка й помилки</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/floatcalc-1.jpg?v=61" alt="FloatCalc+ Знімки екрана 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcalc-2.jpg?v=61" alt="FloatCalc+ Знімки екрана 2" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcalc-3.jpg?v=61" alt="FloatCalc+ Знімки екрана 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -228,54 +243,82 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Огляд</h2>
-      <p class="detail-long">FloatCalc+ — плаваючий калькулятор, який тримається поверх будь-якої програми, тож не доводиться закривати покупки, банк чи браузер лише заради кількох обчислень. Калькулятор, конвертер одиниць і конвертер валют мають одне вікно, яке можна перетягувати: наберіть вираз на вбудованій цифровій клавіатурі, миттєво отримайте відповідь і скопіюйте її в буфер обміну. Згорніть клавіатуру, коли досить одного рядка, або зменште всю панель до плаваючої піктограми, що чіпляється до краю екрана. Курси беруться з ЄЦБ, оновлюються щодня та кешуються, тож усе працює й офлайн. Плаваючий калькулятор безкоштовний 60 хвилин на день — час, що залишився, видно в рядку заголовка панелі, — а коротка реклама дає доступ на 24 години, коли потрібно більше.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Ключові можливості</h2>
-      <ul class="feature-list">
-        <li>Накладка поверх будь-якої програми — YouTube, Карти, браузер, банкінг, покупки, документи — і відкривається в режимі, який ви використовували востаннє</li>
-        <li>Панель операторів одним дотиком: + − × ÷ ( ) % просто над вбудованою цифровою клавіатурою, видалення символа виправляє одруківку</li>
-        <li>Степені, корені та відсотки — 2^10, √144, 100+10% — вираз лишається на екрані після «=», торкніться, щоб змінити його</li>
-        <li>Конвертер одиниць у тому ж вікні: довжина, вага, температура, площа, об'єм, швидкість і час</li>
-        <li>Конвертер валют із щоденними курсами ЄЦБ для понад 30 валют; у Налаштуваннях видно дату останнього оновлення та джерело</li>
-        <li>Згорніть клавіатуру до одного рядка або панель — до піктограми біля краю екрана; розмір, ширина та прозорість налаштовуються, 8 тем</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Накладка поверх будь-якої програми — YouTube, Карти, браузер, банкінг, покупки, документи — і відкривається в режимі, який ви використовували востаннє</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Панель операторів одним дотиком: + − × ÷ ( ) % просто над вбудованою цифровою клавіатурою, видалення символа виправляє одруківку</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Степені, корені та відсотки — 2^10, √144, 100+10% — вираз лишається на екрані після «=», торкніться, щоб змінити його</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Конвертер одиниць у тому ж вікні: довжина, вага, температура, площа, об'єм, швидкість і час</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Конвертер валют із щоденними курсами ЄЦБ для понад 30 валют; у Налаштуваннях видно дату останнього оновлення та джерело</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Згорніть клавіатуру до одного рядка або панель — до піктограми біля краю екрана; розмір, ширина та прозорість налаштовуються, 8 тем</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Знімки екрана</h2>
-      <p class="section-lead" style="margin-bottom:22px">Торкніться знімка екрана, щоб збільшити його.</p>
+      <p class="detail-lead">Торкніться знімка екрана, щоб збільшити його.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floatcalc-1.jpg?v=60" alt="FloatCalc+ Знімки екрана 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floatcalc-2.jpg?v=60" alt="FloatCalc+ Знімки екрана 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floatcalc-3.jpg?v=60" alt="FloatCalc+ Знімки екрана 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floatcalc-4.jpg?v=60" alt="FloatCalc+ Знімки екрана 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floatcalc-5.jpg?v=60" alt="FloatCalc+ Знімки екрана 5" loading="lazy" data-idx="4" />
-        <img class="shot" src="/images/shots/floatcalc-6.jpg?v=60" alt="FloatCalc+ Знімки екрана 6" loading="lazy" data-idx="5" />
-      </div>
+          <img class="shot" src="/images/shots/floatcalc-1.jpg?v=61" alt="FloatCalc+ Знімки екрана 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcalc-2.jpg?v=61" alt="FloatCalc+ Знімки екрана 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcalc-3.jpg?v=61" alt="FloatCalc+ Знімки екрана 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floatcalc-4.jpg?v=61" alt="FloatCalc+ Знімки екрана 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/floatcalc-5.jpg?v=61" alt="FloatCalc+ Знімки екрана 5" loading="lazy" data-idx="4" />
+          <img class="shot" src="/images/shots/floatcalc-6.jpg?v=61" alt="FloatCalc+ Знімки екрана 6" loading="lazy" data-idx="5" />
+        </div>
     </div>
   </section>
+
   <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Огляд</h2>
+      <div class="detail-long">
+          <p>FloatCalc+ — плаваючий калькулятор, який тримається поверх будь-якої програми, тож не доводиться закривати покупки, банк чи браузер лише заради кількох обчислень.</p>
+          <p>Калькулятор, конвертер одиниць і конвертер валют мають одне вікно, яке можна перетягувати: наберіть вираз на вбудованій цифровій клавіатурі, миттєво отримайте відповідь і скопіюйте її в буфер обміну. Згорніть клавіатуру, коли досить одного рядка, або зменште всю панель до плаваючої піктограми, що чіпляється до краю екрана.</p>
+          <p>Курси беруться з ЄЦБ, оновлюються щодня та кешуються, тож усе працює й офлайн. Плаваючий калькулятор безкоштовний 60 хвилин на день — час, що залишився, видно в рядку заголовка панелі, — а коротка реклама дає доступ на 24 години, коли потрібно більше.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Часті запитання</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Чи треба щоразу закривати програму, щоб порахувати?</p><p class="faq-a">Ні. FloatCalc+ — це плаваюче вікно поверх інших програм, тож знижку чи ціну в іншій валюті можна порахувати, не виходячи з магазину, банку або браузера. Перетягніть вікно туди, де воно потрібне, отримайте результат і продовжуйте саме з того місця, де були.</p></div>
-        <div class="faq-item"><p class="faq-q">Звідки беруться курси валют?</p><p class="faq-a">З Європейського центрального банку, оновлення раз на день. У Налаштуваннях › Загальні показано дату курсів і джерело, і там же їх можна оновити будь-коли. USD, EUR, JPY, GBP, KRW, CNY та понад 30 світових валют конвертуються просто в плаваючому вікні, а щоденний кеш дає змогу працювати офлайн.</p></div>
-        <div class="faq-item"><p class="faq-q">Скільки можна користуватися безкоштовно?</p><p class="faq-a">Плаваючий калькулятор безкоштовний 60 хвилин на день, а рядок заголовка панелі показує, скільки часу лишилося. Потрібно більше — перегляньте коротку рекламу й отримайте доступ на 24 години. Pro знімає денне обмеження часу та прибирає рекламу, додає решту категорій одиниць і понад 30 валют, 7 преміум-тем і повне налаштування панелі (прозорість, розмір, ширина) — щомісяця, щороку або один раз назавжди.</p></div>
-      </div>
+          <div class="faq-item"><p class="faq-q">Чи треба щоразу закривати програму, щоб порахувати?</p><p class="faq-a">Ні. FloatCalc+ — це плаваюче вікно поверх інших програм, тож знижку чи ціну в іншій валюті можна порахувати, не виходячи з магазину, банку або браузера. Перетягніть вікно туди, де воно потрібне, отримайте результат і продовжуйте саме з того місця, де були.</p></div>
+          <div class="faq-item"><p class="faq-q">Звідки беруться курси валют?</p><p class="faq-a">З Європейського центрального банку, оновлення раз на день. У Налаштуваннях › Загальні показано дату курсів і джерело, і там же їх можна оновити будь-коли. USD, EUR, JPY, GBP, KRW, CNY та понад 30 світових валют конвертуються просто в плаваючому вікні, а щоденний кеш дає змогу працювати офлайн.</p></div>
+          <div class="faq-item"><p class="faq-q">Скільки можна користуватися безкоштовно?</p><p class="faq-a">Плаваючий калькулятор безкоштовний 60 хвилин на день, а рядок заголовка панелі показує, скільки часу лишилося. Потрібно більше — перегляньте коротку рекламу й отримайте доступ на 24 години. Pro знімає денне обмеження часу та прибирає рекламу, додає решту категорій одиниць і понад 30 валют, 7 преміум-тем і повне налаштування панелі (прозорість, розмір, ширина) — щомісяця, щороку або один раз назавжди.</p></div>
+        </div>
     </div>
   </section>
 
-
-  <div class="detail-cta">
-    <a href="/uk/#apps" class="btn btn-primary">Переглянути інші застосунки</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Переглянути інші застосунки</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/uk/apps/floatcrypto.html">
+            <img class="app-icon" src="/images/icons/floatcrypto.png?v=61" alt="FloatCrypto+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCrypto+</bdi></span><span class="rc-desc">Живий криптотикер поверх будь-яких застосунків — зі сповіщеннями та графіками.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/uk/apps/floattimer.html">
+            <img class="app-icon" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+</bdi></span><span class="rc-desc">Плаваючий таймер, лічильник і секундомір поверх будь-якого застосунку.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/uk/apps/volumebooster.html">
+            <img class="app-icon" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>VolumeBooster+</bdi></span><span class="rc-desc">Підсилювач гучності, еквалайзер і баси: будь-який звук гучніше, до +15 дБ.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/uk/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">Приховуйте особисті дані на фото та в PDF повністю на пристрої.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -291,6 +334,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floatcalc.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatCalc+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Duk" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -298,6 +347,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"uk","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floatcalc.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floatcalc.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floatcalc.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floatcalc.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floatcalc.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floatcalc.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floatcalc.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floatcalc.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floatcalc.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floatcalc.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floatcalc.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floatcalc.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floatcalc.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floatcalc.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floatcalc.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floatcalc.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floatcalc.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floatcalc.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floatcalc.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floatcalc.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floatcalc.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

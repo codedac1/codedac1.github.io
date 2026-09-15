@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 10+",
   "screenshot": [
     "https://codedac.com/images/shots/photocleaner-1.jpg",
     "https://codedac.com/images/shots/photocleaner-2.jpg",
@@ -158,7 +159,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/nl/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -205,28 +206,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/nl/">Home</a>
-      <span class="sep">/</span>
-      <a href="/nl/#apps">Apps</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>PhotoCleaner+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/photocleaner.png?v=60" alt="PhotoCleaner+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Privacy</span><span class="app-langs" aria-label="21 talen"><span class="globe" aria-hidden="true">🌐</span>21 talen</span></span>
-        <h1><bdi>PhotoCleaner+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Verberg persoonlijke gegevens in foto's en PDF's met een dekkend masker, volledig op je toestel.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dnl" class="btn btn-primary" target="_blank" rel="noopener">Bekijk op Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Contact</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/nl/">Home</a>
+        <span class="sep">/</span>
+        <a href="/nl/#apps">Apps</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>PhotoCleaner+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Privacy</span><span class="app-langs" aria-label="21 talen"><span class="globe" aria-hidden="true">🌐</span>21 talen</span></span>
+              <h1><bdi>PhotoCleaner+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Verberg persoonlijke gegevens in foto's en PDF's met een dekkend masker, volledig op je toestel.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 10+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dnl" class="btn btn-primary" target="_blank" rel="noopener">Bekijk op Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BPhotoCleaner%2B%5D%20Support%20%26%20bugs&amp;body=1.%20Wat%20is%20er%20gebeurd%3F%20(Stappen%20om%20het%20na%20te%20bootsen%20helpen%20enorm)%0A-%20%0A%0A2.%20Apparaat%20en%20OS-versie%0A-%20%0A%0A3.%20App-versie%0A-%20%0A" class="btn btn-glass">Support &amp; bugs</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/photocleaner-1.jpg?v=61" alt="PhotoCleaner+ Screenshots 1" data-idx="0" />
+          <img class="shot" src="/images/shots/photocleaner-2.jpg?v=61" alt="PhotoCleaner+ Screenshots 2" data-idx="1" />
+          <img class="shot" src="/images/shots/photocleaner-3.jpg?v=61" alt="PhotoCleaner+ Screenshots 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -234,53 +248,81 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Overzicht</h2>
-      <p class="detail-long">PhotoCleaner+ verbergt persoonlijke gegevens in foto's en PDF's volledig op je toestel. Het bedekt gevoelige delen met een dekkend, ondoorzichtig masker (geen vervaging of mozaïek, zodat bedekte delen niet kunnen worden hersteld) en exporteert een schone kopie. Een ingebouwde detector stelt gratis en onbeperkt waarschijnlijk gevoelige tekst voor, zoals ID-nummers, kaarten, telefoonnummers en e-mails, maar jij tekent en past de maskers zelf aan en bepaalt precies wat verborgen wordt. Foto's, ID-kaarten en PDF's van meerdere pagina's worden allemaal ondersteund, elke opgeslagen of gedeelde kopie wordt zonder EXIF opnieuw gecodeerd, en er wordt nooit een galerij- of opslagrecht aangevraagd. Detecteren, bewerken en maskeren blijven ook gratis onbeperkt en geen enkele export draagt een watermerk; gratis exporteer je 3 keer per dag, terwijl Pro die limiet opheft en pdf-export, afdrukken en elke maskerkleur toevoegt. Zet ‘Kies waar op te slaan’ aan en je bepaalt zelf map en bestandsnaam.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Belangrijkste functies</h2>
-      <ul class="feature-list">
-        <li>Dekkend, ondoorzichtig masker dat niet kan worden hersteld (geen vervaging of mozaïek)</li>
-        <li>Maskers met de hand tekenen en ze daarna verplaatsen, schalen of verwijderen, met zoom voor precisie</li>
-        <li>Ingebouwde detectie stelt waarschijnlijk gevoelige tekst voor (ID-nummers, kaarten, telefoons, e-mails) — gratis en onbeperkt, als vertrekpunt dat jij nakijkt</li>
-        <li>Foto's, ID-kaarten en PDF-documenten van meerdere pagina's maskeren</li>
-        <li>Geen rechten, EXIF- &amp; GPS-melding, en elke opgeslagen of gedeelde kopie wordt zonder EXIF opnieuw gecodeerd</li>
-        <li>Geen watermerk voor niemand: 3 exports per dag gratis, onbeperkt met Pro samen met pdf-export en afdrukken — of een korte video opent er een voor 24 uur</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Dekkend, ondoorzichtig masker dat niet kan worden hersteld (geen vervaging of mozaïek)</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Maskers met de hand tekenen en ze daarna verplaatsen, schalen of verwijderen, met zoom voor precisie</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Ingebouwde detectie stelt waarschijnlijk gevoelige tekst voor (ID-nummers, kaarten, telefoons, e-mails) — gratis en onbeperkt, als vertrekpunt dat jij nakijkt</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Foto's, ID-kaarten en PDF-documenten van meerdere pagina's maskeren</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Geen rechten, EXIF- &amp; GPS-melding, en elke opgeslagen of gedeelde kopie wordt zonder EXIF opnieuw gecodeerd</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Geen watermerk voor niemand: 3 exports per dag gratis, onbeperkt met Pro samen met pdf-export en afdrukken — of een korte video opent er een voor 24 uur</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Screenshots</h2>
-      <p class="section-lead" style="margin-bottom:22px">Tik op een screenshot om hem groter te bekijken.</p>
+      <p class="detail-lead">Tik op een screenshot om hem groter te bekijken.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/photocleaner-1.jpg?v=60" alt="PhotoCleaner+ Screenshots 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/photocleaner-2.jpg?v=60" alt="PhotoCleaner+ Screenshots 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/photocleaner-3.jpg?v=60" alt="PhotoCleaner+ Screenshots 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/photocleaner-4.jpg?v=60" alt="PhotoCleaner+ Screenshots 4" loading="lazy" data-idx="3" />
-      </div>
+          <img class="shot" src="/images/shots/photocleaner-1.jpg?v=61" alt="PhotoCleaner+ Screenshots 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/photocleaner-2.jpg?v=61" alt="PhotoCleaner+ Screenshots 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/photocleaner-3.jpg?v=61" alt="PhotoCleaner+ Screenshots 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/photocleaner-4.jpg?v=61" alt="PhotoCleaner+ Screenshots 4" loading="lazy" data-idx="3" />
+        </div>
     </div>
   </section>
+
   <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Overzicht</h2>
+      <div class="detail-long">
+          <p>PhotoCleaner+ verbergt persoonlijke gegevens in foto's en PDF's volledig op je toestel. Het bedekt gevoelige delen met een dekkend, ondoorzichtig masker (geen vervaging of mozaïek, zodat bedekte delen niet kunnen worden hersteld) en exporteert een schone kopie.</p>
+          <p>Een ingebouwde detector stelt gratis en onbeperkt waarschijnlijk gevoelige tekst voor, zoals ID-nummers, kaarten, telefoonnummers en e-mails, maar jij tekent en past de maskers zelf aan en bepaalt precies wat verborgen wordt. Foto's, ID-kaarten en PDF's van meerdere pagina's worden allemaal ondersteund, elke opgeslagen of gedeelde kopie wordt zonder EXIF opnieuw gecodeerd, en er wordt nooit een galerij- of opslagrecht aangevraagd.</p>
+          <p>Detecteren, bewerken en maskeren blijven ook gratis onbeperkt en geen enkele export draagt een watermerk; gratis exporteer je 3 keer per dag, terwijl Pro die limiet opheft en pdf-export, afdrukken en elke maskerkleur toevoegt. Zet ‘Kies waar op te slaan’ aan en je bepaalt zelf map en bestandsnaam.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">FAQ</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Is het maskeren een vervaging of mozaïek?</p><p class="faq-a">Nee. Het maskeren gebruikt maar één stijl, een dekkende, ondoorzichtige vulling, en bedekte delen kunnen niet worden hersteld. Met Pro kun je elke maskerkleur kiezen.</p></div>
-        <div class="faq-item"><p class="faq-q">Worden mijn foto's ergens geüpload?</p><p class="faq-a">Nee. Alles draait offline op je toestel en geen enkele foto wordt ooit geüpload. De app vraagt bovendien nooit een galerij- of opslagrecht aan.</p></div>
-        <div class="faq-item"><p class="faq-q">Kan ik vóór het exporteren alleen op de automatische detectie vertrouwen?</p><p class="faq-a">De detectie is slechts een vertrekpunt dat waarschijnlijk gevoelige tekst voorstelt. Controleer de suggesties altijd en voeg zelf maskers toe of verwijder ze voordat je exporteert.</p></div>
-        <div class="faq-item"><p class="faq-q">Hoe vaak kan ik gratis exporteren?</p><p class="faq-a">Drie keer per dag. Het gaat om de knop Exporteren, wat je daarna ook met het resultaat doet: opslaan, delen, een pdf maken of afdrukken. Detecteren, bewerken en maskeren zijn nooit beperkt. Pro heft de daglimiet op, en als je liever geen abonnement neemt, haalt een korte video de limiet 24 uur weg.</p></div>
-      </div>
+          <div class="faq-item"><p class="faq-q">Is het maskeren een vervaging of mozaïek?</p><p class="faq-a">Nee. Het maskeren gebruikt maar één stijl, een dekkende, ondoorzichtige vulling, en bedekte delen kunnen niet worden hersteld. Met Pro kun je elke maskerkleur kiezen.</p></div>
+          <div class="faq-item"><p class="faq-q">Worden mijn foto's ergens geüpload?</p><p class="faq-a">Nee. Alles draait offline op je toestel en geen enkele foto wordt ooit geüpload. De app vraagt bovendien nooit een galerij- of opslagrecht aan.</p></div>
+          <div class="faq-item"><p class="faq-q">Kan ik vóór het exporteren alleen op de automatische detectie vertrouwen?</p><p class="faq-a">De detectie is slechts een vertrekpunt dat waarschijnlijk gevoelige tekst voorstelt. Controleer de suggesties altijd en voeg zelf maskers toe of verwijder ze voordat je exporteert.</p></div>
+          <div class="faq-item"><p class="faq-q">Hoe vaak kan ik gratis exporteren?</p><p class="faq-a">Drie keer per dag. Het gaat om de knop Exporteren, wat je daarna ook met het resultaat doet: opslaan, delen, een pdf maken of afdrukken. Detecteren, bewerken en maskeren zijn nooit beperkt. Pro heft de daglimiet op, en als je liever geen abonnement neemt, haalt een korte video de limiet 24 uur weg.</p></div>
+        </div>
     </div>
   </section>
 
-
-  <div class="detail-cta">
-    <a href="/nl/#apps" class="btn btn-primary">Meer apps ontdekken</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Meer apps ontdekken</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/nl/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">Een leeshulp bij dyslexie &amp; ADHD met regelmarkering &amp; leesmasker.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/nl/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">Plaknotities die boven elke app zweven. Vouw in tot een chip, open als kaart — met kleuren en opmaak.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/nl/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">Klembordgeschiedenis voor tekst en beeld. Zoeken, plakken en syncen met pc.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/nl/apps/autostart.html">
+            <img class="app-icon" src="/images/icons/autostart.png?v=61" alt="AutoStart+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>AutoStart+</bdi></span><span class="rc-desc">Start je apps automatisch bij het opstarten. Geen root nodig, één keer instellen.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -296,6 +338,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/photocleaner.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>PhotoCleaner+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dnl" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -303,6 +351,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"nl","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/photocleaner.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/photocleaner.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/photocleaner.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/photocleaner.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/photocleaner.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/photocleaner.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/photocleaner.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/photocleaner.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/photocleaner.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/photocleaner.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/photocleaner.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/photocleaner.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/photocleaner.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/photocleaner.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/photocleaner.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/photocleaner.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/photocleaner.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/photocleaner.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/photocleaner.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/photocleaner.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/photocleaner.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

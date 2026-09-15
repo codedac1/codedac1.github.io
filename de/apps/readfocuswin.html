@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Windows 10+",
   "screenshot": [
     "https://codedac.com/images/shots/readfocuswin-1.jpg",
     "https://codedac.com/images/shots/readfocuswin-2.jpg",
@@ -150,7 +151,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/de/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -197,28 +198,40 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/de/">Startseite</a>
-      <span class="sep">/</span>
-      <a href="/de/#apps">Apps</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>ReadFocus+ for Windows</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/readfocuswin.png?v=60" alt="ReadFocus+ for Windows icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Barrierefreiheit</span><span class="app-langs" aria-label="21 Sprachen"><span class="globe" aria-hidden="true">🌐</span>21 Sprachen</span></span>
-        <h1><bdi>ReadFocus+ for Windows</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Ein Fokusstreifen für Windows, der im Infobereich wohnt: Maske oder Hervorheben hält den Blick in der Zeile, und Klicks gehen direkt an die App darunter.</h2>
-        <div class="app-hero-actions">
-          <a href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-detail-hero-de" class="btn btn-primary" target="_blank" rel="noopener">Im Microsoft Store ansehen →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Kontakt</a>
+  <section class="app-hero-d app-hero-windows">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/de/">Startseite</a>
+        <span class="sep">/</span>
+        <a href="/de/#apps">Apps</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>ReadFocus+ for Windows</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/readfocuswin.png?v=61" alt="ReadFocus+ for Windows icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Barrierefreiheit</span><span class="app-langs" aria-label="21 Sprachen"><span class="globe" aria-hidden="true">🌐</span>21 Sprachen</span></span>
+              <h1><bdi>ReadFocus+ for Windows</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Ein Fokusstreifen für Windows, der im Infobereich wohnt: Maske oder Hervorheben hält den Blick in der Zeile, und Klicks gehen direkt an die App darunter.</h2>
+          <ul class="app-facts">
+            <li class="fact-windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span dir="ltr">Windows · Microsoft Store</span></li>
+            <li><span dir="ltr">Windows 10+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-detail-hero-de" class="btn btn-primary" target="_blank" rel="noopener">Im Microsoft Store ansehen →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BReadFocus%2B%20for%20Windows%5D%20Support%20%26%20Fehler&amp;body=1.%20Was%20ist%20passiert%3F%20(Schritte%20zum%20Nachstellen%20helfen%20sehr)%0A-%20%0A%0A2.%20Ger%C3%A4t%20und%20OS-Version%0A-%20%0A%0A3.%20App-Version%0A-%20%0A" class="btn btn-glass">Support &amp; Fehler</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-windows">
+          <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=61" alt="ReadFocus+ for Windows Screenshots 1" data-idx="0" />
+          <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=61" alt="ReadFocus+ for Windows Screenshots 2" data-idx="1" />
         </div>
       </div>
     </div>
@@ -226,8 +239,49 @@
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">Hauptfunktionen</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Zwei Lesemodi – die Maske dunkelt alles außerhalb eines hellen Bands ab, das Hervorheben markiert die aktuelle Zeile</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Klickdurchlässig: Scrollen, Markieren und Klicken in der App darunter wie gewohnt – nichts fängt die Maus ab</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Schwebendes Bedienfeld für Moduswechsel, Verschieben oder Fixieren des Streifens und Ausblenden; bei Bedarf auf eine Zeile eingeklappt</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Tastenkürzel für Start und Stopp, Modus, Ein- und Ausblenden, Fixieren und das Verschieben des Streifens nach oben oder unten</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Mehrere Monitore: Das Leseband folgt dem Bedienfeld auf den Bildschirm deiner Wahl, sonst wartet die App im Infobereich</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Keine Werbung. Pro ist ein Einmalkauf: Premium-Themes, Fokusstreifen-Einstellungen, Bildschirm anlassen und kein Zeitlimit</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Screenshots</h2>
+      <p class="detail-lead">Tippe auf einen Screenshot, um ihn größer zu sehen.</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=61" alt="ReadFocus+ for Windows Screenshots 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=61" alt="ReadFocus+ for Windows Screenshots 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/readfocuswin-3.jpg?v=61" alt="ReadFocus+ for Windows Screenshots 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/readfocuswin-4.jpg?v=61" alt="ReadFocus+ for Windows Screenshots 4" loading="lazy" data-idx="3" />
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
       <h2 class="detail-title">Überblick</h2>
-      <p class="detail-long">ReadFocus+ for Windows ist die Desktop-Fassung der Android-App ReadFocus+. Sie legt einen ruhigen Fokusstreifen über das, was du gerade liest – eine Webseite, ein PDF, ein Dokument, Code –, damit du die Zeile nicht verlierst. Die Maske dunkelt den oberen und unteren Bildschirmrand sanft ab und lässt in der Mitte ein helles Band frei; das Hervorheben markiert die aktuelle Zeile mit einem zarten farbigen Streifen. Der Fokusstreifen ist klickdurchlässig, du scrollst, markierst und klickst darunter also wie gewohnt weiter, und ein kleines schwebendes Bedienfeld wechselt den Modus, verschiebt oder fixiert das Band und blendet es aus – ohne dass du deine Lektüre verlassen musst.</p>
+      <div class="detail-long">
+          <p>ReadFocus+ for Windows ist die Desktop-Fassung der Android-App ReadFocus+. Sie legt einen ruhigen Fokusstreifen über das, was du gerade liest – eine Webseite, ein PDF, ein Dokument, Code –, damit du die Zeile nicht verlierst. Die Maske dunkelt den oberen und unteren Bildschirmrand sanft ab und lässt in der Mitte ein helles Band frei; das Hervorheben markiert die aktuelle Zeile mit einem zarten farbigen Streifen.</p>
+          <p>Der Fokusstreifen ist klickdurchlässig, du scrollst, markierst und klickst darunter also wie gewohnt weiter, und ein kleines schwebendes Bedienfeld wechselt den Modus, verschiebt oder fixiert das Band und blendet es aus – ohne dass du deine Lektüre verlassen musst.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">FAQ</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Ist das dieselbe App wie ReadFocus+ für Android?</p><p class="faq-a">Es ist dieselbe App für Windows, mit denselben zwei Lesemodi. Gekauft wird sie im jeweiligen Store getrennt, und es gibt nichts zu synchronisieren – ReadFocus+ speichert nie, was du liest.</p></div>
+          <div class="faq-item"><p class="faq-q">Mit welchen Programmen funktioniert sie?</p><p class="faq-a">Mit jeder App auf dem Bildschirm: Browser, PDF- und E-Book-Reader, Dokumente, Code-Editoren, Fachartikel sowie lange E-Mails oder Chatverläufe. Der Fokusstreifen wird über den Bildschirm gezeichnet, die App darunter muss also nichts unterstützen.</p></div>
+          <div class="faq-item"><p class="faq-q">Ist sie kostenlos?</p><p class="faq-a">Ja. Die kostenlose Version liest in Sitzungen von bis zu 60 Minuten und enthält beide Lesemodi und drei der zehn Themes. Pro ist ein Einmalkauf, kein Abo, und ergänzt Premium-Themes, die Fokusstreifen-Einstellungen (Höhe, Deckkraft) und „Bildschirm anlassen“ – und hebt das Zeitlimit auf. Die Windows-Version enthält keine Werbung.</p></div>
+        </div>
     </div>
   </section>
 
@@ -235,7 +289,7 @@
     <div class="container">
       <h2 class="detail-title">Auch für Android verfügbar</h2>
       <a class="counterpart" href="/de/apps/readfocus.html">
-        <img class="app-icon" src="/images/icons/readfocus.png?v=60" alt="ReadFocus+ icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>ReadFocus+</bdi></span>
           <span class="cp-desc">Eine Lesehilfe bei Legasthenie &amp; ADHS mit Zeilenhervorhebung &amp; Lesemaske.</span>
@@ -244,47 +298,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
+
+  <section class="detail-section is-alt">
     <div class="container">
-      <h2 class="detail-title">Hauptfunktionen</h2>
-      <ul class="feature-list">
-        <li>Zwei Lesemodi – die Maske dunkelt alles außerhalb eines hellen Bands ab, das Hervorheben markiert die aktuelle Zeile</li>
-        <li>Klickdurchlässig: Scrollen, Markieren und Klicken in der App darunter wie gewohnt – nichts fängt die Maus ab</li>
-        <li>Schwebendes Bedienfeld für Moduswechsel, Verschieben oder Fixieren des Streifens und Ausblenden; bei Bedarf auf eine Zeile eingeklappt</li>
-        <li>Tastenkürzel für Start und Stopp, Modus, Ein- und Ausblenden, Fixieren und das Verschieben des Streifens nach oben oder unten</li>
-        <li>Mehrere Monitore: Das Leseband folgt dem Bedienfeld auf den Bildschirm deiner Wahl, sonst wartet die App im Infobereich</li>
-        <li>Keine Werbung. Pro ist ein Einmalkauf: Premium-Themes, Fokusstreifen-Einstellungen, Bildschirm anlassen und kein Zeitlimit</li>
-      </ul>
+      <h2 class="detail-title">Mehr Apps entdecken</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/de/apps/floatnotewin.html">
+            <img class="app-icon" src="/images/icons/floatnotewin.png?v=61" alt="FloatNote+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+ for Windows</bdi></span><span class="rc-desc">Haftnotizen, die über jedem Fenster unter Windows schweben und sich mit der Android-App FloatNote+ synchronisieren.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/de/apps/floattimerwin.html">
+            <img class="app-icon" src="/images/icons/floattimerwin.png?v=61" alt="FloatTimer+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+ for Windows</bdi></span><span class="rc-desc">Timer, Zähler und Stoppuhren, die als kleine Pastellkarten über jedem Fenster in Windows schweben.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/de/apps/clipboardwin.html">
+            <img class="app-icon" src="/images/icons/clipboardwin.png?v=61" alt="Clipboard+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+ for Windows</bdi></span><span class="rc-desc">Ein Windows-Tray-Zwischenablage-Manager, der sich mit der Android-App Clipboard+ synchronisiert.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/de/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">Zwischenablage-Verlauf für Text und Bilder. Suchen, einfügen, mit PC syncen.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Screenshots</h2>
-      <p class="section-lead" style="margin-bottom:22px">Tippe auf einen Screenshot, um ihn größer zu sehen.</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=60" alt="ReadFocus+ for Windows Screenshots 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=60" alt="ReadFocus+ for Windows Screenshots 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/readfocuswin-3.jpg?v=60" alt="ReadFocus+ for Windows Screenshots 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/readfocuswin-4.jpg?v=60" alt="ReadFocus+ for Windows Screenshots 4" loading="lazy" data-idx="3" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">FAQ</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Ist das dieselbe App wie ReadFocus+ für Android?</p><p class="faq-a">Es ist dieselbe App für Windows, mit denselben zwei Lesemodi. Gekauft wird sie im jeweiligen Store getrennt, und es gibt nichts zu synchronisieren – ReadFocus+ speichert nie, was du liest.</p></div>
-        <div class="faq-item"><p class="faq-q">Mit welchen Programmen funktioniert sie?</p><p class="faq-a">Mit jeder App auf dem Bildschirm: Browser, PDF- und E-Book-Reader, Dokumente, Code-Editoren, Fachartikel sowie lange E-Mails oder Chatverläufe. Der Fokusstreifen wird über den Bildschirm gezeichnet, die App darunter muss also nichts unterstützen.</p></div>
-        <div class="faq-item"><p class="faq-q">Ist sie kostenlos?</p><p class="faq-a">Ja. Die kostenlose Version liest in Sitzungen von bis zu 60 Minuten und enthält beide Lesemodi und drei der zehn Themes. Pro ist ein Einmalkauf, kein Abo, und ergänzt Premium-Themes, die Fokusstreifen-Einstellungen (Höhe, Deckkraft) und „Bildschirm anlassen“ – und hebt das Zeitlimit auf. Die Windows-Version enthält keine Werbung.</p></div>
-      </div>
-    </div>
-  </section>
-
-
-  <div class="detail-cta">
-    <a href="/de/#apps" class="btn btn-primary">Mehr Apps entdecken</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -300,6 +341,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/readfocuswin.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>ReadFocus+ for Windows</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-detail-sticky-de" target="_blank" rel="noopener">Microsoft Store</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -307,6 +354,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"de","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/readfocuswin.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/readfocuswin.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/readfocuswin.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/readfocuswin.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/readfocuswin.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/readfocuswin.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/readfocuswin.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/readfocuswin.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/readfocuswin.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/readfocuswin.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/readfocuswin.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/readfocuswin.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/readfocuswin.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/readfocuswin.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/readfocuswin.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/readfocuswin.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/readfocuswin.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/readfocuswin.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/readfocuswin.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/readfocuswin.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/readfocuswin.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

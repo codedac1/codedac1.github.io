@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 10+",
   "screenshot": [
     "https://codedac.com/images/shots/photocleaner-1.jpg",
     "https://codedac.com/images/shots/photocleaner-2.jpg",
@@ -158,7 +159,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/pt/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -205,28 +206,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/pt/">Início</a>
-      <span class="sep">/</span>
-      <a href="/pt/#apps">Apps</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>PhotoCleaner+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/photocleaner.png?v=60" alt="PhotoCleaner+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Privacidade</span><span class="app-langs" aria-label="21 idiomas"><span class="globe" aria-hidden="true">🌐</span>21 idiomas</span></span>
-        <h1><bdi>PhotoCleaner+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Oculte dados pessoais em fotos e PDFs com uma máscara sólida, inteiramente no seu aparelho.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dpt" class="btn btn-primary" target="_blank" rel="noopener">Ver no Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Fale conosco</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/pt/">Início</a>
+        <span class="sep">/</span>
+        <a href="/pt/#apps">Apps</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>PhotoCleaner+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Privacidade</span><span class="app-langs" aria-label="21 idiomas"><span class="globe" aria-hidden="true">🌐</span>21 idiomas</span></span>
+              <h1><bdi>PhotoCleaner+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Oculte dados pessoais em fotos e PDFs com uma máscara sólida, inteiramente no seu aparelho.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 10+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dpt" class="btn btn-primary" target="_blank" rel="noopener">Ver no Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BPhotoCleaner%2B%5D%20Suporte%20e%20bugs&amp;body=1.%20O%20que%20aconteceu%3F%20(Os%20passos%20para%20reproduzir%20ajudam%20muito)%0A-%20%0A%0A2.%20Dispositivo%20e%20vers%C3%A3o%20do%20sistema%0A-%20%0A%0A3.%20Vers%C3%A3o%20do%20app%0A-%20%0A" class="btn btn-glass">Suporte e bugs</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/photocleaner-1.jpg?v=61" alt="PhotoCleaner+ Capturas de tela 1" data-idx="0" />
+          <img class="shot" src="/images/shots/photocleaner-2.jpg?v=61" alt="PhotoCleaner+ Capturas de tela 2" data-idx="1" />
+          <img class="shot" src="/images/shots/photocleaner-3.jpg?v=61" alt="PhotoCleaner+ Capturas de tela 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -234,53 +248,81 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Visão geral</h2>
-      <p class="detail-long">O PhotoCleaner+ oculta dados pessoais em fotos e PDFs inteiramente no seu aparelho. Ele cobre áreas sensíveis com uma máscara sólida e opaca (não é desfoque nem mosaico, então as áreas cobertas não podem ser recuperadas) e exporta uma cópia limpa. Um detector integrado sugere, de graça e sem limite, textos provavelmente sensíveis como números de documento, cartões, telefones e e-mails, mas é você quem desenha e ajusta as máscaras à mão e decide exatamente o que será ocultado. Ele lida com fotos, documentos de identidade e PDFs de várias páginas, toda cópia salva ou compartilhada é recodificada sem EXIF, e nenhuma permissão de galeria ou armazenamento é solicitada. Detecção, edição e máscara continuam ilimitadas na versão gratuita e nenhuma exportação leva marca d'água; no gratuito são 3 exportações por dia, enquanto o Pro tira esse limite e acrescenta exportação em PDF, impressão e qualquer cor de máscara. Ative “Escolher onde salvar” e você define a pasta e o nome do arquivo.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Principais recursos</h2>
-      <ul class="feature-list">
-        <li>Máscara sólida e opaca que não pode ser recuperada (não é desfoque nem mosaico)</li>
-        <li>Desenhe máscaras à mão e, depois, mova, redimensione ou exclua-as, com zoom para precisão</li>
-        <li>Detecção integrada sugere textos provavelmente sensíveis (números de documento, cartões, telefones, e-mails) — de graça e sem limite, como ponto de partida que você revisa</li>
-        <li>Oculte fotos, documentos de identidade e PDFs de várias páginas</li>
-        <li>Zero permissões, aviso sobre EXIF e GPS, e toda cópia salva ou compartilhada recodificada sem EXIF</li>
-        <li>Sem marca d'água para ninguém: 3 exportações por dia no gratuito, ilimitadas no Pro junto com exportação em PDF e impressão — ou um anúncio curto abre uma delas por 24 horas</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Máscara sólida e opaca que não pode ser recuperada (não é desfoque nem mosaico)</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Desenhe máscaras à mão e, depois, mova, redimensione ou exclua-as, com zoom para precisão</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Detecção integrada sugere textos provavelmente sensíveis (números de documento, cartões, telefones, e-mails) — de graça e sem limite, como ponto de partida que você revisa</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Oculte fotos, documentos de identidade e PDFs de várias páginas</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Zero permissões, aviso sobre EXIF e GPS, e toda cópia salva ou compartilhada recodificada sem EXIF</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Sem marca d'água para ninguém: 3 exportações por dia no gratuito, ilimitadas no Pro junto com exportação em PDF e impressão — ou um anúncio curto abre uma delas por 24 horas</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Capturas de tela</h2>
-      <p class="section-lead" style="margin-bottom:22px">Toque em uma captura de tela para vê-la ampliada.</p>
+      <p class="detail-lead">Toque em uma captura de tela para vê-la ampliada.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/photocleaner-1.jpg?v=60" alt="PhotoCleaner+ Capturas de tela 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/photocleaner-2.jpg?v=60" alt="PhotoCleaner+ Capturas de tela 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/photocleaner-3.jpg?v=60" alt="PhotoCleaner+ Capturas de tela 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/photocleaner-4.jpg?v=60" alt="PhotoCleaner+ Capturas de tela 4" loading="lazy" data-idx="3" />
-      </div>
+          <img class="shot" src="/images/shots/photocleaner-1.jpg?v=61" alt="PhotoCleaner+ Capturas de tela 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/photocleaner-2.jpg?v=61" alt="PhotoCleaner+ Capturas de tela 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/photocleaner-3.jpg?v=61" alt="PhotoCleaner+ Capturas de tela 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/photocleaner-4.jpg?v=61" alt="PhotoCleaner+ Capturas de tela 4" loading="lazy" data-idx="3" />
+        </div>
     </div>
   </section>
+
   <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Visão geral</h2>
+      <div class="detail-long">
+          <p>O PhotoCleaner+ oculta dados pessoais em fotos e PDFs inteiramente no seu aparelho. Ele cobre áreas sensíveis com uma máscara sólida e opaca (não é desfoque nem mosaico, então as áreas cobertas não podem ser recuperadas) e exporta uma cópia limpa.</p>
+          <p>Um detector integrado sugere, de graça e sem limite, textos provavelmente sensíveis como números de documento, cartões, telefones e e-mails, mas é você quem desenha e ajusta as máscaras à mão e decide exatamente o que será ocultado. Ele lida com fotos, documentos de identidade e PDFs de várias páginas, toda cópia salva ou compartilhada é recodificada sem EXIF, e nenhuma permissão de galeria ou armazenamento é solicitada.</p>
+          <p>Detecção, edição e máscara continuam ilimitadas na versão gratuita e nenhuma exportação leva marca d'água; no gratuito são 3 exportações por dia, enquanto o Pro tira esse limite e acrescenta exportação em PDF, impressão e qualquer cor de máscara. Ative “Escolher onde salvar” e você define a pasta e o nome do arquivo.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Perguntas frequentes</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">A ocultação é um desfoque ou mosaico?</p><p class="faq-a">Não. A ocultação usa apenas um estilo, um preenchimento sólido e opaco, e as áreas cobertas não podem ser recuperadas. Com o Pro, você pode escolher qualquer cor de máscara.</p></div>
-        <div class="faq-item"><p class="faq-q">Minhas fotos são enviadas para algum lugar?</p><p class="faq-a">Não. Tudo funciona offline no seu aparelho e nenhuma foto é enviada para a nuvem. O app também nunca solicita permissão de galeria ou armazenamento.</p></div>
-        <div class="faq-item"><p class="faq-q">Posso confiar só na detecção automática antes de exportar?</p><p class="faq-a">A detecção é apenas um ponto de partida que sugere textos provavelmente sensíveis. Sempre revise as sugestões e adicione ou remova máscaras você mesmo antes de exportar.</p></div>
-        <div class="faq-item"><p class="faq-q">Quantas vezes posso exportar de graça?</p><p class="faq-a">Três por dia. O que conta é o botão Exportar, faça o que fizer depois com o resultado: salvar, compartilhar, gerar PDF ou imprimir. Detecção, edição e máscara nunca têm limite. O Pro remove o limite diário e, se você preferir não assinar, um anúncio curto o levanta por 24 horas.</p></div>
-      </div>
+          <div class="faq-item"><p class="faq-q">A ocultação é um desfoque ou mosaico?</p><p class="faq-a">Não. A ocultação usa apenas um estilo, um preenchimento sólido e opaco, e as áreas cobertas não podem ser recuperadas. Com o Pro, você pode escolher qualquer cor de máscara.</p></div>
+          <div class="faq-item"><p class="faq-q">Minhas fotos são enviadas para algum lugar?</p><p class="faq-a">Não. Tudo funciona offline no seu aparelho e nenhuma foto é enviada para a nuvem. O app também nunca solicita permissão de galeria ou armazenamento.</p></div>
+          <div class="faq-item"><p class="faq-q">Posso confiar só na detecção automática antes de exportar?</p><p class="faq-a">A detecção é apenas um ponto de partida que sugere textos provavelmente sensíveis. Sempre revise as sugestões e adicione ou remova máscaras você mesmo antes de exportar.</p></div>
+          <div class="faq-item"><p class="faq-q">Quantas vezes posso exportar de graça?</p><p class="faq-a">Três por dia. O que conta é o botão Exportar, faça o que fizer depois com o resultado: salvar, compartilhar, gerar PDF ou imprimir. Detecção, edição e máscara nunca têm limite. O Pro remove o limite diário e, se você preferir não assinar, um anúncio curto o levanta por 24 horas.</p></div>
+        </div>
     </div>
   </section>
 
-
-  <div class="detail-cta">
-    <a href="/pt/#apps" class="btn btn-primary">Explorar mais apps</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Explorar mais apps</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/pt/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">Um apoio à leitura para dislexia e TDAH, com destaque de linha e máscara.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/pt/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">Notas adesivas que flutuam sobre qualquer app. Recolha em um chip, abra como cartão, com cores e texto rico.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/pt/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">Histórico da área de transferência: texto e imagens. Busque e sincronize no PC.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/pt/apps/autostart.html">
+            <img class="app-icon" src="/images/icons/autostart.png?v=61" alt="AutoStart+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>AutoStart+</bdi></span><span class="rc-desc">Inicie seus apps automaticamente ao ligar o celular. Sem root, configure uma vez.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -296,6 +338,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/photocleaner.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>PhotoCleaner+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dpt" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -303,6 +351,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"pt","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/photocleaner.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/photocleaner.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/photocleaner.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/photocleaner.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/photocleaner.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/photocleaner.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/photocleaner.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/photocleaner.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/photocleaner.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/photocleaner.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/photocleaner.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/photocleaner.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/photocleaner.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/photocleaner.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/photocleaner.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/photocleaner.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/photocleaner.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/photocleaner.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/photocleaner.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/photocleaner.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/photocleaner.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

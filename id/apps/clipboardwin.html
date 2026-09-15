@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Windows 10+",
   "screenshot": [
     "https://codedac.com/images/shots/clipboardwin-1.jpg",
     "https://codedac.com/images/shots/clipboardwin-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/id/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,40 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/id/">Beranda</a>
-      <span class="sep">/</span>
-      <a href="/id/#apps">Aplikasi</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>Clipboard+ for Windows</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/clipboardwin.png?v=60" alt="Clipboard+ for Windows icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Clipboard</span><span class="app-langs" aria-label="21 bahasa"><span class="globe" aria-hidden="true">🌐</span>21 bahasa</span></span>
-        <h1><bdi>Clipboard+ for Windows</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Pengelola clipboard tray Windows yang tersinkron dengan ponsel Android Anda melalui Google Drive Anda sendiri.</h2>
-        <div class="app-hero-actions">
-          <a href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-detail-hero-id" class="btn btn-primary" target="_blank" rel="noopener">Lihat di Microsoft Store →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Hubungi kami</a>
+  <section class="app-hero-d app-hero-windows">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/id/">Beranda</a>
+        <span class="sep">/</span>
+        <a href="/id/#apps">Aplikasi</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>Clipboard+ for Windows</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/clipboardwin.png?v=61" alt="Clipboard+ for Windows icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Clipboard</span><span class="app-langs" aria-label="21 bahasa"><span class="globe" aria-hidden="true">🌐</span>21 bahasa</span></span>
+              <h1><bdi>Clipboard+ for Windows</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Pengelola clipboard tray Windows yang tersinkron dengan ponsel Android Anda melalui Google Drive Anda sendiri.</h2>
+          <ul class="app-facts">
+            <li class="fact-windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span dir="ltr">Windows · Microsoft Store</span></li>
+            <li><span dir="ltr">Windows 10+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-detail-hero-id" class="btn btn-primary" target="_blank" rel="noopener">Lihat di Microsoft Store →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BClipboard%2B%20for%20Windows%5D%20Bantuan%20%26%20lapor%20bug&amp;body=1.%20Apa%20yang%20terjadi%3F%20(Langkah%20untuk%20memunculkannya%20lagi%20sangat%20membantu)%0A-%20%0A%0A2.%20Perangkat%20dan%20versi%20OS%0A-%20%0A%0A3.%20Versi%20aplikasi%0A-%20%0A" class="btn btn-glass">Bantuan &amp; lapor bug</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-windows">
+          <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=61" alt="Clipboard+ for Windows Tangkapan Layar 1" data-idx="0" />
+          <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=61" alt="Clipboard+ for Windows Tangkapan Layar 2" data-idx="1" />
         </div>
       </div>
     </div>
@@ -227,8 +240,51 @@
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">Fitur Utama</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Tinggal di tray dan menyimpan teks serta gambar begitu Anda menyalinnya — tidak perlu terus memeriksa di latar belakang, jadi tetap ringan</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Sinkronisasi dua arah ponsel-ke-PC melalui Google Drive Anda sendiri</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>UI bergaya Android dengan tema terang/gelap, sidebar grup, snippet, dan pin/salin/edit/cari</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Pindah, hapus, dan gabung massal multi-pilih, urutan terbaru/terlama, dan penampil gambar ukuran penuh</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Popup pilih cepat di posisi kursor lewat pintasan global, ditambah pintasan untuk membuka jendela dan menangkap teks yang dipilih di aplikasi lain, serta jalan otomatis saat Windows dinyalakan</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Ekspor/impor yang kompatibel dengan format cadangan Clipboard+ Android, plus ekspor PDF</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Tangkapan Layar</h2>
+      <p class="detail-lead">Ketuk tangkapan layar untuk melihatnya lebih besar.</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=61" alt="Clipboard+ for Windows Tangkapan Layar 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=61" alt="Clipboard+ for Windows Tangkapan Layar 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/clipboardwin-3.jpg?v=61" alt="Clipboard+ for Windows Tangkapan Layar 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/clipboardwin-4.jpg?v=61" alt="Clipboard+ for Windows Tangkapan Layar 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/clipboardwin-5.jpg?v=61" alt="Clipboard+ for Windows Tangkapan Layar 5" loading="lazy" data-idx="4" />
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
       <h2 class="detail-title">Ikhtisar</h2>
-      <p class="detail-long">Clipboard+ for Windows adalah pengelola clipboard yang tinggal di tray dan otomatis menyimpan teks serta gambar yang Anda salin. Semuanya tercatat begitu Anda menyalinnya, jadi kalaupun tertimpa tanpa sengaja, isi sebelumnya bisa dipanggil kembali dan ditempel lagi. Pintasan global membuka popup pilih cepat tepat di posisi kursor: pilih klip dengan Ctrl+1–9 lalu Enter menempelkannya ke tempat Anda mengetik, tanpa meninggalkan jendela. Dipakai bersama aplikasi Android Clipboard+, apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Isi salinan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Yang tersimpan bisa dirapikan ke dalam grup dan snippet lalu dicari.</p>
+      <div class="detail-long">
+          <p>Clipboard+ for Windows adalah pengelola clipboard yang tinggal di tray dan otomatis menyimpan teks serta gambar yang Anda salin. Semuanya tercatat begitu Anda menyalinnya, jadi kalaupun tertimpa tanpa sengaja, isi sebelumnya bisa dipanggil kembali dan ditempel lagi.</p>
+          <p>Pintasan global membuka popup pilih cepat tepat di posisi kursor: pilih klip dengan Ctrl+1–9 lalu Enter menempelkannya ke tempat Anda mengetik, tanpa meninggalkan jendela.</p>
+          <p>Dipakai bersama aplikasi Android Clipboard+, apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Isi salinan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Yang tersimpan bisa dirapikan ke dalam grup dan snippet lalu dicari.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">FAQ</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Apakah tersinkron dengan aplikasi Android Clipboard+?</p><p class="faq-a">Ya. Aktifkan sinkronisasi dengan akun Google yang sama di kedua perangkat, lalu apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Isi salinan tidak melewati server CodeDAC, melainkan hanya melintas lewat Google Drive Anda sendiri.</p></div>
+          <div class="faq-item"><p class="faq-q">Di mana data clipboard saya disimpan, dan apakah aman?</p><p class="faq-a">Riwayat salinan secara bawaan hanya tersimpan di PC Anda (folder %APPDATA%\ClipboardPlus). Jika sinkronisasi diaktifkan, riwayat juga tersimpan di ruang khusus aplikasi dalam Google Drive Anda sendiri — ruang yang tidak tampak di tampilan Drive dan tidak bisa dibuka selain oleh Clipboard+. Aplikasi hanya memakai ruang khusus itu, sehingga tidak bisa menjangkau foto atau dokumen Anda yang lain di Drive.</p></div>
+          <div class="faq-item"><p class="faq-q">Apa yang gratis dan apa yang ditambahkan Pro?</p><p class="faq-a">Riwayat papan klip, cuplikan dan grup, pencarian, popup pilih cepat, serta tema terang dan gelap semuanya gratis. Pro menambahkan sinkronisasi Google Drive, menyalin klip gambar kembali ke papan klip, ekspor PDF, impor cadangan, grup tanpa batas, dan penyimpanan gambar tanpa batas — pada versi gratis penyimpanan gambar dibatasi 50 MB.</p></div>
+        </div>
     </div>
   </section>
 
@@ -236,7 +292,7 @@
     <div class="container">
       <h2 class="detail-title">Juga tersedia di Android</h2>
       <a class="counterpart" href="/id/apps/clipboard.html">
-        <img class="app-icon" src="/images/icons/clipboard.png?v=60" alt="Clipboard+ icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>Clipboard+</bdi></span>
           <span class="cp-desc">Simpan semua teks dan gambar yang disalin. Cari, tempel, sinkron ke PC.</span>
@@ -245,48 +301,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
+
+  <section class="detail-section is-alt">
     <div class="container">
-      <h2 class="detail-title">Fitur Utama</h2>
-      <ul class="feature-list">
-        <li>Tinggal di tray dan menyimpan teks serta gambar begitu Anda menyalinnya — tidak perlu terus memeriksa di latar belakang, jadi tetap ringan</li>
-        <li>Sinkronisasi dua arah ponsel-ke-PC melalui Google Drive Anda sendiri</li>
-        <li>UI bergaya Android dengan tema terang/gelap, sidebar grup, snippet, dan pin/salin/edit/cari</li>
-        <li>Pindah, hapus, dan gabung massal multi-pilih, urutan terbaru/terlama, dan penampil gambar ukuran penuh</li>
-        <li>Popup pilih cepat di posisi kursor lewat pintasan global, ditambah pintasan untuk membuka jendela dan menangkap teks yang dipilih di aplikasi lain, serta jalan otomatis saat Windows dinyalakan</li>
-        <li>Ekspor/impor yang kompatibel dengan format cadangan Clipboard+ Android, plus ekspor PDF</li>
-      </ul>
+      <h2 class="detail-title">Jelajahi aplikasi lainnya</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/id/apps/readfocuswin.html">
+            <img class="app-icon" src="/images/icons/readfocuswin.png?v=61" alt="ReadFocus+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+ for Windows</bdi></span><span class="rc-desc">Pita Fokus tembus-klik untuk Windows — Masker dan Sorotan menjaga mata tetap di barisnya.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/id/apps/floatnotewin.html">
+            <img class="app-icon" src="/images/icons/floatnotewin.png?v=61" alt="FloatNote+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+ for Windows</bdi></span><span class="rc-desc">Catatan tempel yang mengambang di atas jendela mana pun di Windows dan tersinkron dengan aplikasi Android FloatNote+.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/id/apps/floattimerwin.html">
+            <img class="app-icon" src="/images/icons/floattimerwin.png?v=61" alt="FloatTimer+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+ for Windows</bdi></span><span class="rc-desc">Timer, penghitung, dan stopwatch yang mengambang di atas jendela mana pun di Windows sebagai kartu pastel kecil.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/id/apps/autostart.html">
+            <img class="app-icon" src="/images/icons/autostart.png?v=61" alt="AutoStart+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>AutoStart+</bdi></span><span class="rc-desc">Jalankan aplikasi otomatis saat booting. Tanpa root, cukup atur sekali.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Tangkapan Layar</h2>
-      <p class="section-lead" style="margin-bottom:22px">Ketuk tangkapan layar untuk melihatnya lebih besar.</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=60" alt="Clipboard+ for Windows Tangkapan Layar 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=60" alt="Clipboard+ for Windows Tangkapan Layar 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/clipboardwin-3.jpg?v=60" alt="Clipboard+ for Windows Tangkapan Layar 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/clipboardwin-4.jpg?v=60" alt="Clipboard+ for Windows Tangkapan Layar 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/clipboardwin-5.jpg?v=60" alt="Clipboard+ for Windows Tangkapan Layar 5" loading="lazy" data-idx="4" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">FAQ</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Apakah tersinkron dengan aplikasi Android Clipboard+?</p><p class="faq-a">Ya. Aktifkan sinkronisasi dengan akun Google yang sama di kedua perangkat, lalu apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Isi salinan tidak melewati server CodeDAC, melainkan hanya melintas lewat Google Drive Anda sendiri.</p></div>
-        <div class="faq-item"><p class="faq-q">Di mana data clipboard saya disimpan, dan apakah aman?</p><p class="faq-a">Riwayat salinan secara bawaan hanya tersimpan di PC Anda (folder %APPDATA%\ClipboardPlus). Jika sinkronisasi diaktifkan, riwayat juga tersimpan di ruang khusus aplikasi dalam Google Drive Anda sendiri — ruang yang tidak tampak di tampilan Drive dan tidak bisa dibuka selain oleh Clipboard+. Aplikasi hanya memakai ruang khusus itu, sehingga tidak bisa menjangkau foto atau dokumen Anda yang lain di Drive.</p></div>
-        <div class="faq-item"><p class="faq-q">Apa yang gratis dan apa yang ditambahkan Pro?</p><p class="faq-a">Riwayat papan klip, cuplikan dan grup, pencarian, popup pilih cepat, serta tema terang dan gelap semuanya gratis. Pro menambahkan sinkronisasi Google Drive, menyalin klip gambar kembali ke papan klip, ekspor PDF, impor cadangan, grup tanpa batas, dan penyimpanan gambar tanpa batas — pada versi gratis penyimpanan gambar dibatasi 50 MB.</p></div>
-      </div>
-    </div>
-  </section>
-
-
-  <div class="detail-cta">
-    <a href="/id/#apps" class="btn btn-primary">Jelajahi aplikasi lainnya</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -302,6 +344,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/clipboardwin.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>Clipboard+ for Windows</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-detail-sticky-id" target="_blank" rel="noopener">Microsoft Store</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -309,6 +357,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"id","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/clipboardwin.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/clipboardwin.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/clipboardwin.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/clipboardwin.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/clipboardwin.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/clipboardwin.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/clipboardwin.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/clipboardwin.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/clipboardwin.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/clipboardwin.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/clipboardwin.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/clipboardwin.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/clipboardwin.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/clipboardwin.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/clipboardwin.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/clipboardwin.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/clipboardwin.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/clipboardwin.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/clipboardwin.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/clipboardwin.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/clipboardwin.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

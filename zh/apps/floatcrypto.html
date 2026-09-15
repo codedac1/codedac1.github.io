@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 8.0+",
   "screenshot": [
     "https://codedac.com/images/shots/floatcrypto-1.jpg",
     "https://codedac.com/images/shots/floatcrypto-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/zh/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/zh/">首页</a>
-      <span class="sep">/</span>
-      <a href="/zh/#apps">应用</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatCrypto+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floatcrypto.png?v=60" alt="FloatCrypto+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">悬浮</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span>
-        <h1><bdi>FloatCrypto+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">比特币、以太坊和你关注的币种，始终停留在屏幕上。</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dzh" class="btn btn-primary" target="_blank" rel="noopener">在 Google Play 查看 →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">联系我们</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/zh/">首页</a>
+        <span class="sep">/</span>
+        <a href="/zh/#apps">应用</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatCrypto+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floatcrypto.png?v=61" alt="FloatCrypto+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">悬浮</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span>
+              <h1><bdi>FloatCrypto+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">比特币、以太坊和你关注的币种，始终停留在屏幕上。</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 8.0+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dzh" class="btn btn-primary" target="_blank" rel="noopener">在 Google Play 查看 →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatCrypto%2B%5D%20%E5%92%A8%E8%AF%A2%E4%B8%8E%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88&amp;body=1.%20%E9%81%87%E5%88%B0%E4%BA%86%E4%BB%80%E4%B9%88%E9%97%AE%E9%A2%98%EF%BC%9F%EF%BC%88%E5%A6%82%E8%83%BD%E5%86%99%E4%B8%8B%E5%A4%8D%E7%8E%B0%E6%AD%A5%E9%AA%A4%E4%BC%9A%E5%BE%88%E6%9C%89%E5%B8%AE%E5%8A%A9%EF%BC%89%0A-%20%0A%0A2.%20%E8%AE%BE%E5%A4%87%E5%92%8C%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC%0A-%20%0A%0A3.%20%E5%BA%94%E7%94%A8%E7%89%88%E6%9C%AC%0A-%20%0A" class="btn btn-glass">咨询与问题反馈</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=61" alt="FloatCrypto+ 截图 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=61" alt="FloatCrypto+ 截图 2" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=61" alt="FloatCrypto+ 截图 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -227,53 +241,80 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">概览</h2>
-      <p class="detail-long">FloatCrypto+ 把一条实时行情悬浮在所有应用之上，看 YouTube、读新闻、回消息的同时随手查看行情，无需切换应用，也不用重新加载。可拖动到任意位置，调整大小与透明度，绝不挡住内容。设定上限或下限后，价格触及的瞬间立即通知；自选列表里可以看到实时价格、24 小时涨跌，以及 1 日 / 7 日 / 30 日图表和区间最高、最低、开盘价。行情以 Binance 为主，某一数据源不可用时自动切换，行情条不会中断。价格最多延迟 30 秒（Pro 为 10 秒），仅供参考，不构成投资建议。</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">主要功能</h2>
-      <ul class="feature-list">
-        <li>始终置顶的悬浮行情条 —— 可拖动到任意位置，调整大小与透明度</li>
-        <li>上限 / 下限价格提醒，在币种卡片的 ⋮ 菜单中直接创建，币种已自动选好</li>
-        <li>自选列表 —— 实时价格、24 小时涨跌，可拖动排序</li>
-        <li>1 日 / 7 日 / 30 日图表 —— 区间最高、最低、开盘与涨跌幅一目了然</li>
-        <li>东方与西方配色 —— 涨红跌绿，或涨绿跌红</li>
-        <li>Binance 行情搭配自动切换的备用数据源，最多延迟 30 秒（Pro 为 10 秒）</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>始终置顶的悬浮行情条 —— 可拖动到任意位置，调整大小与透明度</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>上限 / 下限价格提醒，在币种卡片的 ⋮ 菜单中直接创建，币种已自动选好</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>自选列表 —— 实时价格、24 小时涨跌，可拖动排序</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>1 日 / 7 日 / 30 日图表 —— 区间最高、最低、开盘与涨跌幅一目了然</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>东方与西方配色 —— 涨红跌绿，或涨绿跌红</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Binance 行情搭配自动切换的备用数据源，最多延迟 30 秒（Pro 为 10 秒）</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">截图</h2>
-      <p class="section-lead" style="margin-bottom:22px">点击截图可放大查看。</p>
+      <p class="detail-lead">点击截图可放大查看。</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=60" alt="FloatCrypto+ 截图 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=60" alt="FloatCrypto+ 截图 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=60" alt="FloatCrypto+ 截图 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floatcrypto-4.jpg?v=60" alt="FloatCrypto+ 截图 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floatcrypto-5.jpg?v=60" alt="FloatCrypto+ 截图 5" loading="lazy" data-idx="4" />
-      </div>
+          <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=61" alt="FloatCrypto+ 截图 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=61" alt="FloatCrypto+ 截图 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=61" alt="FloatCrypto+ 截图 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floatcrypto-4.jpg?v=61" alt="FloatCrypto+ 截图 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/floatcrypto-5.jpg?v=61" alt="FloatCrypto+ 截图 5" loading="lazy" data-idx="4" />
+        </div>
     </div>
   </section>
+
   <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">概览</h2>
+      <div class="detail-long">
+          <p>FloatCrypto+ 把一条实时行情悬浮在所有应用之上，看 YouTube、读新闻、回消息的同时随手查看行情，无需切换应用，也不用重新加载。可拖动到任意位置，调整大小与透明度，绝不挡住内容。</p>
+          <p>设定上限或下限后，价格触及的瞬间立即通知；自选列表里可以看到实时价格、24 小时涨跌，以及 1 日 / 7 日 / 30 日图表和区间最高、最低、开盘价。行情以 Binance 为主，某一数据源不可用时自动切换，行情条不会中断。价格最多延迟 30 秒（Pro 为 10 秒），仅供参考，不构成投资建议。</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">常见问题</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">使用其他应用时也能看到行情吗？</p><p class="faq-a">可以。行情条悬浮在所有应用之上，看 YouTube、玩游戏或聊天时都能随手查看行情，无需切换应用，也不用重新加载。拖到任意位置并调低透明度，就不会挡住你正在看的内容。</p></div>
-        <div class="faq-item"><p class="faq-q">价格提醒是怎么工作的？</p><p class="faq-a">设定上限或下限目标价，价格触及的瞬间就会通知你。在币种卡片的 ⋮ 菜单里可以直接创建提醒，币种已经自动选好，设有提醒的币种会显示铃铛标记。</p></div>
-        <div class="faq-item"><p class="faq-q">免费能用到什么程度？</p><p class="faq-a">免费版可关注 2 个币种、设置 1 条提醒，行情条每 30 秒刷新。Free Pass 是看一条短广告解锁一项功能 24 小时：图表 Free Pass 解锁 7 日与 30 日图表，关注列表 Free Pass 提供 10 个币种与无限提醒；每天各一次，可用天数不限，通行证期间仍会显示广告。Pro 提供 10 个币种、无限提醒、10 秒刷新、完整图表周期与无广告，可按月、按年订阅或一次性买断。</p></div>
-      </div>
+          <div class="faq-item"><p class="faq-q">使用其他应用时也能看到行情吗？</p><p class="faq-a">可以。行情条悬浮在所有应用之上，看 YouTube、玩游戏或聊天时都能随手查看行情，无需切换应用，也不用重新加载。拖到任意位置并调低透明度，就不会挡住你正在看的内容。</p></div>
+          <div class="faq-item"><p class="faq-q">价格提醒是怎么工作的？</p><p class="faq-a">设定上限或下限目标价，价格触及的瞬间就会通知你。在币种卡片的 ⋮ 菜单里可以直接创建提醒，币种已经自动选好，设有提醒的币种会显示铃铛标记。</p></div>
+          <div class="faq-item"><p class="faq-q">免费能用到什么程度？</p><p class="faq-a">免费版可关注 2 个币种、设置 1 条提醒，行情条每 30 秒刷新。Free Pass 是看一条短广告解锁一项功能 24 小时：图表 Free Pass 解锁 7 日与 30 日图表，关注列表 Free Pass 提供 10 个币种与无限提醒；每天各一次，可用天数不限，通行证期间仍会显示广告。Pro 提供 10 个币种、无限提醒、10 秒刷新、完整图表周期与无广告，可按月、按年订阅或一次性买断。</p></div>
+        </div>
     </div>
   </section>
 
-
-  <div class="detail-cta">
-    <a href="/zh/#apps" class="btn btn-primary">探索更多应用</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">探索更多应用</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/zh/apps/floattimer.html">
+            <img class="app-icon" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+</bdi></span><span class="rc-desc">悬浮于任意应用之上的计时器、计数器与秒表。</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/zh/apps/volumebooster.html">
+            <img class="app-icon" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>VolumeBooster+</bdi></span><span class="rc-desc">音量增强、均衡器与低音增强，让任何声音最高提升 +15 dB。</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/zh/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">在设备本地完全隐藏照片和 PDF 中的个人信息。</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/zh/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">面向阅读障碍与多动症的阅读辅助，行高亮和阅读遮罩助你定位。</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -289,6 +330,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floatcrypto.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatCrypto+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dzh" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -296,6 +343,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"zh","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floatcrypto.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floatcrypto.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floatcrypto.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floatcrypto.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floatcrypto.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floatcrypto.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floatcrypto.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floatcrypto.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floatcrypto.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floatcrypto.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floatcrypto.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floatcrypto.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floatcrypto.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floatcrypto.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floatcrypto.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floatcrypto.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floatcrypto.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floatcrypto.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floatcrypto.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floatcrypto.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floatcrypto.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

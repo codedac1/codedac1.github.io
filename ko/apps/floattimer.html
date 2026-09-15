@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 8.0+",
   "screenshot": [
     "https://codedac.com/images/shots/floattimer-1.jpg",
     "https://codedac.com/images/shots/floattimer-2.jpg",
@@ -152,7 +153,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/ko/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -199,28 +200,42 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/ko/">홈</a>
-      <span class="sep">/</span>
-      <a href="/ko/#apps">앱 소개</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatTimer+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floattimer.png?v=60" alt="FloatTimer+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">플로팅 도구</span><span class="app-langs" aria-label="21개 언어"><span class="globe" aria-hidden="true">🌐</span>21개 언어</span></span>
-        <h1><bdi>FloatTimer+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">모든 앱 위에 떠 있는 카운트다운 타이머, 카운터, 스톱워치.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dko" class="btn btn-primary" target="_blank" rel="noopener">Google Play에서 보기 →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">문의하기</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ko/">홈</a>
+        <span class="sep">/</span>
+        <a href="/ko/#apps">앱 소개</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatTimer+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">플로팅 도구</span><span class="app-langs" aria-label="21개 언어"><span class="globe" aria-hidden="true">🌐</span>21개 언어</span></span>
+              <h1><bdi>FloatTimer+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">모든 앱 위에 떠 있는 카운트다운 타이머, 카운터, 스톱워치.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 8.0+</span></li>
+            <li><span dir="ltr">1,000+</span><span>다운로드</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dko" class="btn btn-primary" target="_blank" rel="noopener">Google Play에서 보기 →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatTimer%2B%5D%20%EB%AC%B8%EC%9D%98%C2%B7%EB%B2%84%EA%B7%B8%20%EC%8B%A0%EA%B3%A0&amp;body=1.%20%EC%96%B4%EB%96%A4%20%EB%AC%B8%EC%A0%9C%EA%B0%80%20%EC%9E%88%EC%97%88%EB%82%98%EC%9A%94%3F%20(%EC%9E%AC%ED%98%84%20%EB%B0%A9%EB%B2%95%EC%9D%84%20%EC%95%8C%EB%A9%B4%20%ED%95%A8%EA%BB%98%20%EC%A0%81%EC%96%B4%20%EC%A3%BC%EC%84%B8%EC%9A%94)%0A-%20%0A%0A2.%20%EA%B8%B0%EA%B8%B0%EC%99%80%20OS%20%EB%B2%84%EC%A0%84%0A-%20%0A%0A3.%20%EC%95%B1%20%EB%B2%84%EC%A0%84%0A-%20%0A" class="btn btn-glass">문의·버그 신고</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/floattimer-1.jpg?v=61" alt="FloatTimer+ 스크린샷 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floattimer-2.jpg?v=61" alt="FloatTimer+ 스크린샷 2" data-idx="1" />
+          <img class="shot" src="/images/shots/floattimer-3.jpg?v=61" alt="FloatTimer+ 스크린샷 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -228,8 +243,51 @@
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">주요 기능</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>플로팅 오버레이 — 타이머·카운터·스톱워치가 모든 앱 위에 떠서 표시되고, 원하는 자리로 드래그해 항목별 크기·투명도·배경색까지 조절</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>다중 타이머 — 시·분·초를 자유롭게 설정하고 1·5·10·25·30·60분 빠른 선택 제공, 원하는 만큼 동시 실행</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>오버레이 조작 — 앱을 열지 않고 오버레이 메뉴에서 재생·일시정지·리셋, 화면이 필요할 땐 앱 아이콘이 찍힌 버블로 접고 어디를 눌러도 다시 펼치기</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>카운터 — 오버레이에서 바로 눌러 증가·감소, 증감 단위 1·2·5·10 선택, 필요한 만큼 생성</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>스톱워치 — 여러 개의 스톱워치를 각각 따로 측정하고, 쓰던 앱을 벗어나지 않고 시작·일시정지·리셋</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>알림과 백업 — 종료 시 소리·진동·전체 화면 알림, 타이머·카운터를 파일로 내보내고 합치기 또는 통째로 교체해 복원</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">스크린샷</h2>
+      <p class="detail-lead">스크린샷을 누르면 크게 볼 수 있습니다.</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/floattimer-1.jpg?v=61" alt="FloatTimer+ 스크린샷 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floattimer-2.jpg?v=61" alt="FloatTimer+ 스크린샷 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floattimer-3.jpg?v=61" alt="FloatTimer+ 스크린샷 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floattimer-4.jpg?v=61" alt="FloatTimer+ 스크린샷 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/floattimer-5.jpg?v=61" alt="FloatTimer+ 스크린샷 5" loading="lazy" data-idx="4" />
+          <img class="shot" src="/images/shots/floattimer-6.jpg?v=61" alt="FloatTimer+ 스크린샷 6" loading="lazy" data-idx="5" />
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
       <h2 class="detail-title">개요</h2>
-      <p class="detail-long">FloatTimer+는 카운트다운 타이머·카운터·스톱워치를 어떤 앱 위에도 띄워 두는 플로팅 오버레이 앱입니다. 다른 일을 하는 중에도 타이머가 계속 보이며, 화면 어디로든 드래그하고 항목마다 크기·투명도·배경색을 조절하거나 화면이 필요할 땐 앱 아이콘이 찍힌 버블로 접어 둘 수 있습니다. 버블은 어디를 눌러도 다시 펼쳐지고, 아이콘 하나로 더 줄이거나 화면 가장자리로 밀어 두면 절반만 남기고 숨습니다. 앱을 열지 않고 오버레이 메뉴에서 바로 재생·일시정지·리셋할 수 있고, 앱을 전환하거나 화면을 꺼도 백그라운드에서 계속 동작합니다. 요리, 운동, 공부, 게임 등 무엇을 하든 한 번 설정해 두고 시간을 놓치지 않고 이어가세요.</p>
+      <div class="detail-long">
+          <p>FloatTimer+는 카운트다운 타이머·카운터·스톱워치를 어떤 앱 위에도 띄워 두는 플로팅 오버레이 앱입니다. 다른 일을 하는 중에도 타이머가 계속 보이며, 화면 어디로든 드래그하고 항목마다 크기·투명도·배경색을 조절하거나 화면이 필요할 땐 앱 아이콘이 찍힌 버블로 접어 둘 수 있습니다.</p>
+          <p>버블은 어디를 눌러도 다시 펼쳐지고, 아이콘 하나로 더 줄이거나 화면 가장자리로 밀어 두면 절반만 남기고 숨습니다. 앱을 열지 않고 오버레이 메뉴에서 바로 재생·일시정지·리셋할 수 있고, 앱을 전환하거나 화면을 꺼도 백그라운드에서 계속 동작합니다. 요리, 운동, 공부, 게임 등 무엇을 하든 한 번 설정해 두고 시간을 놓치지 않고 이어가세요.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">자주 묻는 질문</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">다른 앱을 사용하는 중에도 타이머가 계속 보이나요?</p><p class="faq-a">네. 타이머·카운터·스톱워치가 모든 앱 위에 떠서 표시되고 백그라운드에서 실행되어, 앱을 전환하거나 화면을 꺼도 계속 동작합니다.</p></div>
+          <div class="faq-item"><p class="faq-q">뽀모도로나 운동 타이머로 쓸 수 있나요?</p><p class="faq-a">네. 25분 같은 빠른 선택이 준비돼 있고 원하는 시간을 직접 설정할 수 있으며, 운동과 휴식처럼 여러 타이머를 동시에 실행할 수 있습니다. Pro에서는 타이머를 2·3·5회 또는 무한 반복할 수 있습니다.</p></div>
+          <div class="faq-item"><p class="faq-q">무료 버전에서는 무엇을 쓸 수 있나요?</p><p class="faq-a">타이머·카운터·스톱워치를 개수 제한 없이 만들 수 있고 하루 사용 시간 제한도 없습니다. 무료의 유일한 제한은 오버레이를 한 번에 하나만 띄우는 것으로, Pro에서는 동시에 여러 개를 띄울 수 있고 짧은 광고를 보면 24시간 Free Pass도 받을 수 있습니다.</p></div>
+        </div>
     </div>
   </section>
 
@@ -237,7 +295,7 @@
     <div class="container">
       <h2 class="detail-title">Windows에서도 사용할 수 있습니다</h2>
       <a class="counterpart" href="/ko/apps/floattimerwin.html">
-        <img class="app-icon" src="/images/icons/floattimerwin.png?v=60" alt="FloatTimer+ for Windows icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/floattimerwin.png?v=61" alt="FloatTimer+ for Windows icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>FloatTimer+ for Windows</bdi></span>
           <span class="cp-desc">Windows의 어떤 창 위에도 작은 파스텔 카드로 떠 있는 타이머·카운터·스톱워치.</span>
@@ -246,49 +304,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
+
+  <section class="detail-section is-alt">
     <div class="container">
-      <h2 class="detail-title">주요 기능</h2>
-      <ul class="feature-list">
-        <li>플로팅 오버레이 — 타이머·카운터·스톱워치가 모든 앱 위에 떠서 표시되고, 원하는 자리로 드래그해 항목별 크기·투명도·배경색까지 조절</li>
-        <li>다중 타이머 — 시·분·초를 자유롭게 설정하고 1·5·10·25·30·60분 빠른 선택 제공, 원하는 만큼 동시 실행</li>
-        <li>오버레이 조작 — 앱을 열지 않고 오버레이 메뉴에서 재생·일시정지·리셋, 화면이 필요할 땐 앱 아이콘이 찍힌 버블로 접고 어디를 눌러도 다시 펼치기</li>
-        <li>카운터 — 오버레이에서 바로 눌러 증가·감소, 증감 단위 1·2·5·10 선택, 필요한 만큼 생성</li>
-        <li>스톱워치 — 여러 개의 스톱워치를 각각 따로 측정하고, 쓰던 앱을 벗어나지 않고 시작·일시정지·리셋</li>
-        <li>알림과 백업 — 종료 시 소리·진동·전체 화면 알림, 타이머·카운터를 파일로 내보내고 합치기 또는 통째로 교체해 복원</li>
-      </ul>
+      <h2 class="detail-title">다른 앱 둘러보기</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/ko/apps/volumebooster.html">
+            <img class="app-icon" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>VolumeBooster+</bdi></span><span class="rc-desc">음량 증폭·이퀄라이저·베이스 부스터로 어떤 소리든 최대 +15 dB 더 크게.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ko/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">사진·PDF 속 개인정보를 단색으로 가려 안전하게. 완전 오프라인.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ko/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">난독증·ADHD 읽기 보조. 줄 강조·마스크로 읽는 줄에 시선 고정.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ko/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">어떤 앱 위에도 뜨는 플로팅 스티커 메모. 칩으로 접었다 카드로 펼치고, 색상·서식·이미지까지.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">스크린샷</h2>
-      <p class="section-lead" style="margin-bottom:22px">스크린샷을 누르면 크게 볼 수 있습니다.</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floattimer-1.jpg?v=60" alt="FloatTimer+ 스크린샷 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floattimer-2.jpg?v=60" alt="FloatTimer+ 스크린샷 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floattimer-3.jpg?v=60" alt="FloatTimer+ 스크린샷 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floattimer-4.jpg?v=60" alt="FloatTimer+ 스크린샷 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floattimer-5.jpg?v=60" alt="FloatTimer+ 스크린샷 5" loading="lazy" data-idx="4" />
-        <img class="shot" src="/images/shots/floattimer-6.jpg?v=60" alt="FloatTimer+ 스크린샷 6" loading="lazy" data-idx="5" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">자주 묻는 질문</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">다른 앱을 사용하는 중에도 타이머가 계속 보이나요?</p><p class="faq-a">네. 타이머·카운터·스톱워치가 모든 앱 위에 떠서 표시되고 백그라운드에서 실행되어, 앱을 전환하거나 화면을 꺼도 계속 동작합니다.</p></div>
-        <div class="faq-item"><p class="faq-q">뽀모도로나 운동 타이머로 쓸 수 있나요?</p><p class="faq-a">네. 25분 같은 빠른 선택이 준비돼 있고 원하는 시간을 직접 설정할 수 있으며, 운동과 휴식처럼 여러 타이머를 동시에 실행할 수 있습니다. Pro에서는 타이머를 2·3·5회 또는 무한 반복할 수 있습니다.</p></div>
-        <div class="faq-item"><p class="faq-q">무료 버전에서는 무엇을 쓸 수 있나요?</p><p class="faq-a">타이머·카운터·스톱워치를 개수 제한 없이 만들 수 있고 하루 사용 시간 제한도 없습니다. 무료의 유일한 제한은 오버레이를 한 번에 하나만 띄우는 것으로, Pro에서는 동시에 여러 개를 띄울 수 있고 짧은 광고를 보면 24시간 Free Pass도 받을 수 있습니다.</p></div>
-      </div>
-    </div>
-  </section>
-
-
-  <div class="detail-cta">
-    <a href="/ko/#apps" class="btn btn-primary">다른 앱 둘러보기</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -304,6 +347,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floattimer.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatTimer+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dko" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -311,6 +360,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"ko","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floattimer.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floattimer.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floattimer.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floattimer.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floattimer.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floattimer.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floattimer.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floattimer.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floattimer.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floattimer.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floattimer.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floattimer.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floattimer.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floattimer.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floattimer.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floattimer.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floattimer.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floattimer.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floattimer.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floattimer.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floattimer.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

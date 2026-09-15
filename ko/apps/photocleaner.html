@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 10+",
   "screenshot": [
     "https://codedac.com/images/shots/photocleaner-1.jpg",
     "https://codedac.com/images/shots/photocleaner-2.jpg",
@@ -158,7 +159,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/ko/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -205,28 +206,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/ko/">홈</a>
-      <span class="sep">/</span>
-      <a href="/ko/#apps">앱 소개</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>PhotoCleaner+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/photocleaner.png?v=60" alt="PhotoCleaner+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">개인정보 보호</span><span class="app-langs" aria-label="21개 언어"><span class="globe" aria-hidden="true">🌐</span>21개 언어</span></span>
-        <h1><bdi>PhotoCleaner+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">공유하기 전에, 기기 안에서 사진과 PDF 속 개인정보를 단색으로 가리세요.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dko" class="btn btn-primary" target="_blank" rel="noopener">Google Play에서 보기 →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">문의하기</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ko/">홈</a>
+        <span class="sep">/</span>
+        <a href="/ko/#apps">앱 소개</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>PhotoCleaner+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">개인정보 보호</span><span class="app-langs" aria-label="21개 언어"><span class="globe" aria-hidden="true">🌐</span>21개 언어</span></span>
+              <h1><bdi>PhotoCleaner+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">공유하기 전에, 기기 안에서 사진과 PDF 속 개인정보를 단색으로 가리세요.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 10+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dko" class="btn btn-primary" target="_blank" rel="noopener">Google Play에서 보기 →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BPhotoCleaner%2B%5D%20%EB%AC%B8%EC%9D%98%C2%B7%EB%B2%84%EA%B7%B8%20%EC%8B%A0%EA%B3%A0&amp;body=1.%20%EC%96%B4%EB%96%A4%20%EB%AC%B8%EC%A0%9C%EA%B0%80%20%EC%9E%88%EC%97%88%EB%82%98%EC%9A%94%3F%20(%EC%9E%AC%ED%98%84%20%EB%B0%A9%EB%B2%95%EC%9D%84%20%EC%95%8C%EB%A9%B4%20%ED%95%A8%EA%BB%98%20%EC%A0%81%EC%96%B4%20%EC%A3%BC%EC%84%B8%EC%9A%94)%0A-%20%0A%0A2.%20%EA%B8%B0%EA%B8%B0%EC%99%80%20OS%20%EB%B2%84%EC%A0%84%0A-%20%0A%0A3.%20%EC%95%B1%20%EB%B2%84%EC%A0%84%0A-%20%0A" class="btn btn-glass">문의·버그 신고</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/photocleaner-1.jpg?v=61" alt="PhotoCleaner+ 스크린샷 1" data-idx="0" />
+          <img class="shot" src="/images/shots/photocleaner-2.jpg?v=61" alt="PhotoCleaner+ 스크린샷 2" data-idx="1" />
+          <img class="shot" src="/images/shots/photocleaner-3.jpg?v=61" alt="PhotoCleaner+ 스크린샷 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -234,53 +248,80 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">개요</h2>
-      <p class="detail-long">PhotoCleaner+는 사진과 PDF 속 개인정보를 기기 안에서만 가려 주는 앱입니다. 민감한 부분을 불투명한 단색으로 덮어(흐림이나 모자이크가 아니어서 복원할 수 없습니다) 깨끗한 사본으로 내보냅니다. 내장 탐지 기능이 신분증 번호, 카드, 전화번호, 이메일 같은 텍스트를 횟수 제한 없이 무료로 제안하지만, 무엇을 가릴지는 직접 그리고 조정해 결정합니다. 사진과 신분증은 물론 여러 페이지 PDF도 다루고, 저장하거나 공유하는 사본은 모두 EXIF 없이 다시 인코딩되며, 갤러리나 저장소 권한은 요구하지 않습니다. 탐지·편집·가리기는 무료에서도 제한이 없고 내보낸 이미지에 워터마크가 붙지 않습니다. 무료는 하루 3회까지 내보낼 수 있고, Pro는 이 한도를 없애면서 PDF 내보내기·인쇄와 가리기 색 자유 선택을 더합니다. “저장 위치 직접 선택”을 켜면 폴더와 파일 이름도 직접 정할 수 있습니다.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">주요 기능</h2>
-      <ul class="feature-list">
-        <li>불투명한 단색 가리기로 가려진 영역을 복원할 수 없음 (흐림·모자이크 아님)</li>
-        <li>직접 손으로 가림 영역을 그리고 이동·크기 조절·삭제, 확대해 정밀 조정</li>
-        <li>신분증 번호, 카드, 전화번호, 이메일 등을 제안하는 자동 탐지 — 무료·무제한이며 검토는 사용자 몫</li>
-        <li>사진, 신분증, 여러 페이지 PDF 문서 가리기 지원</li>
-        <li>권한 요청 없음, EXIF·GPS 안내, 저장·공유 사본은 EXIF 없이 다시 인코딩</li>
-        <li>누구나 워터마크 없이 내보내기 — 무료는 하루 3회, Pro는 무제한에 PDF 내보내기·인쇄까지. 짧은 광고로 24시간 열 수도 있습니다</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>불투명한 단색 가리기로 가려진 영역을 복원할 수 없음 (흐림·모자이크 아님)</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>직접 손으로 가림 영역을 그리고 이동·크기 조절·삭제, 확대해 정밀 조정</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>신분증 번호, 카드, 전화번호, 이메일 등을 제안하는 자동 탐지 — 무료·무제한이며 검토는 사용자 몫</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>사진, 신분증, 여러 페이지 PDF 문서 가리기 지원</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>권한 요청 없음, EXIF·GPS 안내, 저장·공유 사본은 EXIF 없이 다시 인코딩</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>누구나 워터마크 없이 내보내기 — 무료는 하루 3회, Pro는 무제한에 PDF 내보내기·인쇄까지. 짧은 광고로 24시간 열 수도 있습니다</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">스크린샷</h2>
-      <p class="section-lead" style="margin-bottom:22px">스크린샷을 누르면 크게 볼 수 있습니다.</p>
+      <p class="detail-lead">스크린샷을 누르면 크게 볼 수 있습니다.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/photocleaner-1.jpg?v=60" alt="PhotoCleaner+ 스크린샷 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/photocleaner-2.jpg?v=60" alt="PhotoCleaner+ 스크린샷 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/photocleaner-3.jpg?v=60" alt="PhotoCleaner+ 스크린샷 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/photocleaner-4.jpg?v=60" alt="PhotoCleaner+ 스크린샷 4" loading="lazy" data-idx="3" />
-      </div>
+          <img class="shot" src="/images/shots/photocleaner-1.jpg?v=61" alt="PhotoCleaner+ 스크린샷 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/photocleaner-2.jpg?v=61" alt="PhotoCleaner+ 스크린샷 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/photocleaner-3.jpg?v=61" alt="PhotoCleaner+ 스크린샷 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/photocleaner-4.jpg?v=61" alt="PhotoCleaner+ 스크린샷 4" loading="lazy" data-idx="3" />
+        </div>
     </div>
   </section>
+
   <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">개요</h2>
+      <div class="detail-long">
+          <p>PhotoCleaner+는 사진과 PDF 속 개인정보를 기기 안에서만 가려 주는 앱입니다. 민감한 부분을 불투명한 단색으로 덮어(흐림이나 모자이크가 아니어서 복원할 수 없습니다) 깨끗한 사본으로 내보냅니다. 내장 탐지 기능이 신분증 번호, 카드, 전화번호, 이메일 같은 텍스트를 횟수 제한 없이 무료로 제안하지만, 무엇을 가릴지는 직접 그리고 조정해 결정합니다.</p>
+          <p>사진과 신분증은 물론 여러 페이지 PDF도 다루고, 저장하거나 공유하는 사본은 모두 EXIF 없이 다시 인코딩되며, 갤러리나 저장소 권한은 요구하지 않습니다. 탐지·편집·가리기는 무료에서도 제한이 없고 내보낸 이미지에 워터마크가 붙지 않습니다. 무료는 하루 3회까지 내보낼 수 있고, Pro는 이 한도를 없애면서 PDF 내보내기·인쇄와 가리기 색 자유 선택을 더합니다. “저장 위치 직접 선택”을 켜면 폴더와 파일 이름도 직접 정할 수 있습니다.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">자주 묻는 질문</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">가리기는 흐림이나 모자이크인가요?</p><p class="faq-a">아닙니다. 가리기 방식은 불투명한 단색 채우기 하나뿐이며, 가려진 영역은 복원할 수 없습니다. Pro에서는 가리기 색을 원하는 대로 바꿀 수 있습니다.</p></div>
-        <div class="faq-item"><p class="faq-q">사진이 서버로 업로드되나요?</p><p class="faq-a">아닙니다. 모든 작업은 기기 안에서 오프라인으로 처리되며 사진은 절대 업로드되지 않습니다. 갤러리나 저장소 권한도 전혀 요청하지 않습니다.</p></div>
-        <div class="faq-item"><p class="faq-q">자동 탐지만 믿고 내보내도 되나요?</p><p class="faq-a">자동 탐지는 민감해 보이는 텍스트를 제안하는 시작점일 뿐입니다. 내보내기 전에 항상 제안을 검토하고 직접 가림을 추가하거나 제거하세요.</p></div>
-        <div class="faq-item"><p class="faq-q">무료로 하루에 몇 번 내보낼 수 있나요?</p><p class="faq-a">하루 3회입니다. 내보내기 버튼을 누른 것이 1회이며, 그 결과를 저장하든 공유하든 PDF로 만들든 인쇄하든 같습니다. 탐지·편집·가리기에는 제한이 없습니다. Pro는 하루 한도를 없애고, 구독이 부담되면 짧은 광고 한 편으로 24시간 동안 한도를 해제할 수 있습니다.</p></div>
-      </div>
+          <div class="faq-item"><p class="faq-q">가리기는 흐림이나 모자이크인가요?</p><p class="faq-a">아닙니다. 가리기 방식은 불투명한 단색 채우기 하나뿐이며, 가려진 영역은 복원할 수 없습니다. Pro에서는 가리기 색을 원하는 대로 바꿀 수 있습니다.</p></div>
+          <div class="faq-item"><p class="faq-q">사진이 서버로 업로드되나요?</p><p class="faq-a">아닙니다. 모든 작업은 기기 안에서 오프라인으로 처리되며 사진은 절대 업로드되지 않습니다. 갤러리나 저장소 권한도 전혀 요청하지 않습니다.</p></div>
+          <div class="faq-item"><p class="faq-q">자동 탐지만 믿고 내보내도 되나요?</p><p class="faq-a">자동 탐지는 민감해 보이는 텍스트를 제안하는 시작점일 뿐입니다. 내보내기 전에 항상 제안을 검토하고 직접 가림을 추가하거나 제거하세요.</p></div>
+          <div class="faq-item"><p class="faq-q">무료로 하루에 몇 번 내보낼 수 있나요?</p><p class="faq-a">하루 3회입니다. 내보내기 버튼을 누른 것이 1회이며, 그 결과를 저장하든 공유하든 PDF로 만들든 인쇄하든 같습니다. 탐지·편집·가리기에는 제한이 없습니다. Pro는 하루 한도를 없애고, 구독이 부담되면 짧은 광고 한 편으로 24시간 동안 한도를 해제할 수 있습니다.</p></div>
+        </div>
     </div>
   </section>
 
-
-  <div class="detail-cta">
-    <a href="/ko/#apps" class="btn btn-primary">다른 앱 둘러보기</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">다른 앱 둘러보기</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/ko/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">난독증·ADHD 읽기 보조. 줄 강조·마스크로 읽는 줄에 시선 고정.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ko/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">어떤 앱 위에도 뜨는 플로팅 스티커 메모. 칩으로 접었다 카드로 펼치고, 색상·서식·이미지까지.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ko/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">복사한 내용을 모두 저장하는 클립보드 매니저. PC와 클립 동기화까지.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ko/apps/autostart.html">
+            <img class="app-icon" src="/images/icons/autostart.png?v=61" alt="AutoStart+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>AutoStart+</bdi></span><span class="rc-desc">부팅 시 원하는 앱을 자동으로 실행. 루트 불필요, 한 번 설정으로 끝.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -296,6 +337,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/photocleaner.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>PhotoCleaner+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dko" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -303,6 +350,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"ko","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/photocleaner.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/photocleaner.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/photocleaner.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/photocleaner.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/photocleaner.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/photocleaner.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/photocleaner.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/photocleaner.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/photocleaner.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/photocleaner.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/photocleaner.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/photocleaner.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/photocleaner.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/photocleaner.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/photocleaner.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/photocleaner.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/photocleaner.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/photocleaner.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/photocleaner.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/photocleaner.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/photocleaner.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

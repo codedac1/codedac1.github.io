@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Windows 10+",
   "screenshot": [
     "https://codedac.com/images/shots/floatnotewin-1.jpg",
     "https://codedac.com/images/shots/floatnotewin-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/ms/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,40 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/ms/">Laman Utama</a>
-      <span class="sep">/</span>
-      <a href="/ms/#apps">Aplikasi</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatNote+ for Windows</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floatnotewin.png?v=60" alt="FloatNote+ for Windows icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Nota</span><span class="app-langs" aria-label="21 bahasa"><span class="globe" aria-hidden="true">🌐</span>21 bahasa</span></span>
-        <h1><bdi>FloatNote+ for Windows</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Nota melekat yang terapung di atas apa sahaja yang anda sedang kerjakan: tulis tanpa meninggalkan tetingkap anda, dan ia tidak pernah merampas fokusnya.</h2>
-        <div class="app-hero-actions">
-          <a href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-detail-hero-ms" class="btn btn-primary" target="_blank" rel="noopener">Lihat di Microsoft Store →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Hubungi kami</a>
+  <section class="app-hero-d app-hero-windows">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ms/">Laman Utama</a>
+        <span class="sep">/</span>
+        <a href="/ms/#apps">Aplikasi</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatNote+ for Windows</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floatnotewin.png?v=61" alt="FloatNote+ for Windows icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Nota</span><span class="app-langs" aria-label="21 bahasa"><span class="globe" aria-hidden="true">🌐</span>21 bahasa</span></span>
+              <h1><bdi>FloatNote+ for Windows</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Nota melekat yang terapung di atas apa sahaja yang anda sedang kerjakan: tulis tanpa meninggalkan tetingkap anda, dan ia tidak pernah merampas fokusnya.</h2>
+          <ul class="app-facts">
+            <li class="fact-windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span dir="ltr">Windows · Microsoft Store</span></li>
+            <li><span dir="ltr">Windows 10+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-detail-hero-ms" class="btn btn-primary" target="_blank" rel="noopener">Lihat di Microsoft Store →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatNote%2B%20for%20Windows%5D%20Bantuan%20%26%20lapor%20pepijat&amp;body=1.%20Apa%20yang%20berlaku%3F%20(Langkah%20untuk%20mengulanginya%20amat%20membantu)%0A-%20%0A%0A2.%20Peranti%20dan%20versi%20OS%0A-%20%0A%0A3.%20Versi%20aplikasi%0A-%20%0A" class="btn btn-glass">Bantuan &amp; lapor pepijat</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-windows">
+          <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=61" alt="FloatNote+ for Windows Tangkapan Skrin 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=61" alt="FloatNote+ for Windows Tangkapan Skrin 2" data-idx="1" />
         </div>
       </div>
     </div>
@@ -227,8 +240,51 @@
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">Ciri Utama</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Nota melekat yang terapung di atas setiap tetingkap: cip berkembang di situ juga menjadi kad boleh sunting, dan Esc menguncupkannya semula</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Tidak pernah merampas fokus — seret atau klik cip, kursor anda kekal dalam aplikasi tempat anda menaip</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Tiada butang simpan: setiap ketikan kekunci dirakam untuk anda, dan tetingkap simpanan menguruskan carian, penyematan dan pengurusan</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Teks kaya — tebal, condong, garis bawah, garis lorek, warna dan saiz teks — dengan 7 warna pastel dan gambar dalam nota</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Penyegerakan dua hala telefon-ke-PC melalui Google Drive anda sendiri — folder khusus aplikasi yang sama seperti yang digunakan aplikasi Android, tanpa mana-mana pelayan CodeDAC</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Kekunci pintas global, dulang sistem, tema cerah dan gelap, jalan semasa log masuk, 21 bahasa. Tiada iklan, dan Pro ialah pembelian sekali sahaja</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Tangkapan Skrin</h2>
+      <p class="detail-lead">Ketik tangkapan skrin untuk melihatnya lebih besar.</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=61" alt="FloatNote+ for Windows Tangkapan Skrin 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=61" alt="FloatNote+ for Windows Tangkapan Skrin 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floatnotewin-3.jpg?v=61" alt="FloatNote+ for Windows Tangkapan Skrin 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floatnotewin-4.jpg?v=61" alt="FloatNote+ for Windows Tangkapan Skrin 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/floatnotewin-5.jpg?v=61" alt="FloatNote+ for Windows Tangkapan Skrin 5" loading="lazy" data-idx="4" />
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
       <h2 class="detail-title">Gambaran Keseluruhan</h2>
-      <p class="detail-long">FloatNote+ for Windows ialah versi desktop bagi aplikasi FloatNote+ untuk Android. Setiap nota hadir sebagai cip kecil di atas pelayar, penyunting atau hamparan anda; satu klik mengembangkannya di situ juga menjadi kad untuk dibaca atau disunting, dan Esc menguncupkannya semula menjadi cip. Cip tidak pernah merampas fokus daripada aplikasi di belakangnya, jadi apa yang anda taip kekal seperti asal — dan tiada butang simpan kerana setiap ketikan kekunci dirakam untuk anda. Tujuh warna pastel, teks kaya dan gambar dalam nota membezakan setiap satu; tetingkap simpanan menguruskan carian, penyematan dan pengurusan, manakala penyegerakan pilihan membawa nota anda melalui folder khusus aplikasi dalam Google Drive anda sendiri — folder yang sama digunakan oleh aplikasi Android.</p>
+      <div class="detail-long">
+          <p>FloatNote+ for Windows ialah versi desktop bagi aplikasi FloatNote+ untuk Android. Setiap nota hadir sebagai cip kecil di atas pelayar, penyunting atau hamparan anda; satu klik mengembangkannya di situ juga menjadi kad untuk dibaca atau disunting, dan Esc menguncupkannya semula menjadi cip.</p>
+          <p>Cip tidak pernah merampas fokus daripada aplikasi di belakangnya, jadi apa yang anda taip kekal seperti asal — dan tiada butang simpan kerana setiap ketikan kekunci dirakam untuk anda.</p>
+          <p>Tujuh warna pastel, teks kaya dan gambar dalam nota membezakan setiap satu; tetingkap simpanan menguruskan carian, penyematan dan pengurusan, manakala penyegerakan pilihan membawa nota anda melalui folder khusus aplikasi dalam Google Drive anda sendiri — folder yang sama digunakan oleh aplikasi Android.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Soalan Lazim</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Adakah ini aplikasi yang sama dengan FloatNote+ di Android?</p><p class="faq-a">Ia aplikasi yang sama yang dibina untuk Windows, dengan cip dan kad yang sama. Pembelian dibuat berasingan di setiap gedung, tetapi sebaik anda log masuk ke Google Drive dengan akaun yang sama pada kedua-dua aplikasi dan menghidupkan penyegerakan automatik, nota yang ditulis pada PC akan sampai ke telefon dan nota yang ditulis pada telefon akan sampai ke PC. Nota tidak melalui mana-mana pelayan CodeDAC — ia disimpan di dalam Google Drive anda sendiri sahaja. Teks nota dan imej yang dilampirkan kedua-duanya berpindah antara peranti.</p></div>
+          <div class="faq-item"><p class="faq-q">Adakah ia mengganggu aplikasi di bawahnya?</p><p class="faq-a">Tidak. Cip ialah tetingkap apungan yang tidak pernah mengambil fokus, jadi mengklik atau menyeretnya membiarkan kursor tepat di tempat anda menaip. Klik cip untuk mengembangkan kad; tekan Esc atau klik di luar dan ia kuncup semula, sudah pun disimpan.</p></div>
+          <div class="faq-item"><p class="faq-q">Adakah ia percuma?</p><p class="faq-a">Ya. Menulis dan menyimpan nota adalah percuma dan tanpa had, dan versi Windows tiada iklan. Versi percuma mengapungkan satu nota pada satu masa, dengan kesemua tujuh warna. Pro ialah pembelian sekali sahaja, bukan langganan, dan menambah nota terapung tanpa had, gambar dalam nota, kelegapan boleh laras, penyegerakan Google Drive serta eksport dan import nota.</p></div>
+        </div>
     </div>
   </section>
 
@@ -236,7 +292,7 @@
     <div class="container">
       <h2 class="detail-title">Turut tersedia di Android</h2>
       <a class="counterpart" href="/ms/apps/floatnote.html">
-        <img class="app-icon" src="/images/icons/floatnote.png?v=60" alt="FloatNote+ icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>FloatNote+</bdi></span>
           <span class="cp-desc">Nota melekat yang terapung di atas mana-mana apl. Kuncupkan jadi cip, kembangkan jadi kad — dengan warna dan teks kaya.</span>
@@ -245,48 +301,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
+
+  <section class="detail-section is-alt">
     <div class="container">
-      <h2 class="detail-title">Ciri Utama</h2>
-      <ul class="feature-list">
-        <li>Nota melekat yang terapung di atas setiap tetingkap: cip berkembang di situ juga menjadi kad boleh sunting, dan Esc menguncupkannya semula</li>
-        <li>Tidak pernah merampas fokus — seret atau klik cip, kursor anda kekal dalam aplikasi tempat anda menaip</li>
-        <li>Tiada butang simpan: setiap ketikan kekunci dirakam untuk anda, dan tetingkap simpanan menguruskan carian, penyematan dan pengurusan</li>
-        <li>Teks kaya — tebal, condong, garis bawah, garis lorek, warna dan saiz teks — dengan 7 warna pastel dan gambar dalam nota</li>
-        <li>Penyegerakan dua hala telefon-ke-PC melalui Google Drive anda sendiri — folder khusus aplikasi yang sama seperti yang digunakan aplikasi Android, tanpa mana-mana pelayan CodeDAC</li>
-        <li>Kekunci pintas global, dulang sistem, tema cerah dan gelap, jalan semasa log masuk, 21 bahasa. Tiada iklan, dan Pro ialah pembelian sekali sahaja</li>
-      </ul>
+      <h2 class="detail-title">Terokai lebih banyak aplikasi</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/ms/apps/floattimerwin.html">
+            <img class="app-icon" src="/images/icons/floattimerwin.png?v=61" alt="FloatTimer+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+ for Windows</bdi></span><span class="rc-desc">Pemasa, pembilang dan jam randik yang terapung di atas mana-mana tetingkap Windows sebagai kad pastel kecil.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ms/apps/clipboardwin.html">
+            <img class="app-icon" src="/images/icons/clipboardwin.png?v=61" alt="Clipboard+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+ for Windows</bdi></span><span class="rc-desc">Pengurus papan keratan dulang Windows yang menyegerak dengan aplikasi Android Clipboard+.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ms/apps/readfocuswin.html">
+            <img class="app-icon" src="/images/icons/readfocuswin.png?v=61" alt="ReadFocus+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+ for Windows</bdi></span><span class="rc-desc">Jalur Fokus tembus klik untuk Windows — Topeng dan Sorotan mengekalkan mata anda pada baris.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ms/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">Simpan semua teks dan imej yang disalin. Cari, tampal dan segerak ke PC.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Tangkapan Skrin</h2>
-      <p class="section-lead" style="margin-bottom:22px">Ketik tangkapan skrin untuk melihatnya lebih besar.</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=60" alt="FloatNote+ for Windows Tangkapan Skrin 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=60" alt="FloatNote+ for Windows Tangkapan Skrin 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floatnotewin-3.jpg?v=60" alt="FloatNote+ for Windows Tangkapan Skrin 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floatnotewin-4.jpg?v=60" alt="FloatNote+ for Windows Tangkapan Skrin 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floatnotewin-5.jpg?v=60" alt="FloatNote+ for Windows Tangkapan Skrin 5" loading="lazy" data-idx="4" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Soalan Lazim</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Adakah ini aplikasi yang sama dengan FloatNote+ di Android?</p><p class="faq-a">Ia aplikasi yang sama yang dibina untuk Windows, dengan cip dan kad yang sama. Pembelian dibuat berasingan di setiap gedung, tetapi sebaik anda log masuk ke Google Drive dengan akaun yang sama pada kedua-dua aplikasi dan menghidupkan penyegerakan automatik, nota yang ditulis pada PC akan sampai ke telefon dan nota yang ditulis pada telefon akan sampai ke PC. Nota tidak melalui mana-mana pelayan CodeDAC — ia disimpan di dalam Google Drive anda sendiri sahaja. Teks nota dan imej yang dilampirkan kedua-duanya berpindah antara peranti.</p></div>
-        <div class="faq-item"><p class="faq-q">Adakah ia mengganggu aplikasi di bawahnya?</p><p class="faq-a">Tidak. Cip ialah tetingkap apungan yang tidak pernah mengambil fokus, jadi mengklik atau menyeretnya membiarkan kursor tepat di tempat anda menaip. Klik cip untuk mengembangkan kad; tekan Esc atau klik di luar dan ia kuncup semula, sudah pun disimpan.</p></div>
-        <div class="faq-item"><p class="faq-q">Adakah ia percuma?</p><p class="faq-a">Ya. Menulis dan menyimpan nota adalah percuma dan tanpa had, dan versi Windows tiada iklan. Versi percuma mengapungkan satu nota pada satu masa, dengan kesemua tujuh warna. Pro ialah pembelian sekali sahaja, bukan langganan, dan menambah nota terapung tanpa had, gambar dalam nota, kelegapan boleh laras, penyegerakan Google Drive serta eksport dan import nota.</p></div>
-      </div>
-    </div>
-  </section>
-
-
-  <div class="detail-cta">
-    <a href="/ms/#apps" class="btn btn-primary">Terokai lebih banyak aplikasi</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -302,6 +344,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floatnotewin.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatNote+ for Windows</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-detail-sticky-ms" target="_blank" rel="noopener">Microsoft Store</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -309,6 +357,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"ms","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floatnotewin.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floatnotewin.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floatnotewin.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floatnotewin.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floatnotewin.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floatnotewin.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floatnotewin.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floatnotewin.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floatnotewin.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floatnotewin.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floatnotewin.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floatnotewin.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floatnotewin.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floatnotewin.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floatnotewin.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floatnotewin.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floatnotewin.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floatnotewin.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floatnotewin.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floatnotewin.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floatnotewin.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

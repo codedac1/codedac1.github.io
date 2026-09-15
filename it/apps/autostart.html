@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,20 +82,14 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 10+",
   "screenshot": [
     "https://codedac.com/images/shots/autostart-1.jpg",
     "https://codedac.com/images/shots/autostart-2.jpg",
     "https://codedac.com/images/shots/autostart-3.jpg",
     "https://codedac.com/images/shots/autostart-4.jpg"
   ],
-  "installUrl": "https://play.google.com/store/apps/details?id=com.codedac.autostart",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "3.86",
-    "ratingCount": "59",
-    "bestRating": "5",
-    "worstRating": "1"
-  }
+  "installUrl": "https://play.google.com/store/apps/details?id=com.codedac.autostart"
 }
   </script>
   <script type="application/ld+json">
@@ -157,7 +151,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/it/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -204,28 +198,42 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/it/">Home</a>
-      <span class="sep">/</span>
-      <a href="/it/#apps">App</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>AutoStart+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/autostart.png?v=60" alt="AutoStart+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Avvio automatico</span><span class="app-langs" aria-label="21 lingue"><span class="globe" aria-hidden="true">🌐</span>21 lingue</span></span>
-        <h1><bdi>AutoStart+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Avvia automaticamente le tue app nel momento in cui il telefono si accende. Nessun root, imposta una volta, funziona per sempre.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.autostart&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dit" class="btn btn-primary" target="_blank" rel="noopener">Vedi su Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Contattaci</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/it/">Home</a>
+        <span class="sep">/</span>
+        <a href="/it/#apps">App</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>AutoStart+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/autostart.png?v=61" alt="AutoStart+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Avvio automatico</span><span class="app-langs" aria-label="21 lingue"><span class="globe" aria-hidden="true">🌐</span>21 lingue</span></span>
+              <h1><bdi>AutoStart+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Avvia automaticamente le tue app nel momento in cui il telefono si accende. Nessun root, imposta una volta, funziona per sempre.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 10+</span></li>
+            <li><span dir="ltr">5,000+</span><span>Download</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.autostart&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dit" class="btn btn-primary" target="_blank" rel="noopener">Vedi su Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BAutoStart%2B%5D%20Assistenza%20e%20bug&amp;body=1.%20Che%20cosa%20%C3%A8%20successo%3F%20(I%20passaggi%20per%20riprodurlo%20aiutano%20molto)%0A-%20%0A%0A2.%20Dispositivo%20e%20versione%20del%20sistema%0A-%20%0A%0A3.%20Versione%20dell'app%0A-%20%0A" class="btn btn-glass">Assistenza e bug</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/autostart-1.jpg?v=61" alt="AutoStart+ Screenshot 1" data-idx="0" />
+          <img class="shot" src="/images/shots/autostart-2.jpg?v=61" alt="AutoStart+ Screenshot 2" data-idx="1" />
+          <img class="shot" src="/images/shots/autostart-3.jpg?v=61" alt="AutoStart+ Screenshot 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -233,52 +241,45 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Panoramica</h2>
-      <p class="detail-long">AutoStart+ è il gestore di avvio automatico più semplice per Android: scegli le app e, appena il dispositivo ha finito di avviarsi, partono da sole. Senza root, senza script, senza tocchi ogni mattina. Cerca tra tutte le app installate, aggiungile in pochi secondi, attivale o disattivale con un tocco e trascina le righe per fissare l'ordine di avvio. Per provarlo non serve riavviare: il menu ⋮ di ogni riga apre subito quell'app e, dopo l'avvio, un breve messaggio dice che cosa è partito e lancia il resto con un tocco. La versione gratuita avvia 1 app; PRO toglie il limite e tutto l'elenco parte in ordine, e se non vuoi ancora abbonarti un breve annuncio lo sblocca per 24 ore.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Funzioni principali</h2>
-      <ul class="feature-list">
-        <li>Avvia le app selezionate appena il dispositivo ha finito di accendersi — senza root né ROM personalizzate</li>
-        <li>Cerca tra tutte le app installate, aggiungile in pochi secondi e attivale o disattivale con un tocco</li>
-        <li>Trascina le righe per decidere quale app parte per prima a ogni avvio</li>
-        <li>«Avvia ora» dal menu ⋮ di qualsiasi riga: prova l'elenco senza riavviare il telefono</li>
-        <li>Il banner di avvio lancia tutto l'elenco con un tocco, anche dalla schermata di blocco (PRO)</li>
-        <li>Gratis avvia 1 app, PRO toglie il limite — oppure un breve annuncio lo sblocca per 24 ore</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Avvia le app selezionate appena il dispositivo ha finito di accendersi — senza root né ROM personalizzate</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Cerca tra tutte le app installate, aggiungile in pochi secondi e attivale o disattivale con un tocco</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Trascina le righe per decidere quale app parte per prima a ogni avvio</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>«Avvia ora» dal menu ⋮ di qualsiasi riga: prova l'elenco senza riavviare il telefono</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Il banner di avvio lancia tutto l'elenco con un tocco, anche dalla schermata di blocco (PRO)</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Gratis avvia 1 app, PRO toglie il limite — oppure un breve annuncio lo sblocca per 24 ore</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Screenshot</h2>
-      <p class="section-lead" style="margin-bottom:22px">Tocca uno screenshot per ingrandirlo.</p>
+      <p class="detail-lead">Tocca uno screenshot per ingrandirlo.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/autostart-1.jpg?v=60" alt="AutoStart+ Screenshot 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/autostart-2.jpg?v=60" alt="AutoStart+ Screenshot 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/autostart-3.jpg?v=60" alt="AutoStart+ Screenshot 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/autostart-4.jpg?v=60" alt="AutoStart+ Screenshot 4" loading="lazy" data-idx="3" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">FAQ</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Le mie app non si avviano dopo l'accensione. Cosa devo fare?</p><p class="faq-a">Xiaomi, OPPO, vivo e Huawei bloccano l'avvio in background per impostazione predefinita. AutoStart+ riconosce il dispositivo e ti porta direttamente alla schermata «Avvio automatico» nelle impostazioni di sicurezza del telefono: concedi il permesso lì e l'avvio funziona. Escludere l'app dall'ottimizzazione della batteria aiuta ancora di più.</p></div>
-        <div class="faq-item"><p class="faq-q">Quante app posso avviare automaticamente?</p><p class="faq-a">La versione gratuita avvia 1 app a ogni accensione. PRO toglie il limite e tutto l'elenco parte nell'ordine che hai stabilito. Se preferisci non abbonarti, un breve annuncio sblocca il limite per 24 ore.</p></div>
-        <div class="faq-item"><p class="faq-q">Consuma la batteria?</p><p class="faq-a">AutoStart+ si esegue una sola volta all'accensione e non è un'app sempre attiva in background, quindi ha un impatto quasi nullo sulla durata della batteria.</p></div>
-      </div>
+          <img class="shot" src="/images/shots/autostart-1.jpg?v=61" alt="AutoStart+ Screenshot 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/autostart-2.jpg?v=61" alt="AutoStart+ Screenshot 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/autostart-3.jpg?v=61" alt="AutoStart+ Screenshot 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/autostart-4.jpg?v=61" alt="AutoStart+ Screenshot 4" loading="lazy" data-idx="3" />
+        </div>
     </div>
   </section>
 
-  <section class="detail-section" id="reviews">
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Panoramica</h2>
+      <div class="detail-long">
+          <p>AutoStart+ è il gestore di avvio automatico più semplice per Android: scegli le app e, appena il dispositivo ha finito di avviarsi, partono da sole. Senza root, senza script, senza tocchi ogni mattina. Cerca tra tutte le app installate, aggiungile in pochi secondi, attivale o disattivale con un tocco e trascina le righe per fissare l'ordine di avvio.</p>
+          <p>Per provarlo non serve riavviare: il menu ⋮ di ogni riga apre subito quell'app e, dopo l'avvio, un breve messaggio dice che cosa è partito e lancia il resto con un tocco. La versione gratuita avvia 1 app; PRO toglie il limite e tutto l'elenco parte in ordine, e se non vuoi ancora abbonarti un breve annuncio lo sblocca per 24 ore.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt" id="reviews">
     <div class="container">
       <h2 class="detail-title">Cosa dicono gli utenti</h2>
-      <p class="section-lead" style="margin-bottom:22px">Recensioni reali lasciate su Google Play.</p>
+      <p class="detail-lead">Recensioni reali lasciate su Google Play.</p>
       <div class="reviews-grid">
         <figure class="review-card">
           <div class="review-stars" aria-label="5 / 5">★★★★★</div>
@@ -300,13 +301,48 @@
           <blockquote class="review-text">Super simple to setup and use. Couldn't be easier. Very nicely done as there is no excessive overhead.</blockquote>
           <figcaption class="review-meta"><span class="review-name">Joseph Younger</span><span class="review-app">Google Play</span></figcaption>
         </figure>
-      </div>
+        </div>
     </div>
   </section>
 
-  <div class="detail-cta">
-    <a href="/it/#apps" class="btn btn-primary">Scopri altre app</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">FAQ</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Le mie app non si avviano dopo l'accensione. Cosa devo fare?</p><p class="faq-a">Xiaomi, OPPO, vivo e Huawei bloccano l'avvio in background per impostazione predefinita. AutoStart+ riconosce il dispositivo e ti porta direttamente alla schermata «Avvio automatico» nelle impostazioni di sicurezza del telefono: concedi il permesso lì e l'avvio funziona. Escludere l'app dall'ottimizzazione della batteria aiuta ancora di più.</p></div>
+          <div class="faq-item"><p class="faq-q">Quante app posso avviare automaticamente?</p><p class="faq-a">La versione gratuita avvia 1 app a ogni accensione. PRO toglie il limite e tutto l'elenco parte nell'ordine che hai stabilito. Se preferisci non abbonarti, un breve annuncio sblocca il limite per 24 ore.</p></div>
+          <div class="faq-item"><p class="faq-q">Consuma la batteria?</p><p class="faq-a">AutoStart+ si esegue una sola volta all'accensione e non è un'app sempre attiva in background, quindi ha un impatto quasi nullo sulla durata della batteria.</p></div>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Scopri altre app</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/it/apps/floatcalc.html">
+            <img class="app-icon" src="/images/icons/floatcalc.png?v=61" alt="FloatCalc+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCalc+</bdi></span><span class="rc-desc">Calcolatrice flottante con convertitore di valute e unità sopra ogni app.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/it/apps/floatcrypto.html">
+            <img class="app-icon" src="/images/icons/floatcrypto.png?v=61" alt="FloatCrypto+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCrypto+</bdi></span><span class="rc-desc">Ticker crypto in tempo reale sopra ogni app, con avvisi e grafici.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/it/apps/floattimer.html">
+            <img class="app-icon" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+</bdi></span><span class="rc-desc">Un timer, contatore e cronometro flottante sopra qualsiasi app.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/it/apps/volumebooster.html">
+            <img class="app-icon" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>VolumeBooster+</bdi></span><span class="rc-desc">Amplificatore di volume, equalizzatore e bassi: alza qualsiasi suono fino a +15 dB.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -322,6 +358,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/autostart.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>AutoStart+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.autostart&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dit" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -329,6 +371,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"it","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/autostart.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/autostart.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/autostart.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/autostart.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/autostart.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/autostart.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/autostart.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/autostart.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/autostart.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/autostart.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/autostart.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/autostart.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/autostart.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/autostart.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/autostart.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/autostart.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/autostart.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/autostart.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/autostart.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/autostart.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/autostart.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

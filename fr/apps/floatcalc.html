@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 12+",
   "screenshot": [
     "https://codedac.com/images/shots/floatcalc-1.jpg",
     "https://codedac.com/images/shots/floatcalc-2.jpg",
@@ -152,7 +153,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/fr/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -199,28 +200,42 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/fr/">Accueil</a>
-      <span class="sep">/</span>
-      <a href="/fr/#apps">Applications</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatCalc+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floatcalc.png?v=60" alt="FloatCalc+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Flottant</span><span class="app-langs" aria-label="21 langues"><span class="globe" aria-hidden="true">🌐</span>21 langues</span></span>
-        <h1><bdi>FloatCalc+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Calculez sans quitter votre appli — une calculatrice qui reste au-dessus de tout.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dfr" class="btn btn-primary" target="_blank" rel="noopener">Voir sur Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Nous contacter</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/fr/">Accueil</a>
+        <span class="sep">/</span>
+        <a href="/fr/#apps">Applications</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatCalc+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floatcalc.png?v=61" alt="FloatCalc+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Flottant</span><span class="app-langs" aria-label="21 langues"><span class="globe" aria-hidden="true">🌐</span>21 langues</span></span>
+              <h1><bdi>FloatCalc+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Calculez sans quitter votre appli — une calculatrice qui reste au-dessus de tout.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 12+</span></li>
+            <li><span dir="ltr">1,000+</span><span>Téléchargements</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dfr" class="btn btn-primary" target="_blank" rel="noopener">Voir sur Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatCalc%2B%5D%20Support%20et%20bugs&amp;body=1.%20Que%20s'est-il%20pass%C3%A9%20%3F%20(Les%20%C3%A9tapes%20pour%20reproduire%20le%20probl%C3%A8me%20aident%20beaucoup)%0A-%20%0A%0A2.%20Appareil%20et%20version%20de%20l'OS%0A-%20%0A%0A3.%20Version%20de%20l'application%0A-%20%0A" class="btn btn-glass">Support et bugs</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/floatcalc-1.jpg?v=61" alt="FloatCalc+ Captures d'écran 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcalc-2.jpg?v=61" alt="FloatCalc+ Captures d'écran 2" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcalc-3.jpg?v=61" alt="FloatCalc+ Captures d'écran 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -228,54 +243,82 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Aperçu</h2>
-      <p class="detail-long">FloatCalc+ est une calculatrice flottante qui reste au-dessus de toutes les applis : plus besoin de quitter votre boutique en ligne, votre banque ou votre navigateur pour faire un calcul. La calculatrice, le convertisseur d'unités et le convertisseur de devises partagent une même fenêtre déplaçable : tapez l'opération sur le pavé numérique intégré, obtenez le résultat aussitôt et copiez-le dans le presse-papiers. Repliez le clavier quand une seule ligne suffit, ou réduisez tout le panneau en une icône flottante qui s'accroche au bord de l'écran. Les taux viennent de la BCE, sont actualisés chaque jour et mis en cache, donc tout continue de fonctionner hors ligne. La calculatrice flottante est gratuite 60 minutes par jour — le temps restant s'affiche dans la barre de titre — et une courte publicité vous donne un pass de 24 h si vous en voulez plus.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Fonctionnalités clés</h2>
-      <ul class="feature-list">
-        <li>Superposée à n'importe quelle appli — YouTube, cartes, navigateur, banque, achats, documents — et rouvre dans le mode utilisé la dernière fois</li>
-        <li>Barre d'opérateurs en un tap : + − × ÷ ( ) % juste au-dessus du pavé numérique intégré, retour arrière pour corriger une faute</li>
-        <li>Puissances, racines et pourcentages — 2^10, √144, 100+10% — le calcul reste affiché après « = », touchez-le pour le modifier</li>
-        <li>Convertisseur d'unités dans la fenêtre : longueur, poids, température, surface, volume, vitesse et temps</li>
-        <li>Convertisseur de devises avec les taux BCE quotidiens pour plus de 30 devises ; les Réglages indiquent la date et la source</li>
-        <li>Repliez le clavier sur une ligne ou réduisez le panneau en une icône ancrée au bord de l'écran — taille, largeur, opacité réglables et 8 thèmes</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Superposée à n'importe quelle appli — YouTube, cartes, navigateur, banque, achats, documents — et rouvre dans le mode utilisé la dernière fois</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Barre d'opérateurs en un tap : + − × ÷ ( ) % juste au-dessus du pavé numérique intégré, retour arrière pour corriger une faute</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Puissances, racines et pourcentages — 2^10, √144, 100+10% — le calcul reste affiché après « = », touchez-le pour le modifier</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Convertisseur d'unités dans la fenêtre : longueur, poids, température, surface, volume, vitesse et temps</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Convertisseur de devises avec les taux BCE quotidiens pour plus de 30 devises ; les Réglages indiquent la date et la source</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Repliez le clavier sur une ligne ou réduisez le panneau en une icône ancrée au bord de l'écran — taille, largeur, opacité réglables et 8 thèmes</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Captures d'écran</h2>
-      <p class="section-lead" style="margin-bottom:22px">Touchez une capture d'écran pour l'agrandir.</p>
+      <p class="detail-lead">Touchez une capture d'écran pour l'agrandir.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floatcalc-1.jpg?v=60" alt="FloatCalc+ Captures d'écran 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floatcalc-2.jpg?v=60" alt="FloatCalc+ Captures d'écran 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floatcalc-3.jpg?v=60" alt="FloatCalc+ Captures d'écran 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floatcalc-4.jpg?v=60" alt="FloatCalc+ Captures d'écran 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floatcalc-5.jpg?v=60" alt="FloatCalc+ Captures d'écran 5" loading="lazy" data-idx="4" />
-        <img class="shot" src="/images/shots/floatcalc-6.jpg?v=60" alt="FloatCalc+ Captures d'écran 6" loading="lazy" data-idx="5" />
-      </div>
+          <img class="shot" src="/images/shots/floatcalc-1.jpg?v=61" alt="FloatCalc+ Captures d'écran 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcalc-2.jpg?v=61" alt="FloatCalc+ Captures d'écran 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcalc-3.jpg?v=61" alt="FloatCalc+ Captures d'écran 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floatcalc-4.jpg?v=61" alt="FloatCalc+ Captures d'écran 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/floatcalc-5.jpg?v=61" alt="FloatCalc+ Captures d'écran 5" loading="lazy" data-idx="4" />
+          <img class="shot" src="/images/shots/floatcalc-6.jpg?v=61" alt="FloatCalc+ Captures d'écran 6" loading="lazy" data-idx="5" />
+        </div>
     </div>
   </section>
+
   <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Aperçu</h2>
+      <div class="detail-long">
+          <p>FloatCalc+ est une calculatrice flottante qui reste au-dessus de toutes les applis : plus besoin de quitter votre boutique en ligne, votre banque ou votre navigateur pour faire un calcul.</p>
+          <p>La calculatrice, le convertisseur d'unités et le convertisseur de devises partagent une même fenêtre déplaçable : tapez l'opération sur le pavé numérique intégré, obtenez le résultat aussitôt et copiez-le dans le presse-papiers. Repliez le clavier quand une seule ligne suffit, ou réduisez tout le panneau en une icône flottante qui s'accroche au bord de l'écran.</p>
+          <p>Les taux viennent de la BCE, sont actualisés chaque jour et mis en cache, donc tout continue de fonctionner hors ligne. La calculatrice flottante est gratuite 60 minutes par jour — le temps restant s'affiche dans la barre de titre — et une courte publicité vous donne un pass de 24 h si vous en voulez plus.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">FAQ</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Dois-je fermer mon appli à chaque fois que je veux calculer ?</p><p class="faq-a">Non. FloatCalc+ est une fenêtre flottante qui reste au-dessus des autres applis : vous calculez une remise ou convertissez un prix sans quitter votre écran de shopping, de banque ou votre navigateur. Déplacez la fenêtre où vous voulez, obtenez votre résultat et reprenez exactement où vous étiez.</p></div>
-        <div class="faq-item"><p class="faq-q">D'où viennent les taux de change ?</p><p class="faq-a">De la Banque centrale européenne, actualisés une fois par jour. Réglages › Général affiche la date des taux et leur source, et permet de les rafraîchir à tout moment. USD, EUR, JPY, GBP, KRW, CNY et plus de 30 devises se convertissent directement dans la fenêtre flottante, et le cache quotidien fait que tout marche hors ligne.</p></div>
-        <div class="faq-item"><p class="faq-q">Jusqu'où puis-je aller gratuitement ?</p><p class="faq-a">La calculatrice flottante est gratuite 60 minutes par jour, et la barre de titre du panneau indique le temps restant. S'il vous en faut plus, une courte publicité vous donne un pass de 24 heures. Pro supprime la limite de temps quotidienne et les publicités, et ajoute toutes les catégories d'unités et plus de 30 devises, 7 thèmes premium et la personnalisation complète du panneau (opacité, taille, largeur), en mensuel, annuel ou en achat unique à vie.</p></div>
-      </div>
+          <div class="faq-item"><p class="faq-q">Dois-je fermer mon appli à chaque fois que je veux calculer ?</p><p class="faq-a">Non. FloatCalc+ est une fenêtre flottante qui reste au-dessus des autres applis : vous calculez une remise ou convertissez un prix sans quitter votre écran de shopping, de banque ou votre navigateur. Déplacez la fenêtre où vous voulez, obtenez votre résultat et reprenez exactement où vous étiez.</p></div>
+          <div class="faq-item"><p class="faq-q">D'où viennent les taux de change ?</p><p class="faq-a">De la Banque centrale européenne, actualisés une fois par jour. Réglages › Général affiche la date des taux et leur source, et permet de les rafraîchir à tout moment. USD, EUR, JPY, GBP, KRW, CNY et plus de 30 devises se convertissent directement dans la fenêtre flottante, et le cache quotidien fait que tout marche hors ligne.</p></div>
+          <div class="faq-item"><p class="faq-q">Jusqu'où puis-je aller gratuitement ?</p><p class="faq-a">La calculatrice flottante est gratuite 60 minutes par jour, et la barre de titre du panneau indique le temps restant. S'il vous en faut plus, une courte publicité vous donne un pass de 24 heures. Pro supprime la limite de temps quotidienne et les publicités, et ajoute toutes les catégories d'unités et plus de 30 devises, 7 thèmes premium et la personnalisation complète du panneau (opacité, taille, largeur), en mensuel, annuel ou en achat unique à vie.</p></div>
+        </div>
     </div>
   </section>
 
-
-  <div class="detail-cta">
-    <a href="/fr/#apps" class="btn btn-primary">Découvrir d'autres applis</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Découvrir d'autres applis</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/fr/apps/floatcrypto.html">
+            <img class="app-icon" src="/images/icons/floatcrypto.png?v=61" alt="FloatCrypto+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCrypto+</bdi></span><span class="rc-desc">Un bandeau de cours crypto flottant, avec alertes et graphiques.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/fr/apps/floattimer.html">
+            <img class="app-icon" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+</bdi></span><span class="rc-desc">Un minuteur, compteur et chronomètre flottant par-dessus toute application.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/fr/apps/volumebooster.html">
+            <img class="app-icon" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>VolumeBooster+</bdi></span><span class="rc-desc">Booster de volume, égaliseur et basses : montez n’importe quel son jusqu’à +15 dB.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/fr/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">Masquez les informations personnelles dans vos photos et PDF, entièrement sur l'appareil.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -291,6 +334,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floatcalc.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatCalc+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dfr" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -298,6 +347,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"fr","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floatcalc.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floatcalc.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floatcalc.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floatcalc.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floatcalc.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floatcalc.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floatcalc.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floatcalc.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floatcalc.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floatcalc.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floatcalc.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floatcalc.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floatcalc.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floatcalc.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floatcalc.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floatcalc.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floatcalc.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floatcalc.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floatcalc.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floatcalc.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floatcalc.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Windows 10+",
   "screenshot": [
     "https://codedac.com/images/shots/floattimerwin-1.jpg",
     "https://codedac.com/images/shots/floattimerwin-2.jpg",
@@ -150,7 +151,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/fil/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -197,28 +198,40 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/fil/">Home</a>
-      <span class="sep">/</span>
-      <a href="/fil/#apps">Mga App</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatTimer+ for Windows</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floattimerwin.png?v=60" alt="FloatTimer+ for Windows icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span>
-        <h1><bdi>FloatTimer+ for Windows</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Mga timer, counter at stopwatch na lumulutang sa ibabaw ng kung ano man ang ginagawa mo: maliliit na pastel card na maikakaladkad mo kahit saan, at hindi kailanman inaagaw ang focus ng app sa ilalim.</h2>
-        <div class="app-hero-actions">
-          <a href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-detail-hero-fil" class="btn btn-primary" target="_blank" rel="noopener">Tingnan sa Microsoft Store →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Makipag-ugnayan</a>
+  <section class="app-hero-d app-hero-windows">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/fil/">Home</a>
+        <span class="sep">/</span>
+        <a href="/fil/#apps">Mga App</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatTimer+ for Windows</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floattimerwin.png?v=61" alt="FloatTimer+ for Windows icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span>
+              <h1><bdi>FloatTimer+ for Windows</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Mga timer, counter at stopwatch na lumulutang sa ibabaw ng kung ano man ang ginagawa mo: maliliit na pastel card na maikakaladkad mo kahit saan, at hindi kailanman inaagaw ang focus ng app sa ilalim.</h2>
+          <ul class="app-facts">
+            <li class="fact-windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span dir="ltr">Windows · Microsoft Store</span></li>
+            <li><span dir="ltr">Windows 10+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-detail-hero-fil" class="btn btn-primary" target="_blank" rel="noopener">Tingnan sa Microsoft Store →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatTimer%2B%20for%20Windows%5D%20Suporta%20at%20bug%20report&amp;body=1.%20Ano%20ang%20nangyari%3F%20(Isulat%20ang%20mga%20hakbang%20para%20maulit%20ito%20kung%20maaari)%0A-%20%0A%0A2.%20Device%20at%20bersyon%20ng%20OS%0A-%20%0A%0A3.%20Bersyon%20ng%20app%0A-%20%0A" class="btn btn-glass">Suporta at bug report</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-windows">
+          <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=61" alt="FloatTimer+ for Windows Mga Screenshot 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=61" alt="FloatTimer+ for Windows Mga Screenshot 2" data-idx="1" />
         </div>
       </div>
     </div>
@@ -226,8 +239,50 @@
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">Mga Pangunahing Feature</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Lumulutang ang mga timer, counter at stopwatch sa ibabaw ng lahat ng window bilang maliliit na pastel card — ikaladkad kahit saan, baguhin ang laki, o itiklop bilang bubble na may icon ng app</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Hindi umaagaw ng focus — i-click o ikaladkad ang card at mananatili ang cursor mo sa dokumentong pinag-i-type mo</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Simulan, i-pause at i-reset mula mismo sa card nang hindi binubuksan ang app; nagdaragdag at nagbabawas ang counter sa pag-click sa bawat kalahati</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Siyam na pastel na kulay, naa-adjust na laki at transparency ng card, at mga window ng app na sumusunod sa light o dark theme mo</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Pareho ang format ng backup file sa Android app: mag-export sa isang panig at i-restore sa kabila</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Global hotkeys, system tray, tumatakbo sa logon, 21 wika. Walang account, walang network, walang ads — at isang beses lang bayaran ang Pro</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Mga Screenshot</h2>
+      <p class="detail-lead">I-tap ang isang screenshot para tingnan ito nang mas malaki.</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=61" alt="FloatTimer+ for Windows Mga Screenshot 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=61" alt="FloatTimer+ for Windows Mga Screenshot 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floattimerwin-3.jpg?v=61" alt="FloatTimer+ for Windows Mga Screenshot 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floattimerwin-4.jpg?v=61" alt="FloatTimer+ for Windows Mga Screenshot 4" loading="lazy" data-idx="3" />
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
       <h2 class="detail-title">Pangkalahatang-tanaw</h2>
-      <p class="detail-long">Ang FloatTimer+ for Windows ay ang desktop na bersyon ng Android app na FloatTimer+. Sa halip na window na kailangan mong lipatan, ang bawat timer ay nagiging maliit na pastel card na lumulutang sa ibabaw ng trabaho mo — sa ibabaw ng editor, ng browser, ng video call — at nagbibilang pababa sa mismong harap mo. I-click ang card para simulan o i-pause, ikaladkad ito kung saan mo gusto, o itiklop bilang bubble na bahagya lang mas malaki sa isang button at may tatak na icon ng app kapag kailangan mo ang screen: i-click ang kahit saang bahagi para buksang muli ang card, paliitin hanggang icon na lang, o itulak sa gilid ng screen para magtago nang kalahati. Hindi kailanman kinukuha ng card ang focus mula sa app sa likod nito, kaya nananatili ang cursor mo mismo sa pinag-i-type mo. Ang mga counter ay nagbabawas at nagdaragdag sa pag-click sa kaliwa o kanang kalahati ng card, ang mga stopwatch ay bumibilang pataas, at siyam na pastel na kulay ang nagpapadali para makilala mo agad ang bawat isa. Nakatira ito sa system tray, walang kailangang account, at hindi gumagamit ng network — nananatili ang mga timer mo sa isang file sa sarili mong PC.</p>
+      <div class="detail-long">
+          <p>Ang FloatTimer+ for Windows ay ang desktop na bersyon ng Android app na FloatTimer+. Sa halip na window na kailangan mong lipatan, ang bawat timer ay nagiging maliit na pastel card na lumulutang sa ibabaw ng trabaho mo — sa ibabaw ng editor, ng browser, ng video call — at nagbibilang pababa sa mismong harap mo.</p>
+          <p>I-click ang card para simulan o i-pause, ikaladkad ito kung saan mo gusto, o itiklop bilang bubble na bahagya lang mas malaki sa isang button at may tatak na icon ng app kapag kailangan mo ang screen: i-click ang kahit saang bahagi para buksang muli ang card, paliitin hanggang icon na lang, o itulak sa gilid ng screen para magtago nang kalahati. Hindi kailanman kinukuha ng card ang focus mula sa app sa likod nito, kaya nananatili ang cursor mo mismo sa pinag-i-type mo.</p>
+          <p>Ang mga counter ay nagbabawas at nagdaragdag sa pag-click sa kaliwa o kanang kalahati ng card, ang mga stopwatch ay bumibilang pataas, at siyam na pastel na kulay ang nagpapadali para makilala mo agad ang bawat isa. Nakatira ito sa system tray, walang kailangang account, at hindi gumagamit ng network — nananatili ang mga timer mo sa isang file sa sarili mong PC.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">FAQ</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Pareho ba ito sa FloatTimer+ sa Android?</p><p class="faq-a">Iisa lang ang app, ginawa para sa Windows, at pareho rin ang lumulutang na mga card. Hiwalay ang binibili sa bawat store. Hindi sila awtomatikong nagsi-sync, pero pareho ang backup file na binabasa at sinusulatan nila, kaya mailalipat mo ang listahan mo sa pag-export sa isang panig at pag-restore sa kabila.</p></div>
+          <div class="faq-item"><p class="faq-q">Nakakasagabal ba ito sa app sa ilalim?</p><p class="faq-a">Hindi. Ang card ay lumulutang na window na hindi kailanman kumukuha ng focus, kaya kahit i-click o ikaladkad mo, nananatili ang cursor mo mismo sa pinag-i-type mo. Kapag kailangan mo ang screen, itiklop ang card bilang bubble na bahagya lang mas malaki sa isang button, itulak ito sa gilid ng screen para magtago nang kalahati, o itago lahat ng card nang sabay sa isang hotkey.</p></div>
+          <div class="faq-item"><p class="faq-q">Libre ba itong gamitin?</p><p class="faq-a">Oo. Makakagawa ka ng kahit ilang timer, counter at stopwatch — walang limitasyon ang listahan — at walang ads ang bersyong Windows. Isang card lang ang pinalulutang ng libreng bersyon sa screen nang sabay. Ang Pro ay isahang bayad, hindi subscription, at nagdaragdag ng walang limitasyong lumulutang na card, umuulit na timer, kahit anong kulay, at sarili mong alert sound o full-screen alert.</p></div>
+        </div>
     </div>
   </section>
 
@@ -235,7 +290,7 @@
     <div class="container">
       <h2 class="detail-title">Available din sa Android</h2>
       <a class="counterpart" href="/fil/apps/floattimer.html">
-        <img class="app-icon" src="/images/icons/floattimer.png?v=60" alt="FloatTimer+ icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>FloatTimer+</bdi></span>
           <span class="cp-desc">Floating timer, counter, at stopwatch sa ibabaw ng kahit anong app.</span>
@@ -244,47 +299,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
+
+  <section class="detail-section is-alt">
     <div class="container">
-      <h2 class="detail-title">Mga Pangunahing Feature</h2>
-      <ul class="feature-list">
-        <li>Lumulutang ang mga timer, counter at stopwatch sa ibabaw ng lahat ng window bilang maliliit na pastel card — ikaladkad kahit saan, baguhin ang laki, o itiklop bilang bubble na may icon ng app</li>
-        <li>Hindi umaagaw ng focus — i-click o ikaladkad ang card at mananatili ang cursor mo sa dokumentong pinag-i-type mo</li>
-        <li>Simulan, i-pause at i-reset mula mismo sa card nang hindi binubuksan ang app; nagdaragdag at nagbabawas ang counter sa pag-click sa bawat kalahati</li>
-        <li>Siyam na pastel na kulay, naa-adjust na laki at transparency ng card, at mga window ng app na sumusunod sa light o dark theme mo</li>
-        <li>Pareho ang format ng backup file sa Android app: mag-export sa isang panig at i-restore sa kabila</li>
-        <li>Global hotkeys, system tray, tumatakbo sa logon, 21 wika. Walang account, walang network, walang ads — at isang beses lang bayaran ang Pro</li>
-      </ul>
+      <h2 class="detail-title">Tuklasin pa ang mga app</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/fil/apps/clipboardwin.html">
+            <img class="app-icon" src="/images/icons/clipboardwin.png?v=61" alt="Clipboard+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+ for Windows</bdi></span><span class="rc-desc">Isang Windows tray clipboard manager na naka-sync sa Clipboard+ Android app.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/fil/apps/readfocuswin.html">
+            <img class="app-icon" src="/images/icons/readfocuswin.png?v=61" alt="ReadFocus+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+ for Windows</bdi></span><span class="rc-desc">Isang click-through na Focus Strip para sa Windows — Mask at Highlight ang nagpapanatili ng tingin mo sa linya.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/fil/apps/floatnotewin.html">
+            <img class="app-icon" src="/images/icons/floatnotewin.png?v=61" alt="FloatNote+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+ for Windows</bdi></span><span class="rc-desc">Sticky notes na lumulutang sa ibabaw ng kahit anong window sa Windows, naka-sync sa FloatNote+ Android app.</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/fil/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">I-save ang bawat kinopyang teksto at larawan. Hanapin, i-paste, i-sync sa PC.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Mga Screenshot</h2>
-      <p class="section-lead" style="margin-bottom:22px">I-tap ang isang screenshot para tingnan ito nang mas malaki.</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=60" alt="FloatTimer+ for Windows Mga Screenshot 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=60" alt="FloatTimer+ for Windows Mga Screenshot 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floattimerwin-3.jpg?v=60" alt="FloatTimer+ for Windows Mga Screenshot 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floattimerwin-4.jpg?v=60" alt="FloatTimer+ for Windows Mga Screenshot 4" loading="lazy" data-idx="3" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">FAQ</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Pareho ba ito sa FloatTimer+ sa Android?</p><p class="faq-a">Iisa lang ang app, ginawa para sa Windows, at pareho rin ang lumulutang na mga card. Hiwalay ang binibili sa bawat store. Hindi sila awtomatikong nagsi-sync, pero pareho ang backup file na binabasa at sinusulatan nila, kaya mailalipat mo ang listahan mo sa pag-export sa isang panig at pag-restore sa kabila.</p></div>
-        <div class="faq-item"><p class="faq-q">Nakakasagabal ba ito sa app sa ilalim?</p><p class="faq-a">Hindi. Ang card ay lumulutang na window na hindi kailanman kumukuha ng focus, kaya kahit i-click o ikaladkad mo, nananatili ang cursor mo mismo sa pinag-i-type mo. Kapag kailangan mo ang screen, itiklop ang card bilang bubble na bahagya lang mas malaki sa isang button, itulak ito sa gilid ng screen para magtago nang kalahati, o itago lahat ng card nang sabay sa isang hotkey.</p></div>
-        <div class="faq-item"><p class="faq-q">Libre ba itong gamitin?</p><p class="faq-a">Oo. Makakagawa ka ng kahit ilang timer, counter at stopwatch — walang limitasyon ang listahan — at walang ads ang bersyong Windows. Isang card lang ang pinalulutang ng libreng bersyon sa screen nang sabay. Ang Pro ay isahang bayad, hindi subscription, at nagdaragdag ng walang limitasyong lumulutang na card, umuulit na timer, kahit anong kulay, at sarili mong alert sound o full-screen alert.</p></div>
-      </div>
-    </div>
-  </section>
-
-
-  <div class="detail-cta">
-    <a href="/fil/#apps" class="btn btn-primary">Tuklasin pa ang mga app</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -300,6 +342,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floattimerwin.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatTimer+ for Windows</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-detail-sticky-fil" target="_blank" rel="noopener">Microsoft Store</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -307,6 +355,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"fil","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floattimerwin.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floattimerwin.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floattimerwin.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floattimerwin.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floattimerwin.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floattimerwin.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floattimerwin.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floattimerwin.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floattimerwin.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floattimerwin.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floattimerwin.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floattimerwin.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floattimerwin.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floattimerwin.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floattimerwin.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floattimerwin.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floattimerwin.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floattimerwin.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floattimerwin.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floattimerwin.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floattimerwin.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

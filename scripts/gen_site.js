@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '60'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '61'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -138,6 +138,14 @@ try {
   console.warn('(경고) scripts/app_langs.json 없음 — 앱 언어 배지 생략. `node scripts/scan_app_langs.js` 로 생성하세요.');
 }
 const langCountOf = (slug) => (APP_LANGS[slug] && APP_LANGS[slug].count) || 0;
+
+// 앱별 최소 OS 버전 (scan_app_reqs.js 산출물). 없으면 상세 페이지의 요구 사항 칩을 생략한다.
+let APP_REQS = {};
+try {
+  APP_REQS = require('./app_reqs.json');
+} catch {
+  console.warn('(경고) scripts/app_reqs.json 없음 — 최소 OS 칩 생략. `node scripts/scan_app_reqs.js` 로 생성하세요.');
+}
 
 // 사용자 후기 (reviews.json — 손수 큐레이션한 5★ Google Play 리뷰). 없으면 섹션 생략.
 let REVIEWS_BY_APP = {};
@@ -498,23 +506,6 @@ const storeUrl = (app, code, placement) => {
   return `${app.store}${sep}referrer=${encodeURIComponent(ref)}`;
 };
 
-// 구조화 데이터의 별점. 검색 결과에 ★를 띄우려면 aggregateRating 이 필요하지만,
-// 표본이 적은 평점을 박으면 CTR 이 오히려 떨어진다 — 리뷰 몇 개짜리 앱의 낮은 점수가
-// 그대로 노출된다. 그래서 평점수와 점수의 하한을 둘 다 넘긴 앱에만 넣고,
-// 리뷰가 쌓이면 다음 빌드에서 자동으로 켜지게 둔다.
-const SCHEMA_RATING_MIN_COUNT = 30;
-const SCHEMA_RATING_MIN_SCORE = 3.5;
-const ratingFor = (slug) => {
-  const s = (STATS.apps || {})[slug];
-  if (!s || !s.score || !s.ratings) return null;
-  if (s.ratings < SCHEMA_RATING_MIN_COUNT || s.score < SCHEMA_RATING_MIN_SCORE) return null;
-  return {
-    '@type': 'AggregateRating',
-    ratingValue: String(s.score), ratingCount: String(s.ratings),
-    bestRating: '5', worstRating: '1',
-  };
-};
-
 // 플랫폼 이름. 고유명사라 번역하지 않고 모든 언어에서 그대로 쓴다(홈의 앱 그룹 제목과 같은 규칙).
 const platformOf = (app) => (app.platform === 'windows' ? 'Windows' : 'Android');
 
@@ -525,24 +516,20 @@ const platformOf = (app) => (app.platform === 'windows' ? 'Windows' : 'Android')
 // 앵커 텍스트에 상대 페이지의 실제 제목이 들어가 검색엔진에도 두 페이지의 관계가 드러난다.
 function counterpartSection(code, app, ui) {
   const other = APPS.find((x) => x.slug === app.counterpart);
-  if (!other) return '';
+  if (!other) return null;
   const o = L[code].apps[other.slug];
-  if (!o) return '';
-  const title = String(ui['counterpart.title']).replace('{platform}', platformOf(other));
-  return `
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">${escText(title)}</h2>
-      <a class="counterpart" href="${pathFor(code, 'detail', other.slug)}">
+  if (!o) return null;
+  return {
+    title: String(ui['counterpart.title']).replace('{platform}', platformOf(other)),
+    body: `<a class="counterpart" href="${pathFor(code, 'detail', other.slug)}">
         <img class="app-icon" src="/images/icons/${other.slug}.png?v=${V}" alt="${escAttr(o.name)} icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name">${bdiName(o.name)}</span>
           <span class="cp-desc">${escText(o.desc)}</span>
         </span>
         <span class="cp-go" aria-hidden="true">&#8250;</span>
-      </a>
-    </div>
-  </section>`;
+      </a>`,
+  };
 }
 
 // ---------- 홈 섹션 조각 ----------
@@ -563,6 +550,7 @@ const ICON_PATHS = {
   briefcase: '<rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8.5 7V5.5a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2V7M3 12.5h18"/>',
   spark: '<path d="M12 3.5c.6 4.2 2.3 5.9 6.5 6.5-4.2.6-5.9 2.3-6.5 6.5-.6-4.2-2.3-5.9-6.5-6.5 4.2-.6 5.9-2.3 6.5-6.5z"/><path d="M18.5 16v4M16.5 18h4"/>',
   arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+  check: '<path d="m5 12.5 4.5 4.5L19 7.5"/>',
 };
 const icon = (name, cls = 'ic') => `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON_PATHS[name]}</svg>`;
 
@@ -846,6 +834,62 @@ const detailOgImage = (app, fallback) =>
   (fs.existsSync(path.join(ROOT, 'images', 'og', `${app.slug}.png`)) ? `${BASE}/images/og/${app.slug}.png` : fallback);
 
 // ---------- 앱 상세 페이지 ----------
+
+// 스토어 이름. 고유명사라 번역하지 않는다(모바일 하단 설치 막대의 버튼 글자로도 쓴다).
+const STORE_NAME = { android: 'Google Play', windows: 'Microsoft Store' };
+
+// 최소 OS (scan_app_reqs.js 산출물). 'Android 12+' 처럼 고유명사와 숫자뿐이라 모든 언어에서 그대로 쓴다.
+const reqLabel = (slug) => (APP_REQS[slug] && APP_REQS[slug].label) || '';
+
+// 다운로드 칩. 1,000 미만(10+ · 100+ · 500+)은 오히려 작아 보여 신뢰를 깎으므로 띄우지 않는다.
+const DETAIL_DL_MIN = 1000;
+const downloadsOf = (slug) => {
+  const s = (STATS.apps || {})[slug];
+  return s && s.minInstalls >= DETAIL_DL_MIN && s.installs ? s.installs : '';
+};
+
+// 개요(long)를 2~3 문단으로 나눈다. 원문은 문단 구분 없이 한 문자열이라 580자가 한 덩어리로 보였다.
+// 끊는 자리는 문장 끝(. ! ? । 다음 공백, 또는 。！？)이고, 전체를 고르게 나누는 위치에 가장 가까운 곳을 고른다.
+// 문장 부호로 끝을 표시하지 않는 태국어처럼 끊을 자리가 부족하면 나누지 않고 그대로 둔다.
+function paragraphsOf(text) {
+  const s = String(text);
+  const cuts = [];
+  for (let i = 0; i < s.length - 1; i++) {
+    const ch = s[i];
+    if ('。！？'.includes(ch)) cuts.push(i + 1);
+    else if ('.!?।'.includes(ch) && /\s/.test(s[i + 1])) cuts.push(i + 1);
+  }
+  if (cuts.length < 3) return [s];
+  const parts = Math.min(3, Math.max(2, Math.round(s.length / 280)));
+  const out = [];
+  let start = 0;
+  for (let p = 1; p < parts; p++) {
+    const target = (s.length * p) / parts;
+    const cut = cuts.filter((c) => c > start + 40 && c < s.length - 40)
+      .reduce((best, c) => (Math.abs(c - target) < Math.abs(best - target) ? c : best), Infinity);
+    if (!Number.isFinite(cut)) break;
+    out.push(s.slice(start, cut).trim());
+    start = cut;
+  }
+  out.push(s.slice(start).trim());
+  return out.filter(Boolean);
+}
+
+// 페이지 끝의 '다른 앱' 카드. 같은 플랫폼 앱을 먼저, 이 앱의 다음 순서부터 돌려 가며 고른다 —
+// 늘 목록 맨 앞의 앱만 뽑으면 13개 페이지가 같은 네 앱으로만 링크를 몰아준다.
+// 상대 플랫폼 버전은 바로 위 상호 링크 카드에 이미 있으므로 뺀다.
+function relatedApps(app, n = 4) {
+  const pool = APPS.filter((x) => x.store && x.slug !== app.slug && x.slug !== app.counterpart);
+  const at = APPS.indexOf(app);
+  const rotate = (list) => {
+    const i = list.findIndex((x) => APPS.indexOf(x) > at);
+    return i <= 0 ? list : [...list.slice(i), ...list.slice(0, i)];
+  };
+  const same = rotate(pool.filter((x) => platformKey(x) === platformKey(app)));
+  const other = pool.filter((x) => platformKey(x) !== platformKey(app));
+  return [...same, ...other].slice(0, n);
+}
+
 function buildDetail(lang, app) {
   const code = lang.code;
   const d = L[code];
@@ -854,10 +898,13 @@ function buildDetail(lang, app) {
   const canonical = urlFor(code, 'detail', app.slug);
   const iconAbs = `${BASE}/images/icons/${app.slug}.png`;
   const os = platformOf(app);
+  const plat = platformKey(app);
 
   const shotAbs = [];
   for (let i = 1; i <= app.shots; i++) shotAbs.push(`${BASE}/images/shots/${app.slug}-${i}.jpg`);
 
+  // 별점(aggregateRating)은 넣지 않는다. 구글은 페이지에 보이지 않는 평점 마크업을 금지하는데,
+  // 이 페이지는 스토어 평점을 화면에 띄우지 않는다(표본이 적은 3점대 평점은 설치를 망설이게 한다).
   const ldApp = {
     '@context': 'https://schema.org', '@type': 'SoftwareApplication',
     name: a.name, operatingSystem: os, applicationCategory: schemaCat(app.slug),
@@ -867,10 +914,9 @@ function buildDetail(lang, app) {
     publisher: { '@type': 'Organization', name: 'CodeDAC', url: `${BASE}/` },
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
   };
+  if (reqLabel(app.slug)) ldApp.softwareRequirements = reqLabel(app.slug);
   if (shotAbs.length) ldApp.screenshot = shotAbs;
   if (app.store) ldApp.installUrl = app.store;
-  const ldRating = ratingFor(app.slug);
-  if (ldRating) ldApp.aggregateRating = ldRating;
 
   const ldBreadcrumb = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList',
@@ -885,33 +931,111 @@ function buildDetail(lang, app) {
     mainEntity: a.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
   };
 
-  const featuresHtml = a.features.map((f) => `        <li>${escText(f)}</li>`).join('\n');
-  const faqHtml = a.faq.map((f) =>
-    `        <div class="faq-item"><p class="faq-q">${escText(f.q)}</p><p class="faq-a">${escText(f.a)}</p></div>`).join('\n');
+  const shotImg = (i, lazy) => `<img class="shot" src="/images/shots/${app.slug}-${i + 1}.jpg?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}"${lazy ? ' loading="lazy"' : ''} data-idx="${i}" />`;
 
-  const shotsSection = app.shots ? `
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">${escText(ui['screenshots'])}</h2>
-      <p class="section-lead" style="margin-bottom:22px">${escText(ui['shotsHint'])}</p>
-      <div class="detail-shots" id="d-shots">
-${Array.from({ length: app.shots }, (_, i) =>
-    `        <img class="shot" src="/images/shots/${app.slug}-${i + 1}.jpg?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}" loading="lazy" data-idx="${i}" />`).join('\n')}
-      </div>
-    </div>
-  </section>` : '';
+  // --- 상단: 브랜드 그라디언트 위에 앱 정보(왼쪽)와 대표 스크린샷(오른쪽) ---
+  // 예전엔 흰 바탕에 아이콘·이름·버튼뿐이라, 스크린샷이 1,300px 아래에서야 나왔다.
+  // 폰 앱은 세로 스크린샷 세 장을 부채꼴로, Windows 앱은 가로 스크린샷 두 장을 겹쳐 둔다.
+  const heroShotCount = Math.min(app.shots, plat === 'windows' ? 2 : 3);
+  const heroShots = heroShotCount ? `
+        <div class="app-hero-shots app-hero-shots-${plat}">
+${Array.from({ length: heroShotCount }, (_, i) => `          ${shotImg(i, false)}`).join('\n')}
+        </div>` : '';
 
-  // 미출시 앱에만 '출시 준비 중'을 붙인다. 플랫폼은 앱 이름·아이콘과 스토어
-  // 버튼 문구(Microsoft Store / Google Play)에서 이미 드러나므로 따로 적지 않는다.
+  const req = reqLabel(app.slug);
+  const dl = downloadsOf(app.slug);
+  const facts = [
+    `<li class="fact-${plat}">${PLATFORM_LOGO[plat]}<span dir="ltr">${os} · ${STORE_NAME[plat]}</span></li>`,
+    req ? `<li><span dir="ltr">${escText(req)}</span></li>` : '',
+    dl ? `<li><span dir="ltr">${escText(dl)}</span><span>${escText(ui['stats.downloads'])}</span></li>` : '',
+  ].filter(Boolean).map((x) => `            ${x}`).join('\n');
+
+  // 미출시 앱에만 '출시 준비 중'을 붙인다.
   const noteHtml = !app.store
     ? `<span class="app-platform-note">${escText(ui['platform.soon'])}</span>`
     : '';
   const storeBtn = app.store
     ? `<a href="${escAttr(storeUrl(app, code, 'detail-hero'))}" class="btn btn-primary" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
     : '';
-  // 플랫폼 표기는 버튼들 뒤에 둔다 — 스토어·문의 버튼 사이에 끼면 두 버튼이 갈라져 보인다.
-  const contactBtn = `<a href="mailto:${EMAIL}" class="btn btn-ghost">${escText(ui['contact'])}</a>`;
-  const heroAction = [storeBtn, contactBtn, noteHtml].filter(Boolean).join('\n          ');
+  // 앱 상세의 문의는 그 앱에 대한 질문·버그 신고다. 빈 메일창 대신 제목에 앱 이름을 넣고,
+  // 답하는 데 필요한 것(증상·기기/OS·앱 버전)을 방문자 언어로 채워 둔다.
+  const supportMail = `mailto:${EMAIL}`
+    + '?subject=' + encodeURIComponent(`[${a.name}] ${ui['support.cta']}`)
+    + '&body=' + encodeURIComponent(ui['support.mail.body']);
+  const supportBtn = `<a href="${escAttr(supportMail)}" class="btn btn-glass">${escText(ui['support.cta'])}</a>`;
+  const heroAction = [storeBtn, supportBtn, noteHtml].filter(Boolean).join('\n            ');
+
+  // --- 본문 섹션: 훑어보기(기능·스크린샷) → 자세히(개요) → 믿음(후기) → 궁금증(FAQ) → 다음 행선지 ---
+  // 바탕은 흰색·옅은 회색을 번갈아 둔다. 빠지는 섹션(스크린샷·후기 없음 등)이 있어도 줄무늬가 어긋나지 않게
+  // 목록을 먼저 만들고 순번으로 칠한다.
+  const reviews = reviewsFor(app.slug);
+  const cp = counterpartSection(code, app, ui);
+  const related = relatedApps(app);
+  const sections = [
+    {
+      title: ui['features'],
+      body: `<ul class="feature-grid">
+${a.features.map((f) => `          <li><span class="fg-icon">${icon('check')}</span><span>${escText(f)}</span></li>`).join('\n')}
+        </ul>`,
+    },
+    app.shots ? {
+      title: ui['screenshots'], lead: ui['shotsHint'],
+      body: `<div class="detail-shots" id="d-shots">
+${Array.from({ length: app.shots }, (_, i) => `          ${shotImg(i, true)}`).join('\n')}
+        </div>`,
+    } : null,
+    {
+      title: ui['overview'],
+      body: `<div class="detail-long">
+${paragraphsOf(a.long).map((p) => `          <p>${escText(p)}</p>`).join('\n')}
+        </div>`,
+    },
+    reviews.length ? {
+      id: 'reviews', title: ui['reviews.title'], lead: ui['reviews.lead'],
+      body: `<div class="reviews-grid">
+${reviews.map((r) => reviewCard(r, code, false)).join('\n')}
+        </div>`,
+    } : null,
+    {
+      title: ui['faq'],
+      body: `<div class="faq-list">
+${a.faq.map((f) => `          <div class="faq-item"><p class="faq-q">${escText(f.q)}</p><p class="faq-a">${escText(f.a)}</p></div>`).join('\n')}
+        </div>`,
+    },
+    cp,
+    related.length ? {
+      title: ui['otherApps'],
+      body: `<div class="related-grid">
+${related.map((x) => {
+        const o = d.apps[x.slug];
+        const k = platformKey(x);
+        return `          <a class="related-card" href="${pathFor(code, 'detail', x.slug)}">
+            <img class="app-icon" src="/images/icons/${x.slug}.png?v=${V}" alt="${escAttr(o.name)} icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name">${bdiName(o.name)}</span><span class="rc-desc">${escText(o.desc)}</span></span>
+            <span class="rc-plat rc-plat-${k}" title="${platformOf(x)}">${PLATFORM_LOGO[k]}</span>
+          </a>`;
+      }).join('\n')}
+        </div>`,
+    } : null,
+  ].filter(Boolean);
+
+  const sectionsHtml = sections.map((s, i) => `
+  <section class="detail-section${i % 2 ? ' is-alt' : ''}"${s.id ? ` id="${s.id}"` : ''}>
+    <div class="container">
+      <h2 class="detail-title">${escText(s.title)}</h2>${s.lead ? `
+      <p class="detail-lead">${escText(s.lead)}</p>` : ''}
+      ${s.body}
+    </div>
+  </section>`).join('\n');
+
+  // 모바일 하단 설치 막대. 상단 버튼이 화면 밖으로 나가면 js/site.js 가 올려 보인다.
+  // 숨어 있는 동안 링크에 초점이 가지 않도록 inert 로 시작한다.
+  const installBar = app.store ? `
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/${app.slug}.png?v=${V}" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name">${bdiName(a.name)}</span>
+    <a class="btn btn-primary ib-btn" href="${escAttr(storeUrl(app, code, 'detail-sticky'))}" target="_blank" rel="noopener">${STORE_NAME[plat]}</a>
+  </div>` : '';
 
   const lightbox = app.shots ? `
   <div class="lightbox" id="lightbox" aria-hidden="true">
@@ -940,75 +1064,45 @@ ${JSON.stringify(ldBreadcrumb, null, 2)}
 ${JSON.stringify(ldFaq, null, 2)}
   </script>
 </head>
-<body>
+<body${app.store ? ' class="has-install-bar"' : ''}>
 ${header(code, 'detail', app.slug, ui)}
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="${pathFor(code, 'home')}">${escText(ui['bc.home'])}</a>
-      <span class="sep">/</span>
-      <a href="${pathFor(code, 'home')}#apps">${escText(ui['bc.apps'])}</a>
-      <span class="sep">/</span>
-      <span class="current">${bdiName(a.name)}</span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/${app.slug}.png?v=${V}" alt="${escAttr(a.name)} icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">${escText(a.tag)}</span>${langBadge(app.slug, ui)}</span>
-        <h1>${bdiName(a.name)}</h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">${escText(a.tagline)}</h2>
-        <div class="app-hero-actions">
-          ${heroAction}
-        </div>
+  <section class="app-hero-d app-hero-${plat}">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="${pathFor(code, 'home')}">${escText(ui['bc.home'])}</a>
+        <span class="sep">/</span>
+        <a href="${pathFor(code, 'home')}#apps">${escText(ui['bc.apps'])}</a>
+        <span class="sep">/</span>
+        <span class="current">${bdiName(a.name)}</span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/${app.slug}.png?v=${V}" alt="${escAttr(a.name)} icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">${escText(a.tag)}</span>${langBadge(app.slug, ui)}</span>
+              <h1>${bdiName(a.name)}</h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">${escText(a.tagline)}</h2>
+          <ul class="app-facts">
+${facts}
+          </ul>
+          <div class="app-hero-actions">
+            ${heroAction}
+          </div>
+        </div>${heroShots}
       </div>
     </div>
   </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">${escText(ui['overview'])}</h2>
-      <p class="detail-long">${escText(a.long)}</p>
-    </div>
-  </section>
-${counterpartSection(code, app, ui)}
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">${escText(ui['features'])}</h2>
-      <ul class="feature-list">
-${featuresHtml}
-      </ul>
-    </div>
-  </section>
-${shotsSection}
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">${escText(ui['faq'])}</h2>
-      <div class="faq-list">
-${faqHtml}
-      </div>
-    </div>
-  </section>
-${reviewsFor(app.slug).length ? `
-  <section class="detail-section" id="reviews">
-    <div class="container">
-      <h2 class="detail-title">${escText(ui['reviews.title'])}</h2>
-      <p class="section-lead" style="margin-bottom:22px">${escText(ui['reviews.lead'])}</p>
-      <div class="reviews-grid">
-${reviewsFor(app.slug).map((r) => reviewCard(r, code, false)).join('\n')}
-      </div>
-    </div>
-  </section>` : ''}
-
-  <div class="detail-cta">
-    <a href="${pathFor(code, 'home')}#apps" class="btn btn-primary">${escText(ui['otherApps'])}</a>
-  </div>
+${sectionsHtml}
 
 ${footer(code, ui)}
+${installBar}
 ${lightbox}
 ${bannerData(code, 'detail', app.slug, ACTIVE)}  <script src="/js/site.js?v=${V}"></script>
 </body>

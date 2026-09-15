@@ -38,6 +38,8 @@ CodeDAC는 **Clipboard+**, **AutoStart+** 등 스마트폰 유틸리티 앱을 �
     ├── fetch_store_stats.js  # Play Store에서 지표 수집 → store_stats.json
     ├── app_langs.json        # 앱별 지원 언어 수 캐시 — scan_app_langs.js 산출물
     ├── scan_app_langs.js     # 각 앱 프로젝트의 res/values-* 스캔 → app_langs.json
+    ├── app_reqs.json         # 앱별 최소 OS 버전 캐시 — scan_app_reqs.js 산출물
+    ├── scan_app_reqs.js      # 각 앱 프로젝트의 minSdk · SupportedOSPlatformVersion 스캔 → app_reqs.json
     ├── reviews.json          # 홈 후기 섹션에 노출할 5★ 리뷰(손수 큐레이션)
     ├── fetch_reviews.js      # Play Store 5★ 리뷰 후보 수집 → _reviews_pool.json(커밋 제외)
     ├── gen_site.js           # ★ 사이트 생성기 (315개 페이지 + 껍데기 + sitemap 전부 생성)
@@ -71,6 +73,13 @@ node scripts/gen_site.js
 
 ```bash
 node scripts/scan_app_langs.js   # 앱별 언어 수 재스캔 → scripts/app_langs.json
+node scripts/gen_site.js
+```
+
+- **앱별 최소 OS** — `scripts/app_reqs.json`: 안드로이드 앱 모듈의 `minSdk`(API 레벨 → `Android 12+`), .NET 프로젝트의 `SupportedOSPlatformVersion`(빌드 22000 이상이면 Windows 11, 아니면 `Windows 10+`)에서 도출. 앱 상세 상단의 요구 사항 칩과 구조화 데이터 `softwareRequirements` 에 쓰입니다. 앱의 minSdk 를 올리면 다시 스캔하세요.
+
+```bash
+node scripts/scan_app_reqs.js    # 앱별 최소 OS 재스캔 → scripts/app_reqs.json
 node scripts/gen_site.js
 ```
 

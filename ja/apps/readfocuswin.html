@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Windows 10+",
   "screenshot": [
     "https://codedac.com/images/shots/readfocuswin-1.jpg",
     "https://codedac.com/images/shots/readfocuswin-2.jpg",
@@ -150,7 +151,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/ja/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -197,28 +198,40 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/ja/">ホーム</a>
-      <span class="sep">/</span>
-      <a href="/ja/#apps">アプリ</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>ReadFocus+ for Windows</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/readfocuswin.png?v=60" alt="ReadFocus+ for Windows icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">アクセシビリティ</span><span class="app-langs" aria-label="21言語"><span class="globe" aria-hidden="true">🌐</span>21言語</span></span>
-        <h1><bdi>ReadFocus+ for Windows</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">トレイに常駐するWindows用フォーカスストリップ。マスクかハイライトが読んでいる行を支え、クリックは下のアプリへそのまま通り抜けます。</h2>
-        <div class="app-hero-actions">
-          <a href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-detail-hero-ja" class="btn btn-primary" target="_blank" rel="noopener">Microsoft Storeで見る →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">お問い合わせ</a>
+  <section class="app-hero-d app-hero-windows">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ja/">ホーム</a>
+        <span class="sep">/</span>
+        <a href="/ja/#apps">アプリ</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>ReadFocus+ for Windows</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/readfocuswin.png?v=61" alt="ReadFocus+ for Windows icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">アクセシビリティ</span><span class="app-langs" aria-label="21言語"><span class="globe" aria-hidden="true">🌐</span>21言語</span></span>
+              <h1><bdi>ReadFocus+ for Windows</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">トレイに常駐するWindows用フォーカスストリップ。マスクかハイライトが読んでいる行を支え、クリックは下のアプリへそのまま通り抜けます。</h2>
+          <ul class="app-facts">
+            <li class="fact-windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span dir="ltr">Windows · Microsoft Store</span></li>
+            <li><span dir="ltr">Windows 10+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-detail-hero-ja" class="btn btn-primary" target="_blank" rel="noopener">Microsoft Storeで見る →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BReadFocus%2B%20for%20Windows%5D%20%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%83%BB%E3%83%90%E3%82%B0%E5%A0%B1%E5%91%8A&amp;body=1.%20%E3%81%A9%E3%82%93%E3%81%AA%E5%95%8F%E9%A1%8C%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F%E3%81%8B%EF%BC%9F%EF%BC%88%E5%86%8D%E7%8F%BE%E6%89%8B%E9%A0%86%E3%81%8C%E3%82%8F%E3%81%8B%E3%82%8C%E3%81%B0%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%89%0A-%20%0A%0A2.%20%E7%AB%AF%E6%9C%AB%E3%81%A8OS%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%0A-%20%0A%0A3.%20%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%0A-%20%0A" class="btn btn-glass">お問い合わせ・バグ報告</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-windows">
+          <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=61" alt="ReadFocus+ for Windows スクリーンショット 1" data-idx="0" />
+          <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=61" alt="ReadFocus+ for Windows スクリーンショット 2" data-idx="1" />
         </div>
       </div>
     </div>
@@ -226,8 +239,49 @@
 
   <section class="detail-section">
     <div class="container">
+      <h2 class="detail-title">主な機能</h2>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>2つの読書モード — マスクは明るい帯以外を暗くし、ハイライトは今読んでいる行を示します</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>クリックを通過 — 下のアプリをこれまでどおりスクロール・選択・クリックでき、マウスを奪いません</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>フローティングパネルでモード切り替え、ストリップの移動・固定・非表示。不要なときは1行に折りたためます</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>開始と停止、モード切り替え、表示と非表示、固定、ストリップの上下移動にキーボードショートカット</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>マルチモニター対応 — パネルを移した画面へ帯が追従し、普段はタスクトレイに常駐します</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>広告なし。Pro は買い切り — プレミアムテーマ、フォーカスストリップ設定、画面の自動オフ防止、時間制限なし</span></li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">スクリーンショット</h2>
+      <p class="detail-lead">スクリーンショットをタップすると拡大表示できます。</p>
+      <div class="detail-shots" id="d-shots">
+          <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=61" alt="ReadFocus+ for Windows スクリーンショット 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=61" alt="ReadFocus+ for Windows スクリーンショット 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/readfocuswin-3.jpg?v=61" alt="ReadFocus+ for Windows スクリーンショット 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/readfocuswin-4.jpg?v=61" alt="ReadFocus+ for Windows スクリーンショット 4" loading="lazy" data-idx="3" />
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
       <h2 class="detail-title">概要</h2>
-      <p class="detail-long">ReadFocus+ for Windows は、Android版 ReadFocus+ のデスクトップ版です。ウェブページ・PDF・文書・コードなど、読んでいるものの上に静かなフォーカスストリップを重ね、行を見失わずに読み進められるようにします。マスクは画面の上下をやわらかく暗くして中央に明るい帯を残し、ハイライトは今読んでいる行を淡い色の帯で示します。フォーカスストリップはクリックを通すので、下のアプリはこれまでどおりスクロール・選択・クリックでき、小さなフローティングパネルからモード切り替え、帯の移動・固定・表示切り替えまで、読んでいる画面を離れずに操作できます。</p>
+      <div class="detail-long">
+          <p>ReadFocus+ for Windows は、Android版 ReadFocus+ のデスクトップ版です。ウェブページ・PDF・文書・コードなど、読んでいるものの上に静かなフォーカスストリップを重ね、行を見失わずに読み進められるようにします。</p>
+          <p>マスクは画面の上下をやわらかく暗くして中央に明るい帯を残し、ハイライトは今読んでいる行を淡い色の帯で示します。フォーカスストリップはクリックを通すので、下のアプリはこれまでどおりスクロール・選択・クリックでき、小さなフローティングパネルからモード切り替え、帯の移動・固定・表示切り替えまで、読んでいる画面を離れずに操作できます。</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">よくある質問</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Android版 ReadFocus+ と同じアプリですか？</p><p class="faq-a">同じアプリのWindows版で、2つの読書モードも同じです。購入は各ストアで別々になり、同期するデータはありません — ReadFocus+ は読んでいる内容を保存しません。</p></div>
+          <div class="faq-item"><p class="faq-q">どのアプリの上で使えますか？</p><p class="faq-a">画面に表示されているあらゆるアプリの上で使えます。ブラウザ、PDF・電子書籍リーダー、文書、コードエディター、論文、長いメールやチャット履歴まで。フォーカスストリップは画面の上に描かれるため、下のアプリ側の対応は不要です。</p></div>
+          <div class="faq-item"><p class="faq-q">無料で使えますか？</p><p class="faq-a">はい。無料版は1回につき最大60分まで読め、2つの読書モードと10種類のうち3種類のテーマが使えます。Pro はサブスクではなく買い切りで、プレミアムテーマ、フォーカスストリップ設定（高さ・不透明度）、画面の自動オフ防止が解放され、時間制限がなくなります。Windows版に広告はありません。</p></div>
+        </div>
     </div>
   </section>
 
@@ -235,7 +289,7 @@
     <div class="container">
       <h2 class="detail-title">Android版もあります</h2>
       <a class="counterpart" href="/ja/apps/readfocus.html">
-        <img class="app-icon" src="/images/icons/readfocus.png?v=60" alt="ReadFocus+ icon" loading="lazy" width="56" height="56" />
+        <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="56" height="56" />
         <span class="cp-text">
           <span class="cp-name"><bdi>ReadFocus+</bdi></span>
           <span class="cp-desc">ディスレクシア・ADHDの読書補助。行ハイライトとマスクで読む行に視線を固定。</span>
@@ -244,47 +298,34 @@
       </a>
     </div>
   </section>
-  <section class="detail-section">
+
+  <section class="detail-section is-alt">
     <div class="container">
-      <h2 class="detail-title">主な機能</h2>
-      <ul class="feature-list">
-        <li>2つの読書モード — マスクは明るい帯以外を暗くし、ハイライトは今読んでいる行を示します</li>
-        <li>クリックを通過 — 下のアプリをこれまでどおりスクロール・選択・クリックでき、マウスを奪いません</li>
-        <li>フローティングパネルでモード切り替え、ストリップの移動・固定・非表示。不要なときは1行に折りたためます</li>
-        <li>開始と停止、モード切り替え、表示と非表示、固定、ストリップの上下移動にキーボードショートカット</li>
-        <li>マルチモニター対応 — パネルを移した画面へ帯が追従し、普段はタスクトレイに常駐します</li>
-        <li>広告なし。Pro は買い切り — プレミアムテーマ、フォーカスストリップ設定、画面の自動オフ防止、時間制限なし</li>
-      </ul>
+      <h2 class="detail-title">他のアプリを見る</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/ja/apps/floatnotewin.html">
+            <img class="app-icon" src="/images/icons/floatnotewin.png?v=61" alt="FloatNote+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+ for Windows</bdi></span><span class="rc-desc">Windows のどのウィンドウの上にも浮かぶ付箋メモ。Android 版 FloatNote+ と同期します。</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ja/apps/floattimerwin.html">
+            <img class="app-icon" src="/images/icons/floattimerwin.png?v=61" alt="FloatTimer+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+ for Windows</bdi></span><span class="rc-desc">Windows のどのウィンドウの上にも小さなパステルカードとして浮かぶタイマー・カウンター・ストップウォッチ。</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ja/apps/clipboardwin.html">
+            <img class="app-icon" src="/images/icons/clipboardwin.png?v=61" alt="Clipboard+ for Windows icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+ for Windows</bdi></span><span class="rc-desc">Clipboard+ Androidアプリと同期するWindowsトレイ常駐クリップボードマネージャー。</span></span>
+            <span class="rc-plat rc-plat-windows" title="Windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          </a>
+          <a class="related-card" href="/ja/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">コピーした文字も画像も自動保存。検索できるクリップボード履歴とPC同期。</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
     </div>
   </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">スクリーンショット</h2>
-      <p class="section-lead" style="margin-bottom:22px">スクリーンショットをタップすると拡大表示できます。</p>
-      <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=60" alt="ReadFocus+ for Windows スクリーンショット 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=60" alt="ReadFocus+ for Windows スクリーンショット 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/readfocuswin-3.jpg?v=60" alt="ReadFocus+ for Windows スクリーンショット 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/readfocuswin-4.jpg?v=60" alt="ReadFocus+ for Windows スクリーンショット 4" loading="lazy" data-idx="3" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">よくある質問</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Android版 ReadFocus+ と同じアプリですか？</p><p class="faq-a">同じアプリのWindows版で、2つの読書モードも同じです。購入は各ストアで別々になり、同期するデータはありません — ReadFocus+ は読んでいる内容を保存しません。</p></div>
-        <div class="faq-item"><p class="faq-q">どのアプリの上で使えますか？</p><p class="faq-a">画面に表示されているあらゆるアプリの上で使えます。ブラウザ、PDF・電子書籍リーダー、文書、コードエディター、論文、長いメールやチャット履歴まで。フォーカスストリップは画面の上に描かれるため、下のアプリ側の対応は不要です。</p></div>
-        <div class="faq-item"><p class="faq-q">無料で使えますか？</p><p class="faq-a">はい。無料版は1回につき最大60分まで読め、2つの読書モードと10種類のうち3種類のテーマが使えます。Pro はサブスクではなく買い切りで、プレミアムテーマ、フォーカスストリップ設定（高さ・不透明度）、画面の自動オフ防止が解放され、時間制限がなくなります。Windows版に広告はありません。</p></div>
-      </div>
-    </div>
-  </section>
-
-
-  <div class="detail-cta">
-    <a href="/ja/#apps" class="btn btn-primary">他のアプリを見る</a>
-  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -300,6 +341,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/readfocuswin.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>ReadFocus+ for Windows</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-detail-sticky-ja" target="_blank" rel="noopener">Microsoft Store</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -307,6 +354,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"ja","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/readfocuswin.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/readfocuswin.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/readfocuswin.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/readfocuswin.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/readfocuswin.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/readfocuswin.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/readfocuswin.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/readfocuswin.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/readfocuswin.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/readfocuswin.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/readfocuswin.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/readfocuswin.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/readfocuswin.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/readfocuswin.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/readfocuswin.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/readfocuswin.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/readfocuswin.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/readfocuswin.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/readfocuswin.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/readfocuswin.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/readfocuswin.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

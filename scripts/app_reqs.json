@@ -1,0 +1,80 @@
+{
+  "clipboard": {
+    "os": "Android",
+    "api": 31,
+    "min": "12",
+    "label": "Android 12+"
+  },
+  "autostart": {
+    "os": "Android",
+    "api": 29,
+    "min": "10",
+    "label": "Android 10+"
+  },
+  "floatcalc": {
+    "os": "Android",
+    "api": 31,
+    "min": "12",
+    "label": "Android 12+"
+  },
+  "floatcrypto": {
+    "os": "Android",
+    "api": 26,
+    "min": "8.0",
+    "label": "Android 8.0+"
+  },
+  "floattimer": {
+    "os": "Android",
+    "api": 26,
+    "min": "8.0",
+    "label": "Android 8.0+"
+  },
+  "volumebooster": {
+    "os": "Android",
+    "api": 24,
+    "min": "7.0",
+    "label": "Android 7.0+"
+  },
+  "photocleaner": {
+    "os": "Android",
+    "api": 29,
+    "min": "10",
+    "label": "Android 10+"
+  },
+  "readfocus": {
+    "os": "Android",
+    "api": 31,
+    "min": "12",
+    "label": "Android 12+"
+  },
+  "floatnote": {
+    "os": "Android",
+    "api": 26,
+    "min": "8.0",
+    "label": "Android 8.0+"
+  },
+  "clipboardwin": {
+    "os": "Windows",
+    "build": 17763,
+    "min": "10",
+    "label": "Windows 10+"
+  },
+  "readfocuswin": {
+    "os": "Windows",
+    "build": 17763,
+    "min": "10",
+    "label": "Windows 10+"
+  },
+  "floatnotewin": {
+    "os": "Windows",
+    "build": 17763,
+    "min": "10",
+    "label": "Windows 10+"
+  },
+  "floattimerwin": {
+    "os": "Windows",
+    "build": 17763,
+    "min": "10",
+    "label": "Windows 10+"
+  }
+}

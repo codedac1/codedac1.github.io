@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 8.0+",
   "screenshot": [
     "https://codedac.com/images/shots/floatcrypto-1.jpg",
     "https://codedac.com/images/shots/floatcrypto-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/tr/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/tr/">Ana Sayfa</a>
-      <span class="sep">/</span>
-      <a href="/tr/#apps">Uygulamalar</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>FloatCrypto+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/floatcrypto.png?v=60" alt="FloatCrypto+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Kayan Pencere</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span>
-        <h1><bdi>FloatCrypto+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Bitcoin, Ethereum ve altcoin'leriniz ekranda — kullandığınız uygulamanın üzerinde.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dtr" class="btn btn-primary" target="_blank" rel="noopener">Google Play'de görüntüle →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Bize ulaşın</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/tr/">Ana Sayfa</a>
+        <span class="sep">/</span>
+        <a href="/tr/#apps">Uygulamalar</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>FloatCrypto+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/floatcrypto.png?v=61" alt="FloatCrypto+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Kayan Pencere</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span>
+              <h1><bdi>FloatCrypto+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Bitcoin, Ethereum ve altcoin'leriniz ekranda — kullandığınız uygulamanın üzerinde.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 8.0+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dtr" class="btn btn-primary" target="_blank" rel="noopener">Google Play'de görüntüle →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BFloatCrypto%2B%5D%20Destek%20ve%20hatalar&amp;body=1.%20Ne%20oldu%3F%20(Sorunu%20tekrarlama%20ad%C4%B1mlar%C4%B1n%C4%B1%20yazarsan%C4%B1z%20%C3%A7ok%20yard%C4%B1mc%C4%B1%20olur)%0A-%20%0A%0A2.%20Cihaz%20ve%20i%C5%9Fletim%20sistemi%20s%C3%BCr%C3%BCm%C3%BC%0A-%20%0A%0A3.%20Uygulama%20s%C3%BCr%C3%BCm%C3%BC%0A-%20%0A" class="btn btn-glass">Destek ve hatalar</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=61" alt="FloatCrypto+ Ekran Görüntüleri 1" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=61" alt="FloatCrypto+ Ekran Görüntüleri 2" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=61" alt="FloatCrypto+ Ekran Görüntüleri 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -227,53 +241,81 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Genel Bakış</h2>
-      <p class="detail-long">FloatCrypto+, tüm uygulamaların üzerinde canlı bir fiyat çubuğu tutar; YouTube izlerken, haber okurken ya da mesaj yanıtlarken piyasayı kontrol edersiniz — uygulama değiştirmeden, yeniden yüklemeden. İstediğiniz yere sürükleyin, boyutunu ayarlayın, saydamlığını düşürün; asla önünüze geçmez. Üst ya da alt hedef belirleyin, piyasa o seviyeyi geçtiği anda bildirim alın; gerçekten önemsediğiniz coin'lerden bir izleme listesi kurun ve 1 gün, 7 gün, 30 gün grafiklerini dönem en yüksek, en düşük, açılış ve değişim bilgisiyle açın. Fiyatlar Binance'ten gelir; bir kaynak erişilemezse otomatik olarak diğerine geçilir ve çubuk çalışmayı sürdürür. Veriler en fazla 30 saniye (Pro'da 10 saniye) gecikmelidir ve yalnızca bilgi amaçlıdır — yatırım tavsiyesi değildir.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Öne Çıkan Özellikler</h2>
-      <ul class="feature-list">
-        <li>Tüm uygulamaların üzerinde yüzen fiyat çubuğu — sürükleyin, boyutlandırın, saydamlığını düşürün</li>
-        <li>Üst ya da alt hedefe fiyat alarmı, coin kartından coin seçili olarak doğrudan eklenir</li>
-        <li>İzleme listesi: canlı fiyat, 24 saatlik değişim ve sürükleyerek sıralama</li>
-        <li>1 gün / 7 gün / 30 gün grafikleri — dönem en yüksek, en düşük, açılış ve değişim</li>
-        <li>Batı ve Doğu renkleri — yükseliş yeşil/düşüş kırmızı ya da yükseliş kırmızı/düşüş mavi</li>
-        <li>Binance fiyatları ve otomatik kaynak değişimi, en fazla 30 saniye (Pro'da 10 saniye) gecikmeli</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Tüm uygulamaların üzerinde yüzen fiyat çubuğu — sürükleyin, boyutlandırın, saydamlığını düşürün</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Üst ya da alt hedefe fiyat alarmı, coin kartından coin seçili olarak doğrudan eklenir</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>İzleme listesi: canlı fiyat, 24 saatlik değişim ve sürükleyerek sıralama</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>1 gün / 7 gün / 30 gün grafikleri — dönem en yüksek, en düşük, açılış ve değişim</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Batı ve Doğu renkleri — yükseliş yeşil/düşüş kırmızı ya da yükseliş kırmızı/düşüş mavi</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Binance fiyatları ve otomatik kaynak değişimi, en fazla 30 saniye (Pro'da 10 saniye) gecikmeli</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Ekran Görüntüleri</h2>
-      <p class="section-lead" style="margin-bottom:22px">Büyütmek için bir ekran görüntüsüne dokunun.</p>
+      <p class="detail-lead">Büyütmek için bir ekran görüntüsüne dokunun.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=60" alt="FloatCrypto+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=60" alt="FloatCrypto+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=60" alt="FloatCrypto+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/floatcrypto-4.jpg?v=60" alt="FloatCrypto+ Ekran Görüntüleri 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/floatcrypto-5.jpg?v=60" alt="FloatCrypto+ Ekran Görüntüleri 5" loading="lazy" data-idx="4" />
-      </div>
+          <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=61" alt="FloatCrypto+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=61" alt="FloatCrypto+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=61" alt="FloatCrypto+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/floatcrypto-4.jpg?v=61" alt="FloatCrypto+ Ekran Görüntüleri 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/floatcrypto-5.jpg?v=61" alt="FloatCrypto+ Ekran Görüntüleri 5" loading="lazy" data-idx="4" />
+        </div>
     </div>
   </section>
+
   <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Genel Bakış</h2>
+      <div class="detail-long">
+          <p>FloatCrypto+, tüm uygulamaların üzerinde canlı bir fiyat çubuğu tutar; YouTube izlerken, haber okurken ya da mesaj yanıtlarken piyasayı kontrol edersiniz — uygulama değiştirmeden, yeniden yüklemeden. İstediğiniz yere sürükleyin, boyutunu ayarlayın, saydamlığını düşürün; asla önünüze geçmez.</p>
+          <p>Üst ya da alt hedef belirleyin, piyasa o seviyeyi geçtiği anda bildirim alın; gerçekten önemsediğiniz coin'lerden bir izleme listesi kurun ve 1 gün, 7 gün, 30 gün grafiklerini dönem en yüksek, en düşük, açılış ve değişim bilgisiyle açın.</p>
+          <p>Fiyatlar Binance'ten gelir; bir kaynak erişilemezse otomatik olarak diğerine geçilir ve çubuk çalışmayı sürdürür. Veriler en fazla 30 saniye (Pro'da 10 saniye) gecikmelidir ve yalnızca bilgi amaçlıdır — yatırım tavsiyesi değildir.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">SSS</h2>
       <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Başka uygulamaları kullanırken fiyatları görebilir miyim?</p><p class="faq-a">Evet. Fiyat çubuğu tüm uygulamaların üzerinde durur; YouTube'dayken, oyundayken ya da sohbet ederken piyasayı izleyebilirsiniz — uygulama değiştirmeden, yeniden yüklemeden. İstediğiniz yere sürükleyin, boyutunu ayarlayın ve saydamlığını düşürün; okuduğunuz şeyin üstünü kapatmaz.</p></div>
-        <div class="faq-item"><p class="faq-q">Fiyat alarmları nasıl çalışıyor?</p><p class="faq-a">Üst ya da alt hedef belirlersiniz, FloatCrypto+ piyasa o seviyeyi geçtiği anda bildirim gönderir. Alarmı doğrudan coin kartından oluşturabilirsiniz — ⋮ simgesine dokunun, coin zaten seçili gelir — ve takip ettiğiniz her coin'de çan işareti görünür.</p></div>
-        <div class="faq-item"><p class="faq-q">Ücretsiz sürümde neler var?</p><p class="faq-a">Ücretsiz sürümde 2 coin ve 1 alarm kullanılır, çubuk 30 saniyede bir yenilenir. Free Pass kısa bir reklam karşılığında bir özelliği 24 saat açar: Chart Free Pass 7 ve 30 günlük grafikleri, Watchlist Free Pass 10 coin ve sınırsız alarmı açar; günde birer kez, gün sayısında sınır yok ve geçiş sürerken reklamlar görünmeye devam eder. Pro 10 coin, sınırsız alarm, 10 saniyede bir yenileme, tam grafik geçmişi ve reklamsız kullanım sunar — aylık, yıllık ya da tek seferlik ömür boyu.</p></div>
-      </div>
+          <div class="faq-item"><p class="faq-q">Başka uygulamaları kullanırken fiyatları görebilir miyim?</p><p class="faq-a">Evet. Fiyat çubuğu tüm uygulamaların üzerinde durur; YouTube'dayken, oyundayken ya da sohbet ederken piyasayı izleyebilirsiniz — uygulama değiştirmeden, yeniden yüklemeden. İstediğiniz yere sürükleyin, boyutunu ayarlayın ve saydamlığını düşürün; okuduğunuz şeyin üstünü kapatmaz.</p></div>
+          <div class="faq-item"><p class="faq-q">Fiyat alarmları nasıl çalışıyor?</p><p class="faq-a">Üst ya da alt hedef belirlersiniz, FloatCrypto+ piyasa o seviyeyi geçtiği anda bildirim gönderir. Alarmı doğrudan coin kartından oluşturabilirsiniz — ⋮ simgesine dokunun, coin zaten seçili gelir — ve takip ettiğiniz her coin'de çan işareti görünür.</p></div>
+          <div class="faq-item"><p class="faq-q">Ücretsiz sürümde neler var?</p><p class="faq-a">Ücretsiz sürümde 2 coin ve 1 alarm kullanılır, çubuk 30 saniyede bir yenilenir. Free Pass kısa bir reklam karşılığında bir özelliği 24 saat açar: Chart Free Pass 7 ve 30 günlük grafikleri, Watchlist Free Pass 10 coin ve sınırsız alarmı açar; günde birer kez, gün sayısında sınır yok ve geçiş sürerken reklamlar görünmeye devam eder. Pro 10 coin, sınırsız alarm, 10 saniyede bir yenileme, tam grafik geçmişi ve reklamsız kullanım sunar — aylık, yıllık ya da tek seferlik ömür boyu.</p></div>
+        </div>
     </div>
   </section>
 
-
-  <div class="detail-cta">
-    <a href="/tr/#apps" class="btn btn-primary">Daha fazla uygulama keşfedin</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Daha fazla uygulama keşfedin</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/tr/apps/floattimer.html">
+            <img class="app-icon" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+</bdi></span><span class="rc-desc">Her uygulamanın üstünde kayan zamanlayıcı, sayaç ve kronometre.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/tr/apps/volumebooster.html">
+            <img class="app-icon" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>VolumeBooster+</bdi></span><span class="rc-desc">Ses yükseltici, ekolayzer ve bas: her sesi +15 dB’ye kadar yükseltin.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/tr/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">Fotoğraflardaki ve PDF'lerdeki kişisel bilgileri tamamen cihazınızda gizleyin.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/tr/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">Satır vurgusu ve okuma maskesiyle disleksi ve DEHB için okuma yardımcısı.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -289,6 +331,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/floatcrypto.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>FloatCrypto+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -296,6 +344,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"tr","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/floatcrypto.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/floatcrypto.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/floatcrypto.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/floatcrypto.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/floatcrypto.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/floatcrypto.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/floatcrypto.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/floatcrypto.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/floatcrypto.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/floatcrypto.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/floatcrypto.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/floatcrypto.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/floatcrypto.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/floatcrypto.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/floatcrypto.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/floatcrypto.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/floatcrypto.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/floatcrypto.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/floatcrypto.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/floatcrypto.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/floatcrypto.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 7.0+",
   "screenshot": [
     "https://codedac.com/images/shots/volumebooster-1.jpg",
     "https://codedac.com/images/shots/volumebooster-2.jpg",
@@ -151,7 +152,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/tr/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -198,28 +199,41 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/tr/">Ana Sayfa</a>
-      <span class="sep">/</span>
-      <a href="/tr/#apps">Uygulamalar</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>VolumeBooster+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/volumebooster.png?v=60" alt="VolumeBooster+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Ses</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span>
-        <h1><bdi>VolumeBooster+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Her uygulamayı daha yüksek sesli yapın — +15 dB’ye kadar, gerçek desibel ve güvenli bölgelerle.</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dtr" class="btn btn-primary" target="_blank" rel="noopener">Google Play'de görüntüle →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Bize ulaşın</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/tr/">Ana Sayfa</a>
+        <span class="sep">/</span>
+        <a href="/tr/#apps">Uygulamalar</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>VolumeBooster+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/volumebooster.png?v=61" alt="VolumeBooster+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Ses</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span>
+              <h1><bdi>VolumeBooster+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Her uygulamayı daha yüksek sesli yapın — +15 dB’ye kadar, gerçek desibel ve güvenli bölgelerle.</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 7.0+</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dtr" class="btn btn-primary" target="_blank" rel="noopener">Google Play'de görüntüle →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BVolumeBooster%2B%5D%20Destek%20ve%20hatalar&amp;body=1.%20Ne%20oldu%3F%20(Sorunu%20tekrarlama%20ad%C4%B1mlar%C4%B1n%C4%B1%20yazarsan%C4%B1z%20%C3%A7ok%20yard%C4%B1mc%C4%B1%20olur)%0A-%20%0A%0A2.%20Cihaz%20ve%20i%C5%9Fletim%20sistemi%20s%C3%BCr%C3%BCm%C3%BC%0A-%20%0A%0A3.%20Uygulama%20s%C3%BCr%C3%BCm%C3%BC%0A-%20%0A" class="btn btn-glass">Destek ve hatalar</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=61" alt="VolumeBooster+ Ekran Görüntüleri 1" data-idx="0" />
+          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=61" alt="VolumeBooster+ Ekran Görüntüleri 2" data-idx="1" />
+          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=61" alt="VolumeBooster+ Ekran Görüntüleri 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -227,66 +241,94 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Genel Bakış</h2>
-      <p class="detail-long">Telefonunuz çok mu kısık? VolumeBooster+ tek bir uygulamayı değil, sistemin tüm çıkışını yükseltir: kısık hoparlörler, sesi yetersiz kulaklıklar, zor duyulan videolar, aramalar, müzik ve oyunlar sonunda net duyulur. Yükseltme desibel olarak gösterilir, +15 dB’ye kadar; DSÖ işitme önerilerine dayanan Güvenli / Dikkat / Tehlike bölgeleriyle ne kadar yükselttiğinizi her zaman görürsünüz. Ücretsiz sürüm +10 dB’ye çıkar, Pro veya Free Pass tüm aralığı açar. Ses maksimize edici, dokuz hazır ayarı da ücretsiz olan 5 bantlı ekolayzer, bas yükseltici, 3D sanallaştırıcı ve 2.456 ölçülmüş kulaklık profiline dayanan AutoEQ düzeltmesi aynı uygulamada.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Öne Çıkan Özellikler</h2>
-      <ul class="feature-list">
-        <li>Sistem genelinde +15 dB’ye kadar yükseltme, Güvenli / Dikkat / Tehlike etiketleriyle — ücretsiz +10 dB, tam aralık Pro veya Free Pass ile</li>
-        <li>Çok bantlı sıkıştırma, telafi kazancı ve sürekli çalışan tepe sınırlayıcıyla ses maksimize edici: gerçekten daha yüksek, bozulma yok</li>
-        <li>5 bantlı ekolayzer ve 9 hazır ayar, hepsi ücretsiz: Flat, Pop, Rock, Vocal, Classical, EDM, Movie, Gaming ve Night Mode</li>
-        <li>Bas yükseltici, 3D sanallaştırıcı ve AutoEQ: 357 markadan 2.456 ölçülmüş kulaklık profili, başlıca markalar (Apple, Samsung, Sony, Bose, JBL, Beats) ücretsiz</li>
-        <li>Yüzen panel herkese ücretsiz; ayrıca işitme koruması istatistikleri (Pro), yumuşak kısılan uyku zamanlayıcı, Sol/Sağ kanal dengesi, Hızlı Ayarlar döşemesi, widget ve bildirim kontrolleri</li>
-        <li>Free Pass: kısa bir reklamla 24 saat Max Boost veya AutoEQ; bunun dışında ücretsiz yükseltme günde 60 dakika sürer ve gece yarısı sıfırlanır</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Sistem genelinde +15 dB’ye kadar yükseltme, Güvenli / Dikkat / Tehlike etiketleriyle — ücretsiz +10 dB, tam aralık Pro veya Free Pass ile</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Çok bantlı sıkıştırma, telafi kazancı ve sürekli çalışan tepe sınırlayıcıyla ses maksimize edici: gerçekten daha yüksek, bozulma yok</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>5 bantlı ekolayzer ve 9 hazır ayar, hepsi ücretsiz: Flat, Pop, Rock, Vocal, Classical, EDM, Movie, Gaming ve Night Mode</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Bas yükseltici, 3D sanallaştırıcı ve AutoEQ: 357 markadan 2.456 ölçülmüş kulaklık profili, başlıca markalar (Apple, Samsung, Sony, Bose, JBL, Beats) ücretsiz</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Yüzen panel herkese ücretsiz; ayrıca işitme koruması istatistikleri (Pro), yumuşak kısılan uyku zamanlayıcı, Sol/Sağ kanal dengesi, Hızlı Ayarlar döşemesi, widget ve bildirim kontrolleri</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Free Pass: kısa bir reklamla 24 saat Max Boost veya AutoEQ; bunun dışında ücretsiz yükseltme günde 60 dakika sürer ve gece yarısı sıfırlanır</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Ekran Görüntüleri</h2>
-      <p class="section-lead" style="margin-bottom:22px">Büyütmek için bir ekran görüntüsüne dokunun.</p>
+      <p class="detail-lead">Büyütmek için bir ekran görüntüsüne dokunun.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/volumebooster-1.jpg?v=60" alt="VolumeBooster+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/volumebooster-2.jpg?v=60" alt="VolumeBooster+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/volumebooster-3.jpg?v=60" alt="VolumeBooster+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/volumebooster-4.jpg?v=60" alt="VolumeBooster+ Ekran Görüntüleri 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/volumebooster-5.jpg?v=60" alt="VolumeBooster+ Ekran Görüntüleri 5" loading="lazy" data-idx="4" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">SSS</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Telefon gerçekten daha yüksek sesli oluyor mu?</p><p class="faq-a">Evet. Ses maksimize edici, çok bantlı sıkıştırma ve telafi kazancıyla algılanan sesi gerçekten artırır ve tek bir uygulamayı değil sistemin tüm çıkışını yükseltir — müzik, video, YouTube, oyun ve aramalar dahil. Ücretsiz sürüm +10 dB’ye kadar, Pro veya Free Pass ile tam +15 dB aralığı açılır.</p></div>
-        <div class="faq-item"><p class="faq-q">Gerçekten ücretsiz mi, abonelik gerekiyor mu?</p><p class="faq-a">Ücretsiz sürümde +10 dB’ye kadar yükseltme, 9 hazır ayarın tamamı, 5 bantlı ekolayzer, yüzen panel ve Apple, Samsung, Sony, Bose, JBL, Beats gibi başlıca markalar için AutoEQ vardır; ücretsiz yükseltme günde 60 dakikayla sınırlıdır ve gece yarısı sıfırlanır. Free Pass, tek bir kısa reklamla 24 saatlik Max Boost (günlük sınır olmadan tam +15 dB) veya AutoEQ (kulaklık kataloğunun tamamı) verir; kart yok, iptal edilecek deneme yok. Pro tam aralığı, sınırsız süreyi, tüm AutoEQ profillerini ve işitme koruma panosunu açar ve reklamları kaldırır: aylık, yıllık veya tek seferlik ömür boyu.</p></div>
-        <div class="faq-item"><p class="faq-q">Gösterilen desibel kesin bir ölçüm mü?</p><p class="faq-a">Bir tahmindir. Yükseltme gerçek desibel olarak, DSÖ temelli Güvenli, Dikkat ve Tehlike bölgeleriyle gösterilir; ancak değer sistem sesi ve uygulanan kazançtan hesaplanır ve gerçek ses düzeyi cihaza, kulaklığa ve içeriğe göre değişir. Bu uygulama tıbbi cihaz değildir; kulak ağrısı veya çınlama fark ederseniz sesi kısın ve bir uzmana danışın.</p></div>
-      </div>
+          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=61" alt="VolumeBooster+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=61" alt="VolumeBooster+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=61" alt="VolumeBooster+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/volumebooster-4.jpg?v=61" alt="VolumeBooster+ Ekran Görüntüleri 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/volumebooster-5.jpg?v=61" alt="VolumeBooster+ Ekran Görüntüleri 5" loading="lazy" data-idx="4" />
+        </div>
     </div>
   </section>
 
-  <section class="detail-section" id="reviews">
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Genel Bakış</h2>
+      <div class="detail-long">
+          <p>Telefonunuz çok mu kısık? VolumeBooster+ tek bir uygulamayı değil, sistemin tüm çıkışını yükseltir: kısık hoparlörler, sesi yetersiz kulaklıklar, zor duyulan videolar, aramalar, müzik ve oyunlar sonunda net duyulur. Yükseltme desibel olarak gösterilir, +15 dB’ye kadar; DSÖ işitme önerilerine dayanan Güvenli / Dikkat / Tehlike bölgeleriyle ne kadar yükselttiğinizi her zaman görürsünüz.</p>
+          <p>Ücretsiz sürüm +10 dB’ye çıkar, Pro veya Free Pass tüm aralığı açar. Ses maksimize edici, dokuz hazır ayarı da ücretsiz olan 5 bantlı ekolayzer, bas yükseltici, 3D sanallaştırıcı ve 2.456 ölçülmüş kulaklık profiline dayanan AutoEQ düzeltmesi aynı uygulamada.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt" id="reviews">
     <div class="container">
       <h2 class="detail-title">Kullanıcılar ne diyor</h2>
-      <p class="section-lead" style="margin-bottom:22px">Google Play'de bırakılan gerçek yorumlar.</p>
+      <p class="detail-lead">Google Play'de bırakılan gerçek yorumlar.</p>
       <div class="reviews-grid">
         <figure class="review-card">
           <div class="review-stars" aria-label="5 / 5">★★★★★</div>
           <blockquote class="review-text">WOW! what a difference! I am trying free version &amp; 3 decibel boost helps immensely already! I've been playing podcasts on tablet using an external speaker. With this app I can hear very clearly just from the tablet. It even has different settings for various types of sound like music, podcast, etc like an equalizer. Already using Clipboard+ from the same developer &amp; it is an awesome app! Highly recommend it!</blockquote>
           <figcaption class="review-meta"><span class="review-name">Liz W</span><span class="review-app">Google Play</span></figcaption>
         </figure>
-      </div>
+        </div>
     </div>
   </section>
 
-  <div class="detail-cta">
-    <a href="/tr/#apps" class="btn btn-primary">Daha fazla uygulama keşfedin</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">SSS</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Telefon gerçekten daha yüksek sesli oluyor mu?</p><p class="faq-a">Evet. Ses maksimize edici, çok bantlı sıkıştırma ve telafi kazancıyla algılanan sesi gerçekten artırır ve tek bir uygulamayı değil sistemin tüm çıkışını yükseltir — müzik, video, YouTube, oyun ve aramalar dahil. Ücretsiz sürüm +10 dB’ye kadar, Pro veya Free Pass ile tam +15 dB aralığı açılır.</p></div>
+          <div class="faq-item"><p class="faq-q">Gerçekten ücretsiz mi, abonelik gerekiyor mu?</p><p class="faq-a">Ücretsiz sürümde +10 dB’ye kadar yükseltme, 9 hazır ayarın tamamı, 5 bantlı ekolayzer, yüzen panel ve Apple, Samsung, Sony, Bose, JBL, Beats gibi başlıca markalar için AutoEQ vardır; ücretsiz yükseltme günde 60 dakikayla sınırlıdır ve gece yarısı sıfırlanır. Free Pass, tek bir kısa reklamla 24 saatlik Max Boost (günlük sınır olmadan tam +15 dB) veya AutoEQ (kulaklık kataloğunun tamamı) verir; kart yok, iptal edilecek deneme yok. Pro tam aralığı, sınırsız süreyi, tüm AutoEQ profillerini ve işitme koruma panosunu açar ve reklamları kaldırır: aylık, yıllık veya tek seferlik ömür boyu.</p></div>
+          <div class="faq-item"><p class="faq-q">Gösterilen desibel kesin bir ölçüm mü?</p><p class="faq-a">Bir tahmindir. Yükseltme gerçek desibel olarak, DSÖ temelli Güvenli, Dikkat ve Tehlike bölgeleriyle gösterilir; ancak değer sistem sesi ve uygulanan kazançtan hesaplanır ve gerçek ses düzeyi cihaza, kulaklığa ve içeriğe göre değişir. Bu uygulama tıbbi cihaz değildir; kulak ağrısı veya çınlama fark ederseniz sesi kısın ve bir uzmana danışın.</p></div>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Daha fazla uygulama keşfedin</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/tr/apps/photocleaner.html">
+            <img class="app-icon" src="/images/icons/photocleaner.png?v=61" alt="PhotoCleaner+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>PhotoCleaner+</bdi></span><span class="rc-desc">Fotoğraflardaki ve PDF'lerdeki kişisel bilgileri tamamen cihazınızda gizleyin.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/tr/apps/readfocus.html">
+            <img class="app-icon" src="/images/icons/readfocus.png?v=61" alt="ReadFocus+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>ReadFocus+</bdi></span><span class="rc-desc">Satır vurgusu ve okuma maskesiyle disleksi ve DEHB için okuma yardımcısı.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/tr/apps/floatnote.html">
+            <img class="app-icon" src="/images/icons/floatnote.png?v=61" alt="FloatNote+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatNote+</bdi></span><span class="rc-desc">Her uygulamanın üstünde yüzen yapışkan notlar. Çipe küçült, kart olarak aç; renkler ve zengin metin.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/tr/apps/clipboard.html">
+            <img class="app-icon" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>Clipboard+</bdi></span><span class="rc-desc">Kopyalanan metin ve görselleri saklayın. Arayın, yapıştırın, PC ile eşitleyin.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -302,6 +344,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/volumebooster.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>VolumeBooster+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -309,6 +357,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"tr","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/volumebooster.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/volumebooster.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/volumebooster.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/volumebooster.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/volumebooster.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/volumebooster.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/volumebooster.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/volumebooster.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/volumebooster.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/volumebooster.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/volumebooster.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/volumebooster.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/volumebooster.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/volumebooster.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/volumebooster.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/volumebooster.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/volumebooster.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/volumebooster.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/volumebooster.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/volumebooster.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/volumebooster.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>

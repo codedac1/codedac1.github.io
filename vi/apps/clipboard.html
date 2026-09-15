@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=60" />
+  <link rel="stylesheet" href="/css/style.css?v=61" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,7 @@
     "price": "0",
     "priceCurrency": "USD"
   },
+  "softwareRequirements": "Android 12+",
   "screenshot": [
     "https://codedac.com/images/shots/clipboard-1.jpg",
     "https://codedac.com/images/shots/clipboard-2.jpg",
@@ -90,14 +91,7 @@
     "https://codedac.com/images/shots/clipboard-5.jpg",
     "https://codedac.com/images/shots/clipboard-6.jpg"
   ],
-  "installUrl": "https://play.google.com/store/apps/details?id=com.codedac.clipboard",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "3.84",
-    "ratingCount": "189",
-    "bestRating": "5",
-    "worstRating": "1"
-  }
+  "installUrl": "https://play.google.com/store/apps/details?id=com.codedac.clipboard"
 }
   </script>
   <script type="application/ld+json">
@@ -159,7 +153,7 @@
 }
   </script>
 </head>
-<body>
+<body class="has-install-bar">
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="/vi/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
@@ -206,28 +200,42 @@
     </div>
   </header>
 
-  <div class="container">
-    <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="/vi/">Trang chủ</a>
-      <span class="sep">/</span>
-      <a href="/vi/#apps">Ứng dụng</a>
-      <span class="sep">/</span>
-      <span class="current"><bdi>Clipboard+</bdi></span>
-    </nav>
-  </div>
-
-  <section class="app-hero-d">
-    <div class="container app-hero-inner">
-      <img class="app-icon-lg" src="/images/icons/clipboard.png?v=60" alt="Clipboard+ icon" width="96" height="96" />
-      <div class="app-hero-text">
-        <span class="app-meta-row"><span class="app-tag">Bộ nhớ tạm</span><span class="app-langs" aria-label="21 ngôn ngữ"><span class="globe" aria-hidden="true">🌐</span>21 ngôn ngữ</span></span>
-        <h1><bdi>Clipboard+</bdi></h1>
-        <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
-             h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
-        <h2 class="app-tagline">Không đánh mất thứ bạn đã sao chép — mọi văn bản và hình ảnh trong lịch sử tìm kiếm được</h2>
-        <div class="app-hero-actions">
-          <a href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dvi" class="btn btn-primary" target="_blank" rel="noopener">Xem trên Google Play →</a>
-          <a href="mailto:contact@codedac.com" class="btn btn-ghost">Liên hệ</a>
+  <section class="app-hero-d app-hero-android">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/vi/">Trang chủ</a>
+        <span class="sep">/</span>
+        <a href="/vi/#apps">Ứng dụng</a>
+        <span class="sep">/</span>
+        <span class="current"><bdi>Clipboard+</bdi></span>
+      </nav>
+      <div class="app-hero-inner">
+        <div class="app-hero-text">
+          <div class="app-hero-id">
+            <img class="app-icon-lg" src="/images/icons/clipboard.png?v=61" alt="Clipboard+ icon" width="96" height="96" />
+            <div class="app-hero-name">
+              <span class="app-meta-row"><span class="app-tag">Bộ nhớ tạm</span><span class="app-langs" aria-label="21 ngôn ngữ"><span class="globe" aria-hidden="true">🌐</span>21 ngôn ngữ</span></span>
+              <h1><bdi>Clipboard+</bdi></h1>
+            </div>
+          </div>
+          <!-- 태그라인은 이 페이지에서 유일하게 일반 검색어를 담은 문장이다("Android 클립보드 관리자"…).
+               h1 은 브랜드명이므로, 태그라인을 h2 로 올려 헤딩에도 검색어가 잡히게 한다. -->
+          <h2 class="app-tagline">Không đánh mất thứ bạn đã sao chép — mọi văn bản và hình ảnh trong lịch sử tìm kiếm được</h2>
+          <ul class="app-facts">
+            <li class="fact-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span dir="ltr">Android · Google Play</span></li>
+            <li><span dir="ltr">Android 12+</span></li>
+            <li><span dir="ltr">10,000+</span><span>Lượt tải</span></li>
+          </ul>
+          <div class="app-hero-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-hero%26utm_campaign%3Dvi" class="btn btn-primary" target="_blank" rel="noopener">Xem trên Google Play →</a>
+            <a href="mailto:contact@codedac.com?subject=%5BClipboard%2B%5D%20H%E1%BB%97%20tr%E1%BB%A3%20%26%20b%C3%A1o%20l%E1%BB%97i&amp;body=1.%20%C4%90%C3%A3%20x%E1%BA%A3y%20ra%20v%E1%BA%A5n%20%C4%91%E1%BB%81%20g%C3%AC%3F%20(N%E1%BA%BFu%20bi%E1%BA%BFt%20c%C3%A1c%20b%C6%B0%E1%BB%9Bc%20t%C3%A1i%20hi%E1%BB%87n%2C%20h%C3%A3y%20ghi%20th%C3%AAm)%0A-%20%0A%0A2.%20Thi%E1%BA%BFt%20b%E1%BB%8B%20v%C3%A0%20phi%C3%AAn%20b%E1%BA%A3n%20OS%0A-%20%0A%0A3.%20Phi%C3%AAn%20b%E1%BA%A3n%20%E1%BB%A9ng%20d%E1%BB%A5ng%0A-%20%0A" class="btn btn-glass">Hỗ trợ &amp; báo lỗi</a>
+          </div>
+        </div>
+        <div class="app-hero-shots app-hero-shots-android">
+          <img class="shot" src="/images/shots/clipboard-1.jpg?v=61" alt="Clipboard+ Ảnh chụp màn hình 1" data-idx="0" />
+          <img class="shot" src="/images/shots/clipboard-2.jpg?v=61" alt="Clipboard+ Ảnh chụp màn hình 2" data-idx="1" />
+          <img class="shot" src="/images/shots/clipboard-3.jpg?v=61" alt="Clipboard+ Ảnh chụp màn hình 3" data-idx="2" />
         </div>
       </div>
     </div>
@@ -235,67 +243,48 @@
 
   <section class="detail-section">
     <div class="container">
-      <h2 class="detail-title">Tổng quan</h2>
-      <p class="detail-long">Clipboard+ là trình quản lý bộ nhớ tạm cho Android, giữ mọi văn bản và hình ảnh bạn sao chép trong một lịch sử tìm kiếm được, mới nhất lên đầu. Từ Android 10, không ứng dụng nào được đọc clipboard ở nền, nên Clipboard+ lưu nội dung bạn sao chép ngay khi nó hoạt động — khi bạn mở ứng dụng, chạm vào bảng nổi hoặc dùng tiện ích — hoặc ngay lập tức nếu bạn chạm Clipboard+ trong trình đơn chọn văn bản. Lớp phủ nổi có thể chỉnh kích thước giúp bạn truy cập lịch sử bộ nhớ tạm từ bất kỳ màn hình nào mà không cần chuyển ứng dụng. Sắp xếp các đoạn văn bản hay dùng thành snippet và nhóm, rồi dán nhanh bất kỳ mục nào bằng tìm kiếm từ khóa, widget màn hình chính và bảng thông báo. Bạn cũng có thể xuất lịch sử ra PDF và sao lưu hoặc khôi phục các mục bất cứ lúc nào. Dùng chung với Clipboard+ for Windows, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Bạn chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng; nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn.</p>
-    </div>
-  </section>
-
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Cũng có trên Windows</h2>
-      <a class="counterpart" href="/vi/apps/clipboardwin.html">
-        <img class="app-icon" src="/images/icons/clipboardwin.png?v=60" alt="Clipboard+ for Windows icon" loading="lazy" width="56" height="56" />
-        <span class="cp-text">
-          <span class="cp-name"><bdi>Clipboard+ for Windows</bdi></span>
-          <span class="cp-desc">Trình quản lý bộ nhớ tạm trên khay Windows, đồng bộ với ứng dụng Clipboard+ trên Android.</span>
-        </span>
-        <span class="cp-go" aria-hidden="true">&#8250;</span>
-      </a>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
       <h2 class="detail-title">Tính năng chính</h2>
-      <ul class="feature-list">
-        <li>Mọi văn bản và hình ảnh đã sao chép nằm trong lịch sử tìm kiếm được, mới nhất lên đầu</li>
-        <li>Lớp phủ nổi chỉnh được kích thước, dùng trên mọi ứng dụng</li>
-        <li>Sắp xếp văn bản hay dùng thành snippet và nhóm</li>
-        <li>Tìm kiếm và lọc tức thì theo từ khóa, văn bản, hình ảnh hoặc ngày</li>
-        <li>Dán nhanh từ widget màn hình chính và bảng thông báo, lưu từ mọi ứng dụng qua trình đơn chọn văn bản</li>
-        <li>Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn, xuất lịch sử bộ nhớ tạm ra PDF, kèm sao lưu và khôi phục</li>
-      </ul>
+      <ul class="feature-grid">
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Mọi văn bản và hình ảnh đã sao chép nằm trong lịch sử tìm kiếm được, mới nhất lên đầu</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Lớp phủ nổi chỉnh được kích thước, dùng trên mọi ứng dụng</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Sắp xếp văn bản hay dùng thành snippet và nhóm</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Tìm kiếm và lọc tức thì theo từ khóa, văn bản, hình ảnh hoặc ngày</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Dán nhanh từ widget màn hình chính và bảng thông báo, lưu từ mọi ứng dụng qua trình đơn chọn văn bản</span></li>
+          <li><span class="fg-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn, xuất lịch sử bộ nhớ tạm ra PDF, kèm sao lưu và khôi phục</span></li>
+        </ul>
     </div>
   </section>
 
-  <section class="detail-section">
+  <section class="detail-section is-alt">
     <div class="container">
       <h2 class="detail-title">Ảnh chụp màn hình</h2>
-      <p class="section-lead" style="margin-bottom:22px">Chạm vào ảnh chụp màn hình để xem lớn hơn.</p>
+      <p class="detail-lead">Chạm vào ảnh chụp màn hình để xem lớn hơn.</p>
       <div class="detail-shots" id="d-shots">
-        <img class="shot" src="/images/shots/clipboard-1.jpg?v=60" alt="Clipboard+ Ảnh chụp màn hình 1" loading="lazy" data-idx="0" />
-        <img class="shot" src="/images/shots/clipboard-2.jpg?v=60" alt="Clipboard+ Ảnh chụp màn hình 2" loading="lazy" data-idx="1" />
-        <img class="shot" src="/images/shots/clipboard-3.jpg?v=60" alt="Clipboard+ Ảnh chụp màn hình 3" loading="lazy" data-idx="2" />
-        <img class="shot" src="/images/shots/clipboard-4.jpg?v=60" alt="Clipboard+ Ảnh chụp màn hình 4" loading="lazy" data-idx="3" />
-        <img class="shot" src="/images/shots/clipboard-5.jpg?v=60" alt="Clipboard+ Ảnh chụp màn hình 5" loading="lazy" data-idx="4" />
-        <img class="shot" src="/images/shots/clipboard-6.jpg?v=60" alt="Clipboard+ Ảnh chụp màn hình 6" loading="lazy" data-idx="5" />
-      </div>
-    </div>
-  </section>
-  <section class="detail-section">
-    <div class="container">
-      <h2 class="detail-title">Câu hỏi thường gặp</h2>
-      <div class="faq-list">
-        <div class="faq-item"><p class="faq-q">Khi nào nội dung tôi sao chép được lưu?</p><p class="faq-a">Từ Android 10, Google chặn ứng dụng đọc clipboard ở nền và không trình quản lý clipboard nào vượt qua được. Clipboard+ lưu nội dung bạn sao chép ngay khi nó hoạt động — khi bạn mở ứng dụng, chạm vào bảng nổi hoặc dùng tiện ích. Để lưu mà không chuyển ứng dụng, hãy chọn văn bản rồi chạm Clipboard+ trong trình đơn chọn.</p></div>
-        <div class="faq-item"><p class="faq-q">Tôi có thể xem lịch sử bộ nhớ tạm khi đang dùng ứng dụng khác không?</p><p class="faq-a">Có. Lớp phủ nổi chỉnh được kích thước giúp bạn truy cập lịch sử từ bất kỳ màn hình nào mà không cần chuyển ứng dụng.</p></div>
-        <div class="faq-item"><p class="faq-q">Ứng dụng có đồng bộ với máy tính Windows không?</p><p class="faq-a">Có. Hãy cài thêm Clipboard+ for Windows, rồi trong phần cài đặt của cả hai ứng dụng, đăng nhập Google Drive bằng cùng một tài khoản và bật đồng bộ tự động. Sau đó, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn.</p></div>
-      </div>
+          <img class="shot" src="/images/shots/clipboard-1.jpg?v=61" alt="Clipboard+ Ảnh chụp màn hình 1" loading="lazy" data-idx="0" />
+          <img class="shot" src="/images/shots/clipboard-2.jpg?v=61" alt="Clipboard+ Ảnh chụp màn hình 2" loading="lazy" data-idx="1" />
+          <img class="shot" src="/images/shots/clipboard-3.jpg?v=61" alt="Clipboard+ Ảnh chụp màn hình 3" loading="lazy" data-idx="2" />
+          <img class="shot" src="/images/shots/clipboard-4.jpg?v=61" alt="Clipboard+ Ảnh chụp màn hình 4" loading="lazy" data-idx="3" />
+          <img class="shot" src="/images/shots/clipboard-5.jpg?v=61" alt="Clipboard+ Ảnh chụp màn hình 5" loading="lazy" data-idx="4" />
+          <img class="shot" src="/images/shots/clipboard-6.jpg?v=61" alt="Clipboard+ Ảnh chụp màn hình 6" loading="lazy" data-idx="5" />
+        </div>
     </div>
   </section>
 
-  <section class="detail-section" id="reviews">
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Tổng quan</h2>
+      <div class="detail-long">
+          <p>Clipboard+ là trình quản lý bộ nhớ tạm cho Android, giữ mọi văn bản và hình ảnh bạn sao chép trong một lịch sử tìm kiếm được, mới nhất lên đầu. Từ Android 10, không ứng dụng nào được đọc clipboard ở nền, nên Clipboard+ lưu nội dung bạn sao chép ngay khi nó hoạt động — khi bạn mở ứng dụng, chạm vào bảng nổi hoặc dùng tiện ích — hoặc ngay lập tức nếu bạn chạm Clipboard+ trong trình đơn chọn văn bản.</p>
+          <p>Lớp phủ nổi có thể chỉnh kích thước giúp bạn truy cập lịch sử bộ nhớ tạm từ bất kỳ màn hình nào mà không cần chuyển ứng dụng. Sắp xếp các đoạn văn bản hay dùng thành snippet và nhóm, rồi dán nhanh bất kỳ mục nào bằng tìm kiếm từ khóa, widget màn hình chính và bảng thông báo.</p>
+          <p>Bạn cũng có thể xuất lịch sử ra PDF và sao lưu hoặc khôi phục các mục bất cứ lúc nào. Dùng chung với Clipboard+ for Windows, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Bạn chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng; nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt" id="reviews">
     <div class="container">
       <h2 class="detail-title">Người dùng nói gì</h2>
-      <p class="section-lead" style="margin-bottom:22px">Đánh giá thực tế trên Google Play.</p>
+      <p class="detail-lead">Đánh giá thực tế trên Google Play.</p>
       <div class="reviews-grid">
         <figure class="review-card">
           <div class="review-stars" aria-label="5 / 5">★★★★★</div>
@@ -327,13 +316,62 @@
           <blockquote class="review-text">Very easy to understand and use. Really handy, particularly when I am using an older keyboard (one without built-in clipboard access). Thanks so much!!</blockquote>
           <figcaption class="review-meta"><span class="review-name">Joseph Younger</span><span class="review-app">Google Play</span></figcaption>
         </figure>
-      </div>
+        </div>
     </div>
   </section>
 
-  <div class="detail-cta">
-    <a href="/vi/#apps" class="btn btn-primary">Khám phá thêm ứng dụng</a>
-  </div>
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Câu hỏi thường gặp</h2>
+      <div class="faq-list">
+          <div class="faq-item"><p class="faq-q">Khi nào nội dung tôi sao chép được lưu?</p><p class="faq-a">Từ Android 10, Google chặn ứng dụng đọc clipboard ở nền và không trình quản lý clipboard nào vượt qua được. Clipboard+ lưu nội dung bạn sao chép ngay khi nó hoạt động — khi bạn mở ứng dụng, chạm vào bảng nổi hoặc dùng tiện ích. Để lưu mà không chuyển ứng dụng, hãy chọn văn bản rồi chạm Clipboard+ trong trình đơn chọn.</p></div>
+          <div class="faq-item"><p class="faq-q">Tôi có thể xem lịch sử bộ nhớ tạm khi đang dùng ứng dụng khác không?</p><p class="faq-a">Có. Lớp phủ nổi chỉnh được kích thước giúp bạn truy cập lịch sử từ bất kỳ màn hình nào mà không cần chuyển ứng dụng.</p></div>
+          <div class="faq-item"><p class="faq-q">Ứng dụng có đồng bộ với máy tính Windows không?</p><p class="faq-a">Có. Hãy cài thêm Clipboard+ for Windows, rồi trong phần cài đặt của cả hai ứng dụng, đăng nhập Google Drive bằng cùng một tài khoản và bật đồng bộ tự động. Sau đó, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn.</p></div>
+        </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Cũng có trên Windows</h2>
+      <a class="counterpart" href="/vi/apps/clipboardwin.html">
+        <img class="app-icon" src="/images/icons/clipboardwin.png?v=61" alt="Clipboard+ for Windows icon" loading="lazy" width="56" height="56" />
+        <span class="cp-text">
+          <span class="cp-name"><bdi>Clipboard+ for Windows</bdi></span>
+          <span class="cp-desc">Trình quản lý bộ nhớ tạm trên khay Windows, đồng bộ với ứng dụng Clipboard+ trên Android.</span>
+        </span>
+        <span class="cp-go" aria-hidden="true">&#8250;</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Khám phá thêm ứng dụng</h2>
+      <div class="related-grid">
+          <a class="related-card" href="/vi/apps/autostart.html">
+            <img class="app-icon" src="/images/icons/autostart.png?v=61" alt="AutoStart+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>AutoStart+</bdi></span><span class="rc-desc">Tự động mở ứng dụng khi khởi động máy. Không cần root, cài đặt một lần.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/vi/apps/floatcalc.html">
+            <img class="app-icon" src="/images/icons/floatcalc.png?v=61" alt="FloatCalc+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCalc+</bdi></span><span class="rc-desc">Máy tính nổi kèm chuyển đổi tỷ giá và đơn vị, trên mọi ứng dụng.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/vi/apps/floatcrypto.html">
+            <img class="app-icon" src="/images/icons/floatcrypto.png?v=61" alt="FloatCrypto+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatCrypto+</bdi></span><span class="rc-desc">Thanh giá crypto trực tiếp nổi trên mọi ứng dụng, kèm cảnh báo và biểu đồ.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+          <a class="related-card" href="/vi/apps/floattimer.html">
+            <img class="app-icon" src="/images/icons/floattimer.png?v=61" alt="FloatTimer+ icon" loading="lazy" width="48" height="48" />
+            <span class="rc-text"><span class="rc-name"><bdi>FloatTimer+</bdi></span><span class="rc-desc">Hẹn giờ, bộ đếm và bấm giờ dạng nổi trên mọi ứng dụng.</span></span>
+            <span class="rc-plat rc-plat-android" title="Android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          </a>
+        </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -349,6 +387,12 @@
     </div>
   </footer>
 
+  <div class="install-bar" id="installBar" inert>
+    <img class="ib-icon" src="/images/icons/clipboard.png?v=61" alt="" width="40" height="40" loading="lazy" />
+    <span class="ib-name"><bdi>Clipboard+</bdi></span>
+    <a class="btn btn-primary ib-btn" href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Ddetail-sticky%26utm_campaign%3Dvi" target="_blank" rel="noopener">Google Play</a>
+  </div>
+
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
@@ -356,6 +400,6 @@
     <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
   </div>
   <script>window.__LANG_BANNER={"cur":"vi","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/apps/clipboard.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/apps/clipboard.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/apps/clipboard.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/apps/clipboard.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/apps/clipboard.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/apps/clipboard.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/apps/clipboard.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/apps/clipboard.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/apps/clipboard.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/apps/clipboard.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/apps/clipboard.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/apps/clipboard.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/apps/clipboard.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/apps/clipboard.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/apps/clipboard.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/apps/clipboard.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/apps/clipboard.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/apps/clipboard.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/apps/clipboard.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/apps/clipboard.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/apps/clipboard.html","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=60"></script>
+  <script src="/js/site.js?v=61"></script>
 </body>
 </html>
