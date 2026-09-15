@@ -484,6 +484,36 @@
           "a": "Ja. U kunt zo veel timers, tellers en stopwatches maken als u wilt — de lijst is nooit beperkt — en de Windows-versie heeft geen advertenties. In de gratis versie zweeft er één kaartje tegelijk op het scherm. Pro is een eenmalige aankoop, geen abonnement, en voegt onbeperkt zwevende kaartjes toe, timers die zichzelf herhalen, elke kleur die u wilt en uw eigen waarschuwingsgeluid of een schermvullende melding."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Privacy",
+      "seo": "PDF zwartlakken op pc",
+      "desc": "Verberg persoonlijke gegevens in foto’s, screenshots en PDF’s op je pc voordat je deelt.",
+      "tagline": "Vind persoonlijke gegevens in foto’s, screenshots en PDF’s, controleer elk vak en exporteer een dekkend gemaskeerde kopie zonder metadata — alles op je pc.",
+      "long": "PhotoCleaner+ for Windows is de desktopversie van de Android-app PhotoCleaner+. Open een foto, screenshot of PDF — of plak hem met Ctrl+V, sleep hem naar het venster of klik met rechts in Verkenner → ‘Clean with PhotoCleaner+’ — en de detectie start vanzelf. De app omkadert wat op persoonlijke gegevens lijkt: telefoonnummers, e-mails, kaartnummers, IBAN, paspoortnummers en MRZ, Koreaanse inwonerregistratie-, vreemdelingenregistratie-, bedrijfsregistratie- en rijbewijsnummers, Koreaanse namen, adressen en kentekens, gezichten (van voren werkt het best) en QR-codes, plus de altijd te verbergen woorden die je zelf toevoegt. Detectie is een startpunt, geen garantie: klik op een vak om het masker aan of uit te zetten, sleep om het te verplaatsen of te schalen en dek zelf af wat gemist is. Tekst wordt gelezen met de talen voor tekstherkenning die in Windows zijn geïnstalleerd. Bij het exporteren krijgt elk vak een volle, ondoorzichtige maskering — geen blur — en in het resultaat kies je Opslaan (JPEG of PNG), Kopiëren, Delen, PDF opslaan of Afdrukken. De opgeslagen kopie wordt opnieuw uit de pixels gemaakt, dus EXIF, GPS-locatie en opnametijd gaan niet mee; het origineel wordt nooit gewijzigd en er komt geen watermerk op. Alles gebeurt op je pc, zonder account en zonder upload, en de app houdt geen lijst met recente bestanden bij.",
+      "features": [
+        "Vindt telefoonnummers, e-mails, kaartnummers, IBAN, paspoortnummers en MRZ, Koreaanse ID-nummers, namen, adressen en kentekens, gezichten en QR-codes",
+        "Controleer elk vak vóór export: klikken om te schakelen, slepen om te verplaatsen, rand om te schalen, zelf maskers tekenen, Ongedaan maken",
+        "Open foto’s, screenshots en PDF’s door ze te slepen, met Ctrl+V of via rechtsklik ‘Clean with PhotoCleaner+’ in Verkenner",
+        "Volle, ondoorzichtige maskers in plaats van blur, geen watermerk; Opslaan (JPEG/PNG), Kopiëren, Delen, PDF opslaan, Afdrukken",
+        "Kopieën zonder EXIF, locatie of metadata; het origineel wordt nooit overschreven",
+        "Alles op je pc: geen account, geen upload, geen lijst met recente bestanden. Licht en donker thema, 21 talen"
+      ],
+      "faq": [
+        {
+          "q": "Is dit dezelfde app als PhotoCleaner+ op Android?",
+          "a": "Het is hetzelfde idee, gebouwd voor Windows: persoonlijke gegevens vinden, de vakken controleren en een dekkend gemaskeerde kopie exporteren. De detectie gebruikt de tekst- en gezichtsherkenning van Windows zelf in plaats van die van de telefoon, dus de resultaten lijken op elkaar maar zijn niet identiek. Elke versie installeer je uit zijn eigen store."
+        },
+        {
+          "q": "Vindt de app alle persoonlijke gegevens?",
+          "a": "Dat kan geen enkel hulpmiddel beloven. Detectie is een startpunt: controleer altijd het maskeren voordat je exporteert en dek zelf af wat gemist is. Tekst wordt gelezen met de talen voor tekstherkenning die in Windows zijn geïnstalleerd — je ziet ze bij Instellingen; Koreaanse documenten hebben de Koreaanse taal nodig."
+        },
+        {
+          "q": "Worden mijn bestanden geüpload of wordt het origineel gewijzigd?",
+          "a": "Geen van beide. Detecteren, maskeren en exporteren gebeuren op je pc, zonder account en zonder dat er iets wordt geüpload. Het maskeren gebeurt op een kopie, de app slaat nooit over het origineel op en opgeslagen kopieën worden opnieuw gecodeerd, zonder de metadata van het origineel."
+        }
+      ]
     }
   }
 }

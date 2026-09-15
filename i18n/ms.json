@@ -484,6 +484,36 @@
           "a": "Boleh. Anda boleh membuat seberapa banyak pemasa, pembilang dan jam randik yang anda mahu — senarainya tidak pernah dihadkan — dan versi Windows tiada iklan. Versi percuma mengapungkan satu kad pada skrin dalam satu masa. Pro ialah pembelian sekali sahaja, bukan langganan, dan menambah kad terapung tanpa had, pemasa berulang, sebarang warna pilihan anda, serta bunyi amaran sendiri atau amaran skrin penuh."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Privasi",
+      "seo": "Sorok Maklumat di PC",
+      "desc": "Sembunyikan maklumat peribadi dalam foto, tangkapan skrin dan PDF pada PC anda sebelum berkongsi.",
+      "tagline": "Kesan maklumat peribadi dalam foto, tangkapan skrin dan PDF, semak setiap kotak, dan eksport salinan bertutup pekat tanpa metadata — semuanya pada PC anda.",
+      "long": "PhotoCleaner+ for Windows ialah versi desktop bagi apl PhotoCleaner+ di Android. Buka foto, tangkapan skrin atau PDF — atau tampal dengan Ctrl+V, seret ke tetingkap, atau klik kanan dalam File Explorer dan pilih \"Clean with PhotoCleaner+\" — dan pengesanan bermula sendiri. Apl menanda bahagian yang kelihatan seperti data peribadi, seperti nombor telefon, e-mel, nombor kad, IBAN, nombor pasport dan MRZ, nombor pendaftaran penduduk, warga asing, perniagaan dan lesen memandu Korea, nama, alamat dan nombor plat kenderaan Korea, wajah (paling baik untuk wajah dari hadapan), kod QR dan kod bar, serta perkataan yang sentiasa disembunyikan yang anda tambah. Pengesanan hanyalah titik permulaan, bukan jaminan: klik kotak untuk menghidupkan atau mematikan topengnya, seret untuk mengalih atau mengubah saiz, dan tutup sendiri apa yang terlepas. Teks dibaca menggunakan bahasa pengecaman teks yang dipasang dalam Windows, jadi dokumen Korea memerlukan bahasa Korea dipasang. Semasa eksport, setiap kotak ditutup dengan topeng pekat dan legap — bukan kabur — dan skrin hasil membolehkan anda Simpan (JPEG atau PNG), Salin, Kongsi, Simpan PDF atau Cetak. Salinan yang disimpan dikodkan semula daripada piksel, jadi EXIF, lokasi GPS dan masa tangkapan tidak disertakan; fail asal tidak pernah diubah, dan tiada tera air. Semuanya berjalan pada PC anda tanpa akaun dan tanpa muat naik, dan apl tidak menyimpan senarai fail terkini.",
+      "features": [
+        "Mengesan nombor telefon, e-mel, nombor kad, IBAN, nombor pasport dan MRZ, nombor pengenalan Korea, nama, alamat, nombor plat Korea, wajah dan kod QR",
+        "Semak setiap kotak sebelum eksport: klik untuk hidup/mati, seret untuk alih, seret tepi untuk saiz, lukis sendiri, Buat asal mana-mana langkah",
+        "Buka foto, tangkapan skrin dan PDF dengan seret dan lepas, Ctrl+V, atau klik kanan \"Clean with PhotoCleaner+\" dalam File Explorer",
+        "Topeng pekat dan legap — bukan kabur — dan tiada tera air; Simpan (JPEG/PNG), Salin, Kongsi, Simpan PDF, Cetak",
+        "Salinan tanpa EXIF, lokasi GPS atau metadata lain, dan fail asal tidak pernah ditulis ganti",
+        "Semuanya pada PC anda: tiada akaun, tiada muat naik, tiada senarai fail terkini. Tema cerah dan gelap, 21 bahasa"
+      ],
+      "faq": [
+        {
+          "q": "Adakah ini aplikasi yang sama dengan PhotoCleaner+ di Android?",
+          "a": "Ia idea yang sama dibina untuk Windows: kesan maklumat peribadi, semak kotak, kemudian eksport salinan bertutup pekat. Pengesanan menggunakan pengecaman teks dan wajah terbina dalam Windows, bukan milik telefon, jadi hasilnya serupa tetapi tidak sama sepenuhnya. Setiap versi dipasang dari gedungnya sendiri."
+        },
+        {
+          "q": "Adakah semua maklumat peribadi pasti dikesan?",
+          "a": "Tiada alat yang boleh menjanjikannya. Pengesanan hanyalah titik permulaan: sentiasa semak tutupan sebelum mengeksport dan tutup sendiri apa yang terlepas. Teks dibaca menggunakan bahasa pengecaman teks yang dipasang dalam Windows — nombor pengenalan, nama dan alamat Korea memerlukan bahasa Korea dipasang, dan skrin Tetapan menunjukkan bahasa yang anda ada."
+        },
+        {
+          "q": "Adakah fail saya dimuat naik, atau fail asal berubah?",
+          "a": "Kedua-duanya tidak. Pengesanan, penutupan dan eksport semuanya berjalan pada PC anda tanpa akaun dan tanpa muat naik. Penutupan dibuat pada salinan, apl enggan menyimpan di atas fail asal, dan salinan yang disimpan dikodkan semula supaya tidak membawa metadata fail asal."
+        }
+      ]
     }
   }
 }

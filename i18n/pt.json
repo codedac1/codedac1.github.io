@@ -484,6 +484,36 @@
           "a": "Sim. Você pode criar quantos timers, contadores e cronômetros quiser — a lista nunca tem limite — e a versão para Windows não tem anúncios. A versão gratuita mantém um cartão flutuando por vez. O Pro é compra única, não assinatura, e acrescenta cartões flutuantes ilimitados, timers que se repetem, qualquer cor e o seu próprio som de alerta ou um alerta em tela cheia."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Privacidade",
+      "seo": "ocultar dados em PDF",
+      "desc": "Oculte dados pessoais em fotos, capturas de tela e PDFs no seu PC antes de compartilhar.",
+      "tagline": "Encontre dados pessoais em fotos, capturas e PDFs, confira cada caixa e exporte uma cópia com máscara sólida e sem metadados — tudo no seu PC.",
+      "long": "O PhotoCleaner+ for Windows é a versão para desktop do app PhotoCleaner+ para Android. Abra uma foto, uma captura de tela ou um PDF — ou cole com Ctrl+V, arraste para a janela ou clique com o botão direito no Explorador de Arquivos → «Clean with PhotoCleaner+» — e a detecção começa sozinha. Ele marca com caixas o que parece dado pessoal: telefones, e-mails, números de cartão, IBAN, números de passaporte e MRZ, números coreanos de registro de residente, de estrangeiro, empresarial e da carteira de motorista, nomes, endereços e placas coreanos, rostos (rostos de frente funcionam melhor) e códigos QR, além das palavras a sempre ocultar que você adicionar. A detecção é um ponto de partida, não uma garantia: clique em uma caixa para ativar ou desativar, arraste para mover ou redimensionar e cubra você mesmo o que tiver escapado. O texto é lido com os idiomas de reconhecimento de texto instalados no Windows. Ao exportar, cada caixa recebe uma máscara sólida e opaca, não um desfoque, e no resultado você pode Salvar (JPEG ou PNG), Copiar, Compartilhar, Salvar PDF ou Imprimir. A cópia salva é recodificada a partir dos pixels, então EXIF, localização GPS e hora da captura não entram; o original nunca é alterado e não há marca d'água. Tudo acontece no seu PC, sem conta e sem envio, e o app não guarda lista de arquivos recentes.",
+      "features": [
+        "Detecta telefones, e-mails, números de cartão, IBAN, passaportes e MRZ, documentos coreanos, nomes, endereços e placas coreanos, rostos e códigos QR",
+        "Confira cada caixa antes de exportar: clique para ativar, arraste para mover, borda para redimensionar, desenhe suas máscaras, Desfazer",
+        "Abra fotos, capturas e PDFs arrastando, com Ctrl+V ou com o clique direito «Clean with PhotoCleaner+» no Explorador",
+        "Máscaras sólidas e opacas, não desfoque, e sem marca d'água; Salvar (JPEG/PNG), Copiar, Compartilhar, Salvar PDF, Imprimir",
+        "Cópias sem EXIF, localização ou metadados; o original nunca é substituído",
+        "Tudo no seu PC: sem conta, sem envio, sem lista de arquivos recentes. Tema claro e escuro, 21 idiomas"
+      ],
+      "faq": [
+        {
+          "q": "É o mesmo aplicativo do PhotoCleaner+ no Android?",
+          "a": "É a mesma ideia feita para Windows: encontrar dados pessoais, conferir as caixas e exportar uma cópia com máscara sólida. A detecção usa o reconhecimento de texto e de rostos do próprio Windows em vez do celular, então os resultados são parecidos, mas não idênticos. Cada versão é instalada pela sua própria loja."
+        },
+        {
+          "q": "Ele encontra todos os dados pessoais?",
+          "a": "Nenhuma ferramenta pode prometer isso. A detecção é um ponto de partida: confira sempre a máscara antes de exportar e cubra você mesmo o que tiver escapado. O texto é lido com os idiomas de reconhecimento instalados no Windows, que você vê em Configurações; documentos coreanos precisam do idioma coreano."
+        },
+        {
+          "q": "Meus arquivos são enviados ou o original é alterado?",
+          "a": "Nem uma coisa nem outra. Detecção, máscara e exportação acontecem no seu PC, sem conta e sem enviar nada. A máscara é aplicada a uma cópia, o app não salva por cima do original e as cópias salvas são recodificadas, sem os metadados do original."
+        }
+      ]
     }
   }
 }

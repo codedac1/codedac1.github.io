@@ -41,7 +41,8 @@
     "slug": "photocleaner",
     "name": "PhotoCleaner+",
     "shots": 4,
-    "store": "https://play.google.com/store/apps/details?id=com.codedac.photocleaner"
+    "store": "https://play.google.com/store/apps/details?id=com.codedac.photocleaner",
+    "counterpart": "photocleanerwin"
   },
   {
     "slug": "readfocus",
@@ -88,5 +89,13 @@
     "store": "https://apps.microsoft.com/detail/9P3CTX3SXTGW",
     "platform": "windows",
     "counterpart": "floattimer"
+  },
+  {
+    "slug": "photocleanerwin",
+    "name": "PhotoCleaner+ for Windows",
+    "shots": 4,
+    "store": "",
+    "platform": "windows",
+    "counterpart": "photocleaner"
   }
 ]

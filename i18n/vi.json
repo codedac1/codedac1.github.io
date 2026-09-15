@@ -484,6 +484,36 @@
           "a": "Có. Bạn có thể tạo bao nhiêu bộ hẹn giờ, bộ đếm và đồng hồ bấm giờ tuỳ thích — danh sách không bao giờ bị giới hạn — và bản Windows không có quảng cáo. Bản miễn phí cho nổi một thẻ trên màn hình tại một thời điểm. Pro là mua một lần chứ không phải thuê bao, thêm số thẻ nổi không giới hạn, hẹn giờ lặp lại, màu tuỳ ý và âm báo riêng hoặc cảnh báo toàn màn hình."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Quyền riêng tư",
+      "seo": "Che thông tin trên PC",
+      "desc": "Che thông tin cá nhân trên ảnh, ảnh chụp màn hình và PDF ngay trên PC trước khi chia sẻ.",
+      "tagline": "Tìm thông tin cá nhân trên ảnh, ảnh chụp màn hình và PDF, kiểm tra từng ô rồi xuất bản sao che đặc không có siêu dữ liệu — tất cả trên PC của bạn.",
+      "long": "PhotoCleaner+ for Windows là phiên bản máy tính của ứng dụng PhotoCleaner+ trên Android. Mở ảnh, ảnh chụp màn hình hoặc PDF — hay dán bằng Ctrl+V, kéo thả vào cửa sổ, hoặc nhấp chuột phải trong File Explorer và chọn \"Clean with PhotoCleaner+\" — việc phát hiện sẽ tự bắt đầu. Ứng dụng đóng khung những chỗ trông giống thông tin cá nhân như số điện thoại, email, số thẻ, IBAN, số hộ chiếu và MRZ, các số đăng ký cư dân, người nước ngoài, kinh doanh và giấy phép lái xe của Hàn Quốc, tên, địa chỉ và biển số xe Hàn Quốc, khuôn mặt (nhận tốt nhất với mặt nhìn thẳng), mã QR và mã vạch, cùng những Từ luôn che mà bạn thêm vào. Phát hiện tự động chỉ là điểm khởi đầu, không đảm bảo tìm được hết: nhấp vào ô để bật hoặc tắt lớp che, kéo để di chuyển hay đổi kích thước, và tự kéo che những chỗ còn sót. Văn bản được đọc bằng các ngôn ngữ nhận dạng văn bản đã cài trong Windows, nên giấy tờ Hàn Quốc cần cài tiếng Hàn. Khi xuất, mọi ô được phủ lớp màu đặc, không xuyên thấu — không phải làm mờ — và màn hình kết quả cho phép Lưu (JPEG hoặc PNG), Sao chép, Chia sẻ, Lưu PDF hoặc In. Bản lưu được mã hóa lại từ điểm ảnh nên không kèm EXIF, vị trí GPS hay thời gian chụp; tệp gốc không bao giờ bị sửa, và không có hình mờ. Mọi thứ chạy trên PC của bạn, không tài khoản, không tải lên, và ứng dụng không lưu danh sách tệp gần đây.",
+      "features": [
+        "Phát hiện số điện thoại, email, số thẻ, IBAN, số hộ chiếu và MRZ, số giấy tờ Hàn Quốc, tên, địa chỉ, biển số xe Hàn Quốc, khuôn mặt và mã QR",
+        "Kiểm tra từng ô trước khi xuất: nhấp để bật tắt, kéo để di chuyển, kéo cạnh để đổi cỡ, tự kéo che, Hoàn tác bất kỳ bước nào",
+        "Mở ảnh, ảnh chụp màn hình và PDF bằng kéo thả, Ctrl+V hoặc nhấp chuột phải \"Clean with PhotoCleaner+\" trong File Explorer",
+        "Lớp che màu đặc, không xuyên thấu — không phải làm mờ — và không hình mờ; Lưu (JPEG/PNG), Sao chép, Chia sẻ, Lưu PDF, In",
+        "Bản sao không có EXIF, vị trí GPS hay siêu dữ liệu khác, và tệp gốc không bao giờ bị ghi đè",
+        "Tất cả trên PC: không tài khoản, không tải lên, không danh sách tệp gần đây. Giao diện sáng và tối, 21 ngôn ngữ"
+      ],
+      "faq": [
+        {
+          "q": "Đây có phải cùng một ứng dụng với PhotoCleaner+ trên Android không?",
+          "a": "Đây là cùng một ý tưởng được dựng cho Windows: tìm thông tin cá nhân, kiểm tra các ô, rồi xuất bản sao che đặc. Việc phát hiện dùng tính năng nhận dạng văn bản và khuôn mặt có sẵn trong Windows thay cho bộ nhận dạng của điện thoại, nên kết quả tương tự nhưng không hoàn toàn giống. Mỗi phiên bản được cài từ cửa hàng riêng."
+        },
+        {
+          "q": "Ứng dụng có tìm được mọi thông tin cá nhân không?",
+          "a": "Không công cụ nào có thể hứa điều đó. Phát hiện tự động chỉ là điểm khởi đầu: hãy luôn kiểm tra lớp che trước khi xuất và tự kéo che những chỗ còn sót. Văn bản được đọc bằng các ngôn ngữ nhận dạng văn bản đã cài trong Windows — số giấy tờ, tên và địa chỉ Hàn Quốc cần cài tiếng Hàn, và phần Cài đặt cho biết bạn đã cài những ngôn ngữ nào."
+        },
+        {
+          "q": "Tệp của tôi có bị tải lên, hay tệp gốc có bị thay đổi không?",
+          "a": "Không cả hai. Phát hiện, che và xuất đều chạy trên PC của bạn, không tài khoản và không tải lên gì cả. Việc che được thực hiện trên bản sao, ứng dụng không cho lưu đè lên tệp gốc, và bản lưu được mã hóa lại nên không mang siêu dữ liệu của tệp gốc."
+        }
+      ]
     }
   }
 }

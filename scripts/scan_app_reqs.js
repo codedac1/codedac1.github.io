@@ -24,6 +24,7 @@ const ANDROID_PROJECT = {
 const WINDOWS_PROJECT = {
   clipboardwin: 'ClipboardWin', readfocuswin: 'ReadFocusWin',
   floatnotewin: 'FloatNoteWin', floattimerwin: 'FloatTimerWin',
+  photocleanerwin: 'PhotoCleanerWin',
 };
 
 // API 레벨 → 사용자에게 보이는 Android 버전

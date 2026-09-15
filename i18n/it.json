@@ -484,6 +484,36 @@
           "a": "Sì. Puoi creare tutti i timer, i contatori e i cronometri che vuoi — l'elenco non ha mai limiti — e la versione Windows non ha pubblicità. La versione gratuita tiene una scheda flottante alla volta. Pro è un acquisto una tantum, non un abbonamento, e aggiunge schede flottanti illimitate, timer che si ripetono, qualsiasi colore e un suono di avviso a tua scelta o un avviso a schermo intero."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Privacy",
+      "seo": "oscurare dati nei PDF",
+      "desc": "Nascondi i dati personali in foto, screenshot e PDF sul tuo PC, prima di condividere.",
+      "tagline": "Trova i dati personali in foto, screenshot e PDF, controlla ogni riquadro ed esporta una copia mascherata senza metadati, tutto sul tuo PC.",
+      "long": "PhotoCleaner+ for Windows è la versione desktop dell’app Android PhotoCleaner+. Apri una foto, uno screenshot o un PDF, oppure incollalo con Ctrl+V, trascinalo nella finestra o fai clic destro in Esplora file → «Clean with PhotoCleaner+»: il rilevamento parte da solo. Riquadra ciò che sembra un dato personale: numeri di telefono, email, numeri di carta, IBAN, numeri di passaporto e MRZ, numeri coreani di registrazione dei residenti, per stranieri, dell’impresa e di patente, nomi, indirizzi e targhe coreani, volti (i volti frontali funzionano meglio) e codici QR, oltre alle parole da nascondere sempre che aggiungi tu. Il rilevamento è un punto di partenza, non una garanzia: fai clic su un riquadro per attivarlo o disattivarlo, trascinalo per spostarlo o ridimensionarlo e copri tu ciò che è sfuggito. Il testo viene letto con le lingue di riconoscimento del testo installate in Windows. All’esportazione ogni riquadro viene coperto da una maschera piena e opaca, non una sfocatura, e nel risultato puoi scegliere Salva (JPEG o PNG), Copia, Condividi, Salva PDF o Stampa. La copia salvata viene ricodificata dai pixel, quindi EXIF, posizione GPS e data di scatto non sono inclusi; l’originale non viene mai modificato e non c’è filigrana. Tutto avviene sul tuo PC, senza account e senza caricamenti, e l’app non tiene un elenco dei file recenti.",
+      "features": [
+        "Rileva numeri di telefono, email, numeri di carta, IBAN, passaporti e MRZ, numeri d’identità coreani, nomi, indirizzi e targhe coreani, volti e codici QR",
+        "Controlla ogni riquadro prima di esportare: clic per attivare, trascina per spostare, bordo per ridimensionare, disegna le tue maschere, Annulla",
+        "Apri foto, screenshot e PDF trascinandoli, con Ctrl+V o con il clic destro «Clean with PhotoCleaner+» in Esplora file",
+        "Maschere piene e opache, non sfocatura, e nessuna filigrana; Salva (JPEG/PNG), Copia, Condividi, Salva PDF, Stampa",
+        "Copie senza EXIF, posizione né metadati; l’originale non viene mai sovrascritto",
+        "Tutto sul tuo PC: nessun account, nessun caricamento, nessun elenco di file recenti. Tema chiaro e scuro, 21 lingue"
+      ],
+      "faq": [
+        {
+          "q": "È la stessa app di PhotoCleaner+ su Android?",
+          "a": "È la stessa idea realizzata per Windows: trova i dati personali, controlli i riquadri ed esporti una copia coperta da una maschera piena. Il rilevamento usa il riconoscimento del testo e dei volti integrato in Windows invece di quello del telefono, quindi i risultati sono simili ma non identici. Ogni versione si installa dal proprio store."
+        },
+        {
+          "q": "Trova tutti i dati personali?",
+          "a": "Nessuno strumento può promettertelo. Il rilevamento è un punto di partenza: controlla sempre il mascheramento prima di esportare e copri tu ciò che è sfuggito. Il testo viene letto con le lingue di riconoscimento installate in Windows, che trovi nelle Impostazioni; i documenti coreani richiedono la lingua coreana."
+        },
+        {
+          "q": "I miei file vengono caricati o l’originale viene modificato?",
+          "a": "Né l’una né l’altra cosa. Rilevamento, mascheramento ed esportazione avvengono sul tuo PC, senza account e senza caricare nulla. La maschera si applica a una copia, l’app non salva sopra l’originale e le copie salvate vengono ricodificate, quindi non contengono i metadati dell’originale."
+        }
+      ]
     }
   }
 }

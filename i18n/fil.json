@@ -484,6 +484,36 @@
           "a": "Oo. Makakagawa ka ng kahit ilang timer, counter at stopwatch — walang limitasyon ang listahan — at walang ads ang bersyong Windows. Isang card lang ang pinalulutang ng libreng bersyon sa screen nang sabay. Ang Pro ay isahang bayad, hindi subscription, at nagdaragdag ng walang limitasyong lumulutang na card, umuulit na timer, kahit anong kulay, at sarili mong alert sound o full-screen alert."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Privacy",
+      "seo": "Redact Photo sa PC",
+      "desc": "Itago ang personal na impormasyon sa mga larawan, screenshot at PDF sa iyong PC bago ibahagi.",
+      "tagline": "Hanapin ang personal na impormasyon sa mga larawan, screenshot at PDF, suriin ang bawat kahon, at i-export ang kopyang solidong natakpan nang walang metadata — lahat sa iyong PC.",
+      "long": "Ang PhotoCleaner+ for Windows ay ang desktop na bersyon ng PhotoCleaner+ app sa Android. Magbukas ng larawan, screenshot o PDF — o i-paste gamit ang Ctrl+V, i-drag sa window, o i-right-click sa File Explorer at piliin ang \"Clean with PhotoCleaner+\" — at kusang nagsisimula ang pagtuklas. Minamarkahan nito ang mga bahaging mukhang personal na datos, gaya ng numero ng telepono, email, numero ng card, IBAN, numero ng pasaporte at MRZ, mga numero ng rehistro ng residente, dayuhan, negosyo at driver's license sa Korea, mga pangalan, address at plaka ng sasakyan sa Korea, mukha (pinakamahusay sa mukhang nakaharap), QR code at barcode, pati ang mga salitang laging itatago na idinagdag mo. Ang awtomatikong pagtuklas ay panimula, hindi garantiya: i-click ang kahon para i-on o i-off ang mask nito, i-drag para ilipat o baguhin ang laki, at takpan mismo ang anumang nakaligtaan. Binabasa ang text gamit ang mga wika sa pagkilala ng text na naka-install sa Windows, kaya kailangan ng naka-install na wikang Korean para sa mga dokumentong Korean. Sa pag-export, tinatakpan ang bawat kahon ng solido at hindi tinatagusang mask — hindi blur — at sa screen ng resulta ay maaari kang I-save (JPEG o PNG), Kopyahin, Ibahagi, I-save ang PDF o I-print. Ang na-save na kopya ay muling ini-encode mula sa pixel, kaya hindi kasama ang EXIF, GPS na lokasyon at oras ng pagkuha; hindi kailanman binabago ang orihinal, at walang watermark. Tumatakbo ang lahat sa iyong PC nang walang account at walang upload, at hindi nag-iingat ang app ng listahan ng mga kamakailang file.",
+      "features": [
+        "Tinutuklas ang numero ng telepono, email, numero ng card, IBAN, numero ng pasaporte at MRZ, mga ID number ng Korea, pangalan, address, plaka sa Korea, mukha at QR code",
+        "Suriin ang bawat kahon bago i-export: i-click para i-on/off, i-drag para ilipat, i-drag ang gilid para sa laki, gumuhit ng sarili, I-undo ang anumang hakbang",
+        "Buksan ang mga larawan, screenshot at PDF sa pag-drag at drop, Ctrl+V, o i-right-click ang \"Clean with PhotoCleaner+\" sa File Explorer",
+        "Solido at hindi tinatagusang mask — hindi blur — at walang watermark; I-save (JPEG/PNG), Kopyahin, Ibahagi, I-save ang PDF, I-print",
+        "Mga kopyang walang EXIF, GPS na lokasyon o ibang metadata, at hindi kailanman ino-overwrite ang orihinal",
+        "Lahat sa iyong PC: walang account, walang upload, walang listahan ng kamakailang file. Light at dark theme, 21 wika"
+      ],
+      "faq": [
+        {
+          "q": "Pareho ba ito sa PhotoCleaner+ sa Android?",
+          "a": "Parehong ideya, ginawa para sa Windows: hanapin ang personal na impormasyon, suriin ang mga kahon, at i-export ang kopyang solidong natakpan. Gumagamit ang pagtuklas ng pagkilala ng text at mukha na built-in sa Windows sa halip ng nasa telepono, kaya magkahawig ang resulta pero hindi lubos na magkapareho. Hiwalay na ini-install ang bawat bersyon mula sa sariling store."
+        },
+        {
+          "q": "Mahahanap ba nito ang bawat personal na impormasyon?",
+          "a": "Walang tool na makapangangako ng iyon. Ang pagtuklas ay panimula: palaging suriin ang pagtatakip bago i-export at takpan mismo ang anumang nakaligtaan. Binabasa ang text gamit ang mga wika sa pagkilala ng text na naka-install sa Windows — kailangan ng wikang Korean para sa mga ID number, pangalan at address sa Korea, at makikita sa Settings ang mga wikang naka-install."
+        },
+        {
+          "q": "Ina-upload ba ang mga file ko, o binabago ba ang orihinal?",
+          "a": "Hindi, pareho. Tumatakbo sa iyong PC ang pagtuklas, pagtatakip at pag-export nang walang account at walang upload. Ginagawa ang pagtatakip sa kopya, tumatanggi ang app na mag-save sa ibabaw ng orihinal, at muling ini-encode ang na-save na kopya kaya walang metadata ng orihinal."
+        }
+      ]
     }
   }
 }

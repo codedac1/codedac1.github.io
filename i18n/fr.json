@@ -484,6 +484,36 @@
           "a": "Oui. Vous pouvez créer autant de minuteurs, compteurs et chronomètres que vous voulez — la liste n'est jamais limitée — et la version Windows est sans publicité. La version gratuite fait flotter une carte à la fois. Pro est un achat unique, pas un abonnement, et ajoute les cartes flottantes illimitées, la répétition automatique des minuteurs, la couleur de votre choix ainsi que votre propre son d'alerte ou une alerte en plein écran."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Confidentialité",
+      "seo": "Caviarder PDF et image",
+      "desc": "Masquez les infos personnelles de vos photos, captures et PDF sur votre PC avant de les partager.",
+      "tagline": "Repérez les informations personnelles dans vos photos, captures d'écran et PDF, vérifiez chaque cadre et exportez une copie au masque opaque, sans métadonnées — le tout sur votre PC.",
+      "long": "PhotoCleaner+ for Windows est la version de bureau de l'application Android PhotoCleaner+. Ouvrez une photo, une capture d'écran ou un PDF — ou collez-le avec Ctrl+V, glissez-le dans la fenêtre, ou faites un clic droit dans l'Explorateur de fichiers et choisissez « Clean with PhotoCleaner+ » — et la détection démarre d'elle-même. Elle encadre les numéros de téléphone, adresses e-mail, numéros de carte, IBAN, numéros de passeport et la MRZ, les numéros coréens d'enregistrement de résident, d'étranger, d'entreprise et de permis de conduire, les noms, adresses et plaques d'immatriculation coréens, les visages (les visages de face fonctionnent le mieux), les codes QR et codes-barres, ainsi que vos mots à toujours masquer. La détection est un point de départ, pas une garantie : cliquez sur un cadre pour activer ou désactiver son masque, faites-le glisser pour le déplacer ou tirez sur son bord pour le redimensionner, et couvrez vous-même ce qui aurait échappé. Le texte est lu avec les langues de reconnaissance de texte installées dans Windows ; les documents coréens nécessitent donc la langue coréenne. À l'export, chaque cadre est couvert d'un masque uni et opaque — pas un flou — et l'écran de résultat permet d'Enregistrer (JPEG ou PNG), Copier, Partager, Enregistrer en PDF ou Imprimer. La copie enregistrée est réencodée à partir des pixels : ni EXIF, ni position GPS, ni heure de prise de vue ; l'original n'est jamais modifié, et il n'y a pas de filigrane. Tout se passe sur votre PC, sans compte ni envoi, et l'application ne garde aucune liste de fichiers récents.",
+      "features": [
+        "Repère téléphones, e-mails, numéros de carte, IBAN, numéros de passeport et MRZ, numéros d'identité, noms, adresses et plaques coréens, visages et codes QR",
+        "Vérifiez chaque cadre avant l'export : clic pour activer, glisser pour déplacer, bord pour redimensionner, masques dessinés à la main, Annuler",
+        "Ouvrez photos, captures et PDF par glisser-déposer, Ctrl+V ou clic droit « Clean with PhotoCleaner+ » dans l'Explorateur",
+        "Masques unis et opaques, pas de flou, sans filigrane — Enregistrer (JPEG/PNG), Copier, Partager, Enregistrer en PDF, Imprimer",
+        "Copies enregistrées sans EXIF, position GPS ni autres métadonnées ; l'original n'est jamais écrasé",
+        "Tout sur votre PC : sans compte, sans envoi, sans liste de fichiers récents. Thème clair et sombre, 21 langues"
+      ],
+      "faq": [
+        {
+          "q": "Est-ce la même application que PhotoCleaner+ sur Android ?",
+          "a": "C'est la même application conçue pour Windows : repérer les informations personnelles, vérifier les cadres, exporter une copie au masque opaque. La détection utilise la reconnaissance de texte et de visages intégrée à Windows plutôt que celle du téléphone : les résultats sont proches, mais pas identiques. Chaque version s'installe depuis sa propre boutique."
+        },
+        {
+          "q": "Va-t-elle trouver toutes les informations personnelles ?",
+          "a": "Aucun outil ne peut le promettre. La détection est un point de départ : vérifiez toujours le masquage avant d'exporter et couvrez vous-même ce qui aurait échappé. Le texte est lu avec les langues de reconnaissance installées dans Windows — les numéros d'identité, noms et adresses coréens nécessitent la langue coréenne, et les Paramètres indiquent les langues installées."
+        },
+        {
+          "q": "Mes fichiers sont-ils envoyés, ou l'original est-il modifié ?",
+          "a": "Ni l'un ni l'autre. Détection, masquage et export se font sur votre PC, sans compte et sans rien envoyer. Le masquage s'applique à une copie, l'application refuse d'enregistrer par-dessus l'original, et les copies enregistrées sont réencodées : elles ne contiennent aucune métadonnée de l'original."
+        }
+      ]
     }
   }
 }

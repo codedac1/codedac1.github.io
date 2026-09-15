@@ -484,6 +484,36 @@
           "a": "Tak. Możesz utworzyć dowolnie wiele minutników, liczników i stoperów — lista nigdy nie jest ograniczona — a wersja na Windows nie ma reklam. W wersji bezpłatnej na ekranie pływa jedna karteczka naraz. Pro to jednorazowy zakup, nie subskrypcja, i dodaje nieograniczoną liczbę pływających karteczek, automatyczne powtarzanie minutników, dowolny kolor oraz własny dźwięk alarmu lub alert pełnoekranowy."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Prywatność",
+      "seo": "Ukrywanie danych na PC",
+      "desc": "Ukryj dane osobowe na zdjęciach, zrzutach ekranu i w PDF na swoim PC, zanim je udostępnisz.",
+      "tagline": "Znajdź dane osobowe na zdjęciach, zrzutach i w PDF, sprawdź każdą ramkę i wyeksportuj kopię z pełną maską, bez metadanych — wszystko na Twoim PC.",
+      "long": "PhotoCleaner+ for Windows to wersja na komputer aplikacji PhotoCleaner+ na Androida. Otwórz zdjęcie, zrzut ekranu lub PDF — albo wklej go przez Ctrl+V, przeciągnij do okna lub kliknij prawym przyciskiem w Eksploratorze plików → „Clean with PhotoCleaner+” — a wykrywanie wystartuje samo. Aplikacja obrysowuje ramkami to, co wygląda na dane osobowe: numery telefonów, e-maile, numery kart, IBAN, numery paszportów i MRZ, koreańskie numery rejestracyjne mieszkańca, cudzoziemca, firmy i prawa jazdy, koreańskie imiona i nazwiska, adresy i tablice rejestracyjne, twarze (najlepiej widziane na wprost) i kody QR, a także słowa zawsze ukrywane, które sam dodasz. Wykrywanie to punkt wyjścia, a nie gwarancja: kliknij ramkę, aby włączyć lub wyłączyć maskę, przeciągnij ją, aby przesunąć lub zmienić rozmiar, i sam zakryj to, co zostało pominięte. Tekst jest odczytywany w językach rozpoznawania tekstu zainstalowanych w Windows. Przy eksporcie każda ramka zostaje zakryta jednolitą, nieprzezroczystą maską — nie rozmyciem — a w wyniku wybierasz Zapisz (JPEG lub PNG), Kopiuj, Udostępnij, Zapisz PDF lub Drukuj. Zapisana kopia jest kodowana od nowa z pikseli, więc EXIF, lokalizacja GPS i czas wykonania do niej nie trafiają; oryginał nigdy nie jest zmieniany i nie ma znaku wodnego. Wszystko dzieje się na Twoim PC, bez konta i bez przesyłania, a aplikacja nie prowadzi listy ostatnich plików.",
+      "features": [
+        "Wykrywa numery telefonów, e-maile, numery kart, IBAN, paszporty i MRZ, koreańskie numery identyfikacyjne, imiona, adresy i tablice, twarze i kody QR",
+        "Sprawdź każdą ramkę przed eksportem: kliknij, aby przełączyć, przeciągnij, zmień rozmiar za krawędź, rysuj własne maski, Cofnij",
+        "Otwieraj zdjęcia, zrzuty ekranu i PDF przeciągnięciem, przez Ctrl+V lub prawym klikiem „Clean with PhotoCleaner+” w Eksploratorze",
+        "Jednolite, nieprzezroczyste maski zamiast rozmycia, bez znaku wodnego; Zapisz (JPEG/PNG), Kopiuj, Udostępnij, Zapisz PDF, Drukuj",
+        "Kopie bez EXIF, lokalizacji i metadanych; oryginał nigdy nie jest nadpisywany",
+        "Wszystko na Twoim PC: bez konta, bez przesyłania, bez listy ostatnich plików. Jasny i ciemny motyw, 21 języków"
+      ],
+      "faq": [
+        {
+          "q": "Czy to ta sama aplikacja co PhotoCleaner+ na Androida?",
+          "a": "To ten sam pomysł zbudowany dla Windows: znajdź dane osobowe, sprawdź ramki i wyeksportuj kopię z pełną maską. Wykrywanie korzysta z wbudowanego w Windows rozpoznawania tekstu i twarzy zamiast mechanizmów telefonu, więc wyniki są podobne, ale nie identyczne. Każdą wersję instaluje się z jej własnego sklepu."
+        },
+        {
+          "q": "Czy znajdzie wszystkie dane osobowe?",
+          "a": "Żadne narzędzie nie może tego obiecać. Wykrywanie to punkt wyjścia: zawsze sprawdź maskowanie przed eksportem i sam zakryj to, co zostało pominięte. Tekst jest odczytywany w językach rozpoznawania zainstalowanych w Windows — zobaczysz je w Ustawieniach; koreańskie dokumenty wymagają języka koreańskiego."
+        },
+        {
+          "q": "Czy moje pliki są przesyłane albo oryginał jest zmieniany?",
+          "a": "Ani jedno, ani drugie. Wykrywanie, maskowanie i eksport działają na Twoim PC, bez konta i bez przesyłania czegokolwiek. Maska trafia na kopię, aplikacja nie zapisuje na oryginale, a zapisane kopie są kodowane od nowa, bez metadanych oryginału."
+        }
+      ]
     }
   }
 }

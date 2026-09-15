@@ -484,6 +484,36 @@
           "a": "Yes. You can make as many timers, counters and stopwatches as you like — the list is never limited — and the Windows version has no ads. The free version floats one card on screen at a time. Pro is a one-time purchase — not a subscription — and adds unlimited floating cards, repeating timers, any color you like, and your own alert sound or a full-screen alert."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Privacy",
+      "seo": "Photo & PDF Redaction",
+      "desc": "Hide personal info in photos, screenshots and PDFs on your PC before you share.",
+      "tagline": "Find personal info in photos, screenshots and PDFs, check every box, and export a solidly masked copy with no metadata — all on your PC.",
+      "long": "PhotoCleaner+ for Windows is the desktop version of the Android PhotoCleaner+ app. Open a photo, a screenshot or a PDF — or paste one with Ctrl+V, drag it onto the window, or right-click it in File Explorer and choose \"Clean with PhotoCleaner+\" — and detection starts on its own. It boxes likely personal info such as phone numbers, emails, card numbers, IBAN, passport numbers and the MRZ, Korean IDs, names, addresses and license plates, faces (frontal faces work best) and QR codes, plus any words you set to always hide. Detection is a starting point, not a guarantee: click a box to turn it on or off, drag to move or resize it, and draw your own over anything that was missed. Text is read by the recognition languages installed in Windows, so Korean documents need the Korean language installed. Export covers every box with a solid, opaque mask — not a blur — and the result screen lets you Save as JPEG or PNG, Copy, Share, Save PDF or Print. Saved copies are encoded fresh from the pixels, so no EXIF, GPS location or capture time comes along; your original is never modified, and there is no watermark. Everything runs on your PC with no account and no upload, and the app keeps no list of recent files.",
+      "features": [
+        "Finds phone numbers, emails, card numbers, IBAN, passport numbers and MRZ, Korean IDs, names, addresses, license plates, faces and QR codes",
+        "Review every box before export: click to toggle, drag to move, drag an edge to resize, draw your own, Undo any step",
+        "Open photos, screenshots and PDFs by drag and drop, Ctrl+V, or right-click \"Clean with PhotoCleaner+\" in File Explorer",
+        "Solid, opaque masks — not a blur — and no watermark; Save as JPEG or PNG, Copy, Share, Save PDF and Print",
+        "Saved copies carry no EXIF, GPS location or other metadata, and your original is never overwritten",
+        "Fully on your PC: no account, no upload, no recent-files list. Light and dark theme, 21 languages"
+      ],
+      "faq": [
+        {
+          "q": "Is this the same app as PhotoCleaner+ on Android?",
+          "a": "It is the same idea built for Windows: find personal info, check the boxes, export a solidly masked copy. Detection uses the text and face recognition built into Windows instead of the phone's, so results are similar but not identical. Each version is installed from its own store."
+        },
+        {
+          "q": "Will it find every piece of personal info?",
+          "a": "No tool can promise that. Detection is a starting point: always check the masking before you export and draw a box over anything that was missed. Text is read with the recognition languages installed in Windows — Korean IDs, names and addresses need the Korean language installed, and the Settings screen shows which languages you have."
+        },
+        {
+          "q": "Are my files uploaded, or is the original changed?",
+          "a": "Neither. Detection, masking and export all run on your PC with no account and nothing uploaded. Masking works on a copy, the app refuses to save over the original, and saved copies are encoded fresh so they carry none of the original's metadata."
+        }
+      ]
     }
   }
 }

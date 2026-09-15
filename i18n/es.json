@@ -484,6 +484,36 @@
           "a": "Sí. Puedes crear todos los temporizadores, contadores y cronómetros que quieras — la lista nunca tiene límite — y la versión de Windows no tiene anuncios. La versión gratuita mantiene una tarjeta flotando a la vez. Pro es un pago único, no una suscripción, y añade tarjetas flotantes ilimitadas, temporizadores que se repiten, cualquier color y tu propio sonido de aviso o una alerta a pantalla completa."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Privacidad",
+      "seo": "ocultar datos en PDF",
+      "desc": "Oculta datos personales en fotos, capturas y PDF en tu PC antes de compartirlos.",
+      "tagline": "Encuentra datos personales en fotos, capturas y PDF, revisa cada recuadro y exporta una copia con máscara sólida y sin metadatos, todo en tu PC.",
+      "long": "PhotoCleaner+ for Windows es la versión de escritorio de la app PhotoCleaner+ para Android. Abre una foto, una captura de pantalla o un PDF —o pégalo con Ctrl+V, arrástralo a la ventana o haz clic derecho en el Explorador de archivos y elige «Clean with PhotoCleaner+»— y la detección empieza sola. Marca números de teléfono, correos electrónicos, números de tarjeta, IBAN, números de pasaporte y la MRZ, números coreanos de registro de residente, de extranjero, de empresa y de permiso de conducir, nombres, direcciones y matrículas coreanos, caras (funciona mejor con caras de frente), códigos QR y de barras, además de tus palabras a ocultar siempre. La detección es un punto de partida, no una garantía: haz clic en un recuadro para activar o desactivar su máscara, arrástralo para moverlo o tira de su borde para cambiar su tamaño, y tapa tú lo que se haya escapado. El texto se lee con los idiomas de reconocimiento de texto instalados en Windows, así que los documentos coreanos necesitan el idioma coreano instalado. Al exportar, cada recuadro se cubre con una máscara sólida y opaca —no un desenfoque— y en el resultado puedes Guardar (JPEG o PNG), Copiar, Compartir, Guardar PDF o Imprimir. La copia guardada se codifica de nuevo a partir de los píxeles, así que no lleva EXIF, ubicación GPS ni hora de captura; el original nunca se modifica y no hay marca de agua. Todo ocurre en tu PC, sin cuenta y sin subir nada, y la app no guarda una lista de archivos recientes.",
+      "features": [
+        "Detecta teléfonos, correos, números de tarjeta, IBAN, números de pasaporte y MRZ, números de identificación, nombres, direcciones y matrículas coreanos, caras y códigos QR",
+        "Revisa cada recuadro antes de exportar: clic para activar, arrastrar para mover, borde para redimensionar, tus propias máscaras y Deshacer",
+        "Abre fotos, capturas y PDF arrastrando y soltando, con Ctrl+V o con clic derecho «Clean with PhotoCleaner+» en el Explorador",
+        "Máscaras sólidas y opacas, no desenfoque, y sin marca de agua: Guardar (JPEG/PNG), Copiar, Compartir, Guardar PDF e Imprimir",
+        "Copias guardadas sin EXIF, ubicación GPS ni otros metadatos; el original nunca se sobrescribe",
+        "Todo en tu PC: sin cuenta, sin subir nada, sin lista de archivos recientes. Tema claro y oscuro, 21 idiomas"
+      ],
+      "faq": [
+        {
+          "q": "¿Es la misma aplicación que PhotoCleaner+ en Android?",
+          "a": "Es la misma aplicación creada para Windows: encontrar datos personales, revisar los recuadros y exportar una copia con máscara sólida. La detección usa el reconocimiento de texto y de caras integrado en Windows en lugar del del teléfono, así que los resultados son parecidos pero no idénticos. Cada versión se instala desde su propia tienda."
+        },
+        {
+          "q": "¿Encontrará todos los datos personales?",
+          "a": "Ninguna herramienta puede prometerlo. La detección es un punto de partida: revisa siempre el enmascarado antes de exportar y tapa tú lo que se haya escapado. El texto se lee con los idiomas de reconocimiento instalados en Windows; los números de identificación, nombres y direcciones coreanos necesitan el idioma coreano, y en Configuración puedes ver qué idiomas tienes."
+        },
+        {
+          "q": "¿Se suben mis archivos o se modifica el original?",
+          "a": "Ni lo uno ni lo otro. La detección, el enmascarado y la exportación se hacen en tu PC, sin cuenta y sin subir nada. El enmascarado se aplica sobre una copia, la app no permite guardar encima del original y las copias guardadas se codifican de nuevo, así que no llevan ningún metadato del original."
+        }
+      ]
     }
   }
 }

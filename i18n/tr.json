@@ -484,6 +484,36 @@
           "a": "Evet. İstediğiniz kadar zamanlayıcı, sayaç ve kronometre oluşturabilirsiniz — listede hiçbir sınır yok — ve Windows sürümünde reklam bulunmaz. Ücretsiz sürüm ekranda aynı anda bir kart gösterir. Pro, abonelik değil tek seferlik bir satın almadır; sınırsız kayan kart, kendini tekrarlayan zamanlayıcılar, dilediğiniz renk ve kendi uyarı sesiniz ya da tam ekran uyarı ekler."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Gizlilik",
+      "seo": "PDF karartma programı",
+      "desc": "Paylaşmadan önce fotoğraf, ekran görüntüsü ve PDF'lerdeki kişisel bilgileri bilgisayarınızda gizleyin.",
+      "tagline": "Fotoğraf, ekran görüntüsü ve PDF'lerdeki kişisel bilgileri bulun, her kutuyu kontrol edin ve meta verisiz, tamamen maskelenmiş bir kopya dışa aktarın — hepsi bilgisayarınızda.",
+      "long": "PhotoCleaner+ for Windows, Android'deki PhotoCleaner+ uygulamasının masaüstü sürümüdür. Bir fotoğraf, ekran görüntüsü veya PDF açın — ya da Ctrl+V ile yapıştırın, pencereye sürükleyip bırakın veya Dosya Gezgini'nde sağ tıklayıp “Clean with PhotoCleaner+” seçin — algılama kendiliğinden başlar. Telefon numaralarını, e-postaları, kart numaralarını, IBAN'ı, pasaport numaralarını ve MRZ'yi, Kore'ye ait nüfus kayıt, yabancı kayıt, işletme kayıt ve sürücü belgesi numaralarını, Korece adları, adresleri ve plakaları, yüzleri (en iyi önden çekilmiş yüzlerde çalışır), QR kodlarını ve barkodları, ayrıca her zaman gizlenecek kelimelerinizi kutuyla işaretler. Algılama bir başlangıç noktasıdır, garanti değildir: maskesini açıp kapatmak için kutuya tıklayın, taşımak veya boyutlandırmak için sürükleyin, gözden kaçanı kendiniz kapatın. Metin, Windows'ta yüklü metin tanıma dilleriyle okunur. Dışa aktarırken her kutu bulanıklaştırmayla değil, yekpare ve opak bir maskeyle kapatılır; sonuç ekranında Kaydet (JPEG veya PNG), Kopyala, Paylaş, PDF kaydet ve Yazdır seçenekleri vardır. Kaydedilen kopya piksellerden yeniden kodlanır, bu yüzden EXIF, GPS konumu ve çekim zamanı taşınmaz; orijinal asla değiştirilmez ve filigran yoktur. Her şey hesap ve yükleme olmadan bilgisayarınızda çalışır, son açılan dosyaların listesi tutulmaz.",
+      "features": [
+        "Telefon numaralarını, e-postaları, kart numaralarını, IBAN'ı, pasaport numaralarını ve MRZ'yi, Kore kimlik numaralarını, adları, adresleri, plakaları, yüzleri ve QR kodlarını bulur",
+        "Dışa aktarmadan önce her kutuyu kontrol edin: tıklayıp açın/kapatın, sürükleyip taşıyın, kenarından boyutlandırın, kendiniz çizin, geri alın",
+        "Fotoğraf, ekran görüntüsü ve PDF'leri sürükle-bırak, Ctrl+V veya Dosya Gezgini'nde sağ tık “Clean with PhotoCleaner+” ile açın",
+        "Bulanıklaştırma değil, yekpare opak maskeler ve filigran yok; Kaydet (JPEG/PNG), Kopyala, Paylaş, PDF kaydet, Yazdır",
+        "Kopyalarda EXIF, konum veya meta veri yok; orijinalin üzerine asla yazılmaz",
+        "Her şey bilgisayarınızda: hesap yok, yükleme yok, son dosyalar listesi yok. Açık ve koyu tema, 21 dil"
+      ],
+      "faq": [
+        {
+          "q": "Bu, Android'deki PhotoCleaner+ ile aynı uygulama mı?",
+          "a": "Aynı fikrin Windows için yapılmış hâli: kişisel bilgileri bulun, kutuları kontrol edin, tamamen maskelenmiş bir kopya dışa aktarın. Algılamada telefondaki motor yerine Windows'un yerleşik metin ve yüz tanıması kullanıldığı için sonuçlar benzerdir ama birebir aynı değildir. Her sürüm kendi mağazasından yüklenir."
+        },
+        {
+          "q": "Tüm kişisel bilgileri bulur mu?",
+          "a": "Hiçbir araç bunu vaat edemez. Algılama bir başlangıç noktasıdır: dışa aktarmadan önce maskelemeyi mutlaka kontrol edin ve gözden kaçanı kendiniz kapatın. Metin, Windows'ta yüklü metin tanıma dilleriyle okunur; yüklü dilleri Ayarlar ekranında görebilirsiniz. Kore kimlik numaraları, adlar ve adresler için Korece dilinin yüklü olması gerekir."
+        },
+        {
+          "q": "Dosyalarım bir yere yükleniyor mu, orijinal değişiyor mu?",
+          "a": "İkisi de hayır. Algılama, maskeleme ve dışa aktarma hesap gerekmeden ve hiçbir şey yüklenmeden bilgisayarınızda çalışır. Maskeleme bir kopya üzerinde yapılır, uygulama orijinalin üzerine kaydetmeyi reddeder ve kaydedilen kopyalar yeniden kodlandığı için orijinalin meta verisini taşımaz."
+        }
+      ]
     }
   }
 }

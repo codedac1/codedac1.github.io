@@ -32,6 +32,8 @@ APPS = {
     # 스크린샷이 언어별 폴더로 갈라지면서 docs\store-screenshots\en 으로 옮겨 갔다(다른 Windows 판과 같은 배치).
     "floattimerwin": (r"FloatTimerWin\src\FloatTimerPlus\Assets\app.ico", r"FloatTimerWin\docs\store-screenshots\en", "store-en-*.png"),
     "photocleaner":  (r"PhotoCleaner\Resource\icon_512.png", r"PhotoCleaner\Resource\PlayStore\screenshots\en", "*.png"),
+    # 다른 Windows 판과 같은 배치(docs\store-screenshots\en).
+    "photocleanerwin": (r"PhotoCleanerWin\src\PhotoCleanerPlus\Assets\app.ico", r"PhotoCleanerWin\docs\store-screenshots\en", "store-en-*.png"),
     "readfocus":     (r"ReadFocus\Resource\icon_512.png", r"ReadFocus\Resource\screenshots\en", "*.png"),
     # 스크린샷이 언어별 폴더로 갈라졌다(en/ko/…). 영어만 쓴다.
     "readfocuswin":  (r"ReadFocusWin\src\ReadFocusPlus\Assets\app.ico", r"ReadFocusWin\docs\store-screenshots\en", "store-en-*.png"),

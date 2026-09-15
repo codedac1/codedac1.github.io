@@ -484,6 +484,36 @@
           "a": "Ja. Sie können so viele Timer, Zähler und Stoppuhren anlegen, wie Sie möchten — die Liste ist nie begrenzt — und die Windows-Version zeigt keine Werbung. In der kostenlosen Version schwebt eine Karte gleichzeitig auf dem Bildschirm. Pro ist ein einmaliger Kauf, kein Abo, und ergänzt unbegrenzt schwebende Karten, sich wiederholende Timer, jede beliebige Farbe sowie einen eigenen Hinweiston oder eine Vollbildmeldung."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Datenschutz",
+      "seo": "PDF & Fotos schwärzen",
+      "desc": "Verbirg persönliche Daten in Fotos, Screenshots und PDFs auf deinem PC, bevor du sie teilst.",
+      "tagline": "Finde persönliche Daten in Fotos, Screenshots und PDFs, prüfe jedes Feld und exportiere eine deckend maskierte Kopie ohne Metadaten — alles auf deinem PC.",
+      "long": "PhotoCleaner+ for Windows ist die Desktop-Version der Android-App PhotoCleaner+. Öffne ein Foto, einen Screenshot oder ein PDF — oder füge es mit Strg+V ein, ziehe es ins Fenster oder klicke es im Datei-Explorer mit rechts an und wähle „Clean with PhotoCleaner+“ — und die Erkennung startet von selbst. Markiert werden Telefonnummern, E-Mail-Adressen, Kartennummern, IBAN, Reisepassnummern und die MRZ, koreanische Einwohnermelde-, Ausländer-Registrierungs-, Unternehmens-Registrierungs- und Führerscheinnummern, koreanische Namen, Adressen und Kfz-Kennzeichen, Gesichter (frontale Gesichter funktionieren am besten), QR-Codes und Barcodes sowie deine immer auszublendenden Wörter. Die Erkennung ist ein Ausgangspunkt, keine Garantie: Klicke auf ein Feld, um seine Maskierung ein- oder auszuschalten, ziehe es zum Verschieben oder an seiner Kante zum Skalieren, und ziehe selbst über alles, was übersehen wurde. Text wird mit den in Windows installierten Sprachen für die Texterkennung gelesen – für koreanische Dokumente muss also Koreanisch installiert sein. Beim Export wird jedes Feld deckend und undurchsichtig maskiert, ohne Weichzeichner, und im Ergebnis kannst du Speichern (JPEG oder PNG), Kopieren, Teilen, PDF speichern oder Drucken. Die gespeicherte Kopie wird neu aus den Pixeln erzeugt, sodass weder EXIF noch GPS-Standort noch Aufnahmezeit mitkommen; das Original wird nie verändert, und es gibt kein Wasserzeichen. Alles läuft lokal auf deinem PC, ohne Konto und ohne Upload, und die App führt keine Liste zuletzt geöffneter Dateien.",
+      "features": [
+        "Erkennt Telefonnummern, E-Mails, Kartennummern, IBAN, Reisepassnummern und MRZ, koreanische Ausweisnummern, Namen, Adressen und Kennzeichen, Gesichter und QR-Codes",
+        "Jedes Feld vor dem Export prüfen: klicken zum Umschalten, ziehen zum Verschieben, an der Kante skalieren, eigene Masken ziehen, Rückgängig",
+        "Fotos, Screenshots und PDFs per Ziehen und Ablegen, Strg+V oder Rechtsklick „Clean with PhotoCleaner+“ im Explorer öffnen",
+        "Deckende, undurchsichtige Masken statt Weichzeichner, kein Wasserzeichen — Speichern (JPEG/PNG), Kopieren, Teilen, PDF speichern, Drucken",
+        "Gespeicherte Kopien ohne EXIF, GPS-Standort und andere Metadaten; das Original wird nie überschrieben",
+        "Komplett lokal: kein Konto, kein Upload, keine Liste zuletzt geöffneter Dateien. Helles und dunkles Design, 21 Sprachen"
+      ],
+      "faq": [
+        {
+          "q": "Ist das dieselbe App wie PhotoCleaner+ auf Android?",
+          "a": "Es ist dieselbe App, gebaut für Windows: persönliche Daten finden, Felder prüfen, eine deckend maskierte Kopie exportieren. Die Erkennung nutzt die in Windows eingebaute Text- und Gesichtserkennung statt der des Smartphones, daher sind die Ergebnisse ähnlich, aber nicht identisch. Jede Version wird aus ihrem eigenen Store installiert."
+        },
+        {
+          "q": "Findet die App alle persönlichen Daten?",
+          "a": "Das kann kein Werkzeug versprechen. Die Erkennung ist ein Ausgangspunkt: Prüfe vor dem Export immer die Maskierung und ziehe selbst über alles, was übersehen wurde. Text wird mit den in Windows installierten Sprachen für die Texterkennung gelesen — koreanische Ausweisnummern, Namen und Adressen brauchen die koreanische Sprache, und die Einstellungen zeigen, welche Sprachen installiert sind."
+        },
+        {
+          "q": "Werden meine Dateien hochgeladen oder das Original verändert?",
+          "a": "Weder noch. Erkennen, Maskieren und Exportieren laufen komplett auf deinem PC, ohne Konto und ohne Upload. Maskiert wird eine Kopie, die App verweigert das Speichern über das Original, und gespeicherte Kopien werden neu codiert, sodass sie keine Metadaten des Originals enthalten."
+        }
+      ]
     }
   }
 }

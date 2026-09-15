@@ -484,6 +484,36 @@
           "a": "Ya. Anda bisa membuat timer, penghitung, dan stopwatch sebanyak yang Anda mau — daftarnya tidak pernah dibatasi — dan versi Windows tidak memiliki iklan. Versi gratis mengambangkan satu kartu di layar dalam satu waktu. Pro adalah pembelian sekali bayar, bukan langganan, dan menambahkan kartu mengambang tanpa batas, timer yang berulang otomatis, warna sesuka Anda, serta suara peringatan sendiri atau peringatan layar penuh."
         }
       ]
+    },
+    "photocleanerwin": {
+      "name": "PhotoCleaner+ for Windows",
+      "tag": "Privasi",
+      "seo": "Sensor Foto di PC",
+      "desc": "Sembunyikan info pribadi di foto, tangkapan layar, dan PDF di PC Anda sebelum berbagi.",
+      "tagline": "Temukan info pribadi di foto, tangkapan layar, dan PDF, periksa setiap kotak, lalu ekspor salinan bertutup solid tanpa metadata — semuanya di PC Anda.",
+      "long": "PhotoCleaner+ for Windows adalah versi desktop dari aplikasi PhotoCleaner+ di Android. Buka foto, tangkapan layar, atau PDF — atau tempel dengan Ctrl+V, seret ke jendela, atau klik kanan di File Explorer dan pilih \"Clean with PhotoCleaner+\" — dan deteksi langsung berjalan. Aplikasi menandai bagian yang tampak seperti data pribadi, seperti nomor telepon, email, nomor kartu, IBAN, nomor paspor dan MRZ, nomor registrasi penduduk, orang asing, usaha, dan SIM Korea, nama, alamat, dan pelat nomor Korea, wajah (paling baik untuk wajah dari depan), kode QR dan barcode, serta kata yang selalu disembunyikan yang Anda tambahkan. Deteksi hanyalah titik awal, bukan jaminan: klik kotak untuk mengaktifkan atau menonaktifkan maskernya, seret untuk memindahkan atau mengubah ukuran, dan tutup sendiri yang terlewat. Teks dibaca dengan bahasa pengenalan teks yang terpasang di Windows, jadi dokumen Korea memerlukan bahasa Korea terpasang. Saat diekspor, setiap kotak ditutup masker solid yang tidak tembus — bukan blur — dan di layar hasil Anda bisa Simpan (JPEG atau PNG), Salin, Bagikan, Simpan PDF, atau Cetak. Salinan yang disimpan dikodekan ulang dari piksel, sehingga EXIF, lokasi GPS, dan waktu pengambilan tidak ikut; file asli tidak pernah diubah, dan tanpa watermark. Semuanya berjalan di PC Anda tanpa akun dan tanpa unggahan, dan aplikasi tidak menyimpan daftar file terbaru.",
+      "features": [
+        "Mendeteksi nomor telepon, email, nomor kartu, IBAN, nomor paspor dan MRZ, nomor identitas Korea, nama, alamat, pelat nomor Korea, wajah, dan kode QR",
+        "Periksa setiap kotak sebelum ekspor: klik untuk aktif/nonaktif, seret untuk pindah, seret tepi untuk ukuran, gambar sendiri, Urungkan langkah apa pun",
+        "Buka foto, tangkapan layar, dan PDF dengan seret dan lepas, Ctrl+V, atau klik kanan \"Clean with PhotoCleaner+\" di File Explorer",
+        "Masker solid tidak tembus — bukan blur — dan tanpa watermark; Simpan (JPEG/PNG), Salin, Bagikan, Simpan PDF, Cetak",
+        "Salinan tanpa EXIF, lokasi GPS, atau metadata lain, dan file asli tidak pernah ditimpa",
+        "Semua di PC Anda: tanpa akun, tanpa unggahan, tanpa daftar file terbaru. Tema terang dan gelap, 21 bahasa"
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini aplikasi yang sama dengan PhotoCleaner+ di Android?",
+          "a": "Ini ide yang sama yang dibuat untuk Windows: temukan info pribadi, periksa kotaknya, lalu ekspor salinan bertutup solid. Deteksi memakai pengenalan teks dan wajah bawaan Windows, bukan milik ponsel, sehingga hasilnya mirip tetapi tidak persis sama. Setiap versi dipasang dari tokonya sendiri."
+        },
+        {
+          "q": "Apakah semua info pribadi pasti ditemukan?",
+          "a": "Tidak ada alat yang bisa menjanjikan itu. Deteksi hanyalah titik awal: selalu periksa penyamaran sebelum mengekspor dan tutup sendiri yang terlewat. Teks dibaca dengan bahasa pengenalan teks yang terpasang di Windows — nomor identitas, nama, dan alamat Korea memerlukan bahasa Korea terpasang, dan layar Pengaturan menunjukkan bahasa yang Anda miliki."
+        },
+        {
+          "q": "Apakah file saya diunggah, atau file aslinya berubah?",
+          "a": "Tidak keduanya. Deteksi, penyamaran, dan ekspor semuanya berjalan di PC Anda tanpa akun dan tanpa unggahan. Penyamaran dilakukan pada salinan, aplikasi menolak menyimpan di atas file asli, dan salinan yang disimpan dikodekan ulang sehingga tidak membawa metadata file asli."
+        }
+      ]
     }
   }
 }

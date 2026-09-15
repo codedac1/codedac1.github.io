@@ -32,6 +32,7 @@ const RESX_PROJECT = {
   readfocuswin: 'ReadFocusWin',
   floatnotewin: 'FloatNoteWin',
   floattimerwin: 'FloatTimerWin',
+  photocleanerwin: 'PhotoCleanerWin',
 };
 
 // 구식/변형 코드 → 표준 2글자 언어 코드 (nb=노르웨이어 보크몰 → 안드로이드 쪽 no 와 통일)
