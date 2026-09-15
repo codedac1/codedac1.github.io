@@ -1,42 +1,23 @@
 # -*- coding: utf-8 -*-
-"""소셜 공유용 OG 이미지(1200x630) 생성."""
+"""소셜 공유용 OG 이미지(1200x630) 생성.
+
+브랜드 배너(16:9)의 가운데를 OG 비율(1.905:1)로 잘라 줄인다. 배너는 로고·태그라인·앱 아이콘이
+가운데 모여 있어 위아래 띠만 조금 잘려 나간다. 배너가 바뀌면 이 스크립트만 다시 돌리면 된다.
+"""
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image
 
+SRC = Path(r"D:\CodeDAC\Data\CodeDAC 배경2_4096.png")
 OUT = Path(__file__).resolve().parent.parent / "images" / "og-image.png"
 
 W, H = 1200, 630
-# 대표 앱 Clipboard+ 팔레트: colorPrimary #2F3B59 → colorPrimaryVariant #1E2A47
-BRAND = (47, 59, 89)      # #2F3B59 딥 네이비
-BRAND2 = (30, 42, 71)     # #1E2A47 네이비 variant
-ACCENT = (39, 192, 184)   # #27C0B8 Clipboard+ 강조색
-img = Image.new("RGB", (W, H), BRAND)
-d = ImageDraw.Draw(img)
-# 대각 그라데이션
-for y in range(H):
-    t = y / H
-    c = tuple(int(BRAND[i] * (1 - t) + BRAND2[i] * t) for i in range(3))
-    d.line([(0, y), (W, y)], fill=c)
 
-def font(sz, bold=True):
-    path = r"C:\Windows\Fonts\arialbd.ttf" if bold else r"C:\Windows\Fonts\arial.ttf"
-    try:
-        return ImageFont.truetype(path, sz)
-    except Exception:
-        return ImageFont.load_default()
+src = Image.open(SRC).convert("RGB")
+sw, sh = src.size
+crop_h = round(sw * H / W)
+top = (sh - crop_h) // 2
+img = src.crop((0, top, sw, top + crop_h)).resize((W, H), Image.LANCZOS)
 
-# 로고 텍스트 CodeDAC (DAC 흰색 강조는 단색이라 전체 흰색)
-brand_f = font(120)
-d.text((80, 180), "CodeDAC", font=brand_f, fill=(255, 255, 255))
-# 태그라인
-tag_f = font(46, bold=True)
-d.text((84, 330), "Code-based Development And Consulting", font=tag_f, fill=(214, 222, 236))  # #D6DEEC
-sub_f = font(34, bold=False)
-d.text((86, 405), "Smartphone Utility Apps  ·  App / Web Dev  ·  Consulting", font=sub_f, fill=(200, 230, 226))  # #C8E6E2 (틸 틴트)
-
-# 하단 강조 바 (틸 액센트)
-d.rectangle([80, 470, 200, 478], fill=ACCENT)
-
-img.save(OUT, "PNG")
+img.save(OUT, "PNG", optimize=True)
 print("og-image.png 생성 완료:", img.size)

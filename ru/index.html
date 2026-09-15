@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=58" />
+  <link rel="stylesheet" href="/css/style.css?v=59" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -79,13 +79,12 @@
 <body>
   <header class="site-header" id="top">
     <div class="container nav-wrap">
-      <a href="/ru/" class="logo">Code<span>DAC</span></a>
+      <a href="/ru/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
       <nav class="nav" id="nav">
-        <a href="/ru/#about">О нас</a>
-        <a href="/ru/#services">Услуги</a>
         <a href="/ru/#apps">Приложения</a>
         <a href="/ru/#reviews">Отзывы</a>
-        <a href="/ru/#ideas">Идеи</a>
+        <a href="/ru/#about">О нас</a>
+        <a href="/ru/#contact">Сотрудничество</a>
       </nav>
       <div class="nav-right">
         <button type="button" class="theme-toggle" id="themeToggle" aria-label="Переключить тёмную тему" title="Переключить тёмную тему">
@@ -125,14 +124,30 @@
   </header>
 
   <section class="hero">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
     <div class="container hero-inner">
-      <p class="eyebrow">EVERYDAY UTILITY APPS</p>
-      <h1>Сделайте свой день<br />умнее</h1>
-      <p class="hero-sub">CodeDAC создаёт утилиты, <br class="br-pc" />которые делают повседневную жизнь проще.</p>
-      <div class="hero-actions">
-        <a href="#apps" class="btn btn-primary">Смотреть приложения</a>
-        <a href="mailto:contact@codedac.com" class="btn btn-ghost">Связаться с нами</a>
+      <div class="hero-copy">
+        <p class="hero-brand" dir="ltr">Code<span>DAC</span></p>
+        <h1>Сделайте свой день умнее</h1>
+        <p class="hero-sub">Утилиты для Android и Windows, <br class="br-pc" />которые делают повседневную жизнь проще.</p>
+        <div class="hero-actions">
+          <a href="#apps" class="btn btn-primary">Смотреть приложения</a>
+          <a href="#contact" class="btn btn-glass">Связаться с нами</a>
+        </div>
       </div>
+      <ul class="hero-icons" aria-label="Утилиты">
+        <li><a href="/ru/apps/readfocus.html" title="ReadFocus+"><img src="/images/icons/readfocus.png?v=59" alt="ReadFocus+" width="84" height="84" /></a></li>
+        <li><a href="/ru/apps/floatnote.html" title="FloatNote+"><img src="/images/icons/floatnote.png?v=59" alt="FloatNote+" width="84" height="84" /></a></li>
+        <li><a href="/ru/apps/floattimer.html" title="FloatTimer+"><img src="/images/icons/floattimer.png?v=59" alt="FloatTimer+" width="84" height="84" /></a></li>
+        <li><a href="/ru/apps/clipboard.html" title="Clipboard+"><img src="/images/icons/clipboard.png?v=59" alt="Clipboard+" width="84" height="84" /></a></li>
+        <li><a href="/ru/apps/floatcalc.html" title="FloatCalc+"><img src="/images/icons/floatcalc.png?v=59" alt="FloatCalc+" width="84" height="84" /></a></li>
+        <li><a href="/ru/apps/floatcrypto.html" title="FloatCrypto+"><img src="/images/icons/floatcrypto.png?v=59" alt="FloatCrypto+" width="84" height="84" /></a></li>
+        <li><a href="/ru/apps/autostart.html" title="AutoStart+"><img src="/images/icons/autostart.png?v=59" alt="AutoStart+" width="84" height="84" /></a></li>
+        <li><a href="/ru/apps/volumebooster.html" title="VolumeBooster+"><img src="/images/icons/volumebooster.png?v=59" alt="VolumeBooster+" width="84" height="84" /></a></li>
+        <li><a href="/ru/apps/photocleaner.html" title="PhotoCleaner+"><img src="/images/icons/photocleaner.png?v=59" alt="PhotoCleaner+" width="84" height="84" /></a></li>
+      </ul>
+    </div>
+    <div class="container">
       <ul class="hero-stats">
         <li class="hstat"><span class="hstat-num" dir="ltr">13</span><span class="hstat-label">Приложений</span></li>
         <li class="hstat"><span class="hstat-num" dir="ltr">18,000+</span><span class="hstat-label">Загрузок</span></li>
@@ -141,221 +156,213 @@
     </div>
   </section>
 
-  <section class="section" id="about">
-    <div class="container">
-      <p class="section-label">ABOUT</p>
-      <h2 class="section-title">О нас</h2>
-      <p class="name-meaning">
-        <span class="nm-brand">Code<span>DAC</span></span>
-        <span class="nm-eq">=</span>
-        <span class="nm-expand">На основе кода — <b>D</b>evelopment <b>A</b>nd <b>C</b>onsulting</span>
-      </p>
-      <p class="section-lead">Верные своему названию, мы в CodeDAC опираемся на код (Code), чтобы предоставлять разработку (Development) и консалтинг (Consulting). Сегодня мы создаём и публикуем утилиты, которыми люди пользуются каждый день, и стремимся стать надёжным технологическим партнёром, который решает задачи клиентов силой качественной инженерии.</p>
-      <div class="grid grid-3">
-        <div class="card"><div class="card-icon">🎯</div><h3>Простота</h3><p>Мы ценим ясность и мгновенную готовность к работе больше, чем сложные функции.</p></div>
-        <div class="card"><div class="card-icon">🔒</div><h3>Доверие</h3><p>Мы сводим к минимуму лишние разрешения и рекламу и уважаем ваши данные.</p></div>
-        <div class="card"><div class="card-icon">🚀</div><h3>Постоянство</h3><p>Запуск — это только начало: мы продолжаем улучшать приложения на основе отзывов пользователей.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt" id="services">
-    <div class="container">
-      <p class="section-label">SERVICES</p>
-      <h2 class="section-title">Услуги</h2>
-      <p class="section-lead">От планирования до разработки и эксплуатации — CodeDAC создаёт и сопровождает программное обеспечение для вашего бизнеса.</p>
-      <div class="services-grid">
-        <div class="card"><div class="card-icon">📱</div><h3>Разработка приложений</h3><p>Мы создаём приложения для Android, iOS, Windows и кроссплатформенные решения — от планирования до запуска и эксплуатации.</p></div>
-        <div class="card"><div class="card-icon">🌐</div><h3>Веб-разработка</h3><p>Мы создаём адаптивные сайты, веб-приложения и системы администрирования.</p></div>
-        <div class="card"><div class="card-icon">🧭</div><h3>Технический консалтинг</h3><p>Мы консультируем по архитектуре, выбору технологического стека и код-ревью, помогая принимать ключевые решения.</p></div>
-        <div class="card"><div class="card-icon">🛠️</div><h3>Поддержка и сопровождение</h3><p>Мы поддерживаем работоспособность сервисов за счёт стабильной эксплуатации, оптимизации производительности и автоматизации CI/CD.</p></div>
-      </div>
-      <div class="services-cta">
-        <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20Project%20inquiry&amp;body=1.%20%D0%A7%D1%82%D0%BE%20%D0%B2%D1%8B%20%D1%85%D0%BE%D1%82%D0%B8%D1%82%D0%B5%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C%3F%0A-%20%0A%0A2.%20%D0%9F%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%20(Android%20%2F%20iOS%20%2F%20Windows%20%2F%20Web)%0A-%20%0A%0A3.%20%D0%A1%D1%80%D0%BE%D0%BA%D0%B8%20%D0%B8%20%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82%20(%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%BD%D0%BE)%0A-%20%0A" class="btn btn-primary">Начать проект</a>
-        <p class="ideas-note">Платная разработка вашего собственного продукта — результат принадлежит вам.</p>
-      </div>
-    </div>
-  </section>
-
   <section class="section" id="apps">
     <div class="container">
-      <p class="section-label">OUR APPS</p>
-      <h2 class="section-title">Утилиты</h2>
-      <p class="section-lead">Утилиты, разработанные и опубликованные CodeDAC. Нажмите на скриншот, чтобы увеличить его.</p>
-      <h3 class="app-group">Android</h3>
-      <div class="app-grid">
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/clipboard.png?v=58" alt="Clipboard+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/clipboard.html"><bdi>Clipboard+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Буфер обмена</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
-          </div>
-          <p class="app-desc">История буфера обмена: текст и картинки. Поиск, вставка и синхронизация с ПК.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/clipboard-1.jpg?v=58" alt="Clipboard+ Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/clipboard-2.jpg?v=58" alt="Clipboard+ Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/clipboard-3.jpg?v=58" alt="Clipboard+ Скриншоты 3" loading="lazy" data-idx="2" />
+      <div class="apps-head">
+        <div>
+          <p class="section-label">OUR APPS</p>
+          <h2 class="section-title">Утилиты</h2>
+          <p class="section-lead">Утилиты, разработанные и опубликованные CodeDAC. Нажмите на скриншот, чтобы увеличить его.</p>
         </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/clipboard.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/autostart.png?v=58" alt="AutoStart+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/autostart.html"><bdi>AutoStart+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Автозапуск</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
-          </div>
-          <p class="app-desc">Автозапуск ваших приложений при загрузке. Без root, настройте один раз.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/autostart-1.jpg?v=58" alt="AutoStart+ Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/autostart-2.jpg?v=58" alt="AutoStart+ Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/autostart-3.jpg?v=58" alt="AutoStart+ Скриншоты 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/autostart.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.autostart&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatcalc.png?v=58" alt="FloatCalc+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/floatcalc.html"><bdi>FloatCalc+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Плавающее окно</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
-          </div>
-          <p class="app-desc">Плавающий калькулятор с конвертерами валют и единиц поверх любого приложения.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatcalc-1.jpg?v=58" alt="FloatCalc+ Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatcalc-2.jpg?v=58" alt="FloatCalc+ Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatcalc-3.jpg?v=58" alt="FloatCalc+ Скриншоты 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/floatcalc.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatcrypto.png?v=58" alt="FloatCrypto+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/floatcrypto.html"><bdi>FloatCrypto+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Плавающее окно</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
-          </div>
-          <p class="app-desc">Живой криптотикер поверх любых приложений — с уведомлениями и графиками.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=58" alt="FloatCrypto+ Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=58" alt="FloatCrypto+ Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=58" alt="FloatCrypto+ Скриншоты 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/floatcrypto.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floattimer.png?v=58" alt="FloatTimer+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/floattimer.html"><bdi>FloatTimer+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Плавающее окно</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
-          </div>
-          <p class="app-desc">Плавающий таймер, счётчик и секундомер поверх любого приложения.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floattimer-1.jpg?v=58" alt="FloatTimer+ Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floattimer-2.jpg?v=58" alt="FloatTimer+ Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floattimer-3.jpg?v=58" alt="FloatTimer+ Скриншоты 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/floattimer.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/volumebooster.png?v=58" alt="VolumeBooster+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/volumebooster.html"><bdi>VolumeBooster+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Аудио</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
-          </div>
-          <p class="app-desc">Усилитель громкости, эквалайзер и басы: любой звук громче, до +15 дБ.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=58" alt="VolumeBooster+ Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=58" alt="VolumeBooster+ Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=58" alt="VolumeBooster+ Скриншоты 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/volumebooster.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/photocleaner.png?v=58" alt="PhotoCleaner+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/photocleaner.html"><bdi>PhotoCleaner+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Приватность</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
-          </div>
-          <p class="app-desc">Скрывайте личные данные на фото и в PDF полностью на устройстве.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/photocleaner-1.jpg?v=58" alt="PhotoCleaner+ Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/photocleaner-2.jpg?v=58" alt="PhotoCleaner+ Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/photocleaner-3.jpg?v=58" alt="PhotoCleaner+ Скриншоты 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/photocleaner.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/readfocus.png?v=58" alt="ReadFocus+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/readfocus.html"><bdi>ReadFocus+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Доступность</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
-          </div>
-          <p class="app-desc">Помощник чтения при дислексии и СДВГ с подсветкой строки и маской.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/readfocus-1.jpg?v=58" alt="ReadFocus+ Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/readfocus-2.jpg?v=58" alt="ReadFocus+ Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/readfocus-3.jpg?v=58" alt="ReadFocus+ Скриншоты 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/readfocus.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatnote.png?v=58" alt="FloatNote+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/floatnote.html"><bdi>FloatNote+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Заметки</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
-          </div>
-          <p class="app-desc">Стикеры-заметки поверх любых приложений. Сверните в чип, разверните в карточку — с цветами и форматированием.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatnote-1.jpg?v=58" alt="FloatNote+ Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatnote-2.jpg?v=58" alt="FloatNote+ Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatnote-3.jpg?v=58" alt="FloatNote+ Скриншоты 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/floatnote.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
-        </article>
+        <nav class="platform-jump" aria-label="Утилиты">
+          <a class="pj pj-android" href="#apps-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Android</span><span class="pj-n" dir="ltr">9</span></a>
+          <a class="pj pj-windows" href="#apps-windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Windows</span><span class="pj-n" dir="ltr">4</span></a>
+        </nav>
       </div>
-      <h3 class="app-group">Windows</h3>
-      <div class="app-grid">
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/clipboardwin.png?v=58" alt="Clipboard+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/clipboardwin.html"><bdi>Clipboard+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Буфер обмена</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
-          </div>
-          <p class="app-desc">Менеджер буфера обмена в трее Windows, синхронизируемый с Android-приложением Clipboard+.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=58" alt="Clipboard+ for Windows Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=58" alt="Clipboard+ for Windows Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/clipboardwin-3.jpg?v=58" alt="Clipboard+ for Windows Скриншоты 3" loading="lazy" data-idx="2" />
+      <div class="platform platform-android" id="apps-android">
+        <div class="platform-head">
+          <span class="platform-logo"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          <div class="platform-text"><h3 class="platform-name">Android</h3><p class="platform-desc">Для смартфонов и планшетов · Google Play</p></div>
+          <span class="platform-count">Приложений: 9</span>
         </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/clipboardwin.html">Подробнее →</a><a class="app-link" href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-home-card-ru" target="_blank" rel="noopener">Открыть в Microsoft Store →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/readfocuswin.png?v=58" alt="ReadFocus+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/readfocuswin.html"><bdi>ReadFocus+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Доступность</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+        <div class="app-grid">
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/clipboard.png?v=59" alt="Clipboard+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/clipboard.html"><bdi>Clipboard+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Буфер обмена</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">История буфера обмена: текст и картинки. Поиск, вставка и синхронизация с ПК.</p>
+          <a class="app-also app-also-windows" href="/ru/apps/clipboardwin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Также доступно для Windows</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/clipboard-1.jpg?v=59" alt="Clipboard+ Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/clipboard-2.jpg?v=59" alt="Clipboard+ Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/clipboard-3.jpg?v=59" alt="Clipboard+ Скриншоты 3" loading="lazy" data-idx="2" />
           </div>
-          <p class="app-desc">Кликопрозрачная полоса фокуса для Windows — Маска и Подсветка удерживают взгляд на строке.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=58" alt="ReadFocus+ for Windows Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=58" alt="ReadFocus+ for Windows Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/readfocuswin-3.jpg?v=58" alt="ReadFocus+ for Windows Скриншоты 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/readfocuswin.html">Подробнее →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-home-card-ru" target="_blank" rel="noopener">Открыть в Microsoft Store →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatnotewin.png?v=58" alt="FloatNote+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/floatnotewin.html"><bdi>FloatNote+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Заметки</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            <div class="app-links"><a class="app-more" href="/ru/apps/clipboard.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/autostart.png?v=59" alt="AutoStart+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/autostart.html"><bdi>AutoStart+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Автозапуск</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">Автозапуск ваших приложений при загрузке. Без root, настройте один раз.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/autostart-1.jpg?v=59" alt="AutoStart+ Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/autostart-2.jpg?v=59" alt="AutoStart+ Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/autostart-3.jpg?v=59" alt="AutoStart+ Скриншоты 3" loading="lazy" data-idx="2" />
           </div>
-          <p class="app-desc">Стикеры-заметки поверх любого окна Windows, синхронизируемые с Android-приложением FloatNote+.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=58" alt="FloatNote+ for Windows Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=58" alt="FloatNote+ for Windows Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatnotewin-3.jpg?v=58" alt="FloatNote+ for Windows Скриншоты 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/floatnotewin.html">Подробнее →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-home-card-ru" target="_blank" rel="noopener">Открыть в Microsoft Store →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floattimerwin.png?v=58" alt="FloatTimer+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/ru/apps/floattimerwin.html"><bdi>FloatTimer+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Плавающее окно</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            <div class="app-links"><a class="app-more" href="/ru/apps/autostart.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.autostart&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatcalc.png?v=59" alt="FloatCalc+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/floatcalc.html"><bdi>FloatCalc+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Плавающее окно</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">Плавающий калькулятор с конвертерами валют и единиц поверх любого приложения.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatcalc-1.jpg?v=59" alt="FloatCalc+ Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatcalc-2.jpg?v=59" alt="FloatCalc+ Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatcalc-3.jpg?v=59" alt="FloatCalc+ Скриншоты 3" loading="lazy" data-idx="2" />
           </div>
-          <p class="app-desc">Таймеры, счётчики и секундомеры, которые плавают поверх любого окна Windows маленькими пастельными карточками.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=58" alt="FloatTimer+ for Windows Скриншоты 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=58" alt="FloatTimer+ for Windows Скриншоты 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floattimerwin-3.jpg?v=58" alt="FloatTimer+ for Windows Скриншоты 3" loading="lazy" data-idx="2" />
+            <div class="app-links"><a class="app-more" href="/ru/apps/floatcalc.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatcrypto.png?v=59" alt="FloatCrypto+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/floatcrypto.html"><bdi>FloatCrypto+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Плавающее окно</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">Живой криптотикер поверх любых приложений — с уведомлениями и графиками.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=59" alt="FloatCrypto+ Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=59" alt="FloatCrypto+ Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=59" alt="FloatCrypto+ Скриншоты 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/ru/apps/floatcrypto.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floattimer.png?v=59" alt="FloatTimer+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/floattimer.html"><bdi>FloatTimer+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Плавающее окно</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">Плавающий таймер, счётчик и секундомер поверх любого приложения.</p>
+          <a class="app-also app-also-windows" href="/ru/apps/floattimerwin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Также доступно для Windows</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floattimer-1.jpg?v=59" alt="FloatTimer+ Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floattimer-2.jpg?v=59" alt="FloatTimer+ Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floattimer-3.jpg?v=59" alt="FloatTimer+ Скриншоты 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/ru/apps/floattimer.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/volumebooster.png?v=59" alt="VolumeBooster+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/volumebooster.html"><bdi>VolumeBooster+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Аудио</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">Усилитель громкости, эквалайзер и басы: любой звук громче, до +15 дБ.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/volumebooster-1.jpg?v=59" alt="VolumeBooster+ Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/volumebooster-2.jpg?v=59" alt="VolumeBooster+ Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/volumebooster-3.jpg?v=59" alt="VolumeBooster+ Скриншоты 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/ru/apps/volumebooster.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/photocleaner.png?v=59" alt="PhotoCleaner+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/photocleaner.html"><bdi>PhotoCleaner+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Приватность</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">Скрывайте личные данные на фото и в PDF полностью на устройстве.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/photocleaner-1.jpg?v=59" alt="PhotoCleaner+ Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/photocleaner-2.jpg?v=59" alt="PhotoCleaner+ Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/photocleaner-3.jpg?v=59" alt="PhotoCleaner+ Скриншоты 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/ru/apps/photocleaner.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/readfocus.png?v=59" alt="ReadFocus+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/readfocus.html"><bdi>ReadFocus+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Доступность</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">Помощник чтения при дислексии и СДВГ с подсветкой строки и маской.</p>
+          <a class="app-also app-also-windows" href="/ru/apps/readfocuswin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Также доступно для Windows</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/readfocus-1.jpg?v=59" alt="ReadFocus+ Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/readfocus-2.jpg?v=59" alt="ReadFocus+ Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/readfocus-3.jpg?v=59" alt="ReadFocus+ Скриншоты 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/ru/apps/readfocus.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatnote.png?v=59" alt="FloatNote+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/floatnote.html"><bdi>FloatNote+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Заметки</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">Стикеры-заметки поверх любых приложений. Сверните в чип, разверните в карточку — с цветами и форматированием.</p>
+          <a class="app-also app-also-windows" href="/ru/apps/floatnotewin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Также доступно для Windows</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatnote-1.jpg?v=59" alt="FloatNote+ Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatnote-2.jpg?v=59" alt="FloatNote+ Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatnote-3.jpg?v=59" alt="FloatNote+ Скриншоты 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/ru/apps/floatnote.html">Подробнее →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dru" target="_blank" rel="noopener">Открыть в Google Play →</a></div>
+          </article>
         </div>
-          <div class="app-links"><a class="app-more" href="/ru/apps/floattimerwin.html">Подробнее →</a><a class="app-link" href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-home-card-ru" target="_blank" rel="noopener">Открыть в Microsoft Store →</a></div>
-        </article>
+      </div>
+      <div class="platform platform-windows" id="apps-windows">
+        <div class="platform-head">
+          <span class="platform-logo"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          <div class="platform-text"><h3 class="platform-name">Windows</h3><p class="platform-desc">Для ПК на Windows · Microsoft Store</p></div>
+          <span class="platform-count">Приложений: 4</span>
+        </div>
+        <div class="app-grid">
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/clipboardwin.png?v=59" alt="Clipboard+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/clipboardwin.html"><bdi>Clipboard+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Буфер обмена</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">Менеджер буфера обмена в трее Windows, синхронизируемый с Android-приложением Clipboard+.</p>
+          <a class="app-also app-also-android" href="/ru/apps/clipboard.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Также доступно для Android</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=59" alt="Clipboard+ for Windows Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=59" alt="Clipboard+ for Windows Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/clipboardwin-3.jpg?v=59" alt="Clipboard+ for Windows Скриншоты 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/ru/apps/clipboardwin.html">Подробнее →</a><a class="app-link" href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-home-card-ru" target="_blank" rel="noopener">Открыть в Microsoft Store →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/readfocuswin.png?v=59" alt="ReadFocus+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/readfocuswin.html"><bdi>ReadFocus+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Доступность</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">Кликопрозрачная полоса фокуса для Windows — Маска и Подсветка удерживают взгляд на строке.</p>
+          <a class="app-also app-also-android" href="/ru/apps/readfocus.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Также доступно для Android</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=59" alt="ReadFocus+ for Windows Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=59" alt="ReadFocus+ for Windows Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/readfocuswin-3.jpg?v=59" alt="ReadFocus+ for Windows Скриншоты 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/ru/apps/readfocuswin.html">Подробнее →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-home-card-ru" target="_blank" rel="noopener">Открыть в Microsoft Store →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatnotewin.png?v=59" alt="FloatNote+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/floatnotewin.html"><bdi>FloatNote+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Заметки</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">Стикеры-заметки поверх любого окна Windows, синхронизируемые с Android-приложением FloatNote+.</p>
+          <a class="app-also app-also-android" href="/ru/apps/floatnote.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Также доступно для Android</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=59" alt="FloatNote+ for Windows Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=59" alt="FloatNote+ for Windows Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatnotewin-3.jpg?v=59" alt="FloatNote+ for Windows Скриншоты 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/ru/apps/floatnotewin.html">Подробнее →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-home-card-ru" target="_blank" rel="noopener">Открыть в Microsoft Store →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floattimerwin.png?v=59" alt="FloatTimer+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/ru/apps/floattimerwin.html"><bdi>FloatTimer+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Плавающее окно</span><span class="app-langs" aria-label="21 языков"><span class="globe" aria-hidden="true">🌐</span>21 языков</span></span></div>
+            </div>
+            <p class="app-desc">Таймеры, счётчики и секундомеры, которые плавают поверх любого окна Windows маленькими пастельными карточками.</p>
+          <a class="app-also app-also-android" href="/ru/apps/floattimer.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Также доступно для Android</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=59" alt="FloatTimer+ for Windows Скриншоты 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=59" alt="FloatTimer+ for Windows Скриншоты 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floattimerwin-3.jpg?v=59" alt="FloatTimer+ for Windows Скриншоты 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/ru/apps/floattimerwin.html">Подробнее →</a><a class="app-link" href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-home-card-ru" target="_blank" rel="noopener">Открыть в Microsoft Store →</a></div>
+          </article>
+        </div>
       </div>
     </div>
   </section>
@@ -401,27 +408,74 @@
   </section>
 
 
-  <section class="section" id="ideas">
+  <section class="section" id="about">
+    <div class="container about-wrap">
+      <div class="about-copy">
+        <p class="section-label">ABOUT</p>
+        <h2 class="section-title">Небольшие инструменты, сделанные на совесть</h2>
+        <p class="name-meaning">
+          <span class="nm-brand">Code<span>DAC</span></span>
+          <span class="nm-eq">=</span>
+          <span class="nm-expand">На основе кода — <b>D</b>evelopment <b>A</b>nd <b>C</b>onsulting</span>
+        </p>
+        <p class="about-lead">Мы находим мелкие неудобства, с которыми люди сталкиваются каждый день, и превращаем их в утилиты, которые достаточно установить один раз, чтобы долго на них полагаться. Продукты для клиентов мы создаём по тем же стандартам, что и собственные приложения.</p>
+      </div>
+      <ol class="principles">
+        <li class="principle">
+          <span class="pr-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></svg></span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">01</span>Простота</h3><p>Понятно с первого взгляда. Прежде чем решить, что добавить, мы решаем, от чего отказаться.</p></div>
+        </li>
+        <li class="principle">
+          <span class="pr-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.6 7.5 9.5 4.3-.9 7.5-4.9 7.5-9.5V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">02</span>Доверие</h3><p>Только действительно необходимые разрешения, минимум рекламы и уважение к вашим данным.</p></div>
+        </li>
+        <li class="principle">
+          <span class="pr-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 0 1-14.3 4.9M4 12a8 8 0 0 1 14.3-4.9"/><path d="M18.5 3.5v3.8h-3.8M5.5 20.5v-3.8h3.8"/></svg></span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">03</span>Постоянство</h3><p>Запуск — это только начало. Ваши отзывы и письма превращаются в следующее обновление.</p></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+
+  <section class="section section-alt" id="contact">
     <div class="container">
-      <p class="section-label">IDEAS</p>
-      <h2 class="section-title">Скажите, что сделать следующим</h2>
-      <p class="section-lead">Каждое приложение здесь выросло из того, что кого-то раздражало каждый день. Если вы до сих пор делаете вручную то, что телефон или ПК давно должны были взять на себя, напишите нам — именно это может стать следующим приложением.</p>
-      <div class="grid grid-3">
-        <div class="card"><div class="card-icon">😖</div><h3>Момент, когда мешает</h3><p>Когда это происходит и как часто? Один конкретный случай скажет нам больше, чем список функций.</p></div>
-        <div class="card"><div class="card-icon">💡</div><h3>Каким должно быть приложение</h3><p>Можно грубо. Хватит одной фразы о том, что оно должно делать за вас.</p></div>
-        <div class="card"><div class="card-icon">🔧</div><h3>Как вы справляетесь сейчас</h3><p>Обходной путь, которым пользуетесь, или приложение, которое почти подходит, — и место, где оно сдаётся.</p></div>
+      <div class="section-head-center">
+        <p class="section-label">BUILD WITH US</p>
+        <h2 class="section-title">Два способа создавать вместе с нами</h2>
+        <p class="section-lead">Задумали собственный продукт или устали от повседневного неудобства, которое могло бы решить приложение? Выберите подходящий путь — оба начинаются с одного письма.</p>
       </div>
-      <div class="services-cta">
-        <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20%D0%98%D0%B4%D0%B5%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F&amp;body=1.%20%D0%A7%D1%82%D0%BE%20%D0%BD%D0%B5%D1%83%D0%B4%D0%BE%D0%B1%D0%BD%D0%BE%20%D0%B8%20%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0%20%D1%8D%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%3F%0A-%20%0A%0A2.%20%D0%A7%D1%82%D0%BE%20%D0%B4%D0%BE%D0%BB%D0%B6%D0%BD%D0%BE%20%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%3F%0A-%20%0A%0A3.%20%D0%9A%D0%B0%D0%BA%20%D0%B2%D1%8B%20%D1%80%D0%B5%D1%88%D0%B0%D0%B5%D1%82%D0%B5%20%D1%8D%D1%82%D0%BE%20%D1%81%D0%B5%D0%B9%D1%87%D0%B0%D1%81%3F%0A-%20%0A%0A(%D0%9D%D0%B0%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B5%20%D0%B1%D1%83%D0%B4%D0%B5%D1%82%D0%B5%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F%3F%20Android%20%2F%20Windows)%0A-%20%0A" class="btn btn-primary">Отправить идею</a>
-        <p class="ideas-note">Бесплатная разработка: превращаем то, что вас раздражает, или вашу идею в продукт, а результат выходит как приложение CodeDAC.</p>
-      </div>
-      <div class="ideas-proof">
-        <p class="ideas-proof-label">Такое уже случалось</p>
-        <figure class="review-card">
-          <div class="review-stars" aria-label="5 / 5">★★★★★</div>
-          <blockquote class="review-text">I reported my frustration about not being able to import a backup from my previous clipboard manager, and the developer promptly updated the app to add that feature. Developers who listen to and act on user feedback deserve high praise.</blockquote>
-          <figcaption class="review-meta"><span class="review-name">Fabio Rodriguez</span><span class="review-app"><bdi>Clipboard+</bdi> · Google Play</span></figcaption>
-        </figure>
+      <div class="work-grid">
+        <article class="work-card work-project" id="services">
+          <div class="work-top"><span class="work-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8.5 7V5.5a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2V7M3 12.5h18"/></svg></span><span class="work-badge">Платно</span></div>
+          <h3 class="work-title">Заказать проект</h3>
+          <p class="work-desc">Платная разработка вашего собственного продукта — результат принадлежит вам.</p>
+          <p class="work-list-label">Что мы делаем</p>
+          <ul class="work-list">
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18h2"/></svg></span><span class="wl-text"><strong>Разработка приложений</strong><span>Мы создаём приложения для Android, iOS, Windows и кроссплатформенные решения — от планирования до запуска и эксплуатации.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg></span><span class="wl-text"><strong>Веб-разработка</strong><span>Мы создаём адаптивные сайты, веб-приложения и системы администрирования.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></span><span class="wl-text"><strong>Технический консалтинг</strong><span>Мы консультируем по архитектуре, выбору технологического стека и код-ревью, помогая принимать ключевые решения.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.1 5.1L3.5 17.5l3 3 6.1-6.1a4 4 0 0 0 5.1-5.1l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></span><span class="wl-text"><strong>Поддержка и сопровождение</strong><span>Мы поддерживаем работоспособность сервисов за счёт стабильной эксплуатации, оптимизации производительности и автоматизации CI/CD.</span></span></li>
+          </ul>
+          <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20Project%20inquiry&amp;body=1.%20%D0%A7%D1%82%D0%BE%20%D0%B2%D1%8B%20%D1%85%D0%BE%D1%82%D0%B8%D1%82%D0%B5%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C%3F%0A-%20%0A%0A2.%20%D0%9F%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%20(Android%20%2F%20iOS%20%2F%20Windows%20%2F%20Web)%0A-%20%0A%0A3.%20%D0%A1%D1%80%D0%BE%D0%BA%D0%B8%20%D0%B8%20%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82%20(%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%BD%D0%BE)%0A-%20%0A" class="btn btn-navy work-btn">Начать проект<svg class="ic ic-flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
+        <article class="work-card work-idea" id="ideas">
+          <div class="work-top"><span class="work-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5c.6 4.2 2.3 5.9 6.5 6.5-4.2.6-5.9 2.3-6.5 6.5-.6-4.2-2.3-5.9-6.5-6.5 4.2-.6 5.9-2.3 6.5-6.5z"/><path d="M18.5 16v4M16.5 18h4"/></svg></span><span class="work-badge">Бесплатно</span></div>
+          <h3 class="work-title">Предложить идею приложения</h3>
+          <p class="work-desc">Бесплатная разработка: превращаем то, что вас раздражает, или вашу идею в продукт, а результат выходит как приложение CodeDAC.</p>
+          <p class="work-list-label">Расскажите нам всего три вещи</p>
+          <ul class="work-list">
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2.5 4.5 13.5H11l-1 8 8.5-11H12z"/></svg></span><span class="wl-text"><strong>Момент, когда мешает</strong><span>Когда это происходит и как часто? Один конкретный случай скажет нам больше, чем список функций.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 18h5M10.5 21h3"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg></span><span class="wl-text"><strong>Каким должно быть приложение</strong><span>Можно грубо. Хватит одной фразы о том, что оно должно делать за вас.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7.5a3.5 3.5 0 0 0 0-7h-7a3.5 3.5 0 0 1 0-7H16"/></svg></span><span class="wl-text"><strong>Как вы справляетесь сейчас</strong><span>Обходной путь, которым пользуетесь, или приложение, которое почти подходит, — и место, где оно сдаётся.</span></span></li>
+          </ul>
+          <figure class="work-proof">
+            <figcaption class="work-proof-label">Такое уже случалось</figcaption>
+            <blockquote>I reported my frustration about not being able to import a backup from my previous clipboard manager, and the developer promptly updated the app to add that feature. Developers who listen to and act on user feedback deserve high praise.</blockquote>
+            <p class="work-proof-meta"><span class="review-stars" aria-label="5 / 5">★★★★★</span><span>Fabio Rodriguez · <bdi>Clipboard+</bdi></span></p>
+          </figure>
+          <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20%D0%98%D0%B4%D0%B5%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F&amp;body=1.%20%D0%A7%D1%82%D0%BE%20%D0%BD%D0%B5%D1%83%D0%B4%D0%BE%D0%B1%D0%BD%D0%BE%20%D0%B8%20%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0%20%D1%8D%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%3F%0A-%20%0A%0A2.%20%D0%A7%D1%82%D0%BE%20%D0%B4%D0%BE%D0%BB%D0%B6%D0%BD%D0%BE%20%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%3F%0A-%20%0A%0A3.%20%D0%9A%D0%B0%D0%BA%20%D0%B2%D1%8B%20%D1%80%D0%B5%D1%88%D0%B0%D0%B5%D1%82%D0%B5%20%D1%8D%D1%82%D0%BE%20%D1%81%D0%B5%D0%B9%D1%87%D0%B0%D1%81%3F%0A-%20%0A%0A(%D0%9D%D0%B0%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B5%20%D0%B1%D1%83%D0%B4%D0%B5%D1%82%D0%B5%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F%3F%20Android%20%2F%20Windows)%0A-%20%0A" class="btn btn-primary work-btn">Отправить идею<svg class="ic ic-flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
       </div>
     </div>
   </section>
@@ -429,7 +483,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="logo small">Code<span>DAC</span></span>
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
         <span class="footer-based">Южная Корея</span>
       </div>
       <div class="footer-right">
@@ -448,6 +502,6 @@
   </div>
 
   <script>window.__LANG_BANNER={"cur":"ru","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=58"></script>
+  <script src="/js/site.js?v=59"></script>
 </body>
 </html>

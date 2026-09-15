@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=58" />
+  <link rel="stylesheet" href="/css/style.css?v=59" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -79,13 +79,12 @@
 <body>
   <header class="site-header" id="top">
     <div class="container nav-wrap">
-      <a href="/fil/" class="logo">Code<span>DAC</span></a>
+      <a href="/fil/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
       <nav class="nav" id="nav">
-        <a href="/fil/#about">Tungkol</a>
-        <a href="/fil/#services">Mga Serbisyo</a>
         <a href="/fil/#apps">Mga App</a>
         <a href="/fil/#reviews">Mga Review</a>
-        <a href="/fil/#ideas">Mga ideya</a>
+        <a href="/fil/#about">Tungkol</a>
+        <a href="/fil/#contact">Makipagtulungan</a>
       </nav>
       <div class="nav-right">
         <button type="button" class="theme-toggle" id="themeToggle" aria-label="I-toggle ang dark mode" title="I-toggle ang dark mode">
@@ -125,14 +124,30 @@
   </header>
 
   <section class="hero">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
     <div class="container hero-inner">
-      <p class="eyebrow">EVERYDAY UTILITY APPS</p>
-      <h1>Gawing mas matalino<br />ang araw mo</h1>
-      <p class="hero-sub">Gumagawa ang CodeDAC ng mga utility app <br class="br-pc" />na nagpapadali sa pang-araw-araw na buhay.</p>
-      <div class="hero-actions">
-        <a href="#apps" class="btn btn-primary">Tuklasin ang mga app</a>
-        <a href="mailto:contact@codedac.com" class="btn btn-ghost">Makipag-ugnayan</a>
+      <div class="hero-copy">
+        <p class="hero-brand" dir="ltr">Code<span>DAC</span></p>
+        <h1>Gawing mas matalino ang araw mo</h1>
+        <p class="hero-sub">Gumagawa ang CodeDAC ng mga utility app para sa Android at Windows <br class="br-pc" />na nagpapadali sa pang-araw-araw na buhay.</p>
+        <div class="hero-actions">
+          <a href="#apps" class="btn btn-primary">Tuklasin ang mga app</a>
+          <a href="#contact" class="btn btn-glass">Makipag-ugnayan</a>
+        </div>
       </div>
+      <ul class="hero-icons" aria-label="Mga Utility App">
+        <li><a href="/fil/apps/readfocus.html" title="ReadFocus+"><img src="/images/icons/readfocus.png?v=59" alt="ReadFocus+" width="84" height="84" /></a></li>
+        <li><a href="/fil/apps/floatnote.html" title="FloatNote+"><img src="/images/icons/floatnote.png?v=59" alt="FloatNote+" width="84" height="84" /></a></li>
+        <li><a href="/fil/apps/floattimer.html" title="FloatTimer+"><img src="/images/icons/floattimer.png?v=59" alt="FloatTimer+" width="84" height="84" /></a></li>
+        <li><a href="/fil/apps/clipboard.html" title="Clipboard+"><img src="/images/icons/clipboard.png?v=59" alt="Clipboard+" width="84" height="84" /></a></li>
+        <li><a href="/fil/apps/floatcalc.html" title="FloatCalc+"><img src="/images/icons/floatcalc.png?v=59" alt="FloatCalc+" width="84" height="84" /></a></li>
+        <li><a href="/fil/apps/floatcrypto.html" title="FloatCrypto+"><img src="/images/icons/floatcrypto.png?v=59" alt="FloatCrypto+" width="84" height="84" /></a></li>
+        <li><a href="/fil/apps/autostart.html" title="AutoStart+"><img src="/images/icons/autostart.png?v=59" alt="AutoStart+" width="84" height="84" /></a></li>
+        <li><a href="/fil/apps/volumebooster.html" title="VolumeBooster+"><img src="/images/icons/volumebooster.png?v=59" alt="VolumeBooster+" width="84" height="84" /></a></li>
+        <li><a href="/fil/apps/photocleaner.html" title="PhotoCleaner+"><img src="/images/icons/photocleaner.png?v=59" alt="PhotoCleaner+" width="84" height="84" /></a></li>
+      </ul>
+    </div>
+    <div class="container">
       <ul class="hero-stats">
         <li class="hstat"><span class="hstat-num" dir="ltr">13</span><span class="hstat-label">Mga App</span></li>
         <li class="hstat"><span class="hstat-num" dir="ltr">18,000+</span><span class="hstat-label">Mga Download</span></li>
@@ -141,221 +156,213 @@
     </div>
   </section>
 
-  <section class="section" id="about">
-    <div class="container">
-      <p class="section-label">ABOUT</p>
-      <h2 class="section-title">Tungkol sa Amin</h2>
-      <p class="name-meaning">
-        <span class="nm-brand">Code<span>DAC</span></span>
-        <span class="nm-eq">=</span>
-        <span class="nm-expand">Code-based <b>D</b>evelopment <b>A</b>nd <b>C</b>onsulting</span>
-      </p>
-      <p class="section-lead">Tulad ng pangalan nito, itinayo ang CodeDAC sa pundasyon ng Code para magbigay ng Development And Consulting. Sa ngayon ay gumagawa at naglalathala kami ng mga utility app na araw-araw na ginagamit ng mga tao, at nilalayon naming lumago bilang isang mapagkakatiwalaang technology partner na lumulutas sa mga hamon ng aming mga kliyente sa pamamagitan ng matatag na engineering.</p>
-      <div class="grid grid-3">
-        <div class="card"><div class="card-icon">🎯</div><h3>Pagiging Simple</h3><p>Mas pinipili namin ang linaw at agarang pagiging madaling gamitin kaysa sa mga masalimuot na feature.</p></div>
-        <div class="card"><div class="card-icon">🔒</div><h3>Tiwala</h3><p>Binabawasan namin ang mga hindi kailangang pahintulot at ad, at iginagalang ang iyong data.</p></div>
-        <div class="card"><div class="card-icon">🚀</div><h3>Pagkakatugma</h3><p>Ang paglabas ay simula pa lang — patuloy kaming nagpapabuti kasama ang feedback ng mga user.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt" id="services">
-    <div class="container">
-      <p class="section-label">SERVICES</p>
-      <h2 class="section-title">Mga Serbisyo</h2>
-      <p class="section-lead">Mula sa pagpaplano hanggang sa pagbuo at operasyon, bumubuo at nagpapatakbo ang CodeDAC ng software para sa iyong negosyo.</p>
-      <div class="services-grid">
-        <div class="card"><div class="card-icon">📱</div><h3>Pagbuo ng App</h3><p>Gumagawa kami ng mga app para sa Android, iOS, Windows desktop at cross-platform, mula sa pagpaplano hanggang sa paglabas at operasyon.</p></div>
-        <div class="card"><div class="card-icon">🌐</div><h3>Pagbuo ng Web</h3><p>Gumagawa kami ng mga responsive na website, web application at admin system.</p></div>
-        <div class="card"><div class="card-icon">🧭</div><h3>Teknikal na Konsultasyon</h3><p>Nagbibigay kami ng payo sa arkitektura, pagpili ng tech stack at code review para gabayan ang mahahalagang desisyon.</p></div>
-        <div class="card"><div class="card-icon">🛠️</div><h3>Maintenance at Operasyon</h3><p>Pinapanatili naming malusog ang mga serbisyo sa pamamagitan ng matatag na operasyon, performance tuning at CI/CD automation.</p></div>
-      </div>
-      <div class="services-cta">
-        <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20Project%20inquiry&amp;body=1.%20Ano%20ang%20nais%20mong%20ipagawa%3F%0A-%20%0A%0A2.%20Platform%20(Android%20%2F%20iOS%20%2F%20Windows%20%2F%20Web)%0A-%20%0A%0A3.%20Timeline%20at%20budget%20(tantiya%20ay%20okay)%0A-%20%0A" class="btn btn-primary">Simulan ang isang proyekto</a>
-        <p class="ideas-note">May bayad na development para sa iyong sariling produkto — ang aming bubuuin ay sa iyo.</p>
-      </div>
-    </div>
-  </section>
-
   <section class="section" id="apps">
     <div class="container">
-      <p class="section-label">OUR APPS</p>
-      <h2 class="section-title">Mga Utility App</h2>
-      <p class="section-lead">Mga utility app na ginawa at inilathala ng CodeDAC. I-tap ang isang screenshot para tingnan ito nang mas malaki.</p>
-      <h3 class="app-group">Android</h3>
-      <div class="app-grid">
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/clipboard.png?v=58" alt="Clipboard+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/clipboard.html"><bdi>Clipboard+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Clipboard</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
-          </div>
-          <p class="app-desc">I-save ang bawat kinopyang teksto at larawan. Hanapin, i-paste, i-sync sa PC.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/clipboard-1.jpg?v=58" alt="Clipboard+ Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/clipboard-2.jpg?v=58" alt="Clipboard+ Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/clipboard-3.jpg?v=58" alt="Clipboard+ Mga Screenshot 3" loading="lazy" data-idx="2" />
+      <div class="apps-head">
+        <div>
+          <p class="section-label">OUR APPS</p>
+          <h2 class="section-title">Mga Utility App</h2>
+          <p class="section-lead">Mga utility app na ginawa at inilathala ng CodeDAC. I-tap ang isang screenshot para tingnan ito nang mas malaki.</p>
         </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/clipboard.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/autostart.png?v=58" alt="AutoStart+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/autostart.html"><bdi>AutoStart+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Auto Start</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
-          </div>
-          <p class="app-desc">Awtomatikong i-launch ang mga app mo sa boot. Walang root, isang setup lang.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/autostart-1.jpg?v=58" alt="AutoStart+ Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/autostart-2.jpg?v=58" alt="AutoStart+ Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/autostart-3.jpg?v=58" alt="AutoStart+ Mga Screenshot 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/autostart.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.autostart&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatcalc.png?v=58" alt="FloatCalc+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/floatcalc.html"><bdi>FloatCalc+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
-          </div>
-          <p class="app-desc">Floating calculator na may currency at unit converter sa ibabaw ng kahit anong app.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatcalc-1.jpg?v=58" alt="FloatCalc+ Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatcalc-2.jpg?v=58" alt="FloatCalc+ Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatcalc-3.jpg?v=58" alt="FloatCalc+ Mga Screenshot 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/floatcalc.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatcrypto.png?v=58" alt="FloatCrypto+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/floatcrypto.html"><bdi>FloatCrypto+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
-          </div>
-          <p class="app-desc">Live na crypto ticker na lumulutang sa kahit anong app, may alerto at chart.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=58" alt="FloatCrypto+ Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=58" alt="FloatCrypto+ Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=58" alt="FloatCrypto+ Mga Screenshot 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/floatcrypto.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floattimer.png?v=58" alt="FloatTimer+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/floattimer.html"><bdi>FloatTimer+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
-          </div>
-          <p class="app-desc">Floating timer, counter, at stopwatch sa ibabaw ng kahit anong app.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floattimer-1.jpg?v=58" alt="FloatTimer+ Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floattimer-2.jpg?v=58" alt="FloatTimer+ Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floattimer-3.jpg?v=58" alt="FloatTimer+ Mga Screenshot 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/floattimer.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/volumebooster.png?v=58" alt="VolumeBooster+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/volumebooster.html"><bdi>VolumeBooster+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Audio</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
-          </div>
-          <p class="app-desc">Volume booster, equalizer at bass: palakasin ang kahit anong tunog hanggang +15 dB.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=58" alt="VolumeBooster+ Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=58" alt="VolumeBooster+ Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=58" alt="VolumeBooster+ Mga Screenshot 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/volumebooster.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/photocleaner.png?v=58" alt="PhotoCleaner+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/photocleaner.html"><bdi>PhotoCleaner+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Privacy</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
-          </div>
-          <p class="app-desc">Itago ang personal na impormasyon sa mga larawan at PDF, buong-buo sa device.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/photocleaner-1.jpg?v=58" alt="PhotoCleaner+ Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/photocleaner-2.jpg?v=58" alt="PhotoCleaner+ Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/photocleaner-3.jpg?v=58" alt="PhotoCleaner+ Mga Screenshot 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/photocleaner.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/readfocus.png?v=58" alt="ReadFocus+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/readfocus.html"><bdi>ReadFocus+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Accessibility</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
-          </div>
-          <p class="app-desc">Isang reading aid para sa dyslexia at ADHD na may line highlight at mask.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/readfocus-1.jpg?v=58" alt="ReadFocus+ Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/readfocus-2.jpg?v=58" alt="ReadFocus+ Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/readfocus-3.jpg?v=58" alt="ReadFocus+ Mga Screenshot 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/readfocus.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatnote.png?v=58" alt="FloatNote+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/floatnote.html"><bdi>FloatNote+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Notes</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
-          </div>
-          <p class="app-desc">Sticky notes na lumulutang sa anumang app. I-collapse sa chip, palawakin bilang card, may kulay at rich text.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatnote-1.jpg?v=58" alt="FloatNote+ Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatnote-2.jpg?v=58" alt="FloatNote+ Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatnote-3.jpg?v=58" alt="FloatNote+ Mga Screenshot 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/floatnote.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
-        </article>
+        <nav class="platform-jump" aria-label="Mga Utility App">
+          <a class="pj pj-android" href="#apps-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Android</span><span class="pj-n" dir="ltr">9</span></a>
+          <a class="pj pj-windows" href="#apps-windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Windows</span><span class="pj-n" dir="ltr">4</span></a>
+        </nav>
       </div>
-      <h3 class="app-group">Windows</h3>
-      <div class="app-grid">
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/clipboardwin.png?v=58" alt="Clipboard+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/clipboardwin.html"><bdi>Clipboard+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Clipboard</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
-          </div>
-          <p class="app-desc">Isang Windows tray clipboard manager na naka-sync sa Clipboard+ Android app.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=58" alt="Clipboard+ for Windows Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=58" alt="Clipboard+ for Windows Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/clipboardwin-3.jpg?v=58" alt="Clipboard+ for Windows Mga Screenshot 3" loading="lazy" data-idx="2" />
+      <div class="platform platform-android" id="apps-android">
+        <div class="platform-head">
+          <span class="platform-logo"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          <div class="platform-text"><h3 class="platform-name">Android</h3><p class="platform-desc">Para sa phone at tablet · Google Play</p></div>
+          <span class="platform-count">9 app</span>
         </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/clipboardwin.html">Mga Detalye →</a><a class="app-link" href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-home-card-fil" target="_blank" rel="noopener">Tingnan sa Microsoft Store →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/readfocuswin.png?v=58" alt="ReadFocus+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/readfocuswin.html"><bdi>ReadFocus+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Accessibility</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+        <div class="app-grid">
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/clipboard.png?v=59" alt="Clipboard+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/clipboard.html"><bdi>Clipboard+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Clipboard</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">I-save ang bawat kinopyang teksto at larawan. Hanapin, i-paste, i-sync sa PC.</p>
+          <a class="app-also app-also-windows" href="/fil/apps/clipboardwin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Available din sa Windows</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/clipboard-1.jpg?v=59" alt="Clipboard+ Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/clipboard-2.jpg?v=59" alt="Clipboard+ Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/clipboard-3.jpg?v=59" alt="Clipboard+ Mga Screenshot 3" loading="lazy" data-idx="2" />
           </div>
-          <p class="app-desc">Isang click-through na Focus Strip para sa Windows — Mask at Highlight ang nagpapanatili ng tingin mo sa linya.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=58" alt="ReadFocus+ for Windows Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=58" alt="ReadFocus+ for Windows Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/readfocuswin-3.jpg?v=58" alt="ReadFocus+ for Windows Mga Screenshot 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/readfocuswin.html">Mga Detalye →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-home-card-fil" target="_blank" rel="noopener">Tingnan sa Microsoft Store →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatnotewin.png?v=58" alt="FloatNote+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/floatnotewin.html"><bdi>FloatNote+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Notes</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            <div class="app-links"><a class="app-more" href="/fil/apps/clipboard.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/autostart.png?v=59" alt="AutoStart+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/autostart.html"><bdi>AutoStart+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Auto Start</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">Awtomatikong i-launch ang mga app mo sa boot. Walang root, isang setup lang.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/autostart-1.jpg?v=59" alt="AutoStart+ Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/autostart-2.jpg?v=59" alt="AutoStart+ Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/autostart-3.jpg?v=59" alt="AutoStart+ Mga Screenshot 3" loading="lazy" data-idx="2" />
           </div>
-          <p class="app-desc">Sticky notes na lumulutang sa ibabaw ng kahit anong window sa Windows, naka-sync sa FloatNote+ Android app.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=58" alt="FloatNote+ for Windows Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=58" alt="FloatNote+ for Windows Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatnotewin-3.jpg?v=58" alt="FloatNote+ for Windows Mga Screenshot 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/floatnotewin.html">Mga Detalye →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-home-card-fil" target="_blank" rel="noopener">Tingnan sa Microsoft Store →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floattimerwin.png?v=58" alt="FloatTimer+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/fil/apps/floattimerwin.html"><bdi>FloatTimer+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            <div class="app-links"><a class="app-more" href="/fil/apps/autostart.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.autostart&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatcalc.png?v=59" alt="FloatCalc+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/floatcalc.html"><bdi>FloatCalc+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">Floating calculator na may currency at unit converter sa ibabaw ng kahit anong app.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatcalc-1.jpg?v=59" alt="FloatCalc+ Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatcalc-2.jpg?v=59" alt="FloatCalc+ Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatcalc-3.jpg?v=59" alt="FloatCalc+ Mga Screenshot 3" loading="lazy" data-idx="2" />
           </div>
-          <p class="app-desc">Mga timer, counter at stopwatch na lumulutang sa ibabaw ng kahit anong window sa Windows bilang maliliit na pastel card.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=58" alt="FloatTimer+ for Windows Mga Screenshot 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=58" alt="FloatTimer+ for Windows Mga Screenshot 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floattimerwin-3.jpg?v=58" alt="FloatTimer+ for Windows Mga Screenshot 3" loading="lazy" data-idx="2" />
+            <div class="app-links"><a class="app-more" href="/fil/apps/floatcalc.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatcrypto.png?v=59" alt="FloatCrypto+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/floatcrypto.html"><bdi>FloatCrypto+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">Live na crypto ticker na lumulutang sa kahit anong app, may alerto at chart.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=59" alt="FloatCrypto+ Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=59" alt="FloatCrypto+ Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=59" alt="FloatCrypto+ Mga Screenshot 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/fil/apps/floatcrypto.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floattimer.png?v=59" alt="FloatTimer+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/floattimer.html"><bdi>FloatTimer+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">Floating timer, counter, at stopwatch sa ibabaw ng kahit anong app.</p>
+          <a class="app-also app-also-windows" href="/fil/apps/floattimerwin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Available din sa Windows</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floattimer-1.jpg?v=59" alt="FloatTimer+ Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floattimer-2.jpg?v=59" alt="FloatTimer+ Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floattimer-3.jpg?v=59" alt="FloatTimer+ Mga Screenshot 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/fil/apps/floattimer.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/volumebooster.png?v=59" alt="VolumeBooster+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/volumebooster.html"><bdi>VolumeBooster+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Audio</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">Volume booster, equalizer at bass: palakasin ang kahit anong tunog hanggang +15 dB.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/volumebooster-1.jpg?v=59" alt="VolumeBooster+ Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/volumebooster-2.jpg?v=59" alt="VolumeBooster+ Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/volumebooster-3.jpg?v=59" alt="VolumeBooster+ Mga Screenshot 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/fil/apps/volumebooster.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/photocleaner.png?v=59" alt="PhotoCleaner+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/photocleaner.html"><bdi>PhotoCleaner+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Privacy</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">Itago ang personal na impormasyon sa mga larawan at PDF, buong-buo sa device.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/photocleaner-1.jpg?v=59" alt="PhotoCleaner+ Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/photocleaner-2.jpg?v=59" alt="PhotoCleaner+ Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/photocleaner-3.jpg?v=59" alt="PhotoCleaner+ Mga Screenshot 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/fil/apps/photocleaner.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/readfocus.png?v=59" alt="ReadFocus+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/readfocus.html"><bdi>ReadFocus+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Accessibility</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">Isang reading aid para sa dyslexia at ADHD na may line highlight at mask.</p>
+          <a class="app-also app-also-windows" href="/fil/apps/readfocuswin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Available din sa Windows</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/readfocus-1.jpg?v=59" alt="ReadFocus+ Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/readfocus-2.jpg?v=59" alt="ReadFocus+ Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/readfocus-3.jpg?v=59" alt="ReadFocus+ Mga Screenshot 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/fil/apps/readfocus.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatnote.png?v=59" alt="FloatNote+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/floatnote.html"><bdi>FloatNote+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Notes</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">Sticky notes na lumulutang sa anumang app. I-collapse sa chip, palawakin bilang card, may kulay at rich text.</p>
+          <a class="app-also app-also-windows" href="/fil/apps/floatnotewin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Available din sa Windows</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatnote-1.jpg?v=59" alt="FloatNote+ Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatnote-2.jpg?v=59" alt="FloatNote+ Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatnote-3.jpg?v=59" alt="FloatNote+ Mga Screenshot 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/fil/apps/floatnote.html">Mga Detalye →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dfil" target="_blank" rel="noopener">Tingnan sa Google Play →</a></div>
+          </article>
         </div>
-          <div class="app-links"><a class="app-more" href="/fil/apps/floattimerwin.html">Mga Detalye →</a><a class="app-link" href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-home-card-fil" target="_blank" rel="noopener">Tingnan sa Microsoft Store →</a></div>
-        </article>
+      </div>
+      <div class="platform platform-windows" id="apps-windows">
+        <div class="platform-head">
+          <span class="platform-logo"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          <div class="platform-text"><h3 class="platform-name">Windows</h3><p class="platform-desc">Para sa Windows PC · Microsoft Store</p></div>
+          <span class="platform-count">4 app</span>
+        </div>
+        <div class="app-grid">
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/clipboardwin.png?v=59" alt="Clipboard+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/clipboardwin.html"><bdi>Clipboard+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Clipboard</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">Isang Windows tray clipboard manager na naka-sync sa Clipboard+ Android app.</p>
+          <a class="app-also app-also-android" href="/fil/apps/clipboard.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Available din sa Android</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=59" alt="Clipboard+ for Windows Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=59" alt="Clipboard+ for Windows Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/clipboardwin-3.jpg?v=59" alt="Clipboard+ for Windows Mga Screenshot 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/fil/apps/clipboardwin.html">Mga Detalye →</a><a class="app-link" href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-home-card-fil" target="_blank" rel="noopener">Tingnan sa Microsoft Store →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/readfocuswin.png?v=59" alt="ReadFocus+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/readfocuswin.html"><bdi>ReadFocus+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Accessibility</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">Isang click-through na Focus Strip para sa Windows — Mask at Highlight ang nagpapanatili ng tingin mo sa linya.</p>
+          <a class="app-also app-also-android" href="/fil/apps/readfocus.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Available din sa Android</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=59" alt="ReadFocus+ for Windows Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=59" alt="ReadFocus+ for Windows Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/readfocuswin-3.jpg?v=59" alt="ReadFocus+ for Windows Mga Screenshot 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/fil/apps/readfocuswin.html">Mga Detalye →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-home-card-fil" target="_blank" rel="noopener">Tingnan sa Microsoft Store →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatnotewin.png?v=59" alt="FloatNote+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/floatnotewin.html"><bdi>FloatNote+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Notes</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">Sticky notes na lumulutang sa ibabaw ng kahit anong window sa Windows, naka-sync sa FloatNote+ Android app.</p>
+          <a class="app-also app-also-android" href="/fil/apps/floatnote.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Available din sa Android</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=59" alt="FloatNote+ for Windows Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=59" alt="FloatNote+ for Windows Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatnotewin-3.jpg?v=59" alt="FloatNote+ for Windows Mga Screenshot 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/fil/apps/floatnotewin.html">Mga Detalye →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-home-card-fil" target="_blank" rel="noopener">Tingnan sa Microsoft Store →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floattimerwin.png?v=59" alt="FloatTimer+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/fil/apps/floattimerwin.html"><bdi>FloatTimer+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Floating</span><span class="app-langs" aria-label="21 na wika"><span class="globe" aria-hidden="true">🌐</span>21 na wika</span></span></div>
+            </div>
+            <p class="app-desc">Mga timer, counter at stopwatch na lumulutang sa ibabaw ng kahit anong window sa Windows bilang maliliit na pastel card.</p>
+          <a class="app-also app-also-android" href="/fil/apps/floattimer.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Available din sa Android</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=59" alt="FloatTimer+ for Windows Mga Screenshot 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=59" alt="FloatTimer+ for Windows Mga Screenshot 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floattimerwin-3.jpg?v=59" alt="FloatTimer+ for Windows Mga Screenshot 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/fil/apps/floattimerwin.html">Mga Detalye →</a><a class="app-link" href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-home-card-fil" target="_blank" rel="noopener">Tingnan sa Microsoft Store →</a></div>
+          </article>
+        </div>
       </div>
     </div>
   </section>
@@ -401,27 +408,74 @@
   </section>
 
 
-  <section class="section" id="ideas">
+  <section class="section" id="about">
+    <div class="container about-wrap">
+      <div class="about-copy">
+        <p class="section-label">ABOUT</p>
+        <h2 class="section-title">Maliliit na tool, ginawa nang maayos</h2>
+        <p class="name-meaning">
+          <span class="nm-brand">Code<span>DAC</span></span>
+          <span class="nm-eq">=</span>
+          <span class="nm-expand">Code-based <b>D</b>evelopment <b>A</b>nd <b>C</b>onsulting</span>
+        </p>
+        <p class="about-lead">Hinahanap namin ang maliliit na abalang nararanasan ng mga tao araw-araw, at ginagawa ang mga ito na utility app na i-install nang minsan at mapagkakatiwalaan nang pangmatagalan. Ang bawat produktong aming ginagawa para sa mga kliyente ay sumusunod sa parehong pamantayan ng aming sariling mga app.</p>
+      </div>
+      <ol class="principles">
+        <li class="principle">
+          <span class="pr-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></svg></span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">01</span>Pagiging Simple</h3><p>Madaling gamitin mula sa unang sulyap. Pinag-iisipan namin kung ano ang dapat alisin bago kung ano ang dapat idagdag.</p></div>
+        </li>
+        <li class="principle">
+          <span class="pr-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.6 7.5 9.5 4.3-.9 7.5-4.9 7.5-9.5V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">02</span>Tiwala</h3><p>Tanging mga pahintulot na tunay na kailangan, kaunting ad hangga't maaari, at paggalang sa iyong data.</p></div>
+        </li>
+        <li class="principle">
+          <span class="pr-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 0 1-14.3 4.9M4 12a8 8 0 0 1 14.3-4.9"/><path d="M18.5 3.5v3.8h-3.8M5.5 20.5v-3.8h3.8"/></svg></span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">03</span>Pagkakatugma</h3><p>Ang paglabas ay simula pa lang. Ang mga sinasabi mo sa amin sa review at email ay nagiging susunod na update.</p></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+
+  <section class="section section-alt" id="contact">
     <div class="container">
-      <p class="section-label">IDEAS</p>
-      <h2 class="section-title">Sabihin mo kung ano ang susunod naming gawin</h2>
-      <p class="section-lead">Bawat app dito ay nagsimula sa isang bagay na araw-araw nakakainis sa isang tao. Kung may bagay na matagal nang dapat inaasikaso ng telepono o PC mo pero hanggang ngayon ay manu-mano mong ginagawa, sabihin sa amin — ang abalang iyon ay maaaring maging susunod na app.</p>
-      <div class="grid grid-3">
-        <div class="card"><div class="card-icon">😖</div><h3>Ang sandaling nakakainis</h3><p>Kailan ito nangyayari at gaano kadalas? Mas marami ang sinasabi ng isang tiyak na pangyayari kaysa listahan ng feature.</p></div>
-        <div class="card"><div class="card-icon">💡</div><h3>Ang app na gusto mo</h3><p>Puwede nang pahapyaw. Sapat na ang isang pangungusap kung ano ang dapat nitong gawin para sa iyo.</p></div>
-        <div class="card"><div class="card-icon">🔧</div><h3>Paano mo ito nilulusutan ngayon</h3><p>Ang paraang ginagamit mo ngayon, o ang app na muntik nang sapat at kung saan ito sumusuko.</p></div>
+      <div class="section-head-center">
+        <p class="section-label">BUILD WITH US</p>
+        <h2 class="section-title">Dalawang paraan para bumuo kasama kami</h2>
+        <p class="section-lead">May produktong nais mong ipagawa, o isang pang-araw-araw na abala na sana'y malutas ng isang app? Piliin ang daang angkop sa iyo — parehong nagsisimula sa isang email.</p>
       </div>
-      <div class="services-cta">
-        <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20Ideya%20para%20sa%20app&amp;body=1.%20Ano%20ang%20abala%20at%20kailan%20ito%20nangyayari%3F%0A-%20%0A%0A2.%20Ano%20ang%20dapat%20gawin%20ng%20app%3F%0A-%20%0A%0A3.%20Paano%20mo%20ito%20hinaharap%20ngayon%3F%0A-%20%0A%0A(Saang%20device%20mo%20gagamitin%3F%20Android%20%2F%20Windows)%0A-%20%0A" class="btn btn-primary">Magpadala ng ideya</a>
-        <p class="ideas-note">Libreng development na ginagawang produkto ang iyong abala o ideya — ang aming bubuuin ay ilalabas bilang app ng CodeDAC.</p>
-      </div>
-      <div class="ideas-proof">
-        <p class="ideas-proof-label">Nangyari na ito dati</p>
-        <figure class="review-card">
-          <div class="review-stars" aria-label="5 / 5">★★★★★</div>
-          <blockquote class="review-text">I reported my frustration about not being able to import a backup from my previous clipboard manager, and the developer promptly updated the app to add that feature. Developers who listen to and act on user feedback deserve high praise.</blockquote>
-          <figcaption class="review-meta"><span class="review-name">Fabio Rodriguez</span><span class="review-app"><bdi>Clipboard+</bdi> · Google Play</span></figcaption>
-        </figure>
+      <div class="work-grid">
+        <article class="work-card work-project" id="services">
+          <div class="work-top"><span class="work-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8.5 7V5.5a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2V7M3 12.5h18"/></svg></span><span class="work-badge">May bayad</span></div>
+          <h3 class="work-title">Magpagawa ng proyekto</h3>
+          <p class="work-desc">May bayad na development para sa iyong sariling produkto — ang aming bubuuin ay sa iyo.</p>
+          <p class="work-list-label">Ang maaari naming gawin</p>
+          <ul class="work-list">
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18h2"/></svg></span><span class="wl-text"><strong>Pagbuo ng App</strong><span>Gumagawa kami ng mga app para sa Android, iOS, Windows desktop at cross-platform, mula sa pagpaplano hanggang sa paglabas at operasyon.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg></span><span class="wl-text"><strong>Pagbuo ng Web</strong><span>Gumagawa kami ng mga responsive na website, web application at admin system.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></span><span class="wl-text"><strong>Teknikal na Konsultasyon</strong><span>Nagbibigay kami ng payo sa arkitektura, pagpili ng tech stack at code review para gabayan ang mahahalagang desisyon.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.1 5.1L3.5 17.5l3 3 6.1-6.1a4 4 0 0 0 5.1-5.1l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></span><span class="wl-text"><strong>Maintenance at Operasyon</strong><span>Pinapanatili naming malusog ang mga serbisyo sa pamamagitan ng matatag na operasyon, performance tuning at CI/CD automation.</span></span></li>
+          </ul>
+          <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20Project%20inquiry&amp;body=1.%20Ano%20ang%20nais%20mong%20ipagawa%3F%0A-%20%0A%0A2.%20Platform%20(Android%20%2F%20iOS%20%2F%20Windows%20%2F%20Web)%0A-%20%0A%0A3.%20Timeline%20at%20budget%20(tantiya%20ay%20okay)%0A-%20%0A" class="btn btn-navy work-btn">Simulan ang isang proyekto<svg class="ic ic-flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
+        <article class="work-card work-idea" id="ideas">
+          <div class="work-top"><span class="work-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5c.6 4.2 2.3 5.9 6.5 6.5-4.2.6-5.9 2.3-6.5 6.5-.6-4.2-2.3-5.9-6.5-6.5 4.2-.6 5.9-2.3 6.5-6.5z"/><path d="M18.5 16v4M16.5 18h4"/></svg></span><span class="work-badge">Libre</span></div>
+          <h3 class="work-title">Magmungkahi ng ideya para sa app</h3>
+          <p class="work-desc">Libreng development na ginagawang produkto ang iyong abala o ideya — ang aming bubuuin ay ilalabas bilang app ng CodeDAC.</p>
+          <p class="work-list-label">Sabihin sa amin ang tatlong bagay na ito</p>
+          <ul class="work-list">
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2.5 4.5 13.5H11l-1 8 8.5-11H12z"/></svg></span><span class="wl-text"><strong>Ang sandaling nakakainis</strong><span>Kailan ito nangyayari at gaano kadalas? Mas marami ang sinasabi ng isang tiyak na pangyayari kaysa listahan ng feature.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 18h5M10.5 21h3"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg></span><span class="wl-text"><strong>Ang app na gusto mo</strong><span>Puwede nang pahapyaw. Sapat na ang isang pangungusap kung ano ang dapat nitong gawin para sa iyo.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7.5a3.5 3.5 0 0 0 0-7h-7a3.5 3.5 0 0 1 0-7H16"/></svg></span><span class="wl-text"><strong>Paano mo ito nilulusutan ngayon</strong><span>Ang paraang ginagamit mo ngayon, o ang app na muntik nang sapat at kung saan ito sumusuko.</span></span></li>
+          </ul>
+          <figure class="work-proof">
+            <figcaption class="work-proof-label">Nangyari na ito dati</figcaption>
+            <blockquote>I reported my frustration about not being able to import a backup from my previous clipboard manager, and the developer promptly updated the app to add that feature. Developers who listen to and act on user feedback deserve high praise.</blockquote>
+            <p class="work-proof-meta"><span class="review-stars" aria-label="5 / 5">★★★★★</span><span>Fabio Rodriguez · <bdi>Clipboard+</bdi></span></p>
+          </figure>
+          <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20Ideya%20para%20sa%20app&amp;body=1.%20Ano%20ang%20abala%20at%20kailan%20ito%20nangyayari%3F%0A-%20%0A%0A2.%20Ano%20ang%20dapat%20gawin%20ng%20app%3F%0A-%20%0A%0A3.%20Paano%20mo%20ito%20hinaharap%20ngayon%3F%0A-%20%0A%0A(Saang%20device%20mo%20gagamitin%3F%20Android%20%2F%20Windows)%0A-%20%0A" class="btn btn-primary work-btn">Magpadala ng ideya<svg class="ic ic-flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
       </div>
     </div>
   </section>
@@ -429,7 +483,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="logo small">Code<span>DAC</span></span>
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
         <span class="footer-based">Timog Korea</span>
       </div>
       <div class="footer-right">
@@ -448,6 +502,6 @@
   </div>
 
   <script>window.__LANG_BANNER={"cur":"fil","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=58"></script>
+  <script src="/js/site.js?v=59"></script>
 </body>
 </html>

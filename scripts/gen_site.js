@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '58'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '59'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -235,6 +235,9 @@ ${items}
 }
 
 // 파비콘 파일은 저장소 루트/images 에 둔다(원본: ReadFocus/Resource/marketing/youtube-profile-cd.png).
+// 헤더·푸터 워드마크 앞의 CD 마크(파비콘과 같은 그림). 글자 로고와 나란히 읽히므로 alt 는 비운다.
+const LOGO_MARK = '<img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" />';
+
 const FAVICON_LINKS = `<link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />`;
@@ -355,13 +358,12 @@ ${hreflangLinks(kind, slug, langSet)}
 function header(code, kind, slug, ui) {
   return `  <header class="site-header" id="top">
     <div class="container nav-wrap">
-      <a href="${pathFor(code, 'home')}" class="logo">Code<span>DAC</span></a>
+      <a href="${pathFor(code, 'home')}" class="logo">${LOGO_MARK}<span class="logo-text">Code<span>DAC</span></span></a>
       <nav class="nav" id="nav">
-        <a href="${pathFor(code, 'home')}#about">${escText(ui['nav.about'])}</a>
-        <a href="${pathFor(code, 'home')}#services">${escText(ui['nav.services'])}</a>
         <a href="${pathFor(code, 'home')}#apps">${escText(ui['nav.apps'])}</a>${HAS_REVIEWS ? `
         <a href="${pathFor(code, 'home')}#reviews">${escText(ui['nav.reviews'])}</a>` : ''}
-        <a href="${pathFor(code, 'home')}#ideas">${escText(ui['nav.ideas'])}</a>
+        <a href="${pathFor(code, 'home')}#about">${escText(ui['nav.about'])}</a>
+        <a href="${pathFor(code, 'home')}#contact">${escText(ui['nav.work'])}</a>
       </nav>
       <div class="nav-right">
         <button type="button" class="theme-toggle" id="themeToggle" aria-label="${escAttr(ui['theme.toggle'])}" title="${escAttr(ui['theme.toggle'])}">
@@ -380,7 +382,7 @@ function footer(code, ui) {
   return `  <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="logo small">Code<span>DAC</span></span>
+        <span class="logo small">${LOGO_MARK}<span class="logo-text">Code<span>DAC</span></span></span>
         <span class="footer-based">${escText(ui['footer.based'])}</span>
       </div>
       <div class="footer-right">
@@ -511,9 +513,97 @@ function counterpartSection(code, app, ui) {
   </section>`;
 }
 
-// 앱 아이디어 제보 섹션 (홈 전용). 정적 사이트라 받아 줄 서버가 없고, 사이트의 다른 CTA 와
-// 같은 mailto: 로 받는다 — 다만 빈 메일창이 열리면 대개 그냥 닫으므로, 제목과 세 항목 서식을
-// 방문자 언어로 채워 둔다(본문 줄바꿈은 encodeURIComponent 가 %0A 로 바꿔 준다).
+// ---------- 홈 섹션 조각 ----------
+
+// 선 아이콘(24px 격자, stroke=currentColor). 예전엔 카드마다 이모지를 썼는데, 이모지는
+// OS·브라우저마다 그림체가 달라 같은 페이지 안에서도 인상이 제각각이었다.
+const ICON_PATHS = {
+  phone: '<rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18h2"/>',
+  web: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>',
+  compass: '<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/>',
+  wrench: '<path d="M14.7 6.3a4 4 0 0 0-5.1 5.1L3.5 17.5l3 3 6.1-6.1a4 4 0 0 0 5.1-5.1l-2.6 2.6-2.4-.6-.6-2.4z"/>',
+  bolt: '<path d="M13 2.5 4.5 13.5H11l-1 8 8.5-11H12z"/>',
+  bulb: '<path d="M9.5 18h5M10.5 21h3"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/>',
+  route: '<circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7.5a3.5 3.5 0 0 0 0-7h-7a3.5 3.5 0 0 1 0-7H16"/>',
+  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/>',
+  shield: '<path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.6 7.5 9.5 4.3-.9 7.5-4.9 7.5-9.5V6z"/><path d="m9 12 2 2 4-4"/>',
+  loop: '<path d="M20 12a8 8 0 0 1-14.3 4.9M4 12a8 8 0 0 1 14.3-4.9"/><path d="M18.5 3.5v3.8h-3.8M5.5 20.5v-3.8h3.8"/>',
+  briefcase: '<rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8.5 7V5.5a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2V7M3 12.5h18"/>',
+  spark: '<path d="M12 3.5c.6 4.2 2.3 5.9 6.5 6.5-4.2.6-5.9 2.3-6.5 6.5-.6-4.2-2.3-5.9-6.5-6.5 4.2-.6 5.9-2.3 6.5-6.5z"/><path d="M18.5 16v4M16.5 18h4"/>',
+  arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+};
+const icon = (name, cls = 'ic') => `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON_PATHS[name]}</svg>`;
+
+// 플랫폼 로고(면). 앱 목록을 '어디서 받는 앱인가'로 가르는 표식이라 이름 옆에 늘 붙는다.
+const PLATFORM_LOGO = {
+  android: '<svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg>',
+  windows: '<svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg>',
+};
+// 플랫폼 이름은 고유명사라 번역하지 않고 모든 언어에서 그대로 쓴다.
+const PLATFORMS = [
+  { key: 'android', label: 'Android', desc: 'apps.android.desc' },
+  { key: 'windows', label: 'Windows', desc: 'apps.windows.desc' },
+];
+const platformKey = (app) => app.platform || 'android';
+
+// 히어로 제목. 문구의 <br /> 는 예전 가운데 정렬 히어로에서 두 줄로 끊던 자리다. 지금은 워드마크 아래
+// 한 줄 태그라인이라 강제 줄바꿈을 빼고 폭에 맞춰 넘기게 한다. CSS 로 <br> 만 숨기면 앞뒤 낱말이
+// 붙어 버리므로("daysmarter") 문자열에서 바꾼다 — 띄어쓰기를 하지 않는 일본어·중국어는 그냥 지운다.
+const NO_SPACE_LANGS = ['ja', 'zh'];
+const heroTitle = (code, ui) => String(ui['hero.title']).replace(/\s*<br\s*\/?>\s*/gi, NO_SPACE_LANGS.includes(code) ? '' : ' ');
+
+// 히어로 아이콘. 브랜드 배너(D:\CodeDAC\Data\CodeDAC 배경2_4096.png)와 같은 순서·같은 5+4 배치로 둔다.
+// 배너에 없는 새 Android 앱은 뒤에 붙는다(sort 는 안정 정렬이라 apps_base.json 순서가 유지된다).
+const HERO_ICON_ORDER = ['readfocus', 'floatnote', 'floattimer', 'clipboard', 'floatcalc', 'floatcrypto', 'autostart', 'volumebooster', 'photocleaner'];
+function heroIcons(code, ui) {
+  const d = L[code];
+  const rank = (app) => { const i = HERO_ICON_ORDER.indexOf(app.slug); return i < 0 ? HERO_ICON_ORDER.length : i; };
+  const list = APPS.filter((app) => platformKey(app) === 'android' && app.store && d.apps[app.slug])
+    .sort((a, b) => rank(a) - rank(b));
+  if (!list.length) return '';
+  return `      <ul class="hero-icons" aria-label="${escAttr(ui['apps.title'])}">
+${list.map((app) => {
+    const name = d.apps[app.slug].name;
+    return `        <li><a href="${pathFor(code, 'detail', app.slug)}" title="${escAttr(name)}"><img src="/images/icons/${app.slug}.png?v=${V}" alt="${escAttr(name)}" width="84" height="84" /></a></li>`;
+  }).join('\n')}
+      </ul>`;
+}
+
+// 회사 소개. 왼쪽은 한 줄 선언 + 이름 풀이 + 소개문, 오른쪽은 일하는 원칙 세 가지.
+function aboutSection(ui) {
+  const principles = [['target', 'c1'], ['shield', 'c2'], ['loop', 'c3']].map(([ic, k], i) => `        <li class="principle">
+          <span class="pr-icon">${icon(ic)}</span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">0${i + 1}</span>${escText(ui[`about.${k}.t`])}</h3><p>${escText(ui[`about.${k}.d`])}</p></div>
+        </li>`).join('\n');
+  return `
+  <section class="section" id="about">
+    <div class="container about-wrap">
+      <div class="about-copy">
+        <p class="section-label">ABOUT</p>
+        <h2 class="section-title">${escText(ui['about.title'])}</h2>
+        <p class="name-meaning">
+          <span class="nm-brand">Code<span>DAC</span></span>
+          <span class="nm-eq">=</span>
+          <span class="nm-expand">${ui['about.meaning']}</span>
+        </p>
+        <p class="about-lead">${escText(ui['about.lead'])}</p>
+      </div>
+      <ol class="principles">
+${principles}
+      </ol>
+    </div>
+  </section>
+`;
+}
+
+// 함께 만들기 섹션 (홈 전용) — 유료 프로젝트 의뢰와 무료 아이디어 제보를 나란히 둔다.
+// 입구는 둘 다 '메일 한 통'이지만 비용과 결과물의 주인이 정반대라, 떨어져 있으면 방문자가
+// 자기 경우가 어느 쪽인지 비교할 수 없었다. 배지가 그 차이를 한 단어로 먼저 보여 주고,
+// 카드 부제(services.note / ideas.note)가 한 줄로 풀어 쓴다.
+// 예전 앵커(#services · #ideas)로 들어오는 링크가 있으므로 두 카드에 그 id 를 남긴다.
+//
+// 정적 사이트라 받아 줄 서버가 없어 둘 다 mailto: 로 받는다 — 빈 메일창이 열리면 대개 그냥
+// 닫으므로 제목과 항목 서식을 방문자 언어로 채워 둔다(본문 줄바꿈은 encodeURIComponent 가 %0A 로).
 // '제보가 실제로 반영된다'는 증거 카드는 reviews.json 에서 proof:true 인 리뷰를 그대로 쓴다.
 // 새 문구를 짓지 않는 것이 핵심이다 — 홈 후기에 이미 떠 있는 진짜 리뷰여야 근거가 된다.
 const PROOF_REVIEW = (() => {
@@ -524,30 +614,58 @@ const PROOF_REVIEW = (() => {
   return null;
 })();
 
-function ideasSection(code, ui) {
-  const mail = `mailto:${EMAIL}`
+function workSection(code, ui) {
+  const projectMail = `mailto:${EMAIL}?subject=%5BCodeDAC%5D%20Project%20inquiry&body=${encodeURIComponent(ui['services.mail.body'])}`;
+  const ideaMail = `mailto:${EMAIL}`
     + '?subject=' + encodeURIComponent(ui['ideas.mail.subject'])
     + '&body=' + encodeURIComponent(ui['ideas.mail.body']);
-  const proof = PROOF_REVIEW ? `
-      <div class="ideas-proof">
-        <p class="ideas-proof-label">${escText(ui['ideas.proof'])}</p>
-${reviewCard(PROOF_REVIEW, code, true)}
-      </div>` : '';
+  const item = (ic, t, desc) => `            <li><span class="wl-icon">${icon(ic)}</span><span class="wl-text"><strong>${escText(t)}</strong><span>${escText(desc)}</span></span></li>`;
+  const services = [['phone', 's1'], ['web', 's2'], ['compass', 's3'], ['wrench', 's4']]
+    .map(([ic, k]) => item(ic, ui[`services.${k}.t`], ui[`services.${k}.d`])).join('\n');
+  const hints = [['bolt', 'c1'], ['bulb', 'c2'], ['route', 'c3']]
+    .map(([ic, k]) => item(ic, ui[`ideas.${k}.t`], ui[`ideas.${k}.d`])).join('\n');
+  let proof = '';
+  if (PROOF_REVIEW) {
+    const r = PROOF_REVIEW;
+    const appName = (L[code].apps[r.slug] && L[code].apps[r.slug].name) || r.slug;
+    const score = Math.max(1, Math.min(5, r.score || 5));
+    proof = `
+          <figure class="work-proof">
+            <figcaption class="work-proof-label">${escText(ui['ideas.proof'])}</figcaption>
+            <blockquote>${escText(r.text)}</blockquote>
+            <p class="work-proof-meta"><span class="review-stars" aria-label="${score} / 5">${'★'.repeat(score)}</span><span>${escText(r.name)} · ${bdiName(appName)}</span></p>
+          </figure>`;
+  }
   return `
-  <section class="section" id="ideas">
+  <section class="section section-alt" id="contact">
     <div class="container">
-      <p class="section-label">IDEAS</p>
-      <h2 class="section-title">${escText(ui['ideas.title'])}</h2>
-      <p class="section-lead">${escText(ui['ideas.lead'])}</p>
-      <div class="grid grid-3">
-        <div class="card"><div class="card-icon">😖</div><h3>${escText(ui['ideas.c1.t'])}</h3><p>${escText(ui['ideas.c1.d'])}</p></div>
-        <div class="card"><div class="card-icon">💡</div><h3>${escText(ui['ideas.c2.t'])}</h3><p>${escText(ui['ideas.c2.d'])}</p></div>
-        <div class="card"><div class="card-icon">🔧</div><h3>${escText(ui['ideas.c3.t'])}</h3><p>${escText(ui['ideas.c3.d'])}</p></div>
+      <div class="section-head-center">
+        <p class="section-label">BUILD WITH US</p>
+        <h2 class="section-title">${escText(ui['work.title'])}</h2>
+        <p class="section-lead">${escText(ui['work.lead'])}</p>
       </div>
-      <div class="services-cta">
-        <a href="${escAttr(mail)}" class="btn btn-primary">${escText(ui['ideas.cta'])}</a>
-        <p class="ideas-note">${escText(ui['ideas.note'])}</p>
-      </div>${proof}
+      <div class="work-grid">
+        <article class="work-card work-project" id="services">
+          <div class="work-top"><span class="work-icon">${icon('briefcase')}</span><span class="work-badge">${escText(ui['work.a.badge'])}</span></div>
+          <h3 class="work-title">${escText(ui['work.a.title'])}</h3>
+          <p class="work-desc">${escText(ui['services.note'])}</p>
+          <p class="work-list-label">${escText(ui['work.a.list'])}</p>
+          <ul class="work-list">
+${services}
+          </ul>
+          <a href="${escAttr(projectMail)}" class="btn btn-navy work-btn">${escText(ui['services.cta'])}${icon('arrow', 'ic ic-flip')}</a>
+        </article>
+        <article class="work-card work-idea" id="ideas">
+          <div class="work-top"><span class="work-icon">${icon('spark')}</span><span class="work-badge">${escText(ui['work.b.badge'])}</span></div>
+          <h3 class="work-title">${escText(ui['work.b.title'])}</h3>
+          <p class="work-desc">${escText(ui['ideas.note'])}</p>
+          <p class="work-list-label">${escText(ui['work.b.list'])}</p>
+          <ul class="work-list">
+${hints}
+          </ul>${proof}
+          <a href="${escAttr(ideaMail)}" class="btn btn-primary work-btn">${escText(ui['ideas.cta'])}${icon('arrow', 'ic ic-flip')}</a>
+        </article>
+      </div>
     </div>
   </section>
 `;
@@ -564,37 +682,53 @@ function buildHome(lang) {
     const a = d.apps[app.slug];
     const cardShots = Math.min(app.shots, 3); // 홈 카드는 3장까지만(상세 페이지는 전량)
     const shotsHtml = cardShots ? `
-        <div class="app-shots">
+          <div class="app-shots">
 ${Array.from({ length: cardShots }, (_, i) =>
-      `          <img class="shot" src="/images/shots/${app.slug}-${i + 1}.jpg?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}" loading="lazy" data-idx="${i}" />`).join('\n')}
-        </div>` : '';
+      `            <img class="shot" src="/images/shots/${app.slug}-${i + 1}.jpg?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}" loading="lazy" data-idx="${i}" />`).join('\n')}
+          </div>` : '';
     const store = app.store
       ? `<a class="app-link" href="${escAttr(storeUrl(app, code, 'home-card'))}" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
       : '';
-    return `        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/${app.slug}.png?v=${V}" alt="${escAttr(a.name)} icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="${pathFor(code, 'detail', app.slug)}">${bdiName(a.name)}</a></h4><span class="app-meta-row"><span class="app-tag">${escText(a.tag)}</span>${langBadge(app.slug, ui)}</span></div>
-          </div>
-          <p class="app-desc">${escText(a.desc)}</p>${shotsHtml}
-          <div class="app-links"><a class="app-more" href="${pathFor(code, 'detail', app.slug)}">${escText(ui['card.detail'])}</a>${store}</div>
-        </article>`;
+    // 같은 앱의 다른 플랫폼 버전이 있으면 카드에서 바로 건너갈 수 있게 한다.
+    // 문구는 상세 페이지의 상호 링크 제목(counterpart.title)을 그대로 쓴다.
+    const other = app.counterpart && APPS.find((x) => x.slug === app.counterpart);
+    const also = other && d.apps[other.slug] ? `
+          <a class="app-also app-also-${platformKey(other)}" href="${pathFor(code, 'detail', other.slug)}">${PLATFORM_LOGO[platformKey(other)]}<span>${escText(String(ui['counterpart.title']).replace('{platform}', platformOf(other)))}</span></a>` : '';
+    return `          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/${app.slug}.png?v=${V}" alt="${escAttr(a.name)} icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="${pathFor(code, 'detail', app.slug)}">${bdiName(a.name)}</a></h4><span class="app-meta-row"><span class="app-tag">${escText(a.tag)}</span>${langBadge(app.slug, ui)}</span></div>
+            </div>
+            <p class="app-desc">${escText(a.desc)}</p>${also}${shotsHtml}
+            <div class="app-links"><a class="app-more" href="${pathFor(code, 'detail', app.slug)}">${escText(ui['card.detail'])}</a>${store}</div>
+          </article>`;
   };
 
   // 폰 앱과 데스크톱 앱은 설치처도 쓰는 환경도 달라, 한 목록에 섞으면 읽는 사람이 헷갈린다.
-  // 플랫폼 이름은 고유명사라 번역하지 않고 모든 언어에서 그대로 쓴다.
-  // 그룹에 속한 앱이 없으면 제목째로 빠진다 — 앱이 한 종류뿐일 땐 구분이 군더더기다.
-  const appGroups = [['android', 'Android'], ['windows', 'Windows']]
-    .map(([platform, label]) => {
-      const list = APPS.filter((app) => (app.platform || 'android') === platform);
-      if (!list.length) return '';
-      return `      <h3 class="app-group">${label}</h3>
-      <div class="app-grid">
-${list.map(cardHtml).join('\n')}
+  // 플랫폼마다 로고·설치처·앱 수를 단 머리와 옅은 플랫폼 색 패널로 묶어 경계를 분명히 한다.
+  // 그룹이 하나뿐이면 머리와 패널을 빼고 카드만 둔다 — 앱이 한 종류뿐일 땐 구분이 군더더기다.
+  const groups = PLATFORMS
+    .map((p) => ({ ...p, list: APPS.filter((app) => platformKey(app) === p.key) }))
+    .filter((g) => g.list.length);
+  const multi = groups.length > 1;
+  const platformJump = multi ? `
+        <nav class="platform-jump" aria-label="${escAttr(ui['apps.title'])}">
+${groups.map((g) => `          <a class="pj pj-${g.key}" href="#apps-${g.key}">${PLATFORM_LOGO[g.key]}<span>${g.label}</span><span class="pj-n" dir="ltr">${g.list.length}</span></a>`).join('\n')}
+        </nav>` : '';
+  const appGroups = multi
+    ? groups.map((g) => `      <div class="platform platform-${g.key}" id="apps-${g.key}">
+        <div class="platform-head">
+          <span class="platform-logo">${PLATFORM_LOGO[g.key]}</span>
+          <div class="platform-text"><h3 class="platform-name">${g.label}</h3><p class="platform-desc">${escText(ui[g.desc])}</p></div>
+          <span class="platform-count">${escText(String(ui['apps.count']).replace('{n}', g.list.length))}</span>
+        </div>
+        <div class="app-grid">
+${g.list.map(cardHtml).join('\n')}
+        </div>
+      </div>`).join('\n')
+    : `      <div class="app-grid">
+${groups.flatMap((g) => g.list).map(cardHtml).join('\n')}
       </div>`;
-    })
-    .filter(Boolean)
-    .join('\n');
 
   const orgLd = {
     '@context': 'https://schema.org', '@type': 'Organization',
@@ -618,64 +752,39 @@ ${JSON.stringify(orgLd, null, 2)}
 ${header(code, 'home', undefined, ui)}
 
   <section class="hero">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
     <div class="container hero-inner">
-      <p class="eyebrow">${ui['hero.eyebrow']}</p>
-      <h1>${ui['hero.title']}</h1>
-      <p class="hero-sub">${ui['hero.sub']}</p>
-      <div class="hero-actions">
-        <a href="#apps" class="btn btn-primary">${escText(ui['hero.cta1'])}</a>
-        <a href="mailto:${EMAIL}" class="btn btn-ghost">${escText(ui['hero.cta2'])}</a>
+      <div class="hero-copy">
+        <p class="hero-brand" dir="ltr">Code<span>DAC</span></p>
+        <h1>${heroTitle(code, ui)}</h1>
+        <p class="hero-sub">${ui['hero.sub']}</p>
+        <div class="hero-actions">
+          <a href="#apps" class="btn btn-primary">${escText(ui['hero.cta1'])}</a>
+          <a href="#contact" class="btn btn-glass">${escText(ui['hero.cta2'])}</a>
+        </div>
       </div>
+${heroIcons(code, ui)}
+    </div>
+    <div class="container">
 ${statStrip(ui)}
-    </div>
-  </section>
-
-  <section class="section" id="about">
-    <div class="container">
-      <p class="section-label">ABOUT</p>
-      <h2 class="section-title">${escText(ui['about.title'])}</h2>
-      <p class="name-meaning">
-        <span class="nm-brand">Code<span>DAC</span></span>
-        <span class="nm-eq">=</span>
-        <span class="nm-expand">${ui['about.meaning']}</span>
-      </p>
-      <p class="section-lead">${escText(ui['about.lead'])}</p>
-      <div class="grid grid-3">
-        <div class="card"><div class="card-icon">🎯</div><h3>${escText(ui['about.c1.t'])}</h3><p>${escText(ui['about.c1.d'])}</p></div>
-        <div class="card"><div class="card-icon">🔒</div><h3>${escText(ui['about.c2.t'])}</h3><p>${escText(ui['about.c2.d'])}</p></div>
-        <div class="card"><div class="card-icon">🚀</div><h3>${escText(ui['about.c3.t'])}</h3><p>${escText(ui['about.c3.d'])}</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt" id="services">
-    <div class="container">
-      <p class="section-label">SERVICES</p>
-      <h2 class="section-title">${escText(ui['services.title'])}</h2>
-      <p class="section-lead">${escText(ui['services.lead'])}</p>
-      <div class="services-grid">
-        <div class="card"><div class="card-icon">📱</div><h3>${escText(ui['services.s1.t'])}</h3><p>${escText(ui['services.s1.d'])}</p></div>
-        <div class="card"><div class="card-icon">🌐</div><h3>${escText(ui['services.s2.t'])}</h3><p>${escText(ui['services.s2.d'])}</p></div>
-        <div class="card"><div class="card-icon">🧭</div><h3>${escText(ui['services.s3.t'])}</h3><p>${escText(ui['services.s3.d'])}</p></div>
-        <div class="card"><div class="card-icon">🛠️</div><h3>${escText(ui['services.s4.t'])}</h3><p>${escText(ui['services.s4.d'])}</p></div>
-      </div>
-      <div class="services-cta">
-        <a href="${escAttr(`mailto:${EMAIL}?subject=%5BCodeDAC%5D%20Project%20inquiry&body=${encodeURIComponent(ui['services.mail.body'])}`)}" class="btn btn-primary">${escText(ui['services.cta'])}</a>
-        <p class="ideas-note">${escText(ui['services.note'])}</p>
-      </div>
     </div>
   </section>
 
   <section class="section" id="apps">
     <div class="container">
-      <p class="section-label">OUR APPS</p>
-      <h2 class="section-title">${escText(ui['apps.title'])}</h2>
-      <p class="section-lead">${escText(ui['apps.lead'])}</p>
+      <div class="apps-head">
+        <div>
+          <p class="section-label">OUR APPS</p>
+          <h2 class="section-title">${escText(ui['apps.title'])}</h2>
+          <p class="section-lead">${escText(ui['apps.lead'])}</p>
+        </div>${platformJump}
+      </div>
 ${appGroups}
     </div>
   </section>
 ${reviewsSection(code, ui, featuredReviews(), { alt: true, showApp: true })}
-${ideasSection(code, ui)}
+${aboutSection(ui)}
+${workSection(code, ui)}
 ${footer(code, ui)}
 
   <div class="lightbox" id="lightbox" aria-hidden="true">

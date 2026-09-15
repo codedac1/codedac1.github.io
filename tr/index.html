@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=58" />
+  <link rel="stylesheet" href="/css/style.css?v=59" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -79,13 +79,12 @@
 <body>
   <header class="site-header" id="top">
     <div class="container nav-wrap">
-      <a href="/tr/" class="logo">Code<span>DAC</span></a>
+      <a href="/tr/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
       <nav class="nav" id="nav">
-        <a href="/tr/#about">Hakkımızda</a>
-        <a href="/tr/#services">Hizmetler</a>
         <a href="/tr/#apps">Uygulamalar</a>
         <a href="/tr/#reviews">Yorumlar</a>
-        <a href="/tr/#ideas">Fikirler</a>
+        <a href="/tr/#about">Hakkımızda</a>
+        <a href="/tr/#contact">İş birliği</a>
       </nav>
       <div class="nav-right">
         <button type="button" class="theme-toggle" id="themeToggle" aria-label="Karanlık modu aç/kapat" title="Karanlık modu aç/kapat">
@@ -125,14 +124,30 @@
   </header>
 
   <section class="hero">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
     <div class="container hero-inner">
-      <p class="eyebrow">EVERYDAY UTILITY APPS</p>
-      <h1>Gününüzü<br />daha akıllı yapın</h1>
-      <p class="hero-sub">CodeDAC, günlük hayatı kolaylaştıran <br class="br-pc" />yardımcı uygulamalar geliştirir.</p>
-      <div class="hero-actions">
-        <a href="#apps" class="btn btn-primary">Uygulamaları keşfedin</a>
-        <a href="mailto:contact@codedac.com" class="btn btn-ghost">Bize ulaşın</a>
+      <div class="hero-copy">
+        <p class="hero-brand" dir="ltr">Code<span>DAC</span></p>
+        <h1>Gününüzü daha akıllı yapın</h1>
+        <p class="hero-sub">Android ve Windows için günlük hayatı <br class="br-pc" />kolaylaştıran yardımcı uygulamalar.</p>
+        <div class="hero-actions">
+          <a href="#apps" class="btn btn-primary">Uygulamaları keşfedin</a>
+          <a href="#contact" class="btn btn-glass">Bize ulaşın</a>
+        </div>
       </div>
+      <ul class="hero-icons" aria-label="Yardımcı Uygulamalar">
+        <li><a href="/tr/apps/readfocus.html" title="ReadFocus+"><img src="/images/icons/readfocus.png?v=59" alt="ReadFocus+" width="84" height="84" /></a></li>
+        <li><a href="/tr/apps/floatnote.html" title="FloatNote+"><img src="/images/icons/floatnote.png?v=59" alt="FloatNote+" width="84" height="84" /></a></li>
+        <li><a href="/tr/apps/floattimer.html" title="FloatTimer+"><img src="/images/icons/floattimer.png?v=59" alt="FloatTimer+" width="84" height="84" /></a></li>
+        <li><a href="/tr/apps/clipboard.html" title="Clipboard+"><img src="/images/icons/clipboard.png?v=59" alt="Clipboard+" width="84" height="84" /></a></li>
+        <li><a href="/tr/apps/floatcalc.html" title="FloatCalc+"><img src="/images/icons/floatcalc.png?v=59" alt="FloatCalc+" width="84" height="84" /></a></li>
+        <li><a href="/tr/apps/floatcrypto.html" title="FloatCrypto+"><img src="/images/icons/floatcrypto.png?v=59" alt="FloatCrypto+" width="84" height="84" /></a></li>
+        <li><a href="/tr/apps/autostart.html" title="AutoStart+"><img src="/images/icons/autostart.png?v=59" alt="AutoStart+" width="84" height="84" /></a></li>
+        <li><a href="/tr/apps/volumebooster.html" title="VolumeBooster+"><img src="/images/icons/volumebooster.png?v=59" alt="VolumeBooster+" width="84" height="84" /></a></li>
+        <li><a href="/tr/apps/photocleaner.html" title="PhotoCleaner+"><img src="/images/icons/photocleaner.png?v=59" alt="PhotoCleaner+" width="84" height="84" /></a></li>
+      </ul>
+    </div>
+    <div class="container">
       <ul class="hero-stats">
         <li class="hstat"><span class="hstat-num" dir="ltr">13</span><span class="hstat-label">Uygulama</span></li>
         <li class="hstat"><span class="hstat-num" dir="ltr">18,000+</span><span class="hstat-label">İndirme</span></li>
@@ -141,221 +156,213 @@
     </div>
   </section>
 
-  <section class="section" id="about">
-    <div class="container">
-      <p class="section-label">ABOUT</p>
-      <h2 class="section-title">Hakkımızda</h2>
-      <p class="name-meaning">
-        <span class="nm-brand">Code<span>DAC</span></span>
-        <span class="nm-eq">=</span>
-        <span class="nm-expand">Code tabanlı <b>D</b>evelopment <b>A</b>nd <b>C</b>onsulting</span>
-      </p>
-      <p class="section-lead">Adına yakışır şekilde CodeDAC, Kod (Code) temeli üzerine Geliştirme (Development) ve Danışmanlık (Consulting) sunmak için kuruldu. Bugün insanların her gün başvurduğu yardımcı uygulamalar tasarlıyor ve yayınlıyoruz; hedefimiz ise müşterilerimizin zorluklarını sağlam mühendislikle çözen, güvenilir bir teknoloji ortağına dönüşmek.</p>
-      <div class="grid grid-3">
-        <div class="card"><div class="card-icon">🎯</div><h3>Sadelik</h3><p>Karmaşık özellikler yerine netliği ve anında kullanılabilirliği tercih ediyoruz.</p></div>
-        <div class="card"><div class="card-icon">🔒</div><h3>Güven</h3><p>Gereksiz izinleri ve reklamları en aza indiriyor, verilerinize saygı duyuyoruz.</p></div>
-        <div class="card"><div class="card-icon">🚀</div><h3>Süreklilik</h3><p>Yayınlamak yalnızca başlangıç — kullanıcı geri bildirimleriyle geliştirmeye devam ediyoruz.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt" id="services">
-    <div class="container">
-      <p class="section-label">SERVICES</p>
-      <h2 class="section-title">Hizmetler</h2>
-      <p class="section-lead">Planlamadan geliştirmeye ve operasyona kadar CodeDAC, işiniz için yazılım geliştirir ve işletir.</p>
-      <div class="services-grid">
-        <div class="card"><div class="card-icon">📱</div><h3>Uygulama Geliştirme</h3><p>Planlamadan yayına ve operasyona kadar Android, iOS, Windows masaüstü ve platformlar arası uygulamalar geliştiriyoruz.</p></div>
-        <div class="card"><div class="card-icon">🌐</div><h3>Web Geliştirme</h3><p>Duyarlı web siteleri, web uygulamaları ve yönetim sistemleri geliştiriyoruz.</p></div>
-        <div class="card"><div class="card-icon">🧭</div><h3>Teknik Danışmanlık</h3><p>Mimari, teknoloji yığını seçimi ve kod incelemesi konularında yol göstererek kritik kararlara rehberlik ediyoruz.</p></div>
-        <div class="card"><div class="card-icon">🛠️</div><h3>Bakım ve Operasyon</h3><p>İstikrarlı operasyon, performans iyileştirme ve CI/CD otomasyonuyla hizmetleri sağlıklı tutuyoruz.</p></div>
-      </div>
-      <div class="services-cta">
-        <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20Project%20inquiry&amp;body=1.%20Ne%20geli%C5%9Ftirmek%20istiyorsunuz%3F%0A-%20%0A%0A2.%20Platform%20(Android%20%2F%20iOS%20%2F%20Windows%20%2F%20Web)%0A-%20%0A%0A3.%20Takvim%20ve%20b%C3%BCt%C3%A7e%20(yakla%C5%9F%C4%B1k%20olmas%C4%B1%20yeterli)%0A-%20%0A" class="btn btn-primary">Bir proje başlatın</a>
-        <p class="ideas-note">Kendi ürününüz için ücretli geliştirme; ortaya çıkan ürün sizindir.</p>
-      </div>
-    </div>
-  </section>
-
   <section class="section" id="apps">
     <div class="container">
-      <p class="section-label">OUR APPS</p>
-      <h2 class="section-title">Yardımcı Uygulamalar</h2>
-      <p class="section-lead">CodeDAC tarafından geliştirilen ve yayınlanan yardımcı uygulamalar. Büyütmek için bir ekran görüntüsüne dokunun.</p>
-      <h3 class="app-group">Android</h3>
-      <div class="app-grid">
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/clipboard.png?v=58" alt="Clipboard+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/clipboard.html"><bdi>Clipboard+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Pano</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
-          </div>
-          <p class="app-desc">Kopyalanan metin ve görselleri saklayın. Arayın, yapıştırın, PC ile eşitleyin.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/clipboard-1.jpg?v=58" alt="Clipboard+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/clipboard-2.jpg?v=58" alt="Clipboard+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/clipboard-3.jpg?v=58" alt="Clipboard+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+      <div class="apps-head">
+        <div>
+          <p class="section-label">OUR APPS</p>
+          <h2 class="section-title">Yardımcı Uygulamalar</h2>
+          <p class="section-lead">CodeDAC tarafından geliştirilen ve yayınlanan yardımcı uygulamalar. Büyütmek için bir ekran görüntüsüne dokunun.</p>
         </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/clipboard.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/autostart.png?v=58" alt="AutoStart+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/autostart.html"><bdi>AutoStart+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Otomatik Başlatma</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
-          </div>
-          <p class="app-desc">Uygulamalarınızı açılışta otomatik başlatın. Root gerekmez, bir kez ayarlayın.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/autostart-1.jpg?v=58" alt="AutoStart+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/autostart-2.jpg?v=58" alt="AutoStart+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/autostart-3.jpg?v=58" alt="AutoStart+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/autostart.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.autostart&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatcalc.png?v=58" alt="FloatCalc+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/floatcalc.html"><bdi>FloatCalc+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Kayan Pencere</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
-          </div>
-          <p class="app-desc">Her uygulamanın üstünde yüzen hesap makinesi, döviz ve birim çevirici.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatcalc-1.jpg?v=58" alt="FloatCalc+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatcalc-2.jpg?v=58" alt="FloatCalc+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatcalc-3.jpg?v=58" alt="FloatCalc+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/floatcalc.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatcrypto.png?v=58" alt="FloatCrypto+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/floatcrypto.html"><bdi>FloatCrypto+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Kayan Pencere</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
-          </div>
-          <p class="app-desc">Her uygulamanın üzerinde canlı kripto ticker, alarm ve grafiklerle.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=58" alt="FloatCrypto+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=58" alt="FloatCrypto+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=58" alt="FloatCrypto+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/floatcrypto.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floattimer.png?v=58" alt="FloatTimer+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/floattimer.html"><bdi>FloatTimer+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Kayan Pencere</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
-          </div>
-          <p class="app-desc">Her uygulamanın üstünde kayan zamanlayıcı, sayaç ve kronometre.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floattimer-1.jpg?v=58" alt="FloatTimer+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floattimer-2.jpg?v=58" alt="FloatTimer+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floattimer-3.jpg?v=58" alt="FloatTimer+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/floattimer.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/volumebooster.png?v=58" alt="VolumeBooster+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/volumebooster.html"><bdi>VolumeBooster+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Ses</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
-          </div>
-          <p class="app-desc">Ses yükseltici, ekolayzer ve bas: her sesi +15 dB’ye kadar yükseltin.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=58" alt="VolumeBooster+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=58" alt="VolumeBooster+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=58" alt="VolumeBooster+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/volumebooster.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/photocleaner.png?v=58" alt="PhotoCleaner+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/photocleaner.html"><bdi>PhotoCleaner+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Gizlilik</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
-          </div>
-          <p class="app-desc">Fotoğraflardaki ve PDF'lerdeki kişisel bilgileri tamamen cihazınızda gizleyin.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/photocleaner-1.jpg?v=58" alt="PhotoCleaner+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/photocleaner-2.jpg?v=58" alt="PhotoCleaner+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/photocleaner-3.jpg?v=58" alt="PhotoCleaner+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/photocleaner.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/readfocus.png?v=58" alt="ReadFocus+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/readfocus.html"><bdi>ReadFocus+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Erişilebilirlik</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
-          </div>
-          <p class="app-desc">Satır vurgusu ve okuma maskesiyle disleksi ve DEHB için okuma yardımcısı.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/readfocus-1.jpg?v=58" alt="ReadFocus+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/readfocus-2.jpg?v=58" alt="ReadFocus+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/readfocus-3.jpg?v=58" alt="ReadFocus+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/readfocus.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatnote.png?v=58" alt="FloatNote+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/floatnote.html"><bdi>FloatNote+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Notlar</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
-          </div>
-          <p class="app-desc">Her uygulamanın üstünde yüzen yapışkan notlar. Çipe küçült, kart olarak aç; renkler ve zengin metin.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatnote-1.jpg?v=58" alt="FloatNote+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatnote-2.jpg?v=58" alt="FloatNote+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatnote-3.jpg?v=58" alt="FloatNote+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/floatnote.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
-        </article>
+        <nav class="platform-jump" aria-label="Yardımcı Uygulamalar">
+          <a class="pj pj-android" href="#apps-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Android</span><span class="pj-n" dir="ltr">9</span></a>
+          <a class="pj pj-windows" href="#apps-windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Windows</span><span class="pj-n" dir="ltr">4</span></a>
+        </nav>
       </div>
-      <h3 class="app-group">Windows</h3>
-      <div class="app-grid">
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/clipboardwin.png?v=58" alt="Clipboard+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/clipboardwin.html"><bdi>Clipboard+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Pano</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
-          </div>
-          <p class="app-desc">Clipboard+ Android uygulamasıyla senkronize olan bir Windows tepsi pano yöneticisi.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=58" alt="Clipboard+ for Windows Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=58" alt="Clipboard+ for Windows Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/clipboardwin-3.jpg?v=58" alt="Clipboard+ for Windows Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+      <div class="platform platform-android" id="apps-android">
+        <div class="platform-head">
+          <span class="platform-logo"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          <div class="platform-text"><h3 class="platform-name">Android</h3><p class="platform-desc">Telefon ve tabletler için · Google Play</p></div>
+          <span class="platform-count">9 uygulama</span>
         </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/clipboardwin.html">Ayrıntılar →</a><a class="app-link" href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-home-card-tr" target="_blank" rel="noopener">Microsoft Store'da görüntüle →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/readfocuswin.png?v=58" alt="ReadFocus+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/readfocuswin.html"><bdi>ReadFocus+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Erişilebilirlik</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+        <div class="app-grid">
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/clipboard.png?v=59" alt="Clipboard+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/clipboard.html"><bdi>Clipboard+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Pano</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Kopyalanan metin ve görselleri saklayın. Arayın, yapıştırın, PC ile eşitleyin.</p>
+          <a class="app-also app-also-windows" href="/tr/apps/clipboardwin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Windows için de mevcut</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/clipboard-1.jpg?v=59" alt="Clipboard+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/clipboard-2.jpg?v=59" alt="Clipboard+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/clipboard-3.jpg?v=59" alt="Clipboard+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
           </div>
-          <p class="app-desc">Windows için tıklamayı geçiren bir odak şeridi — Maske ve Vurgulama gözünüzü satırda tutar.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=58" alt="ReadFocus+ for Windows Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=58" alt="ReadFocus+ for Windows Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/readfocuswin-3.jpg?v=58" alt="ReadFocus+ for Windows Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/readfocuswin.html">Ayrıntılar →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-home-card-tr" target="_blank" rel="noopener">Microsoft Store'da görüntüle →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatnotewin.png?v=58" alt="FloatNote+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/floatnotewin.html"><bdi>FloatNote+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Notlar</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            <div class="app-links"><a class="app-more" href="/tr/apps/clipboard.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/autostart.png?v=59" alt="AutoStart+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/autostart.html"><bdi>AutoStart+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Otomatik Başlatma</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Uygulamalarınızı açılışta otomatik başlatın. Root gerekmez, bir kez ayarlayın.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/autostart-1.jpg?v=59" alt="AutoStart+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/autostart-2.jpg?v=59" alt="AutoStart+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/autostart-3.jpg?v=59" alt="AutoStart+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
           </div>
-          <p class="app-desc">Windows'ta her pencerenin üstünde yüzen yapışkan notlar; FloatNote+ Android uygulamasıyla eşitlenir.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=58" alt="FloatNote+ for Windows Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=58" alt="FloatNote+ for Windows Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatnotewin-3.jpg?v=58" alt="FloatNote+ for Windows Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/floatnotewin.html">Ayrıntılar →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-home-card-tr" target="_blank" rel="noopener">Microsoft Store'da görüntüle →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floattimerwin.png?v=58" alt="FloatTimer+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/tr/apps/floattimerwin.html"><bdi>FloatTimer+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Kayan Pencere</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            <div class="app-links"><a class="app-more" href="/tr/apps/autostart.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.autostart&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatcalc.png?v=59" alt="FloatCalc+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/floatcalc.html"><bdi>FloatCalc+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Kayan Pencere</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Her uygulamanın üstünde yüzen hesap makinesi, döviz ve birim çevirici.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatcalc-1.jpg?v=59" alt="FloatCalc+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatcalc-2.jpg?v=59" alt="FloatCalc+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatcalc-3.jpg?v=59" alt="FloatCalc+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
           </div>
-          <p class="app-desc">Windows'ta her pencerenin üzerinde küçük pastel kartlar olarak kayan zamanlayıcılar, sayaçlar ve kronometreler.</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=58" alt="FloatTimer+ for Windows Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=58" alt="FloatTimer+ for Windows Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floattimerwin-3.jpg?v=58" alt="FloatTimer+ for Windows Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+            <div class="app-links"><a class="app-more" href="/tr/apps/floatcalc.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatcrypto.png?v=59" alt="FloatCrypto+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/floatcrypto.html"><bdi>FloatCrypto+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Kayan Pencere</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Her uygulamanın üzerinde canlı kripto ticker, alarm ve grafiklerle.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=59" alt="FloatCrypto+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=59" alt="FloatCrypto+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=59" alt="FloatCrypto+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/tr/apps/floatcrypto.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floattimer.png?v=59" alt="FloatTimer+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/floattimer.html"><bdi>FloatTimer+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Kayan Pencere</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Her uygulamanın üstünde kayan zamanlayıcı, sayaç ve kronometre.</p>
+          <a class="app-also app-also-windows" href="/tr/apps/floattimerwin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Windows için de mevcut</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floattimer-1.jpg?v=59" alt="FloatTimer+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floattimer-2.jpg?v=59" alt="FloatTimer+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floattimer-3.jpg?v=59" alt="FloatTimer+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/tr/apps/floattimer.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/volumebooster.png?v=59" alt="VolumeBooster+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/volumebooster.html"><bdi>VolumeBooster+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Ses</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Ses yükseltici, ekolayzer ve bas: her sesi +15 dB’ye kadar yükseltin.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/volumebooster-1.jpg?v=59" alt="VolumeBooster+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/volumebooster-2.jpg?v=59" alt="VolumeBooster+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/volumebooster-3.jpg?v=59" alt="VolumeBooster+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/tr/apps/volumebooster.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/photocleaner.png?v=59" alt="PhotoCleaner+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/photocleaner.html"><bdi>PhotoCleaner+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Gizlilik</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Fotoğraflardaki ve PDF'lerdeki kişisel bilgileri tamamen cihazınızda gizleyin.</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/photocleaner-1.jpg?v=59" alt="PhotoCleaner+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/photocleaner-2.jpg?v=59" alt="PhotoCleaner+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/photocleaner-3.jpg?v=59" alt="PhotoCleaner+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/tr/apps/photocleaner.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/readfocus.png?v=59" alt="ReadFocus+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/readfocus.html"><bdi>ReadFocus+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Erişilebilirlik</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Satır vurgusu ve okuma maskesiyle disleksi ve DEHB için okuma yardımcısı.</p>
+          <a class="app-also app-also-windows" href="/tr/apps/readfocuswin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Windows için de mevcut</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/readfocus-1.jpg?v=59" alt="ReadFocus+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/readfocus-2.jpg?v=59" alt="ReadFocus+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/readfocus-3.jpg?v=59" alt="ReadFocus+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/tr/apps/readfocus.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatnote.png?v=59" alt="FloatNote+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/floatnote.html"><bdi>FloatNote+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Notlar</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Her uygulamanın üstünde yüzen yapışkan notlar. Çipe küçült, kart olarak aç; renkler ve zengin metin.</p>
+          <a class="app-also app-also-windows" href="/tr/apps/floatnotewin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Windows için de mevcut</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatnote-1.jpg?v=59" alt="FloatNote+ Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatnote-2.jpg?v=59" alt="FloatNote+ Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatnote-3.jpg?v=59" alt="FloatNote+ Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/tr/apps/floatnote.html">Ayrıntılar →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dtr" target="_blank" rel="noopener">Google Play'de görüntüle →</a></div>
+          </article>
         </div>
-          <div class="app-links"><a class="app-more" href="/tr/apps/floattimerwin.html">Ayrıntılar →</a><a class="app-link" href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-home-card-tr" target="_blank" rel="noopener">Microsoft Store'da görüntüle →</a></div>
-        </article>
+      </div>
+      <div class="platform platform-windows" id="apps-windows">
+        <div class="platform-head">
+          <span class="platform-logo"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          <div class="platform-text"><h3 class="platform-name">Windows</h3><p class="platform-desc">Windows bilgisayarlar için · Microsoft Store</p></div>
+          <span class="platform-count">4 uygulama</span>
+        </div>
+        <div class="app-grid">
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/clipboardwin.png?v=59" alt="Clipboard+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/clipboardwin.html"><bdi>Clipboard+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Pano</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Clipboard+ Android uygulamasıyla senkronize olan bir Windows tepsi pano yöneticisi.</p>
+          <a class="app-also app-also-android" href="/tr/apps/clipboard.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Android için de mevcut</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=59" alt="Clipboard+ for Windows Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=59" alt="Clipboard+ for Windows Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/clipboardwin-3.jpg?v=59" alt="Clipboard+ for Windows Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/tr/apps/clipboardwin.html">Ayrıntılar →</a><a class="app-link" href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-home-card-tr" target="_blank" rel="noopener">Microsoft Store'da görüntüle →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/readfocuswin.png?v=59" alt="ReadFocus+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/readfocuswin.html"><bdi>ReadFocus+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Erişilebilirlik</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Windows için tıklamayı geçiren bir odak şeridi — Maske ve Vurgulama gözünüzü satırda tutar.</p>
+          <a class="app-also app-also-android" href="/tr/apps/readfocus.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Android için de mevcut</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=59" alt="ReadFocus+ for Windows Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=59" alt="ReadFocus+ for Windows Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/readfocuswin-3.jpg?v=59" alt="ReadFocus+ for Windows Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/tr/apps/readfocuswin.html">Ayrıntılar →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-home-card-tr" target="_blank" rel="noopener">Microsoft Store'da görüntüle →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatnotewin.png?v=59" alt="FloatNote+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/floatnotewin.html"><bdi>FloatNote+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Notlar</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Windows'ta her pencerenin üstünde yüzen yapışkan notlar; FloatNote+ Android uygulamasıyla eşitlenir.</p>
+          <a class="app-also app-also-android" href="/tr/apps/floatnote.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Android için de mevcut</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=59" alt="FloatNote+ for Windows Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=59" alt="FloatNote+ for Windows Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatnotewin-3.jpg?v=59" alt="FloatNote+ for Windows Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/tr/apps/floatnotewin.html">Ayrıntılar →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-home-card-tr" target="_blank" rel="noopener">Microsoft Store'da görüntüle →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floattimerwin.png?v=59" alt="FloatTimer+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/tr/apps/floattimerwin.html"><bdi>FloatTimer+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">Kayan Pencere</span><span class="app-langs" aria-label="21 dil"><span class="globe" aria-hidden="true">🌐</span>21 dil</span></span></div>
+            </div>
+            <p class="app-desc">Windows'ta her pencerenin üzerinde küçük pastel kartlar olarak kayan zamanlayıcılar, sayaçlar ve kronometreler.</p>
+          <a class="app-also app-also-android" href="/tr/apps/floattimer.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Android için de mevcut</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=59" alt="FloatTimer+ for Windows Ekran Görüntüleri 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=59" alt="FloatTimer+ for Windows Ekran Görüntüleri 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floattimerwin-3.jpg?v=59" alt="FloatTimer+ for Windows Ekran Görüntüleri 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/tr/apps/floattimerwin.html">Ayrıntılar →</a><a class="app-link" href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-home-card-tr" target="_blank" rel="noopener">Microsoft Store'da görüntüle →</a></div>
+          </article>
+        </div>
       </div>
     </div>
   </section>
@@ -401,27 +408,74 @@
   </section>
 
 
-  <section class="section" id="ideas">
+  <section class="section" id="about">
+    <div class="container about-wrap">
+      <div class="about-copy">
+        <p class="section-label">ABOUT</p>
+        <h2 class="section-title">Küçük araçlar, büyük özen</h2>
+        <p class="name-meaning">
+          <span class="nm-brand">Code<span>DAC</span></span>
+          <span class="nm-eq">=</span>
+          <span class="nm-expand">Code tabanlı <b>D</b>evelopment <b>A</b>nd <b>C</b>onsulting</span>
+        </p>
+        <p class="about-lead">İnsanların her gün karşılaştığı küçük sıkıntıları bulur, bir kez kurup uzun süre güvenebileceğiniz yardımcı uygulamalara dönüştürürüz. Müşterilerimiz için geliştirdiğimiz her üründe de kendi uygulamalarımızdaki standartlardan ödün vermeyiz.</p>
+      </div>
+      <ol class="principles">
+        <li class="principle">
+          <span class="pr-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></svg></span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">01</span>Sadelik</h3><p>İlk bakışta kullanılabilir. Neyi ekleyeceğimize karar vermeden önce neyi çıkaracağımıza karar veririz.</p></div>
+        </li>
+        <li class="principle">
+          <span class="pr-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.6 7.5 9.5 4.3-.9 7.5-4.9 7.5-9.5V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">02</span>Güven</h3><p>Yalnızca gerçekten gereken izinler, olabildiğince az reklam ve verilerinize saygı.</p></div>
+        </li>
+        <li class="principle">
+          <span class="pr-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 0 1-14.3 4.9M4 12a8 8 0 0 1 14.3-4.9"/><path d="M18.5 3.5v3.8h-3.8M5.5 20.5v-3.8h3.8"/></svg></span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">03</span>Süreklilik</h3><p>Yayınlamak yalnızca başlangıç. Yorumlarda ve e-postalarda anlattıklarınız bir sonraki güncellemeye dönüşür.</p></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+
+  <section class="section section-alt" id="contact">
     <div class="container">
-      <p class="section-label">IDEAS</p>
-      <h2 class="section-title">Sırada ne yapalım, siz söyleyin</h2>
-      <p class="section-lead">Buradaki her uygulama, birinin her gün canını sıkan bir şeyden doğdu. Telefonun ya da bilgisayarın çoktan halletmesi gereken bir işi hâlâ elle yapıyorsanız bize yazın — o sıkıntı sıradaki uygulamaya dönüşebilir.</p>
-      <div class="grid grid-3">
-        <div class="card"><div class="card-icon">😖</div><h3>Canınızı sıkan an</h3><p>Ne zaman ve ne sıklıkta oluyor? Somut tek bir an, bize özellik listesinden daha çok şey anlatır.</p></div>
-        <div class="card"><div class="card-icon">💡</div><h3>İstediğiniz uygulama</h3><p>Kabaca anlatmanız yeter. Sizin yerinize ne yapması gerektiğini bir cümleyle yazın.</p></div>
-        <div class="card"><div class="card-icon">🔧</div><h3>Şu an nasıl idare ediyorsunuz</h3><p>Şimdi kullandığınız dolambaç ya da neredeyse yeten, ama bir yerde pes eden uygulama.</p></div>
+      <div class="section-head-center">
+        <p class="section-label">BUILD WITH US</p>
+        <h2 class="section-title">Bizimle üretmenin iki yolu</h2>
+        <p class="section-lead">Aklınızda kendi ürününüz mü var, yoksa bir uygulamanın çözmesini istediğiniz gündelik bir sıkıntı mı? Size uyan yolu seçin — ikisi de tek bir e-postayla başlar.</p>
       </div>
-      <div class="services-cta">
-        <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20Uygulama%20fikri&amp;body=1.%20Ne%20rahats%C4%B1z%20ediyor%20ve%20ne%20zaman%20oluyor%3F%0A-%20%0A%0A2.%20Uygulama%20ne%20yapmal%C4%B1%3F%0A-%20%0A%0A3.%20Bug%C3%BCn%20bunu%20nas%C4%B1l%20hallediyorsunuz%3F%0A-%20%0A%0A(Hangi%20cihazda%20kullan%C4%B1rd%C4%B1n%C4%B1z%3F%20Android%20%2F%20Windows)%0A-%20%0A" class="btn btn-primary">Fikir gönder</a>
-        <p class="ideas-note">Canınızı sıkan bir şeyi ya da fikrinizi ürüne dönüştüren ücretsiz geliştirme; ortaya çıkan ürün bir CodeDAC uygulaması olarak yayınlanır.</p>
-      </div>
-      <div class="ideas-proof">
-        <p class="ideas-proof-label">Bu daha önce de oldu</p>
-        <figure class="review-card">
-          <div class="review-stars" aria-label="5 / 5">★★★★★</div>
-          <blockquote class="review-text">I reported my frustration about not being able to import a backup from my previous clipboard manager, and the developer promptly updated the app to add that feature. Developers who listen to and act on user feedback deserve high praise.</blockquote>
-          <figcaption class="review-meta"><span class="review-name">Fabio Rodriguez</span><span class="review-app"><bdi>Clipboard+</bdi> · Google Play</span></figcaption>
-        </figure>
+      <div class="work-grid">
+        <article class="work-card work-project" id="services">
+          <div class="work-top"><span class="work-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8.5 7V5.5a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2V7M3 12.5h18"/></svg></span><span class="work-badge">Ücretli</span></div>
+          <h3 class="work-title">Proje yaptırın</h3>
+          <p class="work-desc">Kendi ürününüz için ücretli geliştirme; ortaya çıkan ürün sizindir.</p>
+          <p class="work-list-label">Neler yapabiliriz</p>
+          <ul class="work-list">
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18h2"/></svg></span><span class="wl-text"><strong>Uygulama Geliştirme</strong><span>Planlamadan yayına ve operasyona kadar Android, iOS, Windows masaüstü ve platformlar arası uygulamalar geliştiriyoruz.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg></span><span class="wl-text"><strong>Web Geliştirme</strong><span>Duyarlı web siteleri, web uygulamaları ve yönetim sistemleri geliştiriyoruz.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></span><span class="wl-text"><strong>Teknik Danışmanlık</strong><span>Mimari, teknoloji yığını seçimi ve kod incelemesi konularında yol göstererek kritik kararlara rehberlik ediyoruz.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.1 5.1L3.5 17.5l3 3 6.1-6.1a4 4 0 0 0 5.1-5.1l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></span><span class="wl-text"><strong>Bakım ve Operasyon</strong><span>İstikrarlı operasyon, performans iyileştirme ve CI/CD otomasyonuyla hizmetleri sağlıklı tutuyoruz.</span></span></li>
+          </ul>
+          <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20Project%20inquiry&amp;body=1.%20Ne%20geli%C5%9Ftirmek%20istiyorsunuz%3F%0A-%20%0A%0A2.%20Platform%20(Android%20%2F%20iOS%20%2F%20Windows%20%2F%20Web)%0A-%20%0A%0A3.%20Takvim%20ve%20b%C3%BCt%C3%A7e%20(yakla%C5%9F%C4%B1k%20olmas%C4%B1%20yeterli)%0A-%20%0A" class="btn btn-navy work-btn">Bir proje başlatın<svg class="ic ic-flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
+        <article class="work-card work-idea" id="ideas">
+          <div class="work-top"><span class="work-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5c.6 4.2 2.3 5.9 6.5 6.5-4.2.6-5.9 2.3-6.5 6.5-.6-4.2-2.3-5.9-6.5-6.5 4.2-.6 5.9-2.3 6.5-6.5z"/><path d="M18.5 16v4M16.5 18h4"/></svg></span><span class="work-badge">Ücretsiz</span></div>
+          <h3 class="work-title">Uygulama fikri önerin</h3>
+          <p class="work-desc">Canınızı sıkan bir şeyi ya da fikrinizi ürüne dönüştüren ücretsiz geliştirme; ortaya çıkan ürün bir CodeDAC uygulaması olarak yayınlanır.</p>
+          <p class="work-list-label">Bize yalnızca üç şey anlatın</p>
+          <ul class="work-list">
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2.5 4.5 13.5H11l-1 8 8.5-11H12z"/></svg></span><span class="wl-text"><strong>Canınızı sıkan an</strong><span>Ne zaman ve ne sıklıkta oluyor? Somut tek bir an, bize özellik listesinden daha çok şey anlatır.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 18h5M10.5 21h3"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg></span><span class="wl-text"><strong>İstediğiniz uygulama</strong><span>Kabaca anlatmanız yeter. Sizin yerinize ne yapması gerektiğini bir cümleyle yazın.</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7.5a3.5 3.5 0 0 0 0-7h-7a3.5 3.5 0 0 1 0-7H16"/></svg></span><span class="wl-text"><strong>Şu an nasıl idare ediyorsunuz</strong><span>Şimdi kullandığınız dolambaç ya da neredeyse yeten, ama bir yerde pes eden uygulama.</span></span></li>
+          </ul>
+          <figure class="work-proof">
+            <figcaption class="work-proof-label">Bu daha önce de oldu</figcaption>
+            <blockquote>I reported my frustration about not being able to import a backup from my previous clipboard manager, and the developer promptly updated the app to add that feature. Developers who listen to and act on user feedback deserve high praise.</blockquote>
+            <p class="work-proof-meta"><span class="review-stars" aria-label="5 / 5">★★★★★</span><span>Fabio Rodriguez · <bdi>Clipboard+</bdi></span></p>
+          </figure>
+          <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20Uygulama%20fikri&amp;body=1.%20Ne%20rahats%C4%B1z%20ediyor%20ve%20ne%20zaman%20oluyor%3F%0A-%20%0A%0A2.%20Uygulama%20ne%20yapmal%C4%B1%3F%0A-%20%0A%0A3.%20Bug%C3%BCn%20bunu%20nas%C4%B1l%20hallediyorsunuz%3F%0A-%20%0A%0A(Hangi%20cihazda%20kullan%C4%B1rd%C4%B1n%C4%B1z%3F%20Android%20%2F%20Windows)%0A-%20%0A" class="btn btn-primary work-btn">Fikir gönder<svg class="ic ic-flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
       </div>
     </div>
   </section>
@@ -429,7 +483,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="logo small">Code<span>DAC</span></span>
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
         <span class="footer-based">Güney Kore</span>
       </div>
       <div class="footer-right">
@@ -448,6 +502,6 @@
   </div>
 
   <script>window.__LANG_BANNER={"cur":"tr","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=58"></script>
+  <script src="/js/site.js?v=59"></script>
 </body>
 </html>

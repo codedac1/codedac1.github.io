@@ -55,7 +55,7 @@
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css?v=58" />
+  <link rel="stylesheet" href="/css/style.css?v=59" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -79,13 +79,12 @@
 <body>
   <header class="site-header" id="top">
     <div class="container nav-wrap">
-      <a href="/zh/" class="logo">Code<span>DAC</span></a>
+      <a href="/zh/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
       <nav class="nav" id="nav">
-        <a href="/zh/#about">关于我们</a>
-        <a href="/zh/#services">服务</a>
         <a href="/zh/#apps">应用</a>
         <a href="/zh/#reviews">评价</a>
-        <a href="/zh/#ideas">点子</a>
+        <a href="/zh/#about">关于我们</a>
+        <a href="/zh/#contact">合作</a>
       </nav>
       <div class="nav-right">
         <button type="button" class="theme-toggle" id="themeToggle" aria-label="切换深色模式" title="切换深色模式">
@@ -125,14 +124,30 @@
   </header>
 
   <section class="hero">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
     <div class="container hero-inner">
-      <p class="eyebrow">EVERYDAY UTILITY APPS</p>
-      <h1>让你的每一天<br />更聪明</h1>
-      <p class="hero-sub">CodeDAC 打造让日常生活更轻松的 <br class="br-pc" />实用工具应用。</p>
-      <div class="hero-actions">
-        <a href="#apps" class="btn btn-primary">探索应用</a>
-        <a href="mailto:contact@codedac.com" class="btn btn-ghost">联系我们</a>
+      <div class="hero-copy">
+        <p class="hero-brand" dir="ltr">Code<span>DAC</span></p>
+        <h1>让你的每一天更聪明</h1>
+        <p class="hero-sub">CodeDAC 打造让日常生活更轻松的 <br class="br-pc" />Android 与 Windows 实用工具应用。</p>
+        <div class="hero-actions">
+          <a href="#apps" class="btn btn-primary">探索应用</a>
+          <a href="#contact" class="btn btn-glass">联系我们</a>
+        </div>
       </div>
+      <ul class="hero-icons" aria-label="实用工具应用">
+        <li><a href="/zh/apps/readfocus.html" title="ReadFocus+"><img src="/images/icons/readfocus.png?v=59" alt="ReadFocus+" width="84" height="84" /></a></li>
+        <li><a href="/zh/apps/floatnote.html" title="FloatNote+"><img src="/images/icons/floatnote.png?v=59" alt="FloatNote+" width="84" height="84" /></a></li>
+        <li><a href="/zh/apps/floattimer.html" title="FloatTimer+"><img src="/images/icons/floattimer.png?v=59" alt="FloatTimer+" width="84" height="84" /></a></li>
+        <li><a href="/zh/apps/clipboard.html" title="Clipboard+"><img src="/images/icons/clipboard.png?v=59" alt="Clipboard+" width="84" height="84" /></a></li>
+        <li><a href="/zh/apps/floatcalc.html" title="FloatCalc+"><img src="/images/icons/floatcalc.png?v=59" alt="FloatCalc+" width="84" height="84" /></a></li>
+        <li><a href="/zh/apps/floatcrypto.html" title="FloatCrypto+"><img src="/images/icons/floatcrypto.png?v=59" alt="FloatCrypto+" width="84" height="84" /></a></li>
+        <li><a href="/zh/apps/autostart.html" title="AutoStart+"><img src="/images/icons/autostart.png?v=59" alt="AutoStart+" width="84" height="84" /></a></li>
+        <li><a href="/zh/apps/volumebooster.html" title="VolumeBooster+"><img src="/images/icons/volumebooster.png?v=59" alt="VolumeBooster+" width="84" height="84" /></a></li>
+        <li><a href="/zh/apps/photocleaner.html" title="PhotoCleaner+"><img src="/images/icons/photocleaner.png?v=59" alt="PhotoCleaner+" width="84" height="84" /></a></li>
+      </ul>
+    </div>
+    <div class="container">
       <ul class="hero-stats">
         <li class="hstat"><span class="hstat-num" dir="ltr">13</span><span class="hstat-label">应用</span></li>
         <li class="hstat"><span class="hstat-num" dir="ltr">18,000+</span><span class="hstat-label">下载量</span></li>
@@ -141,221 +156,213 @@
     </div>
   </section>
 
-  <section class="section" id="about">
-    <div class="container">
-      <p class="section-label">ABOUT</p>
-      <h2 class="section-title">关于我们</h2>
-      <p class="name-meaning">
-        <span class="nm-brand">Code<span>DAC</span></span>
-        <span class="nm-eq">=</span>
-        <span class="nm-expand">以代码为基础的 <b>D</b>evelopment <b>A</b>nd <b>C</b>onsulting</span>
-      </p>
-      <p class="section-lead">正如其名，CodeDAC 以代码（Code）为基础，提供开发（Development）与咨询（Consulting）。如今我们设计并发布人们每天都会用到的实用工具应用，并立志成长为以扎实工程实力解决客户难题、值得信赖的技术伙伴。</p>
-      <div class="grid grid-3">
-        <div class="card"><div class="card-icon">🎯</div><h3>简约</h3><p>相比复杂的功能，我们更看重清晰易懂、上手即用。</p></div>
-        <div class="card"><div class="card-icon">🔒</div><h3>信任</h3><p>我们尽量减少不必要的权限和广告，尊重你的数据。</p></div>
-        <div class="card"><div class="card-icon">🚀</div><h3>持续</h3><p>发布只是起点，我们会根据用户反馈不断改进。</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt" id="services">
-    <div class="container">
-      <p class="section-label">SERVICES</p>
-      <h2 class="section-title">服务</h2>
-      <p class="section-lead">从规划到开发再到运营，CodeDAC 为你的业务打造并运维软件。</p>
-      <div class="services-grid">
-        <div class="card"><div class="card-icon">📱</div><h3>应用开发</h3><p>我们从策划到上线运营，打造 Android、iOS、Windows 桌面及跨平台应用。</p></div>
-        <div class="card"><div class="card-icon">🌐</div><h3>网站开发</h3><p>我们构建响应式网站、Web 应用和后台管理系统。</p></div>
-        <div class="card"><div class="card-icon">🧭</div><h3>技术咨询</h3><p>我们在架构设计、技术栈选型和代码审查方面提供建议，助力关键决策。</p></div>
-        <div class="card"><div class="card-icon">🛠️</div><h3>维护与运维</h3><p>我们以稳定运营、性能优化和 CI/CD 自动化保障服务的健康运行。</p></div>
-      </div>
-      <div class="services-cta">
-        <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20Project%20inquiry&amp;body=1.%20%E4%BD%A0%E6%83%B3%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F%0A-%20%0A%0A2.%20%E5%B9%B3%E5%8F%B0%EF%BC%88Android%20%2F%20iOS%20%2F%20Windows%20%2F%20Web%EF%BC%89%0A-%20%0A%0A3.%20%E6%9C%9F%E6%9C%9B%E7%9A%84%E6%97%B6%E9%97%B4%E5%92%8C%E9%A2%84%E7%AE%97%EF%BC%88%E5%A4%A7%E6%A6%82%E5%8D%B3%E5%8F%AF%EF%BC%89%0A-%20%0A" class="btn btn-primary">启动项目</a>
-        <p class="ideas-note">这是为你自己的产品提供的付费开发服务，成果归你所有。</p>
-      </div>
-    </div>
-  </section>
-
   <section class="section" id="apps">
     <div class="container">
-      <p class="section-label">OUR APPS</p>
-      <h2 class="section-title">实用工具应用</h2>
-      <p class="section-lead">由 CodeDAC 开发并发布的实用工具应用。点击截图可放大查看。</p>
-      <h3 class="app-group">Android</h3>
-      <div class="app-grid">
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/clipboard.png?v=58" alt="Clipboard+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/clipboard.html"><bdi>Clipboard+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">剪贴板</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
-          </div>
-          <p class="app-desc">自动保存复制的文字和图片，可搜索的剪贴板历史，还能与电脑同步。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/clipboard-1.jpg?v=58" alt="Clipboard+ 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/clipboard-2.jpg?v=58" alt="Clipboard+ 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/clipboard-3.jpg?v=58" alt="Clipboard+ 截图 3" loading="lazy" data-idx="2" />
+      <div class="apps-head">
+        <div>
+          <p class="section-label">OUR APPS</p>
+          <h2 class="section-title">实用工具应用</h2>
+          <p class="section-lead">由 CodeDAC 开发并发布的实用工具应用。点击截图可放大查看。</p>
         </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/clipboard.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/autostart.png?v=58" alt="AutoStart+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/autostart.html"><bdi>AutoStart+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">自动启动</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
-          </div>
-          <p class="app-desc">开机自动启动你的应用。无需 root，一次设置。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/autostart-1.jpg?v=58" alt="AutoStart+ 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/autostart-2.jpg?v=58" alt="AutoStart+ 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/autostart-3.jpg?v=58" alt="AutoStart+ 截图 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/autostart.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.autostart&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatcalc.png?v=58" alt="FloatCalc+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/floatcalc.html"><bdi>FloatCalc+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">悬浮</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
-          </div>
-          <p class="app-desc">悬浮在任意应用之上的计算器、汇率与单位换算。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatcalc-1.jpg?v=58" alt="FloatCalc+ 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatcalc-2.jpg?v=58" alt="FloatCalc+ 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatcalc-3.jpg?v=58" alt="FloatCalc+ 截图 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/floatcalc.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatcrypto.png?v=58" alt="FloatCrypto+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/floatcrypto.html"><bdi>FloatCrypto+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">悬浮</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
-          </div>
-          <p class="app-desc">悬浮在任意应用之上的实时行情条，含提醒与图表。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=58" alt="FloatCrypto+ 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=58" alt="FloatCrypto+ 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=58" alt="FloatCrypto+ 截图 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/floatcrypto.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floattimer.png?v=58" alt="FloatTimer+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/floattimer.html"><bdi>FloatTimer+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">悬浮</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
-          </div>
-          <p class="app-desc">悬浮于任意应用之上的计时器、计数器与秒表。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floattimer-1.jpg?v=58" alt="FloatTimer+ 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floattimer-2.jpg?v=58" alt="FloatTimer+ 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floattimer-3.jpg?v=58" alt="FloatTimer+ 截图 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/floattimer.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/volumebooster.png?v=58" alt="VolumeBooster+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/volumebooster.html"><bdi>VolumeBooster+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">音频</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
-          </div>
-          <p class="app-desc">音量增强、均衡器与低音增强，让任何声音最高提升 +15 dB。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/volumebooster-1.jpg?v=58" alt="VolumeBooster+ 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/volumebooster-2.jpg?v=58" alt="VolumeBooster+ 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/volumebooster-3.jpg?v=58" alt="VolumeBooster+ 截图 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/volumebooster.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/photocleaner.png?v=58" alt="PhotoCleaner+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/photocleaner.html"><bdi>PhotoCleaner+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">隐私</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
-          </div>
-          <p class="app-desc">在设备本地完全隐藏照片和 PDF 中的个人信息。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/photocleaner-1.jpg?v=58" alt="PhotoCleaner+ 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/photocleaner-2.jpg?v=58" alt="PhotoCleaner+ 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/photocleaner-3.jpg?v=58" alt="PhotoCleaner+ 截图 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/photocleaner.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/readfocus.png?v=58" alt="ReadFocus+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/readfocus.html"><bdi>ReadFocus+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">无障碍</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
-          </div>
-          <p class="app-desc">面向阅读障碍与多动症的阅读辅助，行高亮和阅读遮罩助你定位。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/readfocus-1.jpg?v=58" alt="ReadFocus+ 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/readfocus-2.jpg?v=58" alt="ReadFocus+ 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/readfocus-3.jpg?v=58" alt="ReadFocus+ 截图 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/readfocus.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatnote.png?v=58" alt="FloatNote+ icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/floatnote.html"><bdi>FloatNote+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">便签</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
-          </div>
-          <p class="app-desc">悬浮于任何应用之上的便签笔记。收起为小卡片，需要时展开，支持颜色与富文本。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatnote-1.jpg?v=58" alt="FloatNote+ 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatnote-2.jpg?v=58" alt="FloatNote+ 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatnote-3.jpg?v=58" alt="FloatNote+ 截图 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/floatnote.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
-        </article>
+        <nav class="platform-jump" aria-label="实用工具应用">
+          <a class="pj pj-android" href="#apps-android"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>Android</span><span class="pj-n" dir="ltr">9</span></a>
+          <a class="pj pj-windows" href="#apps-windows"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>Windows</span><span class="pj-n" dir="ltr">4</span></a>
+        </nav>
       </div>
-      <h3 class="app-group">Windows</h3>
-      <div class="app-grid">
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/clipboardwin.png?v=58" alt="Clipboard+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/clipboardwin.html"><bdi>Clipboard+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">剪贴板</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
-          </div>
-          <p class="app-desc">一款 Windows 托盘剪贴板管理器，与 Clipboard+ Android 应用同步。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=58" alt="Clipboard+ for Windows 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=58" alt="Clipboard+ for Windows 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/clipboardwin-3.jpg?v=58" alt="Clipboard+ for Windows 截图 3" loading="lazy" data-idx="2" />
+      <div class="platform platform-android" id="apps-android">
+        <div class="platform-head">
+          <span class="platform-logo"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg></span>
+          <div class="platform-text"><h3 class="platform-name">Android</h3><p class="platform-desc">适用于手机和平板 · Google Play</p></div>
+          <span class="platform-count">9 款应用</span>
         </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/clipboardwin.html">查看详情 →</a><a class="app-link" href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-home-card-zh" target="_blank" rel="noopener">在 Microsoft Store 查看 →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/readfocuswin.png?v=58" alt="ReadFocus+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/readfocuswin.html"><bdi>ReadFocus+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">无障碍</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+        <div class="app-grid">
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/clipboard.png?v=59" alt="Clipboard+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/clipboard.html"><bdi>Clipboard+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">剪贴板</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">自动保存复制的文字和图片，可搜索的剪贴板历史，还能与电脑同步。</p>
+          <a class="app-also app-also-windows" href="/zh/apps/clipboardwin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>也提供 Windows 版本</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/clipboard-1.jpg?v=59" alt="Clipboard+ 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/clipboard-2.jpg?v=59" alt="Clipboard+ 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/clipboard-3.jpg?v=59" alt="Clipboard+ 截图 3" loading="lazy" data-idx="2" />
           </div>
-          <p class="app-desc">可点击穿透的 Windows 专注条 — 遮罩与高亮，让视线始终停在正在读的那一行。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=58" alt="ReadFocus+ for Windows 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=58" alt="ReadFocus+ for Windows 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/readfocuswin-3.jpg?v=58" alt="ReadFocus+ for Windows 截图 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/readfocuswin.html">查看详情 →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-home-card-zh" target="_blank" rel="noopener">在 Microsoft Store 查看 →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floatnotewin.png?v=58" alt="FloatNote+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/floatnotewin.html"><bdi>FloatNote+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">便签</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            <div class="app-links"><a class="app-more" href="/zh/apps/clipboard.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/autostart.png?v=59" alt="AutoStart+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/autostart.html"><bdi>AutoStart+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">自动启动</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">开机自动启动你的应用。无需 root，一次设置。</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/autostart-1.jpg?v=59" alt="AutoStart+ 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/autostart-2.jpg?v=59" alt="AutoStart+ 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/autostart-3.jpg?v=59" alt="AutoStart+ 截图 3" loading="lazy" data-idx="2" />
           </div>
-          <p class="app-desc">悬浮于 Windows 任何窗口之上的便签，与 Android 版 FloatNote+ 同步。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=58" alt="FloatNote+ for Windows 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=58" alt="FloatNote+ for Windows 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floatnotewin-3.jpg?v=58" alt="FloatNote+ for Windows 截图 3" loading="lazy" data-idx="2" />
-        </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/floatnotewin.html">查看详情 →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-home-card-zh" target="_blank" rel="noopener">在 Microsoft Store 查看 →</a></div>
-        </article>
-        <article class="app-card">
-          <div class="app-head">
-            <img class="app-icon" src="/images/icons/floattimerwin.png?v=58" alt="FloatTimer+ for Windows icon" loading="lazy" width="56" height="56" />
-            <div class="app-meta"><h4><a href="/zh/apps/floattimerwin.html"><bdi>FloatTimer+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">悬浮</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            <div class="app-links"><a class="app-more" href="/zh/apps/autostart.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.autostart&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatcalc.png?v=59" alt="FloatCalc+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/floatcalc.html"><bdi>FloatCalc+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">悬浮</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">悬浮在任意应用之上的计算器、汇率与单位换算。</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatcalc-1.jpg?v=59" alt="FloatCalc+ 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatcalc-2.jpg?v=59" alt="FloatCalc+ 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatcalc-3.jpg?v=59" alt="FloatCalc+ 截图 3" loading="lazy" data-idx="2" />
           </div>
-          <p class="app-desc">在 Windows 任何窗口之上以小巧马卡龙卡片悬浮的计时器、计数器与秒表。</p>
-        <div class="app-shots">
-          <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=58" alt="FloatTimer+ for Windows 截图 1" loading="lazy" data-idx="0" />
-          <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=58" alt="FloatTimer+ for Windows 截图 2" loading="lazy" data-idx="1" />
-          <img class="shot" src="/images/shots/floattimerwin-3.jpg?v=58" alt="FloatTimer+ for Windows 截图 3" loading="lazy" data-idx="2" />
+            <div class="app-links"><a class="app-more" href="/zh/apps/floatcalc.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcalc&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatcrypto.png?v=59" alt="FloatCrypto+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/floatcrypto.html"><bdi>FloatCrypto+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">悬浮</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">悬浮在任意应用之上的实时行情条，含提醒与图表。</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatcrypto-1.jpg?v=59" alt="FloatCrypto+ 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatcrypto-2.jpg?v=59" alt="FloatCrypto+ 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatcrypto-3.jpg?v=59" alt="FloatCrypto+ 截图 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/zh/apps/floatcrypto.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatcrypto&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floattimer.png?v=59" alt="FloatTimer+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/floattimer.html"><bdi>FloatTimer+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">悬浮</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">悬浮于任意应用之上的计时器、计数器与秒表。</p>
+          <a class="app-also app-also-windows" href="/zh/apps/floattimerwin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>也提供 Windows 版本</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floattimer-1.jpg?v=59" alt="FloatTimer+ 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floattimer-2.jpg?v=59" alt="FloatTimer+ 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floattimer-3.jpg?v=59" alt="FloatTimer+ 截图 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/zh/apps/floattimer.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floattimer&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/volumebooster.png?v=59" alt="VolumeBooster+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/volumebooster.html"><bdi>VolumeBooster+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">音频</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">音量增强、均衡器与低音增强，让任何声音最高提升 +15 dB。</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/volumebooster-1.jpg?v=59" alt="VolumeBooster+ 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/volumebooster-2.jpg?v=59" alt="VolumeBooster+ 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/volumebooster-3.jpg?v=59" alt="VolumeBooster+ 截图 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/zh/apps/volumebooster.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.volumebooster&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/photocleaner.png?v=59" alt="PhotoCleaner+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/photocleaner.html"><bdi>PhotoCleaner+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">隐私</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">在设备本地完全隐藏照片和 PDF 中的个人信息。</p>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/photocleaner-1.jpg?v=59" alt="PhotoCleaner+ 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/photocleaner-2.jpg?v=59" alt="PhotoCleaner+ 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/photocleaner-3.jpg?v=59" alt="PhotoCleaner+ 截图 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/zh/apps/photocleaner.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/readfocus.png?v=59" alt="ReadFocus+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/readfocus.html"><bdi>ReadFocus+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">无障碍</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">面向阅读障碍与多动症的阅读辅助，行高亮和阅读遮罩助你定位。</p>
+          <a class="app-also app-also-windows" href="/zh/apps/readfocuswin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>也提供 Windows 版本</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/readfocus-1.jpg?v=59" alt="ReadFocus+ 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/readfocus-2.jpg?v=59" alt="ReadFocus+ 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/readfocus-3.jpg?v=59" alt="ReadFocus+ 截图 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/zh/apps/readfocus.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.readfocus&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatnote.png?v=59" alt="FloatNote+ icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/floatnote.html"><bdi>FloatNote+</bdi></a></h4><span class="app-meta-row"><span class="app-tag">便签</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">悬浮于任何应用之上的便签笔记。收起为小卡片，需要时展开，支持颜色与富文本。</p>
+          <a class="app-also app-also-windows" href="/zh/apps/floatnotewin.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg><span>也提供 Windows 版本</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatnote-1.jpg?v=59" alt="FloatNote+ 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatnote-2.jpg?v=59" alt="FloatNote+ 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatnote-3.jpg?v=59" alt="FloatNote+ 截图 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/zh/apps/floatnote.html">查看详情 →</a><a class="app-link" href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dhome-card%26utm_campaign%3Dzh" target="_blank" rel="noopener">在 Google Play 查看 →</a></div>
+          </article>
         </div>
-          <div class="app-links"><a class="app-more" href="/zh/apps/floattimerwin.html">查看详情 →</a><a class="app-link" href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-home-card-zh" target="_blank" rel="noopener">在 Microsoft Store 查看 →</a></div>
-        </article>
+      </div>
+      <div class="platform platform-windows" id="apps-windows">
+        <div class="platform-head">
+          <span class="platform-logo"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.4 10.2 4.4v6.9H3zM11.1 4.3 21 2.9v8.4h-9.9zM3 12.2h7.2v6.9L3 18.1zM11.1 12.2H21v8.4l-9.9-1.4z"/></svg></span>
+          <div class="platform-text"><h3 class="platform-name">Windows</h3><p class="platform-desc">适用于 Windows 电脑 · Microsoft Store</p></div>
+          <span class="platform-count">4 款应用</span>
+        </div>
+        <div class="app-grid">
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/clipboardwin.png?v=59" alt="Clipboard+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/clipboardwin.html"><bdi>Clipboard+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">剪贴板</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">一款 Windows 托盘剪贴板管理器，与 Clipboard+ Android 应用同步。</p>
+          <a class="app-also app-also-android" href="/zh/apps/clipboard.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>也提供 Android 版本</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/clipboardwin-1.jpg?v=59" alt="Clipboard+ for Windows 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/clipboardwin-2.jpg?v=59" alt="Clipboard+ for Windows 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/clipboardwin-3.jpg?v=59" alt="Clipboard+ for Windows 截图 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/zh/apps/clipboardwin.html">查看详情 →</a><a class="app-link" href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-home-card-zh" target="_blank" rel="noopener">在 Microsoft Store 查看 →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/readfocuswin.png?v=59" alt="ReadFocus+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/readfocuswin.html"><bdi>ReadFocus+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">无障碍</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">可点击穿透的 Windows 专注条 — 遮罩与高亮，让视线始终停在正在读的那一行。</p>
+          <a class="app-also app-also-android" href="/zh/apps/readfocus.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>也提供 Android 版本</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/readfocuswin-1.jpg?v=59" alt="ReadFocus+ for Windows 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/readfocuswin-2.jpg?v=59" alt="ReadFocus+ for Windows 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/readfocuswin-3.jpg?v=59" alt="ReadFocus+ for Windows 截图 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/zh/apps/readfocuswin.html">查看详情 →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NMSHKKX3R5C?cid=site-home-card-zh" target="_blank" rel="noopener">在 Microsoft Store 查看 →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floatnotewin.png?v=59" alt="FloatNote+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/floatnotewin.html"><bdi>FloatNote+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">便签</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">悬浮于 Windows 任何窗口之上的便签，与 Android 版 FloatNote+ 同步。</p>
+          <a class="app-also app-also-android" href="/zh/apps/floatnote.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>也提供 Android 版本</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floatnotewin-1.jpg?v=59" alt="FloatNote+ for Windows 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floatnotewin-2.jpg?v=59" alt="FloatNote+ for Windows 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floatnotewin-3.jpg?v=59" alt="FloatNote+ for Windows 截图 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/zh/apps/floatnotewin.html">查看详情 →</a><a class="app-link" href="https://apps.microsoft.com/detail/9NW6610397TC?cid=site-home-card-zh" target="_blank" rel="noopener">在 Microsoft Store 查看 →</a></div>
+          </article>
+          <article class="app-card">
+            <div class="app-head">
+              <img class="app-icon" src="/images/icons/floattimerwin.png?v=59" alt="FloatTimer+ for Windows icon" loading="lazy" width="56" height="56" />
+              <div class="app-meta"><h4><a href="/zh/apps/floattimerwin.html"><bdi>FloatTimer+ for Windows</bdi></a></h4><span class="app-meta-row"><span class="app-tag">悬浮</span><span class="app-langs" aria-label="21 种语言"><span class="globe" aria-hidden="true">🌐</span>21 种语言</span></span></div>
+            </div>
+            <p class="app-desc">在 Windows 任何窗口之上以小巧马卡龙卡片悬浮的计时器、计数器与秒表。</p>
+          <a class="app-also app-also-android" href="/zh/apps/floattimer.html"><svg class="pl-logo" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48 19.44 6.3a.38.38 0 1 0-.66-.38l-1.86 3.22A11.43 11.43 0 0 0 12 8.1c-1.77 0-3.43.4-4.92 1.04L5.22 5.92a.38.38 0 1 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span>也提供 Android 版本</span></a>
+          <div class="app-shots">
+            <img class="shot" src="/images/shots/floattimerwin-1.jpg?v=59" alt="FloatTimer+ for Windows 截图 1" loading="lazy" data-idx="0" />
+            <img class="shot" src="/images/shots/floattimerwin-2.jpg?v=59" alt="FloatTimer+ for Windows 截图 2" loading="lazy" data-idx="1" />
+            <img class="shot" src="/images/shots/floattimerwin-3.jpg?v=59" alt="FloatTimer+ for Windows 截图 3" loading="lazy" data-idx="2" />
+          </div>
+            <div class="app-links"><a class="app-more" href="/zh/apps/floattimerwin.html">查看详情 →</a><a class="app-link" href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-home-card-zh" target="_blank" rel="noopener">在 Microsoft Store 查看 →</a></div>
+          </article>
+        </div>
       </div>
     </div>
   </section>
@@ -401,27 +408,74 @@
   </section>
 
 
-  <section class="section" id="ideas">
+  <section class="section" id="about">
+    <div class="container about-wrap">
+      <div class="about-copy">
+        <p class="section-label">ABOUT</p>
+        <h2 class="section-title">小工具，用心做好</h2>
+        <p class="name-meaning">
+          <span class="nm-brand">Code<span>DAC</span></span>
+          <span class="nm-eq">=</span>
+          <span class="nm-expand">以代码为基础的 <b>D</b>evelopment <b>A</b>nd <b>C</b>onsulting</span>
+        </p>
+        <p class="about-lead">我们留意人们每天都会碰到的小麻烦，把它们变成装一次就能长期放心使用的实用工具应用。为客户打造的每一款产品，也坚持与自家应用相同的标准。</p>
+      </div>
+      <ol class="principles">
+        <li class="principle">
+          <span class="pr-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></svg></span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">01</span>简约</h3><p>第一眼就会用。先想清楚该删掉什么，再决定要加什么。</p></div>
+        </li>
+        <li class="principle">
+          <span class="pr-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.6 7.5 9.5 4.3-.9 7.5-4.9 7.5-9.5V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">02</span>信任</h3><p>只申请真正必要的权限，广告尽可能少，并尊重你的数据。</p></div>
+        </li>
+        <li class="principle">
+          <span class="pr-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 0 1-14.3 4.9M4 12a8 8 0 0 1 14.3-4.9"/><path d="M18.5 3.5v3.8h-3.8M5.5 20.5v-3.8h3.8"/></svg></span>
+          <div class="pr-text"><h3><span class="pr-num" aria-hidden="true">03</span>持续</h3><p>发布只是开始。你在评价和邮件里告诉我们的，会成为下一次更新。</p></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+
+  <section class="section section-alt" id="contact">
     <div class="container">
-      <p class="section-label">IDEAS</p>
-      <h2 class="section-title">下一个应用做什么，你来定</h2>
-      <p class="section-lead">这里的每一个应用，都始于某个人每天都要碰上的麻烦。如果有件事手机或电脑早就该替你搞定，你却还在一点点手动处理，告诉我们——这个麻烦可能就是下一个应用。</p>
-      <div class="grid grid-3">
-        <div class="card"><div class="card-icon">😖</div><h3>不方便的时刻</h3><p>什么时候发生，多久一次？一个具体的场景比一串功能更能说明问题。</p></div>
-        <div class="card"><div class="card-icon">💡</div><h3>你想要的应用</h3><p>粗略也没关系。用一句话说清它该替你做什么就够了。</p></div>
-        <div class="card"><div class="card-icon">🔧</div><h3>你现在怎么应付</h3><p>你眼下用的变通办法，或者某个差一点就够用、却卡在这里的应用。</p></div>
+      <div class="section-head-center">
+        <p class="section-label">BUILD WITH US</p>
+        <h2 class="section-title">与 CodeDAC 合作的两种方式</h2>
+        <p class="section-lead">你是想打造一款属于自己的产品，还是有个日常麻烦，希望有款应用替你解决？选一条适合你的路——两种方式都只需一封邮件就能开始。</p>
       </div>
-      <div class="services-cta">
-        <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20%E5%BA%94%E7%94%A8%E7%82%B9%E5%AD%90&amp;body=1.%20%E5%93%AA%E9%87%8C%E4%B8%8D%E6%96%B9%E4%BE%BF%EF%BC%9F%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E4%BC%9A%E7%A2%B0%E4%B8%8A%EF%BC%9F%0A-%20%0A%0A2.%20%E4%BD%A0%E5%B8%8C%E6%9C%9B%E8%BF%99%E4%B8%AA%E5%BA%94%E7%94%A8%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F%0A-%20%0A%0A3.%20%E4%BD%A0%E7%8E%B0%E5%9C%A8%E6%98%AF%E6%80%8E%E4%B9%88%E5%BA%94%E4%BB%98%E7%9A%84%EF%BC%9F%0A-%20%0A%0A(%E4%BD%A0%E4%BC%9A%E5%9C%A8%E4%BB%80%E4%B9%88%E8%AE%BE%E5%A4%87%E4%B8%8A%E4%BD%BF%E7%94%A8%EF%BC%9FAndroid%20%2F%20Windows)%0A-%20%0A" class="btn btn-primary">发送点子</a>
-        <p class="ideas-note">这是把你遇到的麻烦或想法做成产品的免费开发，成果会作为 CodeDAC 的应用发布。</p>
-      </div>
-      <div class="ideas-proof">
-        <p class="ideas-proof-label">这样的事确实发生过</p>
-        <figure class="review-card">
-          <div class="review-stars" aria-label="5 / 5">★★★★★</div>
-          <blockquote class="review-text">I reported my frustration about not being able to import a backup from my previous clipboard manager, and the developer promptly updated the app to add that feature. Developers who listen to and act on user feedback deserve high praise.</blockquote>
-          <figcaption class="review-meta"><span class="review-name">Fabio Rodriguez</span><span class="review-app"><bdi>Clipboard+</bdi> · Google Play</span></figcaption>
-        </figure>
+      <div class="work-grid">
+        <article class="work-card work-project" id="services">
+          <div class="work-top"><span class="work-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8.5 7V5.5a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2V7M3 12.5h18"/></svg></span><span class="work-badge">付费</span></div>
+          <h3 class="work-title">委托项目</h3>
+          <p class="work-desc">这是为你自己的产品提供的付费开发服务，成果归你所有。</p>
+          <p class="work-list-label">我们能做的</p>
+          <ul class="work-list">
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18h2"/></svg></span><span class="wl-text"><strong>应用开发</strong><span>我们从策划到上线运营，打造 Android、iOS、Windows 桌面及跨平台应用。</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg></span><span class="wl-text"><strong>网站开发</strong><span>我们构建响应式网站、Web 应用和后台管理系统。</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></span><span class="wl-text"><strong>技术咨询</strong><span>我们在架构设计、技术栈选型和代码审查方面提供建议，助力关键决策。</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.1 5.1L3.5 17.5l3 3 6.1-6.1a4 4 0 0 0 5.1-5.1l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></span><span class="wl-text"><strong>维护与运维</strong><span>我们以稳定运营、性能优化和 CI/CD 自动化保障服务的健康运行。</span></span></li>
+          </ul>
+          <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20Project%20inquiry&amp;body=1.%20%E4%BD%A0%E6%83%B3%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F%0A-%20%0A%0A2.%20%E5%B9%B3%E5%8F%B0%EF%BC%88Android%20%2F%20iOS%20%2F%20Windows%20%2F%20Web%EF%BC%89%0A-%20%0A%0A3.%20%E6%9C%9F%E6%9C%9B%E7%9A%84%E6%97%B6%E9%97%B4%E5%92%8C%E9%A2%84%E7%AE%97%EF%BC%88%E5%A4%A7%E6%A6%82%E5%8D%B3%E5%8F%AF%EF%BC%89%0A-%20%0A" class="btn btn-navy work-btn">启动项目<svg class="ic ic-flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
+        <article class="work-card work-idea" id="ideas">
+          <div class="work-top"><span class="work-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5c.6 4.2 2.3 5.9 6.5 6.5-4.2.6-5.9 2.3-6.5 6.5-.6-4.2-2.3-5.9-6.5-6.5 4.2-.6 5.9-2.3 6.5-6.5z"/><path d="M18.5 16v4M16.5 18h4"/></svg></span><span class="work-badge">免费</span></div>
+          <h3 class="work-title">提交应用点子</h3>
+          <p class="work-desc">这是把你遇到的麻烦或想法做成产品的免费开发，成果会作为 CodeDAC 的应用发布。</p>
+          <p class="work-list-label">只需告诉我们三件事</p>
+          <ul class="work-list">
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2.5 4.5 13.5H11l-1 8 8.5-11H12z"/></svg></span><span class="wl-text"><strong>不方便的时刻</strong><span>什么时候发生，多久一次？一个具体的场景比一串功能更能说明问题。</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 18h5M10.5 21h3"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg></span><span class="wl-text"><strong>你想要的应用</strong><span>粗略也没关系。用一句话说清它该替你做什么就够了。</span></span></li>
+            <li><span class="wl-icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7.5a3.5 3.5 0 0 0 0-7h-7a3.5 3.5 0 0 1 0-7H16"/></svg></span><span class="wl-text"><strong>你现在怎么应付</strong><span>你眼下用的变通办法，或者某个差一点就够用、却卡在这里的应用。</span></span></li>
+          </ul>
+          <figure class="work-proof">
+            <figcaption class="work-proof-label">这样的事确实发生过</figcaption>
+            <blockquote>I reported my frustration about not being able to import a backup from my previous clipboard manager, and the developer promptly updated the app to add that feature. Developers who listen to and act on user feedback deserve high praise.</blockquote>
+            <p class="work-proof-meta"><span class="review-stars" aria-label="5 / 5">★★★★★</span><span>Fabio Rodriguez · <bdi>Clipboard+</bdi></span></p>
+          </figure>
+          <a href="mailto:contact@codedac.com?subject=%5BCodeDAC%5D%20%E5%BA%94%E7%94%A8%E7%82%B9%E5%AD%90&amp;body=1.%20%E5%93%AA%E9%87%8C%E4%B8%8D%E6%96%B9%E4%BE%BF%EF%BC%9F%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E4%BC%9A%E7%A2%B0%E4%B8%8A%EF%BC%9F%0A-%20%0A%0A2.%20%E4%BD%A0%E5%B8%8C%E6%9C%9B%E8%BF%99%E4%B8%AA%E5%BA%94%E7%94%A8%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F%0A-%20%0A%0A3.%20%E4%BD%A0%E7%8E%B0%E5%9C%A8%E6%98%AF%E6%80%8E%E4%B9%88%E5%BA%94%E4%BB%98%E7%9A%84%EF%BC%9F%0A-%20%0A%0A(%E4%BD%A0%E4%BC%9A%E5%9C%A8%E4%BB%80%E4%B9%88%E8%AE%BE%E5%A4%87%E4%B8%8A%E4%BD%BF%E7%94%A8%EF%BC%9FAndroid%20%2F%20Windows)%0A-%20%0A" class="btn btn-primary work-btn">发送点子<svg class="ic ic-flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
       </div>
     </div>
   </section>
@@ -429,7 +483,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="logo small">Code<span>DAC</span></span>
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
         <span class="footer-based">韩国</span>
       </div>
       <div class="footer-right">
@@ -448,6 +502,6 @@
   </div>
 
   <script>window.__LANG_BANNER={"cur":"zh","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/","r":"ltr"}}};</script>
-  <script src="/js/site.js?v=58"></script>
+  <script src="/js/site.js?v=59"></script>
 </body>
 </html>

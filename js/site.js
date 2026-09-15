@@ -183,8 +183,8 @@
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   // 리빌 대상: 섹션 헤더 문구·카드·앱 카드·상세 섹션
   const targets = document.querySelectorAll(
-    '.section-label, .section-title, .section-lead, .name-meaning, .card, .app-card, ' +
-    '.app-group, .services-cta, .detail-section, .app-hero-inner, .faq-item'
+    '.section-label, .section-title, .section-lead, .name-meaning, .about-lead, .principle, .app-card, ' +
+    '.platform-head, .platform-jump, .work-card, .detail-section, .app-hero-inner, .faq-item'
   );
   if (!targets.length) return;
   if (reduce || !('IntersectionObserver' in window)) {

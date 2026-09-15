@@ -40,7 +40,7 @@ CodeDAC는 **Clipboard+**, **AutoStart+** 등 스마트폰 유틸리티 앱을 �
     ├── fetch_reviews.js      # Play Store 5★ 리뷰 후보 수집 → _reviews_pool.json(커밋 제외)
     ├── gen_site.js           # ★ 사이트 생성기 (336개 페이지 + 껍데기 + sitemap 전부 생성)
     ├── build_assets.py       # D:\CodeDAC 각 앱의 아이콘·스크린샷 변환·복사
-    └── make_og.py            # OG 공유 이미지 생성
+    └── make_og.py            # OG 공유 이미지 생성 (브랜드 배너 D:\CodeDAC\Data\CodeDAC 배경2_4096.png 를 1200x630 으로 잘라냄)
 ```
 
 `index.html`, `apps/`, `<lang>/`, `en/`, `404.html`, `sitemap.xml` 은 **모두 생성물**입니다. 직접 편집하지 말고 `i18n/*.json` · `scripts/apps_base.json` 을 고친 뒤 생성기를 다시 돌리세요.
