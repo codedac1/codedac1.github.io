@@ -1,8 +1,109 @@
 {
   "metaTitle": "Privacy Policy | CodeDAC",
-  "metaDesc": "Privacy Policy for CodeDAC smartphone apps. We do not collect or store personal data on our own servers; most processing happens entirely on your device.",
+  "metaDesc": "Privacy Policy for CodeDAC's Android and Windows apps. No company servers, processing stays on your device, and each app's connections and permissions are listed.",
   "title": "Privacy Policy",
-  "effective": "Effective date: July 15, 2026",
-  "back": "← Back to home",
-  "bodyHtml": "<p>This Privacy Policy applies to all applications developed and provided by CodeDAC (“we”, “us”) (the “Apps”).</p>\n<h2>1. Core principle</h2>\n<p>Our Apps do not require you to create an account or sign in, and we do not collect or store personally identifiable information on our own servers. Most processing happens entirely on your device.</p>\n<h2>2. Information processed on your device</h2>\n<p>To provide app features, the following data is stored and processed <strong>only on your device</strong> and is not transmitted to us:</p>\n<ul>\n<li>App data needed to provide features (for example, history, lists, and settings).</li>\n<li>Content such as photos, videos and documents handled by some apps is never uploaded; it is processed locally on your device and encrypted where applicable.</li>\n</ul>\n<h2>Clipboard+ for Windows — Cloud sync (optional)</h2>\n<p>Clipboard+ for Windows is a clipboard manager: the text and images you copy are saved on your device so you can find them again. This section explains how that data is handled and, for the optional sync feature, qualifies Sections 1 and 2 above.</p>\n<ul>\n<li><strong>Google sign-in (only if you enable sync).</strong> Cloud sync is off by default. If you turn it on, the app asks you to sign in with your Google account for the sole purpose of accessing your own Google Drive. You can use the app fully without signing in.</li>\n<li><strong>Where your data goes.</strong> When sync is on, the items you copied are uploaded to a private, app-only area of <strong>your own Google Drive</strong> (the hidden <code>appDataFolder</code>) to sync across your devices. The data goes to your Google account — <strong>not to CodeDAC. We run no server of our own and never receive your clipboard content.</strong></li>\n<li><strong>Limited access.</strong> The app requests only the <code>drive.appdata</code> scope, which can see only the files this app itself created in that hidden folder; it cannot access the rest of your Google Drive.</li>\n<li><strong>Your control.</strong> You can turn off sync or sign out at any time. Deleting the app's data folder from your Google Drive, or clearing the app's local data, removes the synced copy.</li>\n<li><strong>Purchases.</strong> On Windows, PRO features are purchased through the <strong>Microsoft Store</strong>; payment is handled by Microsoft and we do not receive your payment details. (The Google Play Billing note above applies to our Android apps.)</li>\n</ul>\n<h2>FloatNote+ for Windows — Cloud sync (optional)</h2>\n<p>FloatNote+ for Windows is a sticky-note app: the notes you write float on top of whatever you are working in and are saved on your device. This section explains how that data is handled and, for the optional sync feature, qualifies Sections 1 and 2 above.</p>\n<ul>\n<li><strong>Google sign-in (only if you enable sync).</strong> Cloud sync is off by default. If you turn it on, the app asks you to sign in with your Google account for the sole purpose of accessing your own Google Drive. You can use the app fully without signing in.</li>\n<li><strong>Where your data goes.</strong> When sync is on, your notes are uploaded to a private, app-only area of <strong>your own Google Drive</strong> (the hidden <code>appDataFolder</code>) to sync across your devices, including the FloatNote+ app for Android. The data goes to your Google account — <strong>not to CodeDAC. We run no server of our own and never receive your notes.</strong></li>\n<li><strong>Images.</strong> Images you attach to a note stay on your device and are never uploaded; only a reference to the file name travels with the note.</li>\n<li><strong>Limited access.</strong> The app requests only the <code>drive.appdata</code> scope, which can see only the files this app itself created in that hidden folder; it cannot access the rest of your Google Drive.</li>\n<li><strong>Your control.</strong> You can turn off sync or sign out at any time. Deleting the app's data folder from your Google Drive, or clearing the app's local data, removes the synced copy.</li>\n<li><strong>Purchases.</strong> On Windows, PRO features are purchased through the <strong>Microsoft Store</strong>; payment is handled by Microsoft and we do not receive your payment details. (The Google Play Billing note above applies to our Android apps.)</li>\n</ul>\n<h2>3. Information collected by third-party services</h2>\n<p>To support our free apps and purchases, we use the following third-party services, which may collect information under their own policies:</p>\n<ul>\n<li><strong>Google AdMob (advertising)</strong> — may collect your advertising identifier, coarse location, and device/usage information to deliver ads. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Privacy Policy</a></li>\n<li><strong>Google Play Billing (in-app purchases)</strong> — payments for PRO features are processed by Google Play; we do not store your payment method details.</li>\n<li>Some apps connect to external data providers (e.g., public APIs) to display information, without sending any personal data.</li>\n<li><strong>Google Analytics (website)</strong> — used to measure traffic to our website (codedac.com). For visitors in the European Economic Area, the United Kingdom and Switzerland, Consent Mode defaults to “denied”, so no analytics cookies are stored and only anonymous, aggregated signals are sent; elsewhere, analytics cookies are used to measure visits. In neither case do we collect advertising identifiers. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Privacy Policy</a></li>\n</ul>\n<h2>4. Advertising and your choices</h2>\n<p>Free apps may include ads. You can limit personalized advertising by <em>resetting your advertising ID or opting out of ad personalization</em> in your device settings. Purchasing the PRO version removes ads.</p>\n<h2>5. Permissions</h2>\n<p>Each app requests only the permissions needed for its features and uses them solely for the stated purpose. Requested permissions vary by app, for example:</p>\n<ul>\n<li>Display over other apps (overlay) — for floating calculator, timer, price ticker, etc.</li>\n<li>Storage / media access — for editing and saving photos or documents.</li>\n<li>Microphone — for audio features such as sound-level measurement (only in relevant apps).</li>\n<li>Receive boot completed — for launching apps on startup.</li>\n</ul>\n<h2>6. Children’s privacy</h2>\n<p>For apps directed to children, we comply with the Google Play Families Policy and applicable laws. In child-directed contexts we do not use personalized advertising and do not knowingly collect personal information from children.</p>\n<h2>7. Data security and retention</h2>\n<p>On-device data is removed when you uninstall the app. Because we do not store personal data on our own servers, there is no separate server-side retention period.</p>\n<h2>8. Changes to this policy</h2>\n<p>We may update this policy to reflect legal or service changes. Any changes will be posted on this page.</p>\n<h2>9. Contact</h2>\n<p>For questions about this policy or your data, please contact us at:<br />\nEmail: <a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
+  "updated": "Last updated: September 15, 2026",
+  "firstEffective": "First effective: July 15, 2026",
+  "tocTitle": "Contents",
+  "summaryTitle": "At a glance",
+  "summary": [
+    "There is no sign-up, and CodeDAC runs no server that receives or stores your data.",
+    "App data is stored only on your device by default.",
+    "Google Drive backup and sync in Clipboard+ and FloatNote+ are optional and save only to your own Drive.",
+    "Ads in our Android apps are served by Google AdMob, and consent is asked first where it is required. Our Windows apps have no ads.",
+    "Questions: contact@codedac.com"
+  ],
+  "appsTitle": "What each app connects to",
+  "appsLead": "The outside services each app talks to and the main permissions it requests, checked directly against the apps' code.",
+  "colApp": "App",
+  "colData": "Connects to",
+  "colPerms": "Main permissions",
+  "none": "None",
+  "data": {
+    "ads": "Ads (Google AdMob)",
+    "billing": "Google Play Billing",
+    "store": "Microsoft Store (license & purchases)",
+    "driveSync": "Google Drive sync (optional)",
+    "driveBackup": "Google Drive backup (optional)",
+    "fx": "Exchange rates (Frankfurter)",
+    "crypto": "Crypto prices (CoinGecko, Binance)",
+    "mlkit": "ML Kit diagnostics (Google)"
+  },
+  "perms": {
+    "overlay": "Display over other apps",
+    "notifications": "Notifications",
+    "foreground": "Keep running (foreground service)",
+    "boot": "Run at startup",
+    "battery": "Ignore battery optimization",
+    "audio": "Change audio settings",
+    "adId": "Advertising ID"
+  },
+  "intro": "<p>This Privacy Policy applies to the Android and Windows applications developed and provided by CodeDAC (“we”, “us”) (the “Apps”) and to our website, codedac.com.</p>",
+  "sections": [
+    {
+      "id": "principle",
+      "title": "1. Core principle",
+      "html": "<p>You can use the Apps without creating an account or signing in. We run no server that receives or stores your data, and the data the Apps handle is stored and processed on your device by default. The only exceptions are optional features you turn on yourself (Section 3) and the outside services the Apps rely on (Sections 4–6), all described below.</p>"
+    },
+    {
+      "id": "device",
+      "title": "2. Information processed on your device",
+      "html": "<ul><li>Data the Apps need to work (clipboard history, notes, timers, settings and so on) is stored only on your device and is not sent to us.</li><li>PhotoCleaner+ finds and hides personal information in photos and PDFs (text, face and barcode recognition) using Google ML Kit models built into the app, on your device. Photos and documents are never uploaded.</li><li>Uninstalling an App also deletes the app data stored on your device.</li></ul>"
+    },
+    {
+      "id": "drive",
+      "title": "3. Optional feature: Google Drive backup and sync",
+      "html": "<p>Clipboard+ (Android and Windows) and FloatNote+ (Android and Windows) offer Google Drive features so you can move your data between devices. These features are off by default, and every other feature works without them.</p><ul><li><strong>Google sign-in.</strong> Only when you turn a feature on does the app ask you to sign in with your Google account, for the sole purpose of accessing your own Google Drive.</li><li><strong>Where your data goes.</strong> When sync is on, Clipboard+ saves the items you copied, and FloatNote+ saves your notes, to a private, app-only area of your own Google Drive (the hidden <code>appDataFolder</code>). The data goes to your Google account only — <strong>it is never sent to CodeDAC.</strong></li><li><strong>Limited access.</strong> Sync uses only the <code>drive.appdata</code> scope, which can see only the files the app created in that hidden area. The backup feature of Clipboard+ for Android also uses the <code>drive.file</code> scope, which likewise reaches only the backup files the app itself created. Neither scope can access the rest of your Google Drive.</li><li><strong>Images.</strong> Images you attach to a FloatNote+ note stay on your device; only a reference to the file name travels with the note.</li><li><strong>Stopping and deleting.</strong> You can turn these features off or sign out at any time. Deleting the app data or backup files stored in your Google Drive removes the synced and backed-up copies.</li></ul>"
+    },
+    {
+      "id": "network",
+      "title": "4. Information exchanged over the internet",
+      "html": "<p>Some features fetch information from the internet. These requests contain nothing that identifies you, but as with any internet request, the other server receives your device's IP address.</p><ul><li><strong>FloatCalc+ exchange rates.</strong> When you convert currencies, the app fetches rates from a public exchange-rate API (Frankfurter).</li><li><strong>FloatCrypto+ prices.</strong> Crypto prices and charts are fetched from public APIs (CoinGecko, Binance).</li><li><strong>ML Kit in PhotoCleaner+.</strong> Image recognition happens on your device, but Google ML Kit may send diagnostic information to Google — device information (manufacturer, model, OS version), app information, and performance and error metrics — to improve the service and troubleshoot issues. Your photos and the recognized content are not included.</li><li><strong>Microsoft Store in our Windows apps.</strong> The Windows apps communicate with the Microsoft Store to check your PRO license and purchases.</li></ul>"
+    },
+    {
+      "id": "ads",
+      "title": "5. Advertising and ad consent",
+      "html": "<p>Our free Android apps show ads from Google AdMob. Our Windows apps have no ads.</p><ul><li><strong>What is collected.</strong> AdMob may collect your advertising ID, approximate location inferred from your IP address, and device and app-usage information to serve and measure ads and prevent fraud. For this, the apps include the permissions the ad SDK needs (internet, network state, advertising ID) and, in some apps, access to Android's advertising APIs (Privacy Sandbox). <a href=\"https://policies.google.com/technologies/ads\" target=\"_blank\" rel=\"noopener\">How Google uses advertising data</a></li><li><strong>Ad consent.</strong> In regions where consent is required, such as the European Economic Area, the United Kingdom and Switzerland, the app asks for your choice on personalized ads through Google's consent screen (User Messaging Platform) the first time you open it. Most apps let you change your choice from the ad consent (privacy options) menu inside the app, and in any app, clearing the app's data makes it ask again on the next launch.</li><li><strong>Turning off personalized ads.</strong> Wherever you are, you can delete or reset your advertising ID, or turn off ad personalization, in your device settings.</li><li><strong>Removing ads.</strong> Buying PRO removes ads.</li></ul>"
+    },
+    {
+      "id": "payments",
+      "title": "6. Payments",
+      "html": "<ul><li><strong>Android.</strong> PRO purchases are processed by Google Play Billing.</li><li><strong>Windows.</strong> PRO purchases are processed by the Microsoft Store.</li></ul><p>Each store handles the payment; we never receive your card number or other payment details. The apps receive from the store only the purchase status needed to check your PRO access.</p>"
+    },
+    {
+      "id": "permissions",
+      "title": "7. Permissions",
+      "html": "<p>Each app requests only the permissions its features need and uses them only for the stated purpose. The permissions each app requests are listed in <a href=\"#apps\">What each app connects to</a> above.</p><ul><li><strong>Display over other apps</strong> — shows the floating calculator, timer, notes, prices, reading tool or clipboard panel on top of your screen.</li><li><strong>Notifications</strong> — shows the status of running features and alerts (timer finished, price alerts and so on).</li><li><strong>Keep running (foreground service)</strong> — keeps features such as floating windows or volume boost working after you leave the app.</li><li><strong>Run at startup</strong> — restarts the app or the features you set up when your device turns on.</li><li><strong>Ignore battery optimization</strong> — keeps the system from blocking launch-on-boot (AutoStart+).</li><li><strong>Change audio settings</strong> — applies volume boost and the equalizer (VolumeBooster+).</li><li><strong>Advertising ID</strong> — used to serve ads (Section 5).</li></ul><p>Basic permissions such as internet, network state and vibration are granted automatically at install and are used only for the features above. The Apps do not request microphone, contacts, location, camera or storage permissions.</p>"
+    },
+    {
+      "id": "website",
+      "title": "8. Website (codedac.com)",
+      "html": "<p>Our website uses Google Analytics to measure visits. For visitors in the European Economic Area, the United Kingdom and Switzerland, Consent Mode defaults to “denied”, so no analytics cookies are stored and only anonymous, aggregated signals are sent; elsewhere, analytics cookies are used to measure visits. In neither case do we collect advertising identifiers, and the website shows no ads. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Privacy Policy</a></p><p>You can opt out of analytics by blocking cookies in your browser or installing the <a href=\"https://tools.google.com/dlpage/gaoptout\" target=\"_blank\" rel=\"noopener\">Google Analytics Opt-out Browser Add-on</a>. The website uses your browser's local storage (localStorage) to remember your chosen language and theme (dark mode); these values are never sent to a server.</p>"
+    },
+    {
+      "id": "email",
+      "title": "9. Emails you send us",
+      "html": "<p>If you email us, we receive your email address and what you write (including any device or app details you include). We use this only to reply to you and follow up on your request, and keep it only as long as needed for that purpose.</p>"
+    },
+    {
+      "id": "children",
+      "title": "10. Children’s privacy",
+      "html": "<p>For apps directed to children, we comply with the Google Play Families Policy and applicable laws. In child-directed contexts we do not use personalized advertising and do not knowingly collect personal information from children.</p>"
+    },
+    {
+      "id": "changes",
+      "title": "11. Changes to this policy",
+      "html": "<p>We may update this policy to reflect changes in the law or in the Apps. When we do, we update the last-updated date on this page and the change history below.</p>"
+    },
+    {
+      "id": "contact",
+      "title": "12. Contact",
+      "html": "<p>For questions about how we handle personal information, please contact us.<br />Email: <a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
+    },
+    {
+      "id": "history",
+      "title": "Change history",
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> Added the per-app overview, and added information on Google Drive backup and sync in Clipboard+ and FloatNote+ for Android, ad consent, internet connections (exchange rates, prices, ML Kit), website storage and emails. Corrected the permission descriptions to match the apps and reorganized the policy.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Changed the contact email address.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Added cloud sync information for FloatNote+ for Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Added cloud sync information for Clipboard+ for Windows.</li></ul>"
+    }
+  ]
 }

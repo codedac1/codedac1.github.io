@@ -1,8 +1,109 @@
 {
   "metaTitle": "Gizlilik Politikası | CodeDAC",
-  "metaDesc": "CodeDAC akıllı telefon uygulamaları için Gizlilik Politikası. Kişisel verileri kendi sunucularımızda toplamıyor veya saklamıyoruz; işlemlerin çoğu tamamen cihazınızda gerçekleşir.",
+  "metaDesc": "CodeDAC Android ve Windows uygulamaları için Gizlilik Politikası. Şirket sunucusu yok, işlemler cihazınızda kalır ve her uygulamanın bağlantıları ile izinleri listelenir.",
   "title": "Gizlilik Politikası",
-  "effective": "Yürürlük tarihi: 15 Temmuz 2026",
-  "back": "← Ana sayfaya dön",
-  "bodyHtml": "<p>Bu Gizlilik Politikası, CodeDAC (“biz”) tarafından geliştirilen ve sunulan tüm uygulamalar (“Uygulamalar”) için geçerlidir.</p>\n<h2>1. Temel ilke</h2>\n<p>Uygulamalarımız hesap oluşturmanızı veya oturum açmanızı gerektirmez ve kendi sunucularımızda kişisel olarak tanımlanabilir bilgi toplamaz veya saklamayız. İşlemlerin çoğu tamamen cihazınızda gerçekleşir.</p>\n<h2>2. Cihazınızda işlenen bilgiler</h2>\n<p>Uygulama özelliklerini sağlamak için aşağıdaki veriler <strong>yalnızca cihazınızda</strong> saklanır ve işlenir; bize iletilmez:</p>\n<ul>\n<li>Özellikleri sağlamak için gereken uygulama verileri (örneğin geçmiş, listeler ve ayarlar).</li>\n<li>Bazı uygulamaların işlediği fotoğraf, video ve belge gibi içerikler hiçbir zaman yüklenmez; cihazınızda yerel olarak işlenir ve mümkün olan yerlerde şifrelenir.</li>\n</ul>\n<h2>Windows için Clipboard+ — Bulut eşitleme (isteğe bağlı)</h2>\n<p>Windows için Clipboard+ bir pano yöneticisidir: kopyaladığınız metin ve görseller, tekrar bulabilmeniz için cihazınızda saklanır. Bu bölüm, söz konusu verilerin nasıl işlendiğini açıklar ve isteğe bağlı eşitleme özelliği bakımından yukarıdaki 1. ve 2. Bölümleri sınırlandırır.</p>\n<ul>\n<li><strong>Google ile oturum açma (yalnızca eşitlemeyi etkinleştirirseniz).</strong> Bulut eşitleme varsayılan olarak kapalıdır. Açtığınızda uygulama, yalnızca kendi Google Drive'ınıza erişmek amacıyla Google hesabınızla oturum açmanızı ister. Oturum açmadan da uygulamayı tümüyle kullanabilirsiniz.</li>\n<li><strong>Verilerinizin nereye gittiği.</strong> Eşitleme açıkken, kopyaladığınız öğeler cihazlarınız arasında eşitlenmek üzere <strong>kendi Google Drive'ınızdaki</strong> özel, yalnızca uygulamaya ait bir alana (gizli <code>appDataFolder</code>) yüklenir. Veriler Google hesabınıza gider, <strong>CodeDAC'a değil. Kendimize ait hiçbir sunucu işletmiyoruz ve pano içeriğinizi asla almıyoruz.</strong></li>\n<li><strong>Sınırlı erişim.</strong> Uygulama yalnızca <code>drive.appdata</code> kapsamını ister; bu kapsam yalnızca uygulamanın o gizli klasörde kendi oluşturduğu dosyaları görebilir, Google Drive'ınızın geri kalanına erişemez.</li>\n<li><strong>Denetim sizde.</strong> Eşitlemeyi istediğiniz zaman kapatabilir veya oturumu kapatabilirsiniz. Uygulamanın veri klasörünü Google Drive'ınızdan silmeniz ya da uygulamanın yerel verilerini temizlemeniz, eşitlenmiş kopyayı kaldırır.</li>\n<li><strong>Satın almalar.</strong> Windows'ta PRO özellikleri <strong>Microsoft Store</strong> üzerinden satın alınır; ödeme Microsoft tarafından işlenir ve ödeme bilgilerinizi almayız. (Yukarıdaki Google Play Faturalandırma notu Android uygulamalarımız için geçerlidir.)</li>\n</ul>\n<h2>Windows için FloatNote+ — Bulut eşitleme (isteğe bağlı)</h2>\n<p>Windows için FloatNote+ bir yapışkan not uygulamasıdır: yazdığınız notlar üzerinde çalıştığınız pencerenin üstünde durur ve cihazınızda saklanır. Bu bölüm, söz konusu verilerin nasıl işlendiğini açıklar ve isteğe bağlı eşitleme özelliği bakımından yukarıdaki 1. ve 2. Bölümleri sınırlandırır.</p>\n<ul>\n<li><strong>Google ile oturum açma (yalnızca eşitlemeyi etkinleştirirseniz).</strong> Bulut eşitleme varsayılan olarak kapalıdır. Açtığınızda uygulama, yalnızca kendi Google Drive'ınıza erişmek amacıyla Google hesabınızla oturum açmanızı ister. Oturum açmadan da uygulamayı tümüyle kullanabilirsiniz.</li>\n<li><strong>Verilerinizin nereye gittiği.</strong> Eşitleme açıkken notlarınız, cihazlarınız arasında (Android için FloatNote+ uygulaması dâhil) eşitlenmek üzere <strong>kendi Google Drive'ınızdaki</strong> özel, yalnızca uygulamaya ait bir alana (gizli <code>appDataFolder</code>) yüklenir. Veriler Google hesabınıza gider, <strong>CodeDAC'a değil. Kendimize ait hiçbir sunucu işletmiyoruz ve notlarınızın içeriğini asla almıyoruz.</strong></li>\n<li><strong>Görseller.</strong> Bir nota eklediğiniz görseller cihazınızda kalır ve hiçbir zaman yüklenmez; notla birlikte yalnızca dosya adına bir referans taşınır.</li>\n<li><strong>Sınırlı erişim.</strong> Uygulama yalnızca <code>drive.appdata</code> kapsamını ister; bu kapsam yalnızca uygulamanın o gizli klasörde kendi oluşturduğu dosyaları görebilir, Google Drive'ınızın geri kalanına erişemez.</li>\n<li><strong>Denetim sizde.</strong> Eşitlemeyi istediğiniz zaman kapatabilir veya oturumu kapatabilirsiniz. Uygulamanın veri klasörünü Google Drive'ınızdan silmeniz ya da uygulamanın yerel verilerini temizlemeniz, eşitlenmiş kopyayı kaldırır.</li>\n<li><strong>Satın almalar.</strong> Windows'ta PRO özellikleri <strong>Microsoft Store</strong> üzerinden satın alınır; ödeme Microsoft tarafından işlenir ve ödeme bilgilerinizi almayız. (Yukarıdaki Google Play Faturalandırma notu Android uygulamalarımız için geçerlidir.)</li>\n</ul>\n<h2>3. Üçüncü taraf hizmetlerince toplanan bilgiler</h2>\n<p>Ücretsiz uygulamalarımızı ve satın alımları desteklemek için aşağıdaki üçüncü taraf hizmetlerini kullanıyoruz; bu hizmetler kendi politikaları kapsamında bilgi toplayabilir:</p>\n<ul>\n<li><strong>Google AdMob (reklam)</strong> — reklam sunmak için reklam tanımlayıcınızı, yaklaşık konumunuzu ve cihaz/kullanım bilgilerinizi toplayabilir. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Gizlilik Politikası</a></li>\n<li><strong>Google Play Faturalandırma (uygulama içi satın alımlar)</strong> — PRO özellikler için ödemeler Google Play tarafından işlenir; ödeme yöntemi bilgilerinizi saklamıyoruz.</li>\n<li>Bazı uygulamalar, bilgi görüntülemek için harici veri sağlayıcılara (örneğin herkese açık API'ler) bağlanır; bu sırada hiçbir kişisel veri gönderilmez.</li>\n<li><strong>Google Analytics (web sitesi)</strong> — web sitemize (codedac.com) gelen trafiği ölçmek için kullanılır. Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'deki ziyaretçiler için Rıza Modu varsayılan olarak “reddedildi” durumundadır; bu nedenle hiçbir analiz çerezi saklanmaz ve yalnızca anonim, toplu sinyaller gönderilir; diğer yerlerde ziyaretleri ölçmek için analiz çerezleri kullanılır. Hiçbir durumda reklam tanımlayıcıları toplamıyoruz. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Gizlilik Politikası</a></li>\n</ul>\n<h2>4. Reklam ve tercihleriniz</h2>\n<p>Ücretsiz uygulamalar reklam içerebilir. Cihaz ayarlarınızdan <em>reklam kimliğinizi sıfırlayarak veya reklam kişiselleştirmeyi devre dışı bırakarak</em> kişiselleştirilmiş reklamları sınırlayabilirsiniz. PRO sürümü satın almak reklamları kaldırır.</p>\n<h2>5. İzinler</h2>\n<p>Her uygulama yalnızca özellikleri için gereken izinleri ister ve bunları yalnızca belirtilen amaçla kullanır. İstenen izinler uygulamaya göre değişir, örneğin:</p>\n<ul>\n<li>Diğer uygulamaların üzerinde gösterme (üst katman) — kayan hesap makinesi, zamanlayıcı, fiyat şeridi vb. için.</li>\n<li>Depolama / medya erişimi — fotoğraf veya belgeleri düzenlemek ve kaydetmek için.</li>\n<li>Mikrofon — ses seviyesi ölçümü gibi ses özellikleri için (yalnızca ilgili uygulamalarda).</li>\n<li>Açılış tamamlandı sinyalini alma — açılışta uygulamaları başlatmak için.</li>\n</ul>\n<h2>6. Çocukların gizliliği</h2>\n<p>Çocuklara yönelik uygulamalarda Google Play Aileler Politikası'na ve geçerli yasalara uyuyoruz. Çocuklara yönelik bağlamlarda kişiselleştirilmiş reklam kullanmıyor ve çocuklardan bilerek kişisel bilgi toplamıyoruz.</p>\n<h2>7. Veri güvenliği ve saklama</h2>\n<p>Cihazdaki veriler, uygulamayı kaldırdığınızda silinir. Kişisel verileri kendi sunucularımızda saklamadığımız için ayrı bir sunucu tarafı saklama süresi yoktur.</p>\n<h2>8. Bu politikadaki değişiklikler</h2>\n<p>Yasal veya hizmetle ilgili değişiklikleri yansıtmak için bu politikayı güncelleyebiliriz. Her türlü değişiklik bu sayfada yayımlanacaktır.</p>\n<h2>9. İletişim</h2>\n<p>Bu politika veya verileriniz hakkındaki sorularınız için lütfen bizimle şu adresten iletişime geçin:<br />\nE-posta: <a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
+  "updated": "Son güncelleme: 15 Eylül 2026",
+  "firstEffective": "İlk yürürlük tarihi: 15 Temmuz 2026",
+  "tocTitle": "İçindekiler",
+  "summaryTitle": "Bir bakışta",
+  "summary": [
+    "Kayıt olmanız gerekmez ve CodeDAC, verilerinizi alan veya saklayan hiçbir sunucu işletmez.",
+    "Uygulama verileri varsayılan olarak yalnızca cihazınızda saklanır.",
+    "Clipboard+ ve FloatNote+ uygulamalarındaki Google Drive yedekleme ve eşitleme özellikleri isteğe bağlıdır ve verileri yalnızca kendi Drive'ınıza kaydeder.",
+    "Android uygulamalarımızdaki reklamlar Google AdMob tarafından sunulur ve gerekli olduğu yerlerde önce rızanız istenir. Windows uygulamalarımızda reklam yoktur.",
+    "Sorular: contact@codedac.com"
+  ],
+  "appsTitle": "Her uygulamanın bağlandığı hizmetler",
+  "appsLead": "Her uygulamanın iletişim kurduğu harici hizmetler ve istediği başlıca izinler; doğrudan uygulamaların kodu üzerinden kontrol edilmiştir.",
+  "colApp": "Uygulama",
+  "colData": "Bağlantılar",
+  "colPerms": "Başlıca izinler",
+  "none": "Yok",
+  "data": {
+    "ads": "Reklamlar (Google AdMob)",
+    "billing": "Google Play Faturalandırma",
+    "store": "Microsoft Store (lisans ve satın almalar)",
+    "driveSync": "Google Drive eşitleme (isteğe bağlı)",
+    "driveBackup": "Google Drive yedekleme (isteğe bağlı)",
+    "fx": "Döviz kurları (Frankfurter)",
+    "crypto": "Kripto fiyatları (CoinGecko, Binance)",
+    "mlkit": "ML Kit tanılama verileri (Google)"
+  },
+  "perms": {
+    "overlay": "Diğer uygulamaların üzerinde gösterme",
+    "notifications": "Bildirimler",
+    "foreground": "Sürekli çalışma (ön plan hizmeti)",
+    "boot": "Açılışta çalıştırma",
+    "battery": "Pil optimizasyonunu yoksayma",
+    "audio": "Ses ayarlarını değiştirme",
+    "adId": "Reklam kimliği"
+  },
+  "intro": "<p>Bu Gizlilik Politikası, CodeDAC (“biz”) tarafından geliştirilen ve sunulan Android ve Windows uygulamaları (“Uygulamalar”) ile web sitemiz codedac.com için geçerlidir.</p>",
+  "sections": [
+    {
+      "id": "principle",
+      "title": "1. Temel ilke",
+      "html": "<p>Uygulamaları hesap oluşturmadan veya oturum açmadan kullanabilirsiniz. Verilerinizi alan veya saklayan hiçbir sunucu işletmiyoruz; Uygulamaların işlediği veriler varsayılan olarak cihazınızda saklanır ve işlenir. Bunun tek istisnaları, kendiniz açtığınız isteğe bağlı özellikler (Bölüm 3) ve Uygulamaların dayandığı harici hizmetlerdir (Bölüm 4–6); bunların tümü aşağıda açıklanmıştır.</p>"
+    },
+    {
+      "id": "device",
+      "title": "2. Cihazınızda işlenen bilgiler",
+      "html": "<ul><li>Uygulamaların çalışması için gereken veriler (pano geçmişi, notlar, zamanlayıcılar, ayarlar vb.) yalnızca cihazınızda saklanır ve bize gönderilmez.</li><li>PhotoCleaner+, fotoğraflardaki ve PDF'lerdeki kişisel bilgileri, uygulamaya yerleşik Google ML Kit modellerini kullanarak cihazınızda bulur ve gizler (metin, yüz ve barkod tanıma). Fotoğraflar ve belgeler hiçbir zaman yüklenmez.</li><li>Bir Uygulamayı kaldırdığınızda cihazınızda saklanan uygulama verileri de silinir.</li></ul>"
+    },
+    {
+      "id": "drive",
+      "title": "3. İsteğe bağlı özellik: Google Drive yedekleme ve eşitleme",
+      "html": "<p>Clipboard+ (Android ve Windows) ve FloatNote+ (Android ve Windows), verilerinizi cihazlar arasında taşıyabilmeniz için Google Drive özellikleri sunar. Bu özellikler varsayılan olarak kapalıdır ve diğer tüm özellikler bunlar olmadan da çalışır.</p><ul><li><strong>Google ile oturum açma.</strong> Uygulama, yalnızca bir özelliği açtığınızda ve yalnızca kendi Google Drive'ınıza erişmek amacıyla Google hesabınızla oturum açmanızı ister.</li><li><strong>Verilerinizin nereye gittiği.</strong> Eşitleme açıkken Clipboard+ kopyaladığınız öğeleri, FloatNote+ ise notlarınızı kendi Google Drive'ınızdaki özel, yalnızca uygulamaya ait bir alana (gizli <code>appDataFolder</code>) kaydeder. Veriler yalnızca Google hesabınıza gider — <strong>hiçbir zaman CodeDAC'a gönderilmez.</strong></li><li><strong>Sınırlı erişim.</strong> Eşitleme yalnızca <code>drive.appdata</code> kapsamını kullanır; bu kapsam yalnızca uygulamanın o gizli alanda oluşturduğu dosyaları görebilir. Android için Clipboard+ uygulamasının yedekleme özelliği ayrıca <code>drive.file</code> kapsamını da kullanır; bu kapsam da yalnızca uygulamanın kendi oluşturduğu yedek dosyalarına erişir. Bu kapsamların hiçbiri Google Drive'ınızın geri kalanına erişemez.</li><li><strong>Görseller.</strong> FloatNote+ notlarına eklediğiniz görseller cihazınızda kalır; notla birlikte yalnızca dosya adına bir referans taşınır.</li><li><strong>Durdurma ve silme.</strong> Bu özellikleri istediğiniz zaman kapatabilir veya oturumu kapatabilirsiniz. Google Drive'ınızda saklanan uygulama verilerini veya yedek dosyalarını silmeniz, eşitlenmiş ve yedeklenmiş kopyaları kaldırır.</li></ul>"
+    },
+    {
+      "id": "network",
+      "title": "4. İnternet üzerinden alınıp verilen bilgiler",
+      "html": "<p>Bazı özellikler internetten bilgi alır. Bu istekler sizi tanımlayan hiçbir şey içermez, ancak her internet isteğinde olduğu gibi karşı taraftaki sunucu cihazınızın IP adresini alır.</p><ul><li><strong>FloatCalc+ döviz kurları.</strong> Para birimi dönüştürdüğünüzde uygulama kurları herkese açık bir döviz kuru API'sinden (Frankfurter) alır.</li><li><strong>FloatCrypto+ fiyatları.</strong> Kripto fiyatları ve grafikler herkese açık API'lerden (CoinGecko, Binance) alınır.</li><li><strong>PhotoCleaner+ uygulamasında ML Kit.</strong> Görüntü tanıma cihazınızda gerçekleşir, ancak Google ML Kit hizmeti iyileştirmek ve sorunları gidermek amacıyla Google'a tanılama bilgileri — cihaz bilgileri (üretici, model, işletim sistemi sürümü), uygulama bilgileri ile performans ve hata ölçümleri — gönderebilir. Fotoğraflarınız ve tanınan içerik bunlara dahil değildir.</li><li><strong>Windows uygulamalarımızda Microsoft Store.</strong> Windows uygulamaları, PRO lisansınızı ve satın almalarınızı kontrol etmek için Microsoft Store ile iletişim kurar.</li></ul>"
+    },
+    {
+      "id": "ads",
+      "title": "5. Reklamlar ve reklam rızası",
+      "html": "<p>Ücretsiz Android uygulamalarımız Google AdMob reklamları gösterir. Windows uygulamalarımızda reklam yoktur.</p><ul><li><strong>Toplanan bilgiler.</strong> AdMob; reklam sunmak ve ölçmek ile sahtekârlığı önlemek için reklam kimliğinizi, IP adresinizden tahmin edilen yaklaşık konumunuzu ve cihaz ile uygulama kullanım bilgilerinizi toplayabilir. Bu amaçla uygulamalar, reklam SDK'sının ihtiyaç duyduğu izinleri (internet, ağ durumu, reklam kimliği) ve bazı uygulamalarda Android'in reklam API'lerine (Privacy Sandbox) erişimi içerir. <a href=\"https://policies.google.com/technologies/ads\" target=\"_blank\" rel=\"noopener\">Google'ın reklam verilerini nasıl kullandığı</a></li><li><strong>Reklam rızası.</strong> Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre gibi rıza gerektiren bölgelerde uygulama, ilk açtığınızda Google'ın rıza ekranı (User Messaging Platform) aracılığıyla kişiselleştirilmiş reklamlara ilişkin tercihinizi sorar. Çoğu uygulamada tercihinizi uygulama içindeki reklam rızası (gizlilik seçenekleri) menüsünden değiştirebilirsiniz; ayrıca hangi uygulama olursa olsun, uygulamanın verilerini temizlemek bir sonraki açılışta yeniden sorulmasını sağlar.</li><li><strong>Kişiselleştirilmiş reklamları kapatma.</strong> Nerede olursanız olun, cihaz ayarlarınızdan reklam kimliğinizi silebilir veya sıfırlayabilir ya da reklam kişiselleştirmeyi kapatabilirsiniz.</li><li><strong>Reklamları kaldırma.</strong> PRO satın almak reklamları kaldırır.</li></ul>"
+    },
+    {
+      "id": "payments",
+      "title": "6. Ödemeler",
+      "html": "<ul><li><strong>Android.</strong> PRO satın alımları Google Play Faturalandırma tarafından işlenir.</li><li><strong>Windows.</strong> PRO satın alımları Microsoft Store tarafından işlenir.</li></ul><p>Ödemeyi ilgili mağaza gerçekleştirir; kart numaranızı veya diğer ödeme bilgilerinizi hiçbir zaman almayız. Uygulamalar mağazadan yalnızca PRO erişiminizi kontrol etmek için gereken satın alma durumunu alır.</p>"
+    },
+    {
+      "id": "permissions",
+      "title": "7. İzinler",
+      "html": "<p>Her uygulama yalnızca özelliklerinin ihtiyaç duyduğu izinleri ister ve bunları yalnızca belirtilen amaçla kullanır. Her uygulamanın istediği izinler yukarıdaki <a href=\"#apps\">Her uygulamanın bağlandığı hizmetler</a> bölümünde listelenmiştir.</p><ul><li><strong>Diğer uygulamaların üzerinde gösterme</strong> — kayan hesap makinesini, zamanlayıcıyı, notları, fiyatları, okuma aracını veya pano panelini ekranınızın üstünde gösterir.</li><li><strong>Bildirimler</strong> — çalışan özelliklerin durumunu ve uyarıları (zamanlayıcının bitmesi, fiyat uyarıları vb.) gösterir.</li><li><strong>Sürekli çalışma (ön plan hizmeti)</strong> — kayan pencereler veya ses yükseltme gibi özelliklerin uygulamadan çıktıktan sonra da çalışmaya devam etmesini sağlar.</li><li><strong>Açılışta çalıştırma</strong> — cihazınız açıldığında uygulamayı veya ayarladığınız özellikleri yeniden başlatır.</li><li><strong>Pil optimizasyonunu yoksayma</strong> — sistemin açılışta başlatmayı engellemesini önler (AutoStart+).</li><li><strong>Ses ayarlarını değiştirme</strong> — ses yükseltmeyi ve ekolayzeri uygular (VolumeBooster+).</li><li><strong>Reklam kimliği</strong> — reklam sunmak için kullanılır (Bölüm 5).</li></ul><p>İnternet, ağ durumu ve titreşim gibi temel izinler kurulum sırasında otomatik olarak verilir ve yalnızca yukarıdaki özellikler için kullanılır. Uygulamalar mikrofon, kişiler, konum, kamera veya depolama izni istemez.</p>"
+    },
+    {
+      "id": "website",
+      "title": "8. Web sitesi (codedac.com)",
+      "html": "<p>Web sitemiz ziyaretleri ölçmek için Google Analytics kullanır. Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'deki ziyaretçiler için Consent Mode varsayılan olarak “reddedildi” durumundadır; bu nedenle hiçbir analiz çerezi saklanmaz ve yalnızca anonim, toplu sinyaller gönderilir; diğer yerlerde ziyaretleri ölçmek için analiz çerezleri kullanılır. Hiçbir durumda reklam tanımlayıcıları toplamayız ve web sitesinde reklam gösterilmez. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Gizlilik Politikası</a></p><p>Tarayıcınızda çerezleri engelleyerek veya <a href=\"https://tools.google.com/dlpage/gaoptout\" target=\"_blank\" rel=\"noopener\">Google Analytics Devre Dışı Bırakma Tarayıcı Eklentisi</a>'ni yükleyerek analizi devre dışı bırakabilirsiniz. Web sitesi, seçtiğiniz dili ve temayı (koyu mod) hatırlamak için tarayıcınızın yerel depolamasını (localStorage) kullanır; bu değerler hiçbir zaman bir sunucuya gönderilmez.</p>"
+    },
+    {
+      "id": "email",
+      "title": "9. Bize gönderdiğiniz e-postalar",
+      "html": "<p>Bize e-posta gönderirseniz e-posta adresinizi ve yazdıklarınızı (eklediğiniz cihaz veya uygulama ayrıntıları dahil) alırız. Bunları yalnızca size yanıt vermek ve talebinizle ilgilenmek için kullanır ve yalnızca bu amaç için gerekli olduğu süre boyunca saklarız.</p>"
+    },
+    {
+      "id": "children",
+      "title": "10. Çocukların gizliliği",
+      "html": "<p>Çocuklara yönelik uygulamalarda Google Play Aileler Politikası'na ve geçerli yasalara uyuyoruz. Çocuklara yönelik bağlamlarda kişiselleştirilmiş reklam kullanmıyor ve çocuklardan bilerek kişisel bilgi toplamıyoruz.</p>"
+    },
+    {
+      "id": "changes",
+      "title": "11. Bu politikadaki değişiklikler",
+      "html": "<p>Bu politikayı yasalardaki veya Uygulamalardaki değişiklikleri yansıtmak için güncelleyebiliriz. Güncellediğimizde bu sayfadaki son güncelleme tarihini ve aşağıdaki değişiklik geçmişini de güncelleriz.</p>"
+    },
+    {
+      "id": "contact",
+      "title": "12. İletişim",
+      "html": "<p>Kişisel verileri nasıl işlediğimize ilişkin sorularınız için lütfen bizimle iletişime geçin.<br />E-posta: <a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
+    },
+    {
+      "id": "history",
+      "title": "Değişiklik geçmişi",
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> Uygulama bazında genel bakış eklendi; Android için Clipboard+ ve FloatNote+ uygulamalarında Google Drive yedekleme ve eşitleme, reklam rızası, internet bağlantıları (döviz kurları, fiyatlar, ML Kit), web sitesinin kullandığı depolama ve e-postalar hakkında bilgiler eklendi. İzin açıklamaları uygulamalara uygun olacak şekilde düzeltildi ve politika yeniden düzenlendi.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> İletişim e-posta adresi değiştirildi.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Windows için FloatNote+ uygulamasının bulut eşitleme bilgileri eklendi.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Windows için Clipboard+ uygulamasının bulut eşitleme bilgileri eklendi.</li></ul>"
+    }
+  ]
 }

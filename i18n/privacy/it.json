@@ -1,8 +1,109 @@
 {
   "metaTitle": "Informativa sulla privacy | CodeDAC",
-  "metaDesc": "Informativa sulla privacy delle app per smartphone di CodeDAC. Non raccogliamo né memorizziamo dati personali sui nostri server; la maggior parte dell'elaborazione avviene interamente sul tuo dispositivo.",
+  "metaDesc": "Informativa sulla privacy delle app Android e Windows di CodeDAC. Nessun server aziendale, l'elaborazione resta sul tuo dispositivo e sono indicati i collegamenti e i permessi di ciascuna app.",
   "title": "Informativa sulla privacy",
-  "effective": "Data di entrata in vigore: 15 luglio 2026",
-  "back": "← Torna alla home",
-  "bodyHtml": "<p>La presente Informativa sulla privacy si applica a tutte le applicazioni sviluppate e fornite da CodeDAC (“noi”) (le “App”).</p>\n<h2>1. Principio fondamentale</h2>\n<p>Le nostre App non richiedono la creazione di un account né l'accesso, e non raccogliamo né memorizziamo informazioni di identificazione personale sui nostri server. La maggior parte dell'elaborazione avviene interamente sul tuo dispositivo.</p>\n<h2>2. Informazioni elaborate sul tuo dispositivo</h2>\n<p>Per fornire le funzioni dell'app, i seguenti dati vengono memorizzati ed elaborati <strong>solo sul tuo dispositivo</strong> e non ci vengono trasmessi:</p>\n<ul>\n<li>I dati dell'app necessari per fornire le funzioni (ad esempio cronologia, elenchi e impostazioni).</li>\n<li>Contenuti come foto, video e documenti gestiti da alcune app non vengono mai caricati; vengono elaborati localmente sul tuo dispositivo e crittografati ove applicabile.</li>\n</ul>\n<h2>Clipboard+ per Windows — Sincronizzazione cloud (facoltativa)</h2>\n<p>Clipboard+ per Windows è un gestore degli appunti: il testo e le immagini che copi vengono salvati sul tuo dispositivo affinché tu possa ritrovarli. Questa sezione spiega come vengono trattati tali dati e, per la funzione facoltativa di sincronizzazione, integra e limita le Sezioni 1 e 2 di cui sopra.</p>\n<ul>\n<li><strong>Accesso con Google (solo se attivi la sincronizzazione).</strong> La sincronizzazione cloud è disattivata per impostazione predefinita. Se la attivi, l'app ti chiede di accedere con il tuo account Google al solo scopo di accedere al tuo Google Drive. Puoi usare l'app in modo completo senza effettuare l'accesso.</li>\n<li><strong>Dove vanno i tuoi dati.</strong> Quando la sincronizzazione è attiva, gli elementi che hai copiato vengono caricati in un'area privata, riservata all'app, del <strong>tuo Google Drive</strong> (la cartella nascosta <code>appDataFolder</code>) per sincronizzarli tra i tuoi dispositivi. I dati vanno al tuo account Google, <strong>non a CodeDAC. Non gestiamo alcun server nostro e non riceviamo mai il contenuto dei tuoi appunti.</strong></li>\n<li><strong>Accesso limitato.</strong> L'app richiede solo l'ambito <code>drive.appdata</code>, che può vedere soltanto i file creati dall'app stessa in quella cartella nascosta; non può accedere al resto del tuo Google Drive.</li>\n<li><strong>Il tuo controllo.</strong> Puoi disattivare la sincronizzazione o disconnetterti in qualsiasi momento. Eliminando la cartella dei dati dell'app dal tuo Google Drive, o cancellando i dati locali dell'app, la copia sincronizzata viene rimossa.</li>\n<li><strong>Acquisti.</strong> Su Windows le funzioni PRO si acquistano tramite <strong>Microsoft Store</strong>; il pagamento è gestito da Microsoft e non riceviamo i dati del tuo metodo di pagamento. (La nota sulla fatturazione di Google Play riportata sopra si applica alle nostre app Android.)</li>\n</ul>\n<h2>FloatNote+ per Windows — Sincronizzazione cloud (facoltativa)</h2>\n<p>FloatNote+ per Windows è un'app di note adesive: le note che scrivi restano in primo piano sopra la finestra in cui stai lavorando e vengono salvate sul tuo dispositivo. Questa sezione spiega come vengono trattati tali dati e, per la funzione facoltativa di sincronizzazione, integra e limita le Sezioni 1 e 2 di cui sopra.</p>\n<ul>\n<li><strong>Accesso con Google (solo se attivi la sincronizzazione).</strong> La sincronizzazione cloud è disattivata per impostazione predefinita. Se la attivi, l'app ti chiede di accedere con il tuo account Google al solo scopo di accedere al tuo Google Drive. Puoi usare l'app in modo completo senza effettuare l'accesso.</li>\n<li><strong>Dove vanno i tuoi dati.</strong> Quando la sincronizzazione è attiva, le tue note vengono caricate in un'area privata, riservata all'app, del <strong>tuo Google Drive</strong> (la cartella nascosta <code>appDataFolder</code>) per sincronizzarle tra i tuoi dispositivi, inclusa l'app FloatNote+ per Android. I dati vanno al tuo account Google, <strong>non a CodeDAC. Non gestiamo alcun server nostro e non riceviamo mai il contenuto delle tue note.</strong></li>\n<li><strong>Immagini.</strong> Le immagini che alleghi a una nota restano sul tuo dispositivo e non vengono mai caricate; con la nota viaggia solo un riferimento al nome del file.</li>\n<li><strong>Accesso limitato.</strong> L'app richiede solo l'ambito <code>drive.appdata</code>, che può vedere soltanto i file creati dall'app stessa in quella cartella nascosta; non può accedere al resto del tuo Google Drive.</li>\n<li><strong>Il tuo controllo.</strong> Puoi disattivare la sincronizzazione o disconnetterti in qualsiasi momento. Eliminando la cartella dei dati dell'app dal tuo Google Drive, o cancellando i dati locali dell'app, la copia sincronizzata viene rimossa.</li>\n<li><strong>Acquisti.</strong> Su Windows le funzioni PRO si acquistano tramite <strong>Microsoft Store</strong>; il pagamento è gestito da Microsoft e non riceviamo i dati del tuo metodo di pagamento. (La nota sulla fatturazione di Google Play riportata sopra si applica alle nostre app Android.)</li>\n</ul>\n<h2>3. Informazioni raccolte da servizi di terze parti</h2>\n<p>Per supportare le nostre app gratuite e gli acquisti, utilizziamo i seguenti servizi di terze parti, che possono raccogliere informazioni in base alle proprie politiche:</p>\n<ul>\n<li><strong>Google AdMob (pubblicità)</strong> — può raccogliere il tuo identificatore pubblicitario, la posizione approssimativa e informazioni sul dispositivo e sull'utilizzo per mostrare gli annunci. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Informativa sulla privacy di Google</a></li>\n<li><strong>Google Play Billing (acquisti in-app)</strong> — i pagamenti per le funzioni PRO vengono elaborati da Google Play; non memorizziamo i dettagli del tuo metodo di pagamento.</li>\n<li>Alcune app si connettono a fornitori di dati esterni (ad esempio API pubbliche) per mostrare informazioni, senza inviare alcun dato personale.</li>\n<li><strong>Google Analytics (sito web)</strong> — utilizzato per misurare il traffico del nostro sito web (codedac.com). Per i visitatori dello Spazio economico europeo, del Regno Unito e della Svizzera, la modalità di consenso è impostata su “negato” per impostazione predefinita, quindi non vengono memorizzati cookie di analisi e vengono inviati solo segnali anonimi e aggregati; altrove, i cookie di analisi vengono utilizzati per misurare le visite. In nessun caso raccogliamo identificatori pubblicitari. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Informativa sulla privacy di Google</a></li>\n</ul>\n<h2>4. Pubblicità e le tue scelte</h2>\n<p>Le app gratuite possono includere annunci. Puoi limitare la pubblicità personalizzata <em>reimpostando il tuo ID pubblicitario o disattivando la personalizzazione degli annunci</em> nelle impostazioni del tuo dispositivo. L'acquisto della versione PRO rimuove gli annunci.</p>\n<h2>5. Permessi</h2>\n<p>Ogni app richiede solo i permessi necessari alle sue funzioni e li utilizza esclusivamente per lo scopo indicato. I permessi richiesti variano a seconda dell'app, ad esempio:</p>\n<ul>\n<li>Visualizzazione sopra altre app (overlay) — per calcolatrice flottante, timer, ticker dei prezzi, ecc.</li>\n<li>Accesso all'archivio / ai contenuti multimediali — per modificare e salvare foto o documenti.</li>\n<li>Microfono — per funzioni audio come la misurazione del livello sonoro (solo nelle app pertinenti).</li>\n<li>Ricezione dell'avvio completato — per avviare le app all'accensione.</li>\n</ul>\n<h2>6. Privacy dei minori</h2>\n<p>Per le app rivolte ai minori, rispettiamo la Norma per le famiglie di Google Play e le leggi applicabili. Nei contesti rivolti ai minori non utilizziamo pubblicità personalizzata e non raccogliamo consapevolmente informazioni personali dai minori.</p>\n<h2>7. Sicurezza e conservazione dei dati</h2>\n<p>I dati sul dispositivo vengono rimossi quando disinstalli l'app. Poiché non memorizziamo dati personali sui nostri server, non esiste un periodo di conservazione separato lato server.</p>\n<h2>8. Modifiche alla presente informativa</h2>\n<p>Potremmo aggiornare questa informativa per riflettere cambiamenti legali o del servizio. Eventuali modifiche saranno pubblicate su questa pagina.</p>\n<h2>9. Contatti</h2>\n<p>Per domande su questa informativa o sui tuoi dati, contattaci all'indirizzo:<br />\nEmail: <a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
+  "updated": "Ultimo aggiornamento: 15 settembre 2026",
+  "firstEffective": "Prima entrata in vigore: 15 luglio 2026",
+  "tocTitle": "Indice",
+  "summaryTitle": "In breve",
+  "summary": [
+    "Non è prevista alcuna registrazione e CodeDAC non gestisce alcun server che riceva o memorizzi i tuoi dati.",
+    "Per impostazione predefinita, i dati delle app sono memorizzati solo sul tuo dispositivo.",
+    "Il backup e la sincronizzazione con Google Drive di Clipboard+ e FloatNote+ sono facoltativi e salvano solo nel tuo Drive personale.",
+    "Gli annunci nelle nostre app Android sono forniti da Google AdMob e, dove richiesto, viene prima chiesto il consenso. Le nostre app Windows non hanno annunci.",
+    "Domande: contact@codedac.com"
+  ],
+  "appsTitle": "A cosa si collega ogni app",
+  "appsLead": "I servizi esterni con cui comunica ciascuna app e i principali permessi che richiede, verificati direttamente nel codice delle app.",
+  "colApp": "App",
+  "colData": "Si collega a",
+  "colPerms": "Permessi principali",
+  "none": "Nessuno",
+  "data": {
+    "ads": "Annunci (Google AdMob)",
+    "billing": "Google Play Billing",
+    "store": "Microsoft Store (licenza e acquisti)",
+    "driveSync": "Sincronizzazione con Google Drive (facoltativa)",
+    "driveBackup": "Backup su Google Drive (facoltativo)",
+    "fx": "Tassi di cambio (Frankfurter)",
+    "crypto": "Prezzi delle criptovalute (CoinGecko, Binance)",
+    "mlkit": "Diagnostica ML Kit (Google)"
+  },
+  "perms": {
+    "overlay": "Visualizzazione sopra altre app",
+    "notifications": "Notifiche",
+    "foreground": "Esecuzione continua (servizio in primo piano)",
+    "boot": "Avvio all'accensione",
+    "battery": "Ignora ottimizzazione batteria",
+    "audio": "Modifica impostazioni audio",
+    "adId": "ID pubblicità"
+  },
+  "intro": "<p>La presente Informativa sulla privacy si applica alle applicazioni Android e Windows sviluppate e fornite da CodeDAC (“noi”) (le “App”) e al nostro sito web, codedac.com.</p>",
+  "sections": [
+    {
+      "id": "principle",
+      "title": "1. Principio fondamentale",
+      "html": "<p>Puoi usare le App senza creare un account né effettuare l'accesso. Non gestiamo alcun server che riceva o memorizzi i tuoi dati, e i dati trattati dalle App vengono, per impostazione predefinita, memorizzati ed elaborati sul tuo dispositivo. Le uniche eccezioni sono le funzioni facoltative che attivi tu stesso (Sezione 3) e i servizi esterni su cui si basano le App (Sezioni 4–6), tutti descritti di seguito.</p>"
+    },
+    {
+      "id": "device",
+      "title": "2. Informazioni elaborate sul tuo dispositivo",
+      "html": "<ul><li>I dati di cui le App hanno bisogno per funzionare (cronologia degli appunti, note, timer, impostazioni e così via) sono memorizzati solo sul tuo dispositivo e non ci vengono inviati.</li><li>PhotoCleaner+ individua e nasconde le informazioni personali in foto e PDF (riconoscimento di testo, volti e codici a barre) usando modelli Google ML Kit integrati nell'app, sul tuo dispositivo. Foto e documenti non vengono mai caricati.</li><li>La disinstallazione di un'App elimina anche i dati dell'app memorizzati sul tuo dispositivo.</li></ul>"
+    },
+    {
+      "id": "drive",
+      "title": "3. Funzione facoltativa: backup e sincronizzazione con Google Drive",
+      "html": "<p>Clipboard+ (Android e Windows) e FloatNote+ (Android e Windows) offrono funzioni di Google Drive per consentirti di trasferire i tuoi dati tra dispositivi. Queste funzioni sono disattivate per impostazione predefinita e tutte le altre funzioni sono utilizzabili anche senza di esse.</p><ul><li><strong>Accesso con Google.</strong> Solo quando attivi una funzione, l'app ti chiede di accedere con il tuo account Google, al solo scopo di accedere al tuo Google Drive personale.</li><li><strong>Dove vanno i tuoi dati.</strong> Quando la sincronizzazione è attiva, Clipboard+ salva gli elementi che hai copiato, e FloatNote+ le tue note, in un'area privata riservata all'app all'interno del tuo Google Drive personale (la cartella nascosta <code>appDataFolder</code>). I dati vanno solo al tuo account Google — <strong>non vengono mai inviati a CodeDAC.</strong></li><li><strong>Accesso limitato.</strong> La sincronizzazione usa solo l'ambito <code>drive.appdata</code>, che può vedere soltanto i file creati dall'app in quell'area nascosta. La funzione di backup di Clipboard+ per Android usa anche l'ambito <code>drive.file</code>, che allo stesso modo raggiunge solo i file di backup creati dall'app stessa. Nessuno dei due ambiti può accedere al resto del tuo Google Drive.</li><li><strong>Immagini.</strong> Le immagini che alleghi a una nota di FloatNote+ restano sul tuo dispositivo; con la nota viaggia solo un riferimento al nome del file.</li><li><strong>Disattivazione ed eliminazione.</strong> Puoi disattivare queste funzioni o disconnetterti in qualsiasi momento. Eliminando i dati dell'app o i file di backup memorizzati nel tuo Google Drive, le copie sincronizzate e di backup vengono rimosse.</li></ul>"
+    },
+    {
+      "id": "network",
+      "title": "4. Informazioni scambiate tramite Internet",
+      "html": "<p>Alcune funzioni recuperano informazioni da Internet. Queste richieste non contengono nulla che ti identifichi, ma, come per qualsiasi richiesta su Internet, il server contattato riceve l'indirizzo IP del tuo dispositivo.</p><ul><li><strong>Tassi di cambio in FloatCalc+.</strong> Quando converti valute, l'app recupera i tassi da un'API pubblica di tassi di cambio (Frankfurter).</li><li><strong>Prezzi in FloatCrypto+.</strong> I prezzi e i grafici delle criptovalute vengono recuperati da API pubbliche (CoinGecko, Binance).</li><li><strong>ML Kit in PhotoCleaner+.</strong> Il riconoscimento delle immagini avviene sul tuo dispositivo, ma Google ML Kit può inviare a Google informazioni diagnostiche — informazioni sul dispositivo (produttore, modello, versione del sistema operativo), informazioni sull'app e metriche su prestazioni ed errori — per migliorare il servizio e risolvere i problemi. Le tue foto e il contenuto riconosciuto non sono inclusi.</li><li><strong>Microsoft Store nelle nostre app Windows.</strong> Le app Windows comunicano con Microsoft Store per verificare la tua licenza PRO e i tuoi acquisti.</li></ul>"
+    },
+    {
+      "id": "ads",
+      "title": "5. Pubblicità e consenso agli annunci",
+      "html": "<p>Le nostre app Android gratuite mostrano annunci di Google AdMob. Le nostre app Windows non hanno annunci.</p><ul><li><strong>Cosa viene raccolto.</strong> AdMob può raccogliere il tuo ID pubblicità, la posizione approssimativa dedotta dal tuo indirizzo IP e informazioni sul dispositivo e sull'utilizzo dell'app per pubblicare e misurare gli annunci e prevenire le frodi. A tal fine, le app includono i permessi necessari all'SDK pubblicitario (Internet, stato della rete, ID pubblicità) e, in alcune app, l'accesso alle API pubblicitarie di Android (Privacy Sandbox). <a href=\"https://policies.google.com/technologies/ads\" target=\"_blank\" rel=\"noopener\">Come Google utilizza i dati pubblicitari</a></li><li><strong>Consenso agli annunci.</strong> Nelle regioni in cui è richiesto il consenso, come lo Spazio economico europeo, il Regno Unito e la Svizzera, la prima volta che apri l'app ti viene chiesto di esprimere la tua scelta sugli annunci personalizzati tramite la schermata di consenso di Google (User Messaging Platform). La maggior parte delle app ti consente di modificare la scelta dal menu del consenso agli annunci (opzioni sulla privacy) all'interno dell'app e, in qualsiasi app, cancellando i dati dell'app la richiesta viene ripresentata all'avvio successivo.</li><li><strong>Disattivare gli annunci personalizzati.</strong> Ovunque ti trovi, puoi eliminare o reimpostare il tuo ID pubblicità, oppure disattivare la personalizzazione degli annunci, nelle impostazioni del tuo dispositivo.</li><li><strong>Rimuovere gli annunci.</strong> L'acquisto di PRO rimuove gli annunci.</li></ul>"
+    },
+    {
+      "id": "payments",
+      "title": "6. Pagamenti",
+      "html": "<ul><li><strong>Android.</strong> Gli acquisti PRO sono elaborati da Google Play Billing.</li><li><strong>Windows.</strong> Gli acquisti PRO sono elaborati da Microsoft Store.</li></ul><p>Il pagamento è gestito da ciascuno store; non riceviamo mai il numero della tua carta né altri dati di pagamento. Le app ricevono dallo store solo lo stato dell'acquisto necessario per verificare il tuo accesso PRO.</p>"
+    },
+    {
+      "id": "permissions",
+      "title": "7. Permessi",
+      "html": "<p>Ogni app richiede solo i permessi necessari alle sue funzioni e li utilizza esclusivamente per lo scopo indicato. I permessi richiesti da ciascuna app sono elencati sopra, in <a href=\"#apps\">A cosa si collega ogni app</a>.</p><ul><li><strong>Visualizzazione sopra altre app</strong> — mostra la calcolatrice flottante, il timer, le note, i prezzi, lo strumento di lettura o il pannello degli appunti sopra lo schermo.</li><li><strong>Notifiche</strong> — mostra lo stato delle funzioni in esecuzione e gli avvisi (timer terminato, avvisi di prezzo e così via).</li><li><strong>Esecuzione continua (servizio in primo piano)</strong> — mantiene attive funzioni come le finestre flottanti o l'amplificazione del volume dopo che hai lasciato l'app.</li><li><strong>Avvio all'accensione</strong> — riavvia l'app o le funzioni che hai configurato quando il dispositivo si accende.</li><li><strong>Ignora ottimizzazione batteria</strong> — impedisce al sistema di bloccare l'avvio automatico all'accensione (AutoStart+).</li><li><strong>Modifica impostazioni audio</strong> — applica l'amplificazione del volume e l'equalizzatore (VolumeBooster+).</li><li><strong>ID pubblicità</strong> — usato per mostrare gli annunci (Sezione 5).</li></ul><p>I permessi di base, come Internet, stato della rete e vibrazione, vengono concessi automaticamente all'installazione e sono usati solo per le funzioni sopra indicate. Le App non richiedono permessi per microfono, contatti, posizione, fotocamera o archiviazione.</p>"
+    },
+    {
+      "id": "website",
+      "title": "8. Sito web (codedac.com)",
+      "html": "<p>Il nostro sito web utilizza Google Analytics per misurare le visite. Per i visitatori dello Spazio economico europeo, del Regno Unito e della Svizzera, Consent Mode è impostato su “negato” per impostazione predefinita, quindi non vengono memorizzati cookie di analisi e vengono inviati solo segnali anonimi e aggregati; altrove, i cookie di analisi vengono utilizzati per misurare le visite. In nessun caso raccogliamo identificatori pubblicitari, e il sito web non mostra annunci. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Informativa sulla privacy di Google</a></p><p>Puoi disattivare l'analisi bloccando i cookie nel browser o installando il <a href=\"https://tools.google.com/dlpage/gaoptout\" target=\"_blank\" rel=\"noopener\">componente aggiuntivo del browser per la disattivazione di Google Analytics</a>. Il sito web usa la memoria locale del browser (localStorage) per ricordare la lingua e il tema (modalità scura) che hai scelto; questi valori non vengono mai inviati a un server.</p>"
+    },
+    {
+      "id": "email",
+      "title": "9. Email che ci invii",
+      "html": "<p>Se ci scrivi via email, riceviamo il tuo indirizzo email e ciò che scrivi (compresi eventuali dettagli sul dispositivo o sull'app che includi). Utilizziamo queste informazioni solo per risponderti e dare seguito alla tua richiesta, e le conserviamo solo per il tempo necessario a tale scopo.</p>"
+    },
+    {
+      "id": "children",
+      "title": "10. Privacy dei minori",
+      "html": "<p>Per le app rivolte ai minori, rispettiamo la Norma per le famiglie di Google Play e le leggi applicabili. Nei contesti rivolti ai minori non utilizziamo pubblicità personalizzata e non raccogliamo consapevolmente informazioni personali dai minori.</p>"
+    },
+    {
+      "id": "changes",
+      "title": "11. Modifiche alla presente informativa",
+      "html": "<p>Potremmo aggiornare questa informativa per riflettere modifiche della normativa o delle App. In tal caso, aggiorneremo la data di ultimo aggiornamento su questa pagina e la cronologia delle modifiche riportata di seguito.</p>"
+    },
+    {
+      "id": "contact",
+      "title": "12. Contatti",
+      "html": "<p>Per domande su come trattiamo le informazioni personali, contattaci.<br />Email: <a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
+    },
+    {
+      "id": "history",
+      "title": "Cronologia delle modifiche",
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> Aggiunti il riepilogo per app e le informazioni su backup e sincronizzazione con Google Drive in Clipboard+ e FloatNote+ per Android, consenso agli annunci, connessioni Internet (tassi di cambio, prezzi, ML Kit), memoria del sito web ed email. Corrette le descrizioni dei permessi per allinearle alle app e riorganizzata l'informativa.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Modificato l'indirizzo email di contatto.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Aggiunte informazioni sulla sincronizzazione cloud di FloatNote+ per Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Aggiunte informazioni sulla sincronizzazione cloud di Clipboard+ per Windows.</li></ul>"
+    }
+  ]
 }

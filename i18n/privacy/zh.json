@@ -1,8 +1,109 @@
 {
   "metaTitle": "隐私政策 | CodeDAC",
-  "metaDesc": "CodeDAC 智能手机应用的隐私政策。我们不会在自有服务器上收集或存储个人数据；大部分处理完全在你的设备上进行。",
+  "metaDesc": "CodeDAC Android 和 Windows 应用的隐私政策。我们没有公司服务器，数据处理在您的设备上进行，并列明每款应用的网络连接和权限。",
   "title": "隐私政策",
-  "effective": "生效日期：2026 年 7 月 15 日",
-  "back": "← 返回首页",
-  "bodyHtml": "<p>本隐私政策适用于 CodeDAC（以下称“我们”）开发并提供的所有应用程序（以下称“本应用”）。</p>\n<h2>1. 核心原则</h2>\n<p>本应用不要求你创建账号或登录，我们也不会在自有服务器上收集或存储可识别个人身份的信息。大部分处理完全在你的设备上进行。</p>\n<h2>2. 在你设备上处理的信息</h2>\n<p>为提供应用功能，以下数据<strong>仅在你的设备上</strong>存储和处理，不会传输给我们：</p>\n<ul>\n<li>提供功能所需的应用数据（例如历史记录、列表和设置）。</li>\n<li>部分应用处理的照片、视频和文档等内容绝不会被上传；它们在你的设备上本地处理，并在适用时进行加密。</li>\n</ul>\n<h2>Windows 版 Clipboard+ — 云同步（可选）</h2>\n<p>Windows 版 Clipboard+ 是一款剪贴板管理应用，会将您复制的文本和图片保存在设备上，以便您日后查找。本节说明该数据的处理方式，并且仅就可选的同步功能，对上述第 1 条和第 2 条作出补充与限定。</p>\n<ul>\n<li><strong>Google 登录（仅在您启用同步时）。</strong> 云同步默认关闭。若您开启它，应用会请求您使用 Google 账号登录，其唯一目的是访问您本人的 Google Drive。不登录也可完整使用本应用。</li>\n<li><strong>您的数据去向。</strong> 同步开启时，您复制的项目会被上传到<strong>您本人 Google Drive</strong> 中仅供本应用使用的私有区域（隐藏的 <code>appDataFolder</code>），以在您的设备之间同步。数据发送至您的 Google 账号，<strong>而非 CodeDAC。我们不运营自有服务器，也绝不会接收您的剪贴板内容。</strong></li>\n<li><strong>受限的访问权限。</strong> 应用仅请求 <code>drive.appdata</code> 权限范围，该范围只能看到本应用自身在该隐藏文件夹中创建的文件，无法访问您 Google Drive 中的其他文件。</li>\n<li><strong>您的控制权。</strong> 您可随时关闭同步或退出登录。从 Google Drive 中删除本应用的数据文件夹，或清除应用的本地数据，即可移除已同步的副本。</li>\n<li><strong>购买。</strong> 在 Windows 上，PRO 功能通过 <strong>Microsoft Store</strong> 购买；付款由 Microsoft 处理，我们不会收到您的付款信息。（上文关于 Google Play 结算的说明适用于我们的 Android 应用。）</li>\n</ul>\n<h2>Windows 版 FloatNote+ — 云同步（可选）</h2>\n<p>Windows 版 FloatNote+ 是一款便签应用，您写下的便签会浮在正在使用的窗口之上，并保存在设备上。本节说明该数据的处理方式，并且仅就可选的同步功能，对上述第 1 条和第 2 条作出补充与限定。</p>\n<ul>\n<li><strong>Google 登录（仅在您启用同步时）。</strong> 云同步默认关闭。若您开启它，应用会请求您使用 Google 账号登录，其唯一目的是访问您本人的 Google Drive。不登录也可完整使用本应用。</li>\n<li><strong>您的数据去向。</strong> 同步开启时，您的便签会被上传到<strong>您本人 Google Drive</strong> 中仅供本应用使用的私有区域（隐藏的 <code>appDataFolder</code>），以在您的设备之间同步，其中包括 Android 版 FloatNote+。数据发送至您的 Google 账号，<strong>而非 CodeDAC。我们不运营自有服务器，也绝不会接收您的便签内容。</strong></li>\n<li><strong>图片。</strong> 您添加到便签中的图片保留在设备上，不会被上传；随便签一同传输的只是文件名引用。</li>\n<li><strong>受限的访问权限。</strong> 应用仅请求 <code>drive.appdata</code> 权限范围，该范围只能看到本应用自身在该隐藏文件夹中创建的文件，无法访问您 Google Drive 中的其他文件。</li>\n<li><strong>您的控制权。</strong> 您可随时关闭同步或退出登录。从 Google Drive 中删除本应用的数据文件夹，或清除应用的本地数据，即可移除已同步的副本。</li>\n<li><strong>购买。</strong> 在 Windows 上，PRO 功能通过 <strong>Microsoft Store</strong> 购买；付款由 Microsoft 处理，我们不会收到您的付款信息。（上文关于 Google Play 结算的说明适用于我们的 Android 应用。）</li>\n</ul>\n<h2>3. 第三方服务收集的信息</h2>\n<p>为支持我们的免费应用和购买，我们使用以下第三方服务，它们可能会依据各自的政策收集信息：</p>\n<ul>\n<li><strong>Google AdMob（广告）</strong> — 可能会收集你的广告标识符、粗略位置以及设备／使用信息以投放广告。<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google 隐私政策</a></li>\n<li><strong>Google Play Billing（应用内购买）</strong> — PRO 功能的付款由 Google Play 处理，我们不会存储你的支付方式详情。</li>\n<li>部分应用会连接外部数据提供方（例如公开 API）以显示信息，且不会发送任何个人数据。</li>\n<li><strong>Google Analytics（网站）</strong> — 用于统计我们网站（codedac.com）的访问量。对于来自欧洲经济区、英国和瑞士的访客，同意模式默认为“拒绝”，因此不会存储任何分析 Cookie，仅发送匿名的聚合信号；在其他地区，则使用分析 Cookie 来统计访问量。无论哪种情况，我们都不会收集广告标识符。<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google 隐私政策</a></li>\n</ul>\n<h2>4. 广告与你的选择</h2>\n<p>免费应用可能包含广告。你可以在设备设置中<em>重置广告 ID 或选择退出广告个性化</em>，以限制个性化广告。购买 PRO 版可移除广告。</p>\n<h2>5. 权限</h2>\n<p>每款应用仅请求其功能所需的权限，并仅将其用于所述目的。所请求的权限因应用而异，例如：</p>\n<ul>\n<li>显示在其他应用之上（悬浮窗）——用于悬浮计算器、计时器、行情显示等。</li>\n<li>存储／媒体访问——用于编辑和保存照片或文档。</li>\n<li>麦克风——用于音量测量等音频功能（仅在相关应用中）。</li>\n<li>接收开机完成——用于开机时启动应用。</li>\n</ul>\n<h2>6. 儿童隐私</h2>\n<p>对于面向儿童的应用，我们遵守 Google Play 家庭政策及适用法律。在面向儿童的场景中，我们不使用个性化广告，也不会故意收集儿童的个人信息。</p>\n<h2>7. 数据安全与保留</h2>\n<p>当你卸载应用时，设备上的数据会被移除。由于我们不在自有服务器上存储个人数据，因此不存在单独的服务器端保留期。</p>\n<h2>8. 本政策的变更</h2>\n<p>我们可能会更新本政策以反映法律或服务方面的变化。任何变更都将发布在本页面上。</p>\n<h2>9. 联系我们</h2>\n<p>如对本政策或你的数据有任何疑问，请通过以下方式联系我们：<br />\n邮箱：<a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
+  "updated": "最后更新：2026 年 9 月 15 日",
+  "firstEffective": "首次生效：2026 年 7 月 15 日",
+  "tocTitle": "目录",
+  "summaryTitle": "要点速览",
+  "summary": [
+    "无需注册，CodeDAC 也不运营任何接收或存储您数据的服务器。",
+    "应用数据默认仅存储在您的设备上。",
+    "Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步为可选功能，且仅保存到您本人的 Drive。",
+    "我们 Android 应用中的广告由 Google AdMob 提供，在需要征得同意的地区会先征求您的同意。我们的 Windows 应用不含广告。",
+    "如有疑问：contact@codedac.com"
+  ],
+  "appsTitle": "各应用连接的服务",
+  "appsLead": "各应用所连接的外部服务及其请求的主要权限，均已直接对照应用代码核实。",
+  "colApp": "应用",
+  "colData": "连接对象",
+  "colPerms": "主要权限",
+  "none": "无",
+  "data": {
+    "ads": "广告（Google AdMob）",
+    "billing": "Google Play 结算",
+    "store": "Microsoft Store（许可证和购买）",
+    "driveSync": "Google Drive 同步（可选）",
+    "driveBackup": "Google Drive 备份（可选）",
+    "fx": "汇率（Frankfurter）",
+    "crypto": "加密货币价格（CoinGecko、Binance）",
+    "mlkit": "ML Kit 诊断信息（Google）"
+  },
+  "perms": {
+    "overlay": "显示在其他应用上层",
+    "notifications": "通知",
+    "foreground": "保持运行（前台服务）",
+    "boot": "开机时运行",
+    "battery": "忽略电池优化",
+    "audio": "更改音频设置",
+    "adId": "广告 ID"
+  },
+  "intro": "<p>本隐私政策适用于 CodeDAC（以下称“我们”）开发并提供的 Android 和 Windows 应用程序（以下称“本应用”），以及我们的网站 codedac.com。</p>",
+  "sections": [
+    {
+      "id": "principle",
+      "title": "1. 核心原则",
+      "html": "<p>您无需创建账号或登录即可使用本应用。我们不运营任何接收或存储您数据的服务器，本应用处理的数据默认在您的设备上存储和处理。唯一的例外是您自行开启的可选功能（第 3 条）以及本应用所依赖的外部服务（第 4–6 条），下文均有说明。</p>"
+    },
+    {
+      "id": "device",
+      "title": "2. 在您设备上处理的信息",
+      "html": "<ul><li>本应用运行所需的数据（剪贴板历史、便签、计时器、设置等）仅存储在您的设备上，不会发送给我们。</li><li>PhotoCleaner+ 使用内置于应用中的 Google ML Kit 模型，在您的设备上查找并遮盖照片和 PDF 中的个人信息（文字、人脸和条形码识别）。照片和文档绝不会被上传。</li><li>卸载本应用时，存储在您设备上的应用数据也会一并删除。</li></ul>"
+    },
+    {
+      "id": "drive",
+      "title": "3. 可选功能：Google Drive 备份与同步",
+      "html": "<p>Clipboard+（Android 和 Windows）与 FloatNote+（Android 和 Windows）提供 Google Drive 功能，方便您在设备之间转移数据。这些功能默认关闭，不使用它们也可以使用其他所有功能。</p><ul><li><strong>Google 登录。</strong> 仅当您开启相关功能时，应用才会请求您使用 Google 账号登录，其唯一目的是访问您本人的 Google Drive。</li><li><strong>您的数据去向。</strong> 同步开启时，Clipboard+ 会将您复制的项目、FloatNote+ 会将您的便签，保存到您本人 Google Drive 中仅供本应用使用的私有区域（隐藏的 <code>appDataFolder</code>）。数据仅发送至您的 Google 账号——<strong>绝不会发送给 CodeDAC。</strong></li><li><strong>受限的访问权限。</strong> 同步仅使用 <code>drive.appdata</code> 权限范围，该范围只能看到应用在该隐藏区域中创建的文件。Android 版 Clipboard+ 的备份功能还会使用 <code>drive.file</code> 权限范围，该范围同样只能访问应用自身创建的备份文件。这两个权限范围均无法访问您 Google Drive 中的其他内容。</li><li><strong>图片。</strong> 您在 FloatNote+ 便签中附加的图片保留在您的设备上；随便签一同传输的只是文件名引用。</li><li><strong>停止与删除。</strong> 您可随时关闭这些功能或退出登录。删除存储在您 Google Drive 中的应用数据或备份文件，即可移除已同步和已备份的副本。</li></ul>"
+    },
+    {
+      "id": "network",
+      "title": "4. 通过互联网交换的信息",
+      "html": "<p>部分功能会从互联网获取信息。这些请求不包含任何可识别您身份的信息，但与所有互联网请求一样，对方服务器会收到您设备的 IP 地址。</p><ul><li><strong>FloatCalc+ 汇率。</strong> 当您换算货币时，应用会从公开的汇率 API（Frankfurter）获取汇率。</li><li><strong>FloatCrypto+ 价格。</strong> 加密货币价格和图表从公开 API（CoinGecko、Binance）获取。</li><li><strong>PhotoCleaner+ 中的 ML Kit。</strong> 图像识别在您的设备上进行，但 Google ML Kit 可能会向 Google 发送诊断信息——设备信息（制造商、型号、操作系统版本）、应用信息以及性能和错误指标——用于改进服务和排查问题。其中不包括您的照片和识别出的内容。</li><li><strong>我们 Windows 应用中的 Microsoft Store。</strong> Windows 应用会与 Microsoft Store 通信，以核验您的 PRO 许可证和购买记录。</li></ul>"
+    },
+    {
+      "id": "ads",
+      "title": "5. 广告与广告同意",
+      "html": "<p>我们的免费 Android 应用会展示来自 Google AdMob 的广告。我们的 Windows 应用不含广告。</p><ul><li><strong>收集的信息。</strong> AdMob 可能会收集您的广告 ID、根据 IP 地址推断的大致位置，以及设备和应用使用信息，用于投放和衡量广告及防范欺诈。为此，应用包含广告 SDK 所需的权限（互联网、网络状态、广告 ID），部分应用还包含对 Android 广告 API（Privacy Sandbox）的访问。<a href=\"https://policies.google.com/technologies/ads\" target=\"_blank\" rel=\"noopener\">Google 如何使用广告数据</a></li><li><strong>广告同意。</strong> 在欧洲经济区、英国和瑞士等需要征得同意的地区，应用会在您首次打开时，通过 Google 的同意界面（User Messaging Platform）询问您对个性化广告的选择。大多数应用允许您在应用内的广告同意（隐私选项）菜单中更改选择；在任何应用中，清除应用数据后，下次启动时都会再次询问。</li><li><strong>关闭个性化广告。</strong> 无论您身在何处，都可以在设备设置中删除或重置广告 ID，或关闭广告个性化。</li><li><strong>移除广告。</strong> 购买 PRO 即可移除广告。</li></ul>"
+    },
+    {
+      "id": "payments",
+      "title": "6. 付款",
+      "html": "<ul><li><strong>Android。</strong> PRO 购买由 Google Play 结算处理。</li><li><strong>Windows。</strong> PRO 购买由 Microsoft Store 处理。</li></ul><p>付款由各商店处理；我们绝不会收到您的卡号或其他付款信息。应用仅从商店接收核验您 PRO 使用权限所需的购买状态。</p>"
+    },
+    {
+      "id": "permissions",
+      "title": "7. 权限",
+      "html": "<p>每款应用仅请求其功能所需的权限，并仅将其用于所述目的。各应用请求的权限列于上文的<a href=\"#apps\">各应用连接的服务</a>中。</p><ul><li><strong>显示在其他应用上层</strong> — 在屏幕上层显示悬浮计算器、计时器、便签、价格、阅读工具或剪贴板面板。</li><li><strong>通知</strong> — 显示正在运行的功能状态和提醒（计时结束、价格提醒等）。</li><li><strong>保持运行（前台服务）</strong> — 在您离开应用后，使悬浮窗口或音量增强等功能继续运行。</li><li><strong>开机时运行</strong> — 在设备开机时重新启动应用或您设置的功能。</li><li><strong>忽略电池优化</strong> — 防止系统阻止开机自动启动（AutoStart+）。</li><li><strong>更改音频设置</strong> — 应用音量增强和均衡器（VolumeBooster+）。</li><li><strong>广告 ID</strong> — 用于投放广告（第 5 条）。</li></ul><p>互联网、网络状态和振动等基本权限在安装时自动授予，并仅用于上述功能。本应用不会请求麦克风、通讯录、位置、相机或存储权限。</p>"
+    },
+    {
+      "id": "website",
+      "title": "8. 网站（codedac.com）",
+      "html": "<p>我们的网站使用 Google Analytics 统计访问量。对于来自欧洲经济区、英国和瑞士的访客，同意模式（Consent Mode）默认为“拒绝”，因此不会存储任何分析 Cookie，仅发送匿名的聚合信号；在其他地区，则使用分析 Cookie 来统计访问量。无论哪种情况，我们都不会收集广告标识符，网站也不展示广告。<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google 隐私政策</a></p><p>您可以在浏览器中屏蔽 Cookie，或安装 <a href=\"https://tools.google.com/dlpage/gaoptout\" target=\"_blank\" rel=\"noopener\">Google Analytics 停用浏览器插件</a>，以选择退出分析。网站使用浏览器的本地存储（localStorage）来记住您选择的语言和主题（深色模式）；这些值绝不会发送到服务器。</p>"
+    },
+    {
+      "id": "email",
+      "title": "9. 您发送给我们的电子邮件",
+      "html": "<p>如果您给我们发送电子邮件，我们会收到您的电子邮件地址和您撰写的内容（包括您提供的任何设备或应用信息）。我们仅将这些信息用于回复您并跟进您的请求，且仅在实现该目的所需的期限内保留。</p>"
+    },
+    {
+      "id": "children",
+      "title": "10. 儿童隐私",
+      "html": "<p>对于面向儿童的应用，我们遵守 Google Play 家庭政策及适用法律。在面向儿童的场景中，我们不使用个性化广告，也不会故意收集儿童的个人信息。</p>"
+    },
+    {
+      "id": "changes",
+      "title": "11. 本政策的变更",
+      "html": "<p>我们可能会更新本政策，以反映法律或本应用方面的变化。更新时，我们会更新本页面上的最后更新日期以及下方的变更记录。</p>"
+    },
+    {
+      "id": "contact",
+      "title": "12. 联系我们",
+      "html": "<p>如对我们处理个人信息的方式有任何疑问，请联系我们。<br />邮箱：<a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
+    },
+    {
+      "id": "history",
+      "title": "变更记录",
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> 新增各应用概览，并新增有关 Android 版 Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步、广告同意、互联网连接（汇率、价格、ML Kit）、网站存储以及电子邮件的信息。按照应用实际情况更正了权限说明，并重新整理了本政策的结构。</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 更改了联系邮箱地址。</li><li><time datetime=\"2026-08-03\">2026-08-03</time> 新增 Windows 版 FloatNote+ 的云同步信息。</li><li><time datetime=\"2026-07-15\">2026-07-15</time> 新增 Windows 版 Clipboard+ 的云同步信息。</li></ul>"
+    }
+  ]
 }

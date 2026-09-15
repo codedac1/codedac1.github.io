@@ -1,8 +1,109 @@
 {
   "metaTitle": "Privacybeleid | CodeDAC",
-  "metaDesc": "Privacybeleid voor de smartphone-apps van CodeDAC. We verzamelen of bewaren geen persoonlijke gegevens op onze eigen servers; de meeste verwerking gebeurt volledig op je toestel.",
+  "metaDesc": "Privacybeleid voor de Android- en Windows-apps van CodeDAC. Geen bedrijfsservers, de verwerking blijft op je apparaat, en per app staan de verbindingen en rechten vermeld.",
   "title": "Privacybeleid",
-  "effective": "Ingangsdatum: 15 juli 2026",
-  "back": "← Terug naar home",
-  "bodyHtml": "<p>Dit Privacybeleid is van toepassing op alle applicaties die door CodeDAC (“wij”, “ons”) worden ontwikkeld en aangeboden (de “Apps”).</p>\n<h2>1. Kernprincipe</h2>\n<p>Onze Apps vereisen niet dat je een account aanmaakt of inlogt, en we verzamelen of bewaren geen persoonlijk identificeerbare informatie op onze eigen servers. De meeste verwerking gebeurt volledig op je toestel.</p>\n<h2>2. Informatie die op je toestel wordt verwerkt</h2>\n<p>Om app-functies te bieden, worden de volgende gegevens <strong>alleen op je toestel</strong> opgeslagen en verwerkt en niet naar ons verzonden:</p>\n<ul>\n<li>App-gegevens die nodig zijn om functies te bieden (bijvoorbeeld geschiedenis, lijsten en instellingen).</li>\n<li>Inhoud zoals foto's, video's en documenten die door sommige apps wordt verwerkt, wordt nooit geüpload; het wordt lokaal op je toestel verwerkt en waar van toepassing versleuteld.</li>\n</ul>\n<h2>Clipboard+ voor Windows — Cloudsynchronisatie (optioneel)</h2>\n<p>Clipboard+ voor Windows is een klembordbeheerder: de tekst en afbeeldingen die u kopieert, worden op uw apparaat opgeslagen zodat u ze kunt terugvinden. In deze sectie wordt uitgelegd hoe die gegevens worden verwerkt en, voor de optionele synchronisatiefunctie, worden de secties 1 en 2 hierboven nader beperkt.</p>\n<ul>\n<li><strong>Inloggen met Google (alleen als u synchronisatie inschakelt).</strong> Cloudsynchronisatie staat standaard uit. Als u deze inschakelt, vraagt de app u om in te loggen met uw Google-account, uitsluitend om toegang te krijgen tot uw eigen Google Drive. U kunt de app volledig gebruiken zonder in te loggen.</li>\n<li><strong>Waar uw gegevens naartoe gaan.</strong> Wanneer synchronisatie aanstaat, worden de gekopieerde items geüpload naar een privé, alleen voor de app bestemd gedeelte van <strong>uw eigen Google Drive</strong> (de verborgen <code>appDataFolder</code>) om ze tussen uw apparaten te synchroniseren. De gegevens gaan naar uw Google-account, <strong>niet naar CodeDAC. Wij beheren geen eigen server en ontvangen nooit de inhoud van uw klembord.</strong></li>\n<li><strong>Beperkte toegang.</strong> De app vraagt uitsluitend het bereik <code>drive.appdata</code> aan, dat alleen de bestanden kan zien die de app zelf in die verborgen map heeft aangemaakt; de rest van uw Google Drive is niet toegankelijk.</li>\n<li><strong>Uw controle.</strong> U kunt synchronisatie op elk moment uitschakelen of uitloggen. Als u de gegevensmap van de app uit uw Google Drive verwijdert, of de lokale gegevens van de app wist, wordt de gesynchroniseerde kopie verwijderd.</li>\n<li><strong>Aankopen.</strong> Op Windows worden PRO-functies gekocht via de <strong>Microsoft Store</strong>; de betaling wordt door Microsoft afgehandeld en wij ontvangen uw betaalgegevens niet. (De bovenstaande opmerking over Google Play-facturering geldt voor onze Android-apps.)</li>\n</ul>\n<h2>FloatNote+ voor Windows — Cloudsynchronisatie (optioneel)</h2>\n<p>FloatNote+ voor Windows is een app met plaknotities: de notities die u schrijft zweven boven het venster waarin u werkt en worden op uw apparaat opgeslagen. In deze sectie wordt uitgelegd hoe die gegevens worden verwerkt en, voor de optionele synchronisatiefunctie, worden de secties 1 en 2 hierboven nader beperkt.</p>\n<ul>\n<li><strong>Inloggen met Google (alleen als u synchronisatie inschakelt).</strong> Cloudsynchronisatie staat standaard uit. Als u deze inschakelt, vraagt de app u om in te loggen met uw Google-account, uitsluitend om toegang te krijgen tot uw eigen Google Drive. U kunt de app volledig gebruiken zonder in te loggen.</li>\n<li><strong>Waar uw gegevens naartoe gaan.</strong> Wanneer synchronisatie aanstaat, worden uw notities geüpload naar een privé, alleen voor de app bestemd gedeelte van <strong>uw eigen Google Drive</strong> (de verborgen <code>appDataFolder</code>) om ze tussen uw apparaten te synchroniseren, met inbegrip van de FloatNote+ app voor Android. De gegevens gaan naar uw Google-account, <strong>niet naar CodeDAC. Wij beheren geen eigen server en ontvangen nooit de inhoud van uw notities.</strong></li>\n<li><strong>Afbeeldingen.</strong> Afbeeldingen die u aan een notitie toevoegt, blijven op uw apparaat en worden nooit geüpload; met de notitie wordt alleen een verwijzing naar de bestandsnaam meegestuurd.</li>\n<li><strong>Beperkte toegang.</strong> De app vraagt uitsluitend het bereik <code>drive.appdata</code> aan, dat alleen de bestanden kan zien die de app zelf in die verborgen map heeft aangemaakt; de rest van uw Google Drive is niet toegankelijk.</li>\n<li><strong>Uw controle.</strong> U kunt synchronisatie op elk moment uitschakelen of uitloggen. Als u de gegevensmap van de app uit uw Google Drive verwijdert, of de lokale gegevens van de app wist, wordt de gesynchroniseerde kopie verwijderd.</li>\n<li><strong>Aankopen.</strong> Op Windows worden PRO-functies gekocht via de <strong>Microsoft Store</strong>; de betaling wordt door Microsoft afgehandeld en wij ontvangen uw betaalgegevens niet. (De bovenstaande opmerking over Google Play-facturering geldt voor onze Android-apps.)</li>\n</ul>\n<h2>3. Informatie die door diensten van derden wordt verzameld</h2>\n<p>Om onze gratis apps en aankopen te ondersteunen, gebruiken we de volgende diensten van derden, die informatie kunnen verzamelen onder hun eigen beleid:</p>\n<ul>\n<li><strong>Google AdMob (advertenties)</strong> — kan je advertentie-identificator, grove locatie en apparaat-/gebruiksinformatie verzamelen om advertenties te leveren. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google-privacybeleid</a></li>\n<li><strong>Google Play Billing (in-app-aankopen)</strong> — betalingen voor PRO-functies worden verwerkt door Google Play; we bewaren de gegevens van je betaalmethode niet.</li>\n<li>Sommige apps maken verbinding met externe gegevensleveranciers (bijv. openbare API's) om informatie weer te geven, zonder persoonlijke gegevens te verzenden.</li>\n<li><strong>Google Analytics (website)</strong> — gebruikt om het verkeer naar onze website (codedac.com) te meten. Voor bezoekers in de Europese Economische Ruimte, het Verenigd Koninkrijk en Zwitserland staat de toestemmingsmodus standaard op “geweigerd”, zodat er geen analytische cookies worden opgeslagen en alleen anonieme, geaggregeerde signalen worden verzonden; elders worden analytische cookies gebruikt om bezoeken te meten. In geen van beide gevallen verzamelen we advertentie-identificatoren. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google-privacybeleid</a></li>\n</ul>\n<h2>4. Advertenties en jouw keuzes</h2>\n<p>Gratis apps kunnen advertenties bevatten. Je kunt gepersonaliseerde advertenties beperken door <em>je advertentie-ID te resetten of je af te melden voor advertentiepersonalisatie</em> in je apparaatinstellingen. Het kopen van de PRO-versie verwijdert advertenties.</p>\n<h2>5. Rechten</h2>\n<p>Elke app vraagt alleen de rechten aan die nodig zijn voor zijn functies en gebruikt ze uitsluitend voor het genoemde doel. De aangevraagde rechten verschillen per app, bijvoorbeeld:</p>\n<ul>\n<li>Weergeven over andere apps (overlay) — voor zwevende rekenmachine, timer, koersticker, enzovoort.</li>\n<li>Opslag-/mediatoegang — voor het bewerken en opslaan van foto's of documenten.</li>\n<li>Microfoon — voor audiofuncties zoals geluidsniveaumeting (alleen in relevante apps).</li>\n<li>Boot completed ontvangen — voor het starten van apps bij het opstarten.</li>\n</ul>\n<h2>6. Privacy van kinderen</h2>\n<p>Voor apps die op kinderen zijn gericht, houden we ons aan het Google Play Families-beleid en de toepasselijke wetten. In op kinderen gerichte contexten gebruiken we geen gepersonaliseerde advertenties en verzamelen we niet bewust persoonlijke informatie van kinderen.</p>\n<h2>7. Gegevensbeveiliging en -bewaring</h2>\n<p>Gegevens op het toestel worden verwijderd wanneer je de app verwijdert. Omdat we geen persoonlijke gegevens op onze eigen servers bewaren, is er geen aparte bewaartermijn aan de serverkant.</p>\n<h2>8. Wijzigingen in dit beleid</h2>\n<p>We kunnen dit beleid bijwerken om juridische of dienstwijzigingen weer te geven. Eventuele wijzigingen worden op deze pagina geplaatst.</p>\n<h2>9. Contact</h2>\n<p>Voor vragen over dit beleid of je gegevens kun je contact met ons opnemen via:<br />\nE-mail: <a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
+  "updated": "Laatst bijgewerkt: 15 september 2026",
+  "firstEffective": "Eerste ingangsdatum: 15 juli 2026",
+  "tocTitle": "Inhoud",
+  "summaryTitle": "In het kort",
+  "summary": [
+    "Je hoeft je niet te registreren, en CodeDAC beheert geen server die je gegevens ontvangt of opslaat.",
+    "App-gegevens worden standaard alleen op je apparaat opgeslagen.",
+    "Back-up en synchronisatie via Google Drive in Clipboard+ en FloatNote+ zijn optioneel en slaan alleen op in je eigen Drive.",
+    "Advertenties in onze Android-apps worden geleverd door Google AdMob, en waar dat vereist is, wordt eerst om toestemming gevraagd. Onze Windows-apps hebben geen advertenties.",
+    "Vragen: contact@codedac.com"
+  ],
+  "appsTitle": "Waarmee elke app verbinding maakt",
+  "appsLead": "De externe diensten waarmee elke app communiceert en de belangrijkste rechten die de app aanvraagt, rechtstreeks gecontroleerd aan de hand van de code van de apps.",
+  "colApp": "App",
+  "colData": "Verbindingen",
+  "colPerms": "Belangrijkste rechten",
+  "none": "Geen",
+  "data": {
+    "ads": "Advertenties (Google AdMob)",
+    "billing": "Google Play Billing",
+    "store": "Microsoft Store (licentie en aankopen)",
+    "driveSync": "Synchronisatie via Google Drive (optioneel)",
+    "driveBackup": "Back-up naar Google Drive (optioneel)",
+    "fx": "Wisselkoersen (Frankfurter)",
+    "crypto": "Cryptokoersen (CoinGecko, Binance)",
+    "mlkit": "ML Kit-diagnostiek (Google)"
+  },
+  "perms": {
+    "overlay": "Weergeven vóór andere apps",
+    "notifications": "Meldingen",
+    "foreground": "Actief blijven (voorgronddienst)",
+    "boot": "Uitvoeren bij opstarten",
+    "battery": "Batterijoptimalisatie negeren",
+    "audio": "Audio-instellingen wijzigen",
+    "adId": "Advertentie-ID"
+  },
+  "intro": "<p>Dit Privacybeleid is van toepassing op de Android- en Windows-applicaties die door CodeDAC (“wij”, “ons”) worden ontwikkeld en aangeboden (de “Apps”) en op onze website codedac.com.</p>",
+  "sections": [
+    {
+      "id": "principle",
+      "title": "1. Kernprincipe",
+      "html": "<p>Je kunt de Apps gebruiken zonder een account aan te maken of in te loggen. We beheren geen server die je gegevens ontvangt of opslaat, en de gegevens die de Apps verwerken, worden standaard op je apparaat opgeslagen en verwerkt. De enige uitzonderingen zijn optionele functies die je zelf inschakelt (sectie 3) en de externe diensten waarop de Apps steunen (secties 4–6), die hieronder allemaal worden beschreven.</p>"
+    },
+    {
+      "id": "device",
+      "title": "2. Informatie die op je apparaat wordt verwerkt",
+      "html": "<ul><li>Gegevens die de Apps nodig hebben om te werken (klembordgeschiedenis, notities, timers, instellingen enzovoort) worden alleen op je apparaat opgeslagen en niet naar ons verzonden.</li><li>PhotoCleaner+ vindt en verbergt persoonlijke informatie in foto's en pdf's (tekst-, gezichts- en barcodeherkenning) met behulp van de in de app ingebouwde modellen van Google ML Kit, op je apparaat. Foto's en documenten worden nooit geüpload.</li><li>Als je een App verwijdert, worden ook de app-gegevens verwijderd die op je apparaat zijn opgeslagen.</li></ul>"
+    },
+    {
+      "id": "drive",
+      "title": "3. Optionele functie: back-up en synchronisatie via Google Drive",
+      "html": "<p>Clipboard+ (Android en Windows) en FloatNote+ (Android en Windows) bieden functies voor Google Drive waarmee je je gegevens tussen apparaten kunt overzetten. Deze functies staan standaard uit, en alle andere functies werken ook zonder deze functies.</p><ul><li><strong>Inloggen met Google.</strong> Alleen wanneer je een functie inschakelt, vraagt de app je om in te loggen met je Google-account, uitsluitend om toegang te krijgen tot je eigen Google Drive.</li><li><strong>Waar je gegevens naartoe gaan.</strong> Wanneer synchronisatie aanstaat, slaat Clipboard+ de items op die je hebt gekopieerd, en FloatNote+ je notities, in een privé, alleen voor de app bestemd gedeelte van je eigen Google Drive (de verborgen <code>appDataFolder</code>). De gegevens gaan alleen naar je Google-account — <strong>ze worden nooit naar CodeDAC verzonden.</strong></li><li><strong>Beperkte toegang.</strong> Synchronisatie gebruikt alleen het bereik <code>drive.appdata</code>, dat alleen de bestanden kan zien die de app in dat verborgen gedeelte heeft aangemaakt. De back-upfunctie van Clipboard+ voor Android gebruikt daarnaast het bereik <code>drive.file</code>, dat eveneens alleen de back-upbestanden bereikt die de app zelf heeft aangemaakt. Geen van beide bereiken heeft toegang tot de rest van je Google Drive.</li><li><strong>Afbeeldingen.</strong> Afbeeldingen die je aan een notitie in FloatNote+ toevoegt, blijven op je apparaat; alleen een verwijzing naar de bestandsnaam gaat mee met de notitie.</li><li><strong>Stoppen en verwijderen.</strong> Je kunt deze functies op elk moment uitschakelen of uitloggen. Als je de app-gegevens of back-upbestanden verwijdert die in je Google Drive zijn opgeslagen, worden de gesynchroniseerde kopieën en de back-upkopieën verwijderd.</li></ul>"
+    },
+    {
+      "id": "network",
+      "title": "4. Informatie die via internet wordt uitgewisseld",
+      "html": "<p>Sommige functies halen informatie op van internet. Deze verzoeken bevatten niets waarmee je kunt worden geïdentificeerd, maar zoals bij elk internetverzoek ontvangt de andere server het IP-adres van je apparaat.</p><ul><li><strong>Wisselkoersen in FloatCalc+.</strong> Wanneer je valuta omrekent, haalt de app koersen op van een openbare wisselkoers-API (Frankfurter).</li><li><strong>Koersen in FloatCrypto+.</strong> Cryptokoersen en grafieken worden opgehaald van openbare API's (CoinGecko, Binance).</li><li><strong>ML Kit in PhotoCleaner+.</strong> Beeldherkenning vindt plaats op je apparaat, maar Google ML Kit kan diagnostische informatie naar Google sturen — apparaatinformatie (fabrikant, model, versie van het besturingssysteem), app-informatie en prestatie- en foutstatistieken — om de dienst te verbeteren en problemen op te lossen. Je foto's en de herkende inhoud worden daarbij niet meegestuurd.</li><li><strong>Microsoft Store in onze Windows-apps.</strong> De Windows-apps communiceren met de Microsoft Store om je PRO-licentie en aankopen te controleren.</li></ul>"
+    },
+    {
+      "id": "ads",
+      "title": "5. Advertenties en toestemming voor advertenties",
+      "html": "<p>Onze gratis Android-apps tonen advertenties van Google AdMob. Onze Windows-apps hebben geen advertenties.</p><ul><li><strong>Wat er wordt verzameld.</strong> AdMob kan je advertentie-ID, je geschatte locatie afgeleid van je IP-adres, en informatie over je apparaat en app-gebruik verzamelen om advertenties te leveren en te meten en om fraude te voorkomen. Hiervoor bevatten de apps de rechten die de advertentie-SDK nodig heeft (internet, netwerkstatus, advertentie-ID) en, in sommige apps, toegang tot de advertentie-API's van Android (Privacy Sandbox). <a href=\"https://policies.google.com/technologies/ads\" target=\"_blank\" rel=\"noopener\">Hoe Google advertentiegegevens gebruikt</a></li><li><strong>Toestemming voor advertenties.</strong> In regio's waar toestemming vereist is, zoals de Europese Economische Ruimte, het Verenigd Koninkrijk en Zwitserland, vraagt de app de eerste keer dat je deze opent via het toestemmingsscherm van Google (User Messaging Platform) naar je keuze over gepersonaliseerde advertenties. In de meeste apps kun je je keuze wijzigen via het menu voor advertentietoestemming (privacyopties) in de app, en in elke app zorgt het wissen van de app-gegevens ervoor dat er bij de volgende start opnieuw wordt gevraagd.</li><li><strong>Gepersonaliseerde advertenties uitschakelen.</strong> Waar je ook bent, je kunt in je apparaatinstellingen je advertentie-ID verwijderen of resetten, of advertentiepersonalisatie uitschakelen.</li><li><strong>Advertenties verwijderen.</strong> Door PRO te kopen, worden advertenties verwijderd.</li></ul>"
+    },
+    {
+      "id": "payments",
+      "title": "6. Betalingen",
+      "html": "<ul><li><strong>Android.</strong> PRO-aankopen worden verwerkt door Google Play Billing.</li><li><strong>Windows.</strong> PRO-aankopen worden verwerkt door de Microsoft Store.</li></ul><p>De betaling wordt door de betreffende store afgehandeld; we ontvangen nooit je kaartnummer of andere betaalgegevens. De apps ontvangen van de store alleen de aankoopstatus die nodig is om je PRO-toegang te controleren.</p>"
+    },
+    {
+      "id": "permissions",
+      "title": "7. Rechten",
+      "html": "<p>Elke app vraagt alleen de rechten aan die de functies ervan nodig hebben en gebruikt ze uitsluitend voor het genoemde doel. De rechten die elke app aanvraagt, staan hierboven vermeld onder <a href=\"#apps\">Waarmee elke app verbinding maakt</a>.</p><ul><li><strong>Weergeven vóór andere apps</strong> — toont de zwevende rekenmachine, timer, notities, koersen, leeshulp of het klembordpaneel boven op je scherm.</li><li><strong>Meldingen</strong> — toont de status van actieve functies en meldingen (timer afgelopen, prijsmeldingen enzovoort).</li><li><strong>Actief blijven (voorgronddienst)</strong> — houdt functies zoals zwevende vensters of volumeversterking actief nadat je de app hebt verlaten.</li><li><strong>Uitvoeren bij opstarten</strong> — start de app of de functies die je hebt ingesteld opnieuw wanneer je apparaat wordt aangezet.</li><li><strong>Batterijoptimalisatie negeren</strong> — voorkomt dat het systeem het starten bij het opstarten blokkeert (AutoStart+).</li><li><strong>Audio-instellingen wijzigen</strong> — past volumeversterking en de equalizer toe (VolumeBooster+).</li><li><strong>Advertentie-ID</strong> — wordt gebruikt om advertenties te leveren (sectie 5).</li></ul><p>Basisrechten zoals internet, netwerkstatus en trillen worden bij de installatie automatisch verleend en alleen gebruikt voor de bovenstaande functies. De Apps vragen geen rechten aan voor microfoon, contacten, locatie, camera of opslag.</p>"
+    },
+    {
+      "id": "website",
+      "title": "8. Website (codedac.com)",
+      "html": "<p>Onze website gebruikt Google Analytics om bezoeken te meten. Voor bezoekers in de Europese Economische Ruimte, het Verenigd Koninkrijk en Zwitserland staat Consent Mode standaard op “geweigerd”, zodat er geen analytische cookies worden opgeslagen en alleen anonieme, geaggregeerde signalen worden verzonden; elders worden analytische cookies gebruikt om bezoeken te meten. In geen van beide gevallen verzamelen we advertentie-identificatoren, en de website toont geen advertenties. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Privacybeleid van Google</a></p><p>Je kunt je afmelden voor analyse door cookies in je browser te blokkeren of de <a href=\"https://tools.google.com/dlpage/gaoptout\" target=\"_blank\" rel=\"noopener\">browser-add-on voor afmelding bij Google Analytics</a> te installeren. De website gebruikt de lokale opslag van je browser (localStorage) om je gekozen taal en thema (donkere modus) te onthouden; deze waarden worden nooit naar een server verzonden.</p>"
+    },
+    {
+      "id": "email",
+      "title": "9. E-mails die je ons stuurt",
+      "html": "<p>Als je ons een e-mail stuurt, ontvangen we je e-mailadres en wat je schrijft (inclusief eventuele apparaat- of app-gegevens die je vermeldt). We gebruiken dit alleen om je te antwoorden en je verzoek op te volgen, en bewaren het alleen zo lang als nodig is voor dat doel.</p>"
+    },
+    {
+      "id": "children",
+      "title": "10. Privacy van kinderen",
+      "html": "<p>Voor apps die op kinderen zijn gericht, houden we ons aan het Google Play Families-beleid en de toepasselijke wetgeving. In op kinderen gerichte contexten gebruiken we geen gepersonaliseerde advertenties en verzamelen we niet bewust persoonsgegevens van kinderen.</p>"
+    },
+    {
+      "id": "changes",
+      "title": "11. Wijzigingen in dit beleid",
+      "html": "<p>We kunnen dit beleid bijwerken om wijzigingen in de wetgeving of in de Apps te weerspiegelen. Als we dat doen, werken we de datum van laatste bijwerking op deze pagina en de wijzigingsgeschiedenis hieronder bij.</p>"
+    },
+    {
+      "id": "contact",
+      "title": "12. Contact",
+      "html": "<p>Neem voor vragen over hoe we met persoonsgegevens omgaan contact met ons op.<br />E-mail: <a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
+    },
+    {
+      "id": "history",
+      "title": "Wijzigingsgeschiedenis",
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> Overzicht per app toegevoegd, en informatie toegevoegd over back-up en synchronisatie via Google Drive in Clipboard+ en FloatNote+ voor Android, advertentietoestemming, internetverbindingen (wisselkoersen, koersen, ML Kit), opslag door de website en e-mails. Beschrijvingen van de rechten gecorrigeerd zodat ze overeenkomen met de apps, en het beleid opnieuw ingedeeld.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Contact-e-mailadres gewijzigd.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Informatie over cloudsynchronisatie toegevoegd voor FloatNote+ voor Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Informatie over cloudsynchronisatie toegevoegd voor Clipboard+ voor Windows.</li></ul>"
+    }
+  ]
 }

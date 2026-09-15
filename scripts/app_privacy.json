@@ -1,0 +1,167 @@
+{
+  "clipboard": {
+    "platform": "android",
+    "data": [
+      "ads",
+      "billing",
+      "driveSync",
+      "driveBackup"
+    ],
+    "perms": [
+      "overlay",
+      "notifications",
+      "foreground",
+      "boot",
+      "adId"
+    ],
+    "mergedManifest": "2026-09-14"
+  },
+  "autostart": {
+    "platform": "android",
+    "data": [
+      "ads",
+      "billing"
+    ],
+    "perms": [
+      "overlay",
+      "notifications",
+      "foreground",
+      "boot",
+      "battery",
+      "adId"
+    ],
+    "mergedManifest": "2026-09-10"
+  },
+  "floatcalc": {
+    "platform": "android",
+    "data": [
+      "ads",
+      "billing",
+      "fx"
+    ],
+    "perms": [
+      "overlay",
+      "notifications",
+      "foreground",
+      "adId"
+    ],
+    "mergedManifest": "2026-09-14"
+  },
+  "floatcrypto": {
+    "platform": "android",
+    "data": [
+      "ads",
+      "billing",
+      "crypto"
+    ],
+    "perms": [
+      "overlay",
+      "notifications",
+      "foreground",
+      "boot",
+      "adId"
+    ],
+    "mergedManifest": "2026-09-14"
+  },
+  "floattimer": {
+    "platform": "android",
+    "data": [
+      "ads",
+      "billing"
+    ],
+    "perms": [
+      "overlay",
+      "notifications",
+      "foreground",
+      "adId"
+    ],
+    "mergedManifest": "2026-09-14"
+  },
+  "volumebooster": {
+    "platform": "android",
+    "data": [
+      "ads",
+      "billing"
+    ],
+    "perms": [
+      "overlay",
+      "notifications",
+      "foreground",
+      "audio",
+      "adId"
+    ],
+    "mergedManifest": "2026-09-14"
+  },
+  "photocleaner": {
+    "platform": "android",
+    "data": [
+      "ads",
+      "billing",
+      "mlkit"
+    ],
+    "perms": [
+      "adId"
+    ],
+    "mergedManifest": "2026-09-10"
+  },
+  "readfocus": {
+    "platform": "android",
+    "data": [
+      "ads",
+      "billing"
+    ],
+    "perms": [
+      "overlay",
+      "notifications",
+      "foreground",
+      "adId"
+    ],
+    "mergedManifest": "2026-09-14"
+  },
+  "floatnote": {
+    "platform": "android",
+    "data": [
+      "ads",
+      "billing",
+      "driveSync"
+    ],
+    "perms": [
+      "overlay",
+      "notifications",
+      "foreground",
+      "boot",
+      "adId"
+    ],
+    "mergedManifest": "2026-09-14"
+  },
+  "clipboardwin": {
+    "platform": "windows",
+    "data": [
+      "store",
+      "driveSync"
+    ],
+    "perms": []
+  },
+  "readfocuswin": {
+    "platform": "windows",
+    "data": [
+      "store"
+    ],
+    "perms": []
+  },
+  "floatnotewin": {
+    "platform": "windows",
+    "data": [
+      "store",
+      "driveSync"
+    ],
+    "perms": []
+  },
+  "floattimerwin": {
+    "platform": "windows",
+    "data": [
+      "store"
+    ],
+    "perms": []
+  }
+}

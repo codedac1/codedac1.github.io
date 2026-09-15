@@ -1,8 +1,109 @@
 {
   "metaTitle": "Kebijakan Privasi | CodeDAC",
-  "metaDesc": "Kebijakan Privasi untuk aplikasi smartphone CodeDAC. Kami tidak mengumpulkan atau menyimpan data pribadi di server kami sendiri; sebagian besar pemrosesan berlangsung sepenuhnya di perangkat Anda.",
+  "metaDesc": "Kebijakan Privasi untuk aplikasi Android dan Windows CodeDAC. Tanpa server perusahaan, pemrosesan tetap berlangsung di perangkat Anda, dan koneksi serta izin setiap aplikasi dicantumkan.",
   "title": "Kebijakan Privasi",
-  "effective": "Tanggal berlaku: 15 Juli 2026",
-  "back": "← Kembali ke beranda",
-  "bodyHtml": "<p>Kebijakan Privasi ini berlaku untuk semua aplikasi yang dikembangkan dan disediakan oleh CodeDAC (“kami”) (selanjutnya disebut “Aplikasi”).</p>\n<h2>1. Prinsip utama</h2>\n<p>Aplikasi kami tidak mengharuskan Anda membuat akun atau masuk, dan kami tidak mengumpulkan atau menyimpan informasi yang dapat mengidentifikasi pribadi di server kami sendiri. Sebagian besar pemrosesan berlangsung sepenuhnya di perangkat Anda.</p>\n<h2>2. Informasi yang diproses di perangkat Anda</h2>\n<p>Untuk menyediakan fitur aplikasi, data berikut disimpan dan diproses <strong>hanya di perangkat Anda</strong> dan tidak dikirimkan kepada kami:</p>\n<ul>\n<li>Data aplikasi yang diperlukan untuk menyediakan fitur (misalnya, riwayat, daftar, dan pengaturan).</li>\n<li>Konten seperti foto, video, dan dokumen yang ditangani oleh beberapa aplikasi tidak pernah diunggah; konten tersebut diproses secara lokal di perangkat Anda dan dienkripsi jika diperlukan.</li>\n</ul>\n<h2>Clipboard+ untuk Windows — Sinkronisasi cloud (opsional)</h2>\n<p>Clipboard+ untuk Windows adalah pengelola papan klip: teks dan gambar yang Anda salin disimpan di perangkat Anda agar dapat ditemukan kembali. Bagian ini menjelaskan bagaimana data tersebut ditangani dan, khusus untuk fitur sinkronisasi yang bersifat opsional, membatasi Bagian 1 dan 2 di atas.</p>\n<ul>\n<li><strong>Masuk dengan Google (hanya jika Anda mengaktifkan sinkronisasi).</strong> Sinkronisasi cloud nonaktif secara bawaan. Jika Anda mengaktifkannya, aplikasi meminta Anda masuk dengan akun Google Anda semata-mata untuk mengakses Google Drive Anda sendiri. Anda dapat menggunakan aplikasi sepenuhnya tanpa masuk.</li>\n<li><strong>Ke mana data Anda pergi.</strong> Saat sinkronisasi aktif, item yang Anda salin diunggah ke area privat khusus aplikasi di <strong>Google Drive Anda sendiri</strong> (folder tersembunyi <code>appDataFolder</code>) untuk disinkronkan antarperangkat Anda. Data tersebut menuju akun Google Anda, <strong>bukan ke CodeDAC. Kami tidak mengoperasikan server sendiri dan tidak pernah menerima konten papan klip Anda.</strong></li>\n<li><strong>Akses terbatas.</strong> Aplikasi hanya meminta cakupan <code>drive.appdata</code>, yang hanya dapat melihat berkas yang dibuat oleh aplikasi ini sendiri di folder tersembunyi tersebut; aplikasi tidak dapat mengakses bagian lain dari Google Drive Anda.</li>\n<li><strong>Kendali Anda.</strong> Anda dapat menonaktifkan sinkronisasi atau keluar kapan saja. Menghapus folder data aplikasi dari Google Drive Anda, atau menghapus data lokal aplikasi, akan menghapus salinan yang telah disinkronkan.</li>\n<li><strong>Pembelian.</strong> Di Windows, fitur PRO dibeli melalui <strong>Microsoft Store</strong>; pembayaran diproses oleh Microsoft dan kami tidak menerima detail metode pembayaran Anda. (Catatan Google Play Billing di atas berlaku untuk aplikasi Android kami.)</li>\n</ul>\n<h2>FloatNote+ untuk Windows — Sinkronisasi cloud (opsional)</h2>\n<p>FloatNote+ untuk Windows adalah aplikasi catatan tempel: catatan yang Anda tulis mengambang di atas jendela tempat Anda bekerja dan disimpan di perangkat Anda. Bagian ini menjelaskan bagaimana data tersebut ditangani dan, khusus untuk fitur sinkronisasi yang bersifat opsional, membatasi Bagian 1 dan 2 di atas.</p>\n<ul>\n<li><strong>Masuk dengan Google (hanya jika Anda mengaktifkan sinkronisasi).</strong> Sinkronisasi cloud nonaktif secara bawaan. Jika Anda mengaktifkannya, aplikasi meminta Anda masuk dengan akun Google Anda semata-mata untuk mengakses Google Drive Anda sendiri. Anda dapat menggunakan aplikasi sepenuhnya tanpa masuk.</li>\n<li><strong>Ke mana data Anda pergi.</strong> Saat sinkronisasi aktif, catatan Anda diunggah ke area privat khusus aplikasi di <strong>Google Drive Anda sendiri</strong> (folder tersembunyi <code>appDataFolder</code>) untuk disinkronkan antarperangkat Anda, termasuk aplikasi FloatNote+ untuk Android. Data tersebut menuju akun Google Anda, <strong>bukan ke CodeDAC. Kami tidak mengoperasikan server sendiri dan tidak pernah menerima isi catatan Anda.</strong></li>\n<li><strong>Gambar.</strong> Gambar yang Anda lampirkan ke catatan tetap berada di perangkat Anda dan tidak pernah diunggah; yang ikut berpindah bersama catatan hanyalah rujukan ke nama berkas.</li>\n<li><strong>Akses terbatas.</strong> Aplikasi hanya meminta cakupan <code>drive.appdata</code>, yang hanya dapat melihat berkas yang dibuat oleh aplikasi ini sendiri di folder tersembunyi tersebut; aplikasi tidak dapat mengakses bagian lain dari Google Drive Anda.</li>\n<li><strong>Kendali Anda.</strong> Anda dapat menonaktifkan sinkronisasi atau keluar kapan saja. Menghapus folder data aplikasi dari Google Drive Anda, atau menghapus data lokal aplikasi, akan menghapus salinan yang telah disinkronkan.</li>\n<li><strong>Pembelian.</strong> Di Windows, fitur PRO dibeli melalui <strong>Microsoft Store</strong>; pembayaran diproses oleh Microsoft dan kami tidak menerima detail metode pembayaran Anda. (Catatan Google Play Billing di atas berlaku untuk aplikasi Android kami.)</li>\n</ul>\n<h2>3. Informasi yang dikumpulkan oleh layanan pihak ketiga</h2>\n<p>Untuk mendukung aplikasi gratis dan pembelian kami, kami menggunakan layanan pihak ketiga berikut, yang dapat mengumpulkan informasi berdasarkan kebijakan mereka sendiri:</p>\n<ul>\n<li><strong>Google AdMob (periklanan)</strong> — dapat mengumpulkan pengenal iklan (Advertising ID), lokasi perkiraan, serta informasi perangkat/penggunaan Anda untuk menayangkan iklan. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Kebijakan Privasi Google</a></li>\n<li><strong>Google Play Billing (pembelian dalam aplikasi)</strong> — pembayaran untuk fitur PRO diproses oleh Google Play; kami tidak menyimpan detail metode pembayaran Anda.</li>\n<li>Beberapa aplikasi terhubung ke penyedia data eksternal (misalnya, API publik) untuk menampilkan informasi, tanpa mengirimkan data pribadi apa pun.</li>\n<li><strong>Google Analytics (situs web)</strong> — digunakan untuk mengukur trafik situs web kami (codedac.com). Bagi pengunjung di Wilayah Ekonomi Eropa, Inggris, dan Swiss, Mode Persetujuan (Consent Mode) disetel ke “ditolak” secara bawaan, sehingga tidak ada cookie analitik yang disimpan dan hanya sinyal anonim teragregasi yang dikirim; di wilayah lain, cookie analitik digunakan untuk mengukur kunjungan. Dalam kedua kasus tersebut kami tidak mengumpulkan pengenal iklan. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Kebijakan Privasi Google</a></li>\n</ul>\n<h2>4. Periklanan dan pilihan Anda</h2>\n<p>Aplikasi gratis dapat menyertakan iklan. Anda dapat membatasi iklan yang dipersonalisasi dengan <em>menyetel ulang Advertising ID Anda atau menonaktifkan personalisasi iklan</em> pada pengaturan perangkat Anda. Membeli versi PRO akan menghapus iklan.</p>\n<h2>5. Izin</h2>\n<p>Setiap aplikasi hanya meminta izin yang diperlukan untuk fiturnya dan menggunakannya semata-mata untuk tujuan yang dinyatakan. Izin yang diminta bervariasi menurut aplikasi, misalnya:</p>\n<ul>\n<li>Tampilkan di atas aplikasi lain (overlay) — untuk kalkulator mengambang, pengatur waktu, indikator harga, dll.</li>\n<li>Akses penyimpanan / media — untuk mengedit dan menyimpan foto atau dokumen.</li>\n<li>Mikrofon — untuk fitur audio seperti pengukuran tingkat suara (hanya pada aplikasi yang relevan).</li>\n<li>Menerima boot selesai — untuk menjalankan aplikasi saat perangkat dinyalakan.</li>\n</ul>\n<h2>6. Privasi anak-anak</h2>\n<p>Untuk aplikasi yang ditujukan bagi anak-anak, kami mematuhi Kebijakan Keluarga Google Play dan hukum yang berlaku. Dalam konteks yang ditujukan bagi anak-anak, kami tidak menggunakan iklan yang dipersonalisasi dan tidak secara sadar mengumpulkan informasi pribadi dari anak-anak.</p>\n<h2>7. Keamanan dan penyimpanan data</h2>\n<p>Data pada perangkat akan dihapus ketika Anda menghapus (uninstall) aplikasi. Karena kami tidak menyimpan data pribadi di server kami sendiri, tidak ada periode penyimpanan tersendiri di sisi server.</p>\n<h2>8. Perubahan pada kebijakan ini</h2>\n<p>Kami dapat memperbarui kebijakan ini untuk mencerminkan perubahan hukum atau layanan. Setiap perubahan akan diumumkan pada halaman ini.</p>\n<h2>9. Kontak</h2>\n<p>Untuk pertanyaan tentang kebijakan ini atau data Anda, silakan hubungi kami di:<br />\nEmail: <a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
+  "updated": "Terakhir diperbarui: 15 September 2026",
+  "firstEffective": "Pertama berlaku: 15 Juli 2026",
+  "tocTitle": "Daftar isi",
+  "summaryTitle": "Sekilas",
+  "summary": [
+    "Tidak perlu mendaftar, dan CodeDAC tidak mengoperasikan server yang menerima atau menyimpan data Anda.",
+    "Secara bawaan, data aplikasi hanya disimpan di perangkat Anda.",
+    "Pencadangan dan sinkronisasi Google Drive di Clipboard+ dan FloatNote+ bersifat opsional dan hanya menyimpan ke Drive Anda sendiri.",
+    "Iklan di aplikasi Android kami ditayangkan oleh Google AdMob, dan persetujuan diminta terlebih dahulu jika diwajibkan. Aplikasi Windows kami tidak memiliki iklan.",
+    "Pertanyaan: contact@codedac.com"
+  ],
+  "appsTitle": "Koneksi setiap aplikasi",
+  "appsLead": "Layanan luar yang dihubungi setiap aplikasi dan izin utama yang dimintanya, diperiksa langsung berdasarkan kode aplikasi.",
+  "colApp": "Aplikasi",
+  "colData": "Terhubung ke",
+  "colPerms": "Izin utama",
+  "none": "Tidak ada",
+  "data": {
+    "ads": "Iklan (Google AdMob)",
+    "billing": "Google Play Billing",
+    "store": "Microsoft Store (lisensi & pembelian)",
+    "driveSync": "Sinkronisasi Google Drive (opsional)",
+    "driveBackup": "Pencadangan Google Drive (opsional)",
+    "fx": "Kurs mata uang (Frankfurter)",
+    "crypto": "Harga kripto (CoinGecko, Binance)",
+    "mlkit": "Diagnostik ML Kit (Google)"
+  },
+  "perms": {
+    "overlay": "Tampilkan di atas aplikasi lain",
+    "notifications": "Notifikasi",
+    "foreground": "Tetap berjalan (layanan latar depan)",
+    "boot": "Jalankan saat perangkat dinyalakan",
+    "battery": "Abaikan pengoptimalan baterai",
+    "audio": "Ubah pengaturan audio",
+    "adId": "ID iklan"
+  },
+  "intro": "<p>Kebijakan Privasi ini berlaku untuk aplikasi Android dan Windows yang dikembangkan dan disediakan oleh CodeDAC (“kami”) (selanjutnya disebut “Aplikasi”) serta untuk situs web kami, codedac.com.</p>",
+  "sections": [
+    {
+      "id": "principle",
+      "title": "1. Prinsip utama",
+      "html": "<p>Anda dapat menggunakan Aplikasi tanpa membuat akun atau masuk. Kami tidak mengoperasikan server yang menerima atau menyimpan data Anda, dan data yang ditangani oleh Aplikasi disimpan dan diproses di perangkat Anda secara bawaan. Satu-satunya pengecualian adalah fitur opsional yang Anda aktifkan sendiri (Bagian 3) dan layanan luar yang diandalkan oleh Aplikasi (Bagian 4–6), yang semuanya dijelaskan di bawah ini.</p>"
+    },
+    {
+      "id": "device",
+      "title": "2. Informasi yang diproses di perangkat Anda",
+      "html": "<ul><li>Data yang diperlukan Aplikasi untuk berfungsi (riwayat papan klip, catatan, pengatur waktu, pengaturan, dan sebagainya) hanya disimpan di perangkat Anda dan tidak dikirimkan kepada kami.</li><li>PhotoCleaner+ menemukan dan menyembunyikan informasi pribadi dalam foto dan PDF (pengenalan teks, wajah, dan kode batang) menggunakan model Google ML Kit yang tertanam di dalam aplikasi, di perangkat Anda. Foto dan dokumen tidak pernah diunggah.</li><li>Menghapus instalan (uninstall) Aplikasi juga menghapus data aplikasi yang tersimpan di perangkat Anda.</li></ul>"
+    },
+    {
+      "id": "drive",
+      "title": "3. Fitur opsional: pencadangan dan sinkronisasi Google Drive",
+      "html": "<p>Clipboard+ (Android dan Windows) dan FloatNote+ (Android dan Windows) menyediakan fitur Google Drive agar Anda dapat memindahkan data antarperangkat. Fitur ini nonaktif secara bawaan, dan semua fitur lainnya berfungsi tanpanya.</p><ul><li><strong>Masuk dengan Google.</strong> Hanya ketika Anda mengaktifkan suatu fitur, aplikasi meminta Anda masuk dengan akun Google Anda, semata-mata untuk mengakses Google Drive Anda sendiri.</li><li><strong>Ke mana data Anda pergi.</strong> Saat sinkronisasi aktif, Clipboard+ menyimpan item yang Anda salin, dan FloatNote+ menyimpan catatan Anda, ke area privat khusus aplikasi di Google Drive Anda sendiri (folder tersembunyi <code>appDataFolder</code>). Data hanya menuju akun Google Anda — <strong>data tersebut tidak pernah dikirimkan ke CodeDAC.</strong></li><li><strong>Akses terbatas.</strong> Sinkronisasi hanya menggunakan cakupan <code>drive.appdata</code>, yang hanya dapat melihat berkas yang dibuat oleh aplikasi di area tersembunyi tersebut. Fitur pencadangan Clipboard+ untuk Android juga menggunakan cakupan <code>drive.file</code>, yang juga hanya menjangkau berkas cadangan yang dibuat oleh aplikasi itu sendiri. Tidak satu pun dari kedua cakupan tersebut dapat mengakses bagian lain dari Google Drive Anda.</li><li><strong>Gambar.</strong> Gambar yang Anda lampirkan ke catatan FloatNote+ tetap berada di perangkat Anda; yang ikut berpindah bersama catatan hanyalah rujukan ke nama berkas.</li><li><strong>Menghentikan dan menghapus.</strong> Anda dapat menonaktifkan fitur ini atau keluar kapan saja. Menghapus data aplikasi atau berkas cadangan yang tersimpan di Google Drive Anda akan menghapus salinan yang telah disinkronkan dan dicadangkan.</li></ul>"
+    },
+    {
+      "id": "network",
+      "title": "4. Informasi yang dipertukarkan melalui internet",
+      "html": "<p>Beberapa fitur mengambil informasi dari internet. Permintaan ini tidak berisi apa pun yang mengidentifikasi Anda, tetapi seperti halnya setiap permintaan internet, server tujuan menerima alamat IP perangkat Anda.</p><ul><li><strong>Kurs mata uang FloatCalc+.</strong> Saat Anda mengonversi mata uang, aplikasi mengambil kurs dari API kurs publik (Frankfurter).</li><li><strong>Harga FloatCrypto+.</strong> Harga dan grafik kripto diambil dari API publik (CoinGecko, Binance).</li><li><strong>ML Kit di PhotoCleaner+.</strong> Pengenalan gambar berlangsung di perangkat Anda, tetapi Google ML Kit dapat mengirimkan informasi diagnostik kepada Google — informasi perangkat (produsen, model, versi OS), informasi aplikasi, serta metrik kinerja dan kesalahan — untuk meningkatkan layanan dan memecahkan masalah. Foto Anda dan konten yang dikenali tidak disertakan.</li><li><strong>Microsoft Store di aplikasi Windows kami.</strong> Aplikasi Windows berkomunikasi dengan Microsoft Store untuk memeriksa lisensi PRO dan pembelian Anda.</li></ul>"
+    },
+    {
+      "id": "ads",
+      "title": "5. Periklanan dan persetujuan iklan",
+      "html": "<p>Aplikasi Android gratis kami menampilkan iklan dari Google AdMob. Aplikasi Windows kami tidak memiliki iklan.</p><ul><li><strong>Apa yang dikumpulkan.</strong> AdMob dapat mengumpulkan ID iklan Anda, perkiraan lokasi yang disimpulkan dari alamat IP Anda, serta informasi perangkat dan penggunaan aplikasi untuk menayangkan dan mengukur iklan serta mencegah penipuan. Untuk itu, aplikasi menyertakan izin yang dibutuhkan SDK iklan (internet, status jaringan, ID iklan) dan, pada beberapa aplikasi, akses ke API periklanan Android (Privacy Sandbox). <a href=\"https://policies.google.com/technologies/ads\" target=\"_blank\" rel=\"noopener\">Cara Google menggunakan data periklanan</a></li><li><strong>Persetujuan iklan.</strong> Di wilayah yang mewajibkan persetujuan, seperti Wilayah Ekonomi Eropa, Inggris, dan Swiss, aplikasi meminta pilihan Anda mengenai iklan yang dipersonalisasi melalui layar persetujuan Google (User Messaging Platform) saat pertama kali Anda membukanya. Sebagian besar aplikasi memungkinkan Anda mengubah pilihan melalui menu persetujuan iklan (opsi privasi) di dalam aplikasi, dan di aplikasi mana pun, menghapus data aplikasi akan membuat aplikasi meminta pilihan Anda kembali pada peluncuran berikutnya.</li><li><strong>Menonaktifkan iklan yang dipersonalisasi.</strong> Di mana pun Anda berada, Anda dapat menghapus atau menyetel ulang ID iklan Anda, atau menonaktifkan personalisasi iklan, di pengaturan perangkat Anda.</li><li><strong>Menghapus iklan.</strong> Membeli PRO akan menghapus iklan.</li></ul>"
+    },
+    {
+      "id": "payments",
+      "title": "6. Pembayaran",
+      "html": "<ul><li><strong>Android.</strong> Pembelian PRO diproses oleh Google Play Billing.</li><li><strong>Windows.</strong> Pembelian PRO diproses oleh Microsoft Store.</li></ul><p>Pembayaran ditangani oleh masing-masing toko; kami tidak pernah menerima nomor kartu atau detail pembayaran Anda lainnya. Aplikasi hanya menerima dari toko status pembelian yang diperlukan untuk memeriksa akses PRO Anda.</p>"
+    },
+    {
+      "id": "permissions",
+      "title": "7. Izin",
+      "html": "<p>Setiap aplikasi hanya meminta izin yang diperlukan untuk fiturnya dan menggunakannya semata-mata untuk tujuan yang dinyatakan. Izin yang diminta setiap aplikasi tercantum di <a href=\"#apps\">Koneksi setiap aplikasi</a> di atas.</p><ul><li><strong>Tampilkan di atas aplikasi lain</strong> — menampilkan kalkulator, pengatur waktu, catatan, harga, alat baca, atau panel papan klip yang mengambang di atas layar Anda.</li><li><strong>Notifikasi</strong> — menampilkan status fitur yang sedang berjalan dan peringatan (pengatur waktu selesai, peringatan harga, dan sebagainya).</li><li><strong>Tetap berjalan (layanan latar depan)</strong> — menjaga fitur seperti jendela mengambang atau penguat volume tetap berfungsi setelah Anda meninggalkan aplikasi.</li><li><strong>Jalankan saat perangkat dinyalakan</strong> — menjalankan kembali aplikasi atau fitur yang telah Anda atur saat perangkat Anda dinyalakan.</li><li><strong>Abaikan pengoptimalan baterai</strong> — mencegah sistem memblokir peluncuran otomatis saat perangkat dinyalakan (AutoStart+).</li><li><strong>Ubah pengaturan audio</strong> — menerapkan penguat volume dan equalizer (VolumeBooster+).</li><li><strong>ID iklan</strong> — digunakan untuk menayangkan iklan (Bagian 5).</li></ul><p>Izin dasar seperti internet, status jaringan, dan getaran diberikan secara otomatis saat pemasangan dan hanya digunakan untuk fitur di atas. Aplikasi tidak meminta izin mikrofon, kontak, lokasi, kamera, atau penyimpanan.</p>"
+    },
+    {
+      "id": "website",
+      "title": "8. Situs web (codedac.com)",
+      "html": "<p>Situs web kami menggunakan Google Analytics untuk mengukur kunjungan. Bagi pengunjung di Wilayah Ekonomi Eropa, Inggris, dan Swiss, Consent Mode disetel ke “ditolak” secara bawaan, sehingga tidak ada cookie analitik yang disimpan dan hanya sinyal anonim teragregasi yang dikirim; di wilayah lain, cookie analitik digunakan untuk mengukur kunjungan. Dalam kedua kasus tersebut, kami tidak mengumpulkan pengenal iklan, dan situs web tidak menampilkan iklan. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Kebijakan Privasi Google</a></p><p>Anda dapat menolak analitik dengan memblokir cookie di browser Anda atau memasang <a href=\"https://tools.google.com/dlpage/gaoptout\" target=\"_blank\" rel=\"noopener\">Add-on Browser Pilihan Tidak Ikut Google Analytics</a>. Situs web menggunakan penyimpanan lokal browser Anda (localStorage) untuk mengingat bahasa dan tema (mode gelap) yang Anda pilih; nilai-nilai ini tidak pernah dikirim ke server.</p>"
+    },
+    {
+      "id": "email",
+      "title": "9. Email yang Anda kirimkan kepada kami",
+      "html": "<p>Jika Anda mengirim email kepada kami, kami menerima alamat email Anda dan apa yang Anda tulis (termasuk detail perangkat atau aplikasi apa pun yang Anda sertakan). Kami menggunakan informasi ini hanya untuk membalas Anda dan menindaklanjuti permintaan Anda, dan menyimpannya hanya selama diperlukan untuk tujuan tersebut.</p>"
+    },
+    {
+      "id": "children",
+      "title": "10. Privasi anak-anak",
+      "html": "<p>Untuk aplikasi yang ditujukan bagi anak-anak, kami mematuhi Kebijakan Keluarga Google Play dan hukum yang berlaku. Dalam konteks yang ditujukan bagi anak-anak, kami tidak menggunakan iklan yang dipersonalisasi dan tidak secara sadar mengumpulkan informasi pribadi dari anak-anak.</p>"
+    },
+    {
+      "id": "changes",
+      "title": "11. Perubahan pada kebijakan ini",
+      "html": "<p>Kami dapat memperbarui kebijakan ini untuk mencerminkan perubahan hukum atau perubahan pada Aplikasi. Jika demikian, kami memperbarui tanggal terakhir diperbarui di halaman ini serta riwayat perubahan di bawah.</p>"
+    },
+    {
+      "id": "contact",
+      "title": "12. Kontak",
+      "html": "<p>Untuk pertanyaan tentang cara kami menangani informasi pribadi, silakan hubungi kami.<br />Email: <a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
+    },
+    {
+      "id": "history",
+      "title": "Riwayat perubahan",
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> Menambahkan ringkasan per aplikasi, serta menambahkan informasi tentang pencadangan dan sinkronisasi Google Drive di Clipboard+ dan FloatNote+ untuk Android, persetujuan iklan, koneksi internet (kurs mata uang, harga, ML Kit), penyimpanan situs web, dan email. Mengoreksi deskripsi izin agar sesuai dengan aplikasi dan menyusun ulang kebijakan.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Mengubah alamat email kontak.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Menambahkan informasi sinkronisasi cloud untuk FloatNote+ untuk Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Menambahkan informasi sinkronisasi cloud untuk Clipboard+ untuk Windows.</li></ul>"
+    }
+  ]
 }

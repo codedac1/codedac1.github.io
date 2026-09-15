@@ -40,6 +40,8 @@ CodeDAC는 **Clipboard+**, **AutoStart+** 등 스마트폰 유틸리티 앱을 �
     ├── scan_app_langs.js     # 각 앱 프로젝트의 res/values-* 스캔 → app_langs.json
     ├── app_reqs.json         # 앱별 최소 OS 버전 캐시 — scan_app_reqs.js 산출물
     ├── scan_app_reqs.js      # 각 앱 프로젝트의 minSdk · SupportedOSPlatformVersion 스캔 → app_reqs.json
+    ├── app_privacy.json      # 앱별 외부 연결·주요 권한 — scan_app_privacy.js 산출물(개인정보처리방침 표)
+    ├── scan_app_privacy.js   # 각 앱의 매니페스트·의존성·소스 스캔 → app_privacy.json
     ├── reviews.json          # 홈 후기 섹션에 노출할 5★ 리뷰(손수 큐레이션)
     ├── fetch_reviews.js      # Play Store 5★ 리뷰 후보 수집 → _reviews_pool.json(커밋 제외)
     ├── gen_site.js           # ★ 사이트 생성기 (315개 페이지 + 껍데기 + sitemap 전부 생성)
@@ -80,6 +82,14 @@ node scripts/gen_site.js
 
 ```bash
 node scripts/scan_app_reqs.js    # 앱별 최소 OS 재스캔 → scripts/app_reqs.json
+node scripts/gen_site.js
+```
+
+- **개인정보처리방침** — `i18n/privacy/<lang>.json`: 제목·개정일, `summary`(한눈에 보기), `sections[]`(`id`·`title`·`html`), 앱별 표의 라벨(`data`·`perms`). 목차는 `sections` 에서 자동으로 만들어집니다. 섹션의 `id` 와 순서는 모든 언어가 같아야 합니다.
+  - **앱별 정보 처리 현황 표**는 문장이 아니라 `scripts/app_privacy.json` 에서 만듭니다. 앱에 SDK·권한·외부 API 를 더하거나 빼면 다시 스캔하세요(모르는 외부 호스트가 보이면 경고가 뜹니다 — 방침 4항을 함께 고칠 신호입니다).
+
+```bash
+node scripts/scan_app_privacy.js # 앱별 외부 연결·권한 재스캔 → scripts/app_privacy.json
 node scripts/gen_site.js
 ```
 

@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '62'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '63'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -139,6 +139,14 @@ try {
 }
 const langCountOf = (slug) => (APP_LANGS[slug] && APP_LANGS[slug].count) || 0;
 
+// 앱별 개인정보 처리 현황 (scan_app_privacy.js 산출물). 개인정보처리방침의 앱별 표에 쓰인다.
+let APP_PRIVACY = {};
+try {
+  APP_PRIVACY = require('./app_privacy.json');
+} catch {
+  console.warn('(경고) scripts/app_privacy.json 없음 — 개인정보처리방침의 앱별 표가 비어 보입니다. `node scripts/scan_app_privacy.js` 로 생성하세요.');
+}
+
 // 앱별 최소 OS 버전 (scan_app_reqs.js 산출물). 없으면 상세 페이지의 요구 사항 칩을 생략한다.
 let APP_REQS = {};
 try {
@@ -195,6 +203,12 @@ const PRIV = {};
 for (const lang of LANGS) {
   const p = path.join(ROOT, 'i18n', 'privacy', `${lang.code}.json`);
   if (fs.existsSync(p)) PRIV[lang.code] = require(p);
+}
+for (const code of Object.keys(PRIV)) {
+  if (!Array.isArray(PRIV[code].sections)) {
+    console.warn(`(경고) i18n/privacy/${code}.json 이 옛 구조(bodyHtml) — 이 언어의 개인정보처리방침은 건너뜀`);
+    delete PRIV[code];
+  }
 }
 const PRIV_ACTIVE = ACTIVE.filter((l) => PRIV[l.code]);
 
@@ -1111,11 +1125,43 @@ ${bannerData(code, 'detail', app.slug, ACTIVE)}  <script src="/js/site.js?v=${V}
 }
 
 // ---------- 개인정보처리방침 ----------
+// 본문은 i18n/privacy/<lang>.json 의 구조화된 데이터다(요약 · 섹션 목록 · 표 라벨). 예전엔 언어마다 HTML 한
+// 덩어리(bodyHtml)라 목차를 만들 수 없었고, 앱이 늘 때마다 같은 문단을 21개 파일에 복사하다 번호가 어긋났다.
+// '앱별 정보 처리 현황' 표는 문장이 아니라 scripts/app_privacy.json(앱 코드 스캔 결과)에서 만든다.
 function buildPrivacy(lang) {
   const code = lang.code;
-  const ui = L[code].ui;
+  const d = L[code];
+  const ui = d.ui;
   const pv = PRIV[code];
   const canonical = urlFor(code, 'privacy');
+
+  const tocItems = [{ id: 'apps', title: pv.appsTitle }, ...pv.sections.map((s) => ({ id: s.id, title: s.title }))];
+  const tocList = tocItems.map((t) => `          <li><a href="#${t.id}">${escText(t.title)}</a></li>`).join('\n');
+
+  const summary = pv.summary.map((s) => `          <li><span class="ls-icon">${icon('check')}</span><span>${escText(s)}</span></li>`).join('\n');
+
+  // 앱별 표. 앱 이름·아이콘은 상세 페이지로 가는 링크이고, 행마다 #app-<slug> 앵커가 있어
+  // 스토어 등록 정보에서 'privacy.html#app-clipboard' 처럼 그 앱 부분으로 바로 보낼 수 있다.
+  const chips = (codes, labels) => (codes.length
+    ? `<ul class="ap-chips">${codes.map((c) => `<li class="ap-chip ap-${c}">${escText(labels[c] || c)}</li>`).join('')}</ul>`
+    : `<span class="ap-none">${escText(pv.none)}</span>`);
+  const rows = APPS.filter((app) => APP_PRIVACY[app.slug] && d.apps[app.slug]).map((app) => {
+    const p = APP_PRIVACY[app.slug];
+    const k = platformKey(app);
+    const name = d.apps[app.slug].name;
+    return `          <div class="ap-row" id="app-${app.slug}">
+            <a class="ap-app" href="${pathFor(code, 'detail', app.slug)}"><img class="app-icon" src="/images/icons/${app.slug}.png?v=${V}" alt="" loading="lazy" width="40" height="40" /><span class="ap-name"><bdi>${escText(name)}</bdi><span class="ap-plat ap-plat-${k}">${PLATFORM_LOGO[k]}${platformOf(app)}</span></span></a>
+            <div class="ap-cell"><span class="ap-label">${escText(pv.colData)}</span>${chips(p.data, pv.data)}</div>
+            <div class="ap-cell"><span class="ap-label">${escText(pv.colPerms)}</span>${chips(p.perms, pv.perms)}</div>
+          </div>`;
+  }).join('\n');
+
+  const sections = pv.sections.map((s) => `
+        <section class="legal-sec" id="${s.id}">
+          <h2>${escText(s.title)}</h2>
+          ${s.html}
+        </section>`).join('\n');
+
   return `<!DOCTYPE html>
 <html lang="${lang.htmlLang}"${lang.dir ? ` dir="${lang.dir}"` : ''}>
 <head>
@@ -1124,12 +1170,51 @@ ${headCommon(lang, { title: pv.metaTitle, desc: pv.metaDesc, canonical, ogImage:
 <body>
 ${header(code, 'privacy', undefined, ui)}
 
-  <main class="legal">
-    <a href="${pathFor(code, 'home')}" class="back">${escText(pv.back)}</a>
-    <h1>${escText(pv.title)}</h1>
-    <p class="eff">${escText(pv.effective)}</p>
-${pv.bodyHtml}
-  </main>
+  <section class="legal-hero">
+    <div class="hero-rings" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="${pathFor(code, 'home')}">${escText(ui['bc.home'])}</a>
+        <span class="sep">/</span>
+        <span class="current">${escText(pv.title)}</span>
+      </nav>
+      <h1>${escText(pv.title)}</h1>
+      <p class="legal-dates"><span>${escText(pv.updated)}</span><span>${escText(pv.firstEffective)}</span></p>
+    </div>
+  </section>
+
+  <div class="container legal-layout">
+    <aside class="legal-toc" aria-label="${escAttr(pv.tocTitle)}">
+      <p class="toc-title">${escText(pv.tocTitle)}</p>
+      <ol>
+${tocList}
+      </ol>
+    </aside>
+    <main class="legal">
+      <details class="legal-toc-m">
+        <summary>${escText(pv.tocTitle)}</summary>
+        <ol>
+${tocList}
+        </ol>
+      </details>
+      <div class="legal-intro">${pv.intro}</div>
+      <section class="legal-summary" aria-labelledby="summary-title">
+        <h2 id="summary-title">${escText(pv.summaryTitle)}</h2>
+        <ul>
+${summary}
+        </ul>
+      </section>
+      <section class="legal-sec" id="apps">
+        <h2>${escText(pv.appsTitle)}</h2>
+        <p class="legal-lead">${escText(pv.appsLead)}</p>
+        <div class="app-privacy">
+          <div class="ap-row ap-head" aria-hidden="true"><span>${escText(pv.colApp)}</span><span>${escText(pv.colData)}</span><span>${escText(pv.colPerms)}</span></div>
+${rows}
+        </div>
+      </section>
+${sections}
+    </main>
+  </div>
 
 ${footer(code, ui)}
 ${bannerData(code, 'privacy', null, PRIV_ACTIVE)}  <script src="/js/site.js?v=${V}"></script>
