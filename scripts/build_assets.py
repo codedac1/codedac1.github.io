@@ -18,27 +18,27 @@ BRAND = (47, 107, 255)
 BRAND2 = (31, 79, 208)
 
 # slug -> (icon_source_relpath|GEN:Letter, screenshot_dir_relpath|None, screenshot_glob)
+# 안드로이드 앱은 전부 <App>\Resource\PlayStore등록자료\en (2026-09-16 Clipboard 구조로 통일).
 APPS = {
-    "autostart":     (r"AutoStart\Resource\icon_512.png", r"AutoStart\Resource\screenshots\en", "*.png"),
+    "autostart":     (r"AutoStart\Resource\icon_512.png", r"AutoStart\Resource\PlayStore등록자료\en", "*.png"),
     "clipboard":     (r"Clipboard\Resource\icon_512.png", r"Clipboard\Resource\PlayStore등록자료\en", "*.png"),
     # 스크린샷이 언어별 폴더로 갈라지면서 docs\store-screenshots\en 으로 옮겨 갔다(ReadFocusWin 과 같은 배치).
     "clipboardwin":  (r"ClipboardWin\src\ClipboardPlus\Assets\app.ico", r"ClipboardWin\docs\store-screenshots\en", "store-en-*.png"),
-    "floatcalc":     (r"FloatCalc\FloatCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatCalc\Resource\PlayStore등록자료\screenshots_v5\en", "*.png"),
-    "floatcrypto":   (r"FloatCrypto\Resource\icon_512.png", r"FloatCrypto\Resource\PlayStore_등록자료\en", "*.png"),
+    "floatcalc":     (r"FloatCalc\FloatCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatCalc\Resource\PlayStore등록자료\en", "*.png"),
+    "floatcrypto":   (r"FloatCrypto\Resource\icon_512.png", r"FloatCrypto\Resource\PlayStore등록자료\en", "*.png"),
     "floatnote":     (r"FloatNote\Resource\icon_512.png", r"FloatNote\Resource\PlayStore등록자료\en", "*.png"),
     # 스크린샷이 언어별 폴더로 갈라지면서 docs\store-screenshots\en 으로 옮겨 갔다(ClipboardWin 과 같은 배치).
     "floatnotewin":  (r"FloatNoteWin\src\FloatNotePlus\Assets\app.ico", r"FloatNoteWin\docs\store-screenshots\en", "store-en-*.png"),
-    "floattimer":    (r"FloatTimer\FloatTimer\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatTimer\Resource\screenshots_en", "*.png"),
+    "floattimer":    (r"FloatTimer\FloatTimer\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatTimer\Resource\PlayStore등록자료\en", "*.png"),
     # 스크린샷이 언어별 폴더로 갈라지면서 docs\store-screenshots\en 으로 옮겨 갔다(다른 Windows 판과 같은 배치).
     "floattimerwin": (r"FloatTimerWin\src\FloatTimerPlus\Assets\app.ico", r"FloatTimerWin\docs\store-screenshots\en", "store-en-*.png"),
-    "photocleaner":  (r"PhotoCleaner\Resource\icon_512.png", r"PhotoCleaner\Resource\PlayStore\screenshots\en", "*.png"),
+    "photocleaner":  (r"PhotoCleaner\Resource\icon_512.png", r"PhotoCleaner\Resource\PlayStore등록자료\en", "*.png"),
     # 다른 Windows 판과 같은 배치(docs\store-screenshots\en).
     "photocleanerwin": (r"PhotoCleanerWin\src\PhotoCleanerPlus\Assets\app.ico", r"PhotoCleanerWin\docs\store-screenshots\en", "store-en-*.png"),
-    "readfocus":     (r"ReadFocus\Resource\icon_512.png", r"ReadFocus\Resource\screenshots\en", "*.png"),
+    "readfocus":     (r"ReadFocus\Resource\icon_512.png", r"ReadFocus\Resource\PlayStore등록자료\en", "*.png"),
     # 스크린샷이 언어별 폴더로 갈라졌다(en/ko/…). 영어만 쓴다.
     "readfocuswin":  (r"ReadFocusWin\src\ReadFocusPlus\Assets\app.ico", r"ReadFocusWin\docs\store-screenshots\en", "store-en-*.png"),
-    # "0*.png" 는 번호 붙은 폰 스크린샷만 고른다(feature_graphic_1024x500.png 제외).
-    "volumebooster": (r"VolumeBooster\Resource\icon_512.png", r"VolumeBooster\Resource\play_store\en", "0*.png"),
+    "volumebooster": (r"VolumeBooster\Resource\icon_512.png", r"VolumeBooster\Resource\PlayStore등록자료\en", "*.png"),
 }
 
 def rounded_mask(size, radius):
