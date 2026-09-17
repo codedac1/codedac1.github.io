@@ -1,13 +1,13 @@
 {
   "metaTitle": "Privacybeleid | CodeDAC",
-  "metaDesc": "Privacybeleid voor de Android- en Windows-apps van CodeDAC. Geen bedrijfsservers, de verwerking blijft op je apparaat, en per app staan de verbindingen en rechten vermeld.",
+  "metaDesc": "Privacybeleid voor de Android- en Windows-apps van CodeDAC. Geen registratie, de verwerking blijft op je apparaat, en per app staan de verbindingen en rechten vermeld.",
   "title": "Privacybeleid",
-  "updated": "Laatst bijgewerkt: 15 september 2026",
+  "updated": "Laatst bijgewerkt: 17 september 2026",
   "firstEffective": "Eerste ingangsdatum: 15 juli 2026",
   "tocTitle": "Inhoud",
   "summaryTitle": "In het kort",
   "summary": [
-    "Je hoeft je niet te registreren, en CodeDAC beheert geen server die je gegevens ontvangt of opslaat.",
+    "Je hoeft je niet te registreren, en CodeDAC beheert geen server die je gegevens ontvangt of opslaat. De enige uitzondering is het aankoopbericht dat Windows-apps versturen wanneer een PRO-aankoop is voltooid (sectie 6).",
     "App-gegevens worden standaard alleen op je apparaat opgeslagen.",
     "Back-up en synchronisatie via Google Drive in Clipboard+ en FloatNote+ zijn optioneel en slaan alleen op in je eigen Drive.",
     "Advertenties in onze Android-apps worden geleverd door Google AdMob, en waar dat vereist is, wordt eerst om toestemming gevraagd. Onze Windows-apps hebben geen advertenties.",
@@ -23,6 +23,7 @@
     "ads": "Advertenties (Google AdMob)",
     "billing": "Google Play Billing",
     "store": "Microsoft Store (licentie en aankopen)",
+    "purchaseReport": "Aankoopbericht naar CodeDAC",
     "driveSync": "Synchronisatie via Google Drive (optioneel)",
     "driveBackup": "Back-up naar Google Drive (optioneel)",
     "fx": "Wisselkoersen (Frankfurter)",
@@ -43,7 +44,7 @@
     {
       "id": "principle",
       "title": "1. Kernprincipe",
-      "html": "<p>Je kunt de Apps gebruiken zonder een account aan te maken of in te loggen. We beheren geen server die je gegevens ontvangt of opslaat, en de gegevens die de Apps verwerken, worden standaard op je apparaat opgeslagen en verwerkt. De enige uitzonderingen zijn optionele functies die je zelf inschakelt (sectie 3) en de externe diensten waarop de Apps steunen (secties 4–6), die hieronder allemaal worden beschreven.</p>"
+      "html": "<p>Je kunt de Apps gebruiken zonder een account aan te maken of in te loggen. We beheren geen server die je gegevens ontvangt of opslaat, en de gegevens die de Apps verwerken, worden standaard op je apparaat opgeslagen en verwerkt. De enige uitzonderingen zijn optionele functies die je zelf inschakelt (sectie 3) en de externe diensten waarop de Apps steunen (secties 4–6), die hieronder allemaal worden beschreven. Het enige geval waarin informatie naar onze server wordt verstuurd, is het aankoopbericht van de Windows-apps (sectie 6).</p>"
     },
     {
       "id": "device",
@@ -68,7 +69,7 @@
     {
       "id": "payments",
       "title": "6. Betalingen",
-      "html": "<ul><li><strong>Android.</strong> PRO-aankopen worden verwerkt door Google Play Billing.</li><li><strong>Windows.</strong> PRO-aankopen worden verwerkt door de Microsoft Store.</li></ul><p>De betaling wordt door de betreffende store afgehandeld; we ontvangen nooit je kaartnummer of andere betaalgegevens. De apps ontvangen van de store alleen de aankoopstatus die nodig is om je PRO-toegang te controleren.</p>"
+      "html": "<ul><li><strong>Android.</strong> PRO-aankopen worden verwerkt door Google Play Billing.</li><li><strong>Windows.</strong> PRO-aankopen worden verwerkt door de Microsoft Store.</li></ul><p>De betaling wordt door de betreffende store afgehandeld; we ontvangen nooit je kaartnummer of andere betaalgegevens. De apps ontvangen van de store alleen de aankoopstatus die nodig is om je PRO-toegang te controleren.</p><p><strong>Aankoopbericht van de Windows-apps.</strong> Wanneer een PRO-aankoop in PhotoCleaner+, ReadFocus+ of FloatTimer+ voor Windows is voltooid, verstuurt de app een kort bericht naar de server van CodeDAC (gehost bij Google Cloud): de product-ID, de prijs en valuta die de store toont, de land-/regio-instelling van Windows, de appversie en een willekeurig nummer dat voor die installatie is aangemaakt. Het bevat geen naam, e-mailadres, Microsoft-account of apparaatgegevens. We gebruiken het alleen om verkopen te tellen en te voorkomen dat dezelfde aankoop twee keer wordt geteld; het willekeurige nummer wordt alleen in onomkeerbaar omgezette (gehashte) vorm bewaard. Zoals bij elk internetverzoek ontvangt de server je IP-adres; toegangslogboeken van de server worden na 30 dagen automatisch verwijderd.</p>"
     },
     {
       "id": "permissions",
@@ -103,7 +104,7 @@
     {
       "id": "history",
       "title": "Wijzigingsgeschiedenis",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> Overzicht per app toegevoegd, en informatie toegevoegd over back-up en synchronisatie via Google Drive in Clipboard+ en FloatNote+ voor Android, advertentietoestemming, internetverbindingen (wisselkoersen, koersen, ML Kit), opslag door de website en e-mails. Beschrijvingen van de rechten gecorrigeerd zodat ze overeenkomen met de apps, en het beleid opnieuw ingedeeld. Informatie over PhotoCleaner+ for Windows toegevoegd.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Contact-e-mailadres gewijzigd.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Informatie over cloudsynchronisatie toegevoegd voor FloatNote+ voor Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Informatie over cloudsynchronisatie toegevoegd voor Clipboard+ voor Windows.</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-17\">2026-09-17</time> Informatie toegevoegd over het aankoopbericht dat PhotoCleaner+, ReadFocus+ en FloatTimer+ voor Windows versturen wanneer een PRO-aankoop is voltooid (secties 1 en 6).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> Overzicht per app toegevoegd, en informatie toegevoegd over back-up en synchronisatie via Google Drive in Clipboard+ en FloatNote+ voor Android, advertentietoestemming, internetverbindingen (wisselkoersen, koersen, ML Kit), opslag door de website en e-mails. Beschrijvingen van de rechten gecorrigeerd zodat ze overeenkomen met de apps, en het beleid opnieuw ingedeeld. Informatie over PhotoCleaner+ for Windows toegevoegd.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Contact-e-mailadres gewijzigd.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Informatie over cloudsynchronisatie toegevoegd voor FloatNote+ voor Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Informatie over cloudsynchronisatie toegevoegd voor Clipboard+ voor Windows.</li></ul>"
     }
   ]
 }

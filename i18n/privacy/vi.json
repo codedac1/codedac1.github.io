@@ -1,13 +1,13 @@
 {
   "metaTitle": "Chính sách quyền riêng tư | CodeDAC",
-  "metaDesc": "Chính sách quyền riêng tư cho các ứng dụng Android và Windows của CodeDAC. Không có máy chủ của công ty, việc xử lý diễn ra trên thiết bị của bạn, và các kết nối cũng như quyền của từng ứng dụng đều được liệt kê.",
+  "metaDesc": "Chính sách quyền riêng tư cho các ứng dụng Android và Windows của CodeDAC. Không cần đăng ký, việc xử lý diễn ra trên thiết bị của bạn, và các kết nối cũng như quyền của từng ứng dụng đều được liệt kê.",
   "title": "Chính sách quyền riêng tư",
-  "updated": "Cập nhật lần cuối: 15 tháng 9 năm 2026",
+  "updated": "Cập nhật lần cuối: 17 tháng 9 năm 2026",
   "firstEffective": "Có hiệu lực lần đầu: 15 tháng 7 năm 2026",
   "tocTitle": "Mục lục",
   "summaryTitle": "Tóm tắt",
   "summary": [
-    "Không cần đăng ký, và CodeDAC không vận hành máy chủ nào nhận hoặc lưu trữ dữ liệu của bạn.",
+    "Không cần đăng ký, và CodeDAC không vận hành máy chủ nào nhận hoặc lưu trữ dữ liệu của bạn. Ngoại lệ duy nhất là bản ghi giao dịch mua mà các ứng dụng Windows gửi khi hoàn tất giao dịch mua PRO (Mục 6).",
     "Theo mặc định, dữ liệu ứng dụng chỉ được lưu trữ trên thiết bị của bạn.",
     "Sao lưu và đồng bộ Google Drive trong Clipboard+ và FloatNote+ là tùy chọn và chỉ lưu vào Drive của chính bạn.",
     "Quảng cáo trong các ứng dụng Android của chúng tôi do Google AdMob cung cấp, và ở những nơi có yêu cầu, bạn sẽ được hỏi ý kiến đồng ý trước. Các ứng dụng Windows của chúng tôi không có quảng cáo.",
@@ -23,6 +23,7 @@
     "ads": "Quảng cáo (Google AdMob)",
     "billing": "Thanh toán Google Play",
     "store": "Microsoft Store (giấy phép và giao dịch mua)",
+    "purchaseReport": "Bản ghi giao dịch mua gửi đến CodeDAC",
     "driveSync": "Đồng bộ Google Drive (tùy chọn)",
     "driveBackup": "Sao lưu Google Drive (tùy chọn)",
     "fx": "Tỷ giá hối đoái (Frankfurter)",
@@ -43,7 +44,7 @@
     {
       "id": "principle",
       "title": "1. Nguyên tắc cốt lõi",
-      "html": "<p>Bạn có thể sử dụng các Ứng dụng mà không cần tạo tài khoản hoặc đăng nhập. Chúng tôi không vận hành máy chủ nào nhận hoặc lưu trữ dữ liệu của bạn, và theo mặc định, dữ liệu mà các Ứng dụng xử lý được lưu trữ và xử lý trên thiết bị của bạn. Các ngoại lệ duy nhất là những tính năng tùy chọn do chính bạn bật (Mục 3) và các dịch vụ bên ngoài mà các Ứng dụng sử dụng (Mục 4–6), tất cả đều được mô tả dưới đây.</p>"
+      "html": "<p>Bạn có thể sử dụng các Ứng dụng mà không cần tạo tài khoản hoặc đăng nhập. Chúng tôi không vận hành máy chủ nào nhận hoặc lưu trữ dữ liệu của bạn, và theo mặc định, dữ liệu mà các Ứng dụng xử lý được lưu trữ và xử lý trên thiết bị của bạn. Các ngoại lệ duy nhất là những tính năng tùy chọn do chính bạn bật (Mục 3) và các dịch vụ bên ngoài mà các Ứng dụng sử dụng (Mục 4–6), tất cả đều được mô tả dưới đây. Trường hợp duy nhất thông tin được gửi đến máy chủ của chúng tôi là bản ghi giao dịch mua từ các ứng dụng Windows (Mục 6).</p>"
     },
     {
       "id": "device",
@@ -68,7 +69,7 @@
     {
       "id": "payments",
       "title": "6. Thanh toán",
-      "html": "<ul><li><strong>Android.</strong> Giao dịch mua PRO được xử lý bởi Thanh toán Google Play.</li><li><strong>Windows.</strong> Giao dịch mua PRO được xử lý bởi Microsoft Store.</li></ul><p>Mỗi cửa hàng tự xử lý việc thanh toán; chúng tôi không bao giờ nhận số thẻ hoặc các thông tin thanh toán khác của bạn. Các ứng dụng chỉ nhận từ cửa hàng trạng thái mua hàng cần thiết để kiểm tra quyền sử dụng PRO của bạn.</p>"
+      "html": "<ul><li><strong>Android.</strong> Giao dịch mua PRO được xử lý bởi Thanh toán Google Play.</li><li><strong>Windows.</strong> Giao dịch mua PRO được xử lý bởi Microsoft Store.</li></ul><p>Mỗi cửa hàng tự xử lý việc thanh toán; chúng tôi không bao giờ nhận số thẻ hoặc các thông tin thanh toán khác của bạn. Các ứng dụng chỉ nhận từ cửa hàng trạng thái mua hàng cần thiết để kiểm tra quyền sử dụng PRO của bạn.</p><p><strong>Bản ghi giao dịch mua từ các ứng dụng Windows.</strong> Khi giao dịch mua PRO trong PhotoCleaner+, ReadFocus+ hoặc FloatTimer+ cho Windows hoàn tất, ứng dụng gửi một bản ghi ngắn đến máy chủ của CodeDAC (lưu trữ trên Google Cloud): mã sản phẩm, giá và đơn vị tiền tệ do cửa hàng hiển thị, cài đặt quốc gia/khu vực của Windows, phiên bản ứng dụng và một số ngẫu nhiên được tạo cho lượt cài đặt đó. Bản ghi không chứa tên, địa chỉ email, tài khoản Microsoft hay thông tin thiết bị. Chúng tôi chỉ dùng bản ghi này để thống kê doanh số và tránh đếm cùng một giao dịch mua hai lần; số ngẫu nhiên chỉ được lưu ở dạng đã chuyển đổi không thể đảo ngược (băm). Như mọi yêu cầu qua internet, máy chủ nhận được địa chỉ IP của bạn; nhật ký truy cập máy chủ được tự động xóa sau 30 ngày.</p>"
     },
     {
       "id": "permissions",
@@ -103,7 +104,7 @@
     {
       "id": "history",
       "title": "Lịch sử thay đổi",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> Bổ sung phần tổng quan theo từng ứng dụng, và bổ sung thông tin về sao lưu và đồng bộ Google Drive trong Clipboard+ và FloatNote+ cho Android, sự đồng ý về quảng cáo, kết nối internet (tỷ giá, giá, ML Kit), bộ nhớ của trang web và email. Chỉnh sửa phần mô tả quyền cho khớp với các ứng dụng và sắp xếp lại cấu trúc chính sách. Bổ sung thông tin về PhotoCleaner+ for Windows.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Thay đổi địa chỉ email liên hệ.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Bổ sung thông tin đồng bộ đám mây cho FloatNote+ cho Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Bổ sung thông tin đồng bộ đám mây cho Clipboard+ cho Windows.</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-17\">2026-09-17</time> Bổ sung thông tin về bản ghi giao dịch mua mà PhotoCleaner+, ReadFocus+ và FloatTimer+ cho Windows gửi khi hoàn tất giao dịch mua PRO (Mục 1 và 6).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> Bổ sung phần tổng quan theo từng ứng dụng, và bổ sung thông tin về sao lưu và đồng bộ Google Drive trong Clipboard+ và FloatNote+ cho Android, sự đồng ý về quảng cáo, kết nối internet (tỷ giá, giá, ML Kit), bộ nhớ của trang web và email. Chỉnh sửa phần mô tả quyền cho khớp với các ứng dụng và sắp xếp lại cấu trúc chính sách. Bổ sung thông tin về PhotoCleaner+ for Windows.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Thay đổi địa chỉ email liên hệ.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Bổ sung thông tin đồng bộ đám mây cho FloatNote+ cho Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Bổ sung thông tin đồng bộ đám mây cho Clipboard+ cho Windows.</li></ul>"
     }
   ]
 }

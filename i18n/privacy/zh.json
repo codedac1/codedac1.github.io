@@ -1,13 +1,13 @@
 {
   "metaTitle": "隐私政策 | CodeDAC",
-  "metaDesc": "CodeDAC Android 和 Windows 应用的隐私政策。我们没有公司服务器，数据处理在您的设备上进行，并列明每款应用的网络连接和权限。",
+  "metaDesc": "CodeDAC Android 和 Windows 应用的隐私政策。无需注册，数据处理在您的设备上进行，并列明每款应用的网络连接和权限。",
   "title": "隐私政策",
-  "updated": "最后更新：2026 年 9 月 15 日",
+  "updated": "最后更新：2026 年 9 月 17 日",
   "firstEffective": "首次生效：2026 年 7 月 15 日",
   "tocTitle": "目录",
   "summaryTitle": "要点速览",
   "summary": [
-    "无需注册，CodeDAC 也不运营任何接收或存储您数据的服务器。",
+    "无需注册，CodeDAC 也不运营任何接收或存储您数据的服务器。唯一的例外是 Windows 版应用在完成 PRO 购买时发送的购买记录（第 6 条）。",
     "应用数据默认仅存储在您的设备上。",
     "Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步为可选功能，且仅保存到您本人的 Drive。",
     "我们 Android 应用中的广告由 Google AdMob 提供，在需要征得同意的地区会先征求您的同意。我们的 Windows 应用不含广告。",
@@ -23,6 +23,7 @@
     "ads": "广告（Google AdMob）",
     "billing": "Google Play 结算",
     "store": "Microsoft Store（许可证和购买）",
+    "purchaseReport": "发送给 CodeDAC 的购买记录",
     "driveSync": "Google Drive 同步（可选）",
     "driveBackup": "Google Drive 备份（可选）",
     "fx": "汇率（Frankfurter）",
@@ -43,7 +44,7 @@
     {
       "id": "principle",
       "title": "1. 核心原则",
-      "html": "<p>您无需创建账号或登录即可使用本应用。我们不运营任何接收或存储您数据的服务器，本应用处理的数据默认在您的设备上存储和处理。唯一的例外是您自行开启的可选功能（第 3 条）以及本应用所依赖的外部服务（第 4–6 条），下文均有说明。</p>"
+      "html": "<p>您无需创建账号或登录即可使用本应用。我们不运营任何接收或存储您数据的服务器，本应用处理的数据默认在您的设备上存储和处理。唯一的例外是您自行开启的可选功能（第 3 条）以及本应用所依赖的外部服务（第 4–6 条），下文均有说明。唯一会向我们的服务器发送信息的情况是 Windows 版应用的购买记录（第 6 条）。</p>"
     },
     {
       "id": "device",
@@ -68,7 +69,7 @@
     {
       "id": "payments",
       "title": "6. 付款",
-      "html": "<ul><li><strong>Android。</strong> PRO 购买由 Google Play 结算处理。</li><li><strong>Windows。</strong> PRO 购买由 Microsoft Store 处理。</li></ul><p>付款由各商店处理；我们绝不会收到您的卡号或其他付款信息。应用仅从商店接收核验您 PRO 使用权限所需的购买状态。</p>"
+      "html": "<ul><li><strong>Android。</strong> PRO 购买由 Google Play 结算处理。</li><li><strong>Windows。</strong> PRO 购买由 Microsoft Store 处理。</li></ul><p>付款由各商店处理；我们绝不会收到您的卡号或其他付款信息。应用仅从商店接收核验您 PRO 使用权限所需的购买状态。</p><p><strong>Windows 版应用的购买记录。</strong>当 Windows 版 PhotoCleaner+、ReadFocus+ 或 FloatTimer+ 完成 PRO 购买时，应用会向 CodeDAC 的服务器（托管于 Google Cloud）发送一条简短记录：产品 ID、商店显示的价格和币种、Windows 的国家或地区设置、应用版本，以及为该次安装随机生成的编号。记录中不包含姓名、电子邮件地址、Microsoft 账户或设备信息。我们仅将其用于统计销售额并避免同一笔购买被重复计算；随机编号仅以不可逆转换（哈希）后的形式保存。与任何互联网请求一样，服务器会收到您的 IP 地址；服务器访问日志会在 30 天后自动删除。</p>"
     },
     {
       "id": "permissions",
@@ -103,7 +104,7 @@
     {
       "id": "history",
       "title": "变更记录",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> 新增各应用概览，并新增有关 Android 版 Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步、广告同意、互联网连接（汇率、价格、ML Kit）、网站存储以及电子邮件的信息。按照应用实际情况更正了权限说明，并重新整理了本政策的结构。新增了 PhotoCleaner+ for Windows 的相关信息。</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 更改了联系邮箱地址。</li><li><time datetime=\"2026-08-03\">2026-08-03</time> 新增 Windows 版 FloatNote+ 的云同步信息。</li><li><time datetime=\"2026-07-15\">2026-07-15</time> 新增 Windows 版 Clipboard+ 的云同步信息。</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-17\">2026-09-17</time> 新增 Windows 版 PhotoCleaner+、ReadFocus+ 和 FloatTimer+ 在完成 PRO 购买时发送购买记录的相关说明（第 1 条和第 6 条）。</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 新增各应用概览，并新增有关 Android 版 Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步、广告同意、互联网连接（汇率、价格、ML Kit）、网站存储以及电子邮件的信息。按照应用实际情况更正了权限说明，并重新整理了本政策的结构。新增了 PhotoCleaner+ for Windows 的相关信息。</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 更改了联系邮箱地址。</li><li><time datetime=\"2026-08-03\">2026-08-03</time> 新增 Windows 版 FloatNote+ 的云同步信息。</li><li><time datetime=\"2026-07-15\">2026-07-15</time> 新增 Windows 版 Clipboard+ 的云同步信息。</li></ul>"
     }
   ]
 }

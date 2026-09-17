@@ -1,13 +1,13 @@
 {
   "metaTitle": "Informativa sulla privacy | CodeDAC",
-  "metaDesc": "Informativa sulla privacy delle app Android e Windows di CodeDAC. Nessun server aziendale, l'elaborazione resta sul tuo dispositivo e sono indicati i collegamenti e i permessi di ciascuna app.",
+  "metaDesc": "Informativa sulla privacy delle app Android e Windows di CodeDAC. Nessuna registrazione, l'elaborazione resta sul tuo dispositivo e sono indicati i collegamenti e i permessi di ciascuna app.",
   "title": "Informativa sulla privacy",
-  "updated": "Ultimo aggiornamento: 15 settembre 2026",
+  "updated": "Ultimo aggiornamento: 17 settembre 2026",
   "firstEffective": "Prima entrata in vigore: 15 luglio 2026",
   "tocTitle": "Indice",
   "summaryTitle": "In breve",
   "summary": [
-    "Non è prevista alcuna registrazione e CodeDAC non gestisce alcun server che riceva o memorizzi i tuoi dati.",
+    "Non è prevista alcuna registrazione e CodeDAC non gestisce alcun server che riceva o memorizzi i tuoi dati. L'unica eccezione è il registro di acquisto che le app per Windows inviano quando un acquisto PRO viene completato (Sezione 6).",
     "Per impostazione predefinita, i dati delle app sono memorizzati solo sul tuo dispositivo.",
     "Il backup e la sincronizzazione con Google Drive di Clipboard+ e FloatNote+ sono facoltativi e salvano solo nel tuo Drive personale.",
     "Gli annunci nelle nostre app Android sono forniti da Google AdMob e, dove richiesto, viene prima chiesto il consenso. Le nostre app Windows non hanno annunci.",
@@ -23,6 +23,7 @@
     "ads": "Annunci (Google AdMob)",
     "billing": "Google Play Billing",
     "store": "Microsoft Store (licenza e acquisti)",
+    "purchaseReport": "Registro di acquisto inviato a CodeDAC",
     "driveSync": "Sincronizzazione con Google Drive (facoltativa)",
     "driveBackup": "Backup su Google Drive (facoltativo)",
     "fx": "Tassi di cambio (Frankfurter)",
@@ -43,7 +44,7 @@
     {
       "id": "principle",
       "title": "1. Principio fondamentale",
-      "html": "<p>Puoi usare le App senza creare un account né effettuare l'accesso. Non gestiamo alcun server che riceva o memorizzi i tuoi dati, e i dati trattati dalle App vengono, per impostazione predefinita, memorizzati ed elaborati sul tuo dispositivo. Le uniche eccezioni sono le funzioni facoltative che attivi tu stesso (Sezione 3) e i servizi esterni su cui si basano le App (Sezioni 4–6), tutti descritti di seguito.</p>"
+      "html": "<p>Puoi usare le App senza creare un account né effettuare l'accesso. Non gestiamo alcun server che riceva o memorizzi i tuoi dati, e i dati trattati dalle App vengono, per impostazione predefinita, memorizzati ed elaborati sul tuo dispositivo. Le uniche eccezioni sono le funzioni facoltative che attivi tu stesso (Sezione 3) e i servizi esterni su cui si basano le App (Sezioni 4–6), tutti descritti di seguito. L'unico caso in cui vengono inviate informazioni al nostro server è il registro di acquisto delle app per Windows (Sezione 6).</p>"
     },
     {
       "id": "device",
@@ -68,7 +69,7 @@
     {
       "id": "payments",
       "title": "6. Pagamenti",
-      "html": "<ul><li><strong>Android.</strong> Gli acquisti PRO sono elaborati da Google Play Billing.</li><li><strong>Windows.</strong> Gli acquisti PRO sono elaborati da Microsoft Store.</li></ul><p>Il pagamento è gestito da ciascuno store; non riceviamo mai il numero della tua carta né altri dati di pagamento. Le app ricevono dallo store solo lo stato dell'acquisto necessario per verificare il tuo accesso PRO.</p>"
+      "html": "<ul><li><strong>Android.</strong> Gli acquisti PRO sono elaborati da Google Play Billing.</li><li><strong>Windows.</strong> Gli acquisti PRO sono elaborati da Microsoft Store.</li></ul><p>Il pagamento è gestito da ciascuno store; non riceviamo mai il numero della tua carta né altri dati di pagamento. Le app ricevono dallo store solo lo stato dell'acquisto necessario per verificare il tuo accesso PRO.</p><p><strong>Registro di acquisto delle app per Windows.</strong> Quando un acquisto PRO viene completato in PhotoCleaner+, ReadFocus+ o FloatTimer+ per Windows, l'app invia un breve registro al server di CodeDAC (ospitato su Google Cloud): l'ID del prodotto, il prezzo e la valuta mostrati dallo store, l'impostazione di paese/area geografica di Windows, la versione dell'app e un numero casuale creato per quell'installazione. Non contiene nome, indirizzo email, account Microsoft né informazioni sul dispositivo. Lo usiamo solo per conteggiare le vendite ed evitare di contare due volte lo stesso acquisto; il numero casuale viene conservato solo in forma trasformata in modo irreversibile (hash). Come per qualsiasi richiesta Internet, il server riceve il tuo indirizzo IP; i log di accesso del server vengono eliminati automaticamente dopo 30 giorni.</p>"
     },
     {
       "id": "permissions",
@@ -103,7 +104,7 @@
     {
       "id": "history",
       "title": "Cronologia delle modifiche",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> Aggiunti il riepilogo per app e le informazioni su backup e sincronizzazione con Google Drive in Clipboard+ e FloatNote+ per Android, consenso agli annunci, connessioni Internet (tassi di cambio, prezzi, ML Kit), memoria del sito web ed email. Corrette le descrizioni dei permessi per allinearle alle app e riorganizzata l'informativa. Aggiunte le informazioni su PhotoCleaner+ for Windows.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Modificato l'indirizzo email di contatto.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Aggiunte informazioni sulla sincronizzazione cloud di FloatNote+ per Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Aggiunte informazioni sulla sincronizzazione cloud di Clipboard+ per Windows.</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-17\">2026-09-17</time> Aggiunte le informazioni sul registro di acquisto che PhotoCleaner+, ReadFocus+ e FloatTimer+ per Windows inviano al completamento di un acquisto PRO (Sezioni 1 e 6).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> Aggiunti il riepilogo per app e le informazioni su backup e sincronizzazione con Google Drive in Clipboard+ e FloatNote+ per Android, consenso agli annunci, connessioni Internet (tassi di cambio, prezzi, ML Kit), memoria del sito web ed email. Corrette le descrizioni dei permessi per allinearle alle app e riorganizzata l'informativa. Aggiunte le informazioni su PhotoCleaner+ for Windows.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Modificato l'indirizzo email di contatto.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Aggiunte informazioni sulla sincronizzazione cloud di FloatNote+ per Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Aggiunte informazioni sulla sincronizzazione cloud di Clipboard+ per Windows.</li></ul>"
     }
   ]
 }

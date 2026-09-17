@@ -1,13 +1,13 @@
 {
   "metaTitle": "Gizlilik Politikası | CodeDAC",
-  "metaDesc": "CodeDAC Android ve Windows uygulamaları için Gizlilik Politikası. Şirket sunucusu yok, işlemler cihazınızda kalır ve her uygulamanın bağlantıları ile izinleri listelenir.",
+  "metaDesc": "CodeDAC Android ve Windows uygulamaları için Gizlilik Politikası. Kayıt gerekmez, işlemler cihazınızda kalır ve her uygulamanın bağlantıları ile izinleri listelenir.",
   "title": "Gizlilik Politikası",
-  "updated": "Son güncelleme: 15 Eylül 2026",
+  "updated": "Son güncelleme: 17 Eylül 2026",
   "firstEffective": "İlk yürürlük tarihi: 15 Temmuz 2026",
   "tocTitle": "İçindekiler",
   "summaryTitle": "Bir bakışta",
   "summary": [
-    "Kayıt olmanız gerekmez ve CodeDAC, verilerinizi alan veya saklayan hiçbir sunucu işletmez.",
+    "Kayıt olmanız gerekmez ve CodeDAC, verilerinizi alan veya saklayan hiçbir sunucu işletmez. Tek istisna, Windows uygulamalarının bir PRO satın alımı tamamlandığında gönderdiği satın alma kaydıdır (Bölüm 6).",
     "Uygulama verileri varsayılan olarak yalnızca cihazınızda saklanır.",
     "Clipboard+ ve FloatNote+ uygulamalarındaki Google Drive yedekleme ve eşitleme özellikleri isteğe bağlıdır ve verileri yalnızca kendi Drive'ınıza kaydeder.",
     "Android uygulamalarımızdaki reklamlar Google AdMob tarafından sunulur ve gerekli olduğu yerlerde önce rızanız istenir. Windows uygulamalarımızda reklam yoktur.",
@@ -23,6 +23,7 @@
     "ads": "Reklamlar (Google AdMob)",
     "billing": "Google Play Faturalandırma",
     "store": "Microsoft Store (lisans ve satın almalar)",
+    "purchaseReport": "CodeDAC'e gönderilen satın alma kaydı",
     "driveSync": "Google Drive eşitleme (isteğe bağlı)",
     "driveBackup": "Google Drive yedekleme (isteğe bağlı)",
     "fx": "Döviz kurları (Frankfurter)",
@@ -43,7 +44,7 @@
     {
       "id": "principle",
       "title": "1. Temel ilke",
-      "html": "<p>Uygulamaları hesap oluşturmadan veya oturum açmadan kullanabilirsiniz. Verilerinizi alan veya saklayan hiçbir sunucu işletmiyoruz; Uygulamaların işlediği veriler varsayılan olarak cihazınızda saklanır ve işlenir. Bunun tek istisnaları, kendiniz açtığınız isteğe bağlı özellikler (Bölüm 3) ve Uygulamaların dayandığı harici hizmetlerdir (Bölüm 4–6); bunların tümü aşağıda açıklanmıştır.</p>"
+      "html": "<p>Uygulamaları hesap oluşturmadan veya oturum açmadan kullanabilirsiniz. Verilerinizi alan veya saklayan hiçbir sunucu işletmiyoruz; Uygulamaların işlediği veriler varsayılan olarak cihazınızda saklanır ve işlenir. Bunun tek istisnaları, kendiniz açtığınız isteğe bağlı özellikler (Bölüm 3) ve Uygulamaların dayandığı harici hizmetlerdir (Bölüm 4–6); bunların tümü aşağıda açıklanmıştır. Sunucumuza bilgi gönderilen tek durum, Windows uygulamalarının satın alma kaydıdır (Bölüm 6).</p>"
     },
     {
       "id": "device",
@@ -68,7 +69,7 @@
     {
       "id": "payments",
       "title": "6. Ödemeler",
-      "html": "<ul><li><strong>Android.</strong> PRO satın alımları Google Play Faturalandırma tarafından işlenir.</li><li><strong>Windows.</strong> PRO satın alımları Microsoft Store tarafından işlenir.</li></ul><p>Ödemeyi ilgili mağaza gerçekleştirir; kart numaranızı veya diğer ödeme bilgilerinizi hiçbir zaman almayız. Uygulamalar mağazadan yalnızca PRO erişiminizi kontrol etmek için gereken satın alma durumunu alır.</p>"
+      "html": "<ul><li><strong>Android.</strong> PRO satın alımları Google Play Faturalandırma tarafından işlenir.</li><li><strong>Windows.</strong> PRO satın alımları Microsoft Store tarafından işlenir.</li></ul><p>Ödemeyi ilgili mağaza gerçekleştirir; kart numaranızı veya diğer ödeme bilgilerinizi hiçbir zaman almayız. Uygulamalar mağazadan yalnızca PRO erişiminizi kontrol etmek için gereken satın alma durumunu alır.</p><p><strong>Windows uygulamalarının satın alma kaydı.</strong> Windows için PhotoCleaner+, ReadFocus+ veya FloatTimer+ uygulamasında bir PRO satın alımı tamamlandığında, uygulama CodeDAC sunucusuna (Google Cloud üzerinde barındırılır) kısa bir kayıt gönderir: ürün kimliği, mağazanın gösterdiği fiyat ve para birimi, Windows'un ülke/bölge ayarı, uygulama sürümü ve o kurulum için rastgele oluşturulan bir numara. Kayıt ad, e-posta adresi, Microsoft hesabı veya cihaz bilgisi içermez. Bu kaydı yalnızca satışları saymak ve aynı satın alımın iki kez sayılmasını önlemek için kullanırız; rastgele numara yalnızca geri döndürülemez şekilde dönüştürülmüş (karma) biçimde saklanır. Her internet isteğinde olduğu gibi sunucu IP adresinizi alır; sunucu erişim günlükleri 30 gün sonra otomatik olarak silinir.</p>"
     },
     {
       "id": "permissions",
@@ -103,7 +104,7 @@
     {
       "id": "history",
       "title": "Değişiklik geçmişi",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> Uygulama bazında genel bakış eklendi; Android için Clipboard+ ve FloatNote+ uygulamalarında Google Drive yedekleme ve eşitleme, reklam rızası, internet bağlantıları (döviz kurları, fiyatlar, ML Kit), web sitesinin kullandığı depolama ve e-postalar hakkında bilgiler eklendi. İzin açıklamaları uygulamalara uygun olacak şekilde düzeltildi ve politika yeniden düzenlendi. PhotoCleaner+ for Windows ile ilgili bilgiler eklendi.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> İletişim e-posta adresi değiştirildi.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Windows için FloatNote+ uygulamasının bulut eşitleme bilgileri eklendi.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Windows için Clipboard+ uygulamasının bulut eşitleme bilgileri eklendi.</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-17\">2026-09-17</time> Windows için PhotoCleaner+, ReadFocus+ ve FloatTimer+ uygulamalarının bir PRO satın alımı tamamlandığında gönderdiği satın alma kaydı hakkında bilgi eklendi (Bölüm 1 ve 6).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> Uygulama bazında genel bakış eklendi; Android için Clipboard+ ve FloatNote+ uygulamalarında Google Drive yedekleme ve eşitleme, reklam rızası, internet bağlantıları (döviz kurları, fiyatlar, ML Kit), web sitesinin kullandığı depolama ve e-postalar hakkında bilgiler eklendi. İzin açıklamaları uygulamalara uygun olacak şekilde düzeltildi ve politika yeniden düzenlendi. PhotoCleaner+ for Windows ile ilgili bilgiler eklendi.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> İletişim e-posta adresi değiştirildi.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Windows için FloatNote+ uygulamasının bulut eşitleme bilgileri eklendi.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Windows için Clipboard+ uygulamasının bulut eşitleme bilgileri eklendi.</li></ul>"
     }
   ]
 }

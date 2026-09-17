@@ -90,7 +90,7 @@
       "audio",
       "adId"
     ],
-    "mergedManifest": "2026-09-14"
+    "mergedManifest": "2026-09-15"
   },
   "photocleaner": {
     "platform": "android",
@@ -102,7 +102,7 @@
     "perms": [
       "adId"
     ],
-    "mergedManifest": "2026-09-10"
+    "mergedManifest": "2026-09-15"
   },
   "readfocus": {
     "platform": "android",
@@ -145,7 +145,8 @@
   "readfocuswin": {
     "platform": "windows",
     "data": [
-      "store"
+      "store",
+      "purchaseReport"
     ],
     "perms": []
   },
@@ -160,14 +161,16 @@
   "floattimerwin": {
     "platform": "windows",
     "data": [
-      "store"
+      "store",
+      "purchaseReport"
     ],
     "perms": []
   },
   "photocleanerwin": {
     "platform": "windows",
     "data": [
-      "store"
+      "store",
+      "purchaseReport"
     ],
     "perms": []
   }

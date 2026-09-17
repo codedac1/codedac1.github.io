@@ -5,6 +5,7 @@
 //  표만큼은 앱 코드에서 직접 뽑는다.
 //
 //  - data (외부 연결): 광고 SDK · 결제 · Google Drive 범위 · 외부 API 호스트 · ML Kit · Microsoft Store
+//    · CodeDAC 구매 기록 서버(msstore-report, Windows 앱이 PRO 구매 완료 시 보고 — 방침 6항)
 //  - perms (주요 권한): 소스 AndroidManifest 에 앱이 직접 선언한 권한(사용자에게 의미 있는 것만)
 //    + 광고 ID 는 라이브러리가 붙이므로 빌드된 merged manifest 에서 확인한다.
 //    (merged manifest 의 다른 권한은 WorkManager 등 라이브러리가 붙인 것이라 표에는 싣지 않는다.)
@@ -38,7 +39,7 @@ const PERM_CODE = {
   'android.permission.MODIFY_AUDIO_SETTINGS': 'audio',
 };
 const PERM_ORDER = ['overlay', 'notifications', 'foreground', 'boot', 'battery', 'audio', 'adId'];
-const DATA_ORDER = ['ads', 'billing', 'store', 'driveSync', 'driveBackup', 'fx', 'crypto', 'mlkit'];
+const DATA_ORDER = ['ads', 'billing', 'store', 'purchaseReport', 'driveSync', 'driveBackup', 'fx', 'crypto', 'mlkit'];
 
 // 소스에 나오는 외부 호스트 → 코드. 문서·정책 링크처럼 앱이 데이터를 주고받지 않는 주소는 IGNORE.
 const HOST_CODE = {
@@ -47,6 +48,8 @@ const HOST_CODE = {
   'api.binance.com': 'crypto', 'api1.binance.com': 'crypto', 'api2.binance.com': 'crypto',
   'api3.binance.com': 'crypto', 'api4.binance.com': 'crypto',
   'www.googleapis.com': null, // Google Drive — 범위(scope)로 따로 판정
+  // 자사 구매 기록 서버(Data/notify, Cloud Run). **방침 1·6항이 이 전송을 예외로 적고 있다** — 다른 앱에 붙이면 방침도 고칠 것.
+  'msstore-report-847105046915.asia-northeast3.run.app': 'purchaseReport',
 };
 const HOST_IGNORE = /(^|\.)(android\.com|google\.com|googleusercontent\.com|microsoft\.com|codedac\.com|github\.com|apache\.org|w3\.org|schemas\.|example\.|play\.google\.com)$/;
 
@@ -117,7 +120,8 @@ function scanWindows(project) {
     if (/\bStoreContext\b/.test(src)) data.push('store');
     for (const m of src.matchAll(/https?:\/\/([a-zA-Z0-9.-]+\.[a-z]{2,})/g)) {
       const host = m[1].toLowerCase();
-      if (!(host in HOST_CODE) && !HOST_IGNORE.test(host)) warnings.push(`모르는 외부 호스트 ${host} (${path.basename(f)})`);
+      if (host in HOST_CODE) { if (HOST_CODE[host]) data.push(HOST_CODE[host]); }
+      else if (!HOST_IGNORE.test(host)) warnings.push(`모르는 외부 호스트 ${host} (${path.basename(f)})`);
     }
   }
   return { platform: 'windows', data: sortBy(data, DATA_ORDER), perms: [], warnings: [...new Set(warnings)] };

@@ -1,13 +1,13 @@
 {
   "metaTitle": "Política de Privacidad | CodeDAC",
-  "metaDesc": "Política de Privacidad de las aplicaciones de CodeDAC para Android y Windows. Sin servidores de la empresa, el procesamiento se queda en tu dispositivo y se detallan las conexiones y los permisos de cada aplicación.",
+  "metaDesc": "Política de Privacidad de las aplicaciones de CodeDAC para Android y Windows. Sin registro, el procesamiento se queda en tu dispositivo y se detallan las conexiones y los permisos de cada aplicación.",
   "title": "Política de Privacidad",
-  "updated": "Última actualización: 15 de septiembre de 2026",
+  "updated": "Última actualización: 17 de septiembre de 2026",
   "firstEffective": "Primera entrada en vigor: 15 de julio de 2026",
   "tocTitle": "Índice",
   "summaryTitle": "Resumen",
   "summary": [
-    "No hay registro, y CodeDAC no opera ningún servidor que reciba o almacene tus datos.",
+    "No hay registro, y CodeDAC no opera ningún servidor que reciba o almacene tus datos. La única excepción es el registro de compra que envían las apps de Windows al completarse una compra de PRO (Sección 6).",
     "De forma predeterminada, los datos de las aplicaciones se almacenan solo en tu dispositivo.",
     "La copia de seguridad y la sincronización con Google Drive de Clipboard+ y FloatNote+ son opcionales y solo guardan en tu propio Drive.",
     "Los anuncios de nuestras apps para Android los sirve Google AdMob, y donde es obligatorio se pide primero el consentimiento. Nuestras apps para Windows no tienen anuncios.",
@@ -23,6 +23,7 @@
     "ads": "Anuncios (Google AdMob)",
     "billing": "Google Play Billing",
     "store": "Microsoft Store (licencia y compras)",
+    "purchaseReport": "Registro de compra enviado a CodeDAC",
     "driveSync": "Sincronización con Google Drive (opcional)",
     "driveBackup": "Copia de seguridad en Google Drive (opcional)",
     "fx": "Tipos de cambio (Frankfurter)",
@@ -43,7 +44,7 @@
     {
       "id": "principle",
       "title": "1. Principio fundamental",
-      "html": "<p>Puedes usar las Aplicaciones sin crear una cuenta ni iniciar sesión. No operamos ningún servidor que reciba o almacene tus datos, y los datos que manejan las Aplicaciones se almacenan y procesan en tu dispositivo de forma predeterminada. Las únicas excepciones son las funciones opcionales que tú mismo activas (Sección 3) y los servicios externos de los que dependen las Aplicaciones (Secciones 4–6), todo ello descrito a continuación.</p>"
+      "html": "<p>Puedes usar las Aplicaciones sin crear una cuenta ni iniciar sesión. No operamos ningún servidor que reciba o almacene tus datos, y los datos que manejan las Aplicaciones se almacenan y procesan en tu dispositivo de forma predeterminada. Las únicas excepciones son las funciones opcionales que tú mismo activas (Sección 3) y los servicios externos de los que dependen las Aplicaciones (Secciones 4–6), todo ello descrito a continuación. El único caso en que se envía información a nuestro servidor es el registro de compra de las apps de Windows (Sección 6).</p>"
     },
     {
       "id": "device",
@@ -68,7 +69,7 @@
     {
       "id": "payments",
       "title": "6. Pagos",
-      "html": "<ul><li><strong>Android.</strong> Las compras de PRO se procesan a través de Google Play Billing.</li><li><strong>Windows.</strong> Las compras de PRO se procesan a través de Microsoft Store.</li></ul><p>Cada tienda gestiona el pago; nunca recibimos el número de tu tarjeta ni otros datos de pago. Las apps solo reciben de la tienda el estado de compra necesario para comprobar tu acceso PRO.</p>"
+      "html": "<ul><li><strong>Android.</strong> Las compras de PRO se procesan a través de Google Play Billing.</li><li><strong>Windows.</strong> Las compras de PRO se procesan a través de Microsoft Store.</li></ul><p>Cada tienda gestiona el pago; nunca recibimos el número de tu tarjeta ni otros datos de pago. Las apps solo reciben de la tienda el estado de compra necesario para comprobar tu acceso PRO.</p><p><strong>Registro de compra de las apps de Windows.</strong> Cuando se completa una compra de PRO en PhotoCleaner+, ReadFocus+ o FloatTimer+ para Windows, la app envía un breve registro al servidor de CodeDAC (alojado en Google Cloud): el ID del producto, el precio y la moneda que muestra la tienda, la configuración de país o región de Windows, la versión de la app y un número aleatorio creado para esa instalación. No incluye nombre, dirección de correo electrónico, cuenta de Microsoft ni información del dispositivo. Lo usamos solo para contabilizar las ventas y evitar contar dos veces la misma compra; el número aleatorio se guarda únicamente de forma transformada e irreversible (hash). Como en cualquier solicitud por internet, el servidor recibe tu dirección IP; los registros de acceso del servidor se eliminan automáticamente a los 30 días.</p>"
     },
     {
       "id": "permissions",
@@ -103,7 +104,7 @@
     {
       "id": "history",
       "title": "Historial de cambios",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-15\">2026-09-15</time> Se añadió el resumen por aplicación y se incorporó información sobre la copia de seguridad y la sincronización con Google Drive de Clipboard+ y FloatNote+ para Android, el consentimiento de anuncios, las conexiones a internet (tipos de cambio, precios, ML Kit), el almacenamiento del sitio web y los correos electrónicos. Se corrigieron las descripciones de los permisos para que coincidan con las apps y se reorganizó la política. Se añadió información sobre PhotoCleaner+ for Windows.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Se cambió la dirección de correo electrónico de contacto.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Se añadió información sobre la sincronización en la nube de FloatNote+ para Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Se añadió información sobre la sincronización en la nube de Clipboard+ para Windows.</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-17\">2026-09-17</time> Se añadió información sobre el registro de compra que envían PhotoCleaner+, ReadFocus+ y FloatTimer+ para Windows al completarse una compra de PRO (Secciones 1 y 6).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> Se añadió el resumen por aplicación y se incorporó información sobre la copia de seguridad y la sincronización con Google Drive de Clipboard+ y FloatNote+ para Android, el consentimiento de anuncios, las conexiones a internet (tipos de cambio, precios, ML Kit), el almacenamiento del sitio web y los correos electrónicos. Se corrigieron las descripciones de los permisos para que coincidan con las apps y se reorganizó la política. Se añadió información sobre PhotoCleaner+ for Windows.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Se cambió la dirección de correo electrónico de contacto.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Se añadió información sobre la sincronización en la nube de FloatNote+ para Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Se añadió información sobre la sincronización en la nube de Clipboard+ para Windows.</li></ul>"
     }
   ]
 }
