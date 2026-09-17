@@ -69,7 +69,7 @@
     {
       "id": "payments",
       "title": "6. 결제",
-      "html": "<ul><li><strong>Android.</strong> PRO 구매는 Google Play 결제로 처리됩니다.</li><li><strong>Windows.</strong> PRO 구매는 Microsoft Store로 처리됩니다.</li></ul><p>결제는 각 스토어가 처리하며, 회사는 카드번호 같은 결제수단 정보를 받지 않습니다. 앱은 PRO 이용 권한을 확인하는 데 필요한 구매 상태만 스토어에서 받아 옵니다.</p><p><strong>Windows 앱의 구매 기록.</strong> Windows용 PhotoCleaner+·ReadFocus+·FloatTimer+에서 PRO 구매가 완료되면, 앱은 회사 서버(Google Cloud)로 짧은 구매 기록을 보냅니다. 여기에는 상품 ID, 스토어가 표시한 가격과 통화, Windows의 국가/지역 설정, 앱 버전, 설치마다 무작위로 만든 번호가 들어가며, 이름·이메일 주소·Microsoft 계정·기기 정보는 포함되지 않습니다. 이 기록은 매출을 집계하고 같은 구매가 두 번 집계되지 않게 하는 데에만 쓰며, 무작위 번호는 되돌릴 수 없게 변환(해시)한 형태로만 보관합니다. 여느 인터넷 요청과 마찬가지로 서버에는 IP 주소가 전달되며, 서버 접속 기록은 30일 뒤 자동으로 삭제됩니다.</p>"
+      "html": "<ul><li><strong>Android.</strong> PRO 구매는 Google Play 결제로 처리됩니다.</li><li><strong>Windows.</strong> PRO 구매는 Microsoft Store로 처리됩니다.</li></ul><p>결제는 각 스토어가 처리하며, 회사는 카드번호 같은 결제수단 정보를 받지 않습니다. 앱은 PRO 이용 권한을 확인하는 데 필요한 구매 상태만 스토어에서 받아 옵니다.</p><p><strong>Windows 앱의 구매 기록.</strong> Windows용 PhotoCleaner+·ReadFocus+·FloatTimer+·FloatCrypto+에서 PRO 구매가 완료되면, 앱은 회사 서버(Google Cloud)로 짧은 구매 기록을 보냅니다. 여기에는 상품 ID, 스토어가 표시한 가격과 통화, Windows의 국가/지역 설정, 앱 버전, 설치마다 무작위로 만든 번호가 들어가며, 이름·이메일 주소·Microsoft 계정·기기 정보는 포함되지 않습니다. 이 기록은 매출을 집계하고 같은 구매가 두 번 집계되지 않게 하는 데에만 쓰며, 무작위 번호는 되돌릴 수 없게 변환(해시)한 형태로만 보관합니다. 여느 인터넷 요청과 마찬가지로 서버에는 IP 주소가 전달되며, 서버 접속 기록은 30일 뒤 자동으로 삭제됩니다.</p>"
     },
     {
       "id": "permissions",
@@ -104,7 +104,7 @@
     {
       "id": "history",
       "title": "변경 이력",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-17\">2026-09-17</time> Windows용 PhotoCleaner+·ReadFocus+·FloatTimer+가 PRO 구매 완료 시 보내는 구매 기록 안내를 더했습니다(1항·6항).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 앱별 정보 처리 현황을 추가하고, Android용 Clipboard+·FloatNote+의 Google Drive 백업·동기화, 광고 동의, 인터넷 연결(환율·시세·ML Kit), 웹사이트 저장소와 문의 메일 안내를 더했습니다. 권한 설명을 실제 앱에 맞게 고치고 구성을 정리했습니다. PhotoCleaner+ for Windows 안내를 더했습니다.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 문의 이메일 주소를 변경했습니다.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Windows용 FloatNote+의 클라우드 동기화 안내를 추가했습니다.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Windows용 Clipboard+의 클라우드 동기화 안내를 추가했습니다.</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-17\">2026-09-17</time> Windows용 PhotoCleaner+·ReadFocus+·FloatTimer+·FloatCrypto+가 PRO 구매 완료 시 보내는 구매 기록 안내를 더했습니다(1항·6항).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 앱별 정보 처리 현황을 추가하고, Android용 Clipboard+·FloatNote+의 Google Drive 백업·동기화, 광고 동의, 인터넷 연결(환율·시세·ML Kit), 웹사이트 저장소와 문의 메일 안내를 더했습니다. 권한 설명을 실제 앱에 맞게 고치고 구성을 정리했습니다. PhotoCleaner+ for Windows 안내를 더했습니다.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 문의 이메일 주소를 변경했습니다.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Windows용 FloatNote+의 클라우드 동기화 안내를 추가했습니다.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Windows용 Clipboard+의 클라우드 동기화 안내를 추가했습니다.</li></ul>"
     }
   ]
 }

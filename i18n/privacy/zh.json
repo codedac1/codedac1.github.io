@@ -69,7 +69,7 @@
     {
       "id": "payments",
       "title": "6. 付款",
-      "html": "<ul><li><strong>Android。</strong> PRO 购买由 Google Play 结算处理。</li><li><strong>Windows。</strong> PRO 购买由 Microsoft Store 处理。</li></ul><p>付款由各商店处理；我们绝不会收到您的卡号或其他付款信息。应用仅从商店接收核验您 PRO 使用权限所需的购买状态。</p><p><strong>Windows 版应用的购买记录。</strong>当 Windows 版 PhotoCleaner+、ReadFocus+ 或 FloatTimer+ 完成 PRO 购买时，应用会向 CodeDAC 的服务器（托管于 Google Cloud）发送一条简短记录：产品 ID、商店显示的价格和币种、Windows 的国家或地区设置、应用版本，以及为该次安装随机生成的编号。记录中不包含姓名、电子邮件地址、Microsoft 账户或设备信息。我们仅将其用于统计销售额并避免同一笔购买被重复计算；随机编号仅以不可逆转换（哈希）后的形式保存。与任何互联网请求一样，服务器会收到您的 IP 地址；服务器访问日志会在 30 天后自动删除。</p>"
+      "html": "<ul><li><strong>Android。</strong> PRO 购买由 Google Play 结算处理。</li><li><strong>Windows。</strong> PRO 购买由 Microsoft Store 处理。</li></ul><p>付款由各商店处理；我们绝不会收到您的卡号或其他付款信息。应用仅从商店接收核验您 PRO 使用权限所需的购买状态。</p><p><strong>Windows 版应用的购买记录。</strong>当 Windows 版 PhotoCleaner+、ReadFocus+、FloatTimer+ 或 FloatCrypto+ 完成 PRO 购买时，应用会向 CodeDAC 的服务器（托管于 Google Cloud）发送一条简短记录：产品 ID、商店显示的价格和币种、Windows 的国家或地区设置、应用版本，以及为该次安装随机生成的编号。记录中不包含姓名、电子邮件地址、Microsoft 账户或设备信息。我们仅将其用于统计销售额并避免同一笔购买被重复计算；随机编号仅以不可逆转换（哈希）后的形式保存。与任何互联网请求一样，服务器会收到您的 IP 地址；服务器访问日志会在 30 天后自动删除。</p>"
     },
     {
       "id": "permissions",
@@ -104,7 +104,7 @@
     {
       "id": "history",
       "title": "变更记录",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-17\">2026-09-17</time> 新增 Windows 版 PhotoCleaner+、ReadFocus+ 和 FloatTimer+ 在完成 PRO 购买时发送购买记录的相关说明（第 1 条和第 6 条）。</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 新增各应用概览，并新增有关 Android 版 Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步、广告同意、互联网连接（汇率、价格、ML Kit）、网站存储以及电子邮件的信息。按照应用实际情况更正了权限说明，并重新整理了本政策的结构。新增了 PhotoCleaner+ for Windows 的相关信息。</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 更改了联系邮箱地址。</li><li><time datetime=\"2026-08-03\">2026-08-03</time> 新增 Windows 版 FloatNote+ 的云同步信息。</li><li><time datetime=\"2026-07-15\">2026-07-15</time> 新增 Windows 版 Clipboard+ 的云同步信息。</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-17\">2026-09-17</time> 新增 Windows 版 PhotoCleaner+、ReadFocus+、FloatTimer+ 和 FloatCrypto+ 在完成 PRO 购买时发送购买记录的相关说明（第 1 条和第 6 条）。</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 新增各应用概览，并新增有关 Android 版 Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步、广告同意、互联网连接（汇率、价格、ML Kit）、网站存储以及电子邮件的信息。按照应用实际情况更正了权限说明，并重新整理了本政策的结构。新增了 PhotoCleaner+ for Windows 的相关信息。</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 更改了联系邮箱地址。</li><li><time datetime=\"2026-08-03\">2026-08-03</time> 新增 Windows 版 FloatNote+ 的云同步信息。</li><li><time datetime=\"2026-07-15\">2026-07-15</time> 新增 Windows 版 Clipboard+ 的云同步信息。</li></ul>"
     }
   ]
 }
