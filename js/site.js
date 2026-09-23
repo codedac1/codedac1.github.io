@@ -262,3 +262,37 @@
     bar.inert = !show;
   }).observe(anchor);
 })();
+
+// ===== 스토어 클릭 측정 =====
+//  스토어 버튼 클릭을 GA4 이벤트 store_click 으로 보낸다(애널리틱스에서 주요 이벤트로 지정).
+//  위치는 링크에 이미 박혀 있는 값을 쓴다 — Play 는 referrer 의 utm_medium(detail-hero 등),
+//  MS Store 는 cid(site-detail-hero-en → detail-hero). 앱은 Play 패키지명 / MS 제품 ID.
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    let u;
+    try { u = new URL(a.href); } catch (err) { return; }
+    let platform, app, where = '';
+    if (u.hostname === 'play.google.com') {
+      platform = 'android';
+      app = u.searchParams.get('id') || '';
+      const ref = new URLSearchParams(u.searchParams.get('referrer') || '');
+      where = ref.get('utm_medium') || '';
+    } else if (u.hostname === 'apps.microsoft.com') {
+      platform = 'windows';
+      const m = u.pathname.match(/\/detail\/([^/?#]+)/);
+      app = m ? m[1] : '';
+      where = (u.searchParams.get('cid') || '').replace(/^site-/, '').replace(/-[a-z]{2,3}$/, '');
+    } else {
+      return;
+    }
+    window.gtag('event', 'store_click', {
+      store_platform: platform,
+      store_app: app,
+      link_location: where,
+      page_lang: document.documentElement.lang || '',
+    });
+  });
+})();
