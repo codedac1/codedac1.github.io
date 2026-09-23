@@ -22,7 +22,8 @@
     "slug": "floatcrypto",
     "name": "FloatCrypto+",
     "shots": 5,
-    "store": "https://play.google.com/store/apps/details?id=com.codedac.floatcrypto"
+    "store": "https://play.google.com/store/apps/details?id=com.codedac.floatcrypto",
+    "counterpart": "floatcryptowin"
   },
   {
     "slug": "floattimer",
@@ -97,5 +98,13 @@
     "store": "https://apps.microsoft.com/detail/9P22XH3N66VM",
     "platform": "windows",
     "counterpart": "photocleaner"
+  },
+  {
+    "slug": "floatcryptowin",
+    "name": "FloatCrypto+ for Windows",
+    "shots": 5,
+    "store": "",
+    "platform": "windows",
+    "counterpart": "floatcrypto"
   }
 ]

@@ -514,6 +514,36 @@
           "a": "Weder noch. Erkennen, Maskieren und Exportieren laufen komplett auf deinem PC, ohne Konto und ohne Upload. Maskiert wird eine Kopie, die App verweigert das Speichern über das Original, und gespeicherte Kopien werden neu codiert, sodass sie keine Metadaten des Originals enthalten."
         }
       ]
+    },
+    "floatcryptowin": {
+      "name": "FloatCrypto+ for Windows",
+      "tag": "Schwebend",
+      "seo": "Desktop-Krypto-Ticker",
+      "desc": "Ein Live-Kryptoticker, der unter Windows über jedem Fenster schwebt — mit Kursalarmen und Charts.",
+      "tagline": "Bitcoin, Ethereum und deine Altcoins in einer schmalen Leiste über jedem Fenster — der Markt im Augenwinkel, während du arbeitest, ohne dass er dir je den Fokus nimmt.",
+      "long": "FloatCrypto+ for Windows ist die Desktop-Version der Android-App FloatCrypto+. Sie legt einen schmalen Kursticker über jedes Fenster — Browser, Dokumente, Videocall — und zeigt für jeden Coin Symbol und 24-Stunden-Änderung, farbig nach Richtung. Kein Tab-Wechsel, kein Neuladen. Zieh den Ticker, wohin du willst, passe Deckkraft und Schriftgröße an oder klappe ihn zu einer kleinen Blase ein, die sich an den Bildschirmrand schmiegt; der App, in der du gerade tippst, nimmt er nie den Fokus. Fahr mit der Maus über das Symbol im Infobereich, um eine vollständige Kurstabelle zu sehen — auch bei ausgeschaltetem Ticker. Lege ein Ziel über oder unter dem aktuellen Kurs fest und erhalte eine Desktop-Benachrichtigung, sobald der Markt es kreuzt, einmalig oder wiederholt. Wähle Coins aus Hunderten auf Binance gehandelten Paaren, bring sie per Ziehen in deine Reihenfolge und öffne mit einem Doppelklick auf einen Coin einen Chart mit Hoch, Tief, Eröffnung und Änderung im Zeitraum. Die Kurse stammen aus den öffentlichen Marktdaten von Binance, mit automatischem Ausweichen auf alternative Server und CoinGecko, können bis zu 30 Sekunden verzögert sein und dienen nur zur Information — FloatCrypto+ ist keine Trading-App, und nichts darin ist eine Anlageberatung.",
+      "features": [
+        "Live-Kursticker über jedem Fenster — beliebig verschieben, Deckkraft und Schriftgröße anpassen oder zu einer Blase am Bildschirmrand einklappen",
+        "Nimmt nie den Fokus — der Ticker bleibt sichtbar, während dein Cursor in der App bleibt, in der du arbeitest",
+        "Kursalarme über oder unter einem Ziel, einmalig oder wiederholt, direkt aus dem ⋮-Menü eines Coins angelegt — der Coin ist schon ausgewählt",
+        "Watchlist aus Hunderten Binance-Paaren, Sortieren per Ziehen und 1-, 7- und 30-Tage-Charts mit Hoch, Tief, Eröffnung und Änderung im Zeitraum",
+        "Westliche (Grün steigt, Rot fällt) oder östliche (Rot steigt, Blau fällt) Kursfarben und eine vollständige Kurstabelle am Infobereich-Symbol",
+        "Globale Tastenkürzel, Infobereich, Start mit Windows, helles und dunkles Design, 21 Sprachen. Keine Werbung, kein Konto"
+      ],
+      "faq": [
+        {
+          "q": "Ist das dieselbe App wie FloatCrypto+ auf Android?",
+          "a": "Es ist dieselbe App, gebaut für Windows, mit demselben schwebenden Ticker, denselben Kursalarmen, derselben Watchlist und denselben Charts. Es sind zwei getrennte Apps aus dem jeweils eigenen Store, und sie synchronisieren nicht — Watchlist und Alarme werden auf dem Gerät gespeichert, auf dem du sie eingerichtet hast."
+        },
+        {
+          "q": "Stört der Ticker bei dem, was ich gerade mache?",
+          "a": "Nein. Der Ticker ist eine schwebende Leiste, die nie den Fokus übernimmt; Klicken oder Ziehen lässt deinen Cursor genau dort, wo du getippt hast. Senke die Deckkraft, verkleinere die Schrift, klappe ihn zu einer Blase ein, die sich an den Bildschirmrand schmiegt, oder blende ihn mit Strg+Alt+T aus — das Symbol im Infobereich zeigt beim Darüberfahren trotzdem alle Kurse."
+        },
+        {
+          "q": "Woher kommen die Kurse?",
+          "a": "Aus den öffentlichen Marktdaten von Binance, mit automatischem Ausweichen auf alternative Server und CoinGecko, damit der Ticker weiterläuft, wenn eine Quelle nicht erreichbar ist. Kurse können bis zu 30 Sekunden verzögert sein und dienen nur zur Information. FloatCrypto+ handelt nicht, verbindet sich mit keinem Börsenkonto und verwahrt keine Gelder, und nichts darin ist eine Anlageberatung."
+        }
+      ]
     }
   }
 }

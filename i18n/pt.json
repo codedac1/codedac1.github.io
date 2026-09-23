@@ -514,6 +514,36 @@
           "a": "Nem uma coisa nem outra. Detecção, máscara e exportação acontecem no seu PC, sem conta e sem enviar nada. A máscara é aplicada a uma cópia, o app não salva por cima do original e as cópias salvas são recodificadas, sem os metadados do original."
         }
       ]
+    },
+    "floatcryptowin": {
+      "name": "FloatCrypto+ for Windows",
+      "tag": "Flutuante",
+      "seo": "ticker cripto para PC",
+      "desc": "Um ticker de preços cripto ao vivo que flutua sobre todas as janelas do Windows, com alertas de preço e gráficos.",
+      "tagline": "Bitcoin, Ethereum e suas altcoins numa faixa fina por cima de todas as janelas — o mercado no canto do olho enquanto você trabalha, sem nunca roubar o foco.",
+      "long": "O FloatCrypto+ for Windows é a versão para desktop do app FloatCrypto+ para Android. Ele mantém um ticker de preços fino por cima de todas as janelas — navegador, documentos, videochamada — mostrando o símbolo e a variação de 24 horas de cada moeda, colorida conforme a direção. Sem trocar de aba, sem recarregar a página. Arraste para onde quiser, ajuste a opacidade e o tamanho do texto, ou recolha-o em uma pequena bolha que se encaixa na borda da tela; ele nunca rouba o foco do aplicativo em que você está digitando. Passe o mouse sobre o ícone da bandeja para ver uma tabela completa de preços, mesmo com o ticker desligado. Defina um alvo acima ou abaixo do preço atual e receba uma notificação na área de trabalho assim que o mercado o cruzar, uma única vez ou de forma repetida. Escolha moedas entre centenas de pares negociados na Binance, organize-as arrastando e clique duas vezes em qualquer moeda para abrir um gráfico com máxima, mínima, abertura e variação do período. Os preços vêm dos dados de mercado públicos da Binance, com troca automática para servidores alternativos e para o CoinGecko, podem ter até 30 segundos de atraso e são apenas informativos — o FloatCrypto+ não é um aplicativo de negociação, e nada nele é recomendação de investimento.",
+      "features": [
+        "Ticker de preços ao vivo por cima de todas as janelas — arraste, ajuste a opacidade e o tamanho do texto, ou recolha-o em uma bolha na borda da tela",
+        "Nunca rouba o foco — o ticker continua visível enquanto o cursor fica no aplicativo em que você está trabalhando",
+        "Alertas de preço acima ou abaixo de um alvo, únicos ou repetidos, criados direto do menu ⋮ da moeda já selecionada",
+        "Lista de acompanhamento com centenas de pares da Binance, reorganização arrastando e gráficos de 1, 7 e 30 dias com máxima, mínima, abertura e variação do período",
+        "Cores ocidentais (verde sobe, vermelho desce) ou orientais (vermelho sobe, azul desce) e tabela completa de preços no ícone da bandeja",
+        "Atalhos globais, bandeja do sistema, início com o Windows, temas claro e escuro, 21 idiomas. Sem anúncios, sem conta"
+      ],
+      "faq": [
+        {
+          "q": "É o mesmo aplicativo do FloatCrypto+ no Android?",
+          "a": "É o mesmo aplicativo feito para Windows, com o mesmo ticker flutuante, alertas de preço, lista de acompanhamento e gráficos. São dois aplicativos separados, cada um da sua própria loja, e eles não sincronizam — sua lista e seus alertas ficam salvos no dispositivo em que você os configurou."
+        },
+        {
+          "q": "O ticker atrapalha o que estou fazendo?",
+          "a": "Não. O ticker é uma faixa flutuante que nunca assume o foco, então clicar ou arrastar deixa o cursor exatamente onde você estava digitando. Reduza a opacidade, diminua o texto, recolha-o em uma bolha que se encaixa na borda da tela ou esconda-o com Ctrl+Alt+T — e o ícone da bandeja continua mostrando todos os preços quando você passa o mouse."
+        },
+        {
+          "q": "De onde vêm os preços?",
+          "a": "Dos dados de mercado públicos da Binance, com troca automática para servidores alternativos e para o CoinGecko, para que o ticker continue funcionando quando uma fonte estiver indisponível. Os preços podem ter até 30 segundos de atraso e são apenas informativos. O FloatCrypto+ não faz negociações, não se conecta a nenhuma conta de corretora e não guarda fundos, e nada nele é recomendação de investimento."
+        }
+      ]
     }
   }
 }

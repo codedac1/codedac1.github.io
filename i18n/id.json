@@ -514,6 +514,36 @@
           "a": "Tidak keduanya. Deteksi, penyamaran, dan ekspor semuanya berjalan di PC Anda tanpa akun dan tanpa unggahan. Penyamaran dilakukan pada salinan, aplikasi menolak menyimpan di atas file asli, dan salinan yang disimpan dikodekan ulang sehingga tidak membawa metadata file asli."
         }
       ]
+    },
+    "floatcryptowin": {
+      "name": "FloatCrypto+ for Windows",
+      "tag": "Floating",
+      "seo": "Ticker Harga Kripto PC",
+      "desc": "Ticker harga kripto langsung yang melayang di atas setiap jendela di Windows, dengan peringatan harga dan grafik.",
+      "tagline": "Bitcoin, Ethereum, dan altcoin Anda dalam satu strip ramping di atas setiap jendela — pasar selalu di sudut mata Anda saat bekerja, tanpa pernah merebut fokus.",
+      "long": "FloatCrypto+ for Windows adalah versi desktop dari aplikasi Android FloatCrypto+. Aplikasi ini menjaga ticker harga yang ramping di atas setiap jendela — browser, dokumen, panggilan video — dan menampilkan simbol serta perubahan 24 jam setiap koin, berwarna sesuai arah. Tanpa berpindah tab, tanpa memuat ulang halaman. Seret ticker ke mana saja, atur opasitas dan ukuran teksnya, atau ciutkan menjadi gelembung kecil yang menempel di tepi layar; ticker tidak pernah merebut fokus dari aplikasi tempat Anda mengetik. Arahkan kursor ke ikon baki sistem untuk tabel harga lengkap, bahkan saat ticker dimatikan. Tetapkan target di atas atau di bawah harga saat ini dan dapatkan notifikasi desktop begitu pasar melewatinya, sekali atau berulang. Pilih koin dari ratusan pasangan yang diperdagangkan di Binance, susun urutannya dengan menyeret, dan klik dua kali koin mana pun untuk grafik dengan harga tertinggi, terendah, pembukaan, dan perubahan periode. Harga berasal dari data pasar publik Binance dengan peralihan otomatis ke server alternatif dan CoinGecko, dapat tertunda hingga 30 detik, dan hanya untuk informasi — FloatCrypto+ bukan aplikasi trading, dan tidak ada isinya yang merupakan nasihat investasi.",
+      "features": [
+        "Ticker harga langsung di atas setiap jendela — seret ke mana saja, atur opasitas dan ukuran teks, atau ciutkan menjadi gelembung di tepi layar",
+        "Tidak pernah merebut fokus — ticker tetap terlihat sementara kursor Anda tetap di aplikasi yang sedang dipakai",
+        "Peringatan harga di atas atau di bawah target, sekali atau berulang, dibuat langsung dari menu ⋮ koin dengan koin yang sudah terpilih",
+        "Daftar pantau dari ratusan pasangan Binance, urutan yang bisa diseret, serta grafik 1, 7, dan 30 hari dengan harga tertinggi, terendah, pembukaan, dan perubahan periode",
+        "Warna Barat (hijau naik, merah turun) atau Timur (merah naik, biru turun), dan tabel harga lengkap di ikon baki sistem",
+        "Pintasan global, baki sistem, berjalan saat Windows dimulai, tema terang dan gelap, 21 bahasa. Tanpa iklan, tanpa akun"
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini aplikasi yang sama dengan FloatCrypto+ di Android?",
+          "a": "Ini aplikasi yang sama, dibuat untuk Windows, dengan ticker melayang, peringatan harga, daftar pantau, dan grafik yang sama. Keduanya adalah aplikasi terpisah, masing-masing dari tokonya sendiri, dan tidak tersinkron — daftar pantau dan peringatan disimpan di perangkat tempat Anda mengaturnya."
+        },
+        {
+          "q": "Apakah ticker akan mengganggu pekerjaan saya?",
+          "a": "Tidak. Ticker adalah strip melayang yang tidak pernah mengambil fokus, jadi mengklik atau menyeretnya tidak memindahkan kursor dari tempat Anda mengetik. Turunkan opasitasnya, perkecil teksnya, ciutkan menjadi gelembung yang menempel di tepi layar, atau sembunyikan dengan Ctrl+Alt+T — ikon baki sistem tetap menampilkan semua harga saat Anda mengarahkan kursor ke sana."
+        },
+        {
+          "q": "Dari mana asal harganya?",
+          "a": "Dari data pasar publik Binance, dengan peralihan otomatis ke server alternatif dan CoinGecko agar ticker tetap berjalan saat salah satu sumber tidak dapat dijangkau. Harga dapat tertunda hingga 30 detik dan hanya untuk informasi. FloatCrypto+ tidak melakukan trading, tidak terhubung ke akun bursa, dan tidak menyimpan dana apa pun, serta tidak ada isinya yang merupakan nasihat investasi."
+        }
+      ]
     }
   }
 }

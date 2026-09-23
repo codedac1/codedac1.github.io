@@ -514,6 +514,36 @@
           "a": "Ani jedno, ani drugie. Wykrywanie, maskowanie i eksport działają na Twoim PC, bez konta i bez przesyłania czegokolwiek. Maska trafia na kopię, aplikacja nie zapisuje na oryginale, a zapisane kopie są kodowane od nowa, bez metadanych oryginału."
         }
       ]
+    },
+    "floatcryptowin": {
+      "name": "FloatCrypto+ for Windows",
+      "tag": "Pływające narzędzia",
+      "seo": "Kursy kryptowalut na PC",
+      "desc": "Pasek kursów kryptowalut na żywo, który unosi się nad każdym oknem w Windows, z alertami cenowymi i wykresami.",
+      "tagline": "Bitcoin, Ethereum i Twoje altcoiny w wąskim pasku nad każdym oknem — rynek zawsze w kąciku oka, gdy pracujesz, a pasek nigdy nie odbiera fokusu.",
+      "long": "FloatCrypto+ for Windows to wersja na komputer aplikacji FloatCrypto+ na Androida. Trzyma wąski pasek kursów nad każdym oknem — przeglądarką, dokumentami, wideorozmową — z symbolem i zmianą 24-godzinną każdej monety, w kolorze zależnym od kierunku. Bez przełączania kart i odświeżania strony. Przeciągnij pasek, gdzie chcesz, ustaw przezroczystość i rozmiar tekstu albo zwiń go do małego bąbelka, który przylega do krawędzi ekranu; nigdy nie odbiera fokusu aplikacji, w której piszesz. Najedź na ikonę w zasobniku systemowym, aby zobaczyć pełną tabelę kursów — nawet przy wyłączonym pasku. Ustaw cel powyżej lub poniżej bieżącej ceny i otrzymaj powiadomienie na pulpicie, gdy tylko rynek go przekroczy — jednorazowo lub za każdym razem. Wybieraj monety spośród setek par notowanych na Binance, ustaw ich kolejność przeciąganiem i kliknij dwukrotnie dowolną monetę, aby otworzyć wykres z maksimum, minimum, otwarciem i zmianą w okresie. Kursy pochodzą z publicznych danych rynkowych Binance z automatycznym przełączeniem na serwery zapasowe i CoinGecko, mogą być opóźnione do 30 sekund i mają charakter wyłącznie informacyjny — FloatCrypto+ nie jest aplikacją do handlu i nic w niej nie stanowi porady inwestycyjnej.",
+      "features": [
+        "Pasek kursów na żywo nad każdym oknem — przeciągaj go, gdzie chcesz, ustaw przezroczystość i rozmiar tekstu albo zwiń do bąbelka przy krawędzi ekranu",
+        "Nigdy nie odbiera fokusu — pasek jest widoczny, a kursor zostaje w aplikacji, w której pracujesz",
+        "Alerty cenowe powyżej lub poniżej celu, jednorazowe lub powtarzane, dodawane prosto z menu ⋮ monety, która jest już wybrana",
+        "Lista obserwowanych z setek par Binance, kolejność zmieniana przeciąganiem oraz wykresy 1, 7 i 30 dni z maksimum, minimum, otwarciem i zmianą w okresie",
+        "Kolory zachodnie (zielony w górę, czerwony w dół) lub wschodnie (czerwony w górę, niebieski w dół) i pełna tabela kursów na ikonie w zasobniku",
+        "Globalne skróty, zasobnik systemowy, start z Windows, jasny i ciemny motyw, 21 języków. Bez reklam i bez konta"
+      ],
+      "faq": [
+        {
+          "q": "Czy to ta sama aplikacja co FloatCrypto+ na Androida?",
+          "a": "To ta sama aplikacja zbudowana dla Windows, z tym samym pływającym paskiem, alertami cenowymi, listą obserwowanych i wykresami. To dwie osobne aplikacje, każda z własnego sklepu, i nie synchronizują się — lista obserwowanych i alerty są zapisywane na urządzeniu, na którym je ustawiłeś."
+        },
+        {
+          "q": "Czy pasek przeszkadza w tym, co robię?",
+          "a": "Nie. Pasek to pływające okno, które nigdy nie przejmuje fokusu, więc kliknięcie lub przeciągnięcie zostawia kursor dokładnie tam, gdzie pisałeś. Zmniejsz krycie, pomniejsz tekst, zwiń pasek do bąbelka przylegającego do krawędzi ekranu albo ukryj go skrótem Ctrl+Alt+T — a ikona w zasobniku i tak pokaże wszystkie kursy po najechaniu kursorem."
+        },
+        {
+          "q": "Skąd pochodzą kursy?",
+          "a": "Z publicznych danych rynkowych Binance, z automatycznym przełączeniem na serwery zapasowe i CoinGecko, dzięki czemu pasek działa dalej, gdy jedno źródło jest nieosiągalne. Kursy mogą być opóźnione do 30 sekund i mają charakter wyłącznie informacyjny. FloatCrypto+ nie handluje, nie łączy się z kontem na giełdzie ani nie przechowuje żadnych środków, a nic w niej nie stanowi porady inwestycyjnej."
+        }
+      ]
     }
   }
 }

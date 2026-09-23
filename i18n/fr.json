@@ -514,6 +514,36 @@
           "a": "Ni l'un ni l'autre. Détection, masquage et export se font sur votre PC, sans compte et sans rien envoyer. Le masquage s'applique à une copie, l'application refuse d'enregistrer par-dessus l'original, et les copies enregistrées sont réencodées : elles ne contiennent aucune métadonnée de l'original."
         }
       ]
+    },
+    "floatcryptowin": {
+      "name": "FloatCrypto+ for Windows",
+      "tag": "Flottant",
+      "seo": "Bandeau crypto pour PC",
+      "desc": "Un bandeau de cours crypto en direct qui flotte au-dessus de toutes les fenêtres Windows, avec alertes de prix et graphiques.",
+      "tagline": "Bitcoin, Ethereum et vos altcoins dans un fin bandeau au-dessus de toutes les fenêtres : le marché du coin de l'œil pendant que vous travaillez, sans jamais voler le focus.",
+      "long": "FloatCrypto+ for Windows est la version bureau de l'appli Android FloatCrypto+. Elle garde un fin bandeau de cours au-dessus de toutes les fenêtres — navigateur, documents, visioconférence — avec le symbole et la variation sur 24 heures de chaque crypto, colorée selon le sens. Pas d'onglet à changer, pas de page à recharger. Déplacez le bandeau où vous voulez, réglez son opacité et la taille du texte, ou réduisez-le en une petite bulle qui se range contre le bord de l'écran ; il ne vole jamais le focus à l'application dans laquelle vous tapez. Survolez l'icône de la zone de notification pour voir un tableau complet des cours, même bandeau désactivé. Fixez un objectif au-dessus ou en dessous du cours actuel et recevez une notification sur le bureau dès que le marché le franchit, une seule fois ou de façon répétée. Choisissez vos cryptos parmi les centaines de paires échangées sur Binance, réorganisez-les par glisser-déposer et double-cliquez sur l'une d'elles pour ouvrir un graphique avec le plus haut, le plus bas, l'ouverture et la variation de la période. Les cours proviennent des données de marché publiques de Binance, avec bascule automatique vers des serveurs de secours et CoinGecko ; ils peuvent avoir jusqu'à 30 secondes de retard et sont fournis à titre indicatif. FloatCrypto+ n'est pas une application de trading et rien dans l'application ne constitue un conseil en investissement.",
+      "features": [
+        "Bandeau de cours en direct au-dessus de toutes les fenêtres — déplaçable, opacité et taille du texte réglables, réductible en bulle contre le bord de l'écran",
+        "Ne vole jamais le focus — le bandeau reste visible pendant que votre curseur reste dans l'application où vous travaillez",
+        "Alertes de prix au-dessus ou en dessous d'un objectif, uniques ou répétées, créées depuis le menu ⋮ d'une crypto déjà sélectionnée",
+        "Liste de suivi parmi les centaines de paires Binance, réorganisation par glisser-déposer et graphiques 1 jour, 7 jours et 30 jours avec plus haut, plus bas, ouverture et variation",
+        "Couleurs occidentales (vert à la hausse, rouge à la baisse) ou orientales (rouge à la hausse, bleu à la baisse), et tableau complet des cours sur l'icône de la zone de notification",
+        "Raccourcis globaux, zone de notification, démarrage avec Windows, thèmes clair et sombre, 21 langues. Sans publicité, sans compte"
+      ],
+      "faq": [
+        {
+          "q": "Est-ce la même application que FloatCrypto+ sur Android ?",
+          "a": "C'est la même application conçue pour Windows, avec le même bandeau flottant, les mêmes alertes de prix, la même liste de suivi et les mêmes graphiques. Ce sont deux applications distinctes, chacune sur sa propre boutique, et elles ne se synchronisent pas : votre liste et vos alertes sont enregistrées sur l'appareil où vous les avez configurées."
+        },
+        {
+          "q": "Le bandeau gêne-t-il ce que je fais ?",
+          "a": "Non. Le bandeau est une barre flottante qui ne prend jamais le focus : le cliquer ou le déplacer laisse votre curseur exactement là où vous écriviez. Baissez son opacité, réduisez le texte, repliez-le en une bulle qui se range contre le bord de l'écran ou masquez-le avec Ctrl+Alt+T — l'icône de la zone de notification affiche toujours tous les cours au survol."
+        },
+        {
+          "q": "D'où viennent les cours ?",
+          "a": "Des données de marché publiques de Binance, avec bascule automatique vers des serveurs de secours et CoinGecko pour que le bandeau continue de tourner quand une source est injoignable. Les cours peuvent avoir jusqu'à 30 secondes de retard et sont fournis à titre indicatif. FloatCrypto+ ne passe aucun ordre, ne se connecte à aucun compte de plateforme d'échange et ne détient aucun fonds, et rien dans l'application ne constitue un conseil en investissement."
+        }
+      ]
     }
   }
 }

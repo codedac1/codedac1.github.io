@@ -514,6 +514,36 @@
           "a": "Geen van beide. Detecteren, maskeren en exporteren gebeuren op je pc, zonder account en zonder dat er iets wordt geüpload. Het maskeren gebeurt op een kopie, de app slaat nooit over het origineel op en opgeslagen kopieën worden opnieuw gecodeerd, zonder de metadata van het origineel."
         }
       ]
+    },
+    "floatcryptowin": {
+      "name": "FloatCrypto+ for Windows",
+      "tag": "Zwevend",
+      "seo": "Cryptoticker voor pc",
+      "desc": "Een live cryptokoersticker die boven elk venster in Windows zweeft, met koersmeldingen en grafieken.",
+      "tagline": "Bitcoin, Ethereum en je altcoins in een smalle balk boven elk venster — de markt in je ooghoek terwijl je werkt, zonder ooit de focus af te pakken.",
+      "long": "FloatCrypto+ for Windows is de desktopversie van de Android-app FloatCrypto+. Hij houdt een smalle koersticker boven elk venster — je browser, je documenten, je videogesprek — met het symbool en de 24-uurswijziging van elke munt, gekleurd naar richting. Geen tabblad wisselen, geen pagina herladen. Sleep de ticker waar je wilt, stel de dekking en tekstgrootte in, of klap hem in tot een kleine bel die tegen de schermrand aanligt; hij neemt nooit de focus weg van de app waarin je typt. Beweeg over het pictogram in het systeemvak voor een volledige koerstabel, ook als de ticker uit staat. Stel een doel boven of onder de huidige koers in en krijg een bureaubladmelding zodra de markt het passeert, eenmalig of herhalend. Kies munten uit de honderden paren die op Binance worden verhandeld, zet ze in je eigen volgorde door te slepen en dubbelklik op een munt voor een grafiek met het hoogste, laagste, openings- en wijzigingscijfer van de periode. Koersen komen uit de openbare marktgegevens van Binance, met automatisch uitwijken naar alternatieve servers en CoinGecko, kunnen tot 30 seconden vertraagd zijn en zijn alleen ter informatie — FloatCrypto+ is geen handelsapp en niets erin is beleggingsadvies.",
+      "features": [
+        "Live koersticker boven elk venster — sleep hem waar je wilt, stel dekking en tekstgrootte in, of klap hem in tot een bel aan de schermrand",
+        "Neemt nooit de focus over — de ticker blijft in beeld terwijl je cursor in de app blijft waarin je werkt",
+        "Koersmeldingen boven of onder een doel, eenmalig of herhalend, direct aan te maken vanuit het ⋮-menu van een munt met de munt al gekozen",
+        "Volglijst uit honderden Binance-paren, sorteren door te slepen en grafieken van 1, 7 en 30 dagen met hoogste, laagste, opening en wijziging van de periode",
+        "Westerse (groen omhoog, rood omlaag) of oosterse (rood omhoog, blauw omlaag) kleuren, en een volledige koerstabel op het pictogram in het systeemvak",
+        "Globale sneltoetsen, systeemvak, opstarten met Windows, licht en donker thema, 21 talen. Geen advertenties, geen account"
+      ],
+      "faq": [
+        {
+          "q": "Is dit dezelfde app als FloatCrypto+ op Android?",
+          "a": "Het is dezelfde app, gebouwd voor Windows, met dezelfde zwevende ticker, koersmeldingen, volglijst en grafieken. Het zijn twee losse apps, elk uit een eigen store, en ze synchroniseren niet — je volglijst en meldingen worden bewaard op het apparaat waarop je ze hebt ingesteld."
+        },
+        {
+          "q": "Zit de ticker in de weg bij wat ik aan het doen ben?",
+          "a": "Nee. De ticker is een zwevende balk die nooit de focus overneemt, dus klikken of slepen laat je cursor precies staan waar je aan het typen was. Verlaag de dekking, maak de tekst kleiner, klap hem in tot een bel die tegen de schermrand aanligt of verberg hem met Ctrl+Alt+T — het pictogram in het systeemvak toont nog steeds alle koersen als je eroverheen beweegt."
+        },
+        {
+          "q": "Waar komen de koersen vandaan?",
+          "a": "Uit de openbare marktgegevens van Binance, met automatisch uitwijken naar alternatieve servers en CoinGecko, zodat de ticker blijft lopen als een bron onbereikbaar is. Koersen kunnen tot 30 seconden vertraagd zijn en zijn alleen ter informatie. FloatCrypto+ handelt niet, maakt geen verbinding met een exchange-account en beheert geen geld, en niets erin is beleggingsadvies."
+        }
+      ]
     }
   }
 }

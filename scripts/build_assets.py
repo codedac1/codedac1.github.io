@@ -26,6 +26,8 @@ APPS = {
     "clipboardwin":  (r"ClipboardWin\src\ClipboardPlus\Assets\app.ico", r"ClipboardWin\docs\store-screenshots\en", "store-en-*.png"),
     "floatcalc":     (r"FloatCalc\FloatCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp", r"FloatCalc\Resource\PlayStore등록자료\en", "*.png"),
     "floatcrypto":   (r"FloatCrypto\Resource\icon_512.png", r"FloatCrypto\Resource\PlayStore등록자료\en", "*.png"),
+    # 다른 Windows 판과 같은 배치(docs\store-screenshots\en).
+    "floatcryptowin": (r"FloatCryptoWin\src\FloatCryptoPlus\Assets\app.ico", r"FloatCryptoWin\docs\store-screenshots\en", "store-en-*.png"),
     "floatnote":     (r"FloatNote\Resource\icon_512.png", r"FloatNote\Resource\PlayStore등록자료\en", "*.png"),
     # 스크린샷이 언어별 폴더로 갈라지면서 docs\store-screenshots\en 으로 옮겨 갔다(ClipboardWin 과 같은 배치).
     "floatnotewin":  (r"FloatNoteWin\src\FloatNotePlus\Assets\app.ico", r"FloatNoteWin\docs\store-screenshots\en", "store-en-*.png"),

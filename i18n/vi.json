@@ -514,6 +514,36 @@
           "a": "Không cả hai. Phát hiện, che và xuất đều chạy trên PC của bạn, không tài khoản và không tải lên gì cả. Việc che được thực hiện trên bản sao, ứng dụng không cho lưu đè lên tệp gốc, và bản lưu được mã hóa lại nên không mang siêu dữ liệu của tệp gốc."
         }
       ]
+    },
+    "floatcryptowin": {
+      "name": "FloatCrypto+ for Windows",
+      "tag": "Cửa sổ nổi",
+      "seo": "Thanh giá coin trên PC",
+      "desc": "Thanh giá tiền mã hóa trực tiếp nổi trên mọi cửa sổ Windows, kèm cảnh báo giá và biểu đồ.",
+      "tagline": "Bitcoin, Ethereum và các altcoin của bạn trong một dải mảnh trên mọi cửa sổ — thị trường luôn ở khóe mắt khi bạn làm việc, mà không bao giờ chiếm tiêu điểm.",
+      "long": "FloatCrypto+ for Windows là phiên bản máy tính của ứng dụng FloatCrypto+ trên Android. Ứng dụng giữ một thanh giá mảnh trên mọi cửa sổ — trình duyệt, tài liệu, cuộc gọi video — hiển thị ký hiệu và biến động 24 giờ của từng đồng coin, tô màu theo chiều tăng giảm. Không phải chuyển tab, không phải tải lại trang. Kéo thanh giá đến bất cứ đâu, chỉnh độ trong suốt và cỡ chữ, hoặc thu gọn thành bong bóng nhỏ nép vào mép màn hình; nó không bao giờ chiếm tiêu điểm của ứng dụng bạn đang gõ. Di chuột lên biểu tượng ở khay hệ thống để xem bảng giá đầy đủ, kể cả khi đã tắt thanh giá. Đặt mục tiêu cao hơn hoặc thấp hơn giá hiện tại và nhận thông báo trên màn hình ngay khi thị trường vượt qua, một lần hoặc lặp lại. Chọn coin từ hàng trăm cặp giao dịch trên Binance, kéo để sắp xếp theo ý bạn, và nhấp đúp vào bất kỳ coin nào để mở biểu đồ kèm giá cao nhất, thấp nhất, giá mở cửa và mức thay đổi trong kỳ. Giá lấy từ dữ liệu thị trường công khai của Binance, tự động chuyển sang máy chủ dự phòng và CoinGecko, có thể trễ tới 30 giây và chỉ mang tính tham khảo — FloatCrypto+ không phải ứng dụng giao dịch, và không nội dung nào trong ứng dụng là lời khuyên đầu tư.",
+      "features": [
+        "Thanh giá trực tiếp trên mọi cửa sổ — kéo đến bất cứ đâu, chỉnh độ trong suốt và cỡ chữ, hoặc thu gọn thành bong bóng ở mép màn hình",
+        "Không bao giờ chiếm tiêu điểm — thanh giá vẫn hiện trong khi con trỏ ở nguyên trong ứng dụng bạn đang làm việc",
+        "Cảnh báo khi giá cao hơn hoặc thấp hơn mục tiêu, một lần hoặc lặp lại, tạo ngay từ menu ⋮ của coin với coin đã được chọn sẵn",
+        "Danh sách theo dõi từ hàng trăm cặp trên Binance, kéo để sắp xếp, biểu đồ 1 ngày, 7 ngày và 30 ngày kèm giá cao nhất, thấp nhất, mở cửa và mức thay đổi",
+        "Màu phương Tây (tăng xanh lá, giảm đỏ) hoặc phương Đông (tăng đỏ, giảm xanh dương), và bảng giá đầy đủ ở biểu tượng khay hệ thống",
+        "Phím tắt toàn cục, khay hệ thống, khởi động cùng Windows, giao diện sáng và tối, 21 ngôn ngữ. Không quảng cáo, không tài khoản"
+      ],
+      "faq": [
+        {
+          "q": "Đây có phải cùng một ứng dụng với FloatCrypto+ trên Android không?",
+          "a": "Đây là cùng một ứng dụng được dựng cho Windows, với thanh giá nổi, cảnh báo giá, danh sách theo dõi và biểu đồ giống hệt. Hai ứng dụng độc lập, mỗi bên tải từ cửa hàng riêng, và không đồng bộ với nhau — danh sách theo dõi và cảnh báo được lưu trên thiết bị nơi bạn thiết lập chúng."
+        },
+        {
+          "q": "Thanh giá có cản trở việc tôi đang làm không?",
+          "a": "Không. Thanh giá là một dải nổi không bao giờ nhận tiêu điểm, nên nhấp hay kéo nó đều để con trỏ đúng ở chỗ bạn đang gõ. Hãy giảm độ trong suốt, thu nhỏ chữ, thu gọn thành bong bóng nép vào mép màn hình, hoặc ẩn bằng Ctrl+Alt+T — biểu tượng ở khay hệ thống vẫn hiện mọi mức giá khi bạn di chuột lên."
+        },
+        {
+          "q": "Giá được lấy từ đâu?",
+          "a": "Từ dữ liệu thị trường công khai của Binance, tự động chuyển sang máy chủ dự phòng và CoinGecko khi một nguồn không truy cập được, nên thanh giá vẫn chạy. Giá có thể trễ tới 30 giây và chỉ mang tính tham khảo. FloatCrypto+ không giao dịch, không kết nối với tài khoản sàn và không giữ bất kỳ khoản tiền nào, và không nội dung nào trong ứng dụng là lời khuyên đầu tư."
+        }
+      ]
     }
   }
 }

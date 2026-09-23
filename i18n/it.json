@@ -514,6 +514,36 @@
           "a": "Né l’una né l’altra cosa. Rilevamento, mascheramento ed esportazione avvengono sul tuo PC, senza account e senza caricare nulla. La maschera si applica a una copia, l’app non salva sopra l’originale e le copie salvate vengono ricodificate, quindi non contengono i metadati dell’originale."
         }
       ]
+    },
+    "floatcryptowin": {
+      "name": "FloatCrypto+ for Windows",
+      "tag": "Flottante",
+      "seo": "ticker crypto per PC",
+      "desc": "Un ticker dei prezzi crypto in tempo reale che fluttua sopra ogni finestra di Windows, con avvisi di prezzo e grafici.",
+      "tagline": "Bitcoin, Ethereum e le tue altcoin in una sottile barra sopra ogni finestra: il mercato con la coda dell'occhio mentre lavori, senza mai rubare il focus.",
+      "long": "FloatCrypto+ for Windows è la versione desktop dell'app FloatCrypto+ per Android. Tiene un sottile ticker dei prezzi sopra ogni finestra — browser, documenti, videochiamata — con simbolo e variazione nelle 24 ore di ogni moneta, colorata secondo la direzione. Niente cambi di scheda, niente pagine da ricaricare. Trascina il ticker dove vuoi, regola opacità e dimensione del testo, oppure comprimilo in una piccola bolla che si aggancia al bordo dello schermo; non ruba mai il focus all'app in cui stai scrivendo. Passa il mouse sull'icona nell'area di notifica per una tabella completa dei prezzi, anche con il ticker spento. Imposta un obiettivo sopra o sotto il prezzo attuale e ricevi una notifica sul desktop appena il mercato lo attraversa, una sola volta o in modo ripetuto. Scegli le monete tra le centinaia di coppie scambiate su Binance, riordinale trascinandole e fai doppio clic su una moneta per un grafico con massimo, minimo, apertura e variazione del periodo. I prezzi provengono dai dati di mercato pubblici di Binance, con passaggio automatico a server alternativi e a CoinGecko, possono avere fino a 30 secondi di ritardo e sono solo a scopo informativo: FloatCrypto+ non è un'app di trading e nulla al suo interno costituisce consulenza sugli investimenti.",
+      "features": [
+        "Ticker dei prezzi in tempo reale sopra ogni finestra — trascinalo dove vuoi, regola opacità e dimensione del testo o comprimilo in una bolla sul bordo dello schermo",
+        "Non ruba mai il focus — il ticker resta visibile mentre il cursore resta nell'app in cui stai lavorando",
+        "Avvisi di prezzo sopra o sotto un obiettivo, singoli o ripetuti, creati direttamente dal menu ⋮ della moneta già selezionata",
+        "Watchlist tra le centinaia di coppie Binance, riordino trascinando e grafici a 1, 7 e 30 giorni con massimo, minimo, apertura e variazione del periodo",
+        "Colori occidentali (verde sale, rosso scende) o orientali (rosso sale, blu scende) e tabella completa dei prezzi sull'icona nell'area di notifica",
+        "Scorciatoie globali, area di notifica, avvio con Windows, tema chiaro e scuro, 21 lingue. Niente pubblicità, niente account"
+      ],
+      "faq": [
+        {
+          "q": "È la stessa app di FloatCrypto+ su Android?",
+          "a": "È la stessa app realizzata per Windows, con lo stesso ticker flottante, gli stessi avvisi di prezzo, la stessa watchlist e gli stessi grafici. Le due app sono separate, ognuna dal proprio store, e non si sincronizzano: watchlist e avvisi restano sul dispositivo su cui li hai impostati."
+        },
+        {
+          "q": "Il ticker dà fastidio a quello che sto facendo?",
+          "a": "No. Il ticker è una barra flottante che non prende mai il focus, quindi facendo clic o trascinandolo il cursore resta esattamente dove stavi scrivendo. Abbassa l'opacità, rimpicciolisci il testo, comprimilo in una bolla che si aggancia al bordo dello schermo o nascondilo con Ctrl+Alt+T: l'icona nell'area di notifica continua a mostrare tutti i prezzi quando ci passi sopra con il mouse."
+        },
+        {
+          "q": "Da dove arrivano i prezzi?",
+          "a": "Dai dati di mercato pubblici di Binance, con passaggio automatico a server alternativi e a CoinGecko perché il ticker continui a funzionare quando una fonte non è raggiungibile. I prezzi possono avere fino a 30 secondi di ritardo e sono solo a scopo informativo. FloatCrypto+ non esegue operazioni, non si collega a nessun account di exchange e non custodisce fondi, e nulla al suo interno costituisce consulenza sugli investimenti."
+        }
+      ]
     }
   }
 }

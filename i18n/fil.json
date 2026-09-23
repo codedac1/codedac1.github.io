@@ -514,6 +514,36 @@
           "a": "Hindi, pareho. Tumatakbo sa iyong PC ang pagtuklas, pagtatakip at pag-export nang walang account at walang upload. Ginagawa ang pagtatakip sa kopya, tumatanggi ang app na mag-save sa ibabaw ng orihinal, at muling ini-encode ang na-save na kopya kaya walang metadata ng orihinal."
         }
       ]
+    },
+    "floatcryptowin": {
+      "name": "FloatCrypto+ for Windows",
+      "tag": "Floating",
+      "seo": "Crypto Ticker sa PC",
+      "desc": "Live na crypto price ticker na nakalutang sa ibabaw ng bawat window sa Windows, may price alert at chart.",
+      "tagline": "Bitcoin, Ethereum at mga altcoin mo sa isang manipis na strip sa ibabaw ng bawat window — laging nasa gilid ng paningin mo ang market habang nagtatrabaho, nang hindi inaagaw ang focus.",
+      "long": "Ang FloatCrypto+ for Windows ang desktop na bersyon ng Android app na FloatCrypto+. Pinapanatili nito ang isang manipis na price ticker sa ibabaw ng bawat window — browser, dokumento, video call — na nagpapakita ng simbolo at 24-oras na pagbabago ng bawat coin, may kulay ayon sa direksyon. Walang tab na kailangang lipatan, walang page na kailangang i-reload. I-drag ang ticker kahit saan, i-adjust ang opacity at laki ng text, o i-collapse ito sa maliit na bubble na dumidikit sa gilid ng screen; hindi nito inaagaw ang focus mula sa app na tinatypan mo. I-hover ang tray icon para sa buong talaan ng presyo, kahit naka-off ang ticker. Magtakda ng target na mas mataas o mas mababa sa kasalukuyang presyo at makakuha ng desktop notification sa sandaling lumampas dito ang market, isang beses o paulit-ulit. Pumili mula sa daan-daang pares na tine-trade sa Binance, ayusin ang pagkakasunod sa pag-drag, at i-double-click ang anumang coin para sa chart na may high, low, open at pagbabago sa panahong iyon. Galing ang mga presyo sa pampublikong market data ng Binance na may awtomatikong paglipat sa mga alternatibong server at sa CoinGecko, maaaring maantala nang hanggang 30 segundo, at pang-impormasyon lamang — ang FloatCrypto+ ay hindi trading app, at walang anuman dito na payo sa pamumuhunan.",
+      "features": [
+        "Live na price ticker sa ibabaw ng bawat window — i-drag kahit saan, i-adjust ang opacity at laki ng text, o i-collapse sa bubble sa gilid ng screen",
+        "Hindi inaagaw ang focus — nakikita pa rin ang ticker habang nananatili ang cursor mo sa app na ginagamit mo",
+        "Price alert pataas o pababa ng target, isang beses o paulit-ulit, gawa mula mismo sa ⋮ menu ng coin na nakapili na ang coin",
+        "Watchlist mula sa daan-daang pares sa Binance, naaayos sa pag-drag, at 1-araw, 7-araw at 30-araw na chart na may high, low, open at pagbabago",
+        "Western (berde pataas, pula pababa) o Eastern (pula pataas, asul pababa) na kulay, at buong talaan ng presyo sa tray icon",
+        "Mga global na hotkey, system tray, pagsisimula kasabay ng Windows, light at dark na tema, 21 wika. Walang ads, walang account"
+      ],
+      "faq": [
+        {
+          "q": "Pareho ba ito sa FloatCrypto+ sa Android?",
+          "a": "Oo, ito ang parehong app na ginawa para sa Windows, na may parehong nakalutang na ticker, price alert, watchlist at chart. Magkahiwalay na app ang dalawa, bawat isa mula sa sarili nitong store, at hindi sila nagsi-sync — naka-save ang watchlist at mga alert mo sa device kung saan mo sila inayos."
+        },
+        {
+          "q": "Makakaabala ba ang ticker sa ginagawa ko?",
+          "a": "Hindi. Ang ticker ay nakalutang na strip na hindi kailanman kumukuha ng focus, kaya kapag kinlik o dinrag mo ito, nananatili ang cursor mo kung saan ka nagta-type. Hinaan ang opacity, paliitin ang text, i-collapse ito sa bubble na dumidikit sa gilid ng screen, o itago gamit ang Ctrl+Alt+T — at ipinapakita pa rin ng tray icon ang lahat ng presyo kapag hinover mo ito."
+        },
+        {
+          "q": "Saan galing ang mga presyo?",
+          "a": "Sa pampublikong market data ng Binance, na may awtomatikong paglipat sa mga alternatibong server at sa CoinGecko para tuloy-tuloy ang ticker kapag hindi maabot ang isang pinagkukunan. Maaaring maantala ang presyo nang hanggang 30 segundo at pang-impormasyon lamang. Hindi nagte-trade ang FloatCrypto+, hindi kumokonekta sa exchange account at hindi humahawak ng anumang pondo, at walang anuman dito na payo sa pamumuhunan."
+        }
+      ]
     }
   }
 }

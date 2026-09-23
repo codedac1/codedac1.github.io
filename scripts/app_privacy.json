@@ -173,5 +173,14 @@
       "purchaseReport"
     ],
     "perms": []
+  },
+  "floatcryptowin": {
+    "platform": "windows",
+    "data": [
+      "store",
+      "purchaseReport",
+      "crypto"
+    ],
+    "perms": []
   }
 }

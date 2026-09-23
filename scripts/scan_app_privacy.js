@@ -27,6 +27,7 @@ const WINDOWS_PROJECT = {
   clipboardwin: 'ClipboardWin', readfocuswin: 'ReadFocusWin',
   floatnotewin: 'FloatNoteWin', floattimerwin: 'FloatTimerWin',
   photocleanerwin: 'PhotoCleanerWin',
+  floatcryptowin: 'FloatCryptoWin',
 };
 
 // 표에 싣는 권한 → 코드 (i18n/privacy/<lang>.json 의 perms 키)

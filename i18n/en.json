@@ -514,6 +514,36 @@
           "a": "Neither. Detection, masking and export all run on your PC with no account and nothing uploaded. Masking works on a copy, the app refuses to save over the original, and saved copies are encoded fresh so they carry none of the original's metadata."
         }
       ]
+    },
+    "floatcryptowin": {
+      "name": "FloatCrypto+ for Windows",
+      "tag": "Floating",
+      "seo": "Desktop Crypto Ticker",
+      "desc": "A live crypto price ticker that floats over every window on Windows, with price alerts and charts.",
+      "tagline": "Bitcoin, Ethereum and your altcoins in a slim strip on top of every window — the market in the corner of your eye while you work, without ever stealing focus.",
+      "long": "FloatCrypto+ for Windows is the desktop version of the Android FloatCrypto+ app. It keeps a slim price ticker on top of every window — your browser, your documents, your video call — showing each coin's symbol and 24-hour change, colored by direction. No tab to switch to, no page to reload. Drag the ticker anywhere, adjust its opacity and text size, or collapse it into a small bubble that tucks against the edge of the screen; it never takes focus from the app you are typing in. Hover the tray icon for a full table of prices, even with the ticker turned off. Set a target above or below the current price and get a desktop notification the moment the market crosses it, one-time or repeating. Pick coins from the hundreds of pairs traded on Binance, drag them into your own order, and double-click any coin for a chart with the period high, low, open and change. Prices come from Binance's public market data with automatic fallback to alternate servers and CoinGecko, may be delayed by up to 30 seconds, and are for information only — FloatCrypto+ is not a trading app and nothing in it is investment advice.",
+      "features": [
+        "A live price ticker on top of every window — drag it anywhere, adjust opacity and text size, or collapse it into a bubble at the screen edge",
+        "Never steals focus — the ticker stays visible while your cursor stays in the app you are working in",
+        "Price alerts above or below a target, one-time or repeating, added straight from a coin's ⋮ menu with the coin already picked",
+        "Watchlist from the hundreds of Binance pairs, drag-to-reorder, and 1-day, 7-day and 30-day charts with period high, low, open and change",
+        "Western (green up, red down) or Eastern (red up, blue down) colors, and a full price table on the tray icon",
+        "Global hotkeys, system tray, start with Windows, light and dark themes, 21 languages. No ads, no account"
+      ],
+      "faq": [
+        {
+          "q": "Is this the same app as FloatCrypto+ on Android?",
+          "a": "It is the same app built for Windows, with the same floating ticker, price alerts, watchlist and charts. The two are separate apps, each from its own store, and they do not sync — your watchlist and alerts are stored on the device you set them up on."
+        },
+        {
+          "q": "Does the ticker get in the way of what I am doing?",
+          "a": "No. The ticker is a floating strip that never takes focus, so clicking or dragging it leaves your cursor exactly where you were typing. Lower its opacity, shrink the text, collapse it into a bubble that tucks against the screen edge, or hide it with Ctrl+Alt+T — and the tray icon still shows every price when you hover over it."
+        },
+        {
+          "q": "Where do the prices come from?",
+          "a": "From Binance's public market data, with automatic fallback to alternate servers and CoinGecko so the ticker keeps running when one source is unreachable. Prices may be delayed by up to 30 seconds and are for information only. FloatCrypto+ does not trade, connect to an exchange account or hold any funds, and nothing in it is investment advice."
+        }
+      ]
     }
   }
 }
