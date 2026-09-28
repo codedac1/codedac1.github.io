@@ -114,6 +114,10 @@
         {
           "q": "Ele sincroniza com o meu PC com Windows?",
           "a": "Sim. Instale também o Clipboard+ for Windows e, nas configurações dos dois apps, faça login no Google Drive com a mesma conta e ative a sincronização automática. A partir daí, o que você copiar no celular poderá colar no PC, e o que copiar no PC poderá colar no celular. O que é copiado não passa por nenhum servidor da CodeDAC: fica guardado apenas no seu próprio Google Drive."
+        },
+        {
+          "q": "O que é grátis e o que o Pro acrescenta?",
+          "a": "Grátis você tem o histórico de texto e imagens com busca, trechos, até 3 grupos, o painel flutuante, o widget e o salvamento pelo menu de seleção de texto, com anúncios. O Pro remove os anúncios e acrescenta a sincronização entre celular e PC pelo seu próprio Google Drive, clipes de imagem ilimitados, painel flutuante e widget ampliados, grupos ilimitados, exportação em PDF e restauração de backup — mensal, anual ou em compra única vitalícia. Se precisar só por um dia, um anúncio curto libera o recurso por 24 horas."
         }
       ]
     },
@@ -122,14 +126,14 @@
       "tag": "Início automático",
       "seo": "gerenciador de início automático",
       "desc": "Inicie seus apps automaticamente ao ligar o celular. Sem root, configure uma vez.",
-      "tagline": "Inicie seus apps automaticamente assim que o celular liga. Sem root, configure uma vez, funciona para sempre.",
-      "long": "O AutoStart+ é o gerenciador de início automático mais simples para Android: escolha seus apps e, assim que o aparelho termina de ligar, eles abrem sozinhos — sem root, sem scripts, sem toques todo dia. Pesquise entre todos os apps instalados, adicione em segundos, ligue ou desligue cada um com um toque e arraste as linhas para definir a ordem de inicialização. Também não precisa reiniciar para testar: o menu ⋮ de cada linha abre aquele app na hora e, depois da inicialização, um aviso curto diz o que já abriu — o resto vai com um toque. A versão gratuita inicia 1 app; o PRO remove o limite e toda a lista abre na ordem definida, e se você ainda não quiser assinar, um anúncio curto libera o limite por 24 horas.",
+      "tagline": "Inicie seus apps automaticamente após cada reinício, assim que você desbloqueia o celular. Sem root, configure uma vez, funciona para sempre.",
+      "long": "O AutoStart+ é o gerenciador de início automático mais simples para Android: escolha seus apps e, após cada reinício, assim que você desbloqueia o aparelho, eles abrem sozinhos — sem root, sem scripts, sem toques todo dia. Pesquise entre todos os apps instalados, adicione em segundos, ligue ou desligue cada um com um toque e arraste as linhas para definir a ordem de inicialização. Também não precisa reiniciar para testar: o menu ⋮ de cada linha abre aquele app na hora e, depois da inicialização, um aviso curto diz o que já abriu — o resto vai com um toque. A versão gratuita inicia 1 app; o PRO remove o limite e toda a lista abre na ordem definida, e se você ainda não quiser assinar, um anúncio curto libera o limite por 24 horas.",
       "features": [
-        "Inicia os apps escolhidos assim que o aparelho termina de ligar — sem root e sem ROM personalizada",
+        "Inicia os apps escolhidos após cada reinício, assim que você desbloqueia o aparelho — sem root e sem ROM personalizada",
         "Pesquise entre todos os apps instalados, adicione em segundos e ligue ou desligue com um toque",
         "Arraste as linhas para decidir qual app abre primeiro a cada inicialização",
         "«Executar agora» no menu ⋮ de qualquer linha — teste sua lista sem reiniciar o celular",
-        "O banner de inicialização abre toda a lista com um toque, mesmo na tela de bloqueio (PRO)",
+        "Após um reinício, um banner abre toda a lista com um toque assim que você desbloqueia (PRO)",
         "Grátis inicia 1 app; o PRO remove o limite — ou um anúncio curto libera por 24 horas"
       ],
       "faq": [
@@ -243,7 +247,7 @@
       "seo": "amplificador de volume",
       "desc": "Amplificador de volume, equalizador e graves: qualquer som mais alto, até +15 dB.",
       "tagline": "Ponha todas as apps mais altas — até +15 dB, em decibéis reais e com zonas seguras.",
-      "long": "O telemóvel está demasiado baixo? O VolumeBooster+ eleva a saída de todo o sistema e não apenas uma app: colunas fracas, auscultadores baixos, vídeos difíceis de ouvir, chamadas, música e jogos finalmente ficam nítidos. A amplificação é mostrada em decibéis, até +15 dB, com as zonas Seguro / Atenção / Perigo baseadas nas orientações auditivas da OMS, por isso vê sempre até onde chegou. Grátis chega a +10 dB e, com Pro ou um Free Pass, abre-se toda a gama. O Loudness Maximizer, o equalizador de 5 bandas com nove predefinições gratuitas, o reforço de graves, o virtualizador 3D e o AutoEQ com 2.456 perfis de auscultadores medidos estão na mesma app.",
+      "long": "O telemóvel está demasiado baixo? O VolumeBooster+ eleva a saída de todo o sistema e não apenas uma app: colunas fracas, auscultadores baixos, vídeos difíceis de ouvir, música e jogos finalmente ficam nítidos. A amplificação é mostrada em decibéis, até +15 dB, com as zonas Seguro / Atenção / Perigo baseadas nas orientações auditivas da OMS, por isso vê sempre até onde chegou. Grátis chega a +10 dB e, com Pro ou um Free Pass, abre-se toda a gama. O Loudness Maximizer, o equalizador de 5 bandas com nove predefinições gratuitas, o reforço de graves, o virtualizador 3D e o AutoEQ com 2.456 perfis de auscultadores medidos estão na mesma app.",
       "features": [
         "Amplificação em todo o sistema até +15 dB com etiquetas Seguro / Atenção / Perigo — +10 dB grátis, gama completa com Pro ou um Free Pass",
         "Loudness Maximizer com compressão multibanda, ganho de compensação e limitador de picos sempre ativo: mais alto a sério, sem cortes nem distorção",
@@ -255,7 +259,7 @@
       "faq": [
         {
           "q": "O telemóvel fica mesmo mais alto?",
-          "a": "Sim. O Loudness Maximizer usa compressão multibanda e ganho de compensação para aumentar mesmo o volume percebido e eleva a saída de todo o sistema em vez de uma só app — música, vídeos, YouTube, jogos e chamadas. Grátis vai até +10 dB e, com Pro ou um Free Pass, abre toda a gama de +15 dB."
+          "a": "Sim. O Loudness Maximizer usa compressão multibanda e ganho de compensação para aumentar mesmo o volume percebido e eleva a saída de todo o sistema em vez de uma só app — música, vídeos, YouTube e jogos. Grátis vai até +10 dB e, com Pro ou um Free Pass, abre toda a gama de +15 dB."
         },
         {
           "q": "É mesmo grátis ou preciso de subscrição?",
@@ -512,6 +516,10 @@
         {
           "q": "Meus arquivos são enviados ou o original é alterado?",
           "a": "Nem uma coisa nem outra. Detecção, máscara e exportação acontecem no seu PC, sem conta e sem enviar nada. A máscara é aplicada a uma cópia, o app não salva por cima do original e as cópias salvas são recodificadas, sem os metadados do original."
+        },
+        {
+          "q": "O que é grátis e o que o Pro acrescenta?",
+          "a": "Encontrar informações pessoais é grátis e ilimitado, e você pode salvar, copiar ou compartilhar de graça a cópia mascarada de 3 documentos por dia. O Pro é uma compra única que remove o limite diário e acrescenta exportação em PDF, impressão, a lista de termos sempre ocultos e a escolha da cor da máscara. Sem anúncios e sem marca d’água."
         }
       ]
     },
@@ -542,6 +550,10 @@
         {
           "q": "De onde vêm os preços?",
           "a": "Dos dados de mercado públicos da Binance, com troca automática para servidores alternativos e para o CoinGecko, para que o ticker continue funcionando quando uma fonte estiver indisponível. Os preços podem ter até 30 segundos de atraso e são apenas informativos. O FloatCrypto+ não faz negociações, não se conecta a nenhuma conta de corretora e não guarda fundos, e nada nele é recomendação de investimento."
+        },
+        {
+          "q": "O que é grátis e o que o Pro acrescenta?",
+          "a": "Grátis você acompanha 2 moedas com 1 alerta de preço, a atualização é a cada 30 segundos e o gráfico de 1 dia aparece — e o ticker não tem limite de tempo. O Pro é uma compra única que amplia para 10 moedas, alertas ilimitados, atualização a cada 10 segundos e os gráficos de 7 e 30 dias. A versão para Windows não tem anúncios."
         }
       ]
     }

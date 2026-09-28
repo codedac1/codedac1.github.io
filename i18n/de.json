@@ -114,6 +114,10 @@
         {
           "q": "Synchronisiert es sich mit meinem Windows-PC?",
           "a": "Ja. Installiere zusätzlich Clipboard+ for Windows, melde dich in den Einstellungen beider Apps mit demselben Konto bei Google Drive an und schalte die automatische Synchronisierung ein. Danach fügst du auf dem PC ein, was du am Handy kopiert hast, und am Handy, was du am PC kopiert hast. Das Kopierte läuft über keinen CodeDAC-Server, sondern wird nur in deinem eigenen Google Drive gespeichert."
+        },
+        {
+          "q": "Was ist kostenlos, und was bringt Pro?",
+          "a": "Kostenlos bekommst du den Verlauf für Text und Bilder mit Suche, Snippets, bis zu 3 Gruppen, das schwebende Panel, das Widget und das Speichern über das Textauswahlmenü, dazu Werbung. Pro entfernt die Werbung und bringt die Synchronisierung zwischen Handy und PC über dein eigenes Google Drive, unbegrenzte Bild-Clips, das erweiterte Panel und Widget, unbegrenzte Gruppen, PDF-Export und das Wiederherstellen von Backups — monatlich, jährlich oder als einmaliger Lifetime-Kauf. Brauchst du etwas nur einen Tag, schaltet eine kurze Werbung es für 24 Stunden frei."
         }
       ]
     },
@@ -122,14 +126,14 @@
       "tag": "Automatischer Start",
       "seo": "Autostart-Manager für Android",
       "desc": "Starte deine Apps automatisch beim Hochfahren. Kein Root nötig, einmal einrichten.",
-      "tagline": "Starte deine Apps automatisch, sobald dein Handy hochfährt. Kein Root, einmal einrichten, läuft für immer.",
-      "long": "AutoStart+ ist der einfachste Autostart-Manager für Android: Apps auswählen — sobald das Gerät fertig gebootet hat, starten sie von selbst. Kein Root, keine Skripte, kein tägliches Tippen. Durchsuchen Sie alle installierten Apps, fügen Sie sie in Sekunden hinzu, schalten Sie jede mit einem Tipp ein oder aus und ziehen Sie die Zeilen in die gewünschte Startreihenfolge. Zum Testen ist kein Neustart nötig: Das ⋮-Menü jeder Zeile öffnet die App sofort, und nach dem Start meldet eine kurze Nachricht, was gestartet ist — der Rest folgt mit einem Tipp. In der Gratisversion startet 1 App automatisch; PRO hebt das Limit auf, sodass die ganze Liste der Reihe nach läuft, und wer noch kein Abo möchte, schaltet das Limit mit einem kurzen Werbeclip 24 Stunden lang frei.",
+      "tagline": "Starte deine Apps nach jedem Neustart automatisch, sobald du das Handy entsperrst. Kein Root, einmal einrichten, läuft für immer.",
+      "long": "AutoStart+ ist der einfachste Autostart-Manager für Android: Apps auswählen — nach jedem Neustart starten sie von selbst, sobald du das Gerät entsperrst. Kein Root, keine Skripte, kein tägliches Tippen. Durchsuchen Sie alle installierten Apps, fügen Sie sie in Sekunden hinzu, schalten Sie jede mit einem Tipp ein oder aus und ziehen Sie die Zeilen in die gewünschte Startreihenfolge. Zum Testen ist kein Neustart nötig: Das ⋮-Menü jeder Zeile öffnet die App sofort, und nach dem Start meldet eine kurze Nachricht, was gestartet ist — der Rest folgt mit einem Tipp. In der Gratisversion startet 1 App automatisch; PRO hebt das Limit auf, sodass die ganze Liste der Reihe nach läuft, und wer noch kein Abo möchte, schaltet das Limit mit einem kurzen Werbeclip 24 Stunden lang frei.",
       "features": [
-        "Startet die ausgewählten Apps, sobald das Gerät fertig gebootet hat — ohne Root, ohne Custom-ROM",
+        "Startet die ausgewählten Apps nach jedem Neustart, sobald du das Gerät entsperrst — ohne Root, ohne Custom-ROM",
         "Alle installierten Apps durchsuchen, in Sekunden hinzufügen und mit einem Tipp ein- oder ausschalten",
         "Zeilen per Drag & Drop ziehen und so festlegen, welche App zuerst startet",
         "„Jetzt starten“ im ⋮-Menü jeder Zeile — die Liste prüfen, ohne neu zu starten",
-        "Boot-Overlay-Banner startet die ganze Liste mit einem Tipp, sogar vom Sperrbildschirm (PRO)",
+        "Nach einem Neustart startet ein Banner die ganze Liste mit einem Tipp, sobald du entsperrst (PRO)",
         "Gratis startet 1 App, PRO hebt das Limit auf — oder ein kurzer Werbeclip schaltet es 24 Stunden frei"
       ],
       "faq": [
@@ -243,7 +247,7 @@
       "seo": "Lautstärke-Booster & Equalizer",
       "desc": "Lautstärke-Booster, Equalizer und Bass — jeden Ton bis zu +15 dB lauter machen.",
       "tagline": "Jede App lauter — bis zu +15 dB, in echten Dezibel mit sicheren Bereichen.",
-      "long": "Ist dein Handy zu leise? VolumeBooster+ hebt die gesamte Systemausgabe an, nicht nur eine App: leise Lautsprecher, schwache Kopfhörer, schwer verständliche Videos, Anrufe, Musik und Spiele hörst du endlich klar. Der Boost wird in Dezibel angezeigt, bis zu +15 dB, mit den Bereichen Sicher / Vorsicht / Gefahr nach WHO-Empfehlungen — du siehst also immer, wie weit du gegangen bist. Kostenlos sind +10 dB drin, mit Pro oder einem Free Pass die volle Spanne. Loudness Maximizer, ein 5-Band-Equalizer mit neun kostenlosen Presets, Bass-Booster, 3D-Virtualizer und die AutoEQ-Korrektur mit 2.456 gemessenen Kopfhörerprofilen stecken alle in derselben App.",
+      "long": "Ist dein Handy zu leise? VolumeBooster+ hebt die gesamte Systemausgabe an, nicht nur eine App: leise Lautsprecher, schwache Kopfhörer, schwer verständliche Videos, Musik und Spiele hörst du endlich klar. Der Boost wird in Dezibel angezeigt, bis zu +15 dB, mit den Bereichen Sicher / Vorsicht / Gefahr nach WHO-Empfehlungen — du siehst also immer, wie weit du gegangen bist. Kostenlos sind +10 dB drin, mit Pro oder einem Free Pass die volle Spanne. Loudness Maximizer, ein 5-Band-Equalizer mit neun kostenlosen Presets, Bass-Booster, 3D-Virtualizer und die AutoEQ-Korrektur mit 2.456 gemessenen Kopfhörerprofilen stecken alle in derselben App.",
       "features": [
         "Systemweiter Boost bis zu +15 dB mit Kennzeichnung Sicher / Vorsicht / Gefahr — gratis +10 dB, die volle Spanne mit Pro oder einem Free Pass",
         "Loudness Maximizer mit Multiband-Kompression, Makeup-Gain und dauerhaft aktivem Peak-Limiter: wirklich lauter, ohne Clipping",
@@ -255,7 +259,7 @@
       "faq": [
         {
           "q": "Wird das Handy wirklich lauter?",
-          "a": "Ja. Der Loudness Maximizer erhöht die empfundene Lautheit mit Multiband-Kompression und Makeup-Gain wirklich und hebt dabei die gesamte Systemausgabe statt einer einzelnen App — Musik, Videos, YouTube, Spiele und Anrufe gleichermaßen. Kostenlos sind +10 dB möglich, mit Pro oder einem Free Pass die vollen +15 dB."
+          "a": "Ja. Der Loudness Maximizer erhöht die empfundene Lautheit mit Multiband-Kompression und Makeup-Gain wirklich und hebt dabei die gesamte Systemausgabe statt einer einzelnen App — Musik, Videos, YouTube und Spiele gleichermaßen. Kostenlos sind +10 dB möglich, mit Pro oder einem Free Pass die vollen +15 dB."
         },
         {
           "q": "Ist die App wirklich kostenlos oder brauche ich ein Abo?",
@@ -512,6 +516,10 @@
         {
           "q": "Werden meine Dateien hochgeladen oder das Original verändert?",
           "a": "Weder noch. Erkennen, Maskieren und Exportieren laufen komplett auf deinem PC, ohne Konto und ohne Upload. Maskiert wird eine Kopie, die App verweigert das Speichern über das Original, und gespeicherte Kopien werden neu codiert, sodass sie keine Metadaten des Originals enthalten."
+        },
+        {
+          "q": "Was ist kostenlos, und was bringt Pro?",
+          "a": "Das Finden persönlicher Daten ist kostenlos und unbegrenzt, und die geschwärzte Kopie von 3 Dokumenten pro Tag kannst du kostenlos speichern, kopieren oder teilen. Pro ist ein einmaliger Kauf, hebt das Tageslimit auf und bringt PDF-Export, Drucken, die Liste immer zu schwärzender Begriffe und die freie Wahl der Maskenfarbe. Es gibt keine Werbung und kein Wasserzeichen."
         }
       ]
     },
@@ -542,6 +550,10 @@
         {
           "q": "Woher kommen die Kurse?",
           "a": "Aus den öffentlichen Marktdaten von Binance, mit automatischem Ausweichen auf alternative Server und CoinGecko, damit der Ticker weiterläuft, wenn eine Quelle nicht erreichbar ist. Kurse können bis zu 30 Sekunden verzögert sein und dienen nur zur Information. FloatCrypto+ handelt nicht, verbindet sich mit keinem Börsenkonto und verwahrt keine Gelder, und nichts darin ist eine Anlageberatung."
+        },
+        {
+          "q": "Was ist kostenlos, und was bringt Pro?",
+          "a": "Kostenlos verfolgst du 2 Coins mit 1 Preisalarm, die Kurse aktualisieren sich alle 30 Sekunden und du siehst das 1-Tages-Diagramm — der Ticker hat kein Zeitlimit. Pro ist ein einmaliger Kauf und erweitert das auf 10 Coins, unbegrenzte Alarme, 10-Sekunden-Aktualisierung und die 7- und 30-Tages-Diagramme. Die Windows-Version hat keine Werbung."
         }
       ]
     }

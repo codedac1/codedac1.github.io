@@ -114,6 +114,10 @@
         {
           "q": "Czy synchronizuje się z moim komputerem z Windows?",
           "a": "Tak. Zainstaluj także Clipboard+ for Windows, a następnie w ustawieniach obu aplikacji zaloguj się do Dysku Google na to samo konto i włącz automatyczną synchronizację. Od tej pory to, co skopiujesz na telefonie, wkleisz na komputerze, a to, co skopiujesz na komputerze — na telefonie. Kopiowane treści nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google."
+        },
+        {
+          "q": "Co jest za darmo, a co dodaje Pro?",
+          "a": "Za darmo masz historię tekstu i obrazów z wyszukiwaniem, fragmentami, do 3 grup, pływający panel, widżet i zapisywanie z menu zaznaczania tekstu, z reklamami. Pro usuwa reklamy i dodaje synchronizację telefon↔PC przez Twój własny Dysk Google, nielimitowane klipy obrazów, powiększony pływający panel i widżet, nielimitowane grupy, eksport do PDF i przywracanie kopii zapasowych — miesięcznie, rocznie lub jednorazowo na zawsze. Jeśli potrzebujesz czegoś tylko na jeden dzień, krótka reklama odblokuje to na 24 godziny."
         }
       ]
     },
@@ -122,14 +126,14 @@
       "tag": "Automatyczne uruchamianie",
       "seo": "Menedżer automatycznego uruchamiania",
       "desc": "Automatycznie uruchamiaj aplikacje po starcie systemu. Bez roota, ustaw raz.",
-      "tagline": "Automatycznie uruchamiaj aplikacje w chwili startu telefonu. Bez roota, ustaw raz, działa zawsze.",
-      "long": "AutoStart+ to najprostszy menedżer autostartu dla Androida: wybierz aplikacje, a gdy tylko urządzenie zakończy uruchamianie, otworzą się same. Bez roota, bez skryptów, bez codziennego stukania. Przeszukaj wszystkie zainstalowane aplikacje, dodaj je w sekundy, włączaj i wyłączaj jednym dotknięciem, a przeciągając wiersze ustaw kolejność startu. Nie musisz restartować, żeby to sprawdzić: menu ⋮ w każdym wierszu otwiera daną aplikację od razu, a po starcie krótki komunikat pokazuje, co już ruszyło — resztę uruchomisz jednym dotknięciem. W wersji darmowej startuje 1 aplikacja; PRO znosi limit i cała lista uruchamia się po kolei, a jeśli nie chcesz subskrypcji, krótka reklama zdejmuje limit na 24 godziny.",
+      "tagline": "Automatycznie uruchamiaj aplikacje po każdym restarcie, gdy tylko odblokujesz telefon. Bez roota, ustaw raz, działa zawsze.",
+      "long": "AutoStart+ to najprostszy menedżer autostartu dla Androida: wybierz aplikacje, a po każdym restarcie, gdy tylko odblokujesz urządzenie, otworzą się same. Bez roota, bez skryptów, bez codziennego stukania. Przeszukaj wszystkie zainstalowane aplikacje, dodaj je w sekundy, włączaj i wyłączaj jednym dotknięciem, a przeciągając wiersze ustaw kolejność startu. Nie musisz restartować, żeby to sprawdzić: menu ⋮ w każdym wierszu otwiera daną aplikację od razu, a po starcie krótki komunikat pokazuje, co już ruszyło — resztę uruchomisz jednym dotknięciem. W wersji darmowej startuje 1 aplikacja; PRO znosi limit i cała lista uruchamia się po kolei, a jeśli nie chcesz subskrypcji, krótka reklama zdejmuje limit na 24 godziny.",
       "features": [
-        "Uruchamia wybrane aplikacje, gdy tylko urządzenie zakończy start — bez roota i custom ROM-u",
+        "Uruchamia wybrane aplikacje po każdym restarcie, gdy tylko odblokujesz urządzenie — bez roota i custom ROM-u",
         "Przeszukaj wszystkie zainstalowane aplikacje, dodaj je w sekundy i włączaj jednym dotknięciem",
         "Przeciągaj wiersze, aby ustalić, która aplikacja rusza pierwsza przy każdym starcie",
         "„Uruchom teraz” w menu ⋮ każdego wiersza — sprawdź listę bez restartu telefonu",
-        "Baner startowy uruchamia całą listę jednym dotknięciem, nawet z ekranu blokady (PRO)",
+        "Po restarcie baner uruchamia całą listę jednym dotknięciem, gdy tylko odblokujesz (PRO)",
         "Za darmo 1 aplikacja, PRO bez limitu — albo krótka reklama zdejmuje limit na 24 godziny"
       ],
       "faq": [
@@ -243,7 +247,7 @@
       "seo": "Wzmacniacz głośności i korektor",
       "desc": "Wzmacniacz głośności, korektor i basy: pogłośnij każdy dźwięk nawet o +15 dB.",
       "tagline": "Pogłośnij każdą aplikację — do +15 dB, w prawdziwych decybelach i ze strefami bezpieczeństwa.",
-      "long": "Telefon gra za cicho? VolumeBooster+ podnosi całe wyjście systemowe, a nie jedną aplikację: ciche głośniki, słabe słuchawki, trudne do usłyszenia filmy, rozmowy, muzykę i gry wreszcie słychać wyraźnie. Wzmocnienie pokazywane jest w decybelach, do +15 dB, ze strefami Bezpiecznie / Uwaga / Niebezpiecznie opartymi na zaleceniach WHO, więc zawsze widzisz, jak daleko zaszedłeś. Za darmo dostępne jest +10 dB, a Pro lub Free Pass otwiera pełny zakres. Maksymalizator głośności, 5-pasmowy korektor z dziewięcioma darmowymi presetami, wzmacniacz basów, wirtualizator 3D i korekcja AutoEQ oparta na 2456 zmierzonych profilach słuchawek są w tej samej aplikacji.",
+      "long": "Telefon gra za cicho? VolumeBooster+ podnosi całe wyjście systemowe, a nie jedną aplikację: ciche głośniki, słabe słuchawki, trudne do usłyszenia filmy, muzykę i gry wreszcie słychać wyraźnie. Wzmocnienie pokazywane jest w decybelach, do +15 dB, ze strefami Bezpiecznie / Uwaga / Niebezpiecznie opartymi na zaleceniach WHO, więc zawsze widzisz, jak daleko zaszedłeś. Za darmo dostępne jest +10 dB, a Pro lub Free Pass otwiera pełny zakres. Maksymalizator głośności, 5-pasmowy korektor z dziewięcioma darmowymi presetami, wzmacniacz basów, wirtualizator 3D i korekcja AutoEQ oparta na 2456 zmierzonych profilach słuchawek są w tej samej aplikacji.",
       "features": [
         "Wzmocnienie w całym systemie do +15 dB z oznaczeniami Bezpiecznie / Uwaga / Niebezpiecznie — za darmo +10 dB, pełny zakres z Pro lub Free Pass",
         "Maksymalizator głośności z kompresją wielopasmową, wzmocnieniem wyrównującym i stale aktywnym limiterem szczytów: naprawdę głośniej, bez przesterowania",
@@ -255,7 +259,7 @@
       "faq": [
         {
           "q": "Czy telefon naprawdę gra głośniej?",
-          "a": "Tak. Maksymalizator głośności używa kompresji wielopasmowej i wzmocnienia wyrównującego, aby naprawdę zwiększyć odczuwaną głośność, i podnosi całe wyjście systemowe zamiast jednej aplikacji — muzykę, filmy, YouTube, gry i rozmowy. Za darmo do +10 dB, a Pro lub Free Pass otwiera pełny zakres +15 dB."
+          "a": "Tak. Maksymalizator głośności używa kompresji wielopasmowej i wzmocnienia wyrównującego, aby naprawdę zwiększyć odczuwaną głośność, i podnosi całe wyjście systemowe zamiast jednej aplikacji — muzykę, filmy, YouTube i gry. Za darmo do +10 dB, a Pro lub Free Pass otwiera pełny zakres +15 dB."
         },
         {
           "q": "Czy aplikacja jest naprawdę darmowa, czy potrzebna jest subskrypcja?",
@@ -512,6 +516,10 @@
         {
           "q": "Czy moje pliki są przesyłane albo oryginał jest zmieniany?",
           "a": "Ani jedno, ani drugie. Wykrywanie, maskowanie i eksport działają na Twoim PC, bez konta i bez przesyłania czegokolwiek. Maska trafia na kopię, aplikacja nie zapisuje na oryginale, a zapisane kopie są kodowane od nowa, bez metadanych oryginału."
+        },
+        {
+          "q": "Co jest za darmo, a co dodaje Pro?",
+          "a": "Wyszukiwanie danych osobowych jest darmowe i bez limitu, a zakrytą kopię 3 dokumentów dziennie możesz za darmo zapisać, skopiować lub udostępnić. Pro to jednorazowy zakup, który znosi dzienny limit i dodaje eksport do PDF, drukowanie, listę zawsze ukrywanych słów i wybór koloru maski. Bez reklam i bez znaku wodnego."
         }
       ]
     },
@@ -542,6 +550,10 @@
         {
           "q": "Skąd pochodzą kursy?",
           "a": "Z publicznych danych rynkowych Binance, z automatycznym przełączeniem na serwery zapasowe i CoinGecko, dzięki czemu pasek działa dalej, gdy jedno źródło jest nieosiągalne. Kursy mogą być opóźnione do 30 sekund i mają charakter wyłącznie informacyjny. FloatCrypto+ nie handluje, nie łączy się z kontem na giełdzie ani nie przechowuje żadnych środków, a nic w niej nie stanowi porady inwestycyjnej."
+        },
+        {
+          "q": "Co jest za darmo, a co dodaje Pro?",
+          "a": "Za darmo śledzisz 2 kryptowaluty z 1 alertem cenowym, odświeżanie co 30 sekund i wykres 1-dniowy — a pasek kursów nie ma limitu czasu. Pro to jednorazowy zakup, który zwiększa to do 10 kryptowalut, nielimitowanych alertów, odświeżania co 10 sekund i wykresów 7- i 30-dniowych. Wersja na Windows nie ma reklam."
         }
       ]
     }

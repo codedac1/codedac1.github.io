@@ -114,6 +114,10 @@
         {
           "q": "Synchroniseert het met mijn Windows-pc?",
           "a": "Ja. Installeer ook Clipboard+ for Windows, meld je daarna in de instellingen van beide apps met hetzelfde account aan bij Google Drive en zet de automatische synchronisatie aan. Vanaf dat moment plak je op je pc wat je op je telefoon hebt gekopieerd, en op je telefoon wat je op je pc hebt gekopieerd. Wat je kopieert gaat langs geen enkele CodeDAC-server: het wordt alleen in je eigen Google Drive bewaard."
+        },
+        {
+          "q": "Wat is gratis, en wat voegt Pro toe?",
+          "a": "Gratis krijg je de geschiedenis van tekst en afbeeldingen met zoeken, fragmenten, tot 3 groepen, het zwevende paneel, de widget en opslaan via het tekstselectiemenu, met advertenties. Pro haalt de advertenties weg en voegt synchronisatie tussen telefoon en pc via je eigen Google Drive toe, onbeperkte afbeeldingsclips, het uitgebreide zwevende paneel en de widget, onbeperkte groepen, PDF-export en back-up terugzetten — per maand, per jaar of als eenmalige lifetime-aankoop. Heb je iets maar één dag nodig, dan ontgrendelt een korte advertentie het voor 24 uur."
         }
       ]
     },
@@ -122,14 +126,14 @@
       "tag": "Automatisch starten",
       "seo": "Autostart-manager voor Android",
       "desc": "Start je apps automatisch bij het opstarten. Geen root nodig, één keer instellen.",
-      "tagline": "Start je apps automatisch zodra je telefoon opstart. Geen root, één keer instellen, werkt voor altijd.",
-      "long": "AutoStart+ is de eenvoudigste autostart-manager voor Android: kies je apps en zodra het toestel klaar is met opstarten, gaan ze vanzelf open. Geen root, geen scripts, geen dagelijkse tikjes. Zoek in al je geïnstalleerde apps, voeg ze in seconden toe, zet ze aan of uit met één tik en sleep de rijen in de gewenste startvolgorde. Herstarten om te testen hoeft niet: het ⋮-menu op elke rij opent die app direct, en na het opstarten vertelt een kort bericht wat er is gestart — de rest volgt met één tik. Gratis start 1 app automatisch; PRO haalt de limiet weg zodat je hele lijst op volgorde start, en wil je nog geen abonnement, dan ontgrendelt een korte advertentie de limiet 24 uur.",
+      "tagline": "Start je apps automatisch na elke herstart, zodra je je telefoon ontgrendelt. Geen root, één keer instellen, werkt voor altijd.",
+      "long": "AutoStart+ is de eenvoudigste autostart-manager voor Android: kies je apps en na elke herstart gaan ze vanzelf open zodra je het toestel ontgrendelt. Geen root, geen scripts, geen dagelijkse tikjes. Zoek in al je geïnstalleerde apps, voeg ze in seconden toe, zet ze aan of uit met één tik en sleep de rijen in de gewenste startvolgorde. Herstarten om te testen hoeft niet: het ⋮-menu op elke rij opent die app direct, en na het opstarten vertelt een kort bericht wat er is gestart — de rest volgt met één tik. Gratis start 1 app automatisch; PRO haalt de limiet weg zodat je hele lijst op volgorde start, en wil je nog geen abonnement, dan ontgrendelt een korte advertentie de limiet 24 uur.",
       "features": [
-        "Start je gekozen apps zodra het toestel klaar is met opstarten — zonder root of custom ROM",
+        "Start je gekozen apps na elke herstart, zodra je het toestel ontgrendelt — zonder root of custom ROM",
         "Zoek in al je geïnstalleerde apps, voeg ze in seconden toe en zet ze aan of uit met één tik",
         "Sleep de rijen om te bepalen welke app bij elke start als eerste opent",
         "«Nu starten» in het ⋮-menu van elke rij — controleer je lijst zonder te herstarten",
-        "De opstartbanner start je hele lijst met één tik, zelfs vanaf het vergrendelscherm (PRO)",
+        "Na een herstart start een banner je hele lijst met één tik zodra je ontgrendelt (PRO)",
         "Gratis 1 app, PRO zonder limiet — of een korte advertentie ontgrendelt hem 24 uur"
       ],
       "faq": [
@@ -243,7 +247,7 @@
       "seo": "Volumeversterker en equalizer",
       "desc": "Volumeversterker, equalizer en bass: maak elk geluid luider, tot +15 dB.",
       "tagline": "Maak elke app luider — tot +15 dB, in echte decibels met veilige zones.",
-      "long": "Is je telefoon te stil? VolumeBooster+ verhoogt de volledige systeemuitvoer en niet alleen één app: zwakke luidsprekers, stille oordopjes, moeilijk verstaanbare video’s, gesprekken, muziek en games hoor je eindelijk duidelijk. De versterking wordt in decibel getoond, tot +15 dB, met zones Veilig / Let op / Gevaar op basis van WHO-richtlijnen, zodat je altijd ziet hoe ver je bent gegaan. Gratis haal je +10 dB, en Pro of een Free Pass opent het volledige bereik. Loudness Maximizer, een 5-bands equalizer met negen gratis presets, bassversterker, 3D-virtualizer en AutoEQ-correctie op basis van 2.456 gemeten hoofdtelefoonprofielen zitten in dezelfde app.",
+      "long": "Is je telefoon te stil? VolumeBooster+ verhoogt de volledige systeemuitvoer en niet alleen één app: zwakke luidsprekers, stille oordopjes, moeilijk verstaanbare video’s, muziek en games hoor je eindelijk duidelijk. De versterking wordt in decibel getoond, tot +15 dB, met zones Veilig / Let op / Gevaar op basis van WHO-richtlijnen, zodat je altijd ziet hoe ver je bent gegaan. Gratis haal je +10 dB, en Pro of een Free Pass opent het volledige bereik. Loudness Maximizer, een 5-bands equalizer met negen gratis presets, bassversterker, 3D-virtualizer en AutoEQ-correctie op basis van 2.456 gemeten hoofdtelefoonprofielen zitten in dezelfde app.",
       "features": [
         "Systeembrede boost tot +15 dB met labels Veilig / Let op / Gevaar — gratis +10 dB, het volledige bereik met Pro of een Free Pass",
         "Loudness Maximizer met multibandcompressie, makeup-gain en een altijd actieve pieklimiter: echt luider, zonder vervorming",
@@ -255,7 +259,7 @@
       "faq": [
         {
           "q": "Wordt mijn telefoon echt harder?",
-          "a": "Ja. De Loudness Maximizer verhoogt met multibandcompressie en makeup-gain echt de waargenomen luidheid, en tilt de volledige systeemuitvoer op in plaats van één app — muziek, video’s, YouTube, games en gesprekken. Gratis tot +10 dB, en met Pro of een Free Pass het volledige bereik van +15 dB."
+          "a": "Ja. De Loudness Maximizer verhoogt met multibandcompressie en makeup-gain echt de waargenomen luidheid, en tilt de volledige systeemuitvoer op in plaats van één app — muziek, video’s, YouTube en games. Gratis tot +10 dB, en met Pro of een Free Pass het volledige bereik van +15 dB."
         },
         {
           "q": "Is het echt gratis of heb ik een abonnement nodig?",
@@ -512,6 +516,10 @@
         {
           "q": "Worden mijn bestanden geüpload of wordt het origineel gewijzigd?",
           "a": "Geen van beide. Detecteren, maskeren en exporteren gebeuren op je pc, zonder account en zonder dat er iets wordt geüpload. Het maskeren gebeurt op een kopie, de app slaat nooit over het origineel op en opgeslagen kopieën worden opnieuw gecodeerd, zonder de metadata van het origineel."
+        },
+        {
+          "q": "Wat is gratis, en wat voegt Pro toe?",
+          "a": "Persoonlijke gegevens vinden is gratis en onbeperkt, en de afgedekte kopie van 3 documenten per dag kun je gratis opslaan, kopiëren of delen. Pro is een eenmalige aankoop die de daglimiet opheft en PDF-export, afdrukken, de lijst met altijd te verbergen termen en een eigen maskerkleur toevoegt. Geen advertenties en geen watermerk."
         }
       ]
     },
@@ -542,6 +550,10 @@
         {
           "q": "Waar komen de koersen vandaan?",
           "a": "Uit de openbare marktgegevens van Binance, met automatisch uitwijken naar alternatieve servers en CoinGecko, zodat de ticker blijft lopen als een bron onbereikbaar is. Koersen kunnen tot 30 seconden vertraagd zijn en zijn alleen ter informatie. FloatCrypto+ handelt niet, maakt geen verbinding met een exchange-account en beheert geen geld, en niets erin is beleggingsadvies."
+        },
+        {
+          "q": "Wat is gratis, en wat voegt Pro toe?",
+          "a": "Gratis volg je 2 munten met 1 prijsalarm, wordt elke 30 seconden ververst en zie je de grafiek van 1 dag — de koersbalk heeft geen tijdslimiet. Pro is een eenmalige aankoop die dat verhoogt naar 10 munten, onbeperkte alarmen, verversen elke 10 seconden en de grafieken van 7 en 30 dagen. De Windows-versie heeft geen advertenties."
         }
       ]
     }

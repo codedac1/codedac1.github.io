@@ -114,6 +114,10 @@
         {
           "q": "Windows bilgisayarımla senkronize oluyor mu?",
           "a": "Evet. Clipboard+ for Windows'u da kurun, ardından her iki uygulamanın ayarlarında aynı hesapla Google Drive'a giriş yapıp otomatik senkronizasyonu açın. Bundan sonra telefonda kopyaladığınızı bilgisayarda, bilgisayarda kopyaladığınızı telefonda yapıştırabilirsiniz. Kopyaladıklarınız hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır."
+        },
+        {
+          "q": "Ücretsiz sürümde neler var, Pro neler ekliyor?",
+          "a": "Ücretsiz sürüm; arama, parçacıklar, en fazla 3 grup, yüzen panel, widget ve metin seçim menüsünden kaydetme ile metin ve görsel pano geçmişini tutar, reklam gösterir. Pro reklamları kaldırır ve kendi Google Drive’ınız üzerinden telefon↔PC eşitleme, sınırsız görsel klibi, genişletilmiş yüzen panel ve widget, sınırsız grup, PDF dışa aktarma ve yedekten geri yükleme ekler — aylık, yıllık ya da tek seferlik ömür boyu satın alma. Yalnızca bir gün lazımsa kısa bir reklam onu 24 saatliğine açar."
         }
       ]
     },
@@ -122,14 +126,14 @@
       "tag": "Otomatik Başlatma",
       "seo": "Android otomatik başlatma yöneticisi",
       "desc": "Uygulamalarınızı açılışta otomatik başlatın. Root gerekmez, bir kez ayarlayın.",
-      "tagline": "Telefonunuz açılır açılmaz uygulamalarınızı otomatik başlatın. Root yok, bir kez ayarla, hep çalışsın.",
-      "long": "AutoStart+, Android için en basit otomatik başlatma yöneticisidir: uygulamalarınızı seçin, cihaz açılışını tamamladığı anda kendiliğinden başlasınlar. Root yok, betik yok, her sabah dokunma yok. Yüklü tüm uygulamalarda arayın, saniyeler içinde ekleyin, tek dokunuşla açıp kapatın ve satırları sürükleyerek başlatma sırasını belirleyin. Denemek için yeniden başlatmanıza da gerek yok: her satırdaki ⋮ menüsü o uygulamayı hemen açar, açılıştan sonra kısa bir mesaj nelerin başladığını bildirir, kalanı da tek dokunuşla çalışır. Ücretsiz sürüm 1 uygulama başlatır; PRO sınırı kaldırır ve listeniz sırayla açılır, abone olmak istemiyorsanız kısa bir reklam sınırı 24 saat kaldırır.",
+      "tagline": "Uygulamalarınızı her yeniden başlatmadan sonra, telefonun kilidini açar açmaz otomatik başlatın. Root yok, bir kez ayarla, hep çalışsın.",
+      "long": "AutoStart+, Android için en basit otomatik başlatma yöneticisidir: uygulamalarınızı seçin, her yeniden başlatmadan sonra cihazın kilidini açar açmaz kendiliğinden başlasınlar. Root yok, betik yok, her sabah dokunma yok. Yüklü tüm uygulamalarda arayın, saniyeler içinde ekleyin, tek dokunuşla açıp kapatın ve satırları sürükleyerek başlatma sırasını belirleyin. Denemek için yeniden başlatmanıza da gerek yok: her satırdaki ⋮ menüsü o uygulamayı hemen açar, açılıştan sonra kısa bir mesaj nelerin başladığını bildirir, kalanı da tek dokunuşla çalışır. Ücretsiz sürüm 1 uygulama başlatır; PRO sınırı kaldırır ve listeniz sırayla açılır, abone olmak istemiyorsanız kısa bir reklam sınırı 24 saat kaldırır.",
       "features": [
-        "Cihaz açılışını tamamlar tamamlamaz seçtiğiniz uygulamaları başlatır — root ve özel ROM gerekmez",
+        "Her yeniden başlatmadan sonra, cihazın kilidini açar açmaz seçtiğiniz uygulamaları başlatır — root ve özel ROM gerekmez",
         "Yüklü tüm uygulamalarda arayın, saniyeler içinde ekleyin, tek dokunuşla açıp kapatın",
         "Satırları sürükleyerek her açılışta hangi uygulamanın önce başlayacağını belirleyin",
         "Her satırın ⋮ menüsünde «Şimdi çalıştır» — telefonu yeniden başlatmadan listenizi deneyin",
-        "Açılış banner'ı listenizin tamamını tek dokunuşla, kilit ekranından bile başlatır (PRO)",
+        "Yeniden başlatmadan sonra, kilidi açar açmaz bir banner listenizin tamamını tek dokunuşla başlatır (PRO)",
         "Ücretsiz sürümde 1 uygulama, PRO'da sınır yok — ya da kısa bir reklamla 24 saat sınırsız"
       ],
       "faq": [
@@ -243,7 +247,7 @@
       "seo": "Ses yükseltici ve ekolayzer",
       "desc": "Ses yükseltici, ekolayzer ve bas: her sesi +15 dB’ye kadar yükseltin.",
       "tagline": "Her uygulamayı daha yüksek sesli yapın — +15 dB’ye kadar, gerçek desibel ve güvenli bölgelerle.",
-      "long": "Telefonunuz çok mu kısık? VolumeBooster+ tek bir uygulamayı değil, sistemin tüm çıkışını yükseltir: kısık hoparlörler, sesi yetersiz kulaklıklar, zor duyulan videolar, aramalar, müzik ve oyunlar sonunda net duyulur. Yükseltme desibel olarak gösterilir, +15 dB’ye kadar; DSÖ işitme önerilerine dayanan Güvenli / Dikkat / Tehlike bölgeleriyle ne kadar yükselttiğinizi her zaman görürsünüz. Ücretsiz sürüm +10 dB’ye çıkar, Pro veya Free Pass tüm aralığı açar. Ses maksimize edici, dokuz hazır ayarı da ücretsiz olan 5 bantlı ekolayzer, bas yükseltici, 3D sanallaştırıcı ve 2.456 ölçülmüş kulaklık profiline dayanan AutoEQ düzeltmesi aynı uygulamada.",
+      "long": "Telefonunuz çok mu kısık? VolumeBooster+ tek bir uygulamayı değil, sistemin tüm çıkışını yükseltir: kısık hoparlörler, sesi yetersiz kulaklıklar, zor duyulan videolar, müzik ve oyunlar sonunda net duyulur. Yükseltme desibel olarak gösterilir, +15 dB’ye kadar; DSÖ işitme önerilerine dayanan Güvenli / Dikkat / Tehlike bölgeleriyle ne kadar yükselttiğinizi her zaman görürsünüz. Ücretsiz sürüm +10 dB’ye çıkar, Pro veya Free Pass tüm aralığı açar. Ses maksimize edici, dokuz hazır ayarı da ücretsiz olan 5 bantlı ekolayzer, bas yükseltici, 3D sanallaştırıcı ve 2.456 ölçülmüş kulaklık profiline dayanan AutoEQ düzeltmesi aynı uygulamada.",
       "features": [
         "Sistem genelinde +15 dB’ye kadar yükseltme, Güvenli / Dikkat / Tehlike etiketleriyle — ücretsiz +10 dB, tam aralık Pro veya Free Pass ile",
         "Çok bantlı sıkıştırma, telafi kazancı ve sürekli çalışan tepe sınırlayıcıyla ses maksimize edici: gerçekten daha yüksek, bozulma yok",
@@ -255,7 +259,7 @@
       "faq": [
         {
           "q": "Telefon gerçekten daha yüksek sesli oluyor mu?",
-          "a": "Evet. Ses maksimize edici, çok bantlı sıkıştırma ve telafi kazancıyla algılanan sesi gerçekten artırır ve tek bir uygulamayı değil sistemin tüm çıkışını yükseltir — müzik, video, YouTube, oyun ve aramalar dahil. Ücretsiz sürüm +10 dB’ye kadar, Pro veya Free Pass ile tam +15 dB aralığı açılır."
+          "a": "Evet. Ses maksimize edici, çok bantlı sıkıştırma ve telafi kazancıyla algılanan sesi gerçekten artırır ve tek bir uygulamayı değil sistemin tüm çıkışını yükseltir — müzik, video, YouTube ve oyunlar dahil. Ücretsiz sürüm +10 dB’ye kadar, Pro veya Free Pass ile tam +15 dB aralığı açılır."
         },
         {
           "q": "Gerçekten ücretsiz mi, abonelik gerekiyor mu?",
@@ -512,6 +516,10 @@
         {
           "q": "Dosyalarım bir yere yükleniyor mu, orijinal değişiyor mu?",
           "a": "İkisi de hayır. Algılama, maskeleme ve dışa aktarma hesap gerekmeden ve hiçbir şey yüklenmeden bilgisayarınızda çalışır. Maskeleme bir kopya üzerinde yapılır, uygulama orijinalin üzerine kaydetmeyi reddeder ve kaydedilen kopyalar yeniden kodlandığı için orijinalin meta verisini taşımaz."
+        },
+        {
+          "q": "Ücretsiz sürümde neler var, Pro neler ekliyor?",
+          "a": "Kişisel bilgileri bulmak ücretsiz ve sınırsızdır; maskelenmiş kopyayı günde 3 belge için ücretsiz kaydedebilir, kopyalayabilir ya da paylaşabilirsiniz. Pro tek seferlik bir satın almadır; günlük sınırı kaldırır ve PDF dışa aktarma, yazdırma, her zaman gizlenecekler listesi ile maske rengi seçimini ekler. Reklam ve filigran yoktur."
         }
       ]
     },
@@ -542,6 +550,10 @@
         {
           "q": "Fiyatlar nereden geliyor?",
           "a": "Binance'in herkese açık piyasa verilerinden; bir kaynağa erişilemediğinde şeridin çalışmaya devam etmesi için otomatik olarak yedek sunuculara ve CoinGecko'ya geçilir. Fiyatlar 30 saniyeye kadar gecikebilir ve yalnızca bilgi amaçlıdır. FloatCrypto+ alım satım yapmaz, hiçbir borsa hesabına bağlanmaz ve fon tutmaz; içindeki hiçbir şey yatırım tavsiyesi değildir."
+        },
+        {
+          "q": "Ücretsiz sürümde neler var, Pro neler ekliyor?",
+          "a": "Ücretsiz sürümde 2 coin ve 1 fiyat alarmı takip edilir, fiyatlar 30 saniyede bir yenilenir ve 1 günlük grafik gösterilir — fiyat çubuğunun süre sınırı yoktur. Pro tek seferlik bir satın almadır ve bunu 10 coin, sınırsız alarm, 10 saniyelik yenileme ile 7 ve 30 günlük grafiklere çıkarır. Windows sürümünde reklam yoktur."
         }
       ]
     }

@@ -114,6 +114,10 @@
         {
           "q": "Adakah ia menyegerak dengan PC Windows saya?",
           "a": "Ya. Pasang juga Clipboard+ for Windows, kemudian dalam tetapan kedua-dua aplikasi log masuk ke Google Drive dengan akaun yang sama dan hidupkan penyegerakan automatik. Selepas itu, apa yang anda salin di telefon boleh ditampal di PC, manakala apa yang anda salin di PC boleh ditampal di telefon. Kandungan yang disalin tidak melalui mana-mana pelayan CodeDAC — ia disimpan di dalam Google Drive anda sendiri sahaja."
+        },
+        {
+          "q": "Apa yang percuma, dan apa tambahan Pro?",
+          "a": "Versi percuma menyimpan sejarah teks dan imej dengan carian, petikan, sehingga 3 kumpulan, panel terapung, widget dan simpan dari menu pilihan teks, dengan iklan. Pro membuang iklan dan menambah penyegerakan telefon↔PC melalui Google Drive anda sendiri, klip imej tanpa had, panel terapung dan widget yang diperluas, kumpulan tanpa had, eksport PDF dan pemulihan sandaran — bulanan, tahunan atau belian sekali seumur hidup. Jika perlu untuk sehari sahaja, iklan pendek membukanya selama 24 jam."
         }
       ]
     },
@@ -122,14 +126,14 @@
       "tag": "Auto Start",
       "seo": "Pengurus Auto Start Android",
       "desc": "Lancarkan aplikasi anda secara automatik semasa but. Tanpa root, tetapkan sekali.",
-      "tagline": "Auto start aplikasi anda sebaik sahaja telefon but. Tanpa root, tetapkan sekali, berjalan selamanya.",
-      "long": "AutoStart+ ialah pengurus mula automatik paling ringkas untuk Android: pilih apl anda, dan sebaik peranti selesai but, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketikan setiap pagi. Cari dalam semua apl yang dipasang, tambah ke senarai dalam beberapa saat, hidupkan atau matikan dengan satu ketikan, dan seret barisnya untuk menetapkan susunan mula. Tak perlu but semula untuk menguji: menu ⋮ pada setiap baris membuka apl itu serta-merta, dan selepas but satu mesej ringkas memberitahu apa yang sudah berjalan — selebihnya cukup satu ketikan. Versi percuma memulakan 1 apl; PRO menanggalkan had itu supaya seluruh senarai berjalan mengikut susunan, atau tonton iklan ringkas untuk membuka had selama 24 jam.",
+      "tagline": "Auto start aplikasi anda selepas setiap kali telefon dimulakan semula, sebaik sahaja anda membuka kuncinya. Tanpa root, tetapkan sekali, berjalan selamanya.",
+      "long": "AutoStart+ ialah pengurus mula automatik paling ringkas untuk Android: pilih apl anda, dan selepas setiap mula semula, sebaik peranti dibuka kunci, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketikan setiap pagi. Cari dalam semua apl yang dipasang, tambah ke senarai dalam beberapa saat, hidupkan atau matikan dengan satu ketikan, dan seret barisnya untuk menetapkan susunan mula. Tak perlu but semula untuk menguji: menu ⋮ pada setiap baris membuka apl itu serta-merta, dan selepas but satu mesej ringkas memberitahu apa yang sudah berjalan — selebihnya cukup satu ketikan. Versi percuma memulakan 1 apl; PRO menanggalkan had itu supaya seluruh senarai berjalan mengikut susunan, atau tonton iklan ringkas untuk membuka had selama 24 jam.",
       "features": [
-        "Memulakan apl pilihan anda sebaik peranti selesai but — tanpa root, tanpa ROM tersuai",
+        "Memulakan apl pilihan anda selepas setiap mula semula, sebaik peranti dibuka kunci — tanpa root, tanpa ROM tersuai",
         "Cari dalam semua apl yang dipasang, tambah dalam beberapa saat dan hidupkan atau matikan dengan satu ketikan",
         "Seret barisnya untuk menentukan apl mana yang bermula dahulu pada setiap but",
         "«Jalankan sekarang» dari menu ⋮ pada mana-mana baris — uji senarai tanpa but semula",
-        "Sepanduk but menjalankan seluruh senarai dengan satu ketikan, walaupun dari skrin kunci (PRO)",
+        "Selepas mula semula, sepanduk menjalankan seluruh senarai dengan satu ketikan sebaik anda membuka kunci (PRO)",
         "Percuma 1 apl, PRO tanpa had — atau iklan ringkas membuka had selama 24 jam"
       ],
       "faq": [
@@ -243,7 +247,7 @@
       "seo": "Penguat Suara & Equalizer",
       "desc": "Penguat volum, penyama dan bas: jadikan apa-apa bunyi lebih kuat sehingga +15 dB.",
       "tagline": "Jadikan setiap apl lebih kuat — sehingga +15 dB, dalam desibel sebenar dengan zon selamat.",
-      "long": "Telefon anda terlalu perlahan? VolumeBooster+ menaikkan keseluruhan output sistem, bukan satu apl sahaja: pembesar suara yang lemah, fon telinga bervolum rendah, video yang sukar didengar, panggilan, muzik dan permainan akhirnya kedengaran jelas. Penguatan dipaparkan dalam desibel, sehingga +15 dB, dengan zon Selamat / Berhati-hati / Bahaya berdasarkan panduan pendengaran WHO, jadi anda sentiasa nampak sejauh mana anda telah menaikkannya. Versi percuma mencapai +10 dB, manakala Pro atau Free Pass membuka julat penuh. Pemaksimum kelantangan, penyama 5 jalur dengan sembilan prasetel yang semuanya percuma, penguat bas, pemaya 3D dan pembetulan AutoEQ daripada 2,456 profil fon kepala terukur semuanya dalam apl yang sama.",
+      "long": "Telefon anda terlalu perlahan? VolumeBooster+ menaikkan keseluruhan output sistem, bukan satu apl sahaja: pembesar suara yang lemah, fon telinga bervolum rendah, video yang sukar didengar, muzik dan permainan akhirnya kedengaran jelas. Penguatan dipaparkan dalam desibel, sehingga +15 dB, dengan zon Selamat / Berhati-hati / Bahaya berdasarkan panduan pendengaran WHO, jadi anda sentiasa nampak sejauh mana anda telah menaikkannya. Versi percuma mencapai +10 dB, manakala Pro atau Free Pass membuka julat penuh. Pemaksimum kelantangan, penyama 5 jalur dengan sembilan prasetel yang semuanya percuma, penguat bas, pemaya 3D dan pembetulan AutoEQ daripada 2,456 profil fon kepala terukur semuanya dalam apl yang sama.",
       "features": [
         "Penguatan seluruh sistem sehingga +15 dB dengan label Selamat / Berhati-hati / Bahaya — percuma +10 dB, julat penuh dengan Pro atau Free Pass",
         "Pemaksimum kelantangan dengan mampatan berbilang jalur, gandaan pampasan dan penghad puncak yang sentiasa aktif: benar-benar lebih kuat, tanpa herotan",
@@ -255,7 +259,7 @@
       "faq": [
         {
           "q": "Adakah telefon benar-benar menjadi lebih kuat?",
-          "a": "Ya. Pemaksimum kelantangan menggunakan mampatan berbilang jalur dan gandaan pampasan untuk benar-benar menaikkan kelantangan yang dirasakan, dan ia menaikkan keseluruhan output sistem, bukan satu apl — muzik, video, YouTube, permainan dan panggilan. Versi percuma sehingga +10 dB, manakala Pro atau Free Pass membuka julat penuh +15 dB."
+          "a": "Ya. Pemaksimum kelantangan menggunakan mampatan berbilang jalur dan gandaan pampasan untuk benar-benar menaikkan kelantangan yang dirasakan, dan ia menaikkan keseluruhan output sistem, bukan satu apl — muzik, video, YouTube dan permainan. Versi percuma sehingga +10 dB, manakala Pro atau Free Pass membuka julat penuh +15 dB."
         },
         {
           "q": "Adakah ia benar-benar percuma atau perlu langganan?",
@@ -512,6 +516,10 @@
         {
           "q": "Adakah fail saya dimuat naik, atau fail asal berubah?",
           "a": "Kedua-duanya tidak. Pengesanan, penutupan dan eksport semuanya berjalan pada PC anda tanpa akaun dan tanpa muat naik. Penutupan dibuat pada salinan, apl enggan menyimpan di atas fail asal, dan salinan yang disimpan dikodkan semula supaya tidak membawa metadata fail asal."
+        },
+        {
+          "q": "Apa yang percuma, dan apa tambahan Pro?",
+          "a": "Mencari maklumat peribadi adalah percuma dan tanpa had, dan anda boleh menyimpan, menyalin atau berkongsi salinan yang telah ditutup bagi 3 dokumen sehari secara percuma. Pro ialah belian sekali yang membuang had harian dan menambah eksport PDF, cetakan, senarai yang sentiasa disembunyikan dan pilihan warna topeng. Tiada iklan dan tiada tera air."
         }
       ]
     },
@@ -542,6 +550,10 @@
         {
           "q": "Dari mana datangnya harga?",
           "a": "Daripada data pasaran awam Binance, dengan pertukaran automatik ke pelayan alternatif dan CoinGecko supaya ticker terus berjalan apabila satu sumber tidak dapat dicapai. Harga mungkin lewat sehingga 30 saat dan untuk maklumat sahaja. FloatCrypto+ tidak berdagang, tidak menyambung ke akaun bursa dan tidak menyimpan sebarang dana, dan tiada apa-apa di dalamnya merupakan nasihat pelaburan."
+        },
+        {
+          "q": "Apa yang percuma, dan apa tambahan Pro?",
+          "a": "Versi percuma mengikuti 2 syiling dengan 1 amaran harga, dikemas kini setiap 30 saat dan memaparkan carta 1 hari — ticker tiada had masa. Pro ialah belian sekali yang menaikkannya kepada 10 syiling, amaran tanpa had, kemas kini 10 saat serta carta 7 dan 30 hari. Versi Windows tiada iklan."
         }
       ]
     }

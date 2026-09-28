@@ -114,6 +114,10 @@
         {
           "q": "Se synchronise-t-il avec mon PC Windows ?",
           "a": "Oui. Installez également Clipboard+ for Windows, puis, dans les paramètres des deux applis, connectez-vous à Google Drive avec le même compte et activez la synchronisation automatique. Ensuite, ce que vous copiez sur votre téléphone se colle sur votre PC, et ce que vous copiez sur votre PC se colle sur votre téléphone. Les éléments copiés ne transitent par aucun serveur CodeDAC : ils sont enregistrés uniquement dans votre propre Google Drive."
+        },
+        {
+          "q": "Qu’est-ce qui est gratuit, et qu’apporte Pro ?",
+          "a": "La version gratuite garde l’historique du texte et des images avec la recherche, les extraits, jusqu’à 3 groupes, le panneau flottant, le widget et l’enregistrement depuis le menu de sélection de texte, avec des publicités. Pro supprime les publicités et ajoute la synchronisation téléphone-PC via votre propre Google Drive, des clips image illimités, le panneau flottant et le widget étendus, des groupes illimités, l’export PDF et la restauration des sauvegardes — au mois, à l’année ou en achat unique à vie. Si vous n’en avez besoin que pour une journée, une courte publicité le débloque pendant 24 heures."
         }
       ]
     },
@@ -122,14 +126,14 @@
       "tag": "Lancement automatique",
       "seo": "Gestionnaire de lancement automatique",
       "desc": "Lancez vos applis automatiquement au démarrage. Sans root, réglé une seule fois.",
-      "tagline": "Lancez vos applis automatiquement dès le démarrage du téléphone. Sans root, réglé une fois, actif pour toujours.",
-      "long": "AutoStart+ est le gestionnaire de démarrage automatique le plus simple pour Android : choisissez vos applis et, dès que l'appareil a fini de démarrer, elles s'ouvrent toutes seules. Sans root, sans script, sans geste quotidien. Cherchez parmi toutes les applis installées, ajoutez-les en quelques secondes, activez ou désactivez d'un toucher et glissez les lignes pour fixer l'ordre de lancement. Pas besoin de redémarrer pour tester : le menu ⋮ de chaque ligne ouvre l'appli immédiatement, et après le démarrage un court message indique ce qui s'est lancé, le reste suit d'un toucher. La version gratuite lance 1 appli ; PRO lève la limite et toute la liste démarre dans l'ordre, et si vous préférez ne pas vous abonner, une courte pub la débloque pendant 24 heures.",
+      "tagline": "Lancez vos applis automatiquement après chaque redémarrage, dès que vous déverrouillez le téléphone. Sans root, réglé une fois, actif pour toujours.",
+      "long": "AutoStart+ est le gestionnaire de démarrage automatique le plus simple pour Android : choisissez vos applis et, après chaque redémarrage, dès que vous déverrouillez l'appareil, elles s'ouvrent toutes seules. Sans root, sans script, sans geste quotidien. Cherchez parmi toutes les applis installées, ajoutez-les en quelques secondes, activez ou désactivez d'un toucher et glissez les lignes pour fixer l'ordre de lancement. Pas besoin de redémarrer pour tester : le menu ⋮ de chaque ligne ouvre l'appli immédiatement, et après le démarrage un court message indique ce qui s'est lancé, le reste suit d'un toucher. La version gratuite lance 1 appli ; PRO lève la limite et toute la liste démarre dans l'ordre, et si vous préférez ne pas vous abonner, une courte pub la débloque pendant 24 heures.",
       "features": [
-        "Lance les applis choisies dès que l'appareil a fini de démarrer — sans root ni ROM personnalisée",
+        "Lance les applis choisies après chaque redémarrage, dès que vous déverrouillez l'appareil — sans root ni ROM personnalisée",
         "Cherchez parmi toutes les applis installées, ajoutez-les en quelques secondes, activez ou désactivez d'un toucher",
         "Glissez les lignes pour décider quelle appli démarre en premier à chaque boot",
         "« Lancer maintenant » dans le menu ⋮ de chaque ligne : vérifiez votre liste sans redémarrer",
-        "La bannière de démarrage lance toute la liste d'un toucher, même depuis l'écran verrouillé (PRO)",
+        "Après un redémarrage, une bannière lance toute la liste d'un toucher dès le déverrouillage (PRO)",
         "Gratuit : 1 appli ; PRO lève la limite — ou une courte pub la débloque 24 heures"
       ],
       "faq": [
@@ -243,7 +247,7 @@
       "seo": "Amplificateur de volume",
       "desc": "Booster de volume, égaliseur et basses : montez n’importe quel son jusqu’à +15 dB.",
       "tagline": "Montez le son de toutes vos applis — jusqu’à +15 dB, en décibels réels avec zones de sécurité.",
-      "long": "Votre téléphone est trop faible ? VolumeBooster+ augmente toute la sortie du système, et pas seulement une appli : haut-parleurs faibles, écouteurs peu sonores, vidéos difficiles à entendre, appels, musique et jeux deviennent enfin clairs. L’amplification est affichée en décibels, jusqu’à +15 dB, avec des zones Sûr / Prudence / Danger fondées sur les recommandations auditives de l’OMS — vous voyez toujours jusqu’où vous êtes allé. La version gratuite atteint +10 dB, Pro ou un Free Pass ouvre toute la plage. Maximiseur de sonie, égaliseur 5 bandes dont les neuf presets sont gratuits, booster de basses, virtualiseur 3D et correction AutoEQ fondée sur 2 456 profils de casques mesurés : tout est dans la même appli.",
+      "long": "Votre téléphone est trop faible ? VolumeBooster+ augmente toute la sortie du système, et pas seulement une appli : haut-parleurs faibles, écouteurs peu sonores, vidéos difficiles à entendre, musique et jeux deviennent enfin clairs. L’amplification est affichée en décibels, jusqu’à +15 dB, avec des zones Sûr / Prudence / Danger fondées sur les recommandations auditives de l’OMS — vous voyez toujours jusqu’où vous êtes allé. La version gratuite atteint +10 dB, Pro ou un Free Pass ouvre toute la plage. Maximiseur de sonie, égaliseur 5 bandes dont les neuf presets sont gratuits, booster de basses, virtualiseur 3D et correction AutoEQ fondée sur 2 456 profils de casques mesurés : tout est dans la même appli.",
       "features": [
         "Amplification sur tout le système jusqu’à +15 dB avec repères Sûr / Prudence / Danger — +10 dB gratuit, la plage complète avec Pro ou un Free Pass",
         "Maximiseur de sonie à compression multibande et gain de compensation, avec limiteur de crête toujours actif : réellement plus fort, sans écrêtage",
@@ -255,7 +259,7 @@
       "faq": [
         {
           "q": "Le téléphone devient-il vraiment plus fort ?",
-          "a": "Oui. Le maximiseur de sonie utilise la compression multibande et le gain de compensation pour augmenter réellement la sonie perçue, et il élève toute la sortie du système plutôt qu’une seule appli : musique, vidéos, YouTube, jeux et appels. La version gratuite monte à +10 dB, Pro ou un Free Pass ouvre la plage complète de +15 dB."
+          "a": "Oui. Le maximiseur de sonie utilise la compression multibande et le gain de compensation pour augmenter réellement la sonie perçue, et il élève toute la sortie du système plutôt qu’une seule appli : musique, vidéos, YouTube et jeux. La version gratuite monte à +10 dB, Pro ou un Free Pass ouvre la plage complète de +15 dB."
         },
         {
           "q": "Est-ce vraiment gratuit ou faut-il un abonnement ?",
@@ -512,6 +516,10 @@
         {
           "q": "Mes fichiers sont-ils envoyés, ou l'original est-il modifié ?",
           "a": "Ni l'un ni l'autre. Détection, masquage et export se font sur votre PC, sans compte et sans rien envoyer. Le masquage s'applique à une copie, l'application refuse d'enregistrer par-dessus l'original, et les copies enregistrées sont réencodées : elles ne contiennent aucune métadonnée de l'original."
+        },
+        {
+          "q": "Qu’est-ce qui est gratuit, et qu’apporte Pro ?",
+          "a": "La détection des informations personnelles est gratuite et illimitée, et vous pouvez enregistrer, copier ou partager gratuitement la copie masquée de 3 documents par jour. Pro est un achat unique qui supprime la limite quotidienne et ajoute l’export PDF, l’impression, la liste des termes toujours masqués et le choix de la couleur du masque. Aucune publicité, aucun filigrane."
         }
       ]
     },
@@ -542,6 +550,10 @@
         {
           "q": "D'où viennent les cours ?",
           "a": "Des données de marché publiques de Binance, avec bascule automatique vers des serveurs de secours et CoinGecko pour que le bandeau continue de tourner quand une source est injoignable. Les cours peuvent avoir jusqu'à 30 secondes de retard et sont fournis à titre indicatif. FloatCrypto+ ne passe aucun ordre, ne se connecte à aucun compte de plateforme d'échange et ne détient aucun fonds, et rien dans l'application ne constitue un conseil en investissement."
+        },
+        {
+          "q": "Qu’est-ce qui est gratuit, et qu’apporte Pro ?",
+          "a": "En gratuit, vous suivez 2 cryptos avec 1 alerte de prix, l’actualisation se fait toutes les 30 secondes et le graphique sur 1 jour est affiché — le bandeau n’a aucune limite de durée. Pro est un achat unique qui passe à 10 cryptos, des alertes illimitées, une actualisation toutes les 10 secondes et les graphiques sur 7 et 30 jours. La version Windows n’a pas de publicité."
         }
       ]
     }

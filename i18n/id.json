@@ -114,6 +114,10 @@
         {
           "q": "Apakah bisa tersinkron dengan PC Windows saya?",
           "a": "Ya. Pasang juga Clipboard+ for Windows, lalu di pengaturan kedua aplikasi masuk ke Google Drive dengan akun yang sama dan aktifkan sinkronisasi otomatis. Setelah itu, apa yang Anda salin di ponsel bisa ditempel di PC, dan yang Anda salin di PC bisa ditempel di ponsel. Isi salinan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri."
+        },
+        {
+          "q": "Apa yang gratis, dan apa tambahan Pro?",
+          "a": "Versi gratis menyimpan riwayat teks dan gambar dengan pencarian, cuplikan, hingga 3 grup, panel mengambang, widget, dan simpan dari menu pilihan teks, dengan iklan. Pro menghapus iklan dan menambahkan sinkronisasi ponsel↔PC lewat Google Drive milikmu sendiri, klip gambar tanpa batas, panel mengambang dan widget yang diperluas, grup tanpa batas, ekspor PDF, dan pemulihan cadangan — bulanan, tahunan, atau sekali beli seumur hidup. Jika hanya perlu sehari, iklan singkat membukanya selama 24 jam."
         }
       ]
     },
@@ -122,14 +126,14 @@
       "tag": "Auto Start",
       "seo": "Pengelola Auto Start Android",
       "desc": "Jalankan aplikasi otomatis saat booting. Tanpa root, cukup atur sekali.",
-      "tagline": "Jalankan aplikasi otomatis begitu ponsel menyala. Tanpa root, atur sekali, berjalan selamanya.",
-      "long": "AutoStart+ adalah pengelola mulai otomatis paling sederhana untuk Android: pilih aplikasimu, dan begitu perangkat selesai booting semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketukan setiap pagi. Cari semua aplikasi terpasang, tambahkan dalam hitungan detik, nyalakan atau matikan dengan sekali ketuk, dan seret barisnya untuk mengatur urutan mulai. Tak perlu reboot untuk menguji: menu ⋮ di tiap baris membuka aplikasi itu seketika, dan setelah boot muncul pesan singkat berisi apa saja yang sudah jalan, sisanya cukup sekali ketuk. Versi gratis menjalankan 1 aplikasi; PRO menghapus batas itu sehingga seluruh daftar jalan berurutan, atau tonton iklan singkat untuk membuka batasnya selama 24 jam.",
+      "tagline": "Jalankan aplikasi otomatis setiap kali ponsel dinyalakan ulang, begitu kamu membuka kuncinya. Tanpa root, atur sekali, berjalan selamanya.",
+      "long": "AutoStart+ adalah pengelola mulai otomatis paling sederhana untuk Android: pilih aplikasimu, dan setelah setiap restart, begitu perangkat dibuka kuncinya, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketukan setiap pagi. Cari semua aplikasi terpasang, tambahkan dalam hitungan detik, nyalakan atau matikan dengan sekali ketuk, dan seret barisnya untuk mengatur urutan mulai. Tak perlu reboot untuk menguji: menu ⋮ di tiap baris membuka aplikasi itu seketika, dan setelah boot muncul pesan singkat berisi apa saja yang sudah jalan, sisanya cukup sekali ketuk. Versi gratis menjalankan 1 aplikasi; PRO menghapus batas itu sehingga seluruh daftar jalan berurutan, atau tonton iklan singkat untuk membuka batasnya selama 24 jam.",
       "features": [
-        "Menjalankan aplikasi pilihanmu begitu perangkat selesai booting — tanpa root, tanpa ROM kustom",
+        "Menjalankan aplikasi pilihanmu setelah setiap restart, begitu perangkat dibuka kuncinya — tanpa root, tanpa ROM kustom",
         "Cari semua aplikasi terpasang, tambahkan dalam hitungan detik, dan nyalakan atau matikan sekali ketuk",
         "Seret barisnya untuk menentukan aplikasi mana yang jalan lebih dulu di tiap boot",
         "«Jalankan sekarang» dari menu ⋮ tiap baris — uji daftarmu tanpa menyalakan ulang ponsel",
-        "Banner boot menjalankan seluruh daftar sekali ketuk, bahkan dari layar kunci (PRO)",
+        "Setelah restart, banner menjalankan seluruh daftar sekali ketuk begitu kamu membuka kunci (PRO)",
         "Gratis 1 aplikasi; PRO tanpa batas — atau iklan singkat membuka batasnya 24 jam"
       ],
       "faq": [
@@ -243,7 +247,7 @@
       "seo": "Penguat Volume & Equalizer",
       "desc": "Penguat volume, equalizer, dan bass: buat suara apa pun lebih keras hingga +15 dB.",
       "tagline": "Buat setiap aplikasi lebih keras — hingga +15 dB, dalam desibel nyata dengan zona aman.",
-      "long": "Ponsel Anda terlalu pelan? VolumeBooster+ menaikkan seluruh keluaran sistem, bukan satu aplikasi saja: speaker yang lemah, earphone bervolume rendah, video yang sulit didengar, panggilan, musik, dan game akhirnya terdengar jelas. Penguatan ditampilkan dalam desibel, hingga +15 dB, dengan zona Aman / Hati-hati / Bahaya berdasarkan panduan pendengaran WHO, jadi Anda selalu tahu sudah menaikkan sejauh apa. Versi gratis mencapai +10 dB, dan Pro atau Free Pass membuka rentang penuh. Loudness Maximizer, equalizer 5 band dengan sembilan preset yang semuanya gratis, penguat bass, virtualizer 3D, dan koreksi AutoEQ dari 2.456 profil headphone terukur ada di aplikasi yang sama.",
+      "long": "Ponsel Anda terlalu pelan? VolumeBooster+ menaikkan seluruh keluaran sistem, bukan satu aplikasi saja: speaker yang lemah, earphone bervolume rendah, video yang sulit didengar, musik, dan game akhirnya terdengar jelas. Penguatan ditampilkan dalam desibel, hingga +15 dB, dengan zona Aman / Hati-hati / Bahaya berdasarkan panduan pendengaran WHO, jadi Anda selalu tahu sudah menaikkan sejauh apa. Versi gratis mencapai +10 dB, dan Pro atau Free Pass membuka rentang penuh. Loudness Maximizer, equalizer 5 band dengan sembilan preset yang semuanya gratis, penguat bass, virtualizer 3D, dan koreksi AutoEQ dari 2.456 profil headphone terukur ada di aplikasi yang sama.",
       "features": [
         "Penguatan seluruh sistem hingga +15 dB dengan label Aman / Hati-hati / Bahaya — gratis +10 dB, rentang penuh dengan Pro atau Free Pass",
         "Loudness Maximizer dengan kompresi multiband, makeup gain, dan peak limiter yang selalu aktif: benar-benar lebih keras, tanpa distorsi",
@@ -255,7 +259,7 @@
       "faq": [
         {
           "q": "Apakah ponsel benar-benar jadi lebih keras?",
-          "a": "Ya. Loudness Maximizer memakai kompresi multiband dan makeup gain untuk benar-benar menaikkan kenyaringan yang terdengar, dan menaikkan seluruh keluaran sistem, bukan satu aplikasi — musik, video, YouTube, game, maupun panggilan. Gratis hingga +10 dB, dan Pro atau Free Pass membuka rentang penuh +15 dB."
+          "a": "Ya. Loudness Maximizer memakai kompresi multiband dan makeup gain untuk benar-benar menaikkan kenyaringan yang terdengar, dan menaikkan seluruh keluaran sistem, bukan satu aplikasi — musik, video, YouTube, maupun game. Gratis hingga +10 dB, dan Pro atau Free Pass membuka rentang penuh +15 dB."
         },
         {
           "q": "Apakah benar-benar gratis atau perlu berlangganan?",
@@ -512,6 +516,10 @@
         {
           "q": "Apakah file saya diunggah, atau file aslinya berubah?",
           "a": "Tidak keduanya. Deteksi, penyamaran, dan ekspor semuanya berjalan di PC Anda tanpa akun dan tanpa unggahan. Penyamaran dilakukan pada salinan, aplikasi menolak menyimpan di atas file asli, dan salinan yang disimpan dikodekan ulang sehingga tidak membawa metadata file asli."
+        },
+        {
+          "q": "Apa yang gratis, dan apa tambahan Pro?",
+          "a": "Menemukan info pribadi gratis dan tanpa batas, dan kamu bisa menyimpan, menyalin, atau membagikan salinan yang sudah ditutup untuk 3 dokumen per hari secara gratis. Pro adalah pembelian sekali yang menghapus batas harian dan menambahkan ekspor PDF, cetak, daftar yang selalu disembunyikan, dan pilihan warna masker. Tidak ada iklan dan tanpa tanda air."
         }
       ]
     },
@@ -542,6 +550,10 @@
         {
           "q": "Dari mana asal harganya?",
           "a": "Dari data pasar publik Binance, dengan peralihan otomatis ke server alternatif dan CoinGecko agar ticker tetap berjalan saat salah satu sumber tidak dapat dijangkau. Harga dapat tertunda hingga 30 detik dan hanya untuk informasi. FloatCrypto+ tidak melakukan trading, tidak terhubung ke akun bursa, dan tidak menyimpan dana apa pun, serta tidak ada isinya yang merupakan nasihat investasi."
+        },
+        {
+          "q": "Apa yang gratis, dan apa tambahan Pro?",
+          "a": "Versi gratis memantau 2 koin dengan 1 peringatan harga, diperbarui setiap 30 detik, dan menampilkan grafik 1 hari — ticker tidak punya batas waktu. Pro adalah pembelian sekali yang menaikkannya menjadi 10 koin, peringatan tanpa batas, pembaruan 10 detik, serta grafik 7 dan 30 hari. Versi Windows tidak memiliki iklan."
         }
       ]
     }

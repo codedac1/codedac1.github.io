@@ -114,6 +114,10 @@
         {
           "q": "Nagsi-sync ba ito sa Windows PC ko?",
           "a": "Oo. I-install din ang Clipboard+ for Windows, tapos sa settings ng dalawang app ay mag-sign in sa Google Drive gamit ang iisang account at i-on ang automatic sync. Pagkatapos noon, ang kinopya mo sa telepono ay maipa-paste mo sa PC, at ang kinopya mo sa PC ay maipa-paste mo sa telepono. Hindi dumadaan sa anumang server ng CodeDAC ang kinokopya mo — nakaimbak lamang ito sa sarili mong Google Drive."
+        },
+        {
+          "q": "Ano ang libre, at ano ang dagdag ng Pro?",
+          "a": "Libre ang history ng text at larawan na may search, snippets, hanggang 3 grupo, ang floating panel, ang widget at ang pag-save mula sa text selection menu, at may ads. Tinatanggal ng Pro ang ads at nagdadagdag ng phone-to-PC sync sa sarili mong Google Drive, walang limitasyong image clips, mas malaking floating panel at widget, walang limitasyong grupo, PDF export at pag-restore ng backup — buwanan, taunan o isang beses na lifetime na bili. Kung isang araw lang ang kailangan, isang maikling ad ang magbubukas nito nang 24 oras."
         }
       ]
     },
@@ -122,14 +126,14 @@
       "tag": "Auto Start",
       "seo": "Auto Start Manager para sa Android",
       "desc": "Awtomatikong i-launch ang mga app mo sa boot. Walang root, isang setup lang.",
-      "tagline": "Awtomatikong i-start ang mga app mo sa sandaling mag-boot ang telepono. Walang root, isang setup lang, tumatakbo habambuhay.",
-      "long": "Ang AutoStart+ ang pinakasimpleng auto start manager para sa Android: piliin ang mga app na gusto mo, at sa oras na matapos mag-boot ang device, kusa na silang bubukas — walang root, walang script, walang araw-araw na pag-tap. Hanapin ang lahat ng naka-install na app, idagdag sa listahan sa ilang segundo, i-on o i-off sa isang tap, at i-drag ang mga row para itakda ang pagkakasunod ng paglunsad. Hindi mo rin kailangang mag-restart para subukan: ang ⋮ menu sa bawat row ay agad na nagbubukas ng app na iyon, at pagkatapos mag-boot ay may maikling mensaheng nagsasabi kung ano ang nabuksan — isang tap na lang ang natitira. Sa libreng bersyon, 1 app ang bumubukas; inaalis ng PRO ang limitasyon kaya buong listahan ang tatakbo nang sunod-sunod, o manood ng maikling ad para alisin ang limitasyon nang 24 oras.",
+      "tagline": "Awtomatikong i-start ang mga app mo tuwing magre-restart ang telepono, sa sandaling i-unlock mo ito. Walang root, isang setup lang, tumatakbo habambuhay.",
+      "long": "Ang AutoStart+ ang pinakasimpleng auto start manager para sa Android: piliin ang mga app na gusto mo, at pagkatapos ng bawat restart, sa sandaling i-unlock mo ang device, kusa na silang bubukas — walang root, walang script, walang araw-araw na pag-tap. Hanapin ang lahat ng naka-install na app, idagdag sa listahan sa ilang segundo, i-on o i-off sa isang tap, at i-drag ang mga row para itakda ang pagkakasunod ng paglunsad. Hindi mo rin kailangang mag-restart para subukan: ang ⋮ menu sa bawat row ay agad na nagbubukas ng app na iyon, at pagkatapos mag-boot ay may maikling mensaheng nagsasabi kung ano ang nabuksan — isang tap na lang ang natitira. Sa libreng bersyon, 1 app ang bumubukas; inaalis ng PRO ang limitasyon kaya buong listahan ang tatakbo nang sunod-sunod, o manood ng maikling ad para alisin ang limitasyon nang 24 oras.",
       "features": [
-        "Binubuksan ang piniling apps sa oras na matapos mag-boot ang device — walang root, walang custom ROM",
+        "Binubuksan ang piniling apps pagkatapos ng bawat restart, sa sandaling i-unlock mo ang device — walang root, walang custom ROM",
         "Hanapin ang lahat ng naka-install na app, idagdag sa ilang segundo, at i-on o i-off sa isang tap",
         "I-drag ang mga row para piliin kung aling app ang unang bubukas sa bawat boot",
         "«Patakbuhin ngayon» sa ⋮ menu ng kahit anong row — subukan ang listahan nang hindi nagre-restart",
-        "Ang boot banner ay naglulunsad ng buong listahan sa isang tap, kahit mula sa lock screen (PRO)",
+        "Pagkatapos mag-restart, isang banner ang naglulunsad ng buong listahan sa isang tap kapag na-unlock mo na (PRO)",
         "Libre: 1 app; inaalis ng PRO ang limitasyon — o maikling ad para sa 24 oras na walang limitasyon"
       ],
       "faq": [
@@ -243,7 +247,7 @@
       "seo": "Volume Booster & Equalizer",
       "desc": "Volume booster, equalizer at bass: palakasin ang kahit anong tunog hanggang +15 dB.",
       "tagline": "Palakasin ang bawat app — hanggang +15 dB, sa tunay na decibel at may ligtas na zone.",
-      "long": "Masyadong mahina ang telepono mo? Itinataas ng VolumeBooster+ ang output ng buong sistema, hindi ng isang app lang: mahihinang speaker, earphone na kulang sa lakas, videong mahirap marinig, tawag, musika at laro ay malinaw nang naririnig. Ipinapakita ang boost sa decibel, hanggang +15 dB, kasama ang mga zone na Ligtas / Mag-ingat / Delikado batay sa gabay ng WHO sa pandinig, kaya lagi mong alam kung gaano na kalakas. Libre ang hanggang +10 dB, at binubuksan ng Pro o ng Free Pass ang buong saklaw. Nasa iisang app ang Loudness Maximizer, ang 5-band equalizer na may siyam na libreng preset, ang bass booster, ang 3D virtualizer at ang AutoEQ na may 2,456 nasukat na headphone profile.",
+      "long": "Masyadong mahina ang telepono mo? Itinataas ng VolumeBooster+ ang output ng buong sistema, hindi ng isang app lang: mahihinang speaker, earphone na kulang sa lakas, videong mahirap marinig, musika at laro ay malinaw nang naririnig. Ipinapakita ang boost sa decibel, hanggang +15 dB, kasama ang mga zone na Ligtas / Mag-ingat / Delikado batay sa gabay ng WHO sa pandinig, kaya lagi mong alam kung gaano na kalakas. Libre ang hanggang +10 dB, at binubuksan ng Pro o ng Free Pass ang buong saklaw. Nasa iisang app ang Loudness Maximizer, ang 5-band equalizer na may siyam na libreng preset, ang bass booster, ang 3D virtualizer at ang AutoEQ na may 2,456 nasukat na headphone profile.",
       "features": [
         "Boost sa buong sistema hanggang +15 dB na may label na Ligtas / Mag-ingat / Delikado — libre ang +10 dB, buong saklaw sa Pro o Free Pass",
         "Loudness Maximizer na may multiband compression, makeup gain at laging bukas na peak limiter: talagang mas malakas, walang distortion",
@@ -255,7 +259,7 @@
       "faq": [
         {
           "q": "Talaga bang mas lumalakas ang telepono?",
-          "a": "Oo. Gumagamit ang Loudness Maximizer ng multiband compression at makeup gain para talagang itaas ang naririnig na lakas, at itinataas nito ang buong output ng sistema sa halip na isang app — musika, video, YouTube, laro at tawag. Libre hanggang +10 dB, at binubuksan ng Pro o Free Pass ang buong +15 dB."
+          "a": "Oo. Gumagamit ang Loudness Maximizer ng multiband compression at makeup gain para talagang itaas ang naririnig na lakas, at itinataas nito ang buong output ng sistema sa halip na isang app — musika, video, YouTube at laro. Libre hanggang +10 dB, at binubuksan ng Pro o Free Pass ang buong +15 dB."
         },
         {
           "q": "Libre ba talaga ito o kailangan ng subscription?",
@@ -512,6 +516,10 @@
         {
           "q": "Ina-upload ba ang mga file ko, o binabago ba ang orihinal?",
           "a": "Hindi, pareho. Tumatakbo sa iyong PC ang pagtuklas, pagtatakip at pag-export nang walang account at walang upload. Ginagawa ang pagtatakip sa kopya, tumatanggi ang app na mag-save sa ibabaw ng orihinal, at muling ini-encode ang na-save na kopya kaya walang metadata ng orihinal."
+        },
+        {
+          "q": "Ano ang libre, at ano ang dagdag ng Pro?",
+          "a": "Libre at walang limitasyon ang paghahanap ng personal na impormasyon, at libre mong mase-save, makokopya o maibabahagi ang natakpang kopya ng 3 dokumento bawat araw. Ang Pro ay isang beses na bili na nag-aalis ng daily limit at nagdadagdag ng PDF export, pag-print, listahan ng laging itatago at pagpili ng kulay ng mask. Walang ads at walang watermark."
         }
       ]
     },
@@ -542,6 +550,10 @@
         {
           "q": "Saan galing ang mga presyo?",
           "a": "Sa pampublikong market data ng Binance, na may awtomatikong paglipat sa mga alternatibong server at sa CoinGecko para tuloy-tuloy ang ticker kapag hindi maabot ang isang pinagkukunan. Maaaring maantala ang presyo nang hanggang 30 segundo at pang-impormasyon lamang. Hindi nagte-trade ang FloatCrypto+, hindi kumokonekta sa exchange account at hindi humahawak ng anumang pondo, at walang anuman dito na payo sa pamumuhunan."
+        },
+        {
+          "q": "Ano ang libre, at ano ang dagdag ng Pro?",
+          "a": "Sa libre, 2 coin at 1 price alert ang masusundan mo, nagre-refresh bawat 30 segundo at may 1-day chart — at walang time limit ang ticker. Ang Pro ay isang beses na bili na nagtataas nito sa 10 coin, walang limitasyong alert, 10-segundong refresh at 7-day at 30-day chart. Walang ads ang bersyon sa Windows."
         }
       ]
     }

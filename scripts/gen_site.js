@@ -1342,6 +1342,43 @@ ${urls.join('\n')}
 `;
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemap, 'utf8');
 
+// --- llms.txt (llmstxt.org 형식) ---
+// AI 도우미가 사이트 전체를 한 번에 파악하도록 앱마다 한 줄 설명 + 무료/Pro 답변을 모은 영어 요약.
+// GA4 에서 AI 유입이 19%·참여율 48%(2026-09 기준)라 둔다. 문구는 i18n/en.json 에서 그대로 온다 —
+// 여기에 따로 쓰면 페이지와 요약이 서로 다른 말을 하게 된다.
+{
+  const en = L.en.apps;
+  const plain = (s) => String(s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  const freeQ = (a) => (a.faq || []).find((f) => /free|Pro/.test(f.q));
+  const entry = (app) => {
+    const a = en[app.slug];
+    if (!a || !app.store) return null;
+    const f = freeQ(a);
+    return `- [${a.name}](${urlFor('en', 'detail', app.slug)}): ${plain(a.desc)}` +
+      (f ? ` Free vs Pro: ${plain(f.a)}` : '') + ` Store: ${app.store}`;
+  };
+  const android = APPS.filter((a) => a.platform !== 'windows').map(entry).filter(Boolean);
+  const windows = APPS.filter((a) => a.platform === 'windows').map(entry).filter(Boolean);
+  const llms = `# CodeDAC
+
+> CodeDAC is an independent developer of small utility apps for Android and Windows — floating tools that stay on top of other apps (notes, timers, calculator, crypto ticker, reading guide, clipboard), plus auto start, volume boost and on-device photo redaction. Every app is free to download with an optional Pro upgrade; pages are available in 21 languages.
+
+## Android apps (Google Play)
+
+${android.join('\n')}
+
+## Windows apps (Microsoft Store)
+
+${windows.join('\n')}
+
+## More
+
+- [All apps](${BASE}/): overview of every app with screenshots and reviews
+- [Privacy policy](${urlFor('en', 'privacy')}): what each app collects and why
+`;
+  fs.writeFileSync(path.join(ROOT, 'llms.txt'), llms, 'utf8');
+}
+
 // lastmod 캐시를 갱신해 커밋한다. 사라진 URL 은 자연히 빠진다(LASTMOD_NEXT 로 통째 교체).
 const sortedCache = Object.fromEntries(Object.keys(LASTMOD_NEXT).sort().map((k) => [k, LASTMOD_NEXT[k]]));
 fs.writeFileSync(LASTMOD_FILE, JSON.stringify(sortedCache, null, 2) + '\n', 'utf8');

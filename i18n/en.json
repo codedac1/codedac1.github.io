@@ -114,6 +114,10 @@
         {
           "q": "Does it sync with my Windows PC?",
           "a": "Yes. Install Clipboard+ for Windows as well, then in the settings of both apps sign in to Google Drive with the same account and turn on automatic sync. From then on, what you copy on your phone pastes on your PC, and what you copy on your PC pastes on your phone. Your clips never pass through a CodeDAC server — they are stored only in your own Google Drive."
+        },
+        {
+          "q": "What is free, and what does Pro add?",
+          "a": "Free keeps your text and image clipboard history with search, snippets, up to 3 groups, the floating panel, the widget and the selection-menu shortcut, and it shows ads. Pro removes the ads and adds phone-to-PC sync through your own Google Drive, unlimited image clips, the expanded floating panel and widget, unlimited groups, PDF export and backup restore — monthly, yearly or as a one-time lifetime purchase. If you need one of these for just a day, a short ad unlocks it for 24 hours."
         }
       ]
     },
@@ -122,14 +126,14 @@
       "tag": "Auto Start",
       "seo": "Auto Start Manager for Android",
       "desc": "Auto-launch your apps on boot. No root required, set once.",
-      "tagline": "Auto start your apps the moment your phone boots. No root, set once, runs forever.",
-      "long": "AutoStart+ is the simplest auto start manager for Android: pick the apps you want and they launch on their own the moment the device finishes booting — no root, no scripts, no daily tapping. Search every installed app to add it in seconds, switch each one on or off with a tap, and drag the rows to set the order they start in. You don't have to reboot to test it: the ⋮ menu on any row opens that app right away, and after boot a short message tells you what started, with one tap to run the rest. The free version auto starts 1 app; PRO lifts the limit so the whole list launches in order, and if you'd rather not subscribe, a short ad unlocks it for 24 hours.",
+      "tagline": "Auto start your apps after every reboot, as soon as you unlock your phone. No root, set once, runs forever.",
+      "long": "AutoStart+ is the simplest auto start manager for Android: pick the apps you want and they launch on their own after every reboot, as soon as you unlock the phone — no root, no scripts, no daily tapping. Search every installed app to add it in seconds, switch each one on or off with a tap, and drag the rows to set the order they start in. You don't have to reboot to test it: the ⋮ menu on any row opens that app right away, and after boot a short message tells you what started, with one tap to run the rest. The free version auto starts 1 app; PRO lifts the limit so the whole list launches in order, and if you'd rather not subscribe, a short ad unlocks it for 24 hours.",
       "features": [
-        "Auto starts your selected apps the moment the device finishes booting — no root, no custom ROM",
+        "Auto starts your selected apps after every reboot, as soon as you unlock the phone — no root, no custom ROM",
         "Search every installed app, add it in seconds, and switch each one on or off with a single tap",
         "Drag the rows to decide which app starts first at every boot",
         "Run now from any row's ⋮ menu — check your list without rebooting the phone",
-        "Boot overlay banner starts your whole list in one tap, even from the lock screen (PRO)",
+        "After a reboot, a banner starts your whole list in one tap as soon as you unlock the phone (PRO)",
         "Free auto starts 1 app; PRO lifts the limit, or a short ad unlocks it for 24 hours"
       ],
       "faq": [
@@ -243,7 +247,7 @@
       "seo": "Volume Booster & Equalizer",
       "desc": "Volume booster, equalizer and bass boost — make any sound louder, up to +15 dB.",
       "tagline": "Make every app louder — up to +15 dB, shown in real decibels with safe-range guidance.",
-      "long": "Is your phone too quiet? VolumeBooster+ raises your entire system output rather than one app — quiet speakers, low earphones, hard-to-hear videos, calls, music and games finally come through clearly. The boost is shown in decibels, up to +15 dB, with Safe / Caution / Danger zones based on WHO hearing guidance, so you always see how far you have pushed it. Free reaches +10 dB, and Pro or a Free Pass opens the full range. A Loudness Maximizer, a 5-band equalizer whose nine presets are all free, a bass booster, a 3D virtualizer and AutoEQ correction built on 2,456 measured headphone profiles all live in the same app.",
+      "long": "Is your phone too quiet? VolumeBooster+ raises your entire system output rather than one app — quiet speakers, low earphones, hard-to-hear videos, music and games finally come through clearly. The boost is shown in decibels, up to +15 dB, with Safe / Caution / Danger zones based on WHO hearing guidance, so you always see how far you have pushed it. Free reaches +10 dB, and Pro or a Free Pass opens the full range. A Loudness Maximizer, a 5-band equalizer whose nine presets are all free, a bass booster, a 3D virtualizer and AutoEQ correction built on 2,456 measured headphone profiles all live in the same app.",
       "features": [
         "System-wide boost up to +15 dB with Safe / Caution / Danger labels — +10 dB free, the full range with Pro or a Free Pass",
         "Loudness Maximizer with multiband compression, makeup gain and an always-on peak limiter — genuinely louder, with no clipping or distortion",
@@ -255,7 +259,7 @@
       "faq": [
         {
           "q": "Does it really make my phone louder?",
-          "a": "Yes. The Loudness Maximizer uses multiband compression and makeup gain to genuinely increase perceived loudness, and it raises the whole system output rather than one app — music, videos, YouTube, games and calls alike. Free boosts up to +10 dB, and Pro or a Free Pass opens the full +15 dB range."
+          "a": "Yes. The Loudness Maximizer uses multiband compression and makeup gain to genuinely increase perceived loudness, and it raises the whole system output rather than one app — music, videos, YouTube and games alike. Free boosts up to +10 dB, and Pro or a Free Pass opens the full +15 dB range."
         },
         {
           "q": "Is it actually free, or do I need a subscription?",
@@ -512,6 +516,10 @@
         {
           "q": "Are my files uploaded, or is the original changed?",
           "a": "Neither. Detection, masking and export all run on your PC with no account and nothing uploaded. Masking works on a copy, the app refuses to save over the original, and saved copies are encoded fresh so they carry none of the original's metadata."
+        },
+        {
+          "q": "What is free, and what does Pro add?",
+          "a": "Finding personal info is free and unlimited, and you can save, copy or share the masked copy of 3 documents a day for free. Pro is a one-time purchase that removes the daily limit and adds PDF export, printing, the always-hide list and your choice of mask color. There are no ads and no watermark, on either version."
         }
       ]
     },
@@ -542,6 +550,10 @@
         {
           "q": "Where do the prices come from?",
           "a": "From Binance's public market data, with automatic fallback to alternate servers and CoinGecko so the ticker keeps running when one source is unreachable. Prices may be delayed by up to 30 seconds and are for information only. FloatCrypto+ does not trade, connect to an exchange account or hold any funds, and nothing in it is investment advice."
+        },
+        {
+          "q": "What is free, and what does Pro add?",
+          "a": "Free follows 2 coins with 1 price alert, refreshes every 30 seconds and shows the 1-day chart — and the ticker has no time limit. Pro is a one-time purchase that raises this to 10 coins, unlimited alerts, a 10-second refresh and the 7-day and 30-day charts. The Windows version has no ads."
         }
       ]
     }
