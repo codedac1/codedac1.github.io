@@ -604,6 +604,7 @@ img { max-width: 100%; }
 .fact-windows .pl-logo { color: #4cc2ff; }
 .app-hero-actions { margin-top: 28px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
 .app-platform-note { color: rgba(255, 255, 255, .7); font-size: 14px; }
+.app-hero-actions .cn-note { flex-basis: 100%; }
 
 /* 대표 스크린샷. 겹침 방향이 뒤집히지 않도록 RTL 에서도 이 묶음만은 왼쪽→오른쪽으로 둔다. */
 .app-hero-shots { position: relative; direction: ltr; }

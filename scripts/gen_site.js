@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '67'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '68'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -61,6 +61,11 @@ function trackLastmod(url, html) {
 const SAME_AS = [
   'https://play.google.com/store/apps/dev?id=7664967150833158704',
   'https://www.youtube.com/@CodeDAC',
+  // 2026-10-01 추가: Microsoft Store 게시자(PublisherName CodeDAC), 인스타·스레드 공식 계정.
+  // "codedac" 브랜드 검색에서 사이트가 평균 3위·클릭 0 이라 공식 채널 묶음을 넓혔다.
+  'https://apps.microsoft.com/search/publisher?name=CodeDAC',
+  'https://www.instagram.com/codedac1/',
+  'https://www.threads.com/@codedac1',
 ];
 
 // GA4 측정 ID. 빈 문자열로 두면 모든 페이지에서 분석 스크립트가 빠진다.
@@ -780,6 +785,12 @@ ${groups.flatMap((g) => g.list).map(cardHtml).join('\n')}
     description: homeDesc(ui),
     contactPoint: { '@type': 'ContactPoint', email: EMAIL, contactType: 'customer support' },
   };
+  // 검색 결과의 사이트 이름을 "CodeDAC" 으로 고정한다(Google 은 홈의 WebSite.name 을 쓴다).
+  const siteLd = {
+    '@context': 'https://schema.org', '@type': 'WebSite',
+    name: 'CodeDAC', alternateName: ['코드댁', 'codedac.com'], url: `${BASE}/`,
+    inLanguage: lang.htmlLang,
+  };
 
 
   return `<!DOCTYPE html>
@@ -788,6 +799,9 @@ ${groups.flatMap((g) => g.list).map(cardHtml).join('\n')}
 ${headCommon(lang, { title: ui['meta.title'], desc: homeDesc(ui), canonical, ogImage: `${BASE}/images/og-image.png`, kind: 'home' })}
   <script type="application/ld+json">
 ${JSON.stringify(orgLd, null, 2)}
+  </script>
+  <script type="application/ld+json">
+${JSON.stringify(siteLd, null, 2)}
   </script>
 </head>
 <body>
@@ -977,7 +991,17 @@ ${Array.from({ length: heroShotCount }, (_, i) => `          ${shotImg(i, false)
     + '?subject=' + encodeURIComponent(`[${a.name}] ${ui['support.cta']}`)
     + '&body=' + encodeURIComponent(ui['support.mail.body']);
   const supportBtn = `<a href="${escAttr(supportMail)}" class="btn btn-glass">${escText(ui['support.cta'])}</a>`;
-  const heroAction = [storeBtn, supportBtn, noteHtml].filter(Boolean).join('\n            ');
+  // 중국 본토에서는 Google Play 가 막혀 있고 Microsoft Store 는 열린다. zh 안드로이드 페이지에
+  // Windows 판이 있으면 상단에 Microsoft Store 버튼과 한 줄 안내를 함께 둔다.
+  // (2026-10-01: 중국 방문 참여율 57%로 상위권인데 Play 버튼뿐이라 설치로 이어질 길이 없었다.)
+  const cnWin = code === 'zh' && plat === 'android' && app.counterpart
+    ? APPS.find((x) => x.slug === app.counterpart && x.platform === 'windows' && x.store)
+    : null;
+  const cnBtn = cnWin
+    ? `<a href="${escAttr(storeUrl(cnWin, code, 'detail-hero-cn'))}" class="btn btn-glass" target="_blank" rel="noopener">Windows · ${escText(ui['store.ms'])}</a>`
+    : '';
+  const cnNote = cnWin ? `<span class="app-platform-note cn-note">无法打开 Google Play？Windows 版可在 Microsoft Store 获取。</span>` : '';
+  const heroAction = [storeBtn, cnBtn, supportBtn, noteHtml, cnNote].filter(Boolean).join('\n            ');
 
   // --- 본문 섹션: 훑어보기(기능·스크린샷) → 자세히(개요) → 믿음(후기) → 궁금증(FAQ) → 다음 행선지 ---
   // 바탕은 흰색·옅은 회색을 번갈아 둔다. 빠지는 섹션(스크린샷·후기 없음 등)이 있어도 줄무늬가 어긋나지 않게
