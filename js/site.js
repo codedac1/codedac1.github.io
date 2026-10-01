@@ -156,6 +156,28 @@
   });
 })();
 
+// ===== 쇼츠 칸 (앱 상세) =====
+//  처음엔 사이트에 둔 포스터만 보인다. 누르면 그 자리를 youtube-nocookie 임베드로 바꿔 바로 재생한다
+//  (누르기 전에는 유튜브와 통신하지 않는다). 재생 시작은 GA4 이벤트 video_play 로 남긴다.
+(function () {
+  document.addEventListener('click', (e) => {
+    const tile = e.target.closest('.shot-video');
+    if (!tile || tile.classList.contains('is-playing')) return;
+    const id = tile.getAttribute('data-yt');
+    if (!/^[A-Za-z0-9_-]{11}$/.test(id)) return;
+    const f = document.createElement('iframe');
+    f.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&playsinline=1&rel=0`;
+    f.title = tile.getAttribute('aria-label') || 'video';
+    f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+    f.allowFullscreen = true;
+    tile.classList.add('is-playing');
+    tile.replaceChildren(f);
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'video_play', { video_id: id, page_lang: document.documentElement.lang || '' });
+    }
+  });
+})();
+
 // ===== 현재 연도 (정적 렌더값 보정) =====
 (function () {
   const y = document.getElementById('year');

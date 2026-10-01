@@ -83,7 +83,7 @@
     {
       "id": "website",
       "title": "8. 网站（codedac.com）",
-      "html": "<p>我们的网站使用 Google Analytics 统计访问量。对于来自欧洲经济区、英国和瑞士的访客，同意模式（Consent Mode）默认为“拒绝”，因此不会存储任何分析 Cookie，仅发送匿名的聚合信号；在其他地区，则使用分析 Cookie 来统计访问量。无论哪种情况，我们都不会收集广告标识符，网站也不展示广告。<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google 隐私政策</a></p><p>您可以在浏览器中屏蔽 Cookie，或安装 <a href=\"https://tools.google.com/dlpage/gaoptout\" target=\"_blank\" rel=\"noopener\">Google Analytics 停用浏览器插件</a>，以选择退出分析。网站使用浏览器的本地存储（localStorage）来记住您选择的语言和主题（深色模式）；这些值绝不会发送到服务器。</p>"
+      "html": "<p>我们的网站使用 Google Analytics 统计访问量。对于来自欧洲经济区、英国和瑞士的访客，同意模式（Consent Mode）默认为“拒绝”，因此不会存储任何分析 Cookie，仅发送匿名的聚合信号；在其他地区，则使用分析 Cookie 来统计访问量。无论哪种情况，我们都不会收集广告标识符，网站也不展示广告。<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google 隐私政策</a></p><p>您可以在浏览器中屏蔽 Cookie，或安装 <a href=\"https://tools.google.com/dlpage/gaoptout\" target=\"_blank\" rel=\"noopener\">Google Analytics 停用浏览器插件</a>，以选择退出分析。网站使用浏览器的本地存储（localStorage）来记住您选择的语言和主题（深色模式）；这些值绝不会发送到服务器。</p><p>应用页面会显示我们 YouTube Shorts 视频的预览图。在您点击播放之前，不会从 YouTube 加载任何内容；点击播放后，视频将以 YouTube 的隐私增强模式（youtube-nocookie.com）播放，此次播放适用 <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google 隐私政策</a>。</p>"
     },
     {
       "id": "email",
@@ -108,7 +108,7 @@
     {
       "id": "history",
       "title": "变更记录",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-10-01\">2026-10-01</time> 新增 Rotate+（Android）及其使用的权限（无障碍服务、使用情况访问权限、修改系统设置和附近的设备），以及其检测通话的方式（第 7 条）。</li><li><time datetime=\"2026-09-17\">2026-09-17</time> 新增 Windows 版 PhotoCleaner+、ReadFocus+、FloatTimer+ 和 FloatCrypto+ 在完成 PRO 购买时发送购买记录的相关说明（第 1 条和第 6 条）。</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 新增各应用概览，并新增有关 Android 版 Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步、广告同意、互联网连接（汇率、价格、ML Kit）、网站存储以及电子邮件的信息。按照应用实际情况更正了权限说明，并重新整理了本政策的结构。新增了 PhotoCleaner+ for Windows 的相关信息。</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 更改了联系邮箱地址。</li><li><time datetime=\"2026-08-03\">2026-08-03</time> 新增 Windows 版 FloatNote+ 的云同步信息。</li><li><time datetime=\"2026-07-15\">2026-07-15</time> 新增 Windows 版 Clipboard+ 的云同步信息。</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-10-01\">2026-10-01</time> 新增在应用页面播放 YouTube 视频的相关说明（第 8 条）。</li><li><time datetime=\"2026-10-01\">2026-10-01</time> 新增 Rotate+（Android）及其使用的权限（无障碍服务、使用情况访问权限、修改系统设置和附近的设备），以及其检测通话的方式（第 7 条）。</li><li><time datetime=\"2026-09-17\">2026-09-17</time> 新增 Windows 版 PhotoCleaner+、ReadFocus+、FloatTimer+ 和 FloatCrypto+ 在完成 PRO 购买时发送购买记录的相关说明（第 1 条和第 6 条）。</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 新增各应用概览，并新增有关 Android 版 Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步、广告同意、互联网连接（汇率、价格、ML Kit）、网站存储以及电子邮件的信息。按照应用实际情况更正了权限说明，并重新整理了本政策的结构。新增了 PhotoCleaner+ for Windows 的相关信息。</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 更改了联系邮箱地址。</li><li><time datetime=\"2026-08-03\">2026-08-03</time> 新增 Windows 版 FloatNote+ 的云同步信息。</li><li><time datetime=\"2026-07-15\">2026-07-15</time> 新增 Windows 版 Clipboard+ 的云同步信息。</li></ul>"
     }
   ]
 }

@@ -723,6 +723,24 @@ img { max-width: 100%; }
   scroll-snap-align: start;
 }
 .detail-shots .shot:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+/* 쇼츠 칸: 스크린샷 줄의 첫 칸, 세로 9:16. 누르면 js/site.js 가 iframe 으로 바꾼다. */
+.shot-video {
+  position: relative; height: 380px; aspect-ratio: 9 / 16; flex: 0 0 auto; padding: 0;
+  border-radius: 18px; border: 1px solid var(--line); overflow: hidden; background: #000;
+  cursor: pointer; scroll-snap-align: start; transition: transform .2s ease, box-shadow .2s ease;
+}
+.shot-video:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.shot-video img, .shot-video iframe { display: block; width: 100%; height: 100%; object-fit: cover; border: 0; }
+.shot-video .sv-play {
+  position: absolute; inset: 50% auto auto 50%; width: 64px; height: 64px; margin: -32px 0 0 -32px;
+  border-radius: 50%; background: rgba(0, 0, 0, .6); box-shadow: 0 4px 16px rgba(0, 0, 0, .35);
+}
+.shot-video .sv-play::after {
+  content: ''; position: absolute; top: 50%; left: 50%; margin: -12px 0 0 -7px;
+  border-style: solid; border-width: 12px 0 12px 20px; border-color: transparent transparent transparent #fff;
+}
+.shot-video:focus-visible { outline: 3px solid var(--brand); outline-offset: 3px; }
+.shot-video.is-playing { cursor: default; transform: none; }
 .detail-shots::-webkit-scrollbar { height: 6px; }
 .detail-shots::-webkit-scrollbar-thumb { background: var(--line); border-radius: 6px; }
 
@@ -878,7 +896,7 @@ img { max-width: 100%; }
      가로 스크롤이 생긴다 — 320px 기기에서 28px. .app-grid 처럼 한 칸으로 고정한다. */
   .reviews-grid { grid-template-columns: 1fr; }
   .app-shots .shot { height: 130px; }
-  .detail-shots .shot { height: 300px; }
+  .detail-shots .shot, .shot-video { height: 300px; }
   /* 폰에서는 아이콘과 이름을 한 줄로, 태그라인은 전체 폭으로, 버튼 두 개는 나란히(넘치면 둘 다 전체 폭) 둔다.
      예전엔 아이콘이 왼쪽 가운데에 떠 이름·태그라인이 좁은 칸에 끼여 여러 줄로 꺾였다. */
   .app-hero-d { padding-bottom: 44px; }

@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '68'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '69'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -151,6 +151,16 @@ try {
 } catch {
   console.warn('(경고) scripts/app_privacy.json 없음 — 개인정보처리방침의 앱별 표가 비어 보입니다. `node scripts/scan_app_privacy.js` 로 생성하세요.');
 }
+
+// 앱별 유튜브 쇼츠 (build_videos.py 산출물) — slug → {ko|en: {id, title, uploadDate}}.
+// 없으면 상세 페이지의 영상 칸을 생략한다. 한국어 페이지는 ko, 나머지는 en.
+let APP_VIDEOS = {};
+try {
+  APP_VIDEOS = require('./app_videos.json');
+} catch {
+  console.warn('(경고) scripts/app_videos.json 없음 — 영상 칸 생략. `py scripts/build_videos.py` 로 생성하세요.');
+}
+const videoOf = (slug, code) => (APP_VIDEOS[slug] || {})[code === 'ko' ? 'ko' : 'en'] || null;
 
 // 앱별 최소 OS 버전 (scan_app_reqs.js 산출물). 없으면 상세 페이지의 요구 사항 칩을 생략한다.
 let APP_REQS = {};
@@ -954,11 +964,26 @@ function buildDetail(lang, app) {
       { '@type': 'ListItem', position: 3, name: a.name, item: canonical },
     ],
   };
+  // 쇼츠가 있으면 VideoObject 를 붙인다 — 검색 결과의 동영상 칸에 이 페이지가 나올 수 있다.
+  // 썸네일은 사이트에 둔 포스터(build_videos.py), 재생은 유튜브 임베드.
+  const video = videoOf(app.slug, code);
+  const ldVideo = video ? {
+    '@context': 'https://schema.org', '@type': 'VideoObject',
+    name: video.title, description: a.desc,
+    thumbnailUrl: `${BASE}/images/videos/${video.id}.webp`,
+    uploadDate: video.uploadDate,
+    contentUrl: `https://www.youtube.com/shorts/${video.id}`,
+    embedUrl: `https://www.youtube.com/embed/${video.id}`,
+  } : null;
+
   const ldFaq = {
     '@context': 'https://schema.org', '@type': 'FAQPage',
     mainEntity: a.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
   };
 
+  // 쇼츠 칸: 처음엔 사이트에 둔 포스터와 재생 표시만 그린다. 누르면 js/site.js 가 그 자리를
+  // youtube-nocookie 임베드로 바꾼다 — 누르기 전에는 유튜브 스크립트도 쿠키도 없다.
+  const videoTile = (v) => `<button type="button" class="shot-video" data-yt="${escAttr(v.id)}" aria-label="${escAttr(v.title)}"><img src="/images/videos/${escAttr(v.id)}.webp?v=${V}" alt="" loading="lazy" width="214" height="380" /><span class="sv-play" aria-hidden="true"></span></button>`;
   const shotImg = (i, lazy) => `<img class="shot" src="/images/shots/${app.slug}-${i + 1}.jpg?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}"${lazy ? ' loading="lazy"' : ''} data-idx="${i}" />`;
 
   // --- 상단: 브랜드 그라디언트 위에 앱 정보(왼쪽)와 대표 스크린샷(오른쪽) ---
@@ -1018,7 +1043,8 @@ ${a.features.map((f) => `          <li><span class="fg-icon">${icon('check')}</s
     },
     app.shots ? {
       title: ui['screenshots'], lead: ui['shotsHint'],
-      body: `<div class="detail-shots" id="d-shots">
+      body: `<div class="detail-shots" id="d-shots">${video ? `
+          ${videoTile(video)}` : ''}
 ${Array.from({ length: app.shots }, (_, i) => `          ${shotImg(i, true)}`).join('\n')}
         </div>`,
     } : null,
@@ -1100,7 +1126,10 @@ ${JSON.stringify(ldBreadcrumb, null, 2)}
   </script>
   <script type="application/ld+json">
 ${JSON.stringify(ldFaq, null, 2)}
-  </script>
+  </script>${ldVideo ? `
+  <script type="application/ld+json">
+${JSON.stringify(ldVideo, null, 2)}
+  </script>` : ''}
 </head>
 <body${app.store ? ' class="has-install-bar"' : ''}>
 ${header(code, 'detail', app.slug, ui)}
