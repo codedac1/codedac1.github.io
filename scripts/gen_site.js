@@ -160,6 +160,12 @@ try {
 } catch {
   console.warn('(경고) scripts/app_videos.json 없음 — 영상 칸 생략. `py scripts/build_videos.py` 로 생성하세요.');
 }
+// 스크린샷 경로 — 영어는 images/shots/<slug>-N.jpg, 나머지 언어는 images/shots/<lang>/<slug>-N.jpg
+// (build_assets.py 가 앱 폴더의 언어별 스토어 스크린샷으로 만든다). 그 언어 파일이 없으면 영어로 돌아간다.
+const shotPath = (slug, code, n) => {
+  const rel = `images/shots/${code}/${slug}-${n}.jpg`;
+  return code !== 'en' && fs.existsSync(path.join(ROOT, rel)) ? `/${rel}` : `/images/shots/${slug}-${n}.jpg`;
+};
 const videoOf = (slug, code) => (APP_VIDEOS[slug] || {})[code === 'ko' ? 'ko' : 'en'] || null;
 
 // 앱별 최소 OS 버전 (scan_app_reqs.js 산출물). 없으면 상세 페이지의 요구 사항 칩을 생략한다.
@@ -738,7 +744,7 @@ function buildHome(lang) {
     const shotsHtml = cardShots ? `
           <div class="app-shots">
 ${Array.from({ length: cardShots }, (_, i) =>
-      `            <img class="shot" src="/images/shots/${app.slug}-${i + 1}.jpg?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}" loading="lazy" data-idx="${i}" />`).join('\n')}
+      `            <img class="shot" src="${shotPath(app.slug, code, i + 1)}?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}" loading="lazy" data-idx="${i}" />`).join('\n')}
           </div>` : '';
     const store = app.store
       ? `<a class="app-link" href="${escAttr(storeUrl(app, code, 'home-card'))}" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
@@ -939,7 +945,7 @@ function buildDetail(lang, app) {
   const plat = platformKey(app);
 
   const shotAbs = [];
-  for (let i = 1; i <= app.shots; i++) shotAbs.push(`${BASE}/images/shots/${app.slug}-${i}.jpg`);
+  for (let i = 1; i <= app.shots; i++) shotAbs.push(`${BASE}${shotPath(app.slug, code, i)}`);
 
   // 별점(aggregateRating)은 넣지 않는다. 구글은 페이지에 보이지 않는 평점 마크업을 금지하는데,
   // 이 페이지는 스토어 평점을 화면에 띄우지 않는다(표본이 적은 3점대 평점은 설치를 망설이게 한다).
@@ -984,7 +990,7 @@ function buildDetail(lang, app) {
   // 쇼츠 칸: 처음엔 사이트에 둔 포스터와 재생 표시만 그린다. 누르면 js/site.js 가 그 자리를
   // youtube-nocookie 임베드로 바꾼다 — 누르기 전에는 유튜브 스크립트도 쿠키도 없다.
   const videoTile = (v) => `<button type="button" class="shot-video" data-yt="${escAttr(v.id)}" aria-label="${escAttr(v.title)}"><img src="/images/videos/${escAttr(v.id)}.webp?v=${V}" alt="" loading="lazy" width="214" height="380" /><span class="sv-play" aria-hidden="true"></span></button>`;
-  const shotImg = (i, lazy) => `<img class="shot" src="/images/shots/${app.slug}-${i + 1}.jpg?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}"${lazy ? ' loading="lazy"' : ''} data-idx="${i}" />`;
+  const shotImg = (i, lazy) => `<img class="shot" src="${shotPath(app.slug, code, i + 1)}?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}"${lazy ? ' loading="lazy"' : ''} data-idx="${i}" />`;
 
   // --- 상단: 브랜드 그라디언트 위에 앱 정보(왼쪽)와 대표 스크린샷(오른쪽) ---
   // 예전엔 흰 바탕에 아이콘·이름·버튼뿐이라, 스크린샷이 1,300px 아래에서야 나왔다.

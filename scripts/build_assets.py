@@ -14,6 +14,10 @@ SHOT_DIR = os.path.join(SITE, "images", "shots")
 os.makedirs(ICON_DIR, exist_ok=True)
 os.makedirs(SHOT_DIR, exist_ok=True)
 
+# 사이트 21개 언어. Windows 판 스크린샷 폴더는 중국어만 zh-Hans 로 되어 있다.
+LANGS = "ar de en es fil fr hi id it ja ko ms nl pl pt ru th tr uk vi zh".split()
+WIN_LANG = {"zh": "zh-Hans"}
+
 BRAND = (47, 107, 255)
 BRAND2 = (31, 79, 208)
 
@@ -115,14 +119,33 @@ for slug, (icon, shotdir, pat) in APPS.items():
     else:
         make_icon(os.path.join(ROOT, icon), icon_out)
         icon_ok = "copied"
-    # 스크린샷
+    # 스크린샷 — 언어별(2026-10-01). 영어는 예전 경로 images/shots/<slug>-N.jpg 그대로,
+    # 나머지 20개 언어는 images/shots/<lang>/<slug>-N.jpg. 소스 폴더는 en 자리를 그 언어로 바꾼 곳이다.
+    # 태블릿 스크린샷(tablet_*)은 같은 폴더에 있어도 뺀다 — 폰 줄에 섞이면 비율이 깨진다
+    # (FloatTimer 6번째 칸에 태블릿이 섞여 있던 것을 이때 고쳤다).
     n = 0
     MAX_SHOTS = 8  # Play Store 폰 스크린샷 상한과 동일. 소스에 있는 만큼 전부 복사.
     if shotdir:
-        files = sorted(glob.glob(os.path.join(ROOT, shotdir, pat)))
-        for i, f in enumerate(files[:MAX_SHOTS]):
-            make_shot(f, os.path.join(SHOT_DIR, f"{slug}-{i+1}.jpg"))
-            n += 1
+        for lang in LANGS:
+            src_lang = WIN_LANG.get(lang, lang) if "store-screenshots" in shotdir else lang
+            d = shotdir[:-2] + src_lang if shotdir.endswith(os.sep + "en") else shotdir
+            p = pat.replace("-en-", f"-{src_lang}-").replace("_en", f"_{src_lang}")
+            files = sorted(f for f in glob.glob(os.path.join(ROOT, d, p))
+                           if not os.path.basename(f).startswith("tablet"))[:MAX_SHOTS]
+            if not files:
+                print(f"  ! {slug} {lang}: 스크린샷 없음 — 영어로 대체됨")
+                continue
+            out_dir = SHOT_DIR if lang == "en" else os.path.join(SHOT_DIR, lang)
+            os.makedirs(out_dir, exist_ok=True)
+            for i, f in enumerate(files):
+                make_shot(f, os.path.join(out_dir, f"{slug}-{i+1}.jpg"))
+            # 소스가 줄었으면 남은 옛 번호를 지운다(PhotoCleaner Windows 4번째가 이렇게 남아 있었다).
+            for old in glob.glob(os.path.join(out_dir, f"{slug}-*.jpg")):
+                k = os.path.basename(old)[len(slug) + 1:-4]
+                if k.isdigit() and int(k) > len(files):
+                    os.remove(old)
+            if lang == "en":
+                n = len(files)
     report[slug] = (icon_ok, n)
 
 for slug, (ic, n) in report.items():
