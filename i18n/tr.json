@@ -369,6 +369,36 @@
         }
       ]
     },
+    "rotate": {
+      "name": "Rotate+",
+      "tag": "Ekran Döndürme",
+      "seo": "Ekran Döndürme Kilidi",
+      "desc": "Ekran yönünü tüm telefon ya da her uygulama için sabitleyin: dikey, yatay veya otomatik. Root gerekmez.",
+      "tagline": "Bazı uygulamalar dönmez, bazıları siz uzanır uzanmaz döner. Ekran yönünü tüm telefon ya da her uygulama için tek dokunuşla sabitleyin; root gerekmez.",
+      "long": "Rotate+ ekran yönünü tüm telefon ya da her uygulama için tek dokunuşla sabitler; root gerekmez. Otomatik, Dikey, Yatay, Ters dikey, Ters yatay veya Mevcut yönü kilitle seçeneğini seçin, onay penceresi olmadan anında uygulanır. Uygulamaya göre kurallarla video ve oyunlar yatay, sohbet ve okuma dikey kalır: kural uygulama açılınca devreye girer, çıkınca kalkar. Bir uygulama ekranı geri çevirirse “Yönü koru” seçiminizi geri getirir; uygulama direnmeye devam ederse Rotate+ denemeyi bırakır, sonsuz döngü olmaz. “Bir kez döndür” yalnızca açık uygulamayı, uygulama değiştirene ya da ekranı kapatana kadar diğer yöne çevirir; hızlı ayar kutucukları, widget'lar ve kısayollar her şeyi tek dokunuş uzaklıkta tutar. Android 16 tabletlerde Rotate+ otomatik olarak sistemin döndürme ayarını kullanır. Ücretsiz sürümde küçük bir banner reklamla 3 kural vardır; Pro sınırsız kural, koşullar ve yüzen döndürme düğmesi ekler, reklamları kaldırır — ya da bir reklam izleyip bir Pro özelliği için 24 saatlik Free Pass alın.",
+      "features": [
+        "Tek dokunuşla altı mod: Otomatik, Dikey, Yatay, Ters dikey, Ters yatay ve Mevcut yönü kilitle — anında uygulanır, dört yön ve sensör modları Daha fazla mod altında",
+        "Uygulamaya göre kurallar: video ve oyunlar yatay, sohbet ve okuma dikey — uygulama açılınca devreye girer, çıkınca kalkar",
+        "Yönü koru: bir uygulama ekranı geri çevirirse Rotate+ seçiminizi geri getirir, uygulama direnirse denemeyi bırakır — sonsuz döngü olmaz",
+        "Bir kez döndür: “Sadece bu uygulama, sadece şimdi” — uygulama değiştirince ya da ekranı kapatınca kendiliğinden kalkar",
+        "İki hızlı ayar kutucuğu, ana ekran widget'ları, uygulama kısayolları ve Duraklat, Mod ve Bir kez döndür düğmeli isteğe bağlı bildirim",
+        "Ücretsiz: küçük bir banner reklamla 3 kural; Pro: sınırsız kural, koşullar, yüzen düğme ve reklamsız — ya da bir reklamla bir Pro özelliği için 24 saatlik Free Pass"
+      ],
+      "faq": [
+        {
+          "q": "Root gerekir mi?",
+          "a": "Hayır. Rotate+ root olmadan çalışır. Android 16 büyük ekranlar, uygulamaların olağan döndürme isteğini yok sayar; Rotate+ bunu algılar ve otomatik olarak sistemin döndürme ayarını kullanır."
+        },
+        {
+          "q": "Erişilebilirlik neden gerekli? Güvenli mi?",
+          "a": "Erişilebilirlik yalnızca ekrandaki uygulamanın hangisi olduğunu bilmek (kurallar için) ve seçtiğiniz yönü 1 piksellik görünmez bir pencereyle korumak için kullanılır. Rotate+ ekran içeriğini, metinleri veya şifreleri asla okumaz. Bunun yerine kullanım erişimi de kullanılabilir. Hesap yok, hiçbir şey gönderilmez."
+        },
+        {
+          "q": "Ücretsiz sürümde ne var, Pro ne ekler?",
+          "a": "Tüm döndürme modları, Yönü koru, Bir kez döndür, kutucuklar, widget'lar ve kısayollar ücretsizdir; buna 3 uygulama kuralı ve küçük bir banner reklam eşlik eder. Pro sınırsız kural, yönü otomatik değiştiren koşullar (şarjdayken, kulaklıkla, bir Bluetooth cihazıyla, araç veya masa yuvasında, arama sırasında ya da belirlediğiniz saatlerde) ve yüzen döndürme düğmesi ekler, reklamları kaldırır. Önce denemek mi istiyorsunuz? Bir reklam izleyin, bir Pro özelliği için 24 saatlik Free Pass alın."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Pano",

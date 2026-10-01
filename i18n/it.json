@@ -369,6 +369,36 @@
         }
       ]
     },
+    "rotate": {
+      "name": "Rotate+",
+      "tag": "Rotazione schermo",
+      "seo": "Rotazione schermo",
+      "desc": "Imposta l'orientamento dello schermo per tutto il telefono o per ogni app: verticale, orizzontale o auto. Senza root.",
+      "tagline": "Alcune app non ruotano, altre ruotano appena ti sdrai. Blocca l'orientamento per tutto il telefono o per ogni app con un tocco, senza root.",
+      "long": "Rotate+ imposta l'orientamento dello schermo per tutto il telefono o per ogni app, con un tocco e senza root. Scegli Auto, Verticale, Orizzontale, Verticale capovolta, Orizzontale capovolta o Blocca attuale e si applica subito, senza finestre di conferma. Con le regole per app, video e giochi vanno in orizzontale, chat e lettura in verticale: la regola si attiva all'apertura dell'app e si toglie quando esci. Se un'app rigira lo schermo, «Mantieni l'orientamento» ripristina la tua scelta, e se un'app insiste smette di riprovare: niente cicli. «Ruota una volta» gira solo l'app corrente finché non cambi app o spegni lo schermo, e riquadri delle impostazioni rapide, widget e scorciatoie tengono tutto a portata di tocco. Sui tablet con Android 16 Rotate+ usa automaticamente l'impostazione di rotazione del sistema. Gratis hai 3 regole per app con un piccolo banner; Pro aggiunge regole illimitate, condizioni, un pulsante di rotazione fluttuante e niente pubblicità, oppure guarda un annuncio per un Free Pass di 24 ore su una funzione Pro.",
+      "features": [
+        "Sei modalità con un tocco: Auto, Verticale, Orizzontale, Verticale capovolta, Orizzontale capovolta e Blocca attuale — applicate subito, con i quattro lati e le modalità da sensore in Altre modalità",
+        "Regole per app: video e giochi in orizzontale, chat e lettura in verticale — si attivano all'apertura dell'app e si tolgono quando esci",
+        "Mantieni l'orientamento: se un'app rigira lo schermo, Rotate+ ripristina la tua scelta, e smette di riprovare se l'app insiste — niente cicli",
+        "Ruota una volta: «Solo questa app, solo ora» — si annulla da solo quando cambi app o spegni lo schermo",
+        "Due riquadri delle impostazioni rapide, widget della schermata Home, scorciatoie dell'app e una notifica facoltativa con Pausa, Modalità e Ruota una volta",
+        "Gratis: 3 regole per app con un piccolo banner; Pro: regole illimitate, condizioni, pulsante fluttuante e niente pubblicità — oppure un annuncio per un Free Pass di 24 ore su una funzione Pro"
+      ],
+      "faq": [
+        {
+          "q": "Serve il root?",
+          "a": "No. Rotate+ funziona senza root. Gli schermi grandi con Android 16 ignorano la normale richiesta di rotazione delle app: Rotate+ lo rileva e usa automaticamente l'impostazione di rotazione del sistema."
+        },
+        {
+          "q": "Perché serve l'accessibilità? È sicuro?",
+          "a": "L'accessibilità serve solo a sapere quale app è sullo schermo (per le regole per app) e a mantenere l'orientamento scelto con una finestra invisibile di 1 pixel. Rotate+ non legge mai contenuti dello schermo, testi o password. In alternativa puoi usare l'accesso ai dati di utilizzo. Nessun account, nessun invio di dati."
+        },
+        {
+          "q": "Cosa è gratis e cosa aggiunge Pro?",
+          "a": "Tutte le modalità di rotazione, Mantieni l'orientamento, Ruota una volta, riquadri, widget e scorciatoie sono gratis, insieme a 3 regole per app e a un piccolo banner. Pro aggiunge regole illimitate, condizioni che cambiano l'orientamento da sole (in carica, con le cuffie, un dispositivo Bluetooth, un supporto auto o da scrivania, durante una chiamata o a orari stabiliti), un pulsante di rotazione fluttuante e niente pubblicità. Vuoi provare prima? Guarda un annuncio per un Free Pass di 24 ore su una funzione Pro."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Appunti",

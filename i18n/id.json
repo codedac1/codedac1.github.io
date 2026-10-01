@@ -369,6 +369,36 @@
         }
       ]
     },
+    "rotate": {
+      "name": "Rotate+",
+      "tag": "Rotasi Layar",
+      "seo": "Putar & Rotasi Layar",
+      "desc": "Paksa orientasi layar untuk seluruh ponsel atau per aplikasi: potret, lanskap, atau otomatis. Tanpa root.",
+      "tagline": "Ada aplikasi yang tidak mau berputar, ada yang langsung berputar begitu Anda berbaring. Kunci orientasi layar untuk seluruh ponsel atau tiap aplikasi dengan sekali ketuk, tanpa root.",
+      "long": "Rotate+ memaksa orientasi layar untuk seluruh ponsel atau tiap aplikasi dengan sekali ketuk, tanpa root. Pilih Otomatis, Potret, Lanskap, Potret terbalik, Lanskap terbalik, atau Kunci saat ini, dan langsung diterapkan tanpa dialog konfirmasi. Dengan aturan per aplikasi, video dan game tampil lanskap, chat dan membaca tampil potret: aturan aktif saat aplikasi dibuka dan lepas saat Anda keluar. Jika aplikasi memutar layar kembali, “Pertahankan orientasi” mengembalikan pilihan Anda; jika aplikasi terus melawan, Rotate+ berhenti mencoba sehingga layar tidak berputar terus. “Putar sekali” hanya memutar aplikasi yang terbuka sampai Anda berganti aplikasi atau mematikan layar, sementara ubin setelan cepat, widget, dan pintasan membuat semuanya cukup sekali ketuk. Di tablet Android 16, Rotate+ otomatis beralih ke setelan rotasi sistem. Versi gratis memberi 3 aturan dengan iklan banner kecil; Pro menambahkan aturan tanpa batas, kondisi, tombol putar mengambang, dan tanpa iklan — atau tonton satu iklan untuk Free Pass 24 jam untuk fitur Pro.",
+      "features": [
+        "Sekali ketuk, enam mode: Otomatis, Potret, Lanskap, Potret terbalik, Lanskap terbalik, dan Kunci saat ini — langsung diterapkan, keempat sisi dan mode sensor ada di Mode lain",
+        "Aturan per aplikasi: video dan game lanskap, chat dan membaca potret — aktif saat aplikasi dibuka, lepas saat Anda keluar",
+        "Pertahankan orientasi: jika aplikasi memutar layar kembali, Rotate+ mengembalikan pilihan Anda, dan berhenti mencoba jika aplikasi terus melawan — layar tidak berputar terus",
+        "Putar sekali: “Hanya aplikasi ini, hanya sekarang” — lepas sendiri saat Anda berganti aplikasi atau mematikan layar",
+        "Dua ubin setelan cepat, widget layar utama, pintasan aplikasi, dan notifikasi opsional dengan tombol Jeda, Mode, dan Putar sekali",
+        "Gratis 3 aturan dengan iklan banner kecil; Pro: aturan tanpa batas, kondisi, tombol mengambang, dan tanpa iklan — atau satu iklan untuk Free Pass 24 jam untuk fitur Pro"
+      ],
+      "faq": [
+        {
+          "q": "Apakah perlu root?",
+          "a": "Tidak. Rotate+ berjalan tanpa root. Layar besar Android 16 mengabaikan permintaan rotasi biasa dari aplikasi; Rotate+ mendeteksinya dan otomatis beralih ke setelan rotasi sistem."
+        },
+        {
+          "q": "Mengapa perlu aksesibilitas? Apakah aman?",
+          "a": "Aksesibilitas hanya dipakai untuk mengetahui aplikasi yang sedang tampil (untuk aturan per aplikasi) dan untuk mempertahankan orientasi pilihan Anda dengan jendela tak terlihat berukuran 1 piksel. Rotate+ tidak pernah membaca isi layar, teks, atau kata sandi. Anda bisa memakai akses penggunaan sebagai gantinya. Tanpa akun, tidak ada data yang dikirim."
+        },
+        {
+          "q": "Apa yang gratis dan apa tambahan Pro?",
+          "a": "Semua mode rotasi, Pertahankan orientasi, Putar sekali, ubin, widget, dan pintasan gratis, ditambah 3 aturan per aplikasi dan iklan banner kecil. Pro menambahkan aturan tanpa batas, kondisi yang mengubah orientasi otomatis (saat mengisi daya, memakai headphone, perangkat Bluetooth, dok mobil atau meja, saat menelepon, atau pada jam tertentu), tombol putar mengambang, dan menghapus iklan. Ingin coba dulu? Tonton satu iklan untuk Free Pass 24 jam untuk fitur Pro."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Clipboard",

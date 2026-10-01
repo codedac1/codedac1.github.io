@@ -369,6 +369,36 @@
         }
       ]
     },
+    "rotate": {
+      "name": "Rotate+",
+      "tag": "Screen Rotation",
+      "seo": "Force Screen Rotation",
+      "desc": "I-force ang orientation ng screen sa buong phone o kada app: portrait, landscape o auto. Walang root.",
+      "tagline": "May mga app na ayaw umikot, at may umiikot agad kapag humiga ka. Isang tap lang para i-lock ang orientation sa buong phone o sa bawat app — walang root.",
+      "long": "Sa Rotate+, isang tap lang para i-force ang orientation ng screen sa buong phone o sa bawat app, at walang root. Pumili ng Auto, Portrait, Landscape, Baligtad na portrait, Baligtad na landscape o I-lock ang kasalukuyan, at agad itong nalalapat nang walang confirmation dialog. Sa rules kada app, nasa landscape ang video at games at nasa portrait ang chat at pagbabasa: gumagana ang rule pagbukas ng app at natatanggal pag-alis mo. Kapag ibinalik ng app ang ikot ng screen, ibabalik ng “Panatilihin ang orientation” ang pinili mo, at kapag patuloy na lumalaban ang app, titigil ang Rotate+ para walang paulit-ulit na pag-ikot. Iniikot ng “Ikot nang isang beses” ang kasalukuyang app lang hanggang lumipat ka ng app o patayin ang screen, at isang tap lang ang lahat sa Quick Settings tile, widget at shortcut. Sa mga tablet na Android 16, awtomatikong ginagamit ng Rotate+ ang rotation setting ng system. Sa libreng bersyon, 3 rules na may maliit na banner ad; idinaragdag ng Pro ang walang limit na rules, mga kondisyon, floating rotate button at walang ads — o manood ng isang ad para sa 24-oras na Free Pass ng isang Pro feature.",
+      "features": [
+        "Isang tap, anim na mode: Auto, Portrait, Landscape, Baligtad na portrait, Baligtad na landscape at I-lock ang kasalukuyan — agad na nalalapat, nasa Iba pang mode ang apat na gilid at sensor mode",
+        "Rules kada app: video at games sa landscape, chat at pagbabasa sa portrait — gumagana pagbukas ng app, natatanggal pag-alis mo",
+        "Panatilihin ang orientation: kapag ibinalik ng app ang ikot ng screen, ibabalik ng Rotate+ ang pinili mo, at titigil kapag patuloy na lumalaban ang app — walang paulit-ulit na pag-ikot",
+        "Ikot nang isang beses: “Itong app lang, ngayon lang” — kusang natatanggal kapag lumipat ka ng app o pinatay ang screen",
+        "Dalawang Quick Settings tile, mga widget sa home screen, app shortcut at opsyonal na notification na may Pause, Mode at Ikot nang isang beses",
+        "Libre: 3 rules na may maliit na banner ad; Pro: walang limit na rules, mga kondisyon, floating button at walang ads — o isang ad para sa 24-oras na Free Pass ng isang Pro feature"
+      ],
+      "faq": [
+        {
+          "q": "Kailangan ba ng root?",
+          "a": "Hindi. Gumagana ang Rotate+ nang walang root. Hindi pinapansin ng malalaking screen sa Android 16 ang karaniwang rotation request ng mga app; nade-detect ito ng Rotate+ at awtomatikong ginagamit ang rotation setting ng system."
+        },
+        {
+          "q": "Bakit kailangan ang Accessibility? Ligtas ba?",
+          "a": "Ginagamit lang ang Accessibility para malaman kung aling app ang nasa screen (para sa rules kada app) at para mapanatili ang piniling orientation gamit ang invisible na window na 1 pixel. Hindi kailanman binabasa ng Rotate+ ang laman ng screen, text o password. Puwede ring gamitin ang Usage access sa halip. Walang account, walang ipinapadala."
+        },
+        {
+          "q": "Ano ang libre at ano ang idinaragdag ng Pro?",
+          "a": "Libre ang lahat ng rotation mode, Panatilihin ang orientation, Ikot nang isang beses, mga tile, widget at shortcut, kasama ang 3 rules kada app at maliit na banner ad. Idinaragdag ng Pro ang walang limit na rules, mga kondisyon na awtomatikong nagbabago ng orientation (habang nagcha-charge, may headphones, Bluetooth device, car o desk dock, habang may tawag o sa mga itinakdang oras), floating rotate button, at tinatanggal ang ads. Gusto mo munang subukan? Manood ng isang ad para sa 24-oras na Free Pass ng isang Pro feature."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Clipboard",

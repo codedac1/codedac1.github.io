@@ -369,6 +369,36 @@
         }
       ]
     },
+    "rotate": {
+      "name": "Rotate+",
+      "tag": "Bildschirmdrehung",
+      "seo": "Bildschirm drehen",
+      "desc": "Bildschirmausrichtung fürs ganze Gerät oder pro App festlegen: Hoch, Quer oder Auto. Ohne Root.",
+      "tagline": "Manche Apps drehen sich nicht, andere drehen sich, sobald du dich hinlegst. Leg die Ausrichtung fürs ganze Gerät oder für jede App mit einem Tipp fest — ohne Root.",
+      "long": "Mit Rotate+ legst du die Bildschirmausrichtung für das ganze Gerät oder für jede App mit einem Tipp fest, ganz ohne Root. Wähle Auto, Hochformat, Querformat, Kopfüber, Querformat umgekehrt oder Aktuelle sperren — die Wahl gilt sofort, ohne Bestätigungsdialog. Mit Regeln pro App laufen Videos und Spiele im Querformat, Chat und Lesen im Hochformat: Die Regel greift, wenn die App öffnet, und endet, wenn du sie verlässt. Dreht eine App den Bildschirm zurück, stellt „Ausrichtung halten“ deine Wahl wieder her; wehrt sich eine App dauerhaft, hört Rotate+ auf — kein endloses Hin und Her. „Einmal drehen“ dreht nur die aktuelle App, bis du die App wechselst oder den Bildschirm ausschaltest, und Schnelleinstellungs-Kacheln, Widgets und Verknüpfungen halten alles einen Tipp entfernt. Auf Tablets mit Android 16 nutzt Rotate+ automatisch die System-Dreheinstellung. Gratis gibt es 3 App-Regeln mit kleinem Werbebanner; Pro bringt unbegrenzte Regeln, Bedingungen, eine schwebende Dreh-Taste und keine Werbung — oder du siehst eine Werbung und erhältst 24 Stunden Free Pass für eine Pro-Funktion.",
+      "features": [
+        "Sechs Modi mit einem Tipp: Auto, Hochformat, Querformat, Kopfüber, Querformat umgekehrt und Aktuelle sperren — sofort aktiv, alle vier Seiten und Sensor-Modi unter Weitere Modi",
+        "Regeln pro App: Videos und Spiele im Querformat, Chat und Lesen im Hochformat — aktiv beim Öffnen der App, beendet beim Verlassen",
+        "Ausrichtung halten: Dreht eine App den Bildschirm zurück, stellt Rotate+ deine Wahl wieder her — und hört auf, wenn sich eine App dauerhaft wehrt",
+        "Einmal drehen: „Nur diese App, nur jetzt“ — endet von selbst beim App-Wechsel oder Ausschalten des Bildschirms",
+        "Zwei Schnelleinstellungs-Kacheln, Startbildschirm-Widgets, App-Verknüpfungen und eine optionale Benachrichtigung mit Pause, Modus und Einmal drehen",
+        "Gratis: 3 App-Regeln mit kleinem Werbebanner; Pro: unbegrenzte Regeln, Bedingungen, schwebende Dreh-Taste und keine Werbung — oder eine Werbung für 24 Stunden Free Pass einer Pro-Funktion"
+      ],
+      "faq": [
+        {
+          "q": "Brauche ich Root?",
+          "a": "Nein. Rotate+ funktioniert ohne Root. Große Bildschirme mit Android 16 ignorieren die übliche Drehanforderung von Apps — Rotate+ erkennt das und nutzt automatisch die System-Dreheinstellung."
+        },
+        {
+          "q": "Wozu braucht die App die Bedienungshilfen? Ist das sicher?",
+          "a": "Die Bedienungshilfen dienen nur dazu, zu erkennen, welche App gerade angezeigt wird (für App-Regeln), und die gewählte Ausrichtung mit einem unsichtbaren 1-Pixel-Fenster zu halten. Rotate+ liest keine Bildschirminhalte, Texte oder Passwörter. Alternativ kannst du den Nutzungsdatenzugriff verwenden. Es gibt kein Konto, und es werden keine Daten übertragen."
+        },
+        {
+          "q": "Was ist gratis, was bringt Pro?",
+          "a": "Alle Drehmodi, Ausrichtung halten, Einmal drehen, Kacheln, Widgets und Verknüpfungen sind gratis, dazu 3 App-Regeln und ein kleines Werbebanner. Pro bringt unbegrenzte App-Regeln, Bedingungen, die die Ausrichtung automatisch ändern (beim Laden, mit Kopfhörern, einem Bluetooth-Gerät, im Auto- oder Tischdock, während eines Anrufs oder zu festen Zeiten), eine schwebende Dreh-Taste und keine Werbung. Erst ausprobieren? Eine Werbung ansehen und 24 Stunden Free Pass für eine Pro-Funktion erhalten."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Zwischenablage",

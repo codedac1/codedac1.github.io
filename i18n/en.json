@@ -369,6 +369,36 @@
         }
       ]
     },
+    "rotate": {
+      "name": "Rotate+",
+      "tag": "Screen Rotation",
+      "seo": "Force Screen Rotation",
+      "desc": "Force screen rotation for the whole phone or per app — portrait, landscape or auto. No root.",
+      "tagline": "Some apps refuse to turn, others spin when you just lie down. Lock the orientation for the whole phone or for each app with one tap — no root needed.",
+      "long": "Rotate+ forces the screen orientation for the whole phone or for each app, with one tap and no root. Pick Auto, Portrait, Landscape, Upside down, Reverse landscape or Lock current and it applies instantly. Per-app rules keep videos and games in landscape and chat and reading in portrait — each rule is applied when the app opens and released when you leave. If an app turns the screen back, Keep orientation puts your choice back, and it stops trying if an app keeps fighting, so nothing loops. Rotate once turns just the current app until you switch apps or turn the screen off, and tiles, widgets and shortcuts keep it one tap away. On Android 16 tablets it switches to the system rotation setting automatically. Free gives you 3 per-app rules with a small banner ad; Pro adds unlimited rules, conditions, a floating rotate button and no ads — or watch one ad for a 24-hour Free Pass of a Pro feature.",
+      "features": [
+        "Six modes, one tap: Auto, Portrait, Landscape, Upside down, Reverse landscape and Lock current — applied instantly, with all four sides and sensor modes under More modes",
+        "Per-app rules: videos and games in landscape, chat and reading in portrait — applied when the app opens, released when you leave",
+        "Keep orientation: if an app turns the screen back, Rotate+ puts your choice back, and stops trying if an app keeps fighting, so nothing loops",
+        "Rotate once: “just this app, just now” — releases by itself when you switch apps or turn the screen off",
+        "Two Quick Settings tiles, home screen widgets, app shortcuts and an optional notification with Pause, Mode and Rotate once",
+        "Free: 3 per-app rules with a small banner ad; Pro: unlimited rules, conditions, floating rotate button and no ads — or one ad for a 24-hour Free Pass of a Pro feature"
+      ],
+      "faq": [
+        {
+          "q": "Do I need root?",
+          "a": "No. Rotate+ works without root. Android 16 large screens ignore the usual app rotation request, so on those tablets Rotate+ detects this and switches to the system rotation setting automatically."
+        },
+        {
+          "q": "Why does it ask for accessibility? Is it safe?",
+          "a": "Accessibility is used only to know which app is on screen, for per-app rules, and to hold your chosen orientation with an invisible 1-pixel window. Rotate+ never reads screen content, text or passwords. If you prefer, you can use Usage access instead. There is no account, and nothing is sent anywhere."
+        },
+        {
+          "q": "What is free, and what does Pro add?",
+          "a": "All rotation modes, Keep orientation, Rotate once, tiles, widgets and shortcuts are free, along with 3 per-app rules and a small banner ad. Pro adds unlimited per-app rules, conditions that change the orientation automatically (while charging, with headphones, a Bluetooth device, a car or desk dock, during a call or at set times), a floating rotate button and no ads. Not ready to buy? Watch one ad for a 24-hour Free Pass of a Pro feature."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Clipboard",

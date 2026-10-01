@@ -369,6 +369,36 @@
         }
       ]
     },
+    "rotate": {
+      "name": "Rotate+",
+      "tag": "Putaran Skrin",
+      "seo": "Putar & Rotasi Skrin",
+      "desc": "Paksa orientasi skrin untuk seluruh telefon atau setiap apl: potret, landskap atau auto. Tanpa root.",
+      "tagline": "Ada apl yang tidak mahu berputar, ada yang terus berputar sebaik anda berbaring. Kunci orientasi skrin untuk seluruh telefon atau setiap apl dengan satu ketikan, tanpa root.",
+      "long": "Rotate+ memaksa orientasi skrin untuk seluruh telefon atau setiap apl dengan satu ketikan, tanpa root. Pilih Auto, Potret, Landskap, Potret terbalik, Landskap terbalik atau Kunci semasa, dan ia terus digunakan tanpa dialog pengesahan. Dengan peraturan mengikut apl, video dan permainan kekal landskap, sembang dan membaca kekal potret: peraturan aktif apabila apl dibuka dan dilepaskan apabila anda keluar. Jika apl memusingkan skrin semula, “Kekalkan orientasi” memulihkan pilihan anda; jika apl terus melawan, Rotate+ berhenti mencuba supaya skrin tidak berpusing tanpa henti. “Putar sekali” memutar apl semasa sahaja sehingga anda menukar apl atau mematikan skrin, manakala jubin tetapan pantas, widget dan pintasan memastikan semuanya hanya satu ketikan. Pada tablet Android 16, Rotate+ beralih ke tetapan putaran sistem secara automatik. Versi percuma memberi 3 peraturan dengan iklan sepanduk kecil; Pro menambah peraturan tanpa had, syarat, butang putar terapung dan tanpa iklan — atau tonton satu iklan untuk Free Pass 24 jam bagi ciri Pro.",
+      "features": [
+        "Satu ketikan, enam mod: Auto, Potret, Landskap, Potret terbalik, Landskap terbalik dan Kunci semasa — terus digunakan, keempat-empat sisi dan mod sensor dalam Mod lain",
+        "Peraturan mengikut apl: video dan permainan landskap, sembang dan membaca potret — aktif apabila apl dibuka, dilepaskan apabila anda keluar",
+        "Kekalkan orientasi: jika apl memusingkan skrin semula, Rotate+ memulihkan pilihan anda, dan berhenti mencuba jika apl terus melawan — skrin tidak berpusing tanpa henti",
+        "Putar sekali: “Apl ini sahaja, sekarang sahaja” — dilepaskan sendiri apabila anda menukar apl atau mematikan skrin",
+        "Dua jubin tetapan pantas, widget skrin utama, pintasan apl dan pemberitahuan pilihan dengan butang Jeda, Mod dan Putar sekali",
+        "Percuma 3 peraturan dengan iklan sepanduk kecil; Pro: peraturan tanpa had, syarat, butang terapung dan tanpa iklan — atau satu iklan untuk Free Pass 24 jam bagi ciri Pro"
+      ],
+      "faq": [
+        {
+          "q": "Adakah perlu root?",
+          "a": "Tidak. Rotate+ berfungsi tanpa root. Skrin besar Android 16 mengabaikan permintaan putaran biasa daripada apl; Rotate+ mengesannya dan beralih ke tetapan putaran sistem secara automatik."
+        },
+        {
+          "q": "Mengapa perlu kebolehcapaian? Adakah ia selamat?",
+          "a": "Kebolehcapaian hanya digunakan untuk mengetahui apl yang sedang dipaparkan (untuk peraturan mengikut apl) dan untuk mengekalkan orientasi pilihan anda dengan tetingkap halimunan bersaiz 1 piksel. Rotate+ tidak pernah membaca kandungan skrin, teks atau kata laluan. Anda boleh menggunakan akses penggunaan sebagai ganti. Tiada akaun, tiada data dihantar."
+        },
+        {
+          "q": "Apa yang percuma dan apa tambahan Pro?",
+          "a": "Semua mod putaran, Kekalkan orientasi, Putar sekali, jubin, widget dan pintasan adalah percuma, bersama 3 peraturan mengikut apl dan iklan sepanduk kecil. Pro menambah peraturan tanpa had, syarat yang menukar orientasi sendiri (semasa mengecas, dengan fon kepala, peranti Bluetooth, dok kereta atau meja, semasa panggilan atau pada waktu tertentu), butang putar terapung dan membuang iklan. Mahu cuba dahulu? Tonton satu iklan untuk Free Pass 24 jam bagi ciri Pro."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Papan Keratan",

@@ -369,6 +369,36 @@
         }
       ]
     },
+    "rotate": {
+      "name": "Rotate+",
+      "tag": "Rotation d'écran",
+      "seo": "Rotation de l'écran",
+      "desc": "Imposez l'orientation de l'écran à tout le téléphone ou par app : portrait, paysage ou auto. Sans root.",
+      "tagline": "Certaines apps refusent de pivoter, d'autres tournent dès que vous vous allongez. Imposez l'orientation à tout le téléphone ou à chaque app, en un geste et sans root.",
+      "long": "Rotate+ impose l'orientation de l'écran pour tout le téléphone ou pour chaque app, en un geste et sans root. Choisissez Auto, Portrait, Paysage, Portrait inversé, Paysage inversé ou Bloquer l'actuelle : c'est appliqué immédiatement, sans boîte de confirmation. Avec les règles par app, vidéos et jeux passent en paysage, messagerie et lecture en portrait : la règle s'applique à l'ouverture de l'app et s'arrête quand vous la quittez. Si une app remet l'écran dans l'autre sens, « Garder l'orientation » rétablit votre choix, et si une app s'obstine, Rotate+ arrête d'insister : pas de boucle. « Pivoter une fois » tourne seulement l'app actuelle jusqu'à ce que vous changiez d'app ou éteigniez l'écran, et les vignettes de réglages rapides, widgets et raccourcis gardent tout à portée de doigt. Sur les tablettes Android 16, Rotate+ passe automatiquement par le réglage de rotation du système. La version gratuite offre 3 règles par app avec une petite bannière ; Pro ajoute les règles illimitées, les conditions, un bouton de rotation flottant et supprime la publicité — ou regardez une publicité pour un Free Pass de 24 heures sur une fonction Pro.",
+      "features": [
+        "Six modes en un geste : Auto, Portrait, Paysage, Portrait inversé, Paysage inversé et Bloquer l'actuelle — appliqués immédiatement, avec les quatre côtés et les modes par capteur dans Plus de modes",
+        "Règles par app : vidéos et jeux en paysage, messagerie et lecture en portrait — appliquées à l'ouverture de l'app, arrêtées quand vous la quittez",
+        "Garder l'orientation : si une app remet l'écran dans l'autre sens, Rotate+ rétablit votre choix, et arrête d'insister si l'app s'obstine — pas de boucle",
+        "Pivoter une fois : « Juste cette app, juste maintenant » — s'arrête tout seul quand vous changez d'app ou éteignez l'écran",
+        "Deux vignettes de réglages rapides, widgets d'écran d'accueil, raccourcis d'app et une notification facultative avec Pause, Mode et Pivoter une fois",
+        "Gratuit : 3 règles par app avec une petite bannière ; Pro : règles illimitées, conditions, bouton flottant et sans publicité — ou une publicité pour un Free Pass de 24 heures sur une fonction Pro"
+      ],
+      "faq": [
+        {
+          "q": "Faut-il le root ?",
+          "a": "Non. Rotate+ fonctionne sans root. Les grands écrans sous Android 16 ignorent la demande de rotation habituelle des apps : Rotate+ le détecte et passe automatiquement par le réglage de rotation du système."
+        },
+        {
+          "q": "Pourquoi l'accessibilité ? Est-ce sûr ?",
+          "a": "L'accessibilité sert uniquement à savoir quelle app est à l'écran (pour les règles par app) et à garder l'orientation choisie avec une fenêtre invisible de 1 pixel. Rotate+ ne lit jamais le contenu de l'écran, les textes ni les mots de passe. Vous pouvez utiliser l'accès aux données d'utilisation à la place. Pas de compte, rien n'est envoyé."
+        },
+        {
+          "q": "Qu'est-ce qui est gratuit, et qu'apporte Pro ?",
+          "a": "Tous les modes de rotation, Garder l'orientation, Pivoter une fois, les vignettes, widgets et raccourcis sont gratuits, avec 3 règles par app et une petite bannière. Pro ajoute les règles illimitées, des conditions qui changent l'orientation automatiquement (pendant la charge, avec un casque, un appareil Bluetooth, un support voiture ou bureau, pendant un appel ou à certaines heures), un bouton de rotation flottant, et supprime la publicité. Envie d'essayer ? Regardez une publicité pour un Free Pass de 24 heures sur une fonction Pro."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Presse-papiers",

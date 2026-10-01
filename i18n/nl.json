@@ -369,6 +369,36 @@
         }
       ]
     },
+    "rotate": {
+      "name": "Rotate+",
+      "tag": "Schermrotatie",
+      "seo": "Scherm draaien",
+      "desc": "Zet de schermstand vast voor de hele telefoon of per app: staand, liggend of auto. Zonder root.",
+      "tagline": "Sommige apps willen niet draaien, andere draaien zodra je gaat liggen. Leg de schermstand vast voor de hele telefoon of per app, met één tik en zonder root.",
+      "long": "Rotate+ legt de schermstand vast voor de hele telefoon of per app, met één tik en zonder root. Kies Auto, Staand, Liggend, Staand omgekeerd, Liggend omgekeerd of Huidige vastzetten en het is direct actief, zonder bevestigingsvenster. Met regels per app staan video's en games liggend en chatten en lezen staand: de regel geldt zodra de app opent en stopt als je hem verlaat. Draait een app het scherm terug, dan zet ‘Stand vasthouden’ jouw keuze terug; blijft een app tegenwerken, dan stopt Rotate+ met proberen — geen eindeloos gedraai. ‘Eén keer draaien’ draait alleen de huidige app tot je van app wisselt of het scherm uitzet, en tegels in snelle instellingen, widgets en snelkoppelingen houden alles binnen één tik. Op tablets met Android 16 gebruikt Rotate+ automatisch de draai-instelling van het systeem. Gratis krijg je 3 regels per app met een kleine banner; Pro voegt onbeperkt regels, voorwaarden en een zwevende draaiknop toe, zonder advertenties — of bekijk één advertentie voor een Free Pass van 24 uur voor een Pro-functie.",
+      "features": [
+        "Zes standen met één tik: Auto, Staand, Liggend, Staand omgekeerd, Liggend omgekeerd en Huidige vastzetten — direct actief, met alle vier de kanten en sensorstanden onder Meer standen",
+        "Regels per app: video's en games liggend, chatten en lezen staand — actief zodra de app opent, uit als je hem verlaat",
+        "Stand vasthouden: draait een app het scherm terug, dan zet Rotate+ jouw keuze terug, en stopt met proberen als een app blijft tegenwerken — geen eindeloos gedraai",
+        "Eén keer draaien: ‘Alleen deze app, alleen nu’ — stopt vanzelf als je van app wisselt of het scherm uitzet",
+        "Twee tegels in snelle instellingen, widgets voor het startscherm, app-snelkoppelingen en een optionele melding met Pauze, Stand en Eén keer draaien",
+        "Gratis: 3 regels per app met een kleine banner; Pro: onbeperkt regels, voorwaarden, zwevende draaiknop en geen advertenties — of één advertentie voor een Free Pass van 24 uur voor een Pro-functie"
+      ],
+      "faq": [
+        {
+          "q": "Heb ik root nodig?",
+          "a": "Nee. Rotate+ werkt zonder root. Grote schermen met Android 16 negeren het gewone draaiverzoek van apps — Rotate+ merkt dat op en gebruikt automatisch de draai-instelling van het systeem."
+        },
+        {
+          "q": "Waarom is toegankelijkheid nodig? Is het veilig?",
+          "a": "Toegankelijkheid wordt alleen gebruikt om te weten welke app op het scherm staat (voor regels per app) en om de gekozen stand vast te houden met een onzichtbaar venster van 1 pixel. Rotate+ leest nooit scherminhoud, tekst of wachtwoorden. Je kunt ook toegang tot gebruiksgegevens gebruiken. Geen account, er wordt niets verstuurd."
+        },
+        {
+          "q": "Wat is gratis en wat voegt Pro toe?",
+          "a": "Alle draaistanden, Stand vasthouden, Eén keer draaien, tegels, widgets en snelkoppelingen zijn gratis, samen met 3 regels per app en een kleine banner. Pro voegt onbeperkt regels toe, voorwaarden die de stand automatisch wijzigen (tijdens het opladen, met een koptelefoon, een Bluetooth-apparaat, in een auto- of bureaudock, tijdens een gesprek of op vaste tijden), een zwevende draaiknop en geen advertenties. Eerst proberen? Bekijk één advertentie voor een Free Pass van 24 uur voor een Pro-functie."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Klembord",

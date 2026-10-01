@@ -369,6 +369,36 @@
         }
       ]
     },
+    "rotate": {
+      "name": "Rotate+",
+      "tag": "Obrót ekranu",
+      "seo": "Wymuś obrót ekranu",
+      "desc": "Wymuś orientację ekranu dla całego telefonu albo każdej aplikacji: pion, poziom lub auto. Bez roota.",
+      "tagline": "Niektóre aplikacje nie chcą się obracać, inne obracają się, gdy tylko się położysz. Ustaw orientację dla całego telefonu lub każdej aplikacji jednym dotknięciem — bez roota.",
+      "long": "Rotate+ jednym dotknięciem wymusza orientację ekranu dla całego telefonu albo dla każdej aplikacji, bez roota. Wybierz Auto, Pion, Poziom, Odwrócony pion, Odwrócony poziom lub Zablokuj obecną — działa od razu, bez okien potwierdzenia. Dzięki regułom dla aplikacji filmy i gry działają w poziomie, a czat i czytanie w pionie: reguła działa po otwarciu aplikacji i znika, gdy z niej wyjdziesz. Jeśli aplikacja obróci ekran z powrotem, „Utrzymanie orientacji” przywróci Twój wybór, a gdy aplikacja uparcie się opiera, Rotate+ przestaje próbować — bez niekończącego się obracania. „Obróć raz” obraca tylko bieżącą aplikację, dopóki jej nie zmienisz albo nie wyłączysz ekranu, a kafelki szybkich ustawień, widżety i skróty trzymają wszystko pod ręką. Na tabletach z Androidem 16 Rotate+ automatycznie korzysta z systemowego ustawienia obrotu. Za darmo masz 3 reguły z małym banerem; Pro dodaje reguły bez limitu, warunki, pływający przycisk obrotu i usuwa reklamy — albo obejrzyj reklamę i odbierz 24-godzinny Free Pass do funkcji Pro.",
+      "features": [
+        "Sześć trybów jednym dotknięciem: Auto, Pion, Poziom, Odwrócony pion, Odwrócony poziom i Zablokuj obecną — od razu, a cztery strony i tryby z czujnika w menu Więcej trybów",
+        "Reguły dla aplikacji: filmy i gry w poziomie, czat i czytanie w pionie — działają po otwarciu aplikacji i znikają, gdy z niej wyjdziesz",
+        "Utrzymanie orientacji: gdy aplikacja obróci ekran z powrotem, Rotate+ przywróci Twój wybór, a przy uporczywym oporze przestanie próbować — bez niekończącego się obracania",
+        "Obróć raz: „Tylko ta aplikacja, tylko teraz” — wyłącza się samo po zmianie aplikacji lub wyłączeniu ekranu",
+        "Dwa kafelki szybkich ustawień, widżety ekranu głównego, skróty aplikacji i opcjonalne powiadomienie z przyciskami Pauza, Tryb i Obróć raz",
+        "Za darmo 3 reguły z małym banerem; Pro: reguły bez limitu, warunki, pływający przycisk i bez reklam — albo reklama za 24-godzinny Free Pass do funkcji Pro"
+      ],
+      "faq": [
+        {
+          "q": "Czy potrzebuję roota?",
+          "a": "Nie. Rotate+ działa bez roota. Duże ekrany z Androidem 16 ignorują zwykłą prośbę aplikacji o obrót — Rotate+ to wykrywa i automatycznie korzysta z systemowego ustawienia obrotu."
+        },
+        {
+          "q": "Po co ułatwienia dostępu? Czy to bezpieczne?",
+          "a": "Ułatwienia dostępu służą tylko do sprawdzenia, która aplikacja jest na ekranie (dla reguł), i do utrzymania wybranej orientacji niewidocznym oknem o rozmiarze 1 piksela. Rotate+ nigdy nie czyta zawartości ekranu, tekstów ani haseł. Zamiast tego można użyć dostępu do danych o użyciu. Bez konta, nic nie jest wysyłane."
+        },
+        {
+          "q": "Co jest za darmo, a co daje Pro?",
+          "a": "Wszystkie tryby obrotu, Utrzymanie orientacji, Obróć raz, kafelki, widżety i skróty są za darmo, razem z 3 regułami dla aplikacji i małym banerem. Pro dodaje reguły bez limitu, warunki automatycznie zmieniające orientację (podczas ładowania, ze słuchawkami, urządzeniem Bluetooth, w stacji samochodowej lub biurkowej, w trakcie rozmowy lub o wybranych porach), pływający przycisk obrotu i usuwa reklamy. Chcesz najpierw spróbować? Obejrzyj reklamę i odbierz 24-godzinny Free Pass do funkcji Pro."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Schowek",

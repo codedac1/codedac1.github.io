@@ -369,6 +369,36 @@
         }
       ]
     },
+    "rotate": {
+      "name": "Rotate+",
+      "tag": "Rotación de pantalla",
+      "seo": "Rotación de pantalla",
+      "desc": "Fija la orientación de la pantalla en todo el móvil o por app: vertical, horizontal o auto. Sin root.",
+      "tagline": "Algunas apps no giran; otras giran en cuanto te tumbas. Fija la orientación para todo el móvil o para cada app con un toque, sin root.",
+      "long": "Rotate+ fija la orientación de la pantalla para todo el móvil o para cada app con un toque, sin root. Elige Auto, Vertical, Horizontal, Vertical invertida, Horizontal invertida o Fijar actual y se aplica al instante, sin diálogos de confirmación. Con las reglas por app, los vídeos y juegos van en horizontal y el chat y la lectura en vertical: la regla se aplica al abrir la app y se quita al salir. Si una app vuelve a girar la pantalla, «Mantener la orientación» restaura tu elección, y si una app insiste deja de intentarlo para que no haya bucles. «Girar una vez» gira solo la app actual hasta que cambias de app o apagas la pantalla, y los ajustes rápidos, widgets y accesos directos lo dejan todo a un toque. En tablets con Android 16 usa automáticamente el ajuste de rotación del sistema. Gratis tienes 3 reglas por app con un pequeño banner; Pro añade reglas ilimitadas, condiciones, un botón flotante de rotación y quita los anuncios, o mira un anuncio y obtén un Free Pass de 24 horas para una función Pro.",
+      "features": [
+        "Seis modos con un toque: Auto, Vertical, Horizontal, Vertical invertida, Horizontal invertida y Fijar actual — al instante, con los cuatro lados y los modos por sensor en Más modos",
+        "Reglas por app: vídeos y juegos en horizontal, chat y lectura en vertical — se aplican al abrir la app y se quitan al salir",
+        "Mantener la orientación: si una app vuelve a girar la pantalla, Rotate+ restaura tu elección, y deja de intentarlo si la app insiste para que no haya bucles",
+        "Girar una vez: «Solo esta app, solo ahora» — se quita sola al cambiar de app o apagar la pantalla",
+        "Dos iconos de ajustes rápidos, widgets de pantalla de inicio, accesos directos y una notificación opcional con Pausa, Modo y Girar una vez",
+        "Gratis: 3 reglas por app con un pequeño banner; Pro: reglas ilimitadas, condiciones, botón flotante y sin anuncios — o un anuncio para un Free Pass de 24 horas de una función Pro"
+      ],
+      "faq": [
+        {
+          "q": "¿Necesito root?",
+          "a": "No. Rotate+ funciona sin root. Las pantallas grandes con Android 16 ignoran la petición de giro habitual de las apps; Rotate+ lo detecta y usa automáticamente el ajuste de rotación del sistema."
+        },
+        {
+          "q": "¿Por qué pide accesibilidad? ¿Es seguro?",
+          "a": "La accesibilidad solo se usa para saber qué app está en pantalla (para las reglas por app) y para mantener la orientación elegida con una ventana invisible de 1 píxel. Rotate+ nunca lee el contenido de la pantalla, textos ni contraseñas. También puedes usar el acceso a datos de uso en su lugar. Sin cuenta, y no se envía nada."
+        },
+        {
+          "q": "¿Qué es gratis y qué añade Pro?",
+          "a": "Todos los modos de rotación, Mantener la orientación, Girar una vez, los iconos de ajustes rápidos, los widgets y los accesos directos son gratis, junto con 3 reglas por app y un pequeño banner. Pro añade reglas ilimitadas, condiciones que cambian la orientación solas (al cargar, con auriculares, un dispositivo Bluetooth, una base de coche o de escritorio, durante una llamada o a ciertas horas), un botón flotante de rotación y quita los anuncios. ¿Quieres probar antes? Mira un anuncio y obtén un Free Pass de 24 horas para una función Pro."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Portapapeles",

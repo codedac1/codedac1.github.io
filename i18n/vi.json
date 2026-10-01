@@ -369,6 +369,36 @@
         }
       ]
     },
+    "rotate": {
+      "name": "Rotate+",
+      "tag": "Xoay màn hình",
+      "seo": "Khóa xoay màn hình",
+      "desc": "Ép hướng màn hình cho cả điện thoại hoặc từng ứng dụng: dọc, ngang hoặc tự động. Không cần root.",
+      "tagline": "Có ứng dụng không chịu xoay, có ứng dụng xoay ngay khi bạn nằm xuống. Khóa hướng màn hình cho cả điện thoại hoặc từng ứng dụng chỉ bằng một chạm, không cần root.",
+      "long": "Rotate+ ép hướng màn hình cho cả điện thoại hoặc cho từng ứng dụng chỉ bằng một chạm, không cần root. Chọn Tự động, Dọc, Ngang, Dọc ngược, Ngang ngược hoặc Khóa hướng hiện tại và nó áp dụng ngay, không có hộp thoại xác nhận. Với quy tắc theo ứng dụng, video và game xoay ngang, trò chuyện và đọc để dọc: quy tắc bật khi mở ứng dụng và tắt khi bạn rời đi. Nếu ứng dụng xoay màn hình trở lại, “Giữ hướng màn hình” sẽ đưa về lựa chọn của bạn; nếu ứng dụng cứ chống lại, Rotate+ ngừng thử nên màn hình không xoay liên tục. “Xoay một lần” chỉ xoay ứng dụng đang mở cho tới khi bạn chuyển ứng dụng hoặc tắt màn hình, còn ô cài đặt nhanh, tiện ích và lối tắt giúp mọi thứ chỉ cách một chạm. Trên máy tính bảng Android 16, Rotate+ tự chuyển sang dùng cài đặt xoay của hệ thống. Bản miễn phí có 3 quy tắc kèm một banner quảng cáo nhỏ; Pro thêm quy tắc không giới hạn, điều kiện, nút xoay nổi và bỏ quảng cáo — hoặc xem một quảng cáo để nhận Free Pass 24 giờ cho một tính năng Pro.",
+      "features": [
+        "Một chạm, sáu chế độ: Tự động, Dọc, Ngang, Dọc ngược, Ngang ngược và Khóa hướng hiện tại — áp dụng ngay, cả bốn hướng và chế độ theo cảm biến nằm trong Thêm chế độ",
+        "Quy tắc theo ứng dụng: video và game xoay ngang, trò chuyện và đọc để dọc — bật khi mở ứng dụng, tắt khi bạn rời đi",
+        "Giữ hướng màn hình: nếu ứng dụng xoay màn hình trở lại, Rotate+ đưa về lựa chọn của bạn, và ngừng thử nếu ứng dụng cứ chống lại — màn hình không xoay liên tục",
+        "Xoay một lần: “Chỉ ứng dụng này, chỉ lúc này” — tự hủy khi bạn chuyển ứng dụng hoặc tắt màn hình",
+        "Hai ô cài đặt nhanh, tiện ích màn hình chính, lối tắt ứng dụng và thông báo tùy chọn với nút Tạm dừng, Chế độ và Xoay một lần",
+        "Miễn phí 3 quy tắc kèm banner quảng cáo nhỏ; Pro: quy tắc không giới hạn, điều kiện, nút nổi và không quảng cáo — hoặc một quảng cáo đổi Free Pass 24 giờ cho một tính năng Pro"
+      ],
+      "faq": [
+        {
+          "q": "Có cần root không?",
+          "a": "Không. Rotate+ hoạt động không cần root. Màn hình lớn chạy Android 16 bỏ qua yêu cầu xoay thông thường của ứng dụng; Rotate+ tự nhận ra và chuyển sang dùng cài đặt xoay của hệ thống."
+        },
+        {
+          "q": "Vì sao cần Trợ năng? Có an toàn không?",
+          "a": "Trợ năng chỉ dùng để biết ứng dụng nào đang trên màn hình (cho quy tắc theo ứng dụng) và giữ hướng bạn chọn bằng một cửa sổ vô hình 1 pixel. Rotate+ không bao giờ đọc nội dung màn hình, văn bản hay mật khẩu. Bạn có thể dùng quyền truy cập dữ liệu sử dụng thay thế. Không cần tài khoản, không gửi dữ liệu đi đâu."
+        },
+        {
+          "q": "Bản miễn phí và Pro khác nhau thế nào?",
+          "a": "Mọi chế độ xoay, Giữ hướng màn hình, Xoay một lần, ô cài đặt nhanh, tiện ích và lối tắt đều miễn phí, kèm 3 quy tắc theo ứng dụng và một banner quảng cáo nhỏ. Pro thêm quy tắc không giới hạn, điều kiện tự đổi hướng (khi sạc, khi cắm tai nghe, thiết bị Bluetooth, đế xe hơi hoặc đế bàn, trong cuộc gọi hay vào khung giờ đã đặt), nút xoay nổi và bỏ quảng cáo. Muốn thử trước? Xem một quảng cáo để nhận Free Pass 24 giờ cho một tính năng Pro."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Bộ nhớ tạm",
