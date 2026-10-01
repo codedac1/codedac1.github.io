@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-09-28",
+  "generatedAt": "2026-10-01",
   "source": {
     "lang": "en",
     "country": "us"
   },
   "aggregate": {
     "publishedApps": 15,
-    "totalMinInstalls": 24650,
-    "totalRatings": 255,
-    "avgScore": 3.88,
+    "totalMinInstalls": 25150,
+    "totalRatings": 261,
+    "avgScore": 3.92,
     "byStore": {
-      "play": 24650,
+      "play": 25150,
       "msstore": 0
     }
   },
@@ -20,15 +20,15 @@
       "store": "play",
       "appId": "com.codedac.clipboard",
       "score": 3.88,
-      "ratings": 195,
+      "ratings": 199,
       "installs": "10,000+",
       "minInstalls": 10000
     },
     "autostart": {
       "store": "play",
       "appId": "com.codedac.autostart",
-      "score": 3.86,
-      "ratings": 59,
+      "score": 4,
+      "ratings": 60,
       "installs": "10,000+",
       "minInstalls": 10000
     },
@@ -77,8 +77,8 @@
       "appId": "com.codedac.readfocus",
       "score": null,
       "ratings": 0,
-      "installs": "500+",
-      "minInstalls": 500
+      "installs": "1,000+",
+      "minInstalls": 1000
     },
     "floatnote": {
       "store": "play",
@@ -115,8 +115,8 @@
     "floattimerwin": {
       "store": "msstore",
       "appId": "9P3CTX3SXTGW",
-      "score": null,
-      "ratings": 0,
+      "score": 5,
+      "ratings": 1,
       "installs": null,
       "minInstalls": 0
     },
