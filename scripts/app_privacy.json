@@ -14,7 +14,7 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-09-14"
+    "mergedManifest": "2026-10-01"
   },
   "autostart": {
     "platform": "android",
@@ -30,7 +30,7 @@
       "battery",
       "adId"
     ],
-    "mergedManifest": "2026-09-10"
+    "mergedManifest": "2026-10-01"
   },
   "floatcalc": {
     "platform": "android",
@@ -45,7 +45,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-09-14"
+    "mergedManifest": "2026-10-01"
   },
   "floatcrypto": {
     "platform": "android",
@@ -61,7 +61,7 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-09-14"
+    "mergedManifest": "2026-10-01"
   },
   "floattimer": {
     "platform": "android",
@@ -75,7 +75,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-09-14"
+    "mergedManifest": "2026-10-01"
   },
   "volumebooster": {
     "platform": "android",
@@ -90,7 +90,7 @@
       "audio",
       "adId"
     ],
-    "mergedManifest": "2026-09-15"
+    "mergedManifest": "2026-10-01"
   },
   "photocleaner": {
     "platform": "android",
@@ -102,7 +102,7 @@
     "perms": [
       "adId"
     ],
-    "mergedManifest": "2026-09-15"
+    "mergedManifest": "2026-10-01"
   },
   "readfocus": {
     "platform": "android",
@@ -116,7 +116,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-09-14"
+    "mergedManifest": "2026-10-01"
   },
   "floatnote": {
     "platform": "android",
@@ -132,7 +132,27 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-09-14"
+    "mergedManifest": "2026-10-01"
+  },
+  "rotate": {
+    "platform": "android",
+    "data": [
+      "ads",
+      "billing"
+    ],
+    "perms": [
+      "accessibility",
+      "usage",
+      "overlay",
+      "writeSettings",
+      "notifications",
+      "foreground",
+      "boot",
+      "battery",
+      "bluetooth",
+      "adId"
+    ],
+    "mergedManifest": "2026-10-01"
   },
   "clipboardwin": {
     "platform": "windows",

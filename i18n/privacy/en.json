@@ -2,7 +2,7 @@
   "metaTitle": "Privacy Policy | CodeDAC",
   "metaDesc": "Privacy Policy for CodeDAC's Android and Windows apps. No sign-up, processing stays on your device, and each app's connections and permissions are listed.",
   "title": "Privacy Policy",
-  "updated": "Last updated: September 17, 2026",
+  "updated": "Last updated: October 1, 2026",
   "firstEffective": "First effective: July 15, 2026",
   "tocTitle": "Contents",
   "summaryTitle": "At a glance",
@@ -37,7 +37,11 @@
     "boot": "Run at startup",
     "battery": "Ignore battery optimization",
     "audio": "Change audio settings",
-    "adId": "Advertising ID"
+    "adId": "Advertising ID",
+    "accessibility": "Accessibility service",
+    "usage": "Usage access (optional)",
+    "writeSettings": "Modify system settings",
+    "bluetooth": "Nearby devices (Bluetooth, optional)"
   },
   "intro": "<p>This Privacy Policy applies to the Android and Windows applications developed and provided by CodeDAC (“we”, “us”) (the “Apps”) and to our website, codedac.com.</p>",
   "sections": [
@@ -74,7 +78,7 @@
     {
       "id": "permissions",
       "title": "7. Permissions",
-      "html": "<p>Each app requests only the permissions its features need and uses them only for the stated purpose. The permissions each app requests are listed in <a href=\"#apps\">What each app connects to</a> above.</p><ul><li><strong>Display over other apps</strong> — shows the floating calculator, timer, notes, prices, reading tool or clipboard panel on top of your screen.</li><li><strong>Notifications</strong> — shows the status of running features and alerts (timer finished, price alerts and so on).</li><li><strong>Keep running (foreground service)</strong> — keeps features such as floating windows or volume boost working after you leave the app.</li><li><strong>Run at startup</strong> — restarts the app or the features you set up when your device turns on.</li><li><strong>Ignore battery optimization</strong> — keeps the system from blocking launch-on-boot (AutoStart+).</li><li><strong>Change audio settings</strong> — applies volume boost and the equalizer (VolumeBooster+).</li><li><strong>Advertising ID</strong> — used to serve ads (Section 5).</li></ul><p>Basic permissions such as internet, network state and vibration are granted automatically at install and are used only for the features above. The Apps do not request microphone, contacts, location, camera or storage permissions.</p>"
+      "html": "<p>Each app requests only the permissions its features need and uses them only for the stated purpose. The permissions each app requests are listed in <a href=\"#apps\">What each app connects to</a> above.</p><ul><li><strong>Display over other apps</strong> — shows the floating calculator, timer, notes, prices, reading tool or clipboard panel on top of your screen.</li><li><strong>Notifications</strong> — shows the status of running features and alerts (timer finished, price alerts and so on).</li><li><strong>Keep running (foreground service)</strong> — keeps features such as floating windows or volume boost working after you leave the app.</li><li><strong>Run at startup</strong> — restarts the app or the features you set up when your device turns on.</li><li><strong>Ignore battery optimization</strong> — keeps the system from blocking launch-on-boot (AutoStart+).</li><li><strong>Change audio settings</strong> — applies volume boost and the equalizer (VolumeBooster+).</li><li><strong>Accessibility service</strong> (Rotate+) — used only to know which app is on screen, so your per-app rotation rules can be applied, and to hold the orientation you chose with an invisible 1-pixel window. The service is set up so that it cannot read screen content, and Rotate+ never reads the text you type or passwords. Nothing it learns is stored beyond your own settings or sent anywhere. You can turn it off at any time in your device’s accessibility settings.</li><li><strong>Usage access</strong> (Rotate+, optional) — an alternative to the accessibility service for knowing which app is in front. Only the name of the app on screen is used, on your device.</li><li><strong>Modify system settings</strong> (Rotate+) — switches the system auto-rotate setting on devices that ignore an app’s rotation request (for example large screens on Android 16).</li><li><strong>Nearby devices (Bluetooth)</strong> (Rotate+, optional) — for the Pro condition that changes orientation when a Bluetooth device connects. You pick one of your paired devices; Rotate+ only checks whether it is connected, and the choice stays on your device.</li><li><strong>Call detection</strong> (Rotate+, optional) — for the Pro condition “during a call”, Rotate+ checks only whether a call is in progress, from the device’s audio state and without any phone permission. It does not read phone numbers or your call log.</li><li><strong>Advertising ID</strong> — used to serve ads (Section 5).</li></ul><p>Basic permissions such as internet, network state and vibration are granted automatically at install and are used only for the features above. The Apps do not request microphone, contacts, location, camera or storage permissions.</p>"
     },
     {
       "id": "website",
@@ -104,7 +108,7 @@
     {
       "id": "history",
       "title": "Change history",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-09-17\">2026-09-17</time> Added the purchase record that PhotoCleaner+, ReadFocus+, FloatTimer+ and FloatCrypto+ for Windows send when a PRO purchase completes (Sections 1 and 6).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> Added the per-app overview, and added information on Google Drive backup and sync in Clipboard+ and FloatNote+ for Android, ad consent, internet connections (exchange rates, prices, ML Kit), website storage and emails. Corrected the permission descriptions to match the apps and reorganized the policy. Added PhotoCleaner+ for Windows.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Changed the contact email address.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Added cloud sync information for FloatNote+ for Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Added cloud sync information for Clipboard+ for Windows.</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-10-01\">2026-10-01</time> Added Rotate+ (Android) and the permissions it uses: accessibility service, usage access, modify system settings and nearby devices, and how it detects calls (Section 7).</li><li><time datetime=\"2026-09-17\">2026-09-17</time> Added the purchase record that PhotoCleaner+, ReadFocus+, FloatTimer+ and FloatCrypto+ for Windows send when a PRO purchase completes (Sections 1 and 6).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> Added the per-app overview, and added information on Google Drive backup and sync in Clipboard+ and FloatNote+ for Android, ad consent, internet connections (exchange rates, prices, ML Kit), website storage and emails. Corrected the permission descriptions to match the apps and reorganized the policy. Added PhotoCleaner+ for Windows.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Changed the contact email address.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Added cloud sync information for FloatNote+ for Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Added cloud sync information for Clipboard+ for Windows.</li></ul>"
     }
   ]
 }

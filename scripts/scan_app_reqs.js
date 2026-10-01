@@ -18,7 +18,7 @@ const OUT = path.join(__dirname, 'app_reqs.json');
 // slug → 프로젝트 폴더명 (scan_app_langs.js 의 PROJECT · RESX_PROJECT 와 같은 표)
 const ANDROID_PROJECT = {
   clipboard: 'Clipboard', autostart: 'AutoStart', floatcalc: 'FloatCalc',
-  floatcrypto: 'FloatCrypto', floattimer: 'FloatTimer', volumebooster: 'VolumeBooster',
+  floatcrypto: 'FloatCrypto', floattimer: 'FloatTimer', volumebooster: 'VolumeBooster', rotate: 'Rotate',
   photocleaner: 'PhotoCleaner', readfocus: 'ReadFocus', floatnote: 'FloatNote',
 };
 const WINDOWS_PROJECT = {

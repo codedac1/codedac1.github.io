@@ -55,6 +55,9 @@ ICON_PX = 192
 # 그대로 다른 형제 앱을 광고한다(양쪽은 별개다).
 EXCLUDED = {
     "floatcrypto",
+    # Rotate+ 는 2026-10-01 첫 출시 심사 중. Play 에 공개되면 이 줄을 지우고 다시 돌린다
+    # (공개 전에 넣으면 스토어 404 로 보낸다).
+    "rotate",
 }
 
 # 가중 무작위 추첨의 가중치. 비어 있으면 전부 DEFAULT_WEIGHT 라 모든 앱이 같은 확률이다.
@@ -100,6 +103,9 @@ WEIGHTS = {
     "floatcalc":      3,
     "volumebooster":  3,
     "photocleaner":   1,
+    # 신규라 설치당 수익 데이터가 없다. 초기 설치가 순위에 중요해 중간값(10)으로 시작하고,
+    # 출시 30일 뒤 다른 앱과 같은 설치당 월수익 기준으로 다시 잡는다.
+    "rotate":        10,
 }
 DEFAULT_WEIGHT = 10
 

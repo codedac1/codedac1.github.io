@@ -22,6 +22,7 @@ const ANDROID_PROJECT = {
   clipboard: 'Clipboard', autostart: 'AutoStart', floatcalc: 'FloatCalc',
   floatcrypto: 'FloatCrypto', floattimer: 'FloatTimer', volumebooster: 'VolumeBooster',
   photocleaner: 'PhotoCleaner', readfocus: 'ReadFocus', floatnote: 'FloatNote',
+  rotate: 'Rotate',
 };
 const WINDOWS_PROJECT = {
   clipboardwin: 'ClipboardWin', readfocuswin: 'ReadFocusWin',
@@ -38,8 +39,12 @@ const PERM_CODE = {
   'android.permission.RECEIVE_BOOT_COMPLETED': 'boot',
   'android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS': 'battery',
   'android.permission.MODIFY_AUDIO_SETTINGS': 'audio',
+  // Rotate+ (2026-10-01). 접근성은 uses-permission 이 아니라 서비스의 BIND 권한으로 잡는다(아래 scanAndroid).
+  'android.permission.PACKAGE_USAGE_STATS': 'usage',
+  'android.permission.WRITE_SETTINGS': 'writeSettings',
+  'android.permission.BLUETOOTH_CONNECT': 'bluetooth',
 };
-const PERM_ORDER = ['overlay', 'notifications', 'foreground', 'boot', 'battery', 'audio', 'adId'];
+const PERM_ORDER = ['accessibility', 'usage', 'overlay', 'writeSettings', 'notifications', 'foreground', 'boot', 'battery', 'audio', 'bluetooth', 'adId'];
 const DATA_ORDER = ['ads', 'billing', 'store', 'purchaseReport', 'driveSync', 'driveBackup', 'fx', 'crypto', 'mlkit'];
 
 // 소스에 나오는 외부 호스트 → 코드. 문서·정책 링크처럼 앱이 데이터를 주고받지 않는 주소는 IGNORE.
@@ -80,6 +85,7 @@ function scanAndroid(project) {
     for (const m of read(f).matchAll(/<uses-permission[^>]*android:name="([^"]+)"/g)) {
       if (PERM_CODE[m[1]]) perms.push(PERM_CODE[m[1]]);
     }
+    if (/android\.permission\.BIND_ACCESSIBILITY_SERVICE/.test(read(f))) perms.push('accessibility');
   }
   const merged = walk(root, (p, n) => n === 'AndroidManifest.xml' && /merged_manifest/.test(p));
   const mergedRelease = merged.filter((p) => /release/i.test(p));

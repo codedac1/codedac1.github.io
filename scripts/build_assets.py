@@ -41,6 +41,8 @@ APPS = {
     # 스크린샷이 언어별 폴더로 갈라졌다(en/ko/…). 영어만 쓴다.
     "readfocuswin":  (r"ReadFocusWin\src\ReadFocusPlus\Assets\app.ico", r"ReadFocusWin\docs\store-screenshots\en", "store-en-*.png"),
     "volumebooster": (r"VolumeBooster\Resource\icon_512.png", r"VolumeBooster\Resource\PlayStore등록자료\en", "*.png"),
+    # 태블릿 4장(tablet_*)이 같은 폴더에 있어 폰 6장만 고른다.
+    "rotate":        (r"Rotate\Resource\icon_512.png", r"Rotate\Resource\PlayStore등록자료\en", "screenshot_*.png"),
 }
 
 def rounded_mask(size, radius):
