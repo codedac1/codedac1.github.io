@@ -127,10 +127,10 @@
       "seo": "Pengelola Auto Start Android",
       "desc": "Jalankan aplikasi otomatis saat booting. Tanpa root, cukup atur sekali.",
       "tagline": "Jalankan aplikasi otomatis setiap kali ponsel dinyalakan ulang, begitu kamu membuka kuncinya. Tanpa root, atur sekali, berjalan selamanya.",
-      "long": "AutoStart+ adalah pengelola mulai otomatis paling sederhana untuk Android: pilih aplikasimu, dan setelah setiap restart, begitu perangkat dibuka kuncinya, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketukan setiap pagi. Cari semua aplikasi terpasang, tambahkan dalam hitungan detik, nyalakan atau matikan dengan sekali ketuk, dan seret barisnya untuk mengatur urutan mulai. Tak perlu reboot untuk menguji: menu ⋮ di tiap baris membuka aplikasi itu seketika, dan setelah boot muncul pesan singkat berisi apa saja yang sudah jalan, sisanya cukup sekali ketuk. Versi gratis menjalankan 1 aplikasi; PRO menghapus batas itu sehingga seluruh daftar jalan berurutan, atau tonton iklan singkat untuk membuka batasnya selama 24 jam.",
+      "long": "AutoStart+ adalah pengelola mulai otomatis paling sederhana untuk Android: pilih aplikasimu, dan setelah setiap restart, begitu perangkat dibuka kuncinya, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketukan setiap pagi. Cari semua aplikasi terpasang, tambahkan dalam hitungan detik, nyalakan atau matikan dengan sekali ketuk, dan seret barisnya untuk mengatur urutan mulai. Tak perlu reboot untuk menguji: menu ⋮ di tiap baris membuka aplikasi itu seketika, dan setelah boot muncul pesan singkat berisi apa saja yang sudah jalan, sisanya cukup sekali ketuk. Versi gratis menjalankan 1 aplikasi; PRO menghapus batas itu sehingga seluruh daftar jalan berurutan, atau tonton iklan singkat untuk membuka batasnya selama 24 jam. Sebagian besar head unit mobil Android tidur alih-alih memulai ulang saat mobil dimatikan. Aktifkan Mode mobil, dan aplikasimu akan terbuka lagi setiap kali layar menyala setelah mati 3 menit atau lebih. Gratis.",
       "features": [
         "Menjalankan aplikasi pilihanmu setelah setiap restart, begitu perangkat dibuka kuncinya — tanpa root, tanpa ROM kustom",
-        "Cari semua aplikasi terpasang, tambahkan dalam hitungan detik, dan nyalakan atau matikan sekali ketuk",
+        "Mode Mobil untuk head unit: aplikasimu terbuka lagi setiap kali layar bangun dari tidur — gratis",
         "Seret barisnya untuk menentukan aplikasi mana yang jalan lebih dulu di tiap boot",
         "«Jalankan sekarang» dari menu ⋮ tiap baris — uji daftarmu tanpa menyalakan ulang ponsel",
         "Setelah restart, banner menjalankan seluruh daftar sekali ketuk begitu kamu membuka kunci (PRO)",
@@ -140,6 +140,10 @@
         {
           "q": "Aplikasi saya tidak jalan setelah booting. Apa yang harus saya lakukan?",
           "a": "Xiaomi, OPPO, vivo, dan Huawei memblokir mulai di latar belakang secara bawaan. AutoStart+ mengenali perangkatmu dan membawamu langsung ke layar «Mulai otomatis» di pengaturan keamanan ponsel — izinkan di sana dan mulai saat boot pun bekerja. Mengeluarkan aplikasi dari optimasi baterai juga membantu."
+        },
+        {
+          "q": "Apakah AutoStart+ berfungsi di head unit mobil Android?",
+          "a": "Sebagian besar head unit mobil Android tidur alih-alih memulai ulang saat mobil dimatikan. Aktifkan Mode mobil, dan aplikasimu akan terbuka lagi setiap kali layar menyala setelah mati 3 menit atau lebih. Gratis."
         },
         {
           "q": "Berapa banyak aplikasi yang bisa saya jalankan otomatis?",

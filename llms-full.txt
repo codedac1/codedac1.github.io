@@ -1,0 +1,392 @@
+# CodeDAC — full app details
+
+> Independent developer of utility apps for Android and Windows. Every app is free to download with an optional Pro upgrade. Official site: https://codedac.com/ — apps are published only on Google Play and the Microsoft Store.
+
+## Clipboard+ (Android)
+
+Never lose a copied item — every text and image in a searchable clipboard history
+
+Clipboard+ is an Android clipboard manager that keeps every text and image you copy in a searchable history, newest first. Since Android 10, no app may read the clipboard in the background, so Clipboard+ saves what you copied the moment it becomes active — when you open the app, tap the floating panel, or use the widget — or right away when you tap Clipboard+ in the text selection menu. A resizable floating overlay lets you reach your clipboard history from any screen without switching apps. Organize frequently used text into snippets and groups, and paste any clip fast with keyword search, a home screen widget, and a notification panel. You can also export your history to PDF and back up or restore your clips anytime. Pair it with Clipboard+ for Windows and what you copy on your phone pastes on your PC, and what you copy on your PC pastes on your phone. You just sign in to Google Drive with the same account in both apps, and your clips never pass through a CodeDAC server — they are stored only in your own Google Drive.
+
+Features:
+- Every copied text and image kept in a searchable history, newest first
+- Resizable floating overlay for use over any app
+- Organize frequent text into snippets and groups
+- Instant search and filter by keyword, text, image, or date
+- Fast paste from a home screen widget and the notification panel, and save from any app via the text selection menu
+- Bidirectional phone-to-PC sync through your own Google Drive, export clipboard history to PDF, plus backup and restore
+
+FAQ:
+- Q: When does Clipboard+ save what I copy?
+  A: Since Android 10, Google blocks apps from reading the clipboard in the background, and no clipboard manager can bypass this. Clipboard+ saves what you copied the moment it becomes active — when you open the app, tap the floating panel, or use the widget. To save without switching apps, select the text and tap Clipboard+ in the selection menu.
+- Q: Can I access my clipboard history while using other apps?
+  A: Yes. A resizable floating overlay lets you reach your history from any screen without switching apps.
+- Q: Does it sync with my Windows PC?
+  A: Yes. Install Clipboard+ for Windows as well, then in the settings of both apps sign in to Google Drive with the same account and turn on automatic sync. From then on, what you copy on your phone pastes on your PC, and what you copy on your PC pastes on your phone. Your clips never pass through a CodeDAC server — they are stored only in your own Google Drive.
+- Q: What is free, and what does Pro add?
+  A: Free keeps your text and image clipboard history with search, snippets, up to 3 groups, the floating panel, the widget and the selection-menu shortcut, and it shows ads. Pro removes the ads and adds phone-to-PC sync through your own Google Drive, unlimited image clips, the expanded floating panel and widget, unlimited groups, PDF export and backup restore — monthly, yearly or as a one-time lifetime purchase. If you need one of these for just a day, a short ad unlocks it for 24 hours.
+
+Page: https://codedac.com/apps/clipboard.html
+Store: https://play.google.com/store/apps/details?id=com.codedac.clipboard
+
+## AutoStart+ (Android)
+
+Auto start your apps after every reboot, as soon as you unlock your phone. No root, set once, runs forever.
+
+AutoStart+ is the simplest auto start manager for Android: pick the apps you want and they launch on their own after every reboot, as soon as you unlock the phone — no root, no scripts, no daily tapping. Search every installed app to add it in seconds, switch each one on or off with a tap, and drag the rows to set the order they start in. You don't have to reboot to test it: the ⋮ menu on any row opens that app right away, and after boot a short message tells you what started, with one tap to run the rest. The free version auto starts 1 app; PRO lifts the limit so the whole list launches in order, and if you'd rather not subscribe, a short ad unlocks it for 24 hours. Most Android car head units go to sleep instead of restarting when you turn off the car. Turn on Car Mode and your apps open again every time the screen wakes after being off for 3+ minutes. Free.
+
+Features:
+- Auto starts your selected apps after every reboot, as soon as you unlock the phone — no root, no custom ROM
+- Car Mode for head units: your apps open again every time the screen wakes from sleep — free
+- Drag the rows to decide which app starts first at every boot
+- Run now from any row's ⋮ menu — check your list without rebooting the phone
+- After a reboot, a banner starts your whole list in one tap as soon as you unlock the phone (PRO)
+- Free auto starts 1 app; PRO lifts the limit, or a short ad unlocks it for 24 hours
+
+FAQ:
+- Q: My apps don't launch after boot. What should I do?
+  A: Xiaomi, OPPO, vivo and Huawei block background startup by default. AutoStart+ recognises your device and takes you straight to the “Autostart” screen in the phone's own security settings — allow it there and boot launching works. Leaving AutoStart+ out of battery optimisation helps too.
+- Q: Does AutoStart+ work on Android car head units?
+  A: Most Android car head units go to sleep instead of restarting when you turn off the car. Turn on Car Mode and your apps open again every time the screen wakes after being off for 3+ minutes. Free.
+- Q: How many apps can I auto start?
+  A: The free version starts 1 app per boot. PRO removes the limit, so the whole list launches in the order you set. If you'd rather not subscribe, watching a short ad unlocks the limit for 24 hours.
+- Q: Will it drain my battery?
+  A: AutoStart+ runs only once at boot and is not an always-on background app, so it has almost no impact on battery life.
+- Q: Is there an official AutoStart+ APK?
+  A: No. AutoStart+ is published only on Google Play, and this site is its official website — we don’t release APK files anywhere else. An APK from another site may be modified or out of date, so please install it from Google Play.
+
+Page: https://codedac.com/apps/autostart.html
+Store: https://play.google.com/store/apps/details?id=com.codedac.autostart
+
+## FloatCalc+ (Android)
+
+Calculate without leaving your app — a floating calculator that stays on top.
+
+FloatCalc+ is a floating calculator that stays on top of any app, so you never have to close your shopping, banking or browser screen just to work something out. The calculator, unit converter and currency converter share one draggable window: type an expression on the built-in number pad, get the answer instantly and copy it to the clipboard. Fold the keypad away when a single line is all you need, or shrink the whole panel to a floating icon that docks to the edge of the screen. Exchange rates come from the ECB and refresh daily, cached so everything keeps working offline. The floating calculator is free for 60 minutes a day — the time left is shown in the panel's title bar — and a short ad gets you a 24-hour pass when you need more.
+
+Features:
+- Floats over any app — YouTube, maps, browser, banking, shopping, documents — and reopens in the mode you used last
+- One-tap operator row: + − × ÷ ( ) % right above the built-in number pad, with backspace to fix a single typo
+- Powers, roots and percentages — 2^10, √144, 100+10% — and the expression stays on screen after “=”, so a tap brings it back to edit
+- Unit converter inside the window: length, weight, temperature, area, volume, speed and time
+- Currency converter with daily ECB rates for 30+ currencies; Settings shows the date of the last update and its source
+- Fold the keypad down to one line or shrink the panel to an icon docked at the screen edge, with adjustable size, width, opacity and 8 themes
+
+FAQ:
+- Q: Do I have to close my app every time I want to calculate?
+  A: No. FloatCalc+ is a floating window that stays on top of other apps, so you can work out a discount or convert a price without leaving your shopping, banking or browser screen. Drag the window where you need it, get your answer, and carry on right where you were.
+- Q: Where do the exchange rates come from?
+  A: From the European Central Bank, refreshed once a day. Settings › General shows the date the rates are from and their source, and updates them on demand. USD, EUR, JPY, GBP, KRW, CNY and 30+ world currencies convert right inside the overlay, and the daily cache keeps it working offline.
+- Q: How much can I use for free?
+  A: The floating calculator is free for 60 minutes a day, and the panel's title bar shows how much of that is left. When you need more, watch a short ad for a 24-hour pass. Pro removes the daily time limit and the ads and adds the remaining unit categories and 30+ currencies, 7 premium themes and full panel customization (opacity, size, width), monthly, yearly or as a one-time lifetime purchase.
+
+Page: https://codedac.com/apps/floatcalc.html
+Store: https://play.google.com/store/apps/details?id=com.codedac.floatcalc
+
+## FloatCrypto+ (Android)
+
+Keep Bitcoin, Ethereum and your altcoins on screen — above whatever app you are using.
+
+FloatCrypto+ floats a live crypto ticker on top of every app, so you can check the market while you watch YouTube, read the news or reply to messages — no switching, no reloading. Drag it anywhere, resize it and dial the opacity down so it never gets in the way. Set an upper or lower target and it notifies you the moment the market crosses it, keep a watchlist of the coins you actually follow, and open 1-day, 7-day and 30-day charts with period high, low, open and change. Prices come from Binance with an automatic fallback, so the ticker keeps working when one source is unreachable. Market data is delayed by up to 30 seconds — 10 seconds on Pro — and is for reference only, not investment advice.
+
+Features:
+- Floating price ticker on top of every app — drag it anywhere, resize it, dial the opacity down
+- Price alerts on an upper or lower target, added straight from the coin card with the coin filled in
+- Watchlist of the coins you care about, with live price, 24-hour change and drag-to-reorder
+- 1-day / 7-day / 30-day charts with period high, low, open and change
+- Eastern and Western color modes — green-up/red-down, or red-up/blue-down as read in Korea, Japan and China
+- Binance prices with an automatic fallback source, delayed by up to 30 seconds (10 on Pro)
+
+FAQ:
+- Q: Can I see prices while using other apps?
+  A: Yes. The ticker floats on top of every app, so you can watch the market while you are on YouTube, in a game or in a chat — no switching, no reloading. Drag it anywhere, resize it, and lower the opacity so it never covers what you are reading.
+- Q: How do price alerts work?
+  A: Set an upper or lower target and FloatCrypto+ notifies you the moment the market crosses it. You can add an alert straight from a coin card — tap ⋮ and the coin is already filled in — and a bell badge marks every coin you are watching for.
+- Q: What do I get for free?
+  A: Free follows 2 coins with 1 price alert and refreshes the ticker every 30 seconds. A Free Pass opens one feature for 24 hours in exchange for one short ad — the Chart pass unlocks the 7-day and 30-day charts, the Watchlist pass gives 10 coins and unlimited alerts — one of each per day, for as many days as you like, and ads keep running while a pass is active. Pro gives 10 coins, unlimited alerts, a 10-second refresh, the full chart history and no ads, monthly, annually or as a one-time lifetime purchase.
+
+Page: https://codedac.com/apps/floatcrypto.html
+Store: https://play.google.com/store/apps/details?id=com.codedac.floatcrypto
+
+## FloatTimer+ (Android)
+
+A countdown timer, tally counter, and stopwatch that floats on top of every app.
+
+FloatTimer+ is a floating overlay app that keeps a countdown timer, tally counter, and stopwatch on top of any app you use. Your timer stays visible while you do something else — drag it anywhere on screen, set size, opacity, and background color per item, or collapse it into a bubble marked with the app icon that reopens wherever you tap it. Shrink that bubble to the icon alone, or push it to the screen edge and it tucks half out of view until you want it back. Play, pause, and reset straight from the overlay menu without opening the app, and everything keeps running in the background even when you switch apps or lock the screen. Set it once and keep cooking, exercising, studying, or gaming without ever losing sight of the time.
+
+Features:
+- Floating overlay — timers, counters, and stopwatches float on any app; drag them anywhere and set size, opacity, and background color per item
+- Multi-timer — any hours/minutes/seconds countdown, with 1, 5, 10, 25, 30 and 60-minute quick presets and as many timers running at once as you like
+- Overlay controls — play, pause, and reset from the overlay menu without opening the app, or collapse it to a bubble marked with the app icon and tap anywhere on it to open it again
+- Tally counter — tap to count up or down right on the overlay, with a step of 1, 2, 5, or 10 and as many counters as you need
+- Stopwatch — several stopwatches, each timed separately; start, pause, and reset without leaving your current app
+- Alerts and backup — sound, vibration, or a full-screen alert when time is up, plus file export and restore that merges or replaces
+
+FAQ:
+- Q: Does the timer stay visible while I use other apps?
+  A: Yes. The timer, counter, and stopwatch float on top of any app and run in the background, so they keep going even when you switch apps or lock the screen.
+- Q: Can I use it as a Pomodoro or workout timer?
+  A: Yes. Quick presets include 25 minutes, you can set any duration you like, and you can run several timers at once for work and rest rounds. Pro repeats a timer 2, 3, or 5 times, or endlessly.
+- Q: What does the free version include?
+  A: Unlimited timers, counters, and stopwatches, with no daily time limit. The only free limit is one floating overlay at a time — Pro shows as many as you like at once, or you can watch a short ad for a 24-hour Free Pass.
+
+Page: https://codedac.com/apps/floattimer.html
+Store: https://play.google.com/store/apps/details?id=com.codedac.floattimer
+
+## VolumeBooster+ (Android)
+
+Make every app louder — up to +15 dB, shown in real decibels with safe-range guidance.
+
+Is your phone too quiet? VolumeBooster+ raises your entire system output rather than one app — quiet speakers, low earphones, hard-to-hear videos, music and games finally come through clearly. The boost is shown in decibels, up to +15 dB, with Safe / Caution / Danger zones based on WHO hearing guidance, so you always see how far you have pushed it. Free reaches +10 dB, and Pro or a Free Pass opens the full range. A Loudness Maximizer, a 5-band equalizer whose nine presets are all free, a bass booster, a 3D virtualizer and AutoEQ correction built on 2,456 measured headphone profiles all live in the same app.
+
+Features:
+- System-wide boost up to +15 dB with Safe / Caution / Danger labels — +10 dB free, the full range with Pro or a Free Pass
+- Loudness Maximizer with multiband compression, makeup gain and an always-on peak limiter — genuinely louder, with no clipping or distortion
+- 5-band Equalizer with 9 presets, all free: Flat, Pop, Rock, Vocal, Classical, EDM, Movie, Gaming and Night Mode
+- Bass Booster, 3D Virtualizer and AutoEQ — 2,456 measured headphone profiles across 357 brands, with mainstream brands (Apple, Samsung, Sony, Bose, JBL, Beats) free
+- Floating Panel free for everyone, plus hearing protection stats (Pro), a sleep timer with fade-out, L/R channel balance, a Quick Settings tile, a home-screen widget and notification controls
+- Free Pass — one short ad for 24 hours of Max Boost or AutoEQ; otherwise free boosting runs 60 minutes a day and resets at midnight
+
+FAQ:
+- Q: Does it really make my phone louder?
+  A: Yes. The Loudness Maximizer uses multiband compression and makeup gain to genuinely increase perceived loudness, and it raises the whole system output rather than one app — music, videos, YouTube and games alike. Free boosts up to +10 dB, and Pro or a Free Pass opens the full +15 dB range.
+- Q: Is it actually free, or do I need a subscription?
+  A: Free gives you up to +10 dB, all 9 presets, the 5-band equalizer, the floating panel and AutoEQ for mainstream brands like Apple, Samsung, Sony, Bose, JBL and Beats — with free boosting limited to 60 minutes a day, resetting at midnight. A Free Pass adds 24 hours of Max Boost (the full +15 dB range with no daily limit) or AutoEQ (the complete headphone catalogue) for a single short ad, with no card and no trial to cancel. Pro unlocks the full range, unlimited boost time, every AutoEQ profile and the hearing protection dashboard, and removes ads — monthly, yearly or as a one-time lifetime purchase.
+- Q: Is the displayed dB an exact measurement?
+  A: It is an estimate. The boost is shown in real decibels with WHO-based Safe, Caution and Danger zones, but the value is derived from your system volume and the applied gain, and real loudness varies by device, headphones and content. The app is not a medical device, so if you notice ear pain or ringing, lower the volume and consult a professional.
+
+Page: https://codedac.com/apps/volumebooster.html
+Store: https://play.google.com/store/apps/details?id=com.codedac.volumebooster
+
+## PhotoCleaner+ (Android)
+
+Hide personal info in photos and PDFs with a solid mask, entirely on your device.
+
+PhotoCleaner+ hides personal information in photos and PDFs entirely on your device. It covers sensitive areas with a solid, opaque mask (not a blur or mosaic, so covered areas can't be recovered) and exports a clean copy. A built-in detector suggests likely sensitive text such as ID numbers, cards, phone numbers and emails — free and unlimited — but you draw and adjust the masks by hand and decide exactly what gets hidden. Photos, ID cards and multi-page PDFs are all handled, every saved or shared copy is re-encoded with no EXIF, and no gallery or storage permission is ever requested. Detection, editing and masking stay unlimited on the free version and no export ever carries a watermark; free exports 3 times a day, while Pro lifts that limit and adds PDF export, printing and any mask color. Turn on “Choose where to save” and you pick the folder and file name yourself.
+
+Features:
+- Solid opaque mask that can't be recovered (not a blur or mosaic)
+- Draw masks by hand, then move, resize or delete them, with zoom for precision
+- Built-in detection suggests likely sensitive text (ID numbers, cards, phones, emails) — free and unlimited, as a starting point you review
+- Mask photos, ID cards and multi-page PDF documents
+- Zero permissions, an EXIF & GPS notice, and every saved or shared copy re-encoded with no EXIF
+- No watermark for anyone: 3 exports a day on free, unlimited with Pro along with PDF export and printing — or a short ad opens either for 24 hours
+
+FAQ:
+- Q: Is the masking a blur or mosaic?
+  A: No. Masking uses one style only, a solid opaque fill, and covered areas can't be recovered. With Pro you can pick any mask color.
+- Q: Are my photos uploaded anywhere?
+  A: No. Everything runs offline on your device and no photo is ever uploaded. The app also never requests gallery or storage permission.
+- Q: Can I rely on auto-detection alone before exporting?
+  A: Detection is only a starting point that suggests likely sensitive text. Always review the suggestions and add or remove masks yourself before exporting.
+- Q: How many times can I export for free?
+  A: Three times a day. What counts is the Export button, whatever you do with the result: save, share, PDF or print. Detection, editing and masking are never capped. Pro removes the daily limit, and if you'd rather not subscribe, a short ad lifts it for 24 hours.
+
+Page: https://codedac.com/apps/photocleaner.html
+Store: https://play.google.com/store/apps/details?id=com.codedac.photocleaner
+
+## ReadFocus+ (Android)
+
+A dyslexia & ADHD reading aid: line highlight and reading mask keep your eyes on track and ease eye strain.
+
+ReadFocus+ is a reading ruler, reading mask and reading aid for dyslexia and ADHD on Android. Grant the overlay permission once and a translucent focus strip floats on top of any app — ebook readers, browsers, PDF, news, comics — keeping your eyes on the line you're reading. It reduces skipping or re-reading the same row, easing eye strain and boosting reading concentration and efficiency.
+
+Features:
+- Line Highlight (Reading Ruler): illuminates your current line to keep eyes on track
+- Reading Mask: dims everything except your reading zone for tunnel-vision focus
+- Fully adjustable focus strip: height (50dp–300dp) and opacity (10%–100%)
+- 10 color themes (3 free + 7 Pro)
+- Works on top of any app — ebooks, PDF, webtoons, news, research papers
+- Pro: ad-free experience, unlimited overlay time, and keep screen on while reading
+
+FAQ:
+- Q: How does ReadFocus+ work?
+  A: Grant the overlay permission once and a semi-transparent focus strip floats on top of any app. Drag it to the line you're reading and your eyes stay on track instead of wandering or skipping rows.
+- Q: Which apps does it work with?
+  A: It works on top of any app on screen — ebook and PDF readers, research papers, web articles, blogs, news, study notes, textbooks, comics, webtoons, and long emails or chat history.
+- Q: Is it free to use?
+  A: Yes. The free version gives 60 minutes of overlay time per session and 3 color themes. Pro adds an ad-free experience, all 10 themes, and unlimited overlay time — and you can also watch a short rewarded ad to unlock any Pro feature free for 24 hours.
+
+Page: https://codedac.com/apps/readfocus.html
+Store: https://play.google.com/store/apps/details?id=com.codedac.readfocus
+
+## FloatNote+ (Android)
+
+Sticky notes that float over any app! Jot down a thought and it stays on your screen, always one tap away.
+
+FloatNote+ keeps sticky notes floating on top of any app. Grant the overlay permission once and every note lives as a small chip above your browser, chat, video or home screen; tap it and the chip expands into a full card you can read, edit and share on the spot. Colors, rich text and inline images keep each note distinct, while the main app works as a library for searching, pinning and reordering. Light and dark themes are both included. Pair it with FloatNote+ for Windows and notes written on your phone show up on your PC, and notes written on your PC show up on your phone. You just sign in to Google Drive with the same account in both apps, and your notes never pass through a CodeDAC server — they are stored only in your own Google Drive.
+
+Features:
+- Floating overlay notes: collapse a note to a chip, expand it to a full card over any app
+- 7 sticky-note colors and rich text: bold, italic, underline, strikethrough, text color and size
+- Inline images (Pro): attach photos right inside a note
+- Quick capture from the share sheet, from selected text in any app, or from the Quick Settings tile
+- Library with instant search, pinning and drag-to-reorder — dragging a chip to the bottom zone stashes the note instead of deleting it
+- Pro: unlimited floating notes, inline images, adjustable opacity, Google Drive sync, export & import, no ads
+
+FAQ:
+- Q: How do floating notes work?
+  A: Grant the overlay permission once and your notes float above other apps as small chips. Tap a chip to expand it into a card and edit it right there; tap outside and it collapses back, saving automatically. Dragging a chip to the zone at the bottom of the screen only stashes the note — real deletion always asks for confirmation.
+- Q: Where can I use it?
+  A: Anywhere on screen — over a browser, a chat, a video, a document or the home screen. You can also create a note without opening the app: from the share sheet, from text you select in another app, or from the Quick Settings tile.
+- Q: Does it sync with my Windows PC?
+  A: Yes. Install FloatNote+ for Windows as well, then in the settings of both apps sign in to Google Drive with the same account and turn on automatic sync. Notes written on your phone then show up on your PC, and notes written on your PC show up on your phone. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices.
+- Q: Is it free?
+  A: Yes. Saving notes is unlimited and free, and the free version floats one note at a time, gives you all 7 colors and shows ads. Pro adds unlimited floating notes, inline images, adjustable opacity, Google Drive sync, export and import, and removes ads.
+
+Page: https://codedac.com/apps/floatnote.html
+Store: https://play.google.com/store/apps/details?id=com.codedac.floatnote
+
+## Clipboard+ for Windows (Windows)
+
+A Windows tray clipboard manager that syncs with your Android phone through your own Google Drive.
+
+Clipboard+ for Windows is a tray-resident clipboard manager that automatically saves the text and images you copy. Everything is recorded the moment you copy it, so even if you overwrite something by accident you can pull the earlier item back and paste it. A global hotkey opens a quick-pick popup right where your cursor is: pick a clip with Ctrl+1–9 and Enter pastes it into whatever you were typing in, without leaving the window. Pair it with the Android Clipboard+ app and what you copy on your phone pastes on your PC, and what you copy on your PC pastes on your phone. Your clips never pass through a CodeDAC server — they are stored only in your own Google Drive. Saved items can be organized into groups and snippets and searched.
+
+Features:
+- Sits in the tray and saves text and images the moment you copy them — it never has to keep checking in the background, so it stays light
+- Bidirectional phone-to-PC sync through your own Google Drive
+- Android-style UI with light/dark themes, group sidebar, snippets, and pin/copy/edit/search
+- Multi-select bulk move, delete, and merge, newest/oldest sorting, and a full-size image viewer
+- Quick-pick popup at the cursor on a global hotkey, plus hotkeys to open the window and capture text selected in other apps, and run-at-startup
+- Export/import compatible with the Android Clipboard+ backup format, plus PDF export
+
+FAQ:
+- Q: Does it sync with the Android Clipboard+ app?
+  A: Yes. Turn on sync with the same Google account on both devices, and what you copy on your phone pastes on your PC, and what you copy on your PC pastes on your phone. Your clips never pass through a CodeDAC server — they travel only through your own Google Drive.
+- Q: Where is my clipboard data stored, and is it safe?
+  A: Your clip history is kept on your PC by default (in the %APPDATA%\ClipboardPlus folder). If you turn on sync, it is also stored in a private app area of your own Google Drive — an area that stays hidden from your Drive view and cannot be opened by anything other than Clipboard+. The app uses only that private area, so it cannot reach any of your other photos or documents on Drive.
+- Q: What is free, and what does Pro add?
+  A: The clipboard history, snippets and groups, search, the quick-pick popup, and the light and dark themes are all free. Pro adds Google Drive sync, copying image clips back to the clipboard, PDF export, backup import, unlimited groups, and unlimited image storage — free image storage is capped at 50 MB.
+
+Page: https://codedac.com/apps/clipboardwin.html
+Store: https://apps.microsoft.com/detail/9N9SRKQV1R6D
+
+## ReadFocus+ for Windows (Windows)
+
+A tray-resident focus strip for Windows: Mask or Highlight keeps your eyes on the line, and every click passes straight through to the app underneath.
+
+ReadFocus+ for Windows is the desktop version of the Android ReadFocus+ app. It lays a calm focus strip over whatever you are reading — a web page, a PDF, a document, code — so it is easier to stay on the line. Mask gently dims the top and bottom of the screen and leaves a clear band across the middle; Highlight marks the line you are on with a soft tinted strip. The Focus Strip is click-through, so you keep scrolling, selecting and clicking underneath exactly as before, and a small floating panel switches modes, moves or locks the band and hides it away without making you leave what you are reading.
+
+Features:
+- Two reading modes — Mask dims everything outside a clear band, Highlight marks the line you are on
+- Click-through: keep scrolling, selecting and clicking the app underneath — nothing intercepts your mouse
+- A floating panel to switch mode, move or lock the strip and hide it, collapsing to a single row when you do not need it
+- Keyboard shortcuts for start and stop, mode, show and hide, lock, and nudging the strip up or down
+- Multi-monitor: the reading band follows the panel to whichever screen you move it to, and waits in the system tray until you need it
+- No ads. Pro is a one-time purchase: premium themes, Focus Strip settings, Keep Screen On, and no time limit
+
+FAQ:
+- Q: Is this the same app as ReadFocus+ on Android?
+  A: It is the same app built for Windows, with the same two reading modes. The two are bought separately on their own stores, and there is nothing to sync — ReadFocus+ never stores what you read.
+- Q: Which apps does it work with?
+  A: Any app on screen: browsers, PDF and ebook readers, documents, code editors, research papers, and long emails or chat logs. The Focus Strip is drawn on top of the screen, so the app underneath does not have to support anything.
+- Q: Is it free to use?
+  A: Yes. The free version reads in sessions of up to 60 minutes and includes both reading modes and three of the ten themes. Pro is a one-time purchase — not a subscription — and adds premium themes, Focus Strip settings (height, opacity) and Keep Screen On, and removes the time limit. The Windows version has no ads.
+
+Page: https://codedac.com/apps/readfocuswin.html
+Store: https://apps.microsoft.com/detail/9NMSHKKX3R5C
+
+## FloatNote+ for Windows (Windows)
+
+Sticky notes that float on top of whatever you are working in: write without leaving the window you are in, and they never steal its focus.
+
+FloatNote+ for Windows is the desktop version of the Android FloatNote+ app. Every note lives as a small chip above your browser, your editor or your spreadsheet; click it and it expands into a card right there, ready to read or edit, and Esc folds it back into a chip. A chip never takes focus from the app behind it, so whatever you were typing stays exactly as it was — and there is no save button, since every keystroke is committed for you. Seven pastel colors, rich text and inline images keep notes apart, a library window handles search, pinning and management, and optional sync moves your notes through an app-private folder in your own Google Drive, the same one the Android app uses.
+
+Features:
+- Sticky notes that float above every window: a chip expands into an editable card in place, and Esc folds it back
+- Never steals focus — drag or click a chip and your cursor stays in the app you were typing in
+- No save button: every keystroke is committed for you, and a library window handles search, pinning and management
+- Rich text — bold, italic, underline, strikethrough, text color and size — with 7 pastel note colors and inline images
+- Bidirectional phone-to-PC sync through your own Google Drive — the same app-private folder the Android app uses, and never a CodeDAC server
+- Global hotkeys, system tray, light and dark themes, run at logon, 21 languages. No ads, and Pro is a one-time purchase
+
+FAQ:
+- Q: Is this the same app as FloatNote+ on Android?
+  A: It is the same app built for Windows, with the same chips and cards. You buy each one in its own store, but once you sign in to Google Drive with the same account in both apps and turn on automatic sync, notes written on the PC show up on the phone and notes written on the phone show up on the PC. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices.
+- Q: Does it get in the way of the app underneath?
+  A: No. A chip is a floating window that never takes focus, so clicking or dragging one leaves your cursor exactly where you were typing. Click a chip to expand the card, press Esc or click elsewhere and it folds back, already saved.
+- Q: Is it free to use?
+  A: Yes. Writing and storing notes is free and unlimited, and the Windows version has no ads. The free version floats one note on screen at a time, with all seven colors. Pro is a one-time purchase — not a subscription — and adds unlimited floating notes, inline images, adjustable note transparency, Google Drive sync, and note export and import.
+
+Page: https://codedac.com/apps/floatnotewin.html
+Store: https://apps.microsoft.com/detail/9NW6610397TC
+
+## FloatTimer+ for Windows (Windows)
+
+Timers, counters and stopwatches that float on top of whatever you are working in: small pastel cards you drag where you want them, and they never steal focus from the app underneath.
+
+FloatTimer+ for Windows is the desktop version of the Android FloatTimer+ app. Instead of a window you have to switch to, each timer becomes a small pastel card floating above your work — your editor, your browser, your video call — counting down in plain sight. Click a card to start or pause it, drag it wherever it belongs, or collapse it into a bubble barely bigger than a button and marked with the app icon — click anywhere on it to open the card again, shrink it to the icon alone, or push it against the screen edge where it tucks half out of view. The card never takes focus from the app behind it, so your cursor stays exactly where you left it while you type. Counters add and subtract with a click on either half, stopwatches count up, and nine pastel colors keep them apart. It lives in the system tray, needs no account and never touches the network — your timers stay in a file on your own PC.
+
+Features:
+- Timers, counters and stopwatches float above every window as small pastel cards — drag one anywhere, resize it, or collapse it to a bubble marked with the app icon
+- Never steals focus — click or drag a card and your cursor stays in the document you were typing in
+- Start, pause and reset from the card itself without opening the app; counters add and subtract with a click on either half
+- Nine pastel colors, adjustable card size and opacity, and app windows that follow your light or dark theme
+- The backup file is the same format as the Android app, so you can export on one and restore on the other
+- Global hotkeys, system tray, run at logon, 21 languages. No account, no network, no ads — and Pro is a one-time purchase
+
+FAQ:
+- Q: Is this the same app as FloatTimer+ on Android?
+  A: It is the same app built for Windows, with the same floating cards. You buy each one in its own store. The two do not sync automatically, but they read and write the same backup file, so you can move your list between them by exporting on one and restoring on the other.
+- Q: Does it get in the way of the app underneath?
+  A: No. A card is a floating window that never takes focus, so clicking or dragging it leaves your cursor exactly where you were typing. When you want the screen back, collapse a card into a bubble barely bigger than a button, push it against the screen edge to tuck it half out of view, or hide every card at once with a hotkey.
+- Q: Is it free to use?
+  A: Yes. You can make as many timers, counters and stopwatches as you like — the list is never limited — and the Windows version has no ads. The free version floats one card on screen at a time. Pro is a one-time purchase — not a subscription — and adds unlimited floating cards, repeating timers, any color you like, and your own alert sound or a full-screen alert.
+
+Page: https://codedac.com/apps/floattimerwin.html
+Store: https://apps.microsoft.com/detail/9P3CTX3SXTGW
+
+## PhotoCleaner+ for Windows (Windows)
+
+Find personal info in photos, screenshots and PDFs, check every box, and export a solidly masked copy with no metadata — all on your PC.
+
+PhotoCleaner+ for Windows is the desktop version of the Android PhotoCleaner+ app. Open a photo, a screenshot or a PDF — or paste one with Ctrl+V, drag it onto the window, or right-click it in File Explorer and choose "Clean with PhotoCleaner+" — and detection starts on its own. It boxes likely personal info such as phone numbers, emails, card numbers, IBAN, passport numbers and the MRZ, Korean IDs, names, addresses and license plates, faces (frontal faces work best) and QR codes, plus any words you set to always hide. Detection is a starting point, not a guarantee: click a box to turn it on or off, drag to move or resize it, and draw your own over anything that was missed. Text is read by the recognition languages installed in Windows, so Korean documents need the Korean language installed. Export covers every box with a solid, opaque mask — not a blur — and the result screen lets you Save as JPEG or PNG, Copy, Share, Save PDF or Print. Saved copies are encoded fresh from the pixels, so no EXIF, GPS location or capture time comes along; your original is never modified, and there is no watermark. Everything runs on your PC with no account and no upload, and the app keeps no list of recent files.
+
+Features:
+- Finds phone numbers, emails, card numbers, IBAN, passport numbers and MRZ, Korean IDs, names, addresses, license plates, faces and QR codes
+- Review every box before export: click to toggle, drag to move, drag an edge to resize, draw your own, Undo any step
+- Open photos, screenshots and PDFs by drag and drop, Ctrl+V, or right-click "Clean with PhotoCleaner+" in File Explorer
+- Solid, opaque masks — not a blur — and no watermark; Save as JPEG or PNG, Copy, Share, Save PDF and Print
+- Saved copies carry no EXIF, GPS location or other metadata, and your original is never overwritten
+- Fully on your PC: no account, no upload, no recent-files list. Light and dark theme, 21 languages
+
+FAQ:
+- Q: Is this the same app as PhotoCleaner+ on Android?
+  A: It is the same idea built for Windows: find personal info, check the boxes, export a solidly masked copy. Detection uses the text and face recognition built into Windows instead of the phone's, so results are similar but not identical. Each version is installed from its own store.
+- Q: Will it find every piece of personal info?
+  A: No tool can promise that. Detection is a starting point: always check the masking before you export and draw a box over anything that was missed. Text is read with the recognition languages installed in Windows — Korean IDs, names and addresses need the Korean language installed, and the Settings screen shows which languages you have.
+- Q: Are my files uploaded, or is the original changed?
+  A: Neither. Detection, masking and export all run on your PC with no account and nothing uploaded. Masking works on a copy, the app refuses to save over the original, and saved copies are encoded fresh so they carry none of the original's metadata.
+- Q: What is free, and what does Pro add?
+  A: Finding personal info is free and unlimited, and you can save, copy or share the masked copy of 3 documents a day for free. Pro is a one-time purchase that removes the daily limit and adds PDF export, printing, the always-hide list and your choice of mask color. There are no ads and no watermark, on either version.
+
+Page: https://codedac.com/apps/photocleanerwin.html
+Store: https://apps.microsoft.com/detail/9P22XH3N66VM
+
+## FloatCrypto+ for Windows (Windows)
+
+Bitcoin, Ethereum and your altcoins in a slim strip on top of every window — the market in the corner of your eye while you work, without ever stealing focus.
+
+FloatCrypto+ for Windows is the desktop version of the Android FloatCrypto+ app. It keeps a slim price ticker on top of every window — your browser, your documents, your video call — showing each coin's symbol and 24-hour change, colored by direction. No tab to switch to, no page to reload. Drag the ticker anywhere, adjust its opacity and text size, or collapse it into a small bubble that tucks against the edge of the screen; it never takes focus from the app you are typing in. Hover the tray icon for a full table of prices, even with the ticker turned off. Set a target above or below the current price and get a desktop notification the moment the market crosses it, one-time or repeating. Pick coins from the hundreds of pairs traded on Binance, drag them into your own order, and double-click any coin for a chart with the period high, low, open and change. Prices come from Binance's public market data with automatic fallback to alternate servers and CoinGecko, may be delayed by up to 30 seconds, and are for information only — FloatCrypto+ is not a trading app and nothing in it is investment advice.
+
+Features:
+- A live price ticker on top of every window — drag it anywhere, adjust opacity and text size, or collapse it into a bubble at the screen edge
+- Never steals focus — the ticker stays visible while your cursor stays in the app you are working in
+- Price alerts above or below a target, one-time or repeating, added straight from a coin's ⋮ menu with the coin already picked
+- Watchlist from the hundreds of Binance pairs, drag-to-reorder, and 1-day, 7-day and 30-day charts with period high, low, open and change
+- Western (green up, red down) or Eastern (red up, blue down) colors, and a full price table on the tray icon
+- Global hotkeys, system tray, start with Windows, light and dark themes, 21 languages. No ads, no account
+
+FAQ:
+- Q: Is this the same app as FloatCrypto+ on Android?
+  A: It is the same app built for Windows, with the same floating ticker, price alerts, watchlist and charts. The two are separate apps, each from its own store, and they do not sync — your watchlist and alerts are stored on the device you set them up on.
+- Q: Does the ticker get in the way of what I am doing?
+  A: No. The ticker is a floating strip that never takes focus, so clicking or dragging it leaves your cursor exactly where you were typing. Lower its opacity, shrink the text, collapse it into a bubble that tucks against the screen edge, or hide it with Ctrl+Alt+T — and the tray icon still shows every price when you hover over it.
+- Q: Where do the prices come from?
+  A: From Binance's public market data, with automatic fallback to alternate servers and CoinGecko so the ticker keeps running when one source is unreachable. Prices may be delayed by up to 30 seconds and are for information only. FloatCrypto+ does not trade, connect to an exchange account or hold any funds, and nothing in it is investment advice.
+- Q: What is free, and what does Pro add?
+  A: Free follows 2 coins with 1 price alert, refreshes every 30 seconds and shows the 1-day chart — and the ticker has no time limit. Pro is a one-time purchase that raises this to 10 coins, unlimited alerts, a 10-second refresh and the 7-day and 30-day charts. The Windows version has no ads.
+
+Page: https://codedac.com/apps/floatcryptowin.html
+Store: https://apps.microsoft.com/detail/9NMFCT755G24

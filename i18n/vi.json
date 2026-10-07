@@ -127,10 +127,10 @@
       "seo": "Ứng dụng tự khởi động Android",
       "desc": "Tự động mở ứng dụng khi khởi động máy. Không cần root, cài đặt một lần.",
       "tagline": "Tự động mở ứng dụng sau mỗi lần khởi động lại, ngay khi bạn mở khóa điện thoại. Không cần root, cài một lần, chạy mãi.",
-      "long": "AutoStart+ là trình quản lý tự khởi chạy đơn giản nhất trên Android: chọn ứng dụng bạn muốn, và sau mỗi lần khởi động lại, ngay khi bạn mở khóa máy chúng tự mở — không root, không script, không phải chạm mỗi sáng. Tìm trong toàn bộ ứng dụng đã cài, thêm vào danh sách trong vài giây, bật tắt chỉ với một chạm và kéo các dòng để đặt thứ tự khởi chạy. Cũng không cần khởi động lại để thử: menu ⋮ ở mỗi dòng mở ứng dụng đó tức thì, còn sau khi máy khởi động sẽ có thông báo ngắn cho biết những gì đã chạy, phần còn lại chỉ cần một chạm. Bản miễn phí tự mở 1 ứng dụng; PRO bỏ giới hạn để cả danh sách chạy theo thứ tự, hoặc xem một quảng cáo ngắn để bỏ giới hạn miễn phí trong 24 giờ.",
+      "long": "AutoStart+ là trình quản lý tự khởi chạy đơn giản nhất trên Android: chọn ứng dụng bạn muốn, và sau mỗi lần khởi động lại, ngay khi bạn mở khóa máy chúng tự mở — không root, không script, không phải chạm mỗi sáng. Tìm trong toàn bộ ứng dụng đã cài, thêm vào danh sách trong vài giây, bật tắt chỉ với một chạm và kéo các dòng để đặt thứ tự khởi chạy. Cũng không cần khởi động lại để thử: menu ⋮ ở mỗi dòng mở ứng dụng đó tức thì, còn sau khi máy khởi động sẽ có thông báo ngắn cho biết những gì đã chạy, phần còn lại chỉ cần một chạm. Bản miễn phí tự mở 1 ứng dụng; PRO bỏ giới hạn để cả danh sách chạy theo thứ tự, hoặc xem một quảng cáo ngắn để bỏ giới hạn miễn phí trong 24 giờ. Hầu hết màn hình Android ô tô chuyển sang chế độ ngủ thay vì khởi động lại khi bạn tắt máy xe. Bật Chế độ ô tô, ứng dụng sẽ tự mở lại mỗi khi màn hình bật sau khi tắt từ 3 phút trở lên. Miễn phí.",
       "features": [
         "Tự mở các ứng dụng đã chọn sau mỗi lần khởi động lại, ngay khi mở khóa máy — không root, không ROM tùy chỉnh",
-        "Tìm trong toàn bộ ứng dụng đã cài, thêm vào trong vài giây và bật tắt chỉ với một chạm",
+        "Chế độ ô tô cho màn hình ô tô: ứng dụng tự mở lại mỗi khi màn hình thức dậy từ chế độ ngủ — miễn phí",
         "Kéo các dòng để quyết định ứng dụng nào chạy trước ở mỗi lần bật máy",
         "«Chạy ngay» trong menu ⋮ của mỗi dòng — kiểm tra danh sách mà không cần khởi động lại",
         "Sau khi khởi động lại, banner mở cả danh sách chỉ với một chạm ngay khi bạn mở khóa (PRO)",
@@ -140,6 +140,10 @@
         {
           "q": "Ứng dụng của tôi không mở sau khi khởi động. Tôi nên làm gì?",
           "a": "Xiaomi, OPPO, vivo và Huawei chặn khởi chạy nền theo mặc định. AutoStart+ nhận ra máy của bạn và đưa thẳng tới màn hình «Tự khởi chạy» trong phần cài đặt bảo mật của máy — cấp quyền ở đó là chạy được. Loại ứng dụng khỏi phần tối ưu hóa pin cũng giúp ổn định hơn."
+        },
+        {
+          "q": "AutoStart+ có hoạt động trên màn hình Android ô tô không?",
+          "a": "Hầu hết màn hình Android ô tô chuyển sang chế độ ngủ thay vì khởi động lại khi bạn tắt máy xe. Bật Chế độ ô tô, ứng dụng sẽ tự mở lại mỗi khi màn hình bật sau khi tắt từ 3 phút trở lên. Miễn phí."
         },
         {
           "q": "Tôi có thể tự khởi động bao nhiêu ứng dụng?",

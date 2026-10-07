@@ -127,10 +127,10 @@
       "seo": "gestor de inicio automático Android",
       "desc": "Inicia tus apps automáticamente al arrancar. Sin root, configúralo una vez.",
       "tagline": "Inicia tus apps automáticamente tras cada reinicio, en cuanto desbloqueas el teléfono. Sin root, configúralo una vez y funciona para siempre.",
-      "long": "AutoStart+ es el gestor de inicio automático más sencillo para Android: elige tus apps y, tras cada reinicio, en cuanto desbloqueas el dispositivo, se abren solas. Sin root, sin scripts, sin toques cada mañana. Busca entre todas las apps instaladas, añádelas en segundos, actívalas o desactívalas con un toque y arrastra las filas para fijar el orden de arranque. No hace falta reiniciar para probarlo: el menú ⋮ de cada fila abre esa app al instante y, tras el arranque, un aviso breve te dice qué se ha abierto y lanza el resto con un toque. La versión gratuita inicia 1 app; PRO quita el límite y toda la lista se abre en orden, y si aún no quieres suscribirte, un anuncio corto lo desbloquea durante 24 horas.",
+      "long": "AutoStart+ es el gestor de inicio automático más sencillo para Android: elige tus apps y, tras cada reinicio, en cuanto desbloqueas el dispositivo, se abren solas. Sin root, sin scripts, sin toques cada mañana. Busca entre todas las apps instaladas, añádelas en segundos, actívalas o desactívalas con un toque y arrastra las filas para fijar el orden de arranque. No hace falta reiniciar para probarlo: el menú ⋮ de cada fila abre esa app al instante y, tras el arranque, un aviso breve te dice qué se ha abierto y lanza el resto con un toque. La versión gratuita inicia 1 app; PRO quita el límite y toda la lista se abre en orden, y si aún no quieres suscribirte, un anuncio corto lo desbloquea durante 24 horas. La mayoría de las radios de coche Android entran en reposo en lugar de reiniciarse al apagar el coche. Activa el Modo coche y tus apps se volverán a abrir cada vez que la pantalla se encienda tras estar apagada 3 minutos o más. Gratis.",
       "features": [
         "Abre las apps seleccionadas tras cada reinicio, en cuanto desbloqueas el dispositivo, sin root ni ROM personalizada",
-        "Busca entre todas las apps instaladas, añádelas en segundos y actívalas o desactívalas con un toque",
+        "Modo coche para radios de coche: tus apps se vuelven a abrir cada vez que la pantalla sale del reposo — gratis",
         "Arrastra las filas para decidir qué app se abre primero en cada arranque",
         "«Ejecutar ahora» en el menú ⋮ de cualquier fila: comprueba tu lista sin reiniciar el móvil",
         "Tras un reinicio, un banner lanza toda tu lista con un toque en cuanto desbloqueas (PRO)",
@@ -140,6 +140,10 @@
         {
           "q": "Mis apps no se inician después del arranque. ¿Qué hago?",
           "a": "Xiaomi, OPPO, vivo y Huawei bloquean el inicio en segundo plano por defecto. AutoStart+ detecta tu dispositivo y te lleva directo a la pantalla «Inicio automático» de los ajustes de seguridad del móvil: concédelo ahí y el arranque funcionará. Dejar la app fuera de la optimización de batería también ayuda."
+        },
+        {
+          "q": "¿Funciona AutoStart+ en radios de coche Android?",
+          "a": "La mayoría de las radios de coche Android entran en reposo en lugar de reiniciarse al apagar el coche. Activa el Modo coche y tus apps se volverán a abrir cada vez que la pantalla se encienda tras estar apagada 3 minutos o más. Gratis."
         },
         {
           "q": "¿Cuántas apps puedo iniciar automáticamente?",

@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '69'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '70'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -1408,13 +1408,38 @@ fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemap, 'utf8');
 {
   const en = L.en.apps;
   const plain = (s) => String(s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-  const freeQ = (a) => (a.faq || []).find((f) => /free|Pro/.test(f.q));
+  // 무료/Pro 질문을 앱마다 다르게 묻는다 — AutoStart+ 는 "How many apps can I auto start?" 라
+  // free|Pro 만 찾으면 빠졌다(2026-10-07). 한도 질문까지 본다.
+  const freeQ = (a) => (a.faq || []).find((f) => /free|Pro\b/.test(f.q)) ||
+    (a.faq || []).find((f) => /how many|limit/i.test(f.q));
   const entry = (app) => {
     const a = en[app.slug];
     if (!a || !app.store) return null;
     const f = freeQ(a);
     return `- [${a.name}](${urlFor('en', 'detail', app.slug)}): ${plain(a.desc)}` +
+      ` Key features: ${(a.features || []).map(plain).join('; ')}.` +
       (f ? ` Free vs Pro: ${plain(f.a)}` : '') + ` Store: ${app.store}`;
+  };
+  // llms-full.txt — 앱마다 소개 전문·기능·FAQ 전부. AI 가 "헤드유닛에서 앱 자동 실행" 같은 구체적 질문에
+  // 답할 근거를 한 파일에서 찾게 한다. 역시 en.json 에서만 만든다.
+  const full = (app) => {
+    const a = en[app.slug];
+    if (!a || !app.store) return null;
+    return `## ${a.name}${app.platform === 'windows' ? ' (Windows)' : ' (Android)'}
+
+${plain(a.tagline || a.desc)}
+
+${plain(a.long)}
+
+Features:
+${(a.features || []).map((x) => `- ${plain(x)}`).join('\n')}
+
+FAQ:
+${(a.faq || []).map((q) => `- Q: ${plain(q.q)}\n  A: ${plain(q.a)}`).join('\n')}
+
+Page: ${urlFor('en', 'detail', app.slug)}
+Store: ${app.store}
+`;
   };
   const android = APPS.filter((a) => a.platform !== 'windows').map(entry).filter(Boolean);
   const windows = APPS.filter((a) => a.platform === 'windows').map(entry).filter(Boolean);
@@ -1433,9 +1458,16 @@ ${windows.join('\n')}
 ## More
 
 - [All apps](${BASE}/): overview of every app with screenshots and reviews
+- [Full details](${BASE}/llms-full.txt): every app's description, features and FAQ in one file
 - [Privacy policy](${urlFor('en', 'privacy')}): what each app collects and why
 `;
   fs.writeFileSync(path.join(ROOT, 'llms.txt'), llms, 'utf8');
+  const llmsFull = `# CodeDAC — full app details
+
+> Independent developer of utility apps for Android and Windows. Every app is free to download with an optional Pro upgrade. Official site: ${BASE}/ — apps are published only on Google Play and the Microsoft Store.
+
+${APPS.map(full).filter(Boolean).join('\n')}`;
+  fs.writeFileSync(path.join(ROOT, 'llms-full.txt'), llmsFull, 'utf8');
 }
 
 // lastmod 캐시를 갱신해 커밋한다. 사라진 URL 은 자연히 빠진다(LASTMOD_NEXT 로 통째 교체).

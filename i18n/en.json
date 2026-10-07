@@ -127,10 +127,10 @@
       "seo": "Auto Start Manager for Android",
       "desc": "Auto-launch your apps on boot. No root required, set once.",
       "tagline": "Auto start your apps after every reboot, as soon as you unlock your phone. No root, set once, runs forever.",
-      "long": "AutoStart+ is the simplest auto start manager for Android: pick the apps you want and they launch on their own after every reboot, as soon as you unlock the phone — no root, no scripts, no daily tapping. Search every installed app to add it in seconds, switch each one on or off with a tap, and drag the rows to set the order they start in. You don't have to reboot to test it: the ⋮ menu on any row opens that app right away, and after boot a short message tells you what started, with one tap to run the rest. The free version auto starts 1 app; PRO lifts the limit so the whole list launches in order, and if you'd rather not subscribe, a short ad unlocks it for 24 hours.",
+      "long": "AutoStart+ is the simplest auto start manager for Android: pick the apps you want and they launch on their own after every reboot, as soon as you unlock the phone — no root, no scripts, no daily tapping. Search every installed app to add it in seconds, switch each one on or off with a tap, and drag the rows to set the order they start in. You don't have to reboot to test it: the ⋮ menu on any row opens that app right away, and after boot a short message tells you what started, with one tap to run the rest. The free version auto starts 1 app; PRO lifts the limit so the whole list launches in order, and if you'd rather not subscribe, a short ad unlocks it for 24 hours. Most Android car head units go to sleep instead of restarting when you turn off the car. Turn on Car Mode and your apps open again every time the screen wakes after being off for 3+ minutes. Free.",
       "features": [
         "Auto starts your selected apps after every reboot, as soon as you unlock the phone — no root, no custom ROM",
-        "Search every installed app, add it in seconds, and switch each one on or off with a single tap",
+        "Car Mode for head units: your apps open again every time the screen wakes from sleep — free",
         "Drag the rows to decide which app starts first at every boot",
         "Run now from any row's ⋮ menu — check your list without rebooting the phone",
         "After a reboot, a banner starts your whole list in one tap as soon as you unlock the phone (PRO)",
@@ -140,6 +140,10 @@
         {
           "q": "My apps don't launch after boot. What should I do?",
           "a": "Xiaomi, OPPO, vivo and Huawei block background startup by default. AutoStart+ recognises your device and takes you straight to the “Autostart” screen in the phone's own security settings — allow it there and boot launching works. Leaving AutoStart+ out of battery optimisation helps too."
+        },
+        {
+          "q": "Does AutoStart+ work on Android car head units?",
+          "a": "Most Android car head units go to sleep instead of restarting when you turn off the car. Turn on Car Mode and your apps open again every time the screen wakes after being off for 3+ minutes. Free."
         },
         {
           "q": "How many apps can I auto start?",

@@ -127,10 +127,10 @@
       "seo": "Autostart-Manager für Android",
       "desc": "Starte deine Apps automatisch beim Hochfahren. Kein Root nötig, einmal einrichten.",
       "tagline": "Starte deine Apps nach jedem Neustart automatisch, sobald du das Handy entsperrst. Kein Root, einmal einrichten, läuft für immer.",
-      "long": "AutoStart+ ist der einfachste Autostart-Manager für Android: Apps auswählen — nach jedem Neustart starten sie von selbst, sobald du das Gerät entsperrst. Kein Root, keine Skripte, kein tägliches Tippen. Durchsuchen Sie alle installierten Apps, fügen Sie sie in Sekunden hinzu, schalten Sie jede mit einem Tipp ein oder aus und ziehen Sie die Zeilen in die gewünschte Startreihenfolge. Zum Testen ist kein Neustart nötig: Das ⋮-Menü jeder Zeile öffnet die App sofort, und nach dem Start meldet eine kurze Nachricht, was gestartet ist — der Rest folgt mit einem Tipp. In der Gratisversion startet 1 App automatisch; PRO hebt das Limit auf, sodass die ganze Liste der Reihe nach läuft, und wer noch kein Abo möchte, schaltet das Limit mit einem kurzen Werbeclip 24 Stunden lang frei.",
+      "long": "AutoStart+ ist der einfachste Autostart-Manager für Android: Apps auswählen — nach jedem Neustart starten sie von selbst, sobald du das Gerät entsperrst. Kein Root, keine Skripte, kein tägliches Tippen. Durchsuchen Sie alle installierten Apps, fügen Sie sie in Sekunden hinzu, schalten Sie jede mit einem Tipp ein oder aus und ziehen Sie die Zeilen in die gewünschte Startreihenfolge. Zum Testen ist kein Neustart nötig: Das ⋮-Menü jeder Zeile öffnet die App sofort, und nach dem Start meldet eine kurze Nachricht, was gestartet ist — der Rest folgt mit einem Tipp. In der Gratisversion startet 1 App automatisch; PRO hebt das Limit auf, sodass die ganze Liste der Reihe nach läuft, und wer noch kein Abo möchte, schaltet das Limit mit einem kurzen Werbeclip 24 Stunden lang frei. Die meisten Android-Autoradios gehen beim Ausschalten des Autos in den Ruhezustand, statt neu zu starten. Mit dem Automodus öffnen sich deine Apps jedes Mal wieder, wenn sich der Bildschirm nach mindestens 3 Minuten aus wieder einschaltet. Kostenlos.",
       "features": [
         "Startet die ausgewählten Apps nach jedem Neustart, sobald du das Gerät entsperrst — ohne Root, ohne Custom-ROM",
-        "Alle installierten Apps durchsuchen, in Sekunden hinzufügen und mit einem Tipp ein- oder ausschalten",
+        "Automodus für Autoradios: Deine Apps öffnen sich bei jedem Aufwachen des Bildschirms wieder — kostenlos",
         "Zeilen per Drag & Drop ziehen und so festlegen, welche App zuerst startet",
         "„Jetzt starten“ im ⋮-Menü jeder Zeile — die Liste prüfen, ohne neu zu starten",
         "Nach einem Neustart startet ein Banner die ganze Liste mit einem Tipp, sobald du entsperrst (PRO)",
@@ -140,6 +140,10 @@
         {
           "q": "Meine Apps starten nach dem Hochfahren nicht. Was soll ich tun?",
           "a": "Xiaomi, OPPO, vivo und Huawei blockieren den Hintergrundstart standardmäßig. AutoStart+ erkennt Ihr Gerät und bringt Sie direkt zum „Autostart“-Bildschirm in den Sicherheitseinstellungen Ihres Handys — erteilen Sie die Freigabe dort, dann funktioniert der Boot-Start. Hilfreich ist außerdem, die App von der Akku-Optimierung auszunehmen."
+        },
+        {
+          "q": "Funktioniert AutoStart+ auf Android-Autoradios?",
+          "a": "Die meisten Android-Autoradios gehen beim Ausschalten des Autos in den Ruhezustand, statt neu zu starten. Mit dem Automodus öffnen sich deine Apps jedes Mal wieder, wenn sich der Bildschirm nach mindestens 3 Minuten aus wieder einschaltet. Kostenlos."
         },
         {
           "q": "Wie viele Apps kann ich automatisch starten?",

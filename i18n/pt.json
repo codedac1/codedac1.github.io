@@ -127,10 +127,10 @@
       "seo": "gerenciador de início automático",
       "desc": "Inicie seus apps automaticamente ao ligar o celular. Sem root, configure uma vez.",
       "tagline": "Inicie seus apps automaticamente após cada reinício, assim que você desbloqueia o celular. Sem root, configure uma vez, funciona para sempre.",
-      "long": "O AutoStart+ é o gerenciador de início automático mais simples para Android: escolha seus apps e, após cada reinício, assim que você desbloqueia o aparelho, eles abrem sozinhos — sem root, sem scripts, sem toques todo dia. Pesquise entre todos os apps instalados, adicione em segundos, ligue ou desligue cada um com um toque e arraste as linhas para definir a ordem de inicialização. Também não precisa reiniciar para testar: o menu ⋮ de cada linha abre aquele app na hora e, depois da inicialização, um aviso curto diz o que já abriu — o resto vai com um toque. A versão gratuita inicia 1 app; o PRO remove o limite e toda a lista abre na ordem definida, e se você ainda não quiser assinar, um anúncio curto libera o limite por 24 horas.",
+      "long": "O AutoStart+ é o gerenciador de início automático mais simples para Android: escolha seus apps e, após cada reinício, assim que você desbloqueia o aparelho, eles abrem sozinhos — sem root, sem scripts, sem toques todo dia. Pesquise entre todos os apps instalados, adicione em segundos, ligue ou desligue cada um com um toque e arraste as linhas para definir a ordem de inicialização. Também não precisa reiniciar para testar: o menu ⋮ de cada linha abre aquele app na hora e, depois da inicialização, um aviso curto diz o que já abriu — o resto vai com um toque. A versão gratuita inicia 1 app; o PRO remove o limite e toda a lista abre na ordem definida, e se você ainda não quiser assinar, um anúncio curto libera o limite por 24 horas. A maioria das centrais multimídia Android entra em repouso em vez de reiniciar quando você desliga o carro. Ative o Modo carro e seus apps abrem de novo toda vez que a tela liga depois de ficar desligada por 3 minutos ou mais. Grátis.",
       "features": [
         "Inicia os apps escolhidos após cada reinício, assim que você desbloqueia o aparelho — sem root e sem ROM personalizada",
-        "Pesquise entre todos os apps instalados, adicione em segundos e ligue ou desligue com um toque",
+        "Modo carro para centrais multimídia: seus apps abrem de novo toda vez que a tela sai do repouso — grátis",
         "Arraste as linhas para decidir qual app abre primeiro a cada inicialização",
         "«Executar agora» no menu ⋮ de qualquer linha — teste sua lista sem reiniciar o celular",
         "Após um reinício, um banner abre toda a lista com um toque assim que você desbloqueia (PRO)",
@@ -140,6 +140,10 @@
         {
           "q": "Meus apps não abrem após a inicialização. O que faço?",
           "a": "Xiaomi, OPPO, vivo e Huawei bloqueiam o início em segundo plano por padrão. O AutoStart+ detecta seu aparelho e leva você direto à tela «Início automático» nas configurações de segurança do celular — permita ali e a inicialização funciona. Deixar o app fora da otimização de bateria também ajuda."
+        },
+        {
+          "q": "O AutoStart+ funciona em centrais multimídia Android?",
+          "a": "A maioria das centrais multimídia Android entra em repouso em vez de reiniciar quando você desliga o carro. Ative o Modo carro e seus apps abrem de novo toda vez que a tela liga depois de ficar desligada por 3 minutos ou mais. Grátis."
         },
         {
           "q": "Quantos apps posso iniciar automaticamente?",

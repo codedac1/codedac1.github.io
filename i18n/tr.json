@@ -127,10 +127,10 @@
       "seo": "Android otomatik başlatma yöneticisi",
       "desc": "Uygulamalarınızı açılışta otomatik başlatın. Root gerekmez, bir kez ayarlayın.",
       "tagline": "Uygulamalarınızı her yeniden başlatmadan sonra, telefonun kilidini açar açmaz otomatik başlatın. Root yok, bir kez ayarla, hep çalışsın.",
-      "long": "AutoStart+, Android için en basit otomatik başlatma yöneticisidir: uygulamalarınızı seçin, her yeniden başlatmadan sonra cihazın kilidini açar açmaz kendiliğinden başlasınlar. Root yok, betik yok, her sabah dokunma yok. Yüklü tüm uygulamalarda arayın, saniyeler içinde ekleyin, tek dokunuşla açıp kapatın ve satırları sürükleyerek başlatma sırasını belirleyin. Denemek için yeniden başlatmanıza da gerek yok: her satırdaki ⋮ menüsü o uygulamayı hemen açar, açılıştan sonra kısa bir mesaj nelerin başladığını bildirir, kalanı da tek dokunuşla çalışır. Ücretsiz sürüm 1 uygulama başlatır; PRO sınırı kaldırır ve listeniz sırayla açılır, abone olmak istemiyorsanız kısa bir reklam sınırı 24 saat kaldırır.",
+      "long": "AutoStart+, Android için en basit otomatik başlatma yöneticisidir: uygulamalarınızı seçin, her yeniden başlatmadan sonra cihazın kilidini açar açmaz kendiliğinden başlasınlar. Root yok, betik yok, her sabah dokunma yok. Yüklü tüm uygulamalarda arayın, saniyeler içinde ekleyin, tek dokunuşla açıp kapatın ve satırları sürükleyerek başlatma sırasını belirleyin. Denemek için yeniden başlatmanıza da gerek yok: her satırdaki ⋮ menüsü o uygulamayı hemen açar, açılıştan sonra kısa bir mesaj nelerin başladığını bildirir, kalanı da tek dokunuşla çalışır. Ücretsiz sürüm 1 uygulama başlatır; PRO sınırı kaldırır ve listeniz sırayla açılır, abone olmak istemiyorsanız kısa bir reklam sınırı 24 saat kaldırır. Android araç multimedya cihazlarının çoğu, kontak kapatıldığında yeniden başlamak yerine uykuya geçer. Araç modunu açın; ekran en az 3 dakika kapalı kaldıktan sonra her açıldığında uygulamalarınız yeniden açılsın. Ücretsiz.",
       "features": [
         "Her yeniden başlatmadan sonra, cihazın kilidini açar açmaz seçtiğiniz uygulamaları başlatır — root ve özel ROM gerekmez",
-        "Yüklü tüm uygulamalarda arayın, saniyeler içinde ekleyin, tek dokunuşla açıp kapatın",
+        "Multimedya cihazları için Araç modu: ekran uykudan her uyandığında uygulamalarınız yeniden açılır — ücretsiz",
         "Satırları sürükleyerek her açılışta hangi uygulamanın önce başlayacağını belirleyin",
         "Her satırın ⋮ menüsünde «Şimdi çalıştır» — telefonu yeniden başlatmadan listenizi deneyin",
         "Yeniden başlatmadan sonra, kilidi açar açmaz bir banner listenizin tamamını tek dokunuşla başlatır (PRO)",
@@ -140,6 +140,10 @@
         {
           "q": "Uygulamalarım açılıştan sonra başlamıyor. Ne yapmalıyım?",
           "a": "Xiaomi, OPPO, vivo ve Huawei arka planda başlatmayı varsayılan olarak engeller. AutoStart+ cihazınızı tanır ve sizi doğrudan telefonunuzun güvenlik ayarlarındaki «Otomatik başlatma» ekranına götürür; oradan izin verdiğinizde açılışta başlatma çalışır. Uygulamayı pil optimizasyonu dışında bırakmak da işi sağlamlaştırır."
+        },
+        {
+          "q": "AutoStart+ Android araç multimedya cihazlarında çalışır mı?",
+          "a": "Android araç multimedya cihazlarının çoğu, kontak kapatıldığında yeniden başlamak yerine uykuya geçer. Araç modunu açın; ekran en az 3 dakika kapalı kaldıktan sonra her açıldığında uygulamalarınız yeniden açılsın. Ücretsiz."
         },
         {
           "q": "Kaç uygulamayı otomatik başlatabilirim?",

@@ -127,10 +127,10 @@
       "seo": "Pengurus Auto Start Android",
       "desc": "Lancarkan aplikasi anda secara automatik semasa but. Tanpa root, tetapkan sekali.",
       "tagline": "Auto start aplikasi anda selepas setiap kali telefon dimulakan semula, sebaik sahaja anda membuka kuncinya. Tanpa root, tetapkan sekali, berjalan selamanya.",
-      "long": "AutoStart+ ialah pengurus mula automatik paling ringkas untuk Android: pilih apl anda, dan selepas setiap mula semula, sebaik peranti dibuka kunci, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketikan setiap pagi. Cari dalam semua apl yang dipasang, tambah ke senarai dalam beberapa saat, hidupkan atau matikan dengan satu ketikan, dan seret barisnya untuk menetapkan susunan mula. Tak perlu but semula untuk menguji: menu ⋮ pada setiap baris membuka apl itu serta-merta, dan selepas but satu mesej ringkas memberitahu apa yang sudah berjalan — selebihnya cukup satu ketikan. Versi percuma memulakan 1 apl; PRO menanggalkan had itu supaya seluruh senarai berjalan mengikut susunan, atau tonton iklan ringkas untuk membuka had selama 24 jam.",
+      "long": "AutoStart+ ialah pengurus mula automatik paling ringkas untuk Android: pilih apl anda, dan selepas setiap mula semula, sebaik peranti dibuka kunci, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketikan setiap pagi. Cari dalam semua apl yang dipasang, tambah ke senarai dalam beberapa saat, hidupkan atau matikan dengan satu ketikan, dan seret barisnya untuk menetapkan susunan mula. Tak perlu but semula untuk menguji: menu ⋮ pada setiap baris membuka apl itu serta-merta, dan selepas but satu mesej ringkas memberitahu apa yang sudah berjalan — selebihnya cukup satu ketikan. Versi percuma memulakan 1 apl; PRO menanggalkan had itu supaya seluruh senarai berjalan mengikut susunan, atau tonton iklan ringkas untuk membuka had selama 24 jam. Kebanyakan unit kepala kereta Android tidur dan bukannya dimulakan semula apabila kereta dimatikan. Hidupkan Mod kereta dan apl anda akan dibuka semula setiap kali skrin menyala selepas dimatikan selama 3 minit atau lebih. Percuma.",
       "features": [
         "Memulakan apl pilihan anda selepas setiap mula semula, sebaik peranti dibuka kunci — tanpa root, tanpa ROM tersuai",
-        "Cari dalam semua apl yang dipasang, tambah dalam beberapa saat dan hidupkan atau matikan dengan satu ketikan",
+        "Mod Kereta untuk unit kepala: apl anda dibuka semula setiap kali skrin bangun daripada tidur — percuma",
         "Seret barisnya untuk menentukan apl mana yang bermula dahulu pada setiap but",
         "«Jalankan sekarang» dari menu ⋮ pada mana-mana baris — uji senarai tanpa but semula",
         "Selepas mula semula, sepanduk menjalankan seluruh senarai dengan satu ketikan sebaik anda membuka kunci (PRO)",
@@ -140,6 +140,10 @@
         {
           "q": "Aplikasi saya tidak dilancarkan selepas but. Apa yang perlu saya lakukan?",
           "a": "Xiaomi, OPPO, vivo dan Huawei menyekat permulaan latar belakang secara lalai. AutoStart+ mengecam peranti anda dan membawa anda terus ke skrin «Mula automatik» dalam tetapan keselamatan telefon — berikan kebenaran di situ dan pelancaran semasa but akan berfungsi. Mengecualikan apl daripada pengoptimuman bateri juga membantu."
+        },
+        {
+          "q": "Adakah AutoStart+ berfungsi pada unit kepala kereta Android?",
+          "a": "Kebanyakan unit kepala kereta Android tidur dan bukannya dimulakan semula apabila kereta dimatikan. Hidupkan Mod kereta dan apl anda akan dibuka semula setiap kali skrin menyala selepas dimatikan selama 3 minit atau lebih. Percuma."
         },
         {
           "q": "Berapa banyak aplikasi yang boleh saya auto start?",

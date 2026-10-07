@@ -127,10 +127,10 @@
       "seo": "gestore avvio automatico Android",
       "desc": "Avvia automaticamente le tue app all'accensione. Nessun root, imposta una volta sola.",
       "tagline": "Avvia automaticamente le tue app dopo ogni riavvio, appena sblocchi il telefono. Nessun root, imposta una volta, funziona per sempre.",
-      "long": "AutoStart+ è il gestore di avvio automatico più semplice per Android: scegli le app e, dopo ogni riavvio, appena sblocchi il dispositivo, partono da sole. Senza root, senza script, senza tocchi ogni mattina. Cerca tra tutte le app installate, aggiungile in pochi secondi, attivale o disattivale con un tocco e trascina le righe per fissare l'ordine di avvio. Per provarlo non serve riavviare: il menu ⋮ di ogni riga apre subito quell'app e, dopo l'avvio, un breve messaggio dice che cosa è partito e lancia il resto con un tocco. La versione gratuita avvia 1 app; PRO toglie il limite e tutto l'elenco parte in ordine, e se non vuoi ancora abbonarti un breve annuncio lo sblocca per 24 ore.",
+      "long": "AutoStart+ è il gestore di avvio automatico più semplice per Android: scegli le app e, dopo ogni riavvio, appena sblocchi il dispositivo, partono da sole. Senza root, senza script, senza tocchi ogni mattina. Cerca tra tutte le app installate, aggiungile in pochi secondi, attivale o disattivale con un tocco e trascina le righe per fissare l'ordine di avvio. Per provarlo non serve riavviare: il menu ⋮ di ogni riga apre subito quell'app e, dopo l'avvio, un breve messaggio dice che cosa è partito e lancia il resto con un tocco. La versione gratuita avvia 1 app; PRO toglie il limite e tutto l'elenco parte in ordine, e se non vuoi ancora abbonarti un breve annuncio lo sblocca per 24 ore. La maggior parte delle autoradio Android va in standby invece di riavviarsi quando spegni l'auto. Attiva la Modalità auto e le tue app si riaprono ogni volta che lo schermo si riaccende dopo essere rimasto spento per almeno 3 minuti. Gratis.",
       "features": [
         "Avvia le app selezionate dopo ogni riavvio, appena sblocchi il dispositivo — senza root né ROM personalizzate",
-        "Cerca tra tutte le app installate, aggiungile in pochi secondi e attivale o disattivale con un tocco",
+        "Modalità auto per autoradio: le tue app si riaprono ogni volta che lo schermo esce dallo standby — gratis",
         "Trascina le righe per decidere quale app parte per prima a ogni avvio",
         "«Avvia ora» dal menu ⋮ di qualsiasi riga: prova l'elenco senza riavviare il telefono",
         "Dopo un riavvio, un banner lancia tutto l'elenco con un tocco appena sblocchi (PRO)",
@@ -140,6 +140,10 @@
         {
           "q": "Le mie app non si avviano dopo l'accensione. Cosa devo fare?",
           "a": "Xiaomi, OPPO, vivo e Huawei bloccano l'avvio in background per impostazione predefinita. AutoStart+ riconosce il dispositivo e ti porta direttamente alla schermata «Avvio automatico» nelle impostazioni di sicurezza del telefono: concedi il permesso lì e l'avvio funziona. Escludere l'app dall'ottimizzazione della batteria aiuta ancora di più."
+        },
+        {
+          "q": "AutoStart+ funziona sulle autoradio Android?",
+          "a": "La maggior parte delle autoradio Android va in standby invece di riavviarsi quando spegni l'auto. Attiva la Modalità auto e le tue app si riaprono ogni volta che lo schermo si riaccende dopo essere rimasto spento per almeno 3 minuti. Gratis."
         },
         {
           "q": "Quante app posso avviare automaticamente?",

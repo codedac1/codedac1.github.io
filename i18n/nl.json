@@ -127,10 +127,10 @@
       "seo": "Autostart-manager voor Android",
       "desc": "Start je apps automatisch bij het opstarten. Geen root nodig, één keer instellen.",
       "tagline": "Start je apps automatisch na elke herstart, zodra je je telefoon ontgrendelt. Geen root, één keer instellen, werkt voor altijd.",
-      "long": "AutoStart+ is de eenvoudigste autostart-manager voor Android: kies je apps en na elke herstart gaan ze vanzelf open zodra je het toestel ontgrendelt. Geen root, geen scripts, geen dagelijkse tikjes. Zoek in al je geïnstalleerde apps, voeg ze in seconden toe, zet ze aan of uit met één tik en sleep de rijen in de gewenste startvolgorde. Herstarten om te testen hoeft niet: het ⋮-menu op elke rij opent die app direct, en na het opstarten vertelt een kort bericht wat er is gestart — de rest volgt met één tik. Gratis start 1 app automatisch; PRO haalt de limiet weg zodat je hele lijst op volgorde start, en wil je nog geen abonnement, dan ontgrendelt een korte advertentie de limiet 24 uur.",
+      "long": "AutoStart+ is de eenvoudigste autostart-manager voor Android: kies je apps en na elke herstart gaan ze vanzelf open zodra je het toestel ontgrendelt. Geen root, geen scripts, geen dagelijkse tikjes. Zoek in al je geïnstalleerde apps, voeg ze in seconden toe, zet ze aan of uit met één tik en sleep de rijen in de gewenste startvolgorde. Herstarten om te testen hoeft niet: het ⋮-menu op elke rij opent die app direct, en na het opstarten vertelt een kort bericht wat er is gestart — de rest volgt met één tik. Gratis start 1 app automatisch; PRO haalt de limiet weg zodat je hele lijst op volgorde start, en wil je nog geen abonnement, dan ontgrendelt een korte advertentie de limiet 24 uur. De meeste Android-autoradio's gaan in slaap in plaats van opnieuw op te starten als je de auto uitzet. Zet de Automodus aan en je apps gaan weer open telkens als het scherm aangaat na minstens 3 minuten uit te zijn geweest. Gratis.",
       "features": [
         "Start je gekozen apps na elke herstart, zodra je het toestel ontgrendelt — zonder root of custom ROM",
-        "Zoek in al je geïnstalleerde apps, voeg ze in seconden toe en zet ze aan of uit met één tik",
+        "Automodus voor autoradio's: je apps gaan weer open telkens als het scherm uit de slaapstand komt — gratis",
         "Sleep de rijen om te bepalen welke app bij elke start als eerste opent",
         "«Nu starten» in het ⋮-menu van elke rij — controleer je lijst zonder te herstarten",
         "Na een herstart start een banner je hele lijst met één tik zodra je ontgrendelt (PRO)",
@@ -140,6 +140,10 @@
         {
           "q": "Mijn apps starten niet na het opstarten. Wat moet ik doen?",
           "a": "Xiaomi, OPPO, vivo en Huawei blokkeren standaard het starten op de achtergrond. AutoStart+ herkent je toestel en brengt je rechtstreeks naar het scherm «Automatisch starten» in de beveiligingsinstellingen van je telefoon — sta het daar toe en het starten bij het opstarten werkt. De app uitsluiten van batterijoptimalisatie helpt ook."
+        },
+        {
+          "q": "Werkt AutoStart+ op Android-autoradio's?",
+          "a": "De meeste Android-autoradio's gaan in slaap in plaats van opnieuw op te starten als je de auto uitzet. Zet de Automodus aan en je apps gaan weer open telkens als het scherm aangaat na minstens 3 minuten uit te zijn geweest. Gratis."
         },
         {
           "q": "Hoeveel apps kan ik automatisch starten?",

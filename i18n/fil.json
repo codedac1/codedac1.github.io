@@ -127,10 +127,10 @@
       "seo": "Auto Start Manager para sa Android",
       "desc": "Awtomatikong i-launch ang mga app mo sa boot. Walang root, isang setup lang.",
       "tagline": "Awtomatikong i-start ang mga app mo tuwing magre-restart ang telepono, sa sandaling i-unlock mo ito. Walang root, isang setup lang, tumatakbo habambuhay.",
-      "long": "Ang AutoStart+ ang pinakasimpleng auto start manager para sa Android: piliin ang mga app na gusto mo, at pagkatapos ng bawat restart, sa sandaling i-unlock mo ang device, kusa na silang bubukas — walang root, walang script, walang araw-araw na pag-tap. Hanapin ang lahat ng naka-install na app, idagdag sa listahan sa ilang segundo, i-on o i-off sa isang tap, at i-drag ang mga row para itakda ang pagkakasunod ng paglunsad. Hindi mo rin kailangang mag-restart para subukan: ang ⋮ menu sa bawat row ay agad na nagbubukas ng app na iyon, at pagkatapos mag-boot ay may maikling mensaheng nagsasabi kung ano ang nabuksan — isang tap na lang ang natitira. Sa libreng bersyon, 1 app ang bumubukas; inaalis ng PRO ang limitasyon kaya buong listahan ang tatakbo nang sunod-sunod, o manood ng maikling ad para alisin ang limitasyon nang 24 oras.",
+      "long": "Ang AutoStart+ ang pinakasimpleng auto start manager para sa Android: piliin ang mga app na gusto mo, at pagkatapos ng bawat restart, sa sandaling i-unlock mo ang device, kusa na silang bubukas — walang root, walang script, walang araw-araw na pag-tap. Hanapin ang lahat ng naka-install na app, idagdag sa listahan sa ilang segundo, i-on o i-off sa isang tap, at i-drag ang mga row para itakda ang pagkakasunod ng paglunsad. Hindi mo rin kailangang mag-restart para subukan: ang ⋮ menu sa bawat row ay agad na nagbubukas ng app na iyon, at pagkatapos mag-boot ay may maikling mensaheng nagsasabi kung ano ang nabuksan — isang tap na lang ang natitira. Sa libreng bersyon, 1 app ang bumubukas; inaalis ng PRO ang limitasyon kaya buong listahan ang tatakbo nang sunod-sunod, o manood ng maikling ad para alisin ang limitasyon nang 24 oras. Karamihan sa mga Android car head unit ay natutulog sa halip na mag-restart kapag pinatay mo ang sasakyan. I-on ang Car mode at muling bubukas ang iyong mga app tuwing bumubukas ang screen matapos itong nakapatay nang 3 minuto o higit pa. Libre.",
       "features": [
         "Binubuksan ang piniling apps pagkatapos ng bawat restart, sa sandaling i-unlock mo ang device — walang root, walang custom ROM",
-        "Hanapin ang lahat ng naka-install na app, idagdag sa ilang segundo, at i-on o i-off sa isang tap",
+        "Car Mode para sa head unit: muling bubukas ang iyong mga app tuwing magigising ang screen — libre",
         "I-drag ang mga row para piliin kung aling app ang unang bubukas sa bawat boot",
         "«Patakbuhin ngayon» sa ⋮ menu ng kahit anong row — subukan ang listahan nang hindi nagre-restart",
         "Pagkatapos mag-restart, isang banner ang naglulunsad ng buong listahan sa isang tap kapag na-unlock mo na (PRO)",
@@ -140,6 +140,10 @@
         {
           "q": "Hindi nagla-launch ang mga app ko pagkatapos ng boot. Ano ang dapat kong gawin?",
           "a": "Hinaharangan ng Xiaomi, OPPO, vivo at Huawei ang background startup bilang default. Nakikilala ng AutoStart+ ang device mo at dadalhin ka diretso sa «Autostart» screen sa sariling security settings ng telepono — payagan doon at gagana na ang boot launching. Nakakatulong din kung ilalabas mo ang app sa battery optimization."
+        },
+        {
+          "q": "Gumagana ba ang AutoStart+ sa mga Android car head unit?",
+          "a": "Karamihan sa mga Android car head unit ay natutulog sa halip na mag-restart kapag pinatay mo ang sasakyan. I-on ang Car mode at muling bubukas ang iyong mga app tuwing bumubukas ang screen matapos itong nakapatay nang 3 minuto o higit pa. Libre."
         },
         {
           "q": "Ilang app ang maaari kong i-auto start?",

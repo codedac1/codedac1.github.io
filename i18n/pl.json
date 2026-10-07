@@ -127,10 +127,10 @@
       "seo": "Menedżer automatycznego uruchamiania",
       "desc": "Automatycznie uruchamiaj aplikacje po starcie systemu. Bez roota, ustaw raz.",
       "tagline": "Automatycznie uruchamiaj aplikacje po każdym restarcie, gdy tylko odblokujesz telefon. Bez roota, ustaw raz, działa zawsze.",
-      "long": "AutoStart+ to najprostszy menedżer autostartu dla Androida: wybierz aplikacje, a po każdym restarcie, gdy tylko odblokujesz urządzenie, otworzą się same. Bez roota, bez skryptów, bez codziennego stukania. Przeszukaj wszystkie zainstalowane aplikacje, dodaj je w sekundy, włączaj i wyłączaj jednym dotknięciem, a przeciągając wiersze ustaw kolejność startu. Nie musisz restartować, żeby to sprawdzić: menu ⋮ w każdym wierszu otwiera daną aplikację od razu, a po starcie krótki komunikat pokazuje, co już ruszyło — resztę uruchomisz jednym dotknięciem. W wersji darmowej startuje 1 aplikacja; PRO znosi limit i cała lista uruchamia się po kolei, a jeśli nie chcesz subskrypcji, krótka reklama zdejmuje limit na 24 godziny.",
+      "long": "AutoStart+ to najprostszy menedżer autostartu dla Androida: wybierz aplikacje, a po każdym restarcie, gdy tylko odblokujesz urządzenie, otworzą się same. Bez roota, bez skryptów, bez codziennego stukania. Przeszukaj wszystkie zainstalowane aplikacje, dodaj je w sekundy, włączaj i wyłączaj jednym dotknięciem, a przeciągając wiersze ustaw kolejność startu. Nie musisz restartować, żeby to sprawdzić: menu ⋮ w każdym wierszu otwiera daną aplikację od razu, a po starcie krótki komunikat pokazuje, co już ruszyło — resztę uruchomisz jednym dotknięciem. W wersji darmowej startuje 1 aplikacja; PRO znosi limit i cała lista uruchamia się po kolei, a jeśli nie chcesz subskrypcji, krótka reklama zdejmuje limit na 24 godziny. Większość radioodtwarzaczy samochodowych z Androidem po wyłączeniu auta usypia zamiast się restartować. Włącz Tryb samochodowy, a aplikacje otworzą się ponownie za każdym razem, gdy ekran włączy się po co najmniej 3 minutach wyłączenia. Za darmo.",
       "features": [
         "Uruchamia wybrane aplikacje po każdym restarcie, gdy tylko odblokujesz urządzenie — bez roota i custom ROM-u",
-        "Przeszukaj wszystkie zainstalowane aplikacje, dodaj je w sekundy i włączaj jednym dotknięciem",
+        "Tryb samochodowy dla radioodtwarzaczy: aplikacje otwierają się ponownie przy każdym wybudzeniu ekranu — za darmo",
         "Przeciągaj wiersze, aby ustalić, która aplikacja rusza pierwsza przy każdym starcie",
         "„Uruchom teraz” w menu ⋮ każdego wiersza — sprawdź listę bez restartu telefonu",
         "Po restarcie baner uruchamia całą listę jednym dotknięciem, gdy tylko odblokujesz (PRO)",
@@ -140,6 +140,10 @@
         {
           "q": "Moje aplikacje nie uruchamiają się po starcie. Co powinienem zrobić?",
           "a": "Xiaomi, OPPO, vivo i Huawei domyślnie blokują uruchamianie w tle. AutoStart+ rozpoznaje urządzenie i przenosi Cię prosto do ekranu „Autostart” w ustawieniach bezpieczeństwa telefonu — zgoda w tym miejscu sprawia, że start przy uruchamianiu działa. Pomaga też wyłączenie aplikacji z optymalizacji baterii."
+        },
+        {
+          "q": "Czy AutoStart+ działa na radioodtwarzaczach samochodowych z Androidem?",
+          "a": "Większość radioodtwarzaczy samochodowych z Androidem po wyłączeniu auta usypia zamiast się restartować. Włącz Tryb samochodowy, a aplikacje otworzą się ponownie za każdym razem, gdy ekran włączy się po co najmniej 3 minutach wyłączenia. Za darmo."
         },
         {
           "q": "Ile aplikacji mogę uruchamiać automatycznie?",
