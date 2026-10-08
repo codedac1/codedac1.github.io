@@ -47,6 +47,9 @@ APPS = {
     "volumebooster": (r"VolumeBooster\Resource\icon_512.png", r"VolumeBooster\Resource\PlayStore등록자료\en", "*.png"),
     # 태블릿 4장(tablet_*)이 같은 폴더에 있어 폰 6장만 고른다.
     "rotate":        (r"Rotate\Resource\icon_512.png", r"Rotate\Resource\PlayStore등록자료\en", "screenshot_*.png"),
+    # CallerNote+ (2026-10-08 등록 준비). 아이콘·스토어 스크린샷은 아직 없다 — Resource\icon_512.png 와
+    # PlayStore등록자료\en 을 만든 뒤 `python scripts/build_assets.py callernote` 로 돌린다.
+    "callernote":    (r"CallerNote\Resource\icon_512.png", r"CallerNote\Resource\PlayStore등록자료\en", "screenshot_*.png"),
 }
 
 def rounded_mask(size, radius):

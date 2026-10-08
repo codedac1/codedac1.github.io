@@ -41,6 +41,12 @@
     "min": "8.0",
     "label": "Android 8.0+"
   },
+  "callernote": {
+    "os": "Android",
+    "api": 29,
+    "min": "10",
+    "label": "Android 10+"
+  },
   "photocleaner": {
     "os": "Android",
     "api": 29,

@@ -14,7 +14,7 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-10-01"
+    "mergedManifest": "2026-10-07"
   },
   "autostart": {
     "platform": "android",
@@ -30,7 +30,7 @@
       "battery",
       "adId"
     ],
-    "mergedManifest": "2026-10-01"
+    "mergedManifest": "2026-10-07"
   },
   "floatcalc": {
     "platform": "android",
@@ -45,7 +45,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-10-01"
+    "mergedManifest": "2026-10-06"
   },
   "floatcrypto": {
     "platform": "android",
@@ -61,7 +61,7 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-10-01"
+    "mergedManifest": "2026-10-07"
   },
   "floattimer": {
     "platform": "android",
@@ -75,7 +75,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-10-01"
+    "mergedManifest": "2026-10-07"
   },
   "volumebooster": {
     "platform": "android",
@@ -90,7 +90,7 @@
       "audio",
       "adId"
     ],
-    "mergedManifest": "2026-10-01"
+    "mergedManifest": "2026-10-07"
   },
   "photocleaner": {
     "platform": "android",
@@ -102,7 +102,7 @@
     "perms": [
       "adId"
     ],
-    "mergedManifest": "2026-10-01"
+    "mergedManifest": "2026-10-06"
   },
   "readfocus": {
     "platform": "android",
@@ -116,7 +116,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-10-01"
+    "mergedManifest": "2026-10-07"
   },
   "floatnote": {
     "platform": "android",
@@ -132,7 +132,7 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-10-01"
+    "mergedManifest": "2026-10-07"
   },
   "rotate": {
     "platform": "android",
@@ -152,7 +152,27 @@
       "bluetooth",
       "adId"
     ],
-    "mergedManifest": "2026-10-01"
+    "mergedManifest": "2026-10-07"
+  },
+  "callernote": {
+    "platform": "android",
+    "data": [
+      "ads",
+      "billing",
+      "driveSync"
+    ],
+    "perms": [
+      "callScreening",
+      "notificationAccess",
+      "overlay",
+      "phoneState",
+      "contacts",
+      "notifications",
+      "foreground",
+      "boot",
+      "adId"
+    ],
+    "mergedManifest": "2026-10-07"
   },
   "clipboardwin": {
     "platform": "windows",

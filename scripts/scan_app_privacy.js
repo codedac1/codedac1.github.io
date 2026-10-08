@@ -22,7 +22,7 @@ const ANDROID_PROJECT = {
   clipboard: 'Clipboard', autostart: 'AutoStart', floatcalc: 'FloatCalc',
   floatcrypto: 'FloatCrypto', floattimer: 'FloatTimer', volumebooster: 'VolumeBooster',
   photocleaner: 'PhotoCleaner', readfocus: 'ReadFocus', floatnote: 'FloatNote',
-  rotate: 'Rotate',
+  rotate: 'Rotate', callernote: 'CallerNote',
 };
 const WINDOWS_PROJECT = {
   clipboardwin: 'ClipboardWin', readfocuswin: 'ReadFocusWin',
@@ -43,8 +43,18 @@ const PERM_CODE = {
   'android.permission.PACKAGE_USAGE_STATS': 'usage',
   'android.permission.WRITE_SETTINGS': 'writeSettings',
   'android.permission.BLUETOOTH_CONNECT': 'bluetooth',
+  // CallerNote+ (2026-10-08). 통화 걸러내기 역할·알림 접근은 uses-permission 이 아니라 서비스의 BIND 권한으로 잡는다(아래 SERVICE_PERM_CODE).
+  'android.permission.READ_PHONE_STATE': 'phoneState',
+  'android.permission.READ_CONTACTS': 'contacts',
 };
-const PERM_ORDER = ['accessibility', 'usage', 'overlay', 'writeSettings', 'notifications', 'foreground', 'boot', 'battery', 'audio', 'bluetooth', 'adId'];
+// 서비스의 android:permission(BIND_*) → 코드. 사용자가 시스템 설정에서 켜 주는 특별 접근이라 uses-permission 에 나오지 않는다.
+// 주석에 이름만 적힌 경우를 잡지 않도록 속성 형태로만 찾는다.
+const SERVICE_PERM_CODE = {
+  'android.permission.BIND_ACCESSIBILITY_SERVICE': 'accessibility',
+  'android.permission.BIND_SCREENING_SERVICE': 'callScreening',
+  'android.permission.BIND_NOTIFICATION_LISTENER_SERVICE': 'notificationAccess',
+};
+const PERM_ORDER = ['callScreening', 'notificationAccess', 'accessibility', 'usage', 'overlay', 'phoneState', 'contacts', 'writeSettings', 'notifications', 'foreground', 'boot', 'battery', 'audio', 'bluetooth', 'adId'];
 const DATA_ORDER = ['ads', 'billing', 'store', 'purchaseReport', 'driveSync', 'driveBackup', 'fx', 'crypto', 'mlkit'];
 
 // 소스에 나오는 외부 호스트 → 코드. 문서·정책 링크처럼 앱이 데이터를 주고받지 않는 주소는 IGNORE.
@@ -57,7 +67,8 @@ const HOST_CODE = {
   // 자사 구매 기록 서버(Data/notify, Cloud Run). **방침 1·6항이 이 전송을 예외로 적고 있다** — 다른 앱에 붙이면 방침도 고칠 것.
   'msstore-report-847105046915.asia-northeast3.run.app': 'purchaseReport',
 };
-const HOST_IGNORE = /(^|\.)(android\.com|google\.com|googleusercontent\.com|microsoft\.com|codedac\.com|github\.com|apache\.org|w3\.org|schemas\.|example\.|play\.google\.com)$/;
+// openxmlformats.org: CallerNote+ 엑셀 내보내기(xlsx)의 XML 네임스페이스 — 접속하는 주소가 아니다.
+const HOST_IGNORE = /(^|\.)(android\.com|google\.com|googleusercontent\.com|microsoft\.com|codedac\.com|github\.com|apache\.org|w3\.org|openxmlformats\.org|schemas\.|example\.|play\.google\.com)$/;
 
 function walk(dir, test, acc = []) {
   let entries;
@@ -85,7 +96,9 @@ function scanAndroid(project) {
     for (const m of read(f).matchAll(/<uses-permission[^>]*android:name="([^"]+)"/g)) {
       if (PERM_CODE[m[1]]) perms.push(PERM_CODE[m[1]]);
     }
-    if (/android\.permission\.BIND_ACCESSIBILITY_SERVICE/.test(read(f))) perms.push('accessibility');
+    for (const m of read(f).matchAll(/android:permission="([^"]+)"/g)) {
+      if (SERVICE_PERM_CODE[m[1]]) perms.push(SERVICE_PERM_CODE[m[1]]);
+    }
   }
   const merged = walk(root, (p, n) => n === 'AndroidManifest.xml' && /merged_manifest/.test(p));
   const mergedRelease = merged.filter((p) => /release/i.test(p));
