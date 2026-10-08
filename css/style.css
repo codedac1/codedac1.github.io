@@ -559,6 +559,14 @@ img { max-width: 100%; }
 .app-more:hover { color: var(--link-teal-h); }
 .app-links { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin-top: auto; }
 .app-links .app-link, .app-links .app-more { margin-top: 16px; }
+/* 카드의 스토어 링크는 글자 링크 대신 플랫폼 색 버튼으로 둔다 — 홈의 스토어 클릭률이 상세 페이지의
+   1/3 수준(10/9 GA)이라, 카드 안에서 설치처가 바로 눈에 띄게 한다. 플랫폼 묶음이 없으면 틸로 떨어진다. */
+.app-links .app-link {
+  margin-inline-start: auto; padding: 9px 18px; border-radius: 999px;
+  background: var(--pc, var(--link-teal)); color: var(--pc-ink, #fff);
+  transition: transform .18s ease, box-shadow .25s ease, filter .2s ease;
+}
+.app-links .app-link:hover { color: var(--pc-ink, #fff); filter: brightness(1.06); transform: translateY(-1px); box-shadow: 0 8px 18px rgba(0, 0, 0, .16); }
 
 /* ===== 앱 상세 페이지 =====
    상단은 홈 배너와 같은 브랜드 그라디언트 띠다. 왼쪽에 앱 정보, 오른쪽에 대표 스크린샷을 둬

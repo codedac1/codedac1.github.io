@@ -285,6 +285,23 @@
   }).observe(anchor);
 })();
 
+// ===== 홈: Windows PC 에서는 Windows 앱 묶음을 먼저 =====
+//  생성된 순서는 Android → Windows 다. 그런데 사이트 방문은 PC 쪽이 많고, PC 에서 Play 카드부터
+//  보이면 지금 바로 설치할 수 있는 앱이 아래로 밀린다. Windows 로 들어온 방문자에게만 두 묶음과
+//  상단 바로가기의 순서를 뒤집는다(검색엔진·다른 기기는 생성된 순서 그대로).
+(function () {
+  const uad = navigator.userAgentData;
+  const isWindows = uad && uad.platform ? uad.platform === 'Windows' : /Windows NT/.test(navigator.userAgent);
+  if (!isWindows) return;
+  const android = document.getElementById('apps-android');
+  const windows = document.getElementById('apps-windows');
+  if (!android || !windows) return;
+  android.before(windows);
+  const pjA = document.querySelector('.platform-jump .pj-android');
+  const pjW = document.querySelector('.platform-jump .pj-windows');
+  if (pjA && pjW) pjA.before(pjW);
+})();
+
 // ===== 스토어 클릭 측정 =====
 //  스토어 버튼 클릭을 GA4 이벤트 store_click 으로 보낸다(애널리틱스에서 주요 이벤트로 지정).
 //  위치는 링크에 이미 박혀 있는 값을 쓴다 — Play 는 referrer 의 utm_medium(detail-hero 등),
