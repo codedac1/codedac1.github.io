@@ -156,6 +156,28 @@
   });
 })();
 
+// ===== 쇼츠 칸 (앱 상세) =====
+//  처음엔 사이트에 둔 포스터만 보인다. 누르면 그 자리를 youtube-nocookie 임베드로 바꿔 바로 재생한다
+//  (누르기 전에는 유튜브와 통신하지 않는다). 재생 시작은 GA4 이벤트 video_play 로 남긴다.
+(function () {
+  document.addEventListener('click', (e) => {
+    const tile = e.target.closest('.shot-video');
+    if (!tile || tile.classList.contains('is-playing')) return;
+    const id = tile.getAttribute('data-yt');
+    if (!/^[A-Za-z0-9_-]{11}$/.test(id)) return;
+    const f = document.createElement('iframe');
+    f.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&playsinline=1&rel=0`;
+    f.title = tile.getAttribute('aria-label') || 'video';
+    f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+    f.allowFullscreen = true;
+    tile.classList.add('is-playing');
+    tile.replaceChildren(f);
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'video_play', { video_id: id, page_lang: document.documentElement.lang || '' });
+    }
+  });
+})();
+
 // ===== 현재 연도 (정적 렌더값 보정) =====
 (function () {
   const y = document.getElementById('year');
@@ -261,6 +283,23 @@
     bar.classList.toggle('is-shown', show);
     bar.inert = !show;
   }).observe(anchor);
+})();
+
+// ===== 홈: Windows PC 에서는 Windows 앱 묶음을 먼저 =====
+//  생성된 순서는 Android → Windows 다. 그런데 사이트 방문은 PC 쪽이 많고, PC 에서 Play 카드부터
+//  보이면 지금 바로 설치할 수 있는 앱이 아래로 밀린다. Windows 로 들어온 방문자에게만 두 묶음과
+//  상단 바로가기의 순서를 뒤집는다(검색엔진·다른 기기는 생성된 순서 그대로).
+(function () {
+  const uad = navigator.userAgentData;
+  const isWindows = uad && uad.platform ? uad.platform === 'Windows' : /Windows NT/.test(navigator.userAgent);
+  if (!isWindows) return;
+  const android = document.getElementById('apps-android');
+  const windows = document.getElementById('apps-windows');
+  if (!android || !windows) return;
+  android.before(windows);
+  const pjA = document.querySelector('.platform-jump .pj-android');
+  const pjW = document.querySelector('.platform-jump .pj-windows');
+  if (pjA && pjW) pjA.before(pjW);
 })();
 
 // ===== 스토어 클릭 측정 =====

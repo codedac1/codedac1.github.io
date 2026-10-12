@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '67'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '72'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -61,6 +61,11 @@ function trackLastmod(url, html) {
 const SAME_AS = [
   'https://play.google.com/store/apps/dev?id=7664967150833158704',
   'https://www.youtube.com/@CodeDAC',
+  // 2026-10-01 추가: Microsoft Store 게시자(PublisherName CodeDAC), 인스타·스레드 공식 계정.
+  // "codedac" 브랜드 검색에서 사이트가 평균 3위·클릭 0 이라 공식 채널 묶음을 넓혔다.
+  'https://apps.microsoft.com/search/publisher?name=CodeDAC',
+  'https://www.instagram.com/codedac1/',
+  'https://www.threads.com/@codedac1',
 ];
 
 // GA4 측정 ID. 빈 문자열로 두면 모든 페이지에서 분석 스크립트가 빠진다.
@@ -146,6 +151,22 @@ try {
 } catch {
   console.warn('(경고) scripts/app_privacy.json 없음 — 개인정보처리방침의 앱별 표가 비어 보입니다. `node scripts/scan_app_privacy.js` 로 생성하세요.');
 }
+
+// 앱별 유튜브 쇼츠 (build_videos.py 산출물) — slug → {ko|en: {id, title, uploadDate}}.
+// 없으면 상세 페이지의 영상 칸을 생략한다. 한국어 페이지는 ko, 나머지는 en.
+let APP_VIDEOS = {};
+try {
+  APP_VIDEOS = require('./app_videos.json');
+} catch {
+  console.warn('(경고) scripts/app_videos.json 없음 — 영상 칸 생략. `py scripts/build_videos.py` 로 생성하세요.');
+}
+// 스크린샷 경로 — 영어는 images/shots/<slug>-N.jpg, 나머지 언어는 images/shots/<lang>/<slug>-N.jpg
+// (build_assets.py 가 앱 폴더의 언어별 스토어 스크린샷으로 만든다). 그 언어 파일이 없으면 영어로 돌아간다.
+const shotPath = (slug, code, n) => {
+  const rel = `images/shots/${code}/${slug}-${n}.jpg`;
+  return code !== 'en' && fs.existsSync(path.join(ROOT, rel)) ? `/${rel}` : `/images/shots/${slug}-${n}.jpg`;
+};
+const videoOf = (slug, code) => (APP_VIDEOS[slug] || {})[code === 'ko' ? 'ko' : 'en'] || null;
 
 // 앱별 최소 OS 버전 (scan_app_reqs.js 산출물). 없으면 상세 페이지의 요구 사항 칩을 생략한다.
 let APP_REQS = {};
@@ -723,7 +744,7 @@ function buildHome(lang) {
     const shotsHtml = cardShots ? `
           <div class="app-shots">
 ${Array.from({ length: cardShots }, (_, i) =>
-      `            <img class="shot" src="/images/shots/${app.slug}-${i + 1}.jpg?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}" loading="lazy" data-idx="${i}" />`).join('\n')}
+      `            <img class="shot" src="${shotPath(app.slug, code, i + 1)}?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}" loading="lazy" data-idx="${i}" />`).join('\n')}
           </div>` : '';
     const store = app.store
       ? `<a class="app-link" href="${escAttr(storeUrl(app, code, 'home-card'))}" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
@@ -780,6 +801,12 @@ ${groups.flatMap((g) => g.list).map(cardHtml).join('\n')}
     description: homeDesc(ui),
     contactPoint: { '@type': 'ContactPoint', email: EMAIL, contactType: 'customer support' },
   };
+  // 검색 결과의 사이트 이름을 "CodeDAC" 으로 고정한다(Google 은 홈의 WebSite.name 을 쓴다).
+  const siteLd = {
+    '@context': 'https://schema.org', '@type': 'WebSite',
+    name: 'CodeDAC', alternateName: ['코드댁', 'codedac.com'], url: `${BASE}/`,
+    inLanguage: lang.htmlLang,
+  };
 
 
   return `<!DOCTYPE html>
@@ -788,6 +815,9 @@ ${groups.flatMap((g) => g.list).map(cardHtml).join('\n')}
 ${headCommon(lang, { title: ui['meta.title'], desc: homeDesc(ui), canonical, ogImage: `${BASE}/images/og-image.png`, kind: 'home' })}
   <script type="application/ld+json">
 ${JSON.stringify(orgLd, null, 2)}
+  </script>
+  <script type="application/ld+json">
+${JSON.stringify(siteLd, null, 2)}
   </script>
 </head>
 <body>
@@ -915,7 +945,7 @@ function buildDetail(lang, app) {
   const plat = platformKey(app);
 
   const shotAbs = [];
-  for (let i = 1; i <= app.shots; i++) shotAbs.push(`${BASE}/images/shots/${app.slug}-${i}.jpg`);
+  for (let i = 1; i <= app.shots; i++) shotAbs.push(`${BASE}${shotPath(app.slug, code, i)}`);
 
   // 별점(aggregateRating)은 넣지 않는다. 구글은 페이지에 보이지 않는 평점 마크업을 금지하는데,
   // 이 페이지는 스토어 평점을 화면에 띄우지 않는다(표본이 적은 3점대 평점은 설치를 망설이게 한다).
@@ -940,12 +970,27 @@ function buildDetail(lang, app) {
       { '@type': 'ListItem', position: 3, name: a.name, item: canonical },
     ],
   };
+  // 쇼츠가 있으면 VideoObject 를 붙인다 — 검색 결과의 동영상 칸에 이 페이지가 나올 수 있다.
+  // 썸네일은 사이트에 둔 포스터(build_videos.py), 재생은 유튜브 임베드.
+  const video = videoOf(app.slug, code);
+  const ldVideo = video ? {
+    '@context': 'https://schema.org', '@type': 'VideoObject',
+    name: video.title, description: a.desc,
+    thumbnailUrl: `${BASE}/images/videos/${video.id}.webp`,
+    uploadDate: video.uploadDate,
+    contentUrl: `https://www.youtube.com/shorts/${video.id}`,
+    embedUrl: `https://www.youtube.com/embed/${video.id}`,
+  } : null;
+
   const ldFaq = {
     '@context': 'https://schema.org', '@type': 'FAQPage',
     mainEntity: a.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
   };
 
-  const shotImg = (i, lazy) => `<img class="shot" src="/images/shots/${app.slug}-${i + 1}.jpg?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}"${lazy ? ' loading="lazy"' : ''} data-idx="${i}" />`;
+  // 쇼츠 칸: 처음엔 사이트에 둔 포스터와 재생 표시만 그린다. 누르면 js/site.js 가 그 자리를
+  // youtube-nocookie 임베드로 바꾼다 — 누르기 전에는 유튜브 스크립트도 쿠키도 없다.
+  const videoTile = (v) => `<button type="button" class="shot-video" data-yt="${escAttr(v.id)}" aria-label="${escAttr(v.title)}"><img src="/images/videos/${escAttr(v.id)}.webp?v=${V}" alt="" loading="lazy" width="214" height="380" /><span class="sv-play" aria-hidden="true"></span></button>`;
+  const shotImg = (i, lazy) => `<img class="shot" src="${shotPath(app.slug, code, i + 1)}?v=${V}" alt="${escAttr(a.name)} ${escAttr(ui['screenshots'])} ${i + 1}"${lazy ? ' loading="lazy"' : ''} data-idx="${i}" />`;
 
   // --- 상단: 브랜드 그라디언트 위에 앱 정보(왼쪽)와 대표 스크린샷(오른쪽) ---
   // 예전엔 흰 바탕에 아이콘·이름·버튼뿐이라, 스크린샷이 1,300px 아래에서야 나왔다.
@@ -977,7 +1022,17 @@ ${Array.from({ length: heroShotCount }, (_, i) => `          ${shotImg(i, false)
     + '?subject=' + encodeURIComponent(`[${a.name}] ${ui['support.cta']}`)
     + '&body=' + encodeURIComponent(ui['support.mail.body']);
   const supportBtn = `<a href="${escAttr(supportMail)}" class="btn btn-glass">${escText(ui['support.cta'])}</a>`;
-  const heroAction = [storeBtn, supportBtn, noteHtml].filter(Boolean).join('\n            ');
+  // 중국 본토에서는 Google Play 가 막혀 있고 Microsoft Store 는 열린다. zh 안드로이드 페이지에
+  // Windows 판이 있으면 상단에 Microsoft Store 버튼과 한 줄 안내를 함께 둔다.
+  // (2026-10-01: 중국 방문 참여율 57%로 상위권인데 Play 버튼뿐이라 설치로 이어질 길이 없었다.)
+  const cnWin = code === 'zh' && plat === 'android' && app.counterpart
+    ? APPS.find((x) => x.slug === app.counterpart && x.platform === 'windows' && x.store)
+    : null;
+  const cnBtn = cnWin
+    ? `<a href="${escAttr(storeUrl(cnWin, code, 'detail-hero-cn'))}" class="btn btn-glass" target="_blank" rel="noopener">Windows · ${escText(ui['store.ms'])}</a>`
+    : '';
+  const cnNote = cnWin ? `<span class="app-platform-note cn-note">无法打开 Google Play？Windows 版可在 Microsoft Store 获取。</span>` : '';
+  const heroAction = [storeBtn, cnBtn, supportBtn, noteHtml, cnNote].filter(Boolean).join('\n            ');
 
   // --- 본문 섹션: 훑어보기(기능·스크린샷) → 자세히(개요) → 믿음(후기) → 궁금증(FAQ) → 다음 행선지 ---
   // 바탕은 흰색·옅은 회색을 번갈아 둔다. 빠지는 섹션(스크린샷·후기 없음 등)이 있어도 줄무늬가 어긋나지 않게
@@ -994,7 +1049,8 @@ ${a.features.map((f) => `          <li><span class="fg-icon">${icon('check')}</s
     },
     app.shots ? {
       title: ui['screenshots'], lead: ui['shotsHint'],
-      body: `<div class="detail-shots" id="d-shots">
+      body: `<div class="detail-shots" id="d-shots">${video ? `
+          ${videoTile(video)}` : ''}
 ${Array.from({ length: app.shots }, (_, i) => `          ${shotImg(i, true)}`).join('\n')}
         </div>`,
     } : null,
@@ -1076,7 +1132,10 @@ ${JSON.stringify(ldBreadcrumb, null, 2)}
   </script>
   <script type="application/ld+json">
 ${JSON.stringify(ldFaq, null, 2)}
-  </script>
+  </script>${ldVideo ? `
+  <script type="application/ld+json">
+${JSON.stringify(ldVideo, null, 2)}
+  </script>` : ''}
 </head>
 <body${app.store ? ' class="has-install-bar"' : ''}>
 ${header(code, 'detail', app.slug, ui)}
@@ -1349,13 +1408,38 @@ fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemap, 'utf8');
 {
   const en = L.en.apps;
   const plain = (s) => String(s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-  const freeQ = (a) => (a.faq || []).find((f) => /free|Pro/.test(f.q));
+  // 무료/Pro 질문을 앱마다 다르게 묻는다 — AutoStart+ 는 "How many apps can I auto start?" 라
+  // free|Pro 만 찾으면 빠졌다(2026-10-07). 한도 질문까지 본다.
+  const freeQ = (a) => (a.faq || []).find((f) => /free|Pro\b/.test(f.q)) ||
+    (a.faq || []).find((f) => /how many|limit/i.test(f.q));
   const entry = (app) => {
     const a = en[app.slug];
     if (!a || !app.store) return null;
     const f = freeQ(a);
     return `- [${a.name}](${urlFor('en', 'detail', app.slug)}): ${plain(a.desc)}` +
+      ` Key features: ${(a.features || []).map(plain).join('; ')}.` +
       (f ? ` Free vs Pro: ${plain(f.a)}` : '') + ` Store: ${app.store}`;
+  };
+  // llms-full.txt — 앱마다 소개 전문·기능·FAQ 전부. AI 가 "헤드유닛에서 앱 자동 실행" 같은 구체적 질문에
+  // 답할 근거를 한 파일에서 찾게 한다. 역시 en.json 에서만 만든다.
+  const full = (app) => {
+    const a = en[app.slug];
+    if (!a || !app.store) return null;
+    return `## ${a.name}${app.platform === 'windows' ? ' (Windows)' : ' (Android)'}
+
+${plain(a.tagline || a.desc)}
+
+${plain(a.long)}
+
+Features:
+${(a.features || []).map((x) => `- ${plain(x)}`).join('\n')}
+
+FAQ:
+${(a.faq || []).map((q) => `- Q: ${plain(q.q)}\n  A: ${plain(q.a)}`).join('\n')}
+
+Page: ${urlFor('en', 'detail', app.slug)}
+Store: ${app.store}
+`;
   };
   const android = APPS.filter((a) => a.platform !== 'windows').map(entry).filter(Boolean);
   const windows = APPS.filter((a) => a.platform === 'windows').map(entry).filter(Boolean);
@@ -1374,9 +1458,16 @@ ${windows.join('\n')}
 ## More
 
 - [All apps](${BASE}/): overview of every app with screenshots and reviews
+- [Full details](${BASE}/llms-full.txt): every app's description, features and FAQ in one file
 - [Privacy policy](${urlFor('en', 'privacy')}): what each app collects and why
 `;
   fs.writeFileSync(path.join(ROOT, 'llms.txt'), llms, 'utf8');
+  const llmsFull = `# CodeDAC — full app details
+
+> Independent developer of utility apps for Android and Windows. Every app is free to download with an optional Pro upgrade. Official site: ${BASE}/ — apps are published only on Google Play and the Microsoft Store.
+
+${APPS.map(full).filter(Boolean).join('\n')}`;
+  fs.writeFileSync(path.join(ROOT, 'llms-full.txt'), llmsFull, 'utf8');
 }
 
 // lastmod 캐시를 갱신해 커밋한다. 사라진 URL 은 자연히 빠진다(LASTMOD_NEXT 로 통째 교체).

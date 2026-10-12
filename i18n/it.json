@@ -127,10 +127,10 @@
       "seo": "gestore avvio automatico Android",
       "desc": "Avvia automaticamente le tue app all'accensione. Nessun root, imposta una volta sola.",
       "tagline": "Avvia automaticamente le tue app dopo ogni riavvio, appena sblocchi il telefono. Nessun root, imposta una volta, funziona per sempre.",
-      "long": "AutoStart+ è il gestore di avvio automatico più semplice per Android: scegli le app e, dopo ogni riavvio, appena sblocchi il dispositivo, partono da sole. Senza root, senza script, senza tocchi ogni mattina. Cerca tra tutte le app installate, aggiungile in pochi secondi, attivale o disattivale con un tocco e trascina le righe per fissare l'ordine di avvio. Per provarlo non serve riavviare: il menu ⋮ di ogni riga apre subito quell'app e, dopo l'avvio, un breve messaggio dice che cosa è partito e lancia il resto con un tocco. La versione gratuita avvia 1 app; PRO toglie il limite e tutto l'elenco parte in ordine, e se non vuoi ancora abbonarti un breve annuncio lo sblocca per 24 ore.",
+      "long": "AutoStart+ è il gestore di avvio automatico più semplice per Android: scegli le app e, dopo ogni riavvio, appena sblocchi il dispositivo, partono da sole. Senza root, senza script, senza tocchi ogni mattina. Cerca tra tutte le app installate, aggiungile in pochi secondi, attivale o disattivale con un tocco e trascina le righe per fissare l'ordine di avvio. Per provarlo non serve riavviare: il menu ⋮ di ogni riga apre subito quell'app e, dopo l'avvio, un breve messaggio dice che cosa è partito e lancia il resto con un tocco. La versione gratuita avvia 1 app; PRO toglie il limite e tutto l'elenco parte in ordine, e se non vuoi ancora abbonarti un breve annuncio lo sblocca per 24 ore. La maggior parte delle autoradio Android va in standby invece di riavviarsi quando spegni l'auto. Attiva la Modalità auto e le tue app si riaprono ogni volta che lo schermo si riaccende dopo essere rimasto spento per almeno 3 minuti. Gratis.",
       "features": [
         "Avvia le app selezionate dopo ogni riavvio, appena sblocchi il dispositivo — senza root né ROM personalizzate",
-        "Cerca tra tutte le app installate, aggiungile in pochi secondi e attivale o disattivale con un tocco",
+        "Modalità auto per autoradio: le tue app si riaprono ogni volta che lo schermo esce dallo standby — gratis",
         "Trascina le righe per decidere quale app parte per prima a ogni avvio",
         "«Avvia ora» dal menu ⋮ di qualsiasi riga: prova l'elenco senza riavviare il telefono",
         "Dopo un riavvio, un banner lancia tutto l'elenco con un tocco appena sblocchi (PRO)",
@@ -142,12 +142,20 @@
           "a": "Xiaomi, OPPO, vivo e Huawei bloccano l'avvio in background per impostazione predefinita. AutoStart+ riconosce il dispositivo e ti porta direttamente alla schermata «Avvio automatico» nelle impostazioni di sicurezza del telefono: concedi il permesso lì e l'avvio funziona. Escludere l'app dall'ottimizzazione della batteria aiuta ancora di più."
         },
         {
+          "q": "AutoStart+ funziona sulle autoradio Android?",
+          "a": "La maggior parte delle autoradio Android va in standby invece di riavviarsi quando spegni l'auto. Attiva la Modalità auto e le tue app si riaprono ogni volta che lo schermo si riaccende dopo essere rimasto spento per almeno 3 minuti. Gratis."
+        },
+        {
           "q": "Quante app posso avviare automaticamente?",
           "a": "La versione gratuita avvia 1 app a ogni accensione. PRO toglie il limite e tutto l'elenco parte nell'ordine che hai stabilito. Se preferisci non abbonarti, un breve annuncio sblocca il limite per 24 ore."
         },
         {
           "q": "Consuma la batteria?",
           "a": "AutoStart+ si esegue una sola volta all'accensione e non è un'app sempre attiva in background, quindi ha un impatto quasi nullo sulla durata della batteria."
+        },
+        {
+          "q": "Esiste un APK ufficiale di AutoStart+?",
+          "a": "No. AutoStart+ è pubblicata solo su Google Play e questo è il suo sito ufficiale: non distribuiamo file APK da nessun’altra parte. Un APK preso da un altro sito potrebbe essere modificato o non aggiornato, quindi installala da Google Play."
         }
       ]
     },
@@ -238,6 +246,10 @@
         {
           "q": "Cosa include la versione gratuita?",
           "a": "Timer, contatori e cronometri illimitati, senza limite di tempo giornaliero. L'unico limite gratuito è una finestra flottante alla volta: con Pro ne mostri quante vuoi, oppure guardi un breve annuncio per un Free Pass di 24 ore."
+        },
+        {
+          "q": "Posso usare FloatTimer+ su un'autoradio Android?",
+          "a": "Sì, se la tua autoradio ha Google Play e usa Android 8.0 o versioni successive. Il timer fluttuante resta sopra la navigazione o la musica. Le schermate di configurazione sono pensate per display orizzontali larghi e bassi. L'autoradio deve consentire «Mostra sopra altre app»."
         }
       ]
     },
@@ -268,6 +280,10 @@
         {
           "q": "Il valore in decibel è una misura esatta?",
           "a": "È una stima. L’aumento è mostrato in decibel reali con le zone Sicuro, Attenzione e Pericolo dell’OMS, ma il valore deriva dal volume di sistema e dal guadagno applicato, e il volume reale varia in base a dispositivo, cuffie e contenuto. L’app non è un dispositivo medico: se avverti dolore alle orecchie o ronzii, abbassa il volume e consulta un professionista."
+        },
+        {
+          "q": "Posso usare VolumeBooster+ su un'autoradio Android?",
+          "a": "Sì, se la tua autoradio ha Google Play e usa Android 7.0 o versioni successive. Le schermate di configurazione sono pensate per display orizzontali larghi e bassi. Quanto aumenta il volume dipende dall'amplificatore e dagli altoparlanti dell'autoradio."
         }
       ]
     },
@@ -366,6 +382,10 @@
         {
           "q": "È gratis?",
           "a": "Sì. Salvare le note è illimitato e gratuito, e la versione gratuita fa fluttuare una nota alla volta, offre tutti e 7 i colori e mostra annunci. Pro aggiunge note fluttuanti illimitate, le immagini, l'opacità regolabile, la sincronizzazione con Google Drive, esportazione e importazione, e rimuove gli annunci."
+        },
+        {
+          "q": "Posso usare FloatNote+ su un'autoradio Android?",
+          "a": "Sì, se la tua autoradio ha Google Play e usa Android 8.0 o versioni successive. Le note fluttuano sopra la navigazione o la musica. Le schermate di configurazione sono pensate per display orizzontali larghi e bassi. L'autoradio deve consentire «Mostra sopra altre app»."
         }
       ]
     },
@@ -396,6 +416,10 @@
         {
           "q": "Cosa è gratis e cosa aggiunge Pro?",
           "a": "Tutte le modalità di rotazione, Mantieni l'orientamento, Ruota una volta, riquadri, widget e scorciatoie sono gratis, insieme a 3 regole per app e a un piccolo banner. Pro aggiunge regole illimitate, condizioni che cambiano l'orientamento da sole (in carica, con le cuffie, un dispositivo Bluetooth, un supporto auto o da scrivania, durante una chiamata o a orari stabiliti), un pulsante di rotazione fluttuante e niente pubblicità. Vuoi provare prima? Guarda un annuncio per un Free Pass di 24 ore su una funzione Pro."
+        },
+        {
+          "q": "Posso usare Rotate+ su un'autoradio Android?",
+          "a": "Sì, se la tua autoradio ha Google Play e usa Android 8.0 o versioni successive. Con le regole per app, navigazione, musica o video restano nell'orientamento che preferisci. Le schermate di configurazione sono pensate per display orizzontali larghi e bassi. L'autoradio deve consentire «Mostra sopra altre app»."
         }
       ]
     },

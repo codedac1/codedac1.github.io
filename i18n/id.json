@@ -127,10 +127,10 @@
       "seo": "Pengelola Auto Start Android",
       "desc": "Jalankan aplikasi otomatis saat booting. Tanpa root, cukup atur sekali.",
       "tagline": "Jalankan aplikasi otomatis setiap kali ponsel dinyalakan ulang, begitu kamu membuka kuncinya. Tanpa root, atur sekali, berjalan selamanya.",
-      "long": "AutoStart+ adalah pengelola mulai otomatis paling sederhana untuk Android: pilih aplikasimu, dan setelah setiap restart, begitu perangkat dibuka kuncinya, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketukan setiap pagi. Cari semua aplikasi terpasang, tambahkan dalam hitungan detik, nyalakan atau matikan dengan sekali ketuk, dan seret barisnya untuk mengatur urutan mulai. Tak perlu reboot untuk menguji: menu ⋮ di tiap baris membuka aplikasi itu seketika, dan setelah boot muncul pesan singkat berisi apa saja yang sudah jalan, sisanya cukup sekali ketuk. Versi gratis menjalankan 1 aplikasi; PRO menghapus batas itu sehingga seluruh daftar jalan berurutan, atau tonton iklan singkat untuk membuka batasnya selama 24 jam.",
+      "long": "AutoStart+ adalah pengelola mulai otomatis paling sederhana untuk Android: pilih aplikasimu, dan setelah setiap restart, begitu perangkat dibuka kuncinya, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketukan setiap pagi. Cari semua aplikasi terpasang, tambahkan dalam hitungan detik, nyalakan atau matikan dengan sekali ketuk, dan seret barisnya untuk mengatur urutan mulai. Tak perlu reboot untuk menguji: menu ⋮ di tiap baris membuka aplikasi itu seketika, dan setelah boot muncul pesan singkat berisi apa saja yang sudah jalan, sisanya cukup sekali ketuk. Versi gratis menjalankan 1 aplikasi; PRO menghapus batas itu sehingga seluruh daftar jalan berurutan, atau tonton iklan singkat untuk membuka batasnya selama 24 jam. Sebagian besar head unit mobil Android tidur alih-alih memulai ulang saat mobil dimatikan. Aktifkan Mode mobil, dan aplikasimu akan terbuka lagi setiap kali layar menyala setelah mati 3 menit atau lebih. Gratis.",
       "features": [
         "Menjalankan aplikasi pilihanmu setelah setiap restart, begitu perangkat dibuka kuncinya — tanpa root, tanpa ROM kustom",
-        "Cari semua aplikasi terpasang, tambahkan dalam hitungan detik, dan nyalakan atau matikan sekali ketuk",
+        "Mode Mobil untuk head unit: aplikasimu terbuka lagi setiap kali layar bangun dari tidur — gratis",
         "Seret barisnya untuk menentukan aplikasi mana yang jalan lebih dulu di tiap boot",
         "«Jalankan sekarang» dari menu ⋮ tiap baris — uji daftarmu tanpa menyalakan ulang ponsel",
         "Setelah restart, banner menjalankan seluruh daftar sekali ketuk begitu kamu membuka kunci (PRO)",
@@ -142,12 +142,20 @@
           "a": "Xiaomi, OPPO, vivo, dan Huawei memblokir mulai di latar belakang secara bawaan. AutoStart+ mengenali perangkatmu dan membawamu langsung ke layar «Mulai otomatis» di pengaturan keamanan ponsel — izinkan di sana dan mulai saat boot pun bekerja. Mengeluarkan aplikasi dari optimasi baterai juga membantu."
         },
         {
+          "q": "Apakah AutoStart+ berfungsi di head unit mobil Android?",
+          "a": "Sebagian besar head unit mobil Android tidur alih-alih memulai ulang saat mobil dimatikan. Aktifkan Mode mobil, dan aplikasimu akan terbuka lagi setiap kali layar menyala setelah mati 3 menit atau lebih. Gratis."
+        },
+        {
           "q": "Berapa banyak aplikasi yang bisa saya jalankan otomatis?",
           "a": "Versi gratis menjalankan 1 aplikasi tiap boot. PRO menghapus batas itu sehingga seluruh daftar jalan sesuai urutan yang kamu atur. Kalau belum mau berlangganan, menonton iklan singkat membuka batas itu selama 24 jam."
         },
         {
           "q": "Apakah ini akan menguras baterai saya?",
           "a": "AutoStart+ hanya berjalan sekali saat booting dan bukan aplikasi latar belakang yang selalu aktif, sehingga hampir tidak berdampak pada masa pakai baterai."
+        },
+        {
+          "q": "Apakah ada APK resmi AutoStart+?",
+          "a": "Tidak ada. AutoStart+ hanya diterbitkan di Google Play, dan situs ini adalah situs resminya — kami tidak merilis file APK di tempat lain. APK dari situs lain bisa saja dimodifikasi atau usang, jadi instal dari Google Play."
         }
       ]
     },
@@ -238,6 +246,10 @@
         {
           "q": "Apa saja yang ada di versi gratis?",
           "a": "Timer, penghitung, dan stopwatch tanpa batas jumlah, tanpa batas waktu harian. Satu-satunya batasan gratis adalah satu overlay mengambang dalam satu waktu — Pro menampilkan sebanyak yang kamu mau, atau tonton iklan singkat untuk Free Pass 24 jam."
+        },
+        {
+          "q": "Bisakah saya memakai FloatTimer+ di head unit mobil Android?",
+          "a": "Ya, jika head unit mobil Anda punya Google Play dan menjalankan Android 8.0 atau lebih baru. Timer mengambang tetap di atas aplikasi navigasi atau musik. Layar penyiapan dirancang untuk layar lanskap yang lebar dan pendek. Head unit harus mengizinkan “Tampilkan di atas aplikasi lain”."
         }
       ]
     },
@@ -268,6 +280,10 @@
         {
           "q": "Apakah nilai desibel yang ditampilkan pengukuran pasti?",
           "a": "Itu perkiraan. Penguatan ditampilkan dalam desibel nyata dengan zona Aman, Hati-hati, dan Bahaya berdasarkan WHO, tetapi nilainya dihitung dari volume sistem dan gain yang diterapkan, dan kenyaringan sebenarnya bergantung pada perangkat, headphone, serta konten. Aplikasi ini bukan alat medis, jadi jika Anda merasakan nyeri telinga atau dengingan, turunkan volume dan konsultasikan ke profesional."
+        },
+        {
+          "q": "Bisakah saya memakai VolumeBooster+ di head unit mobil Android?",
+          "a": "Ya, jika head unit mobil Anda punya Google Play dan menjalankan Android 7.0 atau lebih baru. Layar penyiapan dirancang untuk layar lanskap yang lebar dan pendek. Seberapa keras hasilnya tergantung pada amplifier dan speaker head unit."
         }
       ]
     },
@@ -366,6 +382,10 @@
         {
           "q": "Apakah gratis?",
           "a": "Ya. Menyimpan catatan gratis dan tanpa batas, dan versi gratis mengambangkan satu catatan sekaligus dengan 7 warna lengkap beserta iklan. Pro menambahkan catatan mengambang tanpa batas, gambar, opasitas yang bisa diatur, sinkronisasi Google Drive, ekspor dan impor, serta menghilangkan iklan."
+        },
+        {
+          "q": "Bisakah saya memakai FloatNote+ di head unit mobil Android?",
+          "a": "Ya, jika head unit mobil Anda punya Google Play dan menjalankan Android 8.0 atau lebih baru. Catatan melayang di atas aplikasi navigasi atau musik. Layar penyiapan dirancang untuk layar lanskap yang lebar dan pendek. Head unit harus mengizinkan “Tampilkan di atas aplikasi lain”."
         }
       ]
     },
@@ -396,6 +416,10 @@
         {
           "q": "Apa yang gratis dan apa tambahan Pro?",
           "a": "Semua mode rotasi, Pertahankan orientasi, Putar sekali, ubin, widget, dan pintasan gratis, ditambah 3 aturan per aplikasi dan iklan banner kecil. Pro menambahkan aturan tanpa batas, kondisi yang mengubah orientasi otomatis (saat mengisi daya, memakai headphone, perangkat Bluetooth, dok mobil atau meja, saat menelepon, atau pada jam tertentu), tombol putar mengambang, dan menghapus iklan. Ingin coba dulu? Tonton satu iklan untuk Free Pass 24 jam untuk fitur Pro."
+        },
+        {
+          "q": "Bisakah saya memakai Rotate+ di head unit mobil Android?",
+          "a": "Ya, jika head unit mobil Anda punya Google Play dan menjalankan Android 8.0 atau lebih baru. Dengan aturan aplikasi, aplikasi navigasi, musik, atau video tetap di orientasi yang Anda pilih. Layar penyiapan dirancang untuk layar lanskap yang lebar dan pendek. Head unit harus mengizinkan “Tampilkan di atas aplikasi lain”."
         }
       ]
     },

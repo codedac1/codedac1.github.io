@@ -127,10 +127,10 @@
       "seo": "Autostart-manager voor Android",
       "desc": "Start je apps automatisch bij het opstarten. Geen root nodig, één keer instellen.",
       "tagline": "Start je apps automatisch na elke herstart, zodra je je telefoon ontgrendelt. Geen root, één keer instellen, werkt voor altijd.",
-      "long": "AutoStart+ is de eenvoudigste autostart-manager voor Android: kies je apps en na elke herstart gaan ze vanzelf open zodra je het toestel ontgrendelt. Geen root, geen scripts, geen dagelijkse tikjes. Zoek in al je geïnstalleerde apps, voeg ze in seconden toe, zet ze aan of uit met één tik en sleep de rijen in de gewenste startvolgorde. Herstarten om te testen hoeft niet: het ⋮-menu op elke rij opent die app direct, en na het opstarten vertelt een kort bericht wat er is gestart — de rest volgt met één tik. Gratis start 1 app automatisch; PRO haalt de limiet weg zodat je hele lijst op volgorde start, en wil je nog geen abonnement, dan ontgrendelt een korte advertentie de limiet 24 uur.",
+      "long": "AutoStart+ is de eenvoudigste autostart-manager voor Android: kies je apps en na elke herstart gaan ze vanzelf open zodra je het toestel ontgrendelt. Geen root, geen scripts, geen dagelijkse tikjes. Zoek in al je geïnstalleerde apps, voeg ze in seconden toe, zet ze aan of uit met één tik en sleep de rijen in de gewenste startvolgorde. Herstarten om te testen hoeft niet: het ⋮-menu op elke rij opent die app direct, en na het opstarten vertelt een kort bericht wat er is gestart — de rest volgt met één tik. Gratis start 1 app automatisch; PRO haalt de limiet weg zodat je hele lijst op volgorde start, en wil je nog geen abonnement, dan ontgrendelt een korte advertentie de limiet 24 uur. De meeste Android-autoradio's gaan in slaap in plaats van opnieuw op te starten als je de auto uitzet. Zet de Automodus aan en je apps gaan weer open telkens als het scherm aangaat na minstens 3 minuten uit te zijn geweest. Gratis.",
       "features": [
         "Start je gekozen apps na elke herstart, zodra je het toestel ontgrendelt — zonder root of custom ROM",
-        "Zoek in al je geïnstalleerde apps, voeg ze in seconden toe en zet ze aan of uit met één tik",
+        "Automodus voor autoradio's: je apps gaan weer open telkens als het scherm uit de slaapstand komt — gratis",
         "Sleep de rijen om te bepalen welke app bij elke start als eerste opent",
         "«Nu starten» in het ⋮-menu van elke rij — controleer je lijst zonder te herstarten",
         "Na een herstart start een banner je hele lijst met één tik zodra je ontgrendelt (PRO)",
@@ -142,12 +142,20 @@
           "a": "Xiaomi, OPPO, vivo en Huawei blokkeren standaard het starten op de achtergrond. AutoStart+ herkent je toestel en brengt je rechtstreeks naar het scherm «Automatisch starten» in de beveiligingsinstellingen van je telefoon — sta het daar toe en het starten bij het opstarten werkt. De app uitsluiten van batterijoptimalisatie helpt ook."
         },
         {
+          "q": "Werkt AutoStart+ op Android-autoradio's?",
+          "a": "De meeste Android-autoradio's gaan in slaap in plaats van opnieuw op te starten als je de auto uitzet. Zet de Automodus aan en je apps gaan weer open telkens als het scherm aangaat na minstens 3 minuten uit te zijn geweest. Gratis."
+        },
+        {
           "q": "Hoeveel apps kan ik automatisch starten?",
           "a": "Gratis start er 1 app per keer opstarten. PRO haalt de limiet weg: je hele lijst opent in de volgorde die je hebt ingesteld. Wil je geen abonnement, dan ontgrendelt een korte advertentie de limiet 24 uur."
         },
         {
           "q": "Verbruikt het mijn batterij?",
           "a": "AutoStart+ draait maar één keer bij het opstarten en is geen altijd actieve achtergrond-app, dus het heeft nauwelijks invloed op de batterijduur."
+        },
+        {
+          "q": "Bestaat er een officiële APK van AutoStart+?",
+          "a": "Nee. AutoStart+ verschijnt alleen in Google Play en deze site is de officiële website — we bieden nergens anders APK-bestanden aan. Een APK van een andere site kan aangepast of verouderd zijn, dus installeer de app via Google Play."
         }
       ]
     },
@@ -238,6 +246,10 @@
         {
           "q": "Wat zit er in de gratis versie?",
           "a": "Onbeperkt timers, tellers en stopwatches, zonder daglimiet. De enige gratis beperking is één zwevend venster tegelijk — met Pro toon je er zoveel je wilt, of bekijk je een korte advertentie voor een Free Pass van 24 uur."
+        },
+        {
+          "q": "Kan ik FloatTimer+ gebruiken op een Android-autoradio?",
+          "a": "Ja, als je autoradio Google Play heeft en Android 8.0 of nieuwer draait. De zwevende timer blijft boven navigatie of muziek staan. De installatieschermen zijn gemaakt voor brede, lage liggende displays. De autoradio moet ‘Weergeven over andere apps’ toestaan."
         }
       ]
     },
@@ -268,6 +280,10 @@
         {
           "q": "Is de getoonde decibelwaarde een exacte meting?",
           "a": "Het is een schatting. De versterking staat in echte decibels met de WHO-zones Veilig, Let op en Gevaar, maar de waarde komt uit je systeemvolume en de toegepaste versterking, en het werkelijke niveau hangt af van apparaat, hoofdtelefoon en content. De app is geen medisch hulpmiddel: bij oorpijn of oorsuizen zet je het volume lager en raadpleeg je een professional."
+        },
+        {
+          "q": "Kan ik VolumeBooster+ gebruiken op een Android-autoradio?",
+          "a": "Ja, als je autoradio Google Play heeft en Android 7.0 of nieuwer draait. De installatieschermen zijn gemaakt voor brede, lage liggende displays. Hoeveel harder het wordt, hangt af van de versterker en speakers van de autoradio."
         }
       ]
     },
@@ -366,6 +382,10 @@
         {
           "q": "Is het gratis?",
           "a": "Ja. Notities opslaan is onbeperkt en gratis, en de gratis versie laat één notitie tegelijk zweven, biedt alle 7 kleuren en toont advertenties. Pro voegt onbeperkt zwevende notities toe, afbeeldingen, instelbare transparantie, Google Drive-synchronisatie, export en import, en verwijdert de advertenties."
+        },
+        {
+          "q": "Kan ik FloatNote+ gebruiken op een Android-autoradio?",
+          "a": "Ja, als je autoradio Google Play heeft en Android 8.0 of nieuwer draait. Notities zweven boven navigatie of muziek. De installatieschermen zijn gemaakt voor brede, lage liggende displays. De autoradio moet ‘Weergeven over andere apps’ toestaan."
         }
       ]
     },
@@ -396,6 +416,10 @@
         {
           "q": "Wat is gratis en wat voegt Pro toe?",
           "a": "Alle draaistanden, Stand vasthouden, Eén keer draaien, tegels, widgets en snelkoppelingen zijn gratis, samen met 3 regels per app en een kleine banner. Pro voegt onbeperkt regels toe, voorwaarden die de stand automatisch wijzigen (tijdens het opladen, met een koptelefoon, een Bluetooth-apparaat, in een auto- of bureaudock, tijdens een gesprek of op vaste tijden), een zwevende draaiknop en geen advertenties. Eerst proberen? Bekijk één advertentie voor een Free Pass van 24 uur voor een Pro-functie."
+        },
+        {
+          "q": "Kan ik Rotate+ gebruiken op een Android-autoradio?",
+          "a": "Ja, als je autoradio Google Play heeft en Android 8.0 of nieuwer draait. Met app-regels blijven navigatie, muziek of video in de stand die je wilt. De installatieschermen zijn gemaakt voor brede, lage liggende displays. De autoradio moet ‘Weergeven over andere apps’ toestaan."
         }
       ]
     },

@@ -127,10 +127,10 @@
       "seo": "gerenciador de início automático",
       "desc": "Inicie seus apps automaticamente ao ligar o celular. Sem root, configure uma vez.",
       "tagline": "Inicie seus apps automaticamente após cada reinício, assim que você desbloqueia o celular. Sem root, configure uma vez, funciona para sempre.",
-      "long": "O AutoStart+ é o gerenciador de início automático mais simples para Android: escolha seus apps e, após cada reinício, assim que você desbloqueia o aparelho, eles abrem sozinhos — sem root, sem scripts, sem toques todo dia. Pesquise entre todos os apps instalados, adicione em segundos, ligue ou desligue cada um com um toque e arraste as linhas para definir a ordem de inicialização. Também não precisa reiniciar para testar: o menu ⋮ de cada linha abre aquele app na hora e, depois da inicialização, um aviso curto diz o que já abriu — o resto vai com um toque. A versão gratuita inicia 1 app; o PRO remove o limite e toda a lista abre na ordem definida, e se você ainda não quiser assinar, um anúncio curto libera o limite por 24 horas.",
+      "long": "O AutoStart+ é o gerenciador de início automático mais simples para Android: escolha seus apps e, após cada reinício, assim que você desbloqueia o aparelho, eles abrem sozinhos — sem root, sem scripts, sem toques todo dia. Pesquise entre todos os apps instalados, adicione em segundos, ligue ou desligue cada um com um toque e arraste as linhas para definir a ordem de inicialização. Também não precisa reiniciar para testar: o menu ⋮ de cada linha abre aquele app na hora e, depois da inicialização, um aviso curto diz o que já abriu — o resto vai com um toque. A versão gratuita inicia 1 app; o PRO remove o limite e toda a lista abre na ordem definida, e se você ainda não quiser assinar, um anúncio curto libera o limite por 24 horas. A maioria das centrais multimídia Android entra em repouso em vez de reiniciar quando você desliga o carro. Ative o Modo carro e seus apps abrem de novo toda vez que a tela liga depois de ficar desligada por 3 minutos ou mais. Grátis.",
       "features": [
         "Inicia os apps escolhidos após cada reinício, assim que você desbloqueia o aparelho — sem root e sem ROM personalizada",
-        "Pesquise entre todos os apps instalados, adicione em segundos e ligue ou desligue com um toque",
+        "Modo carro para centrais multimídia: seus apps abrem de novo toda vez que a tela sai do repouso — grátis",
         "Arraste as linhas para decidir qual app abre primeiro a cada inicialização",
         "«Executar agora» no menu ⋮ de qualquer linha — teste sua lista sem reiniciar o celular",
         "Após um reinício, um banner abre toda a lista com um toque assim que você desbloqueia (PRO)",
@@ -142,12 +142,20 @@
           "a": "Xiaomi, OPPO, vivo e Huawei bloqueiam o início em segundo plano por padrão. O AutoStart+ detecta seu aparelho e leva você direto à tela «Início automático» nas configurações de segurança do celular — permita ali e a inicialização funciona. Deixar o app fora da otimização de bateria também ajuda."
         },
         {
+          "q": "O AutoStart+ funciona em centrais multimídia Android?",
+          "a": "A maioria das centrais multimídia Android entra em repouso em vez de reiniciar quando você desliga o carro. Ative o Modo carro e seus apps abrem de novo toda vez que a tela liga depois de ficar desligada por 3 minutos ou mais. Grátis."
+        },
+        {
           "q": "Quantos apps posso iniciar automaticamente?",
           "a": "A versão gratuita inicia 1 app a cada inicialização. O PRO remove o limite e toda a lista abre na ordem que você definir. Se preferir não assinar, assistir a um anúncio curto libera o limite por 24 horas."
         },
         {
           "q": "Isso vai consumir minha bateria?",
           "a": "O AutoStart+ funciona apenas uma vez, na inicialização, e não é um app sempre ativo em segundo plano, então quase não afeta a duração da bateria."
+        },
+        {
+          "q": "Existe um APK oficial do AutoStart+?",
+          "a": "Não. O AutoStart+ é publicado apenas no Google Play, e este site é o site oficial — não disponibilizamos arquivos APK em nenhum outro lugar. Um APK de outro site pode estar modificado ou desatualizado, então instale pelo Google Play."
         }
       ]
     },
@@ -238,6 +246,10 @@
         {
           "q": "O que a versão grátis inclui?",
           "a": "Timers, contadores e cronômetros ilimitados, sem limite diário de uso. A única limitação grátis é mostrar uma janela flutuante por vez — no Pro você mostra quantas quiser, ou assiste a um anúncio curto para um Free Pass de 24 horas."
+        },
+        {
+          "q": "Posso usar o FloatTimer+ em uma central multimídia Android?",
+          "a": "Sim, se a sua central multimídia tiver Google Play e rodar Android 8.0 ou mais recente. O timer flutuante fica por cima da navegação ou da música. As telas de configuração foram feitas para displays horizontais largos e baixos. A central precisa permitir “Sobrepor a outros apps”."
         }
       ]
     },
@@ -268,6 +280,10 @@
         {
           "q": "O valor em decibéis é uma medição exata?",
           "a": "É uma estimativa. A amplificação é mostrada em decibéis reais com as zonas Seguro, Atenção e Perigo da OMS, mas o valor resulta do volume do sistema e do ganho aplicado, e o volume real varia conforme o aparelho, os auscultadores e o conteúdo. A app não é um dispositivo médico — se sentir dor de ouvidos ou zumbidos, baixe o volume e consulte um profissional."
+        },
+        {
+          "q": "Posso usar o VolumeBooster+ em uma central multimídia Android?",
+          "a": "Sim, se a sua central multimídia tiver Google Play e rodar Android 7.0 ou mais recente. As telas de configuração foram feitas para displays horizontais largos e baixos. O quanto o som fica mais alto depende do amplificador e dos alto-falantes da central."
         }
       ]
     },
@@ -366,6 +382,10 @@
         {
           "q": "É grátis?",
           "a": "Sim. Salvar notas é ilimitado e gratuito, e a versão grátis faz flutuar uma nota por vez, oferece as 7 cores e exibe anúncios. O Pro adiciona notas flutuantes ilimitadas, imagens, opacidade ajustável, sincronização com Google Drive, exportar e importar, e remove os anúncios."
+        },
+        {
+          "q": "Posso usar o FloatNote+ em uma central multimídia Android?",
+          "a": "Sim, se a sua central multimídia tiver Google Play e rodar Android 8.0 ou mais recente. As notas flutuam por cima da navegação ou da música. As telas de configuração foram feitas para displays horizontais largos e baixos. A central precisa permitir “Sobrepor a outros apps”."
         }
       ]
     },
@@ -396,6 +416,10 @@
         {
           "q": "O que é grátis e o que o Pro adiciona?",
           "a": "Todos os modos de rotação, Manter a orientação, Girar uma vez, blocos, widgets e atalhos são grátis, junto com 3 regras por app e um pequeno banner. O Pro adiciona regras ilimitadas, condições que mudam a orientação sozinhas (ao carregar, com fone de ouvido, um aparelho Bluetooth, suporte de carro ou de mesa, durante uma ligação ou em horários definidos), um botão flutuante de rotação e remove os anúncios. Quer testar antes? Assista a um anúncio e ganhe um Free Pass de 24 horas para um recurso Pro."
+        },
+        {
+          "q": "Posso usar o Rotate+ em uma central multimídia Android?",
+          "a": "Sim, se a sua central multimídia tiver Google Play e rodar Android 8.0 ou mais recente. Com as regras por app, navegação, música ou vídeo ficam na orientação que você quiser. As telas de configuração foram feitas para displays horizontais largos e baixos. A central precisa permitir “Sobrepor a outros apps”."
         }
       ]
     },

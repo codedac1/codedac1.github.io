@@ -127,10 +127,10 @@
       "seo": "Gestionnaire de lancement automatique",
       "desc": "Lancez vos applis automatiquement au démarrage. Sans root, réglé une seule fois.",
       "tagline": "Lancez vos applis automatiquement après chaque redémarrage, dès que vous déverrouillez le téléphone. Sans root, réglé une fois, actif pour toujours.",
-      "long": "AutoStart+ est le gestionnaire de démarrage automatique le plus simple pour Android : choisissez vos applis et, après chaque redémarrage, dès que vous déverrouillez l'appareil, elles s'ouvrent toutes seules. Sans root, sans script, sans geste quotidien. Cherchez parmi toutes les applis installées, ajoutez-les en quelques secondes, activez ou désactivez d'un toucher et glissez les lignes pour fixer l'ordre de lancement. Pas besoin de redémarrer pour tester : le menu ⋮ de chaque ligne ouvre l'appli immédiatement, et après le démarrage un court message indique ce qui s'est lancé, le reste suit d'un toucher. La version gratuite lance 1 appli ; PRO lève la limite et toute la liste démarre dans l'ordre, et si vous préférez ne pas vous abonner, une courte pub la débloque pendant 24 heures.",
+      "long": "AutoStart+ est le gestionnaire de démarrage automatique le plus simple pour Android : choisissez vos applis et, après chaque redémarrage, dès que vous déverrouillez l'appareil, elles s'ouvrent toutes seules. Sans root, sans script, sans geste quotidien. Cherchez parmi toutes les applis installées, ajoutez-les en quelques secondes, activez ou désactivez d'un toucher et glissez les lignes pour fixer l'ordre de lancement. Pas besoin de redémarrer pour tester : le menu ⋮ de chaque ligne ouvre l'appli immédiatement, et après le démarrage un court message indique ce qui s'est lancé, le reste suit d'un toucher. La version gratuite lance 1 appli ; PRO lève la limite et toute la liste démarre dans l'ordre, et si vous préférez ne pas vous abonner, une courte pub la débloque pendant 24 heures. La plupart des autoradios Android se mettent en veille au lieu de redémarrer quand vous coupez le contact. Activez le Mode voiture et vos applis se rouvrent chaque fois que l'écran se rallume après au moins 3 minutes éteint. Gratuit.",
       "features": [
         "Lance les applis choisies après chaque redémarrage, dès que vous déverrouillez l'appareil — sans root ni ROM personnalisée",
-        "Cherchez parmi toutes les applis installées, ajoutez-les en quelques secondes, activez ou désactivez d'un toucher",
+        "Mode voiture pour autoradios : vos applis se rouvrent à chaque sortie de veille de l'écran — gratuit",
         "Glissez les lignes pour décider quelle appli démarre en premier à chaque boot",
         "« Lancer maintenant » dans le menu ⋮ de chaque ligne : vérifiez votre liste sans redémarrer",
         "Après un redémarrage, une bannière lance toute la liste d'un toucher dès le déverrouillage (PRO)",
@@ -142,12 +142,20 @@
           "a": "Xiaomi, OPPO, vivo et Huawei bloquent le démarrage en arrière-plan par défaut. AutoStart+ reconnaît votre appareil et vous emmène directement à l'écran « Démarrage auto » des réglages de sécurité du téléphone : autorisez-le là et le lancement au boot fonctionne. Exclure l'appli de l'optimisation de batterie aide également."
         },
         {
+          "q": "AutoStart+ fonctionne-t-il sur les autoradios Android ?",
+          "a": "La plupart des autoradios Android se mettent en veille au lieu de redémarrer quand vous coupez le contact. Activez le Mode voiture et vos applis se rouvrent chaque fois que l'écran se rallume après au moins 3 minutes éteint. Gratuit."
+        },
+        {
           "q": "Combien d'applis puis-je lancer automatiquement ?",
           "a": "La version gratuite lance 1 appli à chaque démarrage. PRO lève la limite : toute la liste s'ouvre dans l'ordre que vous avez défini. Si vous préférez ne pas vous abonner, une courte pub débloque la limite pendant 24 heures."
         },
         {
           "q": "Cela va-t-il vider ma batterie ?",
           "a": "AutoStart+ ne s'exécute qu'une seule fois au démarrage et n'est pas une application active en permanence en arrière-plan : son impact sur l'autonomie de la batterie est donc quasi nul."
+        },
+        {
+          "q": "Existe-t-il un APK officiel d’AutoStart+ ?",
+          "a": "Non. AutoStart+ est publiée uniquement sur Google Play, et ce site est son site officiel : nous ne publions de fichier APK nulle part ailleurs. Un APK provenant d’un autre site peut être modifié ou obsolète ; installez-la donc depuis Google Play."
         }
       ]
     },
@@ -238,6 +246,10 @@
         {
           "q": "Que contient la version gratuite ?",
           "a": "Des minuteurs, compteurs et chronomètres illimités, sans limite de temps quotidienne. La seule limite gratuite est une fenêtre flottante à la fois : Pro en affiche autant que vous voulez, ou regardez une courte pub pour un Free Pass de 24 h."
+        },
+        {
+          "q": "Puis-je utiliser FloatTimer+ sur un autoradio Android ?",
+          "a": "Oui, si votre autoradio dispose de Google Play et tourne sous Android 8.0 ou plus récent. Le minuteur flottant reste au-dessus de la navigation ou de la musique. Les écrans de configuration sont conçus pour les affichages paysage larges et bas. L'autoradio doit autoriser « Superposition sur d’autres applis »."
         }
       ]
     },
@@ -268,6 +280,10 @@
         {
           "q": "La valeur en décibels est-elle une mesure exacte ?",
           "a": "C’est une estimation. L’amplification est affichée en décibels réels avec les zones Sûr, Prudence et Danger de l’OMS, mais la valeur est calculée à partir du volume système et du gain appliqué, et le niveau réel varie selon l’appareil, le casque et le contenu. L’application n’est pas un dispositif médical : en cas de douleur ou d’acouphènes, baissez le volume et consultez un professionnel."
+        },
+        {
+          "q": "Puis-je utiliser VolumeBooster+ sur un autoradio Android ?",
+          "a": "Oui, si votre autoradio dispose de Google Play et tourne sous Android 7.0 ou plus récent. Les écrans de configuration sont conçus pour les affichages paysage larges et bas. Le gain de volume dépend de l'amplificateur et des haut-parleurs de l'autoradio."
         }
       ]
     },
@@ -366,6 +382,10 @@
         {
           "q": "Est-ce gratuit ?",
           "a": "Oui. L'enregistrement des notes est illimité et gratuit, et la version gratuite fait flotter une note à la fois, propose les 7 couleurs et affiche des publicités. Pro ajoute les notes flottantes illimitées, les images, l'opacité réglable, la synchro Google Drive, l'export et l'import, et supprime la publicité."
+        },
+        {
+          "q": "Puis-je utiliser FloatNote+ sur un autoradio Android ?",
+          "a": "Oui, si votre autoradio dispose de Google Play et tourne sous Android 8.0 ou plus récent. Les notes flottent au-dessus de la navigation ou de la musique. Les écrans de configuration sont conçus pour les affichages paysage larges et bas. L'autoradio doit autoriser « Superposition sur d’autres applis »."
         }
       ]
     },
@@ -396,6 +416,10 @@
         {
           "q": "Qu'est-ce qui est gratuit, et qu'apporte Pro ?",
           "a": "Tous les modes de rotation, Garder l'orientation, Pivoter une fois, les vignettes, widgets et raccourcis sont gratuits, avec 3 règles par app et une petite bannière. Pro ajoute les règles illimitées, des conditions qui changent l'orientation automatiquement (pendant la charge, avec un casque, un appareil Bluetooth, un support voiture ou bureau, pendant un appel ou à certaines heures), un bouton de rotation flottant, et supprime la publicité. Envie d'essayer ? Regardez une publicité pour un Free Pass de 24 heures sur une fonction Pro."
+        },
+        {
+          "q": "Puis-je utiliser Rotate+ sur un autoradio Android ?",
+          "a": "Oui, si votre autoradio dispose de Google Play et tourne sous Android 8.0 ou plus récent. Avec les règles par appli, navigation, musique ou vidéos restent dans l’orientation de votre choix. Les écrans de configuration sont conçus pour les affichages paysage larges et bas. L'autoradio doit autoriser « Superposition sur d’autres applis »."
         }
       ]
     },

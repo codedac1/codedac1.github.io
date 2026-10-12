@@ -127,10 +127,10 @@
       "seo": "Android otomatik başlatma yöneticisi",
       "desc": "Uygulamalarınızı açılışta otomatik başlatın. Root gerekmez, bir kez ayarlayın.",
       "tagline": "Uygulamalarınızı her yeniden başlatmadan sonra, telefonun kilidini açar açmaz otomatik başlatın. Root yok, bir kez ayarla, hep çalışsın.",
-      "long": "AutoStart+, Android için en basit otomatik başlatma yöneticisidir: uygulamalarınızı seçin, her yeniden başlatmadan sonra cihazın kilidini açar açmaz kendiliğinden başlasınlar. Root yok, betik yok, her sabah dokunma yok. Yüklü tüm uygulamalarda arayın, saniyeler içinde ekleyin, tek dokunuşla açıp kapatın ve satırları sürükleyerek başlatma sırasını belirleyin. Denemek için yeniden başlatmanıza da gerek yok: her satırdaki ⋮ menüsü o uygulamayı hemen açar, açılıştan sonra kısa bir mesaj nelerin başladığını bildirir, kalanı da tek dokunuşla çalışır. Ücretsiz sürüm 1 uygulama başlatır; PRO sınırı kaldırır ve listeniz sırayla açılır, abone olmak istemiyorsanız kısa bir reklam sınırı 24 saat kaldırır.",
+      "long": "AutoStart+, Android için en basit otomatik başlatma yöneticisidir: uygulamalarınızı seçin, her yeniden başlatmadan sonra cihazın kilidini açar açmaz kendiliğinden başlasınlar. Root yok, betik yok, her sabah dokunma yok. Yüklü tüm uygulamalarda arayın, saniyeler içinde ekleyin, tek dokunuşla açıp kapatın ve satırları sürükleyerek başlatma sırasını belirleyin. Denemek için yeniden başlatmanıza da gerek yok: her satırdaki ⋮ menüsü o uygulamayı hemen açar, açılıştan sonra kısa bir mesaj nelerin başladığını bildirir, kalanı da tek dokunuşla çalışır. Ücretsiz sürüm 1 uygulama başlatır; PRO sınırı kaldırır ve listeniz sırayla açılır, abone olmak istemiyorsanız kısa bir reklam sınırı 24 saat kaldırır. Android araç multimedya cihazlarının çoğu, kontak kapatıldığında yeniden başlamak yerine uykuya geçer. Araç modunu açın; ekran en az 3 dakika kapalı kaldıktan sonra her açıldığında uygulamalarınız yeniden açılsın. Ücretsiz.",
       "features": [
         "Her yeniden başlatmadan sonra, cihazın kilidini açar açmaz seçtiğiniz uygulamaları başlatır — root ve özel ROM gerekmez",
-        "Yüklü tüm uygulamalarda arayın, saniyeler içinde ekleyin, tek dokunuşla açıp kapatın",
+        "Multimedya cihazları için Araç modu: ekran uykudan her uyandığında uygulamalarınız yeniden açılır — ücretsiz",
         "Satırları sürükleyerek her açılışta hangi uygulamanın önce başlayacağını belirleyin",
         "Her satırın ⋮ menüsünde «Şimdi çalıştır» — telefonu yeniden başlatmadan listenizi deneyin",
         "Yeniden başlatmadan sonra, kilidi açar açmaz bir banner listenizin tamamını tek dokunuşla başlatır (PRO)",
@@ -142,12 +142,20 @@
           "a": "Xiaomi, OPPO, vivo ve Huawei arka planda başlatmayı varsayılan olarak engeller. AutoStart+ cihazınızı tanır ve sizi doğrudan telefonunuzun güvenlik ayarlarındaki «Otomatik başlatma» ekranına götürür; oradan izin verdiğinizde açılışta başlatma çalışır. Uygulamayı pil optimizasyonu dışında bırakmak da işi sağlamlaştırır."
         },
         {
+          "q": "AutoStart+ Android araç multimedya cihazlarında çalışır mı?",
+          "a": "Android araç multimedya cihazlarının çoğu, kontak kapatıldığında yeniden başlamak yerine uykuya geçer. Araç modunu açın; ekran en az 3 dakika kapalı kaldıktan sonra her açıldığında uygulamalarınız yeniden açılsın. Ücretsiz."
+        },
+        {
           "q": "Kaç uygulamayı otomatik başlatabilirim?",
           "a": "Ücretsiz sürüm her açılışta 1 uygulama başlatır. PRO sınırı kaldırır, liste belirlediğiniz sırayla açılır. Abone olmak istemiyorsanız kısa bir reklam izleyerek sınırı 24 saatliğine kaldırabilirsiniz."
         },
         {
           "q": "Pilimi tüketir mi?",
           "a": "AutoStart+ yalnızca açılışta bir kez çalışır ve sürekli açık kalan bir arka plan uygulaması değildir; bu nedenle pil ömrüne neredeyse hiç etkisi yoktur."
+        },
+        {
+          "q": "AutoStart+ için resmî bir APK var mı?",
+          "a": "Hayır. AutoStart+ yalnızca Google Play’de yayımlanır ve bu site resmî web sitesidir; başka hiçbir yerde APK dosyası yayımlamıyoruz. Başka bir siteden alınan APK değiştirilmiş veya eski olabilir, bu yüzden lütfen Google Play’den yükleyin."
         }
       ]
     },
@@ -238,6 +246,10 @@
         {
           "q": "Ücretsiz sürümde neler var?",
           "a": "Sınırsız zamanlayıcı, sayaç ve kronometre; günlük süre sınırı yok. Ücretsiz sürümdeki tek sınır aynı anda tek kayan pencere göstermesi — Pro ile istediğin kadar gösterebilir ya da kısa bir reklam izleyip 24 saatlik Free Pass alabilirsin."
+        },
+        {
+          "q": "FloatTimer+ uygulamasını Android araç multimedya cihazında kullanabilir miyim?",
+          "a": "Evet, araç multimedya cihazınızda Google Play varsa ve Android 8.0 veya üstü çalışıyorsa. Yüzen zamanlayıcı navigasyon veya müziğin üzerinde kalır. Kurulum ekranları geniş ve alçak yatay ekranlar için düzenlendi. Cihazın “Diğer uygulamaların üzerinde göster” iznine izin vermesi gerekir."
         }
       ]
     },
@@ -268,6 +280,10 @@
         {
           "q": "Gösterilen desibel kesin bir ölçüm mü?",
           "a": "Bir tahmindir. Yükseltme gerçek desibel olarak, DSÖ temelli Güvenli, Dikkat ve Tehlike bölgeleriyle gösterilir; ancak değer sistem sesi ve uygulanan kazançtan hesaplanır ve gerçek ses düzeyi cihaza, kulaklığa ve içeriğe göre değişir. Bu uygulama tıbbi cihaz değildir; kulak ağrısı veya çınlama fark ederseniz sesi kısın ve bir uzmana danışın."
+        },
+        {
+          "q": "VolumeBooster+ uygulamasını Android araç multimedya cihazında kullanabilir miyim?",
+          "a": "Evet, araç multimedya cihazınızda Google Play varsa ve Android 7.0 veya üstü çalışıyorsa. Kurulum ekranları geniş ve alçak yatay ekranlar için düzenlendi. Sesin ne kadar yükseleceği cihazın amfisine ve hoparlörlerine bağlıdır."
         }
       ]
     },
@@ -366,6 +382,10 @@
         {
           "q": "Ücretsiz mi?",
           "a": "Evet. Not kaydetmek sınırsız ve ücretsizdir; ücretsiz sürüm aynı anda tek yüzen not sunar, yedi rengin tümünü verir ve reklam gösterir. Pro; sınırsız yüzen not, görseller, ayarlanabilir saydamlık, Google Drive eşitleme, dışa/içe aktarma ekler ve reklamları kaldırır."
+        },
+        {
+          "q": "FloatNote+ uygulamasını Android araç multimedya cihazında kullanabilir miyim?",
+          "a": "Evet, araç multimedya cihazınızda Google Play varsa ve Android 8.0 veya üstü çalışıyorsa. Notlar navigasyon veya müziğin üzerinde yüzer. Kurulum ekranları geniş ve alçak yatay ekranlar için düzenlendi. Cihazın “Diğer uygulamaların üzerinde göster” iznine izin vermesi gerekir."
         }
       ]
     },
@@ -396,6 +416,10 @@
         {
           "q": "Ücretsiz sürümde ne var, Pro ne ekler?",
           "a": "Tüm döndürme modları, Yönü koru, Bir kez döndür, kutucuklar, widget'lar ve kısayollar ücretsizdir; buna 3 uygulama kuralı ve küçük bir banner reklam eşlik eder. Pro sınırsız kural, yönü otomatik değiştiren koşullar (şarjdayken, kulaklıkla, bir Bluetooth cihazıyla, araç veya masa yuvasında, arama sırasında ya da belirlediğiniz saatlerde) ve yüzen döndürme düğmesi ekler, reklamları kaldırır. Önce denemek mi istiyorsunuz? Bir reklam izleyin, bir Pro özelliği için 24 saatlik Free Pass alın."
+        },
+        {
+          "q": "Rotate+ uygulamasını Android araç multimedya cihazında kullanabilir miyim?",
+          "a": "Evet, araç multimedya cihazınızda Google Play varsa ve Android 8.0 veya üstü çalışıyorsa. Uygulama kurallarıyla navigasyon, müzik veya video uygulamaları istediğiniz yönde kalır. Kurulum ekranları geniş ve alçak yatay ekranlar için düzenlendi. Cihazın “Diğer uygulamaların üzerinde göster” iznine izin vermesi gerekir."
         }
       ]
     },

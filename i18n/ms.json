@@ -127,10 +127,10 @@
       "seo": "Pengurus Auto Start Android",
       "desc": "Lancarkan aplikasi anda secara automatik semasa but. Tanpa root, tetapkan sekali.",
       "tagline": "Auto start aplikasi anda selepas setiap kali telefon dimulakan semula, sebaik sahaja anda membuka kuncinya. Tanpa root, tetapkan sekali, berjalan selamanya.",
-      "long": "AutoStart+ ialah pengurus mula automatik paling ringkas untuk Android: pilih apl anda, dan selepas setiap mula semula, sebaik peranti dibuka kunci, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketikan setiap pagi. Cari dalam semua apl yang dipasang, tambah ke senarai dalam beberapa saat, hidupkan atau matikan dengan satu ketikan, dan seret barisnya untuk menetapkan susunan mula. Tak perlu but semula untuk menguji: menu ⋮ pada setiap baris membuka apl itu serta-merta, dan selepas but satu mesej ringkas memberitahu apa yang sudah berjalan — selebihnya cukup satu ketikan. Versi percuma memulakan 1 apl; PRO menanggalkan had itu supaya seluruh senarai berjalan mengikut susunan, atau tonton iklan ringkas untuk membuka had selama 24 jam.",
+      "long": "AutoStart+ ialah pengurus mula automatik paling ringkas untuk Android: pilih apl anda, dan selepas setiap mula semula, sebaik peranti dibuka kunci, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketikan setiap pagi. Cari dalam semua apl yang dipasang, tambah ke senarai dalam beberapa saat, hidupkan atau matikan dengan satu ketikan, dan seret barisnya untuk menetapkan susunan mula. Tak perlu but semula untuk menguji: menu ⋮ pada setiap baris membuka apl itu serta-merta, dan selepas but satu mesej ringkas memberitahu apa yang sudah berjalan — selebihnya cukup satu ketikan. Versi percuma memulakan 1 apl; PRO menanggalkan had itu supaya seluruh senarai berjalan mengikut susunan, atau tonton iklan ringkas untuk membuka had selama 24 jam. Kebanyakan unit kepala kereta Android tidur dan bukannya dimulakan semula apabila kereta dimatikan. Hidupkan Mod kereta dan apl anda akan dibuka semula setiap kali skrin menyala selepas dimatikan selama 3 minit atau lebih. Percuma.",
       "features": [
         "Memulakan apl pilihan anda selepas setiap mula semula, sebaik peranti dibuka kunci — tanpa root, tanpa ROM tersuai",
-        "Cari dalam semua apl yang dipasang, tambah dalam beberapa saat dan hidupkan atau matikan dengan satu ketikan",
+        "Mod Kereta untuk unit kepala: apl anda dibuka semula setiap kali skrin bangun daripada tidur — percuma",
         "Seret barisnya untuk menentukan apl mana yang bermula dahulu pada setiap but",
         "«Jalankan sekarang» dari menu ⋮ pada mana-mana baris — uji senarai tanpa but semula",
         "Selepas mula semula, sepanduk menjalankan seluruh senarai dengan satu ketikan sebaik anda membuka kunci (PRO)",
@@ -142,12 +142,20 @@
           "a": "Xiaomi, OPPO, vivo dan Huawei menyekat permulaan latar belakang secara lalai. AutoStart+ mengecam peranti anda dan membawa anda terus ke skrin «Mula automatik» dalam tetapan keselamatan telefon — berikan kebenaran di situ dan pelancaran semasa but akan berfungsi. Mengecualikan apl daripada pengoptimuman bateri juga membantu."
         },
         {
+          "q": "Adakah AutoStart+ berfungsi pada unit kepala kereta Android?",
+          "a": "Kebanyakan unit kepala kereta Android tidur dan bukannya dimulakan semula apabila kereta dimatikan. Hidupkan Mod kereta dan apl anda akan dibuka semula setiap kali skrin menyala selepas dimatikan selama 3 minit atau lebih. Percuma."
+        },
+        {
           "q": "Berapa banyak aplikasi yang boleh saya auto start?",
           "a": "Versi percuma memulakan 1 apl pada setiap but. PRO menanggalkan had itu supaya seluruh senarai berjalan mengikut susunan yang anda tetapkan. Jika belum mahu melanggan, menonton iklan ringkas membuka had itu selama 24 jam."
         },
         {
           "q": "Adakah ia akan menghabiskan bateri saya?",
           "a": "AutoStart+ hanya berjalan sekali semasa but dan bukan aplikasi latar belakang yang sentiasa aktif, jadi ia hampir tidak memberi kesan pada hayat bateri."
+        },
+        {
+          "q": "Adakah APK rasmi AutoStart+?",
+          "a": "Tiada. AutoStart+ hanya diterbitkan di Google Play, dan laman ini ialah laman web rasminya — kami tidak mengeluarkan fail APK di tempat lain. APK daripada laman lain mungkin telah diubah suai atau lapuk, jadi pasang dari Google Play."
         }
       ]
     },
@@ -238,6 +246,10 @@
         {
           "q": "Apa yang ada dalam versi percuma?",
           "a": "Pemasa, pembilang dan jam randik tanpa had bilangan, tanpa had masa harian. Satu-satunya had percuma ialah satu tetingkap terapung pada satu masa — dengan Pro anda boleh memaparkan seberapa banyak, atau tonton iklan pendek untuk Free Pass 24 jam."
+        },
+        {
+          "q": "Bolehkah saya menggunakan FloatTimer+ pada unit kepala kereta Android?",
+          "a": "Ya, jika unit kepala kereta anda mempunyai Google Play dan menjalankan Android 8.0 atau lebih baharu. Pemasa terapung kekal di atas apl navigasi atau muzik. Skrin persediaan direka untuk paparan landskap yang lebar dan rendah. Unit kepala mesti membenarkan “Papar di atas apl lain”."
         }
       ]
     },
@@ -268,6 +280,10 @@
         {
           "q": "Adakah nilai desibel yang dipaparkan ukuran yang tepat?",
           "a": "Ia anggaran. Penguatan dipaparkan dalam desibel sebenar dengan zon Selamat, Berhati-hati dan Bahaya berdasarkan WHO, tetapi nilainya dikira daripada volum sistem dan gandaan yang digunakan, dan kelantangan sebenar berbeza mengikut peranti, fon kepala dan kandungan. Apl ini bukan peranti perubatan — jika anda rasa sakit telinga atau berdengung, rendahkan volum dan dapatkan nasihat profesional."
+        },
+        {
+          "q": "Bolehkah saya menggunakan VolumeBooster+ pada unit kepala kereta Android?",
+          "a": "Ya, jika unit kepala kereta anda mempunyai Google Play dan menjalankan Android 7.0 atau lebih baharu. Skrin persediaan direka untuk paparan landskap yang lebar dan rendah. Sejauh mana bunyi menjadi lebih kuat bergantung pada penguat dan pembesar suara unit kepala."
         }
       ]
     },
@@ -366,6 +382,10 @@
         {
           "q": "Adakah ia percuma?",
           "a": "Ya. Menyimpan nota adalah percuma dan tanpa had, dan versi percuma memaparkan satu nota terapung pada satu masa dengan kesemua 7 warna serta iklan. Pro menambah nota terapung tanpa had, gambar, kelegapan boleh laras, penyegerakan Google Drive, eksport dan import, serta membuang iklan."
+        },
+        {
+          "q": "Bolehkah saya menggunakan FloatNote+ pada unit kepala kereta Android?",
+          "a": "Ya, jika unit kepala kereta anda mempunyai Google Play dan menjalankan Android 8.0 atau lebih baharu. Nota terapung di atas apl navigasi atau muzik. Skrin persediaan direka untuk paparan landskap yang lebar dan rendah. Unit kepala mesti membenarkan “Papar di atas apl lain”."
         }
       ]
     },
@@ -396,6 +416,10 @@
         {
           "q": "Apa yang percuma dan apa tambahan Pro?",
           "a": "Semua mod putaran, Kekalkan orientasi, Putar sekali, jubin, widget dan pintasan adalah percuma, bersama 3 peraturan mengikut apl dan iklan sepanduk kecil. Pro menambah peraturan tanpa had, syarat yang menukar orientasi sendiri (semasa mengecas, dengan fon kepala, peranti Bluetooth, dok kereta atau meja, semasa panggilan atau pada waktu tertentu), butang putar terapung dan membuang iklan. Mahu cuba dahulu? Tonton satu iklan untuk Free Pass 24 jam bagi ciri Pro."
+        },
+        {
+          "q": "Bolehkah saya menggunakan Rotate+ pada unit kepala kereta Android?",
+          "a": "Ya, jika unit kepala kereta anda mempunyai Google Play dan menjalankan Android 8.0 atau lebih baharu. Dengan peraturan apl, apl navigasi, muzik atau video kekal pada orientasi pilihan anda. Skrin persediaan direka untuk paparan landskap yang lebar dan rendah. Unit kepala mesti membenarkan “Papar di atas apl lain”."
         }
       ]
     },

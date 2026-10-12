@@ -127,10 +127,10 @@
       "seo": "Ứng dụng tự khởi động Android",
       "desc": "Tự động mở ứng dụng khi khởi động máy. Không cần root, cài đặt một lần.",
       "tagline": "Tự động mở ứng dụng sau mỗi lần khởi động lại, ngay khi bạn mở khóa điện thoại. Không cần root, cài một lần, chạy mãi.",
-      "long": "AutoStart+ là trình quản lý tự khởi chạy đơn giản nhất trên Android: chọn ứng dụng bạn muốn, và sau mỗi lần khởi động lại, ngay khi bạn mở khóa máy chúng tự mở — không root, không script, không phải chạm mỗi sáng. Tìm trong toàn bộ ứng dụng đã cài, thêm vào danh sách trong vài giây, bật tắt chỉ với một chạm và kéo các dòng để đặt thứ tự khởi chạy. Cũng không cần khởi động lại để thử: menu ⋮ ở mỗi dòng mở ứng dụng đó tức thì, còn sau khi máy khởi động sẽ có thông báo ngắn cho biết những gì đã chạy, phần còn lại chỉ cần một chạm. Bản miễn phí tự mở 1 ứng dụng; PRO bỏ giới hạn để cả danh sách chạy theo thứ tự, hoặc xem một quảng cáo ngắn để bỏ giới hạn miễn phí trong 24 giờ.",
+      "long": "AutoStart+ là trình quản lý tự khởi chạy đơn giản nhất trên Android: chọn ứng dụng bạn muốn, và sau mỗi lần khởi động lại, ngay khi bạn mở khóa máy chúng tự mở — không root, không script, không phải chạm mỗi sáng. Tìm trong toàn bộ ứng dụng đã cài, thêm vào danh sách trong vài giây, bật tắt chỉ với một chạm và kéo các dòng để đặt thứ tự khởi chạy. Cũng không cần khởi động lại để thử: menu ⋮ ở mỗi dòng mở ứng dụng đó tức thì, còn sau khi máy khởi động sẽ có thông báo ngắn cho biết những gì đã chạy, phần còn lại chỉ cần một chạm. Bản miễn phí tự mở 1 ứng dụng; PRO bỏ giới hạn để cả danh sách chạy theo thứ tự, hoặc xem một quảng cáo ngắn để bỏ giới hạn miễn phí trong 24 giờ. Hầu hết màn hình Android ô tô chuyển sang chế độ ngủ thay vì khởi động lại khi bạn tắt máy xe. Bật Chế độ ô tô, ứng dụng sẽ tự mở lại mỗi khi màn hình bật sau khi tắt từ 3 phút trở lên. Miễn phí.",
       "features": [
         "Tự mở các ứng dụng đã chọn sau mỗi lần khởi động lại, ngay khi mở khóa máy — không root, không ROM tùy chỉnh",
-        "Tìm trong toàn bộ ứng dụng đã cài, thêm vào trong vài giây và bật tắt chỉ với một chạm",
+        "Chế độ ô tô cho màn hình ô tô: ứng dụng tự mở lại mỗi khi màn hình thức dậy từ chế độ ngủ — miễn phí",
         "Kéo các dòng để quyết định ứng dụng nào chạy trước ở mỗi lần bật máy",
         "«Chạy ngay» trong menu ⋮ của mỗi dòng — kiểm tra danh sách mà không cần khởi động lại",
         "Sau khi khởi động lại, banner mở cả danh sách chỉ với một chạm ngay khi bạn mở khóa (PRO)",
@@ -142,12 +142,20 @@
           "a": "Xiaomi, OPPO, vivo và Huawei chặn khởi chạy nền theo mặc định. AutoStart+ nhận ra máy của bạn và đưa thẳng tới màn hình «Tự khởi chạy» trong phần cài đặt bảo mật của máy — cấp quyền ở đó là chạy được. Loại ứng dụng khỏi phần tối ưu hóa pin cũng giúp ổn định hơn."
         },
         {
+          "q": "AutoStart+ có hoạt động trên màn hình Android ô tô không?",
+          "a": "Hầu hết màn hình Android ô tô chuyển sang chế độ ngủ thay vì khởi động lại khi bạn tắt máy xe. Bật Chế độ ô tô, ứng dụng sẽ tự mở lại mỗi khi màn hình bật sau khi tắt từ 3 phút trở lên. Miễn phí."
+        },
+        {
           "q": "Tôi có thể tự khởi động bao nhiêu ứng dụng?",
           "a": "Bản miễn phí mở 1 ứng dụng mỗi lần khởi động. PRO bỏ giới hạn, cả danh sách sẽ chạy theo thứ tự bạn đặt. Nếu chưa muốn đăng ký, xem một quảng cáo ngắn sẽ bỏ giới hạn trong 24 giờ."
         },
         {
           "q": "Ứng dụng có làm hao pin không?",
           "a": "AutoStart+ chỉ chạy một lần khi khởi động và không phải là ứng dụng chạy nền liên tục, nên hầu như không ảnh hưởng đến thời lượng pin."
+        },
+        {
+          "q": "AutoStart+ có APK chính thức không?",
+          "a": "Không. AutoStart+ chỉ được phát hành trên Google Play và trang này là trang web chính thức — chúng tôi không phát hành tệp APK ở bất kỳ nơi nào khác. APK từ trang khác có thể đã bị sửa đổi hoặc lỗi thời, vì vậy hãy cài đặt từ Google Play."
         }
       ]
     },
@@ -238,6 +246,10 @@
         {
           "q": "Bản miễn phí có những gì?",
           "a": "Không giới hạn số lượng hẹn giờ, bộ đếm và bấm giờ, cũng không giới hạn thời gian mỗi ngày. Giới hạn duy nhất là hiển thị một cửa sổ nổi tại một thời điểm — bản Pro hiển thị bao nhiêu tùy ý, hoặc xem quảng cáo ngắn để nhận Free Pass 24 giờ."
+        },
+        {
+          "q": "Tôi có thể dùng FloatTimer+ trên màn hình Android ô tô không?",
+          "a": "Có, nếu màn hình Android ô tô của bạn có Google Play và chạy Android 8.0 trở lên. Bộ hẹn giờ nổi luôn nằm trên ứng dụng dẫn đường hoặc nhạc. Các màn hình thiết lập được bố trí cho màn hình ngang rộng và thấp. Màn hình ô tô phải cho phép “Hiển thị trên các ứng dụng khác”."
         }
       ]
     },
@@ -268,6 +280,10 @@
         {
           "q": "Giá trị decibel hiển thị có phải là số đo chính xác không?",
           "a": "Đó là ước tính. Mức tăng hiển thị bằng decibel thật kèm vùng An toàn, Thận trọng và Nguy hiểm theo WHO, nhưng giá trị này được tính từ âm lượng hệ thống và mức khuếch đại áp dụng, còn độ lớn thực tế thay đổi theo thiết bị, tai nghe và nội dung. Ứng dụng không phải thiết bị y tế, nên nếu bạn thấy đau tai hoặc ù tai, hãy giảm âm lượng và tham khảo ý kiến chuyên gia."
+        },
+        {
+          "q": "Tôi có thể dùng VolumeBooster+ trên màn hình Android ô tô không?",
+          "a": "Có, nếu màn hình Android ô tô của bạn có Google Play và chạy Android 7.0 trở lên. Các màn hình thiết lập được bố trí cho màn hình ngang rộng và thấp. Âm lượng tăng được bao nhiêu tùy vào bộ khuếch đại và loa của màn hình ô tô."
         }
       ]
     },
@@ -366,6 +382,10 @@
         {
           "q": "Có dùng miễn phí được không?",
           "a": "Có. Lưu ghi chú là miễn phí và không giới hạn, bản miễn phí cho nổi một ghi chú mỗi lần, đủ 7 màu và có quảng cáo. Pro thêm ghi chú nổi không giới hạn, hình ảnh, chỉnh độ mờ, đồng bộ Google Drive, xuất và nhập, đồng thời gỡ quảng cáo."
+        },
+        {
+          "q": "Tôi có thể dùng FloatNote+ trên màn hình Android ô tô không?",
+          "a": "Có, nếu màn hình Android ô tô của bạn có Google Play và chạy Android 8.0 trở lên. Ghi chú nổi trên ứng dụng dẫn đường hoặc nhạc. Các màn hình thiết lập được bố trí cho màn hình ngang rộng và thấp. Màn hình ô tô phải cho phép “Hiển thị trên các ứng dụng khác”."
         }
       ]
     },
@@ -396,6 +416,10 @@
         {
           "q": "Bản miễn phí và Pro khác nhau thế nào?",
           "a": "Mọi chế độ xoay, Giữ hướng màn hình, Xoay một lần, ô cài đặt nhanh, tiện ích và lối tắt đều miễn phí, kèm 3 quy tắc theo ứng dụng và một banner quảng cáo nhỏ. Pro thêm quy tắc không giới hạn, điều kiện tự đổi hướng (khi sạc, khi cắm tai nghe, thiết bị Bluetooth, đế xe hơi hoặc đế bàn, trong cuộc gọi hay vào khung giờ đã đặt), nút xoay nổi và bỏ quảng cáo. Muốn thử trước? Xem một quảng cáo để nhận Free Pass 24 giờ cho một tính năng Pro."
+        },
+        {
+          "q": "Tôi có thể dùng Rotate+ trên màn hình Android ô tô không?",
+          "a": "Có, nếu màn hình Android ô tô của bạn có Google Play và chạy Android 8.0 trở lên. Với quy tắc ứng dụng, ứng dụng dẫn đường, nhạc hoặc video luôn ở hướng bạn muốn. Các màn hình thiết lập được bố trí cho màn hình ngang rộng và thấp. Màn hình ô tô phải cho phép “Hiển thị trên các ứng dụng khác”."
         }
       ]
     },

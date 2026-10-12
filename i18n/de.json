@@ -127,10 +127,10 @@
       "seo": "Autostart-Manager für Android",
       "desc": "Starte deine Apps automatisch beim Hochfahren. Kein Root nötig, einmal einrichten.",
       "tagline": "Starte deine Apps nach jedem Neustart automatisch, sobald du das Handy entsperrst. Kein Root, einmal einrichten, läuft für immer.",
-      "long": "AutoStart+ ist der einfachste Autostart-Manager für Android: Apps auswählen — nach jedem Neustart starten sie von selbst, sobald du das Gerät entsperrst. Kein Root, keine Skripte, kein tägliches Tippen. Durchsuchen Sie alle installierten Apps, fügen Sie sie in Sekunden hinzu, schalten Sie jede mit einem Tipp ein oder aus und ziehen Sie die Zeilen in die gewünschte Startreihenfolge. Zum Testen ist kein Neustart nötig: Das ⋮-Menü jeder Zeile öffnet die App sofort, und nach dem Start meldet eine kurze Nachricht, was gestartet ist — der Rest folgt mit einem Tipp. In der Gratisversion startet 1 App automatisch; PRO hebt das Limit auf, sodass die ganze Liste der Reihe nach läuft, und wer noch kein Abo möchte, schaltet das Limit mit einem kurzen Werbeclip 24 Stunden lang frei.",
+      "long": "AutoStart+ ist der einfachste Autostart-Manager für Android: Apps auswählen — nach jedem Neustart starten sie von selbst, sobald du das Gerät entsperrst. Kein Root, keine Skripte, kein tägliches Tippen. Durchsuchen Sie alle installierten Apps, fügen Sie sie in Sekunden hinzu, schalten Sie jede mit einem Tipp ein oder aus und ziehen Sie die Zeilen in die gewünschte Startreihenfolge. Zum Testen ist kein Neustart nötig: Das ⋮-Menü jeder Zeile öffnet die App sofort, und nach dem Start meldet eine kurze Nachricht, was gestartet ist — der Rest folgt mit einem Tipp. In der Gratisversion startet 1 App automatisch; PRO hebt das Limit auf, sodass die ganze Liste der Reihe nach läuft, und wer noch kein Abo möchte, schaltet das Limit mit einem kurzen Werbeclip 24 Stunden lang frei. Die meisten Android-Autoradios gehen beim Ausschalten des Autos in den Ruhezustand, statt neu zu starten. Mit dem Automodus öffnen sich deine Apps jedes Mal wieder, wenn sich der Bildschirm nach mindestens 3 Minuten aus wieder einschaltet. Kostenlos.",
       "features": [
         "Startet die ausgewählten Apps nach jedem Neustart, sobald du das Gerät entsperrst — ohne Root, ohne Custom-ROM",
-        "Alle installierten Apps durchsuchen, in Sekunden hinzufügen und mit einem Tipp ein- oder ausschalten",
+        "Automodus für Autoradios: Deine Apps öffnen sich bei jedem Aufwachen des Bildschirms wieder — kostenlos",
         "Zeilen per Drag & Drop ziehen und so festlegen, welche App zuerst startet",
         "„Jetzt starten“ im ⋮-Menü jeder Zeile — die Liste prüfen, ohne neu zu starten",
         "Nach einem Neustart startet ein Banner die ganze Liste mit einem Tipp, sobald du entsperrst (PRO)",
@@ -142,12 +142,20 @@
           "a": "Xiaomi, OPPO, vivo und Huawei blockieren den Hintergrundstart standardmäßig. AutoStart+ erkennt Ihr Gerät und bringt Sie direkt zum „Autostart“-Bildschirm in den Sicherheitseinstellungen Ihres Handys — erteilen Sie die Freigabe dort, dann funktioniert der Boot-Start. Hilfreich ist außerdem, die App von der Akku-Optimierung auszunehmen."
         },
         {
+          "q": "Funktioniert AutoStart+ auf Android-Autoradios?",
+          "a": "Die meisten Android-Autoradios gehen beim Ausschalten des Autos in den Ruhezustand, statt neu zu starten. Mit dem Automodus öffnen sich deine Apps jedes Mal wieder, wenn sich der Bildschirm nach mindestens 3 Minuten aus wieder einschaltet. Kostenlos."
+        },
+        {
           "q": "Wie viele Apps kann ich automatisch starten?",
           "a": "In der Gratisversion startet 1 App pro Bootvorgang. PRO hebt das Limit auf, sodass die ganze Liste in der von Ihnen festgelegten Reihenfolge läuft. Wenn Sie kein Abo möchten, schaltet ein kurzer Werbeclip das Limit 24 Stunden lang frei."
         },
         {
           "q": "Verbraucht das meinen Akku?",
           "a": "AutoStart+ läuft nur einmal beim Hochfahren und ist keine ständig aktive Hintergrund-App, daher hat es fast keinen Einfluss auf die Akkulaufzeit."
+        },
+        {
+          "q": "Gibt es eine offizielle APK von AutoStart+?",
+          "a": "Nein. AutoStart+ erscheint nur bei Google Play, und diese Seite ist die offizielle Website – wir veröffentlichen nirgendwo sonst APK-Dateien. Eine APK von einer anderen Seite kann verändert oder veraltet sein, also installiere die App bitte über Google Play."
         }
       ]
     },
@@ -238,6 +246,10 @@
         {
           "q": "Was ist in der Gratis-Version enthalten?",
           "a": "Unbegrenzt viele Timer, Zähler und Stoppuhren, ohne Tageslimit. Die einzige Einschränkung ist ein schwebendes Fenster gleichzeitig — mit Pro sind es beliebig viele, oder du siehst dir eine kurze Werbung für einen 24-Stunden-Free-Pass an."
+        },
+        {
+          "q": "Kann ich FloatTimer+ auf einem Android-Autoradio nutzen?",
+          "a": "Ja, wenn dein Autoradio Google Play hat und mit Android 8.0 oder neuer läuft. Der schwebende Timer bleibt über Navigation oder Musik. Die Einrichtungsbildschirme sind für breite, flache Querformat-Displays ausgelegt. Das Autoradio muss „Über anderen Apps einblenden“ erlauben."
         }
       ]
     },
@@ -268,6 +280,10 @@
         {
           "q": "Ist der angezeigte Dezibelwert eine exakte Messung?",
           "a": "Es ist eine Schätzung. Der Boost wird in echten Dezibel mit den WHO-Bereichen Sicher, Vorsicht und Gefahr angezeigt, der Wert ergibt sich aber aus deiner Systemlautstärke und der angewendeten Verstärkung, und die tatsächliche Lautheit hängt von Gerät, Kopfhörern und Inhalt ab. Die App ist kein Medizinprodukt — bei Ohrenschmerzen oder Ohrgeräuschen die Lautstärke senken und Fachleute konsultieren."
+        },
+        {
+          "q": "Kann ich VolumeBooster+ auf einem Android-Autoradio nutzen?",
+          "a": "Ja, wenn dein Autoradio Google Play hat und mit Android 7.0 oder neuer läuft. Die Einrichtungsbildschirme sind für breite, flache Querformat-Displays ausgelegt. Wie viel lauter es wird, hängt vom Verstärker und den Lautsprechern des Autoradios ab."
         }
       ]
     },
@@ -366,6 +382,10 @@
         {
           "q": "Ist es kostenlos?",
           "a": "Ja. Notizen zu speichern ist unbegrenzt und kostenlos, und die kostenlose Version lässt eine Notiz gleichzeitig schweben, bietet alle 7 Farben und zeigt Werbung. Pro ergänzt unbegrenzte schwebende Notizen, Bilder, einstellbare Transparenz, Google-Drive-Sync, Export und Import – und entfernt die Werbung."
+        },
+        {
+          "q": "Kann ich FloatNote+ auf einem Android-Autoradio nutzen?",
+          "a": "Ja, wenn dein Autoradio Google Play hat und mit Android 8.0 oder neuer läuft. Notizen schweben über Navigation oder Musik. Die Einrichtungsbildschirme sind für breite, flache Querformat-Displays ausgelegt. Das Autoradio muss „Über anderen Apps einblenden“ erlauben."
         }
       ]
     },
@@ -396,6 +416,10 @@
         {
           "q": "Was ist gratis, was bringt Pro?",
           "a": "Alle Drehmodi, Ausrichtung halten, Einmal drehen, Kacheln, Widgets und Verknüpfungen sind gratis, dazu 3 App-Regeln und ein kleines Werbebanner. Pro bringt unbegrenzte App-Regeln, Bedingungen, die die Ausrichtung automatisch ändern (beim Laden, mit Kopfhörern, einem Bluetooth-Gerät, im Auto- oder Tischdock, während eines Anrufs oder zu festen Zeiten), eine schwebende Dreh-Taste und keine Werbung. Erst ausprobieren? Eine Werbung ansehen und 24 Stunden Free Pass für eine Pro-Funktion erhalten."
+        },
+        {
+          "q": "Kann ich Rotate+ auf einem Android-Autoradio nutzen?",
+          "a": "Ja, wenn dein Autoradio Google Play hat und mit Android 8.0 oder neuer läuft. Mit App-Regeln bleiben Navigation, Musik oder Videos in der gewünschten Ausrichtung. Die Einrichtungsbildschirme sind für breite, flache Querformat-Displays ausgelegt. Das Autoradio muss „Über anderen Apps einblenden“ erlauben."
         }
       ]
     },
