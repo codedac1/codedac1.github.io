@@ -362,7 +362,7 @@
         "Yüzen kaplama notlar: notu küçük bir çipe küçültün, her uygulamanın üstünde tam kart olarak açın",
         "7 not rengi ve zengin metin: kalın, italik, altı çizili, üstü çizili, metin rengi ve boyutu",
         "Notta görsel (Pro): fotoğrafları doğrudan notun içine ekleyin",
-        "Hızlı yakalama: paylaşım menüsünden, başka bir uygulamada seçili metinden veya Hızlı Ayarlar döşemesinden",
+        "Not hatırlatıcıları — bir kez, her gün, hafta içi ya da seçilen günler",
         "Anında arama, sabitleme ve sürükleyerek sıralama sunan arşiv; çipi alttaki bölgeye bırakmak notu silmez, kaldırır",
         "Pro: sınırsız yüzen not, görseller, ayarlanabilir saydamlık, Google Drive eşitleme, dışa/içe aktarma, reklamsız"
       ],
@@ -386,6 +386,10 @@
         {
           "q": "FloatNote+ uygulamasını Android araç multimedya cihazında kullanabilir miyim?",
           "a": "Evet, araç multimedya cihazınızda Google Play varsa ve Android 8.0 veya üstü çalışıyorsa. Notlar navigasyon veya müziğin üzerinde yüzer. Kurulum ekranları geniş ve alçak yatay ekranlar için düzenlendi. Cihazın “Diğer uygulamaların üzerinde göster” iznine izin vermesi gerekir."
+        },
+        {
+          "q": "Not belirlediğim saatte çıkabilir mi?",
+          "a": "Evet. Bir saat seç; notun o saatte bildirimle birlikte ekranda belirsin — bir kez, her gün, hafta içi ya da yalnızca seçtiğin günlerde. (Ücretsiz: 1 hatırlatıcı · Pro: sınırsız)"
         }
       ]
     },
@@ -459,7 +463,7 @@
       "features": [
         "Her pencerenin üstünde yüzen yapışkan notlar: çip olduğu yerde düzenlenebilir karta genişler, Esc ile geri katlanır",
         "Odağı asla almaz — çipi sürükleyin ya da tıklayın, imleç yazdığınız uygulamada kalır",
-        "Kaydet düğmesi yok: her tuş vuruşu sizin için yazılır ve arşiv penceresi arama, sabitleme ve düzeni üstlenir",
+        "Not hatırlatıcıları — bir kez, her gün, hafta içi ya da seçilen günler",
         "Zengin metin — kalın, italik, altı çizili, üstü çizili, metin rengi ve boyutu — ayrıca 7 pastel not rengi ve not içi görseller",
         "Kendi Google Drive'ınız üzerinden telefondan bilgisayara çift yönlü senkronizasyon — Android uygulamasının kullandığı uygulamaya özel klasörün aynısı, hiçbir CodeDAC sunucusu devrede değil",
         "Global kısayollar, sistem tepsisi, açık ve koyu tema, oturum açılışında başlatma, 21 dil. Reklam yok, Pro tek seferlik satın alma"
@@ -476,6 +480,10 @@
         {
           "q": "Ücretsiz mi?",
           "a": "Evet. Not yazmak ve saklamak ücretsiz ve sınırsızdır, Windows sürümünde reklam yoktur. Ücretsiz sürüm ekranda aynı anda bir not yüzdürür ve yedi rengin tümünü verir. Pro abonelik değil tek seferlik satın almadır; sınırsız yüzen not, not içi görseller, ayarlanabilir not saydamlığı, Google Drive eşitlemesi ile dışa ve içe aktarma ekler."
+        },
+        {
+          "q": "Not belirlediğim saatte çıkabilir mi?",
+          "a": "Evet. Bir saat seç; notun o saatte bildirimle birlikte ekranda belirsin — bir kez, her gün, hafta içi ya da yalnızca seçtiğin günlerde."
         }
       ]
     },

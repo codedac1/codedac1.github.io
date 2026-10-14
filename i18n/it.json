@@ -362,7 +362,7 @@
         "Note fluttuanti in overlay: riduci una nota a un chip e aprila come scheda sopra qualsiasi app",
         "7 colori delle note e testo ricco: grassetto, corsivo, sottolineato, barrato, colore e dimensione del testo",
         "Immagini nella nota (Pro): allega foto direttamente all'interno",
-        "Cattura rapida dal menu di condivisione, dal testo selezionato in un'altra app o dal riquadro delle Impostazioni rapide",
+        "Promemoria delle note: una volta, ogni giorno, feriali o giorni scelti",
         "Archivio con ricerca istantanea, note fissate e riordino trascinando; portare un chip nell'area in basso mette via la nota invece di eliminarla",
         "Pro: note fluttuanti illimitate, immagini, opacità regolabile, sincronizzazione Google Drive, esporta e importa, senza annunci"
       ],
@@ -386,6 +386,10 @@
         {
           "q": "Posso usare FloatNote+ su un'autoradio Android?",
           "a": "Sì, se la tua autoradio ha Google Play e usa Android 8.0 o versioni successive. Le note fluttuano sopra la navigazione o la musica. Le schermate di configurazione sono pensate per display orizzontali larghi e bassi. L'autoradio deve consentire «Mostra sopra altre app»."
+        },
+        {
+          "q": "Una nota può comparire a un orario stabilito?",
+          "a": "Sì. Scegli un orario e la nota compare sullo schermo con una notifica: una volta, ogni giorno, nei giorni feriali o solo nei giorni che scegli. (Gratis: 1 promemoria · Pro: illimitati)"
         }
       ]
     },
@@ -459,7 +463,7 @@
       "features": [
         "Note adesive che fluttuano sopra ogni finestra: il chip si apre sul posto come scheda modificabile ed Esc lo richiude",
         "Non toglie mai il focus: trascina o clicca un chip e il cursore resta nell'app in cui stavi scrivendo",
-        "Nessun pulsante Salva: ogni tasto viene registrato per te, e una finestra archivio gestisce ricerca, note fissate e organizzazione",
+        "Promemoria delle note: una volta, ogni giorno, feriali o giorni scelti",
         "Testo ricco — grassetto, corsivo, sottolineato, barrato, colore e dimensione — con 7 colori pastello e immagini dentro la nota",
         "Sincronizzazione bidirezionale telefono-PC tramite il tuo Google Drive — la stessa cartella privata dell'app usata dalla versione Android, senza passare da alcun server CodeDAC",
         "Scorciatoie globali, area di notifica, temi chiaro e scuro, avvio all'accesso, 21 lingue. Nessuna pubblicità e Pro è un acquisto una tantum"
@@ -476,6 +480,10 @@
         {
           "q": "È gratuita?",
           "a": "Sì. Scrivere e conservare le note è gratuito e illimitato, e la versione Windows non contiene pubblicità. La versione gratuita fa fluttuare una nota alla volta, con tutti e sette i colori. Pro è un acquisto una tantum, non un abbonamento, e aggiunge note fluttuanti illimitate, le immagini nella nota, l'opacità regolabile, la sincronizzazione con Google Drive ed esportazione e importazione."
+        },
+        {
+          "q": "Una nota può comparire a un orario stabilito?",
+          "a": "Sì. Scegli un orario e la nota compare sullo schermo con una notifica: una volta, ogni giorno, nei giorni feriali o solo nei giorni che scegli."
         }
       ]
     },

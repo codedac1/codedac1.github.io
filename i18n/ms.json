@@ -362,7 +362,7 @@
         "Nota tindanan terapung: kuncupkan nota jadi cip, kembangkan jadi kad penuh di atas mana-mana apl",
         "7 warna nota dan teks kaya: tebal, condong, garis bawah, garis lorek, warna dan saiz teks",
         "Gambar dalam nota (Pro): lampirkan foto terus di dalamnya",
-        "Tangkapan pantas daripada menu kongsi, daripada teks dipilih dalam apl lain, atau daripada jubin Tetapan pantas",
+        "Peringatan nota — sekali, setiap hari, hari bekerja atau hari pilihan",
         "Simpanan dengan carian serta-merta, penyematan dan susunan seret; menyeret cip ke kawasan bawah menyimpan nota, bukan memadamnya",
         "Pro: nota terapung tanpa had, gambar, kelegapan boleh laras, penyegerakan Google Drive, eksport & import, tanpa iklan"
       ],
@@ -386,6 +386,10 @@
         {
           "q": "Bolehkah saya menggunakan FloatNote+ pada unit kepala kereta Android?",
           "a": "Ya, jika unit kepala kereta anda mempunyai Google Play dan menjalankan Android 8.0 atau lebih baharu. Nota terapung di atas apl navigasi atau muzik. Skrin persediaan direka untuk paparan landskap yang lebar dan rendah. Unit kepala mesti membenarkan “Papar di atas apl lain”."
+        },
+        {
+          "q": "Bolehkah nota muncul pada masa yang ditetapkan?",
+          "a": "Boleh. Tetapkan masa dan nota anda muncul di skrin bersama pemberitahuan — sekali, setiap hari, hari bekerja atau hanya pada hari yang anda pilih. (Percuma: 1 peringatan · Pro: tanpa had)"
         }
       ]
     },
@@ -459,7 +463,7 @@
       "features": [
         "Nota melekat yang terapung di atas setiap tetingkap: cip berkembang di situ juga menjadi kad boleh sunting, dan Esc menguncupkannya semula",
         "Tidak pernah merampas fokus — seret atau klik cip, kursor anda kekal dalam aplikasi tempat anda menaip",
-        "Tiada butang simpan: setiap ketikan kekunci dirakam untuk anda, dan tetingkap simpanan menguruskan carian, penyematan dan pengurusan",
+        "Peringatan nota — sekali, setiap hari, hari bekerja atau hari pilihan",
         "Teks kaya — tebal, condong, garis bawah, garis lorek, warna dan saiz teks — dengan 7 warna pastel dan gambar dalam nota",
         "Penyegerakan dua hala telefon-ke-PC melalui Google Drive anda sendiri — folder khusus aplikasi yang sama seperti yang digunakan aplikasi Android, tanpa mana-mana pelayan CodeDAC",
         "Kekunci pintas global, dulang sistem, tema cerah dan gelap, jalan semasa log masuk, 21 bahasa. Tiada iklan, dan Pro ialah pembelian sekali sahaja"
@@ -476,6 +480,10 @@
         {
           "q": "Adakah ia percuma?",
           "a": "Ya. Menulis dan menyimpan nota adalah percuma dan tanpa had, dan versi Windows tiada iklan. Versi percuma mengapungkan satu nota pada satu masa, dengan kesemua tujuh warna. Pro ialah pembelian sekali sahaja, bukan langganan, dan menambah nota terapung tanpa had, gambar dalam nota, kelegapan boleh laras, penyegerakan Google Drive serta eksport dan import nota."
+        },
+        {
+          "q": "Bolehkah nota muncul pada masa yang ditetapkan?",
+          "a": "Boleh. Tetapkan masa dan nota anda muncul di skrin bersama pemberitahuan — sekali, setiap hari, hari bekerja atau hanya pada hari yang anda pilih."
         }
       ]
     },

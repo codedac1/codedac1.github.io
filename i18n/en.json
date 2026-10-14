@@ -362,7 +362,7 @@
         "Floating overlay notes: collapse a note to a chip, expand it to a full card over any app",
         "7 sticky-note colors and rich text: bold, italic, underline, strikethrough, text color and size",
         "Inline images (Pro): attach photos right inside a note",
-        "Quick capture from the share sheet, from selected text in any app, or from the Quick Settings tile",
+        "Note reminders — once, every day, weekdays or chosen days",
         "Library with instant search, pinning and drag-to-reorder — dragging a chip to the bottom zone stashes the note instead of deleting it",
         "Pro: unlimited floating notes, inline images, adjustable opacity, Google Drive sync, export & import, no ads"
       ],
@@ -386,6 +386,10 @@
         {
           "q": "Can I use FloatNote+ on an Android car head unit?",
           "a": "Yes, if your head unit has Google Play and runs Android 8.0 or later. Notes float on top of navigation or music. The setup screens are laid out for wide, short landscape displays. The head unit must allow “Display over other apps”."
+        },
+        {
+          "q": "Can a note pop up at a set time?",
+          "a": "Yes. Set a time and your note pops up on screen with a notification — once, every day, on weekdays, or only on the days you pick. (Free: 1 reminder · Pro: unlimited)"
         }
       ]
     },
@@ -459,7 +463,7 @@
       "features": [
         "Sticky notes that float above every window: a chip expands into an editable card in place, and Esc folds it back",
         "Never steals focus — drag or click a chip and your cursor stays in the app you were typing in",
-        "No save button: every keystroke is committed for you, and a library window handles search, pinning and management",
+        "Note reminders — once, every day, weekdays or chosen days",
         "Rich text — bold, italic, underline, strikethrough, text color and size — with 7 pastel note colors and inline images",
         "Bidirectional phone-to-PC sync through your own Google Drive — the same app-private folder the Android app uses, and never a CodeDAC server",
         "Global hotkeys, system tray, light and dark themes, run at logon, 21 languages. No ads, and Pro is a one-time purchase"
@@ -476,6 +480,10 @@
         {
           "q": "Is it free to use?",
           "a": "Yes. Writing and storing notes is free and unlimited, and the Windows version has no ads. The free version floats one note on screen at a time, with all seven colors. Pro is a one-time purchase — not a subscription — and adds unlimited floating notes, inline images, adjustable note transparency, Google Drive sync, and note export and import."
+        },
+        {
+          "q": "Can a note pop up at a set time?",
+          "a": "Yes. Pick a time and the note comes up on screen with a notification: once, every day, on weekdays, or only on the days you choose."
         }
       ]
     },

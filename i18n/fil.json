@@ -362,7 +362,7 @@
         "Lumulutang na overlay notes: i-collapse ang nota sa chip, palawakin bilang buong card sa ibabaw ng kahit anong app",
         "7 kulay ng nota at rich text: bold, italic, underline, strikethrough, kulay at laki ng teksto",
         "Larawan sa nota (Pro): maglakip ng litrato mismo sa loob",
-        "Mabilis na pag-capture mula sa share menu, sa napiling teksto sa ibang app, o sa Quick Settings tile",
+        "Mga paalala sa nota — isang beses, araw-araw, araw ng trabaho o piling araw",
         "Aklatan na may agarang paghahanap, pag-pin, at pag-aayos sa pag-drag; ang paghila ng chip sa ibabang bahagi ay nagtatago ng nota, hindi nagbubura",
         "Pro: walang limitasyong lumulutang na nota, larawan, naiaayos na opacity, Google Drive sync, export at import, walang ad"
       ],
@@ -386,6 +386,10 @@
         {
           "q": "Magagamit ko ba ang FloatNote+ sa isang Android car head unit?",
           "a": "Oo, kung may Google Play ang iyong car head unit at Android 8.0 o mas bago ito. Lumulutang ang mga nota sa ibabaw ng navigation o music app. Inayos ang mga setup screen para sa malapad at mababang landscape na display. Dapat payagan ng head unit ang “Ipakita sa ibabaw ng ibang app”."
+        },
+        {
+          "q": "Puwede bang lumabas ang nota sa itinakdang oras?",
+          "a": "Oo. Magtakda ng oras at lalabas ang nota mo sa screen kasama ang notification — isang beses, araw-araw, tuwing araw ng trabaho, o sa mga araw lang na pipiliin mo. (Libre: 1 paalala · Pro: walang limitasyon)"
         }
       ]
     },
@@ -459,7 +463,7 @@
       "features": [
         "Sticky notes na lumulutang sa ibabaw ng bawat window: bumubukas ang chip bilang card na puwedeng i-edit, at sa Esc babalik ito sa chip",
         "Hindi kumukuha ng focus — i-drag o i-click ang chip at mananatili ang cursor mo sa app na tinitipa mo",
-        "Walang save button: awtomatikong naitatala ang bawat keystroke, at ang library window ang humahawak sa paghahanap, pag-pin, at pamamahala",
+        "Mga paalala sa nota — isang beses, araw-araw, araw ng trabaho o piling araw",
         "Rich text — bold, italic, underline, strikethrough, kulay at laki ng teksto — kasama ang 7 pastel na kulay at larawan sa loob ng nota",
         "Bidirectional na sync ng phone-to-PC sa pamamagitan ng sarili mong Google Drive — ang parehong app-private na folder na ginagamit ng Android app, at hindi kailanman dumadaan sa server ng CodeDAC",
         "Global hotkeys, system tray, light at dark theme, pagtakbo sa logon, 21 wika. Walang ads, at isang beses lang ang bayad sa Pro"
@@ -476,6 +480,10 @@
         {
           "q": "Libre ba ito?",
           "a": "Oo. Libre at walang limitasyon ang pagsulat at pag-imbak ng nota, at walang ads ang bersyon para sa Windows. Ang libreng bersyon ay naglulutang ng isang nota sa bawat pagkakataon, kasama ang lahat ng pitong kulay. Ang Pro ay isang beses na bayad, hindi subscription, at nagdadagdag ng walang limitasyong lumulutang na nota, larawan sa loob ng nota, naiaayos na opacity, Google Drive sync, at export at import ng nota."
+        },
+        {
+          "q": "Puwede bang lumabas ang nota sa itinakdang oras?",
+          "a": "Oo. Magtakda ng oras at lalabas ang nota mo sa screen kasama ang notification — isang beses, araw-araw, tuwing araw ng trabaho, o sa mga araw lang na pipiliin mo."
         }
       ]
     },

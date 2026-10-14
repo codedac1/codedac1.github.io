@@ -362,7 +362,7 @@
         "Pływające notatki overlay: zwiń notatkę do kafelka, rozwiń w pełną kartę nad dowolną aplikacją",
         "7 kolorów karteczek i formatowanie: pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu",
         "Obrazy w notatce (Pro): dołącz zdjęcia bezpośrednio w środku",
-        "Szybki zapis z menu udostępniania, z zaznaczonego tekstu w innej aplikacji lub z kafelka Szybkich ustawień",
+        "Przypomnienia — raz, codziennie, w dni robocze lub w wybrane dni",
         "Archiwum z natychmiastowym wyszukiwaniem, przypinaniem i zmianą kolejności przeciąganiem; przeciągnięcie kafelka do strefy na dole chowa notatkę, a nie usuwa",
         "Pro: nieograniczone pływające notatki, obrazy, regulowana przezroczystość, synchronizacja z Google Dyskiem, eksport i import, bez reklam"
       ],
@@ -386,6 +386,10 @@
         {
           "q": "Czy mogę używać FloatNote+ na radioodtwarzaczu samochodowym z Androidem?",
           "a": "Tak, jeśli radioodtwarzacz ma Google Play i działa na Androidzie 8.0 lub nowszym. Notatki unoszą się nad nawigacją lub muzyką. Ekrany konfiguracji są przygotowane na szerokie, niskie wyświetlacze poziome. Radioodtwarzacz musi zezwalać na „Wyświetlanie nad innymi aplikacjami”."
+        },
+        {
+          "q": "Czy notatka może pojawić się o ustalonej godzinie?",
+          "a": "Tak. Ustaw godzinę, a notatka pojawi się na ekranie z powiadomieniem — raz, codziennie, w dni robocze albo tylko w wybrane dni. (Za darmo: 1 przypomnienie · Pro: bez limitu)"
         }
       ]
     },
@@ -459,7 +463,7 @@
       "features": [
         "Karteczki pływające nad każdym oknem: kafelek rozwija się w miejscu w edytowalną kartę, a Esc zwija go z powrotem",
         "Nigdy nie zabiera fokusu — przeciągnij lub kliknij kafelek, a kursor zostaje w aplikacji, w której pisałeś",
-        "Bez przycisku zapisu: każde naciśnięcie klawisza jest zapisywane, a okno archiwum przejmuje wyszukiwanie, przypinanie i porządkowanie",
+        "Przypomnienia — raz, codziennie, w dni robocze lub w wybrane dni",
         "Formatowanie — pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu — oraz 7 pastelowych kolorów i obrazy w notatce",
         "Dwukierunkowa synchronizacja telefon–komputer przez Twój własny Dysk Google — ten sam prywatny folder aplikacji, którego używa wersja na Androida, bez żadnego serwera CodeDAC",
         "Globalne skróty, zasobnik systemowy, jasny i ciemny motyw, uruchamianie przy logowaniu, 21 języków. Bez reklam, a Pro to jednorazowy zakup"
@@ -476,6 +480,10 @@
         {
           "q": "Czy jest darmowa?",
           "a": "Tak. Pisanie i przechowywanie notatek jest darmowe i nieograniczone, a wersja dla Windows nie zawiera reklam. Wersja bezpłatna trzyma na ekranie jedną pływającą notatkę naraz, we wszystkich siedmiu kolorach. Pro to jednorazowy zakup, a nie subskrypcja — dodaje nieograniczone pływające notatki, obrazy w notatce, regulowaną przezroczystość, synchronizację z Dyskiem Google oraz eksport i import."
+        },
+        {
+          "q": "Czy notatka może pojawić się o ustalonej godzinie?",
+          "a": "Tak. Ustaw godzinę, a notatka pojawi się na ekranie z powiadomieniem — raz, codziennie, w dni robocze albo tylko w wybrane dni."
         }
       ]
     },

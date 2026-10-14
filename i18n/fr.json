@@ -362,7 +362,7 @@
         "Notes flottantes en surimpression : réduisez une note en pastille, ouvrez-la en carte au-dessus de toute appli",
         "7 couleurs de pense-bête et texte enrichi : gras, italique, souligné, barré, couleur et taille du texte",
         "Images dans la note (Pro) : ajoutez des photos directement à l'intérieur",
-        "Capture rapide depuis le menu de partage, depuis du texte sélectionné dans une autre appli ou depuis la tuile des Réglages rapides",
+        "Rappels de notes : une fois, tous les jours, en semaine ou les jours choisis",
         "Bibliothèque avec recherche instantanée, épinglage et réorganisation par glisser ; amener une pastille dans la zone du bas range la note au lieu de la supprimer",
         "Pro : notes flottantes illimitées, images, opacité réglable, synchro Google Drive, export et import, sans publicité"
       ],
@@ -386,6 +386,10 @@
         {
           "q": "Puis-je utiliser FloatNote+ sur un autoradio Android ?",
           "a": "Oui, si votre autoradio dispose de Google Play et tourne sous Android 8.0 ou plus récent. Les notes flottent au-dessus de la navigation ou de la musique. Les écrans de configuration sont conçus pour les affichages paysage larges et bas. L'autoradio doit autoriser « Superposition sur d’autres applis »."
+        },
+        {
+          "q": "Une note peut-elle s'afficher à une heure précise ?",
+          "a": "Oui. Choisissez une heure : votre note apparaît à l'écran avec une notification — une fois, tous les jours, en semaine ou seulement les jours de votre choix. (Gratuit : 1 rappel · Pro : illimité)"
         }
       ]
     },
@@ -459,7 +463,7 @@
       "features": [
         "Des pense-bêtes qui flottent au-dessus de chaque fenêtre : la pastille s'ouvre sur place en carte modifiable, Échap la referme",
         "Ne prend jamais le focus : déplacez ou cliquez une pastille, votre curseur reste dans l'application où vous tapiez",
-        "Aucun bouton d'enregistrement : chaque frappe est écrite pour vous, et une fenêtre bibliothèque gère recherche, épinglage et rangement",
+        "Rappels de notes : une fois, tous les jours, en semaine ou les jours choisis",
         "Texte enrichi — gras, italique, souligné, barré, couleur et taille — avec 7 couleurs pastel et des images dans la note",
         "Synchronisation bidirectionnelle téléphone-PC via votre propre Google Drive — le même dossier privé à l'application que celui de l'appli Android, sans jamais passer par un serveur CodeDAC",
         "Raccourcis globaux, zone de notification, thèmes clair et sombre, lancement à l'ouverture de session, 21 langues. Sans publicité, et Pro est un achat unique"
@@ -476,6 +480,10 @@
         {
           "q": "Est-elle gratuite ?",
           "a": "Oui. Écrire et conserver des notes est gratuit et illimité, et la version Windows ne contient aucune publicité. La version gratuite fait flotter une note à la fois, avec les sept couleurs. Pro est un achat unique, pas un abonnement : il ajoute les notes flottantes illimitées, les images dans la note, l'opacité réglable, la synchro Google Drive, ainsi que l'export et l'import."
+        },
+        {
+          "q": "Une note peut-elle s'afficher à une heure précise ?",
+          "a": "Oui. Choisissez une heure : votre note apparaît à l'écran avec une notification — une fois, tous les jours, en semaine ou seulement les jours de votre choix."
         }
       ]
     },

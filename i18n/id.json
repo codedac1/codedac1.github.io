@@ -362,7 +362,7 @@
         "Catatan overlay mengambang: ciutkan catatan jadi chip, bentangkan jadi kartu penuh di atas aplikasi apa pun",
         "7 warna catatan dan teks kaya: tebal, miring, garis bawah, coret, warna dan ukuran teks",
         "Gambar dalam catatan (Pro): lampirkan foto langsung di dalamnya",
-        "Tangkap cepat dari menu bagikan, dari teks terpilih di aplikasi lain, atau dari ubin Pengaturan cepat",
+        "Pengingat catatan — sekali, setiap hari, hari kerja, atau hari pilihan",
         "Pustaka dengan pencarian seketika, penyematan, dan pengurutan dengan menyeret; menyeret chip ke area bawah menyimpan catatan, bukan menghapusnya",
         "Pro: catatan mengambang tanpa batas, gambar, opasitas yang bisa diatur, sinkronisasi Google Drive, ekspor & impor, tanpa iklan"
       ],
@@ -386,6 +386,10 @@
         {
           "q": "Bisakah saya memakai FloatNote+ di head unit mobil Android?",
           "a": "Ya, jika head unit mobil Anda punya Google Play dan menjalankan Android 8.0 atau lebih baru. Catatan melayang di atas aplikasi navigasi atau musik. Layar penyiapan dirancang untuk layar lanskap yang lebar dan pendek. Head unit harus mengizinkan “Tampilkan di atas aplikasi lain”."
+        },
+        {
+          "q": "Bisakah catatan muncul pada waktu tertentu?",
+          "a": "Bisa. Atur waktu dan catatan Anda muncul di layar bersama notifikasi — sekali, setiap hari, hari kerja, atau hanya di hari yang Anda pilih. (Gratis: 1 pengingat · Pro: tanpa batas)"
         }
       ]
     },
@@ -459,7 +463,7 @@
       "features": [
         "Catatan tempel yang mengambang di atas setiap jendela: chip terbentang di tempat menjadi kartu yang bisa disunting, dan Esc menciutkannya kembali",
         "Tidak pernah merebut fokus — seret atau klik chip, kursor Anda tetap di aplikasi tempat Anda mengetik",
-        "Tanpa tombol simpan: setiap ketikan dicatat untuk Anda, dan jendela pustaka menangani pencarian, penyematan, dan pengelolaan",
+        "Pengingat catatan — sekali, setiap hari, hari kerja, atau hari pilihan",
         "Teks kaya — tebal, miring, garis bawah, coret, warna dan ukuran teks — dengan 7 warna pastel dan gambar di dalam catatan",
         "Sinkronisasi dua arah ponsel-ke-PC melalui Google Drive Anda sendiri — folder khusus aplikasi yang sama dengan yang dipakai aplikasi Android, tanpa melewati server CodeDAC",
         "Hotkey global, baki sistem, tema terang dan gelap, jalan saat logon, 21 bahasa. Tanpa iklan, dan Pro adalah pembelian sekali bayar"
@@ -476,6 +480,10 @@
         {
           "q": "Apakah gratis?",
           "a": "Ya. Menulis dan menyimpan catatan gratis dan tanpa batas, dan versi Windows tidak memiliki iklan. Versi gratis mengambangkan satu catatan di layar pada satu waktu, dengan ketujuh warna. Pro adalah pembelian sekali bayar, bukan langganan, dan menambahkan catatan mengambang tanpa batas, gambar di dalam catatan, opasitas yang bisa diatur, sinkronisasi Google Drive, serta ekspor dan impor catatan."
+        },
+        {
+          "q": "Bisakah catatan muncul pada waktu tertentu?",
+          "a": "Bisa. Atur waktu dan catatan Anda muncul di layar bersama notifikasi — sekali, setiap hari, hari kerja, atau hanya di hari yang Anda pilih."
         }
       ]
     },

@@ -362,7 +362,7 @@
         "Zwevende overlay-notities: vouw een notitie in tot een chip en open hem als volledige kaart boven elke app",
         "7 notitiekleuren en tekstopmaak: vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte",
         "Afbeeldingen in de notitie (Pro): voeg foto's direct in een notitie toe",
-        "Snel vastleggen vanuit het deelmenu, vanuit geselecteerde tekst in een andere app of via de tegel in Snelle instellingen",
+        "Notitieherinneringen — eenmalig, elke dag, werkdagen of gekozen dagen",
         "Archief met directe zoekfunctie, vastpinnen en slepen om te ordenen; een chip naar de zone onderaan slepen bergt de notitie op in plaats van hem te verwijderen",
         "Pro: onbeperkt zwevende notities, afbeeldingen, instelbare transparantie, Google Drive-synchronisatie, export & import, geen advertenties"
       ],
@@ -386,6 +386,10 @@
         {
           "q": "Kan ik FloatNote+ gebruiken op een Android-autoradio?",
           "a": "Ja, als je autoradio Google Play heeft en Android 8.0 of nieuwer draait. Notities zweven boven navigatie of muziek. De installatieschermen zijn gemaakt voor brede, lage liggende displays. De autoradio moet ‘Weergeven over andere apps’ toestaan."
+        },
+        {
+          "q": "Kan een notitie op een vast tijdstip verschijnen?",
+          "a": "Ja. Kies een tijd en je notitie verschijnt op het scherm met een melding — eenmalig, elke dag, op werkdagen of alleen op de dagen die je kiest. (Gratis: 1 herinnering · Pro: onbeperkt)"
         }
       ]
     },
@@ -459,7 +463,7 @@
       "features": [
         "Plaknotities die boven elk venster zweven: de chip vouwt ter plekke open tot een bewerkbare kaart en Esc vouwt hem weer in",
         "Pakt nooit de focus af — sleep of klik een chip en je cursor blijft in de app waarin je typte",
-        "Geen opslaanknop: elke toetsaanslag wordt voor je vastgelegd, en een archiefvenster verzorgt zoeken, vastpinnen en beheren",
+        "Notitieherinneringen — eenmalig, elke dag, werkdagen of gekozen dagen",
         "Tekstopmaak — vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte — met 7 pastelkleuren en afbeeldingen in de notitie",
         "Tweerichtingssynchronisatie telefoon-pc via je eigen Google Drive — dezelfde app-privé map die de Android-app gebruikt, en nooit een CodeDAC-server",
         "Globale sneltoetsen, systeemvak, licht en donker thema, starten bij aanmelden, 21 talen. Geen advertenties en Pro is een eenmalige aankoop"
@@ -476,6 +480,10 @@
         {
           "q": "Is het gratis?",
           "a": "Ja. Notities schrijven en bewaren is gratis en onbeperkt, en de Windows-versie bevat geen advertenties. De gratis versie laat één notitie tegelijk zweven, met alle zeven kleuren. Pro is een eenmalige aankoop, geen abonnement, en voegt onbeperkt zwevende notities toe, afbeeldingen in de notitie, instelbare transparantie, Google Drive-synchronisatie en export en import."
+        },
+        {
+          "q": "Kan een notitie op een vast tijdstip verschijnen?",
+          "a": "Ja. Kies een tijd en je notitie verschijnt op het scherm met een melding — eenmalig, elke dag, op werkdagen of alleen op de dagen die je kiest."
         }
       ]
     },

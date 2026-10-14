@@ -362,7 +362,7 @@
         "Ghi chú lớp phủ nổi: thu gọn thành chip nhỏ, mở thành thẻ đầy đủ trên mọi ứng dụng",
         "7 màu ghi chú và định dạng: in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ",
         "Hình ảnh trong ghi chú (Pro): đính kèm ảnh ngay bên trong",
-        "Ghi nhanh từ menu chia sẻ, từ văn bản đã chọn trong ứng dụng khác hoặc từ ô Cài đặt nhanh",
+        "Nhắc ghi chú — một lần, hằng ngày, ngày thường hoặc ngày tùy chọn",
         "Kho lưu với tìm kiếm tức thì, ghim và kéo để sắp xếp; kéo chip xuống vùng dưới màn hình là cất đi chứ không xóa",
         "Pro: ghi chú nổi không giới hạn, hình ảnh, chỉnh độ mờ, đồng bộ Google Drive, xuất và nhập, không quảng cáo"
       ],
@@ -386,6 +386,10 @@
         {
           "q": "Tôi có thể dùng FloatNote+ trên màn hình Android ô tô không?",
           "a": "Có, nếu màn hình Android ô tô của bạn có Google Play và chạy Android 8.0 trở lên. Ghi chú nổi trên ứng dụng dẫn đường hoặc nhạc. Các màn hình thiết lập được bố trí cho màn hình ngang rộng và thấp. Màn hình ô tô phải cho phép “Hiển thị trên các ứng dụng khác”."
+        },
+        {
+          "q": "Ghi chú có thể hiện lên vào giờ đã đặt không?",
+          "a": "Có. Đặt giờ và ghi chú sẽ hiện lên màn hình kèm thông báo — một lần, hằng ngày, ngày thường hoặc chỉ những ngày bạn chọn. (Miễn phí: 1 lời nhắc · Pro: không giới hạn)"
         }
       ]
     },
@@ -459,7 +463,7 @@
       "features": [
         "Ghi chú dán nổi trên mọi cửa sổ: chip mở ngay tại chỗ thành thẻ chỉnh sửa được, nhấn Esc thì thu lại",
         "Không cướp tiêu điểm — kéo hay nhấp vào chip, con trỏ vẫn ở ứng dụng bạn đang gõ",
-        "Không có nút lưu: mỗi lần gõ đều được ghi lại, còn cửa sổ kho lưu lo tìm kiếm, ghim và quản lý",
+        "Nhắc ghi chú — một lần, hằng ngày, ngày thường hoặc ngày tùy chọn",
         "Định dạng — in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ — cùng 7 màu pastel và hình ảnh trong ghi chú",
         "Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn — cùng một thư mục riêng của ứng dụng mà bản Android dùng, không qua máy chủ nào của CodeDAC",
         "Phím tắt toàn cục, khay hệ thống, giao diện sáng và tối, chạy khi đăng nhập, 21 ngôn ngữ. Không quảng cáo, và Pro là mua một lần"
@@ -476,6 +480,10 @@
         {
           "q": "Có dùng miễn phí được không?",
           "a": "Có. Viết và lưu ghi chú là miễn phí, không giới hạn, và bản Windows không có quảng cáo. Bản miễn phí cho nổi một ghi chú tại một thời điểm, với đủ bảy màu. Pro là mua một lần chứ không phải thuê bao, bổ sung ghi chú nổi không giới hạn, hình ảnh trong ghi chú, chỉnh độ mờ, đồng bộ Google Drive cùng xuất và nhập ghi chú."
+        },
+        {
+          "q": "Ghi chú có thể hiện lên vào giờ đã đặt không?",
+          "a": "Có. Đặt giờ và ghi chú sẽ hiện lên màn hình kèm thông báo — một lần, hằng ngày, ngày thường hoặc chỉ những ngày bạn chọn."
         }
       ]
     },

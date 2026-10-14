@@ -362,7 +362,7 @@
         "Schwebende Overlay-Notizen: zu einem Chip einklappen, über jeder App als volle Karte öffnen",
         "7 Haftnotiz-Farben und Rich-Text: fett, kursiv, unterstrichen, durchgestrichen, Textfarbe und -größe",
         "Bilder in der Notiz (Pro): Fotos direkt in eine Notiz einfügen",
-        "Schnell erfassen: aus dem Teilen-Menü, aus markiertem Text in jeder App oder über die Schnelleinstellungs-Kachel",
+        "Notiz-Erinnerungen – einmal, täglich, werktags oder an gewählten Tagen",
         "Archiv mit sofortiger Suche, Anheften und Neuordnen per Ziehen – ein Chip in die Zone am unteren Rand legt die Notiz ab, statt sie zu löschen",
         "Pro: unbegrenzte schwebende Notizen, Bilder, einstellbare Transparenz, Google-Drive-Sync, Export & Import, keine Werbung"
       ],
@@ -386,6 +386,10 @@
         {
           "q": "Kann ich FloatNote+ auf einem Android-Autoradio nutzen?",
           "a": "Ja, wenn dein Autoradio Google Play hat und mit Android 8.0 oder neuer läuft. Notizen schweben über Navigation oder Musik. Die Einrichtungsbildschirme sind für breite, flache Querformat-Displays ausgelegt. Das Autoradio muss „Über anderen Apps einblenden“ erlauben."
+        },
+        {
+          "q": "Kann eine Notiz zu einer festen Uhrzeit erscheinen?",
+          "a": "Ja. Lege eine Uhrzeit fest – dann erscheint deine Notiz mit einer Benachrichtigung auf dem Bildschirm: einmal, täglich, werktags oder nur an den Tagen, die du wählst. (Kostenlos: 1 Erinnerung · Pro: unbegrenzt)"
         }
       ]
     },
@@ -459,7 +463,7 @@
       "features": [
         "Haftnotizen, die über jedem Fenster schweben: Der Chip öffnet sich an Ort und Stelle als bearbeitbare Karte, Esc klappt ihn wieder ein",
         "Nimmt nie den Fokus – ziehe oder klicke einen Chip, und dein Cursor bleibt in der App, in der du geschrieben hast",
-        "Kein Speichern-Knopf: Jeder Tastenanschlag wird festgehalten, und ein Archivfenster übernimmt Suche, Anheften und Verwaltung",
+        "Notiz-Erinnerungen – einmal, täglich, werktags oder an gewählten Tagen",
         "Rich-Text – fett, kursiv, unterstrichen, durchgestrichen, Textfarbe und -größe – dazu 7 Pastellfarben und Bilder in der Notiz",
         "Bidirektionale Handy-zu-PC-Synchronisierung über dein eigenes Google Drive — derselbe app-private Ordner wie in der Android-App, und niemals ein CodeDAC-Server",
         "Globale Tastenkürzel, Infobereich, helles und dunkles Design, Start bei der Anmeldung, 21 Sprachen. Keine Werbung, Pro ist ein Einmalkauf"
@@ -476,6 +480,10 @@
         {
           "q": "Ist sie kostenlos?",
           "a": "Ja. Notizen zu schreiben und zu speichern ist kostenlos und unbegrenzt, und die Windows-Version enthält keine Werbung. Die kostenlose Version lässt jeweils eine Notiz auf dem Bildschirm schweben, mit allen sieben Farben. Pro ist ein Einmalkauf, kein Abo, und ergänzt unbegrenzte schwebende Notizen, Bilder in der Notiz, einstellbare Transparenz, Google-Drive-Sync sowie Export und Import."
+        },
+        {
+          "q": "Kann eine Notiz zu einer festen Uhrzeit erscheinen?",
+          "a": "Ja. Lege eine Uhrzeit fest – dann erscheint deine Notiz mit einer Benachrichtigung auf dem Bildschirm: einmal, täglich, werktags oder nur an den Tagen, die du wählst."
         }
       ]
     },
