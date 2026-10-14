@@ -311,7 +311,7 @@ Features:
 
 FAQ:
 - Q: Is this the same app as FloatNote+ on Android?
-  A: It is the same app built for Windows, with the same chips and cards. You buy each one in its own store, but once you sign in to Google Drive with the same account in both apps and turn on automatic sync, notes written on the PC show up on the phone and notes written on the phone show up on the PC. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices.
+  A: It is the same app built for Windows, with the same chips and cards. Once you sign in to Google Drive with the same account in both apps and turn on automatic sync, notes written on the PC show up on the phone and notes written on the phone show up on the PC. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices.
 - Q: Does it get in the way of the app underneath?
   A: No. A chip is a floating window that never takes focus, so clicking or dragging one leaves your cursor exactly where you were typing. Click a chip to expand the card, press Esc or click elsewhere and it folds back, already saved.
 - Q: Is it free to use?

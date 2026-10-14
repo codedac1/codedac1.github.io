@@ -471,7 +471,7 @@
       "faq": [
         {
           "q": "Is this the same app as FloatNote+ on Android?",
-          "a": "It is the same app built for Windows, with the same chips and cards. You buy each one in its own store, but once you sign in to Google Drive with the same account in both apps and turn on automatic sync, notes written on the PC show up on the phone and notes written on the phone show up on the PC. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices."
+          "a": "It is the same app built for Windows, with the same chips and cards. Once you sign in to Google Drive with the same account in both apps and turn on automatic sync, notes written on the PC show up on the phone and notes written on the phone show up on the PC. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices."
         },
         {
           "q": "Does it get in the way of the app underneath?",
