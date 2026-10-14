@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>Windows 如何让计时器保持在其他窗口之上 | CodeDAC</title>
+  <meta name="description" content="在其他窗口中工作时也能看到倒计时——使用时钟应用的“Keep on top”，或使用以小卡片悬浮在一切之上的计时器。" />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/zh/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/timer-always-on-top-windows.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/timer-always-on-top-windows.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:title" content="Windows 如何让计时器保持在其他窗口之上 | CodeDAC" />
+  <meta property="og:description" content="在其他窗口中工作时也能看到倒计时——使用时钟应用的“Keep on top”，或使用以小卡片悬浮在一切之上的计时器。" />
+  <meta property="og:url" content="https://codedac.com/zh/guides/timer-always-on-top-windows.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/floattimerwin.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Windows 如何让计时器保持在其他窗口之上 | CodeDAC" />
+  <meta name="twitter:description" content="在其他窗口中工作时也能看到倒计时——使用时钟应用的“Keep on top”，或使用以小卡片悬浮在一切之上的计时器。" />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/floattimerwin.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=73" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Windows 如何让计时器保持在其他窗口之上",
+  "description": "在其他窗口中工作时也能看到倒计时——使用时钟应用的“Keep on top”，或使用以小卡片悬浮在一切之上的计时器。",
+  "inLanguage": "zh-Hans",
+  "datePublished": "2026-10-14",
+  "dateModified": "2026-10-14",
+  "mainEntityOfPage": "https://codedac.com/zh/guides/timer-always-on-top-windows.html",
+  "image": "https://codedac.com/images/icons/floattimerwin.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "FloatTimer+ for Windows",
+    "url": "https://codedac.com/zh/apps/floattimerwin.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "FloatTimer+ for Windows",
+      "item": "https://codedac.com/zh/apps/floattimerwin.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Windows 如何让计时器保持在其他窗口之上",
+      "item": "https://codedac.com/zh/guides/timer-always-on-top-windows.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Windows 有始终置顶的计时器吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "时钟应用的“Keep on top”可以把一个计时器显示在其他窗口之上的小窗口里。如果要同时使用多个计时器、计数器或秒表，请使用悬浮计时器应用。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "悬浮计时器会妨碍我工作吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FloatTimer+ 的卡片从不抢走下层应用的焦点，你还可以把它们收成气泡或塞到屏幕边缘。"
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/zh/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/zh/#apps">应用</a>
+        <a href="/zh/#reviews">评价</a>
+        <a href="/zh/#about">关于我们</a>
+        <a href="/zh/#contact">合作</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="切换深色模式" title="切换深色模式">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="简体中文"><span class="lang-name">简体中文</span><span class="lang-code" aria-hidden="true">ZH</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/timer-always-on-top-windows.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/timer-always-on-top-windows.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/guides/timer-always-on-top-windows.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/timer-always-on-top-windows.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/guides/timer-always-on-top-windows.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/guides/timer-always-on-top-windows.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item" data-lang="fr" href="/fr/guides/timer-always-on-top-windows.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/timer-always-on-top-windows.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item" data-lang="hi" href="/hi/guides/timer-always-on-top-windows.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/timer-always-on-top-windows.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item is-active" data-lang="zh" href="/zh/guides/timer-always-on-top-windows.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/guides/timer-always-on-top-windows.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/timer-always-on-top-windows.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/timer-always-on-top-windows.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/guides/timer-always-on-top-windows.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/timer-always-on-top-windows.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/timer-always-on-top-windows.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/timer-always-on-top-windows.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/timer-always-on-top-windows.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item" data-lang="uk" href="/uk/guides/timer-always-on-top-windows.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/timer-always-on-top-windows.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-windows guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/zh/">首页</a>
+        <span class="sep">/</span>
+        <a href="/zh/apps/floattimerwin.html"><bdi>FloatTimer+ for Windows</bdi></a>
+        <span class="sep">/</span>
+        <span class="current">指南</span>
+      </nav>
+      <h1>Windows 如何让计时器保持在其他窗口之上</h1>
+      <p class="guide-meta">更新于 <time datetime="2026-10-14">2026-10-14</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">为演讲、专注时段或通话计时，时间一直在眼前会轻松很多。Windows 内置了一种方法，悬浮计时器应用则能做得更多。</p>
+
+        <h2>方法一：时钟应用中的“Keep on top”</h2>
+        <p>Windows 自带的时钟应用可以把计时器显示在一个保持在其他窗口之上的小窗口里：开始计时器，将其展开，然后选择“Keep on top”。它只适用于单个计时器，并显示在一个固定的小窗口中。</p>
+
+        <h2>方法二：悬浮计时器卡片</h2>
+        <p>FloatTimer+ for Windows（我们的应用）把计时器、计数器和秒表以小巧的马卡龙卡片悬浮在所有窗口之上。卡片从不获取焦点，所以点击卡片时，光标仍停在你刚才输入的位置。</p>
+        <ol class="guide-steps">
+          <li>从 Microsoft Store 安装 FloatTimer+；它常驻系统托盘。</li>
+          <li>创建计时器、计数器或秒表，并让它悬浮。</li>
+          <li>直接在卡片上开始、暂停和重置；可拖到任意位置或调整大小。</li>
+          <li>想腾出屏幕时，把它收成小气泡，或推到屏幕边缘。</li>
+        </ol>
+
+        <h2>免费版与 Pro</h2>
+        <p>计时器、计数器和秒表想建多少建多少，没有广告。免费版一次悬浮一张卡片；Pro 为一次性买断，可同时悬浮任意多张，并增加重复计时器和自定义提醒。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">本指南使用的应用</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/floattimerwin.png?v=73" alt="FloatTimer+ for Windows icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>FloatTimer+ for Windows</bdi></p>
+          <p class="rc-desc">在 Windows 任何窗口之上以小巧马卡龙卡片悬浮的计时器、计数器与秒表。</p>
+          <div class="guide-app-actions">
+            <a href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-guide-zh" class="btn btn-primary" target="_blank" rel="noopener">在 Microsoft Store 查看 →</a>
+            <a href="/zh/apps/floattimerwin.html" class="btn btn-ghost">应用详情</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">常见问题</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">Windows 有始终置顶的计时器吗？</p><p class="faq-a">时钟应用的“Keep on top”可以把一个计时器显示在其他窗口之上的小窗口里。如果要同时使用多个计时器、计数器或秒表，请使用悬浮计时器应用。</p></div>
+        <div class="faq-item"><p class="faq-q">悬浮计时器会妨碍我工作吗？</p><p class="faq-a">FloatTimer+ 的卡片从不抢走下层应用的焦点，你还可以把它们收成气泡或塞到屏幕边缘。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">更多指南</h2>
+      <ul class="guide-links">
+        <li><a href="/zh/guides/android-clipboard-history.html">如何在安卓手机上查看剪贴板历史</a></li>
+        <li><a href="/zh/guides/open-app-automatically-after-reboot-android.html">安卓如何设置重启后自动打开应用（无需 root）</a></li>
+        <li><a href="/zh/guides/floating-notes-over-other-apps-android.html">安卓如何让便签悬浮在其他应用之上</a></li>
+        <li><a href="/zh/guides/floating-timer-over-other-apps-android.html">安卓如何在使用其他应用时让计时器一直显示在屏幕上</a></li>
+        <li><a href="/zh/guides/hide-personal-info-in-screenshots.html">分享截图前如何遮住个人信息</a></li>
+        <li><a href="/zh/guides/sticky-notes-always-on-top-windows.html">Windows 如何让便签始终置顶</a></li>
+        <li><a href="/zh/guides/clipboard-history-windows.html">如何在 Windows 上查看剪贴板历史</a></li>
+        <li><a href="/zh/guides/reading-ruler-dyslexia-adhd-android.html">安卓阅读标尺：帮助阅读障碍和多动症人士读书不串行</a></li>
+        <li><a href="/zh/guides/reading-ruler-windows.html">如何在 Windows 上使用阅读标尺（适合阅读障碍和多动症人士）</a></li>
+        <li><a href="/zh/guides/floating-calculator-over-other-apps-android.html">安卓如何在其他应用上方使用计算器</a></li>
+        <li><a href="/zh/guides/crypto-price-ticker-over-other-apps-android.html">安卓如何在使用其他应用时查看加密货币价格</a></li>
+        <li><a href="/zh/guides/make-android-phone-louder.html">如何让安卓手机声音更大</a></li>
+        <li><a href="/zh/guides/hide-personal-info-in-screenshots-windows.html">Windows 如何遮住截图和 PDF 中的个人信息</a></li>
+        <li><a href="/zh/guides/crypto-price-ticker-on-top-windows.html">Windows 如何让实时加密货币行情条置顶在其他窗口之上</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">韩国</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/zh/privacy.html">隐私政策</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"zh","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/timer-always-on-top-windows.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/timer-always-on-top-windows.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/timer-always-on-top-windows.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/timer-always-on-top-windows.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/timer-always-on-top-windows.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/timer-always-on-top-windows.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/timer-always-on-top-windows.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/timer-always-on-top-windows.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/timer-always-on-top-windows.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/timer-always-on-top-windows.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/timer-always-on-top-windows.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/timer-always-on-top-windows.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/timer-always-on-top-windows.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/timer-always-on-top-windows.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/timer-always-on-top-windows.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/timer-always-on-top-windows.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/timer-always-on-top-windows.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/timer-always-on-top-windows.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/timer-always-on-top-windows.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/timer-always-on-top-windows.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/timer-always-on-top-windows.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=73"></script>
+</body>
+</html>

@@ -1,0 +1,660 @@
+{
+  "ui": {
+    "guides": "Mga gabay",
+    "updated": "Na-update",
+    "inThisGuide": "Ang app sa gabay na ito",
+    "appPage": "Detalye ng app",
+    "moreGuides": "Iba pang gabay",
+    "appGuides": "Mga gabay sa paggamit",
+    "faq": "Mga tanong"
+  },
+  "guides": {
+    "android-clipboard-history": {
+      "app": "clipboard",
+      "updated": "2026-10-14",
+      "title": "Paano makita ang clipboard history sa Android",
+      "desc": "Ang huling kinopya mo lang ang tinatandaan ng Android. Narito kung saan makikita ang mga kamakailang clip sa keyboard mo, at kung paano mag-ingat ng history na masasaliksik at hindi nawawala.",
+      "intro": "Ang Android mismo ay ang huling kinopya mo lang ang natatandaan — kumopya ka ng bago at mawawala na ang naunang teksto. Kung gusto mong bawiin ang address, code o pangungusap na kinopya mo kanina, kailangan mo ng lugar na nag-iingat ng history. Dalawa ang mayroon: ang keyboard mo, at isang clipboard manager app.",
+      "sections": [
+        {
+          "h": "Opsyon 1: ang clipboard ng keyboard mo",
+          "p": [
+            "Maraming keyboard ang may sariling clipboard. Sa Gboard, i-tap ang clipboard icon sa toolbar sa itaas ng mga key (i-on ito sa unang beses). May clipboard button din sa toolbar ng Samsung Keyboard.",
+            "Ito ang pinakamabilis na paraan para kunin ang kinopya mo ilang minuto lang ang nakaraan. Ang kapalit, panandalian lang ang clipboard ng keyboard: halimbawa, binubura ng Gboard ang mga item na hindi naka-pin pagkalipas ng mga isang oras, at makikita mo lang ang listahan habang nagta-type ka."
+          ]
+        },
+        {
+          "h": "Opsyon 2: clipboard manager na nag-iingat ng totoong history",
+          "p": [
+            "Kung paulit-ulit mong kinokopya ang parehong bagay — address, account number, nakahandang sagot — iniingatan ito ng clipboard manager hanggang burahin mo, nahahanap mo ang mga ito, at naipapakita ito sa ibabaw ng kahit anong app.",
+            "Ang Clipboard+ (aming app) ay nag-iingat ng mga teksto at larawang kinokopya mo sa isang history, pinakabago muna, na may paghahanap at floating panel na mabubuksan mo sa ibabaw ng app na ginagamit mo."
+          ],
+          "steps": [
+            "I-install ang Clipboard+ mula sa Google Play at buksan ito nang isang beses.",
+            "Kumopya ng teksto gaya ng dati. Puwede ka ring pumili ng teksto sa kahit anong app at piliin ang Clipboard+ sa selection menu para i-save ito.",
+            "Buksan ang floating panel (o ang app) para makita ang history mo, i-tap ang isang clip para kopyahin ulit, at i-paste ito kung nasaan ka.",
+            "Itago ang mga madalas mong gamitin bilang snippet sa mga grupo, para laging isang tap lang ang layo."
+          ]
+        },
+        {
+          "h": "Alin ang dapat mong gamitin?",
+          "p": [
+            "Para sa isang beses lang — pag-paste ng kinopya mo isang minuto ang nakaraan — sapat na ang clipboard ng keyboard. Kung nawawala ang mga clip na kailangan mo, o paulit-ulit kang nagta-type ng parehong teksto, makakatipid ka ng oras sa clipboard manager. Libreng simulan ang Clipboard+; nagdaragdag ang Pro ng sync sa Windows app sa pamamagitan ng sarili mong Google Drive, walang limitasyong image clip at PDF export."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "May built-in bang clipboard history ang Android?",
+          "a": "Wala sa system mismo — ang pinakahuling clip lang ang iniingatan ng Android. Nagdaragdag ang mga keyboard tulad ng Gboard at Samsung Keyboard ng panandaliang clipboard list."
+        },
+        {
+          "q": "Makikita ko ba sa PC ang clipboard history ng telepono ko?",
+          "a": "Oo, kung may Clipboard+ sa dalawa: nagsi-sync ang Android app at ang Clipboard+ for Windows sa pamamagitan ng sarili mong Google Drive (Pro feature sa Android)."
+        }
+      ]
+    },
+    "open-app-automatically-after-reboot-android": {
+      "app": "autostart",
+      "updated": "2026-10-14",
+      "title": "Paano awtomatikong buksan ang app pagkatapos mag-reboot sa Android (walang root)",
+      "desc": "Walang setting ang Android na nagbubukas ng app pagbukas ng telepono. Narito kung paano kusang bubukas ang mga app mo pagkatapos mag-restart, nang walang root — at kung paano ito subukan nang hindi nagre-reboot.",
+      "intro": "Walang setting ang Android na nagbubukas ng app kapag nag-start ang telepono. Kung binubuksan mo ang parehong mga app tuwing magre-restart — navigation app sa kotse, launcher sa kiosk tablet, music app sa head unit — magagawa ito ng isang auto start app para sa iyo.",
+      "sections": [
+        {
+          "h": "Bakit hindi ito kusang nangyayari",
+          "p": [
+            "Mula Android 10, hindi na pinapayagan ang mga app na kusang magbukas ng screen mula sa background. Kaya ang app na magbubukas ng ibang app pagkatapos mag-reboot ay kailangan ng pahintulot na “Ipakita sa ibabaw ng ibang app”, at mabubuksan lang nito ang mga iyon kapag na-unlock na ang telepono sa unang pagkakataon."
+          ]
+        },
+        {
+          "h": "I-set up gamit ang AutoStart+",
+          "p": [
+            "Binubuksan ng AutoStart+ (aming app) ang mga app na pinili mo pagkatapos ng bawat restart, sa sandaling i-unlock mo ang telepono. Hindi ito kailangan ng root."
+          ],
+          "steps": [
+            "I-install ang AutoStart+ mula sa Google Play at buksan ito.",
+            "I-tap ang Magdagdag ng apps at piliin ang mga app na gusto mong bumukas pagkatapos mag-reboot. I-drag ang mga row para itakda kung alin ang unang bubukas.",
+            "Payagan ang “Ipakita sa ibabaw ng ibang app” kapag hiningi — kung wala ito, haharangin ng Android ang pagbukas.",
+            "I-tap ang Subukan ngayon para makita kung ano ang mangyayari, nang hindi nire-restart ang telepono.",
+            "I-restart ang telepono at i-unlock ito: bubukas ang mga app mo ayon sa pagkakasunod na itinakda mo."
+          ]
+        },
+        {
+          "h": "Car head unit at mga device na natutulog",
+          "p": [
+            "Maraming Android head unit ang hindi talaga nagre-reboot — natutulog lang sila kapag pinatay ang kotse. May Car mode ang AutoStart+ na muling nagbubukas ng mga app mo tuwing magigising ang screen."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kailangan ko ba ng root para mag-auto start ng app sa Android?",
+          "a": "Hindi. Gumagana ang AutoStart+ nang walang root; ang kailangan lang nito ay ang pahintulot na “Ipakita sa ibabaw ng ibang app”."
+        },
+        {
+          "q": "Bakit hindi bumubukas ang mga app ko bago ko i-unlock ang telepono?",
+          "a": "Hindi pinapayagan ng Android ang mga app na magbukas ng ibang app hangga’t hindi pa na-unlock ang telepono nang isang beses pagkatapos mag-reboot. Bubukas ang mga app mo pagka-unlock mo."
+        },
+        {
+          "q": "Ilang app ang puwedeng i-auto start nang libre?",
+          "a": "Sa libreng bersyon, 1 app ang binubuksan sa bawat boot. Binubuksan ng Pro ang buong listahan mo nang sunod-sunod, at may maikling ad na nag-aalis ng limitasyon nang 24 oras kung ayaw mong mag-subscribe."
+        }
+      ]
+    },
+    "floating-notes-over-other-apps-android": {
+      "app": "floatnote",
+      "updated": "2026-10-14",
+      "title": "Paano panatilihin ang nota sa ibabaw ng ibang app sa Android",
+      "desc": "Panatilihing nakikita ang nota habang gumagamit ka ng ibang app: isang floating note na nananatili sa ibabaw ng kahit anong app, natitiklop bilang maliit na chip, at puwedeng lumabas sa oras na pinili mo.",
+      "intro": "Pagkopya ng listahan sa isang form, pagtingin sa recipe habang may video, pagpapanatiling nakikita ang order number sa chat — naaantala ka sa paulit-ulit na paglipat sa notes app. Nananatili sa screen ang floating note sa ibabaw ng kahit anong app na ginagamit mo.",
+      "sections": [
+        {
+          "h": "Paano gumagana ang floating notes",
+          "p": [
+            "Ang floating note ay maliit na window na ipinapakita sa ibabaw ng ibang app. Pinapayagan ito ng Android sa pamamagitan ng pahintulot na “Ipakita sa ibabaw ng ibang app”, na isang beses mo lang ibibigay. Nananatili sa ibabaw ang nota habang patuloy mong ginagamit ang app sa ilalim."
+          ]
+        },
+        {
+          "h": "I-set up gamit ang FloatNote+",
+          "p": [
+            "Pinalulutang ng FloatNote+ (aming app) ang bawat nota bilang maliit na chip sa ibabaw ng kahit anong app. I-tap ang chip at bubukas ito bilang card mismo roon; i-tap ang title bar nito para tiklupin ulit."
+          ],
+          "steps": [
+            "I-install ang FloatNote+ mula sa Google Play at payagan ang “Ipakita sa ibabaw ng ibang app”.",
+            "I-tap ang + para magsulat ng nota — lalabas ito sa ibabaw ng screen mo bilang card.",
+            "Buksan ang app na kailangan mo. Mananatili sa ibabaw ang nota; tiklupin ito bilang chip kapag gusto mong maluwag ulit ang screen.",
+            "Gumamit ng mga kulay, bold, laki ng teksto at larawan para madaling makilala ang bawat nota.",
+            "Para lumabas ang nota sa nakatakdang oras, buksan ang ⋮ menu nito at piliin ang Paalalahanan ako — isang beses, araw-araw, tuwing weekday o sa mga araw na pinili mo."
+          ]
+        },
+        {
+          "h": "Nasa PC mo rin",
+          "p": [
+            "Pinalulutang ng FloatNote+ for Windows ang ganitong klase ng nota sa ibabaw ng kahit anong window, at nagsi-sync ang dalawang app sa pamamagitan ng sarili mong Google Drive (Pro feature sa Android)."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "May built-in bang floating notes ang Android?",
+          "a": "Walang pangkalahatang floating-note feature ang Android. Idinaragdag ito ng mga app tulad ng FloatNote+ gamit ang pahintulot na “Ipakita sa ibabaw ng ibang app”."
+        },
+        {
+          "q": "Puwede bang lumabas ang nota sa nakatakdang oras?",
+          "a": "Oo. Sa FloatNote+, magtakda ng paalala mula sa ⋮ menu ng nota at lalabas ang nota sa screen kasama ang notification. Isang paalala ang iniingatan ng libreng bersyon; walang limitasyon sa Pro."
+        },
+        {
+          "q": "Libre ba ang FloatNote+?",
+          "a": "Libre at walang limitasyon ang pag-save ng nota, at isang nota lang ang napapalutang nang sabay sa libreng bersyon. Nagdaragdag ang Pro ng walang limitasyong floating notes, larawan sa loob ng nota, naiaayos na opacity, Google Drive sync at walang ads."
+        }
+      ]
+    },
+    "floating-timer-over-other-apps-android": {
+      "app": "floattimer",
+      "updated": "2026-10-14",
+      "title": "Paano panatilihing nakikita ang timer habang gumagamit ng ibang app sa Android",
+      "desc": "Nawawala ang timer ng Clock app kapag lumipat ka ng app. Narito kung paano panatilihing nakalutang ang countdown, stopwatch o counter sa ibabaw ng kahit anong app.",
+      "intro": "Tumatakbo sa background ang timer ng Clock app, pero hindi mo ito nakikita habang nasa ibang app ka — kailangan mo pang hilahin pababa ang notifications o bumalik sa app. Kapag nag-aaral habang may lecture, nagtatakda ng oras ng presentasyon, o naglalaro, nakakatulong kung nasa screen ang oras sa buong panahon.",
+      "sections": [
+        {
+          "h": "I-set up gamit ang FloatTimer+",
+          "p": [
+            "Pinalulutang ng FloatTimer+ (aming app) ang mga timer, stopwatch at tally counter sa ibabaw ng kahit anong app bilang maliliit na card na maida-drag mo kahit saan."
+          ],
+          "steps": [
+            "I-install ang FloatTimer+ mula sa Google Play at payagan ang “Ipakita sa ibabaw ng ibang app”.",
+            "Gumawa ng timer — kahit ilang oras, minuto at segundo, o isang quick preset gaya ng 25 minuto.",
+            "Palutangin ito at buksan ang app na ginagamit mo. Simulan, i-pause at i-reset mula mismo sa card.",
+            "Tiklupin ito bilang bubble kapag kailangan mo ng espasyo; tuloy-tuloy pa rin ang oras."
+          ]
+        },
+        {
+          "h": "Higit sa isa nang sabay",
+          "p": [
+            "Makakagawa ka nang libre ng kahit ilang timer, counter at stopwatch, at patuloy silang tumatakbo. Isa lang ang ipinapakita sa screen nang sabay sa libreng bersyon; sa Pro, mapapalutang mo nang sabay-sabay ang kahit ilan, o may maikling ad na nagbubukas nito nang 24 oras."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Makikita ko ba ang timer sa ibabaw ng YouTube o ng laro?",
+          "a": "Oo. Nananatili ang floating timer sa ibabaw ng kahit anong app, kasama ang mga video at laro, kapag pinayagan mo na ang “Ipakita sa ibabaw ng ibang app”."
+        },
+        {
+          "q": "May Pomodoro preset ba?",
+          "a": "May quick preset ang FloatTimer+ na 1, 5, 10, 25, 30 at 60 minuto, kaya isang tap lang ang 25-minutong focus timer."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots": {
+      "app": "photocleaner",
+      "updated": "2026-10-14",
+      "title": "Paano itago ang personal na impormasyon sa screenshot bago ito i-share",
+      "desc": "Puwedeng mabasa pa rin ang teksto sa blur, manipis na panulat o highlighter. Narito kung paano takpan ang mga numero ng telepono, card number at mukha para hindi na mabawi — sa telepono mo, nang walang ina-upload.",
+      "intro": "Kadalasang mas marami ang laman ng mga screenshot at litrato ng dokumento kaysa sa gusto mong i-share: numero ng telepono, ID o card number, address, mukha, QR code. Bago i-post o ipadala ang mga ito, takpan nang maayos ang impormasyong iyon.",
+      "sections": [
+        {
+          "h": "Mga dapat iwasan",
+          "p": [
+            "Sa semi-transparent na highlighter o manipis na guhit ng panulat, puwedeng mabasa pa rin ang teksto kapag tinaasan ng iba ang contrast, at minsan nahuhulaan ang maliit na tekstong naka-blur o naka-mosaic. Gumamit ng solido at opaque na kahon sa anumang pribado, at kopya ang i-share, hindi ang orihinal."
+          ]
+        },
+        {
+          "h": "Opsyon 1: ang photo editor ng telepono mo",
+          "p": [
+            "May markup o drawing tool ang karamihan ng gallery app. Kung gagamitin mo ito, pumili ng solidong hugis o ganap na opaque na panulat, takpan nang buo ang bawat item, at mag-zoom in para tingnan ang mga gilid bago mag-save."
+          ]
+        },
+        {
+          "h": "Opsyon 2: PhotoCleaner+",
+          "p": [
+            "Ginawa ang PhotoCleaner+ (aming app) para sa trabahong ito. Nagmumungkahi ito ng malamang na personal na impormasyon, ire-review mo ang bawat kahon, at nag-e-export ito ng kopyang may solidong mask — tumatakbo lahat sa telepono mo, walang ina-upload."
+          ],
+          "steps": [
+            "Magbukas ng litrato, screenshot o PDF sa PhotoCleaner+.",
+            "Tingnan ang mga iminungkahing kahon — numero ng telepono, email, card number at katulad na teksto — at magdagdag ng sarili mo sa pamamagitan ng pagguhit.",
+            "Ilipat, baguhin ang laki o burahin ang mga kahon hanggang matakpan ang lahat ng pribado.",
+            "I-export ang kopyang may mask at iyon ang i-share. Hindi nababago ang orihinal mo, at walang EXIF o GPS data ang mga na-save na kopya."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Sapat na ba ang blur para itago ang numero ng telepono?",
+          "a": "Hindi palagi. Minsan nababasa o nahuhulaan ang maliit na teksto na bahagyang naka-blur. Ang solido at opaque na mask ang ligtas na pagpipilian."
+        },
+        {
+          "q": "Ina-upload ba ng PhotoCleaner+ ang mga litrato ko?",
+          "a": "Hindi. Tumatakbo sa telepono mo ang pagtuklas at pagtakip, at hindi kailanman ina-upload ang mga litrato at dokumento mo."
+        },
+        {
+          "q": "Libre ba ito?",
+          "a": "Libre ang pagtuklas, pag-edit at pagtakip; makakapag-export ka nang 3 beses kada araw. Inaalis ng Pro ang pang-araw-araw na limitasyon at nagdaragdag ng PDF export at pag-print, o may maikling ad na nag-aalis ng limitasyon nang 24 oras."
+        }
+      ]
+    },
+    "sticky-notes-always-on-top-windows": {
+      "app": "floatnotewin",
+      "updated": "2026-10-14",
+      "title": "Paano panatilihing laging nasa ibabaw ang sticky note sa Windows",
+      "desc": "Natatakpan ang mga nota sa desktop ng window na pinagtatrabahuhan mo. Narito kung paano i-pin ang nota sa ibabaw ng bawat window — gamit ang PowerToys, o gamit ang mga notang ginawa talagang lumutang.",
+      "intro": "May silbi lang ang sticky note kung nakikita mo ito. Sa Windows, kadalasang natatakpan ang mga nota sa desktop ng browser, dokumento o spreadsheet na pinagtatrabahuhan mo, kaya kailangan mo pang hanapin ang mga ito. May dalawang paraan para manatili sa ibabaw ang nota.",
+      "sections": [
+        {
+          "h": "Opsyon 1: mag-pin ng window gamit ang PowerToys",
+          "p": [
+            "Kasama sa Microsoft PowerToys, isang libreng koleksyon ng utility mula sa Microsoft, ang “Always On Top”. I-install ang PowerToys, i-on ang “Always On Top”, i-click ang window na gusto mong manatili sa harap — halimbawa, isang notes window — at pindutin ang Win+Ctrl+T. Pindutin ulit para i-unpin.",
+            "Gumagana ito sa halos kahit anong window. Ang kapalit, buong window pa rin ang naka-pin na window: kinukuha nito ang focus kapag kini-click mo, at tinatakpan nito ang parehong espasyo binabasa mo man ang nota o hindi."
+          ]
+        },
+        {
+          "h": "Opsyon 2: mga notang ginawa talagang lumutang",
+          "p": [
+            "Pinananatili ng FloatNote+ for Windows (aming app) ang bawat nota bilang maliit na chip sa ibabaw ng bawat window. I-click ang chip at bubukas ito bilang card mismo roon; pindutin ang Esc at titiklop ito ulit. Hindi kailanman kinukuha ng chip ang focus ng app sa likod nito, kaya nananatili ang cursor mo kung saan ka nagta-type."
+          ],
+          "steps": [
+            "I-install ang FloatNote+ mula sa Microsoft Store.",
+            "Gumawa ng nota mula sa tray icon o gamit ang global hotkey — lalabas ito bilang card sa ibabaw ng screen mo.",
+            "Ituloy ang trabaho: nananatili ang nota sa ibabaw ng bawat window. Pindutin ang Esc para tiklupin ito bilang chip.",
+            "I-drag ang mga chip kahit saan, gumamit ng mga kulay at rich text para makilala ang bawat isa, at magtakda ng paalala para lumabas ang nota sa nakatakdang oras."
+          ]
+        },
+        {
+          "h": "Nasa telepono mo rin ang mga nota mo",
+          "p": [
+            "Nagsi-sync ang FloatNote+ for Windows sa FloatNote+ Android app sa pamamagitan ng sarili mong Google Drive, kaya ang notang sinulat mo sa PC ay nasa telepono mo rin. Libre ang bawat feature ng Windows version."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Puwede bang manatili ang Windows Sticky Notes sa ibabaw ng ibang window?",
+          "a": "Sa karamihan ng setup, hindi nang kusa. Mapi-pin mo ang kahit anong window, kasama ang notes window, gamit ang “Always On Top” ng PowerToys (Win+Ctrl+T), o gumamit ng app na ang mga nota ay ginawa talagang lumutang sa ibabaw ng ibang window."
+        },
+        {
+          "q": "Inaagaw ba ng floating note ang focus mula sa tinatype ko?",
+          "a": "Hindi ang mga chip ng FloatNote+. Kapag kinlik o dinrag mo ang chip, nananatili ang cursor mo sa app na ginagamit mo; ang nakabukas na card lang ang kumukuha ng focus, dahil doon ka nagta-type."
+        }
+      ]
+    },
+    "clipboard-history-windows": {
+      "app": "clipboardwin",
+      "updated": "2026-10-14",
+      "title": "Paano makita ang clipboard history sa Windows",
+      "desc": "May built-in na clipboard history ang Windows (Win+V), pero maikli ito at nabubura kapag nag-restart ka. Narito kung paano ito gamitin, at kung paano mag-ingat ng history na masasaliksik at pangmatagalan.",
+      "intro": "Kumopya ka ng bago at mawawala ang naunang clip — maliban kung nag-iingat ka ng history. May built-in nito ang Windows 10 at 11, at mas mahabang history ang kayang ingatan ng isang clipboard manager.",
+      "sections": [
+        {
+          "h": "Opsyon 1: ang built-in na clipboard history (Win+V)",
+          "p": [
+            "Pindutin ang Win+V. Sa unang beses, hihilingin ng Windows na i-on mo ang clipboard history (magagawa mo rin ito sa “Settings > System > Clipboard”). Pagkatapos nito, ipapakita ng Win+V ang mga kamakailang clip mo, at ipa-paste ang isang clip kapag kinlik mo ito.",
+            "Mabilis ito, pero limitado: hanggang 25 item lang ang iniingatan nito, at nabubura ang lahat maliban sa mga naka-pin kapag nag-restart ang PC. Walang paghahanap, at hindi ito umaabot sa telepono mo."
+          ]
+        },
+        {
+          "h": "Opsyon 2: clipboard manager na nag-iingat ng lahat",
+          "p": [
+            "Nakatira sa tray ang Clipboard+ for Windows (aming app) at sine-save nito ang mga teksto at larawang kinokopya mo sa mismong sandali ng pagkopya. Nananatili ang history mo hanggang burahin mo ito, at mahahanap mo ito, maaayos sa mga grupo at snippet, at matatawag gamit ang hotkey."
+          ],
+          "steps": [
+            "I-install ang Clipboard+ mula sa Microsoft Store; magsisimula ito sa system tray.",
+            "Kumopya gaya ng dati — awtomatikong nase-save ang bawat text at image clip.",
+            "Pindutin ang global hotkey para buksan ang quick-pick popup sa cursor mo, pumili ng clip gamit ang Ctrl+1–9 at pindutin ang Enter para i-paste ito.",
+            "Buksan ang window para maghanap, mag-pin, mag-edit, o mag-ingat ng madalas gamiting teksto bilang snippet."
+          ]
+        },
+        {
+          "h": "Sa pagitan ng telepono at PC mo",
+          "p": [
+            "Kapag ginamit kasabay ng Clipboard+ Android app, ang kinopya mo sa telepono ay maipa-paste mo sa PC at pabaliktad, sa pamamagitan ng sarili mong Google Drive. Libre ang clipboard history, snippet, grupo, paghahanap at quick-pick popup; nagdaragdag ang Pro ng sync, walang limitasyong image storage at PDF export."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bakit walang laman ang Win+V clipboard history ko pagkatapos mag-restart?",
+          "a": "Binubura ng Windows ang clipboard history kapag nag-restart ang PC, maliban sa mga naka-pin na item. Iniingatan ng clipboard manager gaya ng Clipboard+ ang history mo kahit mag-restart."
+        },
+        {
+          "q": "Ilang item ang iniingatan ng clipboard history ng Windows?",
+          "a": "Hanggang 25. Natatanggal ang mga lumang item habang kumokopya ka ng bago."
+        }
+      ]
+    },
+    "timer-always-on-top-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-14",
+      "title": "Paano panatilihin ang timer sa ibabaw ng ibang window sa Windows",
+      "desc": "Panatilihing nakikita ang countdown habang nagtatrabaho ka sa ibang window — gamit ang “Keep on top” ng Clock app, o gamit ang mga timer na lumulutang bilang maliliit na card sa ibabaw ng lahat.",
+      "intro": "Mas madaling orasan ang presentasyon, focus session o tawag kapag nakikita mo ang oras. May isang built-in na paraan ang Windows, at may dagdag na paraan ang isang floating-timer app.",
+      "sections": [
+        {
+          "h": "Opsyon 1: “Keep on top” sa Clock app",
+          "p": [
+            "Ang Clock app na kasama ng Windows ay kayang ipakita ang timer sa maliit na window na nananatili sa ibabaw ng ibang window: magsimula ng timer, palakihin ito, at piliin ang “Keep on top”. Para sa iisang timer ito, at ipinapakita ito sa isang maliit at nakapirming window."
+          ]
+        },
+        {
+          "h": "Opsyon 2: floating timer card",
+          "p": [
+            "Pinalulutang ng FloatTimer+ for Windows (aming app) ang mga timer, counter at stopwatch sa ibabaw ng bawat window bilang maliliit na pastel card. Hindi kailanman kumukuha ng focus ang mga card, kaya kapag kinlik mo ang isa, nananatili ang cursor mo kung saan ka nagta-type."
+          ],
+          "steps": [
+            "I-install ang FloatTimer+ mula sa Microsoft Store; nakatira ito sa system tray.",
+            "Gumawa ng timer, counter o stopwatch at palutangin ito.",
+            "Simulan, i-pause at i-reset mula mismo sa card; i-drag ito kahit saan o baguhin ang laki.",
+            "Itiklop ito bilang maliit na bubble, o itulak sa gilid ng screen, kapag gusto mong maluwag ulit ang screen."
+          ]
+        },
+        {
+          "h": "Libre at Pro",
+          "p": [
+            "Makakagawa ka ng kahit ilang timer, counter at stopwatch, nang walang ads. Isang card lang ang napapalutang nang sabay sa libreng bersyon; ang Pro ay isang beses na bayad na nagpapalutang ng kahit ilan at nagdaragdag ng umuulit na timer at custom na alerto."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "May always-on-top na timer ba ang Windows?",
+          "a": "Ipinapakita ng “Keep on top” ng Clock app ang isang timer sa maliit na window sa ibabaw ng iba. Para sa ilang timer, counter o stopwatch nang sabay, gumamit ng floating-timer app."
+        },
+        {
+          "q": "Makakaabala ba ang floating timer sa trabaho ko?",
+          "a": "Hindi kailanman kinukuha ng mga card ng FloatTimer+ ang focus mula sa app sa ilalim, at puwede mo silang itiklop bilang bubble o isiksik sa gilid ng screen."
+        }
+      ]
+    },
+    "reading-ruler-dyslexia-adhd-android": {
+      "app": "readfocus",
+      "updated": "2026-10-14",
+      "title": "Reading ruler para sa dyslexia at ADHD sa Android: huwag mawala sa linya habang nagbabasa",
+      "desc": "Nawawala sa linya, lumalaktaw ng hilera o paulit-ulit na binabasa ang parehong pangungusap? Tinutulungan ng reading ruler o reading mask sa ibabaw ng kahit anong app na manatili sa tamang linya ang mga mata mo. Narito kung paano ito i-set up sa Android.",
+      "intro": "Madaling maligaw sa mahabang teksto sa screen ng telepono: dumudulas ang mata sa susunod na linya, lumalaktaw ng hilera, o bumabalik sa pangungusap na nabasa na. Maraming may dyslexia o ADHD ang gumagamit ng ruler o card sa ilalim ng linya kapag nagbabasa sa papel. Sa telepono, ganoon din ang ginagawa ng reading ruler sa screen.",
+      "sections": [
+        {
+          "h": "Magsimula sa display settings mo",
+          "p": [
+            "Ang accessibility at display settings ng Android — mas malaking font, bold na teksto, dark theme — ay puwedeng magpadali sa pagbasa. Pero hindi nito minamarkahan ang linyang binabasa mo, na siyang nakakatulong kapag palaging gumagala ang mga mata mo."
+          ]
+        },
+        {
+          "h": "Magdagdag ng reading ruler gamit ang ReadFocus+",
+          "p": [
+            "Pinalulutang ng ReadFocus+ (aming app) ang isang focus strip sa ibabaw ng kahit anong app — ebook, PDF, browser, balita, webtoon. Piliin ang Line Highlight para paliwanagin ang linyang binabasa mo, o Reading Mask para padilimin ang lahat maliban sa reading zone mo."
+          ],
+          "steps": [
+            "I-install ang ReadFocus+ mula sa Google Play at payagan ang “Ipakita sa ibabaw ng ibang app”.",
+            "Pumili ng mode: Line Highlight (reading ruler) o Reading Mask.",
+            "Buksan ang app kung saan ka nagbabasa at i-drag ang strip sa linya mo.",
+            "Ayusin ang taas nito (50–300 dp), opacity at color theme hanggang maging komportable."
+          ]
+        },
+        {
+          "h": "Libre at Pro",
+          "p": [
+            "Sa libreng bersyon, may 60 minutong overlay time kada session at 3 color theme. Inaalis ng Pro ang ads at ang limitasyon sa oras at idinaragdag ang lahat ng 10 theme at ang pagpapanatiling nakabukas ng screen, o may maikling ad na nagbubukas ng mga Pro feature nang 24 oras."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Nakakatulong ba ang reading ruler sa dyslexia?",
+          "a": "Maraming mambabasang may dyslexia o ADHD ang nakakakitang mas madaling hindi mawala sa linya kapag minamarkahan ang kasalukuyang linya. Isa itong reading aid, hindi gamutan — subukan ito at panatilihin ang settings na komportable para sa iyo."
+        },
+        {
+          "q": "Sa aling mga app gumagana ang ReadFocus+?",
+          "a": "Sa kahit anong app sa screen: ebook at PDF reader, browser, balita, study notes, komiks at webtoon."
+        }
+      ]
+    },
+    "reading-ruler-windows": {
+      "app": "readfocuswin",
+      "updated": "2026-10-14",
+      "title": "Paano gumamit ng reading ruler sa Windows (para sa dyslexia at ADHD)",
+      "desc": "May “Line focus” ang “Immersive Reader” ng Edge para sa mga web page. Para sa PDF, dokumento at lahat ng iba pang app, pinapanatili ng click-through na focus strip ang mga mata mo sa linya. Narito kung paano gamitin ang dalawa.",
+      "intro": "Madaling mawala sa linya kapag nagbabasa ng mahahabang pahina sa monitor. Hina-highlight ng reading ruler ang linyang binabasa mo, o pinapadilim ang natitirang bahagi ng screen, para manatili sa tamang linya ang mga mata mo.",
+      "sections": [
+        {
+          "h": "Opsyon 1: “Line focus” sa Microsoft Edge",
+          "p": [
+            "May “Immersive Reader” ang Microsoft Edge, isang malinis na reading view para sa mga web page. Sa reading preferences nito, hina-highlight ng “Line focus” ang isa, tatlo o limang linya nang sabay. Gumagana lang ito sa mga pahinang binuksan sa “Immersive Reader”, hindi sa PDF, dokumento o ibang app."
+          ]
+        },
+        {
+          "h": "Opsyon 2: focus strip sa ibabaw ng kahit anong app",
+          "p": [
+            "Naglalapag ang ReadFocus+ for Windows (aming app) ng focus strip sa ibabaw ng kung ano man ang binabasa mo — web page, PDF, dokumento, code. Dinidilim ng Mask ang itaas at ibaba ng screen at nag-iiwan ng malinaw na banda; minamarkahan ng Highlight ang linyang binabasa mo. Click-through ang strip, kaya patuloy kang makaka-scroll at makakapag-click sa ilalim gaya ng dati."
+          ],
+          "steps": [
+            "I-install ang ReadFocus+ mula sa Microsoft Store.",
+            "Simulan ito mula sa floating panel o gamit ang keyboard shortcut, at piliin ang Mask o Highlight.",
+            "Ilipat ang strip sa linya mo, o iusog ito pataas at pababa gamit ang shortcut habang nagbabasa.",
+            "I-lock, itago, o ilipat ito sa ibang monitor mula sa panel."
+          ]
+        },
+        {
+          "h": "Libre at Pro",
+          "p": [
+            "Kasama sa libreng bersyon ang dalawang mode at tatlong theme, sa mga session na hanggang 60 minuto. Ang Pro ay isang beses na bayad na nag-aalis ng limitasyon sa oras at nagdaragdag ng premium na theme, settings para sa taas at opacity ng strip, at pagpapanatiling nakabukas ng screen. Walang ads."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "May reading ruler ba ang Windows?",
+          "a": "May “Line focus” ang “Immersive Reader” ng Edge para sa mga web page. Para sa ibang app — PDF, Word, code editor — kailangan mo ng screen overlay gaya ng ReadFocus+ for Windows."
+        },
+        {
+          "q": "Haharangin ba ng strip ang mga click ko?",
+          "a": "Hindi. Click-through ang ReadFocus+ for Windows: napupunta sa app sa ilalim ang pag-scroll, pagpili at pag-click."
+        }
+      ]
+    },
+    "floating-calculator-over-other-apps-android": {
+      "app": "floatcalc",
+      "updated": "2026-10-14",
+      "title": "Paano gumamit ng calculator sa ibabaw ng ibang app sa Android",
+      "desc": "Mag-compute ng diskwento o mag-convert ng presyo nang hindi umaalis sa shopping, banking o browser screen mo: isang floating calculator na nananatili sa ibabaw ng kahit anong app, may unit at currency converter.",
+      "intro": "Nagche-check ng presyo sa shopping app, naghahati ng bayarin sa chat, nagko-convert ng pera habang nagbu-book — kapag lumipat ka sa Calculator app at bumalik, nawawala ang puwesto mo at kailangan mong tandaan ang mga numero sa isip. Nananatili sa screen ang floating calculator sa ibabaw ng app na ginagamit mo.",
+      "sections": [
+        {
+          "h": "Opsyon 1: split screen",
+          "p": [
+            "Kayang magpakita ng Android ng dalawang app nang sabay sa split screen. Buksan ang screen ng mga kamakailang app, piliin ang split screen para sa isang app, at piliin ang Calculator para sa kabilang kalahati. Gumagana ito, pero kalahati lang ng screen ang napupunta sa bawat app."
+          ]
+        },
+        {
+          "h": "Opsyon 2: floating calculator",
+          "p": [
+            "Ang FloatCalc+ (aming app) ay isang calculator window na lumulutang sa ibabaw ng kahit anong app. Magkasama sa iisang window ang calculator, unit converter at currency converter, at maida-drag mo ito kahit saan; tiklupin ang keypad sa iisang linya o liitin ang panel bilang icon sa gilid ng screen kapag kailangan mo ng espasyo."
+          ],
+          "steps": [
+            "I-install ang FloatCalc+ mula sa Google Play at payagan ang “Ipakita sa ibabaw ng ibang app”.",
+            "Buksan ang floating calculator at i-drag ito sa lugar na hindi nito natatakpan ang kailangan mo.",
+            "I-type ang computation — gumagana rin ang power, square root at porsyento — at kopyahin ang sagot sa clipboard.",
+            "Lumipat sa unit o currency converter sa parehong window. Galing sa European Central Bank ang exchange rates, nire-refresh araw-araw at gumagana pa rin offline."
+          ]
+        },
+        {
+          "h": "Libre at Pro",
+          "p": [
+            "Libre ang floating calculator nang 60 minuto kada araw; makikita sa title bar ang natitirang oras, at may 24-oras na pass kapalit ng maikling ad. Inaalis ng Pro ang pang-araw-araw na limitasyon at ang mga ad, at idinaragdag ang lahat ng kategorya ng unit, 30+ pera at mas maraming tema."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Puwede ba akong gumamit ng calculator nang hindi umaalis sa app ko?",
+          "a": "Oo. Nananatili sa ibabaw ng ibang app ang floating calculator gaya ng FloatCalc+ kapag pinayagan mo na ang “Ipakita sa ibabaw ng ibang app”."
+        },
+        {
+          "q": "Saan galing ang exchange rates?",
+          "a": "Mula sa European Central Bank, nire-refresh isang beses sa isang araw at naka-cache para magamit offline."
+        }
+      ]
+    },
+    "crypto-price-ticker-over-other-apps-android": {
+      "app": "floatcrypto",
+      "updated": "2026-10-14",
+      "title": "Paano makita ang presyo ng crypto habang gumagamit ng ibang app sa Android",
+      "desc": "Panatilihing nasa screen ang live na crypto ticker habang nanonood ka ng video, nagbabasa o nakikipag-chat, at maabisuhan kapag nilampasan ng isang coin ang target price mo.",
+      "intro": "Ipinapakita ng mga exchange app ang presyo sa loob ng app o sa home-screen widget, kaya para matingnan ang market, kailangan mong iwan ang ginagawa mo. Pinapanatili ng floating ticker sa screen ang mga presyong sinusubaybayan mo, sa ibabaw ng kahit anong app.",
+      "sections": [
+        {
+          "h": "I-set up ang floating ticker gamit ang FloatCrypto+",
+          "p": [
+            "Pinalulutang ng FloatCrypto+ (aming app) ang price ticker sa ibabaw ng bawat app — YouTube, balita, laro, chat. I-drag ito kahit saan, baguhin ang laki, at hinaan ang opacity para hindi nito matakpan ang binabasa mo."
+          ],
+          "steps": [
+            "I-install ang FloatCrypto+ mula sa Google Play at payagan ang “Ipakita sa ibabaw ng ibang app”.",
+            "Idagdag sa watchlist mo ang mga coin na sinusubaybayan mo at i-drag sila ayon sa gusto mong pagkakasunod.",
+            "I-on ang floating ticker at ilagay ito kung saan mo gusto.",
+            "Magtakda ng mataas o mababang price alert mula sa ⋮ menu ng coin para maabisuhan ka kapag nilampasan ito ng market."
+          ]
+        },
+        {
+          "h": "Dapat malaman",
+          "p": [
+            "Galing sa Binance ang mga presyo na may awtomatikong fallback na pinagkukunan, at maaaring maantala nang hanggang 30 segundo (10 segundo sa Pro). Para sa sanggunian lamang ang mga ito, at hindi nagte-trade ang app o kumokonekta sa exchange account. Walang anuman dito na payo sa pamumuhunan.",
+            "Sa libreng bersyon, 2 coin na may 1 alerto ang masusubaybayan mo. Nagbubukas ang Free Pass ng mas maraming coin o mas mahabang chart nang 24 oras kapalit ng maikling ad, at nagbibigay ang Pro ng 10 coin, walang limitasyong alerto, 10-segundong refresh at walang ad."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Makikita ko ba ang presyo ng crypto sa ibabaw ng YouTube o ng laro?",
+          "a": "Oo. Lumulutang ang ticker sa ibabaw ng bawat app kapag pinayagan mo na ang “Ipakita sa ibabaw ng ibang app”."
+        },
+        {
+          "q": "Real-time ba ang mga presyo?",
+          "a": "Maaaring maantala ang mga ito nang hanggang 30 segundo (10 segundo sa Pro) at para sa sanggunian lamang."
+        }
+      ]
+    },
+    "make-android-phone-louder": {
+      "app": "volumebooster",
+      "updated": "2026-10-14",
+      "title": "Paano palakasin ang tunog ng Android phone",
+      "desc": "Masyadong mahina ang telepono kahit nasa pinakamalakas na ang volume? Tingnan muna ang mga setting na ito, saka alamin kung paano ligtas na itinataas ng volume booster ang output — at ipinapakita ang boost sa decibel.",
+      "intro": "Kung masyadong mahina ang mga video, tawag na naka-speaker o musika kahit nasa pinakamalakas na ang volume, magsimula sa ilang setting — minsan nililimitahan lang pala ng telepono ang sarili nito. Kung hindi pa rin sapat, kaya pang itaas ng volume booster ang output.",
+      "sections": [
+        {
+          "h": "Tingnan muna ang mga ito",
+          "p": [
+            "Siguraduhing media volume ang tinataasan mo, hindi ang ringtone: pindutin ang volume button habang may tumutugtog na video, o buksan ang volume panel at itaas ang media slider.",
+            "May limitasyon sa media volume ang ilang telepono. Sa mga Samsung phone, hanapin ang “Media volume limiter” sa volume settings. Subukan din ang sariling sound effects o equalizer ng telepono kung mayroon, at tingnan kung natatakpan ng case ang speaker."
+          ]
+        },
+        {
+          "h": "Itaas ang output gamit ang VolumeBooster+",
+          "p": [
+            "Itinataas ng VolumeBooster+ (aming app) ang output ng sistema sa halip na ang volume ng iisang app, kaya lumalakas ang mga video, musika at laro. Ipinapakita ang boost sa decibel kasama ang mga zone na Ligtas, Mag-ingat at Delikado, kaya nakikita mo kung gaano mo na ito kalakas itinaas."
+          ],
+          "steps": [
+            "I-install ang VolumeBooster+ mula sa Google Play.",
+            "Magpatugtog ng kahit ano, saka unti-unting itaas ang boost habang binabantayan ang dB zone.",
+            "Gamitin ang mga equalizer preset, bass booster o AutoEQ para sa headphone mo para luminaw ang tunog, hindi lang lumakas.",
+            "Hinaan ang boost kapag hindi mo ito kailangan — magpapasalamat ang tainga at speaker mo."
+          ]
+        },
+        {
+          "h": "Libre at Pro, at ang pandinig mo",
+          "p": [
+            "Sa libreng bersyon, hanggang +10 dB ang boost nang 60 minuto kada araw; binubuksan ng Pro o ng 24-oras na Free Pass ang buong +15 dB. Tantiya lang ang halaga ng dB, at hindi medical device ang app — kung makaramdam ka ng sakit sa tainga o pag-ugong, hinaan ang volume."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Puwede bang masira ng volume booster ang speaker o pandinig ko?",
+          "a": "Puwede kapag sobrang lakas ng volume. Itaas nang paunti-unti ang boost, bantayan ang mga zone na Ligtas/Mag-ingat/Delikado, at hinaan ito kapag nagdi-distort ang tunog o sumasakit ang tainga mo."
+        },
+        {
+          "q": "Gaano pa ito kalakas?",
+          "a": "Hanggang +15 dB sa Pro o Free Pass, at hanggang +10 dB sa libreng bersyon. Nag-iiba ang tunay na lakas depende sa device, headphone at nilalaman."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots-windows": {
+      "app": "photocleanerwin",
+      "updated": "2026-10-14",
+      "title": "Paano itago ang personal na impormasyon sa screenshot at PDF sa Windows",
+      "desc": "Bago mo i-share ang screenshot o na-scan na dokumento mula sa PC mo, takpan ng solidong mask ang mga numero ng telepono, card number, ID at mukha — nang walang ina-upload.",
+      "intro": "Kadalasang may numero ng telepono, email, card o ID number, address o mukha ang mga screenshot at na-scan na dokumento. Bago mo ipadala o i-post ang mga ito mula sa PC mo, takpan ang impormasyong iyon para hindi na ito mabawi.",
+      "sections": [
+        {
+          "h": "Opsyon 1: Snipping Tool",
+          "p": [
+            "Kayang itago ng mga bagong bersyon ng Snipping Tool sa Windows 11 ang mga email address at numero ng telepono sa screenshot gamit ang “Text actions”, at puwede kang gumuhit sa ibabaw ng iba pa. Iwasan ang highlighter dito — semi-transparent ito — at gumamit ng solidong guhit na buong tumatakip sa bawat item."
+          ]
+        },
+        {
+          "h": "Opsyon 2: PhotoCleaner+ for Windows",
+          "p": [
+            "Hinahanap ng PhotoCleaner+ for Windows (aming app) ang malamang na personal na impormasyon sa mga litrato, screenshot at PDF — numero ng telepono, email, card number, IBAN, numero ng pasaporte, pangalan, address, plaka ng sasakyan, mukha at QR code — at nag-e-export ito ng kopyang may solidong mask. Tumatakbo ang lahat sa PC mo; walang ina-upload."
+          ],
+          "steps": [
+            "Magbukas ng file, i-paste ito gamit ang Ctrl+V, i-drag ito sa window, o i-right-click ito sa File Explorer at piliin ang “Clean with PhotoCleaner+”.",
+            "Suriin ang mga kahon: i-click para i-on o i-off ang isa, i-drag para ilipat o baguhin ang laki, at gumuhit ng sarili mong kahon sa anumang nakaligtaan.",
+            "I-export ang kopyang may mask — i-save, kopyahin, i-share, o i-save bilang PDF. Hindi kailanman ino-overwrite ang orihinal mo, at walang metadata ang mga na-save na kopya."
+          ]
+        },
+        {
+          "h": "Libre at Pro",
+          "p": [
+            "Libre at walang limitasyon ang paghahanap ng personal na impormasyon, at makakapag-export ka ng 3 dokumento kada araw nang libre. Ang Pro ay isang beses na bayad na nag-aalis ng pang-araw-araw na limitasyon at nagdaragdag ng PDF export at pag-print. Walang ads at walang watermark."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mahahanap ba nito ang bawat personal na impormasyon?",
+          "a": "Walang tool na makapangangako niyon. Panimula lang ang pagtuklas — laging suriin ang mga kahon bago mag-export at takpan ang anumang nakaligtaan."
+        },
+        {
+          "q": "Ina-upload ba ang mga file ko?",
+          "a": "Hindi. Tumatakbo sa PC mo ang pagtuklas, pagtakip at pag-export, nang walang account at walang ina-upload."
+        }
+      ]
+    },
+    "crypto-price-ticker-on-top-windows": {
+      "app": "floatcryptowin",
+      "updated": "2026-10-14",
+      "title": "Paano panatilihin ang live na crypto ticker sa ibabaw ng ibang window sa Windows",
+      "desc": "Bantayan ang mga coin na sinusubaybayan mo habang nagtatrabaho: isang manipis na price ticker sa ibabaw ng bawat window, price alert bilang desktop notification, at chart sa isang double-click.",
+      "intro": "Kapag nakabukas ang tab ng exchange, kailangan mong lumipat dito sa tuwing gusto mong makita ang presyo. Pinapanatiling nakikita ng floating ticker ang mga coin na sinusubaybayan mo sa ibabaw ng bawat window.",
+      "sections": [
+        {
+          "h": "I-set up ang FloatCrypto+ for Windows",
+          "p": [
+            "Pinapanatili ng FloatCrypto+ for Windows (aming app) ang isang manipis na ticker sa ibabaw ng bawat window, na nagpapakita ng simbolo at 24-oras na pagbabago ng bawat coin. Hindi nito kailanman kinukuha ang focus, kaya nananatili ang cursor mo kung saan ka nagta-type."
+          ],
+          "steps": [
+            "I-install ang FloatCrypto+ mula sa Microsoft Store; nakatira ito sa system tray.",
+            "Pumili ng mga coin mula sa mga pares sa Binance at i-drag sila ayon sa gusto mong pagkakasunod.",
+            "Ilagay ang ticker kahit saan, at i-adjust ang opacity at laki ng text nito — o i-collapse ito sa bubble sa gilid ng screen.",
+            "Magtakda ng target na mas mataas o mas mababa sa kasalukuyang presyo para makakuha ng desktop notification kapag nilampasan ito ng market. I-double-click ang coin para sa chart nito."
+          ]
+        },
+        {
+          "h": "Dapat malaman",
+          "p": [
+            "I-hover ang tray icon para sa buong talaan ng presyo, at itago ang ticker gamit ang Ctrl+Alt+T. Galing ang mga presyo sa pampublikong market data ng Binance na may awtomatikong fallback at maaaring maantala nang hanggang 30 segundo; hindi nagte-trade ang app o kumokonekta sa exchange account, at walang anuman dito na payo sa pamumuhunan.",
+            "Sa libreng bersyon, 2 coin na may 1 alerto; ang Pro ay isang beses na bayad para sa 10 coin, walang limitasyong alerto, 10-segundong refresh at mas mahahabang chart. Walang ads."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Makakaabala ba ang ticker sa trabaho ko?",
+          "a": "Hindi. Hindi nito kailanman kinukuha ang focus; puwede mong hinaan ang opacity nito, i-collapse ito sa bubble, o itago gamit ang Ctrl+Alt+T."
+        },
+        {
+          "q": "Kailangan ba nito ang exchange account ko?",
+          "a": "Hindi. Pampublikong market data lang ang binabasa nito, at hindi ito kailanman nagte-trade o humahawak ng pondo."
+        }
+      ]
+    }
+  }
+}

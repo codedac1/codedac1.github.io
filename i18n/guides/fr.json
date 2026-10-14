@@ -1,0 +1,660 @@
+{
+  "ui": {
+    "guides": "Guides",
+    "updated": "Mis à jour",
+    "inThisGuide": "L’appli de ce guide",
+    "appPage": "Détails de l’appli",
+    "moreGuides": "Autres guides",
+    "appGuides": "Guides pratiques",
+    "faq": "Questions"
+  },
+  "guides": {
+    "android-clipboard-history": {
+      "app": "clipboard",
+      "updated": "2026-10-14",
+      "title": "Comment voir l’historique du presse-papiers sur Android",
+      "desc": "Android ne garde que le dernier élément copié. Voici où retrouver vos copies récentes dans votre clavier, et comment conserver un historique consultable qui ne disparaît pas.",
+      "intro": "Android ne mémorise que le dernier élément copié : copiez autre chose et le texte précédent disparaît. Pour retrouver une adresse, un code ou une phrase copiés plus tôt, il vous faut un endroit qui garde un historique. Il y en a deux : votre clavier, et une appli de gestion du presse-papiers.",
+      "sections": [
+        {
+          "h": "Option 1 : le presse-papiers de votre clavier",
+          "p": [
+            "Beaucoup de claviers ont leur propre presse-papiers. Dans Gboard, touchez l’icône du presse-papiers dans la barre au-dessus des touches (activez-le la première fois). Samsung Keyboard a aussi un bouton presse-papiers dans sa barre d’outils.",
+            "C’est le moyen le plus rapide de récupérer ce que vous avez copié il y a quelques minutes. Le hic : le presse-papiers du clavier est à court terme. Gboard, par exemple, supprime les éléments non épinglés au bout d’une heure environ, et vous ne voyez la liste que pendant la saisie."
+          ]
+        },
+        {
+          "h": "Option 2 : un gestionnaire de presse-papiers avec un vrai historique",
+          "p": [
+            "Si vous copiez sans cesse les mêmes choses — adresses, numéros de compte, réponses toutes faites —, un gestionnaire de presse-papiers les garde jusqu’à ce que vous les supprimiez, permet de les rechercher et peut les afficher par-dessus n’importe quelle appli.",
+            "Clipboard+ (notre appli) conserve les textes et images que vous copiez dans un historique, du plus récent au plus ancien, avec une recherche et une fenêtre flottante à ouvrir par-dessus l’appli que vous utilisez."
+          ],
+          "steps": [
+            "Installez Clipboard+ depuis Google Play et ouvrez-la une fois.",
+            "Copiez comme d’habitude. Vous pouvez aussi sélectionner du texte dans n’importe quelle appli et choisir Clipboard+ dans le menu de sélection pour l’enregistrer.",
+            "Ouvrez la fenêtre flottante (ou l’appli) pour voir votre historique, touchez un élément pour le copier à nouveau, puis collez-le là où vous êtes.",
+            "Rangez les textes que vous réutilisez en extraits dans des groupes : ils sont toujours à un toucher."
+          ]
+        },
+        {
+          "h": "Lequel choisir ?",
+          "p": [
+            "Pour un besoin ponctuel — coller ce que vous avez copié il y a une minute —, le presse-papiers du clavier suffit. Si vous perdez des copies dont vous aviez besoin ou si vous retapez sans cesse le même texte, un gestionnaire de presse-papiers vous fait gagner ce temps. Clipboard+ est gratuit pour commencer ; Pro ajoute la synchronisation avec l’appli Windows via votre propre Google Drive, les images illimitées dans l’historique et l’export PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Android a-t-il un historique du presse-papiers intégré ?",
+          "a": "Pas dans le système lui-même : Android ne garde que la dernière copie. Des claviers comme Gboard et Samsung Keyboard ajoutent une liste de presse-papiers à court terme."
+        },
+        {
+          "q": "Puis-je voir l’historique du presse-papiers de mon téléphone sur mon PC ?",
+          "a": "Oui, avec Clipboard+ des deux côtés : l’appli Android et Clipboard+ for Windows se synchronisent via votre propre Google Drive (fonction Pro sur Android)."
+        }
+      ]
+    },
+    "open-app-automatically-after-reboot-android": {
+      "app": "autostart",
+      "updated": "2026-10-14",
+      "title": "Ouvrir une appli automatiquement après un redémarrage sur Android (sans root)",
+      "desc": "Android n’a aucun réglage pour lancer une appli au démarrage du téléphone. Voici comment faire s’ouvrir vos applis toutes seules après un redémarrage, sans root, et comment tester sans redémarrer.",
+      "intro": "Android n’a pas de réglage qui ouvre une appli au démarrage du téléphone. Si vous ouvrez les mêmes applis après chaque redémarrage — une appli de navigation dans la voiture, un launcher sur une tablette en mode kiosque, une appli de musique sur un autoradio —, une appli de démarrage automatique peut le faire pour vous.",
+      "sections": [
+        {
+          "h": "Pourquoi cela ne se fait pas tout seul",
+          "p": [
+            "Depuis Android 10, les applis n’ont plus le droit d’ouvrir d’elles-mêmes des écrans depuis l’arrière-plan. Une appli censée en ouvrir d’autres après un redémarrage a donc besoin de l’autorisation « Superposition sur d’autres applis », et elle ne peut les lancer qu’une fois le téléphone déverrouillé pour la première fois."
+          ]
+        },
+        {
+          "h": "Configurer avec AutoStart+",
+          "p": [
+            "AutoStart+ (notre appli) ouvre les applis de votre choix après chaque redémarrage, dès que vous déverrouillez le téléphone. Aucun root n’est nécessaire."
+          ],
+          "steps": [
+            "Installez AutoStart+ depuis Google Play et ouvrez-la.",
+            "Touchez « Ajouter des applis » et choisissez celles à ouvrir après un redémarrage. Faites glisser les lignes pour décider laquelle s’ouvre en premier.",
+            "Autorisez « Superposition sur d’autres applis » quand on vous le demande : sans cela, Android bloque le lancement.",
+            "Touchez « Tester maintenant » pour voir ce qui va se passer, sans redémarrer le téléphone.",
+            "Redémarrez le téléphone et déverrouillez-le : vos applis s’ouvrent dans l’ordre choisi."
+          ]
+        },
+        {
+          "h": "Autoradios et appareils qui se mettent en veille",
+          "p": [
+            "Beaucoup d’autoradios Android ne redémarrent pas vraiment : ils se mettent en veille quand la voiture est éteinte. AutoStart+ dispose d’un « Mode voiture » qui rouvre vos applis à chaque réveil de l’écran."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Faut-il le root pour lancer des applis automatiquement sur Android ?",
+          "a": "Non. AutoStart+ fonctionne sans root ; il a seulement besoin de l’autorisation « Superposition sur d’autres applis »."
+        },
+        {
+          "q": "Pourquoi mes applis ne s’ouvrent-elles pas avant que je déverrouille le téléphone ?",
+          "a": "Android ne laisse pas les applis en ouvrir d’autres tant que le téléphone n’a pas été déverrouillé une fois après un redémarrage. Vos applis s’ouvrent juste après le déverrouillage."
+        },
+        {
+          "q": "Combien d’applis puis-je lancer automatiquement gratuitement ?",
+          "a": "La version gratuite lance 1 appli par démarrage. Pro lance toute votre liste dans l’ordre, et si vous préférez ne pas vous abonner, une courte pub lève la limite pendant 24 heures."
+        }
+      ]
+    },
+    "floating-notes-over-other-apps-android": {
+      "app": "floatnote",
+      "updated": "2026-10-14",
+      "title": "Garder une note au premier plan sur les autres applis Android",
+      "desc": "Gardez une note sous les yeux pendant que vous utilisez une autre appli : une note flottante qui reste au-dessus de toute appli, se réduit en petite pastille et peut s’afficher à l’heure de votre choix.",
+      "intro": "Recopier une liste dans un formulaire, suivre une recette pendant qu’une vidéo tourne, garder un numéro de commande en vue dans une discussion : faire des allers-retours vers votre appli de notes casse le rythme. Une note flottante reste à l’écran par-dessus l’appli que vous utilisez.",
+      "sections": [
+        {
+          "h": "Comment fonctionnent les notes flottantes",
+          "p": [
+            "Une note flottante est une petite fenêtre affichée par-dessus les autres applis. Android le permet grâce à l’autorisation « Superposition sur d’autres applis », que vous accordez une seule fois. La note reste au premier plan pendant que vous continuez à utiliser l’appli en dessous."
+          ]
+        },
+        {
+          "h": "Configurer avec FloatNote+",
+          "p": [
+            "FloatNote+ (notre appli) fait flotter chaque note sous forme de petite pastille au-dessus de toute appli. Touchez la pastille, elle s’ouvre en carte sur place ; touchez sa barre de titre pour la replier."
+          ],
+          "steps": [
+            "Installez FloatNote+ depuis Google Play et autorisez « Superposition sur d’autres applis ».",
+            "Touchez + pour écrire une note : elle apparaît en carte par-dessus votre écran.",
+            "Ouvrez l’appli dont vous avez besoin. La note reste au premier plan ; réduisez-la en pastille quand vous voulez libérer l’écran.",
+            "Utilisez les couleurs, le gras, la taille du texte et les images pour distinguer facilement vos notes.",
+            "Pour faire apparaître une note à une heure précise, ouvrez son menu ⋮ et choisissez « Me rappeler » : une fois, tous les jours, en semaine ou les jours de votre choix."
+          ]
+        },
+        {
+          "h": "Aussi sur votre PC",
+          "p": [
+            "FloatNote+ for Windows fait flotter le même genre de notes au-dessus de n’importe quelle fenêtre, et les deux applis se synchronisent via votre propre Google Drive (fonction Pro sur Android)."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Android a-t-il des notes flottantes intégrées ?",
+          "a": "Android n’a pas de fonction générale de notes flottantes. Des applis comme FloatNote+ l’ajoutent grâce à l’autorisation « Superposition sur d’autres applis »."
+        },
+        {
+          "q": "Une note peut-elle s’afficher à une heure précise ?",
+          "a": "Oui. Dans FloatNote+, réglez un rappel depuis le menu ⋮ de la note : elle s’affiche à l’écran avec une notification. La version gratuite permet un rappel ; Pro n’a pas de limite."
+        },
+        {
+          "q": "FloatNote+ est-il gratuit ?",
+          "a": "L’enregistrement des notes est gratuit et illimité, et la version gratuite fait flotter une note à la fois. Pro ajoute les notes flottantes illimitées, les images dans la note, l’opacité réglable, la synchro Google Drive et la suppression des pubs."
+        }
+      ]
+    },
+    "floating-timer-over-other-apps-android": {
+      "app": "floattimer",
+      "updated": "2026-10-14",
+      "title": "Garder un minuteur à l’écran pendant que vous utilisez d’autres applis Android",
+      "desc": "Le minuteur de l’appli Horloge disparaît quand vous changez d’appli. Voici comment faire flotter un compte à rebours, un chronomètre ou un compteur au-dessus de toute appli.",
+      "intro": "Le minuteur de l’appli Horloge tourne en arrière-plan, mais vous ne le voyez pas dans une autre appli : il faut dérouler les notifications ou revenir en arrière. Pour réviser en suivant un cours, chronométrer une présentation ou jouer, il est utile d’avoir le temps à l’écran en permanence.",
+      "sections": [
+        {
+          "h": "Configurer avec FloatTimer+",
+          "p": [
+            "FloatTimer+ (notre appli) fait flotter minuteurs, chronomètres et compteurs au-dessus de toute appli, sous forme de petites cartes à placer où vous voulez."
+          ],
+          "steps": [
+            "Installez FloatTimer+ depuis Google Play et autorisez « Superposition sur d’autres applis ».",
+            "Créez un minuteur : heures, minutes et secondes au choix, ou un préréglage rapide comme 25 minutes.",
+            "Faites-le flotter et ouvrez l’appli que vous utilisez. Démarrez, mettez en pause et remettez à zéro depuis la carte elle-même.",
+            "Repliez-le en bulle quand vous avez besoin de place ; le temps continue de défiler."
+          ]
+        },
+        {
+          "h": "Plusieurs à la fois",
+          "p": [
+            "Vous pouvez créer gratuitement autant de minuteurs, compteurs et chronomètres que vous voulez, et ils continuent de tourner. La version gratuite en affiche un à l’écran à la fois ; Pro en fait flotter autant que vous voulez simultanément, ou une courte pub le débloque pendant 24 heures."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Puis-je voir un minuteur par-dessus YouTube ou un jeu ?",
+          "a": "Oui. Un minuteur flottant reste au-dessus de toute appli, vidéos et jeux compris, dès que vous autorisez « Superposition sur d’autres applis »."
+        },
+        {
+          "q": "Y a-t-il un préréglage Pomodoro ?",
+          "a": "FloatTimer+ propose des préréglages rapides de 1, 5, 10, 25, 30 et 60 minutes : un minuteur de concentration de 25 minutes est à un toucher."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots": {
+      "app": "photocleaner",
+      "updated": "2026-10-14",
+      "title": "Masquer ses informations personnelles sur une capture d’écran avant de la partager",
+      "desc": "Le flou, un trait léger ou un surligneur peuvent laisser le texte lisible. Voici comment cacher numéros de téléphone, numéros de carte et visages de façon irrécupérable, sur votre téléphone, sans rien envoyer en ligne.",
+      "intro": "Les captures d’écran et photos de documents en montrent souvent plus que prévu : un numéro de téléphone, un numéro de pièce d’identité ou de carte, une adresse, un visage, un QR code. Avant de les publier ou de les envoyer, cachez correctement ces informations.",
+      "sections": [
+        {
+          "h": "Ce qu’il faut éviter",
+          "p": [
+            "Un surligneur semi-transparent ou de fins traits de stylo peuvent laisser le texte lisible si quelqu’un augmente le contraste, et un flou ou une mosaïque sur du petit texte peuvent parfois se deviner. Posez un cache plein et opaque sur tout ce qui est privé, et partagez une copie plutôt que l’original."
+          ]
+        },
+        {
+          "h": "Option 1 : l’éditeur photo de votre téléphone",
+          "p": [
+            "La plupart des applis de galerie ont un outil d’annotation ou de dessin. Si vous l’utilisez, choisissez une forme pleine ou un stylo entièrement opaque, couvrez complètement chaque élément et zoomez pour vérifier les bords avant d’enregistrer."
+          ]
+        },
+        {
+          "h": "Option 2 : PhotoCleaner+",
+          "p": [
+            "PhotoCleaner+ (notre appli) est conçue pour cela. Elle suggère les informations probablement personnelles, vous vérifiez chaque cadre, et elle exporte une copie avec des caches opaques — tout se passe sur votre téléphone, rien n’est envoyé en ligne."
+          ],
+          "steps": [
+            "Ouvrez une photo, une capture d’écran ou un PDF dans PhotoCleaner+.",
+            "Vérifiez les cadres suggérés — numéros de téléphone, e-mails, numéros de carte et textes similaires — et ajoutez les vôtres en dessinant.",
+            "Déplacez, redimensionnez ou supprimez les cadres jusqu’à ce que tout ce qui est privé soit couvert.",
+            "Exportez la copie masquée et partagez-la. Votre original n’est pas modifié, et les copies enregistrées ne contiennent aucune donnée EXIF ni GPS."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Le flou suffit-il pour cacher un numéro de téléphone ?",
+          "a": "Pas toujours. Un flou léger sur du petit texte peut parfois être lu ou deviné. Un cache plein et opaque est le choix sûr."
+        },
+        {
+          "q": "PhotoCleaner+ envoie-t-il mes photos en ligne ?",
+          "a": "Non. La détection et le masquage se font sur votre téléphone, et vos photos et documents ne sont jamais envoyés en ligne."
+        },
+        {
+          "q": "Est-ce gratuit ?",
+          "a": "La détection, la modification et le masquage sont gratuits ; vous pouvez exporter 3 fois par jour. Pro supprime la limite quotidienne et ajoute l’export PDF et l’impression, ou une courte pub lève la limite pendant 24 heures."
+        }
+      ]
+    },
+    "sticky-notes-always-on-top-windows": {
+      "app": "floatnotewin",
+      "updated": "2026-10-14",
+      "title": "Garder un pense-bête toujours au premier plan sous Windows",
+      "desc": "Les notes sur le bureau finissent derrière la fenêtre où vous travaillez. Voici comment épingler une note au-dessus de toutes les fenêtres : avec PowerToys, ou avec des notes conçues pour flotter.",
+      "intro": "Un pense-bête n’est utile que si vous le voyez. Sous Windows, les notes sur le bureau finissent généralement derrière le navigateur, le document ou le tableur sur lequel vous travaillez, et il faut aller les chercher. Il existe deux façons de garder une note au premier plan.",
+      "sections": [
+        {
+          "h": "Option 1 : épingler une fenêtre avec PowerToys",
+          "p": [
+            "Microsoft PowerToys, un ensemble gratuit d’utilitaires de Microsoft, inclut « Always On Top ». Installez PowerToys, activez « Always On Top », cliquez sur la fenêtre à garder devant — par exemple une fenêtre de notes — et appuyez sur Win+Ctrl+T. Appuyez de nouveau pour la désépingler.",
+            "Cela marche avec presque toutes les fenêtres. Le hic : une fenêtre épinglée reste une fenêtre complète. Elle prend le focus quand vous cliquez dessus, et elle occupe la même place que vous lisiez la note ou non."
+          ]
+        },
+        {
+          "h": "Option 2 : des notes conçues pour flotter",
+          "p": [
+            "FloatNote+ for Windows (notre appli) garde chaque note sous forme de petite pastille au-dessus de toutes les fenêtres. Cliquez sur la pastille, elle s’ouvre en carte sur place ; appuyez sur Esc, elle se replie. Les pastilles ne prennent jamais le focus à l’appli derrière elles : votre curseur reste là où vous tapiez."
+          ],
+          "steps": [
+            "Installez FloatNote+ depuis le Microsoft Store.",
+            "Créez une note depuis l’icône de la zone de notification ou avec un raccourci global : elle apparaît en carte par-dessus votre écran.",
+            "Continuez à travailler : la note reste au-dessus de toutes les fenêtres. Appuyez sur Esc pour la réduire en pastille.",
+            "Placez les pastilles où vous voulez, distinguez-les avec les couleurs et le texte enrichi, et réglez un rappel pour faire apparaître une note à une heure précise."
+          ]
+        },
+        {
+          "h": "Vos notes aussi sur votre téléphone",
+          "p": [
+            "FloatNote+ for Windows se synchronise avec l’appli Android FloatNote+ via votre propre Google Drive : une note écrite sur votre PC se retrouve sur votre téléphone. Toutes les fonctions de la version Windows sont gratuites."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Les Pense-bêtes de Windows peuvent-ils rester au-dessus des autres fenêtres ?",
+          "a": "Pas d’eux-mêmes dans la plupart des configurations. Vous pouvez épingler n’importe quelle fenêtre, y compris une fenêtre de notes, avec « Always On Top » de PowerToys (Win+Ctrl+T), ou utiliser une appli dont les notes flottent par conception au-dessus des autres fenêtres."
+        },
+        {
+          "q": "Une note flottante vole-t-elle le focus de ce que je tape ?",
+          "a": "Pas les pastilles de FloatNote+. Cliquer ou faire glisser une pastille laisse votre curseur dans l’appli que vous utilisiez ; seule une carte ouverte prend le focus, puisque vous tapez dedans."
+        }
+      ]
+    },
+    "clipboard-history-windows": {
+      "app": "clipboardwin",
+      "updated": "2026-10-14",
+      "title": "Comment voir l’historique du Presse-papiers sous Windows",
+      "desc": "Windows a un historique du Presse-papiers intégré (Win+V), mais il est court et s’efface au redémarrage. Voici comment l’utiliser, et comment garder un historique consultable qui dure.",
+      "intro": "Copiez autre chose et l’élément précédent disparaît, sauf si vous gardez un historique. Windows 10 et 11 en ont un intégré, et un gestionnaire de presse-papiers peut en conserver un plus long.",
+      "sections": [
+        {
+          "h": "Option 1 : l’historique du Presse-papiers intégré (Win+V)",
+          "p": [
+            "Appuyez sur Win+V. La première fois, Windows vous propose d’activer l’historique du Presse-papiers (vous pouvez aussi le faire dans Paramètres > Système > Presse-papiers). Ensuite, Win+V affiche vos copies récentes, et un clic sur l’une d’elles la colle.",
+            "C’est rapide, mais limité : il garde jusqu’à 25 éléments, et tout sauf les éléments épinglés est effacé au redémarrage du PC. Il n’y a pas de recherche, et il ne va pas jusqu’à votre téléphone."
+          ]
+        },
+        {
+          "h": "Option 2 : un gestionnaire de presse-papiers qui garde tout",
+          "p": [
+            "Clipboard+ for Windows (notre appli) réside dans la zone de notification et enregistre les textes et images à l’instant où vous les copiez. Votre historique reste jusqu’à ce que vous le supprimiez, et vous pouvez le rechercher, l’organiser en groupes et en extraits, et l’afficher avec un raccourci."
+          ],
+          "steps": [
+            "Installez Clipboard+ depuis le Microsoft Store ; elle démarre dans la zone de notification.",
+            "Copiez comme d’habitude : chaque texte et chaque image sont enregistrés automatiquement.",
+            "Appuyez sur le raccourci global pour ouvrir la fenêtre de sélection rapide au curseur, choisissez un élément avec Ctrl+1–9 et appuyez sur Enter pour le coller.",
+            "Ouvrez la fenêtre principale pour rechercher, épingler, modifier ou garder les textes fréquents en extraits."
+          ]
+        },
+        {
+          "h": "Entre votre téléphone et votre PC",
+          "p": [
+            "Associée à l’appli Android Clipboard+, ce que vous copiez sur votre téléphone se colle sur votre PC et inversement, via votre propre Google Drive. L’historique du presse-papiers, les extraits, les groupes, la recherche et la fenêtre de sélection rapide sont gratuits ; Pro ajoute la synchronisation, le stockage d’images illimité et l’export PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi mon historique du Presse-papiers (Win+V) est-il vide après un redémarrage ?",
+          "a": "Windows efface l’historique du Presse-papiers au redémarrage du PC, sauf les éléments épinglés. Un gestionnaire de presse-papiers comme Clipboard+ conserve votre historique d’un redémarrage à l’autre."
+        },
+        {
+          "q": "Combien d’éléments l’historique du Presse-papiers de Windows conserve-t-il ?",
+          "a": "Jusqu’à 25. Les plus anciens disparaissent à mesure que vous copiez de nouveaux éléments."
+        }
+      ]
+    },
+    "timer-always-on-top-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-14",
+      "title": "Garder un minuteur au premier plan sous Windows",
+      "desc": "Gardez un compte à rebours en vue pendant que vous travaillez dans d’autres fenêtres : avec l’option « Keep on top » de l’appli Horloge, ou avec des minuteurs qui flottent en petites cartes au-dessus de tout.",
+      "intro": "Chronométrer une présentation, une séance de concentration ou un appel est plus simple quand le temps reste visible. Windows propose une solution intégrée, et une appli de minuteurs flottants en offre davantage.",
+      "sections": [
+        {
+          "h": "Option 1 : « Keep on top » dans l’appli Horloge",
+          "p": [
+            "L’appli Horloge fournie avec Windows peut afficher un minuteur dans une petite fenêtre qui reste au-dessus des autres : lancez un minuteur, agrandissez-le et choisissez « Keep on top ». Cela fonctionne pour un seul minuteur, affiché dans une petite fenêtre de taille fixe."
+          ]
+        },
+        {
+          "h": "Option 2 : des cartes de minuteur flottantes",
+          "p": [
+            "FloatTimer+ for Windows (notre appli) fait flotter minuteurs, compteurs et chronomètres au-dessus de toutes les fenêtres en petites cartes pastel. Les cartes ne prennent jamais le focus : cliquer sur l’une d’elles laisse votre curseur là où vous tapiez."
+          ],
+          "steps": [
+            "Installez FloatTimer+ depuis le Microsoft Store ; elle se loge dans la zone de notification.",
+            "Créez un minuteur, un compteur ou un chronomètre et faites-le flotter.",
+            "Démarrez, mettez en pause et remettez à zéro depuis la carte elle-même ; déplacez-la où vous voulez ou redimensionnez-la.",
+            "Repliez-la en petite bulle, ou poussez-la contre le bord de l’écran, quand vous voulez récupérer de la place."
+          ]
+        },
+        {
+          "h": "Gratuit et Pro",
+          "p": [
+            "Vous pouvez créer autant de minuteurs, compteurs et chronomètres que vous voulez, sans publicité. La version gratuite fait flotter une carte à la fois ; Pro est un achat unique qui en fait flotter autant que vous voulez et ajoute les minuteurs répétitifs et les alertes personnalisées."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Windows a-t-il un minuteur toujours au premier plan ?",
+          "a": "L’option « Keep on top » de l’appli Horloge affiche un minuteur dans une petite fenêtre au-dessus des autres. Pour plusieurs minuteurs, compteurs ou chronomètres à la fois, utilisez une appli de minuteurs flottants."
+        },
+        {
+          "q": "Un minuteur flottant va-t-il gêner mon travail ?",
+          "a": "Les cartes de FloatTimer+ ne prennent jamais le focus à l’appli en dessous, et vous pouvez les replier en bulle ou les ranger contre le bord de l’écran."
+        }
+      ]
+    },
+    "reading-ruler-dyslexia-adhd-android": {
+      "app": "readfocus",
+      "updated": "2026-10-14",
+      "title": "Règle de lecture pour la dyslexie et le TDAH sur Android : ne plus perdre la ligne",
+      "desc": "Vous perdez la ligne, sautez des lignes ou relisez la même phrase ? Une règle de lecture ou un masque de lecture par-dessus toute appli aide vos yeux à rester sur la bonne ligne. Voici comment le configurer sur Android.",
+      "intro": "Sur un écran de téléphone, on se perd facilement dans un long texte : les yeux glissent à la ligne suivante, en sautent une ou reviennent à une phrase déjà lue. Beaucoup de personnes dyslexiques ou avec un TDAH posent une règle ou une carte sous la ligne quand elles lisent sur papier. Sur un téléphone, une règle de lecture fait la même chose à l’écran.",
+      "sections": [
+        {
+          "h": "Commencez par vos réglages d’affichage",
+          "p": [
+            "Les réglages d’accessibilité et d’affichage d’Android — police plus grande, texte en gras, thème sombre — peuvent rendre le texte plus lisible. En revanche, ils ne marquent pas la ligne où vous êtes, et c’est justement ce qui aide quand vos yeux ne cessent de s’égarer."
+          ]
+        },
+        {
+          "h": "Ajouter une règle de lecture avec ReadFocus+",
+          "p": [
+            "ReadFocus+ (notre appli) fait flotter une bande de focalisation par-dessus toute appli : livres numériques, PDF, navigateurs, actualités, webtoons. Choisissez le Surlignage de ligne pour éclairer la ligne que vous lisez, ou le Masque de lecture pour assombrir tout sauf votre zone de lecture."
+          ],
+          "steps": [
+            "Installez ReadFocus+ depuis Google Play et autorisez « Superposition sur d’autres applis ».",
+            "Choisissez un mode : Surlignage de ligne (une règle de lecture) ou Masque de lecture.",
+            "Ouvrez l’appli dans laquelle vous lisez et faites glisser la bande sur votre ligne.",
+            "Réglez sa hauteur (50–300 dp), son opacité et son thème de couleur jusqu’à ce que ce soit confortable."
+          ]
+        },
+        {
+          "h": "Gratuit et Pro",
+          "p": [
+            "La version gratuite offre 60 minutes de superposition par session et 3 thèmes de couleur. Pro supprime les pubs et la limite de temps, et ajoute les 10 thèmes et l’écran maintenu allumé, ou une courte pub débloque les fonctions Pro pendant 24 heures."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Une règle de lecture aide-t-elle en cas de dyslexie ?",
+          "a": "Beaucoup de lecteurs dyslexiques ou avec un TDAH trouvent qu’il est plus facile de ne pas perdre le fil quand la ligne en cours est marquée. C’est une aide à la lecture, pas un traitement : essayez et gardez les réglages qui vous conviennent."
+        },
+        {
+          "q": "Avec quelles applis ReadFocus+ fonctionne-t-il ?",
+          "a": "Avec toute appli à l’écran : liseuses d’e-books et de PDF, navigateurs, actualités, notes de cours, BD et webtoons."
+        }
+      ]
+    },
+    "reading-ruler-windows": {
+      "app": "readfocuswin",
+      "updated": "2026-10-14",
+      "title": "Utiliser une règle de lecture sous Windows (dyslexie et TDAH)",
+      "desc": "Le Lecteur immersif d’Edge propose « Line focus » pour les pages web. Pour les PDF, les documents et toutes les autres applis, une bande de focus à clic traversant garde vos yeux sur la ligne. Voici comment utiliser les deux.",
+      "intro": "Sur un écran d’ordinateur, on perd facilement la ligne en lisant de longues pages. Une règle de lecture met en évidence la ligne où vous êtes, ou assombrit le reste de l’écran, pour que vos yeux restent sur la bonne ligne.",
+      "sections": [
+        {
+          "h": "Option 1 : « Line focus » dans Microsoft Edge",
+          "p": [
+            "Microsoft Edge propose le Lecteur immersif (Immersive Reader), une vue de lecture épurée pour les pages web. Dans ses préférences de lecture, « Line focus » met en évidence une, trois ou cinq lignes à la fois. Cela ne fonctionne que sur les pages qui s’ouvrent dans le Lecteur immersif, pas dans les PDF, les documents ni les autres applis."
+          ]
+        },
+        {
+          "h": "Option 2 : une bande de focus par-dessus toute appli",
+          "p": [
+            "ReadFocus+ for Windows (notre appli) pose une bande de focus sur ce que vous lisez : une page web, un PDF, un document, du code. Le Masque assombrit le haut et le bas de l’écran en laissant une bande claire ; le Surlignage marque la ligne où vous êtes. La bande laisse passer les clics : vous continuez à faire défiler et à cliquer en dessous comme avant."
+          ],
+          "steps": [
+            "Installez ReadFocus+ depuis le Microsoft Store.",
+            "Lancez-la depuis le panneau flottant ou avec un raccourci clavier, et choisissez Masque ou Surlignage.",
+            "Placez la bande sur votre ligne, ou décalez-la vers le haut ou le bas avec des raccourcis au fil de la lecture.",
+            "Verrouillez-la, masquez-la ou déplacez-la sur un autre écran depuis le panneau."
+          ]
+        },
+        {
+          "h": "Gratuit et Pro",
+          "p": [
+            "La version gratuite inclut les deux modes et trois thèmes, en sessions de 60 minutes maximum. Pro est un achat unique qui supprime la limite de temps et ajoute les thèmes premium, les réglages de hauteur et d’opacité de la bande et l’écran maintenu allumé. Il n’y a pas de publicité."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Windows a-t-il une règle de lecture ?",
+          "a": "Le Lecteur immersif d’Edge propose « Line focus » pour les pages web. Pour les autres applis — PDF, Word, éditeurs de code —, il vous faut une superposition à l’écran comme ReadFocus+ for Windows."
+        },
+        {
+          "q": "La bande va-t-elle bloquer mes clics ?",
+          "a": "Non. ReadFocus+ for Windows laisse passer les clics : le défilement, la sélection et les clics vont à l’appli en dessous."
+        }
+      ]
+    },
+    "floating-calculator-over-other-apps-android": {
+      "app": "floatcalc",
+      "updated": "2026-10-14",
+      "title": "Utiliser une calculatrice par-dessus d’autres applis sur Android",
+      "desc": "Calculez une remise ou convertissez un prix sans quitter votre écran de shopping, de banque ou votre navigateur : une calculatrice flottante qui reste au-dessus de toute appli, avec convertisseurs d’unités et de devises.",
+      "intro": "Vérifier un prix dans une appli de shopping, partager une addition dans une conversation, convertir une devise pendant une réservation : passer à l’appli Calculatrice puis revenir, c’est perdre le fil et retenir des chiffres de tête. Une calculatrice flottante reste à l’écran au-dessus de l’appli que vous utilisez.",
+      "sections": [
+        {
+          "h": "Option 1 : l’écran partagé",
+          "p": [
+            "Android peut afficher deux applis à la fois en écran partagé. Ouvrez l’écran des applis récentes, choisissez l’écran partagé pour une appli et sélectionnez la Calculatrice pour l’autre moitié. Ça fonctionne, mais chaque appli n’a que la moitié de l’écran."
+          ]
+        },
+        {
+          "h": "Option 2 : une calculatrice flottante",
+          "p": [
+            "FloatCalc+ (notre appli) est une fenêtre de calculatrice qui flotte au-dessus de toute appli. La calculatrice, le convertisseur d’unités et le convertisseur de devises partagent une même fenêtre que vous pouvez déplacer n’importe où ; repliez le clavier sur une seule ligne ou réduisez le panneau en une icône au bord de l’écran quand vous avez besoin de place."
+          ],
+          "steps": [
+            "Installez FloatCalc+ depuis Google Play et autorisez « Superposition sur d’autres applis ».",
+            "Ouvrez la calculatrice flottante et placez-la là où elle ne cache pas ce dont vous avez besoin.",
+            "Tapez l’opération — puissances, racines et pourcentages fonctionnent aussi — et copiez le résultat dans le presse-papiers.",
+            "Passez au convertisseur d’unités ou de devises dans la même fenêtre. Les taux de change viennent de la Banque centrale européenne, sont actualisés chaque jour et continuent de fonctionner hors ligne."
+          ]
+        },
+        {
+          "h": "Gratuit et Pro",
+          "p": [
+            "La calculatrice flottante est gratuite 60 minutes par jour ; la barre de titre indique le temps restant, et une courte pub vous donne un pass de 24 heures. Pro supprime la limite quotidienne et les publicités, et ajoute toutes les catégories d’unités, plus de 30 devises et davantage de thèmes."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Puis-je utiliser une calculatrice sans quitter mon appli ?",
+          "a": "Oui. Une calculatrice flottante comme FloatCalc+ reste au-dessus des autres applis dès que vous autorisez « Superposition sur d’autres applis »."
+        },
+        {
+          "q": "D’où viennent les taux de change ?",
+          "a": "De la Banque centrale européenne, actualisés une fois par jour et mis en cache pour une utilisation hors ligne."
+        }
+      ]
+    },
+    "crypto-price-ticker-over-other-apps-android": {
+      "app": "floatcrypto",
+      "updated": "2026-10-14",
+      "title": "Voir les cours crypto en utilisant d’autres applis sur Android",
+      "desc": "Gardez un bandeau de cours crypto en direct à l’écran pendant que vous regardez des vidéos, lisez ou discutez, et soyez prévenu quand une crypto franchit votre prix cible.",
+      "intro": "Les applis des plateformes d’échange affichent les cours dans l’appli ou dans un widget de l’écran d’accueil : pour consulter le marché, il faut quitter ce que vous êtes en train de faire. Un bandeau flottant garde les cours que vous suivez à l’écran, au-dessus de toute appli.",
+      "sections": [
+        {
+          "h": "Configurer un bandeau flottant avec FloatCrypto+",
+          "p": [
+            "FloatCrypto+ (notre appli) fait flotter un bandeau de cours au-dessus de toutes les applis — YouTube, l’actualité, un jeu, une conversation. Déplacez-le où vous voulez, redimensionnez-le et baissez son opacité pour qu’il ne masque pas ce que vous lisez."
+          ],
+          "steps": [
+            "Installez FloatCrypto+ depuis Google Play et autorisez « Superposition sur d’autres applis ».",
+            "Ajoutez les cryptos que vous suivez à votre liste de suivi et réorganisez-les par glisser-déposer.",
+            "Activez le bandeau flottant et placez-le où vous voulez.",
+            "Créez une alerte de prix haute ou basse depuis le menu ⋮ d’une crypto pour être prévenu quand le marché franchit ce seuil."
+          ]
+        },
+        {
+          "h": "Bon à savoir",
+          "p": [
+            "Les cours proviennent de Binance, avec une source de secours automatique, et peuvent avoir jusqu’à 30 secondes de retard (10 secondes avec Pro). Ils sont fournis à titre indicatif, et l’appli n’effectue aucune transaction et ne se connecte à aucun compte de plateforme d’échange. Rien ici ne constitue un conseil en investissement.",
+            "En gratuit, vous suivez 2 cryptos avec 1 alerte. Un Free Pass ouvre plus de cryptos ou des graphiques plus longs pendant 24 heures contre une courte pub, et Pro offre 10 cryptos, des alertes illimitées, une actualisation toutes les 10 secondes et aucune publicité."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Puis-je voir les cours crypto par-dessus YouTube ou un jeu ?",
+          "a": "Oui. Le bandeau flotte au-dessus de toutes les applis dès que vous autorisez « Superposition sur d’autres applis »."
+        },
+        {
+          "q": "Les cours sont-ils en temps réel ?",
+          "a": "Ils peuvent avoir jusqu’à 30 secondes de retard (10 secondes avec Pro) et sont fournis à titre indicatif."
+        }
+      ]
+    },
+    "make-android-phone-louder": {
+      "app": "volumebooster",
+      "updated": "2026-10-14",
+      "title": "Augmenter le volume de son téléphone Android",
+      "desc": "Votre téléphone est trop faible même au volume maximum ? Vérifiez d’abord ces réglages, puis voyez comment un booster de volume augmente la sortie de façon sûre — avec l’amplification affichée en décibels.",
+      "intro": "Si les vidéos, les appels en haut-parleur ou la musique sont trop faibles même au volume maximum, commencez par quelques réglages : parfois, le téléphone se limite tout simplement lui-même. Si cela ne suffit pas, un booster de volume peut augmenter davantage la sortie.",
+      "sections": [
+        {
+          "h": "À vérifier d’abord",
+          "p": [
+            "Assurez-vous de monter le volume multimédia et non celui de la sonnerie : appuyez sur une touche de volume pendant la lecture d’une vidéo, ou ouvrez le panneau de volume et montez le curseur multimédia.",
+            "Certains téléphones limitent le volume multimédia. Sur les téléphones Samsung, cherchez « Media volume limiter » dans les réglages du volume. Essayez aussi les effets sonores ou l’égaliseur du téléphone s’il en a un, et vérifiez qu’une coque ne couvre pas le haut-parleur."
+          ]
+        },
+        {
+          "h": "Augmenter la sortie avec VolumeBooster+",
+          "p": [
+            "VolumeBooster+ (notre appli) augmente la sortie du système plutôt que le volume d’une seule appli : vidéos, musique et jeux deviennent plus forts. L’amplification est affichée en décibels avec des zones Sûr, Prudence et Danger, pour que vous voyiez jusqu’où vous êtes allé."
+          ],
+          "steps": [
+            "Installez VolumeBooster+ depuis Google Play.",
+            "Lancez un son, puis augmentez l’amplification petit à petit en surveillant la zone dB.",
+            "Utilisez les presets d’égaliseur, le booster de basses ou AutoEQ pour votre casque afin d’obtenir un son plus clair, pas seulement plus fort.",
+            "Baissez l’amplification quand vous n’en avez pas besoin : vos oreilles et votre haut-parleur vous remercieront."
+          ]
+        },
+        {
+          "h": "Gratuit et Pro, et votre audition",
+          "p": [
+            "La version gratuite amplifie jusqu’à +10 dB pendant 60 minutes par jour ; Pro ou un Free Pass de 24 heures ouvre toute la plage de +15 dB. La valeur en dB est une estimation, et l’appli n’est pas un dispositif médical : si vous ressentez une douleur aux oreilles ou des acouphènes, baissez le volume."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Un booster de volume peut-il abîmer mon haut-parleur ou mon audition ?",
+          "a": "Un volume très élevé, oui. Augmentez l’amplification progressivement, surveillez les zones Sûr/Prudence/Danger, et baissez-la si le son sature ou si vous avez mal aux oreilles."
+        },
+        {
+          "q": "Jusqu’où le volume peut-il monter ?",
+          "a": "Jusqu’à +15 dB avec Pro ou un Free Pass, et jusqu’à +10 dB en version gratuite. Le volume réel varie selon l’appareil, le casque et le contenu."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots-windows": {
+      "app": "photocleanerwin",
+      "updated": "2026-10-14",
+      "title": "Masquer ses infos personnelles sur des captures d’écran et PDF sous Windows",
+      "desc": "Avant de partager une capture d’écran ou un document scanné depuis votre PC, couvrez numéros de téléphone, numéros de carte, numéros d’identité et visages avec des masques opaques, sans rien envoyer en ligne.",
+      "intro": "Les captures d’écran et documents scannés contiennent souvent un numéro de téléphone, une adresse e-mail, un numéro de carte ou d’identité, une adresse postale ou un visage. Avant de les envoyer ou de les publier depuis votre PC, couvrez ces informations pour qu’elles ne puissent pas être récupérées.",
+      "sections": [
+        {
+          "h": "Option 1 : l’Outil Capture d’écran (Snipping Tool)",
+          "p": [
+            "Les versions récentes de l’Outil Capture d’écran de Windows 11 peuvent masquer les adresses e-mail et numéros de téléphone d’une capture via « Text actions », et vous pouvez dessiner par-dessus tout le reste. Évitez le surligneur pour cela — il est semi-transparent — et utilisez des traits pleins qui couvrent entièrement chaque élément."
+          ]
+        },
+        {
+          "h": "Option 2 : PhotoCleaner+ for Windows",
+          "p": [
+            "PhotoCleaner+ for Windows (notre appli) repère les informations probablement personnelles dans les photos, captures d’écran et PDF — numéros de téléphone, e-mails, numéros de carte, IBAN, numéros de passeport, noms, adresses, plaques d’immatriculation, visages et codes QR — et exporte une copie avec des masques opaques. Tout se passe sur votre PC ; rien n’est envoyé en ligne."
+          ],
+          "steps": [
+            "Ouvrez un fichier, collez-le avec Ctrl+V, glissez-le dans la fenêtre, ou faites un clic droit dessus dans l’Explorateur de fichiers et choisissez « Clean with PhotoCleaner+ ».",
+            "Vérifiez les cadres : cliquez pour en activer ou désactiver un, faites-le glisser pour le déplacer ou le redimensionner, et dessinez les vôtres sur tout ce qui a été oublié.",
+            "Exportez la copie masquée — enregistrer, copier, partager ou enregistrer en PDF. Votre original n’est jamais écrasé, et les copies enregistrées ne contiennent aucune métadonnée."
+          ]
+        },
+        {
+          "h": "Gratuit et Pro",
+          "p": [
+            "La détection des informations personnelles est gratuite et illimitée, et vous pouvez exporter 3 documents par jour gratuitement. Pro est un achat unique qui supprime la limite quotidienne et ajoute l’export PDF et l’impression. Il n’y a ni publicité ni filigrane."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Va-t-il trouver toutes les informations personnelles ?",
+          "a": "Aucun outil ne peut le promettre. La détection est un point de départ : vérifiez toujours les cadres avant d’exporter et couvrez tout ce qui a été oublié."
+        },
+        {
+          "q": "Mes fichiers sont-ils envoyés en ligne ?",
+          "a": "Non. La détection, le masquage et l’export se font sur votre PC, sans compte et sans rien envoyer."
+        }
+      ]
+    },
+    "crypto-price-ticker-on-top-windows": {
+      "app": "floatcryptowin",
+      "updated": "2026-10-14",
+      "title": "Garder un bandeau de cours crypto au-dessus des autres fenêtres sous Windows",
+      "desc": "Suivez vos cryptos pendant que vous travaillez : un fin bandeau de cours au-dessus de toutes les fenêtres, des alertes de prix en notifications sur le bureau et des graphiques d’un double-clic.",
+      "intro": "Garder un onglet de plateforme d’échange ouvert oblige à y revenir chaque fois que vous voulez voir un cours. Un bandeau flottant garde les cryptos que vous suivez en vue, au-dessus de toutes les fenêtres.",
+      "sections": [
+        {
+          "h": "Configurer FloatCrypto+ for Windows",
+          "p": [
+            "FloatCrypto+ for Windows (notre appli) garde un fin bandeau au-dessus de toutes les fenêtres, avec le symbole et la variation sur 24 heures de chaque crypto. Il ne prend jamais le focus : votre curseur reste là où vous tapiez."
+          ],
+          "steps": [
+            "Installez FloatCrypto+ depuis le Microsoft Store ; elle se loge dans la zone de notification.",
+            "Choisissez vos cryptos parmi les paires Binance et réorganisez-les par glisser-déposer.",
+            "Placez le bandeau où vous voulez et réglez son opacité et la taille du texte — ou réduisez-le en une bulle contre le bord de l’écran.",
+            "Fixez un objectif au-dessus ou en dessous du cours actuel pour recevoir une notification sur le bureau quand le marché le franchit. Double-cliquez sur une crypto pour voir son graphique."
+          ]
+        },
+        {
+          "h": "Bon à savoir",
+          "p": [
+            "Survolez l’icône de la zone de notification pour un tableau complet des cours, et masquez le bandeau avec Ctrl+Alt+T. Les cours proviennent des données de marché publiques de Binance, avec bascule automatique, et peuvent avoir jusqu’à 30 secondes de retard ; l’appli n’effectue aucune transaction et ne se connecte à aucun compte de plateforme d’échange, et rien dans l’appli ne constitue un conseil en investissement.",
+            "En gratuit, vous suivez 2 cryptos avec 1 alerte ; Pro est un achat unique pour 10 cryptos, des alertes illimitées, une actualisation toutes les 10 secondes et des graphiques plus longs. Il n’y a pas de publicité."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Le bandeau gêne-t-il mon travail ?",
+          "a": "Non. Il ne prend jamais le focus ; vous pouvez baisser son opacité, le réduire en bulle ou le masquer avec Ctrl+Alt+T."
+        },
+        {
+          "q": "Faut-il mon compte de plateforme d’échange ?",
+          "a": "Non. L’appli lit uniquement des données de marché publiques ; elle n’effectue jamais de transaction et ne détient aucun fonds."
+        }
+      ]
+    }
+  }
+}

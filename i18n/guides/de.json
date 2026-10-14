@@ -1,0 +1,660 @@
+{
+  "ui": {
+    "guides": "Anleitungen",
+    "updated": "Aktualisiert",
+    "inThisGuide": "Die App in dieser Anleitung",
+    "appPage": "App-Details",
+    "moreGuides": "Weitere Anleitungen",
+    "appGuides": "Anleitungen",
+    "faq": "Fragen"
+  },
+  "guides": {
+    "android-clipboard-history": {
+      "app": "clipboard",
+      "updated": "2026-10-14",
+      "title": "Zwischenablage-Verlauf auf Android anzeigen",
+      "desc": "Android merkt sich nur das zuletzt Kopierte. Hier erfährst du, wo du kürzlich Kopiertes in deiner Tastatur findest und wie du einen durchsuchbaren Verlauf behältst, der nicht verschwindet.",
+      "intro": "Android selbst merkt sich nur das, was du zuletzt kopiert hast – kopierst du etwas Neues, ist der vorherige Text weg. Wenn du eine Adresse, einen Code oder einen Satz zurückholen willst, den du früher kopiert hast, brauchst du einen Ort, der einen Verlauf speichert. Davon gibt es zwei: deine Tastatur und eine Zwischenablage-App.",
+      "sections": [
+        {
+          "h": "Möglichkeit 1: die Zwischenablage deiner Tastatur",
+          "p": [
+            "Viele Tastaturen haben eine eigene Zwischenablage. Tippe in Gboard auf das Zwischenablage-Symbol in der Leiste über den Tasten (beim ersten Mal musst du sie einschalten). Auch Samsung Keyboard hat eine Zwischenablage-Schaltfläche in seiner Leiste.",
+            "So kommst du am schnellsten an etwas, das du vor ein paar Minuten kopiert hast. Der Haken: Die Zwischenablage der Tastatur ist nur kurzfristig. Gboard etwa entfernt nicht angeheftete Einträge nach etwa einer Stunde, und die Liste siehst du nur, während du tippst."
+          ]
+        },
+        {
+          "h": "Möglichkeit 2: ein Zwischenablage-Manager mit echtem Verlauf",
+          "p": [
+            "Wenn du immer wieder dasselbe kopierst – Adressen, Kontonummern, Standardantworten –, behält ein Zwischenablage-Manager alles, bis du es löschst, macht es durchsuchbar und kann es über jeder App anzeigen.",
+            "Clipboard+ (unsere App) speichert die Texte und Bilder, die du kopierst, in einem Verlauf – das Neueste zuerst –, mit Suche und einem schwebenden Panel, das du über der gerade genutzten App öffnen kannst."
+          ],
+          "steps": [
+            "Installiere Clipboard+ aus Google Play und öffne die App einmal.",
+            "Kopiere wie gewohnt. Du kannst auch in jeder App Text markieren und im Auswahlmenü Clipboard+ wählen, um ihn zu speichern.",
+            "Öffne das schwebende Panel (oder die App), um deinen Verlauf zu sehen, tippe auf einen Eintrag, um ihn erneut zu kopieren, und füge ihn dort ein, wo du gerade bist.",
+            "Lege Texte, die du öfter brauchst, als Snippets in Gruppen ab – dann sind sie immer nur einen Tipp entfernt."
+          ]
+        },
+        {
+          "h": "Was passt zu dir?",
+          "p": [
+            "Für den Einzelfall – etwas einfügen, das du vor einer Minute kopiert hast – reicht die Zwischenablage der Tastatur. Wenn dir Kopiertes verloren geht, das du noch brauchst, oder du denselben Text immer wieder tippst, spart dir ein Zwischenablage-Manager diese Zeit. Clipboard+ ist zum Start kostenlos; Pro bringt die Synchronisierung mit der Windows-App über dein eigenes Google Drive, unbegrenzt viele Bilder im Verlauf und PDF-Export."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hat Android einen eingebauten Zwischenablage-Verlauf?",
+          "a": "Nicht im System selbst – Android behält nur den zuletzt kopierten Eintrag. Tastaturen wie Gboard und Samsung Keyboard ergänzen eine kurzfristige Zwischenablage-Liste."
+        },
+        {
+          "q": "Kann ich den Zwischenablage-Verlauf meines Handys am PC sehen?",
+          "a": "Ja, mit Clipboard+ auf beiden Geräten: Die Android-App und Clipboard+ for Windows synchronisieren sich über dein eigenes Google Drive (auf Android eine Pro-Funktion)."
+        }
+      ]
+    },
+    "open-app-automatically-after-reboot-android": {
+      "app": "autostart",
+      "updated": "2026-10-14",
+      "title": "Android: App nach Neustart automatisch öffnen (ohne Root)",
+      "desc": "Android hat keine Einstellung, die beim Hochfahren eine App startet. So öffnen sich deine Apps nach einem Neustart von selbst, ganz ohne Root – und so testest du es, ohne neu zu starten.",
+      "intro": "Android hat keine Einstellung, die beim Start des Handys eine App öffnet. Wenn du nach jedem Neustart dieselben Apps öffnest – eine Navi-App im Auto, einen Launcher auf einem Kiosk-Tablet, eine Musik-App auf dem Autoradio –, kann eine Autostart-App das für dich übernehmen.",
+      "sections": [
+        {
+          "h": "Warum das nicht von selbst passiert",
+          "p": [
+            "Seit Android 10 dürfen Apps aus dem Hintergrund nicht mehr von sich aus Bildschirme öffnen. Eine App, die nach einem Neustart andere öffnen soll, braucht deshalb die Berechtigung „Über anderen Apps einblenden“, und sie kann sie erst starten, nachdem das Handy zum ersten Mal entsperrt wurde."
+          ]
+        },
+        {
+          "h": "Einrichten mit AutoStart+",
+          "p": [
+            "AutoStart+ (unsere App) öffnet die Apps deiner Wahl nach jedem Neustart, sobald du das Handy entsperrst. Root ist nicht nötig."
+          ],
+          "steps": [
+            "Installiere AutoStart+ aus Google Play und öffne die App.",
+            "Tippe auf „Apps hinzufügen“ und wähle die Apps, die nach einem Neustart öffnen sollen. Ziehe die Zeilen, um festzulegen, welche zuerst öffnet.",
+            "Erlaube „Über anderen Apps einblenden“, wenn du gefragt wirst – ohne diese Berechtigung blockiert Android den Start.",
+            "Tippe auf „Jetzt testen“, um zu sehen, was passieren wird, ohne das Handy neu zu starten.",
+            "Starte das Handy neu und entsperre es: Deine Apps öffnen sich in der festgelegten Reihenfolge."
+          ]
+        },
+        {
+          "h": "Autoradios und Geräte, die in den Ruhezustand gehen",
+          "p": [
+            "Viele Android-Autoradios starten gar nicht richtig neu – sie gehen in den Ruhezustand, wenn das Auto aus ist. AutoStart+ hat einen „Automodus“, der deine Apps jedes Mal wieder öffnet, wenn der Bildschirm aufwacht."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Brauche ich Root, um Apps auf Android automatisch zu starten?",
+          "a": "Nein. AutoStart+ funktioniert ohne Root; es braucht nur die Berechtigung „Über anderen Apps einblenden“."
+        },
+        {
+          "q": "Warum öffnen sich meine Apps nicht, bevor ich das Handy entsperre?",
+          "a": "Android lässt Apps erst andere öffnen, wenn das Handy nach einem Neustart einmal entsperrt wurde. Deine Apps öffnen sich direkt nach dem Entsperren."
+        },
+        {
+          "q": "Wie viele Apps kann ich kostenlos automatisch starten?",
+          "a": "Die Gratisversion startet 1 App pro Hochfahren. Pro startet deine ganze Liste der Reihe nach, und wenn du kein Abo möchtest, hebt ein kurzer Werbeclip das Limit für 24 Stunden auf."
+        }
+      ]
+    },
+    "floating-notes-over-other-apps-android": {
+      "app": "floatnote",
+      "updated": "2026-10-14",
+      "title": "Android: Notiz über anderen Apps im Vordergrund halten",
+      "desc": "Behalte eine Notiz im Blick, während du eine andere App nutzt: eine schwebende Notiz über jeder App, die sich zu einem kleinen Chip einklappt und zu einer Zeit deiner Wahl auftauchen kann.",
+      "intro": "Eine Liste in ein Formular übertragen, ein Rezept lesen, während ein Video läuft, eine Bestellnummer im Chat im Blick behalten – ständig zur Notizen-App zu wechseln, reißt dich raus. Eine schwebende Notiz bleibt auf dem Bildschirm, egal welche App du gerade nutzt.",
+      "sections": [
+        {
+          "h": "So funktionieren schwebende Notizen",
+          "p": [
+            "Eine schwebende Notiz ist ein kleines Fenster, das über anderen Apps angezeigt wird. Android erlaubt das über die Berechtigung „Über anderen Apps einblenden“, die du einmal erteilst. Die Notiz bleibt im Vordergrund, während du die App darunter weiter benutzt."
+          ]
+        },
+        {
+          "h": "Einrichten mit FloatNote+",
+          "p": [
+            "FloatNote+ (unsere App) lässt jede Notiz als kleinen Chip über jeder App schweben. Tippe auf den Chip, und er öffnet sich an Ort und Stelle als Karte; tippe auf die Titelleiste, um ihn wieder einzuklappen."
+          ],
+          "steps": [
+            "Installiere FloatNote+ aus Google Play und erlaube „Über anderen Apps einblenden“.",
+            "Tippe auf +, um eine Notiz zu schreiben – sie erscheint als Karte über deinem Bildschirm.",
+            "Öffne die App, die du brauchst. Die Notiz bleibt im Vordergrund; klappe sie zu einem Chip ein, wenn du den Bildschirm wieder frei haben willst.",
+            "Nutze Farben, Fettdruck, Textgröße und Bilder, damit du deine Notizen leicht auseinanderhältst.",
+            "Damit eine Notiz zu einer bestimmten Zeit auftaucht, öffne ihr ⋮-Menü und wähle „Erinnern“ – einmal, täglich, werktags oder an den Tagen deiner Wahl."
+          ]
+        },
+        {
+          "h": "Auch auf deinem PC",
+          "p": [
+            "FloatNote+ for Windows lässt dieselbe Art von Notizen über jedem Fenster schweben, und die beiden Apps synchronisieren sich über dein eigenes Google Drive (auf Android eine Pro-Funktion)."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hat Android schwebende Notizen eingebaut?",
+          "a": "Android hat keine allgemeine Funktion für schwebende Notizen. Apps wie FloatNote+ ergänzen sie über die Berechtigung „Über anderen Apps einblenden“."
+        },
+        {
+          "q": "Kann eine Notiz zu einer bestimmten Zeit auftauchen?",
+          "a": "Ja. Stelle in FloatNote+ im ⋮-Menü der Notiz eine Erinnerung ein, dann erscheint die Notiz mit einer Benachrichtigung auf dem Bildschirm. Die Gratisversion erlaubt eine Erinnerung; Pro hat kein Limit."
+        },
+        {
+          "q": "Ist FloatNote+ kostenlos?",
+          "a": "Notizen speichern ist kostenlos und unbegrenzt, und die Gratisversion lässt eine Notiz gleichzeitig schweben. Pro bringt unbegrenzt viele schwebende Notizen, Bilder in der Notiz, einstellbare Transparenz, Google-Drive-Sync und keine Werbung."
+        }
+      ]
+    },
+    "floating-timer-over-other-apps-android": {
+      "app": "floattimer",
+      "updated": "2026-10-14",
+      "title": "Android: Timer sichtbar lassen, während du andere Apps nutzt",
+      "desc": "Der Timer der Uhr-App verschwindet, sobald du die App wechselst. So lässt du einen Countdown, eine Stoppuhr oder einen Zähler über jeder App schweben.",
+      "intro": "Der Timer in der Uhr-App läuft im Hintergrund weiter, aber in einer anderen App siehst du ihn nicht – du musst die Benachrichtigungen herunterziehen oder zurückwechseln. Beim Lernen mit einer Vorlesung, beim Zeitnehmen für eine Präsentation oder bei einem Spiel hilft es, die Zeit die ganze Zeit auf dem Bildschirm zu haben.",
+      "sections": [
+        {
+          "h": "Einrichten mit FloatTimer+",
+          "p": [
+            "FloatTimer+ (unsere App) lässt Timer, Stoppuhren und Zähler als kleine Karten über jeder App schweben, die du überallhin ziehen kannst."
+          ],
+          "steps": [
+            "Installiere FloatTimer+ aus Google Play und erlaube „Über anderen Apps einblenden“.",
+            "Lege einen Timer an – mit beliebigen Stunden, Minuten und Sekunden oder einer Schnellauswahl wie 25 Minuten.",
+            "Lass ihn schweben und öffne die App, die du gerade nutzt. Starten, pausieren und zurücksetzen kannst du direkt auf der Karte.",
+            "Klappe ihn zu einer Blase ein, wenn du Platz brauchst – die Zeit läuft weiter."
+          ]
+        },
+        {
+          "h": "Mehrere gleichzeitig",
+          "p": [
+            "Du kannst kostenlos so viele Timer, Zähler und Stoppuhren anlegen, wie du willst, und sie laufen weiter. Die Gratisversion zeigt jeweils einen auf dem Bildschirm; Pro lässt beliebig viele gleichzeitig schweben, oder ein kurzer Werbeclip schaltet das für 24 Stunden frei."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kann ich einen Timer über YouTube oder einem Spiel sehen?",
+          "a": "Ja. Ein schwebender Timer bleibt über jeder App im Vordergrund, auch über Videos und Spielen, sobald du „Über anderen Apps einblenden“ erlaubst."
+        },
+        {
+          "q": "Gibt es eine Pomodoro-Vorgabe?",
+          "a": "FloatTimer+ hat Schnellauswahlen für 1, 5, 10, 25, 30 und 60 Minuten – ein 25-Minuten-Fokustimer ist also nur einen Tipp entfernt."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots": {
+      "app": "photocleaner",
+      "updated": "2026-10-14",
+      "title": "Persönliche Daten im Screenshot schwärzen, bevor du ihn teilst",
+      "desc": "Unschärfe, ein dünner Stift oder ein Textmarker können Text lesbar lassen. So deckst du Telefonnummern, Kartennummern und Gesichter so ab, dass sie sich nicht wiederherstellen lassen – auf dem Handy, ohne etwas hochzuladen.",
+      "intro": "Screenshots und Fotos von Dokumenten zeigen oft mehr, als du teilen wolltest: eine Telefonnummer, eine Ausweis- oder Kartennummer, eine Adresse, ein Gesicht, einen QR-Code. Bevor du sie postest oder verschickst, solltest du diese Angaben richtig abdecken.",
+      "sections": [
+        {
+          "h": "Was du vermeiden solltest",
+          "p": [
+            "Ein halbtransparenter Textmarker oder dünne Stiftstriche können Text lesbar lassen, sobald jemand den Kontrast erhöht, und Unschärfe oder Verpixelung auf kleinem Text lässt sich manchmal erraten. Lege über alles Private einen durchgehenden, deckenden Kasten und teile eine Kopie statt des Originals."
+          ]
+        },
+        {
+          "h": "Möglichkeit 1: der Fotoeditor deines Handys",
+          "p": [
+            "Die meisten Galerie-Apps haben ein Markierungs- oder Zeichenwerkzeug. Wenn du es nutzt, wähle eine gefüllte Form oder einen vollständig deckenden Stift, decke jede Angabe komplett ab und zoome vor dem Speichern hinein, um die Ränder zu prüfen."
+          ]
+        },
+        {
+          "h": "Möglichkeit 2: PhotoCleaner+",
+          "p": [
+            "PhotoCleaner+ (unsere App) ist genau dafür gemacht. Es schlägt wahrscheinlich persönliche Daten vor, du prüfst jeden Kasten, und es exportiert eine Kopie mit deckenden Masken – alles läuft auf deinem Handy, nichts wird hochgeladen."
+          ],
+          "steps": [
+            "Öffne ein Foto, einen Screenshot oder ein PDF in PhotoCleaner+.",
+            "Prüfe die vorgeschlagenen Kästen – Telefonnummern, E-Mail-Adressen, Kartennummern und ähnlichen Text – und zeichne eigene hinzu.",
+            "Verschiebe, skaliere oder lösche Kästen, bis alles Private abgedeckt ist.",
+            "Exportiere die maskierte Kopie und teile diese. Dein Original bleibt unverändert, und gespeicherte Kopien enthalten keine EXIF- oder GPS-Daten."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Reicht Unschärfe, um eine Telefonnummer zu verbergen?",
+          "a": "Nicht immer. Leichte Unschärfe auf kleinem Text lässt sich manchmal lesen oder erraten. Eine durchgehende, deckende Maske ist die sichere Wahl."
+        },
+        {
+          "q": "Lädt PhotoCleaner+ meine Fotos hoch?",
+          "a": "Nein. Erkennung und Maskierung laufen auf deinem Handy, und deine Fotos und Dokumente werden nie hochgeladen."
+        },
+        {
+          "q": "Ist es kostenlos?",
+          "a": "Erkennen, Bearbeiten und Maskieren sind kostenlos; du kannst 3-mal am Tag exportieren. Pro hebt das Tageslimit auf und bringt PDF-Export und Drucken, oder ein kurzer Werbeclip hebt das Limit für 24 Stunden auf."
+        }
+      ]
+    },
+    "sticky-notes-always-on-top-windows": {
+      "app": "floatnotewin",
+      "updated": "2026-10-14",
+      "title": "Windows: Haftnotiz immer im Vordergrund halten",
+      "desc": "Notizen auf dem Desktop landen hinter dem Fenster, in dem du arbeitest. So heftest du eine Notiz über jedes Fenster – mit PowerToys oder mit Notizen, die von Haus aus schweben.",
+      "intro": "Eine Haftnotiz nützt nur, wenn du sie siehst. Unter Windows landen Notizen auf dem Desktop meist hinter dem Browser, dem Dokument oder der Tabelle, in der du arbeitest, und du musst sie erst suchen. Es gibt zwei Wege, eine Notiz im Vordergrund zu halten.",
+      "sections": [
+        {
+          "h": "Möglichkeit 1: ein Fenster mit PowerToys anheften",
+          "p": [
+            "Microsoft PowerToys, eine kostenlose Sammlung von Hilfsprogrammen von Microsoft, enthält „Always On Top“. Installiere PowerToys, schalte „Always On Top“ ein, klicke auf das Fenster, das vorne bleiben soll – zum Beispiel ein Notizfenster –, und drücke Win+Ctrl+T. Drücke die Tasten erneut, um es wieder zu lösen.",
+            "Das klappt mit fast jedem Fenster. Der Haken: Ein angeheftetes Fenster ist ein vollwertiges Fenster. Es übernimmt den Fokus, wenn du darauf klickst, und belegt immer gleich viel Platz, ob du die Notiz gerade liest oder nicht."
+          ]
+        },
+        {
+          "h": "Möglichkeit 2: Notizen, die von Haus aus schweben",
+          "p": [
+            "FloatNote+ for Windows (unsere App) hält jede Notiz als kleinen Chip über allen Fenstern. Klicke auf den Chip, und er öffnet sich an Ort und Stelle als Karte; drücke Esc, und er klappt wieder ein. Chips nehmen der App dahinter nie den Fokus, dein Cursor bleibt also da, wo du gerade geschrieben hast."
+          ],
+          "steps": [
+            "Installiere FloatNote+ aus dem Microsoft Store.",
+            "Erstelle eine Notiz über das Symbol im Infobereich oder per globalem Tastenkürzel – sie erscheint als Karte über deinem Bildschirm.",
+            "Arbeite einfach weiter: Die Notiz bleibt über allen Fenstern. Drücke Esc, um sie zu einem Chip einzuklappen.",
+            "Ziehe Chips an jede beliebige Stelle, unterscheide sie mit Farben und Rich-Text und stelle eine Erinnerung ein, damit eine Notiz zu einer bestimmten Zeit auftaucht."
+          ]
+        },
+        {
+          "h": "Deine Notizen auch auf dem Handy",
+          "p": [
+            "FloatNote+ for Windows synchronisiert sich über dein eigenes Google Drive mit der Android-App FloatNote+ – eine Notiz, die du am PC schreibst, ist also auch auf deinem Handy. Alle Funktionen der Windows-Version sind kostenlos."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Können Windows-Kurznotizen über anderen Fenstern bleiben?",
+          "a": "In den meisten Fällen nicht von selbst. Du kannst jedes Fenster, auch ein Notizfenster, mit „Always On Top“ von PowerToys (Win+Ctrl+T) anheften oder eine App nutzen, deren Notizen von Haus aus über anderen Fenstern schweben."
+        },
+        {
+          "q": "Nimmt eine schwebende Notiz dem, was ich gerade tippe, den Fokus?",
+          "a": "Die Chips von FloatNote+ nicht. Klickst oder ziehst du einen Chip, bleibt dein Cursor in der App, die du gerade benutzt hast; nur eine geöffnete Karte übernimmt den Fokus, weil du in sie hineinschreibst."
+        }
+      ]
+    },
+    "clipboard-history-windows": {
+      "app": "clipboardwin",
+      "updated": "2026-10-14",
+      "title": "Zwischenablageverlauf unter Windows anzeigen",
+      "desc": "Windows hat einen eingebauten Zwischenablageverlauf (Win+V), doch er ist kurz und wird beim Neustart geleert. So nutzt du ihn – und so behältst du einen durchsuchbaren Verlauf, der bleibt.",
+      "intro": "Kopierst du etwas Neues, ist der vorherige Eintrag weg – es sei denn, du hast einen Verlauf. Windows 10 und 11 haben einen eingebaut, und ein Zwischenablage-Manager kann einen längeren führen.",
+      "sections": [
+        {
+          "h": "Möglichkeit 1: der eingebaute Zwischenablageverlauf (Win+V)",
+          "p": [
+            "Drücke Win+V. Beim ersten Mal fragt Windows, ob du den Zwischenablageverlauf einschalten willst (das geht auch unter „Einstellungen > System > Zwischenablage“). Danach zeigt Win+V deine letzten Einträge, und ein Klick fügt einen davon ein.",
+            "Das geht schnell, ist aber begrenzt: Es werden bis zu 25 Einträge gespeichert, und alles außer angehefteten Einträgen wird beim Neustart des PCs gelöscht. Es gibt keine Suche, und aufs Handy kommt der Verlauf auch nicht."
+          ]
+        },
+        {
+          "h": "Möglichkeit 2: ein Zwischenablage-Manager, der alles behält",
+          "p": [
+            "Clipboard+ for Windows (unsere App) sitzt im Infobereich und speichert Texte und Bilder in dem Moment, in dem du sie kopierst. Dein Verlauf bleibt, bis du ihn löschst, und du kannst ihn durchsuchen, in Gruppen und Snippets ordnen und per Tastenkürzel aufrufen."
+          ],
+          "steps": [
+            "Installiere Clipboard+ aus dem Microsoft Store; die App startet im Infobereich.",
+            "Kopiere wie gewohnt – jeder Text und jedes Bild wird automatisch gespeichert.",
+            "Drücke das globale Tastenkürzel, um das Quick-Pick-Fenster am Cursor zu öffnen, wähle einen Eintrag mit Ctrl+1–9 und drücke Enter, um ihn einzufügen.",
+            "Öffne das Fenster, um zu suchen, anzuheften, zu bearbeiten oder häufig genutzten Text als Snippets abzulegen."
+          ]
+        },
+        {
+          "h": "Zwischen Handy und PC",
+          "p": [
+            "Zusammen mit der Android-App Clipboard+ lässt sich, was du auf dem Handy kopierst, am PC einfügen und umgekehrt – über dein eigenes Google Drive. Zwischenablage-Verlauf, Snippets, Gruppen, Suche und das Quick-Pick-Fenster sind kostenlos; Pro bringt Synchronisierung, unbegrenzten Bildspeicher und PDF-Export."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Warum ist mein Zwischenablageverlauf (Win+V) nach einem Neustart leer?",
+          "a": "Windows leert den Zwischenablageverlauf beim Neustart des PCs, angeheftete Einträge ausgenommen. Ein Zwischenablage-Manager wie Clipboard+ behält deinen Verlauf auch über Neustarts hinweg."
+        },
+        {
+          "q": "Wie viele Einträge speichert der Zwischenablageverlauf von Windows?",
+          "a": "Bis zu 25. Ältere Einträge fallen weg, wenn du Neues kopierst."
+        }
+      ]
+    },
+    "timer-always-on-top-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-14",
+      "title": "Windows: Timer immer im Vordergrund über anderen Fenstern",
+      "desc": "Behalte einen Countdown im Blick, während du in anderen Fenstern arbeitest – mit „Keep on top“ der Uhr-App oder mit Timern, die als kleine Karten über allem schweben.",
+      "intro": "Eine Präsentation, eine Fokus-Session oder ein Telefonat zu timen ist leichter, wenn die Zeit im Blick bleibt. Windows bietet dafür einen eingebauten Weg, und eine App mit schwebenden Timern bietet mehr.",
+      "sections": [
+        {
+          "h": "Möglichkeit 1: „Keep on top“ in der Uhr-App",
+          "p": [
+            "Die Uhr-App, die mit Windows kommt, kann einen Timer in einem kleinen Fenster anzeigen, das über anderen Fenstern bleibt: Starte einen Timer, erweitere ihn und wähle „Keep on top“. Das funktioniert für einen einzelnen Timer und zeigt ihn in einem kleinen Fenster fester Größe."
+          ]
+        },
+        {
+          "h": "Möglichkeit 2: schwebende Timer-Karten",
+          "p": [
+            "FloatTimer+ for Windows (unsere App) lässt Timer, Zähler und Stoppuhren als kleine Pastellkarten über allen Fenstern schweben. Karten nehmen nie den Fokus – ein Klick darauf lässt deinen Cursor da, wo du gerade geschrieben hast."
+          ],
+          "steps": [
+            "Installiere FloatTimer+ aus dem Microsoft Store; die App wohnt im Infobereich.",
+            "Lege einen Timer, Zähler oder eine Stoppuhr an und lass sie schweben.",
+            "Starte, pausiere und setze direkt auf der Karte zurück; ziehe sie an jede Stelle oder ändere ihre Größe.",
+            "Klappe sie zu einer kleinen Blase ein oder schiebe sie an den Bildschirmrand, wenn du den Platz zurückhaben willst."
+          ]
+        },
+        {
+          "h": "Gratis und Pro",
+          "p": [
+            "Du kannst so viele Timer, Zähler und Stoppuhren anlegen, wie du willst – ohne Werbung. Die Gratisversion lässt jeweils eine Karte schweben; Pro ist ein Einmalkauf, lässt beliebig viele schweben und bringt wiederholende Timer und eigene Alarme."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hat Windows einen Timer, der immer im Vordergrund bleibt?",
+          "a": "„Keep on top“ in der Uhr-App zeigt einen Timer in einem kleinen Fenster über anderen. Für mehrere Timer, Zähler oder Stoppuhren gleichzeitig nutzt du eine App mit schwebenden Timern."
+        },
+        {
+          "q": "Stört ein schwebender Timer bei der Arbeit?",
+          "a": "Die Karten von FloatTimer+ nehmen der App darunter nie den Fokus, und du kannst sie zu einer Blase einklappen oder an den Bildschirmrand schieben."
+        }
+      ]
+    },
+    "reading-ruler-dyslexia-adhd-android": {
+      "app": "readfocus",
+      "updated": "2026-10-14",
+      "title": "Leselineal bei Legasthenie und ADHS auf Android: beim Lesen die Zeile halten",
+      "desc": "Du verlierst die Zeile, überspringst Zeilen oder liest denselben Satz zweimal? Ein Leselineal oder eine Lesemaske über jeder App hilft deinen Augen, in der Spur zu bleiben. So richtest du es auf Android ein.",
+      "intro": "In langen Texten auf dem Handybildschirm verliert man leicht den Faden: Die Augen rutschen in die nächste Zeile, überspringen eine oder kehren zu einem Satz zurück, den du schon gelesen hast. Viele Menschen mit Legasthenie oder ADHS legen beim Lesen auf Papier ein Lineal oder eine Karte unter die Zeile. Auf dem Handy übernimmt ein Leselineal diese Aufgabe auf dem Bildschirm.",
+      "sections": [
+        {
+          "h": "Fang mit deinen Anzeigeeinstellungen an",
+          "p": [
+            "Die Bedienungshilfen und Anzeigeeinstellungen von Android – größere Schrift, fetter Text, dunkles Design – können Text leichter lesbar machen. Sie markieren aber nicht die Zeile, in der du gerade bist, und genau das hilft, wenn deine Augen immer wieder abschweifen."
+          ]
+        },
+        {
+          "h": "Ein Leselineal mit ReadFocus+",
+          "p": [
+            "ReadFocus+ (unsere App) legt einen Fokusstreifen über jede App – E-Books, PDFs, Browser, Nachrichten, Webtoons. Wähle die Zeilenhervorhebung, um die Zeile hervorzuheben, die du gerade liest, oder die Lesemaske, um alles außer deinem Lesebereich abzudunkeln."
+          ],
+          "steps": [
+            "Installiere ReadFocus+ aus Google Play und erlaube „Über anderen Apps einblenden“.",
+            "Wähle einen Modus: Zeilenhervorhebung (ein Leselineal) oder Lesemaske.",
+            "Öffne die App, in der du liest, und ziehe den Streifen auf deine Zeile.",
+            "Stelle Höhe (50–300 dp), Deckkraft und Farbdesign so ein, dass es sich angenehm anfühlt."
+          ]
+        },
+        {
+          "h": "Gratis und Pro",
+          "p": [
+            "Die Gratisversion bietet 60 Minuten Overlay-Zeit pro Sitzung und 3 Farbdesigns. Pro entfernt Werbung und Zeitlimit und bringt alle 10 Designs sowie „Bildschirm anlassen“, oder ein kurzer Werbeclip schaltet die Pro-Funktionen für 24 Stunden frei."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hilft ein Leselineal bei Legasthenie?",
+          "a": "Viele Leserinnen und Leser mit Legasthenie oder ADHS finden, dass es ihnen leichter fällt, die Stelle zu halten, wenn die aktuelle Zeile markiert ist. Es ist eine Lesehilfe, keine Behandlung – probier es aus und behalte die Einstellungen, die sich angenehm anfühlen."
+        },
+        {
+          "q": "Mit welchen Apps funktioniert ReadFocus+?",
+          "a": "Mit jeder App auf dem Bildschirm: E-Book- und PDF-Reader, Browser, Nachrichten, Lernnotizen, Comics und Webtoons."
+        }
+      ]
+    },
+    "reading-ruler-windows": {
+      "app": "readfocuswin",
+      "updated": "2026-10-14",
+      "title": "Leselineal unter Windows nutzen (bei Legasthenie und ADHS)",
+      "desc": "Der Plastische Reader in Edge hat „Line focus“ für Webseiten. Für PDFs, Dokumente und alle anderen Apps hält ein klickdurchlässiger Fokusstreifen deinen Blick in der Zeile. So nutzt du beides.",
+      "intro": "Beim Lesen langer Seiten am Monitor verliert man leicht die Zeile. Ein Leselineal hebt die Zeile hervor, in der du gerade bist, oder dunkelt den Rest des Bildschirms ab, damit deine Augen in der Spur bleiben.",
+      "sections": [
+        {
+          "h": "Möglichkeit 1: „Line focus“ in Microsoft Edge",
+          "p": [
+            "Microsoft Edge hat den „Plastischen Reader“ (Immersive Reader), eine aufgeräumte Leseansicht für Webseiten. In seinen Leseeinstellungen hebt „Line focus“ jeweils eine, drei oder fünf Zeilen hervor. Das funktioniert nur auf Seiten, die sich im Plastischen Reader öffnen lassen, nicht in PDFs, Dokumenten oder anderen Apps."
+          ]
+        },
+        {
+          "h": "Möglichkeit 2: ein Fokusstreifen über jeder App",
+          "p": [
+            "ReadFocus+ for Windows (unsere App) legt einen Fokusstreifen über alles, was du gerade liest – eine Webseite, ein PDF, ein Dokument, Code. „Maske“ dunkelt oben und unten den Bildschirm ab und lässt ein helles Band frei; „Hervorheben“ markiert die Zeile, in der du gerade bist. Der Streifen ist klickdurchlässig – du scrollst und klickst darunter also wie gewohnt weiter."
+          ],
+          "steps": [
+            "Installiere ReadFocus+ aus dem Microsoft Store.",
+            "Starte es über das schwebende Bedienfeld oder per Tastenkürzel und wähle „Maske“ oder „Hervorheben“.",
+            "Schiebe den Streifen auf deine Zeile oder bewege ihn beim Lesen per Tastenkürzel nach oben und unten.",
+            "Fixiere ihn, blende ihn aus oder verschiebe ihn über das Bedienfeld auf einen anderen Monitor."
+          ]
+        },
+        {
+          "h": "Gratis und Pro",
+          "p": [
+            "Die Gratisversion enthält beide Modi und drei Designs, in Sitzungen von bis zu 60 Minuten. Pro ist ein Einmalkauf, hebt das Zeitlimit auf und bringt Premium-Designs, Einstellungen für Höhe und Deckkraft des Streifens sowie „Bildschirm anlassen“. Werbung gibt es nicht."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hat Windows ein Leselineal?",
+          "a": "Der Plastische Reader in Edge hat „Line focus“ für Webseiten. Für andere Apps – PDFs, Word, Code-Editoren – brauchst du ein Bildschirm-Overlay wie ReadFocus+ for Windows."
+        },
+        {
+          "q": "Blockiert der Streifen meine Klicks?",
+          "a": "Nein. ReadFocus+ for Windows ist klickdurchlässig: Scrollen, Markieren und Klicken gehen an die App darunter."
+        }
+      ]
+    },
+    "floating-calculator-over-other-apps-android": {
+      "app": "floatcalc",
+      "updated": "2026-10-14",
+      "title": "Android: Taschenrechner über anderen Apps nutzen",
+      "desc": "Rabatt ausrechnen oder einen Preis umrechnen, ohne deine Shopping-, Banking- oder Browser-Ansicht zu verlassen: ein schwebender Rechner, der über jeder App bleibt – mit Einheiten- und Währungsumrechner.",
+      "intro": "Einen Preis in einer Shopping-App prüfen, im Chat eine Rechnung aufteilen, beim Buchen eine Währung umrechnen – wechselst du dafür zur Rechner-App und zurück, verlierst du die Stelle, an der du warst, und musst dir Zahlen im Kopf merken. Ein schwebender Rechner bleibt auf dem Bildschirm über der App, die du gerade nutzt.",
+      "sections": [
+        {
+          "h": "Möglichkeit 1: geteilter Bildschirm",
+          "p": [
+            "Android kann im geteilten Bildschirm zwei Apps gleichzeitig zeigen. Öffne die Übersicht der zuletzt verwendeten Apps, wähle für eine App den geteilten Bildschirm und nimm den Rechner für die andere Hälfte. Das funktioniert, aber jede App bekommt nur die Hälfte des Bildschirms."
+          ]
+        },
+        {
+          "h": "Möglichkeit 2: ein schwebender Rechner",
+          "p": [
+            "FloatCalc+ (unsere App) ist ein Rechnerfenster, das über jeder App schwebt. Rechner, Einheiten- und Währungsumrechner teilen sich ein Fenster, das du überallhin ziehen kannst; klapp die Tastatur auf eine Zeile ein oder verkleinere das Panel zu einem Symbol am Bildschirmrand, wenn du Platz brauchst."
+          ],
+          "steps": [
+            "Installiere FloatCalc+ aus Google Play und erlaube „Über anderen Apps einblenden“.",
+            "Öffne den schwebenden Rechner und zieh ihn dorthin, wo er nichts verdeckt, was du brauchst.",
+            "Gib die Rechnung ein – auch Potenzen, Wurzeln und Prozente funktionieren – und kopiere das Ergebnis in die Zwischenablage.",
+            "Wechsle im selben Fenster zum Einheiten- oder Währungsumrechner. Die Wechselkurse stammen von der Europäischen Zentralbank, werden täglich aktualisiert und funktionieren auch offline."
+          ]
+        },
+        {
+          "h": "Gratis und Pro",
+          "p": [
+            "Der schwebende Rechner ist täglich 60 Minuten gratis; die Titelzeile zeigt, wie viel Zeit noch bleibt, und ein kurzer Werbeclip bringt dir einen 24-Stunden-Pass. Pro hebt das Tageslimit auf, entfernt die Werbung und bringt alle Einheiten-Kategorien, über 30 Währungen und weitere Designs."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kann ich rechnen, ohne meine App zu verlassen?",
+          "a": "Ja. Ein schwebender Rechner wie FloatCalc+ bleibt über anderen Apps im Vordergrund, sobald du „Über anderen Apps einblenden“ erlaubst."
+        },
+        {
+          "q": "Woher kommen die Wechselkurse?",
+          "a": "Von der Europäischen Zentralbank, einmal täglich aktualisiert und für die Offline-Nutzung zwischengespeichert."
+        }
+      ]
+    },
+    "crypto-price-ticker-over-other-apps-android": {
+      "app": "floatcrypto",
+      "updated": "2026-10-14",
+      "title": "Android: Krypto-Kurse sehen, während du andere Apps nutzt",
+      "desc": "Behalte einen Live-Krypto-Ticker auf dem Bildschirm, während du Videos schaust, liest oder chattest, und lass dich benachrichtigen, wenn ein Coin deinen Zielkurs kreuzt.",
+      "intro": "Apps von Krypto-Börsen zeigen Kurse in der App oder in einem Widget auf dem Startbildschirm – um den Markt zu prüfen, musst du also verlassen, was du gerade tust. Ein schwebender Ticker hält die Kurse, die du verfolgst, über jeder App auf dem Bildschirm.",
+      "sections": [
+        {
+          "h": "Schwebenden Ticker mit FloatCrypto+ einrichten",
+          "p": [
+            "FloatCrypto+ (unsere App) lässt einen Kursticker über jeder App schweben – YouTube, Nachrichten, ein Spiel, ein Chat. Zieh ihn, wohin du willst, ändere die Größe und senke die Deckkraft, damit er nicht verdeckt, was du gerade liest."
+          ],
+          "steps": [
+            "Installiere FloatCrypto+ aus Google Play und erlaube „Über anderen Apps einblenden“.",
+            "Füge die Coins, die du verfolgst, deiner Watchlist hinzu und bring sie per Ziehen in deine Reihenfolge.",
+            "Schalte den schwebenden Ticker ein und platziere ihn, wo du willst.",
+            "Lege im ⋮-Menü eines Coins einen oberen oder unteren Kursalarm fest, um benachrichtigt zu werden, wenn der Markt ihn kreuzt."
+          ]
+        },
+        {
+          "h": "Gut zu wissen",
+          "p": [
+            "Die Kurse kommen von Binance mit automatischer Ausweichquelle und können bis zu 30 Sekunden verzögert sein (10 Sekunden mit Pro). Sie dienen nur zur Orientierung, und die App handelt nicht und verbindet sich mit keinem Börsenkonto. Nichts hier ist eine Anlageberatung.",
+            "Gratis verfolgst du 2 Coins mit 1 Alarm. Ein Free Pass öffnet für einen kurzen Werbeclip 24 Stunden lang mehr Coins oder längere Charts, und Pro bringt 10 Coins, unbegrenzte Alarme, Aktualisierung alle 10 Sekunden und keine Werbung."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kann ich Krypto-Kurse über YouTube oder einem Spiel sehen?",
+          "a": "Ja. Der Ticker schwebt über jeder App, sobald du „Über anderen Apps einblenden“ erlaubst."
+        },
+        {
+          "q": "Sind die Kurse in Echtzeit?",
+          "a": "Sie können bis zu 30 Sekunden verzögert sein (10 Sekunden mit Pro) und dienen nur zur Orientierung."
+        }
+      ]
+    },
+    "make-android-phone-louder": {
+      "app": "volumebooster",
+      "updated": "2026-10-14",
+      "title": "Android-Handy lauter machen",
+      "desc": "Dein Handy ist selbst bei voller Lautstärke zu leise? Prüfe zuerst diese Einstellungen und sieh dir dann an, wie ein Lautstärke-Booster die Ausgabe sicher anhebt – mit Anzeige des Boosts in Dezibel.",
+      "intro": "Sind Videos, Anrufe über den Lautsprecher oder Musik selbst bei voller Lautstärke zu leise, fang mit ein paar Einstellungen an – manchmal begrenzt sich das Handy einfach selbst. Reicht das nicht, kann ein Lautstärke-Booster die Ausgabe weiter anheben.",
+      "sections": [
+        {
+          "h": "Zuerst das prüfen",
+          "p": [
+            "Achte darauf, dass du die Medienlautstärke erhöhst und nicht den Klingelton: Drück eine Lautstärketaste, während ein Video läuft, oder öffne das Lautstärkefeld und schieb den Medien-Regler hoch.",
+            "Manche Handys haben eine Begrenzung der Medienlautstärke. Auf Samsung-Handys suchst du in den Lautstärke-Einstellungen nach „Media volume limiter“. Probiere auch die eigenen Soundeffekte oder den Equalizer des Handys aus, falls vorhanden, und prüfe, ob eine Hülle den Lautsprecher verdeckt."
+          ]
+        },
+        {
+          "h": "Ausgabe mit VolumeBooster+ anheben",
+          "p": [
+            "VolumeBooster+ (unsere App) hebt die Systemausgabe an statt der Lautstärke einer einzelnen App, sodass Videos, Musik und Spiele lauter werden. Der Boost wird in Dezibel angezeigt, mit den Bereichen Sicher, Vorsicht und Gefahr, damit du siehst, wie weit du gegangen bist."
+          ],
+          "steps": [
+            "Installiere VolumeBooster+ aus Google Play.",
+            "Spiel etwas ab, erhöhe den Boost dann in kleinen Schritten und behalte den dB-Bereich im Blick.",
+            "Nutze die Equalizer-Presets, den Bass-Booster oder AutoEQ für deine Kopfhörer, damit es klarer klingt und nicht nur lauter.",
+            "Dreh den Boost herunter, wenn du ihn nicht brauchst – deine Ohren und dein Lautsprecher werden es dir danken."
+          ]
+        },
+        {
+          "h": "Gratis und Pro – und dein Gehör",
+          "p": [
+            "Gratis sind bis zu +10 dB für 60 Minuten am Tag drin; Pro oder ein 24-Stunden-Free-Pass öffnet die volle Spanne von +15 dB. Der dB-Wert ist eine Schätzung, und die App ist kein Medizinprodukt – wenn du Ohrenschmerzen oder Ohrgeräusche bemerkst, senke die Lautstärke."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kann ein Lautstärke-Booster meinen Lautsprecher oder mein Gehör schädigen?",
+          "a": "Sehr hohe Lautstärke kann das. Erhöhe den Boost schrittweise, behalte die Bereiche Sicher/Vorsicht/Gefahr im Blick und senke ihn, wenn der Ton verzerrt oder deine Ohren schmerzen."
+        },
+        {
+          "q": "Wie viel lauter geht es?",
+          "a": "Bis zu +15 dB mit Pro oder einem Free Pass und bis zu +10 dB in der Gratisversion. Wie laut es tatsächlich wird, hängt von Gerät, Kopfhörern und Inhalt ab."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots-windows": {
+      "app": "photocleanerwin",
+      "updated": "2026-10-14",
+      "title": "Windows: Persönliche Daten in Screenshots und PDFs schwärzen",
+      "desc": "Bevor du einen Screenshot oder ein gescanntes Dokument von deinem PC teilst, deck Telefonnummern, Kartennummern, Ausweisnummern und Gesichter mit deckenden Masken ab – ohne etwas hochzuladen.",
+      "intro": "Screenshots und gescannte Dokumente enthalten oft eine Telefonnummer, eine E-Mail-Adresse, eine Karten- oder Ausweisnummer, eine Adresse oder ein Gesicht. Bevor du sie von deinem PC aus verschickst oder postest, deck diese Angaben so ab, dass sie sich nicht wiederherstellen lassen.",
+      "sections": [
+        {
+          "h": "Möglichkeit 1: Snipping Tool",
+          "p": [
+            "Aktuelle Versionen des Snipping Tool unter Windows 11 können über „Text actions“ E-Mail-Adressen und Telefonnummern in einem Screenshot ausblenden, und über alles andere kannst du drüberzeichnen. Nimm dafür nicht den Textmarker – er ist halbtransparent –, sondern durchgehende Striche, die jede Angabe vollständig abdecken."
+          ]
+        },
+        {
+          "h": "Möglichkeit 2: PhotoCleaner+ for Windows",
+          "p": [
+            "PhotoCleaner+ for Windows (unsere App) findet wahrscheinlich persönliche Daten in Fotos, Screenshots und PDFs – Telefonnummern, E-Mail-Adressen, Kartennummern, IBAN, Reisepassnummern, Namen, Adressen, Kfz-Kennzeichen, Gesichter und QR-Codes – und exportiert eine Kopie mit deckenden Masken. Alles läuft auf deinem PC; nichts wird hochgeladen."
+          ],
+          "steps": [
+            "Öffne eine Datei, füge sie mit Ctrl+V ein, zieh sie ins Fenster oder klicke sie im Datei-Explorer mit rechts an und wähle „Clean with PhotoCleaner+“.",
+            "Prüfe die Kästen: Klicke, um einen ein- oder auszuschalten, ziehe, um ihn zu verschieben oder seine Größe zu ändern, und zeichne eigene über alles, was übersehen wurde.",
+            "Exportiere die maskierte Kopie – speichern, kopieren, teilen oder als PDF speichern. Dein Original wird nie überschrieben, und gespeicherte Kopien enthalten keine Metadaten."
+          ]
+        },
+        {
+          "h": "Gratis und Pro",
+          "p": [
+            "Das Finden persönlicher Daten ist kostenlos und unbegrenzt, und du kannst täglich 3 Dokumente gratis exportieren. Pro ist ein Einmalkauf, der das Tageslimit aufhebt und PDF-Export und Drucken hinzufügt. Es gibt keine Werbung und kein Wasserzeichen."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Findet die App alle persönlichen Daten?",
+          "a": "Das kann kein Werkzeug versprechen. Die Erkennung ist ein Ausgangspunkt – prüfe vor dem Export immer die Kästen und zeichne über alles, was übersehen wurde."
+        },
+        {
+          "q": "Werden meine Dateien hochgeladen?",
+          "a": "Nein. Erkennung, Maskierung und Export laufen auf deinem PC, ohne Konto und ohne Upload."
+        }
+      ]
+    },
+    "crypto-price-ticker-on-top-windows": {
+      "app": "floatcryptowin",
+      "updated": "2026-10-14",
+      "title": "Windows: Live-Krypto-Ticker immer über anderen Fenstern",
+      "desc": "Behalte deine Coins im Blick, während du arbeitest: ein schmaler Kursticker über jedem Fenster, Kursalarme als Desktop-Benachrichtigungen und Charts per Doppelklick.",
+      "intro": "Ein offener Börsen-Tab bedeutet, dass du jedes Mal dorthin wechseln musst, wenn du einen Kurs sehen willst. Ein schwebender Ticker hält die Coins, die du verfolgst, über jedem Fenster im Blick.",
+      "sections": [
+        {
+          "h": "FloatCrypto+ for Windows einrichten",
+          "p": [
+            "FloatCrypto+ for Windows (unsere App) hält einen schmalen Ticker über jedem Fenster und zeigt für jeden Coin Symbol und 24-Stunden-Änderung. Er nimmt nie den Fokus, dein Cursor bleibt also da, wo du gerade getippt hast."
+          ],
+          "steps": [
+            "Installiere FloatCrypto+ aus dem Microsoft Store; die App wohnt im Infobereich.",
+            "Wähle Coins aus den Binance-Paaren und bring sie per Ziehen in deine Reihenfolge.",
+            "Platziere den Ticker, wo du willst, und passe Deckkraft und Schriftgröße an – oder klappe ihn zu einer Blase am Bildschirmrand ein.",
+            "Lege ein Ziel über oder unter dem aktuellen Kurs fest, um eine Desktop-Benachrichtigung zu erhalten, wenn der Markt es kreuzt. Ein Doppelklick auf einen Coin öffnet seinen Chart."
+          ]
+        },
+        {
+          "h": "Gut zu wissen",
+          "p": [
+            "Fahr mit der Maus über das Symbol im Infobereich, um eine vollständige Kurstabelle zu sehen, und blende den Ticker mit Ctrl+Alt+T aus. Die Kurse stammen aus den öffentlichen Marktdaten von Binance mit automatischem Ausweichen und können bis zu 30 Sekunden verzögert sein; die App handelt nicht und verbindet sich mit keinem Börsenkonto, und nichts darin ist eine Anlageberatung.",
+            "Gratis verfolgst du 2 Coins mit 1 Alarm; Pro ist ein Einmalkauf für 10 Coins, unbegrenzte Alarme, Aktualisierung alle 10 Sekunden und längere Charts. Es gibt keine Werbung."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Stört der Ticker bei der Arbeit?",
+          "a": "Nein. Er nimmt nie den Fokus; du kannst die Deckkraft senken, ihn zu einer Blase einklappen oder mit Ctrl+Alt+T ausblenden."
+        },
+        {
+          "q": "Braucht die App mein Börsenkonto?",
+          "a": "Nein. Sie liest nur öffentliche Marktdaten, handelt nie und verwahrt kein Geld."
+        }
+      ]
+    }
+  }
+}

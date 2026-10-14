@@ -1,0 +1,660 @@
+{
+  "ui": {
+    "guides": "Guías",
+    "updated": "Actualizado",
+    "inThisGuide": "La app de esta guía",
+    "appPage": "Detalles de la app",
+    "moreGuides": "Más guías",
+    "appGuides": "Guías prácticas",
+    "faq": "Preguntas"
+  },
+  "guides": {
+    "android-clipboard-history": {
+      "app": "clipboard",
+      "updated": "2026-10-14",
+      "title": "Cómo ver el historial del portapapeles en Android",
+      "desc": "Android solo guarda lo último que copiaste. Te contamos dónde encontrar lo copiado recientemente en tu teclado y cómo tener un historial con búsqueda que no desaparezca.",
+      "intro": "Android solo recuerda lo último que copiaste: copias algo nuevo y el texto anterior desaparece. Si quieres recuperar una dirección, un código o una frase que copiaste antes, necesitas un sitio que guarde un historial. Hay dos: tu teclado y una app de gestión del portapapeles.",
+      "sections": [
+        {
+          "h": "Opción 1: el portapapeles de tu teclado",
+          "p": [
+            "Muchos teclados tienen su propio portapapeles. En Gboard, toca el icono del portapapeles en la barra que hay sobre las teclas (actívalo la primera vez). El Teclado Samsung también tiene un botón de portapapeles en su barra de herramientas.",
+            "Es la forma más rápida de recuperar algo que copiaste hace unos minutos. El inconveniente es que el portapapeles del teclado es a corto plazo: Gboard, por ejemplo, borra los elementos no fijados al cabo de una hora aproximadamente, y solo ves la lista mientras escribes."
+          ]
+        },
+        {
+          "h": "Opción 2: un gestor de portapapeles con historial de verdad",
+          "p": [
+            "Si copias lo mismo una y otra vez (direcciones, números de cuenta, respuestas predefinidas), un gestor de portapapeles lo guarda hasta que lo borres, te deja buscarlo y puede mostrarlo sobre cualquier app.",
+            "Clipboard+ (nuestra app) guarda en un historial los textos e imágenes que copias, del más reciente al más antiguo, con búsqueda y un panel flotante que puedes abrir sobre la app que estés usando."
+          ],
+          "steps": [
+            "Instala Clipboard+ desde Google Play y ábrelo una vez.",
+            "Copia texto como siempre. También puedes seleccionar texto en cualquier app y elegir Clipboard+ en el menú de selección para guardarlo.",
+            "Abre el panel flotante (o la app) para ver tu historial, toca un elemento para copiarlo de nuevo y pégalo donde estés.",
+            "Guarda lo que reutilizas como fragmentos en grupos, para tenerlo siempre a un toque."
+          ]
+        },
+        {
+          "h": "¿Cuál te conviene?",
+          "p": [
+            "Para algo puntual, como pegar lo que copiaste hace un minuto, basta con el portapapeles del teclado. Si pierdes cosas que querías conservar o vuelves a escribir siempre el mismo texto, un gestor de portapapeles te ahorra ese tiempo. Clipboard+ se puede empezar a usar gratis; Pro añade sincronización con la app de Windows a través de tu propio Google Drive, imágenes ilimitadas y exportación a PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Android tiene un historial del portapapeles integrado?",
+          "a": "No en el propio sistema: Android solo guarda lo último copiado. Teclados como Gboard y el Teclado Samsung añaden una lista de portapapeles a corto plazo."
+        },
+        {
+          "q": "¿Puedo ver en el PC el historial del portapapeles de mi teléfono?",
+          "a": "Sí, con Clipboard+ en ambos: la app de Android y Clipboard+ for Windows se sincronizan a través de tu propio Google Drive (función Pro en Android)."
+        }
+      ]
+    },
+    "open-app-automatically-after-reboot-android": {
+      "app": "autostart",
+      "updated": "2026-10-14",
+      "title": "Cómo abrir una app automáticamente al reiniciar Android (sin root)",
+      "desc": "Android no tiene ningún ajuste para abrir una app al encender el teléfono. Te explicamos cómo hacer que tus apps se abran solas tras reiniciar, sin root, y cómo probarlo sin reiniciar.",
+      "intro": "Android no tiene un ajuste para abrir una app al encender el teléfono. Si después de cada reinicio abres siempre las mismas apps (el navegador GPS en el coche, un launcher en una tablet de quiosco, una app de música en la radio del coche), una app de inicio automático puede hacerlo por ti.",
+      "sections": [
+        {
+          "h": "Por qué no ocurre por sí solo",
+          "p": [
+            "Desde Android 10, las apps no pueden abrir pantallas por su cuenta desde segundo plano. Por eso, una app que deba abrir otras tras un reinicio necesita el permiso «Mostrar sobre otras apps», y solo puede iniciarlas después de que el teléfono se haya desbloqueado por primera vez."
+          ]
+        },
+        {
+          "h": "Configúralo con AutoStart+",
+          "p": [
+            "AutoStart+ (nuestra app) abre las apps que elijas después de cada reinicio, en cuanto desbloqueas el teléfono. No necesita root."
+          ],
+          "steps": [
+            "Instala AutoStart+ desde Google Play y ábrelo.",
+            "Toca «Añadir apps» y elige las apps que quieres abrir tras un reinicio. Arrastra las filas para decidir cuál se abre primero.",
+            "Permite «Mostrar sobre otras apps» cuando se te pida; sin ese permiso, Android bloquea la apertura.",
+            "Toca «Probar ahora» para ver qué pasará, sin reiniciar el teléfono.",
+            "Reinicia el teléfono y desbloquéalo: tus apps se abren en el orden que fijaste."
+          ]
+        },
+        {
+          "h": "Radios de coche y dispositivos que entran en reposo",
+          "p": [
+            "Muchas radios de coche Android no se reinician de verdad: entran en reposo al apagar el coche. AutoStart+ tiene un «Modo coche» que vuelve a abrir tus apps cada vez que la pantalla se enciende."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Necesito root para iniciar apps automáticamente en Android?",
+          "a": "No. AutoStart+ funciona sin root; solo necesita el permiso «Mostrar sobre otras apps»."
+        },
+        {
+          "q": "¿Por qué mis apps no se abren antes de desbloquear el teléfono?",
+          "a": "Android no deja que las apps abran otras hasta que el teléfono se ha desbloqueado una vez tras el reinicio. Tus apps se abren justo después de desbloquearlo."
+        },
+        {
+          "q": "¿Cuántas apps puedo iniciar automáticamente gratis?",
+          "a": "La versión gratuita inicia 1 app en cada arranque. Pro inicia toda tu lista en orden y, si prefieres no suscribirte, un anuncio corto desbloquea el límite durante 24 horas."
+        }
+      ]
+    },
+    "floating-notes-over-other-apps-android": {
+      "app": "floatnote",
+      "updated": "2026-10-14",
+      "title": "Cómo dejar una nota encima de otras apps en Android",
+      "desc": "Ten una nota a la vista mientras usas otra app: una nota flotante que se queda sobre cualquier app, se pliega en un pequeño chip y puede aparecer a la hora que elijas.",
+      "intro": "Copiar una lista en un formulario, consultar una receta mientras se reproduce un vídeo, tener a la vista un número de pedido en un chat… Ir y volver a tu app de notas corta el ritmo. Una nota flotante se queda en pantalla sobre la app que estés usando.",
+      "sections": [
+        {
+          "h": "Cómo funcionan las notas flotantes",
+          "p": [
+            "Una nota flotante es una pequeña ventana que se dibuja sobre otras apps. Android lo permite mediante el permiso «Mostrar sobre otras apps», que concedes una sola vez. La nota se queda encima mientras sigues usando la app de debajo."
+          ]
+        },
+        {
+          "h": "Configúralo con FloatNote+",
+          "p": [
+            "FloatNote+ (nuestra app) hace flotar cada nota como un pequeño chip sobre cualquier app. Toca el chip y se abre ahí mismo como tarjeta; toca su barra de título para volver a plegarla."
+          ],
+          "steps": [
+            "Instala FloatNote+ desde Google Play y permite «Mostrar sobre otras apps».",
+            "Toca + para escribir una nota: aparece sobre tu pantalla como una tarjeta.",
+            "Abre la app que necesites. La nota se queda encima; pliégala en un chip cuando quieras recuperar la pantalla.",
+            "Usa colores, negrita, tamaño de texto e imágenes para distinguir las notas fácilmente.",
+            "Para que una nota aparezca a una hora concreta, abre su menú ⋮ y elige «Recordarme»: una vez, a diario, entre semana o los días que elijas."
+          ]
+        },
+        {
+          "h": "También en tu PC",
+          "p": [
+            "FloatNote+ for Windows hace flotar el mismo tipo de notas sobre cualquier ventana, y las dos apps se sincronizan a través de tu propio Google Drive (función Pro en Android)."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Android tiene notas flotantes integradas?",
+          "a": "Android no tiene una función general de notas flotantes. Apps como FloatNote+ la añaden usando el permiso «Mostrar sobre otras apps»."
+        },
+        {
+          "q": "¿Puede aparecer una nota a una hora concreta?",
+          "a": "Sí. En FloatNote+, crea un recordatorio desde el menú ⋮ de la nota y esta aparecerá en pantalla junto con una notificación. La versión gratuita admite un recordatorio; Pro no tiene límite."
+        },
+        {
+          "q": "¿FloatNote+ es gratis?",
+          "a": "Guardar notas es gratis e ilimitado, y la versión gratuita hace flotar una nota a la vez. Pro añade notas flotantes ilimitadas, imágenes dentro de la nota, opacidad ajustable, sincronización con Google Drive y sin anuncios."
+        }
+      ]
+    },
+    "floating-timer-over-other-apps-android": {
+      "app": "floattimer",
+      "updated": "2026-10-14",
+      "title": "Cómo tener un temporizador en pantalla mientras usas otras apps en Android",
+      "desc": "El temporizador de la app Reloj desaparece al cambiar de app. Te explicamos cómo tener una cuenta atrás, un cronómetro o un contador flotando sobre cualquier app.",
+      "intro": "El temporizador de la app Reloj sigue funcionando en segundo plano, pero no lo ves mientras estás en otra app: tienes que bajar las notificaciones o volver a ella. Para estudiar con una clase, cronometrar una presentación o jugar, ayuda tener el tiempo en pantalla todo el rato.",
+      "sections": [
+        {
+          "h": "Configúralo con FloatTimer+",
+          "p": [
+            "FloatTimer+ (nuestra app) hace flotar temporizadores, cronómetros y contadores sobre cualquier app como pequeñas tarjetas que puedes arrastrar adonde quieras."
+          ],
+          "steps": [
+            "Instala FloatTimer+ desde Google Play y permite «Mostrar sobre otras apps».",
+            "Crea un temporizador: las horas, minutos y segundos que quieras, o un ajuste rápido como 25 minutos.",
+            "Hazlo flotar y abre la app que estés usando. Inicia, pausa y reinicia desde la propia tarjeta.",
+            "Pliégalo en una burbuja cuando necesites espacio; el tiempo sigue corriendo."
+          ]
+        },
+        {
+          "h": "Más de uno a la vez",
+          "p": [
+            "Puedes crear gratis todos los temporizadores, contadores y cronómetros que quieras, y siguen funcionando. La versión gratuita muestra uno en pantalla a la vez; Pro hace flotar todos los que quieras a la vez, o un anuncio corto lo desbloquea durante 24 horas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo ver un temporizador sobre YouTube o un juego?",
+          "a": "Sí. Un temporizador flotante se queda encima de cualquier app, incluidos vídeos y juegos, una vez que permites «Mostrar sobre otras apps»."
+        },
+        {
+          "q": "¿Hay un ajuste rápido para Pomodoro?",
+          "a": "FloatTimer+ tiene ajustes rápidos de 1, 5, 10, 25, 30 y 60 minutos, así que un temporizador de concentración de 25 minutos está a un toque."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots": {
+      "app": "photocleaner",
+      "updated": "2026-10-14",
+      "title": "Cómo ocultar datos personales en una captura de pantalla antes de compartirla",
+      "desc": "El desenfoque, un trazo fino o un marcador pueden dejar el texto legible. Te explicamos cómo tapar números de teléfono, de tarjeta y caras para que no se puedan recuperar, en tu teléfono y sin subir nada.",
+      "intro": "Las capturas de pantalla y las fotos de documentos suelen mostrar más de lo que querías compartir: un número de teléfono, un número de documento o de tarjeta, una dirección, una cara, un código QR. Antes de publicarlas o enviarlas, tapa bien esa información.",
+      "sections": [
+        {
+          "h": "Qué evitar",
+          "p": [
+            "Un marcador semitransparente o unos trazos finos pueden dejar el texto legible si alguien sube el contraste, y el desenfoque o el mosaico sobre texto pequeño a veces se pueden adivinar. Usa un recuadro sólido y opaco sobre todo lo privado, y comparte una copia en lugar del original."
+          ]
+        },
+        {
+          "h": "Opción 1: el editor de fotos de tu teléfono",
+          "p": [
+            "La mayoría de las apps de galería tienen una herramienta de dibujo o anotación. Si la usas, elige una forma sólida o un lápiz totalmente opaco, tapa cada elemento por completo y amplía para revisar los bordes antes de guardar."
+          ]
+        },
+        {
+          "h": "Opción 2: PhotoCleaner+",
+          "p": [
+            "PhotoCleaner+ (nuestra app) está hecha para esto. Sugiere los datos que probablemente sean personales, tú revisas cada recuadro y exporta una copia con máscaras sólidas. Todo se hace en tu teléfono; no se sube nada."
+          ],
+          "steps": [
+            "Abre una foto, una captura de pantalla o un PDF en PhotoCleaner+.",
+            "Revisa los recuadros sugeridos (números de teléfono, correos, números de tarjeta y texto similar) y añade los tuyos dibujándolos.",
+            "Mueve, redimensiona o elimina recuadros hasta que todo lo privado quede tapado.",
+            "Exporta la copia con máscaras y comparte esa. El original no cambia, y las copias guardadas no llevan datos EXIF ni GPS."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Basta con desenfocar para ocultar un número de teléfono?",
+          "a": "No siempre. Un desenfoque suave sobre texto pequeño a veces se puede leer o adivinar. Una máscara sólida y opaca es la opción segura."
+        },
+        {
+          "q": "¿PhotoCleaner+ sube mis fotos?",
+          "a": "No. La detección y el enmascarado se hacen en tu teléfono, y tus fotos y documentos nunca se suben."
+        },
+        {
+          "q": "¿Es gratis?",
+          "a": "La detección, la edición y el enmascarado son gratis; puedes exportar 3 veces al día. Pro quita el límite diario y añade exportación a PDF e impresión, o un anuncio corto quita el límite durante 24 horas."
+        }
+      ]
+    },
+    "sticky-notes-always-on-top-windows": {
+      "app": "floatnotewin",
+      "updated": "2026-10-14",
+      "title": "Cómo mantener una nota adhesiva siempre visible en Windows",
+      "desc": "Las notas del escritorio acaban detrás de la ventana en la que trabajas. Te explicamos cómo fijar una nota encima de todas las ventanas: con PowerToys o con notas que flotan por diseño.",
+      "intro": "Una nota adhesiva solo sirve si la ves. En Windows, las notas del escritorio suelen quedar detrás del navegador, el documento o la hoja de cálculo con los que trabajas, y tienes que ir a buscarlas. Hay dos formas de mantener una nota encima.",
+      "sections": [
+        {
+          "h": "Opción 1: fijar una ventana con PowerToys",
+          "p": [
+            "Microsoft PowerToys, un conjunto gratuito de utilidades de Microsoft, incluye «Always On Top». Instala PowerToys, activa «Always On Top», haz clic en la ventana que quieres mantener delante (por ejemplo, una ventana de notas) y pulsa Win+Ctrl+T. Vuelve a pulsarlo para soltarla.",
+            "Funciona con casi cualquier ventana. El inconveniente es que una ventana fijada es una ventana completa: toma el foco al hacer clic en ella y ocupa el mismo espacio tanto si estás leyendo la nota como si no."
+          ]
+        },
+        {
+          "h": "Opción 2: notas que flotan por diseño",
+          "p": [
+            "FloatNote+ for Windows (nuestra app) mantiene cada nota como un pequeño chip encima de todas las ventanas. Haz clic en el chip y se abre ahí mismo como tarjeta; pulsa Esc y se vuelve a plegar. Los chips nunca le quitan el foco a la app que tienen detrás, así que el cursor sigue donde estabas escribiendo."
+          ],
+          "steps": [
+            "Instala FloatNote+ desde Microsoft Store.",
+            "Crea una nota desde el icono de la bandeja o con un atajo global: aparece como una tarjeta sobre tu pantalla.",
+            "Sigue trabajando: la nota se queda encima de todas las ventanas. Pulsa Esc para plegarla en un chip.",
+            "Arrastra los chips adonde quieras, usa colores y texto enriquecido para distinguirlos y crea un recordatorio para que una nota aparezca a una hora concreta."
+          ]
+        },
+        {
+          "h": "Tus notas también en el teléfono",
+          "p": [
+            "FloatNote+ for Windows se sincroniza con la app FloatNote+ para Android a través de tu propio Google Drive, así que una nota que escribes en el PC está también en tu teléfono. Todas las funciones de la versión de Windows son gratis."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Las Sticky Notes de Windows pueden quedarse encima de otras ventanas?",
+          "a": "En la mayoría de los casos, no por sí solas. Puedes fijar cualquier ventana, incluida una ventana de notas, con «Always On Top» de PowerToys (Win+Ctrl+T), o usar una app cuyas notas floten sobre otras ventanas por diseño."
+        },
+        {
+          "q": "¿Una nota flotante le quita el foco a lo que estoy escribiendo?",
+          "a": "Los chips de FloatNote+, no. Al hacer clic en un chip o arrastrarlo, el cursor se queda en la app que estabas usando; solo una tarjeta abierta toma el foco, porque escribes en ella."
+        }
+      ]
+    },
+    "clipboard-history-windows": {
+      "app": "clipboardwin",
+      "updated": "2026-10-14",
+      "title": "Cómo ver el historial del portapapeles en Windows",
+      "desc": "Windows tiene un historial del portapapeles integrado (Win+V), pero es corto y se borra al reiniciar. Te explicamos cómo usarlo y cómo tener un historial con búsqueda que dure.",
+      "intro": "Copias algo nuevo y lo anterior desaparece, a menos que guardes un historial. Windows 10 y 11 traen uno integrado, y un gestor de portapapeles puede guardar uno más largo.",
+      "sections": [
+        {
+          "h": "Opción 1: el historial del portapapeles integrado (Win+V)",
+          "p": [
+            "Pulsa Win+V. La primera vez, Windows te pide activar el historial del portapapeles (también puedes hacerlo en Configuración > Sistema > Portapapeles). A partir de entonces, Win+V muestra lo copiado recientemente y, al hacer clic en un elemento, se pega.",
+            "Es rápido, pero limitado: guarda hasta 25 elementos y todo, salvo lo anclado, se borra al reiniciar el PC. No tiene búsqueda y no llega a tu teléfono."
+          ]
+        },
+        {
+          "h": "Opción 2: un gestor de portapapeles que lo guarda todo",
+          "p": [
+            "Clipboard+ for Windows (nuestra app) vive en la bandeja y guarda los textos e imágenes que copias en el mismo momento en que los copias. Tu historial se queda hasta que lo borres, y puedes buscar en él, organizarlo en grupos y fragmentos y abrirlo con un atajo."
+          ],
+          "steps": [
+            "Instala Clipboard+ desde Microsoft Store; se inicia en la bandeja del sistema.",
+            "Copia como siempre: cada texto e imagen se guarda automáticamente.",
+            "Pulsa el atajo global para abrir la ventana de selección rápida junto al cursor, elige un elemento con Ctrl+1–9 y pulsa Enter para pegarlo.",
+            "Abre la ventana para buscar, anclar, editar o guardar como fragmentos el texto que usas a menudo."
+          ]
+        },
+        {
+          "h": "Entre tu teléfono y tu PC",
+          "p": [
+            "Junto con la app Clipboard+ para Android, lo que copias en el teléfono lo pegas en el PC, y al revés, a través de tu propio Google Drive. El historial del portapapeles, los fragmentos, los grupos, la búsqueda y la ventana de selección rápida son gratis; Pro añade sincronización, almacenamiento ilimitado de imágenes y exportación a PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué el historial de Win+V está vacío después de reiniciar?",
+          "a": "Windows borra el historial del portapapeles al reiniciar el PC, salvo los elementos anclados. Un gestor de portapapeles como Clipboard+ conserva tu historial entre reinicios."
+        },
+        {
+          "q": "¿Cuántos elementos guarda el historial del portapapeles de Windows?",
+          "a": "Hasta 25. Los más antiguos se van perdiendo a medida que copias otros nuevos."
+        }
+      ]
+    },
+    "timer-always-on-top-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-14",
+      "title": "Cómo mantener un temporizador encima de otras ventanas en Windows",
+      "desc": "Ten una cuenta atrás a la vista mientras trabajas en otras ventanas: con «Keep on top» de la app Reloj o con temporizadores que flotan como pequeñas tarjetas sobre todo.",
+      "intro": "Cronometrar una presentación, una sesión de concentración o una llamada es más fácil si el tiempo está siempre a la vista. Windows ofrece una forma integrada, y una app de temporizador flotante añade más.",
+      "sections": [
+        {
+          "h": "Opción 1: «Keep on top» en la app Reloj",
+          "p": [
+            "La app Reloj que viene con Windows puede mostrar un temporizador en una ventana pequeña que se queda encima de las demás: inicia un temporizador, amplíalo y elige «Keep on top». Sirve para un solo temporizador y lo muestra en una ventana pequeña fija."
+          ]
+        },
+        {
+          "h": "Opción 2: tarjetas de temporizador flotantes",
+          "p": [
+            "FloatTimer+ for Windows (nuestra app) hace flotar temporizadores, contadores y cronómetros encima de todas las ventanas como pequeñas tarjetas pastel. Las tarjetas nunca toman el foco, así que al hacer clic en una el cursor se queda donde estabas escribiendo."
+          ],
+          "steps": [
+            "Instala FloatTimer+ desde Microsoft Store; vive en la bandeja del sistema.",
+            "Crea un temporizador, un contador o un cronómetro y hazlo flotar.",
+            "Inicia, pausa y reinicia desde la propia tarjeta; arrástrala adonde quieras o cambia su tamaño.",
+            "Pliégala en una pequeña burbuja o empújala contra el borde de la pantalla cuando quieras recuperar espacio."
+          ]
+        },
+        {
+          "h": "Gratis y Pro",
+          "p": [
+            "Puedes crear todos los temporizadores, contadores y cronómetros que quieras, sin anuncios. La versión gratuita hace flotar una tarjeta a la vez; Pro es una compra única que hace flotar todas las que quieras y añade temporizadores que se repiten y alertas personalizadas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Windows tiene un temporizador siempre visible?",
+          "a": "«Keep on top» de la app Reloj muestra un temporizador en una ventana pequeña encima de las demás. Para varios temporizadores, contadores o cronómetros a la vez, usa una app de temporizador flotante."
+        },
+        {
+          "q": "¿Un temporizador flotante me estorbará mientras trabajo?",
+          "a": "Las tarjetas de FloatTimer+ nunca le quitan el foco a la app de debajo, y puedes plegarlas en una burbuja o arrimarlas al borde de la pantalla."
+        }
+      ]
+    },
+    "reading-ruler-dyslexia-adhd-android": {
+      "app": "readfocus",
+      "updated": "2026-10-14",
+      "title": "Regla de lectura para dislexia y TDAH en Android: no pierdas la línea al leer",
+      "desc": "¿Pierdes la línea, te saltas renglones o relees la misma frase? Una regla de lectura o una máscara de lectura sobre cualquier app ayuda a que tus ojos no se desvíen. Te explicamos cómo configurarla en Android.",
+      "intro": "En la pantalla del teléfono es fácil perderse en un texto largo: los ojos se escapan a la línea siguiente, se saltan un renglón o vuelven a una frase que ya leíste. Muchas personas con dislexia o TDAH usan una regla o una tarjeta bajo la línea cuando leen en papel. En el teléfono, una regla de lectura hace lo mismo en pantalla.",
+      "sections": [
+        {
+          "h": "Empieza por los ajustes de pantalla",
+          "p": [
+            "Los ajustes de accesibilidad y de pantalla de Android (letra más grande, texto en negrita, tema oscuro) pueden hacer el texto más fácil de leer. Sin embargo, no marcan la línea en la que estás, que es lo que ayuda cuando la vista se te va."
+          ]
+        },
+        {
+          "h": "Añade una regla de lectura con ReadFocus+",
+          "p": [
+            "ReadFocus+ (nuestra app) hace flotar una franja de enfoque sobre cualquier app: libros electrónicos, PDF, navegadores, noticias, webtoons. Elige «Resaltado de línea» para iluminar la línea que lees, o «Máscara de lectura» para atenuar todo excepto tu zona de lectura."
+          ],
+          "steps": [
+            "Instala ReadFocus+ desde Google Play y permite «Mostrar sobre otras apps».",
+            "Elige un modo: «Resaltado de línea» (una regla de lectura) o «Máscara de lectura».",
+            "Abre la app en la que lees y arrastra la franja hasta tu línea.",
+            "Ajusta su altura (50–300 dp), la opacidad y el tema de color hasta que te resulte cómoda."
+          ]
+        },
+        {
+          "h": "Gratis y Pro",
+          "p": [
+            "La versión gratuita ofrece 60 minutos de superposición por sesión y 3 temas de color. Pro quita los anuncios y el límite de tiempo, y añade los 10 temas y la pantalla siempre encendida; también puedes desbloquear las funciones Pro durante 24 horas con un anuncio corto."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Una regla de lectura ayuda con la dislexia?",
+          "a": "Muchos lectores con dislexia o TDAH notan que marcar la línea actual les ayuda a no perder el sitio. Es una ayuda de lectura, no un tratamiento: pruébala y quédate con los ajustes que te resulten cómodos."
+        },
+        {
+          "q": "¿Con qué apps funciona ReadFocus+?",
+          "a": "Con cualquier app en pantalla: lectores de libros electrónicos y PDF, navegadores, noticias, apuntes, cómics y webtoons."
+        }
+      ]
+    },
+    "reading-ruler-windows": {
+      "app": "readfocuswin",
+      "updated": "2026-10-14",
+      "title": "Cómo usar una regla de lectura en Windows (para dislexia y TDAH)",
+      "desc": "El Lector inmersivo de Edge tiene «Line focus» para páginas web. Para PDF, documentos y cualquier otra app, una franja de enfoque con clic pasante mantiene tus ojos en la línea. Te explicamos cómo usar ambos.",
+      "intro": "Al leer páginas largas en un monitor es fácil perder la línea. Una regla de lectura resalta la línea en la que estás o atenúa el resto de la pantalla, para que tus ojos no se desvíen.",
+      "sections": [
+        {
+          "h": "Opción 1: «Line focus» en Microsoft Edge",
+          "p": [
+            "Microsoft Edge tiene el Lector inmersivo, una vista de lectura limpia para páginas web. En sus preferencias de lectura, «Line focus» resalta una, tres o cinco líneas a la vez. Solo funciona en páginas que se abren en el Lector inmersivo, no en PDF, documentos ni otras apps."
+          ]
+        },
+        {
+          "h": "Opción 2: una franja de enfoque sobre cualquier app",
+          "p": [
+            "ReadFocus+ for Windows (nuestra app) coloca una franja de enfoque sobre lo que estés leyendo: una página web, un PDF, un documento, código. «Máscara» oscurece la parte superior e inferior de la pantalla y deja una banda clara; «Resaltado» marca la línea en la que estás. La franja tiene clic pasante, así que sigues desplazándote y haciendo clic en lo de debajo como siempre."
+          ],
+          "steps": [
+            "Instala ReadFocus+ desde Microsoft Store.",
+            "Inícialo desde el panel flotante o con un atajo de teclado, y elige «Máscara» o «Resaltado».",
+            "Lleva la franja hasta tu línea, o súbela y bájala con atajos mientras lees.",
+            "Bloquéala, ocúltala o pásala a otro monitor desde el panel."
+          ]
+        },
+        {
+          "h": "Gratis y Pro",
+          "p": [
+            "La versión gratuita incluye los dos modos y tres temas, en sesiones de hasta 60 minutos. Pro es una compra única que quita el límite de tiempo y añade temas premium, ajustes de altura y opacidad de la franja y pantalla siempre encendida. No hay anuncios."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Windows tiene una regla de lectura?",
+          "a": "El Lector inmersivo de Edge tiene «Line focus» para páginas web. Para otras apps (PDF, Word, editores de código) necesitas una superposición en pantalla como ReadFocus+ for Windows."
+        },
+        {
+          "q": "¿La franja bloquea mis clics?",
+          "a": "No. ReadFocus+ for Windows tiene clic pasante: el desplazamiento, la selección y los clics llegan a la app de debajo."
+        }
+      ]
+    },
+    "floating-calculator-over-other-apps-android": {
+      "app": "floatcalc",
+      "updated": "2026-10-14",
+      "title": "Cómo usar una calculadora encima de otras apps en Android",
+      "desc": "Calcula un descuento o convierte un precio sin salir de la pantalla de compras, del banco o del navegador: una calculadora flotante que se queda sobre cualquier app, con conversor de unidades y de divisas.",
+      "intro": "Consultar un precio en una app de compras, dividir una cuenta en un chat, convertir una moneda mientras reservas: cambiar a la app Calculadora y volver significa perder el hilo y recordar números de memoria. Una calculadora flotante se queda en pantalla sobre la app que estás usando.",
+      "sections": [
+        {
+          "h": "Opción 1: pantalla dividida",
+          "p": [
+            "Android puede mostrar dos apps a la vez en pantalla dividida. Abre la pantalla de apps recientes, elige la pantalla dividida para una app y escoge la Calculadora para la otra mitad. Funciona, pero cada app solo tiene la mitad de la pantalla."
+          ]
+        },
+        {
+          "h": "Opción 2: una calculadora flotante",
+          "p": [
+            "FloatCalc+ (nuestra app) es una ventana de calculadora que flota sobre cualquier app. La calculadora, el conversor de unidades y el de divisas comparten una misma ventana que puedes arrastrar adonde quieras; pliega el teclado a una sola línea o reduce el panel a un icono en el borde de la pantalla cuando necesites espacio."
+          ],
+          "steps": [
+            "Instala FloatCalc+ desde Google Play y permite «Mostrar sobre otras apps».",
+            "Abre la calculadora flotante y arrástrala donde no tape lo que necesitas.",
+            "Escribe la operación (también funcionan potencias, raíces y porcentajes) y copia el resultado al portapapeles.",
+            "Cambia al conversor de unidades o de divisas en la misma ventana. Los tipos de cambio vienen del Banco Central Europeo, se actualizan a diario y siguen funcionando sin conexión."
+          ]
+        },
+        {
+          "h": "Gratis y Pro",
+          "p": [
+            "La calculadora flotante es gratis 60 minutos al día; la barra de título muestra cuánto tiempo queda, y un anuncio corto te da un pase de 24 horas. Pro quita el límite diario y los anuncios, y añade todas las categorías de unidades, más de 30 divisas y más temas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo usar una calculadora sin salir de mi app?",
+          "a": "Sí. Una calculadora flotante como FloatCalc+ se queda encima de las demás apps una vez que permites «Mostrar sobre otras apps»."
+        },
+        {
+          "q": "¿De dónde salen los tipos de cambio?",
+          "a": "Del Banco Central Europeo; se actualizan una vez al día y se guardan en caché para usarlos sin conexión."
+        }
+      ]
+    },
+    "crypto-price-ticker-over-other-apps-android": {
+      "app": "floatcrypto",
+      "updated": "2026-10-14",
+      "title": "Cómo ver precios de criptomonedas mientras usas otras apps en Android",
+      "desc": "Mantén un ticker cripto en vivo en pantalla mientras ves vídeos, lees o chateas, y recibe un aviso cuando una moneda cruce tu precio objetivo.",
+      "intro": "Las apps de los exchanges muestran los precios dentro de la app o en un widget de la pantalla de inicio, así que mirar el mercado significa dejar lo que estés haciendo. Un ticker flotante mantiene en pantalla los precios que sigues, sobre cualquier app.",
+      "sections": [
+        {
+          "h": "Configura un ticker flotante con FloatCrypto+",
+          "p": [
+            "FloatCrypto+ (nuestra app) hace flotar un ticker de precios sobre todas las apps: YouTube, noticias, un juego, un chat. Arrástralo adonde quieras, ajusta su tamaño y baja la opacidad para que no tape lo que estás leyendo."
+          ],
+          "steps": [
+            "Instala FloatCrypto+ desde Google Play y permite «Mostrar sobre otras apps».",
+            "Añade a tu lista de seguimiento las monedas que sigues y arrástralas para ordenarlas.",
+            "Activa el ticker flotante y colócalo donde quieras.",
+            "Fija una alerta de precio superior o inferior desde el menú ⋮ de una moneda para recibir un aviso cuando el mercado la cruce."
+          ]
+        },
+        {
+          "h": "Conviene saber",
+          "p": [
+            "Los precios vienen de Binance, con una fuente alternativa automática, y pueden llevar hasta 30 segundos de retraso (10 segundos con Pro). Son solo de referencia, y la app no opera ni se conecta a una cuenta de exchange. Nada de esto es asesoramiento de inversión.",
+            "La versión gratuita sigue 2 monedas con 1 alerta. Un Free Pass abre más monedas o gráficos más largos durante 24 horas a cambio de un anuncio corto, y Pro da 10 monedas, alertas ilimitadas, actualización cada 10 segundos y sin anuncios."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo ver precios cripto encima de YouTube o de un juego?",
+          "a": "Sí. El ticker flota encima de todas las apps una vez que permites «Mostrar sobre otras apps»."
+        },
+        {
+          "q": "¿Los precios son en tiempo real?",
+          "a": "Pueden llevar hasta 30 segundos de retraso (10 segundos con Pro) y son solo de referencia."
+        }
+      ]
+    },
+    "make-android-phone-louder": {
+      "app": "volumebooster",
+      "updated": "2026-10-14",
+      "title": "Cómo hacer que tu móvil Android suene más alto",
+      "desc": "¿Tu móvil suena bajo incluso con el volumen al máximo? Revisa primero estos ajustes y luego mira cómo un potenciador de volumen sube la salida de forma segura, con el aumento mostrado en decibelios.",
+      "intro": "Si los vídeos, las llamadas en altavoz o la música suenan demasiado bajo incluso con el volumen al máximo, empieza por unos cuantos ajustes: a veces el propio teléfono se está limitando. Si no basta, un potenciador de volumen puede subir aún más la salida.",
+      "sections": [
+        {
+          "h": "Revisa esto primero",
+          "p": [
+            "Asegúrate de estar subiendo el volumen multimedia y no el del tono de llamada: pulsa un botón de volumen mientras se reproduce un vídeo, o abre el panel de volumen y sube el control deslizante de multimedia.",
+            "Algunos teléfonos tienen un límite de volumen multimedia. En los teléfonos Samsung, busca «Media volume limiter» en los ajustes de volumen. Prueba también los efectos de sonido o el ecualizador del propio teléfono si los tiene, y comprueba si una funda está tapando el altavoz."
+          ]
+        },
+        {
+          "h": "Sube la salida con VolumeBooster+",
+          "p": [
+            "VolumeBooster+ (nuestra app) eleva la salida del sistema en lugar del volumen de una sola app, así que vídeos, música y juegos suenan más alto. El aumento se muestra en decibelios con zonas Segura, Precaución y Peligro, para que veas hasta dónde lo has subido."
+          ],
+          "steps": [
+            "Instala VolumeBooster+ desde Google Play.",
+            "Reproduce algo y sube el aumento poco a poco mientras miras la zona de dB.",
+            "Usa los presets del ecualizador, el potenciador de graves o AutoEQ para tus auriculares para que suene más claro, no solo más alto.",
+            "Baja el aumento cuando no lo necesites: tus oídos y tu altavoz te lo agradecerán."
+          ]
+        },
+        {
+          "h": "Gratis y Pro, y tu audición",
+          "p": [
+            "La versión gratuita sube hasta +10 dB durante 60 minutos al día; Pro o un Free Pass de 24 horas abre el rango completo de +15 dB. El valor en dB es una estimación y la app no es un dispositivo médico: si notas dolor o pitidos en los oídos, baja el volumen."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Un potenciador de volumen puede dañar mi altavoz o mi audición?",
+          "a": "Un volumen muy alto sí puede. Sube el aumento poco a poco, vigila las zonas Segura/Precaución/Peligro y bájalo si el sonido se distorsiona o te duelen los oídos."
+        },
+        {
+          "q": "¿Cuánto más alto puede sonar?",
+          "a": "Hasta +15 dB con Pro o un Free Pass, y hasta +10 dB en la versión gratuita. El volumen real varía según el dispositivo, los auriculares y el contenido."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots-windows": {
+      "app": "photocleanerwin",
+      "updated": "2026-10-14",
+      "title": "Cómo ocultar datos personales en capturas de pantalla y PDF en Windows",
+      "desc": "Antes de compartir una captura de pantalla o un documento escaneado desde tu PC, tapa números de teléfono, números de tarjeta, números de identificación y caras con máscaras sólidas, sin subir nada.",
+      "intro": "Las capturas de pantalla y los documentos escaneados suelen contener un número de teléfono, un correo, un número de tarjeta o de identificación, una dirección o una cara. Antes de enviarlos o publicarlos desde tu PC, tapa esa información para que no se pueda recuperar.",
+      "sections": [
+        {
+          "h": "Opción 1: Recortes (Snipping Tool)",
+          "p": [
+            "Las versiones recientes de Recortes (Snipping Tool) en Windows 11 pueden ocultar direcciones de correo y números de teléfono en una captura mediante «Text actions», y puedes dibujar encima de cualquier otra cosa. No uses el resaltador para esto, porque es semitransparente: usa trazos sólidos que tapen cada elemento por completo."
+          ]
+        },
+        {
+          "h": "Opción 2: PhotoCleaner+ for Windows",
+          "p": [
+            "PhotoCleaner+ for Windows (nuestra app) encuentra los datos que probablemente sean personales en fotos, capturas de pantalla y PDF (números de teléfono, correos, números de tarjeta, IBAN, números de pasaporte, nombres, direcciones, matrículas, caras y códigos QR) y exporta una copia con máscaras sólidas. Todo se hace en tu PC; no se sube nada."
+          ],
+          "steps": [
+            "Abre un archivo, pégalo con Ctrl+V, arrástralo a la ventana o haz clic derecho sobre él en el Explorador de archivos y elige «Clean with PhotoCleaner+».",
+            "Revisa los recuadros: haz clic en uno para activarlo o desactivarlo, arrástralo para moverlo o cambiar su tamaño, y dibuja los tuyos sobre lo que se haya escapado.",
+            "Exporta la copia con máscaras: guárdala, cópiala, compártela o guárdala como PDF. El original nunca se sobrescribe y las copias guardadas no llevan metadatos."
+          ]
+        },
+        {
+          "h": "Gratis y Pro",
+          "p": [
+            "Encontrar datos personales es gratis e ilimitado, y puedes exportar 3 documentos al día gratis. Pro es una compra única que quita el límite diario y añade exportación a PDF e impresión. No hay anuncios ni marca de agua."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Encontrará todos los datos personales?",
+          "a": "Ninguna herramienta puede prometerlo. La detección es un punto de partida: revisa siempre los recuadros antes de exportar y tapa lo que se haya escapado."
+        },
+        {
+          "q": "¿Se suben mis archivos?",
+          "a": "No. La detección, el enmascarado y la exportación se hacen en tu PC, sin cuenta y sin subir nada."
+        }
+      ]
+    },
+    "crypto-price-ticker-on-top-windows": {
+      "app": "floatcryptowin",
+      "updated": "2026-10-14",
+      "title": "Cómo tener un ticker cripto en vivo encima de otras ventanas en Windows",
+      "desc": "Sigue tus monedas mientras trabajas: un ticker de precios fino encima de todas las ventanas, alertas de precio como notificaciones de escritorio y gráficos con un doble clic.",
+      "intro": "Tener abierta una pestaña del exchange obliga a cambiar a ella cada vez que quieres ver un precio. Un ticker flotante mantiene a la vista las monedas que sigues, encima de todas las ventanas.",
+      "sections": [
+        {
+          "h": "Configura FloatCrypto+ for Windows",
+          "p": [
+            "FloatCrypto+ for Windows (nuestra app) mantiene un ticker fino encima de todas las ventanas, con el símbolo y la variación de 24 horas de cada moneda. Nunca toma el foco, así que el cursor se queda donde estabas escribiendo."
+          ],
+          "steps": [
+            "Instala FloatCrypto+ desde Microsoft Store; vive en la bandeja del sistema.",
+            "Elige monedas entre los pares de Binance y arrástralas para ordenarlas.",
+            "Coloca el ticker donde quieras y ajusta su opacidad y el tamaño del texto, o contráelo en una burbuja en el borde de la pantalla.",
+            "Fija un objetivo por encima o por debajo del precio actual para recibir una notificación de escritorio cuando el mercado lo cruce. Haz doble clic en una moneda para ver su gráfico."
+          ]
+        },
+        {
+          "h": "Conviene saber",
+          "p": [
+            "Pasa el ratón sobre el icono de la bandeja para ver una tabla completa de precios, y oculta el ticker con Ctrl+Alt+T. Los precios proceden de los datos de mercado públicos de Binance, con fuente alternativa automática, y pueden llevar hasta 30 segundos de retraso; la app no opera ni se conecta a una cuenta de exchange, y nada en ella es asesoramiento de inversión.",
+            "La versión gratuita sigue 2 monedas con 1 alerta; Pro es una compra única que da 10 monedas, alertas ilimitadas, actualización cada 10 segundos y gráficos más largos. No hay anuncios."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿El ticker estorba mientras trabajo?",
+          "a": "No. Nunca toma el foco; puedes bajar su opacidad, contraerlo en una burbuja u ocultarlo con Ctrl+Alt+T."
+        },
+        {
+          "q": "¿Necesita mi cuenta del exchange?",
+          "a": "No. Solo lee datos de mercado públicos y nunca opera ni guarda fondos."
+        }
+      ]
+    }
+  }
+}

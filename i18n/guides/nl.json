@@ -1,0 +1,660 @@
+{
+  "ui": {
+    "guides": "Handleidingen",
+    "updated": "Bijgewerkt",
+    "inThisGuide": "De app in deze handleiding",
+    "appPage": "App-details",
+    "moreGuides": "Meer handleidingen",
+    "appGuides": "Handleidingen",
+    "faq": "Vragen"
+  },
+  "guides": {
+    "android-clipboard-history": {
+      "app": "clipboard",
+      "updated": "2026-10-14",
+      "title": "Klembordgeschiedenis bekijken op Android",
+      "desc": "Android onthoudt alleen het laatste wat je hebt gekopieerd. Hier lees je waar je recent gekopieerde items in je toetsenbord vindt, en hoe je een doorzoekbare geschiedenis bewaart die niet verdwijnt.",
+      "intro": "Android zelf onthoudt alleen het laatste wat je hebt gekopieerd: kopieer je iets nieuws, dan is de vorige tekst weg. Wil je een adres, een code of een zin terughalen die je eerder kopieerde, dan heb je een plek nodig die een geschiedenis bijhoudt. Die zijn er twee: je toetsenbord en een klembordmanager-app.",
+      "sections": [
+        {
+          "h": "Optie 1: het klembord van je toetsenbord",
+          "p": [
+            "Veel toetsenborden hebben een eigen klembord. Tik in Gboard op het klembordpictogram in de balk boven de toetsen (de eerste keer moet je het inschakelen). Ook Samsung Keyboard heeft een klembordknop in de werkbalk.",
+            "Zo pak je het snelst iets wat je een paar minuten geleden hebt gekopieerd. Het nadeel: het klembord van een toetsenbord is kortstondig. Gboard verwijdert bijvoorbeeld niet-vastgezette items na ongeveer een uur, en je ziet de lijst alleen terwijl je typt."
+          ]
+        },
+        {
+          "h": "Optie 2: een klembordmanager met een echte geschiedenis",
+          "p": [
+            "Kopieer je steeds weer dezelfde dingen – adressen, rekeningnummers, standaardantwoorden – dan bewaart een klembordmanager ze tot je ze verwijdert, kun je erin zoeken en kan hij ze boven elke app tonen.",
+            "Clipboard+ (onze app) bewaart de tekst en afbeeldingen die je kopieert in een geschiedenis, het nieuwste bovenaan, met een zoekfunctie en een zwevend paneel dat je boven de app die je gebruikt kunt openen."
+          ],
+          "steps": [
+            "Installeer Clipboard+ via Google Play en open de app één keer.",
+            "Kopieer zoals altijd. Je kunt ook in elke app tekst selecteren en in het selectiemenu Clipboard+ kiezen om die op te slaan.",
+            "Open het zwevende paneel (of de app) om je geschiedenis te zien, tik op een item om het opnieuw te kopiëren en plak het waar je bent.",
+            "Bewaar teksten die je vaker gebruikt als snippets in groepen, zodat ze altijd één tik weg zijn."
+          ]
+        },
+        {
+          "h": "Welke kies je?",
+          "p": [
+            "Voor een eenmalige klus – iets plakken wat je een minuut geleden kopieerde – is het klembord van je toetsenbord genoeg. Raak je gekopieerde tekst kwijt die je nog nodig had, of typ je steeds dezelfde tekst opnieuw, dan bespaart een klembordmanager je die tijd. Clipboard+ is gratis om mee te beginnen; Pro voegt synchronisatie met de Windows-app via je eigen Google Drive toe, onbeperkt afbeeldingen in de geschiedenis en PDF-export."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Heeft Android een ingebouwde klembordgeschiedenis?",
+          "a": "Niet in het systeem zelf – Android bewaart alleen het laatst gekopieerde item. Toetsenborden zoals Gboard en Samsung Keyboard voegen een kortstondige klembordlijst toe."
+        },
+        {
+          "q": "Kan ik de klembordgeschiedenis van mijn telefoon op mijn pc zien?",
+          "a": "Ja, met Clipboard+ op allebei: de Android-app en Clipboard+ for Windows synchroniseren via je eigen Google Drive (op Android een Pro-functie)."
+        }
+      ]
+    },
+    "open-app-automatically-after-reboot-android": {
+      "app": "autostart",
+      "updated": "2026-10-14",
+      "title": "App automatisch openen na herstart op Android (zonder root)",
+      "desc": "Android heeft geen instelling die een app start als je telefoon opstart. Zo laat je je apps na een herstart vanzelf openen, zonder root – en zo test je het zonder opnieuw op te starten.",
+      "intro": "Android heeft geen instelling die een app opent als de telefoon opstart. Open je na elke herstart dezelfde apps – een navigatie-app in de auto, een launcher op een kiosktablet, een muziek-app op een autoradio – dan kan een autostart-app dat voor je doen.",
+      "sections": [
+        {
+          "h": "Waarom dat niet vanzelf gebeurt",
+          "p": [
+            "Sinds Android 10 mogen apps vanuit de achtergrond niet zelf schermen openen. Een app die na een herstart andere apps moet openen, heeft daarom de toestemming ‘Display over other apps’ (weergeven over andere apps) nodig, en kan ze pas starten nadat de telefoon voor het eerst is ontgrendeld."
+          ]
+        },
+        {
+          "h": "Instellen met AutoStart+",
+          "p": [
+            "AutoStart+ (onze app) opent de apps die jij kiest na elke herstart, zodra je de telefoon ontgrendelt. Root is niet nodig."
+          ],
+          "steps": [
+            "Installeer AutoStart+ via Google Play en open de app.",
+            "Tik op ‘Apps toevoegen’ en kies de apps die na een herstart moeten openen. Sleep de rijen om te bepalen welke als eerste opent.",
+            "Sta ‘Display over other apps’ toe als daarom gevraagd wordt – zonder die toestemming blokkeert Android het starten.",
+            "Tik op ‘Nu testen’ om te zien wat er gaat gebeuren, zonder je telefoon te herstarten.",
+            "Herstart je telefoon en ontgrendel hem: je apps openen in de volgorde die je hebt ingesteld."
+          ]
+        },
+        {
+          "h": "Autoradio’s en toestellen die in slaapstand gaan",
+          "p": [
+            "Veel Android-autoradio’s starten niet echt opnieuw op – ze gaan in slaapstand als de auto uit staat. AutoStart+ heeft een ‘Automodus’ die je apps opnieuw opent telkens als het scherm uit de slaapstand komt."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Heb ik root nodig om apps automatisch te starten op Android?",
+          "a": "Nee. AutoStart+ werkt zonder root; het heeft alleen de toestemming ‘Display over other apps’ nodig."
+        },
+        {
+          "q": "Waarom openen mijn apps niet voordat ik de telefoon ontgrendel?",
+          "a": "Android laat apps pas andere apps openen als de telefoon na een herstart één keer is ontgrendeld. Je apps openen direct na het ontgrendelen."
+        },
+        {
+          "q": "Hoeveel apps kan ik gratis automatisch starten?",
+          "a": "De gratis versie start 1 app per opstart. Pro start je hele lijst op volgorde, en wil je liever geen abonnement, dan heft een korte advertentie de limiet 24 uur op."
+        }
+      ]
+    },
+    "floating-notes-over-other-apps-android": {
+      "app": "floatnote",
+      "updated": "2026-10-14",
+      "title": "Notitie boven andere apps houden op Android",
+      "desc": "Houd een notitie in beeld terwijl je een andere app gebruikt: een zwevende notitie die boven elke app blijft, inklapt tot een kleine chip en op een tijdstip naar keuze kan verschijnen.",
+      "intro": "Een lijst overnemen in een formulier, een recept volgen terwijl er een video speelt, een bestelnummer in beeld houden in een chat – steeds heen en weer naar je notitie-app haalt je uit je flow. Een zwevende notitie blijft op het scherm boven welke app je ook gebruikt.",
+      "sections": [
+        {
+          "h": "Zo werken zwevende notities",
+          "p": [
+            "Een zwevende notitie is een klein venster dat boven andere apps wordt getoond. Android staat dat toe via de toestemming ‘Display over other apps’, die je één keer geeft. De notitie blijft bovenaan terwijl je de app eronder gewoon blijft gebruiken."
+          ]
+        },
+        {
+          "h": "Instellen met FloatNote+",
+          "p": [
+            "FloatNote+ (onze app) laat elke notitie als kleine chip boven elke app zweven. Tik op de chip en hij opent ter plekke als kaart; tik op de titelbalk om hem weer in te vouwen."
+          ],
+          "steps": [
+            "Installeer FloatNote+ via Google Play en sta ‘Display over other apps’ toe.",
+            "Tik op + om een notitie te schrijven – die verschijnt als kaart boven je scherm.",
+            "Open de app die je nodig hebt. De notitie blijft bovenaan; vouw hem in tot een chip als je je scherm terug wilt.",
+            "Gebruik kleuren, vet, tekstgrootte en afbeeldingen om notities makkelijk uit elkaar te houden.",
+            "Wil je een notitie op een vast tijdstip laten verschijnen, open dan het ⋮-menu en kies ‘Herinner me’ – eenmalig, elke dag, op werkdagen of op de dagen die je kiest."
+          ]
+        },
+        {
+          "h": "Ook op je pc",
+          "p": [
+            "FloatNote+ for Windows laat dezelfde soort notities boven elk venster zweven, en de twee apps synchroniseren via je eigen Google Drive (op Android een Pro-functie)."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Heeft Android ingebouwde zwevende notities?",
+          "a": "Android heeft geen algemene functie voor zwevende notities. Apps zoals FloatNote+ voegen die toe via de toestemming ‘Display over other apps’."
+        },
+        {
+          "q": "Kan een notitie op een vast tijdstip verschijnen?",
+          "a": "Ja. Stel in FloatNote+ een herinnering in via het ⋮-menu van de notitie, dan verschijnt de notitie met een melding op het scherm. De gratis versie heeft één herinnering; Pro heeft geen limiet."
+        },
+        {
+          "q": "Is FloatNote+ gratis?",
+          "a": "Notities opslaan is gratis en onbeperkt, en de gratis versie laat één notitie tegelijk zweven. Pro voegt onbeperkt zwevende notities toe, afbeeldingen in de notitie, instelbare transparantie, Google Drive-synchronisatie en geen advertenties."
+        }
+      ]
+    },
+    "floating-timer-over-other-apps-android": {
+      "app": "floattimer",
+      "updated": "2026-10-14",
+      "title": "Timer op je scherm houden terwijl je andere apps gebruikt op Android",
+      "desc": "De timer van de Klok-app verdwijnt als je van app wisselt. Zo laat je een afteltimer, stopwatch of teller boven elke app zweven.",
+      "intro": "De timer in de Klok-app loopt op de achtergrond door, maar in een andere app zie je hem niet – je moet de meldingen omlaag vegen of terugschakelen. Bij studeren met een college, het timen van een presentatie of een game is het handig om de tijd de hele tijd op je scherm te hebben.",
+      "sections": [
+        {
+          "h": "Instellen met FloatTimer+",
+          "p": [
+            "FloatTimer+ (onze app) laat timers, stopwatches en tellers boven elke app zweven als kleine kaartjes die je overal naartoe kunt slepen."
+          ],
+          "steps": [
+            "Installeer FloatTimer+ via Google Play en sta ‘Display over other apps’ toe.",
+            "Maak een timer – met willekeurige uren, minuten en seconden, of een snelkeuze zoals 25 minuten.",
+            "Laat hem zweven en open de app die je gebruikt. Starten, pauzeren en resetten doe je op het kaartje zelf.",
+            "Klap hem in tot een bubbel als je ruimte nodig hebt; de tijd loopt gewoon door."
+          ]
+        },
+        {
+          "h": "Meer dan één tegelijk",
+          "p": [
+            "Je kunt gratis zoveel timers, tellers en stopwatches maken als je wilt, en ze blijven lopen. De gratis versie toont er één tegelijk op het scherm; Pro laat er zoveel tegelijk zweven als je wilt, of een korte advertentie ontgrendelt dat voor 24 uur."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik een timer boven YouTube of een game zien?",
+          "a": "Ja. Een zwevende timer blijft boven elke app, ook boven video’s en games, zodra je ‘Display over other apps’ toestaat."
+        },
+        {
+          "q": "Is er een pomodoro-snelkeuze?",
+          "a": "FloatTimer+ heeft snelkeuzes van 1, 5, 10, 25, 30 en 60 minuten, dus een focustimer van 25 minuten is één tik."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots": {
+      "app": "photocleaner",
+      "updated": "2026-10-14",
+      "title": "Persoonlijke gegevens in een screenshot verbergen voordat je hem deelt",
+      "desc": "Vervaging, een dunne pen of een markeerstift kunnen tekst leesbaar laten. Zo bedek je telefoonnummers, kaartnummers en gezichten zodat ze niet te herstellen zijn – op je telefoon, zonder iets te uploaden.",
+      "intro": "Screenshots en foto’s van documenten bevatten vaak meer dan je wilde delen: een telefoonnummer, een ID- of kaartnummer, een adres, een gezicht, een QR-code. Bedek die gegevens goed voordat je ze plaatst of verstuurt.",
+      "sections": [
+        {
+          "h": "Wat je beter niet doet",
+          "p": [
+            "Een halfdoorzichtige markeerstift of dunne penstreken kunnen tekst leesbaar laten zodra iemand het contrast opschroeft, en vervaging of mozaïek op kleine tekst valt soms te raden. Leg een dicht, dekkend vlak over alles wat privé is, en deel een kopie in plaats van het origineel."
+          ]
+        },
+        {
+          "h": "Optie 1: de foto-editor van je telefoon",
+          "p": [
+            "De meeste galerij-apps hebben een markeer- of tekentool. Gebruik je die, kies dan een gevulde vorm of een volledig dekkende pen, bedek elk item helemaal en zoom in om de randen te controleren voordat je opslaat."
+          ]
+        },
+        {
+          "h": "Optie 2: PhotoCleaner+",
+          "p": [
+            "PhotoCleaner+ (onze app) is precies hiervoor gemaakt. De app stelt waarschijnlijk persoonlijke gegevens voor, jij controleert elk vak, en de app exporteert een kopie met dekkende maskers – alles gebeurt op je telefoon, er wordt niets geüpload."
+          ],
+          "steps": [
+            "Open een foto, screenshot of PDF in PhotoCleaner+.",
+            "Controleer de voorgestelde vakken – telefoonnummers, e-mailadressen, kaartnummers en vergelijkbare tekst – en teken er zelf bij.",
+            "Verplaats, schaal of verwijder vakken tot alles wat privé is bedekt is.",
+            "Exporteer de gemaskeerde kopie en deel die. Je origineel blijft ongewijzigd, en opgeslagen kopieën bevatten geen EXIF- of GPS-gegevens."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is vervagen genoeg om een telefoonnummer te verbergen?",
+          "a": "Niet altijd. Lichte vervaging op kleine tekst is soms te lezen of te raden. Een dicht, dekkend masker is de veilige keuze."
+        },
+        {
+          "q": "Uploadt PhotoCleaner+ mijn foto’s?",
+          "a": "Nee. Detectie en maskeren gebeuren op je telefoon, en je foto’s en documenten worden nooit geüpload."
+        },
+        {
+          "q": "Is het gratis?",
+          "a": "Detecteren, bewerken en maskeren zijn gratis; je kunt 3 keer per dag exporteren. Pro haalt de daglimiet weg en voegt PDF-export en afdrukken toe, of een korte advertentie heft de limiet 24 uur op."
+        }
+      ]
+    },
+    "sticky-notes-always-on-top-windows": {
+      "app": "floatnotewin",
+      "updated": "2026-10-14",
+      "title": "Plaknotitie altijd bovenop houden in Windows",
+      "desc": "Notities op het bureaublad belanden achter het venster waarin je werkt. Zo zet je een notitie boven elk venster vast – met PowerToys, of met notities die van zichzelf zweven.",
+      "intro": "Een plaknotitie heb je alleen iets aan als je hem ziet. In Windows belanden notities op het bureaublad meestal achter de browser, het document of de spreadsheet waarin je werkt, en moet je ze opzoeken. Er zijn twee manieren om een notitie bovenaan te houden.",
+      "sections": [
+        {
+          "h": "Optie 1: een venster vastzetten met PowerToys",
+          "p": [
+            "Microsoft PowerToys, een gratis verzameling hulpprogramma’s van Microsoft, bevat ‘Always On Top’. Installeer PowerToys, zet ‘Always On Top’ aan, klik op het venster dat vooraan moet blijven – bijvoorbeeld een notitievenster – en druk op Win+Ctrl+T. Druk nog een keer om het los te maken.",
+            "Dit werkt met bijna elk venster. Het nadeel: een vastgezet venster is een volledig venster. Het pakt de focus als je erop klikt, en het neemt evenveel ruimte in, of je de notitie nu leest of niet."
+          ]
+        },
+        {
+          "h": "Optie 2: notities die van zichzelf zweven",
+          "p": [
+            "FloatNote+ for Windows (onze app) houdt elke notitie als een kleine chip boven alle vensters. Klik op de chip en hij opent ter plekke als kaart; druk op Esc en hij vouwt weer in. Chips pakken de app erachter nooit de focus af, dus je cursor blijft waar je aan het typen was."
+          ],
+          "steps": [
+            "Installeer FloatNote+ via de Microsoft Store.",
+            "Maak een notitie via het pictogram in het systeemvak of met een globale sneltoets – die verschijnt als kaart boven je scherm.",
+            "Werk gewoon door: de notitie blijft boven alle vensters. Druk op Esc om hem in te vouwen tot een chip.",
+            "Sleep chips waar je maar wilt, houd ze uit elkaar met kleuren en tekstopmaak, en stel een herinnering in om een notitie op een vast tijdstip te laten verschijnen."
+          ]
+        },
+        {
+          "h": "Je notities ook op je telefoon",
+          "p": [
+            "FloatNote+ for Windows synchroniseert via je eigen Google Drive met de Android-app FloatNote+, dus een notitie die je op je pc schrijft, staat ook op je telefoon. Alle functies van de Windows-versie zijn gratis."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kunnen Plaknotities van Windows boven andere vensters blijven?",
+          "a": "In de meeste situaties niet uit zichzelf. Je kunt elk venster, ook een notitievenster, vastzetten met ‘Always On Top’ van PowerToys (Win+Ctrl+T), of een app gebruiken waarvan de notities van zichzelf boven andere vensters zweven."
+        },
+        {
+          "q": "Pakt een zwevende notitie de focus af van wat ik aan het typen ben?",
+          "a": "De chips van FloatNote+ niet. Klik of sleep je een chip, dan blijft je cursor in de app die je gebruikte; alleen een geopende kaart krijgt de focus, omdat je erin typt."
+        }
+      ]
+    },
+    "clipboard-history-windows": {
+      "app": "clipboardwin",
+      "updated": "2026-10-14",
+      "title": "Klembordgeschiedenis bekijken in Windows",
+      "desc": "Windows heeft een ingebouwde klembordgeschiedenis (Win+V), maar die is kort en wordt bij een herstart gewist. Zo gebruik je hem – en zo bewaar je een doorzoekbare geschiedenis die blijft.",
+      "intro": "Kopieer je iets nieuws, dan is het vorige item weg – tenzij je een geschiedenis bijhoudt. Windows 10 en 11 hebben er een ingebouwd, en een klembordmanager kan een langere bijhouden.",
+      "sections": [
+        {
+          "h": "Optie 1: de ingebouwde klembordgeschiedenis (Win+V)",
+          "p": [
+            "Druk op Win+V. De eerste keer vraagt Windows of je de klembordgeschiedenis wilt inschakelen (dat kan ook via Instellingen > Systeem > Klembord). Daarna toont Win+V je recente items, en met een klik plak je er een.",
+            "Het is snel, maar beperkt: er worden maximaal 25 items bewaard, en alles behalve vastgemaakte items wordt gewist als je de pc herstart. Er is geen zoekfunctie, en de geschiedenis komt niet op je telefoon."
+          ]
+        },
+        {
+          "h": "Optie 2: een klembordmanager die alles bewaart",
+          "p": [
+            "Clipboard+ for Windows (onze app) zit in het systeemvak en slaat tekst en afbeeldingen op op het moment dat je ze kopieert. Je geschiedenis blijft tot je hem verwijdert, en je kunt erin zoeken, hem ordenen in groepen en snippets en hem met een sneltoets oproepen."
+          ],
+          "steps": [
+            "Installeer Clipboard+ via de Microsoft Store; de app start in het systeemvak.",
+            "Kopieer zoals altijd – elke tekst en afbeelding wordt automatisch opgeslagen.",
+            "Druk op de globale sneltoets om het snelkeuzevenster bij je cursor te openen, kies een item met Ctrl+1–9 en druk op Enter om het te plakken.",
+            "Open het venster om te zoeken, vast te maken, te bewerken of veelgebruikte tekst als snippets te bewaren."
+          ]
+        },
+        {
+          "h": "Tussen je telefoon en pc",
+          "p": [
+            "Samen met de Android-app Clipboard+ plak je wat je op je telefoon kopieert op je pc, en andersom, via je eigen Google Drive. Klembordgeschiedenis, snippets, groepen, zoeken en het snelkeuzevenster zijn gratis; Pro voegt synchronisatie, onbeperkte opslag voor afbeeldingen en PDF-export toe."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Waarom is mijn klembordgeschiedenis (Win+V) leeg na een herstart?",
+          "a": "Windows wist de klembordgeschiedenis als de pc herstart, behalve vastgemaakte items. Een klembordmanager zoals Clipboard+ bewaart je geschiedenis ook na een herstart."
+        },
+        {
+          "q": "Hoeveel items bewaart de klembordgeschiedenis van Windows?",
+          "a": "Maximaal 25. Oudere items vallen weg als je nieuwe kopieert."
+        }
+      ]
+    },
+    "timer-always-on-top-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-14",
+      "title": "Timer altijd bovenop andere vensters houden in Windows",
+      "desc": "Houd een afteltimer in beeld terwijl je in andere vensters werkt – met ‘Keep on top’ in de Klok-app, of met timers die als kleine kaartjes boven alles zweven.",
+      "intro": "Een presentatie, een focussessie of een gesprek timen gaat makkelijker als de tijd in beeld blijft. Windows heeft daar één ingebouwde manier voor, en een app met zwevende timers biedt meer.",
+      "sections": [
+        {
+          "h": "Optie 1: ‘Keep on top’ in de Klok-app",
+          "p": [
+            "De Klok-app die bij Windows zit, kan een timer tonen in een klein venster dat boven andere vensters blijft: start een timer, vouw hem uit en kies ‘Keep on top’. Dat werkt voor één timer en toont die in een klein venster met een vaste grootte."
+          ]
+        },
+        {
+          "h": "Optie 2: zwevende timerkaartjes",
+          "p": [
+            "FloatTimer+ for Windows (onze app) laat timers, tellers en stopwatches als kleine pastelkaartjes boven alle vensters zweven. Kaartjes pakken nooit de focus, dus als je erop klikt, blijft je cursor waar je aan het typen was."
+          ],
+          "steps": [
+            "Installeer FloatTimer+ via de Microsoft Store; de app woont in het systeemvak.",
+            "Maak een timer, teller of stopwatch en laat hem zweven.",
+            "Starten, pauzeren en resetten doe je op het kaartje zelf; sleep het waar je wilt of pas de grootte aan.",
+            "Klap het in tot een kleine bubbel, of duw het tegen de schermrand, als je de ruimte terug wilt."
+          ]
+        },
+        {
+          "h": "Gratis en Pro",
+          "p": [
+            "Je kunt zoveel timers, tellers en stopwatches maken als je wilt, zonder advertenties. De gratis versie laat één kaartje tegelijk zweven; Pro is een eenmalige aankoop die er zoveel laat zweven als je wilt en herhalende timers en eigen meldingen toevoegt."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Heeft Windows een timer die altijd bovenop blijft?",
+          "a": "‘Keep on top’ in de Klok-app toont één timer in een klein venster boven andere vensters. Voor meerdere timers, tellers of stopwatches tegelijk gebruik je een app met zwevende timers."
+        },
+        {
+          "q": "Zit een zwevende timer me niet in de weg bij mijn werk?",
+          "a": "De kaartjes van FloatTimer+ pakken de app eronder nooit de focus af, en je kunt ze inklappen tot een bubbel of tegen de schermrand wegschuiven."
+        }
+      ]
+    },
+    "reading-ruler-dyslexia-adhd-android": {
+      "app": "readfocus",
+      "updated": "2026-10-14",
+      "title": "Leesliniaal bij dyslexie en ADHD op Android: je plek houden tijdens het lezen",
+      "desc": "Raak je de regel kwijt, sla je regels over of lees je dezelfde zin opnieuw? Een leesliniaal of leesmasker boven elke app helpt je ogen op koers te blijven. Zo stel je het in op Android.",
+      "intro": "In lange tekst op een telefoonscherm raak je makkelijk de draad kwijt: je ogen glijden naar de volgende regel, slaan er een over of komen terug bij een zin die je al gelezen had. Veel mensen met dyslexie of ADHD leggen bij het lezen op papier een liniaal of kaartje onder de regel. Op een telefoon doet een leesliniaal hetzelfde op het scherm.",
+      "sections": [
+        {
+          "h": "Begin met je weergave-instellingen",
+          "p": [
+            "De toegankelijkheids- en weergave-instellingen van Android – grotere letters, vetgedrukte tekst, donker thema – kunnen tekst makkelijker leesbaar maken. Ze markeren alleen niet de regel waar je bent, en dat is juist wat helpt als je ogen steeds afdwalen."
+          ]
+        },
+        {
+          "h": "Voeg een leesliniaal toe met ReadFocus+",
+          "p": [
+            "ReadFocus+ (onze app) laat een focusstrip boven elke app zweven – e-books, PDF’s, browsers, nieuws, webtoons. Kies Regelmarkering om de regel die je leest te laten oplichten, of Leesmasker om alles behalve je leeszone te dimmen."
+          ],
+          "steps": [
+            "Installeer ReadFocus+ via Google Play en sta ‘Display over other apps’ toe.",
+            "Kies een modus: Regelmarkering (een leesliniaal) of Leesmasker.",
+            "Open de app waarin je leest en sleep de strip naar je regel.",
+            "Stel de hoogte (50–300 dp), dekking en het kleurenthema in tot het prettig aanvoelt."
+          ]
+        },
+        {
+          "h": "Gratis en Pro",
+          "p": [
+            "De gratis versie geeft 60 minuten overlaytijd per sessie en 3 kleurenthema’s. Pro haalt advertenties en de tijdslimiet weg en voegt alle 10 thema’s en ‘scherm aan houden’ toe, of een korte advertentie ontgrendelt de Pro-functies voor 24 uur."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Helpt een leesliniaal bij dyslexie?",
+          "a": "Veel lezers met dyslexie of ADHD merken dat ze hun plek makkelijker vasthouden als de huidige regel gemarkeerd is. Het is een leeshulp, geen behandeling – probeer het en houd de instellingen aan die prettig voelen."
+        },
+        {
+          "q": "Met welke apps werkt ReadFocus+?",
+          "a": "Met elke app op het scherm: e-book- en PDF-lezers, browsers, nieuws, studieaantekeningen, strips en webtoons."
+        }
+      ]
+    },
+    "reading-ruler-windows": {
+      "app": "readfocuswin",
+      "updated": "2026-10-14",
+      "title": "Leesliniaal gebruiken in Windows (bij dyslexie en ADHD)",
+      "desc": "De Insluitende lezer van Edge heeft ‘Line focus’ voor webpagina’s. Voor PDF’s, documenten en alle andere apps houdt een klik-doorlatende focusstrook je blik op de regel. Zo gebruik je allebei.",
+      "intro": "Bij het lezen van lange pagina’s op een monitor raak je makkelijk de regel kwijt. Een leesliniaal markeert de regel waar je bent, of dimt de rest van het scherm, zodat je ogen op koers blijven.",
+      "sections": [
+        {
+          "h": "Optie 1: ‘Line focus’ in Microsoft Edge",
+          "p": [
+            "Microsoft Edge heeft de Insluitende lezer (Immersive Reader), een rustige leesweergave voor webpagina’s. In de leesvoorkeuren markeert ‘Line focus’ één, drie of vijf regels tegelijk. Het werkt alleen op pagina’s die in de Insluitende lezer openen, niet in PDF’s, documenten of andere apps."
+          ]
+        },
+        {
+          "h": "Optie 2: een focusstrook boven elke app",
+          "p": [
+            "ReadFocus+ for Windows (onze app) legt een focusstrook over alles wat je leest – een webpagina, een PDF, een document, code. Masker dimt de boven- en onderkant van het scherm en laat een heldere band vrij; Markering markeert de regel waar je bent. De strook laat klikken door, dus je scrolt en klikt eronder gewoon verder."
+          ],
+          "steps": [
+            "Installeer ReadFocus+ via de Microsoft Store.",
+            "Start de app via het zwevende paneel of met een sneltoets, en kies Masker of Markering.",
+            "Zet de strook op je regel, of schuif hem tijdens het lezen met sneltoetsen omhoog en omlaag.",
+            "Vergrendel hem, verberg hem of verplaats hem naar een andere monitor via het paneel."
+          ]
+        },
+        {
+          "h": "Gratis en Pro",
+          "p": [
+            "De gratis versie bevat beide modi en drie thema’s, in sessies van maximaal 60 minuten. Pro is een eenmalige aankoop die de tijdslimiet weghaalt en premium thema’s, instellingen voor hoogte en dekking van de strook en ‘scherm aan houden’ toevoegt. Er zijn geen advertenties."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Heeft Windows een leesliniaal?",
+          "a": "De Insluitende lezer van Edge heeft ‘Line focus’ voor webpagina’s. Voor andere apps – PDF’s, Word, code-editors – heb je een schermoverlay nodig zoals ReadFocus+ for Windows."
+        },
+        {
+          "q": "Blokkeert de strook mijn klikken?",
+          "a": "Nee. ReadFocus+ for Windows is klik-doorlatend: scrollen, selecteren en klikken gaan naar de app eronder."
+        }
+      ]
+    },
+    "floating-calculator-over-other-apps-android": {
+      "app": "floatcalc",
+      "updated": "2026-10-14",
+      "title": "Rekenmachine boven andere apps gebruiken op Android",
+      "desc": "Reken een korting uit of zet een prijs om zonder je winkel-, bank- of browserscherm te verlaten: een zwevende rekenmachine die boven elke app blijft, met eenheden- en valutaomzetter.",
+      "intro": "Een prijs checken in een winkelapp, een rekening splitsen in een chat, een valuta omrekenen tijdens het boeken – als je daarvoor naar de Rekenmachine-app en terug wisselt, ben je je plek kwijt en moet je getallen in je hoofd onthouden. Een zwevende rekenmachine blijft op je scherm boven de app die je gebruikt.",
+      "sections": [
+        {
+          "h": "Optie 1: gesplitst scherm",
+          "p": [
+            "Android kan twee apps tegelijk tonen in een gesplitst scherm. Open het scherm met recente apps, kies gesplitst scherm voor één app en kies de Rekenmachine voor de andere helft. Dat werkt, maar elke app krijgt maar de helft van het scherm."
+          ]
+        },
+        {
+          "h": "Optie 2: een zwevende rekenmachine",
+          "p": [
+            "FloatCalc+ (onze app) is een rekenmachinevenster dat boven elke app zweeft. De rekenmachine, de eenhedenomzetter en de valutaomzetter delen één venster dat je overal naartoe kunt slepen; klap het toetsenblok in tot één regel of verklein het paneel tot een pictogram aan de schermrand als je de ruimte nodig hebt."
+          ],
+          "steps": [
+            "Installeer FloatCalc+ via Google Play en sta ‘Display over other apps’ toe.",
+            "Open de zwevende rekenmachine en sleep hem naar een plek waar hij niet bedekt wat je nodig hebt.",
+            "Typ de berekening – machten, wortels en percentages werken ook – en kopieer het antwoord naar het klembord.",
+            "Schakel in hetzelfde venster over naar de eenheden- of valutaomzetter. De wisselkoersen komen van de Europese Centrale Bank, worden dagelijks ververst en blijven offline werken."
+          ]
+        },
+        {
+          "h": "Gratis en Pro",
+          "p": [
+            "De zwevende rekenmachine is elke dag 60 minuten gratis; de titelbalk laat zien hoeveel tijd er nog over is, en een korte advertentie geeft je een pas van 24 uur. Pro haalt de daglimiet en de advertenties weg en voegt alle eenheidscategorieën, meer dan 30 valuta en meer thema’s toe."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik een rekenmachine gebruiken zonder mijn app te verlaten?",
+          "a": "Ja. Een zwevende rekenmachine zoals FloatCalc+ blijft boven andere apps zodra je ‘Display over other apps’ toestaat."
+        },
+        {
+          "q": "Waar komen de wisselkoersen vandaan?",
+          "a": "Van de Europese Centrale Bank, één keer per dag ververst en gecachet voor offline gebruik."
+        }
+      ]
+    },
+    "crypto-price-ticker-over-other-apps-android": {
+      "app": "floatcrypto",
+      "updated": "2026-10-14",
+      "title": "Cryptokoersen zien terwijl je andere apps gebruikt op Android",
+      "desc": "Houd een live cryptoticker op je scherm terwijl je video’s kijkt, leest of chat, en krijg een melding als een munt je richtprijs passeert.",
+      "intro": "Apps van cryptobeurzen tonen koersen in de app of in een widget op je startscherm, dus om de markt te checken moet je weg uit waar je mee bezig bent. Een zwevende ticker houdt de koersen die je volgt op je scherm, boven elke app.",
+      "sections": [
+        {
+          "h": "Een zwevende ticker instellen met FloatCrypto+",
+          "p": [
+            "FloatCrypto+ (onze app) laat een koersticker boven elke app zweven – YouTube, nieuws, een game, een chat. Sleep hem waar je wilt, pas de grootte aan en verlaag de dekking zodat hij niet bedekt wat je aan het lezen bent."
+          ],
+          "steps": [
+            "Installeer FloatCrypto+ via Google Play en sta ‘Display over other apps’ toe.",
+            "Voeg de munten die je volgt toe aan je volglijst en sleep ze in je eigen volgorde.",
+            "Zet de zwevende ticker aan en plaats hem waar je wilt.",
+            "Stel via het ⋮-menu van een munt een koersmelding op een boven- of ondergrens in om bericht te krijgen als de markt die passeert."
+          ]
+        },
+        {
+          "h": "Goed om te weten",
+          "p": [
+            "De koersen komen van Binance met een automatische reservebron en kunnen tot 30 seconden vertraagd zijn (10 seconden met Pro). Ze zijn alleen ter referentie, en de app handelt niet en maakt geen verbinding met een beursaccount. Niets hier is beleggingsadvies.",
+            "Gratis volg je 2 munten met 1 melding. Een Free Pass opent voor één korte advertentie 24 uur lang meer munten of langere grafieken, en Pro geeft 10 munten, onbeperkte meldingen, verversing elke 10 seconden en geen advertenties."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik cryptokoersen zien boven YouTube of een game?",
+          "a": "Ja. De ticker zweeft boven elke app zodra je ‘Display over other apps’ toestaat."
+        },
+        {
+          "q": "Zijn de koersen realtime?",
+          "a": "Ze kunnen tot 30 seconden vertraagd zijn (10 seconden met Pro) en zijn alleen ter referentie."
+        }
+      ]
+    },
+    "make-android-phone-louder": {
+      "app": "volumebooster",
+      "updated": "2026-10-14",
+      "title": "Je Android-telefoon luider maken",
+      "desc": "Is je telefoon zelfs op vol volume te zacht? Controleer eerst deze instellingen en zie dan hoe een volumeversterker de uitvoer veilig verhoogt – met de boost in decibel.",
+      "intro": "Zijn video’s, gesprekken op de luidspreker of muziek zelfs op vol volume te zacht, begin dan met een paar instellingen – soms beperkt de telefoon zichzelf gewoon. Is dat niet genoeg, dan kan een volumeversterker de uitvoer verder verhogen.",
+      "sections": [
+        {
+          "h": "Controleer dit eerst",
+          "p": [
+            "Zorg dat je het mediavolume hoger zet en niet de beltoon: druk op een volumeknop terwijl er een video speelt, of open het volumepaneel en schuif de mediaschuifregelaar omhoog.",
+            "Sommige telefoons hebben een limiet op het mediavolume. Zoek op Samsung-telefoons naar ‘Media volume limiter’ in de volume-instellingen. Probeer ook de eigen geluidseffecten of equalizer van de telefoon, als die er is, en controleer of een hoesje de luidspreker bedekt."
+          ]
+        },
+        {
+          "h": "De uitvoer verhogen met VolumeBooster+",
+          "p": [
+            "VolumeBooster+ (onze app) verhoogt de systeemuitvoer in plaats van het volume van één app, zodat video’s, muziek en games luider worden. De boost wordt in decibel getoond met de zones Veilig, Let op en Gevaar, zodat je ziet hoe ver je bent gegaan."
+          ],
+          "steps": [
+            "Installeer VolumeBooster+ via Google Play.",
+            "Speel iets af, verhoog de boost dan stap voor stap en houd de dB-zone in de gaten.",
+            "Gebruik de equalizerpresets, de bassversterker of AutoEQ voor je hoofdtelefoon om het helderder te maken, niet alleen luider.",
+            "Zet de boost lager als je hem niet nodig hebt – je oren en je luidspreker zullen je dankbaar zijn."
+          ]
+        },
+        {
+          "h": "Gratis en Pro, en je gehoor",
+          "p": [
+            "Gratis boost je tot +10 dB, 60 minuten per dag; Pro of een Free Pass van 24 uur opent het volledige bereik van +15 dB. De dB-waarde is een schatting, en de app is geen medisch hulpmiddel – merk je oorpijn of oorsuizen, zet het volume dan lager."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een volumeversterker mijn luidspreker of gehoor beschadigen?",
+          "a": "Heel hard volume kan dat. Verhoog de boost geleidelijk, houd de zones Veilig/Let op/Gevaar in de gaten en zet hem lager als het geluid vervormt of je oren pijn doen."
+        },
+        {
+          "q": "Hoeveel luider kan het?",
+          "a": "Tot +15 dB met Pro of een Free Pass, en tot +10 dB in de gratis versie. Hoe luid het echt wordt, hangt af van apparaat, hoofdtelefoon en content."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots-windows": {
+      "app": "photocleanerwin",
+      "updated": "2026-10-14",
+      "title": "Persoonlijke gegevens in screenshots en PDF’s verbergen in Windows",
+      "desc": "Bedek telefoonnummers, kaartnummers, ID-nummers en gezichten met dekkende maskers voordat je een screenshot of gescand document vanaf je pc deelt – zonder iets te uploaden.",
+      "intro": "Screenshots en gescande documenten bevatten vaak een telefoonnummer, een e-mailadres, een kaart- of ID-nummer, een adres of een gezicht. Bedek die gegevens voordat je ze vanaf je pc verstuurt of plaatst, zodat ze niet te herstellen zijn.",
+      "sections": [
+        {
+          "h": "Optie 1: Knipprogramma (Snipping Tool)",
+          "p": [
+            "Recente versies van Knipprogramma in Windows 11 kunnen via ‘Text actions’ e-mailadressen en telefoonnummers in een screenshot verbergen, en over al het andere kun je heen tekenen. Gebruik hiervoor geen markeerstift – die is halfdoorzichtig – maar dichte streken die elk item volledig bedekken."
+          ]
+        },
+        {
+          "h": "Optie 2: PhotoCleaner+ for Windows",
+          "p": [
+            "PhotoCleaner+ for Windows (onze app) vindt waarschijnlijk persoonlijke gegevens in foto’s, screenshots en PDF’s – telefoonnummers, e-mails, kaartnummers, IBAN, paspoortnummers, namen, adressen, kentekens, gezichten en QR-codes – en exporteert een kopie met dekkende maskers. Alles gebeurt op je pc; er wordt niets geüpload."
+          ],
+          "steps": [
+            "Open een bestand, plak het met Ctrl+V, sleep het naar het venster of klik er met rechts op in Verkenner en kies ‘Clean with PhotoCleaner+’.",
+            "Controleer de vakken: klik om er een aan of uit te zetten, sleep om te verplaatsen of te schalen, en teken zelf vakken over alles wat gemist is.",
+            "Exporteer de gemaskeerde kopie – opslaan, kopiëren, delen of opslaan als PDF. Je origineel wordt nooit overschreven, en opgeslagen kopieën bevatten geen metadata."
+          ]
+        },
+        {
+          "h": "Gratis en Pro",
+          "p": [
+            "Persoonlijke gegevens vinden is gratis en onbeperkt, en je kunt gratis 3 documenten per dag exporteren. Pro is een eenmalige aankoop die de daglimiet weghaalt en PDF-export en afdrukken toevoegt. Er zijn geen advertenties en er is geen watermerk."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Vindt de app alle persoonlijke gegevens?",
+          "a": "Dat kan geen enkel hulpmiddel beloven. Detectie is een startpunt – controleer altijd de vakken voordat je exporteert en teken over alles wat gemist is."
+        },
+        {
+          "q": "Worden mijn bestanden geüpload?",
+          "a": "Nee. Detecteren, maskeren en exporteren gebeuren op je pc, zonder account en zonder dat er iets wordt geüpload."
+        }
+      ]
+    },
+    "crypto-price-ticker-on-top-windows": {
+      "app": "floatcryptowin",
+      "updated": "2026-10-14",
+      "title": "Live cryptoticker altijd boven andere vensters houden in Windows",
+      "desc": "Volg je munten terwijl je werkt: een smalle koersticker boven elk venster, koersmeldingen als bureaubladmeldingen en grafieken met een dubbelklik.",
+      "intro": "Een tabblad van een cryptobeurs openhouden betekent dat je er elke keer naartoe moet als je een koers wilt zien. Een zwevende ticker houdt de munten die je volgt in beeld, boven elk venster.",
+      "sections": [
+        {
+          "h": "FloatCrypto+ for Windows instellen",
+          "p": [
+            "FloatCrypto+ for Windows (onze app) houdt een smalle ticker boven elk venster, met het symbool en de 24-uurswijziging van elke munt. Hij pakt nooit de focus, dus je cursor blijft waar je aan het typen was."
+          ],
+          "steps": [
+            "Installeer FloatCrypto+ via de Microsoft Store; de app woont in het systeemvak.",
+            "Kies munten uit de Binance-paren en zet ze door te slepen in je eigen volgorde.",
+            "Plaats de ticker waar je wilt en stel de dekking en tekstgrootte in – of klap hem in tot een bel aan de schermrand.",
+            "Stel een doel boven of onder de huidige koers in om een bureaubladmelding te krijgen als de markt het passeert. Dubbelklik op een munt voor de grafiek."
+          ]
+        },
+        {
+          "h": "Goed om te weten",
+          "p": [
+            "Beweeg over het pictogram in het systeemvak voor een volledige koerstabel, en verberg de ticker met Ctrl+Alt+T. Koersen komen uit de openbare marktgegevens van Binance met automatisch uitwijken en kunnen tot 30 seconden vertraagd zijn; de app handelt niet en maakt geen verbinding met een beursaccount, en niets erin is beleggingsadvies.",
+            "Gratis volg je 2 munten met 1 melding; Pro is een eenmalige aankoop voor 10 munten, onbeperkte meldingen, verversing elke 10 seconden en langere grafieken. Er zijn geen advertenties."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Zit de ticker in de weg bij mijn werk?",
+          "a": "Nee. Hij pakt nooit de focus; je kunt de dekking verlagen, hem inklappen tot een bel of verbergen met Ctrl+Alt+T."
+        },
+        {
+          "q": "Heeft de app mijn beursaccount nodig?",
+          "a": "Nee. Hij leest alleen openbare marktgegevens, handelt nooit en beheert geen tegoeden."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "ui": {
+    "guides": "Hướng dẫn",
+    "updated": "Cập nhật",
+    "inThisGuide": "Ứng dụng trong hướng dẫn này",
+    "appPage": "Chi tiết ứng dụng",
+    "moreGuides": "Hướng dẫn khác",
+    "appGuides": "Hướng dẫn sử dụng",
+    "faq": "Câu hỏi thường gặp"
+  },
+  "guides": {
+    "android-clipboard-history": {
+      "app": "clipboard",
+      "updated": "2026-10-14",
+      "title": "Cách xem lịch sử bộ nhớ tạm (clipboard) trên Android",
+      "desc": "Android chỉ nhớ thứ cuối cùng bạn sao chép. Đây là cách tìm các mục vừa sao chép trong bàn phím, và cách giữ một lịch sử tìm kiếm được không bị mất.",
+      "intro": "Bản thân Android chỉ nhớ thứ cuối cùng bạn sao chép — sao chép cái mới là cái trước biến mất. Muốn lấy lại địa chỉ, mã hay câu văn đã sao chép lúc trước, bạn cần một nơi lưu lịch sử. Có hai lựa chọn: bàn phím của bạn và một ứng dụng quản lý bộ nhớ tạm.",
+      "sections": [
+        {
+          "h": "Cách 1: bộ nhớ tạm trong bàn phím",
+          "p": [
+            "Nhiều bàn phím có bộ nhớ tạm riêng. Trong Gboard, chạm vào biểu tượng bộ nhớ tạm trên thanh công cụ phía trên các phím (lần đầu cần bật lên). Bàn phím Samsung cũng có nút bộ nhớ tạm trên thanh công cụ.",
+            "Đây là cách nhanh nhất để lấy lại thứ bạn sao chép vài phút trước. Điểm hạn chế là bộ nhớ tạm của bàn phím chỉ lưu ngắn hạn: ví dụ Gboard xóa các mục chưa ghim sau khoảng một giờ, và bạn chỉ thấy danh sách khi đang gõ."
+          ]
+        },
+        {
+          "h": "Cách 2: ứng dụng quản lý bộ nhớ tạm lưu lịch sử thật sự",
+          "p": [
+            "Nếu bạn sao chép đi sao chép lại cùng một thứ — địa chỉ, số tài khoản, câu trả lời soạn sẵn — ứng dụng quản lý bộ nhớ tạm sẽ giữ chúng cho đến khi bạn xóa, cho phép tìm kiếm và có thể hiện chúng trên mọi ứng dụng.",
+            "Clipboard+ (ứng dụng của chúng tôi) giữ văn bản và hình ảnh bạn sao chép trong một lịch sử, mới nhất lên đầu, có tìm kiếm và một bảng nổi bạn có thể mở ngay trên ứng dụng đang dùng."
+          ],
+          "steps": [
+            "Cài Clipboard+ từ Google Play và mở nó một lần.",
+            "Sao chép như bình thường. Bạn cũng có thể chọn văn bản trong bất kỳ ứng dụng nào rồi chọn Clipboard+ trong trình đơn chọn văn bản để lưu.",
+            "Mở bảng nổi (hoặc ứng dụng) để xem lịch sử, chạm vào một mục để sao chép lại, rồi dán vào chỗ bạn đang dùng.",
+            "Lưu những thứ hay dùng thành snippet trong các nhóm để luôn chỉ cách một chạm."
+          ]
+        },
+        {
+          "h": "Nên dùng cách nào?",
+          "p": [
+            "Nếu chỉ dán một lần thứ vừa sao chép cách đây một phút, bộ nhớ tạm của bàn phím là đủ. Nếu bạn hay mất những mục muốn giữ, hoặc cứ phải gõ lại cùng một đoạn văn bản, ứng dụng quản lý bộ nhớ tạm sẽ giúp bạn tiết kiệm thời gian đó. Clipboard+ dùng miễn phí để bắt đầu; Pro thêm đồng bộ với ứng dụng Windows qua chính Google Drive của bạn, lưu hình ảnh không giới hạn và xuất PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Android có sẵn lịch sử bộ nhớ tạm không?",
+          "a": "Bản thân hệ thống thì không — Android chỉ giữ mục mới nhất. Các bàn phím như Gboard và Bàn phím Samsung có thêm một danh sách bộ nhớ tạm ngắn hạn."
+        },
+        {
+          "q": "Có thể xem lịch sử bộ nhớ tạm của điện thoại trên máy tính không?",
+          "a": "Có, nếu dùng Clipboard+ ở cả hai bên: ứng dụng Android và Clipboard+ for Windows đồng bộ qua chính Google Drive của bạn (trên Android là tính năng Pro)."
+        }
+      ]
+    },
+    "open-app-automatically-after-reboot-android": {
+      "app": "autostart",
+      "updated": "2026-10-14",
+      "title": "Cách tự động mở ứng dụng sau khi khởi động lại Android (không cần root)",
+      "desc": "Android không có cài đặt nào để mở ứng dụng khi điện thoại khởi động. Đây là cách để ứng dụng tự mở sau khi khởi động lại mà không cần root — và cách thử mà không cần khởi động lại.",
+      "intro": "Android không có cài đặt để mở ứng dụng khi điện thoại khởi động. Nếu sau mỗi lần khởi động lại bạn đều mở cùng những ứng dụng — ứng dụng dẫn đường trên ô tô, launcher trên máy tính bảng kiosk, ứng dụng nghe nhạc trên màn hình ô tô — một ứng dụng tự khởi động có thể làm việc đó thay bạn.",
+      "sections": [
+        {
+          "h": "Vì sao ứng dụng không tự mở",
+          "p": [
+            "Từ Android 10, ứng dụng không được tự mở màn hình từ chế độ nền. Vì vậy, ứng dụng muốn mở các ứng dụng khác sau khi khởi động lại cần quyền “Hiển thị trên các ứng dụng khác”, và chỉ có thể mở chúng sau khi điện thoại được mở khóa lần đầu."
+          ]
+        },
+        {
+          "h": "Thiết lập bằng AutoStart+",
+          "p": [
+            "AutoStart+ (ứng dụng của chúng tôi) mở các ứng dụng bạn chọn sau mỗi lần khởi động lại, ngay khi bạn mở khóa điện thoại. Không cần root."
+          ],
+          "steps": [
+            "Cài AutoStart+ từ Google Play và mở nó.",
+            "Chạm Thêm ứng dụng và chọn các ứng dụng muốn mở sau khi khởi động lại. Kéo các hàng để quyết định ứng dụng nào mở trước.",
+            "Cho phép “Hiển thị trên các ứng dụng khác” khi được hỏi — nếu không, Android sẽ chặn việc mở ứng dụng.",
+            "Chạm Thử ngay để xem điều gì sẽ xảy ra mà không cần khởi động lại điện thoại.",
+            "Khởi động lại điện thoại và mở khóa: các ứng dụng sẽ mở theo thứ tự bạn đã đặt."
+          ]
+        },
+        {
+          "h": "Màn hình ô tô và thiết bị ngủ",
+          "p": [
+            "Nhiều màn hình Android ô tô không thật sự khởi động lại — chúng chuyển sang chế độ ngủ khi tắt máy xe. AutoStart+ có Chế độ ô tô, mở lại các ứng dụng của bạn mỗi khi màn hình thức dậy."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Có cần root để tự khởi động ứng dụng trên Android không?",
+          "a": "Không. AutoStart+ hoạt động không cần root; nó chỉ cần quyền “Hiển thị trên các ứng dụng khác”."
+        },
+        {
+          "q": "Vì sao ứng dụng không mở trước khi tôi mở khóa điện thoại?",
+          "a": "Android không cho ứng dụng mở ứng dụng khác cho đến khi điện thoại được mở khóa một lần sau khi khởi động lại. Ứng dụng của bạn sẽ mở ngay sau khi bạn mở khóa."
+        },
+        {
+          "q": "Bản miễn phí tự khởi động được bao nhiêu ứng dụng?",
+          "a": "Bản miễn phí mở 1 ứng dụng mỗi lần khởi động. Pro mở toàn bộ danh sách theo thứ tự, và nếu bạn không muốn đăng ký, một quảng cáo ngắn sẽ mở giới hạn trong 24 giờ."
+        }
+      ]
+    },
+    "floating-notes-over-other-apps-android": {
+      "app": "floatnote",
+      "updated": "2026-10-14",
+      "title": "Cách giữ ghi chú nổi trên các ứng dụng khác trên Android",
+      "desc": "Giữ ghi chú luôn hiện khi dùng ứng dụng khác: ghi chú nổi nằm trên mọi ứng dụng, thu gọn thành chip nhỏ và có thể hiện lên vào giờ bạn chọn.",
+      "intro": "Chép một danh sách vào biểu mẫu, xem công thức nấu ăn khi đang phát video, giữ mã đơn hàng trong tầm mắt khi trò chuyện — chuyển qua lại với ứng dụng ghi chú làm đứt mạch. Ghi chú nổi luôn ở trên màn hình, trên bất kỳ ứng dụng nào bạn đang dùng.",
+      "sections": [
+        {
+          "h": "Ghi chú nổi hoạt động thế nào",
+          "p": [
+            "Ghi chú nổi là một cửa sổ nhỏ được vẽ trên các ứng dụng khác. Android cho phép điều này qua quyền “Hiển thị trên các ứng dụng khác”, bạn chỉ cần cấp một lần. Ghi chú ở trên cùng trong khi bạn tiếp tục dùng ứng dụng bên dưới."
+          ]
+        },
+        {
+          "h": "Thiết lập bằng FloatNote+",
+          "p": [
+            "FloatNote+ (ứng dụng của chúng tôi) cho mỗi ghi chú nổi thành một chip nhỏ trên mọi ứng dụng. Chạm vào chip là nó mở thành thẻ ngay tại chỗ; chạm vào thanh tiêu đề để thu gọn lại."
+          ],
+          "steps": [
+            "Cài FloatNote+ từ Google Play và cho phép “Hiển thị trên các ứng dụng khác”.",
+            "Chạm + để viết ghi chú — nó hiện lên trên màn hình dưới dạng thẻ.",
+            "Mở ứng dụng bạn cần. Ghi chú vẫn ở trên cùng; thu gọn thành chip khi muốn lấy lại màn hình.",
+            "Dùng màu sắc, chữ đậm, cỡ chữ và hình ảnh để dễ phân biệt các ghi chú.",
+            "Để ghi chú hiện lên vào giờ đã đặt, mở trình đơn ⋮ của nó và chọn Nhắc tôi — một lần, hằng ngày, ngày thường hoặc những ngày bạn chọn."
+          ]
+        },
+        {
+          "h": "Có cả trên máy tính",
+          "p": [
+            "FloatNote+ for Windows cho những ghi chú tương tự nổi trên mọi cửa sổ, và hai ứng dụng đồng bộ qua chính Google Drive của bạn (trên Android là tính năng Pro)."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Android có sẵn tính năng ghi chú nổi không?",
+          "a": "Android không có tính năng ghi chú nổi dùng chung. Các ứng dụng như FloatNote+ bổ sung tính năng này nhờ quyền “Hiển thị trên các ứng dụng khác”."
+        },
+        {
+          "q": "Ghi chú có thể hiện lên vào giờ đã đặt không?",
+          "a": "Có. Trong FloatNote+, đặt lời nhắc từ trình đơn ⋮ của ghi chú, và ghi chú sẽ hiện lên màn hình kèm thông báo. Bản miễn phí giữ một lời nhắc; Pro không giới hạn."
+        },
+        {
+          "q": "FloatNote+ có miễn phí không?",
+          "a": "Lưu ghi chú là miễn phí và không giới hạn, và bản miễn phí cho nổi một ghi chú mỗi lúc. Pro thêm ghi chú nổi không giới hạn, hình ảnh trong ghi chú, chỉnh độ mờ, đồng bộ Google Drive và không quảng cáo."
+        }
+      ]
+    },
+    "floating-timer-over-other-apps-android": {
+      "app": "floattimer",
+      "updated": "2026-10-14",
+      "title": "Cách giữ bộ hẹn giờ trên màn hình khi dùng ứng dụng khác trên Android",
+      "desc": "Bộ hẹn giờ của ứng dụng Đồng hồ biến mất khi bạn chuyển ứng dụng. Đây là cách giữ đếm ngược, đồng hồ bấm giờ hoặc bộ đếm nổi trên mọi ứng dụng.",
+      "intro": "Bộ hẹn giờ trong ứng dụng Đồng hồ chạy ở chế độ nền, nhưng bạn không thấy nó khi đang ở ứng dụng khác — phải kéo thanh thông báo xuống hoặc chuyển về. Khi vừa học vừa nghe bài giảng, canh giờ thuyết trình hay chơi game, có thời gian luôn hiện trên màn hình sẽ tiện hơn nhiều.",
+      "sections": [
+        {
+          "h": "Thiết lập bằng FloatTimer+",
+          "p": [
+            "FloatTimer+ (ứng dụng của chúng tôi) cho bộ hẹn giờ, đồng hồ bấm giờ và bộ đếm nổi trên mọi ứng dụng dưới dạng những thẻ nhỏ bạn có thể kéo đi bất cứ đâu."
+          ],
+          "steps": [
+            "Cài FloatTimer+ từ Google Play và cho phép “Hiển thị trên các ứng dụng khác”.",
+            "Tạo bộ hẹn giờ — giờ, phút, giây tùy ý, hoặc một mức đặt nhanh như 25 phút.",
+            "Cho nó nổi lên rồi mở ứng dụng bạn đang dùng. Bắt đầu, tạm dừng và đặt lại ngay trên thẻ.",
+            "Thu gọn thành bong bóng khi cần chỗ; thời gian vẫn tiếp tục chạy."
+          ]
+        },
+        {
+          "h": "Nhiều cái cùng lúc",
+          "p": [
+            "Bạn có thể tạo bao nhiêu bộ hẹn giờ, bộ đếm và đồng hồ bấm giờ tùy thích mà không mất phí, và chúng vẫn tiếp tục chạy. Bản miễn phí hiển thị một cái trên màn hình mỗi lúc; Pro cho nổi bao nhiêu cái tùy thích cùng lúc, hoặc một quảng cáo ngắn mở tính năng đó trong 24 giờ."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Có thể xem bộ hẹn giờ trên YouTube hoặc trò chơi không?",
+          "a": "Có. Sau khi bạn cho phép “Hiển thị trên các ứng dụng khác”, bộ hẹn giờ nổi sẽ luôn ở trên mọi ứng dụng, kể cả video và trò chơi."
+        },
+        {
+          "q": "Có mức đặt sẵn cho Pomodoro không?",
+          "a": "FloatTimer+ có các mức đặt nhanh 1, 5, 10, 25, 30 và 60 phút, nên bộ hẹn giờ tập trung 25 phút chỉ cần một chạm."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots": {
+      "app": "photocleaner",
+      "updated": "2026-10-14",
+      "title": "Cách che thông tin cá nhân trong ảnh chụp màn hình trước khi chia sẻ",
+      "desc": "Làm mờ, nét bút nhạt hay bút dạ quang có thể vẫn để lộ chữ. Đây là cách che số điện thoại, số thẻ và khuôn mặt để không ai khôi phục được — ngay trên điện thoại, không tải gì lên.",
+      "intro": "Ảnh chụp màn hình và ảnh chụp giấy tờ thường chứa nhiều hơn những gì bạn định chia sẻ: số điện thoại, số giấy tờ hay số thẻ, địa chỉ, khuôn mặt, mã QR. Trước khi đăng hoặc gửi, hãy che những thông tin đó cho đúng cách.",
+      "sections": [
+        {
+          "h": "Những điều nên tránh",
+          "p": [
+            "Bút dạ quang bán trong suốt hoặc nét bút mảnh có thể vẫn để lộ chữ khi ai đó tăng độ tương phản, còn làm mờ hay mosaic trên chữ nhỏ đôi khi có thể đoán ra được. Hãy dùng một ô đặc, không trong suốt để che mọi thứ riêng tư, và chia sẻ một bản sao thay vì bản gốc."
+          ]
+        },
+        {
+          "h": "Cách 1: trình chỉnh sửa ảnh trên điện thoại",
+          "p": [
+            "Hầu hết ứng dụng thư viện ảnh đều có công cụ đánh dấu hoặc vẽ. Nếu dùng nó, hãy chọn hình đặc hoặc bút hoàn toàn không trong suốt, che kín từng mục, và phóng to để kiểm tra các mép trước khi lưu."
+          ]
+        },
+        {
+          "h": "Cách 2: PhotoCleaner+",
+          "p": [
+            "PhotoCleaner+ (ứng dụng của chúng tôi) được làm cho đúng việc này. Ứng dụng gợi ý những chỗ có thể là thông tin cá nhân, bạn xem lại từng ô, rồi nó xuất một bản sao với lớp che đặc — mọi thứ chạy trên điện thoại của bạn, không có gì được tải lên."
+          ],
+          "steps": [
+            "Mở ảnh, ảnh chụp màn hình hoặc PDF trong PhotoCleaner+.",
+            "Kiểm tra các ô được gợi ý — số điện thoại, email, số thẻ và văn bản tương tự — và tự vẽ thêm ô của bạn.",
+            "Di chuyển, đổi kích thước hoặc xóa các ô cho đến khi mọi thông tin riêng tư được che hết.",
+            "Xuất bản sao đã che và chia sẻ bản đó. Bản gốc không bị thay đổi, và các bản sao đã lưu không chứa dữ liệu EXIF hay GPS."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Làm mờ có đủ để che số điện thoại không?",
+          "a": "Không phải lúc nào cũng đủ. Làm mờ nhẹ trên chữ nhỏ đôi khi vẫn đọc hoặc đoán được. Lớp che đặc, không trong suốt là lựa chọn an toàn."
+        },
+        {
+          "q": "PhotoCleaner+ có tải ảnh của tôi lên không?",
+          "a": "Không. Việc phát hiện và che chạy trên điện thoại của bạn, ảnh và tài liệu không bao giờ được tải lên."
+        },
+        {
+          "q": "Ứng dụng có miễn phí không?",
+          "a": "Phát hiện, chỉnh sửa và che đều miễn phí; bạn có thể xuất 3 lần mỗi ngày. Pro bỏ giới hạn hằng ngày và thêm xuất PDF và in, hoặc một quảng cáo ngắn gỡ giới hạn trong 24 giờ."
+        }
+      ]
+    },
+    "sticky-notes-always-on-top-windows": {
+      "app": "floatnotewin",
+      "updated": "2026-10-14",
+      "title": "Cách giữ ghi chú dán luôn ở trên cùng trên Windows",
+      "desc": "Ghi chú trên màn hình nền cứ bị cửa sổ đang làm việc che mất. Đây là cách ghim ghi chú lên trên mọi cửa sổ — bằng PowerToys, hoặc bằng ghi chú vốn được thiết kế để nổi.",
+      "intro": "Ghi chú dán chỉ hữu ích khi bạn nhìn thấy nó. Trên Windows, ghi chú trên màn hình nền thường bị trình duyệt, tài liệu hay bảng tính đang mở che mất, nên bạn phải đi tìm. Có hai cách để giữ ghi chú ở trên cùng.",
+      "sections": [
+        {
+          "h": "Cách 1: ghim cửa sổ bằng PowerToys",
+          "p": [
+            "Microsoft PowerToys, bộ tiện ích miễn phí của Microsoft, có “Always On Top”. Cài PowerToys, bật “Always On Top”, nhấp vào cửa sổ bạn muốn giữ ở phía trước — ví dụ một cửa sổ ghi chú — rồi nhấn Win+Ctrl+T. Nhấn lại lần nữa để bỏ ghim.",
+            "Cách này dùng được cho gần như mọi cửa sổ. Điểm hạn chế là cửa sổ được ghim vẫn là một cửa sổ đầy đủ: nó lấy tiêu điểm khi bạn nhấp vào, và chiếm cùng một khoảng màn hình dù bạn có đang đọc ghi chú hay không."
+          ]
+        },
+        {
+          "h": "Cách 2: ghi chú vốn được thiết kế để nổi",
+          "p": [
+            "FloatNote+ for Windows (ứng dụng của chúng tôi) giữ mỗi ghi chú dưới dạng một chip nhỏ trên mọi cửa sổ. Nhấp vào chip là nó mở thành thẻ ngay tại chỗ; nhấn Esc thì thu lại. Chip không bao giờ lấy tiêu điểm của ứng dụng phía sau, nên con trỏ vẫn nằm ở chỗ bạn đang gõ."
+          ],
+          "steps": [
+            "Cài FloatNote+ từ Microsoft Store.",
+            "Tạo ghi chú từ biểu tượng trên khay hệ thống hoặc bằng phím tắt toàn cục — nó hiện lên trên màn hình dưới dạng thẻ.",
+            "Cứ tiếp tục làm việc: ghi chú vẫn ở trên mọi cửa sổ. Nhấn Esc để thu gọn thành chip.",
+            "Kéo chip đi bất cứ đâu, dùng màu và định dạng chữ để phân biệt, và đặt lời nhắc để ghi chú hiện lên vào giờ đã định."
+          ]
+        },
+        {
+          "h": "Ghi chú có cả trên điện thoại",
+          "p": [
+            "FloatNote+ for Windows đồng bộ với ứng dụng FloatNote+ trên Android qua chính Google Drive của bạn, nên ghi chú viết trên máy tính cũng có trên điện thoại. Mọi tính năng của bản Windows đều miễn phí."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Sticky Notes của Windows có tự nằm trên các cửa sổ khác được không?",
+          "a": "Với hầu hết cấu hình thì tự nó không làm được. Bạn có thể ghim bất kỳ cửa sổ nào, kể cả cửa sổ ghi chú, bằng “Always On Top” của PowerToys (Win+Ctrl+T), hoặc dùng một ứng dụng có ghi chú vốn nổi trên các cửa sổ khác."
+        },
+        {
+          "q": "Ghi chú nổi có cướp tiêu điểm khi tôi đang gõ không?",
+          "a": "Chip của FloatNote+ thì không. Nhấp hoặc kéo chip, con trỏ vẫn ở ứng dụng bạn đang dùng; chỉ thẻ đang mở mới lấy tiêu điểm, vì bạn gõ vào đó."
+        }
+      ]
+    },
+    "clipboard-history-windows": {
+      "app": "clipboardwin",
+      "updated": "2026-10-14",
+      "title": "Cách xem lịch sử bộ nhớ tạm (clipboard) trên Windows",
+      "desc": "Windows có sẵn lịch sử bộ nhớ tạm (Win+V), nhưng lưu được ít và bị xóa khi khởi động lại. Đây là cách dùng nó, và cách giữ một lịch sử tìm kiếm được lâu dài.",
+      "intro": "Sao chép cái mới là mục trước biến mất — trừ khi bạn giữ lịch sử. Windows 10 và 11 có sẵn tính năng này, còn ứng dụng quản lý bộ nhớ tạm có thể lưu lâu hơn.",
+      "sections": [
+        {
+          "h": "Cách 1: lịch sử bộ nhớ tạm có sẵn (Win+V)",
+          "p": [
+            "Nhấn Win+V. Lần đầu, Windows sẽ đề nghị bạn bật lịch sử bộ nhớ tạm (bạn cũng có thể bật trong “Settings > System > Clipboard”). Sau đó, Win+V hiện các mục gần đây, và nhấp vào một mục là dán nó.",
+            "Nhanh gọn nhưng có giới hạn: lưu tối đa 25 mục, và mọi thứ trừ các mục đã ghim sẽ bị xóa khi khởi động lại máy tính. Không có tìm kiếm, và không chuyển sang được điện thoại."
+          ]
+        },
+        {
+          "h": "Cách 2: ứng dụng quản lý bộ nhớ tạm giữ lại mọi thứ",
+          "p": [
+            "Clipboard+ for Windows (ứng dụng của chúng tôi) nằm trên khay hệ thống và lưu văn bản, hình ảnh ngay khi bạn sao chép. Lịch sử được giữ đến khi bạn xóa, và bạn có thể tìm kiếm, sắp xếp thành nhóm và snippet, và gọi ra bằng phím tắt."
+          ],
+          "steps": [
+            "Cài Clipboard+ từ Microsoft Store; ứng dụng khởi chạy trên khay hệ thống.",
+            "Sao chép như bình thường — mọi mục văn bản và hình ảnh đều được lưu tự động.",
+            "Nhấn phím tắt toàn cục để mở cửa sổ chọn nhanh tại con trỏ, chọn một mục bằng Ctrl+1–9 và nhấn Enter để dán.",
+            "Mở cửa sổ chính để tìm kiếm, ghim, chỉnh sửa, hoặc lưu văn bản hay dùng thành snippet."
+          ]
+        },
+        {
+          "h": "Giữa điện thoại và máy tính",
+          "p": [
+            "Khi dùng cùng ứng dụng Clipboard+ trên Android, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại, qua chính Google Drive của bạn. Lịch sử bộ nhớ tạm, snippet, nhóm, tìm kiếm và cửa sổ chọn nhanh đều miễn phí; Pro thêm đồng bộ, dung lượng lưu hình ảnh không giới hạn và xuất PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Vì sao lịch sử bộ nhớ tạm Win+V trống sau khi khởi động lại?",
+          "a": "Windows xóa lịch sử bộ nhớ tạm khi máy tính khởi động lại, trừ các mục đã ghim. Ứng dụng quản lý bộ nhớ tạm như Clipboard+ giữ lịch sử của bạn qua các lần khởi động lại."
+        },
+        {
+          "q": "Lịch sử bộ nhớ tạm của Windows lưu được bao nhiêu mục?",
+          "a": "Tối đa 25. Các mục cũ sẽ bị đẩy ra khi bạn sao chép mục mới."
+        }
+      ]
+    },
+    "timer-always-on-top-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-14",
+      "title": "Cách giữ bộ hẹn giờ luôn nằm trên các cửa sổ khác trên Windows",
+      "desc": "Giữ đồng hồ đếm ngược luôn hiện khi làm việc ở các cửa sổ khác — bằng “Keep on top” của ứng dụng Clock, hoặc bằng bộ hẹn giờ nổi dưới dạng thẻ nhỏ trên mọi thứ.",
+      "intro": "Canh giờ thuyết trình, phiên tập trung hay cuộc gọi sẽ dễ hơn khi thời gian luôn trong tầm mắt. Windows có sẵn một cách, còn ứng dụng bộ hẹn giờ nổi cho bạn thêm nhiều lựa chọn.",
+      "sections": [
+        {
+          "h": "Cách 1: “Keep on top” trong ứng dụng Clock",
+          "p": [
+            "Ứng dụng Clock có sẵn trong Windows có thể hiện bộ hẹn giờ trong một cửa sổ nhỏ luôn nằm trên các cửa sổ khác: bắt đầu bộ hẹn giờ, mở rộng nó, rồi chọn “Keep on top”. Cách này dùng cho một bộ hẹn giờ duy nhất và hiển thị trong một cửa sổ nhỏ cố định."
+          ]
+        },
+        {
+          "h": "Cách 2: thẻ hẹn giờ nổi",
+          "p": [
+            "FloatTimer+ for Windows (ứng dụng của chúng tôi) cho bộ hẹn giờ, bộ đếm và đồng hồ bấm giờ nổi trên mọi cửa sổ dưới dạng những thẻ pastel nhỏ. Thẻ không bao giờ lấy tiêu điểm, nên khi nhấp vào thẻ, con trỏ vẫn nằm ở chỗ bạn đang gõ."
+          ],
+          "steps": [
+            "Cài FloatTimer+ từ Microsoft Store; ứng dụng nằm trên khay hệ thống.",
+            "Tạo bộ hẹn giờ, bộ đếm hoặc đồng hồ bấm giờ và cho nó nổi lên.",
+            "Bắt đầu, tạm dừng và đặt lại ngay trên thẻ; kéo đi bất cứ đâu hoặc đổi kích thước.",
+            "Thu gọn thành bong bóng nhỏ, hoặc đẩy vào mép màn hình, khi bạn muốn lấy lại chỗ."
+          ]
+        },
+        {
+          "h": "Miễn phí và Pro",
+          "p": [
+            "Bạn có thể tạo bao nhiêu bộ hẹn giờ, bộ đếm và đồng hồ bấm giờ tùy thích, không có quảng cáo. Bản miễn phí cho nổi một thẻ mỗi lúc; Pro là mua một lần, cho nổi bao nhiêu thẻ tùy thích và thêm bộ hẹn giờ lặp lại và cảnh báo tùy chỉnh."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Windows có bộ hẹn giờ luôn ở trên cùng không?",
+          "a": "“Keep on top” của ứng dụng Clock hiện một bộ hẹn giờ trong cửa sổ nhỏ nằm trên các cửa sổ khác. Nếu cần nhiều bộ hẹn giờ, bộ đếm hoặc đồng hồ bấm giờ cùng lúc, hãy dùng ứng dụng bộ hẹn giờ nổi."
+        },
+        {
+          "q": "Bộ hẹn giờ nổi có cản trở công việc của tôi không?",
+          "a": "Thẻ của FloatTimer+ không bao giờ lấy tiêu điểm của ứng dụng bên dưới, và bạn có thể thu gọn chúng thành bong bóng hoặc nép vào mép màn hình."
+        }
+      ]
+    },
+    "reading-ruler-dyslexia-adhd-android": {
+      "app": "readfocus",
+      "updated": "2026-10-14",
+      "title": "Thước đọc cho người khó đọc và ADHD trên Android: không lạc dòng khi đọc",
+      "desc": "Hay lạc dòng, nhảy hàng hoặc đọc đi đọc lại một câu? Thước đọc hoặc lớp che đọc trên mọi ứng dụng giúp mắt bạn bám đúng dòng. Đây là cách thiết lập trên Android.",
+      "intro": "Đọc văn bản dài trên màn hình điện thoại rất dễ bị lạc: mắt trượt sang dòng kế, bỏ qua một hàng, hoặc quay lại câu đã đọc. Nhiều người mắc chứng khó đọc hoặc ADHD đặt một cây thước hay tấm thẻ dưới dòng khi đọc sách giấy. Trên điện thoại, thước đọc làm việc tương tự ngay trên màn hình.",
+      "sections": [
+        {
+          "h": "Bắt đầu với cài đặt hiển thị",
+          "p": [
+            "Các cài đặt hỗ trợ tiếp cận và hiển thị của Android — cỡ chữ lớn hơn, chữ đậm, giao diện tối — có thể giúp văn bản dễ đọc hơn. Tuy nhiên, chúng không đánh dấu dòng bạn đang đọc, mà đó mới là điều giúp ích khi mắt bạn cứ đi lạc."
+          ]
+        },
+        {
+          "h": "Thêm thước đọc bằng ReadFocus+",
+          "p": [
+            "ReadFocus+ (ứng dụng của chúng tôi) cho một dải tiêu điểm nổi trên mọi ứng dụng — ebook, PDF, trình duyệt, tin tức, webtoon. Chọn Đánh dấu dòng để làm sáng dòng bạn đang đọc, hoặc Lớp che đọc để làm tối mọi thứ trừ vùng đọc."
+          ],
+          "steps": [
+            "Cài ReadFocus+ từ Google Play và cho phép “Hiển thị trên các ứng dụng khác”.",
+            "Chọn chế độ: Đánh dấu dòng (thước đọc) hoặc Lớp che đọc.",
+            "Mở ứng dụng bạn đang đọc và kéo dải tới dòng của bạn.",
+            "Chỉnh chiều cao (50–300 dp), độ trong suốt và giao diện màu cho đến khi thấy dễ chịu."
+          ]
+        },
+        {
+          "h": "Miễn phí và Pro",
+          "p": [
+            "Bản miễn phí cho 60 phút lớp phủ mỗi phiên và 3 giao diện màu. Pro bỏ quảng cáo và giới hạn thời gian, thêm đủ 10 giao diện và giữ màn hình luôn sáng, hoặc một quảng cáo ngắn mở các tính năng Pro trong 24 giờ."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Thước đọc có giúp ích cho chứng khó đọc không?",
+          "a": "Nhiều người đọc mắc chứng khó đọc hoặc ADHD thấy rằng đánh dấu dòng hiện tại giúp họ dễ giữ được chỗ đang đọc hơn. Đây là công cụ hỗ trợ đọc, không phải phương pháp điều trị — hãy thử và giữ những cài đặt khiến bạn thấy dễ chịu."
+        },
+        {
+          "q": "ReadFocus+ hoạt động với những ứng dụng nào?",
+          "a": "Mọi ứng dụng trên màn hình: trình đọc ebook và PDF, trình duyệt, tin tức, ghi chú học tập, truyện tranh và webtoon."
+        }
+      ]
+    },
+    "reading-ruler-windows": {
+      "app": "readfocuswin",
+      "updated": "2026-10-14",
+      "title": "Cách dùng thước đọc trên Windows (cho người khó đọc và ADHD)",
+      "desc": "“Immersive Reader” của Edge có “Line focus” cho trang web. Với PDF, tài liệu và mọi ứng dụng khác, một dải tập trung cho chuột xuyên qua giúp mắt bạn bám đúng dòng. Đây là cách dùng cả hai.",
+      "intro": "Đọc trang dài trên màn hình máy tính rất dễ lạc dòng. Thước đọc làm nổi bật dòng bạn đang đọc, hoặc làm tối phần còn lại của màn hình, để mắt bạn bám đúng hướng.",
+      "sections": [
+        {
+          "h": "Cách 1: “Line focus” trong Microsoft Edge",
+          "p": [
+            "Microsoft Edge có “Immersive Reader”, chế độ đọc gọn gàng cho trang web. Trong tùy chọn đọc của nó, “Line focus” làm nổi bật một, ba hoặc năm dòng mỗi lần. Tính năng này chỉ dùng được với trang mở trong “Immersive Reader”, không dùng được với PDF, tài liệu hay ứng dụng khác."
+          ]
+        },
+        {
+          "h": "Cách 2: dải tập trung trên mọi ứng dụng",
+          "p": [
+            "ReadFocus+ for Windows (ứng dụng của chúng tôi) đặt một dải tập trung lên trên bất cứ thứ gì bạn đang đọc — trang web, PDF, tài liệu, mã nguồn. Mặt nạ làm tối phần trên và dưới màn hình, chừa lại một dải sáng; Tô sáng đánh dấu dòng bạn đang đọc. Dải cho chuột xuyên qua, nên bạn vẫn cuộn và nhấp vào ứng dụng bên dưới như trước."
+          ],
+          "steps": [
+            "Cài ReadFocus+ từ Microsoft Store.",
+            "Bật nó từ bảng điều khiển nổi hoặc bằng phím tắt, rồi chọn Mặt nạ hoặc Tô sáng.",
+            "Di chuyển dải tới dòng của bạn, hoặc dịch nó lên xuống bằng phím tắt trong khi đọc.",
+            "Khóa, ẩn hoặc chuyển dải sang màn hình khác từ bảng điều khiển."
+          ]
+        },
+        {
+          "h": "Miễn phí và Pro",
+          "p": [
+            "Bản miễn phí có cả hai chế độ và ba giao diện, mỗi phiên tối đa 60 phút. Pro là mua một lần, bỏ giới hạn thời gian và thêm giao diện cao cấp, cài đặt chiều cao và độ mờ của dải, và giữ màn hình luôn bật. Không có quảng cáo."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Windows có thước đọc không?",
+          "a": "“Immersive Reader” của Edge có “Line focus” cho trang web. Với các ứng dụng khác — PDF, Word, trình soạn mã — bạn cần một lớp phủ màn hình như ReadFocus+ for Windows."
+        },
+        {
+          "q": "Dải có chặn thao tác nhấp chuột của tôi không?",
+          "a": "Không. ReadFocus+ for Windows cho chuột xuyên qua: cuộn, chọn và nhấp đều đi tới ứng dụng bên dưới."
+        }
+      ]
+    },
+    "floating-calculator-over-other-apps-android": {
+      "app": "floatcalc",
+      "updated": "2026-10-14",
+      "title": "Cách dùng máy tính nổi trên các ứng dụng khác trên Android",
+      "desc": "Tính giá sau giảm hay quy đổi giá mà không rời màn hình mua sắm, ngân hàng hay trình duyệt: máy tính nổi luôn ở trên mọi ứng dụng, kèm bộ đổi đơn vị và tiền tệ.",
+      "intro": "Xem giá trong ứng dụng mua sắm, chia tiền trong nhóm chat, đổi tiền tệ khi đặt chỗ — chuyển sang ứng dụng Máy tính rồi quay lại khiến bạn mất chỗ đang xem và phải nhớ số trong đầu. Máy tính nổi luôn ở trên màn hình, bên trên ứng dụng bạn đang dùng.",
+      "sections": [
+        {
+          "h": "Cách 1: chia đôi màn hình",
+          "p": [
+            "Android có thể hiển thị hai ứng dụng cùng lúc ở chế độ chia đôi màn hình. Mở màn hình ứng dụng gần đây, chọn chia đôi màn hình cho một ứng dụng rồi chọn Máy tính cho nửa còn lại. Cách này dùng được, nhưng mỗi ứng dụng chỉ có một nửa màn hình."
+          ]
+        },
+        {
+          "h": "Cách 2: máy tính nổi",
+          "p": [
+            "FloatCalc+ (ứng dụng của chúng tôi) là cửa sổ máy tính nổi trên mọi ứng dụng. Máy tính, bộ đổi đơn vị và bộ đổi tiền tệ dùng chung một cửa sổ bạn có thể kéo đi bất cứ đâu; gấp bàn phím còn một dòng hoặc thu bảng thành biểu tượng ở mép màn hình khi cần chỗ."
+          ],
+          "steps": [
+            "Cài FloatCalc+ từ Google Play và cho phép “Hiển thị trên các ứng dụng khác”.",
+            "Mở máy tính nổi và kéo nó tới chỗ không che phần bạn cần xem.",
+            "Nhập phép tính — lũy thừa, căn bậc hai và phần trăm cũng dùng được — rồi sao chép kết quả vào bộ nhớ tạm.",
+            "Chuyển sang bộ đổi đơn vị hoặc tiền tệ ngay trong cửa sổ đó. Tỷ giá lấy từ Ngân hàng Trung ương châu Âu, cập nhật hằng ngày và vẫn dùng được khi ngoại tuyến."
+          ]
+        },
+        {
+          "h": "Miễn phí và Pro",
+          "p": [
+            "Máy tính nổi miễn phí 60 phút mỗi ngày; thanh tiêu đề cho biết còn lại bao nhiêu, và một quảng cáo ngắn cho bạn vé 24 giờ. Pro bỏ giới hạn hằng ngày và quảng cáo, đồng thời thêm toàn bộ danh mục đơn vị, hơn 30 loại tiền tệ và nhiều giao diện hơn."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Tôi có thể dùng máy tính mà không rời ứng dụng đang dùng không?",
+          "a": "Có. Máy tính nổi như FloatCalc+ luôn ở trên các ứng dụng khác sau khi bạn cho phép “Hiển thị trên các ứng dụng khác”."
+        },
+        {
+          "q": "Tỷ giá lấy từ đâu?",
+          "a": "Từ Ngân hàng Trung ương châu Âu, cập nhật mỗi ngày một lần và được lưu lại để dùng khi ngoại tuyến."
+        }
+      ]
+    },
+    "crypto-price-ticker-over-other-apps-android": {
+      "app": "floatcrypto",
+      "updated": "2026-10-14",
+      "title": "Cách xem giá crypto khi đang dùng ứng dụng khác trên Android",
+      "desc": "Giữ thanh giá crypto trực tiếp trên màn hình khi xem video, đọc hay trò chuyện, và nhận thông báo khi một đồng coin vượt qua mức giá mục tiêu của bạn.",
+      "intro": "Ứng dụng sàn giao dịch hiển thị giá bên trong ứng dụng hoặc trong tiện ích màn hình chính, nên muốn xem thị trường là phải bỏ dở việc đang làm. Thanh giá nổi giữ giá những đồng bạn theo dõi trên màn hình, bên trên mọi ứng dụng.",
+      "sections": [
+        {
+          "h": "Thiết lập thanh giá nổi bằng FloatCrypto+",
+          "p": [
+            "FloatCrypto+ (ứng dụng của chúng tôi) cho thanh giá nổi trên mọi ứng dụng — YouTube, tin tức, trò chơi, ứng dụng chat. Kéo nó tới bất cứ đâu, đổi kích thước và làm nó trong suốt hơn để không che phần bạn đang đọc."
+          ],
+          "steps": [
+            "Cài FloatCrypto+ từ Google Play và cho phép “Hiển thị trên các ứng dụng khác”.",
+            "Thêm những đồng bạn theo dõi vào danh sách theo dõi và kéo để sắp xếp theo thứ tự bạn muốn.",
+            "Bật thanh giá nổi và đặt nó ở chỗ bạn thích.",
+            "Đặt cảnh báo giá theo ngưỡng trên hoặc dưới từ menu ⋮ của một đồng để được báo khi thị trường vượt qua mức đó."
+          ]
+        },
+        {
+          "h": "Điều cần biết",
+          "p": [
+            "Giá lấy từ Binance, có nguồn dự phòng tự động, và có thể trễ tới 30 giây (10 giây với Pro). Giá chỉ mang tính tham khảo; ứng dụng không giao dịch và không kết nối với tài khoản sàn. Không nội dung nào ở đây là lời khuyên đầu tư.",
+            "Bản miễn phí theo dõi 2 đồng với 1 cảnh báo. Free Pass mở thêm đồng hoặc biểu đồ dài hơn trong 24 giờ khi xem một quảng cáo ngắn, còn Pro cho 10 đồng, cảnh báo không giới hạn, làm mới mỗi 10 giây và không quảng cáo."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Tôi có xem được giá crypto trên YouTube hoặc trò chơi không?",
+          "a": "Có. Thanh giá nổi trên mọi ứng dụng sau khi bạn cho phép “Hiển thị trên các ứng dụng khác”."
+        },
+        {
+          "q": "Giá có theo thời gian thực không?",
+          "a": "Giá có thể trễ tới 30 giây (10 giây với Pro) và chỉ mang tính tham khảo."
+        }
+      ]
+    },
+    "make-android-phone-louder": {
+      "app": "volumebooster",
+      "updated": "2026-10-14",
+      "title": "Cách làm điện thoại Android to tiếng hơn",
+      "desc": "Điện thoại vẫn nhỏ tiếng dù đã để âm lượng tối đa? Hãy kiểm tra các cài đặt này trước, rồi xem cách một ứng dụng tăng âm lượng nâng đầu ra một cách an toàn — với mức tăng hiển thị bằng decibel.",
+      "intro": "Nếu video, cuộc gọi loa ngoài hay nhạc vẫn quá nhỏ dù âm lượng đã tối đa, hãy bắt đầu với vài cài đặt — đôi khi chính điện thoại đang tự giới hạn. Nếu vẫn chưa đủ, ứng dụng tăng âm lượng có thể nâng đầu ra lên thêm.",
+      "sections": [
+        {
+          "h": "Kiểm tra những điều này trước",
+          "p": [
+            "Hãy chắc rằng bạn đang tăng âm lượng phương tiện chứ không phải nhạc chuông: nhấn nút âm lượng khi video đang phát, hoặc mở bảng âm lượng và kéo thanh phương tiện lên.",
+            "Một số điện thoại có giới hạn âm lượng phương tiện. Trên điện thoại Samsung, hãy tìm “Media volume limiter” trong cài đặt âm lượng. Bạn cũng có thể thử hiệu ứng âm thanh hoặc bộ chỉnh âm có sẵn của điện thoại nếu có, và kiểm tra xem ốp lưng có che loa không."
+          ]
+        },
+        {
+          "h": "Nâng đầu ra bằng VolumeBooster+",
+          "p": [
+            "VolumeBooster+ (ứng dụng của chúng tôi) nâng đầu ra hệ thống chứ không chỉ âm lượng của một ứng dụng, nên video, nhạc và game đều to hơn. Mức tăng hiển thị bằng decibel kèm vùng An toàn, Thận trọng và Nguy hiểm, để bạn thấy mình đã tăng đến đâu."
+          ],
+          "steps": [
+            "Cài VolumeBooster+ từ Google Play.",
+            "Phát một nội dung, rồi tăng mức tăng âm từng chút một và theo dõi vùng dB.",
+            "Dùng preset của bộ chỉnh âm, tăng bass hoặc AutoEQ cho tai nghe của bạn để âm thanh rõ hơn, chứ không chỉ to hơn.",
+            "Giảm mức tăng âm khi không cần — tai và loa của bạn sẽ cảm ơn bạn."
+          ]
+        },
+        {
+          "h": "Miễn phí và Pro, và thính lực của bạn",
+          "p": [
+            "Bản miễn phí tăng đến +10 dB trong 60 phút mỗi ngày; Pro hoặc Free Pass 24 giờ mở trọn dải +15 dB. Giá trị dB là ước tính, và ứng dụng không phải thiết bị y tế — nếu bạn thấy đau tai hoặc ù tai, hãy giảm âm lượng."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Ứng dụng tăng âm lượng có làm hỏng loa hoặc thính lực không?",
+          "a": "Âm lượng rất lớn thì có thể. Hãy tăng dần, để ý các vùng An toàn/Thận trọng/Nguy hiểm, và giảm xuống nếu âm thanh bị méo hoặc tai bạn bị đau."
+        },
+        {
+          "q": "Có thể to hơn bao nhiêu?",
+          "a": "Lên đến +15 dB với Pro hoặc Free Pass, và lên đến +10 dB ở bản miễn phí. Độ lớn thực tế thay đổi theo thiết bị, tai nghe và nội dung."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots-windows": {
+      "app": "photocleanerwin",
+      "updated": "2026-10-14",
+      "title": "Cách che thông tin cá nhân trong ảnh chụp màn hình và PDF trên Windows",
+      "desc": "Trước khi chia sẻ ảnh chụp màn hình hay tài liệu scan từ máy tính, hãy che số điện thoại, số thẻ, số giấy tờ và khuôn mặt bằng lớp che đặc — không cần tải gì lên.",
+      "intro": "Ảnh chụp màn hình và tài liệu scan thường chứa số điện thoại, email, số thẻ hoặc số giấy tờ, địa chỉ hay khuôn mặt. Trước khi gửi hoặc đăng từ máy tính, hãy che những thông tin đó để không ai khôi phục được.",
+      "sections": [
+        {
+          "h": "Cách 1: Snipping Tool",
+          "p": [
+            "Các phiên bản Snipping Tool gần đây trên Windows 11 có thể ẩn địa chỉ email và số điện thoại trong ảnh chụp màn hình qua “Text actions”, và bạn có thể vẽ đè lên những thứ khác. Đừng dùng bút dạ quang cho việc này — nó bán trong suốt — mà hãy dùng nét đặc che kín từng mục."
+          ]
+        },
+        {
+          "h": "Cách 2: PhotoCleaner+ for Windows",
+          "p": [
+            "PhotoCleaner+ for Windows (ứng dụng của chúng tôi) tìm những chỗ có thể là thông tin cá nhân trong ảnh, ảnh chụp màn hình và PDF — số điện thoại, email, số thẻ, IBAN, số hộ chiếu, tên, địa chỉ, biển số xe, khuôn mặt và mã QR — rồi xuất một bản sao với lớp che đặc. Mọi thứ chạy trên PC của bạn; không có gì được tải lên."
+          ],
+          "steps": [
+            "Mở tệp, dán bằng Ctrl+V, kéo thả vào cửa sổ, hoặc nhấp chuột phải vào tệp trong File Explorer và chọn “Clean with PhotoCleaner+”.",
+            "Kiểm tra các ô: nhấp để bật hoặc tắt, kéo để di chuyển hay đổi kích thước, và tự vẽ thêm ô che những chỗ còn sót.",
+            "Xuất bản sao đã che — lưu, sao chép, chia sẻ hoặc lưu thành PDF. Tệp gốc không bao giờ bị ghi đè, và bản sao đã lưu không chứa siêu dữ liệu."
+          ]
+        },
+        {
+          "h": "Miễn phí và Pro",
+          "p": [
+            "Tìm thông tin cá nhân miễn phí và không giới hạn, và bạn có thể xuất miễn phí 3 tài liệu mỗi ngày. Pro là gói mua một lần, bỏ giới hạn hằng ngày và thêm xuất PDF và in. Không có quảng cáo và không có hình mờ."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Ứng dụng có tìm được mọi thông tin cá nhân không?",
+          "a": "Không công cụ nào có thể hứa điều đó. Phát hiện chỉ là điểm khởi đầu — hãy luôn kiểm tra các ô trước khi xuất và tự vẽ che những chỗ còn sót."
+        },
+        {
+          "q": "Tệp của tôi có bị tải lên không?",
+          "a": "Không. Phát hiện, che và xuất đều chạy trên PC của bạn, không cần tài khoản và không tải lên gì cả."
+        }
+      ]
+    },
+    "crypto-price-ticker-on-top-windows": {
+      "app": "floatcryptowin",
+      "updated": "2026-10-14",
+      "title": "Cách giữ thanh giá crypto trực tiếp trên các cửa sổ khác trên Windows",
+      "desc": "Theo dõi những đồng coin bạn quan tâm trong lúc làm việc: một thanh giá mảnh trên mọi cửa sổ, cảnh báo giá bằng thông báo trên màn hình, và biểu đồ chỉ với một cú nhấp đúp.",
+      "intro": "Mở sẵn một tab sàn giao dịch nghĩa là mỗi lần muốn xem giá lại phải chuyển sang đó. Thanh giá nổi giữ những đồng bạn theo dõi luôn trong tầm mắt, bên trên mọi cửa sổ.",
+      "sections": [
+        {
+          "h": "Thiết lập FloatCrypto+ for Windows",
+          "p": [
+            "FloatCrypto+ for Windows (ứng dụng của chúng tôi) giữ một thanh giá mảnh trên mọi cửa sổ, hiển thị ký hiệu và biến động 24 giờ của từng đồng coin. Nó không bao giờ chiếm tiêu điểm, nên con trỏ vẫn ở chỗ bạn đang gõ."
+          ],
+          "steps": [
+            "Cài FloatCrypto+ từ Microsoft Store; ứng dụng nằm ở khay hệ thống.",
+            "Chọn coin từ các cặp giao dịch trên Binance và kéo để sắp xếp theo thứ tự bạn muốn.",
+            "Đặt thanh giá ở bất cứ đâu, chỉnh độ trong suốt và cỡ chữ — hoặc thu gọn thành bong bóng ở mép màn hình.",
+            "Đặt mục tiêu cao hơn hoặc thấp hơn giá hiện tại để nhận thông báo trên màn hình khi thị trường vượt qua. Nhấp đúp vào một coin để xem biểu đồ."
+          ]
+        },
+        {
+          "h": "Điều cần biết",
+          "p": [
+            "Di chuột lên biểu tượng ở khay hệ thống để xem bảng giá đầy đủ, và ẩn thanh giá bằng Ctrl+Alt+T. Giá lấy từ dữ liệu thị trường công khai của Binance, tự động chuyển nguồn dự phòng, và có thể trễ tới 30 giây; ứng dụng không giao dịch và không kết nối với tài khoản sàn, và không nội dung nào trong ứng dụng là lời khuyên đầu tư.",
+            "Bản miễn phí theo dõi 2 đồng với 1 cảnh báo; Pro là gói mua một lần cho 10 đồng, cảnh báo không giới hạn, làm mới mỗi 10 giây và biểu đồ dài hơn. Không có quảng cáo."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Thanh giá có cản trở việc tôi đang làm không?",
+          "a": "Không. Nó không bao giờ chiếm tiêu điểm; bạn có thể làm nó trong suốt hơn, thu gọn thành bong bóng, hoặc ẩn bằng Ctrl+Alt+T."
+        },
+        {
+          "q": "Ứng dụng có cần tài khoản sàn của tôi không?",
+          "a": "Không. Ứng dụng chỉ đọc dữ liệu thị trường công khai, không bao giờ giao dịch hay giữ tiền."
+        }
+      ]
+    }
+  }
+}

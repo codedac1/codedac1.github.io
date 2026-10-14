@@ -1,0 +1,660 @@
+{
+  "ui": {
+    "guides": "Panduan",
+    "updated": "Dikemas kini",
+    "inThisGuide": "Aplikasi dalam panduan ini",
+    "appPage": "Butiran aplikasi",
+    "moreGuides": "Lagi panduan",
+    "appGuides": "Panduan cara guna",
+    "faq": "Soalan"
+  },
+  "guides": {
+    "android-clipboard-history": {
+      "app": "clipboard",
+      "updated": "2026-10-14",
+      "title": "Cara melihat sejarah papan keratan di Android",
+      "desc": "Android hanya menyimpan perkara terakhir yang anda salin. Ini tempat mencari keratan terkini dalam papan kekunci anda, dan cara menyimpan sejarah yang boleh dicari dan tidak hilang.",
+      "intro": "Android sendiri hanya mengingati perkara terakhir yang anda salin — salin sesuatu yang baharu dan teks sebelumnya hilang. Jika anda mahu mendapatkan semula alamat, kod atau ayat yang anda salin tadi, anda perlukan tempat yang menyimpan sejarah. Ada dua: papan kekunci anda, dan aplikasi pengurus papan keratan.",
+      "sections": [
+        {
+          "h": "Pilihan 1: papan keratan dalam papan kekunci anda",
+          "p": [
+            "Banyak papan kekunci mempunyai papan keratan sendiri. Dalam Gboard, ketik ikon papan keratan pada bar alat di atas kekunci (hidupkannya pada kali pertama). Samsung Keyboard juga mempunyai butang papan keratan pada bar alatnya.",
+            "Ini cara paling pantas untuk mengambil sesuatu yang anda salin beberapa minit lalu. Kelemahannya, papan keratan papan kekunci bersifat jangka pendek: Gboard, contohnya, membuang item yang tidak disemat selepas kira-kira sejam, dan anda hanya nampak senarai itu semasa menaip."
+          ]
+        },
+        {
+          "h": "Pilihan 2: pengurus papan keratan yang menyimpan sejarah sebenar",
+          "p": [
+            "Jika anda menyalin perkara yang sama berulang kali — alamat, nombor akaun, balasan sedia — pengurus papan keratan menyimpannya sehingga anda memadamnya, membolehkan anda mencarinya, dan boleh memaparkannya di atas mana-mana aplikasi.",
+            "Clipboard+ (aplikasi kami) menyimpan teks dan imej yang anda salin dalam sejarah, terbaharu dahulu, dengan carian dan panel terapung yang boleh dibuka di atas aplikasi yang sedang anda gunakan."
+          ],
+          "steps": [
+            "Pasang Clipboard+ dari Google Play dan bukanya sekali.",
+            "Salin teks seperti biasa. Anda juga boleh memilih teks dalam mana-mana aplikasi dan memilih Clipboard+ dalam menu pemilihan untuk menyimpannya.",
+            "Buka panel terapung (atau aplikasi) untuk melihat sejarah anda, ketik keratan untuk menyalinnya semula, dan tampalkannya di tempat anda berada.",
+            "Simpan perkara yang anda guna semula sebagai snippet dalam kumpulan, supaya ia sentiasa sejauh satu ketikan."
+          ]
+        },
+        {
+          "h": "Yang mana patut anda gunakan?",
+          "p": [
+            "Untuk sekali-sekala — menampal sesuatu yang anda salin seminit lalu — papan keratan papan kekunci sudah memadai. Jika anda kehilangan keratan yang diperlukan, atau terus menaip semula teks yang sama, pengurus papan keratan menjimatkan masa itu. Clipboard+ percuma untuk bermula; Pro menambah penyegerakan dengan aplikasi Windows melalui Google Drive anda sendiri, keratan imej tanpa had dan eksport PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah Android mempunyai sejarah papan keratan terbina dalam?",
+          "a": "Tidak dalam sistem itu sendiri — Android hanya menyimpan keratan terkini. Papan kekunci seperti Gboard dan Samsung Keyboard menambah senarai papan keratan jangka pendek."
+        },
+        {
+          "q": "Bolehkah saya melihat sejarah papan keratan telefon pada PC?",
+          "a": "Boleh, dengan Clipboard+ pada kedua-duanya: aplikasi Android dan Clipboard+ for Windows menyegerak melalui Google Drive anda sendiri (ciri Pro pada Android)."
+        }
+      ]
+    },
+    "open-app-automatically-after-reboot-android": {
+      "app": "autostart",
+      "updated": "2026-10-14",
+      "title": "Cara membuka aplikasi secara automatik selepas but semula di Android (tanpa root)",
+      "desc": "Android tiada tetapan untuk melancarkan aplikasi apabila telefon dihidupkan. Ini cara membuat aplikasi anda terbuka sendiri selepas mula semula, tanpa root — dan cara mengujinya tanpa but semula.",
+      "intro": "Android tidak mempunyai tetapan yang membuka aplikasi apabila telefon dihidupkan. Jika anda membuka aplikasi yang sama selepas setiap mula semula — aplikasi navigasi dalam kereta, pelancar pada tablet kios, aplikasi muzik pada unit kepala — aplikasi auto start boleh melakukannya untuk anda.",
+      "sections": [
+        {
+          "h": "Mengapa ia tidak berlaku dengan sendirinya",
+          "p": [
+            "Sejak Android 10, aplikasi tidak dibenarkan membuka skrin dari latar belakang dengan sendirinya. Oleh itu, aplikasi yang perlu membuka aplikasi lain selepas but semula memerlukan kebenaran “Papar di atas apl lain”, dan ia hanya boleh memulakannya selepas telefon dibuka kunci buat kali pertama."
+          ]
+        },
+        {
+          "h": "Tetapkan dengan AutoStart+",
+          "p": [
+            "AutoStart+ (aplikasi kami) membuka aplikasi pilihan anda selepas setiap mula semula, sebaik sahaja anda membuka kunci telefon. Ia tidak memerlukan root."
+          ],
+          "steps": [
+            "Pasang AutoStart+ dari Google Play dan bukanya.",
+            "Ketik Tambah apl dan pilih aplikasi yang mahu dibuka selepas but semula. Seret baris untuk menetapkan yang mana dibuka dahulu.",
+            "Benarkan “Papar di atas apl lain” apabila diminta — tanpanya Android menyekat pelancaran.",
+            "Ketik Uji sekarang untuk melihat apa yang akan berlaku, tanpa memulakan semula telefon.",
+            "Mulakan semula telefon dan buka kuncinya: aplikasi anda dibuka mengikut susunan yang anda tetapkan."
+          ]
+        },
+        {
+          "h": "Unit kepala kereta dan peranti yang tidur",
+          "p": [
+            "Banyak unit kepala Android sebenarnya tidak but semula — ia tidur apabila kereta dimatikan. AutoStart+ mempunyai Mod kereta yang membuka aplikasi anda semula setiap kali skrin bangun."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah saya perlukan root untuk auto start aplikasi di Android?",
+          "a": "Tidak. AutoStart+ berfungsi tanpa root; ia hanya memerlukan kebenaran “Papar di atas apl lain”."
+        },
+        {
+          "q": "Mengapa aplikasi saya tidak dibuka sebelum saya membuka kunci telefon?",
+          "a": "Android tidak membenarkan aplikasi membuka aplikasi lain sehingga telefon dibuka kunci sekali selepas but semula. Aplikasi anda dibuka sejurus selepas anda membuka kunci."
+        },
+        {
+          "q": "Berapa banyak aplikasi yang boleh di-auto start secara percuma?",
+          "a": "Versi percuma memulakan 1 aplikasi bagi setiap but. Pro memulakan seluruh senarai anda mengikut susunan, dan iklan ringkas membuka had itu selama 24 jam jika anda tidak mahu melanggan."
+        }
+      ]
+    },
+    "floating-notes-over-other-apps-android": {
+      "app": "floatnote",
+      "updated": "2026-10-14",
+      "title": "Cara mengekalkan nota di atas aplikasi lain di Android",
+      "desc": "Pastikan nota kekal kelihatan semasa anda menggunakan aplikasi lain: nota terapung yang kekal di atas mana-mana aplikasi, boleh dikuncupkan menjadi cip kecil, dan boleh muncul pada masa pilihan anda.",
+      "intro": "Menyalin senarai ke dalam borang, menyemak resipi sambil video dimainkan, memastikan nombor pesanan kelihatan dalam sembang — berulang-alik ke aplikasi nota mengganggu aliran kerja. Nota terapung kekal pada skrin di atas apa sahaja aplikasi yang anda gunakan.",
+      "sections": [
+        {
+          "h": "Cara nota terapung berfungsi",
+          "p": [
+            "Nota terapung ialah tetingkap kecil yang dipaparkan di atas aplikasi lain. Android membenarkannya melalui kebenaran “Papar di atas apl lain”, yang anda berikan sekali sahaja. Nota kekal di atas sementara anda terus menggunakan aplikasi di bawahnya."
+          ]
+        },
+        {
+          "h": "Tetapkan dengan FloatNote+",
+          "p": [
+            "FloatNote+ (aplikasi kami) mengapungkan setiap nota sebagai cip kecil di atas mana-mana aplikasi. Ketik cip dan ia terbuka sebagai kad di situ juga; ketik bar tajuknya untuk menguncupkannya semula."
+          ],
+          "steps": [
+            "Pasang FloatNote+ dari Google Play dan benarkan “Papar di atas apl lain”.",
+            "Ketik + untuk menulis nota — ia muncul di atas skrin anda sebagai kad.",
+            "Buka aplikasi yang anda perlukan. Nota kekal di atas; kuncupkannya menjadi cip apabila anda mahu skrin lapang semula.",
+            "Gunakan warna, teks tebal, saiz teks dan gambar supaya nota mudah dibezakan.",
+            "Untuk memunculkan nota pada masa tertentu, buka menu ⋮ nota itu dan pilih Ingatkan saya — sekali, setiap hari, hari bekerja atau hari yang anda pilih."
+          ]
+        },
+        {
+          "h": "Juga pada PC anda",
+          "p": [
+            "FloatNote+ for Windows mengapungkan nota yang serupa di atas mana-mana tetingkap, dan kedua-dua aplikasi menyegerak melalui Google Drive anda sendiri (ciri Pro pada Android)."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah Android mempunyai nota terapung terbina dalam?",
+          "a": "Android tiada ciri nota terapung umum. Aplikasi seperti FloatNote+ menambahnya menggunakan kebenaran “Papar di atas apl lain”."
+        },
+        {
+          "q": "Bolehkah nota muncul pada masa yang ditetapkan?",
+          "a": "Boleh. Dalam FloatNote+, tetapkan peringatan dari menu ⋮ nota dan nota itu muncul pada skrin bersama pemberitahuan. Versi percuma menyimpan satu peringatan; Pro tiada had."
+        },
+        {
+          "q": "Adakah FloatNote+ percuma?",
+          "a": "Menyimpan nota adalah percuma dan tanpa had, dan versi percuma mengapungkan satu nota pada satu masa. Pro menambah nota terapung tanpa had, gambar dalam nota, kelegapan boleh laras, penyegerakan Google Drive dan tanpa iklan."
+        }
+      ]
+    },
+    "floating-timer-over-other-apps-android": {
+      "app": "floattimer",
+      "updated": "2026-10-14",
+      "title": "Cara mengekalkan pemasa pada skrin semasa menggunakan aplikasi lain di Android",
+      "desc": "Pemasa aplikasi Jam hilang apabila anda bertukar aplikasi. Ini cara mengekalkan pemasa undur, jam randik atau pembilang terapung di atas mana-mana aplikasi.",
+      "intro": "Pemasa dalam aplikasi Jam berjalan di latar belakang, tetapi anda tidak dapat melihatnya semasa berada dalam aplikasi lain — anda perlu menarik turun pemberitahuan atau bertukar semula. Untuk belajar sambil menonton kuliah, mengatur masa pembentangan atau bermain permainan, lebih mudah jika masa sentiasa ada pada skrin.",
+      "sections": [
+        {
+          "h": "Tetapkan dengan FloatTimer+",
+          "p": [
+            "FloatTimer+ (aplikasi kami) mengapungkan pemasa, jam randik dan pembilang di atas mana-mana aplikasi sebagai kad kecil yang boleh diseret ke mana-mana."
+          ],
+          "steps": [
+            "Pasang FloatTimer+ dari Google Play dan benarkan “Papar di atas apl lain”.",
+            "Cipta pemasa — sebarang jam, minit dan saat, atau pilihan pantas seperti 25 minit.",
+            "Apungkannya dan buka aplikasi yang anda gunakan. Mula, jeda dan set semula terus dari kad itu.",
+            "Lipat menjadi gelembung apabila anda perlukan ruang; masa terus berjalan."
+          ]
+        },
+        {
+          "h": "Lebih daripada satu pada satu masa",
+          "p": [
+            "Anda boleh mencipta seberapa banyak pemasa, pembilang dan jam randik yang anda mahu secara percuma, dan semuanya terus berjalan. Versi percuma memaparkan satu pada skrin pada satu masa; Pro mengapungkan seberapa banyak yang anda mahu serentak, atau iklan ringkas membukanya selama 24 jam."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya melihat pemasa di atas YouTube atau permainan?",
+          "a": "Boleh. Pemasa terapung kekal di atas mana-mana aplikasi, termasuk video dan permainan, sebaik sahaja anda membenarkan “Papar di atas apl lain”."
+        },
+        {
+          "q": "Adakah terdapat pilihan pantas Pomodoro?",
+          "a": "FloatTimer+ mempunyai pilihan pantas 1, 5, 10, 25, 30 dan 60 minit, jadi pemasa fokus 25 minit hanya satu ketikan."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots": {
+      "app": "photocleaner",
+      "updated": "2026-10-14",
+      "title": "Cara menyembunyikan maklumat peribadi dalam tangkapan skrin sebelum berkongsi",
+      "desc": "Kabur, pen nipis atau penyerlah boleh menyebabkan teks masih boleh dibaca. Ini cara menutup nombor telefon, nombor kad dan wajah supaya tidak boleh dipulihkan — pada telefon anda, tanpa memuat naik apa-apa.",
+      "intro": "Tangkapan skrin dan foto dokumen selalunya mengandungi lebih daripada yang anda mahu kongsi: nombor telefon, nombor pengenalan atau kad, alamat, wajah, kod QR. Sebelum menyiarkan atau menghantarnya, tutup maklumat itu dengan betul.",
+      "sections": [
+        {
+          "h": "Perkara yang perlu dielakkan",
+          "p": [
+            "Penyerlah separa lutsinar atau calitan pen nipis boleh menyebabkan teks masih boleh dibaca apabila seseorang menaikkan kontras, dan kabur atau mozek pada teks kecil kadangkala boleh diteka. Gunakan kotak padat yang legap untuk menutup apa sahaja yang peribadi, dan kongsi salinan, bukan yang asal."
+          ]
+        },
+        {
+          "h": "Pilihan 1: penyunting foto pada telefon anda",
+          "p": [
+            "Kebanyakan aplikasi galeri mempunyai alat tanda atau lukis. Jika anda menggunakannya, pilih bentuk padat atau pen yang legap sepenuhnya, tutup setiap item sepenuhnya, dan zum masuk untuk menyemak tepinya sebelum menyimpan."
+          ]
+        },
+        {
+          "h": "Pilihan 2: PhotoCleaner+",
+          "p": [
+            "PhotoCleaner+ (aplikasi kami) dibuat untuk tugas ini. Ia mencadangkan maklumat yang berkemungkinan peribadi, anda menyemak setiap kotak, dan ia mengeksport salinan dengan topeng padat — semuanya berjalan pada telefon anda, tiada apa yang dimuat naik."
+          ],
+          "steps": [
+            "Buka foto, tangkapan skrin atau PDF dalam PhotoCleaner+.",
+            "Semak kotak yang dicadangkan — nombor telefon, e-mel, nombor kad dan teks seumpamanya — dan tambah kotak anda sendiri dengan melukis.",
+            "Gerakkan, ubah saiz atau padam kotak sehingga semua yang peribadi ditutup.",
+            "Eksport salinan bertopeng dan kongsikan salinan itu. Fail asal anda tidak diubah, dan salinan yang disimpan tidak membawa data EXIF atau GPS."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah kabur cukup untuk menyembunyikan nombor telefon?",
+          "a": "Tidak semestinya. Kabur ringan pada teks kecil kadangkala boleh dibaca atau diteka. Topeng padat yang legap ialah pilihan yang selamat."
+        },
+        {
+          "q": "Adakah PhotoCleaner+ memuat naik foto saya?",
+          "a": "Tidak. Pengesanan dan penopengan berjalan pada telefon anda, dan foto serta dokumen anda tidak pernah dimuat naik."
+        },
+        {
+          "q": "Adakah ia percuma?",
+          "a": "Pengesanan, penyuntingan dan penopengan adalah percuma; anda boleh mengeksport 3 kali sehari. Pro menanggalkan had harian dan menambah eksport PDF serta cetak, atau iklan ringkas menanggalkan had itu selama 24 jam."
+        }
+      ]
+    },
+    "sticky-notes-always-on-top-windows": {
+      "app": "floatnotewin",
+      "updated": "2026-10-14",
+      "title": "Cara mengekalkan nota melekat sentiasa di atas di Windows",
+      "desc": "Nota pada desktop akhirnya tersorok di belakang tetingkap yang sedang anda gunakan. Ini cara menyemat nota di atas setiap tetingkap — dengan PowerToys, atau dengan nota yang direka untuk terapung.",
+      "intro": "Nota melekat hanya berguna jika anda dapat melihatnya. Di Windows, nota pada desktop biasanya tersorok di belakang pelayar, dokumen atau hamparan yang sedang anda kerjakan, jadi anda terpaksa mencarinya. Ada dua cara untuk mengekalkan nota di atas.",
+      "sections": [
+        {
+          "h": "Pilihan 1: semat tetingkap dengan PowerToys",
+          "p": [
+            "Microsoft PowerToys, set utiliti percuma daripada Microsoft, termasuk “Always On Top”. Pasang PowerToys, hidupkan “Always On Top”, klik tetingkap yang mahu dikekalkan di hadapan — contohnya tetingkap nota — dan tekan Win+Ctrl+T. Tekan sekali lagi untuk menyahsemat.",
+            "Cara ini berfungsi untuk hampir semua tetingkap. Kelemahannya, tetingkap yang disemat tetap tetingkap penuh: ia mengambil fokus apabila anda mengkliknya, dan menutup ruang yang sama sama ada anda sedang membaca nota itu atau tidak."
+          ]
+        },
+        {
+          "h": "Pilihan 2: nota yang direka untuk terapung",
+          "p": [
+            "FloatNote+ for Windows (aplikasi kami) mengekalkan setiap nota sebagai cip kecil di atas setiap tetingkap. Klik cip dan ia terbuka sebagai kad di situ juga; tekan Esc dan ia menguncup semula. Cip tidak pernah mengambil fokus daripada aplikasi di belakangnya, jadi kursor anda kekal di tempat anda menaip."
+          ],
+          "steps": [
+            "Pasang FloatNote+ dari Microsoft Store.",
+            "Cipta nota dari ikon dulang atau dengan kekunci pintas global — ia muncul sebagai kad di atas skrin anda.",
+            "Teruskan bekerja: nota kekal di atas setiap tetingkap. Tekan Esc untuk menguncupkannya menjadi cip.",
+            "Seret cip ke mana-mana, gunakan warna dan teks kaya untuk membezakannya, dan tetapkan peringatan untuk memunculkan nota pada masa tertentu."
+          ]
+        },
+        {
+          "h": "Nota anda pada telefon juga",
+          "p": [
+            "FloatNote+ for Windows menyegerak dengan aplikasi Android FloatNote+ melalui Google Drive anda sendiri, jadi nota yang anda tulis pada PC turut ada pada telefon anda. Setiap ciri versi Windows adalah percuma."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah Sticky Notes Windows kekal di atas tetingkap lain?",
+          "a": "Dalam kebanyakan persediaan, tidak dengan sendirinya. Anda boleh menyemat mana-mana tetingkap, termasuk tetingkap nota, dengan “Always On Top” PowerToys (Win+Ctrl+T), atau gunakan aplikasi yang notanya direka untuk terapung di atas tetingkap lain."
+        },
+        {
+          "q": "Adakah nota terapung merampas fokus daripada apa yang sedang saya taip?",
+          "a": "Cip FloatNote+ tidak. Mengklik atau menyeret cip membiarkan kursor anda dalam aplikasi yang anda gunakan; hanya kad yang dibuka mengambil fokus, kerana anda menaip di dalamnya."
+        }
+      ]
+    },
+    "clipboard-history-windows": {
+      "app": "clipboardwin",
+      "updated": "2026-10-14",
+      "title": "Cara melihat sejarah papan keratan di Windows",
+      "desc": "Windows mempunyai sejarah papan keratan terbina dalam (Win+V), tetapi ia pendek dan dikosongkan apabila anda memulakan semula. Ini cara menggunakannya, dan cara menyimpan sejarah yang boleh dicari dan kekal lama.",
+      "intro": "Salin sesuatu yang baharu dan keratan sebelumnya hilang — melainkan anda menyimpan sejarah. Windows 10 dan 11 mempunyai sejarah terbina dalam, dan pengurus papan keratan boleh menyimpan sejarah yang lebih panjang.",
+      "sections": [
+        {
+          "h": "Pilihan 1: sejarah papan keratan terbina dalam (Win+V)",
+          "p": [
+            "Tekan Win+V. Pada kali pertama, Windows meminta anda menghidupkan sejarah papan keratan (anda juga boleh melakukannya dalam “Settings > System > Clipboard”). Selepas itu, Win+V memaparkan keratan terkini anda, dan mengklik salah satunya akan menampalkannya.",
+            "Ia pantas tetapi terhad: ia menyimpan sehingga 25 item, dan semuanya kecuali item yang disemat dikosongkan apabila PC dimulakan semula. Tiada carian, dan ia tidak sampai ke telefon anda."
+          ]
+        },
+        {
+          "h": "Pilihan 2: pengurus papan keratan yang menyimpan segala-galanya",
+          "p": [
+            "Clipboard+ for Windows (aplikasi kami) menetap di dulang dan menyimpan teks serta imej yang anda salin sebaik sahaja anda menyalinnya. Sejarah anda kekal sehingga anda memadamnya, dan anda boleh mencarinya, menyusunnya ke dalam kumpulan dan snippet, serta memanggilnya dengan kekunci pintas."
+          ],
+          "steps": [
+            "Pasang Clipboard+ dari Microsoft Store; ia bermula dalam dulang sistem.",
+            "Salin seperti biasa — setiap keratan teks dan imej disimpan secara automatik.",
+            "Tekan kekunci pintas global untuk membuka tetingkap pilih pantas di kursor, pilih keratan dengan Ctrl+1–9 dan tekan Enter untuk menampalkannya.",
+            "Buka tetingkap aplikasi untuk mencari, menyemat, menyunting atau menyimpan teks yang kerap digunakan sebagai snippet."
+          ]
+        },
+        {
+          "h": "Antara telefon dan PC anda",
+          "p": [
+            "Digunakan bersama aplikasi Android Clipboard+, apa yang anda salin pada telefon boleh ditampal pada PC dan sebaliknya, melalui Google Drive anda sendiri. Sejarah papan keratan, snippet, kumpulan, carian dan tetingkap pilih pantas adalah percuma; Pro menambah penyegerakan, storan imej tanpa had dan eksport PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mengapa sejarah papan keratan Win+V saya kosong selepas mula semula?",
+          "a": "Windows mengosongkan sejarah papan keratan apabila PC dimulakan semula, kecuali item yang disemat. Pengurus papan keratan seperti Clipboard+ mengekalkan sejarah anda merentas mula semula."
+        },
+        {
+          "q": "Berapa banyak item yang disimpan oleh sejarah papan keratan Windows?",
+          "a": "Sehingga 25. Item lama tercicir apabila anda menyalin yang baharu."
+        }
+      ]
+    },
+    "timer-always-on-top-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-14",
+      "title": "Cara mengekalkan pemasa di atas tetingkap lain di Windows",
+      "desc": "Pastikan pemasa undur kekal kelihatan semasa anda bekerja dalam tetingkap lain — dengan “Keep on top” dalam aplikasi Jam, atau dengan pemasa yang terapung sebagai kad kecil di atas segala-galanya.",
+      "intro": "Mengatur masa pembentangan, sesi fokus atau panggilan lebih mudah apabila masa sentiasa kelihatan. Windows menawarkan satu cara terbina dalam, dan aplikasi pemasa terapung menambah lebih banyak lagi.",
+      "sections": [
+        {
+          "h": "Pilihan 1: “Keep on top” dalam aplikasi Jam",
+          "p": [
+            "Aplikasi Jam yang disertakan dengan Windows boleh memaparkan pemasa dalam tetingkap kecil yang kekal di atas tetingkap lain: mulakan pemasa, kembangkannya dan pilih “Keep on top”. Ia berfungsi untuk satu pemasa dan memaparkannya dalam tetingkap kecil yang tetap."
+          ]
+        },
+        {
+          "h": "Pilihan 2: kad pemasa terapung",
+          "p": [
+            "FloatTimer+ for Windows (aplikasi kami) mengapungkan pemasa, pembilang dan jam randik di atas setiap tetingkap sebagai kad pastel kecil. Kad tidak pernah mengambil fokus, jadi mengklik kad membiarkan kursor anda di tempat anda menaip."
+          ],
+          "steps": [
+            "Pasang FloatTimer+ dari Microsoft Store; ia berada dalam dulang sistem.",
+            "Cipta pemasa, pembilang atau jam randik dan apungkannya.",
+            "Mula, jeda dan set semula terus dari kad; seret ke mana-mana atau ubah saiznya.",
+            "Kuncupkannya menjadi gelembung kecil, atau tolak ke tepi skrin, apabila anda mahu skrin lapang semula."
+          ]
+        },
+        {
+          "h": "Percuma dan Pro",
+          "p": [
+            "Anda boleh mencipta seberapa banyak pemasa, pembilang dan jam randik yang anda mahu, tanpa iklan. Versi percuma mengapungkan satu kad pada satu masa; Pro ialah pembelian sekali sahaja yang mengapungkan seberapa banyak yang anda mahu dan menambah pemasa berulang serta amaran tersuai."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah Windows mempunyai pemasa yang sentiasa di atas?",
+          "a": "“Keep on top” dalam aplikasi Jam memaparkan satu pemasa dalam tetingkap kecil di atas tetingkap lain. Untuk beberapa pemasa, pembilang atau jam randik serentak, gunakan aplikasi pemasa terapung."
+        },
+        {
+          "q": "Adakah pemasa terapung akan mengganggu kerja saya?",
+          "a": "Kad FloatTimer+ tidak pernah mengambil fokus daripada aplikasi di bawahnya, dan anda boleh menguncupkannya menjadi gelembung atau menyelitkannya di tepi skrin."
+        }
+      ]
+    },
+    "reading-ruler-dyslexia-adhd-android": {
+      "app": "readfocus",
+      "updated": "2026-10-14",
+      "title": "Pembaris bacaan untuk disleksia dan ADHD di Android: jangan hilang baris semasa membaca",
+      "desc": "Selalu hilang baris, terlangkau baris atau membaca semula ayat yang sama? Pembaris bacaan atau topeng bacaan di atas mana-mana aplikasi membantu mata anda kekal pada laluan. Ini cara menetapkannya di Android.",
+      "intro": "Teks panjang pada skrin telefon mudah membuat kita sesat: mata tergelincir ke baris seterusnya, terlangkau satu baris, atau kembali ke ayat yang sudah dibaca. Ramai orang dengan disleksia atau ADHD menggunakan pembaris atau kad di bawah baris semasa membaca di atas kertas. Pada telefon, pembaris bacaan melakukan tugas yang sama pada skrin.",
+      "sections": [
+        {
+          "h": "Mulakan dengan tetapan paparan anda",
+          "p": [
+            "Tetapan kebolehcapaian dan paparan Android — saiz fon lebih besar, teks tebal, tema gelap — boleh menjadikan teks lebih mudah dibaca. Namun ia tidak menanda baris yang sedang anda baca, iaitu perkara yang membantu apabila mata anda asyik merayau."
+          ]
+        },
+        {
+          "h": "Tambah pembaris bacaan dengan ReadFocus+",
+          "p": [
+            "ReadFocus+ (aplikasi kami) mengapungkan jalur fokus di atas mana-mana aplikasi — ebook, PDF, pelayar, berita, webtoon. Pilih Sorotan Baris untuk menerangi baris yang sedang anda baca, atau Topeng Bacaan untuk malapkan segala-galanya kecuali zon bacaan anda."
+          ],
+          "steps": [
+            "Pasang ReadFocus+ dari Google Play dan benarkan “Papar di atas apl lain”.",
+            "Pilih mod: Sorotan Baris (pembaris bacaan) atau Topeng Bacaan.",
+            "Buka aplikasi tempat anda membaca dan seret jalur ke baris anda.",
+            "Laraskan ketinggian (50–300 dp), kelegapan dan tema warnanya sehingga terasa selesa."
+          ]
+        },
+        {
+          "h": "Percuma dan Pro",
+          "p": [
+            "Versi percuma memberi 60 minit masa tindanan bagi setiap sesi dan 3 tema warna. Pro membuang iklan dan had masa serta menambah kesemua 10 tema dan pastikan skrin menyala, atau iklan ringkas membuka ciri Pro selama 24 jam."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah pembaris bacaan membantu disleksia?",
+          "a": "Ramai pembaca dengan disleksia atau ADHD mendapati menanda baris semasa memudahkan mereka untuk tidak hilang baris. Ia alat bantu bacaan, bukan rawatan — cubalah dan kekalkan tetapan yang terasa selesa."
+        },
+        {
+          "q": "Aplikasi apakah yang boleh digunakan dengan ReadFocus+?",
+          "a": "Mana-mana aplikasi pada skrin: pembaca ebook dan PDF, pelayar, berita, nota belajar, komik dan webtoon."
+        }
+      ]
+    },
+    "reading-ruler-windows": {
+      "app": "readfocuswin",
+      "updated": "2026-10-14",
+      "title": "Cara menggunakan pembaris bacaan di Windows (untuk disleksia dan ADHD)",
+      "desc": "“Immersive Reader” dalam Edge mempunyai “Line focus” untuk halaman web. Untuk PDF, dokumen dan semua aplikasi lain, jalur fokus tembus klik mengekalkan mata anda pada baris. Ini cara menggunakan kedua-duanya.",
+      "intro": "Membaca halaman panjang pada monitor membuatkan anda mudah hilang baris. Pembaris bacaan menyorot baris yang sedang anda baca, atau malapkan bahagian skrin yang lain, supaya mata anda kekal pada laluan.",
+      "sections": [
+        {
+          "h": "Pilihan 1: “Line focus” dalam Microsoft Edge",
+          "p": [
+            "Microsoft Edge mempunyai “Immersive Reader”, paparan bacaan yang bersih untuk halaman web. Dalam keutamaan bacaannya, “Line focus” menyorot satu, tiga atau lima baris pada satu masa. Ia hanya berfungsi pada halaman yang dibuka dalam “Immersive Reader”, bukan dalam PDF, dokumen atau aplikasi lain."
+          ]
+        },
+        {
+          "h": "Pilihan 2: jalur fokus di atas mana-mana aplikasi",
+          "p": [
+            "ReadFocus+ for Windows (aplikasi kami) meletakkan jalur fokus di atas apa sahaja yang anda baca — halaman web, PDF, dokumen, kod. Topeng malapkan bahagian atas dan bawah skrin dan meninggalkan jalur cerah; Sorotan menanda baris yang sedang anda baca. Jalur ini tembus klik, jadi anda terus menatal dan mengklik di bawahnya seperti biasa."
+          ],
+          "steps": [
+            "Pasang ReadFocus+ dari Microsoft Store.",
+            "Mulakannya dari panel apungan atau dengan pintasan papan kekunci, dan pilih Topeng atau Sorotan.",
+            "Alihkan jalur ke baris anda, atau anjakkannya ke atas dan ke bawah dengan pintasan semasa membaca.",
+            "Kunci, sembunyikan atau alihkannya ke monitor lain dari panel."
+          ]
+        },
+        {
+          "h": "Percuma dan Pro",
+          "p": [
+            "Versi percuma merangkumi kedua-dua mod dan tiga tema, dalam sesi sehingga 60 minit. Pro ialah pembelian sekali sahaja yang membuang had masa dan menambah tema premium, tetapan ketinggian dan kelegapan jalur, serta pastikan skrin menyala. Tiada iklan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah Windows mempunyai pembaris bacaan?",
+          "a": "“Immersive Reader” dalam Edge mempunyai “Line focus” untuk halaman web. Untuk aplikasi lain — PDF, Word, penyunting kod — anda memerlukan tindanan skrin seperti ReadFocus+ for Windows."
+        },
+        {
+          "q": "Adakah jalur itu akan menyekat klik saya?",
+          "a": "Tidak. ReadFocus+ for Windows adalah tembus klik: menatal, memilih dan mengklik terus ke aplikasi di bawahnya."
+        }
+      ]
+    },
+    "floating-calculator-over-other-apps-android": {
+      "app": "floatcalc",
+      "updated": "2026-10-14",
+      "title": "Cara menggunakan kalkulator di atas aplikasi lain di Android",
+      "desc": "Kira diskaun atau tukar harga tanpa meninggalkan skrin beli-belah, perbankan atau pelayar: kalkulator terapung yang kekal di atas mana-mana aplikasi, dengan penukar unit dan mata wang.",
+      "intro": "Menyemak harga dalam aplikasi beli-belah, membahagi bil dalam sembang, menukar mata wang semasa membuat tempahan — bertukar ke aplikasi Kalkulator dan kembali semula bermakna anda hilang tempat dan perlu mengingat nombor dalam kepala. Kalkulator terapung kekal pada skrin di atas aplikasi yang sedang anda gunakan.",
+      "sections": [
+        {
+          "h": "Pilihan 1: skrin pisah",
+          "p": [
+            "Android boleh memaparkan dua aplikasi serentak dalam skrin pisah. Buka skrin apl terbaru, pilih skrin pisah untuk satu aplikasi dan pilih Kalkulator untuk separuh lagi. Ia berfungsi, tetapi setiap aplikasi hanya mendapat separuh skrin."
+          ]
+        },
+        {
+          "h": "Pilihan 2: kalkulator terapung",
+          "p": [
+            "FloatCalc+ (aplikasi kami) ialah tetingkap kalkulator yang terapung di atas mana-mana aplikasi. Kalkulator, penukar unit dan penukar mata wang berkongsi satu tetingkap yang boleh anda seret ke mana-mana; lipat papan kekunci menjadi satu baris atau kecilkan panel menjadi ikon di tepi skrin apabila anda perlukan ruang."
+          ],
+          "steps": [
+            "Pasang FloatCalc+ dari Google Play dan benarkan “Papar di atas apl lain”.",
+            "Buka kalkulator terapung dan seret ke tempat yang tidak menutupi apa yang anda perlukan.",
+            "Taip ungkapan — kuasa, punca kuasa dan peratus juga boleh — dan salin jawapan ke papan keratan.",
+            "Tukar ke penukar unit atau mata wang dalam tetingkap yang sama. Kadar pertukaran datang daripada Bank Pusat Eropah, dikemas kini setiap hari dan tetap berfungsi di luar talian."
+          ]
+        },
+        {
+          "h": "Percuma dan Pro",
+          "p": [
+            "Kalkulator terapung percuma 60 minit sehari; bar tajuk menunjukkan baki masa, dan iklan pendek memberi pas 24 jam. Pro membuang had harian dan iklan serta menambah semua kategori unit, lebih 30 mata wang dan lebih banyak tema."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya menggunakan kalkulator tanpa meninggalkan aplikasi saya?",
+          "a": "Boleh. Kalkulator terapung seperti FloatCalc+ kekal di atas aplikasi lain sebaik sahaja anda membenarkan “Papar di atas apl lain”."
+        },
+        {
+          "q": "Dari mana kadar pertukaran diperoleh?",
+          "a": "Daripada Bank Pusat Eropah, dikemas kini sekali sehari dan disimpan dalam cache untuk digunakan di luar talian."
+        }
+      ]
+    },
+    "crypto-price-ticker-over-other-apps-android": {
+      "app": "floatcrypto",
+      "updated": "2026-10-14",
+      "title": "Cara melihat harga kripto semasa menggunakan aplikasi lain di Android",
+      "desc": "Kekalkan ticker kripto langsung pada skrin semasa anda menonton video, membaca atau berbual, dan terima pemberitahuan apabila syiling melepasi harga sasaran anda.",
+      "intro": "Aplikasi pertukaran kripto memaparkan harga di dalam aplikasi atau dalam widget skrin utama, jadi menyemak pasaran bermakna meninggalkan apa sahaja yang sedang anda lakukan. Ticker terapung mengekalkan harga yang anda ikuti pada skrin di atas mana-mana aplikasi.",
+      "sections": [
+        {
+          "h": "Sediakan ticker terapung dengan FloatCrypto+",
+          "p": [
+            "FloatCrypto+ (aplikasi kami) mengapungkan ticker harga di atas setiap aplikasi — YouTube, berita, permainan, sembang. Seret ke mana-mana, ubah saiz dan turunkan kelegapannya supaya ia tidak menutupi apa yang sedang anda baca."
+          ],
+          "steps": [
+            "Pasang FloatCrypto+ dari Google Play dan benarkan “Papar di atas apl lain”.",
+            "Tambah syiling yang anda ikuti ke senarai pantauan dan seret mengikut susunan anda.",
+            "Hidupkan ticker terapung dan letakkannya di mana-mana yang anda suka.",
+            "Tetapkan amaran harga atas atau bawah daripada menu ⋮ syiling untuk menerima pemberitahuan apabila pasaran melepasinya."
+          ]
+        },
+        {
+          "h": "Perlu diketahui",
+          "p": [
+            "Harga datang daripada Binance dengan sumber sandaran automatik dan mungkin tertunda sehingga 30 saat (10 saat pada Pro). Harga hanya sebagai rujukan, dan aplikasi ini tidak berdagang atau bersambung ke akaun pertukaran kripto. Tiada apa-apa di sini merupakan nasihat pelaburan.",
+            "Versi percuma memantau 2 syiling dengan 1 amaran. Free Pass membuka lebih banyak syiling atau carta yang lebih panjang selama 24 jam dengan iklan pendek, dan Pro memberi 10 syiling, amaran tanpa had, muat semula setiap 10 saat dan tiada iklan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya melihat harga kripto di atas YouTube atau permainan?",
+          "a": "Boleh. Ticker terapung di atas setiap aplikasi sebaik sahaja anda membenarkan “Papar di atas apl lain”."
+        },
+        {
+          "q": "Adakah harganya masa nyata?",
+          "a": "Ia mungkin tertunda sehingga 30 saat (10 saat pada Pro) dan hanya sebagai rujukan."
+        }
+      ]
+    },
+    "make-android-phone-louder": {
+      "app": "volumebooster",
+      "updated": "2026-10-14",
+      "title": "Cara menjadikan bunyi telefon Android lebih kuat",
+      "desc": "Telefon terlalu perlahan walaupun volum sudah penuh? Semak tetapan ini dahulu, kemudian lihat cara penguat volum menaikkan output dengan selamat — dengan penguatan dipaparkan dalam desibel.",
+      "intro": "Jika video, panggilan pembesar suara atau muzik terlalu perlahan walaupun pada volum penuh, mulakan dengan beberapa tetapan — kadangkala telefon hanya mengehadkan dirinya sendiri. Jika itu tidak mencukupi, penguat volum boleh menaikkan output dengan lebih lagi.",
+      "sections": [
+        {
+          "h": "Semak ini dahulu",
+          "p": [
+            "Pastikan anda menaikkan volum media, bukan nada dering: tekan butang volum semasa video dimainkan, atau buka panel volum dan naikkan peluncur media.",
+            "Sesetengah telefon mempunyai had volum media. Pada telefon Samsung, cari “Media volume limiter” dalam tetapan volum. Cuba juga kesan bunyi atau penyama telefon itu sendiri jika ada, dan semak sama ada sarung menutupi pembesar suara."
+          ]
+        },
+        {
+          "h": "Naikkan output dengan VolumeBooster+",
+          "p": [
+            "VolumeBooster+ (aplikasi kami) menaikkan output sistem dan bukan volum satu aplikasi, jadi video, muzik dan permainan menjadi lebih kuat. Penguatan dipaparkan dalam desibel dengan zon Selamat, Berhati-hati dan Bahaya, jadi anda boleh nampak sejauh mana anda telah menaikkannya."
+          ],
+          "steps": [
+            "Pasang VolumeBooster+ dari Google Play.",
+            "Mainkan sesuatu, kemudian naikkan penguatan sedikit demi sedikit dan perhatikan zon dB.",
+            "Gunakan prasetel penyama, penguat bas atau AutoEQ untuk fon kepala anda supaya bunyi lebih jelas, bukan sekadar lebih kuat.",
+            "Turunkan penguatan apabila anda tidak memerlukannya — telinga dan pembesar suara anda akan berterima kasih."
+          ]
+        },
+        {
+          "h": "Percuma dan Pro, serta pendengaran anda",
+          "p": [
+            "Versi percuma menguatkan sehingga +10 dB selama 60 minit sehari; Pro atau Free Pass 24 jam membuka julat penuh +15 dB. Nilai dB ialah anggaran, dan apl ini bukan peranti perubatan — jika anda perasan sakit telinga atau berdengung, rendahkan volum."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah penguat volum merosakkan pembesar suara atau pendengaran saya?",
+          "a": "Volum yang sangat tinggi boleh. Naikkan penguatan secara beransur-ansur, perhatikan zon Selamat/Berhati-hati/Bahaya, dan turunkannya jika bunyi menjadi herot atau telinga anda sakit."
+        },
+        {
+          "q": "Sejauh mana ia boleh menjadi lebih kuat?",
+          "a": "Sehingga +15 dB dengan Pro atau Free Pass, dan sehingga +10 dB pada versi percuma. Kelantangan sebenar berbeza mengikut peranti, fon kepala dan kandungan."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots-windows": {
+      "app": "photocleanerwin",
+      "updated": "2026-10-14",
+      "title": "Cara menyembunyikan maklumat peribadi dalam tangkapan skrin dan PDF di Windows",
+      "desc": "Sebelum anda berkongsi tangkapan skrin atau dokumen imbasan dari PC anda, tutup nombor telefon, nombor kad, nombor pengenalan dan wajah dengan topeng padat — tanpa memuat naik apa-apa.",
+      "intro": "Tangkapan skrin dan dokumen imbasan selalunya mengandungi nombor telefon, e-mel, nombor kad atau pengenalan, alamat atau wajah. Sebelum anda menghantar atau menyiarkannya dari PC anda, tutup maklumat itu supaya ia tidak boleh dipulihkan.",
+      "sections": [
+        {
+          "h": "Pilihan 1: Snipping Tool",
+          "p": [
+            "Versi terkini Snipping Tool pada Windows 11 boleh menyembunyikan alamat e-mel dan nombor telefon dalam tangkapan skrin melalui “Text actions”, dan anda boleh melukis di atas apa sahaja yang lain. Elakkan penyerlah untuk tujuan ini — ia separa lutsinar — dan gunakan calitan padat yang menutupi setiap item sepenuhnya."
+          ]
+        },
+        {
+          "h": "Pilihan 2: PhotoCleaner+ for Windows",
+          "p": [
+            "PhotoCleaner+ for Windows (aplikasi kami) mengesan maklumat yang berkemungkinan peribadi dalam foto, tangkapan skrin dan PDF — nombor telefon, e-mel, nombor kad, IBAN, nombor pasport, nama, alamat, nombor plat kenderaan, wajah dan kod QR — dan mengeksport salinan dengan topeng padat. Semuanya berjalan pada PC anda; tiada apa yang dimuat naik."
+          ],
+          "steps": [
+            "Buka fail, tampal dengan Ctrl+V, seret ke tetingkap, atau klik kanan fail dalam File Explorer dan pilih “Clean with PhotoCleaner+”.",
+            "Semak kotak: klik untuk menghidupkan atau mematikannya, seret untuk mengalih atau mengubah saiz, dan lukis kotak anda sendiri di atas apa sahaja yang terlepas.",
+            "Eksport salinan bertopeng — simpan, salin, kongsi atau simpan sebagai PDF. Fail asal anda tidak pernah ditulis ganti, dan salinan yang disimpan tidak membawa metadata."
+          ]
+        },
+        {
+          "h": "Percuma dan Pro",
+          "p": [
+            "Mengesan maklumat peribadi adalah percuma dan tanpa had, dan anda boleh mengeksport 3 dokumen sehari secara percuma. Pro ialah pembelian sekali sahaja yang membuang had harian dan menambah eksport PDF serta cetak. Tiada iklan dan tiada tera air."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah ia akan mengesan setiap maklumat peribadi?",
+          "a": "Tiada alat yang boleh menjanjikannya. Pengesanan hanyalah titik permulaan — sentiasa semak kotak sebelum mengeksport dan lukis di atas apa sahaja yang terlepas."
+        },
+        {
+          "q": "Adakah fail saya dimuat naik?",
+          "a": "Tidak. Pengesanan, penopengan dan eksport berjalan pada PC anda, tanpa akaun dan tiada apa yang dimuat naik."
+        }
+      ]
+    },
+    "crypto-price-ticker-on-top-windows": {
+      "app": "floatcryptowin",
+      "updated": "2026-10-14",
+      "title": "Cara mengekalkan ticker kripto langsung di atas tetingkap lain di Windows",
+      "desc": "Pantau syiling yang anda ikuti semasa bekerja: ticker harga nipis di atas setiap tetingkap, amaran harga sebagai pemberitahuan desktop, dan carta dengan klik dua kali.",
+      "intro": "Membiarkan tab pertukaran kripto terbuka bermakna anda perlu bertukar kepadanya setiap kali mahu melihat harga. Ticker terapung mengekalkan syiling yang anda ikuti kelihatan di atas setiap tetingkap.",
+      "sections": [
+        {
+          "h": "Sediakan FloatCrypto+ for Windows",
+          "p": [
+            "FloatCrypto+ for Windows (aplikasi kami) mengekalkan ticker nipis di atas setiap tetingkap, memaparkan simbol dan perubahan 24 jam setiap syiling. Ia tidak pernah mengambil fokus, jadi kursor anda kekal di tempat anda menaip."
+          ],
+          "steps": [
+            "Pasang FloatCrypto+ dari Microsoft Store; ia berada dalam dulang sistem.",
+            "Pilih syiling daripada pasangan Binance dan seret mengikut susunan anda.",
+            "Letakkan ticker di mana-mana, dan laraskan kelegapan serta saiz teksnya — atau lipat menjadi gelembung di tepi skrin.",
+            "Tetapkan sasaran di atas atau di bawah harga semasa untuk menerima pemberitahuan desktop apabila pasaran melepasinya. Klik dua kali syiling untuk melihat cartanya."
+          ]
+        },
+        {
+          "h": "Perlu diketahui",
+          "p": [
+            "Halakan tetikus ke ikon dulang untuk jadual harga penuh, dan sembunyikan ticker dengan Ctrl+Alt+T. Harga datang daripada data pasaran awam Binance dengan pertukaran sumber automatik dan mungkin lewat sehingga 30 saat; apl ini tidak berdagang atau bersambung ke akaun pertukaran kripto, dan tiada apa-apa di dalamnya merupakan nasihat pelaburan.",
+            "Versi percuma memantau 2 syiling dengan 1 amaran; Pro ialah pembelian sekali sahaja untuk 10 syiling, amaran tanpa had, muat semula setiap 10 saat dan carta yang lebih panjang. Tiada iklan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah ticker mengganggu kerja saya?",
+          "a": "Tidak. Ia tidak pernah mengambil fokus; anda boleh menurunkan kelegapannya, melipatnya menjadi gelembung atau menyembunyikannya dengan Ctrl+Alt+T."
+        },
+        {
+          "q": "Adakah ia memerlukan akaun pertukaran kripto saya?",
+          "a": "Tidak. Ia hanya membaca data pasaran awam dan tidak pernah berdagang atau memegang dana."
+        }
+      ]
+    }
+  }
+}

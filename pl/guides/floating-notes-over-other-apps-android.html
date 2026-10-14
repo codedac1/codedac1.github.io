@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>Jak utrzymać notatkę nad innymi aplikacjami na Androidzie | CodeDAC</title>
+  <meta name="description" content="Miej notatkę na widoku, gdy korzystasz z innej aplikacji: pływająca notatka zostaje nad każdą aplikacją, zwija się do małego kafelka i może pojawić się o wybranej godzinie." />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/pl/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/floating-notes-over-other-apps-android.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="pl_PL" />
+  <meta property="og:title" content="Jak utrzymać notatkę nad innymi aplikacjami na Androidzie | CodeDAC" />
+  <meta property="og:description" content="Miej notatkę na widoku, gdy korzystasz z innej aplikacji: pływająca notatka zostaje nad każdą aplikacją, zwija się do małego kafelka i może pojawić się o wybranej godzinie." />
+  <meta property="og:url" content="https://codedac.com/pl/guides/floating-notes-over-other-apps-android.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/floatnote.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jak utrzymać notatkę nad innymi aplikacjami na Androidzie | CodeDAC" />
+  <meta name="twitter:description" content="Miej notatkę na widoku, gdy korzystasz z innej aplikacji: pływająca notatka zostaje nad każdą aplikacją, zwija się do małego kafelka i może pojawić się o wybranej godzinie." />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/floatnote.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=73" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Jak utrzymać notatkę nad innymi aplikacjami na Androidzie",
+  "description": "Miej notatkę na widoku, gdy korzystasz z innej aplikacji: pływająca notatka zostaje nad każdą aplikacją, zwija się do małego kafelka i może pojawić się o wybranej godzinie.",
+  "inLanguage": "pl",
+  "datePublished": "2026-10-14",
+  "dateModified": "2026-10-14",
+  "mainEntityOfPage": "https://codedac.com/pl/guides/floating-notes-over-other-apps-android.html",
+  "image": "https://codedac.com/images/icons/floatnote.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "FloatNote+",
+    "url": "https://codedac.com/pl/apps/floatnote.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/pl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "FloatNote+",
+      "item": "https://codedac.com/pl/apps/floatnote.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Jak utrzymać notatkę nad innymi aplikacjami na Androidzie",
+      "item": "https://codedac.com/pl/guides/floating-notes-over-other-apps-android.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Czy Android ma wbudowane pływające notatki?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Android nie ma ogólnej funkcji pływających notatek. Aplikacje takie jak FloatNote+ dodają ją, korzystając z uprawnienia „Wyświetlanie nad innymi aplikacjami”."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Czy notatka może pojawić się o określonej porze?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tak. W FloatNote+ ustaw przypomnienie w menu ⋮ notatki, a pojawi się ona na ekranie razem z powiadomieniem. Wersja darmowa pozwala na jedno przypomnienie; Pro nie ma limitu."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Czy FloatNote+ jest darmowy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zapisywanie notatek jest darmowe i bez limitu, a wersja darmowa wyświetla jedną pływającą notatkę naraz. Pro dodaje nieograniczoną liczbę pływających notatek, obrazy w notatce, regulowaną przezroczystość, synchronizację z Dyskiem Google i brak reklam."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/pl/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/pl/#apps">Aplikacje</a>
+        <a href="/pl/#reviews">Recenzje</a>
+        <a href="/pl/#about">O nas</a>
+        <a href="/pl/#contact">Współpraca</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Przełącz tryb ciemny" title="Przełącz tryb ciemny">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Polski"><span class="lang-name">Polski</span><span class="lang-code" aria-hidden="true">PL</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/floating-notes-over-other-apps-android.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/floating-notes-over-other-apps-android.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/guides/floating-notes-over-other-apps-android.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/floating-notes-over-other-apps-android.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/guides/floating-notes-over-other-apps-android.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/guides/floating-notes-over-other-apps-android.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item" data-lang="fr" href="/fr/guides/floating-notes-over-other-apps-android.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/floating-notes-over-other-apps-android.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item" data-lang="hi" href="/hi/guides/floating-notes-over-other-apps-android.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/floating-notes-over-other-apps-android.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item" data-lang="zh" href="/zh/guides/floating-notes-over-other-apps-android.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/guides/floating-notes-over-other-apps-android.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/floating-notes-over-other-apps-android.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/floating-notes-over-other-apps-android.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item is-active" data-lang="pl" href="/pl/guides/floating-notes-over-other-apps-android.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/floating-notes-over-other-apps-android.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/floating-notes-over-other-apps-android.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/floating-notes-over-other-apps-android.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/floating-notes-over-other-apps-android.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item" data-lang="uk" href="/uk/guides/floating-notes-over-other-apps-android.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/floating-notes-over-other-apps-android.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-android guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/pl/">Strona główna</a>
+        <span class="sep">/</span>
+        <a href="/pl/apps/floatnote.html"><bdi>FloatNote+</bdi></a>
+        <span class="sep">/</span>
+        <span class="current">Poradniki</span>
+      </nav>
+      <h1>Jak utrzymać notatkę nad innymi aplikacjami na Androidzie</h1>
+      <p class="guide-meta">Aktualizacja <time datetime="2026-10-14">2026-10-14</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">Przepisywanie listy do formularza, zerkanie na przepis podczas oglądania filmu, numer zamówienia na widoku w czacie — ciągłe przełączanie się do aplikacji z notatkami wybija z rytmu. Pływająca notatka zostaje na ekranie nad aplikacją, z której właśnie korzystasz.</p>
+
+        <h2>Jak działają pływające notatki</h2>
+        <p>Pływająca notatka to małe okno wyświetlane nad innymi aplikacjami. Android pozwala na to dzięki uprawnieniu „Wyświetlanie nad innymi aplikacjami”, które przyznajesz raz. Notatka zostaje na wierzchu, a ty dalej korzystasz z aplikacji pod spodem.</p>
+
+        <h2>Skonfiguruj to w FloatNote+</h2>
+        <p>FloatNote+ (nasza aplikacja) wyświetla każdą notatkę jako mały kafelek nad dowolną aplikacją. Dotknij kafelka, a rozwinie się w tym samym miejscu w kartę; dotknij jej paska tytułu, aby ją z powrotem zwinąć.</p>
+        <ol class="guide-steps">
+          <li>Zainstaluj FloatNote+ z Google Play i zezwól na „Wyświetlanie nad innymi aplikacjami”.</li>
+          <li>Dotknij +, aby napisać notatkę — pojawi się nad ekranem jako karta.</li>
+          <li>Otwórz potrzebną aplikację. Notatka zostaje na wierzchu; zwiń ją do kafelka, gdy chcesz odzyskać ekran.</li>
+          <li>Używaj kolorów, pogrubienia, rozmiaru tekstu i obrazów, aby łatwo odróżniać notatki.</li>
+          <li>Aby notatka pojawiła się o określonej porze, otwórz jej menu ⋮ i wybierz „Przypomnij” — raz, codziennie, w dni robocze lub w wybrane dni.</li>
+        </ol>
+
+        <h2>Także na komputerze</h2>
+        <p>FloatNote+ for Windows wyświetla takie same notatki nad każdym oknem, a obie aplikacje synchronizują się przez Twój własny Dysk Google (na Androidzie to funkcja Pro).</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Aplikacja z tego poradnika</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/floatnote.png?v=73" alt="FloatNote+ icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>FloatNote+</bdi></p>
+          <p class="rc-desc">Karteczki, które pływają nad każdą aplikacją. Zwiń do kafelka, rozwiń w kartę — z kolorami i formatowaniem.</p>
+          <div class="guide-app-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dguide%26utm_campaign%3Dpl" class="btn btn-primary" target="_blank" rel="noopener">Zobacz w Google Play →</a>
+            <a href="/pl/apps/floatnote.html" class="btn btn-ghost">Szczegóły aplikacji</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Pytania</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">Czy Android ma wbudowane pływające notatki?</p><p class="faq-a">Android nie ma ogólnej funkcji pływających notatek. Aplikacje takie jak FloatNote+ dodają ją, korzystając z uprawnienia „Wyświetlanie nad innymi aplikacjami”.</p></div>
+        <div class="faq-item"><p class="faq-q">Czy notatka może pojawić się o określonej porze?</p><p class="faq-a">Tak. W FloatNote+ ustaw przypomnienie w menu ⋮ notatki, a pojawi się ona na ekranie razem z powiadomieniem. Wersja darmowa pozwala na jedno przypomnienie; Pro nie ma limitu.</p></div>
+        <div class="faq-item"><p class="faq-q">Czy FloatNote+ jest darmowy?</p><p class="faq-a">Zapisywanie notatek jest darmowe i bez limitu, a wersja darmowa wyświetla jedną pływającą notatkę naraz. Pro dodaje nieograniczoną liczbę pływających notatek, obrazy w notatce, regulowaną przezroczystość, synchronizację z Dyskiem Google i brak reklam.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Więcej poradników</h2>
+      <ul class="guide-links">
+        <li><a href="/pl/guides/android-clipboard-history.html">Jak zobaczyć historię schowka na Androidzie</a></li>
+        <li><a href="/pl/guides/open-app-automatically-after-reboot-android.html">Jak automatycznie otworzyć aplikację po restarcie Androida (bez roota)</a></li>
+        <li><a href="/pl/guides/floating-timer-over-other-apps-android.html">Jak mieć minutnik na ekranie podczas korzystania z innych aplikacji na Androidzie</a></li>
+        <li><a href="/pl/guides/hide-personal-info-in-screenshots.html">Jak ukryć dane osobowe na zrzucie ekranu przed udostępnieniem</a></li>
+        <li><a href="/pl/guides/sticky-notes-always-on-top-windows.html">Jak utrzymać karteczkę zawsze na wierzchu w Windows</a></li>
+        <li><a href="/pl/guides/clipboard-history-windows.html">Jak zobaczyć historię schowka w Windows</a></li>
+        <li><a href="/pl/guides/timer-always-on-top-windows.html">Jak utrzymać minutnik nad innymi oknami w Windows</a></li>
+        <li><a href="/pl/guides/reading-ruler-dyslexia-adhd-android.html">Linijka do czytania dla dysleksji i ADHD na Androidzie: nie gub wiersza</a></li>
+        <li><a href="/pl/guides/reading-ruler-windows.html">Jak używać linijki do czytania w Windows (przy dysleksji i ADHD)</a></li>
+        <li><a href="/pl/guides/floating-calculator-over-other-apps-android.html">Jak używać kalkulatora nad innymi aplikacjami na Androidzie</a></li>
+        <li><a href="/pl/guides/crypto-price-ticker-over-other-apps-android.html">Jak widzieć kursy kryptowalut podczas korzystania z innych aplikacji na Androidzie</a></li>
+        <li><a href="/pl/guides/make-android-phone-louder.html">Jak sprawić, by telefon z Androidem grał głośniej</a></li>
+        <li><a href="/pl/guides/hide-personal-info-in-screenshots-windows.html">Jak ukryć dane osobowe na zrzutach ekranu i w plikach PDF w Windows</a></li>
+        <li><a href="/pl/guides/crypto-price-ticker-on-top-windows.html">Jak trzymać pasek kursów krypto na żywo nad innymi oknami w Windows</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">Korea Południowa</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/pl/privacy.html">Polityka prywatności</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"pl","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/floating-notes-over-other-apps-android.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/floating-notes-over-other-apps-android.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=73"></script>
+</body>
+</html>

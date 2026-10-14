@@ -1,0 +1,660 @@
+{
+  "ui": {
+    "guides": "Panduan",
+    "updated": "Diperbarui",
+    "inThisGuide": "Aplikasi dalam panduan ini",
+    "appPage": "Detail aplikasi",
+    "moreGuides": "Panduan lainnya",
+    "appGuides": "Panduan cara pakai",
+    "faq": "Pertanyaan"
+  },
+  "guides": {
+    "android-clipboard-history": {
+      "app": "clipboard",
+      "updated": "2026-10-14",
+      "title": "Cara melihat riwayat clipboard di Android",
+      "desc": "Android hanya menyimpan yang terakhir Anda salin. Berikut tempat menemukan salinan terbaru di keyboard, dan cara menyimpan riwayat yang bisa dicari dan tidak hilang.",
+      "intro": "Android sendiri hanya mengingat yang terakhir Anda salin — salin sesuatu yang baru, dan teks sebelumnya hilang. Jika ingin mendapatkan kembali alamat, kode, atau kalimat yang Anda salin sebelumnya, Anda perlu tempat yang menyimpan riwayat. Ada dua: keyboard Anda, dan aplikasi pengelola clipboard.",
+      "sections": [
+        {
+          "h": "Opsi 1: clipboard di keyboard Anda",
+          "p": [
+            "Banyak keyboard punya clipboard sendiri. Di Gboard, ketuk ikon clipboard di bilah alat di atas tombol (aktifkan saat pertama kali). Samsung Keyboard juga punya tombol clipboard di bilah alatnya.",
+            "Ini cara tercepat untuk mengambil sesuatu yang Anda salin beberapa menit lalu. Kelemahannya, clipboard keyboard bersifat jangka pendek: Gboard, misalnya, menghapus item yang tidak disematkan setelah sekitar satu jam, dan daftarnya hanya terlihat saat Anda mengetik."
+          ]
+        },
+        {
+          "h": "Opsi 2: pengelola clipboard yang menyimpan riwayat sungguhan",
+          "p": [
+            "Jika Anda menyalin hal yang sama berulang kali — alamat, nomor rekening, balasan siap pakai — pengelola clipboard menyimpannya sampai Anda menghapusnya, memungkinkan Anda mencarinya, dan bisa menampilkannya di atas aplikasi apa pun.",
+            "Clipboard+ (aplikasi kami) menyimpan teks dan gambar yang Anda salin dalam riwayat, terbaru di atas, dengan pencarian dan panel mengambang yang bisa dibuka di atas aplikasi yang sedang Anda pakai."
+          ],
+          "steps": [
+            "Pasang Clipboard+ dari Google Play dan buka sekali.",
+            "Salin teks seperti biasa. Anda juga bisa memilih teks di aplikasi apa pun dan memilih Clipboard+ di menu seleksi untuk menyimpannya.",
+            "Buka panel mengambang (atau aplikasinya) untuk melihat riwayat, ketuk sebuah klip untuk menyalinnya lagi, lalu tempel di tempat Anda berada.",
+            "Simpan teks yang sering dipakai sebagai snippet dalam grup, agar selalu sejauh satu ketukan."
+          ]
+        },
+        {
+          "h": "Mana yang sebaiknya dipakai?",
+          "p": [
+            "Untuk sekali pakai — menempel sesuatu yang Anda salin semenit lalu — clipboard keyboard sudah cukup. Jika Anda kehilangan klip yang dibutuhkan, atau terus mengetik ulang teks yang sama, pengelola clipboard menghemat waktu itu. Clipboard+ gratis untuk mulai; Pro menambahkan sinkronisasi dengan aplikasi Windows melalui Google Drive Anda sendiri, klip gambar tanpa batas, dan ekspor PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah Android punya riwayat clipboard bawaan?",
+          "a": "Tidak di sistemnya sendiri — Android hanya menyimpan klip terakhir. Keyboard seperti Gboard dan Samsung Keyboard menambahkan daftar clipboard jangka pendek."
+        },
+        {
+          "q": "Bisakah saya melihat riwayat clipboard ponsel di PC?",
+          "a": "Bisa, dengan Clipboard+ di keduanya: aplikasi Android dan Clipboard+ for Windows tersinkron melalui Google Drive Anda sendiri (fitur Pro di Android)."
+        }
+      ]
+    },
+    "open-app-automatically-after-reboot-android": {
+      "app": "autostart",
+      "updated": "2026-10-14",
+      "title": "Cara membuka aplikasi otomatis setelah restart di Android (tanpa root)",
+      "desc": "Android tidak punya pengaturan untuk membuka aplikasi saat ponsel menyala. Berikut cara membuat aplikasi terbuka sendiri setelah restart, tanpa root — dan cara mengujinya tanpa menyalakan ulang.",
+      "intro": "Android tidak punya pengaturan yang membuka aplikasi saat ponsel menyala. Jika Anda membuka aplikasi yang sama setiap kali restart — aplikasi navigasi di mobil, launcher di tablet kios, aplikasi musik di head unit — aplikasi auto start bisa melakukannya untuk Anda.",
+      "sections": [
+        {
+          "h": "Mengapa tidak terjadi dengan sendirinya",
+          "p": [
+            "Sejak Android 10, aplikasi tidak boleh membuka layar dari latar belakang dengan sendirinya. Karena itu, aplikasi yang harus membuka aplikasi lain setelah restart memerlukan izin “Tampilkan di atas aplikasi lain”, dan baru bisa menjalankannya setelah ponsel dibuka kuncinya untuk pertama kali."
+          ]
+        },
+        {
+          "h": "Atur dengan AutoStart+",
+          "p": [
+            "AutoStart+ (aplikasi kami) membuka aplikasi pilihan Anda setelah setiap restart, begitu ponsel dibuka kuncinya. Tidak perlu root."
+          ],
+          "steps": [
+            "Pasang AutoStart+ dari Google Play dan buka.",
+            "Ketuk Tambah aplikasi dan pilih aplikasi yang ingin dibuka setelah restart. Seret barisnya untuk menentukan mana yang terbuka lebih dulu.",
+            "Izinkan “Tampilkan di atas aplikasi lain” saat diminta — tanpa izin ini Android memblokir peluncuran.",
+            "Ketuk Tes sekarang untuk melihat apa yang akan terjadi, tanpa menyalakan ulang ponsel.",
+            "Nyalakan ulang ponsel dan buka kuncinya: aplikasi Anda terbuka sesuai urutan yang Anda atur."
+          ]
+        },
+        {
+          "h": "Head unit mobil dan perangkat yang tidur",
+          "p": [
+            "Banyak head unit Android sebenarnya tidak restart — mereka tidur saat mobil dimatikan. AutoStart+ punya Mode mobil yang membuka aplikasi Anda lagi setiap kali layar menyala."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah perlu root untuk auto start aplikasi di Android?",
+          "a": "Tidak. AutoStart+ bekerja tanpa root; hanya perlu izin “Tampilkan di atas aplikasi lain”."
+        },
+        {
+          "q": "Mengapa aplikasi saya tidak terbuka sebelum ponsel dibuka kuncinya?",
+          "a": "Android tidak mengizinkan aplikasi membuka aplikasi lain sampai ponsel dibuka kuncinya sekali setelah restart. Aplikasi Anda terbuka tepat setelah Anda membuka kunci."
+        },
+        {
+          "q": "Berapa aplikasi yang bisa di-auto start secara gratis?",
+          "a": "Versi gratis menjalankan 1 aplikasi per boot. Pro menjalankan seluruh daftar sesuai urutan, dan iklan singkat membuka batasnya selama 24 jam jika Anda tidak ingin berlangganan."
+        }
+      ]
+    },
+    "floating-notes-over-other-apps-android": {
+      "app": "floatnote",
+      "updated": "2026-10-14",
+      "title": "Cara membuat catatan tetap di atas aplikasi lain di Android",
+      "desc": "Biarkan catatan tetap terlihat saat Anda memakai aplikasi lain: catatan mengambang yang tetap di atas aplikasi apa pun, bisa diciutkan jadi chip kecil, dan bisa muncul pada waktu pilihan Anda.",
+      "intro": "Menyalin daftar ke formulir, membaca resep sambil video diputar, menjaga nomor pesanan tetap terlihat di obrolan — bolak-balik ke aplikasi catatan memutus alur. Catatan mengambang tetap di layar di atas aplikasi apa pun yang sedang Anda pakai.",
+      "sections": [
+        {
+          "h": "Cara kerja catatan mengambang",
+          "p": [
+            "Catatan mengambang adalah jendela kecil yang ditampilkan di atas aplikasi lain. Android mengizinkannya melalui izin “Tampilkan di atas aplikasi lain”, yang cukup Anda berikan sekali. Catatan tetap di atas sementara Anda terus memakai aplikasi di bawahnya."
+          ]
+        },
+        {
+          "h": "Atur dengan FloatNote+",
+          "p": [
+            "FloatNote+ (aplikasi kami) menampilkan setiap catatan sebagai chip kecil yang mengambang di atas aplikasi apa pun. Ketuk chip dan catatan terbentang jadi kartu di tempat itu juga; ketuk bilah judulnya untuk menciutkannya kembali."
+          ],
+          "steps": [
+            "Pasang FloatNote+ dari Google Play dan izinkan “Tampilkan di atas aplikasi lain”.",
+            "Ketuk + untuk menulis catatan — catatan muncul di atas layar sebagai kartu.",
+            "Buka aplikasi yang Anda perlukan. Catatan tetap di atas; ciutkan jadi chip saat Anda ingin layar kembali lega.",
+            "Gunakan warna, teks tebal, ukuran teks, dan gambar agar catatan mudah dibedakan.",
+            "Untuk memunculkan catatan pada waktu tertentu, buka menu ⋮ catatan itu dan pilih Ingatkan — sekali, setiap hari, hari kerja, atau hari pilihan Anda."
+          ]
+        },
+        {
+          "h": "Juga di PC Anda",
+          "p": [
+            "FloatNote+ for Windows menampilkan catatan serupa yang mengambang di atas jendela mana pun, dan kedua aplikasi tersinkron melalui Google Drive Anda sendiri (fitur Pro di Android)."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah Android punya catatan mengambang bawaan?",
+          "a": "Android tidak punya fitur catatan mengambang umum. Aplikasi seperti FloatNote+ menambahkannya dengan izin “Tampilkan di atas aplikasi lain”."
+        },
+        {
+          "q": "Bisakah catatan muncul pada waktu tertentu?",
+          "a": "Bisa. Di FloatNote+, atur pengingat dari menu ⋮ catatan, dan catatan akan muncul di layar disertai notifikasi. Versi gratis menyimpan satu pengingat; Pro tanpa batas."
+        },
+        {
+          "q": "Apakah FloatNote+ gratis?",
+          "a": "Menyimpan catatan gratis dan tanpa batas, dan versi gratis menampilkan satu catatan mengambang sekaligus. Pro menambahkan catatan mengambang tanpa batas, gambar dalam catatan, opasitas yang bisa diatur, sinkronisasi Google Drive, dan tanpa iklan."
+        }
+      ]
+    },
+    "floating-timer-over-other-apps-android": {
+      "app": "floattimer",
+      "updated": "2026-10-14",
+      "title": "Cara menampilkan timer di layar saat memakai aplikasi lain di Android",
+      "desc": "Timer di aplikasi Jam hilang saat Anda berpindah aplikasi. Berikut cara membuat hitung mundur, stopwatch, atau penghitung tetap mengambang di atas aplikasi apa pun.",
+      "intro": "Timer di aplikasi Jam berjalan di latar belakang, tetapi tidak terlihat saat Anda berada di aplikasi lain — Anda harus menarik notifikasi atau kembali ke aplikasinya. Untuk belajar sambil menonton kuliah, mengatur waktu presentasi, atau bermain game, akan membantu jika waktunya terus tampil di layar.",
+      "sections": [
+        {
+          "h": "Atur dengan FloatTimer+",
+          "p": [
+            "FloatTimer+ (aplikasi kami) menampilkan timer, stopwatch, dan penghitung yang mengambang di atas aplikasi apa pun sebagai kartu kecil yang bisa diseret ke mana saja."
+          ],
+          "steps": [
+            "Pasang FloatTimer+ dari Google Play dan izinkan “Tampilkan di atas aplikasi lain”.",
+            "Buat timer — jam, menit, dan detik berapa pun, atau pilihan cepat seperti 25 menit.",
+            "Jadikan mengambang lalu buka aplikasi yang Anda pakai. Mulai, jeda, dan reset langsung dari kartunya.",
+            "Lipat menjadi gelembung saat butuh ruang; waktunya tetap berjalan."
+          ]
+        },
+        {
+          "h": "Lebih dari satu sekaligus",
+          "p": [
+            "Anda bisa membuat timer, penghitung, dan stopwatch sebanyak yang Anda mau secara gratis, dan semuanya tetap berjalan. Versi gratis menampilkan satu di layar dalam satu waktu; Pro menampilkan sebanyak yang Anda mau sekaligus, atau iklan singkat membukanya selama 24 jam."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah timer terlihat di atas YouTube atau game?",
+          "a": "Bisa. Timer mengambang tetap di atas aplikasi apa pun, termasuk video dan game, setelah Anda mengizinkan “Tampilkan di atas aplikasi lain”."
+        },
+        {
+          "q": "Apakah ada pilihan cepat Pomodoro?",
+          "a": "FloatTimer+ punya pilihan cepat 1, 5, 10, 25, 30, dan 60 menit, jadi timer fokus 25 menit cukup sekali ketuk."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots": {
+      "app": "photocleaner",
+      "updated": "2026-10-14",
+      "title": "Cara menyembunyikan info pribadi di screenshot sebelum dibagikan",
+      "desc": "Blur, pena tipis, atau stabilo bisa membuat teks tetap terbaca. Berikut cara menutup nomor telepon, nomor kartu, dan wajah agar tidak bisa dipulihkan — di ponsel Anda, tanpa mengunggah apa pun.",
+      "intro": "Screenshot dan foto dokumen sering memuat lebih banyak dari yang ingin Anda bagikan: nomor telepon, nomor identitas atau kartu, alamat, wajah, kode QR. Sebelum mengunggah atau mengirimnya, tutup informasi itu dengan benar.",
+      "sections": [
+        {
+          "h": "Yang perlu dihindari",
+          "p": [
+            "Stabilo semi-transparan atau goresan pena tipis bisa membuat teks tetap terbaca begitu kontrasnya dinaikkan, dan blur atau mosaik pada teks kecil terkadang bisa ditebak. Gunakan kotak padat yang tidak tembus pandang untuk menutup apa pun yang pribadi, dan bagikan salinannya, bukan aslinya."
+          ]
+        },
+        {
+          "h": "Opsi 1: editor foto di ponsel Anda",
+          "p": [
+            "Sebagian besar aplikasi galeri punya alat markup atau menggambar. Jika Anda memakainya, pilih bentuk padat atau pena yang sepenuhnya tidak tembus pandang, tutup setiap item sepenuhnya, dan perbesar untuk memeriksa tepinya sebelum menyimpan."
+          ]
+        },
+        {
+          "h": "Opsi 2: PhotoCleaner+",
+          "p": [
+            "PhotoCleaner+ (aplikasi kami) dibuat untuk tugas ini. Aplikasi ini menyarankan informasi yang kemungkinan pribadi, Anda memeriksa setiap kotak, lalu aplikasi mengekspor salinan dengan masker padat — semuanya berjalan di ponsel Anda, tidak ada yang diunggah."
+          ],
+          "steps": [
+            "Buka foto, screenshot, atau PDF di PhotoCleaner+.",
+            "Periksa kotak yang disarankan — nomor telepon, email, nomor kartu, dan teks serupa — dan tambahkan kotak Anda sendiri dengan menggambar.",
+            "Pindahkan, ubah ukuran, atau hapus kotak sampai semua yang pribadi tertutup.",
+            "Ekspor salinan yang sudah dimasker dan bagikan itu. Foto asli Anda tidak berubah, dan salinan yang disimpan tidak membawa data EXIF atau GPS."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah blur cukup untuk menyembunyikan nomor telepon?",
+          "a": "Tidak selalu. Blur ringan pada teks kecil terkadang bisa dibaca atau ditebak. Masker padat yang tidak tembus pandang adalah pilihan yang aman."
+        },
+        {
+          "q": "Apakah PhotoCleaner+ mengunggah foto saya?",
+          "a": "Tidak. Deteksi dan penyamaran berjalan di ponsel Anda, dan foto serta dokumen Anda tidak pernah diunggah."
+        },
+        {
+          "q": "Apakah gratis?",
+          "a": "Deteksi, penyuntingan, dan penyamaran gratis; Anda bisa mengekspor 3 kali sehari. Pro menghapus batas harian dan menambahkan ekspor PDF serta cetak, atau iklan singkat membuka batasnya selama 24 jam."
+        }
+      ]
+    },
+    "sticky-notes-always-on-top-windows": {
+      "app": "floatnotewin",
+      "updated": "2026-10-14",
+      "title": "Cara membuat catatan tempel selalu di atas di Windows",
+      "desc": "Catatan di desktop akhirnya tertutup jendela yang sedang Anda kerjakan. Berikut cara menyematkan catatan di atas semua jendela — dengan PowerToys, atau dengan catatan yang memang dirancang mengambang.",
+      "intro": "Catatan tempel hanya berguna jika terlihat. Di Windows, catatan di desktop biasanya tertutup browser, dokumen, atau lembar kerja yang sedang Anda kerjakan, sehingga Anda harus mencarinya. Ada dua cara agar catatan tetap di atas.",
+      "sections": [
+        {
+          "h": "Opsi 1: sematkan jendela dengan PowerToys",
+          "p": [
+            "Microsoft PowerToys, kumpulan utilitas gratis dari Microsoft, punya fitur “Always On Top”. Pasang PowerToys, aktifkan “Always On Top”, klik jendela yang ingin tetap di depan — misalnya jendela catatan — lalu tekan Win+Ctrl+T. Tekan lagi untuk melepas sematan.",
+            "Cara ini berfungsi untuk hampir semua jendela. Kelemahannya, jendela yang disematkan tetap jendela penuh: ia mengambil fokus saat diklik, dan menutupi area yang sama baik saat Anda membaca catatan maupun tidak."
+          ]
+        },
+        {
+          "h": "Opsi 2: catatan yang memang dirancang mengambang",
+          "p": [
+            "FloatNote+ for Windows (aplikasi kami) menampilkan setiap catatan sebagai chip kecil di atas semua jendela. Klik chip dan catatan terbentang jadi kartu di tempat itu juga; tekan Esc dan catatan menciut kembali. Chip tidak pernah mengambil fokus dari aplikasi di belakangnya, jadi kursor tetap di tempat Anda mengetik."
+          ],
+          "steps": [
+            "Pasang FloatNote+ dari Microsoft Store.",
+            "Buat catatan dari ikon tray atau dengan pintasan global — catatan muncul sebagai kartu di atas layar.",
+            "Lanjutkan bekerja: catatan tetap di atas semua jendela. Tekan Esc untuk menciutkannya jadi chip.",
+            "Seret chip ke mana saja, gunakan warna dan teks kaya untuk membedakannya, dan atur pengingat agar catatan muncul pada waktu tertentu."
+          ]
+        },
+        {
+          "h": "Catatan Anda juga ada di ponsel",
+          "p": [
+            "FloatNote+ for Windows tersinkron dengan aplikasi Android FloatNote+ melalui Google Drive Anda sendiri, jadi catatan yang Anda tulis di PC juga ada di ponsel. Semua fitur versi Windows gratis."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah Sticky Notes Windows tetap di atas jendela lain?",
+          "a": "Pada kebanyakan pengaturan, tidak dengan sendirinya. Anda bisa menyematkan jendela apa pun, termasuk jendela catatan, dengan “Always On Top” di PowerToys (Win+Ctrl+T), atau memakai aplikasi yang catatannya memang dirancang mengambang di atas jendela lain."
+        },
+        {
+          "q": "Apakah catatan mengambang merebut fokus dari yang sedang saya ketik?",
+          "a": "Chip FloatNote+ tidak. Mengklik atau menyeret chip membiarkan kursor tetap di aplikasi yang Anda pakai; hanya kartu yang terbuka yang mengambil fokus, karena Anda mengetik di dalamnya."
+        }
+      ]
+    },
+    "clipboard-history-windows": {
+      "app": "clipboardwin",
+      "updated": "2026-10-14",
+      "title": "Cara melihat riwayat clipboard di Windows",
+      "desc": "Windows punya riwayat clipboard bawaan (Win+V), tetapi pendek dan terhapus saat restart. Berikut cara memakainya, dan cara menyimpan riwayat yang bisa dicari dan bertahan lama.",
+      "intro": "Salin sesuatu yang baru dan klip sebelumnya hilang — kecuali Anda menyimpan riwayat. Windows 10 dan 11 punya riwayat bawaan, dan pengelola clipboard bisa menyimpan riwayat yang lebih panjang.",
+      "sections": [
+        {
+          "h": "Opsi 1: riwayat clipboard bawaan (Win+V)",
+          "p": [
+            "Tekan Win+V. Pertama kali, Windows meminta Anda mengaktifkan riwayat clipboard (bisa juga lewat Pengaturan > Sistem > Papan klip). Setelah itu, Win+V menampilkan klip terbaru Anda, dan mengklik salah satunya akan menempelkannya.",
+            "Cepat, tetapi terbatas: hanya menyimpan hingga 25 item, dan semuanya kecuali item yang disematkan terhapus saat PC dinyalakan ulang. Tidak ada pencarian, dan tidak terhubung ke ponsel Anda."
+          ]
+        },
+        {
+          "h": "Opsi 2: pengelola clipboard yang menyimpan semuanya",
+          "p": [
+            "Clipboard+ for Windows (aplikasi kami) tinggal di tray dan menyimpan teks serta gambar begitu Anda menyalinnya. Riwayat tetap ada sampai Anda menghapusnya, dan Anda bisa mencarinya, merapikannya ke dalam grup dan snippet, serta memanggilnya dengan pintasan."
+          ],
+          "steps": [
+            "Pasang Clipboard+ dari Microsoft Store; aplikasi berjalan di baki sistem.",
+            "Salin seperti biasa — setiap klip teks dan gambar tersimpan otomatis.",
+            "Tekan pintasan global untuk membuka popup pilih cepat di posisi kursor, pilih klip dengan Ctrl+1–9, lalu tekan Enter untuk menempelkannya.",
+            "Buka jendelanya untuk mencari, menyematkan, menyunting, atau menyimpan teks yang sering dipakai sebagai snippet."
+          ]
+        },
+        {
+          "h": "Antara ponsel dan PC",
+          "p": [
+            "Dipakai bersama aplikasi Android Clipboard+, apa yang Anda salin di ponsel bisa ditempel di PC, dan sebaliknya, melalui Google Drive Anda sendiri. Riwayat clipboard, snippet, grup, pencarian, dan popup pilih cepat gratis; Pro menambahkan sinkronisasi, penyimpanan gambar tanpa batas, dan ekspor PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mengapa riwayat clipboard Win+V kosong setelah restart?",
+          "a": "Windows menghapus riwayat clipboard saat PC dinyalakan ulang, kecuali item yang disematkan. Pengelola clipboard seperti Clipboard+ menyimpan riwayat Anda meski PC dinyalakan ulang."
+        },
+        {
+          "q": "Berapa item yang disimpan riwayat clipboard Windows?",
+          "a": "Hingga 25. Item lama tergeser saat Anda menyalin yang baru."
+        }
+      ]
+    },
+    "timer-always-on-top-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-14",
+      "title": "Cara membuat timer selalu di atas jendela lain di Windows",
+      "desc": "Biarkan hitung mundur tetap terlihat saat Anda bekerja di jendela lain — dengan “Keep on top” di aplikasi Jam, atau dengan timer yang mengambang sebagai kartu kecil di atas semuanya.",
+      "intro": "Mengatur waktu presentasi, sesi fokus, atau panggilan lebih mudah jika waktunya terus terlihat. Windows punya satu cara bawaan, dan aplikasi timer mengambang menambahkan lebih banyak pilihan.",
+      "sections": [
+        {
+          "h": "Opsi 1: “Keep on top” di aplikasi Jam",
+          "p": [
+            "Aplikasi Jam bawaan Windows bisa menampilkan timer di jendela kecil yang tetap di atas jendela lain: mulai timer, perbesar tampilannya, lalu pilih “Keep on top”. Cara ini berlaku untuk satu timer dan menampilkannya di jendela kecil yang tetap."
+          ]
+        },
+        {
+          "h": "Opsi 2: kartu timer mengambang",
+          "p": [
+            "FloatTimer+ for Windows (aplikasi kami) menampilkan timer, penghitung, dan stopwatch yang mengambang di atas semua jendela sebagai kartu pastel kecil. Kartu tidak pernah mengambil fokus, jadi mengkliknya membiarkan kursor tetap di tempat Anda mengetik."
+          ],
+          "steps": [
+            "Pasang FloatTimer+ dari Microsoft Store; aplikasi tinggal di baki sistem.",
+            "Buat timer, penghitung, atau stopwatch lalu jadikan mengambang.",
+            "Mulai, jeda, dan reset langsung dari kartunya; seret ke mana saja atau ubah ukurannya.",
+            "Ciutkan menjadi gelembung kecil, atau dorong ke tepi layar, saat Anda ingin layar kembali lega."
+          ]
+        },
+        {
+          "h": "Gratis dan Pro",
+          "p": [
+            "Anda bisa membuat timer, penghitung, dan stopwatch sebanyak yang Anda mau, tanpa iklan. Versi gratis menampilkan satu kartu mengambang dalam satu waktu; Pro adalah pembelian sekali bayar yang menampilkan sebanyak yang Anda mau dan menambahkan timer berulang serta peringatan khusus."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah Windows punya timer yang selalu di atas?",
+          "a": "“Keep on top” di aplikasi Jam menampilkan satu timer di jendela kecil di atas jendela lain. Untuk beberapa timer, penghitung, atau stopwatch sekaligus, gunakan aplikasi timer mengambang."
+        },
+        {
+          "q": "Apakah timer mengambang akan mengganggu pekerjaan saya?",
+          "a": "Kartu FloatTimer+ tidak pernah mengambil fokus dari aplikasi di bawahnya, dan Anda bisa menciutkannya menjadi gelembung atau menyelipkannya ke tepi layar."
+        }
+      ]
+    },
+    "reading-ruler-dyslexia-adhd-android": {
+      "app": "readfocus",
+      "updated": "2026-10-14",
+      "title": "Penggaris baca untuk disleksia dan ADHD di Android: tidak kehilangan baris saat membaca",
+      "desc": "Sering kehilangan baris, melompati baris, atau membaca ulang kalimat yang sama? Penggaris baca atau masker baca di atas aplikasi apa pun membantu mata tetap pada jalurnya. Berikut cara mengaturnya di Android.",
+      "intro": "Teks panjang di layar ponsel mudah membuat kita tersesat: mata tergelincir ke baris berikutnya, melompati baris, atau kembali ke kalimat yang sudah dibaca. Banyak orang dengan disleksia atau ADHD memakai penggaris atau kartu di bawah baris saat membaca di kertas. Di ponsel, penggaris baca melakukan hal yang sama di layar.",
+      "sections": [
+        {
+          "h": "Mulai dari pengaturan tampilan",
+          "p": [
+            "Pengaturan aksesibilitas dan tampilan Android — ukuran font lebih besar, teks tebal, tema gelap — bisa membuat teks lebih mudah dibaca. Namun pengaturan ini tidak menandai baris yang sedang Anda baca, padahal itulah yang membantu saat mata terus berkelana."
+          ]
+        },
+        {
+          "h": "Tambahkan penggaris baca dengan ReadFocus+",
+          "p": [
+            "ReadFocus+ (aplikasi kami) menampilkan strip fokus yang mengambang di atas aplikasi apa pun — ebook, PDF, browser, berita, webtoon. Pilih Sorotan Baris untuk menerangi baris yang sedang Anda baca, atau Masker Baca untuk meredupkan semuanya kecuali zona baca Anda."
+          ],
+          "steps": [
+            "Pasang ReadFocus+ dari Google Play dan izinkan “Tampilkan di atas aplikasi lain”.",
+            "Pilih mode: Sorotan Baris (penggaris baca) atau Masker Baca.",
+            "Buka aplikasi tempat Anda membaca dan seret strip ke baris Anda.",
+            "Sesuaikan tinggi (50–300 dp), opasitas, dan tema warnanya sampai terasa nyaman."
+          ]
+        },
+        {
+          "h": "Gratis dan Pro",
+          "p": [
+            "Versi gratis memberi waktu overlay 60 menit per sesi dan 3 tema warna. Pro menghapus iklan dan batas waktu serta menambahkan kesepuluh tema dan fitur menjaga layar tetap menyala, atau iklan singkat membuka fitur Pro selama 24 jam."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah penggaris baca membantu disleksia?",
+          "a": "Banyak pembaca dengan disleksia atau ADHD merasa menandai baris yang sedang dibaca membuat mereka lebih mudah tidak kehilangan baris. Ini alat bantu baca, bukan pengobatan — cobalah dan pertahankan pengaturan yang terasa nyaman."
+        },
+        {
+          "q": "Aplikasi apa saja yang bisa dipakai dengan ReadFocus+?",
+          "a": "Aplikasi apa pun di layar: pembaca ebook dan PDF, browser, berita, catatan belajar, komik, dan webtoon."
+        }
+      ]
+    },
+    "reading-ruler-windows": {
+      "app": "readfocuswin",
+      "updated": "2026-10-14",
+      "title": "Cara memakai penggaris baca di Windows (untuk disleksia dan ADHD)",
+      "desc": "“Immersive Reader” di Edge punya “Line focus” untuk halaman web. Untuk PDF, dokumen, dan aplikasi lainnya, strip fokus tembus klik menjaga mata tetap di baris. Berikut cara memakai keduanya.",
+      "intro": "Membaca halaman panjang di monitor membuat kita mudah kehilangan baris. Penggaris baca menyorot baris yang sedang Anda baca, atau meredupkan bagian layar lainnya, agar mata tetap pada jalurnya.",
+      "sections": [
+        {
+          "h": "Opsi 1: “Line focus” di Microsoft Edge",
+          "p": [
+            "Microsoft Edge punya “Immersive Reader”, tampilan baca yang bersih untuk halaman web. Di preferensi bacanya, “Line focus” menyorot satu, tiga, atau lima baris sekaligus. Fitur ini hanya berfungsi di halaman yang terbuka di “Immersive Reader”, tidak di PDF, dokumen, atau aplikasi lain."
+          ]
+        },
+        {
+          "h": "Opsi 2: strip fokus di atas aplikasi apa pun",
+          "p": [
+            "ReadFocus+ for Windows (aplikasi kami) meletakkan strip fokus di atas apa pun yang sedang Anda baca — halaman web, PDF, dokumen, kode. Masker meredupkan bagian atas dan bawah layar dan menyisakan pita terang; Sorotan menandai baris yang sedang Anda baca. Strip ini tembus klik, jadi Anda tetap menggulir dan mengklik di bawahnya seperti biasa."
+          ],
+          "steps": [
+            "Pasang ReadFocus+ dari Microsoft Store.",
+            "Mulai dari panel mengambang atau dengan pintasan keyboard, lalu pilih Masker atau Sorotan.",
+            "Pindahkan strip ke baris Anda, atau geser naik dan turun dengan pintasan sambil membaca.",
+            "Kunci, sembunyikan, atau pindahkan ke monitor lain dari panel."
+          ]
+        },
+        {
+          "h": "Gratis dan Pro",
+          "p": [
+            "Versi gratis mencakup kedua mode dan tiga tema, dalam sesi hingga 60 menit. Pro adalah pembelian sekali bayar yang menghapus batas waktu dan menambahkan tema premium, pengaturan tinggi dan opasitas strip, serta fitur menjaga layar tetap menyala. Tidak ada iklan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah Windows punya penggaris baca?",
+          "a": "“Immersive Reader” di Edge punya “Line focus” untuk halaman web. Untuk aplikasi lain — PDF, Word, editor kode — Anda memerlukan overlay layar seperti ReadFocus+ for Windows."
+        },
+        {
+          "q": "Apakah strip ini menghalangi klik saya?",
+          "a": "Tidak. ReadFocus+ for Windows tembus klik: menggulir, memilih, dan mengklik diteruskan ke aplikasi di bawahnya."
+        }
+      ]
+    },
+    "floating-calculator-over-other-apps-android": {
+      "app": "floatcalc",
+      "updated": "2026-10-14",
+      "title": "Cara memakai kalkulator di atas aplikasi lain di Android",
+      "desc": "Hitung diskon atau konversi harga tanpa meninggalkan layar belanja, perbankan, atau browser: kalkulator mengambang yang tetap di atas aplikasi apa pun, dengan konverter satuan dan mata uang.",
+      "intro": "Mengecek harga di aplikasi belanja, membagi tagihan di chat, mengonversi mata uang saat memesan — berpindah ke aplikasi Kalkulator lalu kembali membuat Anda kehilangan posisi dan harus mengingat angka di kepala. Kalkulator mengambang tetap tampil di layar di atas aplikasi yang sedang Anda pakai.",
+      "sections": [
+        {
+          "h": "Opsi 1: layar terpisah",
+          "p": [
+            "Android bisa menampilkan dua aplikasi sekaligus dalam layar terpisah. Buka layar aplikasi terbaru, pilih layar terpisah untuk satu aplikasi, lalu pilih Kalkulator untuk separuh lainnya. Cara ini berhasil, tetapi setiap aplikasi hanya mendapat separuh layar."
+          ]
+        },
+        {
+          "h": "Opsi 2: kalkulator mengambang",
+          "p": [
+            "FloatCalc+ (aplikasi kami) adalah jendela kalkulator yang mengambang di atas aplikasi apa pun. Kalkulator, konverter satuan, dan konverter mata uang berbagi satu jendela yang bisa Anda seret ke mana saja; lipat papan tombolnya menjadi satu baris atau perkecil panelnya menjadi ikon di tepi layar saat Anda butuh ruang."
+          ],
+          "steps": [
+            "Pasang FloatCalc+ dari Google Play dan izinkan “Tampilkan di atas aplikasi lain”.",
+            "Buka kalkulator mengambang dan seret ke tempat yang tidak menutupi apa yang Anda butuhkan.",
+            "Ketik perhitungannya — pangkat, akar, dan persen juga bisa — lalu salin hasilnya ke papan klip.",
+            "Beralih ke konverter satuan atau mata uang di jendela yang sama. Kurs berasal dari Bank Sentral Eropa, diperbarui setiap hari, dan tetap berfungsi saat offline."
+          ]
+        },
+        {
+          "h": "Gratis dan Pro",
+          "p": [
+            "Kalkulator mengambang gratis 60 menit per hari; baris judul menunjukkan sisa waktunya, dan iklan singkat memberi pass 24 jam. Pro menghapus batas harian dan iklan, serta menambahkan semua kategori satuan, 30+ mata uang, dan lebih banyak tema."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah saya memakai kalkulator tanpa keluar dari aplikasi?",
+          "a": "Bisa. Kalkulator mengambang seperti FloatCalc+ tetap di atas aplikasi lain setelah Anda mengizinkan “Tampilkan di atas aplikasi lain”."
+        },
+        {
+          "q": "Dari mana kurs mata uangnya berasal?",
+          "a": "Dari Bank Sentral Eropa, diperbarui sekali sehari dan disimpan untuk dipakai offline."
+        }
+      ]
+    },
+    "crypto-price-ticker-over-other-apps-android": {
+      "app": "floatcrypto",
+      "updated": "2026-10-14",
+      "title": "Cara melihat harga kripto sambil memakai aplikasi lain di Android",
+      "desc": "Biarkan ticker kripto langsung tetap di layar saat Anda menonton video, membaca, atau mengobrol, dan dapatkan notifikasi saat koin melewati harga target Anda.",
+      "intro": "Aplikasi bursa kripto menampilkan harga di dalam aplikasi atau di widget layar utama, jadi mengecek pasar berarti meninggalkan apa pun yang sedang Anda lakukan. Ticker mengambang menjaga harga yang Anda ikuti tetap di layar di atas aplikasi apa pun.",
+      "sections": [
+        {
+          "h": "Atur ticker mengambang dengan FloatCrypto+",
+          "p": [
+            "FloatCrypto+ (aplikasi kami) menampilkan ticker harga yang mengambang di atas semua aplikasi — YouTube, berita, game, chat. Seret ke mana saja, ubah ukurannya, dan turunkan opasitasnya agar tidak menutupi yang sedang Anda baca."
+          ],
+          "steps": [
+            "Pasang FloatCrypto+ dari Google Play dan izinkan “Tampilkan di atas aplikasi lain”.",
+            "Tambahkan koin yang Anda ikuti ke daftar pantauan dan seret untuk mengatur urutannya.",
+            "Aktifkan ticker mengambang dan letakkan di tempat yang Anda suka.",
+            "Tetapkan alarm harga batas atas atau bawah dari menu ⋮ sebuah koin agar diberi tahu saat pasar melewatinya."
+          ]
+        },
+        {
+          "h": "Perlu diketahui",
+          "p": [
+            "Harga berasal dari Binance dengan sumber cadangan otomatis dan bisa tertunda hingga 30 detik (10 detik pada Pro). Harga hanya sebagai referensi, dan aplikasi ini tidak melakukan trading atau terhubung ke akun bursa. Tidak ada isi di sini yang merupakan saran investasi.",
+            "Versi gratis memantau 2 koin dengan 1 alarm. Free Pass membuka lebih banyak koin atau grafik yang lebih panjang selama 24 jam dengan iklan singkat, dan Pro memberi 10 koin, alarm tanpa batas, penyegaran 10 detik, dan tanpa iklan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah saya melihat harga kripto di atas YouTube atau game?",
+          "a": "Bisa. Ticker mengambang di atas semua aplikasi setelah Anda mengizinkan “Tampilkan di atas aplikasi lain”."
+        },
+        {
+          "q": "Apakah harganya real-time?",
+          "a": "Harga bisa tertunda hingga 30 detik (10 detik pada Pro) dan hanya sebagai referensi."
+        }
+      ]
+    },
+    "make-android-phone-louder": {
+      "app": "volumebooster",
+      "updated": "2026-10-14",
+      "title": "Cara membuat suara HP Android lebih keras",
+      "desc": "Ponsel terlalu pelan meski volume sudah penuh? Periksa pengaturan ini dulu, lalu lihat cara penguat volume menaikkan keluaran dengan aman — dengan penguatan yang ditampilkan dalam desibel.",
+      "intro": "Jika video, panggilan dengan speaker, atau musik terlalu pelan meski volume sudah penuh, mulailah dari beberapa pengaturan — terkadang ponsel hanya membatasi dirinya sendiri. Jika itu belum cukup, penguat volume bisa menaikkan keluarannya lebih jauh.",
+      "sections": [
+        {
+          "h": "Periksa ini dulu",
+          "p": [
+            "Pastikan Anda menaikkan volume media, bukan nada dering: tekan tombol volume saat video sedang diputar, atau buka panel volume dan naikkan penggeser media.",
+            "Beberapa ponsel punya batas volume media. Di ponsel Samsung, cari “Media volume limiter” di pengaturan volume. Coba juga efek suara atau equalizer bawaan ponsel jika ada, dan periksa apakah casing menutupi speaker."
+          ]
+        },
+        {
+          "h": "Naikkan keluaran dengan VolumeBooster+",
+          "p": [
+            "VolumeBooster+ (aplikasi kami) menaikkan keluaran sistem, bukan volume satu aplikasi, sehingga video, musik, dan game menjadi lebih keras. Penguatan ditampilkan dalam desibel dengan zona Aman, Hati-hati, dan Bahaya, jadi Anda bisa melihat sejauh mana Anda sudah menaikkannya."
+          ],
+          "steps": [
+            "Pasang VolumeBooster+ dari Google Play.",
+            "Putar sesuatu, lalu naikkan penguatan sedikit demi sedikit sambil memperhatikan zona dB.",
+            "Gunakan preset equalizer, penguat bass, atau AutoEQ untuk headphone Anda agar suaranya lebih jernih, bukan hanya lebih keras.",
+            "Turunkan penguatan saat tidak diperlukan — telinga dan speaker Anda akan berterima kasih."
+          ]
+        },
+        {
+          "h": "Gratis dan Pro, serta pendengaran Anda",
+          "p": [
+            "Versi gratis menguatkan hingga +10 dB selama 60 menit per hari; Pro atau Free Pass 24 jam membuka rentang penuh +15 dB. Nilai dB adalah perkiraan, dan aplikasi ini bukan alat medis — jika Anda merasakan nyeri telinga atau dengingan, turunkan volume."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah penguat volume merusak speaker atau pendengaran saya?",
+          "a": "Volume yang sangat tinggi bisa. Naikkan penguatan secara bertahap, perhatikan zona Aman/Hati-hati/Bahaya, dan turunkan jika suara pecah atau telinga Anda sakit."
+        },
+        {
+          "q": "Seberapa keras suaranya bisa dinaikkan?",
+          "a": "Hingga +15 dB dengan Pro atau Free Pass, dan hingga +10 dB pada versi gratis. Kenyaringan sebenarnya bergantung pada perangkat, headphone, dan konten."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots-windows": {
+      "app": "photocleanerwin",
+      "updated": "2026-10-14",
+      "title": "Cara menyembunyikan info pribadi di screenshot dan PDF di Windows",
+      "desc": "Sebelum membagikan screenshot atau dokumen hasil pindai dari PC Anda, tutup nomor telepon, nomor kartu, nomor identitas, dan wajah dengan masker padat — tanpa mengunggah apa pun.",
+      "intro": "Screenshot dan dokumen hasil pindai sering memuat nomor telepon, email, nomor kartu atau identitas, alamat, atau wajah. Sebelum mengirim atau mengunggahnya dari PC Anda, tutup informasi itu agar tidak bisa dipulihkan.",
+      "sections": [
+        {
+          "h": "Opsi 1: Snipping Tool",
+          "p": [
+            "Versi terbaru Snipping Tool di Windows 11 bisa menyembunyikan alamat email dan nomor telepon di screenshot melalui “Text actions”, dan Anda bisa menggambar di atas apa pun yang lain. Hindari stabilo untuk ini — stabilo semi-transparan — dan gunakan goresan padat yang menutupi setiap item sepenuhnya."
+          ]
+        },
+        {
+          "h": "Opsi 2: PhotoCleaner+ for Windows",
+          "p": [
+            "PhotoCleaner+ for Windows (aplikasi kami) menemukan info yang kemungkinan pribadi di foto, screenshot, dan PDF — nomor telepon, email, nomor kartu, IBAN, nomor paspor, nama, alamat, pelat nomor, wajah, dan kode QR — lalu mengekspor salinan dengan masker padat. Semuanya berjalan di PC Anda; tidak ada yang diunggah."
+          ],
+          "steps": [
+            "Buka file, tempel dengan Ctrl+V, seret ke jendela, atau klik kanan file di File Explorer dan pilih “Clean with PhotoCleaner+”.",
+            "Periksa kotaknya: klik untuk mengaktifkan atau menonaktifkan, seret untuk memindahkan atau mengubah ukuran, dan gambar kotak Anda sendiri di atas apa pun yang terlewat.",
+            "Ekspor salinan yang sudah dimasker — simpan, salin, bagikan, atau simpan sebagai PDF. File asli Anda tidak pernah ditimpa, dan salinan yang disimpan tidak membawa metadata."
+          ]
+        },
+        {
+          "h": "Gratis dan Pro",
+          "p": [
+            "Menemukan info pribadi gratis dan tanpa batas, dan Anda bisa mengekspor 3 dokumen per hari secara gratis. Pro adalah pembelian sekali bayar yang menghapus batas harian serta menambahkan ekspor PDF dan cetak. Tidak ada iklan dan tidak ada watermark."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah semua info pribadi akan ditemukan?",
+          "a": "Tidak ada alat yang bisa menjanjikan itu. Deteksi hanyalah titik awal — selalu periksa kotaknya sebelum mengekspor dan tutup apa pun yang terlewat."
+        },
+        {
+          "q": "Apakah file saya diunggah?",
+          "a": "Tidak. Deteksi, penyamaran, dan ekspor berjalan di PC Anda, tanpa akun dan tanpa ada yang diunggah."
+        }
+      ]
+    },
+    "crypto-price-ticker-on-top-windows": {
+      "app": "floatcryptowin",
+      "updated": "2026-10-14",
+      "title": "Cara menampilkan ticker kripto langsung di atas jendela lain di Windows",
+      "desc": "Pantau koin yang Anda ikuti sambil bekerja: ticker harga ramping di atas setiap jendela, peringatan harga sebagai notifikasi desktop, dan grafik cukup dengan klik dua kali.",
+      "intro": "Membiarkan tab bursa kripto terbuka berarti harus berpindah ke sana setiap kali ingin melihat harga. Ticker mengambang menjaga koin yang Anda ikuti tetap terlihat di atas setiap jendela.",
+      "sections": [
+        {
+          "h": "Atur FloatCrypto+ for Windows",
+          "p": [
+            "FloatCrypto+ for Windows (aplikasi kami) menjaga ticker ramping tetap di atas setiap jendela, menampilkan simbol dan perubahan 24 jam setiap koin. Ticker tidak pernah mengambil fokus, jadi kursor Anda tetap di tempat Anda mengetik."
+          ],
+          "steps": [
+            "Pasang FloatCrypto+ dari Microsoft Store; aplikasi tinggal di baki sistem.",
+            "Pilih koin dari pasangan Binance dan seret untuk mengatur urutannya.",
+            "Letakkan ticker di mana saja, lalu atur opasitas dan ukuran teksnya — atau ciutkan menjadi gelembung di tepi layar.",
+            "Tetapkan target di atas atau di bawah harga saat ini untuk mendapat notifikasi desktop saat pasar melewatinya. Klik dua kali sebuah koin untuk melihat grafiknya."
+          ]
+        },
+        {
+          "h": "Perlu diketahui",
+          "p": [
+            "Arahkan kursor ke ikon baki untuk tabel harga lengkap, dan sembunyikan ticker dengan Ctrl+Alt+T. Harga berasal dari data pasar publik Binance dengan peralihan otomatis dan bisa tertunda hingga 30 detik; aplikasi ini tidak melakukan trading atau terhubung ke akun bursa, dan tidak ada isinya yang merupakan saran investasi.",
+            "Versi gratis memantau 2 koin dengan 1 peringatan; Pro adalah pembelian sekali bayar untuk 10 koin, peringatan tanpa batas, penyegaran 10 detik, dan grafik yang lebih panjang. Tidak ada iklan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah ticker akan mengganggu pekerjaan saya?",
+          "a": "Tidak. Ticker tidak pernah mengambil fokus; Anda bisa menurunkan opasitasnya, menciutkannya menjadi gelembung, atau menyembunyikannya dengan Ctrl+Alt+T."
+        },
+        {
+          "q": "Apakah aplikasi ini memerlukan akun bursa saya?",
+          "a": "Tidak. Aplikasi ini hanya membaca data pasar publik dan tidak pernah melakukan trading atau menyimpan dana."
+        }
+      ]
+    }
+  }
+}

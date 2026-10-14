@@ -233,6 +233,428 @@
           "a": "Detection, editing and masking are free; you can export 3 times a day. Pro removes the daily limit and adds PDF export and printing, or a short ad lifts the limit for 24 hours."
         }
       ]
+    },
+    "sticky-notes-always-on-top-windows": {
+      "app": "floatnotewin",
+      "updated": "2026-10-14",
+      "title": "How to keep a sticky note always on top on Windows",
+      "desc": "Notes on the desktop end up behind the window you are working in. Here is how to pin a note on top of every window — with PowerToys, or with notes that float by design.",
+      "intro": "A sticky note is only useful if you can see it. On Windows, notes on the desktop usually end up behind the browser, document or spreadsheet you are working in, so you have to dig for them. There are two ways to keep a note on top.",
+      "sections": [
+        {
+          "h": "Option 1: pin a window with PowerToys",
+          "p": [
+            "Microsoft PowerToys, a free set of utilities from Microsoft, includes Always On Top. Install PowerToys, turn on Always On Top, click the window you want to keep in front — for example a notes window — and press Win+Ctrl+T. Press it again to unpin.",
+            "This works for almost any window. The catch is that a pinned window is a full window: it takes focus when you click it, and it covers the same space whether you are reading the note or not."
+          ]
+        },
+        {
+          "h": "Option 2: notes that float by design",
+          "p": [
+            "FloatNote+ for Windows (our app) keeps each note as a small chip above every window. Click the chip and it opens as a card right there; press Esc and it folds back. Chips never take focus from the app behind them, so your cursor stays where you were typing."
+          ],
+          "steps": [
+            "Install FloatNote+ from the Microsoft Store.",
+            "Create a note from the tray icon or with a global hotkey — it appears as a card over your screen.",
+            "Keep working: the note stays above every window. Press Esc to fold it into a chip.",
+            "Drag chips anywhere, use colors and rich text to tell them apart, and set a reminder to bring a note up at a set time."
+          ]
+        },
+        {
+          "h": "Your notes on your phone too",
+          "p": [
+            "FloatNote+ for Windows syncs with the FloatNote+ Android app through your own Google Drive, so a note you write on your PC is on your phone. Every feature of the Windows version is free."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can Windows Sticky Notes stay on top of other windows?",
+          "a": "Not by themselves in most setups. You can pin any window, including a notes window, with PowerToys Always On Top (Win+Ctrl+T), or use an app whose notes float above other windows by design."
+        },
+        {
+          "q": "Does a floating note steal focus from what I'm typing?",
+          "a": "FloatNote+ chips don't. Clicking or dragging a chip leaves your cursor in the app you were using; only an opened card takes focus, because you type into it."
+        }
+      ]
+    },
+    "clipboard-history-windows": {
+      "app": "clipboardwin",
+      "updated": "2026-10-14",
+      "title": "How to see your clipboard history on Windows",
+      "desc": "Windows has a built-in clipboard history (Win+V), but it is short and is cleared when you restart. Here is how to use it, and how to keep a searchable history that lasts.",
+      "intro": "Copy something new and the previous clip is gone — unless you keep a history. Windows 10 and 11 have one built in, and a clipboard manager can keep a longer one.",
+      "sections": [
+        {
+          "h": "Option 1: the built-in clipboard history (Win+V)",
+          "p": [
+            "Press Win+V. The first time, Windows asks you to turn clipboard history on (you can also do it in Settings > System > Clipboard). After that, Win+V shows your recent clips, and clicking one pastes it.",
+            "It is quick, but limited: it keeps up to 25 items, and everything except pinned items is cleared when you restart the PC. There is no search, and it does not reach your phone."
+          ]
+        },
+        {
+          "h": "Option 2: a clipboard manager that keeps everything",
+          "p": [
+            "Clipboard+ for Windows (our app) sits in the tray and saves the text and images you copy the moment you copy them. Your history stays until you delete it, and you can search it, organize it into groups and snippets, and pull it up with a hotkey."
+          ],
+          "steps": [
+            "Install Clipboard+ from the Microsoft Store; it starts in the system tray.",
+            "Copy as usual — every text and image clip is saved automatically.",
+            "Press the global hotkey to open the quick-pick popup at your cursor, pick a clip with Ctrl+1–9 and press Enter to paste it.",
+            "Open the window to search, pin, edit, or keep frequently used text as snippets."
+          ]
+        },
+        {
+          "h": "Between your phone and PC",
+          "p": [
+            "Paired with the Clipboard+ Android app, what you copy on your phone pastes on your PC and the other way around, through your own Google Drive. Clipboard history, snippets, groups, search and the quick-pick popup are free; Pro adds sync, unlimited image storage and PDF export."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is my Win+V clipboard history empty after a restart?",
+          "a": "Windows clears clipboard history when the PC restarts, except for pinned items. A clipboard manager such as Clipboard+ keeps your history across restarts."
+        },
+        {
+          "q": "How many items does Windows clipboard history keep?",
+          "a": "Up to 25. Older items drop off as you copy new ones."
+        }
+      ]
+    },
+    "timer-always-on-top-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-14",
+      "title": "How to keep a timer on top of other windows on Windows",
+      "desc": "Keep a countdown visible while you work in other windows — with the Clock app's \"Keep on top\", or with timers that float as small cards over everything.",
+      "intro": "Timing a presentation, a focus session or a call is easier when the time stays in view. Windows offers one built-in way, and a floating-timer app adds more.",
+      "sections": [
+        {
+          "h": "Option 1: \"Keep on top\" in the Clock app",
+          "p": [
+            "The Clock app that comes with Windows can show a timer in a small window that stays above other windows: start a timer, expand it, and choose Keep on top. It works for a single timer and shows it in a fixed small window."
+          ]
+        },
+        {
+          "h": "Option 2: floating timer cards",
+          "p": [
+            "FloatTimer+ for Windows (our app) floats timers, counters and stopwatches above every window as small pastel cards. Cards never take focus, so clicking one leaves your cursor where you were typing."
+          ],
+          "steps": [
+            "Install FloatTimer+ from the Microsoft Store; it lives in the system tray.",
+            "Create a timer, counter or stopwatch and float it.",
+            "Start, pause and reset from the card itself; drag it anywhere or resize it.",
+            "Collapse it into a small bubble, or push it against the screen edge, when you want the space back."
+          ]
+        },
+        {
+          "h": "Free and Pro",
+          "p": [
+            "You can make as many timers, counters and stopwatches as you like, with no ads. The free version floats one card at a time; Pro is a one-time purchase that floats as many as you want and adds repeating timers and custom alerts."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Windows have an always-on-top timer?",
+          "a": "The Clock app's Keep on top shows one timer in a small window above others. For several timers, counters or stopwatches at once, use a floating-timer app."
+        },
+        {
+          "q": "Will a floating timer get in the way of my work?",
+          "a": "FloatTimer+ cards never take focus from the app underneath, and you can collapse them into a bubble or tuck them against the screen edge."
+        }
+      ]
+    },
+    "reading-ruler-dyslexia-adhd-android": {
+      "app": "readfocus",
+      "updated": "2026-10-14",
+      "title": "Reading ruler for dyslexia and ADHD on Android: keep your place while reading",
+      "desc": "Losing the line, skipping rows or re-reading the same sentence? A reading ruler or reading mask over any app helps your eyes stay on track. Here is how to set one up on Android.",
+      "intro": "Long text on a phone screen is easy to get lost in: your eyes slip to the next line, skip a row, or come back to a sentence you already read. Many people with dyslexia or ADHD use a ruler or a card under the line when reading on paper. On a phone, a reading ruler does the same job on screen.",
+      "sections": [
+        {
+          "h": "Start with your display settings",
+          "p": [
+            "Android's accessibility and display settings — larger font size, bold text, dark theme — can make text easier to read. They don't, however, mark the line you are on, which is what helps when your eyes keep wandering."
+          ]
+        },
+        {
+          "h": "Add a reading ruler with ReadFocus+",
+          "p": [
+            "ReadFocus+ (our app) floats a focus strip on top of any app — ebooks, PDFs, browsers, news, webtoons. Choose Line Highlight to light up the line you are reading, or Reading Mask to dim everything except your reading zone."
+          ],
+          "steps": [
+            "Install ReadFocus+ from Google Play and allow \"Display over other apps\".",
+            "Pick a mode: Line Highlight (a reading ruler) or Reading Mask.",
+            "Open the app you're reading in and drag the strip to your line.",
+            "Adjust its height (50–300 dp), opacity and color theme until it feels comfortable."
+          ]
+        },
+        {
+          "h": "Free and Pro",
+          "p": [
+            "The free version gives 60 minutes of overlay time per session and 3 color themes. Pro removes ads and the time limit and adds all 10 themes and keep-screen-on, or a short ad unlocks Pro features for 24 hours."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does a reading ruler help with dyslexia?",
+          "a": "Many readers with dyslexia or ADHD find that marking the current line makes it easier to keep their place. It is a reading aid, not a treatment — try it and keep the settings that feel comfortable."
+        },
+        {
+          "q": "Which apps does ReadFocus+ work with?",
+          "a": "Any app on screen: ebook and PDF readers, browsers, news, study notes, comics and webtoons."
+        }
+      ]
+    },
+    "reading-ruler-windows": {
+      "app": "readfocuswin",
+      "updated": "2026-10-14",
+      "title": "How to use a reading ruler on Windows (for dyslexia and ADHD)",
+      "desc": "Edge's Immersive Reader has Line focus for web pages. For PDFs, documents and every other app, a click-through focus strip keeps your eyes on the line. Here is how to use both.",
+      "intro": "Reading long pages on a monitor makes it easy to lose the line. A reading ruler highlights the line you are on, or dims the rest of the screen, so your eyes stay on track.",
+      "sections": [
+        {
+          "h": "Option 1: Line focus in Microsoft Edge",
+          "p": [
+            "Microsoft Edge has Immersive Reader, a clean reading view for web pages. In its reading preferences, Line focus highlights one, three or five lines at a time. It only works on pages that open in Immersive Reader, not in PDFs, documents or other apps."
+          ]
+        },
+        {
+          "h": "Option 2: a focus strip over any app",
+          "p": [
+            "ReadFocus+ for Windows (our app) lays a focus strip over whatever you are reading — a web page, a PDF, a document, code. Mask dims the top and bottom of the screen and leaves a clear band; Highlight marks the line you are on. The strip is click-through, so you keep scrolling and clicking underneath as before."
+          ],
+          "steps": [
+            "Install ReadFocus+ from the Microsoft Store.",
+            "Start it from the floating panel or with a keyboard shortcut, and choose Mask or Highlight.",
+            "Move the strip to your line, or nudge it up and down with shortcuts as you read.",
+            "Lock it, hide it, or move it to another monitor from the panel."
+          ]
+        },
+        {
+          "h": "Free and Pro",
+          "p": [
+            "The free version includes both modes and three themes, in sessions of up to 60 minutes. Pro is a one-time purchase that removes the time limit and adds premium themes, strip height and opacity settings, and keep-screen-on. There are no ads."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Windows have a reading ruler?",
+          "a": "Edge's Immersive Reader has Line focus for web pages. For other apps — PDFs, Word, code editors — you need a screen overlay such as ReadFocus+ for Windows."
+        },
+        {
+          "q": "Will the strip block my clicks?",
+          "a": "No. ReadFocus+ for Windows is click-through: scrolling, selecting and clicking go to the app underneath."
+        }
+      ]
+    },
+    "floating-calculator-over-other-apps-android": {
+      "app": "floatcalc",
+      "updated": "2026-10-14",
+      "title": "How to use a calculator on top of other apps on Android",
+      "desc": "Work out a discount or convert a price without leaving your shopping, banking or browser screen: a floating calculator that stays over any app, with unit and currency converters.",
+      "intro": "Checking a price in a shopping app, splitting a bill in a chat, converting a currency while booking — switching to the Calculator app and back means losing your place and remembering numbers in your head. A floating calculator stays on screen over the app you are using.",
+      "sections": [
+        {
+          "h": "Option 1: split screen",
+          "p": [
+            "Android can show two apps at once in split screen. Open the recent apps screen, choose split screen for one app and pick the Calculator for the other half. It works, but each app gets only half of the screen."
+          ]
+        },
+        {
+          "h": "Option 2: a floating calculator",
+          "p": [
+            "FloatCalc+ (our app) is a calculator window that floats over any app. The calculator, unit converter and currency converter share one window you can drag anywhere; fold the keypad to a single line or shrink the panel to an icon at the screen edge when you need the space."
+          ],
+          "steps": [
+            "Install FloatCalc+ from Google Play and allow \"Display over other apps\".",
+            "Open the floating calculator and drag it where it doesn't cover what you need.",
+            "Type the expression — powers, roots and percentages work too — and copy the answer to the clipboard.",
+            "Switch to the unit or currency converter in the same window. Exchange rates come from the European Central Bank, refresh daily and keep working offline."
+          ]
+        },
+        {
+          "h": "Free and Pro",
+          "p": [
+            "The floating calculator is free for 60 minutes a day; the title bar shows how much is left, and a short ad gives a 24-hour pass. Pro removes the daily limit and ads and adds all unit categories, 30+ currencies and more themes."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I use a calculator without leaving my app?",
+          "a": "Yes. A floating calculator such as FloatCalc+ stays on top of other apps once you allow \"Display over other apps\"."
+        },
+        {
+          "q": "Where do the exchange rates come from?",
+          "a": "From the European Central Bank, refreshed once a day and cached for offline use."
+        }
+      ]
+    },
+    "crypto-price-ticker-over-other-apps-android": {
+      "app": "floatcrypto",
+      "updated": "2026-10-14",
+      "title": "How to see crypto prices while using other apps on Android",
+      "desc": "Keep a live crypto ticker on screen while you watch videos, read or chat, and get notified when a coin crosses your target price.",
+      "intro": "Exchange apps show prices inside the app or in a home-screen widget, so checking the market means leaving whatever you are doing. A floating ticker keeps the prices you follow on screen over any app.",
+      "sections": [
+        {
+          "h": "Set up a floating ticker with FloatCrypto+",
+          "p": [
+            "FloatCrypto+ (our app) floats a price ticker over every app — YouTube, news, a game, a chat. Drag it anywhere, resize it and lower its opacity so it doesn't cover what you are reading."
+          ],
+          "steps": [
+            "Install FloatCrypto+ from Google Play and allow \"Display over other apps\".",
+            "Add the coins you follow to your watchlist and drag them into your order.",
+            "Turn on the floating ticker and place it where you like.",
+            "Set an upper or lower price alert from a coin's ⋮ menu to be notified when the market crosses it."
+          ]
+        },
+        {
+          "h": "Good to know",
+          "p": [
+            "Prices come from Binance with an automatic fallback source and may be delayed by up to 30 seconds (10 seconds on Pro). They are for reference only, and the app does not trade or connect to an exchange account. Nothing here is investment advice.",
+            "Free follows 2 coins with 1 alert. A Free Pass opens more coins or longer charts for 24 hours with a short ad, and Pro gives 10 coins, unlimited alerts, a 10-second refresh and no ads."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I see crypto prices over YouTube or a game?",
+          "a": "Yes. The ticker floats on top of every app once you allow \"Display over other apps\"."
+        },
+        {
+          "q": "Are the prices real-time?",
+          "a": "They may be delayed by up to 30 seconds (10 seconds on Pro) and are for reference only."
+        }
+      ]
+    },
+    "make-android-phone-louder": {
+      "app": "volumebooster",
+      "updated": "2026-10-14",
+      "title": "How to make your Android phone louder",
+      "desc": "Phone too quiet even at full volume? Check these settings first, then see how a volume booster raises the output safely — with the boost shown in decibels.",
+      "intro": "If videos, calls on speaker or music are too quiet even at full volume, start with a few settings — sometimes the phone is simply limiting itself. If that isn't enough, a volume booster can raise the output further.",
+      "sections": [
+        {
+          "h": "Check these first",
+          "p": [
+            "Make sure you are turning up the media volume, not the ringtone: press a volume button while a video is playing, or open the volume panel and raise the media slider.",
+            "Some phones have a media volume limit. On Samsung phones, look for Media volume limiter in the volume settings. Also try the phone's own sound effects or equalizer if it has one, and check whether a case is covering the speaker."
+          ]
+        },
+        {
+          "h": "Raise the output with VolumeBooster+",
+          "p": [
+            "VolumeBooster+ (our app) raises the system output rather than one app's volume, so videos, music and games get louder. The boost is shown in decibels with Safe, Caution and Danger zones, so you can see how far you have pushed it."
+          ],
+          "steps": [
+            "Install VolumeBooster+ from Google Play.",
+            "Play something, then raise the boost a little at a time and watch the dB zone.",
+            "Use the equalizer presets, bass booster or AutoEQ for your headphones to make it clearer, not just louder.",
+            "Turn the boost down when you don't need it — your ears and speaker will thank you."
+          ]
+        },
+        {
+          "h": "Free and Pro, and your hearing",
+          "p": [
+            "Free boosts up to +10 dB for 60 minutes a day; Pro or a 24-hour Free Pass opens the full +15 dB range. The dB value is an estimate, and the app is not a medical device — if you notice ear pain or ringing, lower the volume."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can a volume booster damage my speaker or hearing?",
+          "a": "Very high volume can. Raise the boost gradually, keep an eye on the Safe/Caution/Danger zones, and lower it if sound distorts or your ears hurt."
+        },
+        {
+          "q": "How much louder can it go?",
+          "a": "Up to +15 dB with Pro or a Free Pass, and up to +10 dB on the free version. Actual loudness varies by device, headphones and content."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots-windows": {
+      "app": "photocleanerwin",
+      "updated": "2026-10-14",
+      "title": "How to hide personal info in screenshots and PDFs on Windows",
+      "desc": "Before you share a screenshot or a scanned document from your PC, cover phone numbers, card numbers, IDs and faces with solid masks — without uploading anything.",
+      "intro": "Screenshots and scanned documents often contain a phone number, an email, a card or ID number, an address or a face. Before you send or post them from your PC, cover that information so it can't be recovered.",
+      "sections": [
+        {
+          "h": "Option 1: Snipping Tool",
+          "p": [
+            "Recent versions of Snipping Tool on Windows 11 can hide email addresses and phone numbers in a screenshot through Text actions, and you can draw over anything else. Avoid the highlighter for this — it is semi-transparent — and use solid strokes that cover each item completely."
+          ]
+        },
+        {
+          "h": "Option 2: PhotoCleaner+ for Windows",
+          "p": [
+            "PhotoCleaner+ for Windows (our app) finds likely personal info in photos, screenshots and PDFs — phone numbers, emails, card numbers, IBAN, passport numbers, names, addresses, license plates, faces and QR codes — and exports a copy with solid masks. Everything runs on your PC; nothing is uploaded."
+          ],
+          "steps": [
+            "Open a file, paste it with Ctrl+V, drag it onto the window, or right-click it in File Explorer and choose Clean with PhotoCleaner+.",
+            "Review the boxes: click to turn one on or off, drag to move or resize, and draw your own over anything that was missed.",
+            "Export the masked copy — save, copy, share, or save as PDF. Your original is never overwritten, and saved copies carry no metadata."
+          ]
+        },
+        {
+          "h": "Free and Pro",
+          "p": [
+            "Finding personal info is free and unlimited, and you can export 3 documents a day for free. Pro is a one-time purchase that removes the daily limit and adds PDF export and printing. There are no ads and no watermark."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Will it find every piece of personal info?",
+          "a": "No tool can promise that. Detection is a starting point — always check the boxes before you export and draw over anything that was missed."
+        },
+        {
+          "q": "Are my files uploaded?",
+          "a": "No. Detection, masking and export run on your PC, with no account and nothing uploaded."
+        }
+      ]
+    },
+    "crypto-price-ticker-on-top-windows": {
+      "app": "floatcryptowin",
+      "updated": "2026-10-14",
+      "title": "How to keep a live crypto ticker on top of other windows on Windows",
+      "desc": "Watch the coins you follow while you work: a slim price ticker above every window, price alerts as desktop notifications, and charts on a double-click.",
+      "intro": "Keeping an exchange tab open means switching to it every time you want a price. A floating ticker keeps the coins you follow in view above every window.",
+      "sections": [
+        {
+          "h": "Set up FloatCrypto+ for Windows",
+          "p": [
+            "FloatCrypto+ for Windows (our app) keeps a slim ticker on top of every window, showing each coin's symbol and 24-hour change. It never takes focus, so your cursor stays where you were typing."
+          ],
+          "steps": [
+            "Install FloatCrypto+ from the Microsoft Store; it lives in the system tray.",
+            "Pick coins from the Binance pairs and drag them into your order.",
+            "Place the ticker anywhere, and adjust its opacity and text size — or collapse it into a bubble at the screen edge.",
+            "Set a target above or below the current price to get a desktop notification when the market crosses it. Double-click a coin for its chart."
+          ]
+        },
+        {
+          "h": "Good to know",
+          "p": [
+            "Hover the tray icon for a full price table, and hide the ticker with Ctrl+Alt+T. Prices come from Binance's public market data with automatic fallback and may be delayed by up to 30 seconds; the app doesn't trade or connect to an exchange account, and nothing in it is investment advice.",
+            "Free follows 2 coins with 1 alert; Pro is a one-time purchase for 10 coins, unlimited alerts, a 10-second refresh and longer charts. There are no ads."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does the ticker get in the way of my work?",
+          "a": "No. It never takes focus; you can lower its opacity, collapse it into a bubble, or hide it with Ctrl+Alt+T."
+        },
+        {
+          "q": "Does it need my exchange account?",
+          "a": "No. It reads public market data only and never trades or holds funds."
+        }
+      ]
     }
   }
 }

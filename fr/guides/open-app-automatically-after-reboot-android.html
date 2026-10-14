@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>Ouvrir une appli automatiquement après un redémarrage sur Android (sans root) | CodeDAC</title>
+  <meta name="description" content="Android n’a aucun réglage pour lancer une appli au démarrage du téléphone. Voici comment faire s’ouvrir vos applis toutes seules après un redémarrage, sans root, et comment tester sans redémarrer." />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/fr/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/open-app-automatically-after-reboot-android.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/open-app-automatically-after-reboot-android.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:title" content="Ouvrir une appli automatiquement après un redémarrage sur Android (sans root) | CodeDAC" />
+  <meta property="og:description" content="Android n’a aucun réglage pour lancer une appli au démarrage du téléphone. Voici comment faire s’ouvrir vos applis toutes seules après un redémarrage, sans root, et comment tester sans redémarrer." />
+  <meta property="og:url" content="https://codedac.com/fr/guides/open-app-automatically-after-reboot-android.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/autostart.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ouvrir une appli automatiquement après un redémarrage sur Android (sans root) | CodeDAC" />
+  <meta name="twitter:description" content="Android n’a aucun réglage pour lancer une appli au démarrage du téléphone. Voici comment faire s’ouvrir vos applis toutes seules après un redémarrage, sans root, et comment tester sans redémarrer." />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/autostart.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=73" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Ouvrir une appli automatiquement après un redémarrage sur Android (sans root)",
+  "description": "Android n’a aucun réglage pour lancer une appli au démarrage du téléphone. Voici comment faire s’ouvrir vos applis toutes seules après un redémarrage, sans root, et comment tester sans redémarrer.",
+  "inLanguage": "fr",
+  "datePublished": "2026-10-14",
+  "dateModified": "2026-10-14",
+  "mainEntityOfPage": "https://codedac.com/fr/guides/open-app-automatically-after-reboot-android.html",
+  "image": "https://codedac.com/images/icons/autostart.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "AutoStart+",
+    "url": "https://codedac.com/fr/apps/autostart.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "AutoStart+",
+      "item": "https://codedac.com/fr/apps/autostart.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ouvrir une appli automatiquement après un redémarrage sur Android (sans root)",
+      "item": "https://codedac.com/fr/guides/open-app-automatically-after-reboot-android.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Faut-il le root pour lancer des applis automatiquement sur Android ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. AutoStart+ fonctionne sans root ; il a seulement besoin de l’autorisation « Superposition sur d’autres applis »."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Pourquoi mes applis ne s’ouvrent-elles pas avant que je déverrouille le téléphone ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Android ne laisse pas les applis en ouvrir d’autres tant que le téléphone n’a pas été déverrouillé une fois après un redémarrage. Vos applis s’ouvrent juste après le déverrouillage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien d’applis puis-je lancer automatiquement gratuitement ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La version gratuite lance 1 appli par démarrage. Pro lance toute votre liste dans l’ordre, et si vous préférez ne pas vous abonner, une courte pub lève la limite pendant 24 heures."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/fr/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/fr/#apps">Applications</a>
+        <a href="/fr/#reviews">Avis</a>
+        <a href="/fr/#about">À propos</a>
+        <a href="/fr/#contact">Collaborer</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Basculer le mode sombre" title="Basculer le mode sombre">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Français"><span class="lang-name">Français</span><span class="lang-code" aria-hidden="true">FR</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/open-app-automatically-after-reboot-android.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/open-app-automatically-after-reboot-android.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/guides/open-app-automatically-after-reboot-android.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/open-app-automatically-after-reboot-android.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/guides/open-app-automatically-after-reboot-android.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/guides/open-app-automatically-after-reboot-android.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item is-active" data-lang="fr" href="/fr/guides/open-app-automatically-after-reboot-android.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/open-app-automatically-after-reboot-android.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item" data-lang="hi" href="/hi/guides/open-app-automatically-after-reboot-android.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/open-app-automatically-after-reboot-android.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item" data-lang="zh" href="/zh/guides/open-app-automatically-after-reboot-android.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/guides/open-app-automatically-after-reboot-android.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/open-app-automatically-after-reboot-android.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/open-app-automatically-after-reboot-android.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/guides/open-app-automatically-after-reboot-android.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/open-app-automatically-after-reboot-android.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/open-app-automatically-after-reboot-android.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/open-app-automatically-after-reboot-android.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/open-app-automatically-after-reboot-android.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item" data-lang="uk" href="/uk/guides/open-app-automatically-after-reboot-android.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/open-app-automatically-after-reboot-android.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-android guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/fr/">Accueil</a>
+        <span class="sep">/</span>
+        <a href="/fr/apps/autostart.html"><bdi>AutoStart+</bdi></a>
+        <span class="sep">/</span>
+        <span class="current">Guides</span>
+      </nav>
+      <h1>Ouvrir une appli automatiquement après un redémarrage sur Android (sans root)</h1>
+      <p class="guide-meta">Mis à jour <time datetime="2026-10-14">2026-10-14</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">Android n’a pas de réglage qui ouvre une appli au démarrage du téléphone. Si vous ouvrez les mêmes applis après chaque redémarrage — une appli de navigation dans la voiture, un launcher sur une tablette en mode kiosque, une appli de musique sur un autoradio —, une appli de démarrage automatique peut le faire pour vous.</p>
+
+        <h2>Pourquoi cela ne se fait pas tout seul</h2>
+        <p>Depuis Android 10, les applis n’ont plus le droit d’ouvrir d’elles-mêmes des écrans depuis l’arrière-plan. Une appli censée en ouvrir d’autres après un redémarrage a donc besoin de l’autorisation « Superposition sur d’autres applis », et elle ne peut les lancer qu’une fois le téléphone déverrouillé pour la première fois.</p>
+
+        <h2>Configurer avec AutoStart+</h2>
+        <p>AutoStart+ (notre appli) ouvre les applis de votre choix après chaque redémarrage, dès que vous déverrouillez le téléphone. Aucun root n’est nécessaire.</p>
+        <ol class="guide-steps">
+          <li>Installez AutoStart+ depuis Google Play et ouvrez-la.</li>
+          <li>Touchez « Ajouter des applis » et choisissez celles à ouvrir après un redémarrage. Faites glisser les lignes pour décider laquelle s’ouvre en premier.</li>
+          <li>Autorisez « Superposition sur d’autres applis » quand on vous le demande : sans cela, Android bloque le lancement.</li>
+          <li>Touchez « Tester maintenant » pour voir ce qui va se passer, sans redémarrer le téléphone.</li>
+          <li>Redémarrez le téléphone et déverrouillez-le : vos applis s’ouvrent dans l’ordre choisi.</li>
+        </ol>
+
+        <h2>Autoradios et appareils qui se mettent en veille</h2>
+        <p>Beaucoup d’autoradios Android ne redémarrent pas vraiment : ils se mettent en veille quand la voiture est éteinte. AutoStart+ dispose d’un « Mode voiture » qui rouvre vos applis à chaque réveil de l’écran.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">L’appli de ce guide</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/autostart.png?v=73" alt="AutoStart+ icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>AutoStart+</bdi></p>
+          <p class="rc-desc">Lancez vos applis automatiquement au démarrage. Sans root, réglé une seule fois.</p>
+          <div class="guide-app-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.autostart&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dguide%26utm_campaign%3Dfr" class="btn btn-primary" target="_blank" rel="noopener">Voir sur Google Play →</a>
+            <a href="/fr/apps/autostart.html" class="btn btn-ghost">Détails de l’appli</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">Faut-il le root pour lancer des applis automatiquement sur Android ?</p><p class="faq-a">Non. AutoStart+ fonctionne sans root ; il a seulement besoin de l’autorisation « Superposition sur d’autres applis ».</p></div>
+        <div class="faq-item"><p class="faq-q">Pourquoi mes applis ne s’ouvrent-elles pas avant que je déverrouille le téléphone ?</p><p class="faq-a">Android ne laisse pas les applis en ouvrir d’autres tant que le téléphone n’a pas été déverrouillé une fois après un redémarrage. Vos applis s’ouvrent juste après le déverrouillage.</p></div>
+        <div class="faq-item"><p class="faq-q">Combien d’applis puis-je lancer automatiquement gratuitement ?</p><p class="faq-a">La version gratuite lance 1 appli par démarrage. Pro lance toute votre liste dans l’ordre, et si vous préférez ne pas vous abonner, une courte pub lève la limite pendant 24 heures.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Autres guides</h2>
+      <ul class="guide-links">
+        <li><a href="/fr/guides/android-clipboard-history.html">Comment voir l’historique du presse-papiers sur Android</a></li>
+        <li><a href="/fr/guides/floating-notes-over-other-apps-android.html">Garder une note au premier plan sur les autres applis Android</a></li>
+        <li><a href="/fr/guides/floating-timer-over-other-apps-android.html">Garder un minuteur à l’écran pendant que vous utilisez d’autres applis Android</a></li>
+        <li><a href="/fr/guides/hide-personal-info-in-screenshots.html">Masquer ses informations personnelles sur une capture d’écran avant de la partager</a></li>
+        <li><a href="/fr/guides/sticky-notes-always-on-top-windows.html">Garder un pense-bête toujours au premier plan sous Windows</a></li>
+        <li><a href="/fr/guides/clipboard-history-windows.html">Comment voir l’historique du Presse-papiers sous Windows</a></li>
+        <li><a href="/fr/guides/timer-always-on-top-windows.html">Garder un minuteur au premier plan sous Windows</a></li>
+        <li><a href="/fr/guides/reading-ruler-dyslexia-adhd-android.html">Règle de lecture pour la dyslexie et le TDAH sur Android : ne plus perdre la ligne</a></li>
+        <li><a href="/fr/guides/reading-ruler-windows.html">Utiliser une règle de lecture sous Windows (dyslexie et TDAH)</a></li>
+        <li><a href="/fr/guides/floating-calculator-over-other-apps-android.html">Utiliser une calculatrice par-dessus d’autres applis sur Android</a></li>
+        <li><a href="/fr/guides/crypto-price-ticker-over-other-apps-android.html">Voir les cours crypto en utilisant d’autres applis sur Android</a></li>
+        <li><a href="/fr/guides/make-android-phone-louder.html">Augmenter le volume de son téléphone Android</a></li>
+        <li><a href="/fr/guides/hide-personal-info-in-screenshots-windows.html">Masquer ses infos personnelles sur des captures d’écran et PDF sous Windows</a></li>
+        <li><a href="/fr/guides/crypto-price-ticker-on-top-windows.html">Garder un bandeau de cours crypto au-dessus des autres fenêtres sous Windows</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">Corée du Sud</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/fr/privacy.html">Politique de confidentialité</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"fr","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/open-app-automatically-after-reboot-android.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/open-app-automatically-after-reboot-android.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/open-app-automatically-after-reboot-android.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=73"></script>
+</body>
+</html>

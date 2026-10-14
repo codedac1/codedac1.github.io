@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>Androidでクリップボードの履歴を見る方法 | CodeDAC</title>
+  <meta name="description" content="Androidが覚えているのは最後にコピーした1件だけです。キーボードのクリップボードで最近コピーしたものを探す方法と、消えずに検索できる履歴を残す方法をまとめました。" />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/ja/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/android-clipboard-history.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/android-clipboard-history.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:title" content="Androidでクリップボードの履歴を見る方法 | CodeDAC" />
+  <meta property="og:description" content="Androidが覚えているのは最後にコピーした1件だけです。キーボードのクリップボードで最近コピーしたものを探す方法と、消えずに検索できる履歴を残す方法をまとめました。" />
+  <meta property="og:url" content="https://codedac.com/ja/guides/android-clipboard-history.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/clipboard.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Androidでクリップボードの履歴を見る方法 | CodeDAC" />
+  <meta name="twitter:description" content="Androidが覚えているのは最後にコピーした1件だけです。キーボードのクリップボードで最近コピーしたものを探す方法と、消えずに検索できる履歴を残す方法をまとめました。" />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/clipboard.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=73" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Androidでクリップボードの履歴を見る方法",
+  "description": "Androidが覚えているのは最後にコピーした1件だけです。キーボードのクリップボードで最近コピーしたものを探す方法と、消えずに検索できる履歴を残す方法をまとめました。",
+  "inLanguage": "ja",
+  "datePublished": "2026-10-14",
+  "dateModified": "2026-10-14",
+  "mainEntityOfPage": "https://codedac.com/ja/guides/android-clipboard-history.html",
+  "image": "https://codedac.com/images/icons/clipboard.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "Clipboard+",
+    "url": "https://codedac.com/ja/apps/clipboard.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Clipboard+",
+      "item": "https://codedac.com/ja/apps/clipboard.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Androidでクリップボードの履歴を見る方法",
+      "item": "https://codedac.com/ja/guides/android-clipboard-history.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Androidにはクリップボード履歴の機能が標準でありますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "システム自体にはありません。Androidが保持するのは最新のクリップ1件だけです。GboardやSamsungキーボードなどのキーボードが、短期間のクリップボード一覧を追加しています。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "スマホのクリップボード履歴をPCで見られますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい、両方でClipboard+を使えば可能です。Androidアプリと Clipboard+ for Windows が自分のGoogle Driveを通じて同期します（AndroidではPro機能）。"
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/ja/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/ja/#apps">アプリ</a>
+        <a href="/ja/#reviews">レビュー</a>
+        <a href="/ja/#about">会社概要</a>
+        <a href="/ja/#contact">一緒につくる</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="ダークモード切替" title="ダークモード切替">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="日本語"><span class="lang-name">日本語</span><span class="lang-code" aria-hidden="true">JA</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/android-clipboard-history.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/android-clipboard-history.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item is-active" data-lang="ja" href="/ja/guides/android-clipboard-history.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/android-clipboard-history.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/guides/android-clipboard-history.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/guides/android-clipboard-history.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item" data-lang="fr" href="/fr/guides/android-clipboard-history.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/android-clipboard-history.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item" data-lang="hi" href="/hi/guides/android-clipboard-history.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/android-clipboard-history.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item" data-lang="zh" href="/zh/guides/android-clipboard-history.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/guides/android-clipboard-history.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/android-clipboard-history.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/android-clipboard-history.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/guides/android-clipboard-history.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/android-clipboard-history.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/android-clipboard-history.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/android-clipboard-history.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/android-clipboard-history.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item" data-lang="uk" href="/uk/guides/android-clipboard-history.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/android-clipboard-history.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-android guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ja/">ホーム</a>
+        <span class="sep">/</span>
+        <a href="/ja/apps/clipboard.html"><bdi>Clipboard+</bdi></a>
+        <span class="sep">/</span>
+        <span class="current">ガイド</span>
+      </nav>
+      <h1>Androidでクリップボードの履歴を見る方法</h1>
+      <p class="guide-meta">更新日 <time datetime="2026-10-14">2026-10-14</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">Androidのシステム自体は、最後にコピーした1件しか覚えていません。新しくコピーすると、その前の内容は消えてしまいます。少し前にコピーした住所や認証コード、文章をもう一度使いたいなら、履歴を残しておく場所が必要です。方法は2つ、キーボードとクリップボード管理アプリです。</p>
+
+        <h2>方法1：キーボードのクリップボード</h2>
+        <p>多くのキーボードには独自のクリップボードがあります。Gboardでは、キーの上にあるツールバーのクリップボードアイコンをタップします（初回はオンにする必要があります）。Samsungキーボードにもツールバーにクリップボードボタンがあります。</p>
+        <p>数分前にコピーしたものを取り出すには、これがいちばん手軽です。ただしキーボードのクリップボードは短期間しか保存しません。たとえばGboardは固定していない項目を約1時間後に削除し、一覧も文字を入力している間しか見られません。</p>
+
+        <h2>方法2：履歴をしっかり残すクリップボード管理アプリ</h2>
+        <p>住所、口座番号、定型の返信など、同じものを何度もコピーするなら、クリップボード管理アプリが削除するまで保存し、検索でき、どのアプリの上にも呼び出せます。</p>
+        <p>Clipboard+（私たちのアプリ）は、コピーしたテキストと画像を新しい順の履歴に残し、検索と、使っているアプリの上に開けるフローティングパネルを備えています。</p>
+        <ol class="guide-steps">
+          <li>Google PlayからClipboard+をインストールし、一度開きます。</li>
+          <li>いつもどおりコピーします。どのアプリでもテキストを選択し、選択メニューでClipboard+を選んで保存することもできます。</li>
+          <li>フローティングパネル（またはアプリ）を開いて履歴を表示し、クリップをタップすればもう一度コピーされるので、今の場所に貼り付けます。</li>
+          <li>繰り返し使うものはスニペットとしてグループに入れておけば、いつでもワンタップで取り出せます。</li>
+        </ol>
+
+        <h2>どちらを使えばいい？</h2>
+        <p>少し前にコピーしたものを一度貼り付けるだけなら、キーボードのクリップボードで十分です。残しておきたかったクリップをなくしてしまう、同じ文章を何度も打ち直している、という場合はクリップボード管理アプリがその手間を省きます。Clipboard+は無料で始められ、Proでは自分のGoogle Driveを通じたWindowsアプリとの同期、画像クリップ無制限、PDF書き出しが加わります。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">このガイドで使うアプリ</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/clipboard.png?v=73" alt="Clipboard+ icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>Clipboard+</bdi></p>
+          <p class="rc-desc">コピーした文字も画像も自動保存。検索できるクリップボード履歴とPC同期。</p>
+          <div class="guide-app-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.clipboard&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dguide%26utm_campaign%3Dja" class="btn btn-primary" target="_blank" rel="noopener">Google Playで見る →</a>
+            <a href="/ja/apps/clipboard.html" class="btn btn-ghost">アプリの詳細</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">よくある質問</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">Androidにはクリップボード履歴の機能が標準でありますか？</p><p class="faq-a">システム自体にはありません。Androidが保持するのは最新のクリップ1件だけです。GboardやSamsungキーボードなどのキーボードが、短期間のクリップボード一覧を追加しています。</p></div>
+        <div class="faq-item"><p class="faq-q">スマホのクリップボード履歴をPCで見られますか？</p><p class="faq-a">はい、両方でClipboard+を使えば可能です。Androidアプリと Clipboard+ for Windows が自分のGoogle Driveを通じて同期します（AndroidではPro機能）。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">ほかのガイド</h2>
+      <ul class="guide-links">
+        <li><a href="/ja/guides/open-app-automatically-after-reboot-android.html">Androidで再起動後にアプリを自動で起動する方法（root不要）</a></li>
+        <li><a href="/ja/guides/floating-notes-over-other-apps-android.html">Androidでメモを他のアプリの上に表示し続ける方法</a></li>
+        <li><a href="/ja/guides/floating-timer-over-other-apps-android.html">Androidで他のアプリを使いながらタイマーを画面に表示する方法</a></li>
+        <li><a href="/ja/guides/hide-personal-info-in-screenshots.html">スクショを共有する前に個人情報を隠す方法</a></li>
+        <li><a href="/ja/guides/sticky-notes-always-on-top-windows.html">Windowsで付箋を常に最前面に表示する方法</a></li>
+        <li><a href="/ja/guides/clipboard-history-windows.html">Windowsでクリップボードの履歴を見る方法</a></li>
+        <li><a href="/ja/guides/timer-always-on-top-windows.html">Windowsでタイマーを常に最前面に表示する方法</a></li>
+        <li><a href="/ja/guides/reading-ruler-dyslexia-adhd-android.html">Androidで使えるディスレクシア・ADHD向けリーディングルーラー：読んでいる行を見失わない方法</a></li>
+        <li><a href="/ja/guides/reading-ruler-windows.html">Windowsでリーディングルーラーを使う方法（ディスレクシア・ADHD向け）</a></li>
+        <li><a href="/ja/guides/floating-calculator-over-other-apps-android.html">Androidで他のアプリの上に電卓を表示して使う方法</a></li>
+        <li><a href="/ja/guides/crypto-price-ticker-over-other-apps-android.html">Androidで他のアプリを使いながら仮想通貨の価格を見る方法</a></li>
+        <li><a href="/ja/guides/make-android-phone-louder.html">Androidスマホの音を大きくする方法</a></li>
+        <li><a href="/ja/guides/hide-personal-info-in-screenshots-windows.html">Windowsでスクリーンショットや PDF の個人情報を隠す方法</a></li>
+        <li><a href="/ja/guides/crypto-price-ticker-on-top-windows.html">Windowsで仮想通貨のリアルタイム価格を常に最前面に表示する方法</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">韓国</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/ja/privacy.html">プライバシーポリシー</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"ja","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/android-clipboard-history.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/android-clipboard-history.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/android-clipboard-history.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/android-clipboard-history.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/android-clipboard-history.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/android-clipboard-history.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/android-clipboard-history.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/android-clipboard-history.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/android-clipboard-history.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/android-clipboard-history.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/android-clipboard-history.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/android-clipboard-history.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/android-clipboard-history.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/android-clipboard-history.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/android-clipboard-history.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/android-clipboard-history.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/android-clipboard-history.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/android-clipboard-history.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/android-clipboard-history.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/android-clipboard-history.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/android-clipboard-history.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=73"></script>
+</body>
+</html>

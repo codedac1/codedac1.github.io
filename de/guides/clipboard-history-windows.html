@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>Zwischenablageverlauf unter Windows anzeigen | CodeDAC</title>
+  <meta name="description" content="Windows hat einen eingebauten Zwischenablageverlauf (Win+V), doch er ist kurz und wird beim Neustart geleert. So nutzt du ihn – und so behältst du einen durchsuchbaren Verlauf, der bleibt." />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/de/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/clipboard-history-windows.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:title" content="Zwischenablageverlauf unter Windows anzeigen | CodeDAC" />
+  <meta property="og:description" content="Windows hat einen eingebauten Zwischenablageverlauf (Win+V), doch er ist kurz und wird beim Neustart geleert. So nutzt du ihn – und so behältst du einen durchsuchbaren Verlauf, der bleibt." />
+  <meta property="og:url" content="https://codedac.com/de/guides/clipboard-history-windows.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/clipboardwin.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Zwischenablageverlauf unter Windows anzeigen | CodeDAC" />
+  <meta name="twitter:description" content="Windows hat einen eingebauten Zwischenablageverlauf (Win+V), doch er ist kurz und wird beim Neustart geleert. So nutzt du ihn – und so behältst du einen durchsuchbaren Verlauf, der bleibt." />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/clipboardwin.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=73" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Zwischenablageverlauf unter Windows anzeigen",
+  "description": "Windows hat einen eingebauten Zwischenablageverlauf (Win+V), doch er ist kurz und wird beim Neustart geleert. So nutzt du ihn – und so behältst du einen durchsuchbaren Verlauf, der bleibt.",
+  "inLanguage": "de",
+  "datePublished": "2026-10-14",
+  "dateModified": "2026-10-14",
+  "mainEntityOfPage": "https://codedac.com/de/guides/clipboard-history-windows.html",
+  "image": "https://codedac.com/images/icons/clipboardwin.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "Clipboard+ for Windows",
+    "url": "https://codedac.com/de/apps/clipboardwin.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Clipboard+ for Windows",
+      "item": "https://codedac.com/de/apps/clipboardwin.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Zwischenablageverlauf unter Windows anzeigen",
+      "item": "https://codedac.com/de/guides/clipboard-history-windows.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Warum ist mein Zwischenablageverlauf (Win+V) nach einem Neustart leer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Windows leert den Zwischenablageverlauf beim Neustart des PCs, angeheftete Einträge ausgenommen. Ein Zwischenablage-Manager wie Clipboard+ behält deinen Verlauf auch über Neustarts hinweg."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie viele Einträge speichert der Zwischenablageverlauf von Windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bis zu 25. Ältere Einträge fallen weg, wenn du Neues kopierst."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/de/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/de/#apps">Apps</a>
+        <a href="/de/#reviews">Bewertungen</a>
+        <a href="/de/#about">Über uns</a>
+        <a href="/de/#contact">Zusammenarbeit</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Dunkelmodus umschalten" title="Dunkelmodus umschalten">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Deutsch"><span class="lang-name">Deutsch</span><span class="lang-code" aria-hidden="true">DE</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/clipboard-history-windows.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/clipboard-history-windows.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/guides/clipboard-history-windows.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/clipboard-history-windows.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/guides/clipboard-history-windows.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item is-active" data-lang="de" href="/de/guides/clipboard-history-windows.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item" data-lang="fr" href="/fr/guides/clipboard-history-windows.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/clipboard-history-windows.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item" data-lang="hi" href="/hi/guides/clipboard-history-windows.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/clipboard-history-windows.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item" data-lang="zh" href="/zh/guides/clipboard-history-windows.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/guides/clipboard-history-windows.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/clipboard-history-windows.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/clipboard-history-windows.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/guides/clipboard-history-windows.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/clipboard-history-windows.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/clipboard-history-windows.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/clipboard-history-windows.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/clipboard-history-windows.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item" data-lang="uk" href="/uk/guides/clipboard-history-windows.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/clipboard-history-windows.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-windows guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/de/">Startseite</a>
+        <span class="sep">/</span>
+        <a href="/de/apps/clipboardwin.html"><bdi>Clipboard+ for Windows</bdi></a>
+        <span class="sep">/</span>
+        <span class="current">Anleitungen</span>
+      </nav>
+      <h1>Zwischenablageverlauf unter Windows anzeigen</h1>
+      <p class="guide-meta">Aktualisiert <time datetime="2026-10-14">2026-10-14</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">Kopierst du etwas Neues, ist der vorherige Eintrag weg – es sei denn, du hast einen Verlauf. Windows 10 und 11 haben einen eingebaut, und ein Zwischenablage-Manager kann einen längeren führen.</p>
+
+        <h2>Möglichkeit 1: der eingebaute Zwischenablageverlauf (Win+V)</h2>
+        <p>Drücke Win+V. Beim ersten Mal fragt Windows, ob du den Zwischenablageverlauf einschalten willst (das geht auch unter „Einstellungen &gt; System &gt; Zwischenablage“). Danach zeigt Win+V deine letzten Einträge, und ein Klick fügt einen davon ein.</p>
+        <p>Das geht schnell, ist aber begrenzt: Es werden bis zu 25 Einträge gespeichert, und alles außer angehefteten Einträgen wird beim Neustart des PCs gelöscht. Es gibt keine Suche, und aufs Handy kommt der Verlauf auch nicht.</p>
+
+        <h2>Möglichkeit 2: ein Zwischenablage-Manager, der alles behält</h2>
+        <p>Clipboard+ for Windows (unsere App) sitzt im Infobereich und speichert Texte und Bilder in dem Moment, in dem du sie kopierst. Dein Verlauf bleibt, bis du ihn löschst, und du kannst ihn durchsuchen, in Gruppen und Snippets ordnen und per Tastenkürzel aufrufen.</p>
+        <ol class="guide-steps">
+          <li>Installiere Clipboard+ aus dem Microsoft Store; die App startet im Infobereich.</li>
+          <li>Kopiere wie gewohnt – jeder Text und jedes Bild wird automatisch gespeichert.</li>
+          <li>Drücke das globale Tastenkürzel, um das Quick-Pick-Fenster am Cursor zu öffnen, wähle einen Eintrag mit Ctrl+1–9 und drücke Enter, um ihn einzufügen.</li>
+          <li>Öffne das Fenster, um zu suchen, anzuheften, zu bearbeiten oder häufig genutzten Text als Snippets abzulegen.</li>
+        </ol>
+
+        <h2>Zwischen Handy und PC</h2>
+        <p>Zusammen mit der Android-App Clipboard+ lässt sich, was du auf dem Handy kopierst, am PC einfügen und umgekehrt – über dein eigenes Google Drive. Zwischenablage-Verlauf, Snippets, Gruppen, Suche und das Quick-Pick-Fenster sind kostenlos; Pro bringt Synchronisierung, unbegrenzten Bildspeicher und PDF-Export.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Die App in dieser Anleitung</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/clipboardwin.png?v=73" alt="Clipboard+ for Windows icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>Clipboard+ for Windows</bdi></p>
+          <p class="rc-desc">Ein Windows-Tray-Zwischenablage-Manager, der sich mit der Android-App Clipboard+ synchronisiert.</p>
+          <div class="guide-app-actions">
+            <a href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-guide-de" class="btn btn-primary" target="_blank" rel="noopener">Im Microsoft Store ansehen →</a>
+            <a href="/de/apps/clipboardwin.html" class="btn btn-ghost">App-Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Fragen</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">Warum ist mein Zwischenablageverlauf (Win+V) nach einem Neustart leer?</p><p class="faq-a">Windows leert den Zwischenablageverlauf beim Neustart des PCs, angeheftete Einträge ausgenommen. Ein Zwischenablage-Manager wie Clipboard+ behält deinen Verlauf auch über Neustarts hinweg.</p></div>
+        <div class="faq-item"><p class="faq-q">Wie viele Einträge speichert der Zwischenablageverlauf von Windows?</p><p class="faq-a">Bis zu 25. Ältere Einträge fallen weg, wenn du Neues kopierst.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Weitere Anleitungen</h2>
+      <ul class="guide-links">
+        <li><a href="/de/guides/android-clipboard-history.html">Zwischenablage-Verlauf auf Android anzeigen</a></li>
+        <li><a href="/de/guides/open-app-automatically-after-reboot-android.html">Android: App nach Neustart automatisch öffnen (ohne Root)</a></li>
+        <li><a href="/de/guides/floating-notes-over-other-apps-android.html">Android: Notiz über anderen Apps im Vordergrund halten</a></li>
+        <li><a href="/de/guides/floating-timer-over-other-apps-android.html">Android: Timer sichtbar lassen, während du andere Apps nutzt</a></li>
+        <li><a href="/de/guides/hide-personal-info-in-screenshots.html">Persönliche Daten im Screenshot schwärzen, bevor du ihn teilst</a></li>
+        <li><a href="/de/guides/sticky-notes-always-on-top-windows.html">Windows: Haftnotiz immer im Vordergrund halten</a></li>
+        <li><a href="/de/guides/timer-always-on-top-windows.html">Windows: Timer immer im Vordergrund über anderen Fenstern</a></li>
+        <li><a href="/de/guides/reading-ruler-dyslexia-adhd-android.html">Leselineal bei Legasthenie und ADHS auf Android: beim Lesen die Zeile halten</a></li>
+        <li><a href="/de/guides/reading-ruler-windows.html">Leselineal unter Windows nutzen (bei Legasthenie und ADHS)</a></li>
+        <li><a href="/de/guides/floating-calculator-over-other-apps-android.html">Android: Taschenrechner über anderen Apps nutzen</a></li>
+        <li><a href="/de/guides/crypto-price-ticker-over-other-apps-android.html">Android: Krypto-Kurse sehen, während du andere Apps nutzt</a></li>
+        <li><a href="/de/guides/make-android-phone-louder.html">Android-Handy lauter machen</a></li>
+        <li><a href="/de/guides/hide-personal-info-in-screenshots-windows.html">Windows: Persönliche Daten in Screenshots und PDFs schwärzen</a></li>
+        <li><a href="/de/guides/crypto-price-ticker-on-top-windows.html">Windows: Live-Krypto-Ticker immer über anderen Fenstern</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">Südkorea</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/de/privacy.html">Datenschutzerklärung</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"de","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/clipboard-history-windows.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/clipboard-history-windows.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/clipboard-history-windows.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/clipboard-history-windows.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/clipboard-history-windows.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/clipboard-history-windows.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/clipboard-history-windows.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/clipboard-history-windows.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/clipboard-history-windows.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/clipboard-history-windows.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/clipboard-history-windows.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/clipboard-history-windows.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/clipboard-history-windows.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/clipboard-history-windows.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/clipboard-history-windows.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/clipboard-history-windows.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/clipboard-history-windows.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/clipboard-history-windows.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/clipboard-history-windows.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/clipboard-history-windows.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/clipboard-history-windows.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=73"></script>
+</body>
+</html>

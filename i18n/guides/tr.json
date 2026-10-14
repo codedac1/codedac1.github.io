@@ -1,0 +1,660 @@
+{
+  "ui": {
+    "guides": "Rehberler",
+    "updated": "Güncellendi",
+    "inThisGuide": "Bu rehberdeki uygulama",
+    "appPage": "Uygulama ayrıntıları",
+    "moreGuides": "Diğer rehberler",
+    "appGuides": "Nasıl yapılır rehberleri",
+    "faq": "Sorular"
+  },
+  "guides": {
+    "android-clipboard-history": {
+      "app": "clipboard",
+      "updated": "2026-10-14",
+      "title": "Android'de pano geçmişi nasıl görülür",
+      "desc": "Android yalnızca son kopyaladığınızı saklar. Klavyenizde son kopyaladıklarınızı nerede bulacağınızı ve kaybolmayan, aranabilir bir geçmişi nasıl tutacağınızı anlatıyoruz.",
+      "intro": "Android'in kendisi yalnızca son kopyaladığınızı hatırlar; yeni bir şey kopyaladığınızda önceki metin gider. Daha önce kopyaladığınız bir adresi, kodu ya da cümleyi geri almak istiyorsanız geçmişi saklayan bir yere ihtiyacınız var. Bunun iki yolu var: klavyeniz ve bir pano yöneticisi uygulaması.",
+      "sections": [
+        {
+          "h": "1. yol: klavyenizdeki pano",
+          "p": [
+            "Birçok klavyenin kendi panosu vardır. Gboard'da tuşların üstündeki araç çubuğunda pano simgesine dokunun (ilk seferde açmanız gerekir). Samsung Klavye'nin araç çubuğunda da bir pano düğmesi bulunur.",
+            "Birkaç dakika önce kopyaladığınız bir şeyi almanın en hızlı yolu budur. Sorun, klavye panolarının kısa süreli olmasıdır: örneğin Gboard sabitlenmemiş öğeleri yaklaşık bir saat sonra siler ve listeyi yalnızca yazarken görürsünüz."
+          ]
+        },
+        {
+          "h": "2. yol: gerçek bir geçmiş tutan pano yöneticisi",
+          "p": [
+            "Aynı şeyleri tekrar tekrar kopyalıyorsanız (adresler, hesap numaraları, hazır yanıtlar), bir pano yöneticisi bunları siz silene kadar saklar, içinde arama yapmanızı sağlar ve her uygulamanın üstünde gösterebilir.",
+            "Clipboard+ (bizim uygulamamız) kopyaladığınız metin ve görselleri en yeniden başlayarak bir geçmişte tutar; arama özelliği ve kullandığınız uygulamanın üstünde açabileceğiniz yüzen bir paneli vardır."
+          ],
+          "steps": [
+            "Clipboard+'ı Google Play'den yükleyin ve bir kez açın.",
+            "Metni her zamanki gibi kopyalayın. Herhangi bir uygulamada metin seçip seçim menüsünde Clipboard+'ı seçerek de kaydedebilirsiniz.",
+            "Geçmişinizi görmek için yüzen paneli (veya uygulamayı) açın, bir kayda dokunarak yeniden kopyalayın ve bulunduğunuz yere yapıştırın.",
+            "Tekrar kullandığınız şeyleri gruplar içinde snippet olarak saklayın; hep bir dokunuş uzağınızda olsunlar."
+          ]
+        },
+        {
+          "h": "Hangisini kullanmalısınız?",
+          "p": [
+            "Tek seferlik işler için, örneğin bir dakika önce kopyaladığınızı yapıştırmak için klavye panosu yeterlidir. Saklamak istediğiniz kayıtları kaybediyorsanız ya da aynı metni sürekli yeniden yazıyorsanız, bir pano yöneticisi size bu zamanı kazandırır. Clipboard+'ı ücretsiz kullanmaya başlayabilirsiniz; Pro, kendi Google Drive'ınız üzerinden Windows uygulamasıyla senkronizasyon, sınırsız görsel ve PDF dışa aktarma ekler."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Android'de yerleşik bir pano geçmişi var mı?",
+          "a": "Sistemin kendisinde yok; Android yalnızca son kopyalananı saklar. Gboard ve Samsung Klavye gibi klavyeler kısa süreli bir pano listesi ekler."
+        },
+        {
+          "q": "Telefonumdaki pano geçmişini bilgisayarımda görebilir miyim?",
+          "a": "Evet, iki cihazda da Clipboard+ varsa: Android uygulaması ve Clipboard+ for Windows kendi Google Drive'ınız üzerinden senkronize olur (Android'de Pro özelliği)."
+        }
+      ]
+    },
+    "open-app-automatically-after-reboot-android": {
+      "app": "autostart",
+      "updated": "2026-10-14",
+      "title": "Android'de yeniden başlatmadan sonra uygulama otomatik nasıl açılır (root olmadan)",
+      "desc": "Android'de telefon açılınca bir uygulamayı başlatan bir ayar yok. Uygulamalarınızın yeniden başlatmadan sonra root olmadan kendiliğinden açılmasını nasıl sağlayacağınızı ve bunu yeniden başlatmadan nasıl test edeceğinizi anlatıyoruz.",
+      "intro": "Android'de telefon açıldığında bir uygulamayı açan bir ayar yoktur. Her yeniden başlatmadan sonra aynı uygulamaları açıyorsanız (araçta bir navigasyon uygulaması, kiosk tabletinde bir başlatıcı, araç multimedya cihazında bir müzik uygulaması), bir otomatik başlatma uygulaması bunu sizin yerinize yapabilir.",
+      "sections": [
+        {
+          "h": "Neden kendiliğinden olmuyor",
+          "p": [
+            "Android 10'dan bu yana uygulamaların arka plandan kendi başlarına ekran açmasına izin verilmez. Bu yüzden yeniden başlatmadan sonra başka uygulamaları açması gereken bir uygulamanın “Diğer uygulamaların üzerinde göster” iznine ihtiyacı vardır ve bunları ancak telefonun kilidi ilk kez açıldıktan sonra başlatabilir."
+          ]
+        },
+        {
+          "h": "AutoStart+ ile ayarlayın",
+          "p": [
+            "AutoStart+ (bizim uygulamamız) seçtiğiniz uygulamaları her yeniden başlatmadan sonra, telefonun kilidini açar açmaz başlatır. Root gerekmez."
+          ],
+          "steps": [
+            "AutoStart+'ı Google Play'den yükleyin ve açın.",
+            "“Uygulama ekle”ye dokunun ve yeniden başlatmadan sonra açılmasını istediğiniz uygulamaları seçin. Hangisinin önce açılacağını belirlemek için satırları sürükleyin.",
+            "İstendiğinde “Diğer uygulamaların üzerinde göster” iznini verin; bu izin olmadan Android açılışı engeller.",
+            "Telefonu yeniden başlatmadan ne olacağını görmek için “Şimdi test et”e dokunun.",
+            "Telefonu yeniden başlatın ve kilidini açın: uygulamalarınız belirlediğiniz sırayla açılır."
+          ]
+        },
+        {
+          "h": "Araç multimedya cihazları ve uykuya geçen cihazlar",
+          "p": [
+            "Birçok Android araç multimedya cihazı aslında yeniden başlamaz; kontak kapatıldığında uykuya geçer. AutoStart+'ın, ekran her uyandığında uygulamalarınızı yeniden açan bir “Araç modu” vardır."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Android'de uygulamaları otomatik başlatmak için root gerekir mi?",
+          "a": "Hayır. AutoStart+ root olmadan çalışır; yalnızca “Diğer uygulamaların üzerinde göster” iznine ihtiyaç duyar."
+        },
+        {
+          "q": "Uygulamalarım neden telefonun kilidini açmadan önce açılmıyor?",
+          "a": "Android, yeniden başlatmadan sonra telefonun kilidi bir kez açılana kadar uygulamaların başka uygulamaları açmasına izin vermez. Uygulamalarınız kilidi açtığınız anda açılır."
+        },
+        {
+          "q": "Ücretsiz olarak kaç uygulamayı otomatik başlatabilirim?",
+          "a": "Ücretsiz sürüm her açılışta 1 uygulama başlatır. Pro tüm listenizi sırayla başlatır; abone olmak istemezseniz kısa bir reklam sınırı 24 saatliğine kaldırır."
+        }
+      ]
+    },
+    "floating-notes-over-other-apps-android": {
+      "app": "floatnote",
+      "updated": "2026-10-14",
+      "title": "Android'de bir not diğer uygulamaların üstünde nasıl tutulur",
+      "desc": "Başka bir uygulamayı kullanırken bir notu göz önünde tutun: her uygulamanın üstünde kalan, küçük bir çipe katlanan ve seçtiğiniz saatte ekrana gelebilen yüzen bir not.",
+      "intro": "Bir listeyi forma aktarmak, video oynarken tarife bakmak, sohbette bir sipariş numarasını göz önünde tutmak… Not uygulamanıza gidip gelmek akışı bozar. Yüzen bir not, kullandığınız uygulamanın üstünde ekranda kalır.",
+      "sections": [
+        {
+          "h": "Yüzen notlar nasıl çalışır",
+          "p": [
+            "Yüzen not, diğer uygulamaların üstüne çizilen küçük bir penceredir. Android buna, bir kez vereceğiniz “Diğer uygulamaların üzerinde göster” izniyle olanak tanır. Siz alttaki uygulamayı kullanmaya devam ederken not üstte kalır."
+          ]
+        },
+        {
+          "h": "FloatNote+ ile ayarlayın",
+          "p": [
+            "FloatNote+ (bizim uygulamamız) her notu herhangi bir uygulamanın üstünde küçük bir çip olarak yüzdürür. Çipe dokunduğunuzda olduğu yerde bir kart olarak açılır; tekrar katlamak için başlık çubuğuna dokunun."
+          ],
+          "steps": [
+            "FloatNote+'ı Google Play'den yükleyin ve “Diğer uygulamaların üzerinde göster” iznini verin.",
+            "Not yazmak için + simgesine dokunun; not ekranınızın üstünde bir kart olarak görünür.",
+            "İhtiyacınız olan uygulamayı açın. Not üstte kalır; ekranı geri istediğinizde onu bir çipe katlayın.",
+            "Notları kolayca ayırt etmek için renkler, kalın yazı, metin boyutu ve görseller kullanın.",
+            "Bir notun belirli bir saatte ekrana gelmesi için ⋮ menüsünü açıp “Hatırlat”ı seçin: bir kez, her gün, hafta içi ya da seçtiğiniz günler."
+          ]
+        },
+        {
+          "h": "Bilgisayarınızda da",
+          "p": [
+            "FloatNote+ for Windows aynı türden notları her pencerenin üstünde yüzdürür ve iki uygulama kendi Google Drive'ınız üzerinden senkronize olur (Android'de Pro özelliği)."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Android'de yerleşik yüzen notlar var mı?",
+          "a": "Android'de genel bir yüzen not özelliği yoktur. FloatNote+ gibi uygulamalar bunu “Diğer uygulamaların üzerinde göster” iznini kullanarak ekler."
+        },
+        {
+          "q": "Bir not belirli bir saatte ekrana gelebilir mi?",
+          "a": "Evet. FloatNote+'ta notun ⋮ menüsünden bir hatırlatıcı kurun; not bir bildirimle birlikte ekrana gelir. Ücretsiz sürümde bir hatırlatıcı tutulur; Pro'da sınır yoktur."
+        },
+        {
+          "q": "FloatNote+ ücretsiz mi?",
+          "a": "Not kaydetmek ücretsiz ve sınırsızdır; ücretsiz sürüm aynı anda bir notu yüzdürür. Pro sınırsız yüzen not, not içi görseller, ayarlanabilir opaklık, Google Drive senkronizasyonu ve reklamsız kullanım ekler."
+        }
+      ]
+    },
+    "floating-timer-over-other-apps-android": {
+      "app": "floattimer",
+      "updated": "2026-10-14",
+      "title": "Android'de başka uygulamaları kullanırken zamanlayıcı ekranda nasıl tutulur",
+      "desc": "Saat uygulamasının zamanlayıcısı uygulama değiştirince kaybolur. Geri sayımı, kronometreyi veya sayacı her uygulamanın üstünde nasıl yüzdüreceğinizi anlatıyoruz.",
+      "intro": "Saat uygulamasındaki zamanlayıcı arka planda çalışır ama başka bir uygulamadayken onu göremezsiniz; bildirimleri aşağı çekmeniz ya da geri dönmeniz gerekir. Bir dersle çalışırken, bir sunumun süresini tutarken ya da oyun oynarken sürenin sürekli ekranda olması işinizi kolaylaştırır.",
+      "sections": [
+        {
+          "h": "FloatTimer+ ile ayarlayın",
+          "p": [
+            "FloatTimer+ (bizim uygulamamız) zamanlayıcıları, kronometreleri ve sayaçları her uygulamanın üstünde, istediğiniz yere sürükleyebileceğiniz küçük kartlar olarak yüzdürür."
+          ],
+          "steps": [
+            "FloatTimer+'ı Google Play'den yükleyin ve “Diğer uygulamaların üzerinde göster” iznini verin.",
+            "Bir zamanlayıcı oluşturun: istediğiniz saat, dakika ve saniye ya da 25 dakika gibi hızlı bir seçim.",
+            "Onu yüzdürün ve kullandığınız uygulamayı açın. Başlatma, duraklatma ve sıfırlamayı doğrudan karttan yapın.",
+            "Yere ihtiyacınız olduğunda onu bir balona katlayın; süre işlemeye devam eder."
+          ]
+        },
+        {
+          "h": "Aynı anda birden fazla",
+          "p": [
+            "İstediğiniz kadar zamanlayıcı, sayaç ve kronometreyi ücretsiz oluşturabilirsiniz ve hepsi çalışmaya devam eder. Ücretsiz sürüm ekranda aynı anda bir tanesini gösterir; Pro istediğiniz kadarını aynı anda yüzdürür, ya da kısa bir reklam bunu 24 saatliğine açar."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Zamanlayıcıyı YouTube'un veya bir oyunun üstünde görebilir miyim?",
+          "a": "Evet. “Diğer uygulamaların üzerinde göster” iznini verdiğinizde yüzen zamanlayıcı, videolar ve oyunlar dahil her uygulamanın üstünde kalır."
+        },
+        {
+          "q": "Pomodoro için hazır bir seçim var mı?",
+          "a": "FloatTimer+'ta 1, 5, 10, 25, 30 ve 60 dakikalık hızlı seçimler vardır; yani 25 dakikalık bir odak zamanlayıcısı tek dokunuş uzağınızda."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots": {
+      "app": "photocleaner",
+      "updated": "2026-10-14",
+      "title": "Ekran görüntüsünü paylaşmadan önce kişisel bilgiler nasıl gizlenir",
+      "desc": "Bulanıklaştırma, ince bir kalem ya da fosforlu kalem metni okunur bırakabilir. Telefon numaralarını, kart numaralarını ve yüzleri geri getirilemeyecek şekilde nasıl örteceğinizi anlatıyoruz; telefonunuzda, hiçbir şey yüklemeden.",
+      "intro": "Ekran görüntüleri ve belge fotoğrafları çoğu zaman paylaşmak istediğinizden fazlasını içerir: bir telefon numarası, kimlik veya kart numarası, bir adres, bir yüz, bir QR kod. Paylaşmadan ya da göndermeden önce bu bilgileri düzgünce örtün.",
+      "sections": [
+        {
+          "h": "Nelerden kaçınmalı",
+          "p": [
+            "Yarı saydam bir fosforlu kalem ya da ince kalem çizgileri, biri kontrastı artırdığında metni okunur bırakabilir; küçük metin üzerindeki bulanıklaştırma veya mozaik de bazen tahmin edilebilir. Özel olan her şeyin üstüne düz, opak bir kutu koyun ve orijinal yerine bir kopyasını paylaşın."
+          ]
+        },
+        {
+          "h": "1. yol: telefonunuzun fotoğraf düzenleyicisi",
+          "p": [
+            "Çoğu galeri uygulamasında işaretleme veya çizim aracı bulunur. Bunu kullanacaksanız düz bir şekil ya da tamamen opak bir kalem seçin, her öğeyi eksiksiz örtün ve kaydetmeden önce yakınlaştırıp kenarları kontrol edin."
+          ]
+        },
+        {
+          "h": "2. yol: PhotoCleaner+",
+          "p": [
+            "PhotoCleaner+ (bizim uygulamamız) tam da bu iş için yapıldı. Olası kişisel bilgileri önerir, siz her kutuyu gözden geçirirsiniz ve düz maskeli bir kopya dışa aktarılır. Her şey telefonunuzda çalışır, hiçbir şey yüklenmez."
+          ],
+          "steps": [
+            "PhotoCleaner+'ta bir fotoğraf, ekran görüntüsü veya PDF açın.",
+            "Önerilen kutuları (telefon numaraları, e-postalar, kart numaraları ve benzeri metinler) kontrol edin ve çizerek kendi kutularınızı ekleyin.",
+            "Özel olan her şey örtülene kadar kutuları taşıyın, yeniden boyutlandırın veya silin.",
+            "Maskelenmiş kopyayı dışa aktarın ve onu paylaşın. Orijinaliniz değişmez ve kaydedilen kopyalar EXIF ya da GPS verisi taşımaz."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bir telefon numarasını gizlemek için bulanıklaştırmak yeterli mi?",
+          "a": "Her zaman değil. Küçük metin üzerindeki hafif bulanıklık bazen okunabilir veya tahmin edilebilir. Güvenli seçim, düz ve opak bir maskedir."
+        },
+        {
+          "q": "PhotoCleaner+ fotoğraflarımı yükler mi?",
+          "a": "Hayır. Algılama ve maskeleme telefonunuzda çalışır; fotoğraflarınız ve belgeleriniz hiçbir zaman yüklenmez."
+        },
+        {
+          "q": "Ücretsiz mi?",
+          "a": "Algılama, düzenleme ve maskeleme ücretsizdir; günde 3 kez dışa aktarabilirsiniz. Pro günlük sınırı kaldırır ve PDF dışa aktarma ile yazdırma ekler, ya da kısa bir reklam sınırı 24 saatliğine kaldırır."
+        }
+      ]
+    },
+    "sticky-notes-always-on-top-windows": {
+      "app": "floatnotewin",
+      "updated": "2026-10-14",
+      "title": "Windows'ta yapışkan not her zaman üstte nasıl tutulur",
+      "desc": "Masaüstündeki notlar çalıştığınız pencerenin arkasında kalır. Bir notu tüm pencerelerin üstüne nasıl sabitleyeceğinizi anlatıyoruz: PowerToys ile ya da zaten yüzmek üzere tasarlanmış notlarla.",
+      "intro": "Yapışkan not ancak görebildiğinizde işe yarar. Windows'ta masaüstündeki notlar genellikle üzerinde çalıştığınız tarayıcının, belgenin ya da tablonun arkasında kalır ve onları aramanız gerekir. Bir notu üstte tutmanın iki yolu var.",
+      "sections": [
+        {
+          "h": "1. yol: PowerToys ile bir pencereyi sabitleyin",
+          "p": [
+            "Microsoft'un ücretsiz araç seti Microsoft PowerToys, “Always On Top” özelliğini içerir. PowerToys'u yükleyin, “Always On Top”ı açın, önde tutmak istediğiniz pencereye (örneğin bir not penceresine) tıklayın ve Win+Ctrl+T tuşlarına basın. Sabitlemeyi kaldırmak için yeniden basın.",
+            "Bu neredeyse her pencerede çalışır. Sorun şu ki sabitlenmiş pencere tam bir penceredir: tıkladığınızda odağı alır ve notu okusanız da okumasanız da aynı alanı kaplar."
+          ]
+        },
+        {
+          "h": "2. yol: yüzmek üzere tasarlanmış notlar",
+          "p": [
+            "FloatNote+ for Windows (bizim uygulamamız) her notu tüm pencerelerin üstünde küçük bir çip olarak tutar. Çipe tıkladığınızda olduğu yerde bir kart olarak açılır; Esc'ye bastığınızda geri katlanır. Çipler arkalarındaki uygulamanın odağını asla almaz, bu yüzden imleç yazdığınız yerde kalır."
+          ],
+          "steps": [
+            "FloatNote+'ı Microsoft Store'dan yükleyin.",
+            "Tepsi simgesinden ya da genel bir kısayol tuşuyla not oluşturun; not ekranınızın üstünde bir kart olarak görünür.",
+            "Çalışmaya devam edin: not tüm pencerelerin üstünde kalır. Onu bir çipe katlamak için Esc'ye basın.",
+            "Çipleri istediğiniz yere sürükleyin, ayırt etmek için renkler ve zengin metin kullanın, bir notun belirli bir saatte ekrana gelmesi için hatırlatıcı kurun."
+          ]
+        },
+        {
+          "h": "Notlarınız telefonunuzda da",
+          "p": [
+            "FloatNote+ for Windows, kendi Google Drive'ınız üzerinden FloatNote+ Android uygulamasıyla senkronize olur; böylece bilgisayarda yazdığınız not telefonunuzda da olur. Windows sürümünün tüm özellikleri ücretsizdir."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Windows'un Sticky Notes uygulaması diğer pencerelerin üstünde kalabilir mi?",
+          "a": "Çoğu kurulumda kendi başına kalamaz. Bir not penceresi dahil herhangi bir pencereyi PowerToys “Always On Top” (Win+Ctrl+T) ile sabitleyebilir ya da notları zaten diğer pencerelerin üstünde yüzecek şekilde tasarlanmış bir uygulama kullanabilirsiniz."
+        },
+        {
+          "q": "Yüzen bir not, yazdığım şeyin odağını çalar mı?",
+          "a": "FloatNote+ çipleri çalmaz. Bir çipe tıklamak veya onu sürüklemek imleci kullandığınız uygulamada bırakır; yalnızca açık bir kart odağı alır, çünkü onun içine yazarsınız."
+        }
+      ]
+    },
+    "clipboard-history-windows": {
+      "app": "clipboardwin",
+      "updated": "2026-10-14",
+      "title": "Windows'ta pano geçmişi nasıl görülür",
+      "desc": "Windows'ta yerleşik bir pano geçmişi (Win+V) vardır ama kısadır ve yeniden başlatınca silinir. Onu nasıl kullanacağınızı ve kalıcı, aranabilir bir geçmişi nasıl tutacağınızı anlatıyoruz.",
+      "intro": "Yeni bir şey kopyaladığınızda önceki kayıt gider; tabii bir geçmiş tutmuyorsanız. Windows 10 ve 11'de yerleşik bir geçmiş vardır, bir pano yöneticisi ise daha uzun bir geçmiş tutabilir.",
+      "sections": [
+        {
+          "h": "1. yol: yerleşik pano geçmişi (Win+V)",
+          "p": [
+            "Win+V tuşlarına basın. İlk seferde Windows pano geçmişini açmanızı ister (bunu Ayarlar > Sistem > Pano bölümünden de yapabilirsiniz). Sonrasında Win+V son kopyaladıklarınızı gösterir; birine tıklamak onu yapıştırır.",
+            "Hızlıdır ama sınırlıdır: en fazla 25 öğe tutar ve sabitlenmiş öğeler dışında her şey bilgisayarı yeniden başlattığınızda silinir. Arama yoktur ve telefonunuza ulaşmaz."
+          ]
+        },
+        {
+          "h": "2. yol: her şeyi saklayan bir pano yöneticisi",
+          "p": [
+            "Clipboard+ for Windows (bizim uygulamamız) tepside durur ve kopyaladığınız metin ve görselleri kopyaladığınız anda kaydeder. Geçmişiniz siz silene kadar kalır; içinde arama yapabilir, onu gruplar ve snippet'ler halinde düzenleyebilir ve bir kısayolla açabilirsiniz."
+          ],
+          "steps": [
+            "Clipboard+'ı Microsoft Store'dan yükleyin; sistem tepsisinde başlar.",
+            "Her zamanki gibi kopyalayın; her metin ve görsel otomatik olarak kaydedilir.",
+            "İmlecin yanında hızlı seçim penceresini açmak için genel kısayola basın, Ctrl+1–9 ile bir kayıt seçin ve yapıştırmak için Enter'a basın.",
+            "Arama yapmak, sabitlemek, düzenlemek ya da sık kullandığınız metni snippet olarak saklamak için pencereyi açın."
+          ]
+        },
+        {
+          "h": "Telefonunuz ile bilgisayarınız arasında",
+          "p": [
+            "Clipboard+ Android uygulamasıyla birlikte kullandığınızda telefonda kopyaladığınızı bilgisayarda, bilgisayarda kopyaladığınızı telefonda yapıştırırsınız; kendi Google Drive'ınız üzerinden. Pano geçmişi, snippet'ler, gruplar, arama ve hızlı seçim penceresi ücretsizdir; Pro senkronizasyon, sınırsız görsel depolama ve PDF dışa aktarma ekler."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Win+V pano geçmişim yeniden başlattıktan sonra neden boş?",
+          "a": "Windows, bilgisayar yeniden başladığında sabitlenmiş öğeler dışındaki pano geçmişini temizler. Clipboard+ gibi bir pano yöneticisi geçmişinizi yeniden başlatmalar arasında korur."
+        },
+        {
+          "q": "Windows pano geçmişi kaç öğe tutar?",
+          "a": "En fazla 25. Yeni öğeler kopyaladıkça eskileri listeden düşer."
+        }
+      ]
+    },
+    "timer-always-on-top-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-14",
+      "title": "Windows'ta zamanlayıcı diğer pencerelerin üstünde nasıl tutulur",
+      "desc": "Başka pencerelerde çalışırken geri sayımı göz önünde tutun: Saat uygulamasının “Keep on top” özelliğiyle ya da her şeyin üstünde küçük kartlar olarak yüzen zamanlayıcılarla.",
+      "intro": "Bir sunumun, odak seansının ya da görüşmenin süresini tutmak, süre sürekli göz önündeyken daha kolaydır. Windows'un yerleşik bir yolu var; yüzen zamanlayıcı uygulaması ise daha fazlasını ekler.",
+      "sections": [
+        {
+          "h": "1. yol: Saat uygulamasında “Keep on top”",
+          "p": [
+            "Windows ile gelen Saat uygulaması bir zamanlayıcıyı diğer pencerelerin üstünde kalan küçük bir pencerede gösterebilir: bir zamanlayıcı başlatın, genişletin ve “Keep on top”ı seçin. Bu tek bir zamanlayıcı için çalışır ve onu sabit, küçük bir pencerede gösterir."
+          ]
+        },
+        {
+          "h": "2. yol: yüzen zamanlayıcı kartları",
+          "p": [
+            "FloatTimer+ for Windows (bizim uygulamamız) zamanlayıcıları, sayaçları ve kronometreleri tüm pencerelerin üstünde küçük pastel kartlar olarak yüzdürür. Kartlar odağı asla almaz; bu yüzden birine tıkladığınızda imleç yazdığınız yerde kalır."
+          ],
+          "steps": [
+            "FloatTimer+'ı Microsoft Store'dan yükleyin; sistem tepsisinde durur.",
+            "Bir zamanlayıcı, sayaç veya kronometre oluşturun ve yüzdürün.",
+            "Başlatma, duraklatma ve sıfırlamayı doğrudan karttan yapın; kartı istediğiniz yere sürükleyin veya yeniden boyutlandırın.",
+            "Alanı geri istediğinizde onu küçük bir balona katlayın ya da ekranın kenarına itin."
+          ]
+        },
+        {
+          "h": "Ücretsiz ve Pro",
+          "p": [
+            "İstediğiniz kadar zamanlayıcı, sayaç ve kronometre oluşturabilirsiniz; reklam yoktur. Ücretsiz sürüm aynı anda bir kart yüzdürür; Pro, istediğiniz kadarını yüzdüren ve tekrarlayan zamanlayıcılar ile özel uyarılar ekleyen tek seferlik bir satın almadır."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Windows'ta her zaman üstte kalan bir zamanlayıcı var mı?",
+          "a": "Saat uygulamasının “Keep on top” özelliği bir zamanlayıcıyı diğerlerinin üstünde küçük bir pencerede gösterir. Aynı anda birden fazla zamanlayıcı, sayaç veya kronometre için yüzen zamanlayıcı uygulaması kullanın."
+        },
+        {
+          "q": "Yüzen bir zamanlayıcı çalışmamı engeller mi?",
+          "a": "FloatTimer+ kartları alttaki uygulamanın odağını asla almaz; onları bir balona katlayabilir ya da ekranın kenarına yaslayabilirsiniz."
+        }
+      ]
+    },
+    "reading-ruler-dyslexia-adhd-android": {
+      "app": "readfocus",
+      "updated": "2026-10-14",
+      "title": "Android'de disleksi ve DEHB için okuma cetveli: okurken satırı kaybetmeyin",
+      "desc": "Satırı mı kaybediyorsunuz, satır mı atlıyorsunuz, aynı cümleyi tekrar mı okuyorsunuz? Her uygulamanın üstünde bir okuma cetveli ya da okuma maskesi gözlerinizin yolda kalmasına yardım eder. Android'de nasıl kuracağınızı anlatıyoruz.",
+      "intro": "Telefon ekranındaki uzun bir metinde kaybolmak kolaydır: gözünüz bir sonraki satıra kayar, bir satırı atlar ya da zaten okuduğunuz bir cümleye geri döner. Disleksi veya DEHB olan pek çok kişi kâğıttan okurken satırın altına bir cetvel ya da kart koyar. Telefonda bu işi ekranda bir okuma cetveli yapar.",
+      "sections": [
+        {
+          "h": "Önce ekran ayarlarınızdan başlayın",
+          "p": [
+            "Android'in erişilebilirlik ve ekran ayarları (daha büyük yazı tipi, kalın metin, koyu tema) metni okumayı kolaylaştırabilir. Ancak bulunduğunuz satırı işaretlemezler; gözünüz sürekli kaydığında işe yarayan da tam olarak budur."
+          ]
+        },
+        {
+          "h": "ReadFocus+ ile okuma cetveli ekleyin",
+          "p": [
+            "ReadFocus+ (bizim uygulamamız) her uygulamanın üstünde bir odak şeridi yüzdürür: e-kitaplar, PDF'ler, tarayıcılar, haberler, webtoon'lar. Okuduğunuz satırı aydınlatmak için “Satır Vurgusu”nu, okuma bölgeniz dışındaki her şeyi karartmak için “Okuma Maskesi”ni seçin."
+          ],
+          "steps": [
+            "ReadFocus+'ı Google Play'den yükleyin ve “Diğer uygulamaların üzerinde göster” iznini verin.",
+            "Bir mod seçin: “Satır Vurgusu” (okuma cetveli) veya “Okuma Maskesi”.",
+            "Okuduğunuz uygulamayı açın ve şeridi satırınıza sürükleyin.",
+            "Rahat hissedene kadar yüksekliğini (50–300 dp), opaklığını ve renk temasını ayarlayın."
+          ]
+        },
+        {
+          "h": "Ücretsiz ve Pro",
+          "p": [
+            "Ücretsiz sürüm oturum başına 60 dakika üst katman süresi ve 3 renk teması sunar. Pro reklamları ve süre sınırını kaldırır, 10 temanın tamamını ve ekranı açık tutmayı ekler; ya da kısa bir reklam Pro özelliklerini 24 saatliğine açar."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Okuma cetveli disleksiye yardımcı olur mu?",
+          "a": "Disleksi veya DEHB olan pek çok okur, bulunduğu satırı işaretlemenin yerini kaybetmemeyi kolaylaştırdığını fark eder. Bu bir okuma yardımcısıdır, tedavi değildir; deneyin ve size rahat gelen ayarları koruyun."
+        },
+        {
+          "q": "ReadFocus+ hangi uygulamalarla çalışır?",
+          "a": "Ekrandaki her uygulamayla: e-kitap ve PDF okuyucular, tarayıcılar, haberler, ders notları, çizgi romanlar ve webtoon'lar."
+        }
+      ]
+    },
+    "reading-ruler-windows": {
+      "app": "readfocuswin",
+      "updated": "2026-10-14",
+      "title": "Windows'ta okuma cetveli nasıl kullanılır (disleksi ve DEHB için)",
+      "desc": "Edge'in “Immersive Reader” görünümünde web sayfaları için “Line focus” vardır. PDF'ler, belgeler ve diğer tüm uygulamalar için tıklamayı geçiren bir odak şeridi gözlerinizi satırda tutar. İkisini de nasıl kullanacağınızı anlatıyoruz.",
+      "intro": "Monitörde uzun sayfalar okurken satırı kaybetmek kolaydır. Okuma cetveli bulunduğunuz satırı vurgular ya da ekranın geri kalanını karartır; böylece gözleriniz yolda kalır.",
+      "sections": [
+        {
+          "h": "1. yol: Microsoft Edge'de “Line focus”",
+          "p": [
+            "Microsoft Edge'de web sayfaları için sade bir okuma görünümü olan “Immersive Reader” bulunur. Okuma tercihlerindeki “Line focus”, aynı anda bir, üç veya beş satırı vurgular. Yalnızca “Immersive Reader”da açılan sayfalarda çalışır; PDF'lerde, belgelerde veya diğer uygulamalarda çalışmaz."
+          ]
+        },
+        {
+          "h": "2. yol: her uygulamanın üstünde bir odak şeridi",
+          "p": [
+            "ReadFocus+ for Windows (bizim uygulamamız) okuduğunuz her şeyin üstüne bir odak şeridi yerleştirir: bir web sayfası, bir PDF, bir belge, kod. “Maske” ekranın üstünü ve altını karartıp açık bir şerit bırakır; “Vurgulama” bulunduğunuz satırı işaretler. Şerit tıklamayı geçirir; böylece alttaki içerikte eskisi gibi kaydırmaya ve tıklamaya devam edersiniz."
+          ],
+          "steps": [
+            "ReadFocus+'ı Microsoft Store'dan yükleyin.",
+            "Yüzen panelden ya da bir klavye kısayoluyla başlatın ve “Maske” veya “Vurgulama”yı seçin.",
+            "Şeridi satırınıza taşıyın ya da okurken kısayollarla yukarı aşağı kaydırın.",
+            "Panelden şeridi kilitleyin, gizleyin veya başka bir monitöre taşıyın."
+          ]
+        },
+        {
+          "h": "Ücretsiz ve Pro",
+          "p": [
+            "Ücretsiz sürüm iki modu ve üç temayı, en fazla 60 dakikalık oturumlarla sunar. Pro; süre sınırını kaldıran ve premium temalar, şerit yüksekliği ile opaklık ayarları ve ekranı açık tutmayı ekleyen tek seferlik bir satın almadır. Reklam yoktur."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Windows'ta okuma cetveli var mı?",
+          "a": "Edge'in “Immersive Reader” görünümünde web sayfaları için “Line focus” vardır. Diğer uygulamalar (PDF'ler, Word, kod düzenleyicileri) için ReadFocus+ for Windows gibi bir ekran katmanına ihtiyacınız vardır."
+        },
+        {
+          "q": "Şerit tıklamalarımı engeller mi?",
+          "a": "Hayır. ReadFocus+ for Windows tıklamayı geçirir: kaydırma, seçme ve tıklama alttaki uygulamaya gider."
+        }
+      ]
+    },
+    "floating-calculator-over-other-apps-android": {
+      "app": "floatcalc",
+      "updated": "2026-10-14",
+      "title": "Android'de diğer uygulamaların üstünde hesap makinesi nasıl kullanılır",
+      "desc": "Alışveriş, bankacılık ya da tarayıcı ekranından çıkmadan indirim hesaplayın veya fiyat çevirin: her uygulamanın üstünde duran, birim ve döviz çeviricili yüzen bir hesap makinesi.",
+      "intro": "Bir alışveriş uygulamasında fiyata bakarken, bir sohbette hesabı bölüşürken ya da rezervasyon yaparken döviz çevirirken Hesap Makinesi uygulamasına geçip geri dönmek, kaldığınız yeri kaybetmek ve sayıları aklınızda tutmak demektir. Yüzen bir hesap makinesi, kullandığınız uygulamanın üstünde ekranda kalır.",
+      "sections": [
+        {
+          "h": "1. yol: bölünmüş ekran",
+          "p": [
+            "Android, bölünmüş ekranda iki uygulamayı aynı anda gösterebilir. Son uygulamalar ekranını açın, bir uygulama için bölünmüş ekranı seçin ve diğer yarı için Hesap Makinesi'ni seçin. Bu işe yarar ama her uygulama ekranın yalnızca yarısını alır."
+          ]
+        },
+        {
+          "h": "2. yol: yüzen hesap makinesi",
+          "p": [
+            "FloatCalc+ (bizim uygulamamız) her uygulamanın üstünde yüzen bir hesap makinesi penceresidir. Hesap makinesi, birim çevirici ve döviz çevirici, istediğiniz yere sürükleyebileceğiniz tek bir pencereyi paylaşır; yere ihtiyacınız olduğunda tuş takımını tek satıra katlayın ya da paneli ekran kenarında bir simgeye küçültün."
+          ],
+          "steps": [
+            "FloatCalc+'ı Google Play'den yükleyin ve “Diğer uygulamaların üzerinde göster” iznini verin.",
+            "Yüzen hesap makinesini açın ve ihtiyacınız olan yeri kapatmayacağı bir yere sürükleyin.",
+            "İşlemi yazın (üs, kök ve yüzde de çalışır) ve sonucu panoya kopyalayın.",
+            "Aynı pencerede birim veya döviz çeviriciye geçin. Döviz kurları Avrupa Merkez Bankası'ndan gelir, her gün güncellenir ve çevrimdışıyken de çalışmaya devam eder."
+          ]
+        },
+        {
+          "h": "Ücretsiz ve Pro",
+          "p": [
+            "Yüzen hesap makinesi günde 60 dakika ücretsizdir; başlık çubuğu ne kadar süre kaldığını gösterir ve kısa bir reklam 24 saatlik bir geçiş verir. Pro günlük sınırı ve reklamları kaldırır; tüm birim kategorilerini, 30'dan fazla para birimini ve daha fazla temayı ekler."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Uygulamamdan çıkmadan hesap makinesi kullanabilir miyim?",
+          "a": "Evet. FloatCalc+ gibi yüzen bir hesap makinesi, “Diğer uygulamaların üzerinde göster” iznini verdiğinizde diğer uygulamaların üstünde kalır."
+        },
+        {
+          "q": "Döviz kurları nereden geliyor?",
+          "a": "Avrupa Merkez Bankası'ndan; günde bir kez güncellenir ve çevrimdışı kullanım için önbelleğe alınır."
+        }
+      ]
+    },
+    "crypto-price-ticker-over-other-apps-android": {
+      "app": "floatcrypto",
+      "updated": "2026-10-14",
+      "title": "Android'de başka uygulamaları kullanırken kripto fiyatları nasıl görülür",
+      "desc": "Video izlerken, okurken ya da sohbet ederken canlı bir kripto fiyat çubuğunu ekranda tutun ve bir coin hedef fiyatınızı geçtiğinde bildirim alın.",
+      "intro": "Borsa uygulamaları fiyatları uygulamanın içinde ya da ana ekran widget'ında gösterir; bu yüzden piyasaya bakmak, yaptığınız işi bırakmak demektir. Yüzen bir fiyat çubuğu, takip ettiğiniz fiyatları her uygulamanın üstünde ekranda tutar.",
+      "sections": [
+        {
+          "h": "FloatCrypto+ ile yüzen bir fiyat çubuğu kurun",
+          "p": [
+            "FloatCrypto+ (bizim uygulamamız) her uygulamanın üstünde bir fiyat çubuğu yüzdürür: YouTube, haberler, bir oyun, bir sohbet. İstediğiniz yere sürükleyin, boyutunu ayarlayın ve okuduğunuz şeyi kapatmaması için daha saydam yapın."
+          ],
+          "steps": [
+            "FloatCrypto+'ı Google Play'den yükleyin ve “Diğer uygulamaların üzerinde göster” iznini verin.",
+            "Takip ettiğiniz coin'leri izleme listenize ekleyin ve sürükleyerek sıralayın.",
+            "Yüzen fiyat çubuğunu açın ve istediğiniz yere yerleştirin.",
+            "Piyasa belirlediğiniz fiyatı geçtiğinde bildirim almak için bir coin'in ⋮ menüsünden üst veya alt fiyat alarmı kurun."
+          ]
+        },
+        {
+          "h": "Bilmeniz gerekenler",
+          "p": [
+            "Fiyatlar, otomatik bir yedek kaynakla birlikte Binance'ten gelir ve en fazla 30 saniye (Pro'da 10 saniye) gecikebilir. Yalnızca bilgi amaçlıdır; uygulama alım satım yapmaz ve bir borsa hesabına bağlanmaz. Buradaki hiçbir şey yatırım tavsiyesi değildir.",
+            "Ücretsiz sürümde 2 coin ve 1 alarm takip edilir. Free Pass, kısa bir reklam karşılığında 24 saat boyunca daha fazla coin veya daha uzun grafikler açar; Pro ise 10 coin, sınırsız alarm ve 10 saniyelik yenileme sunar, reklam içermez."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "YouTube'un veya bir oyunun üstünde kripto fiyatlarını görebilir miyim?",
+          "a": "Evet. “Diğer uygulamaların üzerinde göster” iznini verdiğinizde fiyat çubuğu her uygulamanın üstünde yüzer."
+        },
+        {
+          "q": "Fiyatlar gerçek zamanlı mı?",
+          "a": "En fazla 30 saniye (Pro'da 10 saniye) gecikebilir ve yalnızca bilgi amaçlıdır."
+        }
+      ]
+    },
+    "make-android-phone-louder": {
+      "app": "volumebooster",
+      "updated": "2026-10-14",
+      "title": "Android telefonun sesi nasıl yükseltilir",
+      "desc": "Telefonunuzun sesi en yüksekte bile kısık mı? Önce bu ayarları kontrol edin, ardından bir ses yükselticinin çıkışı nasıl güvenli şekilde artırdığını görün; yükseltme desibel olarak gösterilir.",
+      "intro": "Videolar, hoparlördeki aramalar ya da müzik, ses en yüksekteyken bile çok kısıksa birkaç ayarla başlayın; bazen telefon sadece kendini sınırlıyordur. Bu yetmezse bir ses yükseltici çıkışı daha da artırabilir.",
+      "sections": [
+        {
+          "h": "Önce bunları kontrol edin",
+          "p": [
+            "Zil sesini değil medya sesini açtığınızdan emin olun: bir video oynarken ses düğmesine basın ya da ses panelini açıp medya kaydırıcısını yükseltin.",
+            "Bazı telefonlarda medya ses sınırı vardır. Samsung telefonlarda ses ayarlarında “Media volume limiter”ı arayın. Varsa telefonun kendi ses efektlerini veya ekolayzerini de deneyin ve bir kılıfın hoparlörü kapatıp kapatmadığını kontrol edin."
+          ]
+        },
+        {
+          "h": "VolumeBooster+ ile çıkışı yükseltin",
+          "p": [
+            "VolumeBooster+ (bizim uygulamamız) tek bir uygulamanın sesini değil sistem çıkışını yükseltir; böylece videolar, müzik ve oyunlar daha yüksek sesli olur. Yükseltme Güvenli, Dikkat ve Tehlike bölgeleriyle desibel olarak gösterilir, böylece ne kadar zorladığınızı görebilirsiniz."
+          ],
+          "steps": [
+            "VolumeBooster+'ı Google Play'den yükleyin.",
+            "Bir şey oynatın, ardından yükseltmeyi azar azar artırın ve dB bölgesini izleyin.",
+            "Sesi yalnızca daha yüksek değil daha net yapmak için ekolayzer hazır ayarlarını, bas yükselticiyi veya kulaklığınıza göre AutoEQ'yu kullanın.",
+            "İhtiyacınız olmadığında yükseltmeyi azaltın; kulaklarınız ve hoparlörünüz size teşekkür edecek."
+          ]
+        },
+        {
+          "h": "Ücretsiz ve Pro, bir de işitmeniz",
+          "p": [
+            "Ücretsiz sürüm günde 60 dakika boyunca +10 dB'ye kadar yükseltir; Pro veya 24 saatlik Free Pass tam +15 dB aralığını açar. dB değeri bir tahmindir ve uygulama tıbbi bir cihaz değildir; kulağınızda ağrı veya çınlama fark ederseniz sesi kısın."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Ses yükseltici hoparlörüme veya işitmeme zarar verebilir mi?",
+          "a": "Çok yüksek ses verebilir. Yükseltmeyi kademeli olarak artırın, Güvenli/Dikkat/Tehlike bölgelerine göz kulak olun ve ses bozulursa ya da kulaklarınız ağrırsa azaltın."
+        },
+        {
+          "q": "Ses ne kadar yükselebilir?",
+          "a": "Pro veya Free Pass ile +15 dB'ye, ücretsiz sürümde +10 dB'ye kadar. Gerçek ses yüksekliği cihaza, kulaklığa ve içeriğe göre değişir."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots-windows": {
+      "app": "photocleanerwin",
+      "updated": "2026-10-14",
+      "title": "Windows'ta ekran görüntülerinde ve PDF'lerde kişisel bilgiler nasıl gizlenir",
+      "desc": "Bilgisayarınızdan bir ekran görüntüsünü veya taranmış bir belgeyi paylaşmadan önce telefon numaralarını, kart numaralarını, kimlik numaralarını ve yüzleri düz maskelerle örtün; hiçbir şey yüklemeden.",
+      "intro": "Ekran görüntüleri ve taranmış belgeler çoğu zaman bir telefon numarası, bir e-posta, bir kart veya kimlik numarası, bir adres ya da bir yüz içerir. Bilgisayarınızdan göndermeden veya paylaşmadan önce bu bilgileri geri getirilemeyecek şekilde örtün.",
+      "sections": [
+        {
+          "h": "1. yol: Ekran Alıntısı Aracı (Snipping Tool)",
+          "p": [
+            "Windows 11'deki Ekran Alıntısı Aracı'nın (Snipping Tool) yeni sürümleri, “Text actions” ile bir ekran görüntüsündeki e-posta adreslerini ve telefon numaralarını gizleyebilir; geri kalan her şeyin üstüne de çizim yapabilirsiniz. Bunun için fosforlu kalemi kullanmayın, çünkü yarı saydamdır; her öğeyi tamamen örten düz çizgiler kullanın."
+          ]
+        },
+        {
+          "h": "2. yol: PhotoCleaner+ for Windows",
+          "p": [
+            "PhotoCleaner+ for Windows (bizim uygulamamız) fotoğraflarda, ekran görüntülerinde ve PDF'lerde olası kişisel bilgileri (telefon numaraları, e-postalar, kart numaraları, IBAN, pasaport numaraları, adlar, adresler, plakalar, yüzler ve QR kodları) bulur ve düz maskeli bir kopya dışa aktarır. Her şey bilgisayarınızda çalışır, hiçbir şey yüklenmez."
+          ],
+          "steps": [
+            "Bir dosya açın, Ctrl+V ile yapıştırın, pencereye sürükleyin ya da Dosya Gezgini'nde dosyaya sağ tıklayıp “Clean with PhotoCleaner+” seçeneğini seçin.",
+            "Kutuları gözden geçirin: açıp kapatmak için bir kutuya tıklayın, taşımak veya boyutlandırmak için sürükleyin ve gözden kaçan her şeyin üstüne kendi kutunuzu çizin.",
+            "Maskelenmiş kopyayı dışa aktarın: kaydedin, kopyalayın, paylaşın veya PDF olarak kaydedin. Orijinalinizin üzerine asla yazılmaz ve kaydedilen kopyalar meta veri taşımaz."
+          ]
+        },
+        {
+          "h": "Ücretsiz ve Pro",
+          "p": [
+            "Kişisel bilgileri bulmak ücretsiz ve sınırsızdır; günde 3 belgeyi ücretsiz dışa aktarabilirsiniz. Pro, günlük sınırı kaldıran ve PDF dışa aktarma ile yazdırma ekleyen tek seferlik bir satın almadır. Reklam ve filigran yoktur."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Her kişisel bilgiyi bulur mu?",
+          "a": "Hiçbir araç bunu vaat edemez. Algılama bir başlangıç noktasıdır; dışa aktarmadan önce kutuları her zaman kontrol edin ve gözden kaçan her şeyin üstüne çizin."
+        },
+        {
+          "q": "Dosyalarım yükleniyor mu?",
+          "a": "Hayır. Algılama, maskeleme ve dışa aktarma bilgisayarınızda çalışır; hesap gerekmez ve hiçbir şey yüklenmez."
+        }
+      ]
+    },
+    "crypto-price-ticker-on-top-windows": {
+      "app": "floatcryptowin",
+      "updated": "2026-10-14",
+      "title": "Windows'ta canlı kripto fiyat şeridi diğer pencerelerin üstünde nasıl tutulur",
+      "desc": "Çalışırken takip ettiğiniz coin'leri izleyin: her pencerenin üstünde ince bir fiyat şeridi, masaüstü bildirimi olarak fiyat uyarıları ve çift tıklayınca açılan grafikler.",
+      "intro": "Borsa sekmesini açık tutmak, her fiyata bakmak istediğinizde o sekmeye geçmek demektir. Yüzen bir fiyat şeridi, takip ettiğiniz coin'leri her pencerenin üstünde göz önünde tutar.",
+      "sections": [
+        {
+          "h": "FloatCrypto+ for Windows'u kurun",
+          "p": [
+            "FloatCrypto+ for Windows (bizim uygulamamız) her pencerenin üstünde ince bir şerit tutar ve her coin'in sembolünü ve 24 saatlik değişimini gösterir. Odağı asla almaz, bu yüzden imleciniz yazdığınız yerde kalır."
+          ],
+          "steps": [
+            "FloatCrypto+'ı Microsoft Store'dan yükleyin; sistem tepsisinde durur.",
+            "Binance paritelerinden coin seçin ve sürükleyerek sıralayın.",
+            "Şeridi istediğiniz yere yerleştirin; saydamlığını ve yazı boyutunu ayarlayın ya da ekran kenarında bir baloncuğa daraltın.",
+            "Piyasa geçtiğinde masaüstü bildirimi almak için güncel fiyatın üstünde veya altında bir hedef belirleyin. Grafiğini görmek için bir coin'e çift tıklayın."
+          ]
+        },
+        {
+          "h": "Bilmeniz gerekenler",
+          "p": [
+            "Tam fiyat tablosu için tepsi simgesinin üzerine gelin; şeridi Ctrl+Alt+T ile gizleyin. Fiyatlar, otomatik yedek kaynakla Binance'in herkese açık piyasa verilerinden gelir ve 30 saniyeye kadar gecikebilir; uygulama alım satım yapmaz, bir borsa hesabına bağlanmaz ve içindeki hiçbir şey yatırım tavsiyesi değildir.",
+            "Ücretsiz sürümde 2 coin ve 1 uyarı takip edilir; Pro, 10 coin, sınırsız uyarı, 10 saniyelik yenileme ve daha uzun grafikler sunan tek seferlik bir satın almadır. Reklam yoktur."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Şerit işimi engeller mi?",
+          "a": "Hayır. Odağı asla almaz; daha saydam yapabilir, bir baloncuğa daraltabilir veya Ctrl+Alt+T ile gizleyebilirsiniz."
+        },
+        {
+          "q": "Borsa hesabıma ihtiyaç duyar mı?",
+          "a": "Hayır. Yalnızca herkese açık piyasa verilerini okur; asla alım satım yapmaz ve fon tutmaz."
+        }
+      ]
+    }
+  }
+}

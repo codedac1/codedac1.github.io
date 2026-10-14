@@ -1,0 +1,660 @@
+{
+  "ui": {
+    "guides": "Guias",
+    "updated": "Atualizado",
+    "inThisGuide": "O app deste guia",
+    "appPage": "Detalhes do app",
+    "moreGuides": "Mais guias",
+    "appGuides": "Guias de uso",
+    "faq": "Perguntas"
+  },
+  "guides": {
+    "android-clipboard-history": {
+      "app": "clipboard",
+      "updated": "2026-10-14",
+      "title": "Como ver o histórico da área de transferência no Android",
+      "desc": "O Android guarda só a última coisa que você copiou. Veja onde encontrar o que você copiou recentemente no teclado e como manter um histórico pesquisável que não some.",
+      "intro": "O próprio Android só lembra a última coisa que você copiou — copie algo novo e o texto anterior se perde. Se você quer recuperar um endereço, um código ou uma frase que copiou antes, precisa de um lugar que guarde um histórico. Existem dois: o seu teclado e um app gerenciador de área de transferência.",
+      "sections": [
+        {
+          "h": "Opção 1: a área de transferência do teclado",
+          "p": [
+            "Muitos teclados têm a própria área de transferência. No Gboard, toque no ícone da área de transferência na barra acima das teclas (ative na primeira vez). O Teclado Samsung também tem um botão de área de transferência na barra de ferramentas.",
+            "É o jeito mais rápido de pegar algo que você copiou há poucos minutos. O problema é que a área de transferência do teclado é de curto prazo: o Gboard, por exemplo, apaga os itens não fixados depois de cerca de uma hora, e você só vê a lista enquanto está digitando."
+          ]
+        },
+        {
+          "h": "Opção 2: um gerenciador que guarda um histórico de verdade",
+          "p": [
+            "Se você copia as mesmas coisas várias vezes — endereços, números de conta, respostas prontas —, um gerenciador de área de transferência guarda tudo até você apagar, permite pesquisar e pode mostrar os itens sobre qualquer app.",
+            "O Clipboard+ (nosso app) guarda os textos e imagens que você copia em um histórico, do mais recente ao mais antigo, com busca e um painel flutuante que você abre sobre o app que estiver usando."
+          ],
+          "steps": [
+            "Instale o Clipboard+ pelo Google Play e abra o app uma vez.",
+            "Copie textos normalmente. Você também pode selecionar texto em qualquer app e escolher Clipboard+ no menu de seleção para salvá-lo.",
+            "Abra o painel flutuante (ou o app) para ver seu histórico, toque em um item para copiá-lo de novo e cole onde estiver.",
+            "Guarde o que você reutiliza como snippets em grupos, para ter tudo sempre a um toque."
+          ]
+        },
+        {
+          "h": "Qual usar?",
+          "p": [
+            "Para algo pontual — colar o que você copiou há um minuto —, a área de transferência do teclado basta. Se você perde itens que queria guardar ou vive digitando o mesmo texto, um gerenciador de área de transferência economiza esse tempo. O Clipboard+ é grátis para começar; o Pro adiciona sincronização com o app para Windows pelo seu próprio Google Drive, imagens ilimitadas e exportação em PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "O Android tem histórico da área de transferência integrado?",
+          "a": "Não no próprio sistema — o Android guarda só o último item copiado. Teclados como o Gboard e o Teclado Samsung adicionam uma lista de curto prazo."
+        },
+        {
+          "q": "Posso ver no PC o histórico da área de transferência do celular?",
+          "a": "Sim, com o Clipboard+ nos dois: o app para Android e o Clipboard+ for Windows sincronizam pelo seu próprio Google Drive (recurso Pro no Android)."
+        }
+      ]
+    },
+    "open-app-automatically-after-reboot-android": {
+      "app": "autostart",
+      "updated": "2026-10-14",
+      "title": "Como abrir um app automaticamente ao reiniciar o Android (sem root)",
+      "desc": "O Android não tem uma configuração para abrir um app quando o celular liga. Veja como fazer seus apps abrirem sozinhos depois de reiniciar, sem root — e como testar sem reiniciar.",
+      "intro": "O Android não tem uma configuração que abre um app quando o celular liga. Se você abre os mesmos apps depois de cada reinício — um app de navegação no carro, um launcher em um tablet de quiosque, um app de música na central multimídia —, um app de início automático pode fazer isso por você.",
+      "sections": [
+        {
+          "h": "Por que isso não acontece sozinho",
+          "p": [
+            "Desde o Android 10, os apps não podem abrir telas por conta própria em segundo plano. Por isso, um app que precisa abrir outros depois de um reinício precisa da permissão “Sobrepor a outros apps”, e só consegue iniciá-los depois que o celular for desbloqueado pela primeira vez."
+          ]
+        },
+        {
+          "h": "Configure com o AutoStart+",
+          "p": [
+            "O AutoStart+ (nosso app) abre os apps que você escolher depois de cada reinício, assim que você desbloqueia o celular. Não precisa de root."
+          ],
+          "steps": [
+            "Instale o AutoStart+ pelo Google Play e abra o app.",
+            "Toque em “Adicionar apps” e escolha os apps que quer abrir depois de um reinício. Arraste as linhas para definir qual abre primeiro.",
+            "Permita “Sobrepor a outros apps” quando for solicitado — sem isso, o Android bloqueia a abertura.",
+            "Toque em “Testar agora” para ver o que vai acontecer, sem reiniciar o celular.",
+            "Reinicie o celular e desbloqueie: seus apps abrem na ordem que você definiu."
+          ]
+        },
+        {
+          "h": "Centrais multimídia e aparelhos que entram em repouso",
+          "p": [
+            "Muitas centrais multimídia Android não reiniciam de verdade — elas entram em repouso quando o carro é desligado. O AutoStart+ tem um “Modo carro” que abre seus apps de novo toda vez que a tela liga."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Preciso de root para iniciar apps automaticamente no Android?",
+          "a": "Não. O AutoStart+ funciona sem root; ele só precisa da permissão “Sobrepor a outros apps”."
+        },
+        {
+          "q": "Por que meus apps não abrem antes de eu desbloquear o celular?",
+          "a": "O Android não deixa um app abrir outros até que o celular seja desbloqueado uma vez depois do reinício. Seus apps abrem logo depois que você desbloqueia."
+        },
+        {
+          "q": "Quantos apps posso iniciar automaticamente de graça?",
+          "a": "A versão gratuita inicia 1 app por inicialização. O Pro inicia toda a sua lista na ordem, e, se você preferir não assinar, um anúncio curto libera o limite por 24 horas."
+        }
+      ]
+    },
+    "floating-notes-over-other-apps-android": {
+      "app": "floatnote",
+      "updated": "2026-10-14",
+      "title": "Como manter uma nota sobre outros apps no Android",
+      "desc": "Deixe uma nota visível enquanto usa outro app: uma nota flutuante que fica sobre qualquer app, recolhe em um chip pequeno e pode aparecer no horário que você escolher.",
+      "intro": "Copiar uma lista para um formulário, conferir uma receita enquanto um vídeo toca, manter um número de pedido à vista em um chat — ficar indo e voltando para o app de notas quebra o ritmo. Uma nota flutuante fica na tela sobre o app que você estiver usando.",
+      "sections": [
+        {
+          "h": "Como funcionam as notas flutuantes",
+          "p": [
+            "Uma nota flutuante é uma pequena janela desenhada sobre outros apps. O Android permite isso com a permissão “Sobrepor a outros apps”, que você concede uma vez. A nota fica por cima enquanto você continua usando o app embaixo."
+          ]
+        },
+        {
+          "h": "Configure com o FloatNote+",
+          "p": [
+            "O FloatNote+ (nosso app) faz cada nota flutuar como um chip pequeno sobre qualquer app. Toque no chip e ele abre ali mesmo como cartão; toque na barra de título para recolhê-lo de novo."
+          ],
+          "steps": [
+            "Instale o FloatNote+ pelo Google Play e permita “Sobrepor a outros apps”.",
+            "Toque em + para escrever uma nota — ela aparece sobre a tela como um cartão.",
+            "Abra o app de que você precisa. A nota fica por cima; recolha-a em um chip quando quiser a tela de volta.",
+            "Use cores, negrito, tamanho do texto e imagens para diferenciar as notas facilmente.",
+            "Para fazer uma nota aparecer em um horário definido, abra o menu ⋮ dela e escolha “Lembrar-me” — uma vez, todo dia, em dias úteis ou nos dias que você escolher."
+          ]
+        },
+        {
+          "h": "Também no seu PC",
+          "p": [
+            "O FloatNote+ for Windows faz o mesmo tipo de nota flutuar sobre qualquer janela, e os dois apps sincronizam pelo seu próprio Google Drive (recurso Pro no Android)."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "O Android tem notas flutuantes integradas?",
+          "a": "O Android não tem um recurso geral de notas flutuantes. Apps como o FloatNote+ adicionam isso usando a permissão “Sobrepor a outros apps”."
+        },
+        {
+          "q": "Uma nota pode aparecer em um horário definido?",
+          "a": "Sim. No FloatNote+, defina um lembrete pelo menu ⋮ da nota, e ela aparece na tela com uma notificação. A versão gratuita mantém um lembrete; o Pro não tem limite."
+        },
+        {
+          "q": "O FloatNote+ é grátis?",
+          "a": "Salvar notas é grátis e ilimitado, e a versão gratuita deixa uma nota flutuando por vez. O Pro adiciona notas flutuantes ilimitadas, imagens na nota, opacidade ajustável, sincronização com o Google Drive e remove os anúncios."
+        }
+      ]
+    },
+    "floating-timer-over-other-apps-android": {
+      "app": "floattimer",
+      "updated": "2026-10-14",
+      "title": "Como manter um timer na tela enquanto usa outros apps no Android",
+      "desc": "O timer do app Relógio some quando você troca de app. Veja como manter uma contagem regressiva, um cronômetro ou um contador flutuando sobre qualquer app.",
+      "intro": "O timer do app Relógio continua rodando em segundo plano, mas você não o vê enquanto está em outro app — precisa puxar as notificações ou voltar para ele. Para estudar com uma aula, cronometrar uma apresentação ou jogar, ajuda ter o tempo na tela o tempo todo.",
+      "sections": [
+        {
+          "h": "Configure com o FloatTimer+",
+          "p": [
+            "O FloatTimer+ (nosso app) faz timers, cronômetros e contadores flutuarem sobre qualquer app como pequenos cartões que você arrasta para onde quiser."
+          ],
+          "steps": [
+            "Instale o FloatTimer+ pelo Google Play e permita “Sobrepor a outros apps”.",
+            "Crie um timer — quantas horas, minutos e segundos quiser, ou um atalho rápido como 25 minutos.",
+            "Deixe-o flutuando e abra o app que você está usando. Inicie, pause e zere pelo próprio cartão.",
+            "Recolha-o em uma bolha quando precisar de espaço; o tempo continua correndo."
+          ]
+        },
+        {
+          "h": "Mais de um ao mesmo tempo",
+          "p": [
+            "Você pode criar quantos timers, contadores e cronômetros quiser de graça, e eles continuam rodando. A versão gratuita mostra um na tela por vez; o Pro deixa flutuar quantos você quiser ao mesmo tempo, ou um anúncio curto libera isso por 24 horas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Posso ver um timer sobre o YouTube ou um jogo?",
+          "a": "Sim. Um timer flutuante fica por cima de qualquer app, inclusive vídeos e jogos, depois que você permite “Sobrepor a outros apps”."
+        },
+        {
+          "q": "Existe um atalho para Pomodoro?",
+          "a": "O FloatTimer+ tem atalhos rápidos de 1, 5, 10, 25, 30 e 60 minutos, então um timer de foco de 25 minutos está a um toque."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots": {
+      "app": "photocleaner",
+      "updated": "2026-10-14",
+      "title": "Como esconder dados pessoais em um print antes de compartilhar",
+      "desc": "Desfoque, uma caneta fina ou um marca-texto podem deixar o texto legível. Veja como cobrir números de telefone, de cartão e rostos para que não possam ser recuperados — no celular, sem enviar nada.",
+      "intro": "Prints e fotos de documentos muitas vezes mostram mais do que você queria compartilhar: um número de telefone, um número de documento ou de cartão, um endereço, um rosto, um QR code. Antes de postar ou enviar, cubra essas informações do jeito certo.",
+      "sections": [
+        {
+          "h": "O que evitar",
+          "p": [
+            "Um marca-texto semitransparente ou traços finos de caneta podem deixar o texto legível quando alguém aumenta o contraste, e o desfoque ou mosaico sobre texto pequeno às vezes pode ser adivinhado. Use uma caixa sólida e opaca sobre tudo o que for privado e compartilhe uma cópia em vez do original."
+          ]
+        },
+        {
+          "h": "Opção 1: o editor de fotos do celular",
+          "p": [
+            "A maioria dos apps de galeria tem uma ferramenta de marcação ou desenho. Se for usá-la, escolha uma forma sólida ou uma caneta totalmente opaca, cubra cada item por completo e dê zoom para conferir as bordas antes de salvar."
+          ]
+        },
+        {
+          "h": "Opção 2: PhotoCleaner+",
+          "p": [
+            "O PhotoCleaner+ (nosso app) foi feito para isso. Ele sugere o que provavelmente é informação pessoal, você revisa cada caixa e ele exporta uma cópia com máscaras sólidas — tudo roda no seu celular, nada é enviado."
+          ],
+          "steps": [
+            "Abra uma foto, um print ou um PDF no PhotoCleaner+.",
+            "Confira as caixas sugeridas — números de telefone, e-mails, números de cartão e textos parecidos — e adicione as suas desenhando.",
+            "Mova, redimensione ou exclua caixas até que tudo o que é privado esteja coberto.",
+            "Exporte a cópia com máscaras e compartilhe essa. O original não é alterado, e as cópias salvas não levam dados EXIF nem de GPS."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Desfocar é suficiente para esconder um número de telefone?",
+          "a": "Nem sempre. Um desfoque leve sobre texto pequeno às vezes pode ser lido ou adivinhado. Uma máscara sólida e opaca é a opção segura."
+        },
+        {
+          "q": "O PhotoCleaner+ envia minhas fotos para algum lugar?",
+          "a": "Não. A detecção e a máscara rodam no seu celular, e suas fotos e documentos nunca são enviados."
+        },
+        {
+          "q": "É grátis?",
+          "a": "Detecção, edição e máscara são grátis; você pode exportar 3 vezes por dia. O Pro tira o limite diário e adiciona exportação em PDF e impressão, ou um anúncio curto libera o limite por 24 horas."
+        }
+      ]
+    },
+    "sticky-notes-always-on-top-windows": {
+      "app": "floatnotewin",
+      "updated": "2026-10-14",
+      "title": "Como deixar uma nota adesiva sempre visível no Windows",
+      "desc": "As notas na área de trabalho acabam atrás da janela em que você está trabalhando. Veja como fixar uma nota acima de todas as janelas — com o PowerToys ou com notas que já flutuam por padrão.",
+      "intro": "Uma nota adesiva só é útil se você consegue vê-la. No Windows, as notas na área de trabalho costumam ficar atrás do navegador, do documento ou da planilha em que você está trabalhando, e você precisa ir atrás delas. Há duas formas de manter uma nota por cima.",
+      "sections": [
+        {
+          "h": "Opção 1: fixar uma janela com o PowerToys",
+          "p": [
+            "O Microsoft PowerToys, um conjunto gratuito de utilitários da Microsoft, inclui o “Always On Top”. Instale o PowerToys, ative o “Always On Top”, clique na janela que quer manter na frente — por exemplo, uma janela de notas — e pressione Win+Ctrl+T. Pressione de novo para desafixar.",
+            "Funciona com quase qualquer janela. O problema é que uma janela fixada é uma janela inteira: ela pega o foco quando você clica nela e ocupa o mesmo espaço, esteja você lendo a nota ou não."
+          ]
+        },
+        {
+          "h": "Opção 2: notas que já flutuam por padrão",
+          "p": [
+            "O FloatNote+ for Windows (nosso app) mantém cada nota como um chip pequeno acima de todas as janelas. Clique no chip e ele abre ali mesmo como cartão; pressione Esc e ele recolhe de novo. Os chips nunca tiram o foco do app atrás deles, então o cursor fica onde você estava digitando."
+          ],
+          "steps": [
+            "Instale o FloatNote+ pela Microsoft Store.",
+            "Crie uma nota pelo ícone na bandeja ou com um atalho global — ela aparece como um cartão sobre a tela.",
+            "Continue trabalhando: a nota fica acima de todas as janelas. Pressione Esc para recolhê-la em um chip.",
+            "Arraste os chips para onde quiser, use cores e texto rico para diferenciá-los e defina um lembrete para fazer uma nota aparecer em um horário definido."
+          ]
+        },
+        {
+          "h": "Suas notas também no celular",
+          "p": [
+            "O FloatNote+ for Windows sincroniza com o app FloatNote+ para Android pelo seu próprio Google Drive, então uma nota que você escreve no PC aparece no celular. Todos os recursos da versão para Windows são gratuitos."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "O Sticky Notes do Windows pode ficar acima de outras janelas?",
+          "a": "Na maioria das configurações, não sozinho. Você pode fixar qualquer janela, inclusive uma janela de notas, com o “Always On Top” do PowerToys (Win+Ctrl+T), ou usar um app cujas notas já flutuam acima de outras janelas por padrão."
+        },
+        {
+          "q": "Uma nota flutuante tira o foco do que estou digitando?",
+          "a": "Os chips do FloatNote+ não. Clicar em um chip ou arrastá-lo deixa o cursor no app que você estava usando; só um cartão aberto pega o foco, porque você digita nele."
+        }
+      ]
+    },
+    "clipboard-history-windows": {
+      "app": "clipboardwin",
+      "updated": "2026-10-14",
+      "title": "Como ver o histórico da área de transferência no Windows",
+      "desc": "O Windows tem um histórico da área de transferência integrado (Win+V), mas ele é curto e é apagado quando você reinicia. Veja como usá-lo e como manter um histórico pesquisável que dure.",
+      "intro": "Copie algo novo e o item anterior se perde — a menos que você mantenha um histórico. O Windows 10 e 11 têm um integrado, e um gerenciador de área de transferência pode guardar um histórico mais longo.",
+      "sections": [
+        {
+          "h": "Opção 1: o histórico integrado (Win+V)",
+          "p": [
+            "Pressione Win+V. Na primeira vez, o Windows pede para você ativar o histórico da área de transferência (você também pode fazer isso em Configurações > Sistema > Área de transferência). Depois disso, o Win+V mostra os itens copiados recentemente, e clicar em um deles o cola.",
+            "É rápido, mas limitado: guarda até 25 itens, e tudo, exceto os itens fixados, é apagado quando você reinicia o PC. Não tem busca e não chega ao seu celular."
+          ]
+        },
+        {
+          "h": "Opção 2: um gerenciador que guarda tudo",
+          "p": [
+            "O Clipboard+ for Windows (nosso app) fica na bandeja e salva os textos e imagens que você copia no instante em que você copia. Seu histórico fica guardado até você apagar, e você pode pesquisar, organizar em grupos e snippets e abri-lo com um atalho."
+          ],
+          "steps": [
+            "Instale o Clipboard+ pela Microsoft Store; ele inicia na bandeja do sistema.",
+            "Copie normalmente — todo texto e imagem é salvo automaticamente.",
+            "Pressione o atalho global para abrir a janela de seleção rápida no cursor, escolha um item com Ctrl+1–9 e pressione Enter para colar.",
+            "Abra a janela para pesquisar, fixar, editar ou guardar textos usados com frequência como snippets."
+          ]
+        },
+        {
+          "h": "Entre o celular e o PC",
+          "p": [
+            "Junto com o app Clipboard+ para Android, o que você copia no celular você cola no PC, e vice-versa, pelo seu próprio Google Drive. Histórico, snippets, grupos, busca e a janela de seleção rápida são grátis; o Pro adiciona sincronização, armazenamento ilimitado de imagens e exportação em PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Por que meu histórico do Win+V fica vazio depois de reiniciar?",
+          "a": "O Windows apaga o histórico da área de transferência quando o PC reinicia, exceto os itens fixados. Um gerenciador de área de transferência como o Clipboard+ mantém seu histórico entre reinícios."
+        },
+        {
+          "q": "Quantos itens o histórico da área de transferência do Windows guarda?",
+          "a": "Até 25. Os itens mais antigos saem à medida que você copia novos."
+        }
+      ]
+    },
+    "timer-always-on-top-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-14",
+      "title": "Como manter um timer acima de outras janelas no Windows",
+      "desc": "Deixe uma contagem regressiva visível enquanto trabalha em outras janelas — com o “Keep on top” do app Relógio ou com timers que flutuam como pequenos cartões sobre tudo.",
+      "intro": "Cronometrar uma apresentação, uma sessão de foco ou uma chamada fica mais fácil quando o tempo está sempre à vista. O Windows oferece um jeito integrado, e um app de timer flutuante acrescenta mais.",
+      "sections": [
+        {
+          "h": "Opção 1: “Keep on top” no app Relógio",
+          "p": [
+            "O app Relógio que vem com o Windows pode mostrar um timer em uma janela pequena que fica acima das outras: inicie um timer, expanda-o e escolha “Keep on top”. Funciona para um único timer e o mostra em uma janela pequena fixa."
+          ]
+        },
+        {
+          "h": "Opção 2: cartões de timer flutuantes",
+          "p": [
+            "O FloatTimer+ for Windows (nosso app) faz timers, contadores e cronômetros flutuarem acima de todas as janelas como pequenos cartões pastel. Os cartões nunca pegam o foco, então clicar em um deixa o cursor onde você estava digitando."
+          ],
+          "steps": [
+            "Instale o FloatTimer+ pela Microsoft Store; ele fica na bandeja do sistema.",
+            "Crie um timer, contador ou cronômetro e deixe-o flutuando.",
+            "Inicie, pause e zere pelo próprio cartão; arraste-o para onde quiser ou redimensione.",
+            "Recolha-o em uma pequena bolha ou empurre-o contra a borda da tela quando quiser o espaço de volta."
+          ]
+        },
+        {
+          "h": "Grátis e Pro",
+          "p": [
+            "Você pode criar quantos timers, contadores e cronômetros quiser, sem anúncios. A versão gratuita deixa um cartão flutuando por vez; o Pro é uma compra única que deixa flutuar quantos você quiser e adiciona timers com repetição e alertas personalizados."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "O Windows tem um timer sempre visível?",
+          "a": "O “Keep on top” do app Relógio mostra um timer em uma janela pequena acima das outras. Para vários timers, contadores ou cronômetros ao mesmo tempo, use um app de timer flutuante."
+        },
+        {
+          "q": "Um timer flutuante vai atrapalhar meu trabalho?",
+          "a": "Os cartões do FloatTimer+ nunca tiram o foco do app embaixo, e você pode recolhê-los em uma bolha ou encostá-los na borda da tela."
+        }
+      ]
+    },
+    "reading-ruler-dyslexia-adhd-android": {
+      "app": "readfocus",
+      "updated": "2026-10-14",
+      "title": "Régua de leitura para dislexia e TDAH no Android: não perca a linha ao ler",
+      "desc": "Perde a linha, pula linhas ou relê a mesma frase? Uma régua de leitura ou máscara de leitura sobre qualquer app ajuda seus olhos a não sair do rumo. Veja como configurar no Android.",
+      "intro": "É fácil se perder em um texto longo na tela do celular: os olhos escorregam para a linha seguinte, pulam uma linha ou voltam para uma frase que você já leu. Muitas pessoas com dislexia ou TDAH usam uma régua ou um cartão embaixo da linha quando leem no papel. No celular, uma régua de leitura faz o mesmo na tela.",
+      "sections": [
+        {
+          "h": "Comece pelas configurações de tela",
+          "p": [
+            "As configurações de acessibilidade e de tela do Android — fonte maior, texto em negrito, tema escuro — podem deixar o texto mais fácil de ler. Mas elas não marcam a linha em que você está, que é o que ajuda quando os olhos ficam escapando."
+          ]
+        },
+        {
+          "h": "Adicione uma régua de leitura com o ReadFocus+",
+          "p": [
+            "O ReadFocus+ (nosso app) faz uma faixa de foco flutuar sobre qualquer app — e-books, PDFs, navegadores, notícias, webtoons. Escolha “Destaque de Linha” para iluminar a linha que você está lendo, ou “Máscara de Leitura” para escurecer tudo, exceto sua zona de leitura."
+          ],
+          "steps": [
+            "Instale o ReadFocus+ pelo Google Play e permita “Sobrepor a outros apps”.",
+            "Escolha um modo: “Destaque de Linha” (uma régua de leitura) ou “Máscara de Leitura”.",
+            "Abra o app em que você está lendo e arraste a faixa até a sua linha.",
+            "Ajuste a altura (50–300 dp), a opacidade e o tema de cor até ficar confortável."
+          ]
+        },
+        {
+          "h": "Grátis e Pro",
+          "p": [
+            "A versão gratuita oferece 60 minutos de sobreposição por sessão e 3 temas de cor. O Pro remove os anúncios e o limite de tempo e adiciona todos os 10 temas e a tela sempre ligada, ou um anúncio curto libera os recursos Pro por 24 horas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Uma régua de leitura ajuda na dislexia?",
+          "a": "Muitos leitores com dislexia ou TDAH percebem que marcar a linha atual facilita não se perder. É um apoio à leitura, não um tratamento — experimente e fique com as configurações que forem confortáveis."
+        },
+        {
+          "q": "Com quais apps o ReadFocus+ funciona?",
+          "a": "Com qualquer app na tela: leitores de e-book e PDF, navegadores, notícias, anotações de estudo, quadrinhos e webtoons."
+        }
+      ]
+    },
+    "reading-ruler-windows": {
+      "app": "readfocuswin",
+      "updated": "2026-10-14",
+      "title": "Como usar uma régua de leitura no Windows (para dislexia e TDAH)",
+      "desc": "O “Immersive Reader” do Edge tem o “Line focus” para páginas da web. Para PDFs, documentos e qualquer outro app, uma faixa de foco com clique passante mantém seus olhos na linha. Veja como usar os dois.",
+      "intro": "Ao ler páginas longas no monitor, é fácil perder a linha. Uma régua de leitura destaca a linha em que você está, ou escurece o resto da tela, para seus olhos não saírem do rumo.",
+      "sections": [
+        {
+          "h": "Opção 1: “Line focus” no Microsoft Edge",
+          "p": [
+            "O Microsoft Edge tem o “Immersive Reader”, uma visualização de leitura limpa para páginas da web. Nas preferências de leitura dele, o “Line focus” destaca uma, três ou cinco linhas por vez. Ele só funciona em páginas que abrem no “Immersive Reader”, não em PDFs, documentos ou outros apps."
+          ]
+        },
+        {
+          "h": "Opção 2: uma faixa de foco sobre qualquer app",
+          "p": [
+            "O ReadFocus+ for Windows (nosso app) coloca uma faixa de foco sobre o que você estiver lendo — uma página da web, um PDF, um documento, código. A “Máscara” escurece a parte de cima e de baixo da tela e deixa uma faixa clara; o “Destaque” marca a linha em que você está. A faixa tem clique passante, então você continua rolando e clicando no que está embaixo como antes."
+          ],
+          "steps": [
+            "Instale o ReadFocus+ pela Microsoft Store.",
+            "Inicie pelo painel flutuante ou com um atalho de teclado e escolha “Máscara” ou “Destaque”.",
+            "Leve a faixa até a sua linha, ou mova-a para cima e para baixo com atalhos enquanto lê.",
+            "Trave, esconda ou leve a faixa para outro monitor pelo painel."
+          ]
+        },
+        {
+          "h": "Grátis e Pro",
+          "p": [
+            "A versão gratuita inclui os dois modos e três temas, em sessões de até 60 minutos. O Pro é uma compra única que remove o limite de tempo e adiciona temas premium, ajustes de altura e opacidade da faixa e tela sempre ligada. Não há anúncios."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "O Windows tem uma régua de leitura?",
+          "a": "O “Immersive Reader” do Edge tem o “Line focus” para páginas da web. Para outros apps — PDFs, Word, editores de código —, você precisa de uma sobreposição na tela como o ReadFocus+ for Windows."
+        },
+        {
+          "q": "A faixa bloqueia meus cliques?",
+          "a": "Não. O ReadFocus+ for Windows tem clique passante: rolagem, seleção e cliques vão para o app embaixo."
+        }
+      ]
+    },
+    "floating-calculator-over-other-apps-android": {
+      "app": "floatcalc",
+      "updated": "2026-10-14",
+      "title": "Como usar uma calculadora por cima de outros apps no Android",
+      "desc": "Calcule um desconto ou converta um preço sem sair da tela de compras, do banco ou do navegador: uma calculadora flutuante que fica sobre qualquer app, com conversor de unidades e de moedas.",
+      "intro": "Conferir um preço num app de compras, dividir uma conta numa conversa, converter uma moeda durante uma reserva — trocar para o app Calculadora e voltar faz você perder o lugar e guardar números de cabeça. Uma calculadora flutuante fica na tela por cima do app que você está usando.",
+      "sections": [
+        {
+          "h": "Opção 1: tela dividida",
+          "p": [
+            "O Android pode mostrar dois apps ao mesmo tempo em tela dividida. Abra a tela de apps recentes, escolha a tela dividida para um app e selecione a Calculadora para a outra metade. Funciona, mas cada app fica com só metade da tela."
+          ]
+        },
+        {
+          "h": "Opção 2: uma calculadora flutuante",
+          "p": [
+            "O FloatCalc+ (nosso app) é uma janela de calculadora que flutua sobre qualquer app. Calculadora, conversor de unidades e conversor de moedas dividem a mesma janela, que você arrasta para onde quiser; recolha o teclado para uma única linha ou reduza o painel a um ícone na borda da tela quando precisar de espaço."
+          ],
+          "steps": [
+            "Instale o FloatCalc+ pelo Google Play e permita “Sobrepor a outros apps”.",
+            "Abra a calculadora flutuante e arraste-a para onde ela não cubra o que você precisa ver.",
+            "Digite a conta — potências, raízes e porcentagens também funcionam — e copie o resultado para a área de transferência.",
+            "Troque para o conversor de unidades ou de moedas na mesma janela. As taxas de câmbio vêm do Banco Central Europeu, são atualizadas todo dia e continuam funcionando offline."
+          ]
+        },
+        {
+          "h": "Grátis e Pro",
+          "p": [
+            "A calculadora flutuante é grátis por 60 minutos por dia; a barra de título mostra quanto tempo resta, e um anúncio curto dá um passe de 24 horas. O Pro tira o limite diário e os anúncios e adiciona todas as categorias de unidades, mais de 30 moedas e mais temas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Dá para usar uma calculadora sem sair do meu app?",
+          "a": "Sim. Uma calculadora flutuante como o FloatCalc+ fica por cima de outros apps depois que você permite “Sobrepor a outros apps”."
+        },
+        {
+          "q": "De onde vêm as taxas de câmbio?",
+          "a": "Do Banco Central Europeu, atualizadas uma vez por dia e guardadas em cache para uso offline."
+        }
+      ]
+    },
+    "crypto-price-ticker-over-other-apps-android": {
+      "app": "floatcrypto",
+      "updated": "2026-10-14",
+      "title": "Como ver preços de criptomoedas enquanto usa outros apps no Android",
+      "desc": "Mantenha um ticker cripto ao vivo na tela enquanto assiste a vídeos, lê ou conversa, e receba um aviso quando uma moeda cruzar o seu preço-alvo.",
+      "intro": "Os apps das corretoras mostram os preços dentro do app ou num widget da tela inicial, então olhar o mercado significa largar o que você está fazendo. Um ticker flutuante mantém os preços que você acompanha na tela, por cima de qualquer app.",
+      "sections": [
+        {
+          "h": "Configure um ticker flutuante com o FloatCrypto+",
+          "p": [
+            "O FloatCrypto+ (nosso app) deixa um ticker de preços flutuando sobre todos os apps — YouTube, notícias, um jogo, uma conversa. Arraste para onde quiser, ajuste o tamanho e reduza a opacidade para não cobrir o que você está lendo."
+          ],
+          "steps": [
+            "Instale o FloatCrypto+ pelo Google Play e permita “Sobrepor a outros apps”.",
+            "Adicione as moedas que você acompanha à sua lista e arraste-as na ordem que preferir.",
+            "Ative o ticker flutuante e posicione-o onde quiser.",
+            "Defina um alerta de preço superior ou inferior pelo menu ⋮ de uma moeda para ser avisado quando o mercado cruzar esse valor."
+          ]
+        },
+        {
+          "h": "Bom saber",
+          "p": [
+            "Os preços vêm da Binance, com uma fonte alternativa automática, e podem ter até 30 segundos de atraso (10 segundos no Pro). Servem apenas como referência, e o app não faz negociações nem se conecta a uma conta de corretora. Nada aqui é recomendação de investimento.",
+            "O plano grátis acompanha 2 moedas com 1 alerta. Um Free Pass libera mais moedas ou gráficos mais longos por 24 horas em troca de um anúncio curto, e o Pro dá 10 moedas, alertas ilimitados, atualização a cada 10 segundos e nenhum anúncio."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Dá para ver preços de cripto por cima do YouTube ou de um jogo?",
+          "a": "Sim. O ticker flutua por cima de todos os apps depois que você permite “Sobrepor a outros apps”."
+        },
+        {
+          "q": "Os preços são em tempo real?",
+          "a": "Eles podem ter até 30 segundos de atraso (10 segundos no Pro) e servem apenas como referência."
+        }
+      ]
+    },
+    "make-android-phone-louder": {
+      "app": "volumebooster",
+      "updated": "2026-10-14",
+      "title": "Como deixar o celular Android mais alto",
+      "desc": "O celular está baixo mesmo com o volume no máximo? Confira primeiro estas configurações e depois veja como um amplificador de volume aumenta a saída com segurança — com o ganho mostrado em decibéis.",
+      "intro": "Se vídeos, chamadas no viva-voz ou música ficam baixos demais mesmo com o volume no máximo, comece por algumas configurações — às vezes o próprio celular está se limitando. Se não for suficiente, um amplificador de volume pode aumentar ainda mais a saída.",
+      "sections": [
+        {
+          "h": "Confira isto primeiro",
+          "p": [
+            "Verifique se você está aumentando o volume de mídia, e não o do toque: aperte um botão de volume enquanto um vídeo está tocando, ou abra o painel de volume e suba o controle de mídia.",
+            "Alguns celulares têm um limite de volume de mídia. Nos celulares Samsung, procure “Media volume limiter” nas configurações de volume. Experimente também os efeitos sonoros ou o equalizador do próprio celular, se houver, e veja se uma capinha está cobrindo o alto-falante."
+          ]
+        },
+        {
+          "h": "Aumente a saída com o VolumeBooster+",
+          "p": [
+            "O VolumeBooster+ (nosso app) aumenta a saída do sistema, e não o volume de um só app, então vídeos, música e jogos ficam mais altos. O ganho aparece em decibéis com as zonas Seguro, Atenção e Perigo, para você ver até onde já aumentou."
+          ],
+          "steps": [
+            "Instale o VolumeBooster+ pelo Google Play.",
+            "Coloque algo para tocar, aumente o ganho aos poucos e observe a zona de dB.",
+            "Use os presets do equalizador, o reforço de graves ou o AutoEQ para os seus fones de ouvido para deixar o som mais claro, não só mais alto.",
+            "Diminua o ganho quando não precisar dele — seus ouvidos e seu alto-falante agradecem."
+          ]
+        },
+        {
+          "h": "Grátis e Pro, e a sua audição",
+          "p": [
+            "O plano grátis aumenta até +10 dB por 60 minutos por dia; o Pro ou um Free Pass de 24 horas libera a faixa completa de +15 dB. O valor em dB é uma estimativa, e o app não é um dispositivo médico — se sentir dor ou zumbido no ouvido, abaixe o volume."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Um amplificador de volume pode danificar o alto-falante ou a minha audição?",
+          "a": "Volume muito alto pode. Aumente o ganho aos poucos, fique de olho nas zonas Seguro/Atenção/Perigo e abaixe se o som distorcer ou seus ouvidos doerem."
+        },
+        {
+          "q": "Quanto mais alto ele consegue deixar?",
+          "a": "Até +15 dB com o Pro ou um Free Pass, e até +10 dB na versão gratuita. O volume real varia conforme o aparelho, os fones e o conteúdo."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots-windows": {
+      "app": "photocleanerwin",
+      "updated": "2026-10-14",
+      "title": "Como esconder dados pessoais em capturas de tela e PDFs no Windows",
+      "desc": "Antes de compartilhar uma captura de tela ou um documento escaneado do seu PC, cubra números de telefone, números de cartão, números de documento e rostos com máscaras sólidas — sem enviar nada.",
+      "intro": "Capturas de tela e documentos escaneados muitas vezes contêm um número de telefone, um e-mail, um número de cartão ou de documento, um endereço ou um rosto. Antes de enviar ou postar pelo PC, cubra essas informações para que não possam ser recuperadas.",
+      "sections": [
+        {
+          "h": "Opção 1: Ferramenta de Captura (Snipping Tool)",
+          "p": [
+            "As versões recentes da Ferramenta de Captura (Snipping Tool) no Windows 11 conseguem ocultar endereços de e-mail e números de telefone numa captura pelas “Text actions”, e você pode desenhar por cima de qualquer outra coisa. Não use o marca-texto para isso — ele é semitransparente — e prefira traços sólidos que cubram cada item por completo."
+          ]
+        },
+        {
+          "h": "Opção 2: PhotoCleaner+ for Windows",
+          "p": [
+            "O PhotoCleaner+ for Windows (nosso app) encontra o que provavelmente é informação pessoal em fotos, capturas de tela e PDFs — números de telefone, e-mails, números de cartão, IBAN, números de passaporte, nomes, endereços, placas de carro, rostos e QR codes — e exporta uma cópia com máscaras sólidas. Tudo roda no seu PC; nada é enviado."
+          ],
+          "steps": [
+            "Abra um arquivo, cole com Ctrl+V, arraste para a janela ou clique nele com o botão direito no Explorador de Arquivos e escolha “Clean with PhotoCleaner+”.",
+            "Revise as caixas: clique para ativar ou desativar uma, arraste para mover ou redimensionar e desenhe as suas sobre o que tiver escapado.",
+            "Exporte a cópia com máscaras — salve, copie, compartilhe ou salve como PDF. O original nunca é substituído, e as cópias salvas não levam metadados."
+          ]
+        },
+        {
+          "h": "Grátis e Pro",
+          "p": [
+            "Encontrar dados pessoais é grátis e ilimitado, e você pode exportar 3 documentos por dia de graça. O Pro é uma compra única que tira o limite diário e adiciona exportação em PDF e impressão. Não há anúncios nem marca d'água."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Ele encontra todos os dados pessoais?",
+          "a": "Nenhuma ferramenta pode prometer isso. A detecção é um ponto de partida — sempre confira as caixas antes de exportar e cubra o que tiver escapado."
+        },
+        {
+          "q": "Meus arquivos são enviados para algum lugar?",
+          "a": "Não. Detecção, máscara e exportação rodam no seu PC, sem conta e sem enviar nada."
+        }
+      ]
+    },
+    "crypto-price-ticker-on-top-windows": {
+      "app": "floatcryptowin",
+      "updated": "2026-10-14",
+      "title": "Como manter um ticker cripto ao vivo por cima de outras janelas no Windows",
+      "desc": "Acompanhe suas moedas enquanto trabalha: um ticker de preços fino acima de todas as janelas, alertas de preço como notificações na área de trabalho e gráficos com um clique duplo.",
+      "intro": "Deixar uma aba da corretora aberta obriga você a trocar para ela toda vez que quer ver um preço. Um ticker flutuante mantém as moedas que você acompanha à vista, acima de todas as janelas.",
+      "sections": [
+        {
+          "h": "Configure o FloatCrypto+ for Windows",
+          "p": [
+            "O FloatCrypto+ for Windows (nosso app) mantém um ticker fino por cima de todas as janelas, mostrando o símbolo e a variação de 24 horas de cada moeda. Ele nunca pega o foco, então o cursor fica onde você estava digitando."
+          ],
+          "steps": [
+            "Instale o FloatCrypto+ pela Microsoft Store; ele fica na bandeja do sistema.",
+            "Escolha moedas entre os pares da Binance e arraste-as na ordem que preferir.",
+            "Posicione o ticker onde quiser e ajuste a opacidade e o tamanho do texto — ou recolha-o em uma bolha na borda da tela.",
+            "Defina um alvo acima ou abaixo do preço atual para receber uma notificação na área de trabalho quando o mercado cruzar esse valor. Clique duas vezes numa moeda para ver o gráfico."
+          ]
+        },
+        {
+          "h": "Bom saber",
+          "p": [
+            "Passe o mouse sobre o ícone da bandeja para ver uma tabela completa de preços, e oculte o ticker com Ctrl+Alt+T. Os preços vêm dos dados de mercado públicos da Binance, com fonte alternativa automática, e podem ter até 30 segundos de atraso; o app não faz negociações nem se conecta a uma conta de corretora, e nada nele é recomendação de investimento.",
+            "O plano grátis acompanha 2 moedas com 1 alerta; o Pro é uma compra única com 10 moedas, alertas ilimitados, atualização a cada 10 segundos e gráficos mais longos. Não há anúncios."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "O ticker atrapalha o meu trabalho?",
+          "a": "Não. Ele nunca pega o foco; você pode reduzir a opacidade, recolhê-lo em uma bolha ou ocultá-lo com Ctrl+Alt+T."
+        },
+        {
+          "q": "Ele precisa da minha conta da corretora?",
+          "a": "Não. Ele só lê dados de mercado públicos e nunca negocia nem guarda fundos."
+        }
+      ]
+    }
+  }
+}

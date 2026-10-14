@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>Como ver o histórico da área de transferência no Windows | CodeDAC</title>
+  <meta name="description" content="O Windows tem um histórico da área de transferência integrado (Win+V), mas ele é curto e é apagado quando você reinicia. Veja como usá-lo e como manter um histórico pesquisável que dure." />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/pt/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/clipboard-history-windows.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="Como ver o histórico da área de transferência no Windows | CodeDAC" />
+  <meta property="og:description" content="O Windows tem um histórico da área de transferência integrado (Win+V), mas ele é curto e é apagado quando você reinicia. Veja como usá-lo e como manter um histórico pesquisável que dure." />
+  <meta property="og:url" content="https://codedac.com/pt/guides/clipboard-history-windows.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/clipboardwin.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Como ver o histórico da área de transferência no Windows | CodeDAC" />
+  <meta name="twitter:description" content="O Windows tem um histórico da área de transferência integrado (Win+V), mas ele é curto e é apagado quando você reinicia. Veja como usá-lo e como manter um histórico pesquisável que dure." />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/clipboardwin.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=73" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Como ver o histórico da área de transferência no Windows",
+  "description": "O Windows tem um histórico da área de transferência integrado (Win+V), mas ele é curto e é apagado quando você reinicia. Veja como usá-lo e como manter um histórico pesquisável que dure.",
+  "inLanguage": "pt-BR",
+  "datePublished": "2026-10-14",
+  "dateModified": "2026-10-14",
+  "mainEntityOfPage": "https://codedac.com/pt/guides/clipboard-history-windows.html",
+  "image": "https://codedac.com/images/icons/clipboardwin.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "Clipboard+ for Windows",
+    "url": "https://codedac.com/pt/apps/clipboardwin.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/pt/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Clipboard+ for Windows",
+      "item": "https://codedac.com/pt/apps/clipboardwin.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Como ver o histórico da área de transferência no Windows",
+      "item": "https://codedac.com/pt/guides/clipboard-history-windows.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Por que meu histórico do Win+V fica vazio depois de reiniciar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O Windows apaga o histórico da área de transferência quando o PC reinicia, exceto os itens fixados. Um gerenciador de área de transferência como o Clipboard+ mantém seu histórico entre reinícios."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quantos itens o histórico da área de transferência do Windows guarda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Até 25. Os itens mais antigos saem à medida que você copia novos."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/pt/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/pt/#apps">Apps</a>
+        <a href="/pt/#reviews">Avaliações</a>
+        <a href="/pt/#about">Sobre</a>
+        <a href="/pt/#contact">Crie conosco</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Alternar modo escuro" title="Alternar modo escuro">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Português"><span class="lang-name">Português</span><span class="lang-code" aria-hidden="true">PT</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/clipboard-history-windows.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/clipboard-history-windows.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/guides/clipboard-history-windows.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/clipboard-history-windows.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item is-active" data-lang="pt" href="/pt/guides/clipboard-history-windows.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/guides/clipboard-history-windows.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item" data-lang="fr" href="/fr/guides/clipboard-history-windows.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/clipboard-history-windows.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item" data-lang="hi" href="/hi/guides/clipboard-history-windows.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/clipboard-history-windows.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item" data-lang="zh" href="/zh/guides/clipboard-history-windows.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/guides/clipboard-history-windows.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/clipboard-history-windows.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/clipboard-history-windows.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/guides/clipboard-history-windows.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/clipboard-history-windows.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/clipboard-history-windows.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/clipboard-history-windows.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/clipboard-history-windows.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item" data-lang="uk" href="/uk/guides/clipboard-history-windows.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/clipboard-history-windows.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-windows guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/pt/">Início</a>
+        <span class="sep">/</span>
+        <a href="/pt/apps/clipboardwin.html"><bdi>Clipboard+ for Windows</bdi></a>
+        <span class="sep">/</span>
+        <span class="current">Guias</span>
+      </nav>
+      <h1>Como ver o histórico da área de transferência no Windows</h1>
+      <p class="guide-meta">Atualizado <time datetime="2026-10-14">2026-10-14</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">Copie algo novo e o item anterior se perde — a menos que você mantenha um histórico. O Windows 10 e 11 têm um integrado, e um gerenciador de área de transferência pode guardar um histórico mais longo.</p>
+
+        <h2>Opção 1: o histórico integrado (Win+V)</h2>
+        <p>Pressione Win+V. Na primeira vez, o Windows pede para você ativar o histórico da área de transferência (você também pode fazer isso em Configurações &gt; Sistema &gt; Área de transferência). Depois disso, o Win+V mostra os itens copiados recentemente, e clicar em um deles o cola.</p>
+        <p>É rápido, mas limitado: guarda até 25 itens, e tudo, exceto os itens fixados, é apagado quando você reinicia o PC. Não tem busca e não chega ao seu celular.</p>
+
+        <h2>Opção 2: um gerenciador que guarda tudo</h2>
+        <p>O Clipboard+ for Windows (nosso app) fica na bandeja e salva os textos e imagens que você copia no instante em que você copia. Seu histórico fica guardado até você apagar, e você pode pesquisar, organizar em grupos e snippets e abri-lo com um atalho.</p>
+        <ol class="guide-steps">
+          <li>Instale o Clipboard+ pela Microsoft Store; ele inicia na bandeja do sistema.</li>
+          <li>Copie normalmente — todo texto e imagem é salvo automaticamente.</li>
+          <li>Pressione o atalho global para abrir a janela de seleção rápida no cursor, escolha um item com Ctrl+1–9 e pressione Enter para colar.</li>
+          <li>Abra a janela para pesquisar, fixar, editar ou guardar textos usados com frequência como snippets.</li>
+        </ol>
+
+        <h2>Entre o celular e o PC</h2>
+        <p>Junto com o app Clipboard+ para Android, o que você copia no celular você cola no PC, e vice-versa, pelo seu próprio Google Drive. Histórico, snippets, grupos, busca e a janela de seleção rápida são grátis; o Pro adiciona sincronização, armazenamento ilimitado de imagens e exportação em PDF.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">O app deste guia</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/clipboardwin.png?v=73" alt="Clipboard+ for Windows icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>Clipboard+ for Windows</bdi></p>
+          <p class="rc-desc">Um gerenciador de área de transferência na bandeja do Windows que sincroniza com o app Clipboard+ para Android.</p>
+          <div class="guide-app-actions">
+            <a href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-guide-pt" class="btn btn-primary" target="_blank" rel="noopener">Ver na Microsoft Store →</a>
+            <a href="/pt/apps/clipboardwin.html" class="btn btn-ghost">Detalhes do app</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Perguntas</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">Por que meu histórico do Win+V fica vazio depois de reiniciar?</p><p class="faq-a">O Windows apaga o histórico da área de transferência quando o PC reinicia, exceto os itens fixados. Um gerenciador de área de transferência como o Clipboard+ mantém seu histórico entre reinícios.</p></div>
+        <div class="faq-item"><p class="faq-q">Quantos itens o histórico da área de transferência do Windows guarda?</p><p class="faq-a">Até 25. Os itens mais antigos saem à medida que você copia novos.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Mais guias</h2>
+      <ul class="guide-links">
+        <li><a href="/pt/guides/android-clipboard-history.html">Como ver o histórico da área de transferência no Android</a></li>
+        <li><a href="/pt/guides/open-app-automatically-after-reboot-android.html">Como abrir um app automaticamente ao reiniciar o Android (sem root)</a></li>
+        <li><a href="/pt/guides/floating-notes-over-other-apps-android.html">Como manter uma nota sobre outros apps no Android</a></li>
+        <li><a href="/pt/guides/floating-timer-over-other-apps-android.html">Como manter um timer na tela enquanto usa outros apps no Android</a></li>
+        <li><a href="/pt/guides/hide-personal-info-in-screenshots.html">Como esconder dados pessoais em um print antes de compartilhar</a></li>
+        <li><a href="/pt/guides/sticky-notes-always-on-top-windows.html">Como deixar uma nota adesiva sempre visível no Windows</a></li>
+        <li><a href="/pt/guides/timer-always-on-top-windows.html">Como manter um timer acima de outras janelas no Windows</a></li>
+        <li><a href="/pt/guides/reading-ruler-dyslexia-adhd-android.html">Régua de leitura para dislexia e TDAH no Android: não perca a linha ao ler</a></li>
+        <li><a href="/pt/guides/reading-ruler-windows.html">Como usar uma régua de leitura no Windows (para dislexia e TDAH)</a></li>
+        <li><a href="/pt/guides/floating-calculator-over-other-apps-android.html">Como usar uma calculadora por cima de outros apps no Android</a></li>
+        <li><a href="/pt/guides/crypto-price-ticker-over-other-apps-android.html">Como ver preços de criptomoedas enquanto usa outros apps no Android</a></li>
+        <li><a href="/pt/guides/make-android-phone-louder.html">Como deixar o celular Android mais alto</a></li>
+        <li><a href="/pt/guides/hide-personal-info-in-screenshots-windows.html">Como esconder dados pessoais em capturas de tela e PDFs no Windows</a></li>
+        <li><a href="/pt/guides/crypto-price-ticker-on-top-windows.html">Como manter um ticker cripto ao vivo por cima de outras janelas no Windows</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">Coreia do Sul</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/pt/privacy.html">Política de Privacidade</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"pt","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/clipboard-history-windows.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/clipboard-history-windows.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/clipboard-history-windows.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/clipboard-history-windows.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/clipboard-history-windows.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/clipboard-history-windows.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/clipboard-history-windows.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/clipboard-history-windows.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/clipboard-history-windows.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/clipboard-history-windows.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/clipboard-history-windows.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/clipboard-history-windows.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/clipboard-history-windows.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/clipboard-history-windows.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/clipboard-history-windows.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/clipboard-history-windows.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/clipboard-history-windows.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/clipboard-history-windows.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/clipboard-history-windows.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/clipboard-history-windows.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/clipboard-history-windows.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=73"></script>
+</body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>Как скрыть личные данные на скриншоте перед отправкой | CodeDAC</title>
+  <meta name="description" content="После размытия, тонкой ручки или маркера текст может остаться читаемым. Рассказываем, как закрыть номера телефонов и карт и лица так, чтобы их нельзя было восстановить, — прямо на телефоне, ничего никуда не загружая." />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/ru/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/hide-personal-info-in-screenshots.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/hide-personal-info-in-screenshots.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:title" content="Как скрыть личные данные на скриншоте перед отправкой | CodeDAC" />
+  <meta property="og:description" content="После размытия, тонкой ручки или маркера текст может остаться читаемым. Рассказываем, как закрыть номера телефонов и карт и лица так, чтобы их нельзя было восстановить, — прямо на телефоне, ничего никуда не загружая." />
+  <meta property="og:url" content="https://codedac.com/ru/guides/hide-personal-info-in-screenshots.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/photocleaner.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Как скрыть личные данные на скриншоте перед отправкой | CodeDAC" />
+  <meta name="twitter:description" content="После размытия, тонкой ручки или маркера текст может остаться читаемым. Рассказываем, как закрыть номера телефонов и карт и лица так, чтобы их нельзя было восстановить, — прямо на телефоне, ничего никуда не загружая." />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/photocleaner.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=73" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Как скрыть личные данные на скриншоте перед отправкой",
+  "description": "После размытия, тонкой ручки или маркера текст может остаться читаемым. Рассказываем, как закрыть номера телефонов и карт и лица так, чтобы их нельзя было восстановить, — прямо на телефоне, ничего никуда не загружая.",
+  "inLanguage": "ru",
+  "datePublished": "2026-10-14",
+  "dateModified": "2026-10-14",
+  "mainEntityOfPage": "https://codedac.com/ru/guides/hide-personal-info-in-screenshots.html",
+  "image": "https://codedac.com/images/icons/photocleaner.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "PhotoCleaner+",
+    "url": "https://codedac.com/ru/apps/photocleaner.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/ru/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "PhotoCleaner+",
+      "item": "https://codedac.com/ru/apps/photocleaner.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Как скрыть личные данные на скриншоте перед отправкой",
+      "item": "https://codedac.com/ru/guides/hide-personal-info-in-screenshots.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Достаточно ли размытия, чтобы скрыть номер телефона?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Не всегда. Лёгкое размытие мелкого текста иногда можно прочитать или угадать. Сплошная непрозрачная маска — надёжный выбор."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Загружает ли PhotoCleaner+ мои фото?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Нет. Распознавание и маскирование работают на телефоне, а ваши фото и документы никогда не загружаются."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Это бесплатно?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Распознавание, редактирование и маскирование бесплатны; экспортировать можно 3 раза в день. Pro снимает дневной лимит и добавляет экспорт в PDF и печать, либо короткая реклама снимает лимит на 24 часа."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/ru/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/ru/#apps">Приложения</a>
+        <a href="/ru/#reviews">Отзывы</a>
+        <a href="/ru/#about">О нас</a>
+        <a href="/ru/#contact">Сотрудничество</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Переключить тёмную тему" title="Переключить тёмную тему">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Русский"><span class="lang-name">Русский</span><span class="lang-code" aria-hidden="true">RU</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/hide-personal-info-in-screenshots.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/hide-personal-info-in-screenshots.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/guides/hide-personal-info-in-screenshots.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/hide-personal-info-in-screenshots.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/guides/hide-personal-info-in-screenshots.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/guides/hide-personal-info-in-screenshots.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item" data-lang="fr" href="/fr/guides/hide-personal-info-in-screenshots.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/hide-personal-info-in-screenshots.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item" data-lang="hi" href="/hi/guides/hide-personal-info-in-screenshots.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/hide-personal-info-in-screenshots.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item" data-lang="zh" href="/zh/guides/hide-personal-info-in-screenshots.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item is-active" data-lang="ru" href="/ru/guides/hide-personal-info-in-screenshots.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/hide-personal-info-in-screenshots.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/hide-personal-info-in-screenshots.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/guides/hide-personal-info-in-screenshots.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/hide-personal-info-in-screenshots.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/hide-personal-info-in-screenshots.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/hide-personal-info-in-screenshots.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/hide-personal-info-in-screenshots.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item" data-lang="uk" href="/uk/guides/hide-personal-info-in-screenshots.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/hide-personal-info-in-screenshots.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-android guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ru/">Главная</a>
+        <span class="sep">/</span>
+        <a href="/ru/apps/photocleaner.html"><bdi>PhotoCleaner+</bdi></a>
+        <span class="sep">/</span>
+        <span class="current">Инструкции</span>
+      </nav>
+      <h1>Как скрыть личные данные на скриншоте перед отправкой</h1>
+      <p class="guide-meta">Обновлено <time datetime="2026-10-14">2026-10-14</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">На скриншотах и фото документов часто видно больше, чем вы хотели показать: номер телефона, номер документа или карты, адрес, лицо, QR-код. Прежде чем публиковать или отправлять такие снимки, надёжно закройте эту информацию.</p>
+
+        <h2>Чего стоит избегать</h2>
+        <p>Полупрозрачный маркер или тонкие штрихи ручкой могут оставить текст читаемым, если повысить контраст, а размытие или мозаику на мелком тексте иногда удаётся угадать. Закрывайте всё личное сплошным непрозрачным прямоугольником и отправляйте копию, а не оригинал.</p>
+
+        <h2>Способ 1: фоторедактор на телефоне</h2>
+        <p>В большинстве галерей есть инструмент разметки или рисования. Если пользуетесь им, выберите сплошную фигуру или полностью непрозрачную ручку, закройте каждый элемент целиком и перед сохранением увеличьте изображение, чтобы проверить края.</p>
+
+        <h2>Способ 2: PhotoCleaner+</h2>
+        <p>PhotoCleaner+ (наше приложение) создано именно для этого. Оно предлагает вероятные личные данные, вы проверяете каждую рамку, а приложение экспортирует копию со сплошными масками — всё работает на телефоне, ничего не загружается.</p>
+        <ol class="guide-steps">
+          <li>Откройте фото, скриншот или PDF в PhotoCleaner+.</li>
+          <li>Проверьте предложенные рамки — номера телефонов, email, номера карт и похожий текст — и добавьте свои, нарисовав их.</li>
+          <li>Перемещайте, меняйте размер или удаляйте рамки, пока всё личное не будет закрыто.</li>
+          <li>Экспортируйте замаскированную копию и отправляйте её. Оригинал не меняется, а в сохранённых копиях нет данных EXIF и GPS.</li>
+        </ol>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Приложение из этой инструкции</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/photocleaner.png?v=73" alt="PhotoCleaner+ icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>PhotoCleaner+</bdi></p>
+          <p class="rc-desc">Скрывайте личные данные на фото и в PDF полностью на устройстве.</p>
+          <div class="guide-app-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.photocleaner&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dguide%26utm_campaign%3Dru" class="btn btn-primary" target="_blank" rel="noopener">Открыть в Google Play →</a>
+            <a href="/ru/apps/photocleaner.html" class="btn btn-ghost">О приложении</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Вопросы</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">Достаточно ли размытия, чтобы скрыть номер телефона?</p><p class="faq-a">Не всегда. Лёгкое размытие мелкого текста иногда можно прочитать или угадать. Сплошная непрозрачная маска — надёжный выбор.</p></div>
+        <div class="faq-item"><p class="faq-q">Загружает ли PhotoCleaner+ мои фото?</p><p class="faq-a">Нет. Распознавание и маскирование работают на телефоне, а ваши фото и документы никогда не загружаются.</p></div>
+        <div class="faq-item"><p class="faq-q">Это бесплатно?</p><p class="faq-a">Распознавание, редактирование и маскирование бесплатны; экспортировать можно 3 раза в день. Pro снимает дневной лимит и добавляет экспорт в PDF и печать, либо короткая реклама снимает лимит на 24 часа.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Другие инструкции</h2>
+      <ul class="guide-links">
+        <li><a href="/ru/guides/android-clipboard-history.html">Как посмотреть историю буфера обмена на Android</a></li>
+        <li><a href="/ru/guides/open-app-automatically-after-reboot-android.html">Как автоматически открывать приложение после перезагрузки Android (без root)</a></li>
+        <li><a href="/ru/guides/floating-notes-over-other-apps-android.html">Как закрепить заметку поверх других приложений на Android</a></li>
+        <li><a href="/ru/guides/floating-timer-over-other-apps-android.html">Как держать таймер на экране поверх других приложений на Android</a></li>
+        <li><a href="/ru/guides/sticky-notes-always-on-top-windows.html">Как закрепить стикер-заметку поверх всех окон в Windows</a></li>
+        <li><a href="/ru/guides/clipboard-history-windows.html">Как посмотреть историю буфера обмена в Windows</a></li>
+        <li><a href="/ru/guides/timer-always-on-top-windows.html">Как закрепить таймер поверх других окон в Windows</a></li>
+        <li><a href="/ru/guides/reading-ruler-dyslexia-adhd-android.html">Линейка для чтения при дислексии и СДВГ на Android: как не терять строку</a></li>
+        <li><a href="/ru/guides/reading-ruler-windows.html">Как пользоваться линейкой для чтения в Windows (при дислексии и СДВГ)</a></li>
+        <li><a href="/ru/guides/floating-calculator-over-other-apps-android.html">Как пользоваться калькулятором поверх других приложений на Android</a></li>
+        <li><a href="/ru/guides/crypto-price-ticker-over-other-apps-android.html">Как следить за курсами криптовалют поверх других приложений на Android</a></li>
+        <li><a href="/ru/guides/make-android-phone-louder.html">Как сделать телефон на Android громче</a></li>
+        <li><a href="/ru/guides/hide-personal-info-in-screenshots-windows.html">Как скрыть личные данные на скриншотах и в PDF в Windows</a></li>
+        <li><a href="/ru/guides/crypto-price-ticker-on-top-windows.html">Как держать курсы криптовалют поверх всех окон в Windows</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">Южная Корея</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/ru/privacy.html">Политика конфиденциальности</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"ru","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/hide-personal-info-in-screenshots.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/hide-personal-info-in-screenshots.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/hide-personal-info-in-screenshots.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=73"></script>
+</body>
+</html>

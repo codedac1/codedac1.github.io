@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>Windows पर क्लिपबोर्ड हिस्ट्री कैसे देखें | CodeDAC</title>
+  <meta name="description" content="Windows में बिल्ट-इन क्लिपबोर्ड हिस्ट्री (Win+V) है, लेकिन वह छोटी है और रीस्टार्ट पर मिट जाती है। जानिए इसे कैसे इस्तेमाल करें, और ऐसी खोजने योग्य हिस्ट्री कैसे रखें जो बनी रहे।" />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/hi/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/clipboard-history-windows.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/clipboard-history-windows.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="hi_IN" />
+  <meta property="og:title" content="Windows पर क्लिपबोर्ड हिस्ट्री कैसे देखें | CodeDAC" />
+  <meta property="og:description" content="Windows में बिल्ट-इन क्लिपबोर्ड हिस्ट्री (Win+V) है, लेकिन वह छोटी है और रीस्टार्ट पर मिट जाती है। जानिए इसे कैसे इस्तेमाल करें, और ऐसी खोजने योग्य हिस्ट्री कैसे रखें जो बनी रहे।" />
+  <meta property="og:url" content="https://codedac.com/hi/guides/clipboard-history-windows.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/clipboardwin.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Windows पर क्लिपबोर्ड हिस्ट्री कैसे देखें | CodeDAC" />
+  <meta name="twitter:description" content="Windows में बिल्ट-इन क्लिपबोर्ड हिस्ट्री (Win+V) है, लेकिन वह छोटी है और रीस्टार्ट पर मिट जाती है। जानिए इसे कैसे इस्तेमाल करें, और ऐसी खोजने योग्य हिस्ट्री कैसे रखें जो बनी रहे।" />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/clipboardwin.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;family=Noto+Sans+Devanagari:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=73" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Windows पर क्लिपबोर्ड हिस्ट्री कैसे देखें",
+  "description": "Windows में बिल्ट-इन क्लिपबोर्ड हिस्ट्री (Win+V) है, लेकिन वह छोटी है और रीस्टार्ट पर मिट जाती है। जानिए इसे कैसे इस्तेमाल करें, और ऐसी खोजने योग्य हिस्ट्री कैसे रखें जो बनी रहे।",
+  "inLanguage": "hi",
+  "datePublished": "2026-10-14",
+  "dateModified": "2026-10-14",
+  "mainEntityOfPage": "https://codedac.com/hi/guides/clipboard-history-windows.html",
+  "image": "https://codedac.com/images/icons/clipboardwin.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "Clipboard+ for Windows",
+    "url": "https://codedac.com/hi/apps/clipboardwin.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/hi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Clipboard+ for Windows",
+      "item": "https://codedac.com/hi/apps/clipboardwin.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Windows पर क्लिपबोर्ड हिस्ट्री कैसे देखें",
+      "item": "https://codedac.com/hi/guides/clipboard-history-windows.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "रीस्टार्ट के बाद मेरी Win+V क्लिपबोर्ड हिस्ट्री खाली क्यों हो जाती है?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PC रीस्टार्ट होने पर Windows पिन किए गए आइटम छोड़कर क्लिपबोर्ड हिस्ट्री मिटा देता है। Clipboard+ जैसा क्लिपबोर्ड मैनेजर रीस्टार्ट के बाद भी आपकी हिस्ट्री रखता है।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Windows क्लिपबोर्ड हिस्ट्री कितने आइटम रखती है?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ज़्यादा से ज़्यादा 25। नए आइटम कॉपी करने पर पुराने हटते जाते हैं।"
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/hi/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/hi/#apps">ऐप्स</a>
+        <a href="/hi/#reviews">समीक्षाएँ</a>
+        <a href="/hi/#about">हमारे बारे में</a>
+        <a href="/hi/#contact">साथ काम करें</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="डार्क मोड टॉगल करें" title="डार्क मोड टॉगल करें">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="हिन्दी"><span class="lang-name">हिन्दी</span><span class="lang-code" aria-hidden="true">HI</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/clipboard-history-windows.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/clipboard-history-windows.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/guides/clipboard-history-windows.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/clipboard-history-windows.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/guides/clipboard-history-windows.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/guides/clipboard-history-windows.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item" data-lang="fr" href="/fr/guides/clipboard-history-windows.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/clipboard-history-windows.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item is-active" data-lang="hi" href="/hi/guides/clipboard-history-windows.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/clipboard-history-windows.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item" data-lang="zh" href="/zh/guides/clipboard-history-windows.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/guides/clipboard-history-windows.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/clipboard-history-windows.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/clipboard-history-windows.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/guides/clipboard-history-windows.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/clipboard-history-windows.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/clipboard-history-windows.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/clipboard-history-windows.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/clipboard-history-windows.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item" data-lang="uk" href="/uk/guides/clipboard-history-windows.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/clipboard-history-windows.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-windows guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/hi/">होम</a>
+        <span class="sep">/</span>
+        <a href="/hi/apps/clipboardwin.html"><bdi>Clipboard+ for Windows</bdi></a>
+        <span class="sep">/</span>
+        <span class="current">गाइड</span>
+      </nav>
+      <h1>Windows पर क्लिपबोर्ड हिस्ट्री कैसे देखें</h1>
+      <p class="guide-meta">अपडेट किया गया <time datetime="2026-10-14">2026-10-14</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">कुछ नया कॉपी करते ही पिछली क्लिप चली जाती है — जब तक आप हिस्ट्री न रखें। Windows 10 और 11 में एक हिस्ट्री बिल्ट-इन है, और क्लिपबोर्ड मैनेजर इससे लंबी हिस्ट्री रख सकता है।</p>
+
+        <h2>विकल्प 1: बिल्ट-इन क्लिपबोर्ड हिस्ट्री (Win+V)</h2>
+        <p>Win+V दबाएँ। पहली बार Windows आपसे क्लिपबोर्ड हिस्ट्री चालू करने को कहता है (आप यह “Settings &gt; System &gt; Clipboard” में भी कर सकते हैं)। उसके बाद Win+V आपकी हाल की क्लिप दिखाता है, और किसी पर क्लिक करने से वह पेस्ट हो जाती है।</p>
+        <p>यह तेज़ है, लेकिन सीमित है: यह ज़्यादा से ज़्यादा 25 आइटम रखता है, और PC रीस्टार्ट होने पर पिन किए गए आइटम छोड़कर सब मिट जाता है। इसमें सर्च नहीं है, और यह आपके फ़ोन तक नहीं पहुँचता।</p>
+
+        <h2>विकल्प 2: सब कुछ रखने वाला क्लिपबोर्ड मैनेजर</h2>
+        <p>Clipboard+ for Windows (हमारा ऐप) ट्रे में रहता है और आपके कॉपी किए टेक्स्ट और इमेज कॉपी करते ही सेव कर लेता है। आपकी हिस्ट्री तब तक रहती है जब तक आप उसे न हटाएँ, और आप उसमें सर्च कर सकते हैं, उसे ग्रुप और स्निपेट में व्यवस्थित कर सकते हैं, और हॉटकी से खोल सकते हैं।</p>
+        <ol class="guide-steps">
+          <li>Microsoft Store से Clipboard+ इंस्टॉल करें; यह सिस्टम ट्रे में शुरू होता है।</li>
+          <li>हमेशा की तरह कॉपी करें — हर टेक्स्ट और इमेज क्लिप अपने-आप सेव हो जाती है।</li>
+          <li>कर्सर पर क्विक-पिक पॉपअप खोलने के लिए ग्लोबल हॉटकी दबाएँ, Ctrl+1–9 से क्लिप चुनें और पेस्ट करने के लिए Enter दबाएँ।</li>
+          <li>सर्च, पिन, एडिट करने या अक्सर इस्तेमाल होने वाले टेक्स्ट को स्निपेट के रूप में रखने के लिए विंडो खोलें।</li>
+        </ol>
+
+        <h2>फ़ोन और PC के बीच</h2>
+        <p>Clipboard+ Android ऐप के साथ जोड़ने पर, फ़ोन पर कॉपी की गई चीज़ PC पर पेस्ट होती है और PC की फ़ोन पर, आपके अपने Google Drive के ज़रिए। क्लिपबोर्ड हिस्ट्री, स्निपेट, ग्रुप, सर्च और क्विक-पिक पॉपअप मुफ़्त हैं; Pro सिंक, असीमित इमेज स्टोरेज और PDF एक्सपोर्ट जोड़ता है।</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">इस गाइड में बताया गया ऐप</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/clipboardwin.png?v=73" alt="Clipboard+ for Windows icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>Clipboard+ for Windows</bdi></p>
+          <p class="rc-desc">एक Windows ट्रे क्लिपबोर्ड मैनेजर जो Clipboard+ Android ऐप के साथ सिंक होता है।</p>
+          <div class="guide-app-actions">
+            <a href="https://apps.microsoft.com/detail/9N9SRKQV1R6D?cid=site-guide-hi" class="btn btn-primary" target="_blank" rel="noopener">Microsoft Store पर देखें →</a>
+            <a href="/hi/apps/clipboardwin.html" class="btn btn-ghost">ऐप की जानकारी</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">सवाल</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">रीस्टार्ट के बाद मेरी Win+V क्लिपबोर्ड हिस्ट्री खाली क्यों हो जाती है?</p><p class="faq-a">PC रीस्टार्ट होने पर Windows पिन किए गए आइटम छोड़कर क्लिपबोर्ड हिस्ट्री मिटा देता है। Clipboard+ जैसा क्लिपबोर्ड मैनेजर रीस्टार्ट के बाद भी आपकी हिस्ट्री रखता है।</p></div>
+        <div class="faq-item"><p class="faq-q">Windows क्लिपबोर्ड हिस्ट्री कितने आइटम रखती है?</p><p class="faq-a">ज़्यादा से ज़्यादा 25। नए आइटम कॉपी करने पर पुराने हटते जाते हैं।</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">और गाइड</h2>
+      <ul class="guide-links">
+        <li><a href="/hi/guides/android-clipboard-history.html">Android पर क्लिपबोर्ड हिस्ट्री कैसे देखें</a></li>
+        <li><a href="/hi/guides/open-app-automatically-after-reboot-android.html">Android पर रीस्टार्ट के बाद ऐप अपने-आप कैसे खोलें (बिना रूट)</a></li>
+        <li><a href="/hi/guides/floating-notes-over-other-apps-android.html">Android पर दूसरे ऐप्स के ऊपर नोट कैसे बनाए रखें</a></li>
+        <li><a href="/hi/guides/floating-timer-over-other-apps-android.html">Android पर दूसरे ऐप्स इस्तेमाल करते हुए टाइमर स्क्रीन पर कैसे रखें</a></li>
+        <li><a href="/hi/guides/hide-personal-info-in-screenshots.html">स्क्रीनशॉट शेयर करने से पहले उसमें निजी जानकारी कैसे छिपाएँ</a></li>
+        <li><a href="/hi/guides/sticky-notes-always-on-top-windows.html">Windows पर स्टिकी नोट को हमेशा सबसे ऊपर कैसे रखें</a></li>
+        <li><a href="/hi/guides/timer-always-on-top-windows.html">Windows पर टाइमर को दूसरी विंडो के ऊपर कैसे रखें</a></li>
+        <li><a href="/hi/guides/reading-ruler-dyslexia-adhd-android.html">डिस्लेक्सिया और ADHD के लिए Android पर रीडिंग रूलर: पढ़ते समय लाइन न खोएँ</a></li>
+        <li><a href="/hi/guides/reading-ruler-windows.html">Windows पर रीडिंग रूलर कैसे इस्तेमाल करें (डिस्लेक्सिया और ADHD के लिए)</a></li>
+        <li><a href="/hi/guides/floating-calculator-over-other-apps-android.html">Android पर दूसरे ऐप्स के ऊपर कैलकुलेटर कैसे इस्तेमाल करें</a></li>
+        <li><a href="/hi/guides/crypto-price-ticker-over-other-apps-android.html">Android पर दूसरे ऐप्स इस्तेमाल करते हुए क्रिप्टो की कीमतें कैसे देखें</a></li>
+        <li><a href="/hi/guides/make-android-phone-louder.html">Android फ़ोन की आवाज़ तेज़ कैसे करें</a></li>
+        <li><a href="/hi/guides/hide-personal-info-in-screenshots-windows.html">Windows पर स्क्रीनशॉट और PDF में निजी जानकारी कैसे छिपाएँ</a></li>
+        <li><a href="/hi/guides/crypto-price-ticker-on-top-windows.html">Windows पर लाइव क्रिप्टो टिकर को दूसरी विंडो के ऊपर कैसे रखें</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">दक्षिण कोरिया</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/hi/privacy.html">गोपनीयता नीति</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"hi","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/clipboard-history-windows.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/clipboard-history-windows.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/clipboard-history-windows.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/clipboard-history-windows.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/clipboard-history-windows.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/clipboard-history-windows.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/clipboard-history-windows.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/clipboard-history-windows.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/clipboard-history-windows.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/clipboard-history-windows.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/clipboard-history-windows.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/clipboard-history-windows.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/clipboard-history-windows.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/clipboard-history-windows.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/clipboard-history-windows.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/clipboard-history-windows.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/clipboard-history-windows.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/clipboard-history-windows.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/clipboard-history-windows.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/clipboard-history-windows.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/clipboard-history-windows.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=73"></script>
+</body>
+</html>

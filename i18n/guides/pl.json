@@ -1,0 +1,660 @@
+{
+  "ui": {
+    "guides": "Poradniki",
+    "updated": "Aktualizacja",
+    "inThisGuide": "Aplikacja z tego poradnika",
+    "appPage": "Szczegóły aplikacji",
+    "moreGuides": "Więcej poradników",
+    "appGuides": "Poradniki krok po kroku",
+    "faq": "Pytania"
+  },
+  "guides": {
+    "android-clipboard-history": {
+      "app": "clipboard",
+      "updated": "2026-10-14",
+      "title": "Jak zobaczyć historię schowka na Androidzie",
+      "desc": "Android pamięta tylko ostatnio skopiowaną rzecz. Zobacz, gdzie w klawiaturze znaleźć niedawno skopiowane treści i jak mieć przeszukiwalną historię, która nie znika.",
+      "intro": "Sam Android pamięta tylko to, co skopiowałeś ostatnio — skopiujesz coś nowego i poprzedni tekst przepada. Jeśli chcesz odzyskać adres, kod albo zdanie skopiowane wcześniej, potrzebujesz miejsca, które przechowuje historię. Są dwa takie miejsca: klawiatura i aplikacja do zarządzania schowkiem.",
+      "sections": [
+        {
+          "h": "Sposób 1: schowek w klawiaturze",
+          "p": [
+            "Wiele klawiatur ma własny schowek. W Gboard dotknij ikony schowka na pasku nad klawiszami (za pierwszym razem trzeba go włączyć). Klawiatura Samsung także ma przycisk schowka na pasku narzędzi.",
+            "To najszybszy sposób, by sięgnąć po coś skopiowanego kilka minut temu. Haczyk polega na tym, że schowek klawiatury jest krótkoterminowy: Gboard na przykład usuwa nieprzypięte elementy po mniej więcej godzinie, a listę widzisz tylko podczas pisania."
+          ]
+        },
+        {
+          "h": "Sposób 2: menedżer schowka z prawdziwą historią",
+          "p": [
+            "Jeśli w kółko kopiujesz te same rzeczy — adresy, numery kont, gotowe odpowiedzi — menedżer schowka przechowuje je, dopóki ich nie usuniesz, pozwala je przeszukiwać i może wyświetlać je nad dowolną aplikacją.",
+            "Clipboard+ (nasza aplikacja) zapisuje kopiowane teksty i obrazy w historii, od najnowszych, z wyszukiwaniem i pływającym panelem, który otworzysz nad aplikacją, z której właśnie korzystasz."
+          ],
+          "steps": [
+            "Zainstaluj Clipboard+ z Google Play i otwórz go raz.",
+            "Kopiuj tekst jak zwykle. Możesz też zaznaczyć tekst w dowolnej aplikacji i wybrać Clipboard+ w menu zaznaczenia, aby go zapisać.",
+            "Otwórz pływający panel (albo aplikację), aby zobaczyć historię, dotknij wpisu, aby skopiować go ponownie, i wklej go tam, gdzie jesteś.",
+            "Rzeczy, których używasz wielokrotnie, trzymaj jako fragmenty w grupach — będą zawsze o jedno dotknięcie."
+          ]
+        },
+        {
+          "h": "Co wybrać?",
+          "p": [
+            "Do jednorazowych sytuacji — wklejenia czegoś skopiowanego minutę temu — wystarczy schowek klawiatury. Jeśli tracisz treści, które chciałeś zachować, albo ciągle przepisujesz ten sam tekst, menedżer schowka zaoszczędzi ci ten czas. Clipboard+ możesz zacząć używać za darmo; Pro dodaje synchronizację z aplikacją na Windows przez Twój własny Dysk Google, nieograniczoną liczbę obrazów i eksport do PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy Android ma wbudowaną historię schowka?",
+          "a": "Sam system nie — Android przechowuje tylko ostatnio skopiowany element. Klawiatury takie jak Gboard i Klawiatura Samsung dodają krótkoterminową listę schowka."
+        },
+        {
+          "q": "Czy mogę zobaczyć historię schowka z telefonu na komputerze?",
+          "a": "Tak, mając Clipboard+ na obu urządzeniach: aplikacja na Androida i Clipboard+ for Windows synchronizują się przez Twój własny Dysk Google (na Androidzie to funkcja Pro)."
+        }
+      ]
+    },
+    "open-app-automatically-after-reboot-android": {
+      "app": "autostart",
+      "updated": "2026-10-14",
+      "title": "Jak automatycznie otworzyć aplikację po restarcie Androida (bez roota)",
+      "desc": "Android nie ma ustawienia, które uruchamia aplikację po włączeniu telefonu. Zobacz, jak sprawić, by aplikacje otwierały się same po restarcie, bez roota — i jak to sprawdzić bez restartowania.",
+      "intro": "Android nie ma ustawienia, które otwiera aplikację po włączeniu telefonu. Jeśli po każdym restarcie otwierasz te same aplikacje — nawigację w samochodzie, launcher na tablecie w kiosku, aplikację muzyczną w radioodtwarzaczu — aplikacja do autostartu może zrobić to za ciebie.",
+      "sections": [
+        {
+          "h": "Dlaczego to nie dzieje się samo",
+          "p": [
+            "Od Androida 10 aplikacje nie mogą samodzielnie otwierać ekranów z tła. Dlatego aplikacja, która ma otwierać inne po restarcie, potrzebuje uprawnienia „Wyświetlanie nad innymi aplikacjami” i może je uruchomić dopiero po pierwszym odblokowaniu telefonu."
+          ]
+        },
+        {
+          "h": "Skonfiguruj to w AutoStart+",
+          "p": [
+            "AutoStart+ (nasza aplikacja) otwiera wybrane przez ciebie aplikacje po każdym restarcie, gdy tylko odblokujesz telefon. Nie wymaga roota."
+          ],
+          "steps": [
+            "Zainstaluj AutoStart+ z Google Play i otwórz go.",
+            "Dotknij „Dodaj aplikacje” i wybierz aplikacje, które mają się otwierać po restarcie. Przeciągnij wiersze, aby ustalić, która otworzy się pierwsza.",
+            "Gdy pojawi się prośba, zezwól na „Wyświetlanie nad innymi aplikacjami” — bez tego Android zablokuje uruchomienie.",
+            "Dotknij „Przetestuj teraz”, aby zobaczyć, co się stanie, bez restartowania telefonu.",
+            "Zrestartuj telefon i odblokuj go: aplikacje otworzą się w ustalonej kolejności."
+          ]
+        },
+        {
+          "h": "Radioodtwarzacze samochodowe i urządzenia, które usypiają",
+          "p": [
+            "Wiele radioodtwarzaczy samochodowych z Androidem tak naprawdę się nie restartuje — po wyłączeniu auta przechodzą w uśpienie. AutoStart+ ma „Tryb samochodowy”, który ponownie otwiera aplikacje za każdym razem, gdy ekran się wybudza."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy do automatycznego uruchamiania aplikacji na Androidzie potrzebny jest root?",
+          "a": "Nie. AutoStart+ działa bez roota; potrzebuje tylko uprawnienia „Wyświetlanie nad innymi aplikacjami”."
+        },
+        {
+          "q": "Dlaczego aplikacje nie otwierają się przed odblokowaniem telefonu?",
+          "a": "Android nie pozwala aplikacjom otwierać innych, dopóki telefon nie zostanie raz odblokowany po restarcie. Aplikacje otwierają się zaraz po odblokowaniu."
+        },
+        {
+          "q": "Ile aplikacji mogę uruchamiać automatycznie za darmo?",
+          "a": "Wersja darmowa uruchamia 1 aplikację przy każdym starcie. Pro uruchamia całą listę po kolei, a jeśli wolisz nie kupować subskrypcji, krótka reklama zdejmuje limit na 24 godziny."
+        }
+      ]
+    },
+    "floating-notes-over-other-apps-android": {
+      "app": "floatnote",
+      "updated": "2026-10-14",
+      "title": "Jak utrzymać notatkę nad innymi aplikacjami na Androidzie",
+      "desc": "Miej notatkę na widoku, gdy korzystasz z innej aplikacji: pływająca notatka zostaje nad każdą aplikacją, zwija się do małego kafelka i może pojawić się o wybranej godzinie.",
+      "intro": "Przepisywanie listy do formularza, zerkanie na przepis podczas oglądania filmu, numer zamówienia na widoku w czacie — ciągłe przełączanie się do aplikacji z notatkami wybija z rytmu. Pływająca notatka zostaje na ekranie nad aplikacją, z której właśnie korzystasz.",
+      "sections": [
+        {
+          "h": "Jak działają pływające notatki",
+          "p": [
+            "Pływająca notatka to małe okno wyświetlane nad innymi aplikacjami. Android pozwala na to dzięki uprawnieniu „Wyświetlanie nad innymi aplikacjami”, które przyznajesz raz. Notatka zostaje na wierzchu, a ty dalej korzystasz z aplikacji pod spodem."
+          ]
+        },
+        {
+          "h": "Skonfiguruj to w FloatNote+",
+          "p": [
+            "FloatNote+ (nasza aplikacja) wyświetla każdą notatkę jako mały kafelek nad dowolną aplikacją. Dotknij kafelka, a rozwinie się w tym samym miejscu w kartę; dotknij jej paska tytułu, aby ją z powrotem zwinąć."
+          ],
+          "steps": [
+            "Zainstaluj FloatNote+ z Google Play i zezwól na „Wyświetlanie nad innymi aplikacjami”.",
+            "Dotknij +, aby napisać notatkę — pojawi się nad ekranem jako karta.",
+            "Otwórz potrzebną aplikację. Notatka zostaje na wierzchu; zwiń ją do kafelka, gdy chcesz odzyskać ekran.",
+            "Używaj kolorów, pogrubienia, rozmiaru tekstu i obrazów, aby łatwo odróżniać notatki.",
+            "Aby notatka pojawiła się o określonej porze, otwórz jej menu ⋮ i wybierz „Przypomnij” — raz, codziennie, w dni robocze lub w wybrane dni."
+          ]
+        },
+        {
+          "h": "Także na komputerze",
+          "p": [
+            "FloatNote+ for Windows wyświetla takie same notatki nad każdym oknem, a obie aplikacje synchronizują się przez Twój własny Dysk Google (na Androidzie to funkcja Pro)."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy Android ma wbudowane pływające notatki?",
+          "a": "Android nie ma ogólnej funkcji pływających notatek. Aplikacje takie jak FloatNote+ dodają ją, korzystając z uprawnienia „Wyświetlanie nad innymi aplikacjami”."
+        },
+        {
+          "q": "Czy notatka może pojawić się o określonej porze?",
+          "a": "Tak. W FloatNote+ ustaw przypomnienie w menu ⋮ notatki, a pojawi się ona na ekranie razem z powiadomieniem. Wersja darmowa pozwala na jedno przypomnienie; Pro nie ma limitu."
+        },
+        {
+          "q": "Czy FloatNote+ jest darmowy?",
+          "a": "Zapisywanie notatek jest darmowe i bez limitu, a wersja darmowa wyświetla jedną pływającą notatkę naraz. Pro dodaje nieograniczoną liczbę pływających notatek, obrazy w notatce, regulowaną przezroczystość, synchronizację z Dyskiem Google i brak reklam."
+        }
+      ]
+    },
+    "floating-timer-over-other-apps-android": {
+      "app": "floattimer",
+      "updated": "2026-10-14",
+      "title": "Jak mieć minutnik na ekranie podczas korzystania z innych aplikacji na Androidzie",
+      "desc": "Minutnik z aplikacji Zegar znika, gdy przełączysz aplikację. Zobacz, jak utrzymać odliczanie, stoper lub licznik pływający nad dowolną aplikacją.",
+      "intro": "Minutnik w aplikacji Zegar działa w tle, ale nie widzisz go, gdy jesteś w innej aplikacji — musisz rozwinąć powiadomienia albo do niego wrócić. Przy nauce z wykładem, mierzeniu czasu prezentacji czy w grze przydaje się czas widoczny na ekranie przez cały czas.",
+      "sections": [
+        {
+          "h": "Skonfiguruj to w FloatTimer+",
+          "p": [
+            "FloatTimer+ (nasza aplikacja) wyświetla minutniki, stopery i liczniki nad dowolną aplikacją jako małe karty, które możesz przeciągnąć w dowolne miejsce."
+          ],
+          "steps": [
+            "Zainstaluj FloatTimer+ z Google Play i zezwól na „Wyświetlanie nad innymi aplikacjami”.",
+            "Utwórz minutnik — dowolną liczbę godzin, minut i sekund albo szybkie ustawienie, np. 25 minut.",
+            "Wyświetl go jako pływający i otwórz aplikację, z której korzystasz. Startuj, pauzuj i resetuj bezpośrednio z karty.",
+            "Gdy potrzebujesz miejsca, zwiń go do bąbelka; czas dalej płynie."
+          ]
+        },
+        {
+          "h": "Kilka naraz",
+          "p": [
+            "Za darmo możesz utworzyć dowolną liczbę minutników, liczników i stoperów, a wszystkie dalej działają. Wersja darmowa pokazuje na ekranie jeden naraz; Pro wyświetla naraz tyle, ile chcesz, albo krótka reklama odblokowuje to na 24 godziny."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy mogę widzieć minutnik nad YouTube albo grą?",
+          "a": "Tak. Pływający minutnik zostaje nad każdą aplikacją, także nad filmami i grami, gdy zezwolisz na „Wyświetlanie nad innymi aplikacjami”."
+        },
+        {
+          "q": "Czy jest ustawienie pod Pomodoro?",
+          "a": "FloatTimer+ ma szybkie ustawienia 1, 5, 10, 25, 30 i 60 minut, więc 25-minutowy minutnik skupienia to jedno dotknięcie."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots": {
+      "app": "photocleaner",
+      "updated": "2026-10-14",
+      "title": "Jak ukryć dane osobowe na zrzucie ekranu przed udostępnieniem",
+      "desc": "Rozmycie, cienki pisak czy zakreślacz mogą zostawić tekst czytelny. Zobacz, jak zakryć numery telefonów, numery kart i twarze tak, by nie dało się ich odtworzyć — na telefonie, bez wysyłania czegokolwiek.",
+      "intro": "Zrzuty ekranu i zdjęcia dokumentów często pokazują więcej, niż chciałeś udostępnić: numer telefonu, numer dowodu lub karty, adres, twarz, kod QR. Zanim je opublikujesz lub wyślesz, porządnie zakryj te informacje.",
+      "sections": [
+        {
+          "h": "Czego unikać",
+          "p": [
+            "Półprzezroczysty zakreślacz albo cienkie pociągnięcia pisakiem mogą zostawić tekst czytelny, gdy ktoś podniesie kontrast, a rozmycie lub mozaikę na drobnym tekście czasem da się odgadnąć. Na wszystko, co prywatne, nakładaj pełne, nieprzezroczyste prostokąty i udostępniaj kopię zamiast oryginału."
+          ]
+        },
+        {
+          "h": "Sposób 1: edytor zdjęć w telefonie",
+          "p": [
+            "Większość aplikacji galerii ma narzędzie do adnotacji lub rysowania. Jeśli z niego korzystasz, wybierz pełny kształt albo całkowicie nieprzezroczysty pisak, zakryj każdy element w całości i przed zapisaniem powiększ obraz, by sprawdzić krawędzie."
+          ]
+        },
+        {
+          "h": "Sposób 2: PhotoCleaner+",
+          "p": [
+            "PhotoCleaner+ (nasza aplikacja) powstał właśnie do tego. Podpowiada prawdopodobne dane osobowe, ty sprawdzasz każdy prostokąt, a aplikacja eksportuje kopię z solidnymi maskami — wszystko dzieje się na telefonie, nic nie jest wysyłane."
+          ],
+          "steps": [
+            "Otwórz zdjęcie, zrzut ekranu lub plik PDF w PhotoCleaner+.",
+            "Sprawdź podpowiedziane prostokąty — numery telefonów, adresy e-mail, numery kart i podobny tekst — i dodaj własne, rysując je.",
+            "Przesuwaj prostokąty, zmieniaj ich rozmiar lub je usuwaj, aż wszystko, co prywatne, będzie zakryte.",
+            "Wyeksportuj zamaskowaną kopię i to ją udostępnij. Oryginał pozostaje bez zmian, a zapisane kopie nie zawierają danych EXIF ani GPS."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy rozmycie wystarczy, żeby ukryć numer telefonu?",
+          "a": "Nie zawsze. Lekkie rozmycie drobnego tekstu czasem da się odczytać lub odgadnąć. Bezpiecznym wyborem jest solidna, nieprzezroczysta maska."
+        },
+        {
+          "q": "Czy PhotoCleaner+ wysyła moje zdjęcia?",
+          "a": "Nie. Wykrywanie i maskowanie odbywają się na telefonie, a zdjęcia i dokumenty nigdy nie są wysyłane."
+        },
+        {
+          "q": "Czy to jest darmowe?",
+          "a": "Wykrywanie, edycja i maskowanie są darmowe; eksportować możesz 3 razy dziennie. Pro znosi dzienny limit i dodaje eksport do PDF oraz drukowanie, albo krótka reklama zdejmuje limit na 24 godziny."
+        }
+      ]
+    },
+    "sticky-notes-always-on-top-windows": {
+      "app": "floatnotewin",
+      "updated": "2026-10-14",
+      "title": "Jak utrzymać karteczkę zawsze na wierzchu w Windows",
+      "desc": "Notatki na pulpicie lądują za oknem, w którym pracujesz. Zobacz, jak przypiąć notatkę nad wszystkimi oknami — za pomocą PowerToys albo notatek, które z założenia pływają na wierzchu.",
+      "intro": "Karteczka przydaje się tylko wtedy, gdy ją widać. W Windows notatki na pulpicie zwykle chowają się za przeglądarką, dokumentem czy arkuszem, nad którym pracujesz, więc trzeba ich szukać. Są dwa sposoby, by utrzymać notatkę na wierzchu.",
+      "sections": [
+        {
+          "h": "Sposób 1: przypnij okno za pomocą PowerToys",
+          "p": [
+            "Microsoft PowerToys, darmowy zestaw narzędzi od Microsoftu, zawiera funkcję „Always On Top”. Zainstaluj PowerToys, włącz „Always On Top”, kliknij okno, które ma zostać na wierzchu — na przykład okno z notatkami — i naciśnij Win+Ctrl+T. Naciśnij ponownie, aby odpiąć.",
+            "Działa to z niemal każdym oknem. Haczyk polega na tym, że przypięte okno to pełne okno: zabiera fokus po kliknięciu i zajmuje tyle samo miejsca, niezależnie od tego, czy akurat czytasz notatkę."
+          ]
+        },
+        {
+          "h": "Sposób 2: notatki, które z założenia pływają na wierzchu",
+          "p": [
+            "FloatNote+ for Windows (nasza aplikacja) utrzymuje każdą notatkę jako mały kafelek nad wszystkimi oknami. Kliknij kafelek, a rozwinie się w tym samym miejscu w kartę; naciśnij Esc, a zwinie się z powrotem. Kafelki nigdy nie zabierają fokusu aplikacji za nimi, więc kursor zostaje tam, gdzie pisałeś."
+          ],
+          "steps": [
+            "Zainstaluj FloatNote+ ze sklepu Microsoft Store.",
+            "Utwórz notatkę z ikony w zasobniku lub globalnym skrótem klawiszowym — pojawi się jako karta nad ekranem.",
+            "Pracuj dalej: notatka zostaje nad wszystkimi oknami. Naciśnij Esc, aby zwinąć ją do kafelka.",
+            "Przeciągaj kafelki w dowolne miejsce, odróżniaj je kolorami i formatowaniem i ustaw przypomnienie, aby notatka pojawiła się o określonej porze."
+          ]
+        },
+        {
+          "h": "Twoje notatki także na telefonie",
+          "p": [
+            "FloatNote+ for Windows synchronizuje się z aplikacją FloatNote+ na Androida przez Twój własny Dysk Google, więc notatka napisana na komputerze jest też na telefonie. Wszystkie funkcje wersji na Windows są darmowe."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy Sticky Notes w Windows mogą zostawać nad innymi oknami?",
+          "a": "W większości konfiguracji nie same z siebie. Możesz przypiąć dowolne okno, także okno z notatkami, funkcją „Always On Top” w PowerToys (Win+Ctrl+T) albo użyć aplikacji, której notatki z założenia pływają nad innymi oknami."
+        },
+        {
+          "q": "Czy pływająca notatka zabiera fokus temu, co piszę?",
+          "a": "Kafelki FloatNote+ nie. Kliknięcie lub przeciągnięcie kafelka zostawia kursor w aplikacji, z której korzystałeś; fokus zabiera tylko otwarta karta, bo to w niej piszesz."
+        }
+      ]
+    },
+    "clipboard-history-windows": {
+      "app": "clipboardwin",
+      "updated": "2026-10-14",
+      "title": "Jak zobaczyć historię schowka w Windows",
+      "desc": "Windows ma wbudowaną historię schowka (Win+V), ale jest krótka i znika po restarcie. Zobacz, jak z niej korzystać i jak mieć przeszukiwalną historię, która przetrwa.",
+      "intro": "Skopiujesz coś nowego i poprzedni wpis przepada — chyba że prowadzisz historię. Windows 10 i 11 mają wbudowaną historię, a menedżer schowka może przechowywać dłuższą.",
+      "sections": [
+        {
+          "h": "Sposób 1: wbudowana historia schowka (Win+V)",
+          "p": [
+            "Naciśnij Win+V. Za pierwszym razem Windows poprosi o włączenie historii schowka (możesz to też zrobić w Ustawienia > System > Schowek). Potem Win+V pokazuje ostatnio skopiowane elementy, a kliknięcie jednego z nich go wkleja.",
+            "To szybkie, ale ograniczone rozwiązanie: przechowuje do 25 elementów, a wszystko poza przypiętymi elementami znika po restarcie komputera. Nie ma wyszukiwania i nie sięga do telefonu."
+          ]
+        },
+        {
+          "h": "Sposób 2: menedżer schowka, który zachowuje wszystko",
+          "p": [
+            "Clipboard+ for Windows (nasza aplikacja) siedzi w zasobniku i zapisuje kopiowane teksty i obrazy w chwili skopiowania. Historia zostaje, dopóki jej nie usuniesz, a możesz ją przeszukiwać, porządkować w grupy i fragmenty oraz przywoływać skrótem klawiszowym."
+          ],
+          "steps": [
+            "Zainstaluj Clipboard+ ze sklepu Microsoft Store; uruchamia się w zasobniku systemowym.",
+            "Kopiuj jak zwykle — każdy tekst i obraz jest zapisywany automatycznie.",
+            "Naciśnij globalny skrót, aby otworzyć okno szybkiego wyboru przy kursorze, wybierz wpis klawiszami Ctrl+1–9 i naciśnij Enter, aby go wkleić.",
+            "Otwórz okno, aby wyszukiwać, przypinać, edytować lub zapisywać często używany tekst jako fragmenty."
+          ]
+        },
+        {
+          "h": "Między telefonem a komputerem",
+          "p": [
+            "W parze z aplikacją Clipboard+ na Androida to, co skopiujesz na telefonie, wkleisz na komputerze, i odwrotnie — przez Twój własny Dysk Google. Historia schowka, fragmenty, grupy, wyszukiwanie i okno szybkiego wyboru są darmowe; Pro dodaje synchronizację, nieograniczone przechowywanie obrazów i eksport do PDF."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Dlaczego historia Win+V jest pusta po restarcie?",
+          "a": "Windows czyści historię schowka po restarcie komputera, z wyjątkiem przypiętych elementów. Menedżer schowka, taki jak Clipboard+, zachowuje historię między restartami."
+        },
+        {
+          "q": "Ile elementów przechowuje historia schowka w Windows?",
+          "a": "Do 25. Starsze elementy znikają, gdy kopiujesz nowe."
+        }
+      ]
+    },
+    "timer-always-on-top-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-14",
+      "title": "Jak utrzymać minutnik nad innymi oknami w Windows",
+      "desc": "Miej odliczanie na widoku, gdy pracujesz w innych oknach — dzięki opcji „Keep on top” w aplikacji Zegar albo minutnikom, które pływają nad wszystkim jako małe karteczki.",
+      "intro": "Mierzenie czasu prezentacji, sesji skupienia czy rozmowy jest łatwiejsze, gdy czas jest stale na widoku. Windows oferuje jeden wbudowany sposób, a aplikacja z pływającym minutnikiem daje więcej.",
+      "sections": [
+        {
+          "h": "Sposób 1: „Keep on top” w aplikacji Zegar",
+          "p": [
+            "Aplikacja Zegar dostarczana z Windows potrafi pokazać minutnik w małym oknie, które zostaje nad innymi: uruchom minutnik, rozwiń go i wybierz „Keep on top”. Działa to dla jednego minutnika i pokazuje go w małym oknie o stałym rozmiarze."
+          ]
+        },
+        {
+          "h": "Sposób 2: pływające karteczki z minutnikami",
+          "p": [
+            "FloatTimer+ for Windows (nasza aplikacja) wyświetla minutniki, liczniki i stopery nad wszystkimi oknami jako małe pastelowe karteczki. Karteczki nigdy nie zabierają fokusu, więc po kliknięciu jednej z nich kursor zostaje tam, gdzie pisałeś."
+          ],
+          "steps": [
+            "Zainstaluj FloatTimer+ ze sklepu Microsoft Store; działa w zasobniku systemowym.",
+            "Utwórz minutnik, licznik lub stoper i wyświetl go jako pływający.",
+            "Startuj, pauzuj i resetuj bezpośrednio z karteczki; przeciągnij ją w dowolne miejsce lub zmień jej rozmiar.",
+            "Gdy chcesz odzyskać miejsce, zwiń ją do małego bąbelka albo dosuń do krawędzi ekranu."
+          ]
+        },
+        {
+          "h": "Wersja darmowa i Pro",
+          "p": [
+            "Możesz utworzyć dowolną liczbę minutników, liczników i stoperów, bez reklam. Wersja darmowa wyświetla jedną pływającą karteczkę naraz; Pro to jednorazowy zakup, który pozwala wyświetlać ich tyle, ile chcesz, i dodaje powtarzające się minutniki oraz własne alerty."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy Windows ma minutnik zawsze na wierzchu?",
+          "a": "Opcja „Keep on top” w aplikacji Zegar pokazuje jeden minutnik w małym oknie nad innymi. Jeśli potrzebujesz kilku minutników, liczników lub stoperów naraz, użyj aplikacji z pływającym minutnikiem."
+        },
+        {
+          "q": "Czy pływający minutnik będzie przeszkadzał w pracy?",
+          "a": "Karteczki FloatTimer+ nigdy nie zabierają fokusu aplikacji pod spodem, a możesz je zwinąć do bąbelka albo schować przy krawędzi ekranu."
+        }
+      ]
+    },
+    "reading-ruler-dyslexia-adhd-android": {
+      "app": "readfocus",
+      "updated": "2026-10-14",
+      "title": "Linijka do czytania dla dysleksji i ADHD na Androidzie: nie gub wiersza",
+      "desc": "Gubisz wiersz, przeskakujesz linijki albo czytasz to samo zdanie kilka razy? Linijka do czytania lub maska czytania nad dowolną aplikacją pomaga utrzymać wzrok na właściwym miejscu. Zobacz, jak ustawić ją na Androidzie.",
+      "intro": "W długim tekście na ekranie telefonu łatwo się zgubić: wzrok ześlizguje się do następnego wiersza, przeskakuje linijkę albo wraca do zdania, które już przeczytałeś. Wiele osób z dysleksją lub ADHD, czytając na papierze, przykłada linijkę albo kartkę pod wiersz. Na telefonie to samo robi na ekranie linijka do czytania.",
+      "sections": [
+        {
+          "h": "Zacznij od ustawień wyświetlania",
+          "p": [
+            "Ustawienia ułatwień dostępu i wyświetlania w Androidzie — większa czcionka, pogrubiony tekst, ciemny motyw — mogą ułatwić czytanie. Nie zaznaczają jednak wiersza, na którym jesteś, a to właśnie pomaga, gdy wzrok ciągle ucieka."
+          ]
+        },
+        {
+          "h": "Dodaj linijkę do czytania z ReadFocus+",
+          "p": [
+            "ReadFocus+ (nasza aplikacja) wyświetla pasek skupienia nad dowolną aplikacją — e-bookami, plikami PDF, przeglądarkami, wiadomościami, webtoonami. Wybierz „Podświetlenie wiersza”, aby rozjaśnić czytany wiersz, albo „Maskę czytania”, aby przyciemnić wszystko poza strefą czytania."
+          ],
+          "steps": [
+            "Zainstaluj ReadFocus+ z Google Play i zezwól na „Wyświetlanie nad innymi aplikacjami”.",
+            "Wybierz tryb: „Podświetlenie wiersza” (linijka do czytania) lub „Maska czytania”.",
+            "Otwórz aplikację, w której czytasz, i przeciągnij pasek na swój wiersz.",
+            "Dostosuj jego wysokość (50–300 dp), przezroczystość i motyw kolorystyczny, aż będzie wygodnie."
+          ]
+        },
+        {
+          "h": "Wersja darmowa i Pro",
+          "p": [
+            "Wersja darmowa daje 60 minut nakładki na sesję i 3 motywy kolorystyczne. Pro usuwa reklamy i limit czasu oraz dodaje wszystkie 10 motywów i utrzymywanie ekranu włączonego, albo krótka reklama odblokowuje funkcje Pro na 24 godziny."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy linijka do czytania pomaga przy dysleksji?",
+          "a": "Wielu czytelników z dysleksją lub ADHD zauważa, że zaznaczenie bieżącego wiersza ułatwia utrzymanie miejsca w tekście. To pomoc w czytaniu, a nie terapia — wypróbuj ją i zostaw ustawienia, które są dla ciebie wygodne."
+        },
+        {
+          "q": "Z jakimi aplikacjami działa ReadFocus+?",
+          "a": "Z każdą aplikacją na ekranie: czytnikami e-booków i PDF, przeglądarkami, wiadomościami, notatkami do nauki, komiksami i webtoonami."
+        }
+      ]
+    },
+    "reading-ruler-windows": {
+      "app": "readfocuswin",
+      "updated": "2026-10-14",
+      "title": "Jak używać linijki do czytania w Windows (przy dysleksji i ADHD)",
+      "desc": "Czytnik immersyjny w Edge ma funkcję „Line focus” dla stron internetowych. W plikach PDF, dokumentach i każdej innej aplikacji wzrok na wierszu utrzyma pasek skupienia przepuszczający kliknięcia. Zobacz, jak korzystać z obu.",
+      "intro": "Czytając długie strony na monitorze, łatwo zgubić wiersz. Linijka do czytania podświetla wiersz, na którym jesteś, albo przyciemnia resztę ekranu, aby wzrok nie zbaczał.",
+      "sections": [
+        {
+          "h": "Sposób 1: „Line focus” w Microsoft Edge",
+          "p": [
+            "Microsoft Edge ma Czytnik immersyjny — czysty widok do czytania stron internetowych. W jego preferencjach czytania funkcja „Line focus” podświetla jeden, trzy lub pięć wierszy naraz. Działa tylko na stronach otwartych w Czytniku immersyjnym, a nie w plikach PDF, dokumentach czy innych aplikacjach."
+          ]
+        },
+        {
+          "h": "Sposób 2: pasek skupienia nad dowolną aplikacją",
+          "p": [
+            "ReadFocus+ for Windows (nasza aplikacja) nakłada pasek skupienia na to, co czytasz — stronę internetową, plik PDF, dokument, kod. „Maska” przyciemnia górę i dół ekranu, zostawiając jasny pas; „Podświetlenie” zaznacza wiersz, na którym jesteś. Pasek przepuszcza kliknięcia, więc pod spodem przewijasz i klikasz tak jak wcześniej."
+          ],
+          "steps": [
+            "Zainstaluj ReadFocus+ ze sklepu Microsoft Store.",
+            "Uruchom go z pływającego panelu lub skrótem klawiszowym i wybierz „Maskę” albo „Podświetlenie”.",
+            "Przesuń pasek na swój wiersz albo przesuwaj go w górę i w dół skrótami w trakcie czytania.",
+            "Z poziomu panelu zablokuj go, ukryj lub przenieś na inny monitor."
+          ]
+        },
+        {
+          "h": "Wersja darmowa i Pro",
+          "p": [
+            "Wersja darmowa obejmuje oba tryby i trzy motywy, w sesjach do 60 minut. Pro to jednorazowy zakup, który znosi limit czasu i dodaje motywy premium, ustawienia wysokości i przezroczystości paska oraz utrzymywanie ekranu włączonego. Nie ma reklam."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy Windows ma linijkę do czytania?",
+          "a": "Czytnik immersyjny w Edge ma funkcję „Line focus” dla stron internetowych. W innych aplikacjach — plikach PDF, Wordzie, edytorach kodu — potrzebujesz nakładki na ekran, takiej jak ReadFocus+ for Windows."
+        },
+        {
+          "q": "Czy pasek będzie blokował moje kliknięcia?",
+          "a": "Nie. ReadFocus+ for Windows przepuszcza kliknięcia: przewijanie, zaznaczanie i klikanie trafiają do aplikacji pod spodem."
+        }
+      ]
+    },
+    "floating-calculator-over-other-apps-android": {
+      "app": "floatcalc",
+      "updated": "2026-10-14",
+      "title": "Jak używać kalkulatora nad innymi aplikacjami na Androidzie",
+      "desc": "Policz rabat albo przelicz cenę bez opuszczania sklepu, banku czy przeglądarki: pływający kalkulator, który zostaje nad każdą aplikacją, z przelicznikiem jednostek i walut.",
+      "intro": "Sprawdzasz cenę w aplikacji sklepu, dzielisz rachunek na czacie, przeliczasz walutę podczas rezerwacji — przełączanie się do Kalkulatora i z powrotem oznacza, że gubisz miejsce i musisz pamiętać liczby. Pływający kalkulator zostaje na ekranie nad aplikacją, z której korzystasz.",
+      "sections": [
+        {
+          "h": "Sposób 1: podzielony ekran",
+          "p": [
+            "Android potrafi pokazać dwie aplikacje naraz na podzielonym ekranie. Otwórz ekran ostatnich aplikacji, wybierz podzielony ekran dla jednej aplikacji i wskaż Kalkulator na drugą połowę. To działa, ale każda aplikacja dostaje tylko pół ekranu."
+          ]
+        },
+        {
+          "h": "Sposób 2: pływający kalkulator",
+          "p": [
+            "FloatCalc+ (nasza aplikacja) to okno kalkulatora, które unosi się nad każdą aplikacją. Kalkulator, przelicznik jednostek i przelicznik walut dzielą jedno okno, które możesz przeciągnąć w dowolne miejsce; gdy potrzebujesz miejsca, złóż klawiaturę do jednej linii albo zwiń panel do ikony przy krawędzi ekranu."
+          ],
+          "steps": [
+            "Zainstaluj FloatCalc+ z Google Play i zezwól na „Wyświetlanie nad innymi aplikacjami”.",
+            "Otwórz pływający kalkulator i przeciągnij go tam, gdzie nie zasłania tego, czego potrzebujesz.",
+            "Wpisz działanie — potęgi, pierwiastki i procenty też działają — i skopiuj wynik do schowka.",
+            "Przełącz się na przelicznik jednostek lub walut w tym samym oknie. Kursy walut pochodzą z Europejskiego Banku Centralnego, odświeżają się codziennie i działają także offline."
+          ]
+        },
+        {
+          "h": "Wersja darmowa i Pro",
+          "p": [
+            "Pływający kalkulator jest darmowy przez 60 minut dziennie; pasek tytułu pokazuje, ile czasu zostało, a krótka reklama daje przepustkę na 24 godziny. Pro znosi dzienny limit i reklamy oraz dodaje wszystkie kategorie jednostek, ponad 30 walut i więcej motywów."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy mogę używać kalkulatora bez wychodzenia z aplikacji?",
+          "a": "Tak. Pływający kalkulator, taki jak FloatCalc+, zostaje nad innymi aplikacjami, gdy zezwolisz na „Wyświetlanie nad innymi aplikacjami”."
+        },
+        {
+          "q": "Skąd pochodzą kursy walut?",
+          "a": "Z Europejskiego Banku Centralnego; są odświeżane raz dziennie i zapisywane w pamięci podręcznej do użytku offline."
+        }
+      ]
+    },
+    "crypto-price-ticker-over-other-apps-android": {
+      "app": "floatcrypto",
+      "updated": "2026-10-14",
+      "title": "Jak widzieć kursy kryptowalut podczas korzystania z innych aplikacji na Androidzie",
+      "desc": "Miej na ekranie pasek kursów krypto na żywo, gdy oglądasz filmy, czytasz lub piszesz na czacie, i dostawaj powiadomienie, gdy moneta przekroczy Twoją docelową cenę.",
+      "intro": "Aplikacje giełd pokazują kursy w aplikacji albo w widżecie na ekranie głównym, więc sprawdzenie rynku oznacza oderwanie się od tego, co robisz. Pływający pasek kursów trzyma obserwowane ceny na ekranie nad każdą aplikacją.",
+      "sections": [
+        {
+          "h": "Skonfiguruj pływający pasek kursów w FloatCrypto+",
+          "p": [
+            "FloatCrypto+ (nasza aplikacja) wyświetla pasek kursów nad każdą aplikacją — YouTube, wiadomościami, grą, czatem. Przeciągnij go w dowolne miejsce, zmień rozmiar i zmniejsz krycie, żeby nie zasłaniał tego, co czytasz."
+          ],
+          "steps": [
+            "Zainstaluj FloatCrypto+ z Google Play i zezwól na „Wyświetlanie nad innymi aplikacjami”.",
+            "Dodaj monety, które śledzisz, do listy obserwowanych i przeciągnij je w wybranej kolejności.",
+            "Włącz pływający pasek kursów i umieść go, gdzie chcesz.",
+            "Ustaw górny lub dolny alert cenowy z menu ⋮ monety, aby dostać powiadomienie, gdy rynek go przekroczy."
+          ]
+        },
+        {
+          "h": "Warto wiedzieć",
+          "p": [
+            "Kursy pochodzą z Binance z automatycznym źródłem zapasowym i mogą być opóźnione do 30 sekund (10 sekund w Pro). Mają charakter wyłącznie orientacyjny, a aplikacja nie handluje i nie łączy się z kontem na giełdzie. Nic tutaj nie stanowi porady inwestycyjnej.",
+            "Wersja darmowa śledzi 2 monety z 1 alertem. Free Pass otwiera więcej monet lub dłuższe wykresy na 24 godziny za krótką reklamę, a Pro daje 10 monet, nielimitowane alerty, odświeżanie co 10 sekund i brak reklam."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy mogę widzieć kursy krypto nad YouTube albo grą?",
+          "a": "Tak. Pasek kursów unosi się nad każdą aplikacją, gdy zezwolisz na „Wyświetlanie nad innymi aplikacjami”."
+        },
+        {
+          "q": "Czy kursy są w czasie rzeczywistym?",
+          "a": "Mogą być opóźnione do 30 sekund (10 sekund w Pro) i mają charakter wyłącznie orientacyjny."
+        }
+      ]
+    },
+    "make-android-phone-louder": {
+      "app": "volumebooster",
+      "updated": "2026-10-14",
+      "title": "Jak sprawić, by telefon z Androidem grał głośniej",
+      "desc": "Telefon gra za cicho nawet na pełnej głośności? Najpierw sprawdź te ustawienia, a potem zobacz, jak wzmacniacz głośności bezpiecznie podnosi poziom dźwięku — ze wzmocnieniem pokazanym w decybelach.",
+      "intro": "Jeśli filmy, rozmowy na głośniku albo muzyka są za ciche nawet na pełnej głośności, zacznij od kilku ustawień — czasem telefon po prostu sam się ogranicza. Jeśli to nie wystarczy, wzmacniacz głośności może podnieść poziom dźwięku jeszcze bardziej.",
+      "sections": [
+        {
+          "h": "Najpierw sprawdź to",
+          "p": [
+            "Upewnij się, że podgłaśniasz multimedia, a nie dzwonek: naciśnij przycisk głośności podczas odtwarzania filmu albo otwórz panel głośności i przesuń w górę suwak multimediów.",
+            "Niektóre telefony mają limit głośności multimediów. W telefonach Samsung poszukaj opcji „Media volume limiter” w ustawieniach głośności. Wypróbuj też efekty dźwiękowe lub korektor samego telefonu, jeśli je ma, i sprawdź, czy etui nie zasłania głośnika."
+          ]
+        },
+        {
+          "h": "Podgłośnij dźwięk z VolumeBooster+",
+          "p": [
+            "VolumeBooster+ (nasza aplikacja) podnosi wyjście systemowe, a nie głośność jednej aplikacji, więc filmy, muzyka i gry grają głośniej. Wzmocnienie jest pokazywane w decybelach ze strefami Bezpiecznie, Uwaga i Niebezpiecznie, więc widzisz, jak mocno je podkręciłeś."
+          ],
+          "steps": [
+            "Zainstaluj VolumeBooster+ z Google Play.",
+            "Włącz coś do odtwarzania, a potem zwiększaj wzmocnienie stopniowo i obserwuj strefę dB.",
+            "Użyj presetów korektora, wzmacniacza basów lub AutoEQ dla swoich słuchawek, żeby dźwięk był wyraźniejszy, a nie tylko głośniejszy.",
+            "Zmniejsz wzmocnienie, gdy go nie potrzebujesz — Twoje uszy i głośnik Ci podziękują."
+          ]
+        },
+        {
+          "h": "Wersja darmowa i Pro a Twój słuch",
+          "p": [
+            "Wersja darmowa wzmacnia do +10 dB przez 60 minut dziennie; Pro lub 24-godzinny Free Pass otwiera pełny zakres +15 dB. Wartość dB jest szacunkowa, a aplikacja nie jest wyrobem medycznym — jeśli poczujesz ból ucha lub dzwonienie w uszach, zmniejsz głośność."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy wzmacniacz głośności może uszkodzić głośnik albo słuch?",
+          "a": "Bardzo wysoka głośność może. Zwiększaj wzmocnienie stopniowo, obserwuj strefy Bezpiecznie/Uwaga/Niebezpiecznie i zmniejsz je, jeśli dźwięk się zniekształca albo bolą Cię uszy."
+        },
+        {
+          "q": "O ile głośniej może grać?",
+          "a": "Do +15 dB z Pro lub Free Pass i do +10 dB w wersji darmowej. Rzeczywista głośność zależy od urządzenia, słuchawek i treści."
+        }
+      ]
+    },
+    "hide-personal-info-in-screenshots-windows": {
+      "app": "photocleanerwin",
+      "updated": "2026-10-14",
+      "title": "Jak ukryć dane osobowe na zrzutach ekranu i w plikach PDF w Windows",
+      "desc": "Zanim udostępnisz zrzut ekranu lub zeskanowany dokument z komputera, zakryj numery telefonów, numery kart, numery dokumentów i twarze pełnymi maskami — bez wysyłania czegokolwiek.",
+      "intro": "Zrzuty ekranu i zeskanowane dokumenty często zawierają numer telefonu, adres e-mail, numer karty lub dokumentu, adres albo twarz. Zanim wyślesz je lub opublikujesz z komputera, zakryj te informacje tak, by nie dało się ich odtworzyć.",
+      "sections": [
+        {
+          "h": "Sposób 1: Narzędzie Wycinanie (Snipping Tool)",
+          "p": [
+            "Nowsze wersje Narzędzia Wycinanie (Snipping Tool) w Windows 11 potrafią ukryć adresy e-mail i numery telefonów na zrzucie ekranu za pomocą „Text actions”, a na wszystkim innym możesz rysować. Nie używaj do tego zakreślacza — jest półprzezroczysty — tylko pełnych pociągnięć, które całkowicie zakrywają każdy element."
+          ]
+        },
+        {
+          "h": "Sposób 2: PhotoCleaner+ for Windows",
+          "p": [
+            "PhotoCleaner+ for Windows (nasza aplikacja) znajduje prawdopodobne dane osobowe na zdjęciach, zrzutach ekranu i w plikach PDF — numery telefonów, adresy e-mail, numery kart, IBAN, numery paszportów, imiona i nazwiska, adresy, tablice rejestracyjne, twarze i kody QR — i eksportuje kopię z pełnymi maskami. Wszystko dzieje się na Twoim PC; nic nie jest wysyłane."
+          ],
+          "steps": [
+            "Otwórz plik, wklej go przez Ctrl+V, przeciągnij do okna albo kliknij go prawym przyciskiem w Eksploratorze plików i wybierz „Clean with PhotoCleaner+”.",
+            "Sprawdź ramki: kliknij ramkę, aby ją włączyć lub wyłączyć, przeciągnij, aby ją przesunąć lub zmienić rozmiar, i narysuj własne na tym, co zostało pominięte.",
+            "Wyeksportuj zamaskowaną kopię — zapisz, skopiuj, udostępnij albo zapisz jako PDF. Oryginał nigdy nie jest nadpisywany, a zapisane kopie nie zawierają metadanych."
+          ]
+        },
+        {
+          "h": "Wersja darmowa i Pro",
+          "p": [
+            "Wyszukiwanie danych osobowych jest darmowe i bez limitu, a za darmo możesz eksportować 3 dokumenty dziennie. Pro to jednorazowy zakup, który znosi dzienny limit i dodaje eksport do PDF oraz drukowanie. Nie ma reklam ani znaku wodnego."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy znajdzie wszystkie dane osobowe?",
+          "a": "Żadne narzędzie nie może tego obiecać. Wykrywanie to punkt wyjścia — zawsze sprawdź ramki przed eksportem i zakryj to, co zostało pominięte."
+        },
+        {
+          "q": "Czy moje pliki są wysyłane?",
+          "a": "Nie. Wykrywanie, maskowanie i eksport odbywają się na Twoim PC, bez konta i bez wysyłania czegokolwiek."
+        }
+      ]
+    },
+    "crypto-price-ticker-on-top-windows": {
+      "app": "floatcryptowin",
+      "updated": "2026-10-14",
+      "title": "Jak trzymać pasek kursów krypto na żywo nad innymi oknami w Windows",
+      "desc": "Obserwuj swoje monety podczas pracy: wąski pasek kursów nad każdym oknem, alerty cenowe jako powiadomienia na pulpicie i wykresy po dwukrotnym kliknięciu.",
+      "intro": "Otwarta karta giełdy oznacza przełączanie się do niej za każdym razem, gdy chcesz sprawdzić cenę. Pływający pasek kursów trzyma obserwowane monety na widoku nad każdym oknem.",
+      "sections": [
+        {
+          "h": "Skonfiguruj FloatCrypto+ for Windows",
+          "p": [
+            "FloatCrypto+ for Windows (nasza aplikacja) trzyma wąski pasek kursów nad każdym oknem, z symbolem i zmianą 24-godzinną każdej monety. Nigdy nie odbiera fokusu, więc kursor zostaje tam, gdzie pisałeś."
+          ],
+          "steps": [
+            "Zainstaluj FloatCrypto+ ze sklepu Microsoft Store; działa w zasobniku systemowym.",
+            "Wybierz monety spośród par Binance i przeciągnij je w wybranej kolejności.",
+            "Umieść pasek w dowolnym miejscu i ustaw jego przezroczystość oraz rozmiar tekstu — albo zwiń go do bąbelka przy krawędzi ekranu.",
+            "Ustaw cel powyżej lub poniżej bieżącej ceny, aby dostać powiadomienie na pulpicie, gdy rynek go przekroczy. Kliknij dwukrotnie monetę, aby zobaczyć jej wykres."
+          ]
+        },
+        {
+          "h": "Warto wiedzieć",
+          "p": [
+            "Najedź na ikonę w zasobniku, aby zobaczyć pełną tabelę kursów, a pasek ukryjesz skrótem Ctrl+Alt+T. Kursy pochodzą z publicznych danych rynkowych Binance z automatycznym źródłem zapasowym i mogą być opóźnione do 30 sekund; aplikacja nie handluje i nie łączy się z kontem na giełdzie, a nic w niej nie stanowi porady inwestycyjnej.",
+            "Wersja darmowa śledzi 2 monety z 1 alertem; Pro to jednorazowy zakup, który daje 10 monet, nielimitowane alerty, odświeżanie co 10 sekund i dłuższe wykresy. Nie ma reklam."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy pasek kursów przeszkadza w pracy?",
+          "a": "Nie. Nigdy nie odbiera fokusu; możesz zwiększyć jego przezroczystość, zwinąć go do bąbelka albo ukryć skrótem Ctrl+Alt+T."
+        },
+        {
+          "q": "Czy potrzebuje mojego konta na giełdzie?",
+          "a": "Nie. Odczytuje tylko publiczne dane rynkowe i nigdy nie handluje ani nie przechowuje środków."
+        }
+      ]
+    }
+  }
+}
