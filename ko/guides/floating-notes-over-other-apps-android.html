@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>안드로이드에서 메모를 다른 앱 위에 띄워 두는 법 | CodeDAC</title>
+  <meta name="description" content="다른 앱을 쓰는 동안에도 메모가 보이게 하는 법. 어떤 앱 위에도 떠 있고, 작은 칩으로 접히며, 정한 시간에 떠오르게 할 수도 있는 플로팅 메모를 소개합니다." />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/ko/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/floating-notes-over-other-apps-android.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/floating-notes-over-other-apps-android.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:title" content="안드로이드에서 메모를 다른 앱 위에 띄워 두는 법 | CodeDAC" />
+  <meta property="og:description" content="다른 앱을 쓰는 동안에도 메모가 보이게 하는 법. 어떤 앱 위에도 떠 있고, 작은 칩으로 접히며, 정한 시간에 떠오르게 할 수도 있는 플로팅 메모를 소개합니다." />
+  <meta property="og:url" content="https://codedac.com/ko/guides/floating-notes-over-other-apps-android.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/floatnote.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="안드로이드에서 메모를 다른 앱 위에 띄워 두는 법 | CodeDAC" />
+  <meta name="twitter:description" content="다른 앱을 쓰는 동안에도 메모가 보이게 하는 법. 어떤 앱 위에도 떠 있고, 작은 칩으로 접히며, 정한 시간에 떠오르게 할 수도 있는 플로팅 메모를 소개합니다." />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/floatnote.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=73" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "안드로이드에서 메모를 다른 앱 위에 띄워 두는 법",
+  "description": "다른 앱을 쓰는 동안에도 메모가 보이게 하는 법. 어떤 앱 위에도 떠 있고, 작은 칩으로 접히며, 정한 시간에 떠오르게 할 수도 있는 플로팅 메모를 소개합니다.",
+  "inLanguage": "ko",
+  "datePublished": "2026-10-14",
+  "dateModified": "2026-10-14",
+  "mainEntityOfPage": "https://codedac.com/ko/guides/floating-notes-over-other-apps-android.html",
+  "image": "https://codedac.com/images/icons/floatnote.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "FloatNote+",
+    "url": "https://codedac.com/ko/apps/floatnote.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "FloatNote+",
+      "item": "https://codedac.com/ko/apps/floatnote.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "안드로이드에서 메모를 다른 앱 위에 띄워 두는 법",
+      "item": "https://codedac.com/ko/guides/floating-notes-over-other-apps-android.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "안드로이드에 플로팅 메모 기능이 기본으로 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "안드로이드에는 일반적인 플로팅 메모 기능이 없습니다. FloatNote+ 같은 앱이 '다른 앱 위에 표시' 권한으로 이 기능을 더합니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "정한 시간에 메모를 띄울 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네. FloatNote+에서 메모의 ⋮ 메뉴로 알림을 설정하면 그 시각에 알림과 함께 메모가 화면에 떠오릅니다. 무료는 알림 1개, Pro는 무제한입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "FloatNote+는 무료인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "메모 저장은 무료로 무제한이고, 무료 버전은 한 번에 메모 1개를 띄웁니다. Pro는 플로팅 메모 무제한, 인라인 이미지, 투명도 조절, 구글 드라이브 동기화, 광고 제거를 더합니다."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/ko/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/ko/#apps">앱 소개</a>
+        <a href="/ko/#reviews">후기</a>
+        <a href="/ko/#about">회사 소개</a>
+        <a href="/ko/#contact">함께 만들기</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="다크 모드 전환" title="다크 모드 전환">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="한국어"><span class="lang-name">한국어</span><span class="lang-code" aria-hidden="true">KO</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item is-active" data-lang="ko" href="/ko/guides/floating-notes-over-other-apps-android.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/floating-notes-over-other-apps-android.html" hreflang="en" lang="en">English</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-android guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/ko/">홈</a>
+        <span class="sep">/</span>
+        <a href="/ko/apps/floatnote.html"><bdi>FloatNote+</bdi></a>
+        <span class="sep">/</span>
+        <span class="current">가이드</span>
+      </nav>
+      <h1>안드로이드에서 메모를 다른 앱 위에 띄워 두는 법</h1>
+      <p class="guide-meta">업데이트 <time datetime="2026-10-14">2026-10-14</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">목록을 보며 입력란에 옮겨 적을 때, 영상을 틀어 놓고 레시피를 볼 때, 채팅하며 주문번호를 확인할 때 — 메모 앱을 왔다 갔다 하면 흐름이 끊깁니다. 플로팅 메모는 지금 쓰는 앱 위에 그대로 떠 있습니다.</p>
+
+        <h2>플로팅 메모는 이렇게 동작합니다</h2>
+        <p>플로팅 메모는 다른 앱 위에 그려지는 작은 창입니다. 안드로이드의 '다른 앱 위에 표시' 권한으로 가능하며 한 번만 허용하면 됩니다. 아래 앱을 계속 쓰는 동안 메모는 맨 위에 떠 있습니다.</p>
+
+        <h2>FloatNote+로 설정하기</h2>
+        <p>FloatNote+(저희 앱)는 메모 하나하나를 어떤 앱 위에든 작은 칩으로 띄웁니다. 칩을 누르면 그 자리에서 카드로 펼쳐지고, 위쪽 줄을 누르면 다시 칩으로 접힙니다.</p>
+        <ol class="guide-steps">
+          <li>Google Play에서 FloatNote+를 설치하고 '다른 앱 위에 표시'를 허용합니다.</li>
+          <li>+를 눌러 메모를 쓰면 화면 위에 카드로 나타납니다.</li>
+          <li>필요한 앱을 열어도 메모는 위에 떠 있습니다. 화면이 필요하면 칩으로 접어 두세요.</li>
+          <li>색·굵게·글자 크기·사진으로 메모를 한눈에 구분할 수 있습니다.</li>
+          <li>정한 시간에 메모를 띄우려면 메모의 ⋮ 메뉴에서 [알림 설정]을 고르세요. 한 번·매일·평일·원하는 요일을 정할 수 있습니다.</li>
+        </ol>
+
+        <h2>PC에서도</h2>
+        <p>Windows용 FloatNote+도 어떤 창 위에든 같은 메모를 띄우고, 두 앱은 내 구글 드라이브로 동기화됩니다(안드로이드는 Pro 기능).</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">이 가이드의 앱</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/floatnote.png?v=73" alt="FloatNote+ icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>FloatNote+</bdi></p>
+          <p class="rc-desc">어떤 앱 위에도 뜨는 플로팅 스티커 메모. 칩으로 접었다 카드로 펼치고, 색상·서식·이미지까지.</p>
+          <div class="guide-app-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floatnote&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dguide%26utm_campaign%3Dko" class="btn btn-primary" target="_blank" rel="noopener">Google Play에서 보기 →</a>
+            <a href="/ko/apps/floatnote.html" class="btn btn-ghost">앱 자세히 보기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">자주 묻는 질문</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">안드로이드에 플로팅 메모 기능이 기본으로 있나요?</p><p class="faq-a">안드로이드에는 일반적인 플로팅 메모 기능이 없습니다. FloatNote+ 같은 앱이 '다른 앱 위에 표시' 권한으로 이 기능을 더합니다.</p></div>
+        <div class="faq-item"><p class="faq-q">정한 시간에 메모를 띄울 수 있나요?</p><p class="faq-a">네. FloatNote+에서 메모의 ⋮ 메뉴로 알림을 설정하면 그 시각에 알림과 함께 메모가 화면에 떠오릅니다. 무료는 알림 1개, Pro는 무제한입니다.</p></div>
+        <div class="faq-item"><p class="faq-q">FloatNote+는 무료인가요?</p><p class="faq-a">메모 저장은 무료로 무제한이고, 무료 버전은 한 번에 메모 1개를 띄웁니다. Pro는 플로팅 메모 무제한, 인라인 이미지, 투명도 조절, 구글 드라이브 동기화, 광고 제거를 더합니다.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">다른 가이드</h2>
+      <ul class="guide-links">
+        <li><a href="/ko/guides/android-clipboard-history.html">안드로이드 클립보드 기록 보는 법</a></li>
+        <li><a href="/ko/guides/open-app-automatically-after-reboot-android.html">안드로이드 재부팅 후 앱 자동 실행하는 법 (루팅 없이)</a></li>
+        <li><a href="/ko/guides/floating-timer-over-other-apps-android.html">안드로이드에서 다른 앱을 쓰며 타이머 띄워 두는 법</a></li>
+        <li><a href="/ko/guides/hide-personal-info-in-screenshots.html">캡처를 공유하기 전에 개인정보 가리는 법</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">대한민국</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/ko/privacy.html">개인정보처리방침</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"ko","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/floating-notes-over-other-apps-android.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/floating-notes-over-other-apps-android.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=73"></script>
+</body>
+</html>

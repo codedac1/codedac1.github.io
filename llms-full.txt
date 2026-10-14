@@ -400,3 +400,153 @@ FAQ:
 
 Page: https://codedac.com/apps/floatcryptowin.html
 Store: https://apps.microsoft.com/detail/9NMFCT755G24
+
+# Guides
+
+## How to see your clipboard history on Android
+
+Android itself remembers only the last thing you copied — copy something new and the previous text is gone. If you want to get back an address, a code or a sentence you copied earlier, you need a place that keeps a history. There are two: your keyboard, and a clipboard manager app.
+
+### Option 1: the clipboard in your keyboard
+
+Many keyboards have their own clipboard. In Gboard, tap the clipboard icon in the toolbar above the keys (turn it on the first time). Samsung Keyboard has a clipboard button in its toolbar too.
+
+This is the quickest way to grab something you copied a few minutes ago. The catch is that keyboard clipboards are short-term: Gboard, for example, removes unpinned items after about an hour, and you only see the list while you are typing.
+
+### Option 2: a clipboard manager that keeps a real history
+
+If you copy the same things again and again — addresses, account numbers, canned replies — a clipboard manager keeps them until you delete them, lets you search them, and can show them over any app.
+
+Clipboard+ (our app) keeps the text and images you copy in a history, newest first, with search and a floating panel you can open over the app you are using.
+
+1. Install Clipboard+ from Google Play and open it once.
+2. Copy text as usual. You can also select text in any app and choose Clipboard+ in the selection menu to save it.
+3. Open the floating panel (or the app) to see your history, tap a clip to copy it again, and paste it where you are.
+4. Keep things you reuse as snippets in groups, so they are always one tap away.
+
+### Which one should you use?
+
+For a one-off — pasting something you copied a minute ago — the keyboard clipboard is enough. If you lose clips you wanted, or you keep retyping the same text, a clipboard manager saves that time. Clipboard+ is free to start; Pro adds sync with the Windows app through your own Google Drive, unlimited image clips and PDF export.
+
+- Q: Does Android have a built-in clipboard history?
+  A: Not in the system itself — Android keeps only the latest clip. Keyboards such as Gboard and Samsung Keyboard add a short-term clipboard list.
+- Q: Can I see clipboard history from my phone on my PC?
+  A: Yes, with Clipboard+ on both: the Android app and Clipboard+ for Windows sync through your own Google Drive (a Pro feature on Android).
+
+Page: https://codedac.com/guides/android-clipboard-history.html
+
+## How to open an app automatically after a reboot on Android (no root)
+
+Android does not have a setting that opens an app when the phone starts. If you open the same apps after every restart — a navigation app in the car, a launcher on a kiosk tablet, a music app on a head unit — an auto-start app can do it for you.
+
+### Why it doesn't happen on its own
+
+Since Android 10, apps are not allowed to open screens from the background on their own. An app that should open others after a reboot therefore needs the "Display over other apps" permission, and it can only start them once the phone has been unlocked for the first time.
+
+### Set it up with AutoStart+
+
+AutoStart+ (our app) opens the apps you pick after every restart, as soon as you unlock the phone. It needs no root.
+
+1. Install AutoStart+ from Google Play and open it.
+2. Tap Add apps and choose the apps you want to open after a reboot. Drag the rows to set which one opens first.
+3. Allow "Display over other apps" when asked — without it Android blocks the launch.
+4. Tap Test it now to see what will happen, without restarting the phone.
+5. Restart the phone and unlock it: your apps open in the order you set.
+
+### Car head units and devices that sleep
+
+Many Android head units don't really reboot — they go to sleep when the car is off. AutoStart+ has a Car Mode that opens your apps again every time the screen wakes up.
+
+- Q: Do I need root to auto start apps on Android?
+  A: No. AutoStart+ works without root; it only needs the "Display over other apps" permission.
+- Q: Why don't my apps open before I unlock the phone?
+  A: Android does not let apps open others until the phone has been unlocked once after a reboot. Your apps open right after you unlock.
+- Q: How many apps can I auto start for free?
+  A: The free version starts 1 app per boot. Pro starts your whole list in order, and a short ad unlocks the limit for 24 hours if you'd rather not subscribe.
+
+Page: https://codedac.com/guides/open-app-automatically-after-reboot-android.html
+
+## How to keep a note on top of other apps on Android
+
+Copying a list into a form, checking a recipe while a video plays, keeping an order number in view in a chat — switching back and forth to your notes app breaks the flow. A floating note stays on screen over whatever app you are using.
+
+### How floating notes work
+
+A floating note is a small window drawn over other apps. Android allows this through the "Display over other apps" permission, which you grant once. The note stays on top while you keep using the app underneath.
+
+### Set it up with FloatNote+
+
+FloatNote+ (our app) floats each note as a small chip over any app. Tap the chip and it opens as a card right there; tap its title bar to fold it back.
+
+1. Install FloatNote+ from Google Play and allow "Display over other apps".
+2. Tap + to write a note — it appears over your screen as a card.
+3. Open the app you need. The note stays on top; fold it into a chip when you want the screen back.
+4. Use colors, bold, text size and pictures to make notes easy to tell apart.
+5. To bring a note up at a set time, open its ⋮ menu and choose Remind me — once, every day, weekdays or the days you pick.
+
+### Also on your PC
+
+FloatNote+ for Windows floats the same kind of notes over any window, and the two apps sync through your own Google Drive (a Pro feature on Android).
+
+- Q: Does Android have floating notes built in?
+  A: Android has no general floating-note feature. Apps like FloatNote+ add it using the "Display over other apps" permission.
+- Q: Can a note pop up at a set time?
+  A: Yes. In FloatNote+, set a reminder from the note's ⋮ menu and the note comes up on screen with a notification. The free version keeps one reminder; Pro has no limit.
+- Q: Is FloatNote+ free?
+  A: Saving notes is free and unlimited, and the free version floats one note at a time. Pro adds unlimited floating notes, inline images, adjustable opacity, Google Drive sync and no ads.
+
+Page: https://codedac.com/guides/floating-notes-over-other-apps-android.html
+
+## How to keep a timer on screen while using other apps on Android
+
+The timer in the Clock app runs in the background, but you can't see it while you are in another app — you have to pull down notifications or switch back. For studying with a lecture, timing a presentation, or a game, it helps to have the time on screen the whole time.
+
+### Set it up with FloatTimer+
+
+FloatTimer+ (our app) floats timers, stopwatches and tally counters over any app as small cards you can drag anywhere.
+
+1. Install FloatTimer+ from Google Play and allow "Display over other apps".
+2. Create a timer — any hours, minutes and seconds, or a quick preset such as 25 minutes.
+3. Float it and open the app you are using. Start, pause and reset from the card itself.
+4. Fold it into a bubble when you need the space; the time keeps running.
+
+### More than one at a time
+
+You can make as many timers, counters and stopwatches as you like for free, and they keep running. The free version shows one on screen at a time; Pro floats as many as you want at once, or a short ad unlocks that for 24 hours.
+
+- Q: Can I see a timer over YouTube or a game?
+  A: Yes. A floating timer stays on top of any app, including videos and games, once you allow "Display over other apps".
+- Q: Is there a Pomodoro preset?
+  A: FloatTimer+ has 1, 5, 10, 25, 30 and 60-minute quick presets, so a 25-minute focus timer is one tap.
+
+Page: https://codedac.com/guides/floating-timer-over-other-apps-android.html
+
+## How to hide personal info in a screenshot before you share it
+
+Screenshots and photos of documents often carry more than you meant to share: a phone number, an ID or card number, an address, a face, a QR code. Before posting or sending them, cover that information properly.
+
+### What to avoid
+
+A semi-transparent highlighter or thin pen strokes can leave text readable once someone raises the contrast, and blur or mosaic on small text can sometimes be guessed. Use a solid, opaque box over anything private, and share a copy rather than the original.
+
+### Option 1: your phone's photo editor
+
+Most gallery apps have a markup or drawing tool. If you use it, pick a solid shape or a fully opaque pen, cover each item completely, and zoom in to check the edges before you save.
+
+### Option 2: PhotoCleaner+
+
+PhotoCleaner+ (our app) is made for this job. It suggests likely personal information, you review each box, and it exports a copy with solid masks — everything runs on your phone, nothing is uploaded.
+
+1. Open a photo, screenshot or PDF in PhotoCleaner+.
+2. Check the suggested boxes — phone numbers, emails, card numbers and similar text — and add your own by drawing.
+3. Move, resize or delete boxes until everything private is covered.
+4. Export the masked copy and share that. Your original is not changed, and saved copies carry no EXIF or GPS data.
+
+- Q: Is blurring enough to hide a phone number?
+  A: Not always. Light blur on small text can sometimes be read or guessed. A solid, opaque mask is the safe choice.
+- Q: Does PhotoCleaner+ upload my photos?
+  A: No. Detection and masking run on your phone, and your photos and documents are never uploaded.
+- Q: Is it free?
+  A: Detection, editing and masking are free; you can export 3 times a day. Pro removes the daily limit and adds PDF export and printing, or a short ad lifts the limit for 24 hours.
+
+Page: https://codedac.com/guides/hide-personal-info-in-screenshots.html

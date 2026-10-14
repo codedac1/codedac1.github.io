@@ -1058,3 +1058,22 @@ img { max-width: 100%; }
 [dir="rtl"] .eyebrow { letter-spacing: 1.5px; }
 [dir="rtl"] .section-label { letter-spacing: 1.5px; }
 [dir="rtl"] .review-stars { letter-spacing: 3px; }
+
+/* ---------- 가이드 (guides/<slug>.html) ---------- */
+.guide-hero { padding-bottom: 44px; }
+.guide-hero h1 { font-size: clamp(26px, 3.4vw, 38px); line-height: 1.25; max-width: 880px; margin-top: 16px; }
+.guide-meta { color: rgba(255, 255, 255, .65); font-size: 14px; margin-top: 12px; }
+.guide-body { max-width: 780px; font-size: 17px; line-height: 1.85; color: var(--body); }
+.guide-body h2 { font-size: 22px; font-weight: 900; color: var(--ink); letter-spacing: -.02em; margin: 1.9em 0 .6em; }
+.guide-body p + p { margin-top: 1em; }
+.guide-intro { font-size: 18px; color: var(--ink); }
+.guide-steps { margin: 1em 0 0; padding-inline-start: 1.5em; }
+.guide-steps li { margin: .55em 0; padding-inline-start: .25em; }
+.guide-app { display: flex; gap: 18px; align-items: flex-start; max-width: 780px; }
+.guide-app .app-icon { width: 64px; height: 64px; flex: 0 0 64px; border-radius: 16px; }
+.guide-app .rc-name { font-size: 18px; font-weight: 900; color: var(--ink); }
+.guide-app .rc-desc { margin-top: 4px; color: var(--body); line-height: 1.6; }
+.guide-app-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.guide-links { display: grid; gap: 10px; padding-inline-start: 1.3em; font-size: 17px; list-style: disc; }
+.guide-links a { color: var(--link-teal); text-decoration: underline; text-underline-offset: 3px; }
+.guide-links a:hover { color: var(--link-teal-h); }

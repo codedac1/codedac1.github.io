@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '72'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '73'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -233,6 +233,20 @@ for (const code of Object.keys(PRIV)) {
 }
 const PRIV_ACTIVE = ACTIVE.filter((l) => PRIV[l.code]);
 
+// 가이드(i18n/guides/<lang>.json) — "안드로이드 클립보드 기록 보는 법" 같은 '방법' 질문에 답하는 글.
+// 앱 페이지는 제품 이름으로만 찾히지만, 사람과 AI 도우미는 문제로 묻는다(2026-10-14: AI 유입은 세션의
+// 63% 가 주요 이벤트로 이어지는데 SNS 는 0). 언어마다 있는 글만 만든다 — 번역이 없는 언어로는 hreflang·
+// 언어 메뉴·저장 언어 이동이 가지 않게 langSet 을 좁힌다.
+const GUIDES = {};
+for (const lang of ACTIVE) {
+  const p = path.join(ROOT, 'i18n', 'guides', `${lang.code}.json`);
+  if (fs.existsSync(p)) GUIDES[lang.code] = require(p);
+}
+const GUIDE_SLUGS = [...new Set(Object.values(GUIDES).flatMap((g) => Object.keys(g.guides)))];
+const guideLangs = (slug) => ACTIVE.filter((l) => GUIDES[l.code] && GUIDES[l.code].guides[slug]);
+const guidesForApp = (code, appSlug) => GUIDES[code]
+  ? Object.entries(GUIDES[code].guides).filter(([, g]) => g.app === appSlug) : [];
+
 // --- 유틸 ---
 const escText = (s) => String(s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -249,6 +263,7 @@ function pathFor(code, kind, slug) {
   const dir = code === ROOT_LANG ? '/' : `/${code}/`;
   if (kind === 'home') return dir;
   if (kind === 'privacy') return `${dir}privacy.html`;
+  if (kind === 'guide') return `${dir}guides/${slug}.html`;
   return `${dir}apps/${slug}.html`;
 }
 // 절대 URL (canonical/hreflang/OG)
@@ -260,6 +275,7 @@ function fileFor(code, kind, slug) {
   const dir = code === ROOT_LANG ? '' : `${code}/`;
   if (kind === 'home') return `${dir}index.html`;
   if (kind === 'privacy') return `${dir}privacy.html`;
+  if (kind === 'guide') return `${dir}guides/${slug}.html`;
   return `${dir}apps/${slug}.html`;
 }
 
@@ -275,9 +291,9 @@ function hreflangLinks(kind, slug, langSet) {
 }
 
 // 언어 스위처 (드롭다운)
-function langSwitcher(curCode, kind, slug) {
+function langSwitcher(curCode, kind, slug, langSet) {
   const cur = LANGS.find((l) => l.code === curCode);
-  const items = ACTIVE.map((l) => {
+  const items = (langSet || ACTIVE).map((l) => {
     const active = l.code === curCode ? ' is-active' : '';
     // data-lang 은 폴더 코드. hreflang 에서 코드를 되짚으면 안 된다 —
     // 필리핀어의 hreflang 은 'tl' 이고 zh 는 'zh-Hans' 라, 폴더명과 어긋난다.
@@ -333,10 +349,11 @@ const FAVICON_LINKS = `<link rel="icon" href="/favicon.ico" sizes="48x48" />
 // 404 로 보내진다. 별칭도 함께 태워, 예전 코드로 저장된 값을 현재 폴더로 옮긴다.
 //
 // rest: 목적지 언어에서의 동일 페이지 경로 접미사(home='' · privacy='privacy.html' · detail='apps/<slug>.html')
-function storedLangRedirect(code, kind, slug) {
+function storedLangRedirect(code, kind, slug, langSet) {
   if (code !== ROOT_LANG) return '';
-  const rest = kind === 'home' ? '' : kind === 'privacy' ? 'privacy.html' : `apps/${slug}.html`;
-  const codes = ACTIVE.filter((l) => l.code !== ROOT_LANG).map((l) => l.code);
+  const rest = kind === 'home' ? '' : kind === 'privacy' ? 'privacy.html'
+    : kind === 'guide' ? `guides/${slug}.html` : `apps/${slug}.html`;
+  const codes = (langSet || ACTIVE).filter((l) => l.code !== ROOT_LANG).map((l) => l.code);
   const map = Object.fromEntries(codes.map((c) => [c, c]));
   for (const [from, to] of Object.entries(LANG_ALIAS)) if (codes.includes(to)) map[from] = to;
   const supObj = JSON.stringify(map);
@@ -399,7 +416,7 @@ function gaSnippet() {
 
 function headCommon(lang, { title, desc, canonical, ogImage, kind, slug, langSet }) {
   return `  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />${storedLangRedirect(lang.code, kind, slug)}${gaSnippet()}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />${storedLangRedirect(lang.code, kind, slug, langSet)}${gaSnippet()}
   <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
   <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
   <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
@@ -430,7 +447,7 @@ ${hreflangLinks(kind, slug, langSet)}
   <link rel="stylesheet" href="/css/style.css?v=${V}" />`;
 }
 
-function header(code, kind, slug, ui) {
+function header(code, kind, slug, ui, langSet) {
   return `  <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="${pathFor(code, 'home')}" class="logo">${LOGO_MARK}<span class="logo-text">Code<span>DAC</span></span></a>
@@ -444,7 +461,7 @@ function header(code, kind, slug, ui) {
         <button type="button" class="theme-toggle" id="themeToggle" aria-label="${escAttr(ui['theme.toggle'])}" title="${escAttr(ui['theme.toggle'])}">
           <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
         </button>
-      ${langSwitcher(code, kind, slug)}
+      ${langSwitcher(code, kind, slug, langSet)}
         <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
@@ -1060,6 +1077,12 @@ ${Array.from({ length: app.shots }, (_, i) => `          ${shotImg(i, true)}`).j
 ${paragraphsOf(a.long).map((p) => `          <p>${escText(p)}</p>`).join('\n')}
         </div>`,
     },
+    guidesForApp(code, app.slug).length ? {
+      title: GUIDES[code].ui.appGuides,
+      body: `<ul class="guide-links">
+${guidesForApp(code, app.slug).map(([gs, g]) => `          <li><a href="${pathFor(code, 'guide', gs)}">${escText(g.title)}</a></li>`).join('\n')}
+        </ul>`,
+    } : null,
     reviews.length ? {
       id: 'reviews', title: ui['reviews.title'], lead: ui['reviews.lead'],
       body: `<div class="reviews-grid">
@@ -1178,6 +1201,137 @@ ${footer(code, ui)}
 ${installBar}
 ${lightbox}
 ${bannerData(code, 'detail', app.slug, ACTIVE)}  <script src="/js/site.js?v=${V}"></script>
+</body>
+</html>
+`;
+}
+
+// ---------- 가이드 ----------
+// 한 질문에 답하는 글: 먼저 기본 기능으로 되는 방법을 정직하게 적고, 그다음 우리 앱이 하는 일을 적는다.
+// 앱 기능 문장은 앱 페이지(i18n/<lang>.json)와 같은 사실만 쓴다 — 가이드가 앱 페이지보다 많이 약속하면 안 된다.
+function buildGuide(lang, slug) {
+  const code = lang.code;
+  const G = GUIDES[code];
+  const g = G.guides[slug];
+  const gu = G.ui;
+  const ui = L[code].ui;
+  const app = APPS.find((x) => x.slug === g.app);
+  const a = L[code].apps[g.app];
+  const plat = platformKey(app);
+  const langSet = guideLangs(slug);
+  const canonical = urlFor(code, 'guide', slug);
+
+  const ldArticle = {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: g.title, description: g.desc, inLanguage: lang.hreflang,
+    datePublished: g.updated, dateModified: g.updated,
+    mainEntityOfPage: canonical, image: `${BASE}/images/icons/${app.slug}.png`,
+    author: { '@type': 'Organization', name: 'CodeDAC', url: `${BASE}/` },
+    publisher: { '@type': 'Organization', name: 'CodeDAC', url: `${BASE}/` },
+    about: { '@type': 'SoftwareApplication', name: a.name, url: urlFor(code, 'detail', app.slug) },
+  };
+  const ldFaq = g.faq && g.faq.length ? {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: g.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  } : null;
+  const ldBreadcrumb = {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'CodeDAC', item: urlFor(code, 'home') },
+      { '@type': 'ListItem', position: 2, name: a.name, item: urlFor(code, 'detail', app.slug) },
+      { '@type': 'ListItem', position: 3, name: g.title, item: canonical },
+    ],
+  };
+
+  const body = g.sections.map((sec) => `
+        <h2>${escText(sec.h)}</h2>
+${(sec.p || []).map((p) => `        <p>${escText(p)}</p>`).join('\n')}${sec.steps ? `
+        <ol class="guide-steps">
+${sec.steps.map((st) => `          <li>${escText(st)}</li>`).join('\n')}
+        </ol>` : ''}`).join('\n');
+
+  const storeBtn = app.store
+    ? `<a href="${escAttr(storeUrl(app, code, 'guide'))}" class="btn btn-primary" target="_blank" rel="noopener">${escText(storeLabel(app, ui))}</a>`
+    : '';
+  const others = Object.entries(G.guides).filter(([s]) => s !== slug);
+
+  return `<!DOCTYPE html>
+<html lang="${lang.htmlLang}"${lang.dir ? ` dir="${lang.dir}"` : ''}>
+<head>
+${headCommon(lang, { title: `${g.title} | CodeDAC`, desc: g.desc, canonical, ogImage: `${BASE}/images/icons/${app.slug}.png`, kind: 'guide', slug, langSet })}
+  <script type="application/ld+json">
+${JSON.stringify(ldArticle, null, 2)}
+  </script>
+  <script type="application/ld+json">
+${JSON.stringify(ldBreadcrumb, null, 2)}
+  </script>${ldFaq ? `
+  <script type="application/ld+json">
+${JSON.stringify(ldFaq, null, 2)}
+  </script>` : ''}
+</head>
+<body>
+${header(code, 'guide', slug, ui, langSet)}
+
+  <section class="app-hero-d app-hero-${plat} guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="${pathFor(code, 'home')}">${escText(ui['bc.home'])}</a>
+        <span class="sep">/</span>
+        <a href="${pathFor(code, 'detail', app.slug)}">${bdiName(a.name)}</a>
+        <span class="sep">/</span>
+        <span class="current">${escText(gu.guides)}</span>
+      </nav>
+      <h1>${escText(g.title)}</h1>
+      <p class="guide-meta">${escText(gu.updated)} <time datetime="${g.updated}">${g.updated}</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">${escText(g.intro)}</p>
+${body}
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">${escText(gu.inThisGuide)}</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/${app.slug}.png?v=${V}" alt="${escAttr(a.name)} icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name">${bdiName(a.name)}</p>
+          <p class="rc-desc">${escText(a.desc)}</p>
+          <div class="guide-app-actions">
+            ${storeBtn}
+            <a href="${pathFor(code, 'detail', app.slug)}" class="btn btn-ghost">${escText(gu.appPage)}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>${ldFaq ? `
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">${escText(gu.faq)}</h2>
+      <div class="faq-list">
+${g.faq.map((f) => `        <div class="faq-item"><p class="faq-q">${escText(f.q)}</p><p class="faq-a">${escText(f.a)}</p></div>`).join('\n')}
+      </div>
+    </div>
+  </section>` : ''}${others.length ? `
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">${escText(gu.moreGuides)}</h2>
+      <ul class="guide-links">
+${others.map(([s, o]) => `        <li><a href="${pathFor(code, 'guide', s)}">${escText(o.title)}</a></li>`).join('\n')}
+      </ul>
+    </div>
+  </section>` : ''}
+
+${footer(code, ui)}
+${bannerData(code, 'guide', slug, langSet)}  <script src="/js/site.js?v=${V}"></script>
 </body>
 </html>
 `;
@@ -1357,6 +1511,7 @@ for (const lang of ACTIVE) {
   emit(lang, 'home', undefined, buildHome(lang));
   for (const app of APPS) emit(lang, 'detail', app.slug, buildDetail(lang, app));
   if (PRIV[lang.code]) emit(lang, 'privacy', undefined, buildPrivacy(lang));
+  if (GUIDES[lang.code]) for (const gs of Object.keys(GUIDES[lang.code].guides)) emit(lang, 'guide', gs, buildGuide(lang, gs));
 }
 
 // 예전 영어 URL 을 덮어써 리다이렉트 껍데기로 만든다. sitemap 에는 넣지 않는다.
@@ -1394,6 +1549,7 @@ ${alts.join('\n')}
 const urls = [sitemapUrl('home')];
 for (const app of APPS) urls.push(sitemapUrl('detail', app.slug));
 urls.push(sitemapUrl('privacy', undefined, PRIV_ACTIVE));
+for (const gs of GUIDE_SLUGS) urls.push(sitemapUrl('guide', gs, guideLangs(gs)));
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${urls.join('\n')}
@@ -1455,7 +1611,11 @@ ${android.join('\n')}
 
 ${windows.join('\n')}
 
-## More
+${GUIDES.en ? `## Guides
+
+${Object.entries(GUIDES.en.guides).map(([gs, g]) => `- [${g.title}](${urlFor('en', 'guide', gs)}): ${plain(g.desc)}`).join('\n')}
+
+` : ''}## More
 
 - [All apps](${BASE}/): overview of every app with screenshots and reviews
 - [Full details](${BASE}/llms-full.txt): every app's description, features and FAQ in one file
@@ -1466,7 +1626,19 @@ ${windows.join('\n')}
 
 > Independent developer of utility apps for Android and Windows. Every app is free to download with an optional Pro upgrade. Official site: ${BASE}/ — apps are published only on Google Play and the Microsoft Store.
 
-${APPS.map(full).filter(Boolean).join('\n')}`;
+${APPS.map(full).filter(Boolean).join('\n')}${GUIDES.en ? `
+# Guides
+
+${Object.entries(GUIDES.en.guides).map(([gs, g]) => `## ${g.title}
+
+${plain(g.intro)}
+
+${g.sections.map((sec) => `### ${sec.h}\n\n${(sec.p || []).map(plain).join('\n\n')}${sec.steps ? '\n\n' + sec.steps.map((st, i) => `${i + 1}. ${plain(st)}`).join('\n') : ''}`).join('\n\n')}
+
+${(g.faq || []).map((q) => `- Q: ${plain(q.q)}\n  A: ${plain(q.a)}`).join('\n')}
+
+Page: ${urlFor('en', 'guide', gs)}
+`).join('\n')}` : ''}`;
   fs.writeFileSync(path.join(ROOT, 'llms-full.txt'), llmsFull, 'utf8');
 }
 
