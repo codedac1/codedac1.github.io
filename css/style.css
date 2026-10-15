@@ -486,7 +486,73 @@ img { max-width: 100%; }
 }
 .btn-navy:hover { transform: translateY(-2px); box-shadow: 0 14px 30px rgba(30, 42, 71, .40); }
 
-/* 메일 앱이 안 열릴 때를 위한 주소 복사 줄 */
+/* 유료·무료 중 고르기 안내 (섹션 머리 아래) */
+.section-head-center .work-pick {
+  max-width: 640px; margin: -32px auto 40px; color: var(--muted); font-size: 14.5px; text-wrap: pretty;
+}
+
+/* ===== 입력 폼 창 (2026-10-15) =====
+   버튼이 mailto: 대신 이 <dialog> 를 연다(js/site.js). 카드와 같은 색 규칙 — 의뢰 네이비, 제보 틸. */
+.work-dialog {
+  --wc-tint: var(--brand-tint); --wc-ink: var(--brand);
+  width: min(640px, calc(100vw - 32px)); max-height: calc(100dvh - 32px);
+  padding: 0; border: 1px solid var(--line); border-radius: var(--radius-lg);
+  background: var(--bg); color: var(--body); box-shadow: var(--shadow-lg); overflow: auto;
+}
+.work-dialog-idea { --wc-tint: var(--accent-tint); --wc-ink: var(--link-teal-h); }
+.work-dialog::backdrop { background: rgba(16, 24, 40, .55); }
+.work-form { padding: 28px 28px 24px; }
+.wf-head { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.wf-title { flex: 1; font-size: 22px; font-weight: 900; color: var(--ink); letter-spacing: -.02em; }
+.wf-close {
+  flex: 0 0 auto; width: 38px; height: 38px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--muted); font-size: 22px; line-height: 1; cursor: pointer;
+}
+.wf-close:hover { color: var(--ink); border-color: var(--accent); }
+.wf-note {
+  margin: 0 0 6px; padding: 12px 14px; border-radius: var(--radius-sm);
+  background: var(--wc-tint); color: var(--wc-ink); font-size: 14px; font-weight: 600; line-height: 1.6;
+}
+.wf-reqnote { margin: 0 0 14px; color: var(--muted); font-size: 12.5px; }
+.wf-body { display: grid; gap: 16px; }
+.wf-field { display: grid; gap: 6px; margin: 0; padding: 0; border: 0; min-width: 0; }
+.wf-field > label, .wf-group legend { color: var(--ink); font-size: 14px; font-weight: 700; padding: 0; }
+.wf-req { color: #d0453b; }
+.work-form input[type="text"], .work-form input[type="email"], .work-form textarea, .work-form select {
+  width: 100%; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px;
+  background: var(--bg); color: var(--ink); font: inherit; font-size: 15px; line-height: 1.5;
+}
+.work-form textarea { resize: vertical; min-height: 64px; }
+.work-form input:focus, .work-form textarea:focus, .work-form select:focus { outline: none; border-color: var(--accent); box-shadow: var(--ring); }
+.work-form .is-invalid, .wf-consent.is-invalid { border-color: #d0453b; }
+.wf-hint { margin: 0; color: var(--muted); font-size: 12.5px; }
+.wf-opts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.wf-opt { display: inline-flex; align-items: center; gap: 8px; padding: 7px 12px; border: 1px solid var(--line); border-radius: 999px; cursor: pointer; font-size: 14px; color: var(--body); }
+.wf-opt:has(input:checked) { border-color: var(--accent); background: var(--accent-tint); color: var(--ink); }
+.wf-opt input, .wf-consent input { accent-color: var(--accent); margin: 0; }
+.wf-consent { display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; border: 1px solid transparent; border-radius: 10px; font-size: 13.5px; color: var(--body); cursor: pointer; }
+.wf-consent input { margin-top: 3px; flex: 0 0 auto; }
+.wf-consent a { color: var(--link-teal); text-decoration: underline; }
+.wf-beta { padding-inline: 0; }
+/* 봇 함정 칸. 화면 밖으로 밀면 RTL(ar)에서 가로 스크롤이 생겨 제자리에서 잘라 숨긴다. */
+.wf-hp { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.work-form { position: relative; }
+.wf-status { margin: 16px 0 0; padding: 10px 12px; border-radius: 10px; font-size: 14px; }
+.wf-status.is-ok { background: var(--accent-tint); color: var(--link-teal-h); font-weight: 700; }
+.wf-status.is-error { background: rgba(208, 69, 59, .10); color: #b3372e; }
+.wf-status a { color: inherit; text-decoration: underline; font-weight: 700; }
+.wf-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-top: 18px; }
+.work-form [hidden] { display: none !important; } /* .btn 의 display 가 hidden 속성을 이기지 않게 */
+.wf-actions .btn[disabled] { opacity: .7; cursor: progress; transform: none; }
+.wf-mail { color: var(--muted); font-size: 13.5px; text-decoration: underline; }
+.work-form.is-sent .wf-body, .work-form.is-sent .wf-reqnote { opacity: .55; }
+@media (max-width: 560px) {
+  .work-form { padding: 22px 18px 18px; }
+  .wf-title { font-size: 19px; }
+  .section-head-center .work-pick { margin-top: -28px; }
+}
+
+/* 메일로 직접 보내고 싶을 때를 위한 주소 복사 줄 */
 .work-mail {
   display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px 12px;
   margin-top: 30px; text-align: center; color: var(--muted); font-size: 14.5px;
@@ -993,6 +1059,9 @@ img { max-width: 100%; }
 :root[data-theme="dark"] .platform-android { --pc-soft: rgba(61, 220, 132, .07); --pc-line: rgba(61, 220, 132, .24); }
 :root[data-theme="dark"] .platform-windows { --pc-soft: rgba(0, 120, 212, .10); --pc-line: rgba(64, 156, 230, .30); }
 :root[data-theme="dark"] .btn-navy { box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .10), 0 8px 20px rgba(0, 0, 0, .4); }
+:root[data-theme="dark"] .work-dialog::backdrop { background: rgba(0, 0, 0, .7); }
+:root[data-theme="dark"] .wf-status.is-error { background: rgba(240, 110, 100, .14); color: #f29a92; }
+:root[data-theme="dark"] .wf-req { color: #f29a92; }
 :root[data-theme="dark"] .work-card:hover,
 :root[data-theme="dark"] .app-card:hover,
 :root[data-theme="dark"] .faq-item:hover,

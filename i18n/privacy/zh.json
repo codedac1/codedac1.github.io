@@ -2,7 +2,7 @@
   "metaTitle": "隐私政策 | CodeDAC",
   "metaDesc": "CodeDAC Android 和 Windows 应用的隐私政策。无需注册，数据处理在您的设备上进行，并列明每款应用的网络连接和权限。",
   "title": "隐私政策",
-  "updated": "最后更新：2026 年 10 月 8 日",
+  "updated": "最后更新：2026 年 10 月 15 日",
   "firstEffective": "首次生效：2026 年 7 月 15 日",
   "tocTitle": "目录",
   "summaryTitle": "要点速览",
@@ -92,7 +92,7 @@
     {
       "id": "email",
       "title": "9. 您发送给我们的电子邮件",
-      "html": "<p>如果您给我们发送电子邮件，我们会收到您的电子邮件地址和您撰写的内容（包括您提供的任何设备或应用信息）。我们仅将这些信息用于回复您并跟进您的请求，且仅在实现该目的所需的期限内保留。</p>"
+      "html": "<p>如果您给我们发送电子邮件，我们会收到您的电子邮件地址和您撰写的内容（包括您提供的任何设备或应用信息）。我们仅将这些信息用于回复您并跟进您的请求，且仅在实现该目的所需的期限内保留。</p><p>如果您使用我们网站上的联系表单，我们会收到您填写的内容：电子邮件地址、留言以及国家等可选信息。表单在 Google Cloud（韩国首尔的 Cloud Run 和 Firestore）上处理，并转发到我们的邮箱。这些信息仅用于回复您，不用于营销，我们也不会向您填写的地址发送自动邮件。表单内容会在一年后自动删除；如需提前删除，请发邮件告诉我们。您的 IP 地址只会被短暂用于限制重复提交，不会被存储。</p>"
     },
     {
       "id": "children",
@@ -112,7 +112,7 @@
     {
       "id": "history",
       "title": "变更记录",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-10-08\">2026-10-08</time> 新增 CallerNote+（Android）在设备上保存的客户数据、可选的 Google Drive 同步，以及其使用的权限（来电过滤角色、通知使用权、电话状态和通讯录）的相关说明（第 2、3 和 7 条）。</li><li><time datetime=\"2026-10-01\">2026-10-01</time> 新增在应用页面播放 YouTube 视频的相关说明（第 8 条）。</li><li><time datetime=\"2026-10-01\">2026-10-01</time> 新增 Rotate+（Android）及其使用的权限（无障碍服务、使用情况访问权限、修改系统设置和附近的设备），以及其检测通话的方式（第 7 条）。</li><li><time datetime=\"2026-09-17\">2026-09-17</time> 新增 Windows 版 PhotoCleaner+、ReadFocus+、FloatTimer+ 和 FloatCrypto+ 在完成 PRO 购买时发送购买记录的相关说明（第 1 条和第 6 条）。</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 新增各应用概览，并新增有关 Android 版 Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步、广告同意、互联网连接（汇率、价格、ML Kit）、网站存储以及电子邮件的信息。按照应用实际情况更正了权限说明，并重新整理了本政策的结构。新增了 PhotoCleaner+ for Windows 的相关信息。</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 更改了联系邮箱地址。</li><li><time datetime=\"2026-08-03\">2026-08-03</time> 新增 Windows 版 FloatNote+ 的云同步信息。</li><li><time datetime=\"2026-07-15\">2026-07-15</time> 新增 Windows 版 Clipboard+ 的云同步信息。</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-10-15\">2026-10-15</time> 新增网站联系表单的说明（第 9 条）。</li><li><time datetime=\"2026-10-08\">2026-10-08</time> 新增 CallerNote+（Android）在设备上保存的客户数据、可选的 Google Drive 同步，以及其使用的权限（来电过滤角色、通知使用权、电话状态和通讯录）的相关说明（第 2、3 和 7 条）。</li><li><time datetime=\"2026-10-01\">2026-10-01</time> 新增在应用页面播放 YouTube 视频的相关说明（第 8 条）。</li><li><time datetime=\"2026-10-01\">2026-10-01</time> 新增 Rotate+（Android）及其使用的权限（无障碍服务、使用情况访问权限、修改系统设置和附近的设备），以及其检测通话的方式（第 7 条）。</li><li><time datetime=\"2026-09-17\">2026-09-17</time> 新增 Windows 版 PhotoCleaner+、ReadFocus+、FloatTimer+ 和 FloatCrypto+ 在完成 PRO 购买时发送购买记录的相关说明（第 1 条和第 6 条）。</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 新增各应用概览，并新增有关 Android 版 Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步、广告同意、互联网连接（汇率、价格、ML Kit）、网站存储以及电子邮件的信息。按照应用实际情况更正了权限说明，并重新整理了本政策的结构。新增了 PhotoCleaner+ for Windows 的相关信息。</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 更改了联系邮箱地址。</li><li><time datetime=\"2026-08-03\">2026-08-03</time> 新增 Windows 版 FloatNote+ 的云同步信息。</li><li><time datetime=\"2026-07-15\">2026-07-15</time> 新增 Windows 版 Clipboard+ 的云同步信息。</li></ul>"
     }
   ]
 }

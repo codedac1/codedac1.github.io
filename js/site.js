@@ -221,6 +221,115 @@
   });
 })();
 
+// ===== 함께 만들기 입력 폼 (2026-10-15) =====
+//  의뢰·제보 버튼은 mailto: 링크다. <dialog> 를 쓸 수 있으면 클릭을 가로채 폼을 띄우고, 못 쓰면
+//  (구형 브라우저) 예전처럼 메일 앱이 열린다. 받는 쪽은 Cloud Run site-contact(Data/site-contact).
+//  - 바깥(배경)을 눌러도 닫지 않는다 — 쓰던 글이 날아가면 다시 안 쓴다. 닫기는 × 와 Esc 뿐.
+//  - elapsed(폼을 연 뒤 경과 ms)와 숨은 website 칸은 서버의 봇 걸러내기에 쓰인다.
+//  - 실패하면 메일 주소를 함께 보여 준다. 문의가 막혀서 떠나는 일이 없게.
+(function () {
+  const openers = document.querySelectorAll('[data-form]');
+  if (!openers.length || typeof HTMLDialogElement !== 'function') return;
+  const track = (name, kind) => { if (typeof window.gtag === 'function') window.gtag('event', name, { form_kind: kind, page_lang: document.documentElement.lang || '' }); };
+  openers.forEach((a) => {
+    const dlg = document.getElementById(a.getAttribute('data-form'));
+    if (!dlg || typeof dlg.showModal !== 'function') return;
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const form = dlg.querySelector('form');
+      if (!form.dataset.opened) form.dataset.opened = String(Date.now());
+      dlg.showModal();
+      const first = form.querySelector('textarea, input[type="text"]');
+      if (first && !form.classList.contains('is-sent')) first.focus();
+      track('contact_open', form.dataset.kind);
+    });
+  });
+  document.querySelectorAll('.work-dialog').forEach((dlg) => {
+    const form = dlg.querySelector('form');
+    const status = form.querySelector('.wf-status');
+    const btn = form.querySelector('button[type="submit"]');
+    dlg.querySelector('.wf-close').addEventListener('click', () => dlg.close());
+    const say = (msg, tone, withMail) => {
+      status.hidden = false;
+      status.className = 'wf-status is-' + tone;
+      status.textContent = msg;
+      if (withMail) {
+        const m = form.dataset.mailto;
+        const link = document.createElement('a');
+        link.href = 'mailto:' + m;
+        link.textContent = m;
+        link.dir = 'ltr';
+        status.append(' ', link);
+      }
+    };
+    const value = (name) => {
+      const els = form.querySelectorAll(`[name="${name}"]`);
+      if (!els.length) return undefined;
+      const el = els[0];
+      if (el.type === 'checkbox' && name === 'beta') return el.checked ? 'yes' : 'no';
+      if (el.type === 'checkbox') return Array.from(els).filter((x) => x.checked).map((x) => x.value);
+      if (el.type === 'radio') { const c = Array.from(els).find((x) => x.checked); return c ? c.value : ''; }
+      return el.value;
+    };
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (form.classList.contains('is-sent') || btn.disabled) return;
+      const req = form.querySelector('textarea[required]');
+      const email = form.elements.email;
+      const consent = form.elements.consent;
+      form.querySelectorAll('.is-invalid').forEach((x) => x.classList.remove('is-invalid'));
+      if (!req.value.trim() || !consent.checked) {
+        if (!req.value.trim()) req.classList.add('is-invalid');
+        if (!consent.checked) consent.closest('.wf-consent').classList.add('is-invalid');
+        say(form.dataset.errRequired, 'error');
+        (!req.value.trim() ? req : consent).focus();
+        return;
+      }
+      if (!email.value.trim() || !email.checkValidity()) {
+        email.classList.add('is-invalid');
+        say(form.dataset.errEmail, 'error');
+        email.focus();
+        return;
+      }
+      const payload = {
+        kind: form.dataset.kind, lang: form.dataset.lang, page: location.pathname,
+        email: email.value.trim(), consent: true, website: value('website') || '',
+        elapsed: Date.now() - Number(form.dataset.opened || Date.now()),
+      };
+      const names = form.dataset.kind === 'project'
+        ? ['what', 'audience', 'features', 'platforms', 'budget', 'timeline', 'country', 'refs']
+        : ['problem', 'app', 'today', 'devices', 'country', 'beta'];
+      names.forEach((n) => { payload[n] = value(n); });
+      btn.disabled = true;
+      const label = btn.textContent;
+      btn.textContent = form.dataset.sending;
+      let res = null;
+      try {
+        res = await fetch(form.dataset.endpoint, {
+          method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload),
+        });
+      } catch (err) { res = null; }
+      btn.textContent = label;
+      if (res && res.ok) {
+        form.classList.add('is-sent');
+        form.querySelectorAll('input, textarea, select').forEach((x) => { x.disabled = true; });
+        btn.hidden = true;
+        say(form.dataset.sent, 'ok');
+        track('contact_submit', form.dataset.kind);
+        return;
+      }
+      btn.disabled = false;
+      if (res && res.status === 400) {
+        let code = '';
+        try { code = (await res.json()).code || ''; } catch (err) { /* 본문 없음 */ }
+        say(code === 'email' ? form.dataset.errEmail : form.dataset.errRequired, 'error');
+        return;
+      }
+      say(res && res.status === 429 ? form.dataset.errRate : form.dataset.err, 'error', true);
+    });
+  });
+})();
+
 // ===== 다크 모드 토글 (초기 테마는 <head> 인라인 스크립트가 설정) =====
 (function () {
   const btn = document.getElementById('themeToggle');

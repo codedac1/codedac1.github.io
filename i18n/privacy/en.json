@@ -2,7 +2,7 @@
   "metaTitle": "Privacy Policy | CodeDAC",
   "metaDesc": "Privacy Policy for CodeDAC's Android and Windows apps. No sign-up, processing stays on your device, and each app's connections and permissions are listed.",
   "title": "Privacy Policy",
-  "updated": "Last updated: October 8, 2026",
+  "updated": "Last updated: October 15, 2026",
   "firstEffective": "First effective: July 15, 2026",
   "tocTitle": "Contents",
   "summaryTitle": "At a glance",
@@ -92,7 +92,7 @@
     {
       "id": "email",
       "title": "9. Emails you send us",
-      "html": "<p>If you email us, we receive your email address and what you write (including any device or app details you include). We use this only to reply to you and follow up on your request, and keep it only as long as needed for that purpose.</p>"
+      "html": "<p>If you email us, we receive your email address and what you write (including any device or app details you include). We use this only to reply to you and follow up on your request, and keep it only as long as needed for that purpose.</p><p>If you use the contact form on our website, we receive what you enter: your email address, your message and any optional details such as your country. The form is processed on Google Cloud (Cloud Run and Firestore in Seoul, South Korea) and forwarded to our inbox. We use it only to reply to you, never for marketing, and we do not send automatic emails to the address you enter. Form entries are deleted automatically after one year; email us if you want yours deleted sooner. Your IP address is used only briefly to limit repeated submissions and is not stored.</p>"
     },
     {
       "id": "children",
@@ -112,7 +112,7 @@
     {
       "id": "history",
       "title": "Change history",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-10-08\">2026-10-08</time> Added CallerNote+ (Android): the customer data it keeps on your device, its optional Google Drive sync, and the permissions it uses — call screening role, notification access, phone state and contacts (Sections 2, 3 and 7).</li><li><time datetime=\"2026-10-01\">2026-10-01</time> Added YouTube video playback on app pages (Section 8).</li><li><time datetime=\"2026-10-01\">2026-10-01</time> Added Rotate+ (Android) and the permissions it uses: accessibility service, usage access, modify system settings and nearby devices, and how it detects calls (Section 7).</li><li><time datetime=\"2026-09-17\">2026-09-17</time> Added the purchase record that PhotoCleaner+, ReadFocus+, FloatTimer+ and FloatCrypto+ for Windows send when a PRO purchase completes (Sections 1 and 6).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> Added the per-app overview, and added information on Google Drive backup and sync in Clipboard+ and FloatNote+ for Android, ad consent, internet connections (exchange rates, prices, ML Kit), website storage and emails. Corrected the permission descriptions to match the apps and reorganized the policy. Added PhotoCleaner+ for Windows.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Changed the contact email address.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Added cloud sync information for FloatNote+ for Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Added cloud sync information for Clipboard+ for Windows.</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-10-15\">2026-10-15</time> Added the contact form on our website (Section 9).</li><li><time datetime=\"2026-10-08\">2026-10-08</time> Added CallerNote+ (Android): the customer data it keeps on your device, its optional Google Drive sync, and the permissions it uses — call screening role, notification access, phone state and contacts (Sections 2, 3 and 7).</li><li><time datetime=\"2026-10-01\">2026-10-01</time> Added YouTube video playback on app pages (Section 8).</li><li><time datetime=\"2026-10-01\">2026-10-01</time> Added Rotate+ (Android) and the permissions it uses: accessibility service, usage access, modify system settings and nearby devices, and how it detects calls (Section 7).</li><li><time datetime=\"2026-09-17\">2026-09-17</time> Added the purchase record that PhotoCleaner+, ReadFocus+, FloatTimer+ and FloatCrypto+ for Windows send when a PRO purchase completes (Sections 1 and 6).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> Added the per-app overview, and added information on Google Drive backup and sync in Clipboard+ and FloatNote+ for Android, ad consent, internet connections (exchange rates, prices, ML Kit), website storage and emails. Corrected the permission descriptions to match the apps and reorganized the policy. Added PhotoCleaner+ for Windows.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> Changed the contact email address.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Added cloud sync information for FloatNote+ for Windows.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Added cloud sync information for Clipboard+ for Windows.</li></ul>"
     }
   ]
 }

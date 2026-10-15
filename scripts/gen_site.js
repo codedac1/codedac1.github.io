@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '73'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '74'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -686,6 +686,75 @@ const PROOF_REVIEW = (() => {
   return null;
 })();
 
+// 입력 폼 (2026-10-15). 버튼은 그대로 mailto: 링크라 JS 가 없으면 예전처럼 메일 앱이 열리고,
+// JS 가 있으면 js/site.js 가 가로채 아래 <dialog> 를 띄운다. 받는 쪽은 Cloud Run site-contact
+// (Data/site-contact/main.py) — 칸 이름·선택 값·예산 구간이 서버의 FIELDS/CHOICES/LABELS 와 같아야 한다.
+// 자동 답장은 보내지 않는다(남의 주소로 메일을 쏘는 통로가 된다). 저장·보관은 개인정보처리방침 9항.
+const CONTACT_URL = 'https://site-contact-847105046915.asia-northeast3.run.app/contact';
+
+function workForms(code, ui, projectMail, ideaMail) {
+  const t = (k) => escText(ui[`form.${k}`]);
+  let n = 0;
+  const id = (name) => `wf-${name}-${++n}`;
+  const area = (kind, name, label, rows, max, req) => {
+    const i = id(name);
+    return `            <div class="wf-field"><label for="${i}">${t(label)}${req ? ' <span class="wf-req" aria-hidden="true">*</span>' : ''}</label><textarea id="${i}" name="${name}" rows="${rows}" maxlength="${max}"${req ? ' required' : ''}></textarea></div>`;
+  };
+  const line = (name, label, max, extra = '') => {
+    const i = id(name);
+    return `            <div class="wf-field"><label for="${i}">${t(label)}</label><input id="${i}" name="${name}" type="text" maxlength="${max}"${extra} /></div>`;
+  };
+  const group = (name, label, type, opts) => `            <fieldset class="wf-field wf-group"><legend>${t(label)}</legend><div class="wf-opts">${opts.map(([v, txt]) => `<label class="wf-opt"><input type="${type}" name="${name}" value="${v}" /><span>${escText(txt)}</span></label>`).join('')}</div></fieldset>`;
+  const select = (name, label, opts) => {
+    const i = id(name);
+    return `            <div class="wf-field"><label for="${i}">${t(label)}</label><select id="${i}" name="${name}"><option value="">${t('pick')}</option>${opts.map(([v, k]) => `<option value="${v}">${t(k)}</option>`).join('')}</select></div>`;
+  };
+  const common = (kind) => {
+    const e = id('email'), c = id('consent');
+    const priv = `<a href="${pathFor(code, 'privacy')}#email" target="_blank" rel="noopener">${t('privacy')}</a>`;
+    return `${line('country', 'country', 80, ' autocomplete="country-name"')}
+            <div class="wf-field"><label for="${e}">${t('email')} <span class="wf-req" aria-hidden="true">*</span></label><input id="${e}" name="email" type="email" maxlength="254" autocomplete="email" required dir="ltr" aria-describedby="${e}-h" /><p class="wf-hint" id="${e}-h">${t('email.hint')}</p></div>
+            <div class="wf-hp" aria-hidden="true"><label>Website <input name="website" type="text" tabindex="-1" autocomplete="off" /></label></div>
+            <label class="wf-consent" for="${c}"><input id="${c}" name="consent" type="checkbox" required /><span>${t('consent')} ${priv}</span></label>`;
+  };
+  const foot = (mail, btnClass) => `            <p class="wf-status" role="status" aria-live="polite" hidden></p>
+            <div class="wf-actions"><button type="submit" class="btn ${btnClass}">${t('send')}</button><a class="wf-mail" href="${escAttr(mail)}">${t('mail')}</a></div>`;
+  const dialog = (kind, title, badge, note, body, mail, btnClass) => `      <dialog class="work-dialog work-dialog-${kind}" id="wf-${kind}" aria-labelledby="wf-${kind}-title">
+        <form class="work-form" data-kind="${kind}" data-lang="${code}" data-endpoint="${CONTACT_URL}" novalidate
+              data-sending="${escAttr(ui['form.sending'])}" data-sent="${escAttr(ui['form.sent'])}" data-err="${escAttr(ui['form.err'])}"
+              data-err-email="${escAttr(ui['form.err.email'])}" data-err-required="${escAttr(ui['form.err.required'])}" data-err-rate="${escAttr(ui['form.err.rate'])}" data-mailto="${EMAIL}">
+          <div class="wf-head"><span class="work-badge">${escText(badge)}</span><h3 class="wf-title" id="wf-${kind}-title">${escText(title)}</h3><button type="button" class="wf-close" aria-label="${t('close')}">×</button></div>
+          <p class="wf-note">${t(kind === 'project' ? 'p.note' : 'i.note')}</p>
+          <p class="wf-reqnote">${t('req')}</p>
+          <div class="wf-body">
+${body}
+${common(kind)}
+          </div>
+${foot(mail, btnClass)}
+        </form>
+      </dialog>`;
+  const project = [
+    area('project', 'what', 'what', 4, 3000, true),
+    group('audience', 'audience', 'radio', [['me', ui['form.aud.me']], ['business', ui['form.aud.business']], ['public', ui['form.aud.public']]]),
+    area('project', 'features', 'features', 3, 2000, false),
+    group('platforms', 'platforms', 'checkbox', [['android', 'Android'], ['ios', 'iOS'], ['windows', 'Windows'], ['web', ui['form.web']]]),
+    select('budget', 'budget', [['lt1k', 'b0'], ['1to3k', 'b1'], ['3to10k', 'b2'], ['gt10k', 'b3'], ['unsure', 'unsure']]),
+    line('timeline', 'timeline', 300),
+    area('project', 'refs', 'refs', 2, 2000, false),
+  ].join('\n');
+  const idea = [
+    area('idea', 'problem', 'problem', 4, 3000, true),
+    area('idea', 'app', 'app', 3, 2000, false),
+    area('idea', 'today', 'today', 2, 2000, false),
+    group('devices', 'devices', 'checkbox', [['android', 'Android'], ['windows', 'Windows']]),
+    `            <label class="wf-consent wf-beta"><input name="beta" type="checkbox" value="yes" /><span>${t('beta')}</span></label>`,
+  ].join('\n');
+  return [
+    dialog('project', ui['work.a.title'], ui['work.a.badge'], 'p.note', project, projectMail, 'btn-navy'),
+    dialog('idea', ui['work.b.title'], ui['work.b.badge'], 'i.note', idea, ideaMail, 'btn-primary'),
+  ].join('\n');
+}
+
 function workSection(code, ui) {
   const projectMail = `mailto:${EMAIL}?subject=%5BCodeDAC%5D%20Project%20inquiry&body=${encodeURIComponent(ui['services.mail.body'])}`;
   const ideaMail = `mailto:${EMAIL}`
@@ -715,6 +784,7 @@ function workSection(code, ui) {
         <p class="section-label">BUILD WITH US</p>
         <h2 class="section-title">${escText(ui['work.title'])}</h2>
         <p class="section-lead">${escText(ui['work.lead'])}</p>
+        <p class="work-pick">${escText(ui['work.pick'])}</p>
       </div>
       <div class="work-grid">
         <article class="work-card work-project" id="services">
@@ -725,7 +795,7 @@ function workSection(code, ui) {
           <ul class="work-list">
 ${services}
           </ul>
-          <a href="${escAttr(projectMail)}" class="btn btn-navy work-btn">${escText(ui['services.cta'])}${icon('arrow', 'ic ic-flip')}</a>
+          <a href="${escAttr(projectMail)}" class="btn btn-navy work-btn" data-form="wf-project" aria-haspopup="dialog">${escText(ui['services.cta'])}${icon('arrow', 'ic ic-flip')}</a>
         </article>
         <article class="work-card work-idea" id="ideas">
           <div class="work-top"><span class="work-icon">${icon('spark')}</span><span class="work-badge">${escText(ui['work.b.badge'])}</span></div>
@@ -735,12 +805,12 @@ ${services}
           <ul class="work-list">
 ${hints}
           </ul>${proof}
-          <a href="${escAttr(ideaMail)}" class="btn btn-primary work-btn">${escText(ui['ideas.cta'])}${icon('arrow', 'ic ic-flip')}</a>
+          <a href="${escAttr(ideaMail)}" class="btn btn-primary work-btn" data-form="wf-idea" aria-haspopup="dialog">${escText(ui['ideas.cta'])}${icon('arrow', 'ic ic-flip')}</a>
         </article>
       </div>
-      <!-- 두 버튼은 mailto: 라, 메일 앱이 설정돼 있지 않은 PC·웹메일 사용자에게는 눌러도 아무 일이 없다.
-           그 사람들이 그대로 떠나지 않도록 주소를 한 번에 복사할 수 있게 둔다(js/site.js). -->
-      <p class="work-mail">${escText(ui['work.mail.hint'])}
+${workForms(code, ui, projectMail, ideaMail)}
+      <!-- 폼이 안 될 때(서버 장애·차단 등)도 떠나지 않도록 주소를 한 번에 복사할 수 있게 둔다(js/site.js). -->
+      <p class="work-mail">${escText(ui['work.mail.hint2'])}
         <button type="button" class="copy-mail" data-copy="${EMAIL}" data-copied="${escAttr(ui['work.mail.copied'])}"><span class="cm-addr" dir="ltr">${EMAIL}</span><span class="cm-label" aria-live="polite">${escText(ui['work.mail.copy'])}</span></button>
       </p>
     </div>
