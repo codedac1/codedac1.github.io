@@ -230,6 +230,7 @@
 (function () {
   const openers = document.querySelectorAll('[data-form]');
   if (!openers.length || typeof HTMLDialogElement !== 'function') return;
+  const EMAIL_RE = /^[^@\s<>"',;]{1,64}@[A-Za-z0-9.-]{1,190}\.[A-Za-z]{2,24}$/;
   const track = (name, kind) => { if (typeof window.gtag === 'function') window.gtag('event', name, { form_kind: kind, page_lang: document.documentElement.lang || '' }); };
   openers.forEach((a) => {
     const dlg = document.getElementById(a.getAttribute('data-form'));
@@ -293,7 +294,9 @@
         else consent.focus();
         return;
       }
-      if (!email.value.trim() || !email.checkValidity()) {
+      // 브라우저의 type=email 검사는 'a@gmail' 처럼 도메인 끝(.com)이 없어도 통과시킨다.
+      // 서버(Data/site-contact/main.py EMAIL_RE)와 같은 규칙으로 여기서 먼저 걸러 왕복을 없앤다.
+      if (!EMAIL_RE.test(email.value.trim())) {
         email.classList.add('is-invalid');
         say(form.dataset.errEmail, 'error');
         email.focus();

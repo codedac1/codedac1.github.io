@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '75'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '76'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -721,8 +721,9 @@ function workForms(code, ui, projectMail, ideaMail) {
             <div class="wf-hp" aria-hidden="true"><label>Website <input name="website" type="text" tabindex="-1" autocomplete="off" /></label></div>
             <label class="wf-consent" for="${c}"><input id="${c}" name="consent" type="checkbox" required /><span>${t('consent')} ${priv}</span></label>`;
   };
-  const foot = (mail, btnClass) => `            <p class="wf-status" role="status" aria-live="polite" hidden></p>
-            <div class="wf-actions"><button type="submit" class="btn ${btnClass}">${t('send')}</button><a class="wf-mail" href="${escAttr(mail)}">${t('mail')}</a></div>`;
+  // 안내(wf-status)는 버튼 **아래**. 위에 두면 안내가 뜨는 순간 버튼이 밀려 다시 누르려던 손이 빈 곳을 누른다(10/15 실측).
+  const foot = (mail, btnClass) => `            <div class="wf-actions"><button type="submit" class="btn ${btnClass}">${t('send')}</button><a class="wf-mail" href="${escAttr(mail)}">${t('mail')}</a></div>
+            <p class="wf-status" role="status" aria-live="polite" hidden></p>`;
   const dialog = (kind, title, badge, note, body, mail, btnClass) => `      <dialog class="work-dialog work-dialog-${kind}" id="wf-${kind}" aria-labelledby="wf-${kind}-title">
         <form class="work-form" data-kind="${kind}" data-lang="${code}" data-endpoint="${CONTACT_URL}" novalidate
               data-sending="${escAttr(ui['form.sending'])}" data-sent="${escAttr(ui['form.sent'])}" data-err="${escAttr(ui['form.err'])}"
