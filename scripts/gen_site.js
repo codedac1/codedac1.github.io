@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '74'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '75'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -696,23 +696,27 @@ function workForms(code, ui, projectMail, ideaMail) {
   const t = (k) => escText(ui[`form.${k}`]);
   let n = 0;
   const id = (name) => `wf-${name}-${++n}`;
+  // req: 서버 REQUIRED(Data/site-contact/main.py)와 짝. 묶음(fieldset)·선택(select)은 data-req 로 표시하고
+  // js/site.js 가 [data-req] 를 한꺼번에 검사한다(라디오·체크박스 묶음은 required 속성으로 '하나 이상'을 못 건다).
+  const star = (req) => (req ? ' <span class="wf-req" aria-hidden="true">*</span>' : '');
+  const reqAttr = (req) => (req ? ' required aria-required="true"' : '');
   const area = (kind, name, label, rows, max, req) => {
     const i = id(name);
-    return `            <div class="wf-field"><label for="${i}">${t(label)}${req ? ' <span class="wf-req" aria-hidden="true">*</span>' : ''}</label><textarea id="${i}" name="${name}" rows="${rows}" maxlength="${max}"${req ? ' required' : ''}></textarea></div>`;
+    return `            <div class="wf-field"${req ? ' data-req' : ''}><label for="${i}">${t(label)}${star(req)}</label><textarea id="${i}" name="${name}" rows="${rows}" maxlength="${max}"${reqAttr(req)}></textarea></div>`;
   };
-  const line = (name, label, max, extra = '') => {
+  const line = (name, label, max, extra = '', req = false) => {
     const i = id(name);
-    return `            <div class="wf-field"><label for="${i}">${t(label)}</label><input id="${i}" name="${name}" type="text" maxlength="${max}"${extra} /></div>`;
+    return `            <div class="wf-field"${req ? ' data-req' : ''}><label for="${i}">${t(label)}${star(req)}</label><input id="${i}" name="${name}" type="text" maxlength="${max}"${extra}${reqAttr(req)} /></div>`;
   };
-  const group = (name, label, type, opts) => `            <fieldset class="wf-field wf-group"><legend>${t(label)}</legend><div class="wf-opts">${opts.map(([v, txt]) => `<label class="wf-opt"><input type="${type}" name="${name}" value="${v}" /><span>${escText(txt)}</span></label>`).join('')}</div></fieldset>`;
-  const select = (name, label, opts) => {
+  const group = (name, label, type, opts, req = false) => `            <fieldset class="wf-field wf-group"${req ? ' data-req aria-required="true"' : ''}><legend>${t(label)}${star(req)}</legend><div class="wf-opts">${opts.map(([v, txt]) => `<label class="wf-opt"><input type="${type}" name="${name}" value="${v}" /><span>${escText(txt)}</span></label>`).join('')}</div></fieldset>`;
+  const select = (name, label, opts, req = false) => {
     const i = id(name);
-    return `            <div class="wf-field"><label for="${i}">${t(label)}</label><select id="${i}" name="${name}"><option value="">${t('pick')}</option>${opts.map(([v, k]) => `<option value="${v}">${t(k)}</option>`).join('')}</select></div>`;
+    return `            <div class="wf-field"${req ? ' data-req' : ''}><label for="${i}">${t(label)}${star(req)}</label><select id="${i}" name="${name}"${reqAttr(req)}><option value="">${t('pick')}</option>${opts.map(([v, k]) => `<option value="${v}">${t(k)}</option>`).join('')}</select></div>`;
   };
   const common = (kind) => {
     const e = id('email'), c = id('consent');
     const priv = `<a href="${pathFor(code, 'privacy')}#email" target="_blank" rel="noopener">${t('privacy')}</a>`;
-    return `${line('country', 'country', 80, ' autocomplete="country-name"')}
+    return `${line('country', 'country', 80, ' autocomplete="country-name"', kind === 'idea')}
             <div class="wf-field"><label for="${e}">${t('email')} <span class="wf-req" aria-hidden="true">*</span></label><input id="${e}" name="email" type="email" maxlength="254" autocomplete="email" required dir="ltr" aria-describedby="${e}-h" /><p class="wf-hint" id="${e}-h">${t('email.hint')}</p></div>
             <div class="wf-hp" aria-hidden="true"><label>Website <input name="website" type="text" tabindex="-1" autocomplete="off" /></label></div>
             <label class="wf-consent" for="${c}"><input id="${c}" name="consent" type="checkbox" required /><span>${t('consent')} ${priv}</span></label>`;
@@ -735,10 +739,10 @@ ${foot(mail, btnClass)}
       </dialog>`;
   const project = [
     area('project', 'what', 'what', 4, 3000, true),
-    group('audience', 'audience', 'radio', [['me', ui['form.aud.me']], ['business', ui['form.aud.business']], ['public', ui['form.aud.public']]]),
+    group('audience', 'audience', 'radio', [['me', ui['form.aud.me']], ['business', ui['form.aud.business']], ['public', ui['form.aud.public']]], true),
     area('project', 'features', 'features', 3, 2000, false),
-    group('platforms', 'platforms', 'checkbox', [['android', 'Android'], ['ios', 'iOS'], ['windows', 'Windows'], ['web', ui['form.web']]]),
-    select('budget', 'budget', [['lt1k', 'b0'], ['1to3k', 'b1'], ['3to10k', 'b2'], ['gt10k', 'b3'], ['unsure', 'unsure']]),
+    group('platforms', 'platforms', 'checkbox', [['android', 'Android'], ['ios', 'iOS'], ['windows', 'Windows'], ['web', ui['form.web']]], true),
+    select('budget', 'budget', [['lt1k', 'b0'], ['1to3k', 'b1'], ['3to10k', 'b2'], ['gt10k', 'b3'], ['unsure', 'unsure']], true),
     line('timeline', 'timeline', 300),
     area('project', 'refs', 'refs', 2, 2000, false),
   ].join('\n');
@@ -746,7 +750,7 @@ ${foot(mail, btnClass)}
     area('idea', 'problem', 'problem', 4, 3000, true),
     area('idea', 'app', 'app', 3, 2000, false),
     area('idea', 'today', 'today', 2, 2000, false),
-    group('devices', 'devices', 'checkbox', [['android', 'Android'], ['windows', 'Windows']]),
+    group('devices', 'devices', 'checkbox', [['android', 'Android'], ['windows', 'Windows']], true),
     `            <label class="wf-consent wf-beta"><input name="beta" type="checkbox" value="yes" /><span>${t('beta')}</span></label>`,
   ].join('\n');
   return [

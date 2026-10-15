@@ -274,15 +274,23 @@
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       if (form.classList.contains('is-sent') || btn.disabled) return;
-      const req = form.querySelector('textarea[required]');
       const email = form.elements.email;
       const consent = form.elements.consent;
       form.querySelectorAll('.is-invalid').forEach((x) => x.classList.remove('is-invalid'));
-      if (!req.value.trim() || !consent.checked) {
-        if (!req.value.trim()) req.classList.add('is-invalid');
+      // [data-req]: 글 칸·선택은 값이 있어야, 라디오·체크박스 묶음(fieldset)은 하나 이상 골라야 통과.
+      // 필수 목록은 서버 REQUIRED(Data/site-contact/main.py)와 같다 — 여기서 걸러 400 왕복을 줄인다.
+      const missing = Array.from(form.querySelectorAll('[data-req]')).filter((w) => {
+        if (w.tagName === 'FIELDSET') return !w.querySelector('input:checked');
+        const el = w.querySelector('textarea, input, select');
+        return !el || !el.value.trim();
+      });
+      if (missing.length || !consent.checked) {
+        missing.forEach((w) => (w.tagName === 'FIELDSET' ? w : w.querySelector('textarea, input, select')).classList.add('is-invalid'));
         if (!consent.checked) consent.closest('.wf-consent').classList.add('is-invalid');
         say(form.dataset.errRequired, 'error');
-        (!req.value.trim() ? req : consent).focus();
+        const first = missing[0];
+        if (first) { (first.querySelector('textarea, input, select') || first).focus(); first.scrollIntoView({ block: 'center' }); }
+        else consent.focus();
         return;
       }
       if (!email.value.trim() || !email.checkValidity()) {
