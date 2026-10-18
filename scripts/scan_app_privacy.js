@@ -22,7 +22,7 @@ const ANDROID_PROJECT = {
   clipboard: 'Clipboard', autostart: 'AutoStart', floatcalc: 'FloatCalc',
   floatcrypto: 'FloatCrypto', floattimer: 'FloatTimer', volumebooster: 'VolumeBooster',
   photocleaner: 'PhotoCleaner', readfocus: 'ReadFocus', floatnote: 'FloatNote',
-  rotate: 'Rotate', callernote: 'CallerNote',
+  rotate: 'Rotate', callernote: 'CallerNote', floatprompter: 'FloatPrompter',
 };
 const WINDOWS_PROJECT = {
   clipboardwin: 'ClipboardWin', readfocuswin: 'ReadFocusWin',
@@ -46,6 +46,10 @@ const PERM_CODE = {
   // CallerNote+ (2026-10-08). 통화 걸러내기 역할·알림 접근은 uses-permission 이 아니라 서비스의 BIND 권한으로 잡는다(아래 SERVICE_PERM_CODE).
   'android.permission.READ_PHONE_STATE': 'phoneState',
   'android.permission.READ_CONTACTS': 'contacts',
+  // FloatPrompter+ (2026-10-18): 앱 안 녹화·음성 따라가기. 저장공간은 maxSdkVersion=28(Android 9 이하 녹화 저장)뿐 — 방침 7항.
+  'android.permission.CAMERA': 'camera',
+  'android.permission.RECORD_AUDIO': 'microphone',
+  'android.permission.WRITE_EXTERNAL_STORAGE': 'storage',
 };
 // 서비스의 android:permission(BIND_*) → 코드. 사용자가 시스템 설정에서 켜 주는 특별 접근이라 uses-permission 에 나오지 않는다.
 // 주석에 이름만 적힌 경우를 잡지 않도록 속성 형태로만 찾는다.
@@ -54,7 +58,7 @@ const SERVICE_PERM_CODE = {
   'android.permission.BIND_SCREENING_SERVICE': 'callScreening',
   'android.permission.BIND_NOTIFICATION_LISTENER_SERVICE': 'notificationAccess',
 };
-const PERM_ORDER = ['callScreening', 'notificationAccess', 'accessibility', 'usage', 'overlay', 'phoneState', 'contacts', 'writeSettings', 'notifications', 'foreground', 'boot', 'battery', 'audio', 'bluetooth', 'adId'];
+const PERM_ORDER = ['callScreening', 'notificationAccess', 'accessibility', 'usage', 'overlay', 'phoneState', 'contacts', 'camera', 'microphone', 'storage', 'writeSettings', 'notifications', 'foreground', 'boot', 'battery', 'audio', 'bluetooth', 'adId'];
 const DATA_ORDER = ['ads', 'billing', 'store', 'purchaseReport', 'driveSync', 'driveBackup', 'fx', 'crypto', 'mlkit'];
 
 // 소스에 나오는 외부 호스트 → 코드. 문서·정책 링크처럼 앱이 데이터를 주고받지 않는 주소는 IGNORE.
