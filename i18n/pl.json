@@ -160,7 +160,30 @@
           "q": "Co jest za darmo, a co dodaje Pro?",
           "a": "Za darmo masz historię tekstu i obrazów z wyszukiwaniem, fragmentami, do 3 grup, pływający panel, widżet i zapisywanie z menu zaznaczania tekstu, z reklamami. Pro usuwa reklamy i dodaje synchronizację telefon↔PC przez Twój własny Dysk Google, nielimitowane klipy obrazów, powiększony pływający panel i widżet, nielimitowane grupy, eksport do PDF i przywracanie kopii zapasowych — miesięcznie, rocznie lub jednorazowo na zawsze. Jeśli potrzebujesz czegoś tylko na jeden dzień, krótka reklama odblokuje to na 24 godziny."
         }
-      ]
+      ],
+      "howto": {
+        "title": "Jak zapisywać klipy",
+        "lead": "Od Androida 10 aplikacje mogą czytać schowek tylko wtedy, gdy są na ekranie, więc żaden menedżer schowka nie zapisze nic w tle. Po skopiowaniu zrób jedno z poniższych:",
+        "best": "Najpewniejszy",
+        "steps": [
+          {
+            "t": "Zaznacz tekst → Clipboard+",
+            "d": "Zaznacz tekst w dowolnej aplikacji i dotknij Clipboard+ w menu zaznaczenia. Zapisze się od razu, bez przełączania aplikacji."
+          },
+          {
+            "t": "Dotknij pływającej bańki",
+            "d": "Dotknij bańki przy krawędzi ekranu: panel się otworzy i zapisze to, co właśnie skopiowano."
+          },
+          {
+            "t": "Przycisk zapisu w widżecie",
+            "d": "Przycisk zapisu w widżecie na ekranie głównym zapisuje to, co jest teraz w schowku."
+          },
+          {
+            "t": "Otwórz aplikację lub dotknij powiadomienia",
+            "d": "Otwarcie Clipboard+ lub dotknięcie jego powiadomienia zapisuje ostatnio skopiowaną treść."
+          }
+        ]
+      }
     },
     "autostart": {
       "name": "AutoStart+",

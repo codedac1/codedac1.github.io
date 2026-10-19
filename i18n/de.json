@@ -160,7 +160,30 @@
           "q": "Was ist kostenlos, und was bringt Pro?",
           "a": "Kostenlos bekommst du den Verlauf für Text und Bilder mit Suche, Snippets, bis zu 3 Gruppen, das schwebende Panel, das Widget und das Speichern über das Textauswahlmenü, dazu Werbung. Pro entfernt die Werbung und bringt die Synchronisierung zwischen Handy und PC über dein eigenes Google Drive, unbegrenzte Bild-Clips, das erweiterte Panel und Widget, unbegrenzte Gruppen, PDF-Export und das Wiederherstellen von Backups — monatlich, jährlich oder als einmaliger Lifetime-Kauf. Brauchst du etwas nur einen Tag, schaltet eine kurze Werbung es für 24 Stunden frei."
         }
-      ]
+      ],
+      "howto": {
+        "title": "So speichern Sie Ihre Clips",
+        "lead": "Seit Android 10 dürfen Apps die Zwischenablage nur lesen, solange sie auf dem Bildschirm sind – kein Zwischenablage-Manager kann im Hintergrund speichern. Tun Sie nach dem Kopieren eines davon:",
+        "best": "Am zuverlässigsten",
+        "steps": [
+          {
+            "t": "Text markieren → Clipboard+",
+            "d": "Markieren Sie in einer beliebigen App Text und tippen Sie im Auswahlmenü auf Clipboard+. Er wird sofort gespeichert, ohne die App zu wechseln."
+          },
+          {
+            "t": "Schwebende Blase antippen",
+            "d": "Tippen Sie auf die Blase am Bildschirmrand: Das Panel öffnet sich und speichert das gerade Kopierte."
+          },
+          {
+            "t": "Speichern-Taste des Widgets",
+            "d": "Die Speichern-Taste im Startbildschirm-Widget sichert, was gerade in der Zwischenablage liegt."
+          },
+          {
+            "t": "App öffnen oder Benachrichtigung antippen",
+            "d": "Wenn Sie Clipboard+ öffnen oder seine Benachrichtigung antippen, wird das zuletzt Kopierte gespeichert."
+          }
+        ]
+      }
     },
     "autostart": {
       "name": "AutoStart+",

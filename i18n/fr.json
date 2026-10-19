@@ -160,7 +160,30 @@
           "q": "Qu’est-ce qui est gratuit, et qu’apporte Pro ?",
           "a": "La version gratuite garde l’historique du texte et des images avec la recherche, les extraits, jusqu’à 3 groupes, le panneau flottant, le widget et l’enregistrement depuis le menu de sélection de texte, avec des publicités. Pro supprime les publicités et ajoute la synchronisation téléphone-PC via votre propre Google Drive, des clips image illimités, le panneau flottant et le widget étendus, des groupes illimités, l’export PDF et la restauration des sauvegardes — au mois, à l’année ou en achat unique à vie. Si vous n’en avez besoin que pour une journée, une courte publicité le débloque pendant 24 heures."
         }
-      ]
+      ],
+      "howto": {
+        "title": "Comment enregistrer vos clips",
+        "lead": "Depuis Android 10, une app ne peut lire le presse-papiers que lorsqu'elle est à l'écran : aucun gestionnaire ne peut enregistrer en arrière-plan. Après avoir copié, faites l'une de ces actions :",
+        "best": "Le plus fiable",
+        "steps": [
+          {
+            "t": "Sélectionnez du texte → Clipboard+",
+            "d": "Sélectionnez du texte dans n'importe quelle app et touchez Clipboard+ dans le menu de sélection. Il est enregistré aussitôt, sans changer d'app."
+          },
+          {
+            "t": "Touchez la bulle flottante",
+            "d": "Touchez la bulle au bord de l'écran : le panneau s'ouvre et enregistre ce que vous venez de copier."
+          },
+          {
+            "t": "Bouton d'enregistrement du widget",
+            "d": "Le bouton d'enregistrement du widget d'accueil enregistre le contenu actuel du presse-papiers."
+          },
+          {
+            "t": "Ouvrez l'app ou touchez sa notification",
+            "d": "Ouvrir Clipboard+ ou toucher sa notification enregistre le dernier élément copié."
+          }
+        ]
+      }
     },
     "autostart": {
       "name": "AutoStart+",

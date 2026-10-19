@@ -160,7 +160,30 @@
           "q": "What is free, and what does Pro add?",
           "a": "Free keeps your text and image clipboard history with search, snippets, up to 3 groups, the floating panel, the widget and the selection-menu shortcut, and it shows ads. Pro removes the ads and adds phone-to-PC sync through your own Google Drive, unlimited image clips, the expanded floating panel and widget, unlimited groups, PDF export and backup restore — monthly, yearly or as a one-time lifetime purchase. If you need one of these for just a day, a short ad unlocks it for 24 hours."
         }
-      ]
+      ],
+      "howto": {
+        "title": "How to save your clips",
+        "lead": "Since Android 10, apps can read the clipboard only while they are on screen, so no clipboard manager can save copies in the background. After you copy, do one of these:",
+        "best": "Most reliable",
+        "steps": [
+          {
+            "t": "Select text → Clipboard+",
+            "d": "Select text in any app and tap Clipboard+ in the selection menu. It is saved right away, without leaving the app you are in."
+          },
+          {
+            "t": "Tap the floating bubble",
+            "d": "Tap the bubble at the edge of the screen. The panel opens and saves what you just copied."
+          },
+          {
+            "t": "Tap the widget's save button",
+            "d": "The save button on the home screen widget stores whatever is on the clipboard right now."
+          },
+          {
+            "t": "Open the app or tap its notification",
+            "d": "Opening Clipboard+ or tapping its notification saves the last thing you copied."
+          }
+        ]
+      }
     },
     "autostart": {
       "name": "AutoStart+",

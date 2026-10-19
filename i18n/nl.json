@@ -160,7 +160,30 @@
           "q": "Wat is gratis, en wat voegt Pro toe?",
           "a": "Gratis krijg je de geschiedenis van tekst en afbeeldingen met zoeken, fragmenten, tot 3 groepen, het zwevende paneel, de widget en opslaan via het tekstselectiemenu, met advertenties. Pro haalt de advertenties weg en voegt synchronisatie tussen telefoon en pc via je eigen Google Drive toe, onbeperkte afbeeldingsclips, het uitgebreide zwevende paneel en de widget, onbeperkte groepen, PDF-export en back-up terugzetten — per maand, per jaar of als eenmalige lifetime-aankoop. Heb je iets maar één dag nodig, dan ontgrendelt een korte advertentie het voor 24 uur."
         }
-      ]
+      ],
+      "howto": {
+        "title": "Zo bewaar je clips",
+        "lead": "Sinds Android 10 mogen apps het klembord alleen lezen als ze op het scherm staan, dus geen klembordbeheer kan op de achtergrond bewaren. Doe na het kopiëren een van deze dingen:",
+        "best": "Meest betrouwbaar",
+        "steps": [
+          {
+            "t": "Tekst selecteren → Clipboard+",
+            "d": "Selecteer tekst in een willekeurige app en tik in het selectiemenu op Clipboard+. Het wordt meteen bewaard, zonder van app te wisselen."
+          },
+          {
+            "t": "Tik op de zwevende bubbel",
+            "d": "Tik op de bubbel aan de rand van het scherm: het paneel opent en bewaart wat je net kopieerde."
+          },
+          {
+            "t": "Bewaarknop van de widget",
+            "d": "De bewaarknop van de startschermwidget bewaart wat er nu op het klembord staat."
+          },
+          {
+            "t": "Open de app of tik op de melding",
+            "d": "Clipboard+ openen of op de melding tikken bewaart het laatst gekopieerde."
+          }
+        ]
+      }
     },
     "autostart": {
       "name": "AutoStart+",

@@ -160,7 +160,30 @@
           "q": "Ücretsiz sürümde neler var, Pro neler ekliyor?",
           "a": "Ücretsiz sürüm; arama, parçacıklar, en fazla 3 grup, yüzen panel, widget ve metin seçim menüsünden kaydetme ile metin ve görsel pano geçmişini tutar, reklam gösterir. Pro reklamları kaldırır ve kendi Google Drive’ınız üzerinden telefon↔PC eşitleme, sınırsız görsel klibi, genişletilmiş yüzen panel ve widget, sınırsız grup, PDF dışa aktarma ve yedekten geri yükleme ekler — aylık, yıllık ya da tek seferlik ömür boyu satın alma. Yalnızca bir gün lazımsa kısa bir reklam onu 24 saatliğine açar."
         }
-      ]
+      ],
+      "howto": {
+        "title": "Klipler nasıl kaydedilir",
+        "lead": "Android 10'dan beri uygulamalar panoyu yalnızca ekrandayken okuyabilir; hiçbir pano yöneticisi arka planda kaydedemez. Kopyaladıktan sonra şunlardan birini yapın:",
+        "best": "En güvenilir",
+        "steps": [
+          {
+            "t": "Metni seçin → Clipboard+",
+            "d": "Herhangi bir uygulamada metni seçin ve seçim menüsünde Clipboard+ öğesine dokunun. Uygulama değiştirmeden hemen kaydedilir."
+          },
+          {
+            "t": "Yüzen balona dokunun",
+            "d": "Ekran kenarındaki balona dokunun: panel açılır ve az önce kopyaladığınızı kaydeder."
+          },
+          {
+            "t": "Widget'ın kaydet düğmesi",
+            "d": "Ana ekran widget'ındaki kaydet düğmesi panoda o an ne varsa kaydeder."
+          },
+          {
+            "t": "Uygulamayı açın veya bildirimine dokunun",
+            "d": "Clipboard+'ı açmak ya da bildirimine dokunmak son kopyaladığınızı kaydeder."
+          }
+        ]
+      }
     },
     "autostart": {
       "name": "AutoStart+",

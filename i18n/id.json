@@ -160,7 +160,30 @@
           "q": "Apa yang gratis, dan apa tambahan Pro?",
           "a": "Versi gratis menyimpan riwayat teks dan gambar dengan pencarian, cuplikan, hingga 3 grup, panel mengambang, widget, dan simpan dari menu pilihan teks, dengan iklan. Pro menghapus iklan dan menambahkan sinkronisasi ponsel↔PC lewat Google Drive milikmu sendiri, klip gambar tanpa batas, panel mengambang dan widget yang diperluas, grup tanpa batas, ekspor PDF, dan pemulihan cadangan — bulanan, tahunan, atau sekali beli seumur hidup. Jika hanya perlu sehari, iklan singkat membukanya selama 24 jam."
         }
-      ]
+      ],
+      "howto": {
+        "title": "Cara menyimpan klip Anda",
+        "lead": "Sejak Android 10, aplikasi hanya boleh membaca papan klip saat tampil di layar, jadi tidak ada pengelola papan klip yang bisa menyimpan di latar belakang. Setelah menyalin, lakukan salah satu langkah ini:",
+        "best": "Paling andal",
+        "steps": [
+          {
+            "t": "Pilih teks → Clipboard+",
+            "d": "Pilih teks di aplikasi mana pun lalu ketuk Clipboard+ di menu seleksi. Langsung tersimpan tanpa berpindah aplikasi."
+          },
+          {
+            "t": "Ketuk gelembung melayang",
+            "d": "Ketuk gelembung di tepi layar: panel terbuka dan menyimpan apa yang baru Anda salin."
+          },
+          {
+            "t": "Tombol simpan di widget",
+            "d": "Tombol simpan pada widget layar utama menyimpan isi papan klip saat ini."
+          },
+          {
+            "t": "Buka aplikasi atau ketuk notifikasinya",
+            "d": "Membuka Clipboard+ atau mengetuk notifikasinya menyimpan salinan terakhir Anda."
+          }
+        ]
+      }
     },
     "autostart": {
       "name": "AutoStart+",

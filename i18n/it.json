@@ -160,7 +160,30 @@
           "q": "Cosa è gratis e cosa aggiunge Pro?",
           "a": "Gratis hai la cronologia di testo e immagini con ricerca, snippet, fino a 3 gruppi, il pannello flottante, il widget e il salvataggio dal menu di selezione del testo, con pubblicità. Pro toglie la pubblicità e aggiunge la sincronizzazione telefono↔PC tramite il tuo Google Drive, clip immagine illimitate, pannello flottante e widget ampliati, gruppi illimitati, esportazione PDF e ripristino dei backup — mensile, annuale o con acquisto unico a vita. Se ti serve per un solo giorno, una breve pubblicità lo sblocca per 24 ore."
         }
-      ]
+      ],
+      "howto": {
+        "title": "Come salvare i tuoi clip",
+        "lead": "Da Android 10 le app possono leggere gli appunti solo mentre sono sullo schermo, quindi nessun gestore può salvare in background. Dopo aver copiato, fai una di queste cose:",
+        "best": "Il più affidabile",
+        "steps": [
+          {
+            "t": "Seleziona il testo → Clipboard+",
+            "d": "Seleziona il testo in qualsiasi app e tocca Clipboard+ nel menu di selezione. Viene salvato subito, senza cambiare app."
+          },
+          {
+            "t": "Tocca la bolla flottante",
+            "d": "Tocca la bolla sul bordo dello schermo: il pannello si apre e salva ciò che hai appena copiato."
+          },
+          {
+            "t": "Pulsante salva del widget",
+            "d": "Il pulsante salva del widget nella schermata Home salva ciò che c'è ora negli appunti."
+          },
+          {
+            "t": "Apri l'app o tocca la notifica",
+            "d": "Aprire Clipboard+ o toccare la sua notifica salva l'ultima cosa che hai copiato."
+          }
+        ]
+      }
     },
     "autostart": {
       "name": "AutoStart+",

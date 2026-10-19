@@ -160,7 +160,30 @@
           "q": "O que é grátis e o que o Pro acrescenta?",
           "a": "Grátis você tem o histórico de texto e imagens com busca, trechos, até 3 grupos, o painel flutuante, o widget e o salvamento pelo menu de seleção de texto, com anúncios. O Pro remove os anúncios e acrescenta a sincronização entre celular e PC pelo seu próprio Google Drive, clipes de imagem ilimitados, painel flutuante e widget ampliados, grupos ilimitados, exportação em PDF e restauração de backup — mensal, anual ou em compra única vitalícia. Se precisar só por um dia, um anúncio curto libera o recurso por 24 horas."
         }
-      ]
+      ],
+      "howto": {
+        "title": "Como salvar seus clipes",
+        "lead": "Desde o Android 10, os apps só podem ler a área de transferência enquanto estão na tela, então nenhum gerenciador consegue salvar em segundo plano. Depois de copiar, faça uma destas opções:",
+        "best": "Mais confiável",
+        "steps": [
+          {
+            "t": "Selecione o texto → Clipboard+",
+            "d": "Selecione o texto em qualquer app e toque em Clipboard+ no menu de seleção. Ele é salvo na hora, sem trocar de app."
+          },
+          {
+            "t": "Toque na bolha flutuante",
+            "d": "Toque na bolha na borda da tela: o painel abre e salva o que você acabou de copiar."
+          },
+          {
+            "t": "Botão de salvar do widget",
+            "d": "O botão de salvar do widget da tela inicial guarda o que estiver na área de transferência agora."
+          },
+          {
+            "t": "Abra o app ou toque na notificação",
+            "d": "Abrir o Clipboard+ ou tocar na notificação dele salva a última coisa que você copiou."
+          }
+        ]
+      }
     },
     "autostart": {
       "name": "AutoStart+",

@@ -160,7 +160,30 @@
           "q": "Bản miễn phí có gì, và Pro thêm gì?",
           "a": "Bản miễn phí lưu lịch sử clipboard văn bản và hình ảnh kèm tìm kiếm, đoạn mẫu, tối đa 3 nhóm, bảng nổi, widget và lưu từ menu chọn văn bản, có quảng cáo. Pro bỏ quảng cáo và thêm đồng bộ điện thoại↔PC qua Google Drive của chính bạn, clip hình ảnh không giới hạn, bảng nổi và widget mở rộng, nhóm không giới hạn, xuất PDF và khôi phục bản sao lưu — theo tháng, theo năm hoặc mua một lần trọn đời. Nếu chỉ cần trong một ngày, một quảng cáo ngắn sẽ mở tính năng đó trong 24 giờ."
         }
-      ]
+      ],
+      "howto": {
+        "title": "Cách lưu clip",
+        "lead": "Từ Android 10, ứng dụng chỉ đọc được clipboard khi đang hiển thị trên màn hình, nên không trình quản lý clipboard nào lưu được ở nền. Sau khi sao chép, hãy làm một trong các cách sau:",
+        "best": "Chắc chắn nhất",
+        "steps": [
+          {
+            "t": "Chọn văn bản → Clipboard+",
+            "d": "Chọn văn bản trong bất kỳ ứng dụng nào rồi chạm Clipboard+ trong trình đơn chọn. Lưu ngay mà không cần chuyển ứng dụng."
+          },
+          {
+            "t": "Chạm vào bong bóng nổi",
+            "d": "Chạm vào bong bóng ở mép màn hình: bảng mở ra và lưu nội dung bạn vừa sao chép."
+          },
+          {
+            "t": "Nút lưu trên tiện ích",
+            "d": "Nút lưu trên tiện ích màn hình chính lưu nội dung đang có trong clipboard."
+          },
+          {
+            "t": "Mở ứng dụng hoặc chạm thông báo",
+            "d": "Mở Clipboard+ hoặc chạm vào thông báo của nó sẽ lưu nội dung bạn sao chép gần nhất."
+          }
+        ]
+      }
     },
     "autostart": {
       "name": "AutoStart+",

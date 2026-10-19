@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '76'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '77'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -560,6 +560,36 @@ const storeUrl = (app, code, placement) => {
 
 // 플랫폼 이름. 고유명사라 번역하지 않고 모든 언어에서 그대로 쓴다(홈의 앱 그룹 제목과 같은 규칙).
 const platformOf = (app) => (app.platform === 'windows' ? 'Windows' : 'Android');
+
+// "저장하는 법" 카드의 그림. 순서는 i18n apps.<slug>.howto.steps 와 같다:
+// 텍스트 선택 메뉴 → 플로팅 버블 → 위젯 저장 버튼 → 앱 열기·알림. 색은 CSS(.ha-*)가 테마별로 칠한다.
+// 앱 온보딩·도움말의 같은 카드(2026-10-19 시안)를 옮긴 것이라, 그림 안의 글자는 브랜드 이름뿐이다.
+const HOWTO_ART = [
+  `<rect class="ha-surface" x="10" y="32" width="84" height="34" rx="6"/><rect class="ha-bar" x="18" y="39" width="68" height="5" rx="2.5"/><rect class="ha-bar" x="18" y="52" width="20" height="5" rx="2.5"/><rect class="ha-hl" x="41" y="49" width="36" height="11" rx="2"/><rect class="ha-tb" x="9" y="9" width="86" height="18" rx="9"/><rect class="ha-tb-bar" x="17" y="16" width="12" height="4" rx="2"/><rect class="ha-tb-bar" x="33" y="16" width="12" height="4" rx="2"/><text class="ha-tb-accent" x="50" y="21" font-size="8" font-weight="700">Clipboard+</text>`,
+  `<rect class="ha-surface ha-edge" x="22" y="8" width="54" height="60" rx="8"/><rect class="ha-bar" x="29" y="17" width="38" height="4" rx="2"/><rect class="ha-bar" x="29" y="26" width="28" height="4" rx="2"/><rect class="ha-bar" x="29" y="35" width="34" height="4" rx="2"/><circle class="ha-ring" cx="78" cy="37" r="17"/><circle class="ha-brand" cx="78" cy="37" r="12"/><path class="ha-glyph" d="M74.5 33h7v9.5h-7z M76 31.5h4v2.5h-4z"/>`,
+  `<rect class="ha-surface ha-edge" x="12" y="10" width="80" height="56" rx="10"/><text class="ha-ink" x="20" y="22" font-size="7.5" font-weight="700">Clipboard+</text><rect class="ha-fill" x="64" y="15" width="22" height="13" rx="6.5"/><rect class="ha-glyph-bar" x="69" y="20" width="12" height="3" rx="1.5"/><rect class="ha-bar" x="20" y="37" width="62" height="4" rx="2"/><rect class="ha-bar" x="20" y="47" width="46" height="4" rx="2"/><circle class="ha-ring" cx="75" cy="21.5" r="15"/>`,
+  `<rect class="ha-surface ha-faded" x="7" y="9" width="90" height="24" rx="8"/><rect class="ha-surface ha-edge" x="7" y="38" width="90" height="30" rx="9"/><circle class="ha-brand" cx="20" cy="53" r="7"/><text class="ha-ink" x="32" y="50" font-size="7" font-weight="700">Clipboard+</text><rect class="ha-bar" x="32" y="56" width="52" height="4" rx="2"/><circle class="ha-ring" cx="70" cy="53" r="17"/>`,
+];
+
+// 앱 상세 "저장하는 법" 섹션. i18n 에 howto 가 있는 앱(Clipboard+)만 렌더한다.
+// 안드로이드 10+ 는 백그라운드에서 클립보드를 못 읽게 해, "복사한 게 다 저장되지 않는다"는 문의가
+// 끊이지 않았다(2026-04 · 06 · 10). 첫 방법(텍스트 선택 메뉴)이 앱 전환 없이 언제나 저장되므로 강조한다.
+function howtoSection(a) {
+  const h = a.howto;
+  if (!h || !Array.isArray(h.steps)) return null;
+  return {
+    id: 'howto', title: h.title, lead: h.lead,
+    body: `<ol class="howto-grid">
+${h.steps.map((st, i) => `          <li class="howto-card${i === 0 ? ' is-best' : ''}">
+            <svg class="howto-art" viewBox="0 0 104 76" aria-hidden="true" focusable="false">${HOWTO_ART[i] || ''}</svg>
+            <span class="howto-text">
+              ${i === 0 ? `<span class="howto-best">${escText(h.best)}</span>` : ''}<span class="howto-head"><span class="howto-n" aria-hidden="true">${i + 1}</span><span class="howto-t">${escText(st.t)}</span></span>
+              <span class="howto-d">${escText(st.d)}</span>
+            </span>
+          </li>`).join('\n')}
+        </ol>`,
+  };
+}
 
 // 같은 앱의 다른 플랫폼 버전으로 가는 상호 링크 (Clipboard+ ↔ Clipboard+ for Windows).
 // apps_base.json 의 counterpart 가 가리키는 앱이 실제로 있을 때만 렌더한다.
@@ -1139,6 +1169,7 @@ ${Array.from({ length: heroShotCount }, (_, i) => `          ${shotImg(i, false)
 ${a.features.map((f) => `          <li><span class="fg-icon">${icon('check')}</span><span>${escText(f)}</span></li>`).join('\n')}
         </ul>`,
     },
+    howtoSection(a),
     app.shots ? {
       title: ui['screenshots'], lead: ui['shotsHint'],
       body: `<div class="detail-shots" id="d-shots">${video ? `

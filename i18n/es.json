@@ -160,7 +160,30 @@
           "q": "¿Qué es gratis y qué añade Pro?",
           "a": "Gratis tienes el historial de texto e imágenes con búsqueda, fragmentos, hasta 3 grupos, el panel flotante, el widget y el guardado desde el menú de selección de texto, con anuncios. Pro quita los anuncios y añade la sincronización entre móvil y PC a través de tu propio Google Drive, clips de imagen ilimitados, el panel flotante y el widget ampliados, grupos ilimitados, exportación a PDF y restauración de copias de seguridad, con pago mensual, anual o único de por vida. Si solo lo necesitas un día, un anuncio corto lo desbloquea durante 24 horas."
         }
-      ]
+      ],
+      "howto": {
+        "title": "Cómo guardar tus clips",
+        "lead": "Desde Android 10, las apps solo pueden leer el portapapeles mientras están en pantalla, así que ningún gestor puede guardar en segundo plano. Después de copiar, haz una de estas cosas:",
+        "best": "La más fiable",
+        "steps": [
+          {
+            "t": "Selecciona texto → Clipboard+",
+            "d": "Selecciona texto en cualquier app y toca Clipboard+ en el menú de selección. Se guarda al instante, sin cambiar de app."
+          },
+          {
+            "t": "Toca la burbuja flotante",
+            "d": "Toca la burbuja del borde de la pantalla: el panel se abre y guarda lo que acabas de copiar."
+          },
+          {
+            "t": "Botón de guardar del widget",
+            "d": "El botón de guardar del widget de inicio guarda lo que haya ahora en el portapapeles."
+          },
+          {
+            "t": "Abre la app o toca su notificación",
+            "d": "Al abrir Clipboard+ o tocar su notificación se guarda lo último que copiaste."
+          }
+        ]
+      }
     },
     "autostart": {
       "name": "AutoStart+",

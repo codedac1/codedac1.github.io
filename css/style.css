@@ -724,6 +724,53 @@ img { max-width: 100%; }
    줄지 않고 카드를 화면 밖으로 밀어냈다(pl·tr·de Clipboard+ for Windows, nl VolumeBooster+). */
 .feature-grid li > span:last-child { min-width: 0; overflow-wrap: anywhere; }
 
+/* 저장하는 법 (Clipboard+) — 그림 + 번호·제목·설명 카드 4장. 첫 장(텍스트 선택 메뉴)을 강조한다.
+   그림 색은 아래 --ha-* 로 칠하고, 다크 테마에서 바꾼다. */
+.howto-grid {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px;
+  --ha-bg: var(--accent-tint); --ha-surface: #ffffff; --ha-bar: #d3dddb; --ha-edge: #dde5e3;
+  --ha-tb: #263030; --ha-tb-bar: #9aa8a6; --ha-tb-accent: #6cc2bc; --ha-hl: rgba(73, 160, 154, .35);
+  --ha-ring: rgba(39, 192, 184, .55); --ha-fill: #227f7a; --ha-ink: #182020;
+}
+.howto-card {
+  display: flex; gap: 18px; align-items: center;
+  padding: 18px; border-radius: var(--radius);
+  background: var(--bg); border: 1px solid var(--line); box-shadow: var(--shadow-sm);
+}
+.howto-card.is-best { border-color: #9ccfcb; }
+.howto-art { flex: 0 0 124px; width: 124px; height: 90px; border-radius: 12px; background: var(--ha-bg); }
+.howto-art .ha-surface { fill: var(--ha-surface); }
+.howto-art .ha-edge { stroke: var(--ha-edge); stroke-width: 1; }
+.howto-art .ha-faded { opacity: .55; }
+.howto-art .ha-bar { fill: var(--ha-bar); }
+.howto-art .ha-hl { fill: var(--ha-hl); }
+.howto-art .ha-tb { fill: var(--ha-tb); }
+.howto-art .ha-tb-bar { fill: var(--ha-tb-bar); }
+.howto-art .ha-tb-accent { fill: var(--ha-tb-accent); font-family: var(--font-body); }
+.howto-art .ha-ink { fill: var(--ha-ink); font-family: var(--font-body); }
+.howto-art .ha-ring { fill: none; stroke: var(--ha-ring); stroke-width: 2; }
+.howto-art .ha-brand { fill: #27c0b8; }
+.howto-art .ha-fill { fill: var(--ha-fill); }
+.howto-art .ha-glyph, .howto-art .ha-glyph-bar { fill: #ffffff; }
+.howto-text { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+/* 칩은 제목 위 한 줄 — 제목 옆에 두면 좁은 화면에서 번호만 한 줄에 남았다. */
+.howto-head { display: flex; align-items: flex-start; gap: 8px; }
+.howto-head .howto-n { margin-top: 1px; }
+.howto-t { flex: 1 1 auto; min-width: 0; }
+:lang(ko) .howto-t, :lang(ko) .howto-d { word-break: keep-all; }
+.howto-n {
+  display: grid; place-items: center; flex: 0 0 24px; width: 24px; height: 24px; border-radius: 50%;
+  background: #227f7a; color: #ffffff; font-size: 13px; font-weight: 700;
+}
+.howto-t { color: var(--ink); font-size: 16.5px; font-weight: 700; line-height: 1.4; overflow-wrap: anywhere; }
+.howto-best {
+  align-self: flex-start;
+  padding: 2px 10px; border-radius: 999px; font-size: 12.5px; font-weight: 700;
+  background: var(--accent-tint); color: var(--link-teal-h);
+}
+.howto-d { color: var(--body); font-size: 15px; line-height: 1.6; }
+
 /* 다른 앱 카드 */
 .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr)); gap: 14px; }
 .related-card {
@@ -984,6 +1031,9 @@ img { max-width: 100%; }
   .detail-section { padding: 48px 0; }
   .feature-grid { grid-template-columns: 1fr; }
   .feature-grid li { padding: 16px; }
+  .howto-grid { grid-template-columns: 1fr; }
+  .howto-card { padding: 14px; gap: 14px; }
+  .howto-art { flex-basis: 104px; width: 104px; height: 76px; }
   .lb-nav { width: 42px; height: 42px; font-size: 26px; }
   .lb-prev { inset-inline-start: 10px; }
   .lb-next { inset-inline-end: 10px; }
@@ -1057,6 +1107,12 @@ img { max-width: 100%; }
 :root[data-theme="dark"] .site-header.is-scrolled { background: rgba(15, 17, 21, .88); box-shadow: 0 6px 24px rgba(0, 0, 0, .5); }
 :root[data-theme="dark"] .app-hero-d { background: linear-gradient(135deg, #34426a 0%, #262f4a 42%, #274656 74%, #3a9990 120%); }
 :root[data-theme="dark"] .related-card:hover { border-color: #39424f; }
+:root[data-theme="dark"] .howto-grid {
+  --ha-surface: #1a1f1f; --ha-bar: #3a4644; --ha-edge: #2c3534;
+  --ha-tb: #e4eae9; --ha-tb-bar: #7d8b89; --ha-tb-accent: #227f7a; --ha-hl: rgba(108, 194, 188, .35);
+  --ha-ring: rgba(39, 192, 184, .6); --ha-ink: #e4eae9;
+}
+:root[data-theme="dark"] .howto-card.is-best { border-color: #2f6b67; }
 :root[data-theme="dark"] .hero { background: linear-gradient(135deg, #34426a 0%, #262f4a 42%, #274656 74%, #3a9990 120%); }
 :root[data-theme="dark"] .platform-android { --pc-soft: rgba(61, 220, 132, .07); --pc-line: rgba(61, 220, 132, .24); }
 :root[data-theme="dark"] .platform-windows { --pc-soft: rgba(0, 120, 212, .10); --pc-line: rgba(64, 156, 230, .30); }

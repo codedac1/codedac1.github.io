@@ -160,7 +160,30 @@
           "q": "Ano ang libre, at ano ang dagdag ng Pro?",
           "a": "Libre ang history ng text at larawan na may search, snippets, hanggang 3 grupo, ang floating panel, ang widget at ang pag-save mula sa text selection menu, at may ads. Tinatanggal ng Pro ang ads at nagdadagdag ng phone-to-PC sync sa sarili mong Google Drive, walang limitasyong image clips, mas malaking floating panel at widget, walang limitasyong grupo, PDF export at pag-restore ng backup — buwanan, taunan o isang beses na lifetime na bili. Kung isang araw lang ang kailangan, isang maikling ad ang magbubukas nito nang 24 oras."
         }
-      ]
+      ],
+      "howto": {
+        "title": "Paano mag-save ng clip",
+        "lead": "Mula Android 10, nababasa lang ng app ang clipboard habang nasa screen ito, kaya walang clipboard manager na makakapag-save sa background. Pagkatapos kumopya, gawin ang isa sa mga ito:",
+        "best": "Pinakasigurado",
+        "steps": [
+          {
+            "t": "Pumili ng teksto → Clipboard+",
+            "d": "Pumili ng teksto sa kahit anong app at i-tap ang Clipboard+ sa selection menu. Agad itong nase-save nang hindi lumilipat ng app."
+          },
+          {
+            "t": "I-tap ang floating bubble",
+            "d": "I-tap ang bubble sa gilid ng screen: bubukas ang panel at ise-save ang kakakopya mo."
+          },
+          {
+            "t": "Save button ng widget",
+            "d": "Sine-save ng save button sa home screen widget ang laman ng clipboard ngayon."
+          },
+          {
+            "t": "Buksan ang app o i-tap ang notification",
+            "d": "Kapag binuksan ang Clipboard+ o tinapik ang notification nito, nase-save ang huli mong kinopya."
+          }
+        ]
+      }
     },
     "autostart": {
       "name": "AutoStart+",
