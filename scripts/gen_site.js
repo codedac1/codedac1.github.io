@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '77'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '78'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -567,7 +567,7 @@ const platformOf = (app) => (app.platform === 'windows' ? 'Windows' : 'Android')
 const HOWTO_ART = [
   `<rect class="ha-surface" x="10" y="32" width="84" height="34" rx="6"/><rect class="ha-bar" x="18" y="39" width="68" height="5" rx="2.5"/><rect class="ha-bar" x="18" y="52" width="20" height="5" rx="2.5"/><rect class="ha-hl" x="41" y="49" width="36" height="11" rx="2"/><rect class="ha-tb" x="9" y="9" width="86" height="18" rx="9"/><rect class="ha-tb-bar" x="17" y="16" width="12" height="4" rx="2"/><rect class="ha-tb-bar" x="33" y="16" width="12" height="4" rx="2"/><text class="ha-tb-accent" x="50" y="21" font-size="8" font-weight="700">Clipboard+</text>`,
   `<rect class="ha-surface ha-edge" x="22" y="8" width="54" height="60" rx="8"/><rect class="ha-bar" x="29" y="17" width="38" height="4" rx="2"/><rect class="ha-bar" x="29" y="26" width="28" height="4" rx="2"/><rect class="ha-bar" x="29" y="35" width="34" height="4" rx="2"/><circle class="ha-ring" cx="78" cy="37" r="17"/><circle class="ha-brand" cx="78" cy="37" r="12"/><path class="ha-glyph" d="M74.5 33h7v9.5h-7z M76 31.5h4v2.5h-4z"/>`,
-  `<rect class="ha-surface ha-edge" x="12" y="10" width="80" height="56" rx="10"/><text class="ha-ink" x="20" y="22" font-size="7.5" font-weight="700">Clipboard+</text><rect class="ha-fill" x="64" y="15" width="22" height="13" rx="6.5"/><rect class="ha-glyph-bar" x="69" y="20" width="12" height="3" rx="1.5"/><rect class="ha-bar" x="20" y="37" width="62" height="4" rx="2"/><rect class="ha-bar" x="20" y="47" width="46" height="4" rx="2"/><circle class="ha-ring" cx="75" cy="21.5" r="15"/>`,
+  `<rect class="ha-surface ha-edge" x="12" y="10" width="80" height="56" rx="10"/><path class="ha-whead" d="M22 10h60a10 10 0 0 1 10 10v6H12v-6a10 10 0 0 1 10-10z"/><rect class="ha-glyph-bar" x="19" y="16" width="26" height="4" rx="2"/><g transform="translate(70 18) scale(0.667) rotate(180) translate(-12 -12)"><path d="M4.2 19.8L13.6 10.4" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/><path class="ha-glyph" d="M17.1 1.9Q18.56 5.64 22.3 7.1Q18.56 8.56 17.1 12.3Q15.64 8.56 11.9 7.1Q15.64 5.64 17.1 1.9z"/></g><rect class="ha-bar" x="20" y="35" width="62" height="4" rx="2"/><rect class="ha-bar" x="20" y="45" width="46" height="4" rx="2"/><rect class="ha-bar" x="20" y="55" width="54" height="4" rx="2"/><circle class="ha-ring" cx="70" cy="18" r="11"/>`,
   `<rect class="ha-surface ha-faded" x="7" y="9" width="90" height="24" rx="8"/><rect class="ha-surface ha-edge" x="7" y="38" width="90" height="30" rx="9"/><circle class="ha-brand" cx="20" cy="53" r="7"/><text class="ha-ink" x="32" y="50" font-size="7" font-weight="700">Clipboard+</text><rect class="ha-bar" x="32" y="56" width="52" height="4" rx="2"/><circle class="ha-ring" cx="70" cy="53" r="17"/>`,
 ];
 

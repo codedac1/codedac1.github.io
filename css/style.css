@@ -752,6 +752,8 @@ img { max-width: 100%; }
 .howto-art .ha-ring { fill: none; stroke: var(--ha-ring); stroke-width: 2; }
 .howto-art .ha-brand { fill: #27c0b8; }
 .howto-art .ha-fill { fill: var(--ha-fill); }
+/* 위젯 헤더 — 앱의 widget_header_bg 와 같은 남색 (다크는 아래에서 바꾼다) */
+.howto-art .ha-whead { fill: var(--ha-whead, #2f3b59); }
 .howto-art .ha-glyph, .howto-art .ha-glyph-bar { fill: #ffffff; }
 .howto-text { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 /* 칩은 제목 위 한 줄 — 제목 옆에 두면 좁은 화면에서 번호만 한 줄에 남았다. */
@@ -1110,7 +1112,7 @@ img { max-width: 100%; }
 :root[data-theme="dark"] .howto-grid {
   --ha-surface: #1a1f1f; --ha-bar: #3a4644; --ha-edge: #2c3534;
   --ha-tb: #e4eae9; --ha-tb-bar: #7d8b89; --ha-tb-accent: #227f7a; --ha-hl: rgba(108, 194, 188, .35);
-  --ha-ring: rgba(39, 192, 184, .6); --ha-ink: #e4eae9;
+  --ha-ring: rgba(39, 192, 184, .6); --ha-ink: #e4eae9; --ha-whead: #1e2a47;
 }
 :root[data-theme="dark"] .howto-card.is-best { border-color: #2f6b67; }
 :root[data-theme="dark"] .hero { background: linear-gradient(135deg, #34426a 0%, #262f4a 42%, #274656 74%, #3a9990 120%); }
