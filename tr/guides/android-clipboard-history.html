@@ -63,8 +63,8 @@
   "headline": "Android'de pano geçmişi nasıl görülür",
   "description": "Android yalnızca son kopyaladığınızı saklar. Klavyenizde son kopyaladıklarınızı nerede bulacağınızı ve kaybolmayan, aranabilir bir geçmişi nasıl tutacağınızı anlatıyoruz.",
   "inLanguage": "tr",
-  "datePublished": "2026-10-14",
-  "dateModified": "2026-10-14",
+  "datePublished": "2026-10-20",
+  "dateModified": "2026-10-20",
   "mainEntityOfPage": "https://codedac.com/tr/guides/android-clipboard-history.html",
   "image": "https://codedac.com/images/icons/clipboard.png",
   "author": {
@@ -130,6 +130,14 @@
         "@type": "Answer",
         "text": "Evet, iki cihazda da Clipboard+ varsa: Android uygulaması ve Clipboard+ for Windows kendi Google Drive'ınız üzerinden senkronize olur (Android'de Pro özelliği)."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Tüm izinleri verdim ama kopyaladığım her şey kaydedilmiyor.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bu, Android 10 ile gelen gizlilik kuralından kaynaklanır. Ekranda olmayan bir uygulama panoyu okuyamaz ve hiçbir izin ayarı bunu kapatmaz. Kopyaladıktan hemen sonra balon, widget veya uygulamayı açarak kaydedin; metin için seçim menüsündeki Clipboard+'ı kullanın. Sistem panosu yalnızca son öğeyi tutar; kaydetmeden önce başka bir şey kopyalarsanız önceki kaybolur."
+      }
     }
   ]
 }
@@ -192,7 +200,7 @@
         <span class="current">Rehberler</span>
       </nav>
       <h1>Android'de pano geçmişi nasıl görülür</h1>
-      <p class="guide-meta">Güncellendi <time datetime="2026-10-14">2026-10-14</time></p>
+      <p class="guide-meta">Güncellendi <time datetime="2026-10-20">2026-10-20</time></p>
     </div>
   </section>
 
@@ -208,9 +216,10 @@
         <h2>2. yol: gerçek bir geçmiş tutan pano yöneticisi</h2>
         <p>Aynı şeyleri tekrar tekrar kopyalıyorsanız (adresler, hesap numaraları, hazır yanıtlar), bir pano yöneticisi bunları siz silene kadar saklar, içinde arama yapmanızı sağlar ve her uygulamanın üstünde gösterebilir.</p>
         <p>Clipboard+ (bizim uygulamamız) kopyaladığınız metin ve görselleri en yeniden başlayarak bir geçmişte tutar; arama özelliği ve kullandığınız uygulamanın üstünde açabileceğiniz yüzen bir paneli vardır.</p>
+        <p>Bir ayrıntı: Android 10'dan beri panoyu yalnızca ekrandaki uygulama (ve kullandığınız klavye) okuyabiliyor; bu yüzden hiçbir pano uygulaması arka plandayken kopyaladığınız her şeyi kendiliğinden kaydedemez. Kopyaladıktan hemen sonra uygulamayı bir kez öne getirirseniz kaydedilir.</p>
         <ol class="guide-steps">
           <li>Clipboard+'ı Google Play'den yükleyin ve bir kez açın.</li>
-          <li>Metni her zamanki gibi kopyalayın. Herhangi bir uygulamada metin seçip seçim menüsünde Clipboard+'ı seçerek de kaydedebilirsiniz.</li>
+          <li>Kopyaladıktan hemen sonra kaydedin. Ekran kenarındaki yüzen balona, ana ekrandaki widget'ın kaydet düğmesine dokunun ya da uygulamayı açın; az önce kopyaladığınız şey kaydedilir. Metin içinse en güvenilir yol, onu başka bir uygulamada seçip seçim menüsünden Clipboard+'ı seçmektir; çünkü bu yöntem panoyu hiç kullanmaz.</li>
           <li>Geçmişinizi görmek için yüzen paneli (veya uygulamayı) açın, bir kayda dokunarak yeniden kopyalayın ve bulunduğunuz yere yapıştırın.</li>
           <li>Tekrar kullandığınız şeyleri gruplar içinde snippet olarak saklayın; hep bir dokunuş uzağınızda olsunlar.</li>
         </ol>
@@ -244,6 +253,7 @@
       <div class="faq-list">
         <div class="faq-item"><p class="faq-q">Android'de yerleşik bir pano geçmişi var mı?</p><p class="faq-a">Sistemin kendisinde yok; Android yalnızca son kopyalananı saklar. Gboard ve Samsung Klavye gibi klavyeler kısa süreli bir pano listesi ekler.</p></div>
         <div class="faq-item"><p class="faq-q">Telefonumdaki pano geçmişini bilgisayarımda görebilir miyim?</p><p class="faq-a">Evet, iki cihazda da Clipboard+ varsa: Android uygulaması ve Clipboard+ for Windows kendi Google Drive'ınız üzerinden senkronize olur (Android'de Pro özelliği).</p></div>
+        <div class="faq-item"><p class="faq-q">Tüm izinleri verdim ama kopyaladığım her şey kaydedilmiyor.</p><p class="faq-a">Bu, Android 10 ile gelen gizlilik kuralından kaynaklanır. Ekranda olmayan bir uygulama panoyu okuyamaz ve hiçbir izin ayarı bunu kapatmaz. Kopyaladıktan hemen sonra balon, widget veya uygulamayı açarak kaydedin; metin için seçim menüsündeki Clipboard+'ı kullanın. Sistem panosu yalnızca son öğeyi tutar; kaydetmeden önce başka bir şey kopyalarsanız önceki kaybolur.</p></div>
       </div>
     </div>
   </section>

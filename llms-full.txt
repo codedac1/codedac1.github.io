@@ -419,8 +419,10 @@ If you copy the same things again and again — addresses, account numbers, cann
 
 Clipboard+ (our app) keeps the text and images you copy in a history, newest first, with search and a floating panel you can open over the app you are using.
 
+One catch: since Android 10, only the app on screen (and the keyboard you're typing with) can read the clipboard, so no clipboard app can quietly save everything you copy while it sits in the background. Bringing the app to the front right after you copy saves it.
+
 1. Install Clipboard+ from Google Play and open it once.
-2. Copy text as usual. You can also select text in any app and choose Clipboard+ in the selection menu to save it.
+2. Save right after you copy. Tap the floating bubble at the edge of the screen, tap the save button on the home-screen widget, or open the app, and what you just copied is saved. For text, selecting it in another app and choosing Clipboard+ from the selection menu is the most reliable way, because it skips the clipboard entirely.
 3. Open the floating panel (or the app) to see your history, tap a clip to copy it again, and paste it where you are.
 4. Keep things you reuse as snippets in groups, so they are always one tap away.
 
@@ -432,6 +434,8 @@ For a one-off — pasting something you copied a minute ago — the keyboard cli
   A: Not in the system itself — Android keeps only the latest clip. Keyboards such as Gboard and Samsung Keyboard add a short-term clipboard list.
 - Q: Can I see clipboard history from my phone on my PC?
   A: Yes, with Clipboard+ on both: the Android app and Clipboard+ for Windows sync through your own Google Drive (a Pro feature on Android).
+- Q: I granted every permission, but not everything I copy gets saved.
+  A: That's the privacy rule Android introduced in version 10. An app that isn't on screen can't read the clipboard, and no permission setting turns this off. Save right after copying with the bubble, the widget or by opening the app, or use Clipboard+ in the text selection menu for text. The system clipboard only holds the last item, so if you copy something else before saving, the earlier item is gone.
 
 Page: https://codedac.com/guides/android-clipboard-history.html
 

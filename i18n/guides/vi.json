@@ -11,7 +11,7 @@
   "guides": {
     "android-clipboard-history": {
       "app": "clipboard",
-      "updated": "2026-10-14",
+      "updated": "2026-10-20",
       "title": "Cách xem lịch sử bộ nhớ tạm (clipboard) trên Android",
       "desc": "Android chỉ nhớ thứ cuối cùng bạn sao chép. Đây là cách tìm các mục vừa sao chép trong bàn phím, và cách giữ một lịch sử tìm kiếm được không bị mất.",
       "intro": "Bản thân Android chỉ nhớ thứ cuối cùng bạn sao chép — sao chép cái mới là cái trước biến mất. Muốn lấy lại địa chỉ, mã hay câu văn đã sao chép lúc trước, bạn cần một nơi lưu lịch sử. Có hai lựa chọn: bàn phím của bạn và một ứng dụng quản lý bộ nhớ tạm.",
@@ -27,11 +27,12 @@
           "h": "Cách 2: ứng dụng quản lý bộ nhớ tạm lưu lịch sử thật sự",
           "p": [
             "Nếu bạn sao chép đi sao chép lại cùng một thứ — địa chỉ, số tài khoản, câu trả lời soạn sẵn — ứng dụng quản lý bộ nhớ tạm sẽ giữ chúng cho đến khi bạn xóa, cho phép tìm kiếm và có thể hiện chúng trên mọi ứng dụng.",
-            "Clipboard+ (ứng dụng của chúng tôi) giữ văn bản và hình ảnh bạn sao chép trong một lịch sử, mới nhất lên đầu, có tìm kiếm và một bảng nổi bạn có thể mở ngay trên ứng dụng đang dùng."
+            "Clipboard+ (ứng dụng của chúng tôi) giữ văn bản và hình ảnh bạn sao chép trong một lịch sử, mới nhất lên đầu, có tìm kiếm và một bảng nổi bạn có thể mở ngay trên ứng dụng đang dùng.",
+            "Có một lưu ý: từ Android 10, chỉ ứng dụng đang hiển thị trên màn hình (và bàn phím bạn đang dùng) mới đọc được bộ nhớ tạm, nên không ứng dụng bộ nhớ tạm nào có thể tự lưu mọi thứ bạn sao chép khi đang chạy nền. Đưa ứng dụng lên trước ngay sau khi sao chép thì nội dung sẽ được lưu."
           ],
           "steps": [
             "Cài Clipboard+ từ Google Play và mở nó một lần.",
-            "Sao chép như bình thường. Bạn cũng có thể chọn văn bản trong bất kỳ ứng dụng nào rồi chọn Clipboard+ trong trình đơn chọn văn bản để lưu.",
+            "Lưu ngay sau khi sao chép. Chạm vào bong bóng nổi ở mép màn hình, chạm nút lưu trên tiện ích ở màn hình chính, hoặc mở ứng dụng, và nội dung bạn vừa sao chép sẽ được lưu. Với văn bản, cách chắc chắn nhất là chọn nó trong ứng dụng khác rồi chọn Clipboard+ trong menu chọn văn bản, vì cách này hoàn toàn không đi qua bộ nhớ tạm.",
             "Mở bảng nổi (hoặc ứng dụng) để xem lịch sử, chạm vào một mục để sao chép lại, rồi dán vào chỗ bạn đang dùng.",
             "Lưu những thứ hay dùng thành snippet trong các nhóm để luôn chỉ cách một chạm."
           ]
@@ -51,6 +52,10 @@
         {
           "q": "Có thể xem lịch sử bộ nhớ tạm của điện thoại trên máy tính không?",
           "a": "Có, nếu dùng Clipboard+ ở cả hai bên: ứng dụng Android và Clipboard+ for Windows đồng bộ qua chính Google Drive của bạn (trên Android là tính năng Pro)."
+        },
+        {
+          "q": "Tôi đã cấp mọi quyền nhưng không phải mọi thứ tôi sao chép đều được lưu.",
+          "a": "Đó là do quy tắc quyền riêng tư Android áp dụng từ phiên bản 10. Ứng dụng không hiển thị trên màn hình không thể đọc bộ nhớ tạm, và không có cài đặt quyền nào tắt được điều này. Hãy lưu ngay sau khi sao chép bằng bong bóng, tiện ích hoặc bằng cách mở ứng dụng, hoặc dùng Clipboard+ trong menu chọn văn bản. Bộ nhớ tạm của hệ thống chỉ giữ mục cuối cùng, nên nếu bạn sao chép thứ khác trước khi lưu, mục trước sẽ mất."
         }
       ]
     },

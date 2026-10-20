@@ -11,7 +11,7 @@
   "guides": {
     "android-clipboard-history": {
       "app": "clipboard",
-      "updated": "2026-10-14",
+      "updated": "2026-10-20",
       "title": "Como ver o histórico da área de transferência no Android",
       "desc": "O Android guarda só a última coisa que você copiou. Veja onde encontrar o que você copiou recentemente no teclado e como manter um histórico pesquisável que não some.",
       "intro": "O próprio Android só lembra a última coisa que você copiou — copie algo novo e o texto anterior se perde. Se você quer recuperar um endereço, um código ou uma frase que copiou antes, precisa de um lugar que guarde um histórico. Existem dois: o seu teclado e um app gerenciador de área de transferência.",
@@ -27,11 +27,12 @@
           "h": "Opção 2: um gerenciador que guarda um histórico de verdade",
           "p": [
             "Se você copia as mesmas coisas várias vezes — endereços, números de conta, respostas prontas —, um gerenciador de área de transferência guarda tudo até você apagar, permite pesquisar e pode mostrar os itens sobre qualquer app.",
-            "O Clipboard+ (nosso app) guarda os textos e imagens que você copia em um histórico, do mais recente ao mais antigo, com busca e um painel flutuante que você abre sobre o app que estiver usando."
+            "O Clipboard+ (nosso app) guarda os textos e imagens que você copia em um histórico, do mais recente ao mais antigo, com busca e um painel flutuante que você abre sobre o app que estiver usando.",
+            "Só um detalhe: desde o Android 10, só o app que está na tela (e o teclado que você está usando) consegue ler a área de transferência, então nenhum app de área de transferência consegue salvar sozinho tudo o que você copia enquanto fica em segundo plano. Trazer o app para a frente logo depois de copiar salva o conteúdo."
           ],
           "steps": [
             "Instale o Clipboard+ pelo Google Play e abra o app uma vez.",
-            "Copie textos normalmente. Você também pode selecionar texto em qualquer app e escolher Clipboard+ no menu de seleção para salvá-lo.",
+            "Salve logo depois de copiar. Toque na bolha flutuante na borda da tela, toque no botão de salvar do widget da tela inicial ou abra o app, e o que você acabou de copiar é salvo. Para texto, o jeito mais garantido é selecionar em outro app e escolher Clipboard+ no menu de seleção, porque assim nem passa pela área de transferência.",
             "Abra o painel flutuante (ou o app) para ver seu histórico, toque em um item para copiá-lo de novo e cole onde estiver.",
             "Guarde o que você reutiliza como snippets em grupos, para ter tudo sempre a um toque."
           ]
@@ -51,6 +52,10 @@
         {
           "q": "Posso ver no PC o histórico da área de transferência do celular?",
           "a": "Sim, com o Clipboard+ nos dois: o app para Android e o Clipboard+ for Windows sincronizam pelo seu próprio Google Drive (recurso Pro no Android)."
+        },
+        {
+          "q": "Dei todas as permissões, mas nem tudo o que copio é salvo.",
+          "a": "É a regra de privacidade que o Android trouxe na versão 10. Um app que não está na tela não consegue ler a área de transferência, e nenhuma configuração de permissão desliga isso. Salve logo depois de copiar com a bolha, o widget ou abrindo o app, ou use o Clipboard+ no menu de seleção de texto. A área de transferência do sistema guarda só o último item, então se você copiar outra coisa antes de salvar, o anterior se perde."
         }
       ]
     },

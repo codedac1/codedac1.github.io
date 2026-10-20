@@ -11,7 +11,7 @@
   "guides": {
     "android-clipboard-history": {
       "app": "clipboard",
-      "updated": "2026-10-14",
+      "updated": "2026-10-20",
       "title": "Jak zobaczyć historię schowka na Androidzie",
       "desc": "Android pamięta tylko ostatnio skopiowaną rzecz. Zobacz, gdzie w klawiaturze znaleźć niedawno skopiowane treści i jak mieć przeszukiwalną historię, która nie znika.",
       "intro": "Sam Android pamięta tylko to, co skopiowałeś ostatnio — skopiujesz coś nowego i poprzedni tekst przepada. Jeśli chcesz odzyskać adres, kod albo zdanie skopiowane wcześniej, potrzebujesz miejsca, które przechowuje historię. Są dwa takie miejsca: klawiatura i aplikacja do zarządzania schowkiem.",
@@ -27,11 +27,12 @@
           "h": "Sposób 2: menedżer schowka z prawdziwą historią",
           "p": [
             "Jeśli w kółko kopiujesz te same rzeczy — adresy, numery kont, gotowe odpowiedzi — menedżer schowka przechowuje je, dopóki ich nie usuniesz, pozwala je przeszukiwać i może wyświetlać je nad dowolną aplikacją.",
-            "Clipboard+ (nasza aplikacja) zapisuje kopiowane teksty i obrazy w historii, od najnowszych, z wyszukiwaniem i pływającym panelem, który otworzysz nad aplikacją, z której właśnie korzystasz."
+            "Clipboard+ (nasza aplikacja) zapisuje kopiowane teksty i obrazy w historii, od najnowszych, z wyszukiwaniem i pływającym panelem, który otworzysz nad aplikacją, z której właśnie korzystasz.",
+            "Jedno zastrzeżenie: od Androida 10 schowek może odczytać tylko aplikacja widoczna na ekranie (i klawiatura, której używasz), więc żadna aplikacja do schowka nie zapisze sama wszystkiego, co kopiujesz, gdy działa w tle. Jeśli zaraz po skopiowaniu przywołasz aplikację na ekran, treść zostanie zapisana."
           ],
           "steps": [
             "Zainstaluj Clipboard+ z Google Play i otwórz go raz.",
-            "Kopiuj tekst jak zwykle. Możesz też zaznaczyć tekst w dowolnej aplikacji i wybrać Clipboard+ w menu zaznaczenia, aby go zapisać.",
+            "Zapisuj zaraz po skopiowaniu. Dotknij pływającej bańki przy krawędzi ekranu, przycisku zapisu w widżecie na ekranie głównym albo otwórz aplikację — to, co właśnie skopiowałeś, zostanie zapisane. W przypadku tekstu najpewniej jest zaznaczyć go w innej aplikacji i wybrać Clipboard+ z menu zaznaczania, bo wtedy schowek w ogóle nie jest używany.",
             "Otwórz pływający panel (albo aplikację), aby zobaczyć historię, dotknij wpisu, aby skopiować go ponownie, i wklej go tam, gdzie jesteś.",
             "Rzeczy, których używasz wielokrotnie, trzymaj jako fragmenty w grupach — będą zawsze o jedno dotknięcie."
           ]
@@ -51,6 +52,10 @@
         {
           "q": "Czy mogę zobaczyć historię schowka z telefonu na komputerze?",
           "a": "Tak, mając Clipboard+ na obu urządzeniach: aplikacja na Androida i Clipboard+ for Windows synchronizują się przez Twój własny Dysk Google (na Androidzie to funkcja Pro)."
+        },
+        {
+          "q": "Dałem wszystkie uprawnienia, a nie wszystko, co kopiuję, się zapisuje.",
+          "a": "To zasada prywatności wprowadzona w Androidzie 10. Aplikacja, której nie ma na ekranie, nie może odczytać schowka, i żadne ustawienie uprawnień tego nie wyłącza. Zapisuj zaraz po skopiowaniu bańką, widżetem lub otwierając aplikację, a tekst przez Clipboard+ w menu zaznaczania. Systemowy schowek przechowuje tylko ostatni element, więc jeśli przed zapisaniem skopiujesz coś innego, poprzednia treść przepadnie."
         }
       ]
     },

@@ -11,7 +11,7 @@
   "guides": {
     "android-clipboard-history": {
       "app": "clipboard",
-      "updated": "2026-10-14",
+      "updated": "2026-10-20",
       "title": "Cómo ver el historial del portapapeles en Android",
       "desc": "Android solo guarda lo último que copiaste. Te contamos dónde encontrar lo copiado recientemente en tu teclado y cómo tener un historial con búsqueda que no desaparezca.",
       "intro": "Android solo recuerda lo último que copiaste: copias algo nuevo y el texto anterior desaparece. Si quieres recuperar una dirección, un código o una frase que copiaste antes, necesitas un sitio que guarde un historial. Hay dos: tu teclado y una app de gestión del portapapeles.",
@@ -27,11 +27,12 @@
           "h": "Opción 2: un gestor de portapapeles con historial de verdad",
           "p": [
             "Si copias lo mismo una y otra vez (direcciones, números de cuenta, respuestas predefinidas), un gestor de portapapeles lo guarda hasta que lo borres, te deja buscarlo y puede mostrarlo sobre cualquier app.",
-            "Clipboard+ (nuestra app) guarda en un historial los textos e imágenes que copias, del más reciente al más antiguo, con búsqueda y un panel flotante que puedes abrir sobre la app que estés usando."
+            "Clipboard+ (nuestra app) guarda en un historial los textos e imágenes que copias, del más reciente al más antiguo, con búsqueda y un panel flotante que puedes abrir sobre la app que estés usando.",
+            "Eso sí: desde Android 10, solo la app que está en pantalla (y el teclado que estás usando) puede leer el portapapeles, así que ninguna app de portapapeles puede guardar sola todo lo que copias mientras está en segundo plano. Si traes la app al frente justo después de copiar, se guarda."
           ],
           "steps": [
             "Instala Clipboard+ desde Google Play y ábrelo una vez.",
-            "Copia texto como siempre. También puedes seleccionar texto en cualquier app y elegir Clipboard+ en el menú de selección para guardarlo.",
+            "Guarda justo después de copiar. Toca la burbuja flotante en el borde de la pantalla, toca el botón de guardar del widget de la pantalla de inicio o abre la app, y lo que acabas de copiar se guarda. Para texto, lo más seguro es seleccionarlo en otra app y elegir Clipboard+ en el menú de selección, porque no pasa por el portapapeles.",
             "Abre el panel flotante (o la app) para ver tu historial, toca un elemento para copiarlo de nuevo y pégalo donde estés.",
             "Guarda lo que reutilizas como fragmentos en grupos, para tenerlo siempre a un toque."
           ]
@@ -51,6 +52,10 @@
         {
           "q": "¿Puedo ver en el PC el historial del portapapeles de mi teléfono?",
           "a": "Sí, con Clipboard+ en ambos: la app de Android y Clipboard+ for Windows se sincronizan a través de tu propio Google Drive (función Pro en Android)."
+        },
+        {
+          "q": "Di todos los permisos, pero no se guarda todo lo que copio.",
+          "a": "Es la regla de privacidad que Android introdujo en la versión 10. Una app que no está en pantalla no puede leer el portapapeles, y ningún ajuste de permisos lo desactiva. Guarda justo después de copiar con la burbuja, el widget o abriendo la app, o usa Clipboard+ en el menú de selección de texto. El portapapeles del sistema solo guarda el último elemento, así que si copias otra cosa antes de guardar, lo anterior se pierde."
         }
       ]
     },

@@ -11,7 +11,7 @@
   "guides": {
     "android-clipboard-history": {
       "app": "clipboard",
-      "updated": "2026-10-14",
+      "updated": "2026-10-20",
       "title": "Cara melihat riwayat clipboard di Android",
       "desc": "Android hanya menyimpan yang terakhir Anda salin. Berikut tempat menemukan salinan terbaru di keyboard, dan cara menyimpan riwayat yang bisa dicari dan tidak hilang.",
       "intro": "Android sendiri hanya mengingat yang terakhir Anda salin — salin sesuatu yang baru, dan teks sebelumnya hilang. Jika ingin mendapatkan kembali alamat, kode, atau kalimat yang Anda salin sebelumnya, Anda perlu tempat yang menyimpan riwayat. Ada dua: keyboard Anda, dan aplikasi pengelola clipboard.",
@@ -27,11 +27,12 @@
           "h": "Opsi 2: pengelola clipboard yang menyimpan riwayat sungguhan",
           "p": [
             "Jika Anda menyalin hal yang sama berulang kali — alamat, nomor rekening, balasan siap pakai — pengelola clipboard menyimpannya sampai Anda menghapusnya, memungkinkan Anda mencarinya, dan bisa menampilkannya di atas aplikasi apa pun.",
-            "Clipboard+ (aplikasi kami) menyimpan teks dan gambar yang Anda salin dalam riwayat, terbaru di atas, dengan pencarian dan panel mengambang yang bisa dibuka di atas aplikasi yang sedang Anda pakai."
+            "Clipboard+ (aplikasi kami) menyimpan teks dan gambar yang Anda salin dalam riwayat, terbaru di atas, dengan pencarian dan panel mengambang yang bisa dibuka di atas aplikasi yang sedang Anda pakai.",
+            "Satu catatan: sejak Android 10, hanya aplikasi yang tampil di layar (dan keyboard yang sedang Anda pakai) yang bisa membaca papan klip, jadi tidak ada aplikasi papan klip yang bisa menyimpan sendiri semua yang Anda salin selagi berada di latar belakang. Membawa aplikasi ke depan tepat setelah menyalin akan menyimpannya."
           ],
           "steps": [
             "Pasang Clipboard+ dari Google Play dan buka sekali.",
-            "Salin teks seperti biasa. Anda juga bisa memilih teks di aplikasi apa pun dan memilih Clipboard+ di menu seleksi untuk menyimpannya.",
+            "Simpan tepat setelah menyalin. Ketuk gelembung melayang di tepi layar, ketuk tombol simpan di widget layar utama, atau buka aplikasi, dan yang baru saja Anda salin akan tersimpan. Untuk teks, cara paling andal adalah memilihnya di aplikasi lain lalu memilih Clipboard+ dari menu pilihan, karena cara ini sama sekali tidak melewati papan klip.",
             "Buka panel mengambang (atau aplikasinya) untuk melihat riwayat, ketuk sebuah klip untuk menyalinnya lagi, lalu tempel di tempat Anda berada.",
             "Simpan teks yang sering dipakai sebagai snippet dalam grup, agar selalu sejauh satu ketukan."
           ]
@@ -51,6 +52,10 @@
         {
           "q": "Bisakah saya melihat riwayat clipboard ponsel di PC?",
           "a": "Bisa, dengan Clipboard+ di keduanya: aplikasi Android dan Clipboard+ for Windows tersinkron melalui Google Drive Anda sendiri (fitur Pro di Android)."
+        },
+        {
+          "q": "Saya sudah memberi semua izin, tetapi tidak semua yang saya salin tersimpan.",
+          "a": "Itu karena aturan privasi yang diperkenalkan Android 10. Aplikasi yang tidak tampil di layar tidak bisa membaca papan klip, dan tidak ada pengaturan izin yang bisa mematikannya. Simpan tepat setelah menyalin lewat gelembung, widget, atau dengan membuka aplikasi, atau gunakan Clipboard+ di menu pilihan teks. Papan klip sistem hanya menyimpan item terakhir, jadi jika Anda menyalin hal lain sebelum menyimpan, yang sebelumnya hilang."
         }
       ]
     },

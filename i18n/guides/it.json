@@ -11,7 +11,7 @@
   "guides": {
     "android-clipboard-history": {
       "app": "clipboard",
-      "updated": "2026-10-14",
+      "updated": "2026-10-20",
       "title": "Come vedere la cronologia degli appunti su Android",
       "desc": "Android conserva solo l'ultima cosa che hai copiato. Ecco dove trovare i testi copiati di recente nella tastiera e come tenere una cronologia ricercabile che non sparisce.",
       "intro": "Android di per sé ricorda solo l'ultima cosa che hai copiato: copi qualcosa di nuovo e il testo precedente è perso. Se vuoi recuperare un indirizzo, un codice o una frase copiati prima, ti serve un posto che tenga una cronologia. Ce ne sono due: la tastiera e un'app di gestione degli appunti.",
@@ -27,11 +27,12 @@
           "h": "Opzione 2: un gestore degli appunti con una vera cronologia",
           "p": [
             "Se copi continuamente le stesse cose — indirizzi, numeri di conto, risposte pronte —, un gestore degli appunti le conserva finché non le elimini, ti permette di cercarle e può mostrarle sopra qualsiasi app.",
-            "Clipboard+ (la nostra app) conserva testi e immagini che copi in una cronologia, dal più recente, con la ricerca e un pannello flottante da aprire sopra l'app che stai usando."
+            "Clipboard+ (la nostra app) conserva testi e immagini che copi in una cronologia, dal più recente, con la ricerca e un pannello flottante da aprire sopra l'app che stai usando.",
+            "Un'avvertenza: da Android 10 solo l'app sullo schermo (e la tastiera che stai usando) può leggere gli appunti, quindi nessuna app per gli appunti può salvare da sola tutto ciò che copi mentre è in background. Se porti l'app in primo piano subito dopo aver copiato, viene salvato."
           ],
           "steps": [
             "Installa Clipboard+ da Google Play e aprila una volta.",
-            "Copia come al solito. Puoi anche selezionare del testo in qualsiasi app e scegliere Clipboard+ nel menu di selezione per salvarlo.",
+            "Salva subito dopo aver copiato. Tocca la bolla flottante sul bordo dello schermo, tocca il pulsante salva del widget nella schermata Home oppure apri l'app, e ciò che hai appena copiato viene salvato. Per il testo, il modo più sicuro è selezionarlo in un'altra app e scegliere Clipboard+ dal menu di selezione, perché non passa affatto dagli appunti.",
             "Apri il pannello flottante (o l'app) per vedere la cronologia, tocca un elemento per copiarlo di nuovo e incollalo dove ti trovi.",
             "Salva i testi che riusi come snippet in gruppi, così sono sempre a portata di tocco."
           ]
@@ -51,6 +52,10 @@
         {
           "q": "Posso vedere la cronologia degli appunti del telefono sul PC?",
           "a": "Sì, con Clipboard+ su entrambi: l'app Android e Clipboard+ for Windows si sincronizzano tramite il tuo Google Drive (funzione Pro su Android)."
+        },
+        {
+          "q": "Ho concesso tutti i permessi, ma non tutto ciò che copio viene salvato.",
+          "a": "È la regola sulla privacy introdotta da Android 10. Un'app che non è sullo schermo non può leggere gli appunti e nessuna impostazione dei permessi lo disattiva. Salva subito dopo aver copiato con la bolla, il widget o aprendo l'app, oppure usa Clipboard+ nel menu di selezione del testo. Gli appunti di sistema conservano solo l'ultimo elemento: se copi altro prima di salvare, quello precedente va perso."
         }
       ]
     },
