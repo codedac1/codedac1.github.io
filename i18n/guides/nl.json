@@ -11,7 +11,7 @@
   "guides": {
     "android-clipboard-history": {
       "app": "clipboard",
-      "updated": "2026-10-20",
+      "updated": "2026-10-21",
       "title": "Klembordgeschiedenis bekijken op Android",
       "desc": "Android onthoudt alleen het laatste wat je hebt gekopieerd. Hier lees je waar je recent gekopieerde items in je toetsenbord vindt, en hoe je een doorzoekbare geschiedenis bewaart die niet verdwijnt.",
       "intro": "Android zelf onthoudt alleen het laatste wat je hebt gekopieerd: kopieer je iets nieuws, dan is de vorige tekst weg. Wil je een adres, een code of een zin terughalen die je eerder kopieerde, dan heb je een plek nodig die een geschiedenis bijhoudt. Die zijn er twee: je toetsenbord en een klembordmanager-app.",
@@ -28,11 +28,11 @@
           "p": [
             "Kopieer je steeds weer dezelfde dingen – adressen, rekeningnummers, standaardantwoorden – dan bewaart een klembordmanager ze tot je ze verwijdert, kun je erin zoeken en kan hij ze boven elke app tonen.",
             "Clipboard+ (onze app) bewaart de tekst en afbeeldingen die je kopieert in een geschiedenis, het nieuwste bovenaan, met een zoekfunctie en een zwevend paneel dat je boven de app die je gebruikt kunt openen.",
-            "Eén kanttekening: sinds Android 10 kan alleen de app op het scherm (en het toetsenbord waarmee je typt) het klembord lezen. Geen enkele klembord-app kan dus vanzelf alles opslaan wat je kopieert terwijl hij op de achtergrond staat. Haal je de app direct na het kopiëren even naar voren, dan wordt het opgeslagen."
+            "Eén kanttekening: sinds Android 10 kan alleen de app op het scherm (en het toetsenbord waarmee je typt) het klembord lezen. Clipboard+ vangt dat op met optioneel automatisch opslaan: zet het aan in Instellingen, geef één keer toestemming voor Toegankelijkheid, en alles wat je kopieert wordt meteen bewaard. Zonder deze functie haal je de app direct na het kopiëren even naar voren."
           ],
           "steps": [
             "Installeer Clipboard+ via Google Play en open de app één keer.",
-            "Sla direct na het kopiëren op. Tik op de zwevende bubbel aan de rand van het scherm, op de bewaarknop van de widget op je startscherm of open de app, en wat je net hebt gekopieerd wordt opgeslagen. Voor tekst is de betrouwbaarste manier om hem in een andere app te selecteren en Clipboard+ te kiezen in het selectiemenu, omdat dat het klembord helemaal overslaat.",
+            "Zet automatisch opslaan aan in Instellingen (optioneel) en elke kopie wordt vanzelf bewaard. Anders sla je direct na het kopiëren op: tik op de zwevende bubbel aan de schermrand, op de opslaanknop van de widget, of open de app. Bij tekst werkt selecteren in een andere app en Clipboard+ kiezen in het selectiemenu altijd, omdat het klembord dan wordt overgeslagen.",
             "Open het zwevende paneel (of de app) om je geschiedenis te zien, tik op een item om het opnieuw te kopiëren en plak het waar je bent.",
             "Bewaar teksten die je vaker gebruikt als snippets in groepen, zodat ze altijd één tik weg zijn."
           ]
@@ -55,7 +55,7 @@
         },
         {
           "q": "Ik heb alle rechten gegeven, maar niet alles wat ik kopieer wordt opgeslagen.",
-          "a": "Dat komt door de privacyregel die Android in versie 10 invoerde. Een app die niet op het scherm staat, kan het klembord niet lezen, en geen enkele rechteninstelling zet dat uit. Sla direct na het kopiëren op via de bubbel, de widget of door de app te openen, of gebruik voor tekst Clipboard+ in het selectiemenu. Het systeemklembord bewaart alleen het laatste item, dus als je vóór het opslaan iets anders kopieert, is het vorige weg."
+          "a": "Dat is de privacyregel die Android 10 invoerde: een app die niet op het scherm staat, kan het klembord niet lezen, en gewone machtigingen veranderen dat niet. Zet automatisch opslaan aan in de instellingen van Clipboard+: het gebruikt de toegankelijkheidsservice om elke kopie meteen te bewaren. Anders sla je direct na het kopiëren op met de bubbel, de widget of door de app te openen, of gebruik je Clipboard+ in het tekstselectiemenu. Het systeemklembord houdt alleen het laatste item; zonder automatisch opslaan is het vorige weg als je eerst iets anders kopieert."
         }
       ]
     },

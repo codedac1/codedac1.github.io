@@ -11,7 +11,7 @@
   "guides": {
     "android-clipboard-history": {
       "app": "clipboard",
-      "updated": "2026-10-20",
+      "updated": "2026-10-21",
       "title": "Android'de pano geçmişi nasıl görülür",
       "desc": "Android yalnızca son kopyaladığınızı saklar. Klavyenizde son kopyaladıklarınızı nerede bulacağınızı ve kaybolmayan, aranabilir bir geçmişi nasıl tutacağınızı anlatıyoruz.",
       "intro": "Android'in kendisi yalnızca son kopyaladığınızı hatırlar; yeni bir şey kopyaladığınızda önceki metin gider. Daha önce kopyaladığınız bir adresi, kodu ya da cümleyi geri almak istiyorsanız geçmişi saklayan bir yere ihtiyacınız var. Bunun iki yolu var: klavyeniz ve bir pano yöneticisi uygulaması.",
@@ -28,11 +28,11 @@
           "p": [
             "Aynı şeyleri tekrar tekrar kopyalıyorsanız (adresler, hesap numaraları, hazır yanıtlar), bir pano yöneticisi bunları siz silene kadar saklar, içinde arama yapmanızı sağlar ve her uygulamanın üstünde gösterebilir.",
             "Clipboard+ (bizim uygulamamız) kopyaladığınız metin ve görselleri en yeniden başlayarak bir geçmişte tutar; arama özelliği ve kullandığınız uygulamanın üstünde açabileceğiniz yüzen bir paneli vardır.",
-            "Bir ayrıntı: Android 10'dan beri panoyu yalnızca ekrandaki uygulama (ve kullandığınız klavye) okuyabiliyor; bu yüzden hiçbir pano uygulaması arka plandayken kopyaladığınız her şeyi kendiliğinden kaydedemez. Kopyaladıktan hemen sonra uygulamayı bir kez öne getirirseniz kaydedilir."
+            "Bir ayrıntı: Android 10'dan beri panoyu yalnızca ekrandaki uygulama (ve yazdığınız klavye) okuyabilir. Clipboard+ bunu isteğe bağlı otomatik kaydetmeyle aşar: Ayarlar'dan açın, bir kez Erişilebilirlik izni verin; kopyaladığınız her şey anında kaydedilir. Açık değilse kopyaladıktan hemen sonra uygulamayı öne getirin."
           ],
           "steps": [
             "Clipboard+'ı Google Play'den yükleyin ve bir kez açın.",
-            "Kopyaladıktan hemen sonra kaydedin. Ekran kenarındaki yüzen balona, ana ekrandaki widget'ın kaydet düğmesine dokunun ya da uygulamayı açın; az önce kopyaladığınız şey kaydedilir. Metin içinse en güvenilir yol, onu başka bir uygulamada seçip seçim menüsünden Clipboard+'ı seçmektir; çünkü bu yöntem panoyu hiç kullanmaz.",
+            "Ayarlar'dan otomatik kaydetmeyi açın (isteğe bağlı), her kopya kendiliğinden kaydedilsin. Açık değilse kopyaladıktan hemen sonra kaydedin: ekran kenarındaki yüzen balona, ana ekran widget'ının kaydet düğmesine dokunun ya da uygulamayı açın. Metin için başka bir uygulamada seçip seçim menüsünden Clipboard+'ı seçmek her zaman çalışır, çünkü panoyu hiç kullanmaz.",
             "Geçmişinizi görmek için yüzen paneli (veya uygulamayı) açın, bir kayda dokunarak yeniden kopyalayın ve bulunduğunuz yere yapıştırın.",
             "Tekrar kullandığınız şeyleri gruplar içinde snippet olarak saklayın; hep bir dokunuş uzağınızda olsunlar."
           ]
@@ -55,7 +55,7 @@
         },
         {
           "q": "Tüm izinleri verdim ama kopyaladığım her şey kaydedilmiyor.",
-          "a": "Bu, Android 10 ile gelen gizlilik kuralından kaynaklanır. Ekranda olmayan bir uygulama panoyu okuyamaz ve hiçbir izin ayarı bunu kapatmaz. Kopyaladıktan hemen sonra balon, widget veya uygulamayı açarak kaydedin; metin için seçim menüsündeki Clipboard+'ı kullanın. Sistem panosu yalnızca son öğeyi tutar; kaydetmeden önce başka bir şey kopyalarsanız önceki kaybolur."
+          "a": "Bu, Android 10 ile gelen gizlilik kuralıdır: ekranda olmayan bir uygulama panoyu okuyamaz ve normal izinler bunu değiştirmez. Clipboard+ ayarlarından otomatik kaydetmeyi açın; Erişilebilirlik hizmetiyle her kopyayı anında kaydeder. Açık değilse kopyaladıktan hemen sonra balon, widget ya da uygulamayı açarak kaydedin veya metin için seçim menüsündeki Clipboard+'ı kullanın. Sistem panosu yalnızca son öğeyi tutar; otomatik kaydetme olmadan önce başka bir şey kopyalarsanız önceki öğe kaybolur."
         }
       ]
     },

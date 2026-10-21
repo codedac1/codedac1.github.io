@@ -11,7 +11,7 @@
   "guides": {
     "android-clipboard-history": {
       "app": "clipboard",
-      "updated": "2026-10-20",
+      "updated": "2026-10-21",
       "title": "How to see your clipboard history on Android",
       "desc": "Android keeps only the last thing you copied. Here is where to find recent clips in your keyboard, and how to keep a searchable history that does not disappear.",
       "intro": "Android itself remembers only the last thing you copied — copy something new and the previous text is gone. If you want to get back an address, a code or a sentence you copied earlier, you need a place that keeps a history. There are two: your keyboard, and a clipboard manager app.",
@@ -28,11 +28,11 @@
           "p": [
             "If you copy the same things again and again — addresses, account numbers, canned replies — a clipboard manager keeps them until you delete them, lets you search them, and can show them over any app.",
             "Clipboard+ (our app) keeps the text and images you copy in a history, newest first, with search and a floating panel you can open over the app you are using.",
-            "One catch: since Android 10, only the app on screen (and the keyboard you're typing with) can read the clipboard, so no clipboard app can quietly save everything you copy while it sits in the background. Bringing the app to the front right after you copy saves it."
+            "One catch: since Android 10, only the app on screen (and the keyboard you're typing with) can read the clipboard. Clipboard+ gets around waiting for you with an optional Auto-save: turn it on in Settings and, with a one-time Accessibility permission, everything you copy is saved the moment you copy it. Without Auto-save, bring the app to the front right after you copy."
           ],
           "steps": [
             "Install Clipboard+ from Google Play and open it once.",
-            "Save right after you copy. Tap the floating bubble at the edge of the screen, tap the save button on the home-screen widget, or open the app, and what you just copied is saved. For text, selecting it in another app and choosing Clipboard+ from the selection menu is the most reliable way, because it skips the clipboard entirely.",
+            "Turn on Auto-save in Settings (optional) and copies are saved automatically. Otherwise, save right after you copy: tap the floating bubble at the edge of the screen, tap the save button on the home-screen widget, or open the app. For text, selecting it in another app and choosing Clipboard+ from the selection menu always works, because it skips the clipboard entirely.",
             "Open the floating panel (or the app) to see your history, tap a clip to copy it again, and paste it where you are.",
             "Keep things you reuse as snippets in groups, so they are always one tap away."
           ]
@@ -55,7 +55,7 @@
         },
         {
           "q": "I granted every permission, but not everything I copy gets saved.",
-          "a": "That's the privacy rule Android introduced in version 10. An app that isn't on screen can't read the clipboard, and no permission setting turns this off. Save right after copying with the bubble, the widget or by opening the app, or use Clipboard+ in the text selection menu for text. The system clipboard only holds the last item, so if you copy something else before saving, the earlier item is gone."
+          "a": "That's the privacy rule Android introduced in version 10: an app that isn't on screen can't read the clipboard, and ordinary permissions don't change that. Turn on Auto-save in Clipboard+ Settings — it uses the Accessibility service to save each copy as you make it. Otherwise save right after copying with the bubble, the widget or by opening the app, or use Clipboard+ in the text selection menu. The system clipboard only holds the last item, so without Auto-save, copying something else first means the earlier item is gone."
         }
       ]
     },

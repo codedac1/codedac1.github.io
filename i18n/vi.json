@@ -134,9 +134,9 @@
       "seo": "Trình quản lý bộ nhớ tạm Android",
       "desc": "Lưu mọi văn bản và ảnh đã sao chép. Tìm kiếm, dán và đồng bộ sang PC.",
       "tagline": "Không đánh mất thứ bạn đã sao chép — mọi văn bản và hình ảnh trong lịch sử tìm kiếm được",
-      "long": "Clipboard+ là trình quản lý bộ nhớ tạm cho Android, giữ mọi văn bản và hình ảnh bạn sao chép trong một lịch sử tìm kiếm được, mới nhất lên đầu. Từ Android 10, không ứng dụng nào được đọc clipboard ở nền, nên Clipboard+ lưu nội dung bạn sao chép ngay khi nó hoạt động — khi bạn mở ứng dụng, chạm vào bảng nổi hoặc dùng tiện ích — hoặc ngay lập tức nếu bạn chạm Clipboard+ trong trình đơn chọn văn bản. Lớp phủ nổi có thể chỉnh kích thước giúp bạn truy cập lịch sử bộ nhớ tạm từ bất kỳ màn hình nào mà không cần chuyển ứng dụng. Sắp xếp các đoạn văn bản hay dùng thành snippet và nhóm, rồi dán nhanh bất kỳ mục nào bằng tìm kiếm từ khóa, widget màn hình chính và bảng thông báo. Bạn cũng có thể xuất lịch sử ra PDF và sao lưu hoặc khôi phục các mục bất cứ lúc nào. Dùng chung với Clipboard+ for Windows, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Bạn chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng; nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn.",
+      "long": "Clipboard+ là trình quản lý bộ nhớ tạm cho Android, giữ mọi văn bản và hình ảnh bạn sao chép trong một lịch sử tìm kiếm được, mới nhất lên đầu. Từ Android 10, không ứng dụng nào được đọc clipboard ở nền, nên Clipboard+ lưu nội dung bạn sao chép ngay khi nó hoạt động — khi bạn mở ứng dụng, chạm vào bảng nổi hoặc dùng tiện ích — hoặc ngay lập tức nếu bạn chạm Clipboard+ trong trình đơn chọn văn bản. Bật tự động lưu (tùy chọn) và Clipboard+ dùng dịch vụ Hỗ trợ tiếp cận của Android để lưu nội dung bạn sao chép ở ứng dụng khác ngay lúc sao chép, không cần mở ứng dụng; không đọc màn hình ứng dụng khác và bỏ qua mật khẩu. Lớp phủ nổi có thể chỉnh kích thước giúp bạn truy cập lịch sử bộ nhớ tạm từ bất kỳ màn hình nào mà không cần chuyển ứng dụng. Sắp xếp các đoạn văn bản hay dùng thành snippet và nhóm, rồi dán nhanh bất kỳ mục nào bằng tìm kiếm từ khóa, widget màn hình chính và bảng thông báo. Bạn cũng có thể xuất lịch sử ra PDF và sao lưu hoặc khôi phục các mục bất cứ lúc nào. Dùng chung với Clipboard+ for Windows, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Bạn chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng; nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn.",
       "features": [
-        "Mọi văn bản và hình ảnh đã sao chép nằm trong lịch sử tìm kiếm được, mới nhất lên đầu",
+        "Tự động lưu (tùy chọn) ngay lúc sao chép; văn bản và hình ảnh trong lịch sử tìm kiếm được, mới nhất trước",
         "Lớp phủ nổi chỉnh được kích thước, dùng trên mọi ứng dụng",
         "Sắp xếp văn bản hay dùng thành snippet và nhóm",
         "Tìm kiếm và lọc tức thì theo từ khóa, văn bản, hình ảnh hoặc ngày",
@@ -146,7 +146,7 @@
       "faq": [
         {
           "q": "Khi nào nội dung tôi sao chép được lưu?",
-          "a": "Từ Android 10, Google chặn ứng dụng đọc clipboard ở nền và không trình quản lý clipboard nào vượt qua được. Clipboard+ lưu nội dung bạn sao chép ngay khi nó hoạt động — khi bạn mở ứng dụng, chạm vào bảng nổi hoặc dùng tiện ích. Để lưu mà không chuyển ứng dụng, hãy chọn văn bản rồi chạm Clipboard+ trong trình đơn chọn."
+          "a": "Bật tự động lưu (tùy chọn, mặc định tắt) và nội dung bạn sao chép ở ứng dụng khác được lưu ngay mà không cần mở Clipboard+. Dịch vụ Hỗ trợ tiếp cận chỉ dùng để nhận biết lúc sao chép: không đọc màn hình ứng dụng khác, bỏ qua mục được đánh dấu là mật khẩu và không gửi gì đi. Nếu không bật, từ Android 10 chỉ ứng dụng đang hiện trên màn hình mới đọc được bảng nhớ tạm, nên Clipboard+ lưu khi bạn mở ứng dụng, chạm bong bóng nổi hoặc dùng tiện ích, hoặc khi chọn Clipboard+ trong menu chọn văn bản."
         },
         {
           "q": "Tôi có thể xem lịch sử bộ nhớ tạm khi đang dùng ứng dụng khác không?",

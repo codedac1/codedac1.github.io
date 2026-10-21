@@ -11,7 +11,7 @@
   "guides": {
     "android-clipboard-history": {
       "app": "clipboard",
-      "updated": "2026-10-20",
+      "updated": "2026-10-21",
       "title": "Comment voir l’historique du presse-papiers sur Android",
       "desc": "Android ne garde que le dernier élément copié. Voici où retrouver vos copies récentes dans votre clavier, et comment conserver un historique consultable qui ne disparaît pas.",
       "intro": "Android ne mémorise que le dernier élément copié : copiez autre chose et le texte précédent disparaît. Pour retrouver une adresse, un code ou une phrase copiés plus tôt, il vous faut un endroit qui garde un historique. Il y en a deux : votre clavier, et une appli de gestion du presse-papiers.",
@@ -28,11 +28,11 @@
           "p": [
             "Si vous copiez sans cesse les mêmes choses — adresses, numéros de compte, réponses toutes faites —, un gestionnaire de presse-papiers les garde jusqu’à ce que vous les supprimiez, permet de les rechercher et peut les afficher par-dessus n’importe quelle appli.",
             "Clipboard+ (notre appli) conserve les textes et images que vous copiez dans un historique, du plus récent au plus ancien, avec une recherche et une fenêtre flottante à ouvrir par-dessus l’appli que vous utilisez.",
-            "Une précision : depuis Android 10, seule l'app affichée à l'écran (et le clavier que vous utilisez) peut lire le presse-papiers. Aucune app de presse-papiers ne peut donc enregistrer seule tout ce que vous copiez pendant qu'elle est en arrière-plan. Ramener l'app au premier plan juste après la copie l'enregistre."
+            "Un bémol : depuis Android 10, seule l’appli à l’écran (et le clavier que vous utilisez) peut lire le presse-papiers. Clipboard+ compense avec l’enregistrement automatique facultatif : activez-le dans les paramètres, accordez une fois l’autorisation d’Accessibilité, et tout ce que vous copiez est enregistré aussitôt. Sans lui, ramenez l’appli au premier plan juste après avoir copié."
           ],
           "steps": [
             "Installez Clipboard+ depuis Google Play et ouvrez-la une fois.",
-            "Enregistrez juste après avoir copié. Touchez la bulle flottante au bord de l'écran, touchez le bouton d'enregistrement du widget de l'écran d'accueil ou ouvrez l'app : ce que vous venez de copier est enregistré. Pour du texte, le plus fiable est de le sélectionner dans une autre app et de choisir Clipboard+ dans le menu de sélection, car cela ne passe pas du tout par le presse-papiers.",
+            "Activez l’enregistrement automatique dans les paramètres (facultatif) et chaque copie s’enregistre toute seule. Sinon, enregistrez juste après avoir copié : touchez la bulle flottante au bord de l’écran, le bouton d’enregistrement du widget, ou ouvrez l’appli. Pour du texte, le sélectionner dans une autre appli et choisir Clipboard+ dans le menu de sélection fonctionne toujours, car cela contourne le presse-papiers.",
             "Ouvrez la fenêtre flottante (ou l’appli) pour voir votre historique, touchez un élément pour le copier à nouveau, puis collez-le là où vous êtes.",
             "Rangez les textes que vous réutilisez en extraits dans des groupes : ils sont toujours à un toucher."
           ]
@@ -55,7 +55,7 @@
         },
         {
           "q": "J'ai accordé toutes les autorisations, mais tout ce que je copie n'est pas enregistré.",
-          "a": "C'est la règle de confidentialité introduite par Android 10. Une app qui n'est pas à l'écran ne peut pas lire le presse-papiers, et aucun réglage d'autorisation ne le désactive. Enregistrez juste après la copie avec la bulle, le widget ou en ouvrant l'app, ou utilisez Clipboard+ dans le menu de sélection pour le texte. Le presse-papiers du système ne garde que le dernier élément : si vous copiez autre chose avant d'enregistrer, le précédent est perdu."
+          "a": "C’est la règle de confidentialité introduite par Android 10 : une appli qui n’est pas à l’écran ne peut pas lire le presse-papiers, et les autorisations ordinaires n’y changent rien. Activez l’enregistrement automatique dans les paramètres de Clipboard+ : il utilise le service d’Accessibilité pour enregistrer chaque copie aussitôt. Sinon, enregistrez juste après la copie avec la bulle, le widget ou en ouvrant l’appli, ou utilisez Clipboard+ dans le menu de sélection pour du texte. Le presse-papiers système ne garde que le dernier élément : sans enregistrement automatique, copier autre chose avant fait disparaître l’élément précédent."
         }
       ]
     },

@@ -63,8 +63,8 @@
   "headline": "Cómo ver el historial del portapapeles en Android",
   "description": "Android solo guarda lo último que copiaste. Te contamos dónde encontrar lo copiado recientemente en tu teclado y cómo tener un historial con búsqueda que no desaparezca.",
   "inLanguage": "es",
-  "datePublished": "2026-10-20",
-  "dateModified": "2026-10-20",
+  "datePublished": "2026-10-21",
+  "dateModified": "2026-10-21",
   "mainEntityOfPage": "https://codedac.com/es/guides/android-clipboard-history.html",
   "image": "https://codedac.com/images/icons/clipboard.png",
   "author": {
@@ -136,7 +136,7 @@
       "name": "Di todos los permisos, pero no se guarda todo lo que copio.",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Es la regla de privacidad que Android introdujo en la versión 10. Una app que no está en pantalla no puede leer el portapapeles, y ningún ajuste de permisos lo desactiva. Guarda justo después de copiar con la burbuja, el widget o abriendo la app, o usa Clipboard+ en el menú de selección de texto. El portapapeles del sistema solo guarda el último elemento, así que si copias otra cosa antes de guardar, lo anterior se pierde."
+        "text": "Es la regla de privacidad que introdujo Android 10: una app que no está en pantalla no puede leer el portapapeles, y los permisos normales no lo cambian. Activa el guardado automático en los ajustes de Clipboard+: usa el servicio de Accesibilidad para guardar cada copia al momento. Si no, guarda justo después de copiar con la burbuja, el widget o abriendo la app, o usa Clipboard+ en el menú de selección de texto. El portapapeles del sistema solo guarda el último elemento, así que sin guardado automático, si copias otra cosa antes, lo anterior se pierde."
       }
     }
   ]
@@ -200,7 +200,7 @@
         <span class="current">Guías</span>
       </nav>
       <h1>Cómo ver el historial del portapapeles en Android</h1>
-      <p class="guide-meta">Actualizado <time datetime="2026-10-20">2026-10-20</time></p>
+      <p class="guide-meta">Actualizado <time datetime="2026-10-21">2026-10-21</time></p>
     </div>
   </section>
 
@@ -216,10 +216,10 @@
         <h2>Opción 2: un gestor de portapapeles con historial de verdad</h2>
         <p>Si copias lo mismo una y otra vez (direcciones, números de cuenta, respuestas predefinidas), un gestor de portapapeles lo guarda hasta que lo borres, te deja buscarlo y puede mostrarlo sobre cualquier app.</p>
         <p>Clipboard+ (nuestra app) guarda en un historial los textos e imágenes que copias, del más reciente al más antiguo, con búsqueda y un panel flotante que puedes abrir sobre la app que estés usando.</p>
-        <p>Eso sí: desde Android 10, solo la app que está en pantalla (y el teclado que estás usando) puede leer el portapapeles, así que ninguna app de portapapeles puede guardar sola todo lo que copias mientras está en segundo plano. Si traes la app al frente justo después de copiar, se guarda.</p>
+        <p>Un detalle: desde Android 10, solo la app en pantalla (y el teclado con el que escribes) puede leer el portapapeles. Clipboard+ lo compensa con el guardado automático opcional: actívalo en Ajustes, da una vez el permiso de Accesibilidad y todo lo que copies se guardará al momento. Sin él, trae la app al frente justo después de copiar.</p>
         <ol class="guide-steps">
           <li>Instala Clipboard+ desde Google Play y ábrelo una vez.</li>
-          <li>Guarda justo después de copiar. Toca la burbuja flotante en el borde de la pantalla, toca el botón de guardar del widget de la pantalla de inicio o abre la app, y lo que acabas de copiar se guarda. Para texto, lo más seguro es seleccionarlo en otra app y elegir Clipboard+ en el menú de selección, porque no pasa por el portapapeles.</li>
+          <li>Activa el guardado automático en Ajustes (opcional) y cada copia se guardará sola. Si no, guarda justo después de copiar: toca la burbuja flotante del borde de la pantalla, el botón de guardar del widget o abre la app. Con texto, seleccionarlo en otra app y elegir Clipboard+ en el menú de selección siempre funciona, porque no pasa por el portapapeles.</li>
           <li>Abre el panel flotante (o la app) para ver tu historial, toca un elemento para copiarlo de nuevo y pégalo donde estés.</li>
           <li>Guarda lo que reutilizas como fragmentos en grupos, para tenerlo siempre a un toque.</li>
         </ol>
@@ -253,7 +253,7 @@
       <div class="faq-list">
         <div class="faq-item"><p class="faq-q">¿Android tiene un historial del portapapeles integrado?</p><p class="faq-a">No en el propio sistema: Android solo guarda lo último copiado. Teclados como Gboard y el Teclado Samsung añaden una lista de portapapeles a corto plazo.</p></div>
         <div class="faq-item"><p class="faq-q">¿Puedo ver en el PC el historial del portapapeles de mi teléfono?</p><p class="faq-a">Sí, con Clipboard+ en ambos: la app de Android y Clipboard+ for Windows se sincronizan a través de tu propio Google Drive (función Pro en Android).</p></div>
-        <div class="faq-item"><p class="faq-q">Di todos los permisos, pero no se guarda todo lo que copio.</p><p class="faq-a">Es la regla de privacidad que Android introdujo en la versión 10. Una app que no está en pantalla no puede leer el portapapeles, y ningún ajuste de permisos lo desactiva. Guarda justo después de copiar con la burbuja, el widget o abriendo la app, o usa Clipboard+ en el menú de selección de texto. El portapapeles del sistema solo guarda el último elemento, así que si copias otra cosa antes de guardar, lo anterior se pierde.</p></div>
+        <div class="faq-item"><p class="faq-q">Di todos los permisos, pero no se guarda todo lo que copio.</p><p class="faq-a">Es la regla de privacidad que introdujo Android 10: una app que no está en pantalla no puede leer el portapapeles, y los permisos normales no lo cambian. Activa el guardado automático en los ajustes de Clipboard+: usa el servicio de Accesibilidad para guardar cada copia al momento. Si no, guarda justo después de copiar con la burbuja, el widget o abriendo la app, o usa Clipboard+ en el menú de selección de texto. El portapapeles del sistema solo guarda el último elemento, así que sin guardado automático, si copias otra cosa antes, lo anterior se pierde.</p></div>
       </div>
     </div>
   </section>
