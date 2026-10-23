@@ -539,10 +539,10 @@
     },
     "make-android-phone-louder": {
       "app": "volumebooster",
-      "updated": "2026-10-14",
+      "updated": "2026-10-23",
       "title": "Como deixar o celular Android mais alto",
-      "desc": "O celular está baixo mesmo com o volume no máximo? Confira primeiro estas configurações e depois veja como um amplificador de volume aumenta a saída com segurança — com o ganho mostrado em decibéis.",
-      "intro": "Se vídeos, chamadas no viva-voz ou música ficam baixos demais mesmo com o volume no máximo, comece por algumas configurações — às vezes o próprio celular está se limitando. Se não for suficiente, um amplificador de volume pode aumentar ainda mais a saída.",
+      "desc": "O celular está baixo mesmo com o volume no máximo? Confira primeiro estas configurações e depois veja como um amplificador de volume aumenta o volume do aparelho e amplifica a maioria dos apps com um toque.",
+      "intro": "Se vídeos, chamadas no viva-voz ou música ficam baixos demais, comece por algumas configurações — às vezes o próprio celular está se limitando. Se não for suficiente, um amplificador de volume pode aumentar ainda mais a saída.",
       "sections": [
         {
           "h": "Confira isto primeiro",
@@ -554,11 +554,11 @@
         {
           "h": "Aumente a saída com o VolumeBooster+",
           "p": [
-            "O VolumeBooster+ (nosso app) aumenta a saída do sistema, e não o volume de um só app, então vídeos, música e jogos ficam mais altos. O ganho aparece em decibéis com as zonas Seguro, Atenção e Perigo, para você ver até onde já aumentou."
+            "O VolumeBooster+ (nosso app) aumenta a saída do sistema, e não o volume de um só app, então vídeos, música e jogos ficam mais altos. O ganho só se soma ao volume do aparelho, por isso os botões de nível aumentam primeiro o volume do aparelho e depois adicionam o ganho — e a tela principal mostra os dois."
           ],
           "steps": [
-            "Instale o VolumeBooster+ pelo Google Play.",
-            "Coloque algo para tocar, aumente o ganho aos poucos e observe a zona de dB.",
+            "Instale o VolumeBooster+ pelo Google Play e toque em “Começar”: o volume do aparelho sobe e o ganho é ativado em 150%.",
+            "Coloque algo para tocar e escolha outro nível se precisar — 100%, 125%, 150% ou Máx. — ou ajuste no controle deslizante, de olho nas cores Seguro, Atenção e Perigo.",
             "Use os presets do equalizador, o reforço de graves ou o AutoEQ para os seus fones de ouvido para deixar o som mais claro, não só mais alto.",
             "Diminua o ganho quando não precisar dele — seus ouvidos e seu alto-falante agradecem."
           ]
@@ -566,18 +566,18 @@
         {
           "h": "Grátis e Pro, e a sua audição",
           "p": [
-            "O plano grátis aumenta até +10 dB por 60 minutos por dia; o Pro ou um Free Pass de 24 horas libera a faixa completa de +15 dB. O valor em dB é uma estimativa, e o app não é um dispositivo médico — se sentir dor ou zumbido no ouvido, abaixe o volume."
+            "O plano grátis aumenta até 183% (+10 dB) por 3 horas por dia; o Pro ou um Free Pass de 3 horas libera 225% (+15 dB). O valor em dB é uma estimativa, e o app não é um dispositivo médico — se sentir dor ou zumbido no ouvido, abaixe o volume."
           ]
         }
       ],
       "faq": [
         {
           "q": "Um amplificador de volume pode danificar o alto-falante ou a minha audição?",
-          "a": "Volume muito alto pode. Aumente o ganho aos poucos, fique de olho nas zonas Seguro/Atenção/Perigo e abaixe se o som distorcer ou seus ouvidos doerem."
+          "a": "Volume muito alto pode. Aumente o nível aos poucos, fique de olho nas cores Seguro/Atenção/Perigo e abaixe se o som distorcer ou seus ouvidos doerem."
         },
         {
           "q": "Quanto mais alto ele consegue deixar?",
-          "a": "Até +15 dB com o Pro ou um Free Pass, e até +10 dB na versão gratuita. O volume real varia conforme o aparelho, os fones e o conteúdo."
+          "a": "Até 225% (+15 dB) com o Pro ou um Free Pass, e até 183% (+10 dB) na versão gratuita, além do volume do aparelho. O volume real varia conforme o aparelho, os fones e o conteúdo."
         }
       ]
     },

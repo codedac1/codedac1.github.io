@@ -539,10 +539,10 @@
     },
     "make-android-phone-louder": {
       "app": "volumebooster",
-      "updated": "2026-10-14",
+      "updated": "2026-10-23",
       "title": "Augmenter le volume de son téléphone Android",
-      "desc": "Votre téléphone est trop faible même au volume maximum ? Vérifiez d’abord ces réglages, puis voyez comment un booster de volume augmente la sortie de façon sûre — avec l’amplification affichée en décibels.",
-      "intro": "Si les vidéos, les appels en haut-parleur ou la musique sont trop faibles même au volume maximum, commencez par quelques réglages : parfois, le téléphone se limite tout simplement lui-même. Si cela ne suffit pas, un booster de volume peut augmenter davantage la sortie.",
+      "desc": "Votre téléphone est trop faible même au volume maximum ? Vérifiez d’abord ces réglages, puis voyez comment un booster de volume monte le volume de l’appareil et amplifie la plupart des applis en un appui.",
+      "intro": "Si les vidéos, les appels en haut-parleur ou la musique sont trop faibles, commencez par quelques réglages : parfois, le téléphone se limite tout simplement lui-même. Si cela ne suffit pas, un booster de volume peut augmenter davantage la sortie.",
       "sections": [
         {
           "h": "À vérifier d’abord",
@@ -554,11 +554,11 @@
         {
           "h": "Augmenter la sortie avec VolumeBooster+",
           "p": [
-            "VolumeBooster+ (notre appli) augmente la sortie du système plutôt que le volume d’une seule appli : vidéos, musique et jeux deviennent plus forts. L’amplification est affichée en décibels avec des zones Sûr, Prudence et Danger, pour que vous voyiez jusqu’où vous êtes allé."
+            "VolumeBooster+ (notre appli) augmente la sortie du système plutôt que le volume d’une seule appli : vidéos, musique et jeux deviennent plus forts. Une amplification ne fait que s’ajouter au volume de l’appareil ; ses boutons de niveau montent donc d’abord le volume de l’appareil, puis ajoutent l’amplification — et l’écran principal affiche les deux."
           ],
           "steps": [
-            "Installez VolumeBooster+ depuis Google Play.",
-            "Lancez un son, puis augmentez l’amplification petit à petit en surveillant la zone dB.",
+            "Installez VolumeBooster+ depuis Google Play et touchez « Commencer » : le volume de l’appareil monte et l’amplification s’active à 150%.",
+            "Lancez un son et choisissez un autre niveau si besoin (100%, 125%, 150% ou Max), ou ajustez finement avec le curseur en surveillant les couleurs Sûr, Prudence et Danger.",
             "Utilisez les presets d’égaliseur, le booster de basses ou AutoEQ pour votre casque afin d’obtenir un son plus clair, pas seulement plus fort.",
             "Baissez l’amplification quand vous n’en avez pas besoin : vos oreilles et votre haut-parleur vous remercieront."
           ]
@@ -566,18 +566,18 @@
         {
           "h": "Gratuit et Pro, et votre audition",
           "p": [
-            "La version gratuite amplifie jusqu’à +10 dB pendant 60 minutes par jour ; Pro ou un Free Pass de 24 heures ouvre toute la plage de +15 dB. La valeur en dB est une estimation, et l’appli n’est pas un dispositif médical : si vous ressentez une douleur aux oreilles ou des acouphènes, baissez le volume."
+            "La version gratuite amplifie jusqu’à 183% (+10 dB) pendant 3 heures par jour ; Pro ou un Free Pass de 3 heures ouvre 225% (+15 dB). La valeur en dB est une estimation, et l’appli n’est pas un dispositif médical : si vous ressentez une douleur aux oreilles ou des acouphènes, baissez le volume."
           ]
         }
       ],
       "faq": [
         {
           "q": "Un booster de volume peut-il abîmer mon haut-parleur ou mon audition ?",
-          "a": "Un volume très élevé, oui. Augmentez l’amplification progressivement, surveillez les zones Sûr/Prudence/Danger, et baissez-la si le son sature ou si vous avez mal aux oreilles."
+          "a": "Un volume très élevé, oui. Augmentez le niveau progressivement, surveillez les couleurs Sûr/Prudence/Danger, et baissez-le si le son sature ou si vous avez mal aux oreilles."
         },
         {
           "q": "Jusqu’où le volume peut-il monter ?",
-          "a": "Jusqu’à +15 dB avec Pro ou un Free Pass, et jusqu’à +10 dB en version gratuite. Le volume réel varie selon l’appareil, le casque et le contenu."
+          "a": "Jusqu’à 225% (+15 dB) avec Pro ou un Free Pass, et jusqu’à 183% (+10 dB) en version gratuite, en plus du volume de l’appareil. Le volume réel varie selon l’appareil, le casque et le contenu."
         }
       ]
     },

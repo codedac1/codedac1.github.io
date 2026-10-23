@@ -539,10 +539,10 @@
     },
     "make-android-phone-louder": {
       "app": "volumebooster",
-      "updated": "2026-10-14",
+      "updated": "2026-10-23",
       "title": "Cómo hacer que tu móvil Android suene más alto",
-      "desc": "¿Tu móvil suena bajo incluso con el volumen al máximo? Revisa primero estos ajustes y luego mira cómo un potenciador de volumen sube la salida de forma segura, con el aumento mostrado en decibelios.",
-      "intro": "Si los vídeos, las llamadas en altavoz o la música suenan demasiado bajo incluso con el volumen al máximo, empieza por unos cuantos ajustes: a veces el propio teléfono se está limitando. Si no basta, un potenciador de volumen puede subir aún más la salida.",
+      "desc": "¿Tu móvil suena bajo incluso con el volumen al máximo? Revisa primero estos ajustes y luego mira cómo un potenciador de volumen sube el volumen del dispositivo y amplifica la mayoría de las apps con un toque.",
+      "intro": "Si los vídeos, las llamadas en altavoz o la música suenan demasiado bajo, empieza por unos cuantos ajustes: a veces el propio teléfono se está limitando. Si no basta, un potenciador de volumen puede subir aún más la salida.",
       "sections": [
         {
           "h": "Revisa esto primero",
@@ -554,11 +554,11 @@
         {
           "h": "Sube la salida con VolumeBooster+",
           "p": [
-            "VolumeBooster+ (nuestra app) eleva la salida del sistema en lugar del volumen de una sola app, así que vídeos, música y juegos suenan más alto. El aumento se muestra en decibelios con zonas Segura, Precaución y Peligro, para que veas hasta dónde lo has subido."
+            "VolumeBooster+ (nuestra app) eleva la salida del sistema en lugar del volumen de una sola app, así que vídeos, música y juegos suenan más alto. Un aumento solo se suma al volumen del dispositivo, por eso sus botones de nivel suben primero el volumen del dispositivo y luego añaden el aumento, y la pantalla principal muestra ambos."
           ],
           "steps": [
-            "Instala VolumeBooster+ desde Google Play.",
-            "Reproduce algo y sube el aumento poco a poco mientras miras la zona de dB.",
+            "Instala VolumeBooster+ desde Google Play y toca «Comenzar»: el volumen del dispositivo sube y el aumento se activa al 150%.",
+            "Reproduce algo y elige otro nivel si lo necesitas (100%, 125%, 150% o Máx.) o ajústalo con el control deslizante mientras miras los colores Segura, Precaución y Peligro.",
             "Usa los presets del ecualizador, el potenciador de graves o AutoEQ para tus auriculares para que suene más claro, no solo más alto.",
             "Baja el aumento cuando no lo necesites: tus oídos y tu altavoz te lo agradecerán."
           ]
@@ -566,18 +566,18 @@
         {
           "h": "Gratis y Pro, y tu audición",
           "p": [
-            "La versión gratuita sube hasta +10 dB durante 60 minutos al día; Pro o un Free Pass de 24 horas abre el rango completo de +15 dB. El valor en dB es una estimación y la app no es un dispositivo médico: si notas dolor o pitidos en los oídos, baja el volumen."
+            "La versión gratuita sube hasta el 183% (+10 dB) durante 3 horas al día; Pro o un Free Pass de 3 horas abre el 225% (+15 dB). El valor en dB es una estimación y la app no es un dispositivo médico: si notas dolor o pitidos en los oídos, baja el volumen."
           ]
         }
       ],
       "faq": [
         {
           "q": "¿Un potenciador de volumen puede dañar mi altavoz o mi audición?",
-          "a": "Un volumen muy alto sí puede. Sube el aumento poco a poco, vigila las zonas Segura/Precaución/Peligro y bájalo si el sonido se distorsiona o te duelen los oídos."
+          "a": "Un volumen muy alto sí puede. Sube el nivel poco a poco, vigila los colores Segura/Precaución/Peligro y bájalo si el sonido se distorsiona o te duelen los oídos."
         },
         {
           "q": "¿Cuánto más alto puede sonar?",
-          "a": "Hasta +15 dB con Pro o un Free Pass, y hasta +10 dB en la versión gratuita. El volumen real varía según el dispositivo, los auriculares y el contenido."
+          "a": "Hasta el 225% (+15 dB) con Pro o un Free Pass, y hasta el 183% (+10 dB) en la versión gratuita, además del volumen del dispositivo. El volumen real varía según el dispositivo, los auriculares y el contenido."
         }
       ]
     },

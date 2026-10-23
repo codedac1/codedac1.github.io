@@ -539,10 +539,10 @@
     },
     "make-android-phone-louder": {
       "app": "volumebooster",
-      "updated": "2026-10-14",
+      "updated": "2026-10-23",
       "title": "Android-Handy lauter machen",
-      "desc": "Dein Handy ist selbst bei voller Lautstärke zu leise? Prüfe zuerst diese Einstellungen und sieh dir dann an, wie ein Lautstärke-Booster die Ausgabe sicher anhebt – mit Anzeige des Boosts in Dezibel.",
-      "intro": "Sind Videos, Anrufe über den Lautsprecher oder Musik selbst bei voller Lautstärke zu leise, fang mit ein paar Einstellungen an – manchmal begrenzt sich das Handy einfach selbst. Reicht das nicht, kann ein Lautstärke-Booster die Ausgabe weiter anheben.",
+      "desc": "Dein Handy ist selbst bei voller Lautstärke zu leise? Prüfe zuerst diese Einstellungen und sieh dir dann an, wie ein Lautstärke-Booster mit einem Tipp deine Gerätelautstärke anhebt und die meisten Apps boostet.",
+      "intro": "Sind Videos, Anrufe über den Lautsprecher oder Musik zu leise, fang mit ein paar Einstellungen an – manchmal begrenzt sich das Handy einfach selbst. Reicht das nicht, kann ein Lautstärke-Booster die Ausgabe weiter anheben.",
       "sections": [
         {
           "h": "Zuerst das prüfen",
@@ -554,11 +554,11 @@
         {
           "h": "Ausgabe mit VolumeBooster+ anheben",
           "p": [
-            "VolumeBooster+ (unsere App) hebt die Systemausgabe an statt der Lautstärke einer einzelnen App, sodass Videos, Musik und Spiele lauter werden. Der Boost wird in Dezibel angezeigt, mit den Bereichen Sicher, Vorsicht und Gefahr, damit du siehst, wie weit du gegangen bist."
+            "VolumeBooster+ (unsere App) hebt die Systemausgabe an statt der Lautstärke einer einzelnen App, sodass Videos, Musik und Spiele lauter werden. Ein Boost kommt nur zu deiner Gerätelautstärke hinzu, deshalb drehen die Stufen-Tasten zuerst die Gerätelautstärke hoch und legen dann den Boost obendrauf – und der Hauptbildschirm zeigt beides."
           ],
           "steps": [
-            "Installiere VolumeBooster+ aus Google Play.",
-            "Spiel etwas ab, erhöhe den Boost dann in kleinen Schritten und behalte den dB-Bereich im Blick.",
+            "Installiere VolumeBooster+ aus Google Play und tippe auf „Loslegen“: Deine Gerätelautstärke geht hoch und der Boost startet mit 150%.",
+            "Spiel etwas ab und wähle bei Bedarf eine andere Stufe – 100%, 125%, 150% oder Max – oder stell sie mit dem Regler fein ein und achte dabei auf die Farben Sicher, Vorsicht und Gefahr.",
             "Nutze die Equalizer-Presets, den Bass-Booster oder AutoEQ für deine Kopfhörer, damit es klarer klingt und nicht nur lauter.",
             "Dreh den Boost herunter, wenn du ihn nicht brauchst – deine Ohren und dein Lautsprecher werden es dir danken."
           ]
@@ -566,18 +566,18 @@
         {
           "h": "Gratis und Pro – und dein Gehör",
           "p": [
-            "Gratis sind bis zu +10 dB für 60 Minuten am Tag drin; Pro oder ein 24-Stunden-Free-Pass öffnet die volle Spanne von +15 dB. Der dB-Wert ist eine Schätzung, und die App ist kein Medizinprodukt – wenn du Ohrenschmerzen oder Ohrgeräusche bemerkst, senke die Lautstärke."
+            "Gratis sind bis zu 183% (+10 dB) für 3 Stunden am Tag drin; Pro oder ein 3-Stunden-Free-Pass öffnet 225% (+15 dB). Der dB-Wert ist eine Schätzung, und die App ist kein Medizinprodukt – wenn du Ohrenschmerzen oder Ohrgeräusche bemerkst, senke die Lautstärke."
           ]
         }
       ],
       "faq": [
         {
           "q": "Kann ein Lautstärke-Booster meinen Lautsprecher oder mein Gehör schädigen?",
-          "a": "Sehr hohe Lautstärke kann das. Erhöhe den Boost schrittweise, behalte die Bereiche Sicher/Vorsicht/Gefahr im Blick und senke ihn, wenn der Ton verzerrt oder deine Ohren schmerzen."
+          "a": "Sehr hohe Lautstärke kann das. Erhöhe die Stufe schrittweise, behalte die Farben Sicher/Vorsicht/Gefahr im Blick und senke sie, wenn der Ton verzerrt oder deine Ohren schmerzen."
         },
         {
           "q": "Wie viel lauter geht es?",
-          "a": "Bis zu +15 dB mit Pro oder einem Free Pass und bis zu +10 dB in der Gratisversion. Wie laut es tatsächlich wird, hängt von Gerät, Kopfhörern und Inhalt ab."
+          "a": "Bis zu 225% (+15 dB) mit Pro oder einem Free Pass und bis zu 183% (+10 dB) in der Gratisversion, zusätzlich zu deiner Gerätelautstärke. Wie laut es tatsächlich wird, hängt von Gerät, Kopfhörern und Inhalt ab."
         }
       ]
     },

@@ -539,10 +539,10 @@
     },
     "make-android-phone-louder": {
       "app": "volumebooster",
-      "updated": "2026-10-14",
+      "updated": "2026-10-23",
       "title": "Cách làm điện thoại Android to tiếng hơn",
-      "desc": "Điện thoại vẫn nhỏ tiếng dù đã để âm lượng tối đa? Hãy kiểm tra các cài đặt này trước, rồi xem cách một ứng dụng tăng âm lượng nâng đầu ra một cách an toàn — với mức tăng hiển thị bằng decibel.",
-      "intro": "Nếu video, cuộc gọi loa ngoài hay nhạc vẫn quá nhỏ dù âm lượng đã tối đa, hãy bắt đầu với vài cài đặt — đôi khi chính điện thoại đang tự giới hạn. Nếu vẫn chưa đủ, ứng dụng tăng âm lượng có thể nâng đầu ra lên thêm.",
+      "desc": "Điện thoại vẫn nhỏ tiếng dù đã để âm lượng tối đa? Hãy kiểm tra các cài đặt này trước, rồi xem cách một ứng dụng tăng âm lượng nâng âm lượng thiết bị và tăng âm hầu hết ứng dụng chỉ với một chạm.",
+      "intro": "Nếu video, cuộc gọi loa ngoài hay nhạc quá nhỏ, hãy bắt đầu với vài cài đặt — đôi khi chính điện thoại đang tự giới hạn. Nếu vẫn chưa đủ, ứng dụng tăng âm lượng có thể nâng đầu ra lên thêm.",
       "sections": [
         {
           "h": "Kiểm tra những điều này trước",
@@ -554,11 +554,11 @@
         {
           "h": "Nâng đầu ra bằng VolumeBooster+",
           "p": [
-            "VolumeBooster+ (ứng dụng của chúng tôi) nâng đầu ra hệ thống chứ không chỉ âm lượng của một ứng dụng, nên video, nhạc và game đều to hơn. Mức tăng hiển thị bằng decibel kèm vùng An toàn, Thận trọng và Nguy hiểm, để bạn thấy mình đã tăng đến đâu."
+            "VolumeBooster+ (ứng dụng của chúng tôi) nâng đầu ra hệ thống chứ không chỉ âm lượng của một ứng dụng, nên video, nhạc và game đều to hơn. Mức tăng âm chỉ cộng thêm trên âm lượng thiết bị, nên các nút mức sẽ nâng âm lượng thiết bị trước rồi mới thêm mức tăng âm — và màn hình chính hiển thị cả hai."
           ],
           "steps": [
-            "Cài VolumeBooster+ từ Google Play.",
-            "Phát một nội dung, rồi tăng mức tăng âm từng chút một và theo dõi vùng dB.",
+            "Cài VolumeBooster+ từ Google Play và chạm “Bắt đầu”: âm lượng thiết bị tăng lên và tăng âm bật ở 150%.",
+            "Phát một nội dung và chọn mức khác nếu cần — 100%, 125%, 150% hoặc Tối đa — hoặc tinh chỉnh bằng thanh trượt, đồng thời để ý các màu An toàn, Thận trọng và Nguy hiểm.",
             "Dùng preset của bộ chỉnh âm, tăng bass hoặc AutoEQ cho tai nghe của bạn để âm thanh rõ hơn, chứ không chỉ to hơn.",
             "Giảm mức tăng âm khi không cần — tai và loa của bạn sẽ cảm ơn bạn."
           ]
@@ -566,18 +566,18 @@
         {
           "h": "Miễn phí và Pro, và thính lực của bạn",
           "p": [
-            "Bản miễn phí tăng đến +10 dB trong 60 phút mỗi ngày; Pro hoặc Free Pass 24 giờ mở trọn dải +15 dB. Giá trị dB là ước tính, và ứng dụng không phải thiết bị y tế — nếu bạn thấy đau tai hoặc ù tai, hãy giảm âm lượng."
+            "Bản miễn phí tăng đến 183% (+10 dB) trong 3 giờ mỗi ngày; Pro hoặc Free Pass 3 giờ mở 225% (+15 dB). Giá trị dB là ước tính, và ứng dụng không phải thiết bị y tế — nếu bạn thấy đau tai hoặc ù tai, hãy giảm âm lượng."
           ]
         }
       ],
       "faq": [
         {
           "q": "Ứng dụng tăng âm lượng có làm hỏng loa hoặc thính lực không?",
-          "a": "Âm lượng rất lớn thì có thể. Hãy tăng dần, để ý các vùng An toàn/Thận trọng/Nguy hiểm, và giảm xuống nếu âm thanh bị méo hoặc tai bạn bị đau."
+          "a": "Âm lượng rất lớn thì có thể. Hãy tăng mức dần dần, để ý các màu An toàn/Thận trọng/Nguy hiểm, và giảm xuống nếu âm thanh bị méo hoặc tai bạn bị đau."
         },
         {
           "q": "Có thể to hơn bao nhiêu?",
-          "a": "Lên đến +15 dB với Pro hoặc Free Pass, và lên đến +10 dB ở bản miễn phí. Độ lớn thực tế thay đổi theo thiết bị, tai nghe và nội dung."
+          "a": "Lên đến 225% (+15 dB) với Pro hoặc Free Pass, và lên đến 183% (+10 dB) ở bản miễn phí, cộng thêm trên âm lượng thiết bị. Độ lớn thực tế thay đổi theo thiết bị, tai nghe và nội dung."
         }
       ]
     },

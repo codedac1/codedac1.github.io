@@ -539,10 +539,10 @@
     },
     "make-android-phone-louder": {
       "app": "volumebooster",
-      "updated": "2026-10-14",
+      "updated": "2026-10-23",
       "title": "Cara membuat suara HP Android lebih keras",
-      "desc": "Ponsel terlalu pelan meski volume sudah penuh? Periksa pengaturan ini dulu, lalu lihat cara penguat volume menaikkan keluaran dengan aman — dengan penguatan yang ditampilkan dalam desibel.",
-      "intro": "Jika video, panggilan dengan speaker, atau musik terlalu pelan meski volume sudah penuh, mulailah dari beberapa pengaturan — terkadang ponsel hanya membatasi dirinya sendiri. Jika itu belum cukup, penguat volume bisa menaikkan keluarannya lebih jauh.",
+      "desc": "Ponsel terlalu pelan meski volume sudah penuh? Periksa pengaturan ini dulu, lalu lihat cara penguat volume menaikkan volume perangkat dan menguatkan sebagian besar aplikasi dengan sekali ketuk.",
+      "intro": "Jika video, panggilan dengan speaker, atau musik terlalu pelan, mulailah dari beberapa pengaturan — terkadang ponsel hanya membatasi dirinya sendiri. Jika itu belum cukup, penguat volume bisa menaikkan keluarannya lebih jauh.",
       "sections": [
         {
           "h": "Periksa ini dulu",
@@ -554,11 +554,11 @@
         {
           "h": "Naikkan keluaran dengan VolumeBooster+",
           "p": [
-            "VolumeBooster+ (aplikasi kami) menaikkan keluaran sistem, bukan volume satu aplikasi, sehingga video, musik, dan game menjadi lebih keras. Penguatan ditampilkan dalam desibel dengan zona Aman, Hati-hati, dan Bahaya, jadi Anda bisa melihat sejauh mana Anda sudah menaikkannya."
+            "VolumeBooster+ (aplikasi kami) menaikkan keluaran sistem, bukan volume satu aplikasi, sehingga video, musik, dan game menjadi lebih keras. Boost hanya ditambahkan di atas volume perangkat, jadi tombol level menaikkan volume perangkat lebih dulu lalu menambahkan boost — dan layar utama menampilkan keduanya."
           ],
           "steps": [
-            "Pasang VolumeBooster+ dari Google Play.",
-            "Putar sesuatu, lalu naikkan penguatan sedikit demi sedikit sambil memperhatikan zona dB.",
+            "Pasang VolumeBooster+ dari Google Play dan ketuk Mulai: volume perangkat naik dan boost menyala di 150%.",
+            "Putar sesuatu dan pilih level lain jika perlu — 100%, 125%, 150%, atau Maks — atau atur lebih halus dengan penggeser sambil memperhatikan warna Aman, Hati-hati, dan Bahaya.",
             "Gunakan preset equalizer, penguat bass, atau AutoEQ untuk headphone Anda agar suaranya lebih jernih, bukan hanya lebih keras.",
             "Turunkan penguatan saat tidak diperlukan — telinga dan speaker Anda akan berterima kasih."
           ]
@@ -566,18 +566,18 @@
         {
           "h": "Gratis dan Pro, serta pendengaran Anda",
           "p": [
-            "Versi gratis menguatkan hingga +10 dB selama 60 menit per hari; Pro atau Free Pass 24 jam membuka rentang penuh +15 dB. Nilai dB adalah perkiraan, dan aplikasi ini bukan alat medis — jika Anda merasakan nyeri telinga atau dengingan, turunkan volume."
+            "Versi gratis menguatkan hingga 183% (+10 dB) selama 3 jam per hari; Pro atau Free Pass 3 jam membuka 225% (+15 dB). Nilai dB adalah perkiraan, dan aplikasi ini bukan alat medis — jika Anda merasakan nyeri telinga atau dengingan, turunkan volume."
           ]
         }
       ],
       "faq": [
         {
           "q": "Bisakah penguat volume merusak speaker atau pendengaran saya?",
-          "a": "Volume yang sangat tinggi bisa. Naikkan penguatan secara bertahap, perhatikan zona Aman/Hati-hati/Bahaya, dan turunkan jika suara pecah atau telinga Anda sakit."
+          "a": "Volume yang sangat tinggi bisa. Naikkan level secara bertahap, perhatikan warna Aman/Hati-hati/Bahaya, dan turunkan jika suara pecah atau telinga Anda sakit."
         },
         {
           "q": "Seberapa keras suaranya bisa dinaikkan?",
-          "a": "Hingga +15 dB dengan Pro atau Free Pass, dan hingga +10 dB pada versi gratis. Kenyaringan sebenarnya bergantung pada perangkat, headphone, dan konten."
+          "a": "Hingga 225% (+15 dB) dengan Pro atau Free Pass, dan hingga 183% (+10 dB) pada versi gratis, di atas volume perangkat Anda. Kenyaringan sebenarnya bergantung pada perangkat, headphone, dan konten."
         }
       ]
     },

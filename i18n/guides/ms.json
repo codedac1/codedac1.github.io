@@ -539,10 +539,10 @@
     },
     "make-android-phone-louder": {
       "app": "volumebooster",
-      "updated": "2026-10-14",
+      "updated": "2026-10-23",
       "title": "Cara menjadikan bunyi telefon Android lebih kuat",
-      "desc": "Telefon terlalu perlahan walaupun volum sudah penuh? Semak tetapan ini dahulu, kemudian lihat cara penguat volum menaikkan output dengan selamat — dengan penguatan dipaparkan dalam desibel.",
-      "intro": "Jika video, panggilan pembesar suara atau muzik terlalu perlahan walaupun pada volum penuh, mulakan dengan beberapa tetapan — kadangkala telefon hanya mengehadkan dirinya sendiri. Jika itu tidak mencukupi, penguat volum boleh menaikkan output dengan lebih lagi.",
+      "desc": "Telefon terlalu perlahan walaupun volum sudah penuh? Semak tetapan ini dahulu, kemudian lihat cara penguat volum menaikkan kelantangan peranti dan menguatkan kebanyakan apl dengan satu ketikan.",
+      "intro": "Jika video, panggilan pembesar suara atau muzik terlalu perlahan, mulakan dengan beberapa tetapan — kadangkala telefon hanya mengehadkan dirinya sendiri. Jika itu tidak mencukupi, penguat volum boleh menaikkan output dengan lebih lagi.",
       "sections": [
         {
           "h": "Semak ini dahulu",
@@ -554,11 +554,11 @@
         {
           "h": "Naikkan output dengan VolumeBooster+",
           "p": [
-            "VolumeBooster+ (aplikasi kami) menaikkan output sistem dan bukan volum satu aplikasi, jadi video, muzik dan permainan menjadi lebih kuat. Penguatan dipaparkan dalam desibel dengan zon Selamat, Berhati-hati dan Bahaya, jadi anda boleh nampak sejauh mana anda telah menaikkannya."
+            "VolumeBooster+ (aplikasi kami) menaikkan output sistem dan bukan volum satu aplikasi, jadi video, muzik dan permainan menjadi lebih kuat. Penguatan hanya ditambah di atas kelantangan peranti, jadi butang tahapnya menaikkan kelantangan peranti dahulu dan kemudian menambah penguatan — dan skrin utama memaparkan kedua-duanya."
           ],
           "steps": [
-            "Pasang VolumeBooster+ dari Google Play.",
-            "Mainkan sesuatu, kemudian naikkan penguatan sedikit demi sedikit dan perhatikan zon dB.",
+            "Pasang VolumeBooster+ dari Google Play dan ketik Mula: kelantangan peranti naik dan penguatan dihidupkan pada 150%.",
+            "Mainkan sesuatu dan pilih tahap lain jika perlu — 100%, 125%, 150% atau Maks — atau laraskan dengan peluncur sambil memerhatikan warna Selamat, Berhati-hati dan Bahaya.",
             "Gunakan prasetel penyama, penguat bas atau AutoEQ untuk fon kepala anda supaya bunyi lebih jelas, bukan sekadar lebih kuat.",
             "Turunkan penguatan apabila anda tidak memerlukannya — telinga dan pembesar suara anda akan berterima kasih."
           ]
@@ -566,18 +566,18 @@
         {
           "h": "Percuma dan Pro, serta pendengaran anda",
           "p": [
-            "Versi percuma menguatkan sehingga +10 dB selama 60 minit sehari; Pro atau Free Pass 24 jam membuka julat penuh +15 dB. Nilai dB ialah anggaran, dan apl ini bukan peranti perubatan — jika anda perasan sakit telinga atau berdengung, rendahkan volum."
+            "Versi percuma menguatkan sehingga 183% (+10 dB) selama 3 jam sehari; Pro atau Free Pass 3 jam membuka 225% (+15 dB). Nilai dB ialah anggaran, dan apl ini bukan peranti perubatan — jika anda perasan sakit telinga atau berdengung, rendahkan volum."
           ]
         }
       ],
       "faq": [
         {
           "q": "Bolehkah penguat volum merosakkan pembesar suara atau pendengaran saya?",
-          "a": "Volum yang sangat tinggi boleh. Naikkan penguatan secara beransur-ansur, perhatikan zon Selamat/Berhati-hati/Bahaya, dan turunkannya jika bunyi menjadi herot atau telinga anda sakit."
+          "a": "Volum yang sangat tinggi boleh. Naikkan tahap secara beransur-ansur, perhatikan warna Selamat/Berhati-hati/Bahaya, dan turunkannya jika bunyi menjadi herot atau telinga anda sakit."
         },
         {
           "q": "Sejauh mana ia boleh menjadi lebih kuat?",
-          "a": "Sehingga +15 dB dengan Pro atau Free Pass, dan sehingga +10 dB pada versi percuma. Kelantangan sebenar berbeza mengikut peranti, fon kepala dan kandungan."
+          "a": "Sehingga 225% (+15 dB) dengan Pro atau Free Pass, dan sehingga 183% (+10 dB) pada versi percuma, di atas kelantangan peranti anda. Kelantangan sebenar berbeza mengikut peranti, fon kepala dan kandungan."
         }
       ]
     },

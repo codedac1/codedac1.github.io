@@ -539,10 +539,10 @@
     },
     "make-android-phone-louder": {
       "app": "volumebooster",
-      "updated": "2026-10-14",
+      "updated": "2026-10-23",
       "title": "Je Android-telefoon luider maken",
-      "desc": "Is je telefoon zelfs op vol volume te zacht? Controleer eerst deze instellingen en zie dan hoe een volumeversterker de uitvoer veilig verhoogt – met de boost in decibel.",
-      "intro": "Zijn video’s, gesprekken op de luidspreker of muziek zelfs op vol volume te zacht, begin dan met een paar instellingen – soms beperkt de telefoon zichzelf gewoon. Is dat niet genoeg, dan kan een volumeversterker de uitvoer verder verhogen.",
+      "desc": "Is je telefoon zelfs op vol volume te zacht? Controleer eerst deze instellingen en zie dan hoe een volumeversterker met één tik je apparaatvolume verhoogt en de meeste apps boost.",
+      "intro": "Zijn video’s, gesprekken op de luidspreker of muziek te zacht, begin dan met een paar instellingen – soms beperkt de telefoon zichzelf gewoon. Is dat niet genoeg, dan kan een volumeversterker de uitvoer verder verhogen.",
       "sections": [
         {
           "h": "Controleer dit eerst",
@@ -554,11 +554,11 @@
         {
           "h": "De uitvoer verhogen met VolumeBooster+",
           "p": [
-            "VolumeBooster+ (onze app) verhoogt de systeemuitvoer in plaats van het volume van één app, zodat video’s, muziek en games luider worden. De boost wordt in decibel getoond met de zones Veilig, Let op en Gevaar, zodat je ziet hoe ver je bent gegaan."
+            "VolumeBooster+ (onze app) verhoogt de systeemuitvoer in plaats van het volume van één app, zodat video’s, muziek en games luider worden. Een boost komt alleen bovenop je apparaatvolume, dus de niveauknoppen zetten eerst het apparaatvolume hoger en voegen dan de boost toe – en het hoofdscherm toont allebei."
           ],
           "steps": [
-            "Installeer VolumeBooster+ via Google Play.",
-            "Speel iets af, verhoog de boost dan stap voor stap en houd de dB-zone in de gaten.",
+            "Installeer VolumeBooster+ via Google Play en tik op ‘Beginnen’: je apparaatvolume gaat omhoog en de boost gaat aan op 150%.",
+            "Speel iets af en kies zo nodig een ander niveau – 100%, 125%, 150% of Max – of stel het fijn af met de schuifregelaar en let op de kleuren Veilig, Let op en Gevaar.",
             "Gebruik de equalizerpresets, de bassversterker of AutoEQ voor je hoofdtelefoon om het helderder te maken, niet alleen luider.",
             "Zet de boost lager als je hem niet nodig hebt – je oren en je luidspreker zullen je dankbaar zijn."
           ]
@@ -566,18 +566,18 @@
         {
           "h": "Gratis en Pro, en je gehoor",
           "p": [
-            "Gratis boost je tot +10 dB, 60 minuten per dag; Pro of een Free Pass van 24 uur opent het volledige bereik van +15 dB. De dB-waarde is een schatting, en de app is geen medisch hulpmiddel – merk je oorpijn of oorsuizen, zet het volume dan lager."
+            "Gratis boost je tot 183% (+10 dB), 3 uur per dag; Pro of een Free Pass van 3 uur opent 225% (+15 dB). De dB-waarde is een schatting, en de app is geen medisch hulpmiddel – merk je oorpijn of oorsuizen, zet het volume dan lager."
           ]
         }
       ],
       "faq": [
         {
           "q": "Kan een volumeversterker mijn luidspreker of gehoor beschadigen?",
-          "a": "Heel hard volume kan dat. Verhoog de boost geleidelijk, houd de zones Veilig/Let op/Gevaar in de gaten en zet hem lager als het geluid vervormt of je oren pijn doen."
+          "a": "Heel hard volume kan dat. Verhoog het niveau geleidelijk, houd de kleuren Veilig/Let op/Gevaar in de gaten en zet het lager als het geluid vervormt of je oren pijn doen."
         },
         {
           "q": "Hoeveel luider kan het?",
-          "a": "Tot +15 dB met Pro of een Free Pass, en tot +10 dB in de gratis versie. Hoe luid het echt wordt, hangt af van apparaat, hoofdtelefoon en content."
+          "a": "Tot 225% (+15 dB) met Pro of een Free Pass, en tot 183% (+10 dB) in de gratis versie, bovenop je apparaatvolume. Hoe luid het echt wordt, hangt af van apparaat, hoofdtelefoon en content."
         }
       ]
     },

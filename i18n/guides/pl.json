@@ -539,10 +539,10 @@
     },
     "make-android-phone-louder": {
       "app": "volumebooster",
-      "updated": "2026-10-14",
+      "updated": "2026-10-23",
       "title": "Jak sprawić, by telefon z Androidem grał głośniej",
-      "desc": "Telefon gra za cicho nawet na pełnej głośności? Najpierw sprawdź te ustawienia, a potem zobacz, jak wzmacniacz głośności bezpiecznie podnosi poziom dźwięku — ze wzmocnieniem pokazanym w decybelach.",
-      "intro": "Jeśli filmy, rozmowy na głośniku albo muzyka są za ciche nawet na pełnej głośności, zacznij od kilku ustawień — czasem telefon po prostu sam się ogranicza. Jeśli to nie wystarczy, wzmacniacz głośności może podnieść poziom dźwięku jeszcze bardziej.",
+      "desc": "Telefon gra za cicho nawet na pełnej głośności? Najpierw sprawdź te ustawienia, a potem zobacz, jak wzmacniacz głośności jednym dotknięciem podnosi głośność urządzenia i wzmacnia większość aplikacji.",
+      "intro": "Jeśli filmy, rozmowy na głośniku albo muzyka są za ciche, zacznij od kilku ustawień — czasem telefon po prostu sam się ogranicza. Jeśli to nie wystarczy, wzmacniacz głośności może podnieść poziom dźwięku jeszcze bardziej.",
       "sections": [
         {
           "h": "Najpierw sprawdź to",
@@ -554,11 +554,11 @@
         {
           "h": "Podgłośnij dźwięk z VolumeBooster+",
           "p": [
-            "VolumeBooster+ (nasza aplikacja) podnosi wyjście systemowe, a nie głośność jednej aplikacji, więc filmy, muzyka i gry grają głośniej. Wzmocnienie jest pokazywane w decybelach ze strefami Bezpiecznie, Uwaga i Niebezpiecznie, więc widzisz, jak mocno je podkręciłeś."
+            "VolumeBooster+ (nasza aplikacja) podnosi wyjście systemowe, a nie głośność jednej aplikacji, więc filmy, muzyka i gry grają głośniej. Wzmocnienie tylko dodaje się do głośności urządzenia, dlatego przyciski poziomów najpierw podnoszą głośność urządzenia, a potem dodają wzmocnienie — a ekran główny pokazuje jedno i drugie."
           ],
           "steps": [
-            "Zainstaluj VolumeBooster+ z Google Play.",
-            "Włącz coś do odtwarzania, a potem zwiększaj wzmocnienie stopniowo i obserwuj strefę dB.",
+            "Zainstaluj VolumeBooster+ z Google Play i dotknij „Rozpocznij”: głośność urządzenia wzrośnie, a wzmocnienie włączy się na 150%.",
+            "Włącz coś do odtwarzania i w razie potrzeby wybierz inny poziom — 100%, 125%, 150% lub Maks. — albo dostrój go suwakiem, obserwując kolory Bezpiecznie, Uwaga i Niebezpiecznie.",
             "Użyj presetów korektora, wzmacniacza basów lub AutoEQ dla swoich słuchawek, żeby dźwięk był wyraźniejszy, a nie tylko głośniejszy.",
             "Zmniejsz wzmocnienie, gdy go nie potrzebujesz — Twoje uszy i głośnik Ci podziękują."
           ]
@@ -566,18 +566,18 @@
         {
           "h": "Wersja darmowa i Pro a Twój słuch",
           "p": [
-            "Wersja darmowa wzmacnia do +10 dB przez 60 minut dziennie; Pro lub 24-godzinny Free Pass otwiera pełny zakres +15 dB. Wartość dB jest szacunkowa, a aplikacja nie jest wyrobem medycznym — jeśli poczujesz ból ucha lub dzwonienie w uszach, zmniejsz głośność."
+            "Wersja darmowa wzmacnia do 183% (+10 dB) przez 3 godziny dziennie; Pro lub 3-godzinny Free Pass otwiera 225% (+15 dB). Wartość dB jest szacunkowa, a aplikacja nie jest wyrobem medycznym — jeśli poczujesz ból ucha lub dzwonienie w uszach, zmniejsz głośność."
           ]
         }
       ],
       "faq": [
         {
           "q": "Czy wzmacniacz głośności może uszkodzić głośnik albo słuch?",
-          "a": "Bardzo wysoka głośność może. Zwiększaj wzmocnienie stopniowo, obserwuj strefy Bezpiecznie/Uwaga/Niebezpiecznie i zmniejsz je, jeśli dźwięk się zniekształca albo bolą Cię uszy."
+          "a": "Bardzo wysoka głośność może. Zwiększaj poziom stopniowo, obserwuj kolory Bezpiecznie/Uwaga/Niebezpiecznie i zmniejsz go, jeśli dźwięk się zniekształca albo bolą Cię uszy."
         },
         {
           "q": "O ile głośniej może grać?",
-          "a": "Do +15 dB z Pro lub Free Pass i do +10 dB w wersji darmowej. Rzeczywista głośność zależy od urządzenia, słuchawek i treści."
+          "a": "Do 225% (+15 dB) z Pro lub Free Pass i do 183% (+10 dB) w wersji darmowej, ponad głośność urządzenia. Rzeczywista głośność zależy od urządzenia, słuchawek i treści."
         }
       ]
     },

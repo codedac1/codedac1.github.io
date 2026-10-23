@@ -539,10 +539,10 @@
     },
     "make-android-phone-louder": {
       "app": "volumebooster",
-      "updated": "2026-10-14",
+      "updated": "2026-10-23",
       "title": "Paano palakasin ang tunog ng Android phone",
-      "desc": "Masyadong mahina ang telepono kahit nasa pinakamalakas na ang volume? Tingnan muna ang mga setting na ito, saka alamin kung paano ligtas na itinataas ng volume booster ang output — at ipinapakita ang boost sa decibel.",
-      "intro": "Kung masyadong mahina ang mga video, tawag na naka-speaker o musika kahit nasa pinakamalakas na ang volume, magsimula sa ilang setting — minsan nililimitahan lang pala ng telepono ang sarili nito. Kung hindi pa rin sapat, kaya pang itaas ng volume booster ang output.",
+      "desc": "Masyadong mahina ang telepono kahit nasa pinakamalakas na ang volume? Tingnan muna ang mga setting na ito, saka alamin kung paano itinataas ng volume booster ang volume ng device at bino-boost ang karamihan ng app sa isang tap.",
+      "intro": "Kung masyadong mahina ang mga video, tawag na naka-speaker o musika, magsimula sa ilang setting — minsan nililimitahan lang pala ng telepono ang sarili nito. Kung hindi pa rin sapat, kaya pang itaas ng volume booster ang output.",
       "sections": [
         {
           "h": "Tingnan muna ang mga ito",
@@ -554,11 +554,11 @@
         {
           "h": "Itaas ang output gamit ang VolumeBooster+",
           "p": [
-            "Itinataas ng VolumeBooster+ (aming app) ang output ng sistema sa halip na ang volume ng iisang app, kaya lumalakas ang mga video, musika at laro. Ipinapakita ang boost sa decibel kasama ang mga zone na Ligtas, Mag-ingat at Delikado, kaya nakikita mo kung gaano mo na ito kalakas itinaas."
+            "Itinataas ng VolumeBooster+ (aming app) ang output ng sistema sa halip na ang volume ng iisang app, kaya lumalakas ang mga video, musika at laro. Idinadagdag lang ang boost sa ibabaw ng volume ng device, kaya itinataas muna ng mga level button nito ang volume ng device saka idinadagdag ang boost — at parehong ipinapakita ng main screen."
           ],
           "steps": [
-            "I-install ang VolumeBooster+ mula sa Google Play.",
-            "Magpatugtog ng kahit ano, saka unti-unting itaas ang boost habang binabantayan ang dB zone.",
+            "I-install ang VolumeBooster+ mula sa Google Play at i-tap ang Magsimula: tataas ang volume ng device at mag-o-on ang boost sa 150%.",
+            "Magpatugtog ng kahit ano at pumili ng ibang level kung kailangan — 100%, 125%, 150% o Max — o i-fine-tune gamit ang slider habang binabantayan ang mga kulay na Ligtas, Mag-ingat at Delikado.",
             "Gamitin ang mga equalizer preset, bass booster o AutoEQ para sa headphone mo para luminaw ang tunog, hindi lang lumakas.",
             "Hinaan ang boost kapag hindi mo ito kailangan — magpapasalamat ang tainga at speaker mo."
           ]
@@ -566,18 +566,18 @@
         {
           "h": "Libre at Pro, at ang pandinig mo",
           "p": [
-            "Sa libreng bersyon, hanggang +10 dB ang boost nang 60 minuto kada araw; binubuksan ng Pro o ng 24-oras na Free Pass ang buong +15 dB. Tantiya lang ang halaga ng dB, at hindi medical device ang app — kung makaramdam ka ng sakit sa tainga o pag-ugong, hinaan ang volume."
+            "Sa libreng bersyon, hanggang 183% (+10 dB) ang boost nang 3 oras kada araw; binubuksan ng Pro o ng 3-oras na Free Pass ang 225% (+15 dB). Tantiya lang ang halaga ng dB, at hindi medical device ang app — kung makaramdam ka ng sakit sa tainga o pag-ugong, hinaan ang volume."
           ]
         }
       ],
       "faq": [
         {
           "q": "Puwede bang masira ng volume booster ang speaker o pandinig ko?",
-          "a": "Puwede kapag sobrang lakas ng volume. Itaas nang paunti-unti ang boost, bantayan ang mga zone na Ligtas/Mag-ingat/Delikado, at hinaan ito kapag nagdi-distort ang tunog o sumasakit ang tainga mo."
+          "a": "Puwede kapag sobrang lakas ng volume. Itaas nang paunti-unti ang level, bantayan ang mga kulay na Ligtas/Mag-ingat/Delikado, at hinaan ito kapag nagdi-distort ang tunog o sumasakit ang tainga mo."
         },
         {
           "q": "Gaano pa ito kalakas?",
-          "a": "Hanggang +15 dB sa Pro o Free Pass, at hanggang +10 dB sa libreng bersyon. Nag-iiba ang tunay na lakas depende sa device, headphone at nilalaman."
+          "a": "Hanggang 225% (+15 dB) sa Pro o Free Pass, at hanggang 183% (+10 dB) sa libreng bersyon, sa ibabaw ng volume ng device mo. Nag-iiba ang tunay na lakas depende sa device, headphone at nilalaman."
         }
       ]
     },
