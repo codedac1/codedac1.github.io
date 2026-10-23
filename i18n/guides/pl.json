@@ -458,7 +458,7 @@
     },
     "floating-calculator-over-other-apps-android": {
       "app": "floatcalc",
-      "updated": "2026-10-14",
+      "updated": "2026-10-24",
       "title": "Jak używać kalkulatora nad innymi aplikacjami na Androidzie",
       "desc": "Policz rabat albo przelicz cenę bez opuszczania sklepu, banku czy przeglądarki: pływający kalkulator, który zostaje nad każdą aplikacją, z przelicznikiem jednostek i walut.",
       "intro": "Sprawdzasz cenę w aplikacji sklepu, dzielisz rachunek na czacie, przeliczasz walutę podczas rezerwacji — przełączanie się do Kalkulatora i z powrotem oznacza, że gubisz miejsce i musisz pamiętać liczby. Pływający kalkulator zostaje na ekranie nad aplikacją, z której korzystasz.",
@@ -472,19 +472,19 @@
         {
           "h": "Sposób 2: pływający kalkulator",
           "p": [
-            "FloatCalc+ (nasza aplikacja) to okno kalkulatora, które unosi się nad każdą aplikacją. Kalkulator, przelicznik jednostek i przelicznik walut dzielą jedno okno, które możesz przeciągnąć w dowolne miejsce; gdy potrzebujesz miejsca, złóż klawiaturę do jednej linii albo zwiń panel do ikony przy krawędzi ekranu."
+            "FloatCalc+ (nasza aplikacja) to okno kalkulatora, które unosi się nad każdą aplikacją. Kalkulator, przelicznik jednostek i przelicznik walut dzielą jedno okno i jedną klawiaturę; przeciągnij je w dowolne miejsce, a gdy potrzebujesz miejsca, zwiń do ikony przy krawędzi ekranu."
           ],
           "steps": [
             "Zainstaluj FloatCalc+ z Google Play i zezwól na „Wyświetlanie nad innymi aplikacjami”.",
-            "Otwórz pływający kalkulator i przeciągnij go tam, gdzie nie zasłania tego, czego potrzebujesz.",
-            "Wpisz działanie — potęgi, pierwiastki i procenty też działają — i skopiuj wynik do schowka.",
+            "Otwórz pływający kalkulator z aplikacji, kafelka Szybkich ustawień lub widżetu na ekranie głównym i przeciągnij go tam, gdzie nie zasłania tego, czego potrzebujesz.",
+            "Wpisz działanie na klawiaturze — wynik pojawia się już podczas wpisywania. Aby użyć liczby z innej aplikacji, zaznacz ją i dotknij „Oblicz w FloatCalc+”; wynik skopiujesz z menu ⋮.",
             "Przełącz się na przelicznik jednostek lub walut w tym samym oknie. Kursy walut pochodzą z Europejskiego Banku Centralnego, odświeżają się codziennie i działają także offline."
           ]
         },
         {
           "h": "Wersja darmowa i Pro",
           "p": [
-            "Pływający kalkulator jest darmowy przez 60 minut dziennie; pasek tytułu pokazuje, ile czasu zostało, a krótka reklama daje przepustkę na 24 godziny. Pro znosi dzienny limit i reklamy oraz dodaje wszystkie kategorie jednostek, ponad 30 walut i więcej motywów."
+            "Pływający kalkulator jest darmowy przez 3 godziny dziennie, liczone tylko wtedy, gdy panel jest otwarty, a krótka reklama odblokowuje wszystko na 3 godziny. Pro znosi limit czasu i reklamy oraz dodaje wszystkie kategorie jednostek, wszystkie pary walut i więcej motywów."
           ]
         }
       ],

@@ -458,7 +458,7 @@
     },
     "floating-calculator-over-other-apps-android": {
       "app": "floatcalc",
-      "updated": "2026-10-14",
+      "updated": "2026-10-24",
       "title": "Android'de diğer uygulamaların üstünde hesap makinesi nasıl kullanılır",
       "desc": "Alışveriş, bankacılık ya da tarayıcı ekranından çıkmadan indirim hesaplayın veya fiyat çevirin: her uygulamanın üstünde duran, birim ve döviz çeviricili yüzen bir hesap makinesi.",
       "intro": "Bir alışveriş uygulamasında fiyata bakarken, bir sohbette hesabı bölüşürken ya da rezervasyon yaparken döviz çevirirken Hesap Makinesi uygulamasına geçip geri dönmek, kaldığınız yeri kaybetmek ve sayıları aklınızda tutmak demektir. Yüzen bir hesap makinesi, kullandığınız uygulamanın üstünde ekranda kalır.",
@@ -472,19 +472,19 @@
         {
           "h": "2. yol: yüzen hesap makinesi",
           "p": [
-            "FloatCalc+ (bizim uygulamamız) her uygulamanın üstünde yüzen bir hesap makinesi penceresidir. Hesap makinesi, birim çevirici ve döviz çevirici, istediğiniz yere sürükleyebileceğiniz tek bir pencereyi paylaşır; yere ihtiyacınız olduğunda tuş takımını tek satıra katlayın ya da paneli ekran kenarında bir simgeye küçültün."
+            "FloatCalc+ (bizim uygulamamız) her uygulamanın üstünde yüzen bir hesap makinesi penceresidir. Hesap makinesi, birim çevirici ve döviz çevirici tek bir pencereyi ve tek bir tuş takımını paylaşır; pencereyi istediğiniz yere sürükleyin, yere ihtiyacınız olduğunda ekran kenarında bir simgeye küçültün."
           ],
           "steps": [
             "FloatCalc+'ı Google Play'den yükleyin ve “Diğer uygulamaların üzerinde göster” iznini verin.",
-            "Yüzen hesap makinesini açın ve ihtiyacınız olan yeri kapatmayacağı bir yere sürükleyin.",
-            "İşlemi yazın (üs, kök ve yüzde de çalışır) ve sonucu panoya kopyalayın.",
+            "Yüzen hesap makinesini uygulamadan, Hızlı Ayarlar kutucuğundan veya ana ekran widget'ından açın ve ihtiyacınız olan yeri kapatmayacağı bir yere sürükleyin.",
+            "İşlemi tuş takımında yazın; sonuç siz yazarken görünür. Başka bir uygulamadaki bir sayıyı kullanmak için sayıyı seçip “FloatCalc+ ile hesapla” seçeneğine dokunun; sonucu ⋮ menüsünden kopyalayın.",
             "Aynı pencerede birim veya döviz çeviriciye geçin. Döviz kurları Avrupa Merkez Bankası'ndan gelir, her gün güncellenir ve çevrimdışıyken de çalışmaya devam eder."
           ]
         },
         {
           "h": "Ücretsiz ve Pro",
           "p": [
-            "Yüzen hesap makinesi günde 60 dakika ücretsizdir; başlık çubuğu ne kadar süre kaldığını gösterir ve kısa bir reklam 24 saatlik bir geçiş verir. Pro günlük sınırı ve reklamları kaldırır; tüm birim kategorilerini, 30'dan fazla para birimini ve daha fazla temayı ekler."
+            "Yüzen hesap makinesi günde 3 saat ücretsizdir ve bu süre yalnızca panel açıkken sayılır; kısa bir reklam her şeyin kilidini 3 saatliğine açar. Pro süre sınırını ve reklamları kaldırır; tüm birim kategorilerini, tüm döviz çiftlerini ve daha fazla temayı ekler."
           ]
         }
       ],

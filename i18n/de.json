@@ -229,27 +229,27 @@
       "seo": "Schwebender Rechner für Android",
       "desc": "Schwebender Rechner mit Währungs- und Einheitenumrechner über jeder App.",
       "tagline": "Rechnen, ohne die App zu verlassen — ein Rechner, der über allem schwebt.",
-      "long": "FloatCalc+ ist ein schwebender Rechner, der über jeder App bleibt — du musst deine Shopping-, Banking- oder Browser-Ansicht nie schließen, nur um kurz etwas auszurechnen. Rechner, Einheiten- und Währungsumrechner teilen sich ein verschiebbares Fenster: Rechnung über den eingebauten Ziffernblock eingeben, Ergebnis sofort erhalten und in die Zwischenablage kopieren. Klapp die Tastatur weg, wenn eine Zeile reicht, oder verkleinere das ganze Panel zu einem schwebenden Symbol, das am Bildschirmrand andockt. Die Kurse stammen von der EZB, werden täglich aktualisiert und zwischengespeichert, sodass alles auch offline funktioniert. Der schwebende Rechner ist täglich 60 Minuten gratis — die Restzeit steht in der Titelzeile des Panels — und eine kurze Anzeige bringt dir einen 24-Stunden-Pass, wenn du mehr brauchst.",
+      "long": "FloatCalc+ ist ein schwebender Rechner, der über jeder App bleibt — du musst deine Shopping-, Banking- oder Browser-Ansicht nie schließen, nur um kurz etwas auszurechnen. Rechner, Einheiten- und Währungsumrechner teilen sich ein verschiebbares Fenster und denselben vertrauten Ziffernblock, und das Ergebnis erscheint schon beim Tippen. Markiere eine Zahl in einer beliebigen App und tippe auf „Mit FloatCalc+ berechnen“, um sie direkt zu übernehmen, oder öffne das Panel über die Kachel in den Schnelleinstellungen, ein Widget auf dem Startbildschirm oder die Benachrichtigung. Verkleinere es zu einem Symbol am Bildschirmrand, wenn du Platz brauchst. Die Kurse stammen von der EZB, werden täglich aktualisiert und zwischengespeichert, sodass alles auch offline funktioniert. Der schwebende Rechner ist täglich 3 Stunden gratis, gezählt wird nur, solange das Panel geöffnet ist — und wenn du mehr brauchst, schaltet eine kurze Anzeige alles für 3 Stunden frei.",
       "features": [
         "Overlay über jeder App — YouTube, Karten, Browser, Banking, Shopping, Dokumente — und öffnet wieder im zuletzt genutzten Modus",
-        "Operatorleiste mit einem Tipp: + − × ÷ ( ) % direkt über dem eingebauten Ziffernblock, Rücktaste korrigiert einen Tippfehler",
-        "Potenzen, Wurzeln und Prozente — 2^10, √144, 100+10% — und die Rechnung bleibt nach „=“ sichtbar, ein Tipp holt sie zum Bearbeiten zurück",
-        "Einheitenumrechner im Fenster: Länge, Gewicht, Temperatur, Fläche, Volumen, Geschwindigkeit und Zeit",
-        "Währungsrechner mit täglichen EZB-Kursen für über 30 Währungen; in den Einstellungen stehen Stand und Quelle",
-        "Tastatur auf eine Zeile einklappen oder das Panel zu einem am Rand angedockten Symbol verkleinern — mit Größe, Breite, Transparenz und 8 Designs"
+        "Die gewohnte Rechnertastatur mit Live-Ergebnis beim Tippen; halte % gedrückt für ^ und ÷ für √",
+        "Markiere eine Zahl in einer beliebigen App und tippe auf „Mit FloatCalc+ berechnen“; Kopieren und Einfügen über das ⋮-Menü, oder halte das Ergebnis gedrückt, um es zu kopieren",
+        "Einheiten- und Währungsumrechner mit derselben Tastatur: Länge, Gewicht, Temperatur, Fläche, Volumen, Geschwindigkeit und Zeit, dazu tägliche EZB-Kurse für über 30 Währungen",
+        "Öffnen über die Schnelleinstellungs-Kachel, ein Widget auf dem Startbildschirm oder die Schaltflächen in der Benachrichtigung",
+        "Verkleinere das Panel zu einem am Bildschirmrand angedockten Symbol oder lass es sich selbst verkleinern; große Tasten, Tastenvibration, einstellbare Transparenz und 8 Designs, das Standarddesign folgt dem dunklen Modus"
       ],
       "faq": [
         {
           "q": "Muss ich meine App jedes Mal schließen, wenn ich rechnen will?",
-          "a": "Nein. FloatCalc+ ist ein schwebendes Fenster, das über anderen Apps bleibt. So rechnest du einen Rabatt aus oder rechnest einen Preis um, ohne deine Shopping-, Banking- oder Browser-Ansicht zu verlassen. Zieh das Fenster dorthin, wo du es brauchst, und mach genau da weiter, wo du warst."
+          "a": "Nein. FloatCalc+ ist ein schwebendes Fenster, das über anderen Apps bleibt. So rechnest du einen Rabatt aus oder rechnest einen Preis um, ohne deine Shopping-, Banking- oder Browser-Ansicht zu verlassen. Markiere eine Zahl in der App und tippe auf „Mit FloatCalc+ berechnen“ oder gib sie einfach ein, lies das Ergebnis ab und mach genau da weiter, wo du warst."
         },
         {
           "q": "Woher kommen die Wechselkurse?",
-          "a": "Von der Europäischen Zentralbank, einmal täglich aktualisiert. Unter Einstellungen › Allgemein stehen Stand und Quelle der Kurse, und du kannst sie dort jederzeit neu laden. USD, EUR, JPY, GBP, KRW, CNY und über 30 Weltwährungen rechnest du direkt im Overlay um; durch den täglichen Cache klappt das auch offline."
+          "a": "Von der Europäischen Zentralbank, einmal täglich aktualisiert. Die Zeile unter den Beträgen zeigt den Kurs und sein Datum, und in den Einstellungen kannst du die Kurse jederzeit neu laden. Deine eigene Währung, USD und EUR sind kostenlos; Pro bringt alle Paare unter über 30 Währungen. Durch den täglichen Cache klappt das auch offline."
         },
         {
           "q": "Wie viel kann ich gratis nutzen?",
-          "a": "Der schwebende Rechner ist täglich 60 Minuten kostenlos, und die Titelzeile des Panels zeigt die verbleibende Zeit. Brauchst du mehr, bekommst du mit einer kurzen Anzeige einen 24-Stunden-Pass. Pro entfernt das tägliche Zeitlimit und die Werbung und bringt alle übrigen Einheiten-Kategorien und über 30 Währungen, 7 Premium-Designs und die volle Panel-Anpassung (Transparenz, Größe, Breite) — monatlich, jährlich oder einmalig für immer."
+          "a": "Der schwebende Rechner ist täglich 3 Stunden kostenlos. Gezählt wird nur, solange das Panel geöffnet ist — nicht, während es zu einem Symbol verkleinert ist. Brauchst du mehr, schaltet eine kurze Anzeige alles für 3 Stunden frei, so oft du willst. Pro entfernt das Zeitlimit und die Werbung und bringt alle Einheiten-Kategorien und Währungspaare, bis zu 100 Verlaufseinträge, 7 weitere Designs und die volle Panel-Anpassung (Transparenz, Größe, Breite) — monatlich, jährlich oder einmalig auf Lebenszeit."
         }
       ]
     },

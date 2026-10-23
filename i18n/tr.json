@@ -229,27 +229,27 @@
       "seo": "Kayan hesap makinesi ve çevirici",
       "desc": "Her uygulamanın üstünde yüzen hesap makinesi, döviz ve birim çevirici.",
       "tagline": "Uygulamadan çıkmadan hesapla — her şeyin üstünde duran yüzen hesap makinesi.",
-      "long": "FloatCalc+, her uygulamanın üstünde duran yüzen bir hesap makinesidir; küçük bir hesap için alışveriş, bankacılık ya da tarayıcı ekranını kapatmanız gerekmez. Hesap makinesi, birim çevirici ve döviz çevirici tek bir sürüklenebilir pencereyi paylaşır: işlemi yerleşik sayı tuşlarıyla yazın, sonucu anında alın ve panoya kopyalayın. Tek satır yettiğinde tuş takımını katlayın, ekrana ihtiyacınız olduğunda ise tüm paneli ekranın kenarına yaslanan küçük bir simgeye küçültün. Kurlar AMB'den gelir, her gün güncellenir ve önbelleğe alınır; böylece her şey çevrimdışı da çalışır. Yüzen hesap makinesi günde 60 dakika ücretsizdir — kalan süre panelin başlık satırında görünür — ve daha fazlası gerektiğinde kısa bir reklam size 24 saatlik geçiş verir.",
+      "long": "FloatCalc+, her uygulamanın üstünde duran yüzen bir hesap makinesidir; küçük bir hesap için alışveriş, bankacılık ya da tarayıcı ekranını kapatmanız gerekmez. Hesap makinesi, birim çevirici ve döviz çevirici tek bir sürüklenebilir pencereyi ve alışık olduğunuz tek bir tuş takımını paylaşır; sonuç siz yazarken görünür. Herhangi bir uygulamada bir sayıyı seçip “FloatCalc+ ile hesapla” seçeneğine dokunarak doğrudan getirin ya da paneli Hızlı Ayarlar kutucuğundan, ana ekran widget'ından veya bildirimden açın. Ekrana ihtiyacınız olduğunda paneli ekranın kenarında bir simgeye küçültün. Kurlar AMB'den gelir, her gün güncellenir ve önbelleğe alınır; böylece her şey çevrimdışı da çalışır. Yüzen hesap makinesi günde 3 saat ücretsizdir ve bu süre yalnızca panel açıkken sayılır; daha fazlası gerektiğinde kısa bir reklam her şeyin kilidini 3 saatliğine açar.",
       "features": [
         "Her uygulamanın üstünde — YouTube, haritalar, tarayıcı, bankacılık, alışveriş, belgeler — ve en son kullandığınız modda açılır",
-        "Tek dokunuşla işleç çubuğu: yerleşik sayı tuşlarının hemen üstünde + − × ÷ ( ) %, geri silme yalnızca yazım hatasını siler",
-        "Üs, kök ve yüzde — 2^10, √144, 100+10% — işlem «=» sonrasında ekranda kalır, dokunup düzenleyin",
-        "Pencerenin içinde birim çevirici: uzunluk, ağırlık, sıcaklık, alan, hacim, hız ve zaman",
-        "30'dan fazla para birimi için günlük AMB kurlarıyla döviz çevirici; Ayarlar son güncelleme tarihini ve kaynağı gösterir",
-        "Tuş takımını tek satıra katlayın ya da paneli ekran kenarına yaslanan bir simgeye küçültün; boyut, genişlik, saydamlık ayarlanabilir, 8 tema"
+        "Alışık olduğunuz hesap makinesi tuş takımı, sonuç siz yazarken görünür; ^ için % tuşuna, √ için ÷ tuşuna uzun basın",
+        "Herhangi bir uygulamada bir sayıyı seçip “FloatCalc+ ile hesapla” seçeneğine dokunun; ⋮ menüsünden kopyalayıp yapıştırın ya da kopyalamak için sonuca uzun basın",
+        "Aynı tuş takımında birim ve döviz çevirici: uzunluk, ağırlık, sıcaklık, alan, hacim, hız ve zaman, ayrıca 30'dan fazla para birimi için günlük AMB kurları",
+        "Hızlı Ayarlar kutucuğundan, ana ekran widget'ından veya bildirimdeki düğmelerden açın",
+        "Paneli ekran kenarına yaslanan bir simgeye küçültün ya da kendiliğinden küçülsün; büyük tuşlar, tuş titreşimi, ayarlanabilir saydamlık ve 8 tema, varsayılan tema karanlık modu izler"
       ],
       "faq": [
         {
           "q": "Her hesap yapışımda kullandığım uygulamayı kapatmam mı gerekiyor?",
-          "a": "Hayır. FloatCalc+ diğer uygulamaların üstünde duran yüzen bir penceredir; alışveriş, bankacılık veya tarayıcı ekranından çıkmadan indirim hesaplayabilir, fiyat çevirebilirsiniz. Pencereyi istediğiniz yere sürükleyin, sonucu alın ve kaldığınız yerden devam edin."
+          "a": "Hayır. FloatCalc+ diğer uygulamaların üstünde duran yüzen bir penceredir; alışveriş, bankacılık veya tarayıcı ekranından çıkmadan indirim hesaplayabilir, fiyat çevirebilirsiniz. Uygulamada sayıyı seçip “FloatCalc+ ile hesapla” seçeneğine dokunun ya da kendiniz yazın, sonucu alın ve kaldığınız yerden devam edin."
         },
         {
           "q": "Döviz kurları nereden geliyor?",
-          "a": "Avrupa Merkez Bankası'ndan, günde bir kez güncellenir. Ayarlar › Genel bölümünde kurların tarihi ve kaynağı yazar; oradan istediğiniz an yenileyebilirsiniz. USD, EUR, JPY, GBP, KRW, CNY ve 30'dan fazla dünya para birimi doğrudan yüzen pencerede çevrilir, günlük önbellek sayesinde çevrimdışı da çalışır."
+          "a": "Avrupa Merkez Bankası'ndan, günde bir kez güncellenir. Tutarların altındaki satır kuru ve tarihini gösterir; kurları Ayarlar'dan istediğiniz an güncelleyebilirsiniz. Kendi para biriminiz, USD ve EUR ücretsizdir; Pro, 30'dan fazla para birimi arasındaki tüm çiftleri ekler. Günlük önbellek sayesinde çevrimdışı da çalışır."
         },
         {
           "q": "Ücretsiz olarak nereye kadar kullanabilirim?",
-          "a": "Yüzen hesap makinesi günde 60 dakika ücretsizdir ve panelin başlık satırı kalan süreyi gösterir. Daha fazlası lazımsa kısa bir reklam izleyip 24 saatlik geçiş alırsınız. Pro, günlük süre sınırını ve reklamları kaldırır; kalan birim kategorilerini ve 30'dan fazla para birimini, 7 premium temayı ve tam panel özelleştirmesini (saydamlık, boyut, genişlik) ekler — aylık, yıllık ya da tek seferlik ömür boyu."
+          "a": "Yüzen hesap makinesi günde 3 saat ücretsizdir ve bu süre yalnızca panel açıkken sayılır, simgeye küçültülmüşken sayılmaz. Daha fazlası lazımsa kısa bir reklam izleyerek her şeyin kilidini 3 saatliğine açın; bunu istediğiniz kadar tekrarlayabilirsiniz. Pro süre sınırını ve reklamları kaldırır; tüm birim kategorilerini ve döviz çiftlerini, 100 kayda kadar geçmişi, 7 tema daha ve tam panel özelleştirmesini (saydamlık, boyut, genişlik) ekler — aylık, yıllık ya da tek seferlik ömür boyu."
         }
       ]
     },

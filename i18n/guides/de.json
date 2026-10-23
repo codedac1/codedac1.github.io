@@ -458,7 +458,7 @@
     },
     "floating-calculator-over-other-apps-android": {
       "app": "floatcalc",
-      "updated": "2026-10-14",
+      "updated": "2026-10-24",
       "title": "Android: Taschenrechner über anderen Apps nutzen",
       "desc": "Rabatt ausrechnen oder einen Preis umrechnen, ohne deine Shopping-, Banking- oder Browser-Ansicht zu verlassen: ein schwebender Rechner, der über jeder App bleibt – mit Einheiten- und Währungsumrechner.",
       "intro": "Einen Preis in einer Shopping-App prüfen, im Chat eine Rechnung aufteilen, beim Buchen eine Währung umrechnen – wechselst du dafür zur Rechner-App und zurück, verlierst du die Stelle, an der du warst, und musst dir Zahlen im Kopf merken. Ein schwebender Rechner bleibt auf dem Bildschirm über der App, die du gerade nutzt.",
@@ -472,19 +472,19 @@
         {
           "h": "Möglichkeit 2: ein schwebender Rechner",
           "p": [
-            "FloatCalc+ (unsere App) ist ein Rechnerfenster, das über jeder App schwebt. Rechner, Einheiten- und Währungsumrechner teilen sich ein Fenster, das du überallhin ziehen kannst; klapp die Tastatur auf eine Zeile ein oder verkleinere das Panel zu einem Symbol am Bildschirmrand, wenn du Platz brauchst."
+            "FloatCalc+ (unsere App) ist ein Rechnerfenster, das über jeder App schwebt. Rechner, Einheiten- und Währungsumrechner teilen sich ein Fenster und einen Ziffernblock; zieh es überallhin und verkleinere es zu einem Symbol am Bildschirmrand, wenn du Platz brauchst."
           ],
           "steps": [
             "Installiere FloatCalc+ aus Google Play und erlaube „Über anderen Apps einblenden“.",
-            "Öffne den schwebenden Rechner und zieh ihn dorthin, wo er nichts verdeckt, was du brauchst.",
-            "Gib die Rechnung ein – auch Potenzen, Wurzeln und Prozente funktionieren – und kopiere das Ergebnis in die Zwischenablage.",
+            "Öffne den schwebenden Rechner in der App, über die Schnelleinstellungs-Kachel oder das Widget auf dem Startbildschirm und zieh ihn dorthin, wo er nichts verdeckt, was du brauchst.",
+            "Gib die Rechnung über den Ziffernblock ein – das Ergebnis erscheint schon beim Tippen. Um eine Zahl aus einer anderen App zu nutzen, markiere sie und tippe auf „Mit FloatCalc+ berechnen“; das Ergebnis kopierst du über das ⋮-Menü.",
             "Wechsle im selben Fenster zum Einheiten- oder Währungsumrechner. Die Wechselkurse stammen von der Europäischen Zentralbank, werden täglich aktualisiert und funktionieren auch offline."
           ]
         },
         {
           "h": "Gratis und Pro",
           "p": [
-            "Der schwebende Rechner ist täglich 60 Minuten gratis; die Titelzeile zeigt, wie viel Zeit noch bleibt, und ein kurzer Werbeclip bringt dir einen 24-Stunden-Pass. Pro hebt das Tageslimit auf, entfernt die Werbung und bringt alle Einheiten-Kategorien, über 30 Währungen und weitere Designs."
+            "Der schwebende Rechner ist täglich 3 Stunden gratis, gezählt wird nur, solange das Panel geöffnet ist, und ein kurzer Werbeclip schaltet alles für 3 Stunden frei. Pro hebt das Zeitlimit auf, entfernt die Werbung und bringt alle Einheiten-Kategorien, alle Währungspaare und weitere Designs."
           ]
         }
       ],

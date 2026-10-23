@@ -458,7 +458,7 @@
     },
     "floating-calculator-over-other-apps-android": {
       "app": "floatcalc",
-      "updated": "2026-10-14",
+      "updated": "2026-10-24",
       "title": "How to use a calculator on top of other apps on Android",
       "desc": "Work out a discount or convert a price without leaving your shopping, banking or browser screen: a floating calculator that stays over any app, with unit and currency converters.",
       "intro": "Checking a price in a shopping app, splitting a bill in a chat, converting a currency while booking — switching to the Calculator app and back means losing your place and remembering numbers in your head. A floating calculator stays on screen over the app you are using.",
@@ -472,19 +472,19 @@
         {
           "h": "Option 2: a floating calculator",
           "p": [
-            "FloatCalc+ (our app) is a calculator window that floats over any app. The calculator, unit converter and currency converter share one window you can drag anywhere; fold the keypad to a single line or shrink the panel to an icon at the screen edge when you need the space."
+            "FloatCalc+ (our app) is a calculator window that floats over any app. The calculator, unit converter and currency converter share one window and one keypad; drag it anywhere, and shrink it to an icon at the screen edge when you need the space."
           ],
           "steps": [
             "Install FloatCalc+ from Google Play and allow \"Display over other apps\".",
-            "Open the floating calculator and drag it where it doesn't cover what you need.",
-            "Type the expression — powers, roots and percentages work too — and copy the answer to the clipboard.",
+            "Open the floating calculator from the app, the Quick Settings tile or the home screen widget, and drag it where it doesn't cover what you need.",
+            "Type the expression on the keypad — the result appears as you type. To use a number from another app, select it and tap “Calculate with FloatCalc+”; copy the answer from the ⋮ menu.",
             "Switch to the unit or currency converter in the same window. Exchange rates come from the European Central Bank, refresh daily and keep working offline."
           ]
         },
         {
           "h": "Free and Pro",
           "p": [
-            "The floating calculator is free for 60 minutes a day; the title bar shows how much is left, and a short ad gives a 24-hour pass. Pro removes the daily limit and ads and adds all unit categories, 30+ currencies and more themes."
+            "The floating calculator is free for 3 hours a day, counted only while the panel is open, and a short ad unlocks everything for 3 hours. Pro removes the time limit and the ads and adds all unit categories, every currency pair and more themes."
           ]
         }
       ],

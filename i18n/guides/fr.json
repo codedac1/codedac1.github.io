@@ -458,7 +458,7 @@
     },
     "floating-calculator-over-other-apps-android": {
       "app": "floatcalc",
-      "updated": "2026-10-14",
+      "updated": "2026-10-24",
       "title": "Utiliser une calculatrice par-dessus d’autres applis sur Android",
       "desc": "Calculez une remise ou convertissez un prix sans quitter votre écran de shopping, de banque ou votre navigateur : une calculatrice flottante qui reste au-dessus de toute appli, avec convertisseurs d’unités et de devises.",
       "intro": "Vérifier un prix dans une appli de shopping, partager une addition dans une conversation, convertir une devise pendant une réservation : passer à l’appli Calculatrice puis revenir, c’est perdre le fil et retenir des chiffres de tête. Une calculatrice flottante reste à l’écran au-dessus de l’appli que vous utilisez.",
@@ -472,19 +472,19 @@
         {
           "h": "Option 2 : une calculatrice flottante",
           "p": [
-            "FloatCalc+ (notre appli) est une fenêtre de calculatrice qui flotte au-dessus de toute appli. La calculatrice, le convertisseur d’unités et le convertisseur de devises partagent une même fenêtre que vous pouvez déplacer n’importe où ; repliez le clavier sur une seule ligne ou réduisez le panneau en une icône au bord de l’écran quand vous avez besoin de place."
+            "FloatCalc+ (notre appli) est une fenêtre de calculatrice qui flotte au-dessus de toute appli. La calculatrice, le convertisseur d’unités et le convertisseur de devises partagent une même fenêtre et un même clavier ; déplacez-la n’importe où, et réduisez-la en une icône au bord de l’écran quand vous avez besoin de place."
           ],
           "steps": [
             "Installez FloatCalc+ depuis Google Play et autorisez « Superposition sur d’autres applis ».",
-            "Ouvrez la calculatrice flottante et placez-la là où elle ne cache pas ce dont vous avez besoin.",
-            "Tapez l’opération — puissances, racines et pourcentages fonctionnent aussi — et copiez le résultat dans le presse-papiers.",
+            "Ouvrez la calculatrice flottante depuis l’appli, la vignette des Réglages rapides ou le widget de l’écran d’accueil, et placez-la là où elle ne cache pas ce dont vous avez besoin.",
+            "Tapez l’opération sur le clavier — le résultat s’affiche pendant la saisie. Pour utiliser un nombre d’une autre appli, sélectionnez-le et touchez « Calculer avec FloatCalc+ » ; copiez le résultat depuis le menu ⋮.",
             "Passez au convertisseur d’unités ou de devises dans la même fenêtre. Les taux de change viennent de la Banque centrale européenne, sont actualisés chaque jour et continuent de fonctionner hors ligne."
           ]
         },
         {
           "h": "Gratuit et Pro",
           "p": [
-            "La calculatrice flottante est gratuite 60 minutes par jour ; la barre de titre indique le temps restant, et une courte pub vous donne un pass de 24 heures. Pro supprime la limite quotidienne et les publicités, et ajoute toutes les catégories d’unités, plus de 30 devises et davantage de thèmes."
+            "La calculatrice flottante est gratuite 3 heures par jour, décomptées uniquement quand le panneau est ouvert, et une courte pub débloque tout pendant 3 heures. Pro supprime la limite de temps et les publicités, et ajoute toutes les catégories d’unités, toutes les paires de devises et davantage de thèmes."
           ]
         }
       ],

@@ -229,27 +229,27 @@
       "seo": "calculadora flutuante",
       "desc": "Calculadora flutuante com conversor de câmbio e unidades sobre qualquer app.",
       "tagline": "Calcule sem sair do app — uma calculadora flutuante sempre por cima.",
-      "long": "O FloatCalc+ é uma calculadora flutuante que fica por cima de qualquer app, então você nunca precisa fechar a tela de compras, do banco ou do navegador só para fazer uma conta. Calculadora, conversor de unidades e conversor de moedas dividem a mesma janela arrastável: digite a conta no teclado numérico integrado, veja o resultado na hora e copie para a área de transferência. Recolha o teclado quando uma linha bastar, ou reduza o painel inteiro a um ícone flutuante que encosta na borda da tela. As taxas vêm do BCE, são atualizadas todo dia e ficam em cache, então tudo continua funcionando offline. A calculadora flutuante é grátis por 60 minutos por dia — o tempo restante aparece na barra de título do painel — e um anúncio curto garante um passe de 24 horas quando você precisa de mais.",
+      "long": "O FloatCalc+ é uma calculadora flutuante que fica por cima de qualquer app, então você nunca precisa fechar a tela de compras, do banco ou do navegador só para fazer uma conta. Calculadora, conversor de unidades e conversor de moedas dividem a mesma janela arrastável e o mesmo teclado de sempre, e o resultado aparece enquanto você digita. Selecione um número em qualquer app e toque em “Calcular com o FloatCalc+” para levá-lo direto à calculadora, ou abra o painel pelo bloco das Configurações rápidas, por um widget da tela inicial ou pela notificação. Reduza-o a um ícone na borda da tela quando precisar de espaço. As taxas de câmbio vêm do Banco Central Europeu, são atualizadas todo dia e ficam em cache, então tudo continua funcionando offline. A calculadora flutuante é grátis por 3 horas por dia, contadas só enquanto o painel está aberto, e um anúncio curto libera tudo por 3 horas sempre que você precisar de mais.",
       "features": [
-        "Sobreposta a qualquer app — YouTube, mapas, navegador, banco, compras, documentos — e reabre no modo que você usou por último",
-        "Barra de operadores com um toque: + − × ÷ ( ) % logo acima do teclado numérico integrado, com retrocesso para corrigir um erro",
-        "Potências, raízes e porcentagens — 2^10, √144, 100+10% — e a conta continua na tela depois do «=», toque para editar",
-        "Conversor de unidades dentro da janela: comprimento, peso, temperatura, área, volume, velocidade e tempo",
-        "Conversor de moedas com taxas diárias do BCE para mais de 30 moedas; as Configurações mostram a data da última atualização e a fonte",
-        "Recolha o teclado para uma linha ou reduza o painel a um ícone encostado na borda da tela, com tamanho, largura e opacidade ajustáveis e 8 temas"
+        "Flutua sobre qualquer app — YouTube, mapas, navegador, banco, compras, documentos — e reabre no modo que você usou por último",
+        "O teclado de calculadora de sempre, com o resultado aparecendo enquanto você digita; toque e segure % para ^ e ÷ para √",
+        "Selecione um número em qualquer app e toque em “Calcular com o FloatCalc+”; copie e cole pelo menu ⋮, ou toque e segure o resultado para copiar",
+        "Conversores de unidades e de moedas no mesmo teclado: comprimento, peso, temperatura, área, volume, velocidade e tempo, além de taxas diárias do BCE para mais de 30 moedas",
+        "Abra pelo bloco das Configurações rápidas, por um widget da tela inicial ou pelos botões da notificação",
+        "Reduza o painel a um ícone encostado na borda da tela, ou deixe que ele se reduza sozinho; teclas grandes, vibração nas teclas, opacidade ajustável e 8 temas, com o tema padrão seguindo o modo escuro"
       ],
       "faq": [
         {
           "q": "Preciso fechar meu app toda vez que quiser calcular?",
-          "a": "Não. O FloatCalc+ é uma janela flutuante que fica por cima dos outros apps, então dá para calcular um desconto ou converter um preço sem sair da tela de compras, do banco ou do navegador. Arraste a janela para onde quiser, veja o resultado e continue exatamente de onde parou."
+          "a": "Não. O FloatCalc+ é uma janela flutuante que fica por cima dos outros apps, então dá para calcular um desconto ou converter um preço sem sair da tela de compras, do banco ou do navegador. Selecione um número no app e toque em “Calcular com o FloatCalc+”, ou simplesmente digite, veja o resultado e continue exatamente de onde parou."
         },
         {
           "q": "De onde vêm as taxas de câmbio?",
-          "a": "Do Banco Central Europeu, atualizadas uma vez por dia. Em Configurações › Geral aparecem a data das taxas e a fonte, e dá para atualizá-las quando quiser. USD, EUR, JPY, GBP, KRW, CNY e mais de 30 moedas se convertem dentro da própria janela flutuante, e o cache diário mantém tudo funcionando offline."
+          "a": "Do Banco Central Europeu, atualizadas uma vez por dia. A linha abaixo dos valores mostra a taxa e a data dela, e nas Configurações dá para atualizar as taxas quando quiser. A sua moeda, USD e EUR são grátis; o Pro adiciona todos os pares entre mais de 30 moedas. O cache diário mantém tudo funcionando offline."
         },
         {
           "q": "Até onde dá para usar de graça?",
-          "a": "A calculadora flutuante é grátis por 60 minutos por dia, e a barra de título do painel mostra quanto tempo resta. Se precisar de mais, assista a um anúncio curto e ganhe um passe de 24 horas. O Pro tira o limite diário de tempo e os anúncios e acrescenta as demais categorias de unidades e mais de 30 moedas, 7 temas premium e a personalização completa do painel (opacidade, tamanho, largura), em plano mensal, anual ou compra única vitalícia."
+          "a": "A calculadora flutuante é grátis por 3 horas por dia, contadas só enquanto o painel está aberto — não enquanto ele está reduzido a um ícone. Se precisar de mais, assista a um anúncio curto para liberar tudo por 3 horas, quantas vezes quiser. O Pro tira o limite de tempo e os anúncios e adiciona todas as categorias de unidades e pares de moedas, até 100 itens no histórico, mais 7 temas e a personalização completa do painel (opacidade, tamanho, largura), em plano mensal, anual ou compra única vitalícia."
         }
       ]
     },

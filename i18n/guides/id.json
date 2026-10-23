@@ -458,7 +458,7 @@
     },
     "floating-calculator-over-other-apps-android": {
       "app": "floatcalc",
-      "updated": "2026-10-14",
+      "updated": "2026-10-24",
       "title": "Cara memakai kalkulator di atas aplikasi lain di Android",
       "desc": "Hitung diskon atau konversi harga tanpa meninggalkan layar belanja, perbankan, atau browser: kalkulator mengambang yang tetap di atas aplikasi apa pun, dengan konverter satuan dan mata uang.",
       "intro": "Mengecek harga di aplikasi belanja, membagi tagihan di chat, mengonversi mata uang saat memesan — berpindah ke aplikasi Kalkulator lalu kembali membuat Anda kehilangan posisi dan harus mengingat angka di kepala. Kalkulator mengambang tetap tampil di layar di atas aplikasi yang sedang Anda pakai.",
@@ -472,19 +472,19 @@
         {
           "h": "Opsi 2: kalkulator mengambang",
           "p": [
-            "FloatCalc+ (aplikasi kami) adalah jendela kalkulator yang mengambang di atas aplikasi apa pun. Kalkulator, konverter satuan, dan konverter mata uang berbagi satu jendela yang bisa Anda seret ke mana saja; lipat papan tombolnya menjadi satu baris atau perkecil panelnya menjadi ikon di tepi layar saat Anda butuh ruang."
+            "FloatCalc+ (aplikasi kami) adalah jendela kalkulator yang mengambang di atas aplikasi apa pun. Kalkulator, konverter satuan, dan konverter mata uang berbagi satu jendela dan satu keypad; seret ke mana saja, dan perkecil menjadi ikon di tepi layar saat Anda butuh ruang."
           ],
           "steps": [
             "Pasang FloatCalc+ dari Google Play dan izinkan “Tampilkan di atas aplikasi lain”.",
-            "Buka kalkulator mengambang dan seret ke tempat yang tidak menutupi apa yang Anda butuhkan.",
-            "Ketik perhitungannya — pangkat, akar, dan persen juga bisa — lalu salin hasilnya ke papan klip.",
+            "Buka kalkulator mengambang dari aplikasi, ubin Setelan Cepat, atau widget layar utama, lalu seret ke tempat yang tidak menutupi apa yang Anda butuhkan.",
+            "Ketik perhitungannya di keypad — hasilnya muncul saat Anda mengetik. Untuk memakai angka dari aplikasi lain, pilih angkanya lalu ketuk “Hitung dengan FloatCalc+”; salin hasilnya dari menu ⋮.",
             "Beralih ke konverter satuan atau mata uang di jendela yang sama. Kurs berasal dari Bank Sentral Eropa, diperbarui setiap hari, dan tetap berfungsi saat offline."
           ]
         },
         {
           "h": "Gratis dan Pro",
           "p": [
-            "Kalkulator mengambang gratis 60 menit per hari; baris judul menunjukkan sisa waktunya, dan iklan singkat memberi pass 24 jam. Pro menghapus batas harian dan iklan, serta menambahkan semua kategori satuan, 30+ mata uang, dan lebih banyak tema."
+            "Kalkulator mengambang gratis 3 jam per hari, yang hanya dihitung selama panel terbuka, dan iklan singkat membuka semua fitur selama 3 jam. Pro menghapus batas waktu dan iklan, serta menambahkan semua kategori satuan, semua pasangan mata uang, dan lebih banyak tema."
           ]
         }
       ],

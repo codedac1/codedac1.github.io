@@ -458,7 +458,7 @@
     },
     "floating-calculator-over-other-apps-android": {
       "app": "floatcalc",
-      "updated": "2026-10-14",
+      "updated": "2026-10-24",
       "title": "Paano gumamit ng calculator sa ibabaw ng ibang app sa Android",
       "desc": "Mag-compute ng diskwento o mag-convert ng presyo nang hindi umaalis sa shopping, banking o browser screen mo: isang floating calculator na nananatili sa ibabaw ng kahit anong app, may unit at currency converter.",
       "intro": "Nagche-check ng presyo sa shopping app, naghahati ng bayarin sa chat, nagko-convert ng pera habang nagbu-book — kapag lumipat ka sa Calculator app at bumalik, nawawala ang puwesto mo at kailangan mong tandaan ang mga numero sa isip. Nananatili sa screen ang floating calculator sa ibabaw ng app na ginagamit mo.",
@@ -472,19 +472,19 @@
         {
           "h": "Opsyon 2: floating calculator",
           "p": [
-            "Ang FloatCalc+ (aming app) ay isang calculator window na lumulutang sa ibabaw ng kahit anong app. Magkasama sa iisang window ang calculator, unit converter at currency converter, at maida-drag mo ito kahit saan; tiklupin ang keypad sa iisang linya o liitin ang panel bilang icon sa gilid ng screen kapag kailangan mo ng espasyo."
+            "Ang FloatCalc+ (aming app) ay isang calculator window na lumulutang sa ibabaw ng kahit anong app. Magkasama sa iisang window at iisang keypad ang calculator, unit converter at currency converter; i-drag ito kahit saan, at paliitin bilang icon sa gilid ng screen kapag kailangan mo ng espasyo."
           ],
           "steps": [
             "I-install ang FloatCalc+ mula sa Google Play at payagan ang “Ipakita sa ibabaw ng ibang app”.",
-            "Buksan ang floating calculator at i-drag ito sa lugar na hindi nito natatakpan ang kailangan mo.",
-            "I-type ang computation — gumagana rin ang power, square root at porsyento — at kopyahin ang sagot sa clipboard.",
+            "Buksan ang floating calculator mula sa app, sa Quick Settings tile o sa home screen widget, at i-drag ito sa lugar na hindi nito natatakpan ang kailangan mo.",
+            "I-type ang computation sa keypad — lumalabas ang sagot habang nagta-type ka. Para gamitin ang numero mula sa ibang app, piliin ito at i-tap ang “Kalkulahin gamit ang FloatCalc+”; kopyahin ang sagot mula sa ⋮ menu.",
             "Lumipat sa unit o currency converter sa parehong window. Galing sa European Central Bank ang exchange rates, nire-refresh araw-araw at gumagana pa rin offline."
           ]
         },
         {
           "h": "Libre at Pro",
           "p": [
-            "Libre ang floating calculator nang 60 minuto kada araw; makikita sa title bar ang natitirang oras, at may 24-oras na pass kapalit ng maikling ad. Inaalis ng Pro ang pang-araw-araw na limitasyon at ang mga ad, at idinaragdag ang lahat ng kategorya ng unit, 30+ pera at mas maraming tema."
+            "Libre ang floating calculator nang 3 oras kada araw, binibilang lang habang nakabukas ang panel, at bubuksan ng maikling ad ang lahat nang 3 oras. Inaalis ng Pro ang limitasyon sa oras at ang mga ad, at idinaragdag ang lahat ng kategorya ng unit, lahat ng pares ng currency at mas maraming theme."
           ]
         }
       ],

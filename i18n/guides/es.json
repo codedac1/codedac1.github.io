@@ -458,7 +458,7 @@
     },
     "floating-calculator-over-other-apps-android": {
       "app": "floatcalc",
-      "updated": "2026-10-14",
+      "updated": "2026-10-24",
       "title": "Cómo usar una calculadora encima de otras apps en Android",
       "desc": "Calcula un descuento o convierte un precio sin salir de la pantalla de compras, del banco o del navegador: una calculadora flotante que se queda sobre cualquier app, con conversor de unidades y de divisas.",
       "intro": "Consultar un precio en una app de compras, dividir una cuenta en un chat, convertir una moneda mientras reservas: cambiar a la app Calculadora y volver significa perder el hilo y recordar números de memoria. Una calculadora flotante se queda en pantalla sobre la app que estás usando.",
@@ -472,19 +472,19 @@
         {
           "h": "Opción 2: una calculadora flotante",
           "p": [
-            "FloatCalc+ (nuestra app) es una ventana de calculadora que flota sobre cualquier app. La calculadora, el conversor de unidades y el de divisas comparten una misma ventana que puedes arrastrar adonde quieras; pliega el teclado a una sola línea o reduce el panel a un icono en el borde de la pantalla cuando necesites espacio."
+            "FloatCalc+ (nuestra app) es una ventana de calculadora que flota sobre cualquier app. La calculadora, el conversor de unidades y el de divisas comparten una misma ventana y un mismo teclado; arrástrala adonde quieras y redúcela a un icono en el borde de la pantalla cuando necesites espacio."
           ],
           "steps": [
             "Instala FloatCalc+ desde Google Play y permite «Mostrar sobre otras apps».",
-            "Abre la calculadora flotante y arrástrala donde no tape lo que necesitas.",
-            "Escribe la operación (también funcionan potencias, raíces y porcentajes) y copia el resultado al portapapeles.",
+            "Abre la calculadora flotante desde la app, el icono de Ajustes rápidos o el widget de la pantalla de inicio, y arrástrala donde no tape lo que necesitas.",
+            "Escribe la operación en el teclado: el resultado aparece mientras escribes. Para usar un número de otra app, selecciónalo y toca «Calcular con FloatCalc+»; copia el resultado desde el menú ⋮.",
             "Cambia al conversor de unidades o de divisas en la misma ventana. Los tipos de cambio vienen del Banco Central Europeo, se actualizan a diario y siguen funcionando sin conexión."
           ]
         },
         {
           "h": "Gratis y Pro",
           "p": [
-            "La calculadora flotante es gratis 60 minutos al día; la barra de título muestra cuánto tiempo queda, y un anuncio corto te da un pase de 24 horas. Pro quita el límite diario y los anuncios, y añade todas las categorías de unidades, más de 30 divisas y más temas."
+            "La calculadora flotante es gratis 3 horas al día, contadas solo mientras el panel está abierto, y un anuncio corto desbloquea todo durante 3 horas. Pro quita el límite de tiempo y los anuncios, y añade todas las categorías de unidades, todos los pares de divisas y más temas."
           ]
         }
       ],

@@ -458,7 +458,7 @@
     },
     "floating-calculator-over-other-apps-android": {
       "app": "floatcalc",
-      "updated": "2026-10-14",
+      "updated": "2026-10-24",
       "title": "Como usar uma calculadora por cima de outros apps no Android",
       "desc": "Calcule um desconto ou converta um preço sem sair da tela de compras, do banco ou do navegador: uma calculadora flutuante que fica sobre qualquer app, com conversor de unidades e de moedas.",
       "intro": "Conferir um preço num app de compras, dividir uma conta numa conversa, converter uma moeda durante uma reserva — trocar para o app Calculadora e voltar faz você perder o lugar e guardar números de cabeça. Uma calculadora flutuante fica na tela por cima do app que você está usando.",
@@ -472,19 +472,19 @@
         {
           "h": "Opção 2: uma calculadora flutuante",
           "p": [
-            "O FloatCalc+ (nosso app) é uma janela de calculadora que flutua sobre qualquer app. Calculadora, conversor de unidades e conversor de moedas dividem a mesma janela, que você arrasta para onde quiser; recolha o teclado para uma única linha ou reduza o painel a um ícone na borda da tela quando precisar de espaço."
+            "O FloatCalc+ (nosso app) é uma janela de calculadora que flutua sobre qualquer app. Calculadora, conversor de unidades e conversor de moedas dividem a mesma janela e o mesmo teclado; arraste-a para onde quiser e reduza-a a um ícone na borda da tela quando precisar de espaço."
           ],
           "steps": [
             "Instale o FloatCalc+ pelo Google Play e permita “Sobrepor a outros apps”.",
-            "Abra a calculadora flutuante e arraste-a para onde ela não cubra o que você precisa ver.",
-            "Digite a conta — potências, raízes e porcentagens também funcionam — e copie o resultado para a área de transferência.",
+            "Abra a calculadora flutuante pelo app, pelo bloco das Configurações rápidas ou pelo widget da tela inicial, e arraste-a para onde ela não cubra o que você precisa ver.",
+            "Digite a conta no teclado — o resultado aparece enquanto você digita. Para usar um número de outro app, selecione-o e toque em “Calcular com o FloatCalc+”; copie o resultado pelo menu ⋮.",
             "Troque para o conversor de unidades ou de moedas na mesma janela. As taxas de câmbio vêm do Banco Central Europeu, são atualizadas todo dia e continuam funcionando offline."
           ]
         },
         {
           "h": "Grátis e Pro",
           "p": [
-            "A calculadora flutuante é grátis por 60 minutos por dia; a barra de título mostra quanto tempo resta, e um anúncio curto dá um passe de 24 horas. O Pro tira o limite diário e os anúncios e adiciona todas as categorias de unidades, mais de 30 moedas e mais temas."
+            "A calculadora flutuante é grátis por 3 horas por dia, contadas só enquanto o painel está aberto, e um anúncio curto libera tudo por 3 horas. O Pro tira o limite de tempo e os anúncios e adiciona todas as categorias de unidades, todos os pares de moedas e mais temas."
           ]
         }
       ],

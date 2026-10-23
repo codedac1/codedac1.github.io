@@ -229,27 +229,27 @@
       "seo": "Floating Calculator para sa Android",
       "desc": "Floating calculator na may currency at unit converter sa ibabaw ng kahit anong app.",
       "tagline": "Mag-compute nang hindi umaalis sa app — calculator na laging nasa ibabaw.",
-      "long": "Ang FloatCalc+ ay isang floating calculator na nananatili sa ibabaw ng kahit anong app, kaya hindi mo na kailangang isara ang shopping, banking o browser mo para lang mag-compute. Magkasama sa iisang nada-drag na window ang calculator, unit converter at currency converter: i-type ang computation sa built-in na number pad, makuha agad ang sagot, at kopyahin ito sa clipboard. Tiklupin ang keypad kapag isang linya lang ang kailangan, o liitin ang buong panel sa isang floating icon na dumidikit sa gilid ng screen. Galing sa ECB ang palitan, ina-update araw-araw at naka-cache, kaya gumagana pa rin ang lahat offline. Libre ang floating calculator nang 60 minuto kada araw — makikita ang natitirang oras sa title bar ng panel — at may 24-oras na pass kapag nanood ka ng maikling ad.",
+      "long": "Ang FloatCalc+ ay isang floating calculator na nananatili sa ibabaw ng kahit anong app, kaya hindi mo na kailangang isara ang shopping, banking o browser mo para lang mag-compute. Magkasama sa iisang nada-drag na window ang calculator, unit converter at currency converter, gamit ang iisang pamilyar na keypad, at lumalabas ang sagot habang nagta-type ka. Pumili ng numero sa kahit anong app at i-tap ang “Kalkulahin gamit ang FloatCalc+” para direkta itong mailipat, o buksan ang panel mula sa Quick Settings tile, home screen widget o notification. Paliitin ito bilang icon sa gilid ng screen kapag kailangan mo ng espasyo. Galing sa ECB ang palitan, ina-update araw-araw at naka-cache, kaya gumagana pa rin ang lahat offline. Libre ang floating calculator nang 3 oras kada araw, binibilang lang habang nakabukas ang panel, at kapag kailangan mo pa, bubuksan ng maikling ad ang lahat nang 3 oras.",
       "features": [
         "Nakapatong sa kahit anong app — YouTube, mapa, browser, banking, shopping, dokumento — at bumubukas sa mode na huli mong ginamit",
-        "Isang tap na operator row: + − × ÷ ( ) % sa ibabaw mismo ng built-in na number pad, may backspace para itama ang isang mali",
-        "Power, square root at porsyento — 2^10, √144, 100+10% — nananatili sa screen ang computation pagkatapos ng «=», i-tap para i-edit",
-        "Unit converter sa loob mismo ng window: haba, timbang, temperatura, sukat, volume, bilis at oras",
-        "Currency converter na may araw-araw na rates ng ECB para sa 30+ pera; nasa Settings ang petsa ng huling update at ang pinagkunan",
-        "Tiklupin ang keypad sa isang linya o liitin ang panel sa icon na nakadikit sa gilid ng screen; nababago ang laki, lapad, opacity at may 8 tema"
+        "Ang karaniwang keypad ng calculator na may live na resulta habang nagta-type; pindutin nang matagal ang % para sa ^ at ang ÷ para sa √",
+        "Pumili ng numero sa kahit anong app at i-tap ang “Kalkulahin gamit ang FloatCalc+”; mag-copy at paste mula sa ⋮ menu, o pindutin nang matagal ang resulta para kopyahin",
+        "Unit at currency converter sa parehong keypad: haba, timbang, temperatura, area, volume, bilis at oras, kasama ang araw-araw na rates ng ECB para sa 30+ currency",
+        "Buksan mula sa Quick Settings tile, home screen widget o mga button sa notification",
+        "Paliitin ang panel bilang icon na nakadikit sa gilid ng screen, o hayaan itong kusang lumiit; malalaking key, vibration sa key, nababagong opacity at 8 theme, at sinusunod ng default na theme ang dark mode"
       ],
       "faq": [
         {
           "q": "Kailangan ko bang isara ang app ko sa tuwing magko-compute ako?",
-          "a": "Hindi. Ang FloatCalc+ ay floating window na nananatili sa ibabaw ng ibang app, kaya makakakuwenta ka ng diskwento o makakapag-convert ng presyo nang hindi umaalis sa shopping, banking o browser screen mo. I-drag ang window kung saan mo kailangan, kunin ang sagot, at magpatuloy sa kinaroroonan mo."
+          "a": "Hindi. Ang FloatCalc+ ay floating window na nananatili sa ibabaw ng ibang app, kaya makakakuwenta ka ng diskwento o makakapag-convert ng presyo nang hindi umaalis sa shopping, banking o browser screen mo. Pumili ng numero sa app at i-tap ang “Kalkulahin gamit ang FloatCalc+”, o i-type lang ito, kunin ang sagot, at magpatuloy sa kinaroroonan mo."
         },
         {
           "q": "Saan galing ang exchange rates?",
-          "a": "Mula sa European Central Bank, ina-update isang beses sa isang araw. Sa Settings › Pangkalahatan makikita ang petsa ng rates at ang pinagkunan, at puwede itong i-update anumang oras. Ang USD, EUR, JPY, GBP, KRW, CNY at 30+ pang pera ay napapalitan sa loob mismo ng floating window, at dahil naka-cache araw-araw, gumagana ito kahit offline."
+          "a": "Mula sa European Central Bank, ina-update isang beses sa isang araw. Ipinapakita ng linya sa ilalim ng mga halaga ang rate at ang petsa nito, at puwede mong i-update ang rates anumang oras sa Settings. Libre ang sarili mong currency, USD at EUR; idinaragdag ng Pro ang lahat ng pares sa 30+ currency. Dahil naka-cache araw-araw, gumagana ito kahit offline."
         },
         {
           "q": "Hanggang saan ang libre?",
-          "a": "Libre ang floating calculator nang 60 minuto kada araw, at nasa title bar ng panel ang natitirang oras. Kapag kulang pa, manood ng maikling ad para sa 24-oras na pass. Inaalis ng Pro ang pang-araw-araw na limitasyon sa oras at ang mga ad, at idinaragdag ang natitirang kategorya ng unit at 30+ pera, 7 premium na tema, at buong customization ng panel (opacity, laki, lapad) — buwanan, taunan o isahang bayad habambuhay."
+          "a": "Libre ang floating calculator nang 3 oras kada araw, at binibilang lang ito habang nakabukas ang panel — hindi habang nakaliit ito bilang icon. Kapag kulang pa, manood ng maikling ad para mabuksan ang lahat nang 3 oras, kahit ilang beses. Inaalis ng Pro ang limitasyon sa oras at ang mga ad, at idinaragdag ang lahat ng kategorya ng unit at pares ng currency, hanggang 100 history entry, 7 pang theme, at buong customization ng panel (opacity, laki, lapad) — buwanan, taunan o isahang bayad habambuhay."
         }
       ]
     },

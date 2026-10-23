@@ -62,23 +62,23 @@ Store: https://play.google.com/store/apps/details?id=com.codedac.autostart
 
 Calculate without leaving your app — a floating calculator that stays on top.
 
-FloatCalc+ is a floating calculator that stays on top of any app, so you never have to close your shopping, banking or browser screen just to work something out. The calculator, unit converter and currency converter share one draggable window: type an expression on the built-in number pad, get the answer instantly and copy it to the clipboard. Fold the keypad away when a single line is all you need, or shrink the whole panel to a floating icon that docks to the edge of the screen. Exchange rates come from the ECB and refresh daily, cached so everything keeps working offline. The floating calculator is free for 60 minutes a day — the time left is shown in the panel's title bar — and a short ad gets you a 24-hour pass when you need more.
+FloatCalc+ is a floating calculator that stays on top of any app, so you never have to close your shopping, banking or browser screen just to work something out. The calculator, unit converter and currency converter share one draggable window and one familiar keypad, and the result appears as you type. Select a number in any app and tap “Calculate with FloatCalc+” to bring it straight in, or open the panel from the Quick Settings tile, a home screen widget or the notification. Shrink it to an icon at the edge of the screen when you need the space. Exchange rates come from the European Central Bank and refresh daily, cached so everything keeps working offline. The floating calculator is free for 3 hours a day, counted only while the panel is open, and a short ad unlocks everything for 3 hours whenever you need more.
 
 Features:
 - Floats over any app — YouTube, maps, browser, banking, shopping, documents — and reopens in the mode you used last
-- One-tap operator row: + − × ÷ ( ) % right above the built-in number pad, with backspace to fix a single typo
-- Powers, roots and percentages — 2^10, √144, 100+10% — and the expression stays on screen after “=”, so a tap brings it back to edit
-- Unit converter inside the window: length, weight, temperature, area, volume, speed and time
-- Currency converter with daily ECB rates for 30+ currencies; Settings shows the date of the last update and its source
-- Fold the keypad down to one line or shrink the panel to an icon docked at the screen edge, with adjustable size, width, opacity and 8 themes
+- The usual calculator keypad with a live result as you type; long-press % for ^ and ÷ for √
+- Select a number in any app and tap “Calculate with FloatCalc+”; copy and paste from the ⋮ menu, or long-press the result to copy it
+- Unit and currency converters on the same keypad: length, weight, temperature, area, volume, speed and time, plus daily ECB rates for 30+ currencies
+- Open it from the Quick Settings tile, a home screen widget or the notification buttons
+- Shrink the panel to an icon docked at the screen edge, or let it shrink by itself; large keys, key vibration, adjustable opacity and 8 themes, with the default theme following dark mode
 
 FAQ:
 - Q: Do I have to close my app every time I want to calculate?
-  A: No. FloatCalc+ is a floating window that stays on top of other apps, so you can work out a discount or convert a price without leaving your shopping, banking or browser screen. Drag the window where you need it, get your answer, and carry on right where you were.
+  A: No. FloatCalc+ is a floating window that stays on top of other apps, so you can work out a discount or convert a price without leaving your shopping, banking or browser screen. Select a number in the app and tap “Calculate with FloatCalc+”, or just type it in, get your answer, and carry on right where you were.
 - Q: Where do the exchange rates come from?
-  A: From the European Central Bank, refreshed once a day. Settings › General shows the date the rates are from and their source, and updates them on demand. USD, EUR, JPY, GBP, KRW, CNY and 30+ world currencies convert right inside the overlay, and the daily cache keeps it working offline.
+  A: From the European Central Bank, refreshed once a day. The line under the amounts shows the rate and its date, and Settings updates the rates on demand. Your own currency, USD and EUR are free; Pro adds every pair among 30+ currencies. The daily cache keeps it working offline.
 - Q: How much can I use for free?
-  A: The floating calculator is free for 60 minutes a day, and the panel's title bar shows how much of that is left. When you need more, watch a short ad for a 24-hour pass. Pro removes the daily time limit and the ads and adds the remaining unit categories and 30+ currencies, 7 premium themes and full panel customization (opacity, size, width), monthly, yearly or as a one-time lifetime purchase.
+  A: The floating calculator is free for 3 hours a day, counted only while the panel is open — not while it is shrunk to an icon. When you need more, watch a short ad to unlock everything for 3 hours, as often as you like. Pro removes the time limit and the ads and adds every unit category and currency pair, up to 100 history entries, 7 more themes and full panel customization (opacity, size, width), monthly, yearly or as a one-time lifetime purchase.
 
 Page: https://codedac.com/apps/floatcalc.html
 Store: https://play.google.com/store/apps/details?id=com.codedac.floatcalc
@@ -709,16 +709,16 @@ Android can show two apps at once in split screen. Open the recent apps screen, 
 
 ### Option 2: a floating calculator
 
-FloatCalc+ (our app) is a calculator window that floats over any app. The calculator, unit converter and currency converter share one window you can drag anywhere; fold the keypad to a single line or shrink the panel to an icon at the screen edge when you need the space.
+FloatCalc+ (our app) is a calculator window that floats over any app. The calculator, unit converter and currency converter share one window and one keypad; drag it anywhere, and shrink it to an icon at the screen edge when you need the space.
 
 1. Install FloatCalc+ from Google Play and allow "Display over other apps".
-2. Open the floating calculator and drag it where it doesn't cover what you need.
-3. Type the expression — powers, roots and percentages work too — and copy the answer to the clipboard.
+2. Open the floating calculator from the app, the Quick Settings tile or the home screen widget, and drag it where it doesn't cover what you need.
+3. Type the expression on the keypad — the result appears as you type. To use a number from another app, select it and tap “Calculate with FloatCalc+”; copy the answer from the ⋮ menu.
 4. Switch to the unit or currency converter in the same window. Exchange rates come from the European Central Bank, refresh daily and keep working offline.
 
 ### Free and Pro
 
-The floating calculator is free for 60 minutes a day; the title bar shows how much is left, and a short ad gives a 24-hour pass. Pro removes the daily limit and ads and adds all unit categories, 30+ currencies and more themes.
+The floating calculator is free for 3 hours a day, counted only while the panel is open, and a short ad unlocks everything for 3 hours. Pro removes the time limit and the ads and adds all unit categories, every currency pair and more themes.
 
 - Q: Can I use a calculator without leaving my app?
   A: Yes. A floating calculator such as FloatCalc+ stays on top of other apps once you allow "Display over other apps".

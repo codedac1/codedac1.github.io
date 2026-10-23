@@ -229,27 +229,27 @@
       "seo": "Pływający kalkulator",
       "desc": "Pływający kalkulator z przelicznikiem walut i jednostek nad każdą aplikacją.",
       "tagline": "Licz bez wychodzenia z aplikacji — kalkulator zawsze na wierzchu.",
-      "long": "FloatCalc+ to pływający kalkulator, który zostaje nad każdą aplikacją, więc nie musisz zamykać zakupów, banku ani przeglądarki tylko po to, żeby coś policzyć. Kalkulator, przelicznik jednostek i przelicznik walut dzielą jedno przeciągane okno: wpisz działanie na wbudowanej klawiaturze numerycznej, natychmiast zobacz wynik i skopiuj go do schowka. Złóż klawiaturę, gdy wystarczy jedna linia, albo zwiń cały panel do pływającej ikony, która przykleja się do krawędzi ekranu. Kursy pochodzą z EBC, odświeżają się codziennie i są zapisywane, więc wszystko działa też offline. Pływający kalkulator jest darmowy przez 60 minut dziennie — pozostały czas widać w pasku tytułu panelu — a krótka reklama daje przepustkę na 24 godziny, gdy potrzebujesz więcej.",
+      "long": "FloatCalc+ to pływający kalkulator, który zostaje nad każdą aplikacją, więc nie musisz zamykać zakupów, banku ani przeglądarki tylko po to, żeby coś policzyć. Kalkulator, przelicznik jednostek i przelicznik walut dzielą jedno przeciągane okno i jedną znajomą klawiaturę, a wynik pojawia się już podczas wpisywania. Zaznacz liczbę w dowolnej aplikacji i dotknij „Oblicz w FloatCalc+”, aby od razu ją przenieść, albo otwórz panel z kafelka Szybkich ustawień, widżetu na ekranie głównym lub powiadomienia. Gdy potrzebujesz miejsca, zwiń go do ikony przy krawędzi ekranu. Kursy walut pochodzą z Europejskiego Banku Centralnego, odświeżają się codziennie i są zapisywane, więc wszystko działa też offline. Pływający kalkulator jest darmowy przez 3 godziny dziennie, liczone tylko wtedy, gdy panel jest otwarty, a krótka reklama odblokowuje wszystko na 3 godziny, gdy potrzebujesz więcej.",
       "features": [
-        "Nakładka nad dowolną aplikacją — YouTube, mapy, przeglądarka, bank, zakupy, dokumenty — otwiera się w trybie użytym ostatnio",
-        "Pasek operatorów jednym dotknięciem: + − × ÷ ( ) % tuż nad wbudowaną klawiaturą numeryczną, backspace poprawia literówkę",
-        "Potęgi, pierwiastki i procenty — 2^10, √144, 100+10% — działanie zostaje na ekranie po «=», dotknij, aby je poprawić",
-        "Przelicznik jednostek w oknie: długość, waga, temperatura, powierzchnia, objętość, prędkość i czas",
-        "Przelicznik walut z dziennymi kursami EBC dla ponad 30 walut; w Ustawieniach widać datę ostatniej aktualizacji i źródło",
-        "Złóż klawiaturę do jednej linii lub zwiń panel do ikony przy krawędzi ekranu; regulowany rozmiar, szerokość, przezroczystość i 8 motywów"
+        "Unosi się nad dowolną aplikacją — YouTube, mapy, przeglądarka, bank, zakupy, dokumenty — i otwiera się w trybie użytym ostatnio",
+        "Zwykła klawiatura kalkulatora z wynikiem widocznym już podczas wpisywania; przytrzymaj %, aby wpisać ^, a ÷, aby wpisać √",
+        "Zaznacz liczbę w dowolnej aplikacji i dotknij „Oblicz w FloatCalc+”; kopiuj i wklejaj z menu ⋮ albo przytrzymaj wynik, aby go skopiować",
+        "Przelicznik jednostek i walut na tej samej klawiaturze: długość, waga, temperatura, powierzchnia, objętość, prędkość i czas oraz dzienne kursy EBC dla ponad 30 walut",
+        "Otwieranie z kafelka Szybkich ustawień, widżetu na ekranie głównym lub przycisków w powiadomieniu",
+        "Zwiń panel do ikony przy krawędzi ekranu albo pozwól mu zwijać się automatycznie; duże klawisze, wibracja klawiszy, regulowana przezroczystość i 8 motywów, a domyślny motyw dopasowuje się do trybu ciemnego"
       ],
       "faq": [
         {
           "q": "Czy muszę zamykać aplikację za każdym razem, gdy chcę coś policzyć?",
-          "a": "Nie. FloatCalc+ to pływające okno, które zostaje nad innymi aplikacjami, więc policzysz rabat albo przeliczysz cenę bez opuszczania zakupów, banku czy przeglądarki. Przeciągnij okno tam, gdzie go potrzebujesz, odczytaj wynik i wróć dokładnie do tego, co robiłeś."
+          "a": "Nie. FloatCalc+ to pływające okno, które zostaje nad innymi aplikacjami, więc policzysz rabat albo przeliczysz cenę bez opuszczania zakupów, banku czy przeglądarki. Zaznacz liczbę w aplikacji i dotknij „Oblicz w FloatCalc+” albo po prostu ją wpisz, odczytaj wynik i wróć dokładnie do tego, co robiłeś."
         },
         {
           "q": "Skąd pochodzą kursy walut?",
-          "a": "Z Europejskiego Banku Centralnego, odświeżane raz dziennie. W Ustawieniach › Ogólne widać datę kursów i ich źródło, a odświeżyć można je w każdej chwili. USD, EUR, JPY, GBP, KRW, CNY i ponad 30 walut przeliczysz bez wychodzenia z pływającego okna, a dzienny zapis kursów sprawia, że działa to również offline."
+          "a": "Z Europejskiego Banku Centralnego, odświeżane raz dziennie. Wiersz pod kwotami pokazuje kurs i jego datę, a w Ustawieniach możesz odświeżyć kursy w każdej chwili. Twoja lokalna waluta, USD i EUR są za darmo; Pro dodaje wszystkie pary spośród ponad 30 walut. Dzienny zapis kursów sprawia, że działa to również offline."
         },
         {
           "q": "Ile mogę korzystać za darmo?",
-          "a": "Pływający kalkulator jest darmowy przez 60 minut dziennie, a pasek tytułu panelu pokazuje, ile czasu zostało. Gdy potrzebujesz więcej, obejrzyj krótką reklamę i dostań przepustkę na 24 godziny. Pro znosi dzienny limit czasu i usuwa reklamy oraz dodaje pozostałe kategorie jednostek i ponad 30 walut, 7 motywów premium i pełną personalizację panelu (przezroczystość, rozmiar, szerokość) — miesięcznie, rocznie lub jednorazowo na zawsze."
+          "a": "Pływający kalkulator jest darmowy przez 3 godziny dziennie, liczone tylko wtedy, gdy panel jest otwarty — nie wtedy, gdy jest zwinięty do ikony. Gdy potrzebujesz więcej, obejrzyj krótką reklamę, aby odblokować wszystko na 3 godziny, i to tyle razy, ile chcesz. Pro znosi limit czasu i usuwa reklamy oraz dodaje wszystkie kategorie jednostek i pary walut, do 100 wpisów w historii, 7 dodatkowych motywów i pełną personalizację panelu (przezroczystość, rozmiar, szerokość) — miesięcznie, rocznie lub jednorazowo na zawsze."
         }
       ]
     },
