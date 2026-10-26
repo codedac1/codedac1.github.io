@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '83'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '84'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -246,6 +246,9 @@ const GUIDE_SLUGS = [...new Set(Object.values(GUIDES).flatMap((g) => Object.keys
 const guideLangs = (slug) => ACTIVE.filter((l) => GUIDES[l.code] && GUIDES[l.code].guides[slug]);
 const guidesForApp = (code, appSlug) => GUIDES[code]
   ? Object.entries(GUIDES[code].guides).filter(([, g]) => g.app === appSlug) : [];
+// 가이드 모음(/guides/) — 홈에서 가이드로 가는 링크가 없어 315개가 10/19 기준 전부 '발견됨-미색인'이었다
+// (2026-10-26). 머리글·바닥글에서 모든 페이지가 이곳을 가리키게 해 크롤 깊이를 줄인다.
+const GUIDE_INDEX_LANGS = ACTIVE.filter((l) => GUIDES[l.code]);
 
 // --- 유틸 ---
 const escText = (s) => String(s)
@@ -264,6 +267,7 @@ function pathFor(code, kind, slug) {
   if (kind === 'home') return dir;
   if (kind === 'privacy') return `${dir}privacy.html`;
   if (kind === 'guide') return `${dir}guides/${slug}.html`;
+  if (kind === 'guides') return `${dir}guides/`;
   return `${dir}apps/${slug}.html`;
 }
 // 절대 URL (canonical/hreflang/OG)
@@ -276,6 +280,7 @@ function fileFor(code, kind, slug) {
   if (kind === 'home') return `${dir}index.html`;
   if (kind === 'privacy') return `${dir}privacy.html`;
   if (kind === 'guide') return `${dir}guides/${slug}.html`;
+  if (kind === 'guides') return `${dir}guides/index.html`;
   return `${dir}apps/${slug}.html`;
 }
 
@@ -352,7 +357,7 @@ const FAVICON_LINKS = `<link rel="icon" href="/favicon.ico" sizes="48x48" />
 function storedLangRedirect(code, kind, slug, langSet) {
   if (code !== ROOT_LANG) return '';
   const rest = kind === 'home' ? '' : kind === 'privacy' ? 'privacy.html'
-    : kind === 'guide' ? `guides/${slug}.html` : `apps/${slug}.html`;
+    : kind === 'guide' ? `guides/${slug}.html` : kind === 'guides' ? 'guides/' : `apps/${slug}.html`;
   const codes = (langSet || ACTIVE).filter((l) => l.code !== ROOT_LANG).map((l) => l.code);
   const map = Object.fromEntries(codes.map((c) => [c, c]));
   for (const [from, to] of Object.entries(LANG_ALIAS)) if (codes.includes(to)) map[from] = to;
@@ -454,7 +459,8 @@ function header(code, kind, slug, ui, langSet) {
       <nav class="nav" id="nav">
         <a href="${pathFor(code, 'home')}#apps">${escText(ui['nav.apps'])}</a>${HAS_REVIEWS ? `
         <a href="${pathFor(code, 'home')}#reviews">${escText(ui['nav.reviews'])}</a>` : ''}
-        <a href="${pathFor(code, 'home')}#about">${escText(ui['nav.about'])}</a>
+        ${GUIDES[code] ? `<a href="${pathFor(code, 'guides')}">${escText(GUIDES[code].ui.guides)}</a>
+        ` : ''}<a href="${pathFor(code, 'home')}#about">${escText(ui['nav.about'])}</a>
         <a href="${pathFor(code, 'home')}#contact">${escText(ui['nav.work'])}</a>
       </nav>
       <div class="nav-right">
@@ -479,7 +485,8 @@ function footer(code, ui) {
       </div>
       <div class="footer-right">
         <a class="footer-email" href="mailto:${EMAIL}">${EMAIL}</a>
-        <a class="footer-email" href="${pathFor(code, 'privacy')}">${escText(ui['footer.privacy'])}</a>
+        ${GUIDES[code] ? `<a class="footer-email" href="${pathFor(code, 'guides')}">${escText(GUIDES[code].ui.guides)}</a>
+        ` : ''}<a class="footer-email" href="${pathFor(code, 'privacy')}">${escText(ui['footer.privacy'])}</a>
         <p>&copy; <span id="year">${new Date().getFullYear()}</span> CodeDAC. All rights reserved.</p>
       </div>
     </div>
@@ -1385,7 +1392,7 @@ ${header(code, 'guide', slug, ui, langSet)}
         <span class="sep">/</span>
         <a href="${pathFor(code, 'detail', app.slug)}">${bdiName(a.name)}</a>
         <span class="sep">/</span>
-        <span class="current">${escText(gu.guides)}</span>
+        <a href="${pathFor(code, 'guides')}">${escText(gu.guides)}</a>
       </nav>
       <h1>${escText(g.title)}</h1>
       <p class="guide-meta">${escText(gu.updated)} <time datetime="${g.updated}">${g.updated}</time></p>
@@ -1438,6 +1445,77 @@ ${others.map(([s, o]) => `        <li><a href="${pathFor(code, 'guide', s)}">${e
 
 ${footer(code, ui)}
 ${bannerData(code, 'guide', slug, langSet)}  <script src="/js/site.js?v=${V}"></script>
+</body>
+</html>
+`;
+}
+
+// 가이드 모음 — 플랫폼별로 나눠 글 제목·앱 이름을 나열한다. 글이 있는 언어에만 만든다.
+function buildGuideIndex(lang) {
+  const code = lang.code;
+  const G = GUIDES[code];
+  const gu = G.ui;
+  const ui = L[code].ui;
+  const canonical = urlFor(code, 'guides');
+  const entries = Object.entries(G.guides).map(([s, g]) => ({ s, g, app: APPS.find((x) => x.slug === g.app) }))
+    .filter((e) => e.app);
+  const groups = PLATFORMS.map((p) => ({ p, list: entries.filter((e) => platformKey(e.app) === p.key) }))
+    .filter((x) => x.list.length);
+  const ldList = {
+    '@context': 'https://schema.org', '@type': 'CollectionPage',
+    name: gu.indexTitle, description: gu.indexDesc, inLanguage: lang.hreflang, url: canonical,
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: entries.map((e, i) => ({ '@type': 'ListItem', position: i + 1, url: urlFor(code, 'guide', e.s), name: e.g.title })),
+    },
+  };
+  const ldBreadcrumb = {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'CodeDAC', item: urlFor(code, 'home') },
+      { '@type': 'ListItem', position: 2, name: gu.guides, item: canonical },
+    ],
+  };
+  const sections = groups.map(({ p, list }, i) => `
+  <section class="detail-section${i % 2 ? ' is-alt' : ''}">
+    <div class="container">
+      <h2 class="detail-title">${escText(p.label)}</h2>
+      <p class="guide-index-sub">${escText(ui[p.desc])}</p>
+      <ul class="guide-index">
+${list.map((e) => `        <li><a href="${pathFor(code, 'guide', e.s)}"><img class="app-icon" src="/images/icons/${e.app.slug}.png?v=${V}" alt="" width="44" height="44" loading="lazy" /><span class="gi-text"><span class="gi-title">${escText(e.g.title)}</span><span class="gi-app">${bdiName(L[code].apps[e.app.slug].name)}</span></span></a></li>`).join('\n')}
+      </ul>
+    </div>
+  </section>`).join('\n');
+
+  return `<!DOCTYPE html>
+<html lang="${lang.htmlLang}"${lang.dir ? ` dir="${lang.dir}"` : ''}>
+<head>
+${headCommon(lang, { title: `${gu.indexTitle} | CodeDAC`, desc: gu.indexDesc, canonical, ogImage: `${BASE}/images/og-image.png`, kind: 'guides', langSet: GUIDE_INDEX_LANGS })}
+  <script type="application/ld+json">
+${JSON.stringify(ldList, null, 2)}
+  </script>
+  <script type="application/ld+json">
+${JSON.stringify(ldBreadcrumb, null, 2)}
+  </script>
+</head>
+<body>
+${header(code, 'guides', undefined, ui, GUIDE_INDEX_LANGS)}
+
+  <section class="app-hero-d guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="${pathFor(code, 'home')}">${escText(ui['bc.home'])}</a>
+        <span class="sep">/</span>
+        <span class="current">${escText(gu.guides)}</span>
+      </nav>
+      <h1>${escText(gu.indexTitle)}</h1>
+      <p class="guide-meta">${escText(gu.indexDesc)}</p>
+    </div>
+  </section>
+${sections}
+
+${footer(code, ui)}
+${bannerData(code, 'guides', undefined, GUIDE_INDEX_LANGS)}  <script src="/js/site.js?v=${V}"></script>
 </body>
 </html>
 `;
@@ -1618,6 +1696,7 @@ for (const lang of ACTIVE) {
   for (const app of APPS) emit(lang, 'detail', app.slug, buildDetail(lang, app));
   if (PRIV[lang.code]) emit(lang, 'privacy', undefined, buildPrivacy(lang));
   if (GUIDES[lang.code]) for (const gs of Object.keys(GUIDES[lang.code].guides)) emit(lang, 'guide', gs, buildGuide(lang, gs));
+  if (GUIDES[lang.code]) emit(lang, 'guides', undefined, buildGuideIndex(lang));
 }
 
 // 예전 영어 URL 을 덮어써 리다이렉트 껍데기로 만든다. sitemap 에는 넣지 않는다.
@@ -1655,6 +1734,7 @@ ${alts.join('\n')}
 const urls = [sitemapUrl('home')];
 for (const app of APPS) urls.push(sitemapUrl('detail', app.slug));
 urls.push(sitemapUrl('privacy', undefined, PRIV_ACTIVE));
+urls.push(sitemapUrl('guides', undefined, GUIDE_INDEX_LANGS));
 for (const gs of GUIDE_SLUGS) urls.push(sitemapUrl('guide', gs, guideLangs(gs)));
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
