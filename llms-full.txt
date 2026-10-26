@@ -226,17 +226,17 @@ Features:
 - Inline images (Pro): attach photos right inside a note
 - Note reminders — once, every day, weekdays or chosen days
 - Library with instant search, pinning and drag-to-reorder — dragging a chip to the bottom zone stashes the note instead of deleting it
-- Pro: unlimited floating notes, inline images, adjustable opacity, Google Drive sync, export & import, no ads
+- Pro: unlimited floating notes, inline images, Google Drive sync, unlimited reminders, no ads
 
 FAQ:
 - Q: How do floating notes work?
   A: Grant the overlay permission once and your notes float above other apps as small chips. Tap a chip to expand it into a card and edit it right there; tap outside and it collapses back, saving automatically. Dragging a chip to the zone at the bottom of the screen only stashes the note — real deletion always asks for confirmation.
 - Q: Where can I use it?
-  A: Anywhere on screen — over a browser, a chat, a video, a document or the home screen. You can also create a note without opening the app: from the share sheet, from text you select in another app, or from the Quick Settings tile.
+  A: Anywhere on screen — over a browser, a chat, a video, a document or the home screen. You can also create a note without opening the app: from the share sheet, from text you select in another app, or from the Quick Settings tile. The home screen widget shows your notes, and a tap floats one.
 - Q: Does it sync with my Windows PC?
   A: Yes. Install FloatNote+ for Windows as well, then in the settings of both apps sign in to Google Drive with the same account and turn on automatic sync. Notes written on your phone then show up on your PC, and notes written on your PC show up on your phone. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices.
 - Q: Is it free?
-  A: Yes. Saving notes is unlimited and free, and the free version floats one note at a time, gives you all 7 colors and shows ads. Pro adds unlimited floating notes, inline images, adjustable opacity, Google Drive sync, export and import, and removes ads.
+  A: Yes. Saving notes is unlimited and free, and the free version floats one note at a time and gives you all 7 colors, adjustable opacity, export and import and the home screen widget, with ads. Pro adds unlimited floating notes, inline images, Google Drive sync and unlimited reminders, and removes ads.
 - Q: Can I use FloatNote+ on an Android car head unit?
   A: Yes, if your head unit has Google Play and runs Android 8.0 or later. Notes float on top of navigation or music. The setup screens are laid out for wide, short landscape displays. The head unit must allow “Display over other apps”.
 - Q: Can a note pop up at a set time?
@@ -497,7 +497,7 @@ FloatNote+ for Windows floats the same kind of notes over any window, and the tw
 - Q: Can a note pop up at a set time?
   A: Yes. In FloatNote+, set a reminder from the note's ⋮ menu and the note comes up on screen with a notification. The free version keeps one reminder; Pro has no limit.
 - Q: Is FloatNote+ free?
-  A: Saving notes is free and unlimited, and the free version floats one note at a time. Pro adds unlimited floating notes, inline images, adjustable opacity, Google Drive sync and no ads.
+  A: Saving notes is free and unlimited, and the free version floats one note at a time. Pro adds unlimited floating notes, inline images, Google Drive sync and no ads.
 
 Page: https://codedac.com/guides/floating-notes-over-other-apps-android.html
 
