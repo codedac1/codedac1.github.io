@@ -299,7 +299,7 @@ Store: https://apps.microsoft.com/detail/9NMSHKKX3R5C
 
 Sticky notes that float on top of whatever you are working in: write without leaving the window you are in, and they never steal its focus.
 
-FloatNote+ for Windows is the desktop version of the Android FloatNote+ app. Every note lives as a small chip above your browser, your editor or your spreadsheet; click it and it expands into a card right there, ready to read or edit, and Esc folds it back into a chip. A chip never takes focus from the app behind it, so whatever you were typing stays exactly as it was — and there is no save button, since every keystroke is committed for you. Seven pastel colors, rich text and inline images keep notes apart, a library window handles search, pinning and management, and optional sync moves your notes through an app-private folder in your own Google Drive, the same one the Android app uses.
+FloatNote+ for Windows is the desktop version of the Android FloatNote+ app. Every note lives as a small chip above your browser, your editor or your spreadsheet; click it and it expands into a card right there, ready to read or edit, and the arrow at the top or Esc folds it back into a chip. A chip never takes focus from the app behind it, so whatever you were typing stays exactly as it was — and there is no save button, since every keystroke is committed for you. Seven pastel colors, rich text and inline images keep notes apart, a library window handles search, pinning and management, and optional sync moves your notes through an app-private folder in your own Google Drive, the same one the Android app uses.
 
 Features:
 - Sticky notes that float above every window: a chip expands into an editable card in place, and Esc folds it back
@@ -313,7 +313,7 @@ FAQ:
 - Q: Is this the same app as FloatNote+ on Android?
   A: It is the same app built for Windows, with the same chips and cards. Once you sign in to Google Drive with the same account in both apps and turn on automatic sync, notes written on the PC show up on the phone and notes written on the phone show up on the PC. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices.
 - Q: Does it get in the way of the app underneath?
-  A: No. A chip is a floating window that never takes focus, so clicking or dragging one leaves your cursor exactly where you were typing. Click a chip to expand the card, press Esc or click elsewhere and it folds back, already saved.
+  A: No. A chip is a floating window that never takes focus, so clicking or dragging one leaves your cursor exactly where you were typing. Click a chip to expand the card, click the arrow at the top, press Esc or click elsewhere and it folds back, already saved.
 - Q: Is it free to use?
   A: Yes. Every feature of the Windows version is free — as many floating notes as you like, inline images, note transparency, Google Drive sync, and export and import. No in-app purchases, no ads, no account. (On the phone side, sync is a Pro feature of the Android app.)
 - Q: Can a note pop up at a set time?
@@ -571,7 +571,7 @@ FloatNote+ for Windows (our app) keeps each note as a small chip above every win
 
 1. Install FloatNote+ from the Microsoft Store.
 2. Create a note from the tray icon or with a global hotkey — it appears as a card over your screen.
-3. Keep working: the note stays above every window. Press Esc to fold it into a chip.
+3. Keep working: the note stays above every window. Click the arrow at the top or press Esc to fold it into a chip.
 4. Drag chips anywhere, use colors and rich text to tell them apart, and set a reminder to bring a note up at a set time.
 
 ### Your notes on your phone too
