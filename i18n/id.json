@@ -289,11 +289,11 @@
       "seo": "Timer Mengambang & Pomodoro",
       "desc": "Timer, penghitung, dan stopwatch mengambang di atas aplikasi apa pun.",
       "tagline": "Timer hitung mundur, penghitung, dan stopwatch yang mengambang di atas setiap aplikasi.",
-      "long": "FloatTimer+ adalah aplikasi jendela mengambang yang menjaga timer hitung mundur, penghitung, dan stopwatch tetap tampil di atas aplikasi apa pun yang kamu pakai. Timer tetap terlihat saat kamu mengerjakan hal lain: seret ke mana saja, atur ukuran, transparansi, dan warna latar tiap item, atau lipat menjadi gelembung bertanda ikon aplikasi ketika layar dibutuhkan: ketuk di mana saja untuk membukanya lagi, kecilkan lagi hingga tinggal ikonnya, atau dorong ke tepi layar agar bersembunyi separuh. Putar, jeda, dan reset bisa langsung dari menu overlay tanpa membuka aplikasi, dan semuanya tetap berjalan di latar belakang meski kamu berpindah aplikasi atau mengunci layar. Atur sekali lalu lanjutkan memasak, berolahraga, belajar, atau bermain tanpa kehilangan pandangan pada waktu.",
+      "long": "FloatTimer+ adalah aplikasi jendela mengambang yang menjaga timer hitung mundur, penghitung, dan stopwatch tetap tampil di atas aplikasi apa pun yang kamu pakai. Timer tetap terlihat saat kamu mengerjakan hal lain: seret ke mana saja, atur ukuran, transparansi, dan warna latar tiap item, atau lipat menjadi gelembung bertanda ikon aplikasi ketika layar dibutuhkan: ketuk di mana saja untuk membukanya lagi, kecilkan lagi hingga tinggal ikonnya, atau dorong ke tepi layar agar bersembunyi separuh. Putar, jeda, dan reset bisa langsung di timer mengambang, dengan bilah yang menunjukkan sisa waktu, dan seret ke X di bagian bawah layar untuk menutupnya; semuanya tetap berjalan di latar belakang meski kamu berpindah aplikasi atau mengunci layar. Widget layar utama mengambangkan dan langsung memulai timer mana pun dengan sekali ketuk. Atur sekali lalu lanjutkan memasak, berolahraga, belajar, atau bermain tanpa kehilangan pandangan pada waktu.",
       "features": [
         "Jendela mengambang — timer, penghitung, dan stopwatch mengambang di atas semua aplikasi; seret ke mana saja dan atur ukuran, transparansi, serta warna latar tiap item",
-        "Multi timer — durasi bebas dalam jam, menit, detik, dengan pilihan cepat 1, 5, 10, 25, 30, dan 60 menit serta sebanyak apa pun timer sekaligus",
-        "Kontrol overlay — putar, jeda, dan reset dari menu overlay tanpa membuka aplikasi, atau lipat menjadi gelembung bertanda ikon aplikasi dan ketuk di mana saja untuk membukanya lagi",
+        "Multi timer — durasi bebas dalam jam, menit, detik, dengan pilihan cepat 1, 5, 10, 25, 30, dan 60 menit serta sebanyak apa pun timer sekaligus; widget layar utama mengambangkan dan memulai timer mana pun dengan sekali ketuk",
+        "Kontrol overlay — putar, jeda, dan reset langsung di timer mengambang, dengan bilah sisa waktu; seret ke X untuk menutupnya, atau lipat menjadi gelembung bertanda ikon aplikasi dan ketuk di mana saja untuk membukanya lagi",
         "Penghitung — ketuk untuk menambah atau mengurangi langsung di overlay, dengan langkah 1, 2, 5, atau 10 dan sebanyak yang kamu butuhkan",
         "Stopwatch — beberapa stopwatch dihitung terpisah; mulai, jeda, dan reset tanpa meninggalkan aplikasi yang sedang dipakai",
         "Peringatan dan cadangan — suara, getaran, atau notifikasi layar penuh saat selesai, plus ekspor ke file dan pemulihan dengan menggabungkan atau mengganti"
@@ -309,7 +309,7 @@
         },
         {
           "q": "Apa saja yang ada di versi gratis?",
-          "a": "Timer, penghitung, dan stopwatch tanpa batas jumlah, dengan peringatan suara dan getar. Versi gratis menampilkan satu overlay mengambang dalam satu waktu; Pro menampilkan sebanyak yang kamu mau sekaligus dan menghapus iklan."
+          "a": "Timer, penghitung, dan stopwatch tanpa batas jumlah, dengan peringatan suara dan getar, plus widget layar utama. Versi gratis menampilkan dua timer mengambang dalam satu waktu. Pro menambahkan peringatan layar penuh bahkan saat layar mati, suara alarm dan getaran pilihanmu sendiri, pengulangan otomatis, timer mengambang sebanyak yang kamu mau sekaligus, dan tanpa iklan."
         },
         {
           "q": "Bisakah saya memakai FloatTimer+ di head unit mobil Android?",

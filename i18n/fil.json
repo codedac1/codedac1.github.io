@@ -289,11 +289,11 @@
       "seo": "Floating Pomodoro & Multi Timer",
       "desc": "Floating timer, counter, at stopwatch sa ibabaw ng kahit anong app.",
       "tagline": "Countdown timer, counter, at stopwatch na lumulutang sa ibabaw ng bawat app.",
-      "long": "Ang FloatTimer+ ay isang floating overlay app na pinananatili ang countdown timer, counter, at stopwatch sa ibabaw ng kahit anong app na ginagamit mo. Nananatiling nakikita ang timer habang may ibang ginagawa ka: i-drag kahit saan, ayusin ang laki, opacity, at kulay ng bawat item, o tiklupin bilang bubble na may icon ng app kapag kailangan mo ang screen: pindutin ang kahit saang bahagi para buksang muli, paliitin pa hanggang icon na lang, o itulak sa gilid ng screen para magtago nang kalahati. Puwedeng i-play, i-pause, at i-reset mula mismo sa overlay menu nang hindi binubuksan ang app, at patuloy ang lahat sa background kahit lumipat ka ng app o i-lock ang screen. I-set nang isang beses at ituloy ang pagluluto, ehersisyo, pag-aaral, o paglalaro nang hindi nawawala sa paningin ang oras.",
+      "long": "Ang FloatTimer+ ay isang floating overlay app na pinananatili ang countdown timer, counter, at stopwatch sa ibabaw ng kahit anong app na ginagamit mo. Nananatiling nakikita ang timer habang may ibang ginagawa ka: i-drag kahit saan, ayusin ang laki, opacity, at kulay ng bawat item, o tiklupin bilang bubble na may icon ng app kapag kailangan mo ang screen: pindutin ang kahit saang bahagi para buksang muli, paliitin pa hanggang icon na lang, o itulak sa gilid ng screen para magtago nang kalahati. Puwedeng i-play, i-pause, at i-reset mismo sa floating timer, may bar na nagpapakita ng natitirang oras, at i-drag ito sa X sa ibaba ng screen para isara; patuloy ang lahat sa background kahit lumipat ka ng app o i-lock ang screen. Sa home screen widget, isang tap lang para palutangin at simulan agad ang kahit anong timer. I-set nang isang beses at ituloy ang pagluluto, ehersisyo, pag-aaral, o paglalaro nang hindi nawawala sa paningin ang oras.",
       "features": [
         "Floating overlay — lumulutang ang mga timer, counter, at stopwatch sa ibabaw ng lahat ng app; i-drag kahit saan at ayusin ang laki, opacity, at kulay ng bawat item",
-        "Multi timer — kahit anong tagal sa oras, minuto, segundo, may mabilisang pagpipiliang 1, 5, 10, 25, 30, at 60 minuto at kahit ilang timer nang sabay",
-        "Kontrol sa overlay — play, pause, at reset mula sa overlay menu nang hindi binubuksan ang app, o tiklupin bilang bubble na may icon ng app at i-tap ang kahit saang bahagi para buksang muli",
+        "Multi timer — kahit anong tagal sa oras, minuto, segundo, may mabilisang pagpipiliang 1, 5, 10, 25, 30, at 60 minuto at kahit ilang timer nang sabay; sa home screen widget, isang tap lang para palutangin at simulan ang kahit anong timer",
+        "Kontrol sa overlay — play, pause, at reset mismo sa floating timer, may bar para sa natitirang oras; i-drag sa X para isara, o tiklupin bilang bubble na may icon ng app at i-tap ang kahit saang bahagi para buksang muli",
         "Counter — i-tap para magdagdag o magbawas mismo sa overlay, may step na 1, 2, 5, o 10 at kahit ilang counter na kailangan mo",
         "Stopwatch — maraming stopwatch na hiwalay na sinusubaybayan; simulan, i-pause, at i-reset nang hindi umaalis sa kasalukuyang app",
         "Mga alerto at backup — tunog, vibration, o full-screen alert kapag tapos na, plus i-export sa file at i-restore sa pamamagitan ng pagsasama o pagpapalit"
@@ -309,7 +309,7 @@
         },
         {
           "q": "Ano ang kasama sa libreng bersyon?",
-          "a": "Walang limitasyon sa dami ng timer, counter, at stopwatch, na may alerto sa tunog at vibration. Isang floating overlay lang ang ipinapakita ng libreng bersyon sa isang pagkakataon — sa Pro, kahit ilan nang sabay, at wala nang ads."
+          "a": "Walang limitasyon sa dami ng timer, counter, at stopwatch, na may alerto sa tunog at vibration, kasama ang home screen widget. Dalawang floating timer ang ipinapakita ng libreng bersyon sa isang pagkakataon. Idinadagdag ng Pro ang full-screen alert kahit naka-off ang screen, sariling tunog ng alarm at vibration, awtomatikong pag-ulit, kahit ilang floating timer nang sabay, at walang ads."
         },
         {
           "q": "Magagamit ko ba ang FloatTimer+ sa isang Android car head unit?",

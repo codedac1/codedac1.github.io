@@ -289,11 +289,11 @@
       "seo": "Kayan zamanlayıcı ve sayaç",
       "desc": "Her uygulamanın üstünde kayan zamanlayıcı, sayaç ve kronometre.",
       "tagline": "Her uygulamanın üstünde kayan geri sayım, sayaç ve kronometre.",
-      "long": "FloatTimer+, geri sayım zamanlayıcısını, sayacı ve kronometreyi her uygulamanın üstünde tutan bir kayan pencere uygulamasıdır. Başka bir işle uğraşırken bile zamanlayıcı görünür kalır: istediğin yere sürükle, her öğe için boyut, saydamlık ve arka plan rengini ayarla ya da ekrana ihtiyacın olduğunda uygulama simgesini taşıyan bir balona katla: balonun herhangi bir yerine dokun, yeniden açılsın; sadece simge kalacak kadar küçült ya da ekran kenarına it, yarısı gizli dursun. Uygulamayı açmadan pencere menüsünden oynatabilir, duraklatabilir ve sıfırlayabilirsin; uygulama değiştirsen veya ekranı kilitlesen de her şey arka planda çalışmaya devam eder. Bir kez ayarla; yemek yaparken, spor yaparken, ders çalışırken ya da oyun oynarken zamanı gözden kaçırma.",
+      "long": "FloatTimer+, geri sayım zamanlayıcısını, sayacı ve kronometreyi her uygulamanın üstünde tutan bir kayan pencere uygulamasıdır. Başka bir işle uğraşırken bile zamanlayıcı görünür kalır: istediğin yere sürükle, her öğe için boyut, saydamlık ve arka plan rengini ayarla ya da ekrana ihtiyacın olduğunda uygulama simgesini taşıyan bir balona katla: balonun herhangi bir yerine dokun, yeniden açılsın; sadece simge kalacak kadar küçült ya da ekran kenarına it, yarısı gizli dursun. Doğrudan kayan zamanlayıcının üzerinde oynatabilir, duraklatabilir ve sıfırlayabilirsin; kalan süreyi bir çubuk gösterir, kapatmak için de ekranın altındaki X'in üzerine sürüklemen yeterli. Uygulama değiştirsen veya ekranı kilitlesen de her şey arka planda çalışmaya devam eder. Ana ekran widget'ı, herhangi bir zamanlayıcıyı tek dokunuşla ekranda yüzdürüp hemen başlatır. Bir kez ayarla; yemek yaparken, spor yaparken, ders çalışırken ya da oyun oynarken zamanı gözden kaçırma.",
       "features": [
         "Kayan pencere — zamanlayıcı, sayaç ve kronometreler her uygulamanın üstünde durur; istediğin yere sürükle, her öğe için boyut, saydamlık ve arka plan rengini ayarla",
-        "Çoklu zamanlayıcı — saat, dakika, saniye cinsinden istediğin süre; 1, 5, 10, 25, 30 ve 60 dakikalık hızlı seçimler ve aynı anda istediğin kadar zamanlayıcı",
-        "Pencere kontrolleri — uygulamayı açmadan menüden oynat, duraklat ve sıfırla; ekrana ihtiyaç duyduğunda uygulama simgesini taşıyan bir balona katla, herhangi bir yerine dokununca geri açılsın",
+        "Çoklu zamanlayıcı — saat, dakika, saniye cinsinden istediğin süre; 1, 5, 10, 25, 30 ve 60 dakikalık hızlı seçimler ve aynı anda istediğin kadar zamanlayıcı; ana ekran widget'ı herhangi bir zamanlayıcıyı tek dokunuşla yüzdürüp başlatır",
+        "Pencere kontrolleri — doğrudan kayan zamanlayıcının üzerinde oynat, duraklat ve sıfırla, kalan süreyi bir çubuk gösterir; kapatmak için X'in üzerine sürükle ya da uygulama simgesini taşıyan bir balona katla, herhangi bir yerine dokununca geri açılsın",
         "Sayaç — doğrudan kayan pencere üzerinde dokunarak artır veya azalt; adım 1, 2, 5 ya da 10 ve ihtiyacın kadar sayaç",
         "Kronometre — birden fazla kronometre ayrı ayrı ölçülür; kullandığın uygulamadan çıkmadan başlat, duraklat ve sıfırla",
         "Uyarılar ve yedekleme — süre bitince ses, titreşim veya tam ekran uyarı; ayrıca dosyaya aktarma ve birleştirerek ya da tamamen değiştirerek geri yükleme"
@@ -309,7 +309,7 @@
         },
         {
           "q": "Ücretsiz sürümde neler var?",
-          "a": "Sesli ve titreşimli uyarılarla sınırsız zamanlayıcı, sayaç ve kronometre. Ücretsiz sürüm aynı anda tek kayan pencere gösterir; Pro ile istediğin kadarını aynı anda gösterebilirsin ve reklamlar da kalkar."
+          "a": "Sesli ve titreşimli uyarılarla sınırsız zamanlayıcı, sayaç ve kronometre, üstelik ana ekran widget'ı da var. Ücretsiz sürüm aynı anda iki kayan zamanlayıcı gösterir. Pro ise ekran kapalıyken bile tam ekran uyarı, kendi alarm sesin ve titreşimin, otomatik tekrar ve aynı anda istediğin kadar kayan zamanlayıcı ekler, reklamları da kaldırır."
         },
         {
           "q": "FloatTimer+ uygulamasını Android araç multimedya cihazında kullanabilir miyim?",

@@ -289,11 +289,11 @@
       "seo": "Schwebender Timer über jeder App",
       "desc": "Ein schwebender Timer, Zähler und eine Stoppuhr über jeder App.",
       "tagline": "Countdown-Timer, Zähler und Stoppuhr, die über jeder App schweben.",
-      "long": "FloatTimer+ ist eine Overlay-App, die Countdown-Timer, Zähler und Stoppuhr über jeder App im Blick behält. Dein Timer bleibt sichtbar, während du etwas anderes machst: Zieh ihn an eine beliebige Stelle, stelle Größe, Transparenz und Hintergrundfarbe je Element ein oder klappe ihn zu einer Blase mit dem App-Symbol zu, wenn du den Bildschirm brauchst — ein Tippen irgendwo darauf öffnet ihn wieder, und du kannst ihn weiter auf das reine Symbol verkleinern oder an den Rand schieben, wo er halb verschwindet. Starten, Pausieren und Zurücksetzen geht direkt im Overlay-Menü, ohne die App zu öffnen, und alles läuft im Hintergrund weiter, auch wenn du die App wechselst oder den Bildschirm sperrst. Einmal einstellen und weiter kochen, trainieren, lernen oder spielen, ohne die Zeit aus den Augen zu verlieren.",
+      "long": "FloatTimer+ ist eine Overlay-App, die Countdown-Timer, Zähler und Stoppuhr über jeder App im Blick behält. Dein Timer bleibt sichtbar, während du etwas anderes machst: Zieh ihn an eine beliebige Stelle, stelle Größe, Transparenz und Hintergrundfarbe je Element ein oder klappe ihn zu einer Blase mit dem App-Symbol zu, wenn du den Bildschirm brauchst — ein Tippen irgendwo darauf öffnet ihn wieder, und du kannst ihn weiter auf das reine Symbol verkleinern oder an den Rand schieben, wo er halb verschwindet. Starten, Pausieren und Zurücksetzen geht direkt am schwebenden Timer, ein Balken zeigt die Restzeit, und zum Schließen ziehst du ihn auf das X unten am Bildschirm; alles läuft im Hintergrund weiter, auch wenn du die App wechselst oder den Bildschirm sperrst. Über das Startbildschirm-Widget lässt du jeden Timer mit einem Tipp schweben und sofort starten. Einmal einstellen und weiter kochen, trainieren, lernen oder spielen, ohne die Zeit aus den Augen zu verlieren.",
       "features": [
         "Schwebendes Fenster — Timer, Zähler und Stoppuhren schweben über jeder App; überall platzieren und Größe, Transparenz sowie Hintergrundfarbe je Element einstellen",
-        "Multi-Timer — beliebige Dauer in Stunden, Minuten und Sekunden, mit Schnellauswahl für 1, 5, 10, 25, 30 und 60 Minuten und beliebig vielen Timern gleichzeitig",
-        "Steuerung im Overlay — Start, Pause und Reset direkt im Overlay-Menü, ohne die App zu öffnen, oder zu einer Blase mit dem App-Symbol einklappen und irgendwo darauf tippen, um sie wieder zu öffnen",
+        "Multi-Timer — beliebige Dauer in Stunden, Minuten und Sekunden, mit Schnellauswahl für 1, 5, 10, 25, 30 und 60 Minuten und beliebig vielen Timern gleichzeitig; über das Startbildschirm-Widget schwebt und startet jeder Timer mit einem Tipp",
+        "Steuerung im Overlay — Start, Pause und Reset direkt am schwebenden Timer, mit einem Balken für die Restzeit; zieh ihn zum Schließen auf das X oder klappe ihn zu einer Blase mit dem App-Symbol ein und tippe irgendwo darauf, um sie wieder zu öffnen",
         "Zähler — direkt im Overlay hoch- und runterzählen, mit Schrittweite 1, 2, 5 oder 10 und so vielen Zählern, wie du brauchst",
         "Stoppuhr — mehrere Stoppuhren, jede separat gemessen; starten, pausieren und zurücksetzen, ohne die aktuelle App zu verlassen",
         "Alarme und Backup — Ton, Vibration oder Vollbild-Alarm bei Ablauf, dazu Export in eine Datei und Wiederherstellen per Zusammenführen oder Ersetzen"
@@ -309,7 +309,7 @@
         },
         {
           "q": "Was ist in der Gratis-Version enthalten?",
-          "a": "Unbegrenzt viele Timer, Zähler und Stoppuhren mit Ton- und Vibrationsalarm. Die Gratisversion zeigt jeweils ein schwebendes Fenster — mit Pro sind es beliebig viele gleichzeitig, und die Werbung verschwindet."
+          "a": "Unbegrenzt viele Timer, Zähler und Stoppuhren mit Ton- und Vibrationsalarm, dazu das Startbildschirm-Widget. Die Gratisversion zeigt zwei schwebende Timer gleichzeitig. Pro bringt einen Vollbild-Alarm auch bei ausgeschaltetem Bildschirm, deinen eigenen Alarmton und deine eigene Vibration, Auto-Wiederholung, beliebig viele schwebende Timer gleichzeitig und keine Werbung."
         },
         {
           "q": "Kann ich FloatTimer+ auf einem Android-Autoradio nutzen?",

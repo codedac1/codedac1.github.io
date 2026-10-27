@@ -289,11 +289,11 @@
       "seo": "Pływający minutnik Pomodoro",
       "desc": "Pływający minutnik, licznik i stoper nad każdą aplikacją.",
       "tagline": "Odliczanie, licznik i stoper, które pływają nad każdą aplikacją.",
-      "long": "FloatTimer+ to aplikacja z pływającym oknem, które trzyma odliczanie, licznik i stoper nad każdą używaną aplikacją. Minutnik pozostaje widoczny, gdy robisz coś innego: przeciągnij go w dowolne miejsce, ustaw rozmiar, przezroczystość i kolor tła dla każdego elementu albo zwiń do bąbelka z ikoną aplikacji, gdy potrzebujesz ekranu: dotknij go w dowolnym miejscu, aby otworzyć go ponownie, zmniejsz jeszcze bardziej do samej ikony albo dosuń do krawędzi, gdzie schowa się do połowy. Start, pauzę i reset obsłużysz z menu nakładki bez otwierania aplikacji, a wszystko działa w tle, nawet gdy przełączysz aplikację lub zablokujesz ekran. Ustaw raz i gotuj, ćwicz, ucz się albo graj, nie tracąc czasu z oczu.",
+      "long": "FloatTimer+ to aplikacja z pływającym oknem, które trzyma odliczanie, licznik i stoper nad każdą używaną aplikacją. Minutnik pozostaje widoczny, gdy robisz coś innego: przeciągnij go w dowolne miejsce, ustaw rozmiar, przezroczystość i kolor tła dla każdego elementu albo zwiń do bąbelka z ikoną aplikacji, gdy potrzebujesz ekranu: dotknij go w dowolnym miejscu, aby otworzyć go ponownie, zmniejsz jeszcze bardziej do samej ikony albo dosuń do krawędzi, gdzie schowa się do połowy. Start, pauzę i reset obsłużysz prosto na pływającym minutniku, a pasek pokazuje pozostały czas; aby go zamknąć, przeciągnij go na X na dole ekranu. Wszystko działa w tle, nawet gdy przełączysz aplikację lub zablokujesz ekran. Widżet na ekranie głównym jednym dotknięciem wyświetla dowolny minutnik w oknie pływającym i od razu go uruchamia. Ustaw raz i gotuj, ćwicz, ucz się albo graj, nie tracąc czasu z oczu.",
       "features": [
         "Pływające okno — minutniki, liczniki i stopery unoszą się nad każdą aplikacją; przeciągnij je gdzie chcesz i ustaw rozmiar, przezroczystość oraz kolor tła osobno",
-        "Wiele minutników — dowolny czas w godzinach, minutach i sekundach, z szybkim wyborem 1, 5, 10, 25, 30 i 60 minut oraz dowolną liczbą minutników naraz",
-        "Sterowanie z nakładki — start, pauza i reset z menu nakładki bez otwierania aplikacji albo zwinięcie do bąbelka z ikoną aplikacji i rozwinięcie dotknięciem w dowolnym miejscu",
+        "Wiele minutników — dowolny czas w godzinach, minutach i sekundach, z szybkim wyborem 1, 5, 10, 25, 30 i 60 minut oraz dowolną liczbą minutników naraz; widżet na ekranie głównym jednym dotknięciem wyświetla i uruchamia dowolny minutnik",
+        "Sterowanie z nakładki — start, pauza i reset prosto na pływającym minutniku, z paskiem pozostałego czasu; zamknięcie przeciągnięciem na X albo zwinięcie do bąbelka z ikoną aplikacji i rozwinięcie dotknięciem w dowolnym miejscu",
         "Licznik — dodawaj i odejmuj dotykiem wprost na nakładce, z krokiem 1, 2, 5 lub 10 i dowolną liczbą liczników",
         "Stoper — wiele stoperów mierzonych osobno; start, pauza i reset bez wychodzenia z bieżącej aplikacji",
         "Powiadomienia i kopia zapasowa — dźwięk, wibracja lub alert pełnoekranowy po zakończeniu, a także eksport do pliku i przywracanie przez scalenie lub zastąpienie"
@@ -309,7 +309,7 @@
         },
         {
           "q": "Co zawiera wersja darmowa?",
-          "a": "Nieograniczoną liczbę minutników, liczników i stoperów z alertami dźwiękowymi i wibracją. Wersja darmowa pokazuje jedną pływającą nakładkę naraz; Pro pokazuje ich naraz dowolnie wiele i usuwa reklamy."
+          "a": "Nieograniczoną liczbę minutników, liczników i stoperów z alertami dźwiękowymi i wibracją oraz widżet na ekranie głównym. Wersja darmowa pokazuje dwa pływające minutniki naraz. Pro dodaje alert pełnoekranowy nawet przy wyłączonym ekranie, własny dźwięk alarmu i wibrację, automatyczne powtarzanie, dowolnie wiele pływających minutników naraz i brak reklam."
         },
         {
           "q": "Czy mogę używać FloatTimer+ na radioodtwarzaczu samochodowym z Androidem?",

@@ -289,11 +289,11 @@
       "seo": "timer flutuante Pomodoro",
       "desc": "Um timer, contador e cronômetro flutuante sobre qualquer app.",
       "tagline": "Uma contagem regressiva, um contador e um cronômetro que flutuam sobre todos os apps.",
-      "long": "O FloatTimer+ é um app de janela flutuante que mantém contagem regressiva, contador e cronômetro por cima de qualquer aplicativo que você use. O timer continua à vista enquanto você faz outra coisa: arraste para onde quiser, ajuste tamanho, opacidade e cor de fundo de cada item ou recolha em uma bolha com o ícone do app quando precisar da tela: toque em qualquer ponto para abrir de novo, reduza ainda mais até só o ícone ou empurre para a borda, onde ela se esconde pela metade. Dá para iniciar, pausar e zerar pelo menu da sobreposição sem abrir o app, e tudo continua rodando em segundo plano mesmo se você trocar de aplicativo ou bloquear a tela. Configure uma vez e siga cozinhando, treinando, estudando ou jogando sem perder o tempo de vista.",
+      "long": "O FloatTimer+ é um app de janela flutuante que mantém contagem regressiva, contador e cronômetro por cima de qualquer aplicativo que você use. O timer continua à vista enquanto você faz outra coisa: arraste para onde quiser, ajuste tamanho, opacidade e cor de fundo de cada item ou recolha em uma bolha com o ícone do app quando precisar da tela: toque em qualquer ponto para abrir de novo, reduza ainda mais até só o ícone ou empurre para a borda, onde ela se esconde pela metade. Dá para iniciar, pausar e zerar direto no timer flutuante, com uma barra que mostra o tempo restante, e arrastar até o X na parte de baixo da tela para fechar; tudo continua rodando em segundo plano mesmo se você trocar de aplicativo ou bloquear a tela. Pelo widget na tela inicial, um toque deixa qualquer timer flutuando e já o inicia. Configure uma vez e siga cozinhando, treinando, estudando ou jogando sem perder o tempo de vista.",
       "features": [
         "Janela flutuante — timers, contadores e cronômetros flutuam sobre qualquer app; arraste para onde quiser e ajuste tamanho, opacidade e cor de fundo de cada item",
-        "Multi timer — qualquer duração em horas, minutos e segundos, com atalhos de 1, 5, 10, 25, 30 e 60 minutos e quantos timers quiser ao mesmo tempo",
-        "Controle na sobreposição — inicie, pause e zere pelo menu flutuante sem abrir o app, ou recolha em uma bolha com o ícone do app e toque em qualquer ponto para abrir de novo",
+        "Multi timer — qualquer duração em horas, minutos e segundos, com atalhos de 1, 5, 10, 25, 30 e 60 minutos e quantos timers quiser ao mesmo tempo; o widget na tela inicial deixa qualquer timer flutuando e o inicia com um toque",
+        "Controle na sobreposição — inicie, pause e zere direto no timer flutuante, com uma barra para o tempo restante; arraste até o X para fechar, ou recolha em uma bolha com o ícone do app e toque em qualquer ponto para abrir de novo",
         "Contador — toque para somar ou subtrair direto na sobreposição, com passo de 1, 2, 5 ou 10 e quantos contadores precisar",
         "Cronômetro — vários cronômetros medidos separadamente; inicie, pause e zere sem sair do app que está usando",
         "Avisos e backup — som, vibração ou alerta em tela cheia ao terminar, além de exportar para um arquivo e restaurar juntando ou substituindo tudo"
@@ -309,7 +309,7 @@
         },
         {
           "q": "O que a versão grátis inclui?",
-          "a": "Timers, contadores e cronômetros ilimitados, com alertas de som e vibração. A versão gratuita mostra uma janela flutuante por vez; o Pro mostra quantas você quiser ao mesmo tempo e remove os anúncios."
+          "a": "Timers, contadores e cronômetros ilimitados, com alertas de som e vibração, e o widget na tela inicial. A versão gratuita mostra dois timers flutuantes por vez. O Pro adiciona alerta em tela cheia mesmo com a tela desligada, seu próprio som de alarme e vibração, repetição automática, quantos timers flutuantes quiser ao mesmo tempo e nada de anúncios."
         },
         {
           "q": "Posso usar o FloatTimer+ em uma central multimídia Android?",

@@ -289,11 +289,11 @@
       "seo": "temporizador flotante Pomodoro",
       "desc": "Un temporizador, contador y cronómetro flotante sobre cualquier app.",
       "tagline": "Una cuenta atrás, un contador y un cronómetro que flotan sobre cada aplicación.",
-      "long": "FloatTimer+ es una app de ventana flotante que mantiene una cuenta atrás, un contador y un cronómetro encima de cualquier aplicación que uses. El temporizador sigue a la vista mientras haces otra cosa: arrástralo a donde quieras, ajusta tamaño, opacidad y color de fondo de cada elemento, o pliégalo en una burbuja con el icono de la app cuando necesites la pantalla: toca en cualquier punto para volver a abrirla, redúcela aún más hasta dejar solo el icono o empújala al borde y se esconde a medias. Puedes iniciarlo, pausarlo y reiniciarlo desde el menú flotante sin abrir la app, y todo sigue funcionando en segundo plano aunque cambies de aplicación o bloquees la pantalla. Configúralo una vez y sigue cocinando, entrenando, estudiando o jugando sin perder de vista el tiempo.",
+      "long": "FloatTimer+ es una app de ventana flotante que mantiene una cuenta atrás, un contador y un cronómetro encima de cualquier aplicación que uses. El temporizador sigue a la vista mientras haces otra cosa: arrástralo a donde quieras, ajusta tamaño, opacidad y color de fondo de cada elemento, o pliégalo en una burbuja con el icono de la app cuando necesites la pantalla: toca en cualquier punto para volver a abrirla, redúcela aún más hasta dejar solo el icono o empújala al borde y se esconde a medias. Puedes iniciarlo, pausarlo y reiniciarlo directamente en el temporizador flotante, con una barra que muestra el tiempo restante, y arrastrarlo a la X de la parte inferior de la pantalla para cerrarlo; todo sigue funcionando en segundo plano aunque cambies de aplicación o bloquees la pantalla. Con el widget de pantalla de inicio, un solo toque hace flotar e inicia cualquier temporizador. Configúralo una vez y sigue cocinando, entrenando, estudiando o jugando sin perder de vista el tiempo.",
       "features": [
         "Ventana flotante — temporizadores, contadores y cronómetros flotan sobre cualquier app; arrástralos donde quieras y ajusta tamaño, opacidad y color de fondo de cada uno",
-        "Multitemporizador — cualquier duración en horas, minutos y segundos, con ajustes rápidos de 1, 5, 10, 25, 30 y 60 minutos y todos los que quieras a la vez",
-        "Control desde la ventana — inicia, pausa y reinicia desde el menú flotante sin abrir la app, o pliégala en una burbuja con el icono de la app y toca en cualquier punto para volver a abrirla",
+        "Multitemporizador — cualquier duración en horas, minutos y segundos, con ajustes rápidos de 1, 5, 10, 25, 30 y 60 minutos y todos los que quieras a la vez; el widget de pantalla de inicio hace flotar e inicia cualquier temporizador con un solo toque",
+        "Control desde la ventana — inicia, pausa y reinicia directamente en el temporizador flotante, con una barra para el tiempo restante; arrástralo a la X para cerrarlo, o pliégalo en una burbuja con el icono de la app y toca en cualquier punto para volver a abrirla",
         "Contador — suma y resta tocando directamente en la ventana flotante, con paso de 1, 2, 5 o 10 y tantos contadores como necesites",
         "Cronómetro — varios cronómetros medidos por separado; inicia, pausa y reinicia sin salir de la app que estás usando",
         "Avisos y copia de seguridad — sonido, vibración o alerta a pantalla completa al terminar, más exportación a un archivo y restauración combinando o reemplazando"
@@ -309,7 +309,7 @@
         },
         {
           "q": "¿Qué incluye la versión gratuita?",
-          "a": "Temporizadores, contadores y cronómetros ilimitados, con avisos de sonido y vibración. La versión gratuita muestra una ventana flotante a la vez: Pro muestra todas las que quieras a la vez y quita los anuncios."
+          "a": "Temporizadores, contadores y cronómetros ilimitados, con avisos de sonido y vibración, y el widget de pantalla de inicio. La versión gratuita muestra dos temporizadores flotantes a la vez. Pro añade una alerta a pantalla completa incluso con la pantalla apagada, tu propio sonido de alarma y vibración, repetición automática, todos los temporizadores flotantes que quieras a la vez y sin anuncios."
         },
         {
           "q": "¿Puedo usar FloatTimer+ en una radio de coche Android?",

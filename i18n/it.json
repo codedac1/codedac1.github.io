@@ -289,11 +289,11 @@
       "seo": "timer flottante Pomodoro",
       "desc": "Un timer, contatore e cronometro flottante sopra qualsiasi app.",
       "tagline": "Conto alla rovescia, contatore e cronometro che flottano sopra ogni app.",
-      "long": "FloatTimer+ è un'app a finestra flottante che tiene conto alla rovescia, contatore e cronometro sopra qualsiasi app tu stia usando. Il timer resta visibile mentre fai altro: trascinalo dove vuoi, regola dimensione, opacità e colore di sfondo per ogni elemento oppure richiudilo in una bolla con l'icona dell'app quando ti serve lo schermo: tocca in qualsiasi punto per riaprirlo, riducila ancora fino alla sola icona o spingila sul bordo, dove si nasconde a metà. Puoi avviarlo, metterlo in pausa e azzerarlo dal menu dell'overlay senza aprire l'app, e tutto continua in background anche se cambi applicazione o blocchi lo schermo. Impostalo una volta e continua a cucinare, allenarti, studiare o giocare senza perdere di vista il tempo.",
+      "long": "FloatTimer+ è un'app a finestra flottante che tiene conto alla rovescia, contatore e cronometro sopra qualsiasi app tu stia usando. Il timer resta visibile mentre fai altro: trascinalo dove vuoi, regola dimensione, opacità e colore di sfondo per ogni elemento oppure richiudilo in una bolla con l'icona dell'app quando ti serve lo schermo: tocca in qualsiasi punto per riaprirlo, riducila ancora fino alla sola icona o spingila sul bordo, dove si nasconde a metà. Puoi avviarlo, metterlo in pausa e azzerarlo direttamente sul timer flottante, con una barra che mostra il tempo rimanente, e trascinarlo sulla X in basso sullo schermo per chiuderlo; tutto continua in background anche se cambi applicazione o blocchi lo schermo. Dal widget nella schermata Home basta un tocco per far fluttuare e avviare qualsiasi timer. Impostalo una volta e continua a cucinare, allenarti, studiare o giocare senza perdere di vista il tempo.",
       "features": [
         "Finestra flottante — timer, contatori e cronometri flottano sopra ogni app; trascinali dove vuoi e regola dimensione, opacità e colore di sfondo per ciascuno",
-        "Multi timer — qualsiasi durata in ore, minuti e secondi, con scelte rapide da 1, 5, 10, 25, 30 e 60 minuti e tutti i timer che vuoi in contemporanea",
-        "Controlli sull'overlay — avvio, pausa e reset dal menu della finestra senza aprire l'app, oppure richiudila in una bolla con l'icona dell'app e tocca in qualsiasi punto per riaprirla",
+        "Multi timer — qualsiasi durata in ore, minuti e secondi, con scelte rapide da 1, 5, 10, 25, 30 e 60 minuti e tutti i timer che vuoi in contemporanea; dal widget nella schermata Home basta un tocco per far fluttuare e avviare qualsiasi timer",
+        "Controlli sull'overlay — avvio, pausa e reset direttamente sul timer flottante, con una barra per il tempo rimanente; trascinalo sulla X per chiuderlo, oppure richiudilo in una bolla con l'icona dell'app e tocca in qualsiasi punto per riaprirla",
         "Contatore — tocca per aumentare o diminuire direttamente sull'overlay, con passo 1, 2, 5 o 10 e tutti i contatori che ti servono",
         "Cronometro — più cronometri misurati separatamente; avvia, metti in pausa e azzera senza lasciare l'app che stai usando",
         "Avvisi e backup — suono, vibrazione o avviso a schermo intero a fine tempo, più esportazione in un file e ripristino unendo o sostituendo"
@@ -309,7 +309,7 @@
         },
         {
           "q": "Cosa include la versione gratuita?",
-          "a": "Timer, contatori e cronometri illimitati, con avvisi sonori e vibrazione. La versione gratuita mostra una finestra flottante alla volta; con Pro ne mostri quante vuoi insieme e la pubblicità sparisce."
+          "a": "Timer, contatori e cronometri illimitati, con avvisi sonori e vibrazione, più il widget nella schermata Home. La versione gratuita mostra due timer flottanti alla volta. Pro aggiunge un avviso a schermo intero anche a schermo spento, il tuo suono di sveglia e la tua vibrazione, la ripetizione automatica, tutti i timer flottanti che vuoi insieme e niente pubblicità."
         },
         {
           "q": "Posso usare FloatTimer+ su un'autoradio Android?",

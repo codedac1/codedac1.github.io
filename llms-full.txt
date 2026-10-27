@@ -112,12 +112,12 @@ Store: https://play.google.com/store/apps/details?id=com.codedac.floatcrypto
 
 A countdown timer, tally counter, and stopwatch that floats on top of every app.
 
-FloatTimer+ is a floating overlay app that keeps a countdown timer, tally counter, and stopwatch on top of any app you use. Your timer stays visible while you do something else — drag it anywhere on screen, set size, opacity, and background color per item, or collapse it into a bubble marked with the app icon that reopens wherever you tap it. Shrink that bubble to the icon alone, or push it to the screen edge and it tucks half out of view until you want it back. Play, pause, and reset straight from the overlay menu without opening the app, and everything keeps running in the background even when you switch apps or lock the screen. Set it once and keep cooking, exercising, studying, or gaming without ever losing sight of the time.
+FloatTimer+ is a floating overlay app that keeps a countdown timer, tally counter, and stopwatch on top of any app you use. Your timer stays visible while you do something else — drag it anywhere on screen, set size, opacity, and background color per item, or collapse it into a bubble marked with the app icon that reopens wherever you tap it. Shrink that bubble to the icon alone, or push it to the screen edge and it tucks half out of view until you want it back. Play, pause, and reset right on the floating timer, with a bar showing the time left, and drag it onto the X at the bottom of the screen to close it; everything keeps running in the background even when you switch apps or lock the screen. A home screen widget floats and starts any timer with one tap. Set it once and keep cooking, exercising, studying, or gaming without ever losing sight of the time.
 
 Features:
 - Floating overlay — timers, counters, and stopwatches float on any app; drag them anywhere and set size, opacity, and background color per item
-- Multi-timer — any hours/minutes/seconds countdown, with 1, 5, 10, 25, 30 and 60-minute quick presets and as many timers running at once as you like
-- Overlay controls — play, pause, and reset from the overlay menu without opening the app, or collapse it to a bubble marked with the app icon and tap anywhere on it to open it again
+- Multi-timer — any hours/minutes/seconds countdown, with 1, 5, 10, 25, 30 and 60-minute quick presets and as many timers running at once as you like; a home screen widget floats and starts any timer in one tap
+- Overlay controls — play, pause, and reset right on the floating timer, with a bar for the time left; drag it onto the X to close it, or collapse it to a bubble marked with the app icon and tap anywhere on it to open it again
 - Tally counter — tap to count up or down right on the overlay, with a step of 1, 2, 5, or 10 and as many counters as you need
 - Stopwatch — several stopwatches, each timed separately; start, pause, and reset without leaving your current app
 - Alerts and backup — sound, vibration, or a full-screen alert when time is up, plus file export and restore that merges or replaces
@@ -128,7 +128,7 @@ FAQ:
 - Q: Can I use it as a Pomodoro or workout timer?
   A: Yes. Quick presets include 25 minutes, you can set any duration you like, and you can run several timers at once for work and rest rounds. Pro repeats a timer 2, 3, or 5 times, or endlessly.
 - Q: What does the free version include?
-  A: Unlimited timers, counters and stopwatches with sound and vibration alerts. The free version shows one floating overlay at a time; Pro shows as many as you like at once and removes the ads.
+  A: Unlimited timers, counters and stopwatches with sound and vibration alerts, plus the home screen widget. The free version shows two floating timers at a time; Pro adds a full-screen alert even with the screen off, your own alarm sound and vibration, auto-repeat, as many floating timers at once as you like, and no ads.
 - Q: Can I use FloatTimer+ on an Android car head unit?
   A: Yes, if your head unit has Google Play and runs Android 8.0 or later. The floating timer stays on top of navigation or music. The setup screens are laid out for wide, short landscape displays. The head unit must allow “Display over other apps”.
 
@@ -516,7 +516,7 @@ FloatTimer+ (our app) floats timers, stopwatches and tally counters over any app
 
 ### More than one at a time
 
-You can make as many timers, counters and stopwatches as you like for free, and they keep running. The free version shows one on screen at a time; Pro floats as many as you want at once.
+You can make as many timers, counters and stopwatches as you like for free, and they keep running. The free version shows two on screen at a time; Pro floats as many as you want at once.
 
 - Q: Can I see a timer over YouTube or a game?
   A: Yes. A floating timer stays on top of any app, including videos and games, once you allow "Display over other apps".

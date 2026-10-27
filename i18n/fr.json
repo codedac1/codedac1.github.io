@@ -289,11 +289,11 @@
       "seo": "Minuteur flottant Pomodoro",
       "desc": "Un minuteur, compteur et chronomètre flottant par-dessus toute application.",
       "tagline": "Un compte à rebours, un compteur et un chronomètre qui flottent par-dessus chaque application.",
-      "long": "FloatTimer+ est une application de fenêtre flottante qui garde un compte à rebours, un compteur et un chronomètre par-dessus n'importe quelle application. Votre minuteur reste visible pendant que vous faites autre chose : déplacez-le où vous voulez, réglez la taille, l'opacité et la couleur de fond de chaque élément, ou repliez-le en une bulle marquée de l'icône de l'app quand vous avez besoin de l'écran : touchez-la n'importe où pour la rouvrir, réduisez-la encore jusqu'à l'icône seule, ou poussez-la au bord où elle se cache à moitié. Vous pouvez le lancer, le mettre en pause et le remettre à zéro depuis le menu flottant sans ouvrir l'appli, et tout continue en arrière-plan même si vous changez d'application ou verrouillez l'écran. Réglez-le une fois et continuez à cuisiner, vous entraîner, réviser ou jouer sans perdre le temps de vue.",
+      "long": "FloatTimer+ est une application de fenêtre flottante qui garde un compte à rebours, un compteur et un chronomètre par-dessus n'importe quelle application. Votre minuteur reste visible pendant que vous faites autre chose : déplacez-le où vous voulez, réglez la taille, l'opacité et la couleur de fond de chaque élément, ou repliez-le en une bulle marquée de l'icône de l'app quand vous avez besoin de l'écran : touchez-la n'importe où pour la rouvrir, réduisez-la encore jusqu'à l'icône seule, ou poussez-la au bord où elle se cache à moitié. Vous pouvez le lancer, le mettre en pause et le remettre à zéro directement sur le minuteur flottant, avec une barre qui montre le temps restant, et le faire glisser sur le X en bas de l'écran pour le fermer ; tout continue en arrière-plan même si vous changez d'application ou verrouillez l'écran. Le widget d'écran d'accueil fait flotter et lance n'importe quel minuteur d'une seule touche. Réglez-le une fois et continuez à cuisiner, vous entraîner, réviser ou jouer sans perdre le temps de vue.",
       "features": [
         "Fenêtre flottante — minuteurs, compteurs et chronomètres flottent au-dessus de toutes les applis ; placez-les où vous voulez et réglez taille, opacité et couleur de fond pour chacun",
-        "Multi-minuteur — n'importe quelle durée en heures, minutes et secondes, avec des choix rapides de 1, 5, 10, 25, 30 et 60 minutes et autant de minuteurs en même temps que vous voulez",
-        "Commandes flottantes — lecture, pause et remise à zéro depuis le menu de la fenêtre sans ouvrir l'appli, ou repliez-la en une bulle marquée de l'icône de l'app et touchez-la n'importe où pour la rouvrir",
+        "Multi-minuteur — n'importe quelle durée en heures, minutes et secondes, avec des choix rapides de 1, 5, 10, 25, 30 et 60 minutes et autant de minuteurs en même temps que vous voulez ; le widget d'écran d'accueil fait flotter et lance n'importe quel minuteur d'une seule touche",
+        "Commandes flottantes — lecture, pause et remise à zéro directement sur le minuteur flottant, avec une barre pour le temps restant ; faites-le glisser sur le X pour le fermer, ou repliez-le en une bulle marquée de l'icône de l'app et touchez-la n'importe où pour la rouvrir",
         "Compteur — comptez en plus ou en moins directement sur la fenêtre flottante, avec un pas de 1, 2, 5 ou 10 et autant de compteurs que nécessaire",
         "Chronomètre — plusieurs chronomètres suivis séparément ; démarrez, mettez en pause et remettez à zéro sans quitter votre appli",
         "Alertes et sauvegarde — son, vibration ou alerte plein écran à la fin, plus l'export dans un fichier et la restauration par fusion ou remplacement"
@@ -309,7 +309,7 @@
         },
         {
           "q": "Que contient la version gratuite ?",
-          "a": "Des minuteurs, compteurs et chronomètres illimités, avec alertes sonores et vibrations. La version gratuite affiche une fenêtre flottante à la fois : Pro en affiche autant que vous voulez et supprime les publicités."
+          "a": "Des minuteurs, compteurs et chronomètres illimités, avec alertes sonores et vibrations, et le widget d'écran d'accueil. La version gratuite affiche deux minuteurs flottants à la fois. Pro ajoute une alerte plein écran même écran éteint, votre propre son d'alarme et vibration, la répétition automatique, autant de minuteurs flottants simultanés que vous voulez, et aucune publicité."
         },
         {
           "q": "Puis-je utiliser FloatTimer+ sur un autoradio Android ?",
