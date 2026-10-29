@@ -114,6 +114,21 @@ WEIGHTS = {
 }
 DEFAULT_WEIGHT = 10
 
+# 카드를 누르면 열 사이트 앱 페이지에 붙이는 UTM (2026-10-29 클릭 측정 시작).
+#
+# 앱의 FamilyPromo.Promo.open 은 8/27 출시분부터 카탈로그에 url 이 있으면 스토어 대신 이 페이지를
+# 먼저 연다. 그때까지 url 을 비워 둬 클릭이 market:// 로 바로 갔고, Play 쪽 귀속(referrer
+# utm_source=housead)은 일별 개인정보 임계치에 묻혀 한 건도 보이지 않았다(10/7 확인).
+# 사이트를 거치게 하면 GA4 에서 "session source = housead" 로 앱별 클릭과 그 뒤 Play 버튼
+# 클릭이 잡힌다. 노출은 못 세지만, 앱별 노출 비율 ≈ 가중치 비율이므로 클릭 ÷ 가중치 비율로
+# 앱끼리의 상대 클릭률을 비교해 WEIGHTS 를 다시 잡는다.
+#
+# 대가는 스토어 앞에 한 단계가 늘어나는 것. 측정을 끝내려면 HOUSEAD_URL_UTM 을 None 으로 두고
+# 다시 돌리면 된다(앱은 url 이 없으면 예전처럼 스토어로 간다 — 앱 출시 불필요).
+# 어느 앱에서 눌렀는지는 이 값으로 알 수 없다(카탈로그는 앱마다 같다) — 앱이 utm_medium 을
+# 붙이게 하는 건 다음 정기 출시 때.
+HOUSEAD_URL_UTM = "utm_source=housead&utm_medium=app&utm_campaign=family"
+
 # 카드 부제로 쓸 i18n 필드. `desc` 는 앱마다 톤이 고른 설명문이고, `tagline` 은
 # 길이가 들쭉날쭉한 마케팅 문구라 카드에서 잘린다. 바꾸려면 여기만 고치면 된다.
 SUBTITLE_FIELD = "desc"
@@ -184,6 +199,23 @@ def prune_icons(keep):
             print("  아이콘 제거: %s (홍보 대상 아님)" % f)
 
 
+def page_url(loc, slug):
+    """이 로케일의 사이트 앱 페이지 + UTM. 페이지가 없거나 측정을 껐으면 None(앱은 스토어로 간다).
+
+    영어는 사이트 루트(/apps/..)가 정본이다 — /en/apps/.. 는 루트로 보내는 refresh 스텁이라
+    거기로 보내면 리디렉션을 한 번 더 타고 UTM 이 떨어진다.
+    """
+    if not HOUSEAD_URL_UTM:
+        return None
+    rel = "apps/%s.html" % slug if loc == "en" else "%s/apps/%s.html" % (loc, slug)
+    if not os.path.exists(os.path.join(SITE, rel)):
+        return None
+    url = "https://codedac.com/%s?%s" % (rel, HOUSEAD_URL_UTM)
+    # 앱(FamilyPromo.safeHttpsUrl)이 256자 넘는 링크는 버린다.
+    assert len(url) <= 256, url
+    return url
+
+
 def main():
     apps = android_apps()
     if not apps:
@@ -219,7 +251,7 @@ def main():
                 # 카드 하나만 언어가 다른, 번역 누락처럼 보이는 화면이 된다.
                 continue
             icon, digest = icons[slug]
-            entries.append({
+            entry = {
                 "pkg": pkg,
                 "name": c["name"],
                 "sub": c.get(SUBTITLE_FIELD) or "",
@@ -227,7 +259,11 @@ def main():
                 "icon": icon,
                 "h": digest,
                 "w": WEIGHTS.get(slug, DEFAULT_WEIGHT),
-            })
+            }
+            url = page_url(loc, slug)
+            if url:
+                entry["url"] = url
+            entries.append(entry)
 
         out = os.path.join(OUT_DIR, "catalog.%s.json" % loc)
         # 앱이 파싱하는 파일이다. 사람이 읽을 일은 드물고 매 요청 트래픽이 되므로
