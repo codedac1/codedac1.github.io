@@ -1,0 +1,123 @@
+{
+ "floating-stopwatch-windows": {
+  "app": "floattimerwin",
+  "updated": "2026-10-30",
+  "title": "Garder un chronomètre affiché à l’écran sur un PC Windows",
+  "desc": "Gardez un chronomètre en marche visible par-dessus votre jeu, votre navigateur ou votre document : avec l’option « Keep on top » de l’appli Horloge, ou avec des chronomètres qui flottent en petites cartes au-dessus de toutes les fenêtres.",
+  "intro": "Chronométrer un speedrun, une séance de sport, une tâche ou une réunion est plus simple quand le chronomètre reste en vue au lieu de se cacher derrière la fenêtre que vous utilisez. Windows propose une solution intégrée, et une appli de minuteurs flottants en offre davantage.",
+  "sections": [
+   {
+    "h": "Option 1 : le Chronomètre de l’appli Horloge avec « Keep on top »",
+    "p": [
+     "L’appli Horloge fournie avec Windows a un onglet Chronomètre. Lancez le chronomètre et choisissez « Keep on top » : il s’affiche alors dans une petite fenêtre qui reste au-dessus des autres.",
+     "C’est rapide et rien à installer. Cela affiche un seul chronomètre, dans une petite fenêtre de taille fixe."
+    ]
+   },
+   {
+    "h": "Option 2 : des chronomètres qui flottent en cartes",
+    "p": [
+     "FloatTimer+ for Windows (notre appli) fait flotter chronomètres, minuteurs et compteurs au-dessus de toutes les fenêtres en petites cartes pastel, chacune avec son propre décompte. Une carte ne prend jamais le focus : cliquer dessus laisse votre curseur là où vous tapiez ou jouiez."
+    ],
+    "steps": [
+     "Installez FloatTimer+ depuis le Microsoft Store ; elle se loge dans la zone de notification.",
+     "Créez un chronomètre et faites-le flotter.",
+     "Démarrez, mettez en pause et relancez avec le bouton ▶/⏸/↻ sur la carte elle-même, sans ouvrir l’appli.",
+     "Déplacez la carte où vous voulez ou redimensionnez-la, et repliez-la en petite bulle ou poussez-la contre le bord de l’écran quand vous voulez récupérer de la place."
+    ]
+   },
+   {
+    "h": "Si un jeu recouvre le chronomètre",
+    "p": [
+     "Aucune fenêtre ne peut rester au-dessus d’un jeu en mode plein écran exclusif. Passez le mode d’affichage du jeu en fenêtré sans bordure ou en fenêtré dans ses paramètres, et les fenêtres flottantes — celle de l’appli Horloge ou les cartes FloatTimer+ — s’affichent de nouveau par-dessus."
+    ]
+   },
+   {
+    "h": "Gratuit et Pro",
+    "p": [
+     "Vous pouvez créer autant de chronomètres, minuteurs et compteurs que vous voulez, sans publicité. La version gratuite fait flotter deux cartes à la fois ; Pro est un achat unique qui en fait flotter autant que vous voulez."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Windows a-t-il un chronomètre toujours au premier plan ?",
+    "a": "Oui. Le Chronomètre de l’appli Horloge propose « Keep on top », qui affiche un chronomètre dans une petite fenêtre au-dessus des autres. Pour plusieurs chronomètres, minuteurs ou compteurs à la fois, utilisez une appli de minuteurs flottants."
+   },
+   {
+    "q": "Pourquoi mon chronomètre disparaît-il quand je lance un jeu ?",
+    "a": "Le jeu est probablement en mode plein écran exclusif, qui recouvre toutes les autres fenêtres. Passez-le en fenêtré sans bordure ou en fenêtré dans les paramètres d’affichage du jeu."
+   },
+   {
+    "q": "Puis-je faire tourner plusieurs chronomètres à la fois ?",
+    "a": "Avec FloatTimer+, vous pouvez en créer autant que vous voulez, chacun avec son propre décompte. La version gratuite affiche deux cartes flottantes à la fois ; Pro en fait flotter davantage."
+   }
+  ]
+ },
+ "choose-clipboard-manager-android": {
+  "app": "clipboard",
+  "updated": "2026-10-30",
+  "title": "Bien choisir un gestionnaire de presse-papiers gratuit pour Android",
+  "desc": "Android ne garde que le dernier élément copié. Avant de choisir un gestionnaire de presse-papiers, vérifiez comment il enregistre vos copies, ce qu’il conserve, comment vous les retrouvez et où vont vos données.",
+  "intro": "Un gestionnaire de presse-papiers conserve ce que vous copiez pour que vous puissiez le coller de nouveau plus tard. Sur Android, ces applis diffèrent plus qu’il n’y paraît, surtout parce qu’Android limite la façon dont les applis peuvent lire le presse-papiers. Voici ce qu’il faut vérifier avant d’en choisir une.",
+  "sections": [
+   {
+    "h": "1. Comment elle enregistre ce que vous copiez",
+    "p": [
+     "Depuis Android 10, seule l’appli à l’écran (et le clavier que vous utilisez) peut lire le presse-papiers. Une appli de presse-papiers en arrière-plan ne voit pas ce que vous copiez dans d’autres applis, quoi que suggère sa page sur le Store.",
+     "Vérifiez donc comment une appli enregistre réellement : à l’ouverture, depuis un bouton flottant ou un widget, depuis le menu de sélection de texte, ou avec un enregistrement automatique basé sur l’Accessibilité qui repère le moment de la copie. Une appli honnête sur ce point vous évite des surprises plus tard."
+    ]
+   },
+   {
+    "h": "2. Ce qu’elle conserve",
+    "p": [
+     "Certaines applis ne gardent que du texte. Si vous copiez des captures d’écran, des photos ou des images du web, choisissez-en une qui enregistre aussi les images, avec un aperçu que vous pouvez ouvrir."
+    ]
+   },
+   {
+    "h": "3. La rapidité pour retrouver vos éléments",
+    "p": [
+     "La recherche compte dès que l’historique grossit. L’épinglage et les groupes (extraits) gardent adresses, numéros de compte et réponses toutes faites à portée de main. Une fenêtre flottante ou un widget vous permet de copier un élément sans quitter l’appli où vous êtes."
+    ]
+   },
+   {
+    "h": "4. Confidentialité",
+    "p": [
+     "Votre presse-papiers peut contenir des mots de passe et des codes. Vérifiez où les éléments sont stockés (sur l’appareil, ou sur le serveur de quelqu’un), si l’appli ignore les éléments marqués comme mots de passe et, si elle utilise l’Accessibilité, à quoi elle dit que cette autorisation sert."
+    ]
+   },
+   {
+    "h": "5. Synchronisation et sauvegarde",
+    "p": [
+     "Si vous travaillez aussi sur PC, vérifiez si l’appli se synchronise avec une version de bureau, et comment : via votre propre stockage cloud ou via les serveurs du développeur. Un fichier de sauvegarde que vous pouvez restaurer sur un nouveau téléphone est aussi un vrai plus."
+    ]
+   },
+   {
+    "h": "Le presse-papiers du clavier suffit-il ?",
+    "p": [
+     "Beaucoup de claviers ont leur propre presse-papiers. Gboard, par exemple, affiche les copies récentes au-dessus des touches, mais supprime les éléments non épinglés au bout d’une heure environ. Pour quelque chose copié il y a quelques minutes, c’est l’option la plus rapide ; pour un historique qui reste, utilisez un gestionnaire de presse-papiers."
+    ]
+   },
+   {
+    "h": "La place de Clipboard+",
+    "p": [
+     "Clipboard+ (notre appli) enregistre textes et images dans un historique consultable, avec épinglage, extraits et groupes, une fenêtre flottante par-dessus les autres applis, un widget d’écran d’accueil et une entrée Clipboard+ dans le menu de sélection de texte. Son enregistrement automatique facultatif utilise l’Accessibilité uniquement pour repérer le moment de la copie, ignore les éléments marqués comme mots de passe et n’envoie rien nulle part ; sans lui, enregistrez avec la bulle, le widget, le menu de sélection ou en ouvrant l’appli.",
+     "Vos éléments restent sur votre téléphone. L’appli peut se synchroniser avec Clipboard+ for Windows via votre propre Google Drive — jamais via un serveur CodeDAC — et se sauvegarder dans un fichier. Elle est gratuite avec publicité ; Pro supprime la publicité et ajoute notamment la synchronisation avec le PC."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Une appli Android peut-elle enregistrer automatiquement tout ce que je copie ?",
+    "a": "Pas en lisant le presse-papiers en arrière-plan : Android 10 et versions ultérieures l’interdisent. Les applis enregistrent soit quand vous les ramenez au premier plan, soit grâce à un service d’Accessibilité qui repère le moment de la copie. Clipboard+ propose la seconde option sous forme d’enregistrement automatique facultatif."
+   },
+   {
+    "q": "Est-il sûr d’utiliser un gestionnaire de presse-papiers ?",
+    "a": "Choisissez-en un qui garde les éléments sur votre appareil ou dans votre propre stockage, ignore les éléments marqués comme mots de passe et explique à quoi sert toute autorisation d’Accessibilité. Supprimez les éléments sensibles dont vous n’avez plus besoin."
+   },
+   {
+    "q": "Ai-je besoin d’un gestionnaire de presse-papiers si mon clavier en a un ?",
+    "a": "Le presse-papiers du clavier convient pour quelque chose copié il y a quelques minutes. Un gestionnaire de presse-papiers conserve l’historique jusqu’à ce que vous le supprimiez, avec recherche, épinglage et images."
+   }
+  ]
+ }
+}

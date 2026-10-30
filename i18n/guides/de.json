@@ -662,6 +662,127 @@
           "a": "Nein. Sie liest nur öffentliche Marktdaten, handelt nie und verwahrt kein Geld."
         }
       ]
+    },
+    "floating-stopwatch-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-30",
+      "title": "Windows: Stoppuhr immer im Vordergrund auf dem Bildschirm behalten",
+      "desc": "Behalte eine laufende Stoppuhr über deinem Spiel, Browser oder Dokument im Blick – mit „Keep on top“ der Uhr-App oder mit Stoppuhren, die als kleine Karten über allen Fenstern schweben.",
+      "intro": "Einen Speedrun, ein Training, eine Aufgabe oder ein Meeting zu stoppen ist leichter, wenn die Stoppuhr sichtbar bleibt, statt hinter dem gerade genutzten Fenster zu verschwinden. Windows bietet dafür einen eingebauten Weg, und eine App mit schwebenden Timern bietet mehr.",
+      "sections": [
+        {
+          "h": "Möglichkeit 1: die Stoppuhr der Uhr-App mit „Keep on top“",
+          "p": [
+            "Die Uhr-App, die mit Windows kommt, hat einen Tab „Stoppuhr“. Starte die Stoppuhr und wähle „Keep on top“ – dann erscheint sie in einem kleinen Fenster, das über anderen Fenstern bleibt.",
+            "Das geht schnell und braucht nichts zusätzlich. Es zeigt eine Stoppuhr in einem kleinen Fenster fester Größe."
+          ]
+        },
+        {
+          "h": "Möglichkeit 2: Stoppuhren, die als Karten schweben",
+          "p": [
+            "FloatTimer+ for Windows (unsere App) lässt Stoppuhren, Timer und Zähler als kleine Pastellkarten über allen Fenstern schweben, jede mit eigener Zeitmessung. Karten nehmen nie den Fokus – ein Klick darauf lässt deinen Cursor da, wo du gerade geschrieben oder gespielt hast."
+          ],
+          "steps": [
+            "Installiere FloatTimer+ aus dem Microsoft Store; die App wohnt im Infobereich.",
+            "Lege eine Stoppuhr an und lass sie schweben.",
+            "Starte, pausiere und starte neu mit der Schaltfläche ▶/⏸/↻ direkt auf der Karte – ohne die App zu öffnen.",
+            "Ziehe die Karte an jede Stelle oder ändere ihre Größe, und klappe sie zu einer kleinen Blase ein oder schiebe sie an den Bildschirmrand, wenn du den Platz zurückhaben willst."
+          ]
+        },
+        {
+          "h": "Wenn ein Spiel die Stoppuhr verdeckt",
+          "p": [
+            "Über einem Spiel im exklusiven Vollbildmodus kann kein Fenster im Vordergrund bleiben. Stelle den Anzeigemodus in den Einstellungen des Spiels auf randloses Fenster oder Fenstermodus um, dann erscheinen schwebende Fenster – das der Uhr-App oder die Karten von FloatTimer+ – wieder darüber."
+          ]
+        },
+        {
+          "h": "Gratis und Pro",
+          "p": [
+            "Du kannst so viele Stoppuhren, Timer und Zähler anlegen, wie du willst – ohne Werbung. Die Gratisversion lässt jeweils zwei Karten schweben; Pro ist ein Einmalkauf und lässt beliebig viele schweben."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hat Windows eine Stoppuhr, die immer im Vordergrund bleibt?",
+          "a": "Ja. Die Stoppuhr der Uhr-App hat „Keep on top“ und zeigt damit eine Stoppuhr in einem kleinen Fenster über anderen. Für mehrere Stoppuhren, Timer oder Zähler gleichzeitig nutzt du eine App mit schwebenden Timern."
+        },
+        {
+          "q": "Warum verschwindet meine Stoppuhr, wenn ich ein Spiel starte?",
+          "a": "Wahrscheinlich läuft das Spiel im exklusiven Vollbildmodus, der alle anderen Fenster verdeckt. Stelle es in den Anzeigeeinstellungen des Spiels auf randloses Fenster oder Fenstermodus um."
+        },
+        {
+          "q": "Kann ich mehr als eine Stoppuhr gleichzeitig laufen lassen?",
+          "a": "Mit FloatTimer+ legst du so viele an, wie du willst, jede mit eigener Zeitmessung. Die Gratisversion zeigt zwei schwebende Karten gleichzeitig; mit Pro schweben mehr."
+        }
+      ]
+    },
+    "choose-clipboard-manager-android": {
+      "app": "clipboard",
+      "updated": "2026-10-30",
+      "title": "Kostenloser Zwischenablage-Manager für Android: worauf achten?",
+      "desc": "Android merkt sich nur das zuletzt Kopierte. Bevor du einen Zwischenablage-Manager auswählst, prüfe, wie er deine Kopien speichert, was er behält, wie du sie zurückholst und wohin deine Daten gehen.",
+      "intro": "Ein Zwischenablage-Manager bewahrt auf, was du kopierst, damit du es später wieder einfügen kannst. Auf Android unterscheiden sich diese Apps stärker, als es scheint – vor allem, weil Android einschränkt, wie Apps die Zwischenablage lesen dürfen. Das solltest du vor der Wahl prüfen.",
+      "sections": [
+        {
+          "h": "1. Wie die App Kopiertes speichert",
+          "p": [
+            "Seit Android 10 dürfen nur die App auf dem Bildschirm (und die Tastatur, mit der du tippst) die Zwischenablage lesen. Eine Zwischenablage-App im Hintergrund sieht nicht, was du in anderen Apps kopierst – egal, was ihre Store-Seite nahelegt.",
+            "Prüfe also, wie eine App tatsächlich speichert: beim Öffnen, über eine schwebende Schaltfläche oder ein Widget, über das Textauswahlmenü oder mit einem automatischen Speichern über die Bedienungshilfen, das den Moment des Kopierens bemerkt. Eine App, die das ehrlich sagt, erspart dir später Überraschungen."
+          ]
+        },
+        {
+          "h": "2. Was sie behält",
+          "p": [
+            "Manche Apps behalten nur Text. Wenn du Screenshots, Fotos oder Bilder aus dem Web kopierst, such dir eine, die auch Bilder speichert – mit einer Vorschau, die du öffnen kannst."
+          ]
+        },
+        {
+          "h": "3. Wie schnell du Einträge zurückholst",
+          "p": [
+            "Sobald der Verlauf wächst, zählt die Suche. Anheften und Gruppen (Snippets) halten Adressen, Kontonummern und Standardantworten griffbereit. Mit einem schwebenden Panel oder einem Widget kopierst du einen Eintrag, ohne die App zu verlassen, in der du gerade bist."
+          ]
+        },
+        {
+          "h": "4. Datenschutz",
+          "p": [
+            "In deiner Zwischenablage können Passwörter und Codes landen. Prüfe, wo Einträge gespeichert werden (auf dem Gerät oder auf dem Server von jemandem), ob die App als Passwort markierte Einträge überspringt und – falls sie die Bedienungshilfen nutzt – wofür diese Berechtigung laut App verwendet wird."
+          ]
+        },
+        {
+          "h": "5. Synchronisierung und Sicherung",
+          "p": [
+            "Wenn du auch am PC arbeitest, prüfe, ob sich die App mit einer Desktop-Version synchronisiert und wie – über deinen eigenen Cloud-Speicher oder die Server des Entwicklers. Eine Sicherungsdatei, die du auf einem neuen Handy wiederherstellen kannst, ist ebenfalls viel wert."
+          ]
+        },
+        {
+          "h": "Reicht die Zwischenablage der Tastatur?",
+          "p": [
+            "Viele Tastaturen haben eine eigene Zwischenablage. Gboard zum Beispiel zeigt die letzten Einträge über den Tasten, entfernt nicht angeheftete aber nach etwa einer Stunde. Für etwas, das du vor ein paar Minuten kopiert hast, ist das der schnellste Weg; für einen Verlauf, der bleibt, nimm einen Zwischenablage-Manager."
+          ]
+        },
+        {
+          "h": "Wo Clipboard+ hineinpasst",
+          "p": [
+            "Clipboard+ (unsere App) speichert Texte und Bilder in einem durchsuchbaren Verlauf, mit Anheften, Snippets und Gruppen, einem schwebenden Panel über anderen Apps, einem Startbildschirm-Widget und einem Clipboard+-Eintrag im Textauswahlmenü. Das optionale automatische Speichern nutzt die Bedienungshilfen nur, um den Moment des Kopierens zu bemerken, überspringt als Passwort markierte Einträge und sendet nichts irgendwohin; ohne es speicherst du über die Blase, das Widget, das Auswahlmenü oder durch Öffnen der App.",
+            "Deine Einträge bleiben auf deinem Handy. Die App kann sich über dein eigenes Google Drive mit Clipboard+ for Windows synchronisieren – nie über einen CodeDAC-Server – und in eine Datei sichern. Sie ist kostenlos mit Werbung; Pro entfernt die Werbung und bringt unter anderem die PC-Synchronisierung."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kann eine Android-App alles, was ich kopiere, automatisch speichern?",
+          "a": "Nicht, indem sie die Zwischenablage im Hintergrund liest – das blockieren Android 10 und neuer. Apps speichern entweder, wenn du sie in den Vordergrund holst, oder nutzen einen Bedienungshilfendienst, der den Moment des Kopierens bemerkt. Clipboard+ bietet Letzteres als optionales automatisches Speichern."
+        },
+        {
+          "q": "Ist ein Zwischenablage-Manager sicher?",
+          "a": "Wähle einen, der Einträge auf deinem Gerät oder in deinem eigenen Speicher behält, als Passwort markierte Einträge überspringt und erklärt, wofür eine Bedienungshilfen-Berechtigung genutzt wird. Lösche sensible Einträge, die du nicht mehr brauchst."
+        },
+        {
+          "q": "Brauche ich einen Zwischenablage-Manager, wenn meine Tastatur eine Zwischenablage hat?",
+          "a": "Für etwas, das du vor ein paar Minuten kopiert hast, reicht die Zwischenablage der Tastatur. Ein Zwischenablage-Manager behält den Verlauf, bis du ihn löschst – mit Suche, Anheften und Bildern."
+        }
+      ]
     }
   }
 }

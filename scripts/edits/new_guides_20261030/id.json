@@ -1,0 +1,123 @@
+{
+ "floating-stopwatch-windows": {
+  "app": "floattimerwin",
+  "updated": "2026-10-30",
+  "title": "Cara menampilkan stopwatch di layar terus di PC Windows",
+  "desc": "Biarkan stopwatch yang berjalan tetap terlihat di atas game, browser, atau dokumen Anda — dengan “Keep on top” di aplikasi Jam, atau dengan stopwatch yang mengambang sebagai kartu kecil di atas semua jendela.",
+  "intro": "Mengukur waktu speedrun, latihan, tugas, atau rapat lebih mudah jika stopwatch tetap terlihat, bukan tersembunyi di balik jendela yang sedang Anda pakai. Windows punya satu cara bawaan, dan aplikasi timer mengambang menambahkan lebih banyak pilihan.",
+  "sections": [
+   {
+    "h": "Opsi 1: stopwatch aplikasi Jam dengan “Keep on top”",
+    "p": [
+     "Aplikasi Jam bawaan Windows punya tab stopwatch. Mulai stopwatch lalu pilih “Keep on top”, dan stopwatch tampil di jendela kecil yang tetap berada di atas jendela lain.",
+     "Cara ini cepat dan tidak perlu apa pun lagi. Hanya satu stopwatch yang ditampilkan, di jendela kecil berukuran tetap."
+    ]
+   },
+   {
+    "h": "Opsi 2: stopwatch yang mengambang sebagai kartu",
+    "p": [
+     "FloatTimer+ for Windows (aplikasi kami) menampilkan stopwatch, timer, dan penghitung yang mengambang di atas semua jendela sebagai kartu pastel kecil, masing-masing berjalan sendiri. Kartu tidak pernah mengambil fokus, jadi mengkliknya membiarkan kursor tetap di tempat Anda mengetik atau bermain."
+    ],
+    "steps": [
+     "Pasang FloatTimer+ dari Microsoft Store; aplikasi tinggal di baki sistem.",
+     "Buat stopwatch lalu jadikan mengambang.",
+     "Mulai, jeda, dan ulang dengan tombol ▶/⏸/↻ langsung di kartunya — tanpa perlu membuka aplikasi.",
+     "Seret kartu ke mana saja atau ubah ukurannya, dan ciutkan menjadi gelembung kecil atau dorong ke tepi layar saat Anda ingin layar kembali lega."
+    ]
+   },
+   {
+    "h": "Jika game menutupi stopwatch",
+    "p": [
+     "Tidak ada jendela yang bisa tetap di atas game yang berjalan dalam mode layar penuh eksklusif. Ubah mode tampilan game ke borderless atau windowed di pengaturannya, dan jendela mengambang — milik aplikasi Jam maupun kartu FloatTimer+ — akan tampil di atasnya lagi."
+    ]
+   },
+   {
+    "h": "Gratis dan Pro",
+    "p": [
+     "Anda bisa membuat stopwatch, timer, dan penghitung sebanyak yang Anda mau, tanpa iklan. Versi gratis menampilkan dua kartu mengambang dalam satu waktu; Pro adalah pembelian sekali bayar yang menampilkan sebanyak yang Anda mau."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Apakah Windows punya stopwatch yang selalu di atas?",
+    "a": "Ya. Stopwatch di aplikasi Jam punya “Keep on top”, yang menampilkan satu stopwatch di jendela kecil di atas jendela lain. Untuk beberapa stopwatch, timer, atau penghitung sekaligus, gunakan aplikasi timer mengambang."
+   },
+   {
+    "q": "Kenapa stopwatch saya hilang saat saya membuka game?",
+    "a": "Kemungkinan game berjalan dalam mode layar penuh eksklusif, yang menutupi semua jendela lain. Ubah ke mode borderless atau windowed di pengaturan tampilan game."
+   },
+   {
+    "q": "Bisakah saya menjalankan lebih dari satu stopwatch sekaligus?",
+    "a": "Dengan FloatTimer+ Anda bisa membuat sebanyak yang Anda mau, masing-masing berjalan sendiri. Versi gratis menampilkan dua kartu mengambang sekaligus; Pro menampilkan lebih banyak."
+   }
+  ]
+ },
+ "choose-clipboard-manager-android": {
+  "app": "clipboard",
+  "updated": "2026-10-30",
+  "title": "Cara memilih aplikasi pengelola clipboard gratis untuk Android",
+  "desc": "Android hanya menyimpan yang terakhir Anda salin. Sebelum memilih pengelola clipboard, periksa cara ia menyimpan salinan, apa yang disimpan, cara mengambilnya kembali, dan ke mana data Anda pergi.",
+  "intro": "Pengelola clipboard menyimpan apa yang Anda salin agar bisa ditempel lagi nanti. Di Android, aplikasi-aplikasi ini lebih berbeda daripada kelihatannya, terutama karena Android membatasi cara aplikasi membaca papan klip. Berikut yang perlu diperiksa sebelum memilih.",
+  "sections": [
+   {
+    "h": "1. Cara menyimpan yang Anda salin",
+    "p": [
+     "Sejak Android 10, hanya aplikasi di layar (dan keyboard yang sedang Anda pakai) yang bisa membaca papan klip. Aplikasi clipboard yang berjalan di latar belakang tidak bisa melihat apa yang Anda salin di aplikasi lain, apa pun kata halaman tokonya.",
+     "Jadi periksa bagaimana aplikasi benar-benar menyimpan: saat Anda membukanya, dari tombol mengambang atau widget, dari menu pilihan teks, atau dengan simpan otomatis berbasis Aksesibilitas yang langsung menangkap saat Anda menyalin. Aplikasi yang jujur soal ini menghindarkan Anda dari kejutan nanti."
+    ]
+   },
+   {
+    "h": "2. Apa yang disimpan",
+    "p": [
+     "Sebagian aplikasi hanya menyimpan teks. Jika Anda menyalin tangkapan layar, foto, atau gambar dari web, cari yang juga menyimpan gambar, dengan pratinjau yang bisa dibuka."
+    ]
+   },
+   {
+    "h": "3. Seberapa cepat Anda mengambilnya kembali",
+    "p": [
+     "Pencarian jadi penting saat riwayat makin panjang. Sematan dan grup (snippet) membuat alamat, nomor rekening, dan balasan siap pakai selalu dekat. Panel mengambang atau widget memungkinkan Anda menyalin klip tanpa meninggalkan aplikasi yang sedang dipakai."
+    ]
+   },
+   {
+    "h": "4. Privasi",
+    "p": [
+     "Clipboard Anda bisa berisi kata sandi dan kode. Periksa di mana klip disimpan (di perangkat, atau di server pihak lain), apakah aplikasi melewati klip yang ditandai sebagai kata sandi, dan, jika memakai Aksesibilitas, untuk apa izin itu dikatakan dipakai."
+    ]
+   },
+   {
+    "h": "5. Sinkronisasi dan cadangan",
+    "p": [
+     "Jika Anda juga bekerja di PC, periksa apakah aplikasi tersinkron dengan versi desktop dan caranya — lewat penyimpanan cloud Anda sendiri atau server pengembang. File cadangan yang bisa dipulihkan di ponsel baru juga layak dimiliki."
+    ]
+   },
+   {
+    "h": "Apakah clipboard keyboard sudah cukup?",
+    "p": [
+     "Banyak keyboard punya clipboard sendiri. Gboard, misalnya, menampilkan klip terbaru di atas tombol tetapi menghapus item yang tidak disematkan setelah sekitar satu jam. Untuk sesuatu yang Anda salin beberapa menit lalu, inilah cara tercepat; untuk riwayat yang awet, gunakan pengelola clipboard."
+    ]
+   },
+   {
+    "h": "Posisi Clipboard+",
+    "p": [
+     "Clipboard+ (aplikasi kami) menyimpan teks dan gambar dalam riwayat yang bisa dicari, dengan sematan, snippet dan grup, panel mengambang di atas aplikasi lain, widget layar utama, dan entri Clipboard+ di menu pilihan teks. Simpan otomatis opsionalnya memakai Aksesibilitas hanya untuk menangkap saat Anda menyalin, melewati klip yang ditandai sebagai kata sandi, dan tidak mengirim apa pun ke mana pun; tanpa fitur itu, simpan dengan gelembung, widget, menu pilihan, atau dengan membuka aplikasi.",
+     "Klip tetap di ponsel Anda. Aplikasi bisa tersinkron dengan Clipboard+ for Windows lewat Google Drive Anda sendiri — tidak pernah lewat server CodeDAC — dan mencadangkan ke file. Gratis dengan iklan; Pro menghapus iklan serta menambahkan sinkronisasi PC dan lainnya."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Bisakah aplikasi Android menyimpan semua yang saya salin secara otomatis?",
+    "a": "Tidak dengan membaca papan klip di latar belakang — Android 10 dan yang lebih baru memblokirnya. Aplikasi menyimpan saat Anda membawanya ke depan, atau memakai layanan Aksesibilitas yang langsung menangkap saat Anda menyalin. Clipboard+ menawarkan cara kedua sebagai simpan otomatis opsional."
+   },
+   {
+    "q": "Apakah aman memakai pengelola clipboard?",
+    "a": "Pilih yang menyimpan klip di perangkat Anda atau di penyimpanan Anda sendiri, melewati klip yang ditandai sebagai kata sandi, dan menjelaskan untuk apa izin Aksesibilitas dipakai. Hapus klip sensitif yang tidak lagi Anda perlukan."
+   },
+   {
+    "q": "Apakah saya perlu pengelola clipboard jika keyboard saya punya clipboard?",
+    "a": "Clipboard keyboard cukup untuk sesuatu yang Anda salin beberapa menit lalu. Pengelola clipboard menyimpan riwayat sampai Anda menghapusnya, dengan pencarian, sematan, dan gambar."
+   }
+  ]
+ }
+}

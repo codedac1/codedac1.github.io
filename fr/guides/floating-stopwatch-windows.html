@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>Garder un chronomètre affiché à l’écran sur un PC Windows | CodeDAC</title>
+  <meta name="description" content="Gardez un chronomètre en marche visible par-dessus votre jeu, votre navigateur ou votre document : avec l’option « Keep on top » de l’appli Horloge, ou avec des chronomètres qui flottent en petites cartes au-dessus de toutes les fenêtres." />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/fr/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/floating-stopwatch-windows.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:title" content="Garder un chronomètre affiché à l’écran sur un PC Windows | CodeDAC" />
+  <meta property="og:description" content="Gardez un chronomètre en marche visible par-dessus votre jeu, votre navigateur ou votre document : avec l’option « Keep on top » de l’appli Horloge, ou avec des chronomètres qui flottent en petites cartes au-dessus de toutes les fenêtres." />
+  <meta property="og:url" content="https://codedac.com/fr/guides/floating-stopwatch-windows.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/floattimerwin.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Garder un chronomètre affiché à l’écran sur un PC Windows | CodeDAC" />
+  <meta name="twitter:description" content="Gardez un chronomètre en marche visible par-dessus votre jeu, votre navigateur ou votre document : avec l’option « Keep on top » de l’appli Horloge, ou avec des chronomètres qui flottent en petites cartes au-dessus de toutes les fenêtres." />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/floattimerwin.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=94" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Garder un chronomètre affiché à l’écran sur un PC Windows",
+  "description": "Gardez un chronomètre en marche visible par-dessus votre jeu, votre navigateur ou votre document : avec l’option « Keep on top » de l’appli Horloge, ou avec des chronomètres qui flottent en petites cartes au-dessus de toutes les fenêtres.",
+  "inLanguage": "fr",
+  "datePublished": "2026-10-30",
+  "dateModified": "2026-10-30",
+  "mainEntityOfPage": "https://codedac.com/fr/guides/floating-stopwatch-windows.html",
+  "image": "https://codedac.com/images/icons/floattimerwin.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "FloatTimer+ for Windows",
+    "url": "https://codedac.com/fr/apps/floattimerwin.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "FloatTimer+ for Windows",
+      "item": "https://codedac.com/fr/apps/floattimerwin.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Garder un chronomètre affiché à l’écran sur un PC Windows",
+      "item": "https://codedac.com/fr/guides/floating-stopwatch-windows.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Windows a-t-il un chronomètre toujours au premier plan ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Le Chronomètre de l’appli Horloge propose « Keep on top », qui affiche un chronomètre dans une petite fenêtre au-dessus des autres. Pour plusieurs chronomètres, minuteurs ou compteurs à la fois, utilisez une appli de minuteurs flottants."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Pourquoi mon chronomètre disparaît-il quand je lance un jeu ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le jeu est probablement en mode plein écran exclusif, qui recouvre toutes les autres fenêtres. Passez-le en fenêtré sans bordure ou en fenêtré dans les paramètres d’affichage du jeu."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je faire tourner plusieurs chronomètres à la fois ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Avec FloatTimer+, vous pouvez en créer autant que vous voulez, chacun avec son propre décompte. La version gratuite affiche deux cartes flottantes à la fois ; Pro en fait flotter davantage."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/fr/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/fr/#apps">Applications</a>
+        <a href="/fr/#reviews">Avis</a>
+        <a href="/fr/guides/">Guides</a>
+        <a href="/fr/#about">À propos</a>
+        <a href="/fr/#contact">Collaborer</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Basculer le mode sombre" title="Basculer le mode sombre">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Français"><span class="lang-name">Français</span><span class="lang-code" aria-hidden="true">FR</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/floating-stopwatch-windows.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/floating-stopwatch-windows.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/guides/floating-stopwatch-windows.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/floating-stopwatch-windows.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/guides/floating-stopwatch-windows.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/guides/floating-stopwatch-windows.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item is-active" data-lang="fr" href="/fr/guides/floating-stopwatch-windows.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/floating-stopwatch-windows.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item" data-lang="hi" href="/hi/guides/floating-stopwatch-windows.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/floating-stopwatch-windows.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item" data-lang="zh" href="/zh/guides/floating-stopwatch-windows.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/guides/floating-stopwatch-windows.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/floating-stopwatch-windows.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/floating-stopwatch-windows.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/guides/floating-stopwatch-windows.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/floating-stopwatch-windows.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/floating-stopwatch-windows.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/floating-stopwatch-windows.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/floating-stopwatch-windows.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item" data-lang="uk" href="/uk/guides/floating-stopwatch-windows.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/floating-stopwatch-windows.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-windows guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/fr/">Accueil</a>
+        <span class="sep">/</span>
+        <a href="/fr/apps/floattimerwin.html"><bdi>FloatTimer+ for Windows</bdi></a>
+        <span class="sep">/</span>
+        <a href="/fr/guides/">Guides</a>
+      </nav>
+      <h1>Garder un chronomètre affiché à l’écran sur un PC Windows</h1>
+      <p class="guide-meta">Mis à jour <time datetime="2026-10-30">2026-10-30</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">Chronométrer un speedrun, une séance de sport, une tâche ou une réunion est plus simple quand le chronomètre reste en vue au lieu de se cacher derrière la fenêtre que vous utilisez. Windows propose une solution intégrée, et une appli de minuteurs flottants en offre davantage.</p>
+
+        <h2>Option 1 : le Chronomètre de l’appli Horloge avec « Keep on top »</h2>
+        <p>L’appli Horloge fournie avec Windows a un onglet Chronomètre. Lancez le chronomètre et choisissez « Keep on top » : il s’affiche alors dans une petite fenêtre qui reste au-dessus des autres.</p>
+        <p>C’est rapide et rien à installer. Cela affiche un seul chronomètre, dans une petite fenêtre de taille fixe.</p>
+
+        <h2>Option 2 : des chronomètres qui flottent en cartes</h2>
+        <p>FloatTimer+ for Windows (notre appli) fait flotter chronomètres, minuteurs et compteurs au-dessus de toutes les fenêtres en petites cartes pastel, chacune avec son propre décompte. Une carte ne prend jamais le focus : cliquer dessus laisse votre curseur là où vous tapiez ou jouiez.</p>
+        <ol class="guide-steps">
+          <li>Installez FloatTimer+ depuis le Microsoft Store ; elle se loge dans la zone de notification.</li>
+          <li>Créez un chronomètre et faites-le flotter.</li>
+          <li>Démarrez, mettez en pause et relancez avec le bouton ▶/⏸/↻ sur la carte elle-même, sans ouvrir l’appli.</li>
+          <li>Déplacez la carte où vous voulez ou redimensionnez-la, et repliez-la en petite bulle ou poussez-la contre le bord de l’écran quand vous voulez récupérer de la place.</li>
+        </ol>
+
+        <h2>Si un jeu recouvre le chronomètre</h2>
+        <p>Aucune fenêtre ne peut rester au-dessus d’un jeu en mode plein écran exclusif. Passez le mode d’affichage du jeu en fenêtré sans bordure ou en fenêtré dans ses paramètres, et les fenêtres flottantes — celle de l’appli Horloge ou les cartes FloatTimer+ — s’affichent de nouveau par-dessus.</p>
+
+        <h2>Gratuit et Pro</h2>
+        <p>Vous pouvez créer autant de chronomètres, minuteurs et compteurs que vous voulez, sans publicité. La version gratuite fait flotter deux cartes à la fois ; Pro est un achat unique qui en fait flotter autant que vous voulez.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">L’appli de ce guide</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/floattimerwin.png?v=94" alt="FloatTimer+ for Windows icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>FloatTimer+ for Windows</bdi></p>
+          <p class="rc-desc">Minuteurs, compteurs et chronomètres qui flottent au-dessus de n'importe quelle fenêtre Windows, sous forme de petites cartes pastel.</p>
+          <div class="guide-app-actions">
+            <a href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-guide-fr" class="btn btn-primary" target="_blank" rel="noopener">Voir sur le Microsoft Store →</a>
+            <a href="/fr/apps/floattimerwin.html" class="btn btn-ghost">Détails de l’appli</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">Windows a-t-il un chronomètre toujours au premier plan ?</p><p class="faq-a">Oui. Le Chronomètre de l’appli Horloge propose « Keep on top », qui affiche un chronomètre dans une petite fenêtre au-dessus des autres. Pour plusieurs chronomètres, minuteurs ou compteurs à la fois, utilisez une appli de minuteurs flottants.</p></div>
+        <div class="faq-item"><p class="faq-q">Pourquoi mon chronomètre disparaît-il quand je lance un jeu ?</p><p class="faq-a">Le jeu est probablement en mode plein écran exclusif, qui recouvre toutes les autres fenêtres. Passez-le en fenêtré sans bordure ou en fenêtré dans les paramètres d’affichage du jeu.</p></div>
+        <div class="faq-item"><p class="faq-q">Puis-je faire tourner plusieurs chronomètres à la fois ?</p><p class="faq-a">Avec FloatTimer+, vous pouvez en créer autant que vous voulez, chacun avec son propre décompte. La version gratuite affiche deux cartes flottantes à la fois ; Pro en fait flotter davantage.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Autres guides</h2>
+      <ul class="guide-links">
+        <li><a href="/fr/guides/android-clipboard-history.html">Comment voir l’historique du presse-papiers sur Android</a></li>
+        <li><a href="/fr/guides/open-app-automatically-after-reboot-android.html">Ouvrir une appli automatiquement après un redémarrage sur Android (sans root)</a></li>
+        <li><a href="/fr/guides/floating-notes-over-other-apps-android.html">Garder une note au premier plan sur les autres applis Android</a></li>
+        <li><a href="/fr/guides/floating-timer-over-other-apps-android.html">Garder un minuteur à l’écran pendant que vous utilisez d’autres applis Android</a></li>
+        <li><a href="/fr/guides/hide-personal-info-in-screenshots.html">Masquer ses informations personnelles sur une capture d’écran avant de la partager</a></li>
+        <li><a href="/fr/guides/sticky-notes-always-on-top-windows.html">Garder un pense-bête toujours au premier plan sous Windows</a></li>
+        <li><a href="/fr/guides/clipboard-history-windows.html">Comment voir l’historique du Presse-papiers sous Windows</a></li>
+        <li><a href="/fr/guides/timer-always-on-top-windows.html">Garder un minuteur au premier plan sous Windows</a></li>
+        <li><a href="/fr/guides/reading-ruler-dyslexia-adhd-android.html">Règle de lecture pour la dyslexie et le TDAH sur Android : ne plus perdre la ligne</a></li>
+        <li><a href="/fr/guides/reading-ruler-windows.html">Utiliser une règle de lecture sous Windows (dyslexie et TDAH)</a></li>
+        <li><a href="/fr/guides/floating-calculator-over-other-apps-android.html">Utiliser une calculatrice par-dessus d’autres applis sur Android</a></li>
+        <li><a href="/fr/guides/crypto-price-ticker-over-other-apps-android.html">Voir les cours crypto en utilisant d’autres applis sur Android</a></li>
+        <li><a href="/fr/guides/make-android-phone-louder.html">Augmenter le volume de son téléphone Android</a></li>
+        <li><a href="/fr/guides/hide-personal-info-in-screenshots-windows.html">Masquer ses infos personnelles sur des captures d’écran et PDF sous Windows</a></li>
+        <li><a href="/fr/guides/crypto-price-ticker-on-top-windows.html">Garder un bandeau de cours crypto au-dessus des autres fenêtres sous Windows</a></li>
+        <li><a href="/fr/guides/choose-clipboard-manager-android.html">Bien choisir un gestionnaire de presse-papiers gratuit pour Android</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">Corée du Sud</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/fr/guides/">Guides</a>
+        <a class="footer-email" href="/fr/privacy.html">Politique de confidentialité</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"fr","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/floating-stopwatch-windows.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/floating-stopwatch-windows.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/floating-stopwatch-windows.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/floating-stopwatch-windows.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/floating-stopwatch-windows.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/floating-stopwatch-windows.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/floating-stopwatch-windows.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/floating-stopwatch-windows.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/floating-stopwatch-windows.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/floating-stopwatch-windows.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/floating-stopwatch-windows.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/floating-stopwatch-windows.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/floating-stopwatch-windows.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/floating-stopwatch-windows.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/floating-stopwatch-windows.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/floating-stopwatch-windows.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/floating-stopwatch-windows.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/floating-stopwatch-windows.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/floating-stopwatch-windows.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/floating-stopwatch-windows.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/floating-stopwatch-windows.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=94"></script>
+</body>
+</html>

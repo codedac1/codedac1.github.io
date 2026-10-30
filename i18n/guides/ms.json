@@ -662,6 +662,127 @@
           "a": "Tidak. Ia hanya membaca data pasaran awam dan tidak pernah berdagang atau memegang dana."
         }
       ]
+    },
+    "floating-stopwatch-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-30",
+      "title": "Cara memaparkan jam randik sentiasa di skrin PC Windows",
+      "desc": "Pastikan jam randik yang sedang berjalan kekal kelihatan di atas permainan, pelayar atau dokumen anda — dengan “Keep on top” dalam aplikasi Jam, atau dengan jam randik yang terapung sebagai kad kecil di atas setiap tetingkap.",
+      "intro": "Mengukur masa speedrun, senaman, tugasan atau mesyuarat lebih mudah apabila jam randik kekal kelihatan dan tidak tersembunyi di belakang tetingkap yang anda gunakan. Windows menawarkan satu cara terbina dalam, dan aplikasi pemasa terapung menambah lebih banyak lagi.",
+      "sections": [
+        {
+          "h": "Pilihan 1: jam randik aplikasi Jam dengan “Keep on top”",
+          "p": [
+            "Aplikasi Jam yang disertakan dengan Windows mempunyai tab jam randik. Mulakan jam randik dan pilih “Keep on top”, dan ia dipaparkan dalam tetingkap kecil yang kekal di atas tetingkap lain.",
+            "Ia pantas dan tidak memerlukan apa-apa tambahan. Ia memaparkan satu jam randik dalam tetingkap kecil bersaiz tetap."
+          ]
+        },
+        {
+          "h": "Pilihan 2: jam randik yang terapung sebagai kad",
+          "p": [
+            "FloatTimer+ for Windows (aplikasi kami) mengapungkan jam randik, pemasa dan pembilang di atas setiap tetingkap sebagai kad pastel kecil, setiap satu berjalan secara berasingan. Kad tidak pernah mengambil fokus, jadi mengklik kad membiarkan kursor anda di tempat anda menaip atau bermain."
+          ],
+          "steps": [
+            "Pasang FloatTimer+ dari Microsoft Store; ia berada dalam dulang sistem.",
+            "Cipta jam randik dan apungkannya.",
+            "Mula, jeda dan mulakan semula dengan butang ▶/⏸/↻ pada kad itu sendiri — tanpa perlu membuka aplikasi.",
+            "Seret kad ke mana-mana atau ubah saiznya, dan kuncupkannya menjadi gelembung kecil atau tolak ke tepi skrin apabila anda mahu skrin lapang semula."
+          ]
+        },
+        {
+          "h": "Jika permainan menutup jam randik",
+          "p": [
+            "Tiada tetingkap boleh kekal di atas permainan yang berjalan dalam mod skrin penuh eksklusif. Tukar mod paparan permainan kepada borderless atau windowed dalam tetapannya, dan tetingkap terapung — sama ada aplikasi Jam atau kad FloatTimer+ — akan muncul di atasnya semula."
+          ]
+        },
+        {
+          "h": "Percuma dan Pro",
+          "p": [
+            "Anda boleh mencipta seberapa banyak jam randik, pemasa dan pembilang yang anda mahu, tanpa iklan. Versi percuma mengapungkan dua kad pada satu masa; Pro ialah pembelian sekali sahaja yang mengapungkan seberapa banyak yang anda mahu."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah Windows mempunyai jam randik yang sentiasa di atas?",
+          "a": "Ya. Jam randik dalam aplikasi Jam mempunyai “Keep on top”, yang memaparkan satu jam randik dalam tetingkap kecil di atas tetingkap lain. Untuk beberapa jam randik, pemasa atau pembilang serentak, gunakan aplikasi pemasa terapung."
+        },
+        {
+          "q": "Kenapa jam randik saya hilang apabila saya memulakan permainan?",
+          "a": "Permainan itu mungkin dalam mod skrin penuh eksklusif, yang menutup semua tetingkap lain. Tukar kepada mod borderless atau windowed dalam tetapan paparan permainan."
+        },
+        {
+          "q": "Bolehkah saya menjalankan lebih daripada satu jam randik serentak?",
+          "a": "Dengan FloatTimer+ anda boleh mencipta seberapa banyak yang anda mahu, setiap satu berjalan secara berasingan. Versi percuma memaparkan dua kad terapung serentak; Pro mengapungkan lebih banyak."
+        }
+      ]
+    },
+    "choose-clipboard-manager-android": {
+      "app": "clipboard",
+      "updated": "2026-10-30",
+      "title": "Cara memilih pengurus papan keratan percuma untuk Android",
+      "desc": "Android hanya menyimpan perkara terakhir yang anda salin. Sebelum memilih pengurus papan keratan, semak cara ia menyimpan salinan anda, apa yang disimpan, cara mendapatkannya semula dan ke mana data anda pergi.",
+      "intro": "Pengurus papan keratan menyimpan perkara yang anda salin supaya anda boleh menampalnya semula kemudian. Di Android, aplikasi ini lebih berbeza daripada yang disangka, terutamanya kerana Android mengehadkan cara aplikasi membaca papan keratan. Ini perkara yang perlu disemak sebelum anda memilih.",
+      "sections": [
+        {
+          "h": "1. Cara ia menyimpan perkara yang anda salin",
+          "p": [
+            "Sejak Android 10, hanya apl pada skrin (dan papan kekunci yang sedang anda gunakan) boleh membaca papan keratan. Aplikasi papan keratan yang berada di latar belakang tidak dapat melihat apa yang anda salin dalam apl lain, walau apa pun yang dinyatakan pada halaman kedainya.",
+            "Jadi semak cara aplikasi itu sebenarnya menyimpan: apabila anda membukanya, daripada butang terapung atau widget, daripada menu pilihan teks, atau dengan simpan automatik berasaskan Kebolehcapaian yang mengesan sebaik sahaja anda menyalin. Aplikasi yang jujur tentang perkara ini mengelakkan kejutan kemudian."
+          ]
+        },
+        {
+          "h": "2. Apa yang disimpan",
+          "p": [
+            "Sesetengah aplikasi hanya menyimpan teks. Jika anda menyalin tangkapan skrin, foto atau imej dari web, cari yang turut menyimpan imej, dengan pratonton yang boleh dibuka."
+          ]
+        },
+        {
+          "h": "3. Seberapa pantas anda mendapatkannya semula",
+          "p": [
+            "Carian menjadi penting apabila sejarah semakin panjang. Semat dan kumpulan (snippet) memastikan alamat, nombor akaun dan balasan sedia sentiasa dekat. Panel terapung atau widget membolehkan anda menyalin keratan tanpa meninggalkan aplikasi yang sedang digunakan."
+          ]
+        },
+        {
+          "h": "4. Privasi",
+          "p": [
+            "Papan keratan anda boleh mengandungi kata laluan dan kod. Semak di mana keratan disimpan (pada peranti, atau pada pelayan pihak lain), sama ada aplikasi melangkau keratan yang ditanda sebagai kata laluan, dan, jika ia menggunakan Kebolehcapaian, apa yang dinyatakan tentang kegunaan kebenaran itu."
+          ]
+        },
+        {
+          "h": "5. Penyegerakan dan sandaran",
+          "p": [
+            "Jika anda juga bekerja pada PC, semak sama ada aplikasi itu menyegerak dengan versi desktop dan caranya — melalui storan awan anda sendiri atau pelayan pembangun. Fail sandaran yang boleh dipulihkan pada telefon baharu juga berbaloi untuk dimiliki."
+          ]
+        },
+        {
+          "h": "Adakah papan keratan papan kekunci sudah memadai?",
+          "p": [
+            "Banyak papan kekunci mempunyai papan keratan sendiri. Gboard, contohnya, memaparkan keratan terkini di atas kekunci tetapi membuang item yang tidak disemat selepas kira-kira sejam. Untuk sesuatu yang anda salin beberapa minit lalu, ia pilihan paling pantas; untuk sejarah yang kekal, gunakan pengurus papan keratan."
+          ]
+        },
+        {
+          "h": "Kedudukan Clipboard+",
+          "p": [
+            "Clipboard+ (aplikasi kami) menyimpan teks dan imej dalam sejarah yang boleh dicari, dengan semat, snippet dan kumpulan, panel terapung di atas apl lain, widget skrin utama dan entri Clipboard+ dalam menu pilihan teks. Simpan automatik pilihannya menggunakan Kebolehcapaian hanya untuk mengesan saat anda menyalin, melangkau keratan yang ditanda sebagai kata laluan dan tidak menghantar apa-apa ke mana-mana; tanpanya, simpan dengan gelembung, widget, menu pilihan atau dengan membuka apl.",
+            "Keratan kekal pada telefon anda. Ia boleh menyegerak dengan Clipboard+ for Windows melalui Google Drive anda sendiri — tidak sekali-kali melalui pelayan CodeDAC — dan membuat sandaran ke fail. Ia percuma dengan iklan; Pro membuang iklan dan menambah penyegerakan PC serta banyak lagi."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah apl Android menyimpan semua yang saya salin secara automatik?",
+          "a": "Tidak dengan membaca papan keratan di latar belakang — Android 10 dan yang lebih baharu menyekatnya. Apl sama ada menyimpan apabila anda membawanya ke hadapan, atau menggunakan perkhidmatan Kebolehcapaian yang mengesan sebaik sahaja anda menyalin. Clipboard+ menawarkan cara kedua sebagai simpan automatik pilihan."
+        },
+        {
+          "q": "Adakah selamat menggunakan pengurus papan keratan?",
+          "a": "Pilih yang menyimpan keratan pada peranti anda atau dalam storan anda sendiri, melangkau keratan yang ditanda sebagai kata laluan, dan menerangkan kegunaan sebarang kebenaran Kebolehcapaian. Padamkan keratan sensitif yang tidak lagi anda perlukan."
+        },
+        {
+          "q": "Adakah saya perlukan pengurus papan keratan jika papan kekunci saya ada papan keratan?",
+          "a": "Papan keratan papan kekunci memadai untuk sesuatu yang anda salin beberapa minit lalu. Pengurus papan keratan menyimpan sejarah sehingga anda memadamnya, dengan carian, semat dan imej."
+        }
+      ]
     }
   }
 }

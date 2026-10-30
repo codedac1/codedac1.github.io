@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>Як тримати секундомір поверх вікон у Windows | CodeDAC</title>
+  <meta name="description" content="Нехай секундомір, що йде, лишається на виду поверх гри, браузера чи документа — за допомогою функції «Keep on top» у застосунку «Годинник» або секундомірів, що плавають маленькими картками поверх усіх вікон." />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/uk/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/floating-stopwatch-windows.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/floating-stopwatch-windows.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="uk_UA" />
+  <meta property="og:title" content="Як тримати секундомір поверх вікон у Windows | CodeDAC" />
+  <meta property="og:description" content="Нехай секундомір, що йде, лишається на виду поверх гри, браузера чи документа — за допомогою функції «Keep on top» у застосунку «Годинник» або секундомірів, що плавають маленькими картками поверх усіх вікон." />
+  <meta property="og:url" content="https://codedac.com/uk/guides/floating-stopwatch-windows.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/floattimerwin.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Як тримати секундомір поверх вікон у Windows | CodeDAC" />
+  <meta name="twitter:description" content="Нехай секундомір, що йде, лишається на виду поверх гри, браузера чи документа — за допомогою функції «Keep on top» у застосунку «Годинник» або секундомірів, що плавають маленькими картками поверх усіх вікон." />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/floattimerwin.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=94" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Як тримати секундомір поверх вікон у Windows",
+  "description": "Нехай секундомір, що йде, лишається на виду поверх гри, браузера чи документа — за допомогою функції «Keep on top» у застосунку «Годинник» або секундомірів, що плавають маленькими картками поверх усіх вікон.",
+  "inLanguage": "uk",
+  "datePublished": "2026-10-30",
+  "dateModified": "2026-10-30",
+  "mainEntityOfPage": "https://codedac.com/uk/guides/floating-stopwatch-windows.html",
+  "image": "https://codedac.com/images/icons/floattimerwin.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "FloatTimer+ for Windows",
+    "url": "https://codedac.com/uk/apps/floattimerwin.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/uk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "FloatTimer+ for Windows",
+      "item": "https://codedac.com/uk/apps/floattimerwin.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Як тримати секундомір поверх вікон у Windows",
+      "item": "https://codedac.com/uk/guides/floating-stopwatch-windows.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Чи є у Windows секундомір поверх усіх вікон?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Так. Секундомір у застосунку «Годинник» має «Keep on top»: він показує один секундомір у маленькому вікні поверх інших. Щоб бачити одразу кілька секундомірів, таймерів або лічильників, скористайтеся застосунком із плаваючими таймерами."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Чому секундомір зникає, коли я запускаю гру?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Найімовірніше, гра працює в монопольному повноекранному режимі, який перекриває всі інші вікна. Перемкніть її в режим без рамки або у вікні в налаштуваннях зображення гри."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Чи можна запустити кілька секундомірів одночасно?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "У FloatTimer+ їх можна створити скільки завгодно, і кожен відлічує час окремо. Безкоштовна версія показує дві плаваючі картки одночасно; Pro дозволяє більше."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/uk/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/uk/#apps">Застосунки</a>
+        <a href="/uk/#reviews">Відгуки</a>
+        <a href="/uk/guides/">Інструкції</a>
+        <a href="/uk/#about">Про нас</a>
+        <a href="/uk/#contact">Співпраця</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Перемкнути темну тему" title="Перемкнути темну тему">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Українська"><span class="lang-name">Українська</span><span class="lang-code" aria-hidden="true">UK</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/floating-stopwatch-windows.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/floating-stopwatch-windows.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/guides/floating-stopwatch-windows.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/floating-stopwatch-windows.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/guides/floating-stopwatch-windows.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/guides/floating-stopwatch-windows.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item" data-lang="fr" href="/fr/guides/floating-stopwatch-windows.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/floating-stopwatch-windows.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item" data-lang="hi" href="/hi/guides/floating-stopwatch-windows.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/floating-stopwatch-windows.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item" data-lang="zh" href="/zh/guides/floating-stopwatch-windows.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/guides/floating-stopwatch-windows.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/floating-stopwatch-windows.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/floating-stopwatch-windows.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/guides/floating-stopwatch-windows.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/floating-stopwatch-windows.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/floating-stopwatch-windows.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/floating-stopwatch-windows.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/floating-stopwatch-windows.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item is-active" data-lang="uk" href="/uk/guides/floating-stopwatch-windows.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/floating-stopwatch-windows.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-windows guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/uk/">Головна</a>
+        <span class="sep">/</span>
+        <a href="/uk/apps/floattimerwin.html"><bdi>FloatTimer+ for Windows</bdi></a>
+        <span class="sep">/</span>
+        <a href="/uk/guides/">Інструкції</a>
+      </nav>
+      <h1>Як тримати секундомір поверх вікон у Windows</h1>
+      <p class="guide-meta">Оновлено <time datetime="2026-10-30">2026-10-30</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">Засікати час спідрану, тренування, завдання чи зустрічі простіше, коли секундомір лишається на виду, а не ховається за вікном, у якому ви працюєте. У Windows є один вбудований спосіб, а застосунок із плаваючим таймером дає більше можливостей.</p>
+
+        <h2>Спосіб 1: «Секундомір» у застосунку «Годинник» і «Keep on top»</h2>
+        <p>У застосунку «Годинник», що входить до Windows, є вкладка «Секундомір». Запустіть секундомір і виберіть «Keep on top» — він з'явиться в маленькому вікні, яке лишається поверх інших вікон.</p>
+        <p>Це швидко й нічого не потрібно встановлювати. Показується один секундомір у невеликому вікні фіксованого розміру.</p>
+
+        <h2>Спосіб 2: секундоміри у вигляді плаваючих карток</h2>
+        <p>FloatTimer+ for Windows (наш застосунок) тримає секундоміри, таймери й лічильники поверх усіх вікон у вигляді маленьких пастельних карток, і кожна з них відлічує час окремо. Картка ніколи не забирає фокус, тож після клацання по ній курсор лишається там, де ви друкували чи грали.</p>
+        <ol class="guide-steps">
+          <li>Установіть FloatTimer+ із Microsoft Store; він працює в системному треї.</li>
+          <li>Створіть секундомір і виведіть його поверх екрана.</li>
+          <li>Запускайте, ставте на паузу й перезапускайте кнопкою ▶/⏸/↻ просто на картці — відкривати застосунок не потрібно.</li>
+          <li>Перетягуйте картку куди завгодно або змінюйте її розмір, а коли місце потрібне вам, згорніть її в маленьку бульбашку або присуньте до краю екрана.</li>
+        </ol>
+
+        <h2>Якщо гра перекриває секундомір</h2>
+        <p>Жодне вікно не може лишатися поверх гри, запущеної в монопольному повноекранному режимі. Перемкніть режим відображення в налаштуваннях гри на «без рамки» або «у вікні» — і плаваючі вікна, чи то «Годинник», чи картки FloatTimer+, знову з'являться поверх неї.</p>
+
+        <h2>Безкоштовно і Pro</h2>
+        <p>Секундомірів, таймерів і лічильників можна створити скільки завгодно, без реклами. Безкоштовна версія показує поверх екрана дві картки за раз; Pro — разова покупка, з якою поверх екрана можна тримати скільки завгодно карток.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Застосунок із цієї інструкції</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/floattimerwin.png?v=94" alt="FloatTimer+ for Windows icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>FloatTimer+ for Windows</bdi></p>
+          <p class="rc-desc">Таймери, лічильники та секундоміри, що плавають поверх будь-якого вікна Windows маленькими пастельними картками.</p>
+          <div class="guide-app-actions">
+            <a href="https://apps.microsoft.com/detail/9P3CTX3SXTGW?cid=site-guide-uk" class="btn btn-primary" target="_blank" rel="noopener">Відкрити у Microsoft Store →</a>
+            <a href="/uk/apps/floattimerwin.html" class="btn btn-ghost">Про застосунок</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Запитання</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">Чи є у Windows секундомір поверх усіх вікон?</p><p class="faq-a">Так. Секундомір у застосунку «Годинник» має «Keep on top»: він показує один секундомір у маленькому вікні поверх інших. Щоб бачити одразу кілька секундомірів, таймерів або лічильників, скористайтеся застосунком із плаваючими таймерами.</p></div>
+        <div class="faq-item"><p class="faq-q">Чому секундомір зникає, коли я запускаю гру?</p><p class="faq-a">Найімовірніше, гра працює в монопольному повноекранному режимі, який перекриває всі інші вікна. Перемкніть її в режим без рамки або у вікні в налаштуваннях зображення гри.</p></div>
+        <div class="faq-item"><p class="faq-q">Чи можна запустити кілька секундомірів одночасно?</p><p class="faq-a">У FloatTimer+ їх можна створити скільки завгодно, і кожен відлічує час окремо. Безкоштовна версія показує дві плаваючі картки одночасно; Pro дозволяє більше.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">Інші інструкції</h2>
+      <ul class="guide-links">
+        <li><a href="/uk/guides/android-clipboard-history.html">Як переглянути історію буфера обміну на Android</a></li>
+        <li><a href="/uk/guides/open-app-automatically-after-reboot-android.html">Як автоматично відкривати застосунок після перезавантаження Android (без root)</a></li>
+        <li><a href="/uk/guides/floating-notes-over-other-apps-android.html">Як закріпити нотатку поверх інших застосунків на Android</a></li>
+        <li><a href="/uk/guides/floating-timer-over-other-apps-android.html">Як тримати таймер на екрані поверх інших застосунків на Android</a></li>
+        <li><a href="/uk/guides/hide-personal-info-in-screenshots.html">Як приховати особисті дані на скриншоті перед надсиланням</a></li>
+        <li><a href="/uk/guides/sticky-notes-always-on-top-windows.html">Як закріпити стікер-нотатку поверх усіх вікон у Windows</a></li>
+        <li><a href="/uk/guides/clipboard-history-windows.html">Як переглянути історію буфера обміну у Windows</a></li>
+        <li><a href="/uk/guides/timer-always-on-top-windows.html">Як закріпити таймер поверх інших вікон у Windows</a></li>
+        <li><a href="/uk/guides/reading-ruler-dyslexia-adhd-android.html">Лінійка для читання при дислексії та СДУГ на Android: як не губити рядок</a></li>
+        <li><a href="/uk/guides/reading-ruler-windows.html">Як користуватися лінійкою для читання у Windows (при дислексії та СДУГ)</a></li>
+        <li><a href="/uk/guides/floating-calculator-over-other-apps-android.html">Як користуватися калькулятором поверх інших застосунків на Android</a></li>
+        <li><a href="/uk/guides/crypto-price-ticker-over-other-apps-android.html">Як стежити за курсами криптовалют поверх інших застосунків на Android</a></li>
+        <li><a href="/uk/guides/make-android-phone-louder.html">Як зробити телефон на Android гучнішим</a></li>
+        <li><a href="/uk/guides/hide-personal-info-in-screenshots-windows.html">Як приховати особисті дані на скриншотах і в PDF у Windows</a></li>
+        <li><a href="/uk/guides/crypto-price-ticker-on-top-windows.html">Як тримати курси криптовалют поверх усіх вікон у Windows</a></li>
+        <li><a href="/uk/guides/choose-clipboard-manager-android.html">Як вибрати безкоштовний менеджер буфера обміну для Android</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">Південна Корея</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/uk/guides/">Інструкції</a>
+        <a class="footer-email" href="/uk/privacy.html">Політика конфіденційності</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"uk","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/floating-stopwatch-windows.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/floating-stopwatch-windows.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/floating-stopwatch-windows.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/floating-stopwatch-windows.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/floating-stopwatch-windows.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/floating-stopwatch-windows.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/floating-stopwatch-windows.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/floating-stopwatch-windows.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/floating-stopwatch-windows.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/floating-stopwatch-windows.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/floating-stopwatch-windows.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/floating-stopwatch-windows.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/floating-stopwatch-windows.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/floating-stopwatch-windows.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/floating-stopwatch-windows.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/floating-stopwatch-windows.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/floating-stopwatch-windows.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/floating-stopwatch-windows.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/floating-stopwatch-windows.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/floating-stopwatch-windows.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/floating-stopwatch-windows.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=94"></script>
+</body>
+</html>

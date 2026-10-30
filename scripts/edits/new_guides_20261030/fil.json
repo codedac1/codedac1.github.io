@@ -1,0 +1,123 @@
+{
+ "floating-stopwatch-windows": {
+  "app": "floattimerwin",
+  "updated": "2026-10-30",
+  "title": "Paano panatilihing nakikita ang stopwatch sa screen ng Windows PC",
+  "desc": "Panatilihing nakikita ang tumatakbong stopwatch sa ibabaw ng laro, browser o dokumento mo — gamit ang “Keep on top” ng Clock app, o gamit ang mga stopwatch na lumulutang bilang maliliit na card sa ibabaw ng bawat window.",
+  "intro": "Mas madaling orasan ang speedrun, workout, gawain o meeting kapag nakikita ang stopwatch at hindi nakatago sa likod ng window na ginagamit mo. May isang built-in na paraan ang Windows, at may dagdag na paraan ang isang floating-timer app.",
+  "sections": [
+   {
+    "h": "Opsyon 1: ang stopwatch ng Clock app na may “Keep on top”",
+    "p": [
+     "May stopwatch tab ang Clock app na kasama ng Windows. Simulan ang stopwatch at piliin ang “Keep on top”, at lalabas ito sa maliit na window na nananatili sa ibabaw ng ibang window.",
+     "Mabilis ito at walang kailangang idagdag. Isang stopwatch lang ang ipinapakita nito, sa isang maliit at nakapirming window."
+    ]
+   },
+   {
+    "h": "Opsyon 2: mga stopwatch na lumulutang bilang card",
+    "p": [
+     "Pinalulutang ng FloatTimer+ for Windows (aming app) ang mga stopwatch, timer at counter sa ibabaw ng bawat window bilang maliliit na pastel card, na hiwalay ang oras ng bawat isa. Hindi kailanman kumukuha ng focus ang card, kaya kapag kinlik mo ito, nananatili ang cursor mo kung saan ka nagta-type o naglalaro."
+    ],
+    "steps": [
+     "I-install ang FloatTimer+ mula sa Microsoft Store; nakatira ito sa system tray.",
+     "Gumawa ng stopwatch at palutangin ito.",
+     "Simulan, i-pause at ulitin gamit ang ▶/⏸/↻ button sa mismong card — hindi na kailangang buksan ang app.",
+     "I-drag ang card kahit saan o baguhin ang laki, at itiklop ito bilang maliit na bubble o itulak sa gilid ng screen kapag gusto mong maluwag ulit ang screen."
+    ]
+   },
+   {
+    "h": "Kung natatakpan ng laro ang stopwatch",
+    "p": [
+     "Walang window na makakapanatili sa ibabaw ng larong tumatakbo sa exclusive full-screen mode. Palitan ang display mode ng laro sa borderless o windowed sa settings nito, at lalabas ulit sa ibabaw nito ang mga floating window — ang sa Clock app man o ang mga card ng FloatTimer+."
+    ]
+   },
+   {
+    "h": "Libre at Pro",
+    "p": [
+     "Makakagawa ka ng kahit ilang stopwatch, timer at counter, nang walang ads. Dalawang card ang napapalutang nang sabay sa libreng bersyon; ang Pro ay isang beses na bayad na nagpapalutang ng kahit ilan."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "May stopwatch ba ang Windows na laging nasa ibabaw?",
+    "a": "Oo. May “Keep on top” ang stopwatch ng Clock app, na nagpapakita ng isang stopwatch sa maliit na window sa ibabaw ng iba. Para sa ilang stopwatch, timer o counter nang sabay, gumamit ng floating-timer app."
+   },
+   {
+    "q": "Bakit nawawala ang stopwatch ko kapag nagsimula ako ng laro?",
+    "a": "Malamang nasa exclusive full-screen mode ang laro, na tumatakip sa lahat ng ibang window. Palitan ito sa borderless o windowed mode sa display settings ng laro."
+   },
+   {
+    "q": "Puwede ba akong magpatakbo ng higit sa isang stopwatch nang sabay?",
+    "a": "Sa FloatTimer+, makakagawa ka ng kahit ilan, na hiwalay ang oras ng bawat isa. Dalawang floating card ang ipinapakita nang sabay sa libreng bersyon; mas marami ang napapalutang sa Pro."
+   }
+  ]
+ },
+ "choose-clipboard-manager-android": {
+  "app": "clipboard",
+  "updated": "2026-10-30",
+  "title": "Ano ang dapat hanapin sa libreng clipboard manager para sa Android",
+  "desc": "Ang huling kinopya mo lang ang iniingatan ng Android. Bago pumili ng clipboard manager, tingnan kung paano nito sine-save ang mga kinopya mo, ano ang iniingatan nito, paano mo sila mababawi, at saan napupunta ang data mo.",
+  "intro": "Iniingatan ng clipboard manager ang mga kinokopya mo para mai-paste mo ulit mamaya. Sa Android, mas malaki ang pagkakaiba-iba nila kaysa sa itsura, pangunahin dahil nililimitahan ng Android kung paano nababasa ng mga app ang clipboard. Narito ang dapat tingnan bago ka pumili.",
+  "sections": [
+   {
+    "h": "1. Paano nito sine-save ang kinokopya mo",
+    "p": [
+     "Mula Android 10, ang app lang na nasa screen (at ang keyboard na ginagamit mo sa pag-type) ang nakakabasa ng clipboard. Hindi nakikita ng clipboard app na nasa background ang kinokopya mo sa ibang app, anuman ang ipahiwatig ng store page nito.",
+     "Kaya tingnan kung paano talaga nagse-save ang app: kapag binuksan mo ito, mula sa floating button o widget, mula sa menu ng pagpili ng text, o gamit ang awtomatikong pag-save na nakabatay sa Accessibility na nakakapansin sa mismong sandaling kumopya ka. Ang app na tapat tungkol dito ay mag-iiwas sa iyo sa mga sorpresa sa bandang huli."
+    ]
+   },
+   {
+    "h": "2. Ano ang iniingatan nito",
+    "p": [
+     "May mga app na teksto lang ang iniingatan. Kung kumokopya ka ng screenshot, larawan o image mula sa web, maghanap ng app na nagse-save din ng mga larawan, na may preview na mabubuksan mo."
+    ]
+   },
+   {
+    "h": "3. Gaano kabilis mo silang mababawi",
+    "p": [
+     "Mahalaga ang paghahanap kapag humahaba na ang history. Pinananatiling abot-kamay ng pag-pin at mga grupo (snippet) ang mga address, account number at nakahandang sagot. Sa floating panel o widget, makakakopya ka ng clip nang hindi umaalis sa app na ginagamit mo."
+    ]
+   },
+   {
+    "h": "4. Privacy",
+    "p": [
+     "Puwedeng may laman na password at code ang clipboard mo. Tingnan kung saan iniimbak ang mga clip (sa device, o sa server ng iba), kung nilalaktawan ng app ang mga clip na minarkahang password, at, kung gumagamit ito ng Accessibility, kung para saan daw ginagamit ang pahintulot na iyon."
+    ]
+   },
+   {
+    "h": "5. Sync at backup",
+    "p": [
+     "Kung nagtatrabaho ka rin sa PC, tingnan kung nagsi-sync ang app sa isang desktop na bersyon at kung paano — sa sarili mong cloud storage o sa mga server ng developer. Sulit ding magkaroon ng backup file na maibabalik mo sa bagong telepono."
+    ]
+   },
+   {
+    "h": "Sapat na ba ang clipboard ng keyboard?",
+    "p": [
+     "Maraming keyboard ang may sariling clipboard. Halimbawa, ipinapakita ng Gboard ang mga kamakailang clip sa itaas ng mga key pero binubura ang mga item na hindi naka-pin pagkalipas ng mga isang oras. Para sa kinopya mo ilang minuto lang ang nakaraan, ito ang pinakamabilis; para sa history na nananatili, gumamit ng clipboard manager."
+    ]
+   },
+   {
+    "h": "Saan pumapasok ang Clipboard+",
+    "p": [
+     "Sine-save ng Clipboard+ (aming app) ang mga teksto at larawan sa history na nahahanap, na may pag-pin, mga snippet at grupo, floating panel sa ibabaw ng ibang app, widget sa home screen at Clipboard+ sa menu ng pagpili ng text. Ang opsyonal nitong awtomatikong pag-save ay gumagamit ng Accessibility para lang mapansin ang sandaling kumopya ka, nilalaktawan ang mga clip na minarkahang password at walang ipinapadala kahit saan; kung hindi ito naka-on, mag-save gamit ang bubble, widget, menu ng pagpili o pagbukas ng app.",
+     "Nananatili ang mga clip sa telepono mo. Puwede itong mag-sync sa Clipboard+ for Windows sa pamamagitan ng sarili mong Google Drive — hindi kailanman sa server ng CodeDAC — at mag-back up sa isang file. Libre ito na may ads; inaalis ng Pro ang ads at nagdaragdag ng PC sync at iba pa."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Kaya ba ng isang Android app na awtomatikong i-save ang lahat ng kinokopya ko?",
+    "a": "Hindi sa pagbasa ng clipboard sa background — hinaharangan iyon ng Android 10 at mas bago. Nagse-save ang mga app kapag inilabas mo sila sa harap, o gumagamit sila ng Accessibility service na nakakapansin sa sandaling kumopya ka. Inaalok ng Clipboard+ ang pangalawa bilang opsyonal na awtomatikong pag-save."
+   },
+   {
+    "q": "Ligtas bang gumamit ng clipboard manager?",
+    "a": "Pumili ng app na nag-iingat ng mga clip sa device mo o sa sarili mong storage, lumalaktaw sa mga clip na minarkahang password, at nagpapaliwanag kung para saan ginagamit ang anumang pahintulot sa Accessibility. Burahin ang mga sensitibong clip na hindi mo na kailangan."
+   },
+   {
+    "q": "Kailangan ko pa ba ng clipboard manager kung may clipboard ang keyboard ko?",
+    "a": "Ayos na ang clipboard ng keyboard para sa kinopya mo ilang minuto lang ang nakaraan. Iniingatan ng clipboard manager ang history hanggang burahin mo, na may paghahanap, pag-pin at mga larawan."
+   }
+  ]
+ }
+}

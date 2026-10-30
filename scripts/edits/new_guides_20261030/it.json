@@ -1,0 +1,123 @@
+{
+ "floating-stopwatch-windows": {
+  "app": "floattimerwin",
+  "updated": "2026-10-30",
+  "title": "Come tenere un cronometro sempre in vista su un PC Windows",
+  "desc": "Tieni in vista un cronometro in corsa sopra il gioco, il browser o il documento: con «Keep on top» dell'app Orologio, o con cronometri che fluttuano come piccole schede sopra tutte le finestre.",
+  "intro": "Cronometrare una speedrun, un allenamento, un'attività o una riunione è più facile se il cronometro resta in vista invece di nascondersi dietro la finestra che stai usando. Windows offre un modo integrato, e un'app di timer flottanti ne aggiunge altri.",
+  "sections": [
+   {
+    "h": "Opzione 1: il Cronometro dell'app Orologio con «Keep on top»",
+    "p": [
+     "L'app Orologio inclusa in Windows ha una scheda Cronometro. Avvia il cronometro e scegli «Keep on top»: comparirà in una piccola finestra che resta sopra le altre.",
+     "È rapido e non richiede nient'altro. Mostra un solo cronometro in una piccola finestra di dimensioni fisse."
+    ]
+   },
+   {
+    "h": "Opzione 2: cronometri che fluttuano come schede",
+    "p": [
+     "FloatTimer+ for Windows (la nostra app) fa fluttuare cronometri, timer e contatori sopra tutte le finestre come piccole schede pastello, ognuno con il proprio tempo. Le schede non prendono mai il focus, quindi un clic su una di esse lascia il cursore dove stavi scrivendo o giocando."
+    ],
+    "steps": [
+     "Installa FloatTimer+ dal Microsoft Store; vive nell'area di notifica.",
+     "Crea un cronometro e fallo fluttuare.",
+     "Avvia, metti in pausa e riavvia con il pulsante ▶/⏸/↻ sulla scheda stessa, senza bisogno di aprire l'app.",
+     "Trascina la scheda dove vuoi o ridimensionala, e riducila a una piccola bolla o spingila contro il bordo dello schermo quando vuoi recuperare spazio."
+    ]
+   },
+   {
+    "h": "Se un gioco copre il cronometro",
+    "p": [
+     "Nessuna finestra può restare sopra un gioco in modalità schermo intero esclusivo. Nelle impostazioni del gioco, passa alla modalità finestra senza bordi o in finestra, e le finestre flottanti (quella dell'app Orologio o le schede di FloatTimer+) torneranno a comparire sopra."
+    ]
+   },
+   {
+    "h": "Gratis e Pro",
+    "p": [
+     "Puoi creare tutti i cronometri, timer e contatori che vuoi, senza pubblicità. La versione gratuita fa fluttuare due schede alla volta; Pro è un acquisto una tantum che ne fa fluttuare quante ne vuoi."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Windows ha un cronometro sempre in primo piano?",
+    "a": "Sì. Il Cronometro dell'app Orologio ha «Keep on top», che mostra un cronometro in una piccola finestra sopra le altre. Per più cronometri, timer o contatori insieme, usa un'app di timer flottanti."
+   },
+   {
+    "q": "Perché il cronometro sparisce quando avvio un gioco?",
+    "a": "Probabilmente il gioco è in modalità schermo intero esclusivo, che copre tutte le altre finestre. Passalo a finestra senza bordi o in finestra nelle impostazioni video del gioco."
+   },
+   {
+    "q": "Posso usare più cronometri contemporaneamente?",
+    "a": "Con FloatTimer+ puoi crearne quanti ne vuoi, ognuno con il proprio tempo. La versione gratuita mostra due schede flottanti alla volta; Pro ne fa fluttuare di più."
+   }
+  ]
+ },
+ "choose-clipboard-manager-android": {
+  "app": "clipboard",
+  "updated": "2026-10-30",
+  "title": "Cosa cercare in un gestore degli appunti gratuito per Android",
+  "desc": "Android conserva solo l'ultima cosa che copi. Prima di scegliere un gestore degli appunti, controlla come salva le copie, cosa conserva, come le recuperi e dove finiscono i tuoi dati.",
+  "intro": "Un gestore degli appunti conserva ciò che copi per poterlo incollare di nuovo più tardi. Su Android le differenze sono più grandi di quanto sembri, soprattutto perché Android limita il modo in cui le app possono leggere gli appunti. Ecco cosa controllare prima di sceglierne uno.",
+  "sections": [
+   {
+    "h": "1. Come salva ciò che copi",
+    "p": [
+     "Da Android 10 solo l'app sullo schermo (e la tastiera che stai usando) può leggere gli appunti. Un'app degli appunti in background non vede ciò che copi nelle altre app, qualunque cosa lasci intendere la sua pagina nello store.",
+     "Quindi verifica come salva davvero: quando la apri, da un pulsante flottante o da un widget, dal menu di selezione del testo, oppure con un salvataggio automatico basato sull'Accessibilità che rileva il momento in cui copi. Un'app onesta su questo punto ti risparmia sorprese in seguito."
+    ]
+   },
+   {
+    "h": "2. Cosa conserva",
+    "p": [
+     "Alcune app conservano solo il testo. Se copi screenshot, foto o immagini dal web, cercane una che salvi anche le immagini, con un'anteprima da aprire."
+    ]
+   },
+   {
+    "h": "3. Quanto in fretta recuperi le cose",
+    "p": [
+     "La ricerca conta quando la cronologia cresce. Gli elementi fissati e i gruppi (snippet) tengono a portata di mano indirizzi, numeri di conto e risposte pronte. Un pannello flottante o un widget ti permette di copiare un elemento senza lasciare l'app in cui ti trovi."
+    ]
+   },
+   {
+    "h": "4. Privacy",
+    "p": [
+     "Gli appunti possono contenere password e codici. Controlla dove vengono salvati gli elementi (sul dispositivo o sul server di qualcun altro), se l'app salta quelli contrassegnati come password e, se usa l'Accessibilità, per cosa dichiara di usare quel permesso."
+    ]
+   },
+   {
+    "h": "5. Sincronizzazione e backup",
+    "p": [
+     "Se lavori anche al PC, controlla se l'app si sincronizza con una versione desktop e come: tramite il tuo spazio cloud o i server dello sviluppatore. Vale la pena avere anche un file di backup da ripristinare su un nuovo telefono."
+    ]
+   },
+   {
+    "h": "Bastano gli appunti della tastiera?",
+    "p": [
+     "Molte tastiere hanno i propri appunti. Gboard, per esempio, mostra i testi copiati di recente sopra i tasti, ma rimuove gli elementi non fissati dopo circa un'ora. Per qualcosa copiato pochi minuti fa è l'opzione più rapida; per una cronologia che resta, usa un gestore degli appunti."
+    ]
+   },
+   {
+    "h": "Dove si colloca Clipboard+",
+    "p": [
+     "Clipboard+ (la nostra app) salva testi e immagini in una cronologia ricercabile, con elementi fissati, snippet e gruppi, un pannello flottante sopra le altre app, un widget per la schermata Home e una voce Clipboard+ nel menu di selezione del testo. Il salvataggio automatico facoltativo usa l'Accessibilità solo per rilevare il momento in cui copi, salta gli elementi contrassegnati come password e non invia nulla da nessuna parte; senza di esso, salva con la bolla, il widget, il menu di selezione o aprendo l'app.",
+     "Gli elementi restano sul telefono. Può sincronizzarsi con Clipboard+ for Windows tramite il tuo Google Drive (mai un server di CodeDAC) e fare il backup su un file. È gratuita con pubblicità; Pro rimuove la pubblicità e aggiunge la sincronizzazione con il PC e altro ancora."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Un'app Android può salvare automaticamente tutto ciò che copio?",
+    "a": "Non leggendo gli appunti in background: Android 10 e versioni successive lo bloccano. Le app salvano quando le porti in primo piano, oppure usano un servizio di Accessibilità che rileva il momento in cui copi. Clipboard+ offre la seconda strada come salvataggio automatico facoltativo."
+   },
+   {
+    "q": "Usare un gestore degli appunti è sicuro?",
+    "a": "Scegline uno che conservi gli elementi sul dispositivo o nel tuo spazio di archiviazione, salti quelli contrassegnati come password e spieghi per cosa usa l'eventuale permesso di Accessibilità. Elimina gli elementi sensibili che non ti servono più."
+   },
+   {
+    "q": "Mi serve un gestore degli appunti se la tastiera ha già gli appunti?",
+    "a": "Gli appunti della tastiera vanno bene per qualcosa copiato pochi minuti fa. Un gestore degli appunti conserva una cronologia finché non la elimini, con ricerca, elementi fissati e immagini."
+   }
+  ]
+ }
+}

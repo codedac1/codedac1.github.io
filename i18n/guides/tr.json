@@ -662,6 +662,127 @@
           "a": "Hayır. Yalnızca herkese açık piyasa verilerini okur; asla alım satım yapmaz ve fon tutmaz."
         }
       ]
+    },
+    "floating-stopwatch-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-30",
+      "title": "Windows'ta kronometre ekranda her zaman üstte nasıl tutulur",
+      "desc": "Çalışan kronometreyi oyununuzun, tarayıcınızın ya da belgenizin üstünde göz önünde tutun: Saat uygulamasının “Keep on top” özelliğiyle ya da tüm pencerelerin üstünde küçük kartlar olarak yüzen kronometrelerle.",
+      "intro": "Bir speedrun'ın, antrenmanın, bir işin ya da toplantının süresini tutmak, kronometre kullandığınız pencerenin arkasında kaybolmak yerine göz önünde kaldığında daha kolaydır. Windows'un yerleşik bir yolu var; yüzen zamanlayıcı uygulaması ise daha fazlasını ekler.",
+      "sections": [
+        {
+          "h": "1. yol: Saat uygulamasında Kronometre ve “Keep on top”",
+          "p": [
+            "Windows ile gelen Saat uygulamasında bir Kronometre sekmesi vardır. Kronometreyi başlatıp “Keep on top”ı seçin; diğer pencerelerin üstünde kalan küçük bir pencerede görünür.",
+            "Hızlıdır ve başka hiçbir şey gerektirmez. Tek bir kronometreyi sabit, küçük bir pencerede gösterir."
+          ]
+        },
+        {
+          "h": "2. yol: kart olarak yüzen kronometreler",
+          "p": [
+            "FloatTimer+ for Windows (bizim uygulamamız) kronometreleri, zamanlayıcıları ve sayaçları tüm pencerelerin üstünde küçük pastel kartlar olarak yüzdürür; her biri süreyi ayrı tutar. Kart odağı asla almaz; bu yüzden ona tıkladığınızda imleç yazdığınız ya da oynadığınız yerde kalır."
+          ],
+          "steps": [
+            "FloatTimer+'ı Microsoft Store'dan yükleyin; sistem tepsisinde durur.",
+            "Bir kronometre oluşturun ve yüzdürün.",
+            "Başlatma, duraklatma ve yeniden başlatmayı doğrudan kartın üzerindeki ▶/⏸/↻ düğmesiyle yapın; uygulamayı açmanıza gerek yok.",
+            "Kartı istediğiniz yere sürükleyin veya yeniden boyutlandırın; alanı geri istediğinizde onu küçük bir balona katlayın ya da ekranın kenarına itin."
+          ]
+        },
+        {
+          "h": "Oyun kronometreyi kapatıyorsa",
+          "p": [
+            "Özel tam ekran modunda çalışan bir oyunun üstünde hiçbir pencere kalamaz. Oyunun ayarlarından görüntü modunu kenarlıksız ya da pencereli olarak değiştirin; Saat uygulamasının penceresi de FloatTimer+ kartları da yeniden oyunun üstünde görünür."
+          ]
+        },
+        {
+          "h": "Ücretsiz ve Pro",
+          "p": [
+            "İstediğiniz kadar kronometre, zamanlayıcı ve sayaç oluşturabilirsiniz; reklam yoktur. Ücretsiz sürüm aynı anda iki kart yüzdürür; Pro, istediğiniz kadarını yüzdüren tek seferlik bir satın almadır."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Windows'ta her zaman üstte kalan bir kronometre var mı?",
+          "a": "Evet. Saat uygulamasındaki Kronometre'nin “Keep on top” özelliği, tek bir kronometreyi diğerlerinin üstünde küçük bir pencerede gösterir. Aynı anda birden fazla kronometre, zamanlayıcı veya sayaç için yüzen zamanlayıcı uygulaması kullanın."
+        },
+        {
+          "q": "Oyun başlatınca kronometrem neden kayboluyor?",
+          "a": "Oyun büyük olasılıkla diğer tüm pencereleri kapatan özel tam ekran modunda çalışıyordur. Oyunun görüntü ayarlarından kenarlıksız ya da pencereli moda geçin."
+        },
+        {
+          "q": "Aynı anda birden fazla kronometre çalıştırabilir miyim?",
+          "a": "FloatTimer+ ile istediğiniz kadar oluşturabilirsiniz; her biri süreyi ayrı tutar. Ücretsiz sürüm aynı anda iki yüzen kart gösterir; Pro daha fazlasını yüzdürür."
+        }
+      ]
+    },
+    "choose-clipboard-manager-android": {
+      "app": "clipboard",
+      "updated": "2026-10-30",
+      "title": "Android için ücretsiz pano yöneticisi seçerken nelere bakılmalı",
+      "desc": "Android yalnızca son kopyaladığınızı saklar. Bir pano yöneticisi seçmeden önce kopyalarınızı nasıl kaydettiğine, neleri sakladığına, onları nasıl geri aldığınıza ve verilerinizin nereye gittiğine bakın.",
+      "intro": "Pano yöneticisi kopyaladığınız şeyleri saklar, böylece onları daha sonra yeniden yapıştırabilirsiniz. Android'de bu uygulamalar göründüğünden daha fazla farklılık gösterir; bunun başlıca nedeni Android'in uygulamaların panoyu okumasını sınırlamasıdır. Seçmeden önce bakmanız gerekenler şunlar.",
+      "sections": [
+        {
+          "h": "1. Kopyaladıklarınızı nasıl kaydediyor",
+          "p": [
+            "Android 10'dan beri panoyu yalnızca ekrandaki uygulama (ve yazdığınız klavye) okuyabilir. Arka planda duran bir pano uygulaması, mağaza sayfası ne derse desin, başka uygulamalarda kopyaladıklarınızı göremez.",
+            "Bu yüzden uygulamanın gerçekte nasıl kaydettiğine bakın: siz açtığınızda mı, yüzen bir düğme ya da widget'tan mı, metin seçim menüsünden mi, yoksa kopyaladığınız anı fark eden, Erişilebilirlik tabanlı bir otomatik kaydetmeyle mi. Bu konuda dürüst olan bir uygulama sizi ileride sürprizlerden korur."
+          ]
+        },
+        {
+          "h": "2. Neleri saklıyor",
+          "p": [
+            "Bazı uygulamalar yalnızca metin saklar. Ekran görüntüleri, fotoğraflar ya da web'den görseller kopyalıyorsanız, görselleri de kaydeden ve açıp bakabileceğiniz bir önizleme sunan birini arayın."
+          ]
+        },
+        {
+          "h": "3. Kayıtları ne kadar hızlı geri alıyorsunuz",
+          "p": [
+            "Geçmiş büyüdükçe arama önem kazanır. Sabitleme ve gruplar (snippet'ler) adresleri, hesap numaralarını ve hazır yanıtları elinizin altında tutar. Yüzen bir panel ya da widget, bulunduğunuz uygulamadan çıkmadan bir kaydı kopyalamanızı sağlar."
+          ]
+        },
+        {
+          "h": "4. Gizlilik",
+          "p": [
+            "Panonuzda parolalar ve kodlar bulunabilir. Kayıtların nerede saklandığına (cihazda mı, birinin sunucusunda mı), uygulamanın parola olarak işaretlenmiş kayıtları atlayıp atlamadığına ve Erişilebilirlik kullanıyorsa bu iznin ne için kullanıldığını nasıl açıkladığına bakın."
+          ]
+        },
+        {
+          "h": "5. Senkronizasyon ve yedekleme",
+          "p": [
+            "Bilgisayarda da çalışıyorsanız, uygulamanın bir masaüstü sürümüyle senkronize olup olmadığına ve bunu nasıl yaptığına bakın: kendi bulut depolamanız üzerinden mi, geliştiricinin sunucuları üzerinden mi. Yeni bir telefona geri yükleyebileceğiniz bir yedek dosyası da işe yarar."
+          ]
+        },
+        {
+          "h": "Klavyenin panosu yeterli mi?",
+          "p": [
+            "Birçok klavyenin kendi panosu vardır. Örneğin Gboard son kopyalananları tuşların üstünde gösterir ama sabitlenmemiş öğeleri yaklaşık bir saat sonra siler. Birkaç dakika önce kopyaladığınız bir şey için en hızlı seçenek budur; kalıcı bir geçmiş için bir pano yöneticisi kullanın."
+          ]
+        },
+        {
+          "h": "Clipboard+ nereye oturuyor",
+          "p": [
+            "Clipboard+ (bizim uygulamamız) metin ve görselleri aranabilir bir geçmişte saklar; sabitleme, snippet'ler ve gruplar, diğer uygulamaların üstünde yüzen bir panel, ana ekran widget'ı ve metin seçim menüsünde bir Clipboard+ seçeneği sunar. İsteğe bağlı otomatik kaydetme özelliği Erişilebilirlik'i yalnızca kopyaladığınız anı fark etmek için kullanır, parola olarak işaretlenmiş kayıtları atlar ve hiçbir yere bir şey göndermez; açık değilse balonla, widget'la, seçim menüsüyle ya da uygulamayı açarak kaydedin.",
+            "Kayıtlar telefonunuzda kalır. Kendi Google Drive'ınız üzerinden Clipboard+ for Windows ile senkronize olabilir (asla bir CodeDAC sunucusu üzerinden değil) ve bir dosyaya yedek alabilir. Reklamlı olarak ücretsizdir; Pro reklamları kaldırır, PC senkronizasyonu ve daha fazlasını ekler."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bir Android uygulaması kopyaladığım her şeyi otomatik kaydedebilir mi?",
+          "a": "Panoyu arka planda okuyarak kaydedemez; Android 10 ve sonrası bunu engeller. Uygulamalar ya siz onları öne getirdiğinizde kaydeder ya da kopyaladığınız anı fark eden bir Erişilebilirlik hizmeti kullanır. Clipboard+ ikincisini isteğe bağlı otomatik kaydetme olarak sunar."
+        },
+        {
+          "q": "Pano yöneticisi kullanmak güvenli mi?",
+          "a": "Kayıtları cihazınızda ya da kendi depolama alanınızda tutan, parola olarak işaretlenmiş kayıtları atlayan ve kullandığı Erişilebilirlik izninin ne için olduğunu açıklayan birini seçin. Artık ihtiyacınız olmayan hassas kayıtları silin."
+        },
+        {
+          "q": "Klavyemin panosu varsa pano yöneticisine ihtiyacım var mı?",
+          "a": "Klavyenin panosu birkaç dakika önce kopyaladığınız bir şey için yeterlidir. Pano yöneticisi ise geçmişi siz silene kadar arama, sabitleme ve görsellerle birlikte saklar."
+        }
+      ]
     }
   }
 }

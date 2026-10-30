@@ -1,0 +1,123 @@
+{
+ "floating-stopwatch-windows": {
+  "app": "floattimerwin",
+  "updated": "2026-10-30",
+  "title": "Stopwatch altijd in beeld houden op een Windows-pc",
+  "desc": "Houd een lopende stopwatch in beeld boven je game, browser of document – met ‘Keep on top’ in de Klok-app, of met stopwatches die als kleine kaartjes boven elk venster zweven.",
+  "intro": "Een speedrun, een training, een taak of een vergadering timen gaat makkelijker als de stopwatch in beeld blijft, in plaats van weg te vallen achter het venster waarin je bezig bent. Windows heeft één ingebouwde manier, en een app met zwevende timers biedt meer.",
+  "sections": [
+   {
+    "h": "Optie 1: de Stopwatch van de Klok-app met ‘Keep on top’",
+    "p": [
+     "De Klok-app die bij Windows zit, heeft een tabblad Stopwatch. Start de stopwatch en kies ‘Keep on top’; hij verschijnt dan in een klein venster dat boven andere vensters blijft.",
+     "Het is snel en je hebt niets extra’s nodig. Je ziet één stopwatch in een klein venster met een vaste grootte."
+    ]
+   },
+   {
+    "h": "Optie 2: stopwatches die als kaartjes zweven",
+    "p": [
+     "FloatTimer+ for Windows (onze app) laat stopwatches, timers en tellers als kleine pastelkaartjes boven alle vensters zweven, elk met een eigen tijd. Kaartjes pakken nooit de focus, dus als je erop klikt, blijft je cursor waar je aan het typen of spelen was."
+    ],
+    "steps": [
+     "Installeer FloatTimer+ via de Microsoft Store; de app woont in het systeemvak.",
+     "Maak een stopwatch en laat hem zweven.",
+     "Start, pauzeer en herstart met de knop ▶/⏸/↻ op het kaartje zelf – je hoeft de app niet te openen.",
+     "Sleep het kaartje waar je wilt of pas de grootte aan, en klap het in tot een kleine bubbel of duw het tegen de schermrand als je de ruimte terug wilt."
+    ]
+   },
+   {
+    "h": "Als een game de stopwatch bedekt",
+    "p": [
+     "Geen enkel venster kan boven een game blijven die in exclusieve volledig-schermmodus draait. Zet de weergavemodus in de instellingen van de game op randloos of venster, en zwevende vensters – dat van de Klok-app of de kaartjes van FloatTimer+ – verschijnen er weer boven."
+    ]
+   },
+   {
+    "h": "Gratis en Pro",
+    "p": [
+     "Je kunt zoveel stopwatches, timers en tellers maken als je wilt, zonder advertenties. De gratis versie laat twee kaartjes tegelijk zweven; Pro is een eenmalige aankoop die er zoveel laat zweven als je wilt."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Heeft Windows een stopwatch die altijd bovenop blijft?",
+    "a": "Ja. De Stopwatch van de Klok-app heeft ‘Keep on top’, waarmee één stopwatch in een klein venster boven andere vensters blijft. Voor meerdere stopwatches, timers of tellers tegelijk gebruik je een app met zwevende timers."
+   },
+   {
+    "q": "Waarom verdwijnt mijn stopwatch als ik een game start?",
+    "a": "De game draait waarschijnlijk in exclusieve volledig-schermmodus, die alle andere vensters bedekt. Zet hem in de weergave-instellingen van de game op randloos of venster."
+   },
+   {
+    "q": "Kan ik meer dan één stopwatch tegelijk laten lopen?",
+    "a": "Met FloatTimer+ maak je er zoveel als je wilt, elk met een eigen tijd. De gratis versie toont twee zwevende kaartjes tegelijk; met Pro laat je er meer zweven."
+   }
+  ]
+ },
+ "choose-clipboard-manager-android": {
+  "app": "clipboard",
+  "updated": "2026-10-30",
+  "title": "Waar let je op bij een gratis klembordmanager voor Android?",
+  "desc": "Android onthoudt alleen het laatste wat je kopieert. Kijk voordat je een klembordmanager kiest hoe hij je kopieën opslaat, wat hij bewaart, hoe je ze terughaalt en waar je gegevens naartoe gaan.",
+  "intro": "Een klembordmanager bewaart wat je kopieert, zodat je het later opnieuw kunt plakken. Op Android verschillen ze meer dan je zou denken, vooral omdat Android beperkt hoe apps het klembord mogen lezen. Hierop let je voordat je er een kiest.",
+  "sections": [
+   {
+    "h": "1. Hoe hij opslaat wat je kopieert",
+    "p": [
+     "Sinds Android 10 kan alleen de app op het scherm (en het toetsenbord waarmee je typt) het klembord lezen. Een klembord-app op de achtergrond ziet niet wat je in andere apps kopieert, wat de pagina in de winkel ook suggereert.",
+     "Kijk dus hoe een app echt opslaat: als je hem opent, via een zwevende knop of widget, via het tekstselectiemenu, of met automatisch opslaan via Toegankelijkheid dat het moment opmerkt waarop je kopieert. Een app die hier eerlijk over is, bespaart je later verrassingen."
+    ]
+   },
+   {
+    "h": "2. Wat hij bewaart",
+    "p": [
+     "Sommige apps bewaren alleen tekst. Kopieer je screenshots, foto’s of afbeeldingen van het web, zoek dan een app die ook afbeeldingen opslaat, met een voorbeeld dat je kunt openen."
+    ]
+   },
+   {
+    "h": "3. Hoe snel je iets terugvindt",
+    "p": [
+     "Zoeken wordt belangrijk zodra de geschiedenis groeit. Vastzetten en groepen (snippets) houden adressen, rekeningnummers en standaardantwoorden binnen handbereik. Met een zwevend paneel of een widget kopieer je een item zonder de app te verlaten waarin je zit."
+    ]
+   },
+   {
+    "h": "4. Privacy",
+    "p": [
+     "Je klembord kan wachtwoorden en codes bevatten. Kijk waar items worden opgeslagen (op het apparaat of op de server van een ander), of de app items overslaat die als wachtwoord zijn gemarkeerd en, als hij Toegankelijkheid gebruikt, waarvoor hij die toestemming volgens eigen zeggen gebruikt."
+    ]
+   },
+   {
+    "h": "5. Synchronisatie en back-up",
+    "p": [
+     "Werk je ook op een pc, kijk dan of de app synchroniseert met een desktopversie en hoe – via je eigen cloudopslag of via de servers van de ontwikkelaar. Een back-upbestand dat je op een nieuwe telefoon kunt terugzetten, is ook de moeite waard."
+    ]
+   },
+   {
+    "h": "Is het klembord van je toetsenbord genoeg?",
+    "p": [
+     "Veel toetsenborden hebben een eigen klembord. Gboard toont bijvoorbeeld recente items boven de toetsen, maar verwijdert niet-vastgezette items na ongeveer een uur. Voor iets wat je een paar minuten geleden kopieerde is dat het snelst; voor een geschiedenis die blijft, gebruik je een klembordmanager."
+    ]
+   },
+   {
+    "h": "Waar Clipboard+ past",
+    "p": [
+     "Clipboard+ (onze app) bewaart tekst en afbeeldingen in een doorzoekbare geschiedenis, met vastzetten, snippets en groepen, een zwevend paneel boven andere apps, een widget voor je startscherm en een Clipboard+-optie in het tekstselectiemenu. Het optionele automatisch opslaan gebruikt Toegankelijkheid alleen om het moment op te merken waarop je kopieert, slaat items over die als wachtwoord zijn gemarkeerd en stuurt nergens iets naartoe; zonder deze functie sla je op met de bubbel, de widget, het selectiemenu of door de app te openen.",
+     "Je items blijven op je telefoon. De app kan synchroniseren met Clipboard+ for Windows via je eigen Google Drive – nooit via een server van CodeDAC – en een back-up naar een bestand maken. Hij is gratis met advertenties; Pro haalt de advertenties weg en voegt pc-synchronisatie en meer toe."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Kan een Android-app automatisch alles opslaan wat ik kopieer?",
+    "a": "Niet door het klembord op de achtergrond te lezen – Android 10 en hoger blokkeren dat. Apps slaan op wanneer je ze naar voren haalt, of ze gebruiken een toegankelijkheidsservice die het moment opmerkt waarop je kopieert. Clipboard+ biedt dat laatste als optioneel automatisch opslaan."
+   },
+   {
+    "q": "Is een klembordmanager veilig?",
+    "a": "Kies er een die items op je apparaat of in je eigen opslag bewaart, items overslaat die als wachtwoord zijn gemarkeerd en uitlegt waarvoor een eventuele toestemming voor Toegankelijkheid dient. Verwijder gevoelige items die je niet meer nodig hebt."
+   },
+   {
+    "q": "Heb ik een klembordmanager nodig als mijn toetsenbord een klembord heeft?",
+    "a": "Het klembord van je toetsenbord is prima voor iets wat je een paar minuten geleden kopieerde. Een klembordmanager bewaart een geschiedenis tot je die verwijdert, met zoeken, vastzetten en afbeeldingen."
+   }
+  ]
+ }
+}

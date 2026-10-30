@@ -662,6 +662,127 @@
           "a": "Não. Ele só lê dados de mercado públicos e nunca negocia nem guarda fundos."
         }
       ]
+    },
+    "floating-stopwatch-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-30",
+      "title": "Como deixar um cronômetro sempre visível no PC com Windows",
+      "desc": "Mantenha um cronômetro rodando à vista sobre o jogo, o navegador ou o documento — com o “Keep on top” do app Relógio ou com cronômetros que flutuam como pequenos cartões sobre todas as janelas.",
+      "intro": "Cronometrar um speedrun, um treino, uma tarefa ou uma reunião fica mais fácil quando o cronômetro continua à vista, em vez de se esconder atrás da janela que você está usando. O Windows tem um jeito integrado, e um app de timer flutuante acrescenta mais.",
+      "sections": [
+        {
+          "h": "Opção 1: o Cronômetro do app Relógio com “Keep on top”",
+          "p": [
+            "O app Relógio que vem com o Windows tem uma aba Cronômetro. Inicie o cronômetro e escolha “Keep on top”: ele aparece em uma janela pequena que fica acima das outras.",
+            "É rápido e não precisa de nada extra. Mostra um único cronômetro em uma janela pequena fixa."
+          ]
+        },
+        {
+          "h": "Opção 2: cronômetros que flutuam como cartões",
+          "p": [
+            "O FloatTimer+ for Windows (nosso app) faz cronômetros, timers e contadores flutuarem acima de todas as janelas como pequenos cartões pastel, cada um com sua própria contagem. Os cartões nunca pegam o foco, então clicar em um deixa o cursor onde você estava digitando ou jogando."
+          ],
+          "steps": [
+            "Instale o FloatTimer+ pela Microsoft Store; ele fica na bandeja do sistema.",
+            "Crie um cronômetro e deixe-o flutuando.",
+            "Inicie, pause e reinicie pelo botão ▶/⏸/↻ no próprio cartão — sem precisar abrir o app.",
+            "Arraste o cartão para onde quiser ou redimensione, e recolha-o em uma pequena bolha ou empurre-o contra a borda da tela quando quiser o espaço de volta."
+          ]
+        },
+        {
+          "h": "Se um jogo cobrir o cronômetro",
+          "p": [
+            "Nenhuma janela consegue ficar acima de um jogo em modo de tela cheia exclusiva. Nas configurações do jogo, mude o modo de exibição para janela sem bordas ou modo janela, e as janelas flutuantes — a do app Relógio ou os cartões do FloatTimer+ — voltam a aparecer por cima."
+          ]
+        },
+        {
+          "h": "Grátis e Pro",
+          "p": [
+            "Você pode criar quantos cronômetros, timers e contadores quiser, sem anúncios. A versão gratuita deixa dois cartões flutuando por vez; o Pro é uma compra única que deixa flutuar quantos você quiser."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "O Windows tem um cronômetro sempre visível?",
+          "a": "Sim. O Cronômetro do app Relógio tem o “Keep on top”, que mostra um cronômetro em uma janela pequena acima das outras. Para vários cronômetros, timers ou contadores ao mesmo tempo, use um app de timer flutuante."
+        },
+        {
+          "q": "Por que meu cronômetro some quando abro um jogo?",
+          "a": "Provavelmente o jogo está em modo de tela cheia exclusiva, que cobre todas as outras janelas. Mude para janela sem bordas ou modo janela nas configurações de vídeo do jogo."
+        },
+        {
+          "q": "Posso usar mais de um cronômetro ao mesmo tempo?",
+          "a": "Com o FloatTimer+ você pode criar quantos quiser, cada um com sua própria contagem. A versão gratuita mostra dois cartões flutuantes por vez; o Pro deixa flutuar mais."
+        }
+      ]
+    },
+    "choose-clipboard-manager-android": {
+      "app": "clipboard",
+      "updated": "2026-10-30",
+      "title": "O que procurar em um gerenciador de área de transferência grátis para Android",
+      "desc": "O Android guarda só a última coisa que você copia. Antes de escolher um gerenciador de área de transferência, veja como ele salva as cópias, o que guarda, como você as recupera e para onde vão seus dados.",
+      "intro": "Um gerenciador de área de transferência guarda o que você copia para você colar de novo depois. No Android, eles diferem mais do que parece, principalmente porque o Android limita como os apps podem ler a área de transferência. Veja o que conferir antes de escolher um.",
+      "sections": [
+        {
+          "h": "1. Como ele salva o que você copia",
+          "p": [
+            "Desde o Android 10, só o app na tela (e o teclado que você está usando) pode ler a área de transferência. Um app de área de transferência em segundo plano não vê o que você copia em outros apps, não importa o que a página dele na loja dê a entender.",
+            "Então confira como o app realmente salva: quando você o abre, por um botão flutuante ou widget, pelo menu de seleção de texto ou com um salvamento automático baseado em Acessibilidade que percebe o momento em que você copia. Um app honesto sobre isso evita surpresas depois."
+          ]
+        },
+        {
+          "h": "2. O que ele guarda",
+          "p": [
+            "Alguns apps guardam só texto. Se você copia capturas de tela, fotos ou imagens da web, procure um que salve imagens também, com uma prévia que dê para abrir."
+          ]
+        },
+        {
+          "h": "3. Com que rapidez você recupera as coisas",
+          "p": [
+            "A busca faz diferença quando o histórico cresce. Fixar itens e os grupos (snippets) deixam endereços, números de conta e respostas prontas à mão. Um painel flutuante ou um widget permite copiar um item sem sair do app em que você está."
+          ]
+        },
+        {
+          "h": "4. Privacidade",
+          "p": [
+            "A área de transferência pode conter senhas e códigos. Veja onde os itens ficam armazenados (no aparelho ou no servidor de alguém), se o app ignora itens marcados como senha e, se ele usa Acessibilidade, para que diz usar essa permissão."
+          ]
+        },
+        {
+          "h": "5. Sincronização e backup",
+          "p": [
+            "Se você também trabalha no PC, veja se o app sincroniza com uma versão para computador e como — pelo seu próprio armazenamento em nuvem ou pelos servidores do desenvolvedor. Um arquivo de backup que você possa restaurar em um celular novo também vale a pena."
+          ]
+        },
+        {
+          "h": "A área de transferência do teclado basta?",
+          "p": [
+            "Muitos teclados têm a própria área de transferência. O Gboard, por exemplo, mostra os itens recentes acima das teclas, mas apaga os não fixados depois de cerca de uma hora. Para algo que você copiou há poucos minutos, é a opção mais rápida; para um histórico que fica, use um gerenciador de área de transferência."
+          ]
+        },
+        {
+          "h": "Onde o Clipboard+ se encaixa",
+          "p": [
+            "O Clipboard+ (nosso app) salva textos e imagens em um histórico pesquisável, com itens fixados, snippets e grupos, um painel flutuante sobre outros apps, um widget para a tela inicial e uma opção Clipboard+ no menu de seleção de texto. O salvamento automático opcional usa a Acessibilidade só para perceber o momento em que você copia, ignora itens marcados como senha e não envia nada para lugar nenhum; sem ele, salve pela bolha, pelo widget, pelo menu de seleção ou abrindo o app.",
+            "Os itens ficam no seu celular. Ele pode sincronizar com o Clipboard+ for Windows pelo seu próprio Google Drive — nunca por um servidor da CodeDAC — e fazer backup em arquivo. É grátis com anúncios; o Pro remove os anúncios e adiciona sincronização com o PC e mais."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Um app Android consegue salvar automaticamente tudo o que eu copio?",
+          "a": "Não lendo a área de transferência em segundo plano — o Android 10 e versões posteriores bloqueiam isso. Os apps ou salvam quando você os traz para a frente, ou usam um serviço de Acessibilidade que percebe o momento em que você copia. O Clipboard+ oferece a segunda opção como salvamento automático opcional."
+        },
+        {
+          "q": "É seguro usar um gerenciador de área de transferência?",
+          "a": "Escolha um que mantenha os itens no seu aparelho ou no seu próprio armazenamento, ignore itens marcados como senha e explique para que usa qualquer permissão de Acessibilidade. Apague os itens sensíveis de que não precisa mais."
+        },
+        {
+          "q": "Preciso de um gerenciador se meu teclado já tem área de transferência?",
+          "a": "A área de transferência do teclado serve para algo que você copiou há poucos minutos. Um gerenciador de área de transferência mantém um histórico até você apagar, com busca, itens fixados e imagens."
+        }
+      ]
     }
   }
 }

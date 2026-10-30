@@ -836,3 +836,84 @@ Free follows 2 coins with 1 alert; Pro is a one-time purchase for 10 coins, unli
   A: No. It reads public market data only and never trades or holds funds.
 
 Page: https://codedac.com/guides/crypto-price-ticker-on-top-windows.html
+
+## How to keep a stopwatch on screen on a Windows PC
+
+Timing a speedrun, a workout, a task or a meeting is easier when the stopwatch stays in view instead of hiding behind the window you are using. Windows has one built-in way, and a floating-timer app adds more.
+
+### Option 1: the Clock app's Stopwatch with "Keep on top"
+
+The Clock app that comes with Windows has a Stopwatch tab. Start the stopwatch and choose Keep on top, and it shows in a small window that stays above other windows.
+
+It is quick and needs nothing extra. It shows one stopwatch in a fixed small window.
+
+### Option 2: stopwatches that float as cards
+
+FloatTimer+ for Windows (our app) floats stopwatches, timers and counters above every window as small pastel cards, each timed separately. A card never takes focus, so clicking it leaves your cursor where you were typing or playing.
+
+1. Install FloatTimer+ from the Microsoft Store; it lives in the system tray.
+2. Create a stopwatch and float it.
+3. Start, pause and restart with the ▶/⏸/↻ button on the card itself — no need to open the app.
+4. Drag the card anywhere or resize it, and collapse it into a small bubble or push it against the screen edge when you want the space back.
+
+### If a game covers the stopwatch
+
+No window can stay on top of a game running in exclusive full-screen mode. Switch the game's display mode to borderless or windowed in its settings, and floating windows — the Clock app's or FloatTimer+ cards — show above it again.
+
+### Free and Pro
+
+You can make as many stopwatches, timers and counters as you like, with no ads. The free version floats two cards at a time; Pro is a one-time purchase that floats as many as you want.
+
+- Q: Does Windows have a stopwatch that stays on top?
+  A: Yes. The Clock app's Stopwatch has Keep on top, which shows one stopwatch in a small window above others. For several stopwatches, timers or counters at once, use a floating-timer app.
+- Q: Why does my stopwatch disappear when I start a game?
+  A: The game is probably in exclusive full-screen mode, which covers every other window. Switch it to borderless or windowed mode in the game's display settings.
+- Q: Can I run more than one stopwatch at a time?
+  A: With FloatTimer+ you can make as many as you like, each timed separately. The free version shows two floating cards at once; Pro floats more.
+
+Page: https://codedac.com/guides/floating-stopwatch-windows.html
+
+## What to look for in a free clipboard manager for Android
+
+A clipboard manager keeps the things you copy so you can paste them again later. On Android they differ more than they look, mainly because Android limits how apps can read the clipboard. Here is what to check before you choose one.
+
+### 1. How it saves what you copy
+
+Since Android 10, only the app on screen (and the keyboard you are typing with) can read the clipboard. A clipboard app sitting in the background cannot see what you copy in other apps, whatever its store page suggests.
+
+So check how an app actually saves: when you open it, from a floating button or widget, from the text-selection menu, or with an Accessibility-based auto-save that notices the moment you copy. An app that is honest about this saves you surprises later.
+
+### 2. What it keeps
+
+Some apps keep only text. If you copy screenshots, photos or images from the web, look for one that saves images too, with a preview you can open.
+
+### 3. How quickly you get things back
+
+Search matters once the history grows. Pinning and groups (snippets) keep addresses, account numbers and canned replies at hand. A floating panel or a widget lets you copy a clip without leaving the app you are in.
+
+### 4. Privacy
+
+Your clipboard can hold passwords and codes. Check where clips are stored (on the device, or on someone's server), whether the app skips clips marked as passwords, and, if it uses Accessibility, what it says that permission is used for.
+
+### 5. Sync and backup
+
+If you also work on a PC, check whether the app syncs with a desktop version and how — through your own cloud storage or the developer's servers. A backup file you can restore on a new phone is worth having too.
+
+### Is the keyboard's clipboard enough?
+
+Many keyboards have a clipboard of their own. Gboard, for example, shows recent clips above the keys but removes unpinned items after about an hour. For something you copied a few minutes ago it is the quickest option; for a history that stays, use a clipboard manager.
+
+### Where Clipboard+ fits
+
+Clipboard+ (our app) saves text and images in a searchable history, with pinning, snippets and groups, a floating panel over other apps, a home-screen widget and a Clipboard+ entry in the text-selection menu. Its optional Auto-save uses Accessibility only to notice the moment you copy, skips clips marked as passwords and sends nothing anywhere; without it, save with the bubble, the widget, the selection menu or by opening the app.
+
+Clips stay on your phone. It can sync with Clipboard+ for Windows through your own Google Drive — never a CodeDAC server — and back up to a file. It is free with ads; Pro removes the ads and adds PC sync and more.
+
+- Q: Can an Android app save everything I copy automatically?
+  A: Not by reading the clipboard in the background — Android 10 and later block that. Apps either save when you bring them to the front, or use an Accessibility service that notices the moment you copy. Clipboard+ offers the second as an optional Auto-save.
+- Q: Is it safe to use a clipboard manager?
+  A: Choose one that keeps clips on your device or in your own storage, skips clips marked as passwords, and explains what any Accessibility permission is used for. Delete sensitive clips you no longer need.
+- Q: Do I need a clipboard manager if my keyboard has a clipboard?
+  A: The keyboard's clipboard is fine for something you copied minutes ago. A clipboard manager keeps a history until you delete it, with search, pinning and images.
+
+Page: https://codedac.com/guides/choose-clipboard-manager-android.html

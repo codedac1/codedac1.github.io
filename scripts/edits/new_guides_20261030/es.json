@@ -1,0 +1,123 @@
+{
+ "floating-stopwatch-windows": {
+  "app": "floattimerwin",
+  "updated": "2026-10-30",
+  "title": "Cómo tener un cronómetro siempre visible en un PC con Windows",
+  "desc": "Mantén un cronómetro en marcha a la vista sobre tu juego, navegador o documento: con «Keep on top» de la app Reloj o con cronómetros que flotan como pequeñas tarjetas sobre todas las ventanas.",
+  "intro": "Cronometrar una speedrun, un entrenamiento, una tarea o una reunión es más fácil si el cronómetro sigue a la vista en lugar de esconderse detrás de la ventana que estás usando. Windows ofrece una forma integrada, y una app de temporizador flotante añade más.",
+  "sections": [
+   {
+    "h": "Opción 1: el Cronómetro de la app Reloj con «Keep on top»",
+    "p": [
+     "La app Reloj que viene con Windows tiene una pestaña Cronómetro. Inicia el cronómetro y elige «Keep on top»: se mostrará en una ventana pequeña que se queda encima de las demás.",
+     "Es rápido y no necesita nada más. Muestra un solo cronómetro en una ventana pequeña fija."
+    ]
+   },
+   {
+    "h": "Opción 2: cronómetros que flotan como tarjetas",
+    "p": [
+     "FloatTimer+ for Windows (nuestra app) hace flotar cronómetros, temporizadores y contadores encima de todas las ventanas como pequeñas tarjetas pastel, cada uno con su propio tiempo. Las tarjetas nunca toman el foco, así que al hacer clic en una el cursor se queda donde estabas escribiendo o jugando."
+    ],
+    "steps": [
+     "Instala FloatTimer+ desde Microsoft Store; vive en la bandeja del sistema.",
+     "Crea un cronómetro y hazlo flotar.",
+     "Inicia, pausa y reinicia con el botón ▶/⏸/↻ de la propia tarjeta, sin necesidad de abrir la app.",
+     "Arrastra la tarjeta adonde quieras o cambia su tamaño, y pliégala en una pequeña burbuja o empújala contra el borde de la pantalla cuando quieras recuperar espacio."
+    ]
+   },
+   {
+    "h": "Si un juego tapa el cronómetro",
+    "p": [
+     "Ninguna ventana puede quedarse encima de un juego en modo de pantalla completa exclusiva. En los ajustes del juego, cambia el modo de visualización a ventana sin bordes o en ventana, y las ventanas flotantes (la de la app Reloj o las tarjetas de FloatTimer+) volverán a verse encima."
+    ]
+   },
+   {
+    "h": "Gratis y Pro",
+    "p": [
+     "Puedes crear todos los cronómetros, temporizadores y contadores que quieras, sin anuncios. La versión gratuita hace flotar dos tarjetas a la vez; Pro es una compra única que hace flotar todas las que quieras."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Windows tiene un cronómetro siempre visible?",
+    "a": "Sí. El Cronómetro de la app Reloj tiene «Keep on top», que muestra un cronómetro en una ventana pequeña encima de las demás. Para varios cronómetros, temporizadores o contadores a la vez, usa una app de temporizador flotante."
+   },
+   {
+    "q": "¿Por qué desaparece mi cronómetro al iniciar un juego?",
+    "a": "Probablemente el juego está en modo de pantalla completa exclusiva, que tapa todas las demás ventanas. Cámbialo a ventana sin bordes o en ventana en los ajustes de pantalla del juego."
+   },
+   {
+    "q": "¿Puedo usar más de un cronómetro a la vez?",
+    "a": "Con FloatTimer+ puedes crear todos los que quieras, cada uno con su propio tiempo. La versión gratuita muestra dos tarjetas flotantes a la vez; Pro hace flotar más."
+   }
+  ]
+ },
+ "choose-clipboard-manager-android": {
+  "app": "clipboard",
+  "updated": "2026-10-30",
+  "title": "Qué buscar en un gestor de portapapeles gratis para Android",
+  "desc": "Android solo guarda lo último que copias. Antes de elegir un gestor de portapapeles, comprueba cómo guarda lo copiado, qué conserva, cómo lo recuperas y adónde van tus datos.",
+  "intro": "Un gestor de portapapeles guarda lo que copias para que puedas volver a pegarlo más tarde. En Android se diferencian más de lo que parece, sobre todo porque Android limita cómo pueden leer el portapapeles las apps. Esto es lo que conviene revisar antes de elegir uno.",
+  "sections": [
+   {
+    "h": "1. Cómo guarda lo que copias",
+    "p": [
+     "Desde Android 10, solo la app que está en pantalla (y el teclado con el que escribes) puede leer el portapapeles. Una app de portapapeles en segundo plano no ve lo que copias en otras apps, diga lo que diga su ficha en la tienda.",
+     "Así que fíjate en cómo guarda realmente: al abrirla, desde un botón flotante o un widget, desde el menú de selección de texto o con un guardado automático basado en Accesibilidad que detecta el momento en que copias. Una app que es honesta en esto te ahorra sorpresas más adelante."
+    ]
+   },
+   {
+    "h": "2. Qué conserva",
+    "p": [
+     "Algunas apps solo guardan texto. Si copias capturas de pantalla, fotos o imágenes de la web, busca una que también guarde imágenes, con una vista previa que puedas abrir."
+    ]
+   },
+   {
+    "h": "3. Lo rápido que recuperas las cosas",
+    "p": [
+     "La búsqueda importa cuando el historial crece. Fijar elementos y los grupos (fragmentos) mantienen a mano direcciones, números de cuenta y respuestas predefinidas. Un panel flotante o un widget te permite copiar un elemento sin salir de la app en la que estás."
+    ]
+   },
+   {
+    "h": "4. Privacidad",
+    "p": [
+     "Tu portapapeles puede contener contraseñas y códigos. Comprueba dónde se guardan los elementos (en el dispositivo o en el servidor de otro), si la app omite los marcados como contraseñas y, si usa Accesibilidad, para qué dice que usa ese permiso."
+    ]
+   },
+   {
+    "h": "5. Sincronización y copia de seguridad",
+    "p": [
+     "Si también trabajas en un PC, comprueba si la app se sincroniza con una versión de escritorio y cómo: a través de tu propio almacenamiento en la nube o de los servidores del desarrollador. También vale la pena tener un archivo de copia de seguridad que puedas restaurar en un teléfono nuevo."
+    ]
+   },
+   {
+    "h": "¿Basta con el portapapeles del teclado?",
+    "p": [
+     "Muchos teclados tienen su propio portapapeles. Gboard, por ejemplo, muestra lo copiado recientemente sobre las teclas, pero borra los elementos no fijados al cabo de una hora aproximadamente. Para algo que copiaste hace unos minutos es la opción más rápida; para un historial que se mantenga, usa un gestor de portapapeles."
+    ]
+   },
+   {
+    "h": "Dónde encaja Clipboard+",
+    "p": [
+     "Clipboard+ (nuestra app) guarda textos e imágenes en un historial con búsqueda, con elementos fijados, fragmentos y grupos, un panel flotante sobre otras apps, un widget para la pantalla de inicio y una opción Clipboard+ en el menú de selección de texto. Su guardado automático opcional usa Accesibilidad solo para detectar el momento en que copias, omite los elementos marcados como contraseñas y no envía nada a ningún sitio; sin él, guarda con la burbuja, el widget, el menú de selección o abriendo la app.",
+     "Lo copiado se queda en tu teléfono. Puede sincronizarse con Clipboard+ for Windows a través de tu propio Google Drive (nunca un servidor de CodeDAC) y hacer copia de seguridad en un archivo. Es gratis con anuncios; Pro quita los anuncios y añade sincronización con el PC y más."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Puede una app de Android guardar automáticamente todo lo que copio?",
+    "a": "No leyendo el portapapeles en segundo plano: Android 10 y versiones posteriores lo bloquean. Las apps o bien guardan cuando las traes al frente, o bien usan un servicio de Accesibilidad que detecta el momento en que copias. Clipboard+ ofrece lo segundo como guardado automático opcional."
+   },
+   {
+    "q": "¿Es seguro usar un gestor de portapapeles?",
+    "a": "Elige uno que guarde lo copiado en tu dispositivo o en tu propio almacenamiento, que omita los elementos marcados como contraseñas y que explique para qué usa cualquier permiso de Accesibilidad. Borra los elementos sensibles que ya no necesites."
+   },
+   {
+    "q": "¿Necesito un gestor de portapapeles si mi teclado ya tiene portapapeles?",
+    "a": "El portapapeles del teclado sirve para algo que copiaste hace unos minutos. Un gestor de portapapeles conserva un historial hasta que lo borres, con búsqueda, elementos fijados e imágenes."
+   }
+  ]
+ }
+}

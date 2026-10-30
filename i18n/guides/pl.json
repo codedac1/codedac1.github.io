@@ -662,6 +662,127 @@
           "a": "Nie. Odczytuje tylko publiczne dane rynkowe i nigdy nie handluje ani nie przechowuje środków."
         }
       ]
+    },
+    "floating-stopwatch-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-30",
+      "title": "Jak mieć stoper zawsze na ekranie w Windows",
+      "desc": "Miej działający stoper na widoku nad grą, przeglądarką czy dokumentem — dzięki opcji „Keep on top” w aplikacji Zegar albo stoperom, które pływają nad wszystkimi oknami jako małe karteczki.",
+      "intro": "Mierzenie czasu speedrunu, treningu, zadania czy spotkania jest łatwiejsze, gdy stoper zostaje na widoku, zamiast chować się za oknem, w którym pracujesz. Windows ma jeden wbudowany sposób, a aplikacja z pływającym minutnikiem daje więcej.",
+      "sections": [
+        {
+          "h": "Sposób 1: Stoper w aplikacji Zegar z opcją „Keep on top”",
+          "p": [
+            "Aplikacja Zegar dostarczana z Windows ma kartę Stoper. Uruchom stoper i wybierz „Keep on top” — pojawi się w małym oknie, które zostaje nad innymi.",
+            "To szybkie i nie wymaga niczego dodatkowego. Pokazuje jeden stoper w małym oknie o stałym rozmiarze."
+          ]
+        },
+        {
+          "h": "Sposób 2: stopery pływające jako karteczki",
+          "p": [
+            "FloatTimer+ for Windows (nasza aplikacja) wyświetla stopery, minutniki i liczniki nad wszystkimi oknami jako małe pastelowe karteczki, a każdy z nich odmierza czas osobno. Karteczki nigdy nie zabierają fokusu, więc po kliknięciu jednej z nich kursor zostaje tam, gdzie pisałeś lub grałeś."
+          ],
+          "steps": [
+            "Zainstaluj FloatTimer+ ze sklepu Microsoft Store; działa w zasobniku systemowym.",
+            "Utwórz stoper i wyświetl go jako pływający.",
+            "Startuj, pauzuj i uruchamiaj od nowa przyciskiem ▶/⏸/↻ na samej karteczce — bez otwierania aplikacji.",
+            "Przeciągnij karteczkę w dowolne miejsce lub zmień jej rozmiar, a gdy chcesz odzyskać miejsce, zwiń ją do małego bąbelka albo dosuń do krawędzi ekranu."
+          ]
+        },
+        {
+          "h": "Gdy gra zasłania stoper",
+          "p": [
+            "Żadne okno nie utrzyma się nad grą działającą w trybie wyłącznego pełnego ekranu. Zmień w ustawieniach gry tryb wyświetlania na okno bez ramki lub tryb okienkowy, a pływające okna — okno aplikacji Zegar czy karteczki FloatTimer+ — znów będą widoczne nad nią."
+          ]
+        },
+        {
+          "h": "Wersja darmowa i Pro",
+          "p": [
+            "Możesz utworzyć dowolną liczbę stoperów, minutników i liczników, bez reklam. Wersja darmowa wyświetla dwie pływające karteczki naraz; Pro to jednorazowy zakup, który pozwala wyświetlać ich tyle, ile chcesz."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy Windows ma stoper zawsze na wierzchu?",
+          "a": "Tak. Stoper w aplikacji Zegar ma opcję „Keep on top”, która pokazuje jeden stoper w małym oknie nad innymi. Jeśli potrzebujesz kilku stoperów, minutników lub liczników naraz, użyj aplikacji z pływającym minutnikiem."
+        },
+        {
+          "q": "Dlaczego stoper znika, gdy uruchamiam grę?",
+          "a": "Gra najpewniej działa w trybie wyłącznego pełnego ekranu, który zasłania wszystkie inne okna. Przełącz ją na okno bez ramki lub tryb okienkowy w ustawieniach wyświetlania gry."
+        },
+        {
+          "q": "Czy mogę uruchomić kilka stoperów naraz?",
+          "a": "W FloatTimer+ możesz utworzyć ich tyle, ile chcesz, a każdy odmierza czas osobno. Wersja darmowa pokazuje dwie pływające karteczki naraz; Pro pozwala wyświetlić więcej."
+        }
+      ]
+    },
+    "choose-clipboard-manager-android": {
+      "app": "clipboard",
+      "updated": "2026-10-30",
+      "title": "Jaki darmowy menedżer schowka na Androida wybrać i na co zwrócić uwagę",
+      "desc": "Android pamięta tylko ostatnio skopiowaną rzecz. Zanim wybierzesz menedżer schowka, sprawdź, jak zapisuje kopie, co przechowuje, jak je odzyskujesz i dokąd trafiają Twoje dane.",
+      "intro": "Menedżer schowka przechowuje to, co kopiujesz, żebyś mógł później wkleić to ponownie. Na Androidzie takie aplikacje różnią się bardziej, niż się wydaje, głównie dlatego, że Android ogranicza aplikacjom odczyt schowka. Oto co sprawdzić, zanim któryś wybierzesz.",
+      "sections": [
+        {
+          "h": "1. Jak zapisuje to, co kopiujesz",
+          "p": [
+            "Od Androida 10 tylko aplikacja na ekranie (i klawiatura, której używasz) może czytać schowek. Aplikacja schowka działająca w tle nie widzi, co kopiujesz w innych aplikacjach — niezależnie od tego, co sugeruje jej strona w sklepie.",
+            "Sprawdź więc, jak aplikacja faktycznie zapisuje: gdy ją otworzysz, z pływającego przycisku lub widżetu, z menu zaznaczania tekstu albo przez automatyczny zapis oparty na Ułatwieniach dostępu, który wychwytuje moment kopiowania. Aplikacja, która mówi o tym uczciwie, oszczędzi Ci późniejszych niespodzianek."
+          ]
+        },
+        {
+          "h": "2. Co przechowuje",
+          "p": [
+            "Niektóre aplikacje zapisują tylko tekst. Jeśli kopiujesz zrzuty ekranu, zdjęcia lub obrazy z internetu, poszukaj takiej, która zapisuje też obrazy, z podglądem, który można otworzyć."
+          ]
+        },
+        {
+          "h": "3. Jak szybko odzyskujesz treści",
+          "p": [
+            "Wyszukiwanie zaczyna mieć znaczenie, gdy historia rośnie. Przypinanie i grupy (fragmenty) trzymają pod ręką adresy, numery kont i gotowe odpowiedzi. Pływający panel lub widżet pozwala skopiować wpis bez wychodzenia z aplikacji, w której jesteś."
+          ]
+        },
+        {
+          "h": "4. Prywatność",
+          "p": [
+            "W schowku mogą być hasła i kody. Sprawdź, gdzie przechowywane są wpisy (na urządzeniu czy na czyimś serwerze), czy aplikacja pomija wpisy oznaczone jako hasła i — jeśli korzysta z Ułatwień dostępu — do czego według niej służy to uprawnienie."
+          ]
+        },
+        {
+          "h": "5. Synchronizacja i kopia zapasowa",
+          "p": [
+            "Jeśli pracujesz też na komputerze, sprawdź, czy aplikacja synchronizuje się z wersją na komputer i w jaki sposób — przez Twoją własną chmurę czy przez serwery twórcy. Warto też mieć plik kopii zapasowej, który przywrócisz na nowym telefonie."
+          ]
+        },
+        {
+          "h": "Czy schowek klawiatury wystarczy?",
+          "p": [
+            "Wiele klawiatur ma własny schowek. Gboard na przykład pokazuje niedawno skopiowane treści nad klawiszami, ale usuwa nieprzypięte elementy po mniej więcej godzinie. Dla czegoś skopiowanego kilka minut temu to najszybsza opcja; jeśli chcesz historii, która zostaje, użyj menedżera schowka."
+          ]
+        },
+        {
+          "h": "Gdzie pasuje Clipboard+",
+          "p": [
+            "Clipboard+ (nasza aplikacja) zapisuje teksty i obrazy w przeszukiwalnej historii, z przypinaniem, fragmentami i grupami, pływającym panelem nad innymi aplikacjami, widżetem na ekran główny i pozycją Clipboard+ w menu zaznaczania tekstu. Opcjonalny automatyczny zapis używa Ułatwień dostępu wyłącznie do wychwycenia momentu kopiowania, pomija wpisy oznaczone jako hasła i nigdzie niczego nie wysyła; bez niego zapisuj dymkiem, widżetem, z menu zaznaczania albo otwierając aplikację.",
+            "Wpisy zostają na Twoim telefonie. Aplikacja może synchronizować się z Clipboard+ for Windows przez Twój własny Dysk Google — nigdy przez serwer CodeDAC — i tworzyć kopię zapasową w pliku. Jest darmowa z reklamami; Pro usuwa reklamy i dodaje synchronizację z komputerem oraz więcej."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy aplikacja na Androida może automatycznie zapisywać wszystko, co kopiuję?",
+          "a": "Nie przez czytanie schowka w tle — Android 10 i nowsze wersje to blokują. Aplikacje albo zapisują, gdy przywołasz je na wierzch, albo korzystają z usługi ułatwień dostępu, która wychwytuje moment kopiowania. Clipboard+ oferuje tę drugą możliwość jako opcjonalny automatyczny zapis."
+        },
+        {
+          "q": "Czy korzystanie z menedżera schowka jest bezpieczne?",
+          "a": "Wybierz taki, który trzyma wpisy na urządzeniu lub w Twojej własnej przestrzeni, pomija wpisy oznaczone jako hasła i wyjaśnia, do czego służy ewentualne uprawnienie Ułatwień dostępu. Usuwaj poufne wpisy, których już nie potrzebujesz."
+        },
+        {
+          "q": "Czy potrzebuję menedżera schowka, jeśli klawiatura ma schowek?",
+          "a": "Schowek klawiatury wystarczy do czegoś skopiowanego kilka minut temu. Menedżer schowka przechowuje historię, dopóki jej nie usuniesz, z wyszukiwaniem, przypinaniem i obrazami."
+        }
+      ]
     }
   }
 }

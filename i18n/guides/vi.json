@@ -662,6 +662,127 @@
           "a": "Không. Ứng dụng chỉ đọc dữ liệu thị trường công khai, không bao giờ giao dịch hay giữ tiền."
         }
       ]
+    },
+    "floating-stopwatch-windows": {
+      "app": "floattimerwin",
+      "updated": "2026-10-30",
+      "title": "Cách giữ đồng hồ bấm giờ luôn hiện trên màn hình PC Windows",
+      "desc": "Giữ đồng hồ bấm giờ đang chạy luôn hiện trên game, trình duyệt hay tài liệu — bằng “Keep on top” của ứng dụng Clock, hoặc bằng đồng hồ bấm giờ nổi dưới dạng thẻ nhỏ trên mọi cửa sổ.",
+      "intro": "Bấm giờ speedrun, buổi tập, một công việc hay cuộc họp sẽ dễ hơn khi đồng hồ bấm giờ luôn trong tầm mắt thay vì bị che sau cửa sổ bạn đang dùng. Windows có sẵn một cách, còn ứng dụng bộ hẹn giờ nổi cho bạn thêm nhiều lựa chọn.",
+      "sections": [
+        {
+          "h": "Cách 1: đồng hồ bấm giờ của ứng dụng Clock với “Keep on top”",
+          "p": [
+            "Ứng dụng Clock có sẵn trong Windows có một thẻ đồng hồ bấm giờ. Bắt đầu bấm giờ rồi chọn “Keep on top”, đồng hồ sẽ hiện trong một cửa sổ nhỏ luôn nằm trên các cửa sổ khác.",
+            "Cách này nhanh và không cần cài thêm gì. Nó chỉ hiện một đồng hồ bấm giờ trong một cửa sổ nhỏ cố định."
+          ]
+        },
+        {
+          "h": "Cách 2: đồng hồ bấm giờ nổi dưới dạng thẻ",
+          "p": [
+            "FloatTimer+ for Windows (ứng dụng của chúng tôi) cho đồng hồ bấm giờ, bộ hẹn giờ và bộ đếm nổi trên mọi cửa sổ dưới dạng những thẻ pastel nhỏ, mỗi thẻ chạy riêng. Thẻ không bao giờ lấy tiêu điểm, nên khi nhấp vào thẻ, con trỏ vẫn nằm ở chỗ bạn đang gõ hoặc đang chơi."
+          ],
+          "steps": [
+            "Cài FloatTimer+ từ Microsoft Store; ứng dụng nằm trên khay hệ thống.",
+            "Tạo một đồng hồ bấm giờ và cho nó nổi lên.",
+            "Bắt đầu, tạm dừng và chạy lại bằng nút ▶/⏸/↻ ngay trên thẻ — không cần mở ứng dụng.",
+            "Kéo thẻ đi bất cứ đâu hoặc đổi kích thước, và thu gọn thành bong bóng nhỏ hoặc đẩy vào mép màn hình khi bạn muốn lấy lại chỗ."
+          ]
+        },
+        {
+          "h": "Nếu game che mất đồng hồ bấm giờ",
+          "p": [
+            "Không cửa sổ nào nằm được trên một game đang chạy ở chế độ toàn màn hình độc quyền (exclusive full-screen). Hãy chuyển chế độ hiển thị của game sang không viền (borderless) hoặc cửa sổ (windowed) trong phần cài đặt của game, các cửa sổ nổi — của ứng dụng Clock hay thẻ FloatTimer+ — sẽ hiện lại bên trên."
+          ]
+        },
+        {
+          "h": "Miễn phí và Pro",
+          "p": [
+            "Bạn có thể tạo bao nhiêu đồng hồ bấm giờ, bộ hẹn giờ và bộ đếm tùy thích, không có quảng cáo. Bản miễn phí cho nổi hai thẻ mỗi lúc; Pro là mua một lần, cho nổi bao nhiêu thẻ tùy thích."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Windows có đồng hồ bấm giờ luôn ở trên cùng không?",
+          "a": "Có. Đồng hồ bấm giờ của ứng dụng Clock có “Keep on top”, hiện một đồng hồ bấm giờ trong cửa sổ nhỏ nằm trên các cửa sổ khác. Nếu cần nhiều đồng hồ bấm giờ, bộ hẹn giờ hoặc bộ đếm cùng lúc, hãy dùng ứng dụng bộ hẹn giờ nổi."
+        },
+        {
+          "q": "Vì sao đồng hồ bấm giờ biến mất khi tôi mở game?",
+          "a": "Có lẽ game đang ở chế độ toàn màn hình độc quyền, che mọi cửa sổ khác. Hãy chuyển sang chế độ không viền (borderless) hoặc cửa sổ (windowed) trong cài đặt hiển thị của game."
+        },
+        {
+          "q": "Có chạy nhiều đồng hồ bấm giờ cùng lúc được không?",
+          "a": "Với FloatTimer+, bạn tạo được bao nhiêu tùy thích, mỗi cái chạy riêng. Bản miễn phí hiện hai thẻ nổi cùng lúc; Pro cho nổi nhiều hơn."
+        }
+      ]
+    },
+    "choose-clipboard-manager-android": {
+      "app": "clipboard",
+      "updated": "2026-10-30",
+      "title": "Chọn ứng dụng quản lý bộ nhớ tạm (clipboard) miễn phí cho Android: cần xem gì",
+      "desc": "Android chỉ nhớ thứ cuối cùng bạn sao chép. Trước khi chọn ứng dụng quản lý bộ nhớ tạm, hãy xem nó lưu các mục sao chép thế nào, giữ những gì, lấy lại ra sao và dữ liệu của bạn đi đâu.",
+      "intro": "Ứng dụng quản lý bộ nhớ tạm giữ lại những thứ bạn sao chép để bạn dán lại sau. Trên Android, các ứng dụng này khác nhau nhiều hơn vẻ ngoài, chủ yếu vì Android giới hạn cách ứng dụng đọc bảng nhớ tạm. Đây là những điều nên kiểm tra trước khi chọn.",
+      "sections": [
+        {
+          "h": "1. Cách lưu những gì bạn sao chép",
+          "p": [
+            "Từ Android 10, chỉ ứng dụng đang hiện trên màn hình (và bàn phím bạn đang gõ) mới đọc được bảng nhớ tạm. Một ứng dụng bộ nhớ tạm chạy nền không thể thấy những gì bạn sao chép trong ứng dụng khác, dù trang cửa hàng của nó gợi ý thế nào.",
+            "Vì vậy hãy xem ứng dụng thực sự lưu bằng cách nào: khi bạn mở nó, từ nút nổi hoặc tiện ích, từ menu chọn văn bản, hay bằng tự động lưu dựa trên Hỗ trợ tiếp cận để nhận biết ngay lúc bạn sao chép. Một ứng dụng nói thật về điều này sẽ giúp bạn tránh bất ngờ về sau."
+          ]
+        },
+        {
+          "h": "2. Lưu được những gì",
+          "p": [
+            "Một số ứng dụng chỉ lưu văn bản. Nếu bạn sao chép ảnh chụp màn hình, ảnh hay hình từ web, hãy tìm ứng dụng lưu cả hình ảnh, có bản xem trước mở được."
+          ]
+        },
+        {
+          "h": "3. Lấy lại nhanh đến đâu",
+          "p": [
+            "Khi lịch sử dài ra, tìm kiếm trở nên quan trọng. Ghim và nhóm (snippet) giữ địa chỉ, số tài khoản và câu trả lời soạn sẵn luôn trong tầm tay. Bảng nổi hoặc tiện ích cho phép bạn sao chép một mục mà không rời ứng dụng đang dùng."
+          ]
+        },
+        {
+          "h": "4. Quyền riêng tư",
+          "p": [
+            "Bộ nhớ tạm có thể chứa mật khẩu và mã. Hãy xem các mục được lưu ở đâu (trên thiết bị hay trên máy chủ của ai đó), ứng dụng có bỏ qua các mục được đánh dấu là mật khẩu không, và nếu dùng Hỗ trợ tiếp cận thì nó nói quyền đó được dùng để làm gì."
+          ]
+        },
+        {
+          "h": "5. Đồng bộ và sao lưu",
+          "p": [
+            "Nếu bạn còn làm việc trên máy tính, hãy xem ứng dụng có đồng bộ với bản desktop không và bằng cách nào — qua bộ nhớ đám mây của chính bạn hay máy chủ của nhà phát triển. Một tệp sao lưu khôi phục được trên điện thoại mới cũng rất đáng có."
+          ]
+        },
+        {
+          "h": "Bộ nhớ tạm của bàn phím đã đủ chưa?",
+          "p": [
+            "Nhiều bàn phím có bộ nhớ tạm riêng. Ví dụ Gboard hiện các mục mới sao chép phía trên các phím nhưng xóa các mục chưa ghim sau khoảng một giờ. Với thứ bạn vừa sao chép vài phút trước, đó là cách nhanh nhất; còn muốn một lịch sử được giữ lại, hãy dùng ứng dụng quản lý bộ nhớ tạm."
+          ]
+        },
+        {
+          "h": "Clipboard+ phù hợp ở đâu",
+          "p": [
+            "Clipboard+ (ứng dụng của chúng tôi) lưu văn bản và hình ảnh trong một lịch sử tìm kiếm được, có ghim, snippet và nhóm, bảng nổi trên các ứng dụng khác, tiện ích màn hình chính và mục Clipboard+ trong menu chọn văn bản. Tính năng tự động lưu tùy chọn chỉ dùng Hỗ trợ tiếp cận để nhận biết lúc bạn sao chép, bỏ qua các mục được đánh dấu là mật khẩu và không gửi gì đi đâu cả; nếu không bật, hãy lưu bằng bong bóng, tiện ích, menu chọn văn bản hoặc bằng cách mở ứng dụng.",
+            "Các mục được giữ trên điện thoại của bạn. Ứng dụng có thể đồng bộ với Clipboard+ for Windows qua chính Google Drive của bạn — không bao giờ qua máy chủ CodeDAC — và sao lưu ra tệp. Ứng dụng miễn phí có quảng cáo; Pro bỏ quảng cáo, thêm đồng bộ với máy tính và nhiều tính năng khác."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Ứng dụng Android có tự động lưu mọi thứ tôi sao chép được không?",
+          "a": "Không thể bằng cách đọc bảng nhớ tạm ở chế độ nền — Android 10 trở lên chặn việc này. Ứng dụng hoặc lưu khi bạn đưa nó lên trước, hoặc dùng dịch vụ Hỗ trợ tiếp cận để nhận biết ngay lúc bạn sao chép. Clipboard+ cung cấp cách thứ hai dưới dạng tự động lưu tùy chọn."
+        },
+        {
+          "q": "Dùng ứng dụng quản lý bộ nhớ tạm có an toàn không?",
+          "a": "Hãy chọn ứng dụng giữ các mục trên thiết bị hoặc trong bộ nhớ của chính bạn, bỏ qua các mục được đánh dấu là mật khẩu và giải thích rõ quyền Hỗ trợ tiếp cận (nếu có) dùng để làm gì. Xóa các mục nhạy cảm khi không còn cần."
+        },
+        {
+          "q": "Bàn phím đã có bộ nhớ tạm thì có cần ứng dụng quản lý bộ nhớ tạm không?",
+          "a": "Bộ nhớ tạm của bàn phím đủ dùng cho thứ bạn vừa sao chép vài phút trước. Ứng dụng quản lý bộ nhớ tạm giữ lịch sử cho đến khi bạn xóa, có tìm kiếm, ghim và hình ảnh."
+        }
+      ]
     }
   }
 }
