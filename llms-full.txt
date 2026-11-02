@@ -266,7 +266,7 @@ FAQ:
 - Q: Where is my clipboard data stored, and is it safe?
   A: Your clip history is kept on your PC by default (in the %APPDATA%\ClipboardPlus folder). If you turn on sync, it is also stored in a private app area of your own Google Drive — an area that stays hidden from your Drive view and cannot be opened by anything other than Clipboard+. The app uses only that private area, so it cannot reach any of your other photos or documents on Drive.
 - Q: Is Clipboard+ for Windows free?
-  A: Yes. Every feature of the Windows version is free — clipboard history with search, snippets and groups, the quick-pick popup, Google Drive sync, copying image clips, PDF export and backup import and export. No in-app purchases, no ads, no account. (On the phone side, sync is a Pro feature of the Android app.)
+  A: Yes, with no ads and no account. Clipboard history with search, snippets, pinning, the quick-pick popup, Google Drive sync, copying and saving image clips, share by email and backup export are free. An optional one-time Pro purchase, not a subscription, adds backup restore, unlimited groups (the free version has 3), PDF export and more image storage. If you used Clipboard+ for Windows before Pro returned, those features stay free for you. (On the phone side, sync is a Pro feature of the Android app.)
 
 Page: https://codedac.com/apps/clipboardwin.html
 Store: https://apps.microsoft.com/detail/9N9SRKQV1R6D
@@ -308,7 +308,7 @@ Features:
 - Note reminders — once, every day, weekdays or chosen days
 - Rich text — bold, italic, underline, strikethrough, text color and size — with 7 pastel note colors and inline images
 - Bidirectional phone-to-PC sync through your own Google Drive — the same app-private folder the Android app uses, and never a CodeDAC server
-- Global hotkeys, system tray, light and dark themes, run at logon, 21 languages. No ads, and every feature is free
+- Global hotkeys, system tray, light and dark themes, run at logon, 21 languages. No ads; an optional one-time Pro adds more floating notes, opacity, images and export
 
 FAQ:
 - Q: Is this the same app as FloatNote+ on Android?
@@ -316,7 +316,7 @@ FAQ:
 - Q: Does it get in the way of the app underneath?
   A: No. A chip is a floating window that never takes focus, so clicking or dragging one leaves your cursor exactly where you were typing. Click a chip to expand the card, click the arrow at the top, press Esc or click elsewhere and it folds back, already saved.
 - Q: Is it free to use?
-  A: Yes. Every feature of the Windows version is free — as many floating notes as you like, inline images, note transparency, Google Drive sync, and export and import. No in-app purchases, no ads, no account. (On the phone side, sync is a Pro feature of the Android app.)
+  A: Yes, with no ads and no account. Writing notes, colors, reminders and Google Drive sync are free. An optional one-time Pro purchase, not a subscription, lets you float more than one note at a time and adds note transparency, inline images, and export and import. If you used FloatNote+ for Windows before Pro returned, those features stay free for you. (On the phone side, sync is a Pro feature of the Android app.)
 - Q: Can a note pop up at a set time?
   A: Yes. Pick a time and the note comes up on screen with a notification: once, every day, on weekdays, or only on the days you choose.
 
@@ -577,7 +577,7 @@ FloatNote+ for Windows (our app) keeps each note as a small chip above every win
 
 ### Your notes on your phone too
 
-FloatNote+ for Windows syncs with the FloatNote+ Android app through your own Google Drive, so a note you write on your PC is on your phone. Every feature of the Windows version is free.
+FloatNote+ for Windows syncs with the FloatNote+ Android app through your own Google Drive, so a note you write on your PC is on your phone. Notes, reminders and sync are free; an optional one-time Pro adds more floating notes, opacity, images and export.
 
 - Q: Can Windows Sticky Notes stay on top of other windows?
   A: Not by themselves in most setups. You can pin any window, including a notes window, with PowerToys Always On Top (Win+Ctrl+T), or use an app whose notes float above other windows by design.
@@ -607,7 +607,7 @@ Clipboard+ for Windows (our app) sits in the tray and saves the text and images 
 
 ### Between your phone and PC
 
-Paired with the Clipboard+ Android app, what you copy on your phone pastes on your PC and the other way around, through your own Google Drive. Clipboard history, snippets, groups, search and the quick-pick popup are free; Pro adds sync, unlimited image storage and PDF export.
+Paired with the Clipboard+ Android app, what you copy on your phone pastes on your PC and the other way around, through your own Google Drive. Clipboard history, snippets, search, the quick-pick popup and sync are free; an optional one-time Pro adds backup restore, unlimited groups, PDF export and more image storage.
 
 - Q: Why is my Win+V clipboard history empty after a restart?
   A: Windows clears clipboard history when the PC restarts, except for pinned items. A clipboard manager such as Clipboard+ keeps your history across restarts.
