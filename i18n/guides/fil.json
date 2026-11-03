@@ -783,6 +783,71 @@
           "a": "Ayos na ang clipboard ng keyboard para sa kinopya mo ilang minuto lang ang nakaraan. Iniingatan ng clipboard manager ang history hanggang burahin mo, na may paghahanap, pag-pin at mga larawan."
         }
       ]
+    },
+    "force-screen-rotation-per-app-android": {
+      "app": "rotate",
+      "updated": "2026-11-03",
+      "title": "Paano i-force ang screen rotation kada app sa Android (walang root)",
+      "desc": "Iisang switch lang para sa buong telepono ang auto-rotate ng Android, at may mga app na ayaw umikot. Narito kung paano panatilihing landscape ang mga video at portrait ang chat, sa bawat app, nang walang root.",
+      "intro": "Iisa lang ang rotation setting ng Android para sa buong telepono. May mga app na nananatiling portrait kahit naka-on ang auto-rotate, at may iba namang umiikot kapag humiga ka lang. Kung gusto mong naka-landscape ang mga video at games pero naka-portrait ang chat at pagbabasa, kailangan mo ng rule para sa bawat app.",
+      "sections": [
+        {
+          "h": "Ang kayang gawin ng Android nang mag-isa",
+          "p": [
+            "Iniikot ng “Auto-rotate” sa Quick Settings ang screen kasabay ng telepono, para sa lahat ng app nang sabay-sabay. Kapag naka-off ito, hindi gumagalaw ang screen; sa maraming telepono, may lalabas na maliit na rotate button sa navigation bar kapag iniikot mo ang telepono, para maikot mo ito nang isang beses lang.",
+            "Ang hindi kaya ng Android ay tandaan ang ibang orientation para sa bawat app, at ang app na ginawa para sa portrait lang ay mananatiling portrait anuman ang nakatakda sa setting."
+          ]
+        },
+        {
+          "h": "Mga tablet at malalaking screen sa Android 16",
+          "p": [
+            "Sa Android 16, hindi pinapansin ng malalaking screen gaya ng mga tablet ang karaniwang rotation request ng mga app — ang parehong request na karaniwang ginagamit ng isang rotation app para i-force ang orientation. Nade-detect ito ng Rotate+ at awtomatikong lumilipat sa rotation setting ng system, kaya gumagana pa rin ito roon."
+          ]
+        },
+        {
+          "h": "I-set up gamit ang Rotate+",
+          "p": [
+            "Ini-force ng Rotate+ (aming app) ang orientation ng screen sa buong telepono o sa bawat app, sa isang tap lang at walang root."
+          ],
+          "steps": [
+            "I-install ang Rotate+ mula sa Google Play, buksan ito at payagan ang “Ipakita sa ibabaw ng ibang app” kapag hiningi.",
+            "Mag-tap ng mode — Auto, Portrait, Landscape, Baligtad na portrait, Baligtad na landscape o I-lock ang kasalukuyan. Agad itong nalalapat sa buong telepono.",
+            "Para sa rules kada app, payagan ang Accessibility (o Usage access) kapag hiningi, pagkatapos ay pumili ng app at ng orientation nito — halimbawa, landscape para sa video app at portrait para sa chat.",
+            "Buksan ang app na iyon: gumagana ang rule pagbukas nito at natatanggal pag-alis mo."
+          ]
+        },
+        {
+          "h": "Kapag ibinalik ng app ang ikot ng screen",
+          "p": [
+            "May mga app na muling nagtatakda ng sarili nilang orientation. Ibinabalik ng “Panatilihin ang orientation” ang pinili mo, at titigil ito kapag patuloy na lumalaban ang app, kaya walang paulit-ulit na pag-ikot.",
+            "Para sa minsanan, iniikot ng “Ikot nang isang beses” ang kasalukuyang app lang sa kabilang orientation at kusang natatanggal kapag lumipat ka ng app o pinatay ang screen. Isang tap lang ito palagi sa dalawang Quick Settings tile, mga widget sa home screen at app shortcut."
+          ]
+        },
+        {
+          "h": "Ano ang libre at ano ang idinaragdag ng Pro",
+          "p": [
+            "Libre ang lahat ng rotation mode, Panatilihin ang orientation, Ikot nang isang beses, mga tile, widget at shortcut, kasama ang 3 rules kada app at maliit na banner ad. Idinaragdag ng Pro ang walang limit na rules kada app, mga kondisyon na awtomatikong nagbabago ng orientation (habang nagcha-charge, may headphones, Bluetooth device, car o desk dock, habang may tawag o sa mga itinakdang oras), floating rotate button, at tinatanggal ang ads."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Puwede ko bang i-force ang landscape sa app na portrait lang ang suportado?",
+          "a": "Kadalasan, oo — iyan mismo ang silbi ng Rotate+. Pinapanatili nito ang piniling orientation gamit ang invisible na window na 1 pixel, nang walang root. Kapag ibinalik ng app ang ikot ng screen, ibabalik ng “Panatilihin ang orientation” ang pinili mo; kapag patuloy itong lumalaban, titigil ang Rotate+ para hindi paulit-ulit umikot ang screen."
+        },
+        {
+          "q": "Kailangan ba ng root?",
+          "a": "Hindi. Gumagana ang Rotate+ nang walang root. Sa malalaking screen sa Android 16, na hindi pinapansin ang karaniwang rotation request ng mga app, awtomatiko itong lumilipat sa rotation setting ng system."
+        },
+        {
+          "q": "Bakit humihingi ang Rotate+ ng Accessibility?",
+          "a": "Para lang malaman kung aling app ang nasa screen (para sa rules kada app) at para mapanatili ang piniling orientation gamit ang invisible na window na 1 pixel. Hindi kailanman binabasa ng Rotate+ ang laman ng screen, text o password. Puwede mong gamitin ang Usage access sa halip, at walang ipinapadala kahit saan."
+        },
+        {
+          "q": "Gumagana ba ito sa lahat ng screen?",
+          "a": "Hindi lahat. May ilang system screen, gaya ng ilang settings page sa mga teleponong Samsung, na maaaring hindi sumunod sa piniling orientation. Babalik ito sa sandaling umalis ka sa mga iyon."
+        }
+      ]
     }
   }
 }

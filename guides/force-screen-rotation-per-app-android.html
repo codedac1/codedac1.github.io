@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>(function(){try{var s=localStorage.getItem('lang'),sup={"ko":"ko","ja":"ja","es":"es","pt":"pt","de":"de","fr":"fr","id":"id","hi":"hi","vi":"vi","zh":"zh","ru":"ru","tr":"tr","it":"it","pl":"pl","th":"th","fil":"fil","ar":"ar","nl":"nl","uk":"uk","ms":"ms","tl":"fil"},g=function(k){return typeof sup[k]==='string'?sup[k]:0;},p=g(s);if(p)location.replace('/'+p+'/'+"guides/force-screen-rotation-per-app-android.html");}catch(e){}})();</script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>How to force screen rotation per app on Android (no root) | CodeDAC</title>
+  <meta name="description" content="Android's auto-rotate is one switch for the whole phone, and some apps refuse to turn. Here is how to keep videos in landscape and chat in portrait, app by app, without root." />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/force-screen-rotation-per-app-android.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="How to force screen rotation per app on Android (no root) | CodeDAC" />
+  <meta property="og:description" content="Android's auto-rotate is one switch for the whole phone, and some apps refuse to turn. Here is how to keep videos in landscape and chat in portrait, app by app, without root." />
+  <meta property="og:url" content="https://codedac.com/guides/force-screen-rotation-per-app-android.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/rotate.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="How to force screen rotation per app on Android (no root) | CodeDAC" />
+  <meta name="twitter:description" content="Android's auto-rotate is one switch for the whole phone, and some apps refuse to turn. Here is how to keep videos in landscape and chat in portrait, app by app, without root." />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/rotate.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=98" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to force screen rotation per app on Android (no root)",
+  "description": "Android's auto-rotate is one switch for the whole phone, and some apps refuse to turn. Here is how to keep videos in landscape and chat in portrait, app by app, without root.",
+  "inLanguage": "en",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "mainEntityOfPage": "https://codedac.com/guides/force-screen-rotation-per-app-android.html",
+  "image": "https://codedac.com/images/icons/rotate.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "Rotate+",
+    "url": "https://codedac.com/apps/rotate.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Rotate+",
+      "item": "https://codedac.com/apps/rotate.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "How to force screen rotation per app on Android (no root)",
+      "item": "https://codedac.com/guides/force-screen-rotation-per-app-android.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I force landscape in an app that only supports portrait?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually, yes — that is what Rotate+ is for. It holds your chosen orientation with an invisible 1-pixel window, without root. If the app turns the screen back, Keep orientation puts your choice back; if it keeps fighting, Rotate+ stops trying so the screen does not loop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need root?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Rotate+ works without root. On Android 16 large screens, which ignore the usual app rotation request, it switches to the system rotation setting automatically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does Rotate+ ask for Accessibility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only to know which app is on screen, for per-app rules, and to hold your chosen orientation with an invisible 1-pixel window. Rotate+ never reads screen content, text or passwords. You can use Usage access instead, and nothing is sent anywhere."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it work on every screen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not quite. A few system screens, such as some settings pages on Samsung phones, may not follow the orientation you chose. It comes back as soon as you leave them."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/#apps">Apps</a>
+        <a href="/#reviews">Reviews</a>
+        <a href="/guides/">Guides</a>
+        <a href="/#about">About</a>
+        <a href="/#contact">Build with us</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="English"><span class="lang-name">English</span><span class="lang-code" aria-hidden="true">EN</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/force-screen-rotation-per-app-android.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item is-active" data-lang="en" href="/guides/force-screen-rotation-per-app-android.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/guides/force-screen-rotation-per-app-android.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/force-screen-rotation-per-app-android.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/guides/force-screen-rotation-per-app-android.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/guides/force-screen-rotation-per-app-android.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item" data-lang="fr" href="/fr/guides/force-screen-rotation-per-app-android.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/force-screen-rotation-per-app-android.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item" data-lang="hi" href="/hi/guides/force-screen-rotation-per-app-android.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/force-screen-rotation-per-app-android.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item" data-lang="zh" href="/zh/guides/force-screen-rotation-per-app-android.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/guides/force-screen-rotation-per-app-android.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/force-screen-rotation-per-app-android.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/force-screen-rotation-per-app-android.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/guides/force-screen-rotation-per-app-android.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/force-screen-rotation-per-app-android.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/force-screen-rotation-per-app-android.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/force-screen-rotation-per-app-android.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/force-screen-rotation-per-app-android.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item" data-lang="uk" href="/uk/guides/force-screen-rotation-per-app-android.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/force-screen-rotation-per-app-android.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-android guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/">Home</a>
+        <span class="sep">/</span>
+        <a href="/apps/rotate.html"><bdi>Rotate+</bdi></a>
+        <span class="sep">/</span>
+        <a href="/guides/">Guides</a>
+      </nav>
+      <h1>How to force screen rotation per app on Android (no root)</h1>
+      <p class="guide-meta">Updated <time datetime="2026-11-03">2026-11-03</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">Android has one rotation setting for the whole phone. Some apps stay in portrait even with auto-rotate on, and others turn when you just lie down. If you want videos and games in landscape but chat and reading in portrait, you need a rule for each app.</p>
+
+        <h2>What Android can do on its own</h2>
+        <p>Auto-rotate in Quick Settings turns the screen with the phone, for every app at once. With it off, the screen stays put; on many phones a small rotate button then appears in the navigation bar when you turn the phone, so you can rotate just that once.</p>
+        <p>What Android cannot do is remember a different orientation for each app, and an app made for portrait only stays in portrait whatever the setting says.</p>
+
+        <h2>Android 16 tablets and large screens</h2>
+        <p>On Android 16, large screens such as tablets ignore the usual app rotation request — the same request a rotation app normally uses to force an orientation. Rotate+ detects this and switches to the system rotation setting automatically, so it keeps working there.</p>
+
+        <h2>Set it up with Rotate+</h2>
+        <p>Rotate+ (our app) forces the screen orientation for the whole phone or for each app, with one tap and no root.</p>
+        <ol class="guide-steps">
+          <li>Install Rotate+ from Google Play, open it and allow "Display over other apps" when asked.</li>
+          <li>Tap a mode — Auto, Portrait, Landscape, Upside down, Reverse landscape or Lock current. It applies right away to the whole phone.</li>
+          <li>For per-app rules, allow Accessibility (or Usage access) when asked, then pick an app and its orientation — for example, landscape for a video app and portrait for chat.</li>
+          <li>Open that app: the rule is applied when it opens and released when you leave.</li>
+        </ol>
+
+        <h2>When an app turns the screen back</h2>
+        <p>Some apps set their own orientation again. Keep orientation puts your choice back, and stops trying if an app keeps fighting, so nothing loops.</p>
+        <p>For a one-off, Rotate once turns just the current app to the other orientation and releases by itself when you switch apps or turn the screen off. Two Quick Settings tiles, home screen widgets and app shortcuts keep it one tap away.</p>
+
+        <h2>What is free, and what Pro adds</h2>
+        <p>All rotation modes, Keep orientation, Rotate once, tiles, widgets and shortcuts are free, along with 3 per-app rules and a small banner ad. Pro adds unlimited per-app rules, conditions that change the orientation automatically (while charging, with headphones, a Bluetooth device, a car or desk dock, during a call or at set times), a floating rotate button and no ads.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">The app in this guide</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/rotate.png?v=98" alt="Rotate+ icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>Rotate+</bdi></p>
+          <p class="rc-desc">Force screen rotation for the whole phone or per app — portrait, landscape or auto. No root.</p>
+          <div class="guide-app-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.rotate&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dguide%26utm_campaign%3Den" class="btn btn-primary" target="_blank" rel="noopener">View on Google Play →</a>
+            <a href="/apps/rotate.html" class="btn btn-ghost">App details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">Can I force landscape in an app that only supports portrait?</p><p class="faq-a">Usually, yes — that is what Rotate+ is for. It holds your chosen orientation with an invisible 1-pixel window, without root. If the app turns the screen back, Keep orientation puts your choice back; if it keeps fighting, Rotate+ stops trying so the screen does not loop.</p></div>
+        <div class="faq-item"><p class="faq-q">Do I need root?</p><p class="faq-a">No. Rotate+ works without root. On Android 16 large screens, which ignore the usual app rotation request, it switches to the system rotation setting automatically.</p></div>
+        <div class="faq-item"><p class="faq-q">Why does Rotate+ ask for Accessibility?</p><p class="faq-a">Only to know which app is on screen, for per-app rules, and to hold your chosen orientation with an invisible 1-pixel window. Rotate+ never reads screen content, text or passwords. You can use Usage access instead, and nothing is sent anywhere.</p></div>
+        <div class="faq-item"><p class="faq-q">Does it work on every screen?</p><p class="faq-a">Not quite. A few system screens, such as some settings pages on Samsung phones, may not follow the orientation you chose. It comes back as soon as you leave them.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">More guides</h2>
+      <ul class="guide-links">
+        <li><a href="/guides/android-clipboard-history.html">How to see your clipboard history on Android</a></li>
+        <li><a href="/guides/open-app-automatically-after-reboot-android.html">How to open an app automatically after a reboot on Android (no root)</a></li>
+        <li><a href="/guides/floating-notes-over-other-apps-android.html">How to keep a note on top of other apps on Android</a></li>
+        <li><a href="/guides/floating-timer-over-other-apps-android.html">How to keep a timer on screen while using other apps on Android</a></li>
+        <li><a href="/guides/hide-personal-info-in-screenshots.html">How to hide personal info in a screenshot before you share it</a></li>
+        <li><a href="/guides/sticky-notes-always-on-top-windows.html">How to keep a sticky note always on top on Windows</a></li>
+        <li><a href="/guides/clipboard-history-windows.html">How to see your clipboard history on Windows</a></li>
+        <li><a href="/guides/timer-always-on-top-windows.html">How to keep a timer on top of other windows on Windows</a></li>
+        <li><a href="/guides/reading-ruler-dyslexia-adhd-android.html">Reading ruler for dyslexia and ADHD on Android: keep your place while reading</a></li>
+        <li><a href="/guides/reading-ruler-windows.html">How to use a reading ruler on Windows (for dyslexia and ADHD)</a></li>
+        <li><a href="/guides/floating-calculator-over-other-apps-android.html">How to use a calculator on top of other apps on Android</a></li>
+        <li><a href="/guides/crypto-price-ticker-over-other-apps-android.html">How to see crypto prices while using other apps on Android</a></li>
+        <li><a href="/guides/make-android-phone-louder.html">How to make your Android phone louder</a></li>
+        <li><a href="/guides/hide-personal-info-in-screenshots-windows.html">How to hide personal info in screenshots and PDFs on Windows</a></li>
+        <li><a href="/guides/crypto-price-ticker-on-top-windows.html">How to keep a live crypto ticker on top of other windows on Windows</a></li>
+        <li><a href="/guides/floating-stopwatch-windows.html">How to keep a stopwatch on screen on a Windows PC</a></li>
+        <li><a href="/guides/choose-clipboard-manager-android.html">What to look for in a free clipboard manager for Android</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">South Korea</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/guides/">Guides</a>
+        <a class="footer-email" href="/privacy.html">Privacy Policy</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"en","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/force-screen-rotation-per-app-android.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/force-screen-rotation-per-app-android.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=98"></script>
+</body>
+</html>

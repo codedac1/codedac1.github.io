@@ -783,6 +783,71 @@
           "a": "Bộ nhớ tạm của bàn phím đủ dùng cho thứ bạn vừa sao chép vài phút trước. Ứng dụng quản lý bộ nhớ tạm giữ lịch sử cho đến khi bạn xóa, có tìm kiếm, ghim và hình ảnh."
         }
       ]
+    },
+    "force-screen-rotation-per-app-android": {
+      "app": "rotate",
+      "updated": "2026-11-03",
+      "title": "Cách ép xoay màn hình theo từng ứng dụng trên Android (không cần root)",
+      "desc": "Tự động xoay của Android là một công tắc chung cho cả điện thoại, và có ứng dụng không chịu xoay. Đây là cách giữ video ở hướng ngang và trò chuyện ở hướng dọc, theo từng ứng dụng, không cần root.",
+      "intro": "Android chỉ có một cài đặt xoay cho cả điện thoại. Có ứng dụng vẫn đứng dọc dù đã bật tự động xoay, có ứng dụng lại xoay ngay khi bạn nằm xuống. Nếu bạn muốn video và game xoay ngang nhưng trò chuyện và đọc để dọc, bạn cần một quy tắc cho từng ứng dụng.",
+      "sections": [
+        {
+          "h": "Android tự làm được gì",
+          "p": [
+            "“Tự động xoay” trong cài đặt nhanh xoay màn hình theo điện thoại, cho mọi ứng dụng cùng lúc. Khi tắt, màn hình đứng yên; trên nhiều điện thoại, lúc đó một nút xoay nhỏ sẽ hiện trên thanh điều hướng khi bạn xoay điện thoại, để bạn xoay riêng lần đó.",
+            "Điều Android không làm được là ghi nhớ một hướng riêng cho từng ứng dụng, và ứng dụng chỉ làm cho hướng dọc thì vẫn ở hướng dọc dù cài đặt thế nào."
+          ]
+        },
+        {
+          "h": "Máy tính bảng và màn hình lớn chạy Android 16",
+          "p": [
+            "Trên Android 16, màn hình lớn như máy tính bảng bỏ qua yêu cầu xoay thông thường của ứng dụng — chính yêu cầu mà các ứng dụng xoay màn hình vẫn dùng để ép hướng. Rotate+ nhận ra điều này và tự chuyển sang dùng cài đặt xoay của hệ thống, nên vẫn hoạt động ở đó."
+          ]
+        },
+        {
+          "h": "Thiết lập bằng Rotate+",
+          "p": [
+            "Rotate+ (ứng dụng của chúng tôi) ép hướng màn hình cho cả điện thoại hoặc cho từng ứng dụng chỉ bằng một chạm, không cần root."
+          ],
+          "steps": [
+            "Cài Rotate+ từ Google Play, mở nó và cho phép “Hiển thị trên các ứng dụng khác” khi được hỏi.",
+            "Chạm một chế độ — Tự động, Dọc, Ngang, Dọc ngược, Ngang ngược hoặc Khóa hướng hiện tại. Chế độ áp dụng ngay cho cả điện thoại.",
+            "Để dùng quy tắc theo ứng dụng, cho phép Trợ năng (hoặc quyền truy cập dữ liệu sử dụng) khi được hỏi, rồi chọn một ứng dụng và hướng của nó — ví dụ ngang cho ứng dụng video và dọc cho trò chuyện.",
+            "Mở ứng dụng đó: quy tắc bật khi ứng dụng mở và tắt khi bạn rời đi."
+          ]
+        },
+        {
+          "h": "Khi ứng dụng xoay màn hình trở lại",
+          "p": [
+            "Một số ứng dụng tự đặt lại hướng của chúng. “Giữ hướng màn hình” đưa về lựa chọn của bạn và ngừng thử nếu ứng dụng cứ chống lại, nên màn hình không xoay liên tục.",
+            "Khi chỉ cần một lần, “Xoay một lần” chỉ xoay ứng dụng đang mở sang hướng còn lại và tự hủy khi bạn chuyển ứng dụng hoặc tắt màn hình. Hai ô cài đặt nhanh, tiện ích màn hình chính và lối tắt ứng dụng giúp việc này chỉ cách một chạm."
+          ]
+        },
+        {
+          "h": "Những gì miễn phí và Pro thêm gì",
+          "p": [
+            "Mọi chế độ xoay, Giữ hướng màn hình, Xoay một lần, ô cài đặt nhanh, tiện ích và lối tắt đều miễn phí, kèm 3 quy tắc theo ứng dụng và một banner quảng cáo nhỏ. Pro thêm quy tắc theo ứng dụng không giới hạn, điều kiện tự đổi hướng (khi sạc, khi cắm tai nghe, thiết bị Bluetooth, đế xe hơi hoặc đế bàn, trong cuộc gọi hay vào khung giờ đã đặt), nút xoay nổi và bỏ quảng cáo."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Tôi có thể ép hướng ngang trong ứng dụng chỉ hỗ trợ hướng dọc không?",
+          "a": "Thường là được — Rotate+ được làm ra chính để làm việc đó. Nó giữ hướng bạn chọn bằng một cửa sổ vô hình 1 pixel, không cần root. Nếu ứng dụng xoay màn hình trở lại, “Giữ hướng màn hình” sẽ đưa về lựa chọn của bạn; nếu ứng dụng cứ chống lại, Rotate+ ngừng thử nên màn hình không xoay liên tục."
+        },
+        {
+          "q": "Có cần root không?",
+          "a": "Không. Rotate+ hoạt động không cần root. Trên màn hình lớn chạy Android 16, vốn bỏ qua yêu cầu xoay thông thường của ứng dụng, nó tự chuyển sang dùng cài đặt xoay của hệ thống."
+        },
+        {
+          "q": "Vì sao Rotate+ cần Trợ năng?",
+          "a": "Chỉ để biết ứng dụng nào đang trên màn hình (cho quy tắc theo ứng dụng) và giữ hướng bạn chọn bằng một cửa sổ vô hình 1 pixel. Rotate+ không bao giờ đọc nội dung màn hình, văn bản hay mật khẩu. Bạn có thể dùng quyền truy cập dữ liệu sử dụng thay thế, và không có dữ liệu nào được gửi đi đâu."
+        },
+        {
+          "q": "Nó có hoạt động trên mọi màn hình không?",
+          "a": "Không hẳn. Một vài màn hình hệ thống, chẳng hạn một số trang cài đặt trên điện thoại Samsung, có thể không theo hướng bạn đã chọn. Hướng sẽ trở lại ngay khi bạn rời khỏi chúng."
+        }
+      ]
     }
   }
 }

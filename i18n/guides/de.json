@@ -783,6 +783,71 @@
           "a": "Für etwas, das du vor ein paar Minuten kopiert hast, reicht die Zwischenablage der Tastatur. Ein Zwischenablage-Manager behält den Verlauf, bis du ihn löschst – mit Suche, Anheften und Bildern."
         }
       ]
+    },
+    "force-screen-rotation-per-app-android": {
+      "app": "rotate",
+      "updated": "2026-11-03",
+      "title": "Android: Bildschirmdrehung pro App erzwingen (ohne Root)",
+      "desc": "Die automatische Drehung von Android ist ein Schalter fürs ganze Handy, und manche Apps drehen sich einfach nicht. So bleiben Videos im Querformat und Chats im Hochformat – App für App, ganz ohne Root.",
+      "intro": "Android hat eine einzige Dreheinstellung für das ganze Handy. Manche Apps bleiben im Hochformat, obwohl die automatische Drehung an ist, andere drehen sich, sobald du dich nur hinlegst. Wenn du Videos und Spiele im Querformat, Chat und Lesen aber im Hochformat willst, brauchst du für jede App eine eigene Regel.",
+      "sections": [
+        {
+          "h": "Was Android von sich aus kann",
+          "p": [
+            "„Automatisch drehen“ in den Schnelleinstellungen dreht den Bildschirm mit dem Handy, für alle Apps gleichzeitig. Ist es aus, bleibt der Bildschirm, wie er ist; auf vielen Handys erscheint dann in der Navigationsleiste eine kleine Dreh-Taste, wenn du das Handy drehst, sodass du nur dieses eine Mal drehen kannst.",
+            "Was Android nicht kann: sich für jede App eine andere Ausrichtung merken. Und eine App, die nur fürs Hochformat gebaut ist, bleibt im Hochformat, ganz egal, was die Einstellung sagt."
+          ]
+        },
+        {
+          "h": "Tablets und große Bildschirme mit Android 16",
+          "p": [
+            "Unter Android 16 ignorieren große Bildschirme wie Tablets die übliche Drehanforderung von Apps – genau die Anforderung, mit der eine Dreh-App normalerweise eine Ausrichtung erzwingt. Rotate+ erkennt das und wechselt automatisch zur System-Dreheinstellung, damit es dort weiter funktioniert."
+          ]
+        },
+        {
+          "h": "Einrichten mit Rotate+",
+          "p": [
+            "Rotate+ (unsere App) legt die Bildschirmausrichtung fürs ganze Handy oder für jede App fest – mit einem Tipp und ohne Root."
+          ],
+          "steps": [
+            "Installiere Rotate+ aus Google Play, öffne die App und erlaube „Über anderen Apps einblenden“, wenn du gefragt wirst.",
+            "Tippe auf einen Modus – Auto, Hochformat, Querformat, Kopfüber, Querformat umgekehrt oder Aktuelle sperren. Er gilt sofort fürs ganze Handy.",
+            "Für Regeln pro App erlaube die Bedienungshilfen (oder den Nutzungsdatenzugriff), wenn du gefragt wirst, und wähle dann eine App und ihre Ausrichtung – zum Beispiel Querformat für eine Video-App und Hochformat für den Chat.",
+            "Öffne diese App: Die Regel greift, wenn die App öffnet, und endet, wenn du sie verlässt."
+          ]
+        },
+        {
+          "h": "Wenn eine App den Bildschirm zurückdreht",
+          "p": [
+            "Manche Apps setzen ihre eigene Ausrichtung erneut. „Ausrichtung halten“ stellt deine Wahl wieder her und hört auf, wenn sich eine App dauerhaft wehrt – so gibt es kein endloses Hin und Her.",
+            "Für ein einzelnes Mal dreht „Einmal drehen“ nur die aktuelle App in die andere Ausrichtung und endet von selbst, wenn du die App wechselst oder den Bildschirm ausschaltest. Zwei Schnelleinstellungs-Kacheln, Startbildschirm-Widgets und App-Verknüpfungen halten alles einen Tipp entfernt."
+          ]
+        },
+        {
+          "h": "Was gratis ist und was Pro bringt",
+          "p": [
+            "Alle Drehmodi, Ausrichtung halten, Einmal drehen, Kacheln, Widgets und Verknüpfungen sind gratis, dazu 3 App-Regeln und ein kleines Werbebanner. Pro bringt unbegrenzte App-Regeln, Bedingungen, die die Ausrichtung automatisch ändern (beim Laden, mit Kopfhörern, einem Bluetooth-Gerät, im Auto- oder Tischdock, während eines Anrufs oder zu festen Zeiten), eine schwebende Dreh-Taste und keine Werbung."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kann ich das Querformat in einer App erzwingen, die nur Hochformat unterstützt?",
+          "a": "Meistens ja – genau dafür ist Rotate+ da. Es hält die gewählte Ausrichtung mit einem unsichtbaren 1-Pixel-Fenster, ohne Root. Dreht die App den Bildschirm zurück, stellt „Ausrichtung halten“ deine Wahl wieder her; wehrt sie sich dauerhaft, hört Rotate+ auf, damit sich der Bildschirm nicht endlos hin und her dreht."
+        },
+        {
+          "q": "Brauche ich Root?",
+          "a": "Nein. Rotate+ funktioniert ohne Root. Auf großen Bildschirmen mit Android 16, die die übliche Drehanforderung von Apps ignorieren, wechselt es automatisch zur System-Dreheinstellung."
+        },
+        {
+          "q": "Warum fragt Rotate+ nach den Bedienungshilfen?",
+          "a": "Nur, um zu erkennen, welche App gerade angezeigt wird (für App-Regeln), und um die gewählte Ausrichtung mit einem unsichtbaren 1-Pixel-Fenster zu halten. Rotate+ liest niemals Bildschirminhalte, Texte oder Passwörter. Du kannst stattdessen den Nutzungsdatenzugriff verwenden, und es werden keinerlei Daten übertragen."
+        },
+        {
+          "q": "Funktioniert das auf jedem Bildschirm?",
+          "a": "Nicht ganz. Einige Systembildschirme, etwa manche Einstellungsseiten auf Samsung-Handys, folgen der gewählten Ausrichtung möglicherweise nicht. Sobald du sie verlässt, gilt sie wieder."
+        }
+      ]
     }
   }
 }

@@ -1,0 +1,67 @@
+{
+  "force-screen-rotation-per-app-android": {
+    "app": "rotate",
+    "updated": "2026-11-03",
+    "title": "Android'de uygulamaya göre ekran döndürme nasıl zorlanır (root olmadan)",
+    "desc": "Android'in otomatik döndürmesi tüm telefon için tek bir anahtardır ve bazı uygulamalar dönmeyi reddeder. Videoları yatay, sohbeti dikey tutmayı uygulama uygulama, root olmadan nasıl yapacağınızı anlatıyoruz.",
+    "intro": "Android'de tüm telefon için tek bir döndürme ayarı vardır. Bazı uygulamalar otomatik döndürme açıkken bile dikey kalır, bazıları ise siz uzanır uzanmaz döner. Video ve oyunların yatay, sohbet ve okumanın dikey olmasını istiyorsanız her uygulama için bir kurala ihtiyacınız var.",
+    "sections": [
+      {
+        "h": "Android kendi başına neler yapabilir",
+        "p": [
+          "Hızlı ayarlardaki “Otomatik döndür”, ekranı telefonla birlikte tüm uygulamalar için aynı anda döndürür. Kapalıyken ekran olduğu gibi kalır; birçok telefonda bu durumda telefonu çevirdiğinizde gezinme çubuğunda küçük bir döndürme düğmesi belirir, böylece yalnızca o seferlik döndürebilirsiniz.",
+          "Android'in yapamadığı şey, her uygulama için farklı bir yönü hatırlamaktır; yalnızca dikey için yapılmış bir uygulama da ayar ne olursa olsun dikey kalır."
+        ]
+      },
+      {
+        "h": "Android 16 tabletler ve büyük ekranlar",
+        "p": [
+          "Android 16'da tabletler gibi büyük ekranlar, uygulamaların olağan döndürme isteğini yok sayar; bu, döndürme uygulamalarının yönü zorlamak için normalde kullandığı istektir. Rotate+ bunu algılar ve otomatik olarak sistemin döndürme ayarını kullanmaya geçer, böylece orada da çalışmaya devam eder."
+        ]
+      },
+      {
+        "h": "Rotate+ ile ayarlayın",
+        "p": [
+          "Rotate+ (bizim uygulamamız) ekran yönünü tüm telefon ya da her uygulama için tek dokunuşla sabitler. Root gerekmez."
+        ],
+        "steps": [
+          "Rotate+'ı Google Play'den yükleyin, açın ve istendiğinde “Diğer uygulamaların üzerinde göster” iznini verin.",
+          "Bir moda dokunun: Otomatik, Dikey, Yatay, Ters dikey, Ters yatay veya Mevcut yönü kilitle. Seçtiğiniz mod tüm telefona hemen uygulanır.",
+          "Uygulamaya göre kurallar için istendiğinde Erişilebilirlik'e (veya kullanım erişimine) izin verin, ardından bir uygulama ve yönünü seçin; örneğin video uygulaması için yatay, sohbet için dikey.",
+          "O uygulamayı açın: kural uygulama açılınca devreye girer, çıkınca kalkar."
+        ]
+      },
+      {
+        "h": "Bir uygulama ekranı geri çevirdiğinde",
+        "p": [
+          "Bazı uygulamalar kendi yönlerini yeniden ayarlar. “Yönü koru” seçiminizi geri getirir ve uygulama direnmeye devam ederse denemeyi bırakır, böylece sonsuz döngü olmaz.",
+          "Tek seferlik bir ihtiyaç için “Bir kez döndür” yalnızca açık uygulamayı diğer yöne çevirir ve uygulama değiştirdiğinizde ya da ekranı kapattığınızda kendiliğinden kalkar. İki hızlı ayar kutucuğu, ana ekran widget'ları ve uygulama kısayolları bunu tek dokunuş uzaklıkta tutar."
+        ]
+      },
+      {
+        "h": "Ücretsiz olanlar ve Pro'nun ekledikleri",
+        "p": [
+          "Tüm döndürme modları, Yönü koru, Bir kez döndür, kutucuklar, widget'lar ve kısayollar ücretsizdir; buna 3 uygulama kuralı ve küçük bir banner reklam eşlik eder. Pro sınırsız uygulama kuralı, yönü otomatik değiştiren koşullar (şarjdayken, kulaklıkla, bir Bluetooth cihazıyla, araç veya masa yuvasında, arama sırasında ya da belirlediğiniz saatlerde) ve yüzen döndürme düğmesi ekler, reklamları kaldırır."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Yalnızca dikeyi destekleyen bir uygulamada yatayı zorlayabilir miyim?",
+        "a": "Genellikle evet; Rotate+ tam da bunun için var. Seçtiğiniz yönü 1 piksellik görünmez bir pencereyle, root olmadan korur. Uygulama ekranı geri çevirirse “Yönü koru” seçiminizi geri getirir; uygulama direnmeye devam ederse Rotate+ denemeyi bırakır, böylece ekran sonsuz döngüye girmez."
+      },
+      {
+        "q": "Root gerekir mi?",
+        "a": "Hayır. Rotate+ root olmadan çalışır. Uygulamaların olağan döndürme isteğini yok sayan Android 16 büyük ekranlarda otomatik olarak sistemin döndürme ayarını kullanmaya geçer."
+      },
+      {
+        "q": "Rotate+ neden Erişilebilirlik izni istiyor?",
+        "a": "Yalnızca ekrandaki uygulamanın hangisi olduğunu bilmek (uygulamaya göre kurallar için) ve seçtiğiniz yönü 1 piksellik görünmez bir pencereyle korumak için. Rotate+ ekran içeriğini, metinleri veya şifreleri asla okumaz. Bunun yerine kullanım erişimini kullanabilirsiniz; hiçbir şey hiçbir yere gönderilmez."
+      },
+      {
+        "q": "Her ekranda çalışır mı?",
+        "a": "Tam olarak değil. Samsung telefonlardaki bazı ayar sayfaları gibi birkaç sistem ekranı seçtiğiniz yöne uymayabilir. Bu ekranlardan çıktığınız anda yön geri gelir."
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "force-screen-rotation-per-app-android": {
+    "app": "rotate",
+    "updated": "2026-11-03",
+    "title": "Come forzare la rotazione dello schermo per singola app su Android (senza root)",
+    "desc": "La rotazione automatica di Android è un unico interruttore per tutto il telefono, e alcune app si rifiutano di girare. Ecco come tenere i video in orizzontale e le chat in verticale, app per app, senza root.",
+    "intro": "Android ha un'unica impostazione di rotazione per tutto il telefono. Alcune app restano in verticale anche con la rotazione automatica attiva, altre ruotano appena ti sdrai. Se vuoi video e giochi in orizzontale ma chat e lettura in verticale, ti serve una regola per ogni app.",
+    "sections": [
+      {
+        "h": "Cosa può fare Android da solo",
+        "p": [
+          "La «Rotazione automatica» nelle impostazioni rapide fa girare lo schermo insieme al telefono, per tutte le app contemporaneamente. Se è disattivata, lo schermo resta fermo; su molti telefoni, quando giri il telefono, compare allora un piccolo pulsante di rotazione nella barra di navigazione, così puoi ruotare solo quella volta.",
+          "Quello che Android non sa fare è ricordare un orientamento diverso per ogni app, e un'app pensata solo per la verticale resta in verticale qualunque sia l'impostazione."
+        ]
+      },
+      {
+        "h": "Tablet e schermi grandi con Android 16",
+        "p": [
+          "Su Android 16 gli schermi grandi come i tablet ignorano la normale richiesta di rotazione delle app, la stessa che un'app di rotazione usa di solito per forzare l'orientamento. Rotate+ lo rileva e passa automaticamente all'impostazione di rotazione del sistema, così continua a funzionare anche lì."
+        ]
+      },
+      {
+        "h": "Configurazione con Rotate+",
+        "p": [
+          "Rotate+ (la nostra app) forza l'orientamento dello schermo per tutto il telefono o per ogni app, con un tocco e senza root."
+        ],
+        "steps": [
+          "Installa Rotate+ da Google Play, aprila e consenti «Mostra sopra altre app» quando ti viene chiesto.",
+          "Tocca una modalità: Auto, Verticale, Orizzontale, Verticale capovolta, Orizzontale capovolta o Blocca attuale. Si applica subito a tutto il telefono.",
+          "Per le regole per app, consenti l'accessibilità (o l'accesso ai dati di utilizzo) quando ti viene chiesto, poi scegli un'app e il suo orientamento: ad esempio orizzontale per un'app video e verticale per la chat.",
+          "Apri quell'app: la regola si attiva all'apertura e si toglie quando esci."
+        ]
+      },
+      {
+        "h": "Quando un'app rigira lo schermo",
+        "p": [
+          "Alcune app reimpostano da sole il proprio orientamento. «Mantieni l'orientamento» ripristina la tua scelta e smette di riprovare se un'app insiste: niente cicli.",
+          "Per una volta sola, «Ruota una volta» gira solo l'app corrente nell'altro orientamento e si annulla da solo quando cambi app o spegni lo schermo. Due riquadri delle impostazioni rapide, i widget della schermata Home e le scorciatoie dell'app lo tengono a portata di tocco."
+        ]
+      },
+      {
+        "h": "Cosa è gratis e cosa aggiunge Pro",
+        "p": [
+          "Tutte le modalità di rotazione, Mantieni l'orientamento, Ruota una volta, riquadri, widget e scorciatoie sono gratis, insieme a 3 regole per app e a un piccolo banner. Pro aggiunge regole per app illimitate, condizioni che cambiano l'orientamento da sole (in carica, con le cuffie, un dispositivo Bluetooth, un supporto auto o da scrivania, durante una chiamata o a orari stabiliti), un pulsante di rotazione fluttuante e niente pubblicità."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Posso forzare l'orizzontale in un'app che supporta solo la verticale?",
+        "a": "Di solito sì: Rotate+ serve proprio a questo. Mantiene l'orientamento scelto con una finestra invisibile di 1 pixel, senza root. Se l'app rigira lo schermo, «Mantieni l'orientamento» ripristina la tua scelta; se l'app continua a insistere, Rotate+ smette di riprovare perché lo schermo non giri all'infinito."
+      },
+      {
+        "q": "Serve il root?",
+        "a": "No. Rotate+ funziona senza root. Sugli schermi grandi con Android 16, che ignorano la normale richiesta di rotazione delle app, usa automaticamente l'impostazione di rotazione del sistema."
+      },
+      {
+        "q": "Perché Rotate+ chiede l'accessibilità?",
+        "a": "Solo per sapere quale app è sullo schermo (per le regole per app) e per mantenere l'orientamento scelto con una finestra invisibile di 1 pixel. Rotate+ non legge mai contenuti dello schermo, testi o password. In alternativa puoi usare l'accesso ai dati di utilizzo, e nulla viene inviato da nessuna parte."
+      },
+      {
+        "q": "Funziona su tutte le schermate?",
+        "a": "Non proprio. Alcune schermate di sistema, come certe pagine delle impostazioni sui telefoni Samsung, potrebbero non seguire l'orientamento che hai scelto. Torna appena le lasci."
+      }
+    ]
+  }
+}

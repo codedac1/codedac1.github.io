@@ -783,6 +783,71 @@
           "a": "Le presse-papiers du clavier convient pour quelque chose copié il y a quelques minutes. Un gestionnaire de presse-papiers conserve l’historique jusqu’à ce que vous le supprimiez, avec recherche, épinglage et images."
         }
       ]
+    },
+    "force-screen-rotation-per-app-android": {
+      "app": "rotate",
+      "updated": "2026-11-03",
+      "title": "Forcer la rotation de l’écran par appli sur Android (sans root)",
+      "desc": "La rotation automatique d’Android est un seul interrupteur pour tout le téléphone, et certaines applis refusent de pivoter. Voici comment garder les vidéos en paysage et la messagerie en portrait, appli par appli, sans root.",
+      "intro": "Android n’a qu’un seul réglage de rotation pour tout le téléphone. Certaines applis restent en portrait même avec la rotation automatique activée, d’autres pivotent dès que vous vous allongez. Si vous voulez les vidéos et les jeux en paysage, mais la messagerie et la lecture en portrait, il vous faut une règle pour chaque appli.",
+      "sections": [
+        {
+          "h": "Ce qu’Android sait faire tout seul",
+          "p": [
+            "La rotation automatique, dans les réglages rapides, fait pivoter l’écran avec le téléphone, pour toutes les applis à la fois. Quand elle est désactivée, l’écran ne bouge plus ; sur de nombreux téléphones, un petit bouton de rotation apparaît alors dans la barre de navigation quand vous tournez le téléphone, pour pivoter juste cette fois.",
+            "Ce qu’Android ne sait pas faire, c’est mémoriser une orientation différente pour chaque appli, et une appli conçue uniquement pour le portrait reste en portrait, quel que soit le réglage."
+          ]
+        },
+        {
+          "h": "Tablettes et grands écrans sous Android 16",
+          "p": [
+            "Sous Android 16, les grands écrans comme les tablettes ignorent la demande de rotation habituelle des applis — celle-là même qu’une appli de rotation utilise normalement pour imposer une orientation. Rotate+ le détecte et passe automatiquement par le réglage de rotation du système, si bien qu’il continue de fonctionner."
+          ]
+        },
+        {
+          "h": "Configurer avec Rotate+",
+          "p": [
+            "Rotate+ (notre appli) impose l’orientation de l’écran à tout le téléphone ou à chaque appli, en un geste et sans root."
+          ],
+          "steps": [
+            "Installez Rotate+ depuis Google Play, ouvrez-la et autorisez « Superposition sur d’autres applis » quand on vous le demande.",
+            "Touchez un mode — Auto, Portrait, Paysage, Portrait inversé, Paysage inversé ou Bloquer l’actuelle. Il s’applique immédiatement à tout le téléphone.",
+            "Pour les règles par appli, autorisez l’accessibilité (ou l’accès aux données d’utilisation) quand on vous le demande, puis choisissez une appli et son orientation — par exemple, paysage pour une appli vidéo et portrait pour la messagerie.",
+            "Ouvrez cette appli : la règle s’applique à son ouverture et s’arrête quand vous la quittez."
+          ]
+        },
+        {
+          "h": "Quand une appli remet l’écran dans l’autre sens",
+          "p": [
+            "Certaines applis redéfinissent leur propre orientation. « Garder l’orientation » rétablit votre choix, et arrête d’insister si une appli s’obstine : pas de boucle.",
+            "Pour une fois seulement, « Pivoter une fois » tourne uniquement l’appli actuelle dans l’autre orientation et s’arrête tout seul quand vous changez d’appli ou éteignez l’écran. Deux vignettes de réglages rapides, des widgets d’écran d’accueil et des raccourcis d’appli le gardent à portée de doigt."
+          ]
+        },
+        {
+          "h": "Ce qui est gratuit, et ce qu’apporte Pro",
+          "p": [
+            "Tous les modes de rotation, Garder l’orientation, Pivoter une fois, les vignettes, widgets et raccourcis sont gratuits, avec 3 règles par appli et une petite bannière publicitaire. Pro ajoute les règles par appli illimitées, des conditions qui changent l’orientation automatiquement (pendant la charge, avec un casque, un appareil Bluetooth, un support voiture ou bureau, pendant un appel ou à certaines heures), un bouton de rotation flottant, et supprime la publicité."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Peut-on forcer le paysage dans une appli qui ne prend en charge que le portrait ?",
+          "a": "En général, oui — c’est précisément le rôle de Rotate+. Il maintient l’orientation choisie avec une fenêtre invisible de 1 pixel, sans root. Si l’appli remet l’écran dans l’autre sens, « Garder l’orientation » rétablit votre choix ; si elle s’obstine, Rotate+ arrête d’insister pour que l’écran ne tourne pas en boucle."
+        },
+        {
+          "q": "Faut-il le root ?",
+          "a": "Non. Rotate+ fonctionne sans root. Sur les grands écrans sous Android 16, qui ignorent la demande de rotation habituelle des applis, il passe automatiquement par le réglage de rotation du système."
+        },
+        {
+          "q": "Pourquoi Rotate+ demande-t-il l’accessibilité ?",
+          "a": "Uniquement pour savoir quelle appli est à l’écran (pour les règles par appli) et pour garder l’orientation choisie avec une fenêtre invisible de 1 pixel. Rotate+ ne lit jamais le contenu de l’écran, les textes ni les mots de passe. Vous pouvez utiliser l’accès aux données d’utilisation à la place, et rien n’est envoyé nulle part."
+        },
+        {
+          "q": "Est-ce que cela fonctionne sur tous les écrans ?",
+          "a": "Pas tout à fait. Quelques écrans système, comme certaines pages de réglages sur les téléphones Samsung, peuvent ne pas suivre l’orientation choisie. Elle revient dès que vous les quittez."
+        }
+      ]
     }
   }
 }

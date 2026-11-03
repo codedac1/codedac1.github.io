@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>Android पर हर ऐप के लिए स्क्रीन रोटेशन कैसे तय करें (बिना रूट) | CodeDAC</title>
+  <meta name="description" content="Android का ऑटो-रोटेट पूरे फ़ोन के लिए एक ही स्विच है, और कुछ ऐप घूमते ही नहीं। जानिए वीडियो को लैंडस्केप में और चैट को पोर्ट्रेट में, हर ऐप के हिसाब से, बिना रूट के कैसे रखें।" />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/hi/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/force-screen-rotation-per-app-android.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/force-screen-rotation-per-app-android.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="hi_IN" />
+  <meta property="og:title" content="Android पर हर ऐप के लिए स्क्रीन रोटेशन कैसे तय करें (बिना रूट) | CodeDAC" />
+  <meta property="og:description" content="Android का ऑटो-रोटेट पूरे फ़ोन के लिए एक ही स्विच है, और कुछ ऐप घूमते ही नहीं। जानिए वीडियो को लैंडस्केप में और चैट को पोर्ट्रेट में, हर ऐप के हिसाब से, बिना रूट के कैसे रखें।" />
+  <meta property="og:url" content="https://codedac.com/hi/guides/force-screen-rotation-per-app-android.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/rotate.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Android पर हर ऐप के लिए स्क्रीन रोटेशन कैसे तय करें (बिना रूट) | CodeDAC" />
+  <meta name="twitter:description" content="Android का ऑटो-रोटेट पूरे फ़ोन के लिए एक ही स्विच है, और कुछ ऐप घूमते ही नहीं। जानिए वीडियो को लैंडस्केप में और चैट को पोर्ट्रेट में, हर ऐप के हिसाब से, बिना रूट के कैसे रखें।" />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/rotate.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;family=Noto+Sans+Devanagari:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=98" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Android पर हर ऐप के लिए स्क्रीन रोटेशन कैसे तय करें (बिना रूट)",
+  "description": "Android का ऑटो-रोटेट पूरे फ़ोन के लिए एक ही स्विच है, और कुछ ऐप घूमते ही नहीं। जानिए वीडियो को लैंडस्केप में और चैट को पोर्ट्रेट में, हर ऐप के हिसाब से, बिना रूट के कैसे रखें।",
+  "inLanguage": "hi",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "mainEntityOfPage": "https://codedac.com/hi/guides/force-screen-rotation-per-app-android.html",
+  "image": "https://codedac.com/images/icons/rotate.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "Rotate+",
+    "url": "https://codedac.com/hi/apps/rotate.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/hi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Rotate+",
+      "item": "https://codedac.com/hi/apps/rotate.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Android पर हर ऐप के लिए स्क्रीन रोटेशन कैसे तय करें (बिना रूट)",
+      "item": "https://codedac.com/hi/guides/force-screen-rotation-per-app-android.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "क्या मैं सिर्फ़ पोर्ट्रेट वाले ऐप को लैंडस्केप में चला सकता हूँ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "आम तौर पर हाँ — Rotate+ इसी के लिए है। यह बिना रूट के, 1 पिक्सेल की अदृश्य विंडो से आपकी चुनी दिशा बनाए रखता है। अगर ऐप स्क्रीन वापस घुमा दे, तो “दिशा बनाए रखें” आपकी पसंद फिर से लगा देता है; अगर वह लगातार विरोध करे, तो Rotate+ कोशिश बंद कर देता है ताकि स्क्रीन बार-बार न घूमे।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "क्या रूट की ज़रूरत है?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "नहीं। Rotate+ बिना रूट के काम करता है। Android 16 की बड़ी स्क्रीन ऐप के सामान्य रोटेशन अनुरोध को नज़रअंदाज़ करती हैं; उन पर यह अपने आप सिस्टम रोटेशन सेटिंग का तरीका अपनाता है।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Rotate+ सुलभता की अनुमति क्यों माँगता है?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "सिर्फ़ यह जानने के लिए कि स्क्रीन पर कौन-सा ऐप है (ऐप के नियमों के लिए), और 1 पिक्सेल की अदृश्य विंडो से आपकी चुनी दिशा बनाए रखने के लिए। Rotate+ स्क्रीन की सामग्री, टेक्स्ट या पासवर्ड कभी नहीं पढ़ता। इसकी जगह आप उपयोग एक्सेस भी इस्तेमाल कर सकते हैं, और कुछ भी कहीं नहीं भेजा जाता।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "क्या यह हर स्क्रीन पर काम करता है?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "पूरी तरह नहीं। कुछ सिस्टम स्क्रीन, जैसे Samsung फ़ोन के कुछ सेटिंग पेज, हो सकता है आपकी चुनी दिशा न अपनाएँ। उनसे बाहर आते ही आपकी दिशा लौट आती है।"
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/hi/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/hi/#apps">ऐप्स</a>
+        <a href="/hi/#reviews">समीक्षाएँ</a>
+        <a href="/hi/guides/">गाइड</a>
+        <a href="/hi/#about">हमारे बारे में</a>
+        <a href="/hi/#contact">साथ काम करें</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="डार्क मोड टॉगल करें" title="डार्क मोड टॉगल करें">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="हिन्दी"><span class="lang-name">हिन्दी</span><span class="lang-code" aria-hidden="true">HI</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/force-screen-rotation-per-app-android.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/force-screen-rotation-per-app-android.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/guides/force-screen-rotation-per-app-android.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/force-screen-rotation-per-app-android.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/guides/force-screen-rotation-per-app-android.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/guides/force-screen-rotation-per-app-android.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item" data-lang="fr" href="/fr/guides/force-screen-rotation-per-app-android.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/force-screen-rotation-per-app-android.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item is-active" data-lang="hi" href="/hi/guides/force-screen-rotation-per-app-android.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/force-screen-rotation-per-app-android.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item" data-lang="zh" href="/zh/guides/force-screen-rotation-per-app-android.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/guides/force-screen-rotation-per-app-android.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/force-screen-rotation-per-app-android.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/force-screen-rotation-per-app-android.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/guides/force-screen-rotation-per-app-android.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/force-screen-rotation-per-app-android.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/force-screen-rotation-per-app-android.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/force-screen-rotation-per-app-android.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/force-screen-rotation-per-app-android.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item" data-lang="uk" href="/uk/guides/force-screen-rotation-per-app-android.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/force-screen-rotation-per-app-android.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-android guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/hi/">होम</a>
+        <span class="sep">/</span>
+        <a href="/hi/apps/rotate.html"><bdi>Rotate+</bdi></a>
+        <span class="sep">/</span>
+        <a href="/hi/guides/">गाइड</a>
+      </nav>
+      <h1>Android पर हर ऐप के लिए स्क्रीन रोटेशन कैसे तय करें (बिना रूट)</h1>
+      <p class="guide-meta">अपडेट किया गया <time datetime="2026-11-03">2026-11-03</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">Android में पूरे फ़ोन के लिए रोटेशन की एक ही सेटिंग होती है। कुछ ऐप ऑटो-रोटेट चालू होने पर भी पोर्ट्रेट में ही रहते हैं, और कुछ बस लेटते ही घूम जाते हैं। अगर आप वीडियो और गेम लैंडस्केप में, लेकिन चैट और पढ़ना पोर्ट्रेट में चाहते हैं, तो हर ऐप के लिए एक नियम चाहिए।</p>
+
+        <h2>Android खुद क्या कर सकता है</h2>
+        <p>क्विक सेटिंग में ऑटो-रोटेट फ़ोन के साथ स्क्रीन घुमाता है, सभी ऐप्स के लिए एक साथ। इसे बंद रखने पर स्क्रीन जैसी है वैसी रहती है; कई फ़ोन पर तब फ़ोन घुमाने पर नेविगेशन बार में एक छोटा रोटेट बटन दिखता है, ताकि आप सिर्फ़ उसी एक बार स्क्रीन घुमा सकें।</p>
+        <p>Android जो नहीं कर सकता, वह है हर ऐप के लिए अलग दिशा याद रखना, और जो ऐप सिर्फ़ पोर्ट्रेट के लिए बना है, वह सेटिंग चाहे जो हो, पोर्ट्रेट में ही रहता है।</p>
+
+        <h2>Android 16 टैबलेट और बड़ी स्क्रीन</h2>
+        <p>Android 16 पर टैबलेट जैसी बड़ी स्क्रीन ऐप के सामान्य रोटेशन अनुरोध को नज़रअंदाज़ करती हैं — वही अनुरोध जिससे कोई रोटेशन ऐप आम तौर पर दिशा तय करता है। Rotate+ इसे पहचानकर अपने आप सिस्टम रोटेशन सेटिंग का तरीका अपनाता है, इसलिए वहाँ भी काम करता रहता है।</p>
+
+        <h2>Rotate+ से सेट करें</h2>
+        <p>Rotate+ (हमारा ऐप) एक टैप में पूरे फ़ोन या हर ऐप के लिए स्क्रीन की दिशा तय कर देता है। इसके लिए रूट की ज़रूरत नहीं है।</p>
+        <ol class="guide-steps">
+          <li>Google Play से Rotate+ इंस्टॉल करें, खोलें और पूछे जाने पर “दूसरे ऐप्स के ऊपर दिखाएँ” की अनुमति दें।</li>
+          <li>किसी मोड पर टैप करें — ऑटो, पोर्ट्रेट, लैंडस्केप, उल्टा पोर्ट्रेट, उल्टा लैंडस्केप या अभी की दिशा लॉक करें। यह तुरंत पूरे फ़ोन पर लागू हो जाता है।</li>
+          <li>हर ऐप के नियमों के लिए, पूछे जाने पर सुलभता (या उपयोग एक्सेस) की अनुमति दें, फिर एक ऐप और उसकी दिशा चुनें — जैसे वीडियो ऐप के लिए लैंडस्केप और चैट के लिए पोर्ट्रेट।</li>
+          <li>वह ऐप खोलें: ऐप खुलते ही नियम लागू होता है और बाहर आते ही हट जाता है।</li>
+        </ol>
+
+        <h2>जब कोई ऐप स्क्रीन वापस घुमा दे</h2>
+        <p>कुछ ऐप अपनी दिशा फिर से खुद तय कर देते हैं। “दिशा बनाए रखें” आपकी पसंद फिर से लगा देता है, और कोई ऐप लगातार विरोध करे तो कोशिश बंद कर देता है, इसलिए स्क्रीन बार-बार नहीं घूमती।</p>
+        <p>कभी-कभार के लिए, “एक बार घुमाएँ” सिर्फ़ चालू ऐप को दूसरी दिशा में घुमाता है और ऐप बदलने या स्क्रीन बंद करने पर अपने आप हट जाता है। दो क्विक सेटिंग टाइल, होम स्क्रीन विजेट और ऐप शॉर्टकट इसे बस एक टैप दूर रखते हैं।</p>
+
+        <h2>मुफ़्त में क्या है और Pro क्या जोड़ता है</h2>
+        <p>सभी रोटेशन मोड, दिशा बनाए रखें, एक बार घुमाएँ, टाइल, विजेट और शॉर्टकट मुफ़्त हैं, साथ में 3 ऐप नियम और एक छोटा बैनर विज्ञापन। Pro असीमित ऐप नियम, अपने आप दिशा बदलने वाली शर्तें (चार्ज होते समय, हेडफ़ोन, ब्लूटूथ डिवाइस, कार या डेस्क डॉक, कॉल के दौरान या तय समय पर), फ़्लोटिंग रोटेट बटन जोड़ता है और विज्ञापन हटाता है।</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">इस गाइड में बताया गया ऐप</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/rotate.png?v=98" alt="Rotate+ icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>Rotate+</bdi></p>
+          <p class="rc-desc">पूरे फ़ोन या हर ऐप के लिए स्क्रीन की दिशा तय करें: पोर्ट्रेट, लैंडस्केप या ऑटो। रूट की ज़रूरत नहीं।</p>
+          <div class="guide-app-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.rotate&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dguide%26utm_campaign%3Dhi" class="btn btn-primary" target="_blank" rel="noopener">Google Play पर देखें →</a>
+            <a href="/hi/apps/rotate.html" class="btn btn-ghost">ऐप की जानकारी</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">सवाल</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">क्या मैं सिर्फ़ पोर्ट्रेट वाले ऐप को लैंडस्केप में चला सकता हूँ?</p><p class="faq-a">आम तौर पर हाँ — Rotate+ इसी के लिए है। यह बिना रूट के, 1 पिक्सेल की अदृश्य विंडो से आपकी चुनी दिशा बनाए रखता है। अगर ऐप स्क्रीन वापस घुमा दे, तो “दिशा बनाए रखें” आपकी पसंद फिर से लगा देता है; अगर वह लगातार विरोध करे, तो Rotate+ कोशिश बंद कर देता है ताकि स्क्रीन बार-बार न घूमे।</p></div>
+        <div class="faq-item"><p class="faq-q">क्या रूट की ज़रूरत है?</p><p class="faq-a">नहीं। Rotate+ बिना रूट के काम करता है। Android 16 की बड़ी स्क्रीन ऐप के सामान्य रोटेशन अनुरोध को नज़रअंदाज़ करती हैं; उन पर यह अपने आप सिस्टम रोटेशन सेटिंग का तरीका अपनाता है।</p></div>
+        <div class="faq-item"><p class="faq-q">Rotate+ सुलभता की अनुमति क्यों माँगता है?</p><p class="faq-a">सिर्फ़ यह जानने के लिए कि स्क्रीन पर कौन-सा ऐप है (ऐप के नियमों के लिए), और 1 पिक्सेल की अदृश्य विंडो से आपकी चुनी दिशा बनाए रखने के लिए। Rotate+ स्क्रीन की सामग्री, टेक्स्ट या पासवर्ड कभी नहीं पढ़ता। इसकी जगह आप उपयोग एक्सेस भी इस्तेमाल कर सकते हैं, और कुछ भी कहीं नहीं भेजा जाता।</p></div>
+        <div class="faq-item"><p class="faq-q">क्या यह हर स्क्रीन पर काम करता है?</p><p class="faq-a">पूरी तरह नहीं। कुछ सिस्टम स्क्रीन, जैसे Samsung फ़ोन के कुछ सेटिंग पेज, हो सकता है आपकी चुनी दिशा न अपनाएँ। उनसे बाहर आते ही आपकी दिशा लौट आती है।</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">और गाइड</h2>
+      <ul class="guide-links">
+        <li><a href="/hi/guides/android-clipboard-history.html">Android पर क्लिपबोर्ड हिस्ट्री कैसे देखें</a></li>
+        <li><a href="/hi/guides/open-app-automatically-after-reboot-android.html">Android पर रीस्टार्ट के बाद ऐप अपने-आप कैसे खोलें (बिना रूट)</a></li>
+        <li><a href="/hi/guides/floating-notes-over-other-apps-android.html">Android पर दूसरे ऐप्स के ऊपर नोट कैसे बनाए रखें</a></li>
+        <li><a href="/hi/guides/floating-timer-over-other-apps-android.html">Android पर दूसरे ऐप्स इस्तेमाल करते हुए टाइमर स्क्रीन पर कैसे रखें</a></li>
+        <li><a href="/hi/guides/hide-personal-info-in-screenshots.html">स्क्रीनशॉट शेयर करने से पहले उसमें निजी जानकारी कैसे छिपाएँ</a></li>
+        <li><a href="/hi/guides/sticky-notes-always-on-top-windows.html">Windows पर स्टिकी नोट को हमेशा सबसे ऊपर कैसे रखें</a></li>
+        <li><a href="/hi/guides/clipboard-history-windows.html">Windows पर क्लिपबोर्ड हिस्ट्री कैसे देखें</a></li>
+        <li><a href="/hi/guides/timer-always-on-top-windows.html">Windows पर टाइमर को दूसरी विंडो के ऊपर कैसे रखें</a></li>
+        <li><a href="/hi/guides/reading-ruler-dyslexia-adhd-android.html">डिस्लेक्सिया और ADHD के लिए Android पर रीडिंग रूलर: पढ़ते समय लाइन न खोएँ</a></li>
+        <li><a href="/hi/guides/reading-ruler-windows.html">Windows पर रीडिंग रूलर कैसे इस्तेमाल करें (डिस्लेक्सिया और ADHD के लिए)</a></li>
+        <li><a href="/hi/guides/floating-calculator-over-other-apps-android.html">Android पर दूसरे ऐप्स के ऊपर कैलकुलेटर कैसे इस्तेमाल करें</a></li>
+        <li><a href="/hi/guides/crypto-price-ticker-over-other-apps-android.html">Android पर दूसरे ऐप्स इस्तेमाल करते हुए क्रिप्टो की कीमतें कैसे देखें</a></li>
+        <li><a href="/hi/guides/make-android-phone-louder.html">Android फ़ोन की आवाज़ तेज़ कैसे करें</a></li>
+        <li><a href="/hi/guides/hide-personal-info-in-screenshots-windows.html">Windows पर स्क्रीनशॉट और PDF में निजी जानकारी कैसे छिपाएँ</a></li>
+        <li><a href="/hi/guides/crypto-price-ticker-on-top-windows.html">Windows पर लाइव क्रिप्टो टिकर को दूसरी विंडो के ऊपर कैसे रखें</a></li>
+        <li><a href="/hi/guides/floating-stopwatch-windows.html">Windows PC पर स्टॉपवॉच को स्क्रीन पर ऊपर कैसे रखें</a></li>
+        <li><a href="/hi/guides/choose-clipboard-manager-android.html">Android के लिए मुफ़्त क्लिपबोर्ड मैनेजर चुनते समय क्या देखें</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">दक्षिण कोरिया</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/hi/guides/">गाइड</a>
+        <a class="footer-email" href="/hi/privacy.html">गोपनीयता नीति</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"hi","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/force-screen-rotation-per-app-android.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/force-screen-rotation-per-app-android.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/force-screen-rotation-per-app-android.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=98"></script>
+</body>
+</html>

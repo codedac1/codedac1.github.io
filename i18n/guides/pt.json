@@ -783,6 +783,71 @@
           "a": "A área de transferência do teclado serve para algo que você copiou há poucos minutos. Um gerenciador de área de transferência mantém um histórico até você apagar, com busca, itens fixados e imagens."
         }
       ]
+    },
+    "force-screen-rotation-per-app-android": {
+      "app": "rotate",
+      "updated": "2026-11-03",
+      "title": "Como forçar a rotação da tela por app no Android (sem root)",
+      "desc": "A rotação automática do Android é um botão só para o celular inteiro, e alguns apps se recusam a girar. Veja como manter vídeos em paisagem e o chat em retrato, app por app, sem root.",
+      "intro": "O Android tem uma única configuração de rotação para o celular inteiro. Alguns apps ficam em retrato mesmo com a rotação automática ligada, e outros giram assim que você deita. Se você quer vídeos e jogos em paisagem, mas chat e leitura em retrato, precisa de uma regra para cada app.",
+      "sections": [
+        {
+          "h": "O que o Android faz sozinho",
+          "p": [
+            "O “Girar automaticamente” nas configurações rápidas gira a tela junto com o celular, para todos os apps de uma vez. Com ele desligado, a tela fica parada; em muitos celulares, aparece então um pequeno botão de rotação na barra de navegação quando você vira o celular, para girar só daquela vez.",
+            "O que o Android não consegue é lembrar uma orientação diferente para cada app, e um app feito só para retrato continua em retrato, não importa o que diga a configuração."
+          ]
+        },
+        {
+          "h": "Tablets e telas grandes com Android 16",
+          "p": [
+            "No Android 16, telas grandes como tablets ignoram o pedido de rotação comum dos apps — o mesmo pedido que um app de rotação normalmente usa para forçar uma orientação. O Rotate+ detecta isso e passa a usar a configuração de rotação do sistema automaticamente, então continua funcionando nelas."
+          ]
+        },
+        {
+          "h": "Configure com o Rotate+",
+          "p": [
+            "O Rotate+ (nosso app) força a orientação da tela no celular inteiro ou em cada app, com um toque e sem root."
+          ],
+          "steps": [
+            "Instale o Rotate+ pelo Google Play, abra o app e permita “Sobrepor a outros apps” quando for solicitado.",
+            "Toque em um modo — Auto, Retrato, Paisagem, Retrato invertido, Paisagem invertida ou Travar atual. Ele é aplicado na hora no celular inteiro.",
+            "Para as regras por app, permita a acessibilidade (ou o acesso ao uso) quando for solicitado e depois escolha um app e a orientação dele — por exemplo, paisagem para um app de vídeo e retrato para o chat.",
+            "Abra esse app: a regra vale ao abrir o app e sai quando você sai dele."
+          ]
+        },
+        {
+          "h": "Quando um app gira a tela de volta",
+          "p": [
+            "Alguns apps definem a própria orientação de novo. Manter a orientação restaura a sua escolha e para de tentar se o app insistir, então nada fica girando sem parar.",
+            "Para uma vez só, Girar uma vez gira só o app atual para a outra orientação e volta sozinho quando você troca de app ou desliga a tela. Dois blocos de configurações rápidas, widgets da tela inicial e atalhos do app deixam tudo a um toque."
+          ]
+        },
+        {
+          "h": "O que é grátis e o que o Pro adiciona",
+          "p": [
+            "Todos os modos de rotação, Manter a orientação, Girar uma vez, blocos, widgets e atalhos são grátis, junto com 3 regras por app e um pequeno banner. O Pro adiciona regras por app ilimitadas, condições que mudam a orientação automaticamente (ao carregar, com fone de ouvido, um aparelho Bluetooth, suporte de carro ou de mesa, durante uma ligação ou em horários definidos), um botão flutuante de rotação e remove os anúncios."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Posso forçar paisagem em um app que só funciona em retrato?",
+          "a": "Normalmente, sim — é para isso que serve o Rotate+. Ele mantém a orientação escolhida com uma janela invisível de 1 pixel, sem root. Se o app girar a tela de volta, Manter a orientação restaura a sua escolha; se ele insistir, o Rotate+ para de tentar, para a tela não ficar girando sem parar."
+        },
+        {
+          "q": "Preciso de root?",
+          "a": "Não. O Rotate+ funciona sem root. Em telas grandes com Android 16, que ignoram o pedido de rotação comum dos apps, ele passa a usar a configuração de rotação do sistema automaticamente."
+        },
+        {
+          "q": "Por que o Rotate+ pede acessibilidade?",
+          "a": "Só para saber qual app está na tela, para as regras por app, e para manter a orientação escolhida com uma janela invisível de 1 pixel. O Rotate+ nunca lê o conteúdo da tela, textos ou senhas. Você pode usar o acesso ao uso no lugar, e nada é enviado para lugar nenhum."
+        },
+        {
+          "q": "Funciona em todas as telas?",
+          "a": "Não exatamente. Algumas telas do sistema, como certas páginas de configurações em celulares Samsung, podem não seguir a orientação escolhida. Ela volta assim que você sai delas."
+        }
+      ]
     }
   }
 }

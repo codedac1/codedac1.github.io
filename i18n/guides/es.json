@@ -783,6 +783,71 @@
           "a": "El portapapeles del teclado sirve para algo que copiaste hace unos minutos. Un gestor de portapapeles conserva un historial hasta que lo borres, con búsqueda, elementos fijados e imágenes."
         }
       ]
+    },
+    "force-screen-rotation-per-app-android": {
+      "app": "rotate",
+      "updated": "2026-11-03",
+      "title": "Cómo forzar la rotación de pantalla por app en Android (sin root)",
+      "desc": "La rotación automática de Android es un solo interruptor para todo el teléfono, y algunas apps se niegan a girar. Te explicamos cómo mantener los vídeos en horizontal y el chat en vertical, app por app, sin root.",
+      "intro": "Android tiene un único ajuste de rotación para todo el teléfono. Algunas apps se quedan en vertical aunque la rotación automática esté activada, y otras giran en cuanto te tumbas. Si quieres los vídeos y juegos en horizontal pero el chat y la lectura en vertical, necesitas una regla para cada app.",
+      "sections": [
+        {
+          "h": "Lo que Android puede hacer por sí solo",
+          "p": [
+            "La rotación automática de los ajustes rápidos gira la pantalla con el teléfono, para todas las apps a la vez. Si está desactivada, la pantalla se queda fija; en muchos teléfonos aparece entonces un pequeño botón de giro en la barra de navegación al girar el teléfono, para que puedas girarla solo esa vez.",
+            "Lo que Android no puede hacer es recordar una orientación distinta para cada app, y una app hecha solo para vertical se queda en vertical diga lo que diga el ajuste."
+          ]
+        },
+        {
+          "h": "Tablets y pantallas grandes con Android 16",
+          "p": [
+            "En Android 16, las pantallas grandes como las tablets ignoran la petición de giro habitual de las apps, la misma que una app de rotación suele usar para forzar una orientación. Rotate+ lo detecta y pasa automáticamente al ajuste de rotación del sistema, así que sigue funcionando."
+          ]
+        },
+        {
+          "h": "Configúralo con Rotate+",
+          "p": [
+            "Rotate+ (nuestra app) fija la orientación de la pantalla para todo el teléfono o para cada app con un toque, sin root."
+          ],
+          "steps": [
+            "Instala Rotate+ desde Google Play, ábrelo y permite «Mostrar sobre otras apps» cuando se te pida.",
+            "Toca un modo: Auto, Vertical, Horizontal, Vertical invertida, Horizontal invertida o Fijar actual. Se aplica al instante a todo el teléfono.",
+            "Para las reglas por app, permite la accesibilidad (o el acceso a datos de uso) cuando se te pida y luego elige una app y su orientación; por ejemplo, horizontal para una app de vídeo y vertical para el chat.",
+            "Abre esa app: la regla se aplica al abrirla y se quita al salir."
+          ]
+        },
+        {
+          "h": "Cuando una app vuelve a girar la pantalla",
+          "p": [
+            "Algunas apps vuelven a fijar su propia orientación. «Mantener la orientación» restaura tu elección y deja de intentarlo si una app insiste, para que no haya bucles.",
+            "Para una sola vez, «Girar una vez» gira solo la app actual a la otra orientación y se quita sola al cambiar de app o apagar la pantalla. Dos iconos de ajustes rápidos, widgets de pantalla de inicio y accesos directos lo dejan todo a un toque."
+          ]
+        },
+        {
+          "h": "Qué es gratis y qué añade Pro",
+          "p": [
+            "Todos los modos de rotación, Mantener la orientación, Girar una vez, los iconos de ajustes rápidos, los widgets y los accesos directos son gratis, junto con 3 reglas por app y un pequeño banner. Pro añade reglas por app ilimitadas, condiciones que cambian la orientación solas (al cargar, con auriculares, un dispositivo Bluetooth, una base de coche o de escritorio, durante una llamada o a ciertas horas), un botón flotante de rotación y quita los anuncios."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo forzar el modo horizontal en una app que solo admite vertical?",
+          "a": "Normalmente, sí: para eso está Rotate+. Mantiene la orientación elegida con una ventana invisible de 1 píxel, sin root. Si la app vuelve a girar la pantalla, «Mantener la orientación» restaura tu elección; si insiste, Rotate+ deja de intentarlo para que la pantalla no entre en bucle."
+        },
+        {
+          "q": "¿Necesito root?",
+          "a": "No. Rotate+ funciona sin root. En las pantallas grandes con Android 16, que ignoran la petición de giro habitual de las apps, usa automáticamente el ajuste de rotación del sistema."
+        },
+        {
+          "q": "¿Por qué Rotate+ pide accesibilidad?",
+          "a": "Solo para saber qué app está en pantalla (para las reglas por app) y para mantener la orientación elegida con una ventana invisible de 1 píxel. Rotate+ nunca lee el contenido de la pantalla, textos ni contraseñas. Puedes usar el acceso a datos de uso en su lugar, y no se envía nada a ninguna parte."
+        },
+        {
+          "q": "¿Funciona en todas las pantallas?",
+          "a": "No del todo. Algunas pantallas del sistema, como ciertas páginas de ajustes en los teléfonos Samsung, pueden no seguir la orientación elegida. Vuelve en cuanto sales de ellas."
+        }
+      ]
     }
   }
 }

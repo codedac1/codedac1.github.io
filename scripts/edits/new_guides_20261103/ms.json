@@ -1,0 +1,67 @@
+{
+  "force-screen-rotation-per-app-android": {
+    "app": "rotate",
+    "updated": "2026-11-03",
+    "title": "Cara memaksa putaran skrin mengikut aplikasi di Android (tanpa root)",
+    "desc": "“Auto-rotate” Android hanyalah satu suis untuk seluruh telefon, dan ada aplikasi yang enggan berputar. Ini cara mengekalkan video dalam landskap dan sembang dalam potret, aplikasi demi aplikasi, tanpa root.",
+    "intro": "Android mempunyai satu tetapan putaran untuk seluruh telefon. Ada aplikasi yang kekal potret walaupun “Auto-rotate” dihidupkan, dan ada yang berputar sebaik anda berbaring. Jika anda mahu video dan permainan dalam landskap tetapi sembang dan membaca dalam potret, anda memerlukan peraturan untuk setiap aplikasi.",
+    "sections": [
+      {
+        "h": "Apa yang Android boleh lakukan sendiri",
+        "p": [
+          "“Auto-rotate” dalam tetapan pantas memutar skrin mengikut telefon, untuk semua aplikasi sekali gus. Apabila ia dimatikan, skrin kekal seperti biasa; pada banyak telefon, butang putar kecil kemudian muncul dalam bar navigasi apabila anda memusingkan telefon, supaya anda boleh memutarnya sekali itu sahaja.",
+          "Apa yang Android tidak boleh lakukan ialah mengingati orientasi berbeza bagi setiap aplikasi, dan aplikasi yang dibuat untuk potret sahaja kekal potret walau apa pun tetapannya."
+        ]
+      },
+      {
+        "h": "Tablet dan skrin besar Android 16",
+        "p": [
+          "Pada Android 16, skrin besar seperti tablet mengabaikan permintaan putaran biasa daripada aplikasi — permintaan yang sama yang biasanya digunakan oleh aplikasi putaran untuk memaksa orientasi. Rotate+ mengesannya dan beralih ke tetapan putaran sistem secara automatik, jadi ia terus berfungsi di sana."
+        ]
+      },
+      {
+        "h": "Tetapkan dengan Rotate+",
+        "p": [
+          "Rotate+ (aplikasi kami) memaksa orientasi skrin untuk seluruh telefon atau setiap aplikasi, dengan satu ketikan dan tanpa root."
+        ],
+        "steps": [
+          "Pasang Rotate+ dari Google Play, bukanya dan benarkan “Papar di atas apl lain” apabila diminta.",
+          "Ketik satu mod — Auto, Potret, Landskap, Potret terbalik, Landskap terbalik atau Kunci semasa. Ia terus digunakan pada seluruh telefon.",
+          "Untuk peraturan mengikut apl, benarkan kebolehcapaian (atau akses penggunaan) apabila diminta, kemudian pilih aplikasi dan orientasinya — contohnya, landskap untuk aplikasi video dan potret untuk sembang.",
+          "Buka aplikasi itu: peraturan aktif apabila ia dibuka dan dilepaskan apabila anda keluar."
+        ]
+      },
+      {
+        "h": "Apabila aplikasi memusingkan skrin semula",
+        "p": [
+          "Sesetengah aplikasi menetapkan orientasinya sendiri semula. Kekalkan orientasi memulihkan pilihan anda, dan berhenti mencuba jika aplikasi terus melawan, supaya tiada apa-apa yang berpusing tanpa henti.",
+          "Untuk sekali sahaja, Putar sekali memutar aplikasi semasa sahaja ke orientasi yang satu lagi dan dilepaskan sendiri apabila anda menukar aplikasi atau mematikan skrin. Dua jubin tetapan pantas, widget skrin utama dan pintasan apl memastikan ia hanya satu ketikan."
+        ]
+      },
+      {
+        "h": "Apa yang percuma, dan apa tambahan Pro",
+        "p": [
+          "Semua mod putaran, Kekalkan orientasi, Putar sekali, jubin, widget dan pintasan adalah percuma, bersama 3 peraturan mengikut apl dan iklan sepanduk kecil. Pro menambah peraturan mengikut apl tanpa had, syarat yang menukar orientasi secara automatik (semasa mengecas, dengan fon kepala, peranti Bluetooth, dok kereta atau meja, semasa panggilan atau pada waktu tertentu), butang putar terapung dan tanpa iklan."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Bolehkah saya memaksa landskap dalam aplikasi yang hanya menyokong potret?",
+        "a": "Biasanya, ya — itulah tujuan Rotate+. Ia mengekalkan orientasi pilihan anda dengan tetingkap halimunan bersaiz 1 piksel, tanpa root. Jika aplikasi memusingkan skrin semula, Kekalkan orientasi memulihkan pilihan anda; jika ia terus melawan, Rotate+ berhenti mencuba supaya skrin tidak berpusing tanpa henti."
+      },
+      {
+        "q": "Adakah saya perlukan root?",
+        "a": "Tidak. Rotate+ berfungsi tanpa root. Pada skrin besar Android 16, yang mengabaikan permintaan putaran biasa daripada aplikasi, ia beralih ke tetapan putaran sistem secara automatik."
+      },
+      {
+        "q": "Mengapa Rotate+ meminta kebolehcapaian?",
+        "a": "Hanya untuk mengetahui aplikasi yang sedang dipaparkan, untuk peraturan mengikut apl, dan untuk mengekalkan orientasi pilihan anda dengan tetingkap halimunan bersaiz 1 piksel. Rotate+ tidak pernah membaca kandungan skrin, teks atau kata laluan. Anda boleh menggunakan akses penggunaan sebagai ganti, dan tiada apa-apa dihantar ke mana-mana."
+      },
+      {
+        "q": "Adakah ia berfungsi pada setiap skrin?",
+        "a": "Tidak sepenuhnya. Beberapa skrin sistem, seperti sesetengah halaman tetapan pada telefon Samsung, mungkin tidak mengikut orientasi yang anda pilih. Ia kembali sebaik sahaja anda keluar daripadanya."
+      }
+    ]
+  }
+}

@@ -783,6 +783,71 @@
           "a": "The keyboard's clipboard is fine for something you copied minutes ago. A clipboard manager keeps a history until you delete it, with search, pinning and images."
         }
       ]
+    },
+    "force-screen-rotation-per-app-android": {
+      "app": "rotate",
+      "updated": "2026-11-03",
+      "title": "How to force screen rotation per app on Android (no root)",
+      "desc": "Android's auto-rotate is one switch for the whole phone, and some apps refuse to turn. Here is how to keep videos in landscape and chat in portrait, app by app, without root.",
+      "intro": "Android has one rotation setting for the whole phone. Some apps stay in portrait even with auto-rotate on, and others turn when you just lie down. If you want videos and games in landscape but chat and reading in portrait, you need a rule for each app.",
+      "sections": [
+        {
+          "h": "What Android can do on its own",
+          "p": [
+            "Auto-rotate in Quick Settings turns the screen with the phone, for every app at once. With it off, the screen stays put; on many phones a small rotate button then appears in the navigation bar when you turn the phone, so you can rotate just that once.",
+            "What Android cannot do is remember a different orientation for each app, and an app made for portrait only stays in portrait whatever the setting says."
+          ]
+        },
+        {
+          "h": "Android 16 tablets and large screens",
+          "p": [
+            "On Android 16, large screens such as tablets ignore the usual app rotation request — the same request a rotation app normally uses to force an orientation. Rotate+ detects this and switches to the system rotation setting automatically, so it keeps working there."
+          ]
+        },
+        {
+          "h": "Set it up with Rotate+",
+          "p": [
+            "Rotate+ (our app) forces the screen orientation for the whole phone or for each app, with one tap and no root."
+          ],
+          "steps": [
+            "Install Rotate+ from Google Play, open it and allow \"Display over other apps\" when asked.",
+            "Tap a mode — Auto, Portrait, Landscape, Upside down, Reverse landscape or Lock current. It applies right away to the whole phone.",
+            "For per-app rules, allow Accessibility (or Usage access) when asked, then pick an app and its orientation — for example, landscape for a video app and portrait for chat.",
+            "Open that app: the rule is applied when it opens and released when you leave."
+          ]
+        },
+        {
+          "h": "When an app turns the screen back",
+          "p": [
+            "Some apps set their own orientation again. Keep orientation puts your choice back, and stops trying if an app keeps fighting, so nothing loops.",
+            "For a one-off, Rotate once turns just the current app to the other orientation and releases by itself when you switch apps or turn the screen off. Two Quick Settings tiles, home screen widgets and app shortcuts keep it one tap away."
+          ]
+        },
+        {
+          "h": "What is free, and what Pro adds",
+          "p": [
+            "All rotation modes, Keep orientation, Rotate once, tiles, widgets and shortcuts are free, along with 3 per-app rules and a small banner ad. Pro adds unlimited per-app rules, conditions that change the orientation automatically (while charging, with headphones, a Bluetooth device, a car or desk dock, during a call or at set times), a floating rotate button and no ads."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I force landscape in an app that only supports portrait?",
+          "a": "Usually, yes — that is what Rotate+ is for. It holds your chosen orientation with an invisible 1-pixel window, without root. If the app turns the screen back, Keep orientation puts your choice back; if it keeps fighting, Rotate+ stops trying so the screen does not loop."
+        },
+        {
+          "q": "Do I need root?",
+          "a": "No. Rotate+ works without root. On Android 16 large screens, which ignore the usual app rotation request, it switches to the system rotation setting automatically."
+        },
+        {
+          "q": "Why does Rotate+ ask for Accessibility?",
+          "a": "Only to know which app is on screen, for per-app rules, and to hold your chosen orientation with an invisible 1-pixel window. Rotate+ never reads screen content, text or passwords. You can use Usage access instead, and nothing is sent anywhere."
+        },
+        {
+          "q": "Does it work on every screen?",
+          "a": "Not quite. A few system screens, such as some settings pages on Samsung phones, may not follow the orientation you chose. It comes back as soon as you leave them."
+        }
+      ]
     }
   }
 }

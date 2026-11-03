@@ -1,0 +1,67 @@
+{
+  "force-screen-rotation-per-app-android": {
+    "app": "rotate",
+    "updated": "2026-11-03",
+    "title": "Schermrotatie per app afdwingen op Android (zonder root)",
+    "desc": "Automatisch draaien is op Android één schakelaar voor de hele telefoon, en sommige apps weigeren te draaien. Zo houd je video's liggend en chats staand, app voor app, zonder root.",
+    "intro": "Android heeft één draai-instelling voor de hele telefoon. Sommige apps blijven staand, ook als automatisch draaien aan staat, en andere draaien zodra je gaat liggen. Wil je video's en games liggend, maar chatten en lezen staand, dan heb je voor elke app een regel nodig.",
+    "sections": [
+      {
+        "h": "Wat Android zelf kan",
+        "p": [
+          "‘Automatisch draaien’ in de snelle instellingen draait het scherm mee met de telefoon, voor alle apps tegelijk. Staat het uit, dan blijft het scherm zoals het is; op veel telefoons verschijnt dan een kleine draaiknop in de navigatiebalk als je de telefoon kantelt, zodat je alleen die ene keer kunt draaien.",
+          "Wat Android niet kan, is per app een andere stand onthouden, en een app die alleen voor staand is gemaakt, blijft staand, wat de instelling ook zegt."
+        ]
+      },
+      {
+        "h": "Tablets en grote schermen met Android 16",
+        "p": [
+          "Op Android 16 negeren grote schermen zoals tablets het gewone draaiverzoek van apps — hetzelfde verzoek dat een draai-app normaal gebruikt om een stand af te dwingen. Rotate+ merkt dat op en gebruikt automatisch de draai-instelling van het systeem, zodat het daar blijft werken."
+        ]
+      },
+      {
+        "h": "Instellen met Rotate+",
+        "p": [
+          "Rotate+ (onze app) legt de schermstand vast voor de hele telefoon of per app, met één tik en zonder root."
+        ],
+        "steps": [
+          "Installeer Rotate+ via Google Play, open de app en sta ‘Display over other apps’ toe als daarom gevraagd wordt.",
+          "Tik op een stand — Auto, Staand, Liggend, Staand omgekeerd, Liggend omgekeerd of Huidige vastzetten. Die geldt direct voor de hele telefoon.",
+          "Voor regels per app sta je toegankelijkheid (of toegang tot gebruiksgegevens) toe als daarom gevraagd wordt, en kies je daarna een app en de stand ervan — bijvoorbeeld liggend voor een video-app en staand voor chatten.",
+          "Open die app: de regel geldt zodra de app opent en stopt als je hem verlaat."
+        ]
+      },
+      {
+        "h": "Als een app het scherm terugdraait",
+        "p": [
+          "Sommige apps zetten hun eigen stand opnieuw. Stand vasthouden zet jouw keuze terug en stopt met proberen als een app blijft tegenwerken, zodat er geen eindeloos gedraai ontstaat.",
+          "Voor één keer draait Eén keer draaien alleen de huidige app naar de andere stand en stopt vanzelf als je van app wisselt of het scherm uitzet. Twee tegels in snelle instellingen, widgets voor het startscherm en app-snelkoppelingen houden het binnen één tik."
+        ]
+      },
+      {
+        "h": "Wat gratis is en wat Pro toevoegt",
+        "p": [
+          "Alle draaistanden, Stand vasthouden, Eén keer draaien, tegels, widgets en snelkoppelingen zijn gratis, samen met 3 regels per app en een kleine banner. Pro voegt onbeperkt regels per app toe, voorwaarden die de stand automatisch wijzigen (tijdens het opladen, met een koptelefoon, een Bluetooth-apparaat, in een auto- of bureaudock, tijdens een gesprek of op vaste tijden), een zwevende draaiknop en geen advertenties."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kan ik liggend afdwingen in een app die alleen staand ondersteunt?",
+        "a": "Meestal wel — daar is Rotate+ voor. Het houdt de gekozen stand vast met een onzichtbaar venster van 1 pixel, zonder root. Draait de app het scherm terug, dan zet Stand vasthouden jouw keuze terug; blijft de app tegenwerken, dan stopt Rotate+ met proberen, zodat het scherm niet eindeloos blijft draaien."
+      },
+      {
+        "q": "Heb ik root nodig?",
+        "a": "Nee. Rotate+ werkt zonder root. Op grote schermen met Android 16, die het gewone draaiverzoek van apps negeren, gebruikt het automatisch de draai-instelling van het systeem."
+      },
+      {
+        "q": "Waarom vraagt Rotate+ om toegankelijkheid?",
+        "a": "Alleen om te weten welke app op het scherm staat, voor regels per app, en om de gekozen stand vast te houden met een onzichtbaar venster van 1 pixel. Rotate+ leest nooit scherminhoud, tekst of wachtwoorden. Je kunt ook toegang tot gebruiksgegevens gebruiken, en er wordt nergens iets naartoe gestuurd."
+      },
+      {
+        "q": "Werkt het op elk scherm?",
+        "a": "Niet helemaal. Een paar systeemschermen, zoals sommige instellingenpagina's op Samsung-telefoons, volgen de gekozen stand mogelijk niet. De stand komt terug zodra je ze verlaat."
+      }
+    ]
+  }
+}
