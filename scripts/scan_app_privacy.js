@@ -23,6 +23,7 @@ const ANDROID_PROJECT = {
   floatcrypto: 'FloatCrypto', floattimer: 'FloatTimer', volumebooster: 'VolumeBooster',
   photocleaner: 'PhotoCleaner', readfocus: 'ReadFocus', floatnote: 'FloatNote',
   rotate: 'Rotate', callernote: 'CallerNote', floatprompter: 'FloatPrompter',
+  floatweb: 'FloatWeb',
 };
 const WINDOWS_PROJECT = {
   clipboardwin: 'ClipboardWin', readfocuswin: 'ReadFocusWin',
@@ -50,6 +51,10 @@ const PERM_CODE = {
   'android.permission.CAMERA': 'camera',
   'android.permission.RECORD_AUDIO': 'microphone',
   'android.permission.WRITE_EXTERNAL_STORAGE': 'storage',
+  // FloatWeb+ (2026-11-03): 창에 연 웹 페이지가 요청하고 창 안 질문에서 '허용'을 눌렀을 때만 묻는다 — 방침 7항.
+  // CAMERA·RECORD_AUDIO 는 위 코드를 같이 쓴다.
+  'android.permission.ACCESS_FINE_LOCATION': 'location',
+  'android.permission.ACCESS_COARSE_LOCATION': 'location',
 };
 // 서비스의 android:permission(BIND_*) → 코드. 사용자가 시스템 설정에서 켜 주는 특별 접근이라 uses-permission 에 나오지 않는다.
 // 주석에 이름만 적힌 경우를 잡지 않도록 속성 형태로만 찾는다.
@@ -58,7 +63,7 @@ const SERVICE_PERM_CODE = {
   'android.permission.BIND_SCREENING_SERVICE': 'callScreening',
   'android.permission.BIND_NOTIFICATION_LISTENER_SERVICE': 'notificationAccess',
 };
-const PERM_ORDER = ['callScreening', 'notificationAccess', 'accessibility', 'usage', 'overlay', 'phoneState', 'contacts', 'camera', 'microphone', 'storage', 'writeSettings', 'notifications', 'foreground', 'boot', 'battery', 'audio', 'bluetooth', 'adId'];
+const PERM_ORDER = ['callScreening', 'notificationAccess', 'accessibility', 'usage', 'overlay', 'phoneState', 'contacts', 'location', 'camera', 'microphone', 'storage', 'writeSettings', 'notifications', 'foreground', 'boot', 'battery', 'audio', 'bluetooth', 'adId'];
 const DATA_ORDER = ['ads', 'billing', 'store', 'purchaseReport', 'driveSync', 'driveBackup', 'fx', 'crypto', 'mlkit'];
 
 // 소스에 나오는 외부 호스트 → 코드. 문서·정책 링크처럼 앱이 데이터를 주고받지 않는 주소는 IGNORE.
@@ -72,7 +77,8 @@ const HOST_CODE = {
   'msstore-report-847105046915.asia-northeast3.run.app': 'purchaseReport',
 };
 // openxmlformats.org: CallerNote+ 엑셀 내보내기(xlsx)의 XML 네임스페이스 — 접속하는 주소가 아니다.
-const HOST_IGNORE = /(^|\.)(android\.com|google\.com|googleusercontent\.com|microsoft\.com|codedac\.com|github\.com|apache\.org|w3\.org|openxmlformats\.org|schemas\.|example\.|play\.google\.com)$/;
+// youtube.com·wikipedia.org: FloatWeb+ 추천 사이트 목록(사용자가 고르면 창에서 직접 연다, 방침 4항) — 앱이 데이터를 주고받는 API 가 아니다.
+const HOST_IGNORE = /(^|\.)(android\.com|google\.com|youtube\.com|wikipedia\.org|googleusercontent\.com|microsoft\.com|codedac\.com|github\.com|apache\.org|w3\.org|openxmlformats\.org|schemas\.|example\.|play\.google\.com)$/;
 
 function walk(dir, test, acc = []) {
   let entries;

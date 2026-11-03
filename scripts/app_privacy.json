@@ -15,7 +15,7 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-10-20"
+    "mergedManifest": "2026-11-03"
   },
   "autostart": {
     "platform": "android",
@@ -31,7 +31,7 @@
       "battery",
       "adId"
     ],
-    "mergedManifest": "2026-10-16"
+    "mergedManifest": "2026-11-02"
   },
   "floatcalc": {
     "platform": "android",
@@ -46,7 +46,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-10-20"
+    "mergedManifest": "2026-10-29"
   },
   "floatcrypto": {
     "platform": "android",
@@ -62,7 +62,7 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-10-20"
+    "mergedManifest": "2026-11-02"
   },
   "floattimer": {
     "platform": "android",
@@ -76,7 +76,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-10-19"
+    "mergedManifest": "2026-11-02"
   },
   "volumebooster": {
     "platform": "android",
@@ -91,7 +91,7 @@
       "audio",
       "adId"
     ],
-    "mergedManifest": "2026-10-16"
+    "mergedManifest": "2026-11-02"
   },
   "photocleaner": {
     "platform": "android",
@@ -103,7 +103,7 @@
     "perms": [
       "adId"
     ],
-    "mergedManifest": "2026-10-16"
+    "mergedManifest": "2026-11-02"
   },
   "readfocus": {
     "platform": "android",
@@ -117,7 +117,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-10-20"
+    "mergedManifest": "2026-10-28"
   },
   "floatnote": {
     "platform": "android",
@@ -133,7 +133,7 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-10-16"
+    "mergedManifest": "2026-10-26"
   },
   "rotate": {
     "platform": "android",
@@ -191,6 +191,23 @@
       "adId"
     ],
     "mergedManifest": null
+  },
+  "floatweb": {
+    "platform": "android",
+    "data": [
+      "ads",
+      "billing"
+    ],
+    "perms": [
+      "overlay",
+      "location",
+      "camera",
+      "microphone",
+      "notifications",
+      "foreground",
+      "adId"
+    ],
+    "mergedManifest": "2026-11-03"
   },
   "clipboardwin": {
     "platform": "windows",
