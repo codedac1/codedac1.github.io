@@ -102,7 +102,8 @@ WEIGHTS = {
     "floattimer":    10,
     "clipboard":     10,
     "floatcalc":      3,
-    "volumebooster":  3,
+    # 2026-11-04 사용자 결정: 최고 가중치로(ReadFocus 40 보다 위). 10/23 1.2.6 이후 설치·보상형이 가장 많이 늘어난 앱.
+    "volumebooster": 50,
     "photocleaner":   1,
     # 신규라 설치당 수익 데이터가 없다. 초기 설치가 순위에 중요해 중간값(10)으로 시작하고,
     # 출시 30일 뒤 다른 앱과 같은 설치당 월수익 기준으로 다시 잡는다.
