@@ -1047,6 +1047,8 @@ img { max-width: 100%; }
      라벨이 길어(프랑스어 LANGUES DES APPLIS 등) 줄이 넘어가는데, 그러면
      넘어간 항목의 왼쪽에 짝 없는 선 하나가 떠 있게 된다. */
   .hstat + .hstat::before { display: none; }
+  /* 지표가 4칸(사용 국가 추가, 11-06)이 되면서 폰에서는 3+1 로 어색하게 넘어간다 → 2×2 */
+  .hero-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 12px; }
 }
 
 /* 메뉴 접기는 640px 이 아니라 900px 에서 — 메뉴가 5개(가이드 추가, 10-26)가 되자 nl·de·ru 등 긴 언어에서

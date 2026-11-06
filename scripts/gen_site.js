@@ -19,7 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '104'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '105'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -134,6 +134,11 @@ try {
 // 누적 다운로드 표기 (최소 설치수 합계를 1,000 단위로 내림 → "12,000+")
 const DL_TOTAL = STATS.aggregate && STATS.aggregate.totalMinInstalls || 0;
 const DL_DISPLAY = DL_TOTAL >= 1000 ? (Math.floor(DL_TOTAL / 1000) * 1000).toLocaleString('en-US') + '+' : (DL_TOTAL ? DL_TOTAL + '+' : null);
+
+// 사용 국가 수 (site_facts.json, 손으로 갱신 — Play 설치 통계의 활성 기기 1대 이상인 나라). 없으면 칸 생략.
+let SITE_FACTS = {};
+try { SITE_FACTS = require('./site_facts.json'); } catch { /* 없으면 국가 칸 생략 */ }
+const COUNTRIES_DISPLAY = SITE_FACTS.countries ? String(SITE_FACTS.countries) : null;
 
 // 앱별 지원 언어 수 (scan_app_langs.js 산출물). 없으면 언어 배지 생략.
 let APP_LANGS = {};
@@ -494,7 +499,7 @@ function footer(code, ui) {
 }
 
 
-// 히어로 지표 스트립 (출시 앱 수 · 누적 다운로드 · 지원 언어 수)
+// 히어로 지표 스트립 (출시 앱 수 · 누적 다운로드 · 지원 언어 수 · 사용 국가 수)
 // '출시 앱' 이므로 스토어 링크가 있는 앱만 센다 — 출시 준비 중인 앱(store: "")은
 // 상세 페이지에 '출시 준비 중' 배지를 달고 목록에는 나오지만, 아직 출시된 앱이 아니다.
 function statStrip(ui) {
@@ -502,6 +507,7 @@ function statStrip(ui) {
     { num: String(PUBLISHED_APPS), label: ui['stats.apps'] },
     DL_DISPLAY ? { num: DL_DISPLAY, label: ui['stats.downloads'] } : null,
     { num: APP_LANG_DISPLAY || String(ACTIVE.length), label: ui['stats.languages'] },
+    COUNTRIES_DISPLAY && ui['stats.countries'] ? { num: COUNTRIES_DISPLAY, label: ui['stats.countries'] } : null,
   ].filter(Boolean);
   // 숫자는 어느 언어에서나 왼쪽에서 오른쪽으로 읽는다. RTL 문서에서 dir 을 명시하지 않으면
   // "12,000+" 의 후행 '+' 가 중립 문자로 취급돼 숫자 왼쪽으로 밀려 "+12,000" 이 된다.
