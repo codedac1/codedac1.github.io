@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-06",
+  "generatedAt": "2026-11-09",
   "source": {
     "lang": "en",
     "country": "us"
   },
   "aggregate": {
     "publishedApps": 16,
-    "totalMinInstalls": 25600,
-    "totalRatings": 363,
-    "avgScore": 4.1,
+    "totalMinInstalls": 25650,
+    "totalRatings": 371,
+    "avgScore": 4.11,
     "byStore": {
-      "play": 25600,
+      "play": 25650,
       "msstore": 0
     }
   },
@@ -20,7 +20,7 @@
       "store": "play",
       "appId": "com.codedac.clipboard",
       "score": 3.97,
-      "ratings": 221,
+      "ratings": 222,
       "installs": "10,000+",
       "minInstalls": 10000
     },
@@ -28,7 +28,7 @@
       "store": "play",
       "appId": "com.codedac.autostart",
       "score": 3.67,
-      "ratings": 71,
+      "ratings": 73,
       "installs": "10,000+",
       "minInstalls": 10000
     },
@@ -60,7 +60,7 @@
       "store": "play",
       "appId": "com.codedac.volumebooster",
       "score": 5,
-      "ratings": 61,
+      "ratings": 65,
       "installs": "1,000+",
       "minInstalls": 1000
     },
@@ -93,8 +93,8 @@
       "appId": "com.codedac.rotate",
       "score": null,
       "ratings": 0,
-      "installs": "50+",
-      "minInstalls": 50
+      "installs": "100+",
+      "minInstalls": 100
     },
     "clipboardwin": {
       "store": "msstore",
@@ -115,8 +115,8 @@
     "floatnotewin": {
       "store": "msstore",
       "appId": "9NW6610397TC",
-      "score": 4,
-      "ratings": 3,
+      "score": 4.2,
+      "ratings": 4,
       "installs": null,
       "minInstalls": 0
     },
