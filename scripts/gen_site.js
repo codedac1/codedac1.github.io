@@ -14,12 +14,13 @@
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
+const QRCode = require('qrcode');
 
 const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '110'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '111'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -569,6 +570,35 @@ const storeUrl = (app, code, placement) => {
   if (app.platform === 'windows') return `${app.store}${sep}cid=site-${placement}-${code}`;
   const ref = `utm_source=codedac_site&utm_medium=${placement}&utm_campaign=${code}`;
   return `${app.store}${sep}referrer=${encodeURIComponent(ref)}`;
+};
+
+// 데스크톱 방문자용 QR. PC 에서 Play 버튼을 누르면 Play 웹 페이지에서 멈춰 설치로 거의 이어지지 않는다.
+// 휴대폰 카메라로 바로 열 수 있게 QR 을 함께 둔다. 빌드 때 인라인 SVG 로 굽는다 — 외부 스크립트·
+// QR 웹 API·추적 없음. 보이는 건 CSS 가 마우스를 쓰는 넓은 화면(hover·pointer·min-width)으로만 한정한다.
+// referrer 는 placement 'qr-desktop' 으로 Play 버튼(detail-hero)과 갈라 QR 로 들어온 설치를 따로 센다.
+// 바탕은 테마와 무관하게 흰색 — 어두운 바탕에 밝은 모듈이면 인식 못 하는 카메라가 많다.
+function qrSvg(text, label) {
+  const qr = QRCode.create(text, { errorCorrectionLevel: 'M' });
+  const n = qr.modules.size;
+  const q = 2; // 여백(모듈 수). 나머지 여백은 흰 타일의 패딩이 맡는다.
+  let d = '';
+  for (let y = 0; y < n; y++) {
+    // 가로로 이어진 검은 모듈은 사각형 하나로 묶는다(페이지마다 들어가니 크기를 줄인다).
+    for (let x = 0; x < n; x++) {
+      if (!qr.modules.get(y, x)) continue;
+      let run = 1;
+      while (x + run < n && qr.modules.get(y, x + run)) run++;
+      d += `M${x + q} ${y + q}h${run}v1h-${run}z`;
+      x += run - 1;
+    }
+  }
+  const w = n + q * 2;
+  return `<svg class="app-qr-code" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${w}" width="140" height="140" shape-rendering="crispEdges" role="img" aria-label="${escAttr(label)}"><rect width="${w}" height="${w}" fill="#fff"/><path fill="#141b2d" d="${d}"/></svg>`;
+}
+const qrBlock = (app, code, ui) => {
+  if (app.platform === 'windows' || !app.store) return '';
+  const label = ui['qr.scan'];
+  return `<div class="app-qr">${qrSvg(storeUrl(app, code, 'qr-desktop'), label)}<span class="app-qr-cap">${escText(label)}</span></div>`;
 };
 
 // 플랫폼 이름. 고유명사라 번역하지 않고 모든 언어에서 그대로 쓴다(홈의 앱 그룹 제목과 같은 규칙).
@@ -1167,7 +1197,7 @@ ${Array.from({ length: heroShotCount }, (_, i) => `          ${shotImg(i, false)
     ? `<a href="${escAttr(storeUrl(cnWin, code, 'detail-hero-cn'))}" class="btn btn-glass" target="_blank" rel="noopener">Windows · ${escText(ui['store.ms'])}</a>`
     : '';
   const cnNote = cnWin ? `<span class="app-platform-note cn-note">无法打开 Google Play？Windows 版可在 Microsoft Store 获取。</span>` : '';
-  const heroAction = [storeBtn, cnBtn, supportBtn, noteHtml, cnNote].filter(Boolean).join('\n            ');
+  const heroAction = [storeBtn, cnBtn, supportBtn, noteHtml, cnNote, qrBlock(app, code, ui)].filter(Boolean).join('\n            ');
 
   // --- 본문 섹션: 훑어보기(기능·스크린샷) → 자세히(개요) → 믿음(후기) → 궁금증(FAQ) → 다음 행선지 ---
   // 바탕은 흰색·옅은 회색을 번갈아 둔다. 빠지는 섹션(스크린샷·후기 없음 등)이 있어도 줄무늬가 어긋나지 않게

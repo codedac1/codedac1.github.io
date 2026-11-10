@@ -681,6 +681,18 @@ img { max-width: 100%; }
 .app-hero-actions { margin-top: 28px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
 .app-platform-note { color: rgba(255, 255, 255, .7); font-size: 14px; }
 .app-hero-actions .cn-note { flex-basis: 100%; }
+/* 데스크톱 방문자용 Play QR (안드로이드 앱만). 휴대폰·태블릿에선 숨기고, 마우스를 쓰는 넓은 화면에서만
+   버튼 아래 한 줄로 보인다. QR 은 다크 모드에서도 흰 타일 위 어두운 모듈이어야 인식된다. */
+.app-qr { display: none; }
+@media (hover: hover) and (pointer: fine) and (min-width: 900px) {
+  .app-qr { display: flex; flex-basis: 100%; align-items: center; gap: 14px; margin-top: 6px; }
+  .app-qr-code {
+    display: block; width: 140px; height: 140px; flex: 0 0 140px;
+    padding: 6px; background: #fff; border-radius: 12px;
+    box-shadow: 0 10px 24px rgba(8, 12, 26, .3);
+  }
+  .app-qr-cap { color: rgba(255, 255, 255, .78); font-size: 14px; max-width: 180px; line-height: 1.5; }
+}
 
 /* 대표 스크린샷. 겹침 방향이 뒤집히지 않도록 RTL 에서도 이 묶음만은 왼쪽→오른쪽으로 둔다. */
 .app-hero-shots { position: relative; direction: ltr; }
