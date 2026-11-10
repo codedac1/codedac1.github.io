@@ -42,7 +42,7 @@
         {
           "h": "Which one should you use?",
           "p": [
-            "For a one-off — pasting something you copied a minute ago — the keyboard clipboard is enough. If you lose clips you wanted, or you keep retyping the same text, a clipboard manager saves that time. Clipboard+ is free to start; Pro adds sync with the Windows app through your own Google Drive, unlimited image clips and PDF export."
+            "For a one-off — pasting something you copied a minute ago — the keyboard clipboard is enough. If you lose clips you wanted, or you keep retyping the same text, a clipboard manager saves that time. Clipboard+ also syncs with the Windows app through your own Google Drive, keeps as many image clips as you like and exports to PDF."
           ]
         }
       ],
@@ -53,7 +53,7 @@
         },
         {
           "q": "Can I see clipboard history from my phone on my PC?",
-          "a": "Yes, with Clipboard+ on both: the Android app and Clipboard+ for Windows sync through your own Google Drive (a Pro feature on Android)."
+          "a": "Yes, with Clipboard+ on both: the Android app and Clipboard+ for Windows sync through your own Google Drive."
         },
         {
           "q": "I granted every permission, but not everything I copy gets saved.",
@@ -102,10 +102,6 @@
         {
           "q": "Why don't my apps open before I unlock the phone?",
           "a": "Android does not let apps open others until the phone has been unlocked once after a reboot. Your apps open right after you unlock."
-        },
-        {
-          "q": "How many apps can I auto start for free?",
-          "a": "The free version starts 1 app per boot. Pro starts your whole list in order."
         }
       ]
     },
@@ -138,7 +134,7 @@
         {
           "h": "Also on your PC",
           "p": [
-            "FloatNote+ for Windows floats the same kind of notes over any window, and the two apps sync through your own Google Drive (a Pro feature on Android)."
+            "FloatNote+ for Windows floats the same kind of notes over any window, and the two apps sync through your own Google Drive."
           ]
         }
       ],
@@ -149,11 +145,7 @@
         },
         {
           "q": "Can a note pop up at a set time?",
-          "a": "Yes. In FloatNote+, set a reminder from the note's ⋮ menu and the note comes up on screen with a notification. The free version keeps one reminder; Pro has no limit."
-        },
-        {
-          "q": "Is FloatNote+ free?",
-          "a": "Saving notes is free and unlimited, and the free version floats one note at a time. Pro adds unlimited floating notes, inline images, Google Drive sync and no ads."
+          "a": "Yes. In FloatNote+, set a reminder from the note's ⋮ menu and the note comes up on screen with a notification. You can set as many reminders as you like."
         }
       ]
     },
@@ -179,7 +171,7 @@
         {
           "h": "More than one at a time",
           "p": [
-            "You can make as many timers, counters and stopwatches as you like for free, and they keep running. The free version shows two on screen at a time; Pro floats as many as you want at once."
+            "You can make as many timers, counters and stopwatches as you like, float as many as you want at once, and they all keep running."
           ]
         }
       ],
@@ -234,10 +226,6 @@
         {
           "q": "Does PhotoCleaner+ upload my photos?",
           "a": "No. Detection and masking run on your phone, and your photos and documents are never uploaded."
-        },
-        {
-          "q": "Is it free?",
-          "a": "Detection, editing and masking are free; you can export 3 times a day. Pro removes the daily limit and adds PDF export and printing."
         }
       ]
     },
@@ -270,7 +258,7 @@
         {
           "h": "Your notes on your phone too",
           "p": [
-            "FloatNote+ for Windows syncs with the FloatNote+ Android app through your own Google Drive, so a note you write on your PC is on your phone. Notes, reminders and sync are free; an optional one-time Pro adds more floating notes, opacity, images and export."
+            "FloatNote+ for Windows syncs with the FloatNote+ Android app through your own Google Drive, so a note you write on your PC is on your phone. Notes can also hold images and reminders, and you can adjust their opacity and export them."
           ]
         }
       ],
@@ -314,7 +302,7 @@
         {
           "h": "Between your phone and PC",
           "p": [
-            "Paired with the Clipboard+ Android app, what you copy on your phone pastes on your PC and the other way around, through your own Google Drive. Clipboard history, snippets, search, the quick-pick popup and sync are free; an optional one-time Pro adds backup restore, unlimited groups, PDF export and more image storage."
+            "Paired with the Clipboard+ Android app, what you copy on your phone pastes on your PC and the other way around, through your own Google Drive. You can also restore from a backup, make as many groups as you need and export to PDF."
           ]
         }
       ],
@@ -355,9 +343,9 @@
           ]
         },
         {
-          "h": "Free and Pro",
+          "h": "What you get",
           "p": [
-            "You can make as many timers, counters and stopwatches as you like, with no ads. The free version floats two cards at a time; Pro is a one-time purchase that floats as many as you want and adds repeating timers and custom alerts."
+            "You can make as many timers, counters and stopwatches as you like and float as many cards as you want at once, with repeating timers and custom alerts."
           ]
         }
       ],
@@ -398,9 +386,9 @@
           ]
         },
         {
-          "h": "Free and Pro",
+          "h": "What you get",
           "p": [
-            "The free version includes both focus modes, 3 color themes, and strip height and opacity adjustment. Pro removes the ads and adds all 10 themes and keep-screen-on."
+            "Both focus modes, all 10 color themes, strip height and opacity adjustment, and keep-screen-on so the display stays awake while you read."
           ]
         }
       ],
@@ -441,9 +429,9 @@
           ]
         },
         {
-          "h": "Free and Pro",
+          "h": "What you get",
           "p": [
-            "The free version includes both modes, strip height and opacity settings, and three themes. Pro is a one-time purchase that adds premium themes and keep-screen-on. There are no ads."
+            "Both modes, strip height and opacity settings, ten color themes and keep-screen-on."
           ]
         }
       ],
@@ -484,9 +472,9 @@
           ]
         },
         {
-          "h": "Free and Pro",
+          "h": "What you get",
           "p": [
-            "The floating calculator, length units and currency conversion between your own currency, USD and EUR are free, with ads. Pro removes the ads and adds all unit categories, every currency pair and more themes."
+            "Besides the calculator, FloatCalc+ converts between 30+ currencies and across every unit category — length, weight, temperature, area, volume, speed and time — and comes with 8 color themes."
           ]
         }
       ],
@@ -523,8 +511,8 @@
         {
           "h": "Good to know",
           "p": [
-            "Prices come from Binance with an automatic fallback source and may be delayed by up to 30 seconds (10 seconds on Pro). They are for reference only, and the app does not trade or connect to an exchange account. Nothing here is investment advice.",
-            "Free follows 2 coins with 1 alert. Pro gives 10 coins, unlimited alerts, longer charts, a 10-second refresh and no ads."
+            "Prices come from Binance with an automatic fallback source and may be delayed by up to 10 seconds. They are for reference only, and the app does not trade or connect to an exchange account. Nothing here is investment advice.",
+            "Follow up to 10 coins with unlimited alerts and longer charts."
           ]
         }
       ],
@@ -535,7 +523,7 @@
         },
         {
           "q": "Are the prices real-time?",
-          "a": "They may be delayed by up to 30 seconds (10 seconds on Pro) and are for reference only."
+          "a": "They may be delayed by up to 10 seconds and are for reference only."
         }
       ]
     },
@@ -566,9 +554,9 @@
           ]
         },
         {
-          "h": "Free and Pro, and your hearing",
+          "h": "How loud it goes, and your hearing",
           "p": [
-            "Free boosts up to 183% (+10 dB); Pro opens 225% (+15 dB). The dB value is an estimate, and the app is not a medical device — if you notice ear pain or ringing, lower the volume."
+            "VolumeBooster+ boosts up to 225% (+15 dB). The dB value is an estimate, and the app is not a medical device — if you notice ear pain or ringing, lower the volume."
           ]
         }
       ],
@@ -579,7 +567,7 @@
         },
         {
           "q": "How much louder can it go?",
-          "a": "Up to 225% (+15 dB) with Pro, and up to 183% (+10 dB) on the free version, on top of your device volume. Actual loudness varies by device, headphones and content."
+          "a": "Up to 225% (+15 dB) on top of your device volume. Actual loudness varies by device, headphones and content."
         }
       ]
     },
@@ -608,9 +596,9 @@
           ]
         },
         {
-          "h": "Free and Pro",
+          "h": "What you get",
           "p": [
-            "Finding personal info is free and unlimited, and you can export 3 documents a day for free. Pro is a one-time purchase that removes the daily limit and adds PDF export and printing. There are no ads and no watermark."
+            "Finding personal info and exporting masked copies are unlimited, and you can also save as PDF and print. Exports carry no watermark."
           ]
         }
       ],
@@ -647,8 +635,8 @@
         {
           "h": "Good to know",
           "p": [
-            "Hover the tray icon for a full price table, and hide the ticker with Ctrl+Alt+T. Prices come from Binance's public market data with automatic fallback and may be delayed by up to 30 seconds; the app doesn't trade or connect to an exchange account, and nothing in it is investment advice.",
-            "Free follows 2 coins with 1 alert; Pro is a one-time purchase for 10 coins, unlimited alerts, a 10-second refresh and longer charts. There are no ads."
+            "Hover the tray icon for a full price table, and hide the ticker with Ctrl+Alt+T. Prices come from Binance's public market data with automatic fallback and may be delayed by up to 10 seconds; the app doesn't trade or connect to an exchange account, and nothing in it is investment advice.",
+            "Follow up to 10 coins with unlimited alerts and longer charts."
           ]
         }
       ],
@@ -694,12 +682,6 @@
           "p": [
             "No window can stay on top of a game running in exclusive full-screen mode. Switch the game's display mode to borderless or windowed in its settings, and floating windows — the Clock app's or FloatTimer+ cards — show above it again."
           ]
-        },
-        {
-          "h": "Free and Pro",
-          "p": [
-            "You can make as many stopwatches, timers and counters as you like, with no ads. The free version floats two cards at a time; Pro is a one-time purchase that floats as many as you want."
-          ]
         }
       ],
       "faq": [
@@ -713,14 +695,14 @@
         },
         {
           "q": "Can I run more than one stopwatch at a time?",
-          "a": "With FloatTimer+ you can make as many as you like, each timed separately. The free version shows two floating cards at once; Pro floats more."
+          "a": "With FloatTimer+ you can make as many as you like, each timed separately, and float them all at once."
         }
       ]
     },
     "choose-clipboard-manager-android": {
       "app": "clipboard",
       "updated": "2026-10-30",
-      "title": "What to look for in a free clipboard manager for Android",
+      "title": "What to look for in a clipboard manager for Android",
       "desc": "Android keeps only the last thing you copy. Before you pick a clipboard manager, check how it saves your copies, what it keeps, how you get them back, and where your data goes.",
       "intro": "A clipboard manager keeps the things you copy so you can paste them again later. On Android they differ more than they look, mainly because Android limits how apps can read the clipboard. Here is what to check before you choose one.",
       "sections": [
@@ -765,7 +747,7 @@
           "h": "Where Clipboard+ fits",
           "p": [
             "Clipboard+ (our app) saves text and images in a searchable history, with pinning, snippets and groups, a floating panel over other apps, a home-screen widget and a Clipboard+ entry in the text-selection menu. Its optional Auto-save uses Accessibility only to notice the moment you copy, skips clips marked as passwords and sends nothing anywhere; without it, save with the bubble, the widget, the selection menu or by opening the app.",
-            "Clips stay on your phone. It can sync with Clipboard+ for Windows through your own Google Drive — never a CodeDAC server — and back up to a file. It is free with ads; Pro removes the ads and adds PC sync and more."
+            "Clips stay on your phone. It can sync with Clipboard+ for Windows through your own Google Drive — never a CodeDAC server — and back up to a file."
           ]
         }
       ],
@@ -824,9 +806,9 @@
           ]
         },
         {
-          "h": "What is free, and what Pro adds",
+          "h": "Conditions and a floating button",
           "p": [
-            "All rotation modes, Keep orientation, Rotate once, tiles, widgets and shortcuts are free, along with 3 per-app rules and a small banner ad. Pro adds unlimited per-app rules, conditions that change the orientation automatically (while charging, with headphones, a Bluetooth device, a car or desk dock, during a call or at set times), a floating rotate button and no ads."
+            "Rotate+ also takes as many per-app rules as you need, conditions that change the orientation automatically (while charging, with headphones, a Bluetooth device, a car or desk dock, during a call or at set times), and a floating rotate button over other apps."
           ]
         }
       ],

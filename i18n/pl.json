@@ -156,10 +156,6 @@
         {
           "q": "Czy synchronizuje się z moim komputerem z Windows?",
           "a": "Tak. Zainstaluj także Clipboard+ for Windows, a następnie w ustawieniach obu aplikacji zaloguj się do Dysku Google na to samo konto i włącz automatyczną synchronizację. Od tej pory to, co skopiujesz na telefonie, wkleisz na komputerze, a to, co skopiujesz na komputerze — na telefonie. Kopiowane treści nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google."
-        },
-        {
-          "q": "Co jest za darmo, a co dodaje Pro?",
-          "a": "Za darmo masz historię tekstu i obrazów z wyszukiwaniem, fragmentami, do 3 grup, pływający panel, widżet i zapisywanie z menu zaznaczania tekstu, z reklamami. Pro usuwa reklamy i dodaje synchronizację telefon↔PC przez Twój własny Dysk Google, nielimitowane klipy obrazów, powiększony pływający panel i widżet, nielimitowane grupy, eksport do PDF i przywracanie kopii zapasowych — miesięcznie, rocznie lub jednorazowo na zawsze."
         }
       ],
       "howto": {
@@ -192,15 +188,14 @@
       "seo": "Menedżer automatycznego uruchamiania",
       "desc": "Automatycznie uruchamiaj aplikacje po starcie systemu. Bez roota, ustaw raz.",
       "tagline": "Automatycznie uruchamiaj aplikacje po każdym restarcie, gdy tylko odblokujesz telefon. Bez roota, ustaw raz, działa zawsze.",
-      "long": "AutoStart+ to najprostszy menedżer autostartu dla Androida: wybierz aplikacje, a po każdym restarcie, gdy tylko odblokujesz urządzenie, otworzą się same. Bez roota, bez skryptów, bez codziennego stukania. Przeszukaj wszystkie zainstalowane aplikacje, dodaj je w sekundy, włączaj i wyłączaj jednym dotknięciem, a przeciągając wiersze ustaw kolejność startu. Nie musisz restartować, żeby to sprawdzić: menu ⋮ w każdym wierszu otwiera daną aplikację od razu, a po starcie krótki komunikat pokazuje, co już ruszyło — resztę uruchomisz jednym dotknięciem. W wersji darmowej startuje 1 aplikacja; PRO znosi limit i cała lista uruchamia się po kolei. Większość radioodtwarzaczy samochodowych z Androidem po wyłączeniu auta usypia zamiast się restartować. Włącz Tryb samochodowy, a aplikacje otworzą się ponownie za każdym razem, gdy ekran włączy się po co najmniej 3 minutach wyłączenia. Za darmo.",
+      "long": "AutoStart+ to najprostszy menedżer autostartu dla Androida: wybierz aplikacje, a po każdym restarcie, gdy tylko odblokujesz urządzenie, otworzą się same. Bez roota, bez skryptów, bez codziennego stukania. Przeszukaj wszystkie zainstalowane aplikacje, dodaj je w sekundy, włączaj i wyłączaj jednym dotknięciem, a przeciągając wiersze ustaw kolejność startu. Nie musisz restartować, żeby to sprawdzić: menu ⋮ w każdym wierszu otwiera daną aplikację od razu, a po starcie krótki komunikat pokazuje, co już ruszyło — resztę uruchomisz jednym dotknięciem. Większość radioodtwarzaczy samochodowych z Androidem po wyłączeniu auta usypia zamiast się restartować. Włącz Tryb samochodowy, a aplikacje otworzą się ponownie za każdym razem, gdy ekran włączy się po co najmniej 3 minutach wyłączenia.",
       "features": [
         "Uruchamia wybrane aplikacje po każdym restarcie, gdy tylko odblokujesz urządzenie — bez roota i custom ROM-u",
-        "Tryb samochodowy dla radioodtwarzaczy: aplikacje otwierają się ponownie przy każdym wybudzeniu ekranu — za darmo",
+        "Tryb samochodowy dla radioodtwarzaczy: aplikacje otwierają się ponownie przy każdym wybudzeniu ekranu",
         "Przeciągaj wiersze, aby ustalić, która aplikacja rusza pierwsza przy każdym starcie",
-        "Opóźnienie uruchamiania (PRO): kilka sekund czekania przed pierwszą aplikacją i odstępy między kolejnymi, żeby radio samochodowe i wolne urządzenia zdążyły się uruchomić",
+        "Opóźnienie uruchamiania: kilka sekund czekania przed pierwszą aplikacją i odstępy między kolejnymi, żeby radio samochodowe i wolne urządzenia zdążyły się uruchomić",
         "„Uruchom teraz” w menu ⋮ każdego wiersza — sprawdź listę bez restartu telefonu",
-        "Po restarcie baner uruchamia całą listę jednym dotknięciem, gdy tylko odblokujesz (PRO)",
-        "Za darmo automatycznie startuje 1 aplikacja; PRO znosi limit i uruchamia całą listę po kolei"
+        "Po restarcie baner uruchamia całą listę jednym dotknięciem, gdy tylko odblokujesz"
       ],
       "faq": [
         {
@@ -209,11 +204,7 @@
         },
         {
           "q": "Czy AutoStart+ działa na radioodtwarzaczach samochodowych z Androidem?",
-          "a": "Większość radioodtwarzaczy samochodowych z Androidem po wyłączeniu auta usypia zamiast się restartować. Włącz Tryb samochodowy, a aplikacje otworzą się ponownie za każdym razem, gdy ekran włączy się po co najmniej 3 minutach wyłączenia. Za darmo."
-        },
-        {
-          "q": "Ile aplikacji mogę uruchamiać automatycznie?",
-          "a": "W wersji darmowej startuje 1 aplikacja przy każdym uruchomieniu. PRO znosi limit i cała lista rusza w ustalonej przez Ciebie kolejności."
+          "a": "Większość radioodtwarzaczy samochodowych z Androidem po wyłączeniu auta usypia zamiast się restartować. Włącz Tryb samochodowy, a aplikacje otworzą się ponownie za każdym razem, gdy ekran włączy się po co najmniej 3 minutach wyłączenia."
         },
         {
           "q": "Czy będzie zużywać baterię?",
@@ -247,11 +238,11 @@
         },
         {
           "q": "Skąd pochodzą kursy walut?",
-          "a": "Z Europejskiego Banku Centralnego, odświeżane raz dziennie. Wiersz pod kwotami pokazuje kurs i jego datę, a w Ustawieniach możesz odświeżyć kursy w każdej chwili. Twoja lokalna waluta, USD i EUR są za darmo; Pro dodaje wszystkie pary spośród ponad 30 walut. Dzienny zapis kursów sprawia, że działa to również offline."
+          "a": "Z Europejskiego Banku Centralnego, odświeżane raz dziennie. Wiersz pod kwotami pokazuje kurs i jego datę, a w Ustawieniach możesz odświeżyć kursy w każdej chwili. Możesz przeliczać między dowolnymi parami spośród ponad 30 walut. Dzienny zapis kursów sprawia, że działa to również offline."
         },
         {
-          "q": "Co jest za darmo, a co dodaje Pro?",
-          "a": "Pływający kalkulator, jednostki długości, przeliczanie walut między Twoją walutą, USD i EUR, 5 ostatnich obliczeń, 3 poziomy przezroczystości i domyślny motyw są darmowe, z reklamami. Pro usuwa reklamy i dodaje wszystkie kategorie jednostek i pary walut, do 100 wpisów w historii, 7 dodatkowych motywów oraz precyzyjną regulację przezroczystości, rozmiaru i szerokości — miesięcznie, rocznie lub jednorazowo na zawsze."
+          "q": "Czy działa offline?",
+          "a": "Kalkulator i przelicznik jednostek zawsze działają offline. Przeliczanie walut korzysta z ostatnio pobranych kursów."
         }
       ]
     },
@@ -261,14 +252,14 @@
       "seo": "Pływające ceny Bitcoina",
       "desc": "Pasek kursów krypto na żywo nad każdą aplikacją, z alertami i wykresami.",
       "tagline": "Bitcoin, Ethereum i Twoje altcoiny stale na ekranie — nad używaną aplikacją.",
-      "long": "FloatCrypto+ trzyma pasek kursów na żywo nad wszystkimi aplikacjami, więc śledzisz rynek, oglądając YouTube, czytając wiadomości albo odpisując na komunikatory — bez przełączania i bez przeładowywania. Przeciągnij go gdzie chcesz, zmień rozmiar i zmniejsz krycie, żeby nigdy nie przeszkadzał. Ustaw górny lub dolny próg, a dostaniesz powiadomienie w chwili, gdy rynek go przekroczy; zbierz listę wyłącznie z monet, które naprawdę Cię interesują, i otwieraj wykresy 1 dzień, 7 dni i 30 dni z maksimum, minimum, otwarciem i zmianą w danym okresie. Kursy pochodzą z Binance, a gdy jedno źródło jest nieosiągalne, przełączają się automatycznie na inne i pasek działa dalej. Dane są opóźnione do 30 sekund (10 sekund w Pro) i mają charakter wyłącznie orientacyjny — nie stanowią porady inwestycyjnej.",
+      "long": "FloatCrypto+ trzyma pasek kursów na żywo nad wszystkimi aplikacjami, więc śledzisz rynek, oglądając YouTube, czytając wiadomości albo odpisując na komunikatory — bez przełączania i bez przeładowywania. Przeciągnij go gdzie chcesz, zmień rozmiar i zmniejsz krycie, żeby nigdy nie przeszkadzał. Ustaw górny lub dolny próg, a dostaniesz powiadomienie w chwili, gdy rynek go przekroczy; zbierz listę wyłącznie z monet, które naprawdę Cię interesują, i otwieraj wykresy 1 dzień, 7 dni i 30 dni z maksimum, minimum, otwarciem i zmianą w danym okresie. Kursy pochodzą z Binance, a gdy jedno źródło jest nieosiągalne, przełączają się automatycznie na inne i pasek działa dalej. Dane są opóźnione do 10 sekund i mają charakter wyłącznie orientacyjny — nie stanowią porady inwestycyjnej.",
       "features": [
         "Pływający pasek kursów nad wszystkimi aplikacjami — przeciągaj, zmieniaj rozmiar i krycie",
         "Alerty cenowe na górny lub dolny próg, tworzone prosto z karty już wybranej monety",
         "Lista obserwowanych z kursem na żywo, zmianą 24 h i kolejnością zmienianą przeciąganiem",
         "Wykresy 1 dzień / 7 dni / 30 dni z maksimum, minimum, otwarciem i zmianą w okresie",
         "Kolory zachodnie i wschodnie — zielony wzrost/czerwony spadek albo czerwony wzrost/niebieski spadek",
-        "Kursy z Binance z automatycznym przełączeniem źródła, opóźnione do 30 sekund (10 w Pro)"
+        "Kursy z Binance z automatycznym przełączeniem źródła, opóźnione do 10 sekund"
       ],
       "faq": [
         {
@@ -280,8 +271,8 @@
           "a": "Ustawiasz górny lub dolny próg, a FloatCrypto+ powiadamia Cię w chwili, gdy rynek go przekroczy. Alert utworzysz prosto z karty monety — dotknij ⋮, a moneta jest już wybrana — natomiast dzwonek oznacza każdą obserwowaną monetę."
         },
         {
-          "q": "Co dostaję za darmo?",
-          "a": "Za darmo śledzisz 3 monety z 1 alertem cenowym i wykresem 1-dniowym, z reklamami. Pro daje do 10 monet, nieograniczone alerty, wykresy 7- i 30-dniowe, odświeżanie co 10 sekund zamiast co 30 sekund i brak reklam — miesięcznie, rocznie lub jednorazowo dożywotnio."
+          "q": "Czy potrzebuję konta lub portfela?",
+          "a": "Nie. Bez rejestracji, bez e-maila i bez łączenia portfela."
         }
       ]
     },
@@ -307,11 +298,7 @@
         },
         {
           "q": "Czy mogę używać go jako minutnika Pomodoro lub treningowego?",
-          "a": "Tak. Są szybkie ustawienia, na przykład 25 minut, możesz ustawić dowolny czas i uruchomić kilka minutników naraz na pracę i przerwę. W wersji Pro minutnik powtarza się 2, 3, 5 razy lub bez końca."
-        },
-        {
-          "q": "Co zawiera wersja darmowa?",
-          "a": "Nieograniczoną liczbę minutników, liczników i stoperów z alertami dźwiękowymi i wibracją oraz widżet na ekranie głównym. Wersja darmowa pokazuje dwa pływające minutniki naraz. Pro dodaje alert pełnoekranowy nawet przy wyłączonym ekranie, własny dźwięk alarmu i wibrację, automatyczne powtarzanie, dowolnie wiele pływających minutników naraz i brak reklam."
+          "a": "Tak. Są szybkie ustawienia, na przykład 25 minut, możesz ustawić dowolny czas i uruchomić kilka minutników naraz na pracę i przerwę. Minutnik może też powtarzać się 2, 3, 5 razy lub bez końca."
         },
         {
           "q": "Czy mogę używać FloatTimer+ na radioodtwarzaczu samochodowym z Androidem?",
@@ -325,23 +312,19 @@
       "seo": "Wzmacniacz głośności i korektor",
       "desc": "Wzmacniacz głośności i korektor: jedno dotknięcie do 150%, maksymalnie 225%, a głośność urządzenia rośnie razem z nim.",
       "tagline": "Głośniej jednym dotknięciem — przyciski poziomów podnoszą głośność urządzenia i wzmacniają większość aplikacji, do 225%.",
-      "long": "Telefon gra za cicho? VolumeBooster+ podnosi całe wyjście systemowe, a nie jedną aplikację: ciche głośniki, słabe słuchawki, trudne do usłyszenia filmy, muzykę i gry wreszcie słychać wyraźnie. Dotknij poziomu (100%, 125%, 150% lub Maks.), a aplikacja najpierw podniesie głośność urządzenia, a potem doda wzmocnienie, do 225% (+15 dB). Ekran główny pokazuje głośność urządzenia obok wzmocnienia, a przyciski głośności nadal sterują telefonem. Kolory Bezpiecznie, Uwaga i Niebezpiecznie oparte na zaleceniach WHO pokazują, jak daleko zaszedłeś. Za darmo dostępne jest 183% (+10 dB); Pro otwiera 225%. Maksymalizator głośności, 5-pasmowy korektor z dziewięcioma darmowymi presetami, wzmacniacz basów, wirtualizator 3D i korekcja AutoEQ oparta na 2456 zmierzonych profilach słuchawek są w tej samej aplikacji.",
+      "long": "Telefon gra za cicho? VolumeBooster+ podnosi całe wyjście systemowe, a nie jedną aplikację: ciche głośniki, słabe słuchawki, trudne do usłyszenia filmy, muzykę i gry wreszcie słychać wyraźnie. Dotknij poziomu (100%, 125%, 150% lub Maks.), a aplikacja najpierw podniesie głośność urządzenia, a potem doda wzmocnienie, do 225% (+15 dB). Ekran główny pokazuje głośność urządzenia obok wzmocnienia, a przyciski głośności nadal sterują telefonem. Kolory Bezpiecznie, Uwaga i Niebezpiecznie oparte na zaleceniach WHO pokazują, jak daleko zaszedłeś. Maksymalizator głośności, 5-pasmowy korektor z dziewięcioma presetami, wzmacniacz basów, wirtualizator 3D i korekcja AutoEQ oparta na 2456 zmierzonych profilach słuchawek są w tej samej aplikacji.",
       "features": [
-        "Poziomy 100%, 125%, 150% i Maks. jednym dotknięciem: każdy podnosi głośność urządzenia, a potem wzmacnia większość aplikacji do 225% (+15 dB) — 183% za darmo, 225% z Pro",
+        "Poziomy 100%, 125%, 150% i Maks. jednym dotknięciem: każdy podnosi głośność urządzenia, a potem wzmacnia większość aplikacji do 225% (+15 dB)",
         "Suwak głośności urządzenia bezpośrednio na ekranie głównym, a przyciski głośności sterują głośnością urządzenia — niska głośność telefonu nigdy nie ukryje wzmocnienia",
         "Maksymalizator głośności z kompresją wielopasmową, wzmocnieniem wyrównującym i stale aktywnym limiterem szczytów: głośniej, bez przesterowania",
-        "Karta Korektor z 5-pasmowym korektorem i 9 presetami, wszystkie darmowe, a do tego wzmacniacz basów, wirtualizator 3D i AutoEQ — 2456 zmierzonych profili słuchawek, główne marki (Apple, Samsung, Sony, Bose, JBL, Beats) za darmo",
-        "Pływający panel nad każdą aplikacją z tymi samymi poziomami w menu, statystyki ochrony słuchu (Pro), wyłącznik czasowy z wyciszaniem, balans kanałów L/P, kafelek Szybkich ustawień, widżet na ekranie głównym i sterowanie z powiadomienia",
+        "Karta Korektor z 5-pasmowym korektorem i 9 presetami, a do tego wzmacniacz basów, wirtualizator 3D i AutoEQ — 2456 zmierzonych profili słuchawek 357 marek",
+        "Pływający panel nad każdą aplikacją z tymi samymi poziomami w menu, statystyki ochrony słuchu, wyłącznik czasowy z wyciszaniem, balans kanałów L/P, kafelek Szybkich ustawień, widżet na ekranie głównym i sterowanie z powiadomienia",
         "Kolory Bezpiecznie, Uwaga i Niebezpiecznie oparte na zaleceniach WHO pokazują, jak bardzo podkręciłeś głośność"
       ],
       "faq": [
         {
           "q": "Czy telefon naprawdę gra głośniej?",
           "a": "Tak. Przycisk poziomu najpierw podnosi głośność urządzenia — na głośniku do maksimum, w słuchawkach do 60% — a potem dodaje wzmocnienie przez maksymalizator głośności z kompresją wielopasmową i wzmocnieniem wyrównującym. Podnosi całe wyjście systemowe, więc muzyka, filmy, YouTube i gry grają głośniej jednocześnie. Jeśli nadal jest cicho, sprawdź głośność urządzenia na ekranie głównym; wbudowana pomoc może też przełączyć na tryb zgodności."
-        },
-        {
-          "q": "Czy aplikacja jest naprawdę darmowa, czy potrzebna jest subskrypcja?",
-          "a": "Za darmo dostajesz do 183% (+10 dB), wszystkie 9 presetów, 5-pasmowy korektor, panel pływający i AutoEQ dla głównych marek, takich jak Apple, Samsung, Sony, Bose, JBL i Beats, z reklamami. Pro odblokowuje 225% (+15 dB), wszystkie profile AutoEQ i panel ochrony słuchu oraz usuwa reklamy: miesięcznie, rocznie lub jednorazowo na zawsze."
         },
         {
           "q": "Co oznaczają 150% i 225%?",
@@ -359,19 +342,19 @@
       "seo": "Ukrywanie danych osobowych",
       "desc": "Ukrywaj dane osobowe na zdjęciach i w plikach PDF, w pełni na urządzeniu.",
       "tagline": "Ukrywaj dane osobowe na zdjęciach i w plikach PDF solidną maską, w całości na swoim urządzeniu.",
-      "long": "PhotoCleaner+ ukrywa dane osobowe na zdjęciach i w plikach PDF w całości na Twoim urządzeniu. Zakrywa wrażliwe obszary solidną, nieprzezroczystą maską (nie rozmyciem ani mozaiką, więc zakrytych fragmentów nie da się odtworzyć) i eksportuje czystą kopię. Wbudowany detektor bezpłatnie i bez limitu sugeruje prawdopodobnie wrażliwy tekst, taki jak numery dowodów, karty, numery telefonów i adresy e-mail, ale to Ty rysujesz i dopasowujesz maski, decydując dokładnie, co zostanie ukryte. Obsługiwane są zdjęcia, dowody tożsamości i wielostronicowe pliki PDF, każda zapisana lub udostępniona kopia jest ponownie kodowana bez EXIF, a aplikacja nigdy nie prosi o uprawnienie do galerii ani pamięci. Wykrywanie, edycja i zasłanianie pozostają bez limitu również w wersji darmowej, a żaden eksport nie ma znaku wodnego; w wersji darmowej dostępne są 3 eksporty dziennie, a Pro znosi ten limit i dodaje eksport PDF, drukowanie oraz dowolny kolor maski. Włącz „Wybierz miejsce zapisu”, a folder i nazwę pliku ustalisz sam.",
+      "long": "PhotoCleaner+ ukrywa dane osobowe na zdjęciach i w plikach PDF w całości na Twoim urządzeniu. Zakrywa wrażliwe obszary solidną, nieprzezroczystą maską (nie rozmyciem ani mozaiką, więc zakrytych fragmentów nie da się odtworzyć) i eksportuje czystą kopię. Wbudowany detektor bez limitu sugeruje prawdopodobnie wrażliwy tekst, taki jak numery dowodów, karty, numery telefonów i adresy e-mail, ale to Ty rysujesz i dopasowujesz maski, decydując dokładnie, co zostanie ukryte. Obsługiwane są zdjęcia, dowody tożsamości i wielostronicowe pliki PDF, każda zapisana lub udostępniona kopia jest ponownie kodowana bez EXIF, a aplikacja nigdy nie prosi o uprawnienie do galerii ani pamięci. Wykrywanie, edycja, zasłanianie i eksport są bez limitu, żaden eksport nie ma znaku wodnego, a do tego masz eksport PDF, drukowanie oraz dowolny kolor maski. Włącz „Wybierz miejsce zapisu”, a folder i nazwę pliku ustalisz sam.",
       "features": [
         "Solidna, nieprzezroczysta maska, której nie da się odtworzyć (nie rozmycie ani mozaika)",
         "Rysuj maski ręcznie, a następnie przesuwaj je, zmieniaj ich rozmiar lub usuwaj, z powiększeniem dla precyzji",
-        "Wbudowane wykrywanie sugeruje prawdopodobnie wrażliwy tekst (numery dowodów, karty, telefony, e-maile) — bezpłatnie i bez limitu, jako punkt wyjścia, który sprawdzasz",
+        "Wbudowane wykrywanie sugeruje prawdopodobnie wrażliwy tekst (numery dowodów, karty, telefony, e-maile) — jako punkt wyjścia, który sprawdzasz",
         "Maskuj zdjęcia, dowody tożsamości i wielostronicowe dokumenty PDF",
         "Zero uprawnień, informacja o danych EXIF i GPS oraz każda zapisana lub udostępniona kopia kodowana ponownie bez EXIF",
-        "Bez znaku wodnego dla nikogo: 3 eksporty dziennie w wersji darmowej, bez limitu w Pro wraz z eksportem PDF i drukowaniem"
+        "Bez znaku wodnego, eksport bez limitu, a także eksport PDF i drukowanie"
       ],
       "faq": [
         {
           "q": "Czy maskowanie to rozmycie lub mozaika?",
-          "a": "Nie. Maskowanie korzysta tylko z jednego stylu — solidnego, nieprzezroczystego wypełnienia — a zakrytych fragmentów nie da się odtworzyć. W wersji Pro możesz wybrać dowolny kolor maski."
+          "a": "Nie. Maskowanie korzysta tylko z jednego stylu — solidnego, nieprzezroczystego wypełnienia — a zakrytych fragmentów nie da się odtworzyć. Możesz wybrać dowolny kolor maski."
         },
         {
           "q": "Czy moje zdjęcia są gdzieś przesyłane?",
@@ -380,10 +363,6 @@
         {
           "q": "Czy mogę polegać wyłącznie na automatycznym wykrywaniu przed eksportem?",
           "a": "Wykrywanie to tylko punkt wyjścia, który sugeruje prawdopodobnie wrażliwy tekst. Zawsze przejrzyj sugestie i samodzielnie dodaj lub usuń maski przed eksportem."
-        },
-        {
-          "q": "Ile razy mogę eksportować za darmo?",
-          "a": "Trzy razy dziennie. Liczy się przycisk Eksportuj — niezależnie od tego, czy wynik zapiszesz, udostępnisz, zrobisz z niego PDF czy wydrukujesz. Wykrywanie, edycja i zasłanianie nigdy nie mają limitu. Pro znosi dzienny limit."
         }
       ]
     },
@@ -398,9 +377,9 @@
         "Podświetlenie wiersza (linijka do czytania): rozjaśnia bieżącą linię, by utrzymać wzrok na właściwym miejscu",
         "Maska czytania: przyciemnia wszystko poza strefą czytania, dla skupienia jak w tunelu",
         "W pełni regulowany pasek skupienia: wysokość (50dp–300dp) i przezroczystość (10%–100%)",
-        "10 motywów kolorystycznych (3 darmowe + 7 Pro)",
+        "10 motywów kolorystycznych",
         "Działa nad każdą aplikacją — e-booki, PDF, webtoony, wiadomości, prace naukowe",
-        "Pro: brak reklam, 7 dodatkowych motywów kolorystycznych oraz utrzymywanie ekranu włączonego podczas czytania"
+        "Utrzymywanie ekranu włączonego: ekran nie gaśnie podczas czytania"
       ],
       "faq": [
         {
@@ -412,8 +391,8 @@
           "a": "Działa nad każdą aplikacją na ekranie — czytnikami e-booków i PDF, pracami naukowymi, artykułami internetowymi, blogami, wiadomościami, notatkami do nauki, podręcznikami, komiksami, webtoonami oraz długimi e-mailami czy historią czatu."
         },
         {
-          "q": "Czy korzystanie jest darmowe?",
-          "a": "Tak. Wersja darmowa zawiera oba tryby skupienia, 3 motywy kolorystyczne oraz regulację wysokości i krycia paska, z reklamami. Pro usuwa reklamy i dodaje 7 kolejnych motywów kolorystycznych oraz utrzymywanie ekranu włączonego — miesięcznie, rocznie lub jednorazowo na zawsze."
+          "q": "Czy nadal mogę dotykać i przewijać aplikację pod spodem?",
+          "a": "Tak. Dotknięcia przechodzą przez pasek do aplikacji pod spodem. Od Androida 12 system ogranicza nieprzezroczystość nakładek do ok. 80%, aby dotyk nadal działał."
         }
       ]
     },
@@ -427,10 +406,10 @@
       "features": [
         "Pływające notatki overlay: zwiń notatkę do kafelka, rozwiń w pełną kartę nad dowolną aplikacją",
         "7 kolorów karteczek i formatowanie: pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu",
-        "Obrazy w notatce (Pro): dołącz zdjęcia bezpośrednio w środku",
+        "Obrazy w notatce: dołącz zdjęcia bezpośrednio w środku",
         "Przypomnienia — raz, codziennie, w dni robocze lub w wybrane dni",
         "Archiwum z natychmiastowym wyszukiwaniem, przypinaniem i zmianą kolejności przeciąganiem; przeciągnięcie kafelka do strefy na dole chowa notatkę, a nie usuwa",
-        "Pro: nieograniczone pływające notatki, obrazy, synchronizacja z Google Dyskiem, nieograniczone przypomnienia, bez reklam"
+        "Nieograniczone pływające notatki, synchronizacja z Google Dyskiem i nieograniczone przypomnienia"
       ],
       "faq": [
         {
@@ -446,16 +425,12 @@
           "a": "Tak. Zainstaluj także FloatNote+ for Windows, a następnie w ustawieniach obu aplikacji zaloguj się do Dysku Google na to samo konto i włącz automatyczną synchronizację. Od tej pory notatki napisane na telefonie pojawiają się na komputerze, a napisane na komputerze — na telefonie. Notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Między urządzeniami wędrują zarówno tekst notatki, jak i dołączone obrazy."
         },
         {
-          "q": "Czy to jest darmowe?",
-          "a": "Tak. Zapisywanie notatek jest nieograniczone i darmowe, a wersja darmowa pokazuje jedną pływającą notatkę naraz i daje wszystkie 7 kolorów, regulację krycia, eksport i import oraz widżet na ekranie głównym, z reklamami. Pro dodaje nieograniczone pływające notatki, obrazy, synchronizację z Google Dyskiem i nieograniczone przypomnienia oraz usuwa reklamy."
-        },
-        {
           "q": "Czy mogę używać FloatNote+ na radioodtwarzaczu samochodowym z Androidem?",
           "a": "Tak, jeśli radioodtwarzacz ma Google Play i działa na Androidzie 8.0 lub nowszym. Notatki unoszą się nad nawigacją lub muzyką. Ekrany konfiguracji są przygotowane na szerokie, niskie wyświetlacze poziome. Radioodtwarzacz musi zezwalać na „Wyświetlanie nad innymi aplikacjami”."
         },
         {
           "q": "Czy notatka może pojawić się o ustalonej godzinie?",
-          "a": "Tak. Ustaw godzinę, a notatka pojawi się na ekranie z powiadomieniem — raz, codziennie, w dni robocze albo tylko w wybrane dni. (Za darmo: 1 przypomnienie · Pro: bez limitu)"
+          "a": "Tak. Ustaw godzinę, a notatka pojawi się na ekranie z powiadomieniem — raz, codziennie, w dni robocze albo tylko w wybrane dni."
         }
       ]
     },
@@ -465,14 +440,14 @@
       "seo": "Wymuś obrót ekranu",
       "desc": "Wymuś orientację ekranu dla całego telefonu albo każdej aplikacji: pion, poziom lub auto. Bez roota.",
       "tagline": "Niektóre aplikacje nie chcą się obracać, inne obracają się, gdy tylko się położysz. Ustaw orientację dla całego telefonu lub każdej aplikacji jednym dotknięciem — bez roota.",
-      "long": "Rotate+ jednym dotknięciem wymusza orientację ekranu dla całego telefonu albo dla każdej aplikacji, bez roota. Wybierz Auto, Pion, Poziom, Odwrócony pion, Odwrócony poziom lub Zablokuj obecną — działa od razu, bez okien potwierdzenia. Dzięki regułom dla aplikacji filmy i gry działają w poziomie, a czat i czytanie w pionie: reguła działa po otwarciu aplikacji i znika, gdy z niej wyjdziesz. Jeśli aplikacja obróci ekran z powrotem, „Utrzymanie orientacji” przywróci Twój wybór, a gdy aplikacja uparcie się opiera, Rotate+ przestaje próbować — bez niekończącego się obracania. „Obróć raz” obraca tylko bieżącą aplikację, dopóki jej nie zmienisz albo nie wyłączysz ekranu, a kafelki szybkich ustawień, widżety i skróty trzymają wszystko pod ręką. Na tabletach z Androidem 16 Rotate+ automatycznie korzysta z systemowego ustawienia obrotu. Za darmo masz 3 reguły z małym banerem; Pro dodaje reguły bez limitu, warunki, pływający przycisk obrotu i usuwa reklamy.",
+      "long": "Rotate+ jednym dotknięciem wymusza orientację ekranu dla całego telefonu albo dla każdej aplikacji, bez roota. Wybierz Auto, Pion, Poziom, Odwrócony pion, Odwrócony poziom lub Zablokuj obecną — działa od razu, bez okien potwierdzenia. Dzięki regułom dla aplikacji filmy i gry działają w poziomie, a czat i czytanie w pionie: reguła działa po otwarciu aplikacji i znika, gdy z niej wyjdziesz. Jeśli aplikacja obróci ekran z powrotem, „Utrzymanie orientacji” przywróci Twój wybór, a gdy aplikacja uparcie się opiera, Rotate+ przestaje próbować — bez niekończącego się obracania. „Obróć raz” obraca tylko bieżącą aplikację, dopóki jej nie zmienisz albo nie wyłączysz ekranu, a kafelki szybkich ustawień, widżety i skróty trzymają wszystko pod ręką. Na tabletach z Androidem 16 Rotate+ automatycznie korzysta z systemowego ustawienia obrotu. Twórz tyle reguł dla aplikacji, ile chcesz, pozwól warunkom automatycznie zmieniać orientację i trzymaj pływający przycisk obrotu nad innymi aplikacjami.",
       "features": [
         "Sześć trybów jednym dotknięciem: Auto, Pion, Poziom, Odwrócony pion, Odwrócony poziom i Zablokuj obecną — od razu, a cztery strony i tryby z czujnika w menu Więcej trybów",
         "Reguły dla aplikacji: filmy i gry w poziomie, czat i czytanie w pionie — działają po otwarciu aplikacji i znikają, gdy z niej wyjdziesz",
         "Utrzymanie orientacji: gdy aplikacja obróci ekran z powrotem, Rotate+ przywróci Twój wybór, a przy uporczywym oporze przestanie próbować — bez niekończącego się obracania",
         "Obróć raz: „Tylko ta aplikacja, tylko teraz” — wyłącza się samo po zmianie aplikacji lub wyłączeniu ekranu",
         "Dwa kafelki szybkich ustawień, widżety ekranu głównego, skróty aplikacji i opcjonalne powiadomienie z przyciskami Pauza, Tryb i Obróć raz",
-        "Za darmo 3 reguły z małym banerem; Pro: reguły bez limitu, warunki, pływający przycisk i bez reklam"
+        "Reguły dla aplikacji bez limitu, warunki automatycznie zmieniające orientację (ładowanie, słuchawki, Bluetooth, stacja dokująca, rozmowy, wybrane pory) i pływający przycisk obrotu"
       ],
       "faq": [
         {
@@ -482,10 +457,6 @@
         {
           "q": "Po co ułatwienia dostępu? Czy to bezpieczne?",
           "a": "Ułatwienia dostępu służą tylko do sprawdzenia, która aplikacja jest na ekranie (dla reguł), i do utrzymania wybranej orientacji niewidocznym oknem o rozmiarze 1 piksela. Rotate+ nigdy nie czyta zawartości ekranu, tekstów ani haseł. Zamiast tego można użyć dostępu do danych o użyciu. Bez konta, nic nie jest wysyłane."
-        },
-        {
-          "q": "Co jest za darmo, a co daje Pro?",
-          "a": "Wszystkie tryby obrotu, Utrzymanie orientacji, Obróć raz, kafelki, widżety i skróty są za darmo, razem z 3 regułami dla aplikacji i małym banerem. Pro dodaje reguły bez limitu, warunki automatycznie zmieniające orientację (podczas ładowania, ze słuchawkami, urządzeniem Bluetooth, w stacji samochodowej lub biurkowej, w trakcie rozmowy lub o wybranych porach), pływający przycisk obrotu i usuwa reklamy."
         },
         {
           "q": "Czy mogę używać Rotate+ na radioodtwarzaczu samochodowym z Androidem?",
@@ -518,8 +489,8 @@
           "a": "Historia kopiowania domyślnie pozostaje tylko na Twoim komputerze (w folderze %APPDATA%\\ClipboardPlus). Po włączeniu synchronizacji zapisuje się także w prywatnym obszarze aplikacji na Twoim własnym Dysku Google — obszarze, który nie pojawia się w widoku Dysku i którego nie otworzy nic poza Clipboard+. Aplikacja korzysta wyłącznie z tego obszaru, więc nie sięga do Twoich pozostałych zdjęć ani dokumentów na Dysku."
         },
         {
-          "q": "Czy Clipboard+ dla Windows jest darmowy?",
-          "a": "Tak, bez reklam i bez konta. Darmowe są: historia schowka z wyszukiwaniem, fragmenty, przypinanie, okienko szybkiego wklejania, synchronizacja przez Dysk Google, kopiowanie i zapisywanie obrazów, udostępnianie e-mailem oraz eksport kopii zapasowych. Opcjonalny jednorazowy zakup Pro, a nie subskrypcja, dodaje przywracanie kopii zapasowych, nieograniczoną liczbę grup (wersja darmowa ma 3), eksport do PDF i więcej miejsca na obrazy. Jeśli korzystałeś z Clipboard+ dla Windows, zanim wróciło Pro, te funkcje pozostają dla Ciebie darmowe. (Na telefonie synchronizacja to funkcja Pro aplikacji na Androida.)"
+          "q": "Czy mogę zmienić skróty?",
+          "a": "Tak. Każdy skrót można zmienić lub wyłączyć w Ustawieniach."
         }
       ]
     },
@@ -536,20 +507,20 @@
         "Pływający panel do zmiany trybu, przesuwania lub blokowania paska i jego ukrywania; zwija się do jednego wiersza, gdy przeszkadza",
         "Skróty klawiszowe do uruchamiania i zatrzymywania, zmiany trybu, pokazywania i ukrywania, blokowania oraz przesuwania paska w górę i w dół",
         "Wiele monitorów: pas czytania podąża za panelem na wybrany ekran, a poza tym aplikacja czeka w zasobniku systemowym",
-        "Bez reklam. Pro to jednorazowy zakup: motywy premium i „Nie wygaszaj ekranu”"
+        "Dziesięć motywów kolorystycznych, od żółci zakreślacza po błękit oceanu; Nie wygaszaj ekranu: ekran nie gaśnie, dopóki pasek jest włączony"
       ],
       "faq": [
         {
           "q": "Czy to ta sama aplikacja co ReadFocus+ na Androida?",
-          "a": "To ta sama aplikacja zbudowana dla Windows, z tymi samymi dwoma trybami czytania. Kupuje się je osobno w każdym sklepie i nie ma czego synchronizować — ReadFocus+ nigdy nie zapisuje tego, co czytasz."
+          "a": "To ta sama aplikacja zbudowana dla Windows, z tymi samymi dwoma trybami czytania. Nie ma czego synchronizować — ReadFocus+ nigdy nie zapisuje tego, co czytasz."
         },
         {
           "q": "Z jakimi programami działa?",
           "a": "Z dowolną aplikacją na ekranie: przeglądarkami, czytnikami PDF i e-booków, dokumentami, edytorami kodu, artykułami naukowymi oraz długimi e-mailami i historiami rozmów. Pasek skupienia jest rysowany na wierzchu ekranu, więc aplikacja pod spodem niczego nie musi obsługiwać."
         },
         {
-          "q": "Czy jest darmowa?",
-          "a": "Tak. Wersja bezpłatna zawiera oba tryby czytania, wysokość i krycie paska skupienia oraz trzy z dziesięciu motywów. Pro to jednorazowy zakup, a nie subskrypcja — dodaje motywy premium i „Nie wygaszaj ekranu”. Wersja dla Windows nie zawiera reklam."
+          "q": "Czy ReadFocus+ to leczenie medyczne?",
+          "a": "Nie. To pomoc w czytaniu, a nie wyrób medyczny ani leczenie ADHD czy dysleksji."
         }
       ]
     },
@@ -566,7 +537,7 @@
         "Przypomnienia — raz, codziennie, w dni robocze lub w wybrane dni",
         "Formatowanie — pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu — oraz 7 pastelowych kolorów i obrazy w notatce",
         "Dwukierunkowa synchronizacja telefon–komputer przez Twój własny Dysk Google — ten sam prywatny folder aplikacji, którego używa wersja na Androida, bez żadnego serwera CodeDAC",
-        "Globalne skróty, zasobnik systemowy, jasny i ciemny motyw, uruchamianie przy logowaniu, 21 języków. Bez reklam; opcjonalna jednorazowa wersja Pro dodaje więcej pływających notatek, przezroczystość, obrazy i eksport"
+        "Globalne skróty, zasobnik systemowy, jasny i ciemny motyw, uruchamianie przy logowaniu, 21 języków. Wiele pływających notatek naraz, regulowana przezroczystość, eksport i import"
       ],
       "faq": [
         {
@@ -576,10 +547,6 @@
         {
           "q": "Czy przeszkadza aplikacji pod spodem?",
           "a": "Nie. Kafelek to pływające okno, które nigdy nie przejmuje fokusu, więc kliknięcie lub przeciągnięcie zostawia kursor dokładnie tam, gdzie pisałeś. Kliknij kafelek, aby rozwinąć kartę; kliknij strzałkę u góry, naciśnij Esc lub kliknij obok, a zwinie się już zapisana."
-        },
-        {
-          "q": "Czy jest darmowa?",
-          "a": "Tak, bez reklam i bez konta. Pisanie notatek, kolory, przypomnienia i synchronizacja z Dyskiem Google są darmowe. Opcjonalny jednorazowy zakup Pro, a nie subskrypcja, pozwala mieć więcej niż jedną pływającą notatkę naraz i dodaje przezroczystość notatek, obrazy w treści oraz eksport i import. Jeśli korzystałeś z FloatNote+ dla Windows, zanim wróciło Pro, te funkcje pozostają dla Ciebie darmowe. (Na telefonie synchronizacja jest funkcją Pro aplikacji na Androida.)"
         },
         {
           "q": "Czy notatka może pojawić się o ustalonej godzinie?",
@@ -600,20 +567,20 @@
         "Start, pauza i restart przyciskiem ▶/⏸/↻ prosto na karteczce, bez otwierania aplikacji, a minutniki pokazują pasek pozostałego czasu; liczniki dodają i odejmują po kliknięciu połowy",
         "Dziewięć pastelowych kolorów, regulowany rozmiar i przezroczystość karteczki oraz okna zgodne z jasnym lub ciemnym motywem",
         "Plik kopii zapasowej ma ten sam format co w aplikacji na Androida — wyeksportuj po jednej stronie i przywróć po drugiej",
-        "Skróty globalne, zasobnik systemowy, uruchamianie przy logowaniu, 21 języków. Bez konta, bez sieci, bez reklam — a Pro to jednorazowy zakup"
+        "Alarm na pełnym ekranie, własny dźwięk alarmu i powtarzane minutniki. Skróty globalne, zasobnik systemowy, uruchamianie przy logowaniu, 21 języków. Bez konta, bez sieci"
       ],
       "faq": [
         {
           "q": "Czy to ta sama aplikacja co FloatTimer+ na Androida?",
-          "a": "To ta sama aplikacja zbudowana dla Windows, z tymi samymi pływającymi karteczkami. Każdą kupuje się w jej własnym sklepie. Obie nie synchronizują się automatycznie, ale czytają i zapisują ten sam plik kopii zapasowej — wyeksportuj po jednej stronie i przywróć po drugiej, aby przenieść listę."
+          "a": "To ta sama aplikacja zbudowana dla Windows, z tymi samymi pływającymi karteczkami. Obie nie synchronizują się automatycznie, ale czytają i zapisują ten sam plik kopii zapasowej — wyeksportuj po jednej stronie i przywróć po drugiej, aby przenieść listę."
         },
         {
           "q": "Czy przeszkadza aplikacji pod spodem?",
           "a": "Nie. Karteczka to pływające okno, które nigdy nie przejmuje fokusu, więc kliknięcie lub przeciągnięcie zostawia kursor dokładnie tam, gdzie pisałeś. Gdy potrzebujesz ekranu, złóż karteczkę do bąbelka niewiele większego od przycisku, dosuń ją do krawędzi ekranu, gdzie schowa się do połowy, albo ukryj wszystkie naraz skrótem klawiszowym."
         },
         {
-          "q": "Czy można korzystać za darmo?",
-          "a": "Tak. Możesz utworzyć dowolnie wiele minutników, liczników i stoperów — lista nigdy nie jest ograniczona — a wersja na Windows nie ma reklam. W wersji bezpłatnej na ekranie pływają dwie karteczki naraz. Pro to jednorazowy zakup, nie subskrypcja, i dodaje alert pełnoekranowy i własny dźwięk alarmu, automatyczne powtarzanie minutników, nieograniczoną liczbę pływających karteczek oraz dowolny kolor."
+          "q": "Czy potrzebne jest konto lub internet?",
+          "a": "Nie. Minutniki są zapisywane w pliku na Twoim komputerze."
         }
       ]
     },
@@ -644,10 +611,6 @@
         {
           "q": "Czy moje pliki są przesyłane albo oryginał jest zmieniany?",
           "a": "Ani jedno, ani drugie. Wykrywanie, maskowanie i eksport działają na Twoim PC, bez konta i bez przesyłania czegokolwiek. Maska trafia na kopię, aplikacja nie zapisuje na oryginale, a zapisane kopie są kodowane od nowa, bez metadanych oryginału."
-        },
-        {
-          "q": "Co jest za darmo, a co dodaje Pro?",
-          "a": "Wyszukiwanie danych osobowych jest darmowe i bez limitu, a zakrytą kopię 3 dokumentów dziennie możesz za darmo zapisać, skopiować lub udostępnić. Pro to jednorazowy zakup, który znosi dzienny limit i dodaje eksport do PDF, drukowanie, listę zawsze ukrywanych słów i wybór koloru maski. Bez reklam i bez znaku wodnego."
         }
       ]
     },
@@ -657,14 +620,14 @@
       "seo": "Kursy kryptowalut na PC",
       "desc": "Pasek kursów kryptowalut na żywo, który unosi się nad każdym oknem w Windows, z alertami cenowymi i wykresami.",
       "tagline": "Bitcoin, Ethereum i Twoje altcoiny w wąskim pasku nad każdym oknem — rynek zawsze w kąciku oka, gdy pracujesz, a pasek nigdy nie odbiera fokusu.",
-      "long": "FloatCrypto+ for Windows to wersja na komputer aplikacji FloatCrypto+ na Androida. Trzyma wąski pasek kursów nad każdym oknem — przeglądarką, dokumentami, wideorozmową — z symbolem i zmianą 24-godzinną każdej monety, w kolorze zależnym od kierunku. Bez przełączania kart i odświeżania strony. Przeciągnij pasek, gdzie chcesz, ustaw przezroczystość i rozmiar tekstu albo zwiń go do małego bąbelka, który przylega do krawędzi ekranu; nigdy nie odbiera fokusu aplikacji, w której piszesz. Najedź na ikonę w zasobniku systemowym, aby zobaczyć pełną tabelę kursów — nawet przy wyłączonym pasku. Ustaw cel powyżej lub poniżej bieżącej ceny i otrzymaj powiadomienie na pulpicie, gdy tylko rynek go przekroczy — jednorazowo lub za każdym razem. Wybieraj monety spośród setek par notowanych na Binance, ustaw ich kolejność przeciąganiem i kliknij dwukrotnie dowolną monetę, aby otworzyć wykres z maksimum, minimum, otwarciem i zmianą w okresie. Kursy pochodzą z publicznych danych rynkowych Binance z automatycznym przełączeniem na serwery zapasowe i CoinGecko, mogą być opóźnione do 30 sekund i mają charakter wyłącznie informacyjny — FloatCrypto+ nie jest aplikacją do handlu i nic w niej nie stanowi porady inwestycyjnej.",
+      "long": "FloatCrypto+ for Windows to wersja na komputer aplikacji FloatCrypto+ na Androida. Trzyma wąski pasek kursów nad każdym oknem — przeglądarką, dokumentami, wideorozmową — z symbolem i zmianą 24-godzinną każdej monety, w kolorze zależnym od kierunku. Bez przełączania kart i odświeżania strony. Przeciągnij pasek, gdzie chcesz, ustaw przezroczystość i rozmiar tekstu albo zwiń go do małego bąbelka, który przylega do krawędzi ekranu; nigdy nie odbiera fokusu aplikacji, w której piszesz. Najedź na ikonę w zasobniku systemowym, aby zobaczyć pełną tabelę kursów — nawet przy wyłączonym pasku. Ustaw cel powyżej lub poniżej bieżącej ceny i otrzymaj powiadomienie na pulpicie, gdy tylko rynek go przekroczy — jednorazowo lub za każdym razem. Wybieraj monety spośród setek par notowanych na Binance, ustaw ich kolejność przeciąganiem i kliknij dwukrotnie dowolną monetę, aby otworzyć wykres z maksimum, minimum, otwarciem i zmianą w okresie. Kursy pochodzą z publicznych danych rynkowych Binance z automatycznym przełączeniem na serwery zapasowe i CoinGecko, mogą być opóźnione do 10 sekund i mają charakter wyłącznie informacyjny — FloatCrypto+ nie jest aplikacją do handlu i nic w niej nie stanowi porady inwestycyjnej.",
       "features": [
         "Pasek kursów na żywo nad każdym oknem — przeciągaj go, gdzie chcesz, ustaw przezroczystość i rozmiar tekstu albo zwiń do bąbelka przy krawędzi ekranu",
         "Nigdy nie odbiera fokusu — pasek jest widoczny, a kursor zostaje w aplikacji, w której pracujesz",
         "Alerty cenowe powyżej lub poniżej celu, jednorazowe lub powtarzane, dodawane prosto z menu ⋮ monety, która jest już wybrana",
         "Lista obserwowanych z setek par Binance, kolejność zmieniana przeciąganiem oraz wykresy 1, 7 i 30 dni z maksimum, minimum, otwarciem i zmianą w okresie",
         "Kolory zachodnie (zielony w górę, czerwony w dół) lub wschodnie (czerwony w górę, niebieski w dół) i pełna tabela kursów na ikonie w zasobniku",
-        "Globalne skróty, zasobnik systemowy, start z Windows, jasny i ciemny motyw, 21 języków. Bez reklam i bez konta"
+        "Globalne skróty, zasobnik systemowy, start z Windows, jasny i ciemny motyw, 21 języków. Bez konta"
       ],
       "faq": [
         {
@@ -677,11 +640,7 @@
         },
         {
           "q": "Skąd pochodzą kursy?",
-          "a": "Z publicznych danych rynkowych Binance, z automatycznym przełączeniem na serwery zapasowe i CoinGecko, dzięki czemu pasek działa dalej, gdy jedno źródło jest nieosiągalne. Kursy mogą być opóźnione do 30 sekund i mają charakter wyłącznie informacyjny. FloatCrypto+ nie handluje, nie łączy się z kontem na giełdzie ani nie przechowuje żadnych środków, a nic w niej nie stanowi porady inwestycyjnej."
-        },
-        {
-          "q": "Co jest za darmo, a co dodaje Pro?",
-          "a": "Za darmo śledzisz 3 kryptowaluty z 1 alertem cenowym, odświeżanie co 30 sekund i wykres 1-dniowy — a pasek kursów nie ma limitu czasu. Pro to jednorazowy zakup, który zwiększa to do 10 kryptowalut, nielimitowanych alertów, odświeżania co 10 sekund i wykresów 7- i 30-dniowych. Wersja na Windows nie ma reklam."
+          "a": "Z publicznych danych rynkowych Binance, z automatycznym przełączeniem na serwery zapasowe i CoinGecko, dzięki czemu pasek działa dalej, gdy jedno źródło jest nieosiągalne. Kursy mogą być opóźnione do 10 sekund i mają charakter wyłącznie informacyjny. FloatCrypto+ nie handluje, nie łączy się z kontem na giełdzie ani nie przechowuje żadnych środków, a nic w niej nie stanowi porady inwestycyjnej."
         }
       ]
     }

@@ -156,10 +156,6 @@
         {
           "q": "Ứng dụng có đồng bộ với máy tính Windows không?",
           "a": "Có. Hãy cài thêm Clipboard+ for Windows, rồi trong phần cài đặt của cả hai ứng dụng, đăng nhập Google Drive bằng cùng một tài khoản và bật đồng bộ tự động. Sau đó, thứ bạn sao chép trên điện thoại sẽ dán được trên máy tính và ngược lại. Nội dung sao chép không đi qua máy chủ nào của CodeDAC — nó chỉ được lưu trong chính Google Drive của bạn."
-        },
-        {
-          "q": "Bản miễn phí có gì, và Pro thêm gì?",
-          "a": "Bản miễn phí lưu lịch sử clipboard văn bản và hình ảnh kèm tìm kiếm, đoạn mẫu, tối đa 3 nhóm, bảng nổi, widget và lưu từ menu chọn văn bản, có quảng cáo. Pro bỏ quảng cáo và thêm đồng bộ điện thoại↔PC qua Google Drive của chính bạn, clip hình ảnh không giới hạn, bảng nổi và widget mở rộng, nhóm không giới hạn, xuất PDF và khôi phục bản sao lưu — theo tháng, theo năm hoặc mua một lần trọn đời."
         }
       ],
       "howto": {
@@ -192,15 +188,14 @@
       "seo": "Ứng dụng tự khởi động Android",
       "desc": "Tự động mở ứng dụng khi khởi động máy. Không cần root, cài đặt một lần.",
       "tagline": "Tự động mở ứng dụng sau mỗi lần khởi động lại, ngay khi bạn mở khóa điện thoại. Không cần root, cài một lần, chạy mãi.",
-      "long": "AutoStart+ là trình quản lý tự khởi chạy đơn giản nhất trên Android: chọn ứng dụng bạn muốn, và sau mỗi lần khởi động lại, ngay khi bạn mở khóa máy chúng tự mở — không root, không script, không phải chạm mỗi sáng. Tìm trong toàn bộ ứng dụng đã cài, thêm vào danh sách trong vài giây, bật tắt chỉ với một chạm và kéo các dòng để đặt thứ tự khởi chạy. Cũng không cần khởi động lại để thử: menu ⋮ ở mỗi dòng mở ứng dụng đó tức thì, còn sau khi máy khởi động sẽ có thông báo ngắn cho biết những gì đã chạy, phần còn lại chỉ cần một chạm. Bản miễn phí tự mở 1 ứng dụng; PRO bỏ giới hạn để cả danh sách chạy theo thứ tự. Hầu hết màn hình Android ô tô chuyển sang chế độ ngủ thay vì khởi động lại khi bạn tắt máy xe. Bật Chế độ ô tô, ứng dụng sẽ tự mở lại mỗi khi màn hình bật sau khi tắt từ 3 phút trở lên. Miễn phí.",
+      "long": "AutoStart+ là trình quản lý tự khởi chạy đơn giản nhất trên Android: chọn ứng dụng bạn muốn, và sau mỗi lần khởi động lại, ngay khi bạn mở khóa máy chúng tự mở — không root, không script, không phải chạm mỗi sáng. Tìm trong toàn bộ ứng dụng đã cài, thêm vào danh sách trong vài giây, bật tắt chỉ với một chạm và kéo các dòng để đặt thứ tự khởi chạy. Cũng không cần khởi động lại để thử: menu ⋮ ở mỗi dòng mở ứng dụng đó tức thì, còn sau khi máy khởi động sẽ có thông báo ngắn cho biết những gì đã chạy, phần còn lại chỉ cần một chạm. Hầu hết màn hình Android ô tô chuyển sang chế độ ngủ thay vì khởi động lại khi bạn tắt máy xe. Bật Chế độ ô tô, ứng dụng sẽ tự mở lại mỗi khi màn hình bật sau khi tắt từ 3 phút trở lên.",
       "features": [
         "Tự mở các ứng dụng đã chọn sau mỗi lần khởi động lại, ngay khi mở khóa máy — không root, không ROM tùy chỉnh",
-        "Chế độ ô tô cho màn hình ô tô: ứng dụng tự mở lại mỗi khi màn hình thức dậy từ chế độ ngủ — miễn phí",
+        "Chế độ ô tô cho màn hình ô tô: ứng dụng tự mở lại mỗi khi màn hình thức dậy từ chế độ ngủ",
         "Kéo các dòng để quyết định ứng dụng nào chạy trước ở mỗi lần bật máy",
-        "Độ trễ khởi chạy (PRO): chờ vài giây trước ứng dụng đầu tiên và giãn cách các ứng dụng còn lại, để màn hình ô tô và thiết bị chậm khởi động xong trước",
+        "Độ trễ khởi chạy: chờ vài giây trước ứng dụng đầu tiên và giãn cách các ứng dụng còn lại, để màn hình ô tô và thiết bị chậm khởi động xong trước",
         "«Chạy ngay» trong menu ⋮ của mỗi dòng — kiểm tra danh sách mà không cần khởi động lại",
-        "Sau khi khởi động lại, banner mở cả danh sách chỉ với một chạm ngay khi bạn mở khóa (PRO)",
-        "Bản miễn phí tự mở 1 ứng dụng; PRO bỏ giới hạn và chạy cả danh sách theo thứ tự"
+        "Sau khi khởi động lại, banner mở cả danh sách chỉ với một chạm ngay khi bạn mở khóa"
       ],
       "faq": [
         {
@@ -209,11 +204,7 @@
         },
         {
           "q": "AutoStart+ có hoạt động trên màn hình Android ô tô không?",
-          "a": "Hầu hết màn hình Android ô tô chuyển sang chế độ ngủ thay vì khởi động lại khi bạn tắt máy xe. Bật Chế độ ô tô, ứng dụng sẽ tự mở lại mỗi khi màn hình bật sau khi tắt từ 3 phút trở lên. Miễn phí."
-        },
-        {
-          "q": "Tôi có thể tự khởi động bao nhiêu ứng dụng?",
-          "a": "Bản miễn phí mở 1 ứng dụng mỗi lần khởi động. PRO bỏ giới hạn, cả danh sách sẽ chạy theo thứ tự bạn đặt."
+          "a": "Hầu hết màn hình Android ô tô chuyển sang chế độ ngủ thay vì khởi động lại khi bạn tắt máy xe. Bật Chế độ ô tô, ứng dụng sẽ tự mở lại mỗi khi màn hình bật sau khi tắt từ 3 phút trở lên."
         },
         {
           "q": "Ứng dụng có làm hao pin không?",
@@ -247,11 +238,11 @@
         },
         {
           "q": "Tỷ giá lấy từ đâu?",
-          "a": "Từ Ngân hàng Trung ương châu Âu, cập nhật mỗi ngày một lần. Dòng bên dưới số tiền hiển thị tỷ giá và ngày của tỷ giá đó, và bạn có thể cập nhật tỷ giá bất cứ lúc nào trong Cài đặt. Tiền tệ của bạn, USD và EUR được dùng miễn phí; Pro mở mọi cặp giữa hơn 30 loại tiền tệ. Bộ nhớ đệm hằng ngày giúp nó dùng được cả khi ngoại tuyến."
+          "a": "Từ Ngân hàng Trung ương châu Âu, cập nhật mỗi ngày một lần. Dòng bên dưới số tiền hiển thị tỷ giá và ngày của tỷ giá đó, và bạn có thể cập nhật tỷ giá bất cứ lúc nào trong Cài đặt. Bạn có thể quy đổi giữa mọi cặp trong hơn 30 loại tiền tệ. Bộ nhớ đệm hằng ngày giúp nó dùng được cả khi ngoại tuyến."
         },
         {
-          "q": "Những gì miễn phí, và Pro thêm gì?",
-          "a": "Máy tính nổi, đơn vị chiều dài, quy đổi giữa tiền tệ của bạn, USD và EUR, 5 phép tính gần nhất, 3 mức độ trong suốt và giao diện mặc định đều miễn phí, có quảng cáo. Pro bỏ quảng cáo, đồng thời mở mọi danh mục đơn vị và mọi cặp tiền tệ, lịch sử tới 100 mục, thêm 7 giao diện cùng tinh chỉnh độ trong suốt, kích thước và chiều rộng — theo tháng, theo năm hoặc mua một lần trọn đời."
+          "q": "Có dùng ngoại tuyến được không?",
+          "a": "Máy tính và bộ đổi đơn vị luôn dùng được ngoại tuyến. Đổi tiền dùng tỷ giá tải về gần nhất."
         }
       ]
     },
@@ -261,14 +252,14 @@
       "seo": "Giá Bitcoin nổi trên mọi ứng dụng",
       "desc": "Thanh giá crypto trực tiếp nổi trên mọi ứng dụng, kèm cảnh báo và biểu đồ.",
       "tagline": "Bitcoin, Ethereum và altcoin của bạn luôn trên màn hình — trên mọi ứng dụng.",
-      "long": "FloatCrypto+ giữ một thanh giá trực tiếp nổi bên trên mọi ứng dụng, để bạn theo dõi thị trường trong lúc xem YouTube, đọc tin hay trả lời tin nhắn — không cần chuyển qua lại, không cần tải lại. Kéo tới vị trí bạn muốn, đổi kích thước và giảm độ mờ để nó không bao giờ vướng mắt. Đặt ngưỡng trên hoặc dưới và ứng dụng sẽ báo ngay khi thị trường chạm mức đó; lập danh sách theo dõi chỉ gồm những coin bạn thật sự quan tâm và mở biểu đồ 1 ngày, 7 ngày, 30 ngày kèm giá cao nhất, thấp nhất, mở cửa và mức thay đổi trong kỳ. Giá lấy từ Binance và tự động chuyển nguồn khi một nguồn không truy cập được, nên thanh giá vẫn chạy. Dữ liệu trễ tối đa 30 giây (10 giây với Pro) và chỉ mang tính tham khảo — không phải lời khuyên đầu tư.",
+      "long": "FloatCrypto+ giữ một thanh giá trực tiếp nổi bên trên mọi ứng dụng, để bạn theo dõi thị trường trong lúc xem YouTube, đọc tin hay trả lời tin nhắn — không cần chuyển qua lại, không cần tải lại. Kéo tới vị trí bạn muốn, đổi kích thước và giảm độ mờ để nó không bao giờ vướng mắt. Đặt ngưỡng trên hoặc dưới và ứng dụng sẽ báo ngay khi thị trường chạm mức đó; lập danh sách theo dõi chỉ gồm những coin bạn thật sự quan tâm và mở biểu đồ 1 ngày, 7 ngày, 30 ngày kèm giá cao nhất, thấp nhất, mở cửa và mức thay đổi trong kỳ. Giá lấy từ Binance và tự động chuyển nguồn khi một nguồn không truy cập được, nên thanh giá vẫn chạy. Dữ liệu trễ tối đa 10 giây và chỉ mang tính tham khảo — không phải lời khuyên đầu tư.",
       "features": [
         "Thanh giá nổi trên mọi ứng dụng — kéo tới vị trí bất kỳ, đổi kích thước, giảm độ mờ",
         "Cảnh báo giá theo ngưỡng trên hoặc dưới, tạo ngay trên thẻ coin đã được chọn sẵn",
         "Danh sách theo dõi với giá trực tiếp, biến động 24 giờ và kéo để sắp xếp lại",
         "Biểu đồ 1 ngày / 7 ngày / 30 ngày kèm giá cao nhất, thấp nhất, mở cửa và mức thay đổi",
         "Màu phương Tây và phương Đông — xanh tăng/đỏ giảm, hoặc đỏ tăng/xanh dương giảm",
-        "Giá Binance với tự động chuyển nguồn, trễ tối đa 30 giây (10 giây với Pro)"
+        "Giá Binance với tự động chuyển nguồn, trễ tối đa 10 giây"
       ],
       "faq": [
         {
@@ -280,8 +271,8 @@
           "a": "Bạn đặt ngưỡng trên hoặc dưới, FloatCrypto+ sẽ báo ngay khi thị trường chạm mức đó. Có thể tạo cảnh báo ngay trên thẻ coin — chạm ⋮ và coin đã được chọn sẵn — còn biểu tượng chuông đánh dấu mọi coin bạn đang theo dõi."
         },
         {
-          "q": "Bản miễn phí có gì?",
-          "a": "Bản miễn phí theo dõi 3 đồng với 1 cảnh báo giá và biểu đồ 1 ngày, có quảng cáo. Pro cho tối đa 10 đồng, cảnh báo không giới hạn, biểu đồ 7 ngày và 30 ngày, làm mới mỗi 10 giây thay vì 30 giây và không quảng cáo — theo tháng, theo năm hoặc mua một lần trọn đời."
+          "q": "Có cần tài khoản hay ví không?",
+          "a": "Không. Không cần đăng ký, email hay kết nối ví."
         }
       ]
     },
@@ -307,11 +298,7 @@
         },
         {
           "q": "Có dùng được như bộ hẹn giờ Pomodoro hoặc tập luyện không?",
-          "a": "Có. Có lựa chọn nhanh như 25 phút, bạn cũng đặt được thời lượng tùy ý và chạy nhiều bộ hẹn giờ cùng lúc cho hiệp tập và nghỉ. Bản Pro cho phép lặp lại 2, 3, 5 lần hoặc vô hạn."
-        },
-        {
-          "q": "Bản miễn phí có những gì?",
-          "a": "Không giới hạn số lượng hẹn giờ, bộ đếm và bấm giờ, kèm cảnh báo bằng âm thanh và rung, cùng tiện ích trên màn hình chính. Bản miễn phí hiển thị hai hẹn giờ nổi tại một thời điểm. Bản Pro thêm cảnh báo toàn màn hình kể cả khi màn hình đang tắt, âm báo thức và kiểu rung của riêng bạn, tự lặp lại, hiển thị cùng lúc bao nhiêu hẹn giờ nổi tùy ý và không quảng cáo."
+          "a": "Có. Có lựa chọn nhanh như 25 phút, bạn cũng đặt được thời lượng tùy ý và chạy nhiều bộ hẹn giờ cùng lúc cho hiệp tập và nghỉ. Bạn cũng có thể lặp lại 2, 3, 5 lần hoặc vô hạn."
         },
         {
           "q": "Tôi có thể dùng FloatTimer+ trên màn hình Android ô tô không?",
@@ -325,23 +312,19 @@
       "seo": "Tăng âm lượng và equalizer",
       "desc": "Tăng âm lượng và bộ chỉnh âm: một chạm lên 150%, tối đa 225%, và âm lượng thiết bị cũng tăng theo.",
       "tagline": "To hơn chỉ với một chạm — các nút mức nâng âm lượng thiết bị và tăng âm hầu hết ứng dụng, lên đến 225%.",
-      "long": "Điện thoại quá nhỏ tiếng? VolumeBooster+ nâng toàn bộ đầu ra hệ thống chứ không chỉ một ứng dụng: loa yếu, tai nghe nhỏ tiếng, video khó nghe, nhạc và game đều nghe rõ. Chạm một mức — 100%, 125%, 150% hoặc Tối đa — ứng dụng sẽ nâng âm lượng thiết bị trước, rồi cộng thêm mức tăng âm lên trên, đến 225% (+15 dB). Màn hình chính hiển thị âm lượng thiết bị ngay cạnh mức tăng âm, và nút âm lượng vẫn điều khiển âm lượng điện thoại. Các màu An toàn / Thận trọng / Nguy hiểm dựa trên hướng dẫn thính lực của WHO cho biết bạn đã tăng đến đâu. Bản miễn phí đạt 183% (+10 dB), còn Pro mở 225%. Bộ tối đa hóa độ lớn, bộ chỉnh âm 5 dải với chín preset đều miễn phí, bộ tăng bass, mô phỏng 3D và hiệu chỉnh AutoEQ dựa trên 2.456 hồ sơ tai nghe đo thực tế đều nằm trong cùng một ứng dụng.",
+      "long": "Điện thoại quá nhỏ tiếng? VolumeBooster+ nâng toàn bộ đầu ra hệ thống chứ không chỉ một ứng dụng: loa yếu, tai nghe nhỏ tiếng, video khó nghe, nhạc và game đều nghe rõ. Chạm một mức — 100%, 125%, 150% hoặc Tối đa — ứng dụng sẽ nâng âm lượng thiết bị trước, rồi cộng thêm mức tăng âm lên trên, đến 225% (+15 dB). Màn hình chính hiển thị âm lượng thiết bị ngay cạnh mức tăng âm, và nút âm lượng vẫn điều khiển âm lượng điện thoại. Các màu An toàn / Thận trọng / Nguy hiểm dựa trên hướng dẫn thính lực của WHO cho biết bạn đã tăng đến đâu. Bộ tối đa hóa độ lớn, bộ chỉnh âm 5 dải với chín preset, bộ tăng bass, mô phỏng 3D và hiệu chỉnh AutoEQ dựa trên 2.456 hồ sơ tai nghe đo thực tế đều nằm trong cùng một ứng dụng.",
       "features": [
-        "Các mức một chạm 100%, 125%, 150% và Tối đa: mỗi mức nâng âm lượng thiết bị rồi tăng âm hầu hết ứng dụng lên đến 225% (+15 dB) — miễn phí 183%, 225% với Pro",
+        "Các mức một chạm 100%, 125%, 150% và Tối đa: mỗi mức nâng âm lượng thiết bị rồi tăng âm hầu hết ứng dụng lên đến 225% (+15 dB)",
         "Thanh trượt âm lượng thiết bị ngay trên màn hình chính, và nút âm lượng điều khiển âm lượng thiết bị — âm lượng điện thoại thấp không bao giờ che mất mức tăng âm",
         "Bộ tối đa hóa độ lớn với nén đa băng tần, bù gain và bộ giới hạn đỉnh luôn bật: to hơn mà không bị vỡ tiếng",
-        "Thẻ Bộ cân bằng gồm bộ chỉnh âm 5 dải với 9 preset, tất cả miễn phí, cùng tăng bass, mô phỏng 3D và AutoEQ: 2.456 hồ sơ tai nghe đo thực tế, các thương hiệu phổ biến (Apple, Samsung, Sony, Bose, JBL, Beats) miễn phí",
-        "Bảng nổi trên mọi ứng dụng với các mức tương tự trong menu, thống kê bảo vệ thính lực (Pro), hẹn giờ ngủ nhỏ dần, cân bằng kênh T/P, ô Cài đặt nhanh, tiện ích màn hình chính và điều khiển từ thông báo",
+        "Thẻ Bộ cân bằng gồm bộ chỉnh âm 5 dải với 9 preset, cùng tăng bass, mô phỏng 3D và AutoEQ: 2.456 hồ sơ tai nghe đo thực tế từ 357 thương hiệu",
+        "Bảng nổi trên mọi ứng dụng với các mức tương tự trong menu, thống kê bảo vệ thính lực, hẹn giờ ngủ nhỏ dần, cân bằng kênh T/P, ô Cài đặt nhanh, tiện ích màn hình chính và điều khiển từ thông báo",
         "Các màu An toàn / Thận trọng / Nguy hiểm dựa trên hướng dẫn thính lực của WHO cho biết bạn đã tăng âm lượng đến đâu"
       ],
       "faq": [
         {
           "q": "Điện thoại có thực sự to hơn không?",
           "a": "Có. Nút mức trước tiên nâng âm lượng thiết bị — lên tối đa khi dùng loa, lên 60% khi dùng tai nghe — rồi cộng thêm mức tăng âm qua bộ tối đa hóa độ lớn với nén đa băng tần và bù gain. Nó nâng toàn bộ đầu ra hệ thống, nên nhạc, video, YouTube và game cùng to hơn. Nếu vẫn thấy nhỏ, hãy kiểm tra âm lượng thiết bị trên màn hình chính; phần trợ giúp trong ứng dụng cũng có thể chuyển sang chế độ tương thích."
-        },
-        {
-          "q": "Ứng dụng có thực sự miễn phí không, có cần thuê bao không?",
-          "a": "Bản miễn phí cho bạn tối đa 183% (+10 dB), cả 9 preset, bộ chỉnh âm 5 dải, bảng nổi và AutoEQ cho các thương hiệu phổ biến như Apple, Samsung, Sony, Bose, JBL và Beats, có quảng cáo. Pro mở 225% (+15 dB), toàn bộ hồ sơ AutoEQ và bảng bảo vệ thính lực, đồng thời xóa quảng cáo: theo tháng, theo năm hoặc mua một lần trọn đời."
         },
         {
           "q": "150% và 225% nghĩa là gì?",
@@ -359,19 +342,19 @@
       "seo": "Che thông tin trong ảnh và PDF",
       "desc": "Che thông tin cá nhân trong ảnh và PDF, hoàn toàn trên thiết bị.",
       "tagline": "Che thông tin cá nhân trong ảnh và PDF bằng lớp che đặc, hoàn toàn ngay trên thiết bị của bạn.",
-      "long": "PhotoCleaner+ che thông tin cá nhân trong ảnh và PDF hoàn toàn ngay trên thiết bị của bạn. Ứng dụng phủ các vùng nhạy cảm bằng lớp che đặc, không trong suốt (không phải làm mờ hay mosaic, nên vùng đã che không thể khôi phục) và xuất ra một bản sao sạch. Bộ phát hiện tích hợp gợi ý miễn phí và không giới hạn những đoạn văn bản có thể nhạy cảm như số CMND/CCCD, thẻ, số điện thoại và email, nhưng bạn tự vẽ và điều chỉnh lớp che và quyết định chính xác điều gì được che. Ứng dụng xử lý ảnh, thẻ căn cước và cả PDF nhiều trang, mọi bản lưu hoặc chia sẻ đều được mã hóa lại không kèm EXIF, và không bao giờ yêu cầu quyền truy cập thư viện hay bộ nhớ. Nhận diện, chỉnh sửa và che vẫn không giới hạn ở bản miễn phí và không bản xuất nào có hình mờ; bản miễn phí xuất 3 lượt mỗi ngày, còn Pro gỡ giới hạn đó và thêm xuất PDF, in cùng màu lớp che tùy chọn. Bật “Chọn nơi lưu” để tự chọn thư mục và tên tệp.",
+      "long": "PhotoCleaner+ che thông tin cá nhân trong ảnh và PDF hoàn toàn ngay trên thiết bị của bạn. Ứng dụng phủ các vùng nhạy cảm bằng lớp che đặc, không trong suốt (không phải làm mờ hay mosaic, nên vùng đã che không thể khôi phục) và xuất ra một bản sao sạch. Bộ phát hiện tích hợp gợi ý không giới hạn những đoạn văn bản có thể nhạy cảm như số CMND/CCCD, thẻ, số điện thoại và email, nhưng bạn tự vẽ và điều chỉnh lớp che và quyết định chính xác điều gì được che. Ứng dụng xử lý ảnh, thẻ căn cước và cả PDF nhiều trang, mọi bản lưu hoặc chia sẻ đều được mã hóa lại không kèm EXIF, và không bao giờ yêu cầu quyền truy cập thư viện hay bộ nhớ. Nhận diện, chỉnh sửa, che và xuất đều không giới hạn, không bản xuất nào có hình mờ, và bạn có thể xuất PDF, in cùng chọn màu lớp che tùy ý. Bật “Chọn nơi lưu” để tự chọn thư mục và tên tệp.",
       "features": [
         "Lớp che đặc, không trong suốt, không thể khôi phục (không phải làm mờ hay mosaic)",
         "Vẽ lớp che bằng tay, rồi di chuyển, chỉnh kích thước hoặc xóa, có phóng to để chính xác",
-        "Phát hiện tích hợp gợi ý các đoạn văn bản có thể nhạy cảm (số CMND/CCCD, thẻ, số điện thoại, email) — miễn phí, không giới hạn, và bạn là người rà soát",
+        "Phát hiện tích hợp gợi ý các đoạn văn bản có thể nhạy cảm (số CMND/CCCD, thẻ, số điện thoại, email) — bạn là người rà soát",
         "Che ảnh, thẻ căn cước và tài liệu PDF nhiều trang",
         "Không yêu cầu quyền, cảnh báo EXIF & GPS, và mọi bản lưu hoặc chia sẻ đều được mã hóa lại không kèm EXIF",
-        "Không hình mờ với bất kỳ ai: 3 lượt xuất mỗi ngày ở bản miễn phí, không giới hạn với Pro cùng xuất PDF và in"
+        "Không hình mờ, xuất không giới hạn, cùng xuất PDF và in"
       ],
       "faq": [
         {
           "q": "Cách che là làm mờ hay mosaic?",
-          "a": "Không. Việc che chỉ dùng một kiểu duy nhất là tô đặc, không trong suốt, và vùng đã che không thể khôi phục. Với bản Pro, bạn có thể chọn màu che tùy ý."
+          "a": "Không. Việc che chỉ dùng một kiểu duy nhất là tô đặc, không trong suốt, và vùng đã che không thể khôi phục. Bạn có thể chọn màu che tùy ý."
         },
         {
           "q": "Ảnh của tôi có bị tải lên đâu đó không?",
@@ -380,10 +363,6 @@
         {
           "q": "Tôi có thể chỉ dựa vào phát hiện tự động trước khi xuất không?",
           "a": "Phát hiện chỉ là điểm khởi đầu, gợi ý những đoạn văn bản có thể nhạy cảm. Hãy luôn xem lại các gợi ý và tự thêm hoặc bớt lớp che trước khi xuất."
-        },
-        {
-          "q": "Bản miễn phí xuất được bao nhiêu lần mỗi ngày?",
-          "a": "Ba lần một ngày. Tính theo nút Xuất, bất kể sau đó bạn lưu, chia sẻ, tạo PDF hay in. Nhận diện, chỉnh sửa và che không bao giờ bị giới hạn. Pro gỡ bỏ giới hạn hằng ngày."
         }
       ]
     },
@@ -398,9 +377,9 @@
         "Đánh dấu dòng (Thước đọc): làm sáng dòng hiện tại để mắt bám theo",
         "Lớp che đọc: làm tối mọi thứ ngoài vùng đọc để tập trung như tầm nhìn đường hầm",
         "Dải tiêu điểm chỉnh được hoàn toàn: chiều cao (50dp–300dp) và độ trong suốt (10%–100%)",
-        "10 giao diện màu (3 miễn phí + 7 Pro)",
+        "10 giao diện màu",
         "Hoạt động trên mọi ứng dụng — ebook, PDF, webtoon, tin tức, bài nghiên cứu",
-        "Pro: không quảng cáo, thêm 7 giao diện màu, và giữ màn hình sáng khi đọc"
+        "Giữ màn hình sáng: màn hình không tắt khi bạn đọc"
       ],
       "faq": [
         {
@@ -412,8 +391,8 @@
           "a": "Nó hoạt động trên mọi ứng dụng đang hiển thị — trình đọc ebook và PDF, bài nghiên cứu, bài viết web, blog, tin tức, ghi chú học tập, giáo trình, truyện tranh, webtoon, và email hay lịch sử trò chuyện dài."
         },
         {
-          "q": "Ứng dụng có miễn phí không?",
-          "a": "Có. Bản miễn phí có cả hai chế độ tập trung, 3 giao diện màu và chỉnh chiều cao, độ mờ đục của dải, có quảng cáo. Pro bỏ quảng cáo và thêm 7 giao diện màu cùng giữ màn hình sáng — theo tháng, theo năm hoặc mua một lần trọn đời."
+          "q": "Tôi vẫn chạm và cuộn ứng dụng bên dưới được chứ?",
+          "a": "Được. Thao tác chạm xuyên qua thanh đến ứng dụng bên dưới. Từ Android 12, hệ thống giới hạn độ đậm của lớp phủ khoảng 80% để thao tác chạm vẫn hoạt động."
         }
       ]
     },
@@ -427,10 +406,10 @@
       "features": [
         "Ghi chú lớp phủ nổi: thu gọn thành chip nhỏ, mở thành thẻ đầy đủ trên mọi ứng dụng",
         "7 màu ghi chú và định dạng: in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ",
-        "Hình ảnh trong ghi chú (Pro): đính kèm ảnh ngay bên trong",
+        "Hình ảnh trong ghi chú: đính kèm ảnh ngay bên trong",
         "Nhắc ghi chú — một lần, hằng ngày, ngày thường hoặc ngày tùy chọn",
         "Kho lưu với tìm kiếm tức thì, ghim và kéo để sắp xếp; kéo chip xuống vùng dưới màn hình là cất đi chứ không xóa",
-        "Pro: ghi chú nổi không giới hạn, hình ảnh, đồng bộ Google Drive, lời nhắc không giới hạn, không quảng cáo"
+        "Ghi chú nổi không giới hạn, đồng bộ Google Drive và lời nhắc không giới hạn"
       ],
       "faq": [
         {
@@ -446,16 +425,12 @@
           "a": "Có. Hãy cài thêm FloatNote+ for Windows, rồi trong phần cài đặt của cả hai ứng dụng, đăng nhập Google Drive bằng cùng một tài khoản và bật đồng bộ tự động. Sau đó, ghi chú viết trên điện thoại sẽ hiện trên máy tính và ghi chú viết trên máy tính sẽ hiện trên điện thoại. Ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn. Cả nội dung chữ lẫn ảnh đính kèm đều di chuyển giữa các máy."
         },
         {
-          "q": "Có dùng miễn phí được không?",
-          "a": "Có. Lưu ghi chú là miễn phí và không giới hạn, bản miễn phí cho nổi một ghi chú mỗi lần, đủ 7 màu, chỉnh độ đục, xuất và nhập cùng tiện ích màn hình chính, có quảng cáo. Pro thêm ghi chú nổi không giới hạn, hình ảnh, đồng bộ Google Drive và lời nhắc không giới hạn, đồng thời gỡ quảng cáo."
-        },
-        {
           "q": "Tôi có thể dùng FloatNote+ trên màn hình Android ô tô không?",
           "a": "Có, nếu màn hình Android ô tô của bạn có Google Play và chạy Android 8.0 trở lên. Ghi chú nổi trên ứng dụng dẫn đường hoặc nhạc. Các màn hình thiết lập được bố trí cho màn hình ngang rộng và thấp. Màn hình ô tô phải cho phép “Hiển thị trên các ứng dụng khác”."
         },
         {
           "q": "Ghi chú có thể hiện lên vào giờ đã đặt không?",
-          "a": "Có. Đặt giờ và ghi chú sẽ hiện lên màn hình kèm thông báo — một lần, hằng ngày, ngày thường hoặc chỉ những ngày bạn chọn. (Miễn phí: 1 lời nhắc · Pro: không giới hạn)"
+          "a": "Có. Đặt giờ và ghi chú sẽ hiện lên màn hình kèm thông báo — một lần, hằng ngày, ngày thường hoặc chỉ những ngày bạn chọn."
         }
       ]
     },
@@ -465,14 +440,14 @@
       "seo": "Khóa xoay màn hình",
       "desc": "Ép hướng màn hình cho cả điện thoại hoặc từng ứng dụng: dọc, ngang hoặc tự động. Không cần root.",
       "tagline": "Có ứng dụng không chịu xoay, có ứng dụng xoay ngay khi bạn nằm xuống. Khóa hướng màn hình cho cả điện thoại hoặc từng ứng dụng chỉ bằng một chạm, không cần root.",
-      "long": "Rotate+ ép hướng màn hình cho cả điện thoại hoặc cho từng ứng dụng chỉ bằng một chạm, không cần root. Chọn Tự động, Dọc, Ngang, Dọc ngược, Ngang ngược hoặc Khóa hướng hiện tại và nó áp dụng ngay, không có hộp thoại xác nhận. Với quy tắc theo ứng dụng, video và game xoay ngang, trò chuyện và đọc để dọc: quy tắc bật khi mở ứng dụng và tắt khi bạn rời đi. Nếu ứng dụng xoay màn hình trở lại, “Giữ hướng màn hình” sẽ đưa về lựa chọn của bạn; nếu ứng dụng cứ chống lại, Rotate+ ngừng thử nên màn hình không xoay liên tục. “Xoay một lần” chỉ xoay ứng dụng đang mở cho tới khi bạn chuyển ứng dụng hoặc tắt màn hình, còn ô cài đặt nhanh, tiện ích và lối tắt giúp mọi thứ chỉ cách một chạm. Trên máy tính bảng Android 16, Rotate+ tự chuyển sang dùng cài đặt xoay của hệ thống. Bản miễn phí có 3 quy tắc kèm một banner quảng cáo nhỏ; Pro thêm quy tắc không giới hạn, điều kiện, nút xoay nổi và bỏ quảng cáo.",
+      "long": "Rotate+ ép hướng màn hình cho cả điện thoại hoặc cho từng ứng dụng chỉ bằng một chạm, không cần root. Chọn Tự động, Dọc, Ngang, Dọc ngược, Ngang ngược hoặc Khóa hướng hiện tại và nó áp dụng ngay, không có hộp thoại xác nhận. Với quy tắc theo ứng dụng, video và game xoay ngang, trò chuyện và đọc để dọc: quy tắc bật khi mở ứng dụng và tắt khi bạn rời đi. Nếu ứng dụng xoay màn hình trở lại, “Giữ hướng màn hình” sẽ đưa về lựa chọn của bạn; nếu ứng dụng cứ chống lại, Rotate+ ngừng thử nên màn hình không xoay liên tục. “Xoay một lần” chỉ xoay ứng dụng đang mở cho tới khi bạn chuyển ứng dụng hoặc tắt màn hình, còn ô cài đặt nhanh, tiện ích và lối tắt giúp mọi thứ chỉ cách một chạm. Trên máy tính bảng Android 16, Rotate+ tự chuyển sang dùng cài đặt xoay của hệ thống. Tạo bao nhiêu quy tắc theo ứng dụng tùy thích, để điều kiện tự đổi hướng màn hình, và đặt nút xoay nổi trên các ứng dụng khác.",
       "features": [
         "Một chạm, sáu chế độ: Tự động, Dọc, Ngang, Dọc ngược, Ngang ngược và Khóa hướng hiện tại — áp dụng ngay, cả bốn hướng và chế độ theo cảm biến nằm trong Thêm chế độ",
         "Quy tắc theo ứng dụng: video và game xoay ngang, trò chuyện và đọc để dọc — bật khi mở ứng dụng, tắt khi bạn rời đi",
         "Giữ hướng màn hình: nếu ứng dụng xoay màn hình trở lại, Rotate+ đưa về lựa chọn của bạn, và ngừng thử nếu ứng dụng cứ chống lại — màn hình không xoay liên tục",
         "Xoay một lần: “Chỉ ứng dụng này, chỉ lúc này” — tự hủy khi bạn chuyển ứng dụng hoặc tắt màn hình",
         "Hai ô cài đặt nhanh, tiện ích màn hình chính, lối tắt ứng dụng và thông báo tùy chọn với nút Tạm dừng, Chế độ và Xoay một lần",
-        "Miễn phí 3 quy tắc kèm banner quảng cáo nhỏ; Pro: quy tắc không giới hạn, điều kiện, nút nổi và không quảng cáo"
+        "Quy tắc theo ứng dụng không giới hạn, điều kiện tự đổi hướng (khi sạc, tai nghe, Bluetooth, đế, cuộc gọi, khung giờ đã đặt) và nút xoay nổi"
       ],
       "faq": [
         {
@@ -482,10 +457,6 @@
         {
           "q": "Vì sao cần Trợ năng? Có an toàn không?",
           "a": "Trợ năng chỉ dùng để biết ứng dụng nào đang trên màn hình (cho quy tắc theo ứng dụng) và giữ hướng bạn chọn bằng một cửa sổ vô hình 1 pixel. Rotate+ không bao giờ đọc nội dung màn hình, văn bản hay mật khẩu. Bạn có thể dùng quyền truy cập dữ liệu sử dụng thay thế. Không cần tài khoản, không gửi dữ liệu đi đâu."
-        },
-        {
-          "q": "Bản miễn phí và Pro khác nhau thế nào?",
-          "a": "Mọi chế độ xoay, Giữ hướng màn hình, Xoay một lần, ô cài đặt nhanh, tiện ích và lối tắt đều miễn phí, kèm 3 quy tắc theo ứng dụng và một banner quảng cáo nhỏ. Pro thêm quy tắc không giới hạn, điều kiện tự đổi hướng (khi sạc, khi cắm tai nghe, thiết bị Bluetooth, đế xe hơi hoặc đế bàn, trong cuộc gọi hay vào khung giờ đã đặt), nút xoay nổi và bỏ quảng cáo."
         },
         {
           "q": "Tôi có thể dùng Rotate+ trên màn hình Android ô tô không?",
@@ -518,8 +489,8 @@
           "a": "Lịch sử sao chép mặc định chỉ nằm trong máy tính của bạn (thư mục %APPDATA%\\ClipboardPlus). Nếu bật đồng bộ, nó cũng được lưu vào vùng riêng của ứng dụng trong chính Google Drive của bạn — vùng này không hiện ra trên màn hình Drive và ngoài Clipboard+ thì không gì mở được. Ứng dụng chỉ dùng vùng riêng đó nên không thể chạm tới ảnh hay tài liệu khác của bạn trên Drive."
         },
         {
-          "q": "Clipboard+ cho Windows có miễn phí không?",
-          "a": "Có, không quảng cáo và không cần tài khoản. Lịch sử clipboard có tìm kiếm, đoạn mẫu, ghim, cửa sổ dán nhanh, đồng bộ Google Drive, sao chép và lưu clip ảnh, chia sẻ qua email và xuất bản sao lưu đều miễn phí. Gói Pro tùy chọn mua một lần, không phải đăng ký, bổ sung khôi phục bản sao lưu, nhóm không giới hạn (bản miễn phí có 3), xuất PDF và thêm dung lượng lưu ảnh. Nếu bạn đã dùng Clipboard+ for Windows trước khi Pro quay lại, các tính năng đó vẫn miễn phí với bạn. (Trên điện thoại, đồng bộ là tính năng Pro của ứng dụng Android.)"
+          "q": "Tôi có thể đổi phím tắt không?",
+          "a": "Có. Mỗi phím tắt đều có thể đổi hoặc tắt trong Cài đặt."
         }
       ]
     },
@@ -536,20 +507,20 @@
         "Bảng điều khiển nổi để đổi chế độ, di chuyển hoặc khóa dải và ẩn nó; thu gọn thành một hàng khi không cần",
         "Phím tắt cho bật và tắt, đổi chế độ, hiện và ẩn, khóa, và dịch dải lên hoặc xuống",
         "Nhiều màn hình: dải đọc đi theo bảng điều khiển sang màn hình bạn chọn, còn lại nằm yên trong khay hệ thống",
-        "Không quảng cáo. Pro là mua một lần: chủ đề cao cấp và giữ màn hình luôn bật"
+        "Mười chủ đề màu, từ vàng bút dạ quang đến xanh đại dương; Giữ màn hình luôn bật: màn hình không tắt khi dải đang bật"
       ],
       "faq": [
         {
           "q": "Đây có phải cùng một ứng dụng với ReadFocus+ trên Android không?",
-          "a": "Đây là cùng một ứng dụng được làm cho Windows, với hai chế độ đọc giống hệt. Hai bản được mua riêng ở từng cửa hàng và không có gì để đồng bộ — ReadFocus+ không bao giờ lưu nội dung bạn đọc."
+          "a": "Đây là cùng một ứng dụng được làm cho Windows, với hai chế độ đọc giống hệt. Không có gì để đồng bộ — ReadFocus+ không bao giờ lưu nội dung bạn đọc."
         },
         {
           "q": "Nó dùng được với những ứng dụng nào?",
           "a": "Với mọi ứng dụng đang hiển thị: trình duyệt, trình đọc PDF và sách điện tử, tài liệu, trình soạn mã, bài báo khoa học, email hay lịch sử trò chuyện dài. Dải tập trung được vẽ lên trên màn hình nên ứng dụng bên dưới không cần hỗ trợ gì."
         },
         {
-          "q": "Có miễn phí không?",
-          "a": "Có. Bản miễn phí gồm cả hai chế độ đọc, chiều cao và độ mờ của dải tập trung, cùng ba trong mười chủ đề. Pro là mua một lần chứ không phải thuê bao, bổ sung chủ đề cao cấp và giữ màn hình luôn bật. Bản Windows không có quảng cáo."
+          "q": "ReadFocus+ có phải là phương pháp điều trị y tế không?",
+          "a": "Không. Đây là công cụ hỗ trợ đọc, không phải thiết bị y tế hay phương pháp điều trị ADHD hoặc chứng khó đọc."
         }
       ]
     },
@@ -566,7 +537,7 @@
         "Nhắc ghi chú — một lần, hằng ngày, ngày thường hoặc ngày tùy chọn",
         "Định dạng — in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ — cùng 7 màu pastel và hình ảnh trong ghi chú",
         "Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn — cùng một thư mục riêng của ứng dụng mà bản Android dùng, không qua máy chủ nào của CodeDAC",
-        "Phím tắt toàn cục, khay hệ thống, giao diện sáng và tối, chạy khi đăng nhập, 21 ngôn ngữ. Không quảng cáo; Pro tùy chọn trả một lần bổ sung thêm ghi chú nổi, độ trong suốt, ảnh và xuất"
+        "Phím tắt toàn cục, khay hệ thống, giao diện sáng và tối, chạy khi đăng nhập, 21 ngôn ngữ. Nhiều ghi chú nổi cùng lúc, độ trong suốt tùy chỉnh, xuất và nhập"
       ],
       "faq": [
         {
@@ -576,10 +547,6 @@
         {
           "q": "Nó có cản trở ứng dụng bên dưới không?",
           "a": "Không. Chip là cửa sổ nổi không bao giờ nhận tiêu điểm, nên nhấp hay kéo nó đều để con trỏ đúng chỗ bạn đang gõ. Nhấp vào chip để mở thẻ; bấm mũi tên ở trên cùng, nhấn Esc hoặc nhấp ra ngoài thì thẻ thu lại và đã được lưu."
-        },
-        {
-          "q": "Có dùng miễn phí được không?",
-          "a": "Có, không quảng cáo và không cần tài khoản. Viết ghi chú, màu sắc, nhắc nhở và đồng bộ Google Drive đều miễn phí. Gói Pro tùy chọn mua một lần, không phải đăng ký, cho phép bạn thả nổi nhiều hơn một ghi chú cùng lúc và bổ sung độ trong suốt cho ghi chú, ảnh trong ghi chú, cùng xuất và nhập. Nếu bạn đã dùng FloatNote+ for Windows trước khi Pro quay lại, các tính năng đó vẫn miễn phí với bạn. (Trên điện thoại, đồng bộ là tính năng Pro của ứng dụng Android.)"
         },
         {
           "q": "Ghi chú có thể hiện lên vào giờ đã đặt không?",
@@ -600,20 +567,20 @@
         "Bắt đầu, tạm dừng và chạy lại bằng nút ▶/⏸/↻ ngay trên thẻ mà không cần mở ứng dụng, hẹn giờ có thanh thời gian còn lại; bộ đếm cộng và trừ khi nhấp vào từng nửa thẻ",
         "Chín màu pastel, chỉnh được kích thước và độ trong của thẻ, cửa sổ ứng dụng đi theo giao diện sáng hoặc tối",
         "Tệp sao lưu cùng định dạng với ứng dụng Android: xuất ở bên này rồi khôi phục ở bên kia",
-        "Phím tắt toàn cục, khay hệ thống, chạy khi đăng nhập, 21 ngôn ngữ. Không tài khoản, không mạng, không quảng cáo — và Pro là mua một lần"
+        "Cảnh báo toàn màn hình, âm báo của riêng bạn và hẹn giờ lặp lại. Phím tắt toàn cục, khay hệ thống, chạy khi đăng nhập, 21 ngôn ngữ. Không tài khoản, không mạng"
       ],
       "faq": [
         {
           "q": "Đây có phải cùng một ứng dụng với FloatTimer+ trên Android không?",
-          "a": "Đây là cùng một ứng dụng được dựng cho Windows, với những tấm thẻ nổi giống hệt. Mỗi bên được mua trên cửa hàng riêng. Hai bên không tự đồng bộ, nhưng cùng đọc và ghi một định dạng tệp sao lưu, nên bạn có thể chuyển danh sách bằng cách xuất ở bên này và khôi phục ở bên kia."
+          "a": "Đây là cùng một ứng dụng được dựng cho Windows, với những tấm thẻ nổi giống hệt. Hai bên không tự đồng bộ, nhưng cùng đọc và ghi một định dạng tệp sao lưu, nên bạn có thể chuyển danh sách bằng cách xuất ở bên này và khôi phục ở bên kia."
         },
         {
           "q": "Nó có cản trở ứng dụng bên dưới không?",
           "a": "Không. Thẻ là một cửa sổ nổi không bao giờ nhận tiêu điểm, nên nhấp hay kéo nó đều để con trỏ đúng ở chỗ bạn đang gõ. Khi cần chỗ trên màn hình, hãy thu thẻ thành bong bóng chỉ lớn hơn một nút bấm một chút, đẩy nó vào mép màn hình để nấp đi một nửa, hoặc ẩn toàn bộ thẻ cùng lúc bằng phím tắt."
         },
         {
-          "q": "Có dùng miễn phí được không?",
-          "a": "Có. Bạn có thể tạo bao nhiêu bộ hẹn giờ, bộ đếm và đồng hồ bấm giờ tuỳ thích — danh sách không bao giờ bị giới hạn — và bản Windows không có quảng cáo. Bản miễn phí cho nổi hai thẻ trên màn hình tại một thời điểm. Pro là mua một lần chứ không phải thuê bao, thêm cảnh báo toàn màn hình và âm báo riêng, hẹn giờ lặp lại, số thẻ nổi không giới hạn và màu tuỳ ý."
+          "q": "Có cần tài khoản hay internet không?",
+          "a": "Không. Hẹn giờ được lưu trong tệp trên PC của bạn."
         }
       ]
     },
@@ -644,10 +611,6 @@
         {
           "q": "Tệp của tôi có bị tải lên, hay tệp gốc có bị thay đổi không?",
           "a": "Không cả hai. Phát hiện, che và xuất đều chạy trên PC của bạn, không tài khoản và không tải lên gì cả. Việc che được thực hiện trên bản sao, ứng dụng không cho lưu đè lên tệp gốc, và bản lưu được mã hóa lại nên không mang siêu dữ liệu của tệp gốc."
-        },
-        {
-          "q": "Bản miễn phí có gì, và Pro thêm gì?",
-          "a": "Tìm thông tin cá nhân là miễn phí và không giới hạn, và bạn có thể lưu, sao chép hoặc chia sẻ miễn phí bản đã che của 3 tài liệu mỗi ngày. Pro là gói mua một lần, bỏ giới hạn hằng ngày và thêm xuất PDF, in, danh sách luôn ẩn và chọn màu che. Không có quảng cáo và không có hình mờ."
         }
       ]
     },
@@ -657,14 +620,14 @@
       "seo": "Thanh giá coin trên PC",
       "desc": "Thanh giá tiền mã hóa trực tiếp nổi trên mọi cửa sổ Windows, kèm cảnh báo giá và biểu đồ.",
       "tagline": "Bitcoin, Ethereum và các altcoin của bạn trong một dải mảnh trên mọi cửa sổ — thị trường luôn ở khóe mắt khi bạn làm việc, mà không bao giờ chiếm tiêu điểm.",
-      "long": "FloatCrypto+ for Windows là phiên bản máy tính của ứng dụng FloatCrypto+ trên Android. Ứng dụng giữ một thanh giá mảnh trên mọi cửa sổ — trình duyệt, tài liệu, cuộc gọi video — hiển thị ký hiệu và biến động 24 giờ của từng đồng coin, tô màu theo chiều tăng giảm. Không phải chuyển tab, không phải tải lại trang. Kéo thanh giá đến bất cứ đâu, chỉnh độ trong suốt và cỡ chữ, hoặc thu gọn thành bong bóng nhỏ nép vào mép màn hình; nó không bao giờ chiếm tiêu điểm của ứng dụng bạn đang gõ. Di chuột lên biểu tượng ở khay hệ thống để xem bảng giá đầy đủ, kể cả khi đã tắt thanh giá. Đặt mục tiêu cao hơn hoặc thấp hơn giá hiện tại và nhận thông báo trên màn hình ngay khi thị trường vượt qua, một lần hoặc lặp lại. Chọn coin từ hàng trăm cặp giao dịch trên Binance, kéo để sắp xếp theo ý bạn, và nhấp đúp vào bất kỳ coin nào để mở biểu đồ kèm giá cao nhất, thấp nhất, giá mở cửa và mức thay đổi trong kỳ. Giá lấy từ dữ liệu thị trường công khai của Binance, tự động chuyển sang máy chủ dự phòng và CoinGecko, có thể trễ tới 30 giây và chỉ mang tính tham khảo — FloatCrypto+ không phải ứng dụng giao dịch, và không nội dung nào trong ứng dụng là lời khuyên đầu tư.",
+      "long": "FloatCrypto+ for Windows là phiên bản máy tính của ứng dụng FloatCrypto+ trên Android. Ứng dụng giữ một thanh giá mảnh trên mọi cửa sổ — trình duyệt, tài liệu, cuộc gọi video — hiển thị ký hiệu và biến động 24 giờ của từng đồng coin, tô màu theo chiều tăng giảm. Không phải chuyển tab, không phải tải lại trang. Kéo thanh giá đến bất cứ đâu, chỉnh độ trong suốt và cỡ chữ, hoặc thu gọn thành bong bóng nhỏ nép vào mép màn hình; nó không bao giờ chiếm tiêu điểm của ứng dụng bạn đang gõ. Di chuột lên biểu tượng ở khay hệ thống để xem bảng giá đầy đủ, kể cả khi đã tắt thanh giá. Đặt mục tiêu cao hơn hoặc thấp hơn giá hiện tại và nhận thông báo trên màn hình ngay khi thị trường vượt qua, một lần hoặc lặp lại. Chọn coin từ hàng trăm cặp giao dịch trên Binance, kéo để sắp xếp theo ý bạn, và nhấp đúp vào bất kỳ coin nào để mở biểu đồ kèm giá cao nhất, thấp nhất, giá mở cửa và mức thay đổi trong kỳ. Giá lấy từ dữ liệu thị trường công khai của Binance, tự động chuyển sang máy chủ dự phòng và CoinGecko, có thể trễ tới 10 giây và chỉ mang tính tham khảo — FloatCrypto+ không phải ứng dụng giao dịch, và không nội dung nào trong ứng dụng là lời khuyên đầu tư.",
       "features": [
         "Thanh giá trực tiếp trên mọi cửa sổ — kéo đến bất cứ đâu, chỉnh độ trong suốt và cỡ chữ, hoặc thu gọn thành bong bóng ở mép màn hình",
         "Không bao giờ chiếm tiêu điểm — thanh giá vẫn hiện trong khi con trỏ ở nguyên trong ứng dụng bạn đang làm việc",
         "Cảnh báo khi giá cao hơn hoặc thấp hơn mục tiêu, một lần hoặc lặp lại, tạo ngay từ menu ⋮ của coin với coin đã được chọn sẵn",
         "Danh sách theo dõi từ hàng trăm cặp trên Binance, kéo để sắp xếp, biểu đồ 1 ngày, 7 ngày và 30 ngày kèm giá cao nhất, thấp nhất, mở cửa và mức thay đổi",
         "Màu phương Tây (tăng xanh lá, giảm đỏ) hoặc phương Đông (tăng đỏ, giảm xanh dương), và bảng giá đầy đủ ở biểu tượng khay hệ thống",
-        "Phím tắt toàn cục, khay hệ thống, khởi động cùng Windows, giao diện sáng và tối, 21 ngôn ngữ. Không quảng cáo, không tài khoản"
+        "Phím tắt toàn cục, khay hệ thống, khởi động cùng Windows, giao diện sáng và tối, 21 ngôn ngữ. Không tài khoản"
       ],
       "faq": [
         {
@@ -677,11 +640,7 @@
         },
         {
           "q": "Giá được lấy từ đâu?",
-          "a": "Từ dữ liệu thị trường công khai của Binance, tự động chuyển sang máy chủ dự phòng và CoinGecko khi một nguồn không truy cập được, nên thanh giá vẫn chạy. Giá có thể trễ tới 30 giây và chỉ mang tính tham khảo. FloatCrypto+ không giao dịch, không kết nối với tài khoản sàn và không giữ bất kỳ khoản tiền nào, và không nội dung nào trong ứng dụng là lời khuyên đầu tư."
-        },
-        {
-          "q": "Bản miễn phí có gì, và Pro thêm gì?",
-          "a": "Bản miễn phí theo dõi 3 đồng coin với 1 cảnh báo giá, cập nhật mỗi 30 giây và hiển thị biểu đồ 1 ngày — thanh giá không giới hạn thời gian. Pro là gói mua một lần, nâng lên 10 đồng coin, cảnh báo không giới hạn, cập nhật mỗi 10 giây cùng biểu đồ 7 ngày và 30 ngày. Bản Windows không có quảng cáo."
+          "a": "Từ dữ liệu thị trường công khai của Binance, tự động chuyển sang máy chủ dự phòng và CoinGecko khi một nguồn không truy cập được, nên thanh giá vẫn chạy. Giá có thể trễ tới 10 giây và chỉ mang tính tham khảo. FloatCrypto+ không giao dịch, không kết nối với tài khoản sàn và không giữ bất kỳ khoản tiền nào, và không nội dung nào trong ứng dụng là lời khuyên đầu tư."
         }
       ]
     }

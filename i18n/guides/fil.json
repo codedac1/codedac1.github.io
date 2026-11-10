@@ -42,7 +42,7 @@
         {
           "h": "Alin ang dapat mong gamitin?",
           "p": [
-            "Para sa isang beses lang — pag-paste ng kinopya mo isang minuto ang nakaraan — sapat na ang clipboard ng keyboard. Kung nawawala ang mga clip na kailangan mo, o paulit-ulit kang nagta-type ng parehong teksto, makakatipid ka ng oras sa clipboard manager. Libreng simulan ang Clipboard+; nagdaragdag ang Pro ng sync sa Windows app sa pamamagitan ng sarili mong Google Drive, walang limitasyong image clip at PDF export."
+            "Para sa isang beses lang — pag-paste ng kinopya mo isang minuto ang nakaraan — sapat na ang clipboard ng keyboard. Kung nawawala ang mga clip na kailangan mo, o paulit-ulit kang nagta-type ng parehong teksto, makakatipid ka ng oras sa clipboard manager. Nagsi-sync din ang Clipboard+ sa Windows app sa pamamagitan ng sarili mong Google Drive, nag-iingat ng kahit ilang image clip, at nag-e-export sa PDF."
           ]
         }
       ],
@@ -53,7 +53,7 @@
         },
         {
           "q": "Makikita ko ba sa PC ang clipboard history ng telepono ko?",
-          "a": "Oo, kung may Clipboard+ sa dalawa: nagsi-sync ang Android app at ang Clipboard+ for Windows sa pamamagitan ng sarili mong Google Drive (Pro feature sa Android)."
+          "a": "Oo, kung may Clipboard+ sa dalawa: nagsi-sync ang Android app at ang Clipboard+ for Windows sa pamamagitan ng sarili mong Google Drive."
         },
         {
           "q": "Ibinigay ko na ang lahat ng permission, pero hindi lahat ng kinokopya ko ay nase-save.",
@@ -102,10 +102,6 @@
         {
           "q": "Bakit hindi bumubukas ang mga app ko bago ko i-unlock ang telepono?",
           "a": "Hindi pinapayagan ng Android ang mga app na magbukas ng ibang app hangga’t hindi pa na-unlock ang telepono nang isang beses pagkatapos mag-reboot. Bubukas ang mga app mo pagka-unlock mo."
-        },
-        {
-          "q": "Ilang app ang puwedeng i-auto start nang libre?",
-          "a": "Sa libreng bersyon, 1 app ang binubuksan sa bawat boot. Binubuksan ng Pro ang buong listahan mo nang sunod-sunod."
         }
       ]
     },
@@ -138,7 +134,7 @@
         {
           "h": "Nasa PC mo rin",
           "p": [
-            "Pinalulutang ng FloatNote+ for Windows ang ganitong klase ng nota sa ibabaw ng kahit anong window, at nagsi-sync ang dalawang app sa pamamagitan ng sarili mong Google Drive (Pro feature sa Android)."
+            "Pinalulutang ng FloatNote+ for Windows ang ganitong klase ng nota sa ibabaw ng kahit anong window, at nagsi-sync ang dalawang app sa pamamagitan ng sarili mong Google Drive."
           ]
         }
       ],
@@ -149,11 +145,7 @@
         },
         {
           "q": "Puwede bang lumabas ang nota sa nakatakdang oras?",
-          "a": "Oo. Sa FloatNote+, magtakda ng paalala mula sa ⋮ menu ng nota at lalabas ang nota sa screen kasama ang notification. Isang paalala ang iniingatan ng libreng bersyon; walang limitasyon sa Pro."
-        },
-        {
-          "q": "Libre ba ang FloatNote+?",
-          "a": "Libre at walang limitasyon ang pag-save ng nota, at isang nota lang ang napapalutang nang sabay sa libreng bersyon. Nagdaragdag ang Pro ng walang limitasyong floating notes, larawan sa loob ng nota, Google Drive sync at walang ads."
+          "a": "Oo. Sa FloatNote+, magtakda ng paalala mula sa ⋮ menu ng nota at lalabas ang nota sa screen kasama ang notification. Makakapagtakda ka ng kahit ilang paalala."
         }
       ]
     },
@@ -179,7 +171,7 @@
         {
           "h": "Higit sa isa nang sabay",
           "p": [
-            "Makakagawa ka nang libre ng kahit ilang timer, counter at stopwatch, at patuloy silang tumatakbo. Dalawa ang ipinapakita sa screen nang sabay sa libreng bersyon; sa Pro, mapapalutang mo nang sabay-sabay ang kahit ilan."
+            "Makakagawa ka ng kahit ilang timer, counter at stopwatch, mapapalutang mo nang sabay-sabay ang kahit ilan, at patuloy silang lahat na tumatakbo."
           ]
         }
       ],
@@ -234,10 +226,6 @@
         {
           "q": "Ina-upload ba ng PhotoCleaner+ ang mga litrato ko?",
           "a": "Hindi. Tumatakbo sa telepono mo ang pagtuklas at pagtakip, at hindi kailanman ina-upload ang mga litrato at dokumento mo."
-        },
-        {
-          "q": "Libre ba ito?",
-          "a": "Libre ang pagtuklas, pag-edit at pagtakip; makakapag-export ka nang 3 beses kada araw. Inaalis ng Pro ang pang-araw-araw na limitasyon at nagdaragdag ng PDF export at pag-print."
         }
       ]
     },
@@ -270,7 +258,7 @@
         {
           "h": "Nasa telepono mo rin ang mga nota mo",
           "p": [
-            "Nagsi-sync ang FloatNote+ for Windows sa FloatNote+ Android app sa pamamagitan ng sarili mong Google Drive, kaya ang notang sinulat mo sa PC ay nasa telepono mo rin. Libre ang mga nota, paalala at sync; ang opsyonal na isang-bayarang Pro ay nagdaragdag ng mas maraming lumulutang na nota, opacity, larawan at export."
+            "Nagsi-sync ang FloatNote+ for Windows sa FloatNote+ Android app sa pamamagitan ng sarili mong Google Drive, kaya ang notang sinulat mo sa PC ay nasa telepono mo rin. Puwede ring maglaman ang mga nota ng larawan at paalala, at maaari mong i-adjust ang opacity ng mga ito at i-export ang mga ito."
           ]
         }
       ],
@@ -314,7 +302,7 @@
         {
           "h": "Sa pagitan ng telepono at PC mo",
           "p": [
-            "Kapag ginamit kasabay ng Clipboard+ Android app, ang kinopya mo sa telepono ay maipa-paste mo sa PC at pabaliktad, sa pamamagitan ng sarili mong Google Drive. Libre ang clipboard history, snippet, paghahanap, quick-pick popup at sync; ang opsyonal na isang-bayarang Pro ay nagdaragdag ng backup restore, walang limitasyong grupo, PDF export at mas malaking image storage."
+            "Kapag ginamit kasabay ng Clipboard+ Android app, ang kinopya mo sa telepono ay maipa-paste mo sa PC at pabaliktad, sa pamamagitan ng sarili mong Google Drive. Puwede ka ring mag-restore mula sa backup, gumawa ng kahit ilang grupo na kailangan mo, at mag-export sa PDF."
           ]
         }
       ],
@@ -355,9 +343,9 @@
           ]
         },
         {
-          "h": "Libre at Pro",
+          "h": "Ang makukuha mo",
           "p": [
-            "Makakagawa ka ng kahit ilang timer, counter at stopwatch, nang walang ads. Dalawang card ang napapalutang nang sabay sa libreng bersyon; ang Pro ay isang beses na bayad na nagpapalutang ng kahit ilan at nagdaragdag ng umuulit na timer at custom na alerto."
+            "Makakagawa ka ng kahit ilang timer, counter at stopwatch at mapapalutang mo nang sabay-sabay ang kahit ilang card, na may umuulit na timer at custom na alerto."
           ]
         }
       ],
@@ -398,9 +386,9 @@
           ]
         },
         {
-          "h": "Libre at Pro",
+          "h": "Ang makukuha mo",
           "p": [
-            "Kasama sa libreng bersyon ang dalawang focus mode, 3 color theme, at ang pag-adjust ng taas at opacity ng strip. Inaalis ng Pro ang ads at idinaragdag ang lahat ng 10 theme at ang pagpapanatiling nakabukas ng screen."
+            "Ang dalawang focus mode, lahat ng 10 color theme, ang pag-adjust ng taas at opacity ng strip, at ang pagpapanatiling nakabukas ng screen para hindi ito mamatay habang nagbabasa ka."
           ]
         }
       ],
@@ -441,9 +429,9 @@
           ]
         },
         {
-          "h": "Libre at Pro",
+          "h": "Ang makukuha mo",
           "p": [
-            "Kasama sa libreng bersyon ang dalawang mode, settings para sa taas at opacity ng strip, at tatlong theme. Ang Pro ay isang beses na bayad na nagdaragdag ng premium na theme at pagpapanatiling nakabukas ng screen. Walang ads."
+            "Ang dalawang mode, settings para sa taas at opacity ng strip, sampung color theme at pagpapanatiling nakabukas ng screen."
           ]
         }
       ],
@@ -484,9 +472,9 @@
           ]
         },
         {
-          "h": "Libre at Pro",
+          "h": "Ang makukuha mo",
           "p": [
-            "Libre ang floating calculator, ang mga unit ng haba at ang pag-convert ng currency sa pagitan ng sarili mong currency, USD at EUR, na may mga ad. Inaalis ng Pro ang mga ad at idinaragdag ang lahat ng kategorya ng unit, lahat ng pares ng currency at mas maraming theme."
+            "Bukod sa calculator, nagko-convert ang FloatCalc+ sa pagitan ng 30+ na currency at sa lahat ng kategorya ng unit — haba, bigat, temperatura, area, volume, bilis at oras — at may 8 color theme."
           ]
         }
       ],
@@ -523,8 +511,8 @@
         {
           "h": "Dapat malaman",
           "p": [
-            "Galing sa Binance ang mga presyo na may awtomatikong fallback na pinagkukunan, at maaaring maantala nang hanggang 30 segundo (10 segundo sa Pro). Para sa sanggunian lamang ang mga ito, at hindi nagte-trade ang app o kumokonekta sa exchange account. Walang anuman dito na payo sa pamumuhunan.",
-            "Sa libreng bersyon, 2 coin na may 1 alerto ang masusubaybayan mo. Nagbibigay ang Pro ng 10 coin, walang limitasyong alerto, mas mahabang chart, 10-segundong refresh at walang ad."
+            "Galing sa Binance ang mga presyo na may awtomatikong fallback na pinagkukunan, at maaaring maantala nang hanggang 10 segundo. Para sa sanggunian lamang ang mga ito, at hindi nagte-trade ang app o kumokonekta sa exchange account. Walang anuman dito na payo sa pamumuhunan.",
+            "Subaybayan ang hanggang 10 coin na may walang limitasyong alerto at mas mahabang chart."
           ]
         }
       ],
@@ -535,7 +523,7 @@
         },
         {
           "q": "Real-time ba ang mga presyo?",
-          "a": "Maaaring maantala ang mga ito nang hanggang 30 segundo (10 segundo sa Pro) at para sa sanggunian lamang."
+          "a": "Maaaring maantala ang mga ito nang hanggang 10 segundo at para sa sanggunian lamang."
         }
       ]
     },
@@ -566,9 +554,9 @@
           ]
         },
         {
-          "h": "Libre at Pro, at ang pandinig mo",
+          "h": "Gaano kalakas, at ang pandinig mo",
           "p": [
-            "Sa libreng bersyon, hanggang 183% (+10 dB) ang boost; binubuksan ng Pro ang 225% (+15 dB). Tantiya lang ang halaga ng dB, at hindi medical device ang app — kung makaramdam ka ng sakit sa tainga o pag-ugong, hinaan ang volume."
+            "Nagbo-boost ang VolumeBooster+ nang hanggang 225% (+15 dB). Tantiya lang ang halaga ng dB, at hindi medical device ang app — kung makaramdam ka ng sakit sa tainga o pag-ugong, hinaan ang volume."
           ]
         }
       ],
@@ -579,7 +567,7 @@
         },
         {
           "q": "Gaano pa ito kalakas?",
-          "a": "Hanggang 225% (+15 dB) sa Pro, at hanggang 183% (+10 dB) sa libreng bersyon, sa ibabaw ng volume ng device mo. Nag-iiba ang tunay na lakas depende sa device, headphone at nilalaman."
+          "a": "Hanggang 225% (+15 dB) sa ibabaw ng volume ng device mo. Nag-iiba ang tunay na lakas depende sa device, headphone at nilalaman."
         }
       ]
     },
@@ -608,9 +596,9 @@
           ]
         },
         {
-          "h": "Libre at Pro",
+          "h": "Ang makukuha mo",
           "p": [
-            "Libre at walang limitasyon ang paghahanap ng personal na impormasyon, at makakapag-export ka ng 3 dokumento kada araw nang libre. Ang Pro ay isang beses na bayad na nag-aalis ng pang-araw-araw na limitasyon at nagdaragdag ng PDF export at pag-print. Walang ads at walang watermark."
+            "Walang limitasyon ang paghahanap ng personal na impormasyon at ang pag-export ng mga naka-mask na kopya, at makakapag-save ka rin bilang PDF at makakapag-print. Walang watermark ang mga export."
           ]
         }
       ],
@@ -647,8 +635,8 @@
         {
           "h": "Dapat malaman",
           "p": [
-            "I-hover ang tray icon para sa buong talaan ng presyo, at itago ang ticker gamit ang Ctrl+Alt+T. Galing ang mga presyo sa pampublikong market data ng Binance na may awtomatikong fallback at maaaring maantala nang hanggang 30 segundo; hindi nagte-trade ang app o kumokonekta sa exchange account, at walang anuman dito na payo sa pamumuhunan.",
-            "Sa libreng bersyon, 2 coin na may 1 alerto; ang Pro ay isang beses na bayad para sa 10 coin, walang limitasyong alerto, 10-segundong refresh at mas mahahabang chart. Walang ads."
+            "I-hover ang tray icon para sa buong talaan ng presyo, at itago ang ticker gamit ang Ctrl+Alt+T. Galing ang mga presyo sa pampublikong market data ng Binance na may awtomatikong fallback at maaaring maantala nang hanggang 10 segundo; hindi nagte-trade ang app o kumokonekta sa exchange account, at walang anuman dito na payo sa pamumuhunan.",
+            "Subaybayan ang hanggang 10 coin na may walang limitasyong alerto at mas mahahabang chart."
           ]
         }
       ],
@@ -694,12 +682,6 @@
           "p": [
             "Walang window na makakapanatili sa ibabaw ng larong tumatakbo sa exclusive full-screen mode. Palitan ang display mode ng laro sa borderless o windowed sa settings nito, at lalabas ulit sa ibabaw nito ang mga floating window — ang sa Clock app man o ang mga card ng FloatTimer+."
           ]
-        },
-        {
-          "h": "Libre at Pro",
-          "p": [
-            "Makakagawa ka ng kahit ilang stopwatch, timer at counter, nang walang ads. Dalawang card ang napapalutang nang sabay sa libreng bersyon; ang Pro ay isang beses na bayad na nagpapalutang ng kahit ilan."
-          ]
         }
       ],
       "faq": [
@@ -713,14 +695,14 @@
         },
         {
           "q": "Puwede ba akong magpatakbo ng higit sa isang stopwatch nang sabay?",
-          "a": "Sa FloatTimer+, makakagawa ka ng kahit ilan, na hiwalay ang oras ng bawat isa. Dalawang floating card ang ipinapakita nang sabay sa libreng bersyon; mas marami ang napapalutang sa Pro."
+          "a": "Sa FloatTimer+, makakagawa ka ng kahit ilan, na hiwalay ang oras ng bawat isa, at mapapalutang mo silang lahat nang sabay-sabay."
         }
       ]
     },
     "choose-clipboard-manager-android": {
       "app": "clipboard",
       "updated": "2026-10-30",
-      "title": "Ano ang dapat hanapin sa libreng clipboard manager para sa Android",
+      "title": "Ano ang dapat hanapin sa clipboard manager para sa Android",
       "desc": "Ang huling kinopya mo lang ang iniingatan ng Android. Bago pumili ng clipboard manager, tingnan kung paano nito sine-save ang mga kinopya mo, ano ang iniingatan nito, paano mo sila mababawi, at saan napupunta ang data mo.",
       "intro": "Iniingatan ng clipboard manager ang mga kinokopya mo para mai-paste mo ulit mamaya. Sa Android, mas malaki ang pagkakaiba-iba nila kaysa sa itsura, pangunahin dahil nililimitahan ng Android kung paano nababasa ng mga app ang clipboard. Narito ang dapat tingnan bago ka pumili.",
       "sections": [
@@ -765,7 +747,7 @@
           "h": "Saan pumapasok ang Clipboard+",
           "p": [
             "Sine-save ng Clipboard+ (aming app) ang mga teksto at larawan sa history na nahahanap, na may pag-pin, mga snippet at grupo, floating panel sa ibabaw ng ibang app, widget sa home screen at Clipboard+ sa menu ng pagpili ng text. Ang opsyonal nitong awtomatikong pag-save ay gumagamit ng Accessibility para lang mapansin ang sandaling kumopya ka, nilalaktawan ang mga clip na minarkahang password at walang ipinapadala kahit saan; kung hindi ito naka-on, mag-save gamit ang bubble, widget, menu ng pagpili o pagbukas ng app.",
-            "Nananatili ang mga clip sa telepono mo. Puwede itong mag-sync sa Clipboard+ for Windows sa pamamagitan ng sarili mong Google Drive — hindi kailanman sa server ng CodeDAC — at mag-back up sa isang file. Libre ito na may ads; inaalis ng Pro ang ads at nagdaragdag ng PC sync at iba pa."
+            "Nananatili ang mga clip sa telepono mo. Puwede itong mag-sync sa Clipboard+ for Windows sa pamamagitan ng sarili mong Google Drive — hindi kailanman sa server ng CodeDAC — at mag-back up sa isang file."
           ]
         }
       ],
@@ -824,9 +806,9 @@
           ]
         },
         {
-          "h": "Ano ang libre at ano ang idinaragdag ng Pro",
+          "h": "Mga kondisyon at floating button",
           "p": [
-            "Libre ang lahat ng rotation mode, Panatilihin ang orientation, Ikot nang isang beses, mga tile, widget at shortcut, kasama ang 3 rules kada app at maliit na banner ad. Idinaragdag ng Pro ang walang limit na rules kada app, mga kondisyon na awtomatikong nagbabago ng orientation (habang nagcha-charge, may headphones, Bluetooth device, car o desk dock, habang may tawag o sa mga itinakdang oras), floating rotate button, at tinatanggal ang ads."
+            "Mayroon din ang Rotate+ ng kahit ilang rules kada app na kailangan mo, mga kondisyon na awtomatikong nagbabago ng orientation (habang nagcha-charge, may headphones, Bluetooth device, car o desk dock, habang may tawag o sa mga itinakdang oras), at floating rotate button sa ibabaw ng ibang app."
           ]
         }
       ],

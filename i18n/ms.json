@@ -156,10 +156,6 @@
         {
           "q": "Adakah ia menyegerak dengan PC Windows saya?",
           "a": "Ya. Pasang juga Clipboard+ for Windows, kemudian dalam tetapan kedua-dua aplikasi log masuk ke Google Drive dengan akaun yang sama dan hidupkan penyegerakan automatik. Selepas itu, apa yang anda salin di telefon boleh ditampal di PC, manakala apa yang anda salin di PC boleh ditampal di telefon. Kandungan yang disalin tidak melalui mana-mana pelayan CodeDAC — ia disimpan di dalam Google Drive anda sendiri sahaja."
-        },
-        {
-          "q": "Apa yang percuma, dan apa tambahan Pro?",
-          "a": "Versi percuma menyimpan sejarah teks dan imej dengan carian, petikan, sehingga 3 kumpulan, panel terapung, widget dan simpan dari menu pilihan teks, dengan iklan. Pro membuang iklan dan menambah penyegerakan telefon↔PC melalui Google Drive anda sendiri, klip imej tanpa had, panel terapung dan widget yang diperluas, kumpulan tanpa had, eksport PDF dan pemulihan sandaran — bulanan, tahunan atau belian sekali seumur hidup."
         }
       ],
       "howto": {
@@ -192,15 +188,14 @@
       "seo": "Pengurus Auto Start Android",
       "desc": "Lancarkan aplikasi anda secara automatik semasa but. Tanpa root, tetapkan sekali.",
       "tagline": "Auto start aplikasi anda selepas setiap kali telefon dimulakan semula, sebaik sahaja anda membuka kuncinya. Tanpa root, tetapkan sekali, berjalan selamanya.",
-      "long": "AutoStart+ ialah pengurus mula automatik paling ringkas untuk Android: pilih apl anda, dan selepas setiap mula semula, sebaik peranti dibuka kunci, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketikan setiap pagi. Cari dalam semua apl yang dipasang, tambah ke senarai dalam beberapa saat, hidupkan atau matikan dengan satu ketikan, dan seret barisnya untuk menetapkan susunan mula. Tak perlu but semula untuk menguji: menu ⋮ pada setiap baris membuka apl itu serta-merta, dan selepas but satu mesej ringkas memberitahu apa yang sudah berjalan — selebihnya cukup satu ketikan. Versi percuma memulakan 1 apl; PRO menanggalkan had itu supaya seluruh senarai berjalan mengikut susunan. Kebanyakan unit kepala kereta Android tidur dan bukannya dimulakan semula apabila kereta dimatikan. Hidupkan Mod kereta dan apl anda akan dibuka semula setiap kali skrin menyala selepas dimatikan selama 3 minit atau lebih. Percuma.",
+      "long": "AutoStart+ ialah pengurus mula automatik paling ringkas untuk Android: pilih apl anda, dan selepas setiap mula semula, sebaik peranti dibuka kunci, semuanya terbuka sendiri — tanpa root, tanpa skrip, tanpa ketikan setiap pagi. Cari dalam semua apl yang dipasang, tambah ke senarai dalam beberapa saat, hidupkan atau matikan dengan satu ketikan, dan seret barisnya untuk menetapkan susunan mula. Tak perlu but semula untuk menguji: menu ⋮ pada setiap baris membuka apl itu serta-merta, dan selepas but satu mesej ringkas memberitahu apa yang sudah berjalan — selebihnya cukup satu ketikan. Kebanyakan unit kepala kereta Android tidur dan bukannya dimulakan semula apabila kereta dimatikan. Hidupkan Mod kereta dan apl anda akan dibuka semula setiap kali skrin menyala selepas dimatikan selama 3 minit atau lebih.",
       "features": [
         "Memulakan apl pilihan anda selepas setiap mula semula, sebaik peranti dibuka kunci — tanpa root, tanpa ROM tersuai",
-        "Mod Kereta untuk unit kepala: apl anda dibuka semula setiap kali skrin bangun daripada tidur — percuma",
+        "Mod Kereta untuk unit kepala: apl anda dibuka semula setiap kali skrin bangun daripada tidur",
         "Seret barisnya untuk menentukan apl mana yang bermula dahulu pada setiap but",
-        "Lengah mula (PRO): menunggu beberapa saat sebelum apl pertama dan menjarakkan apl seterusnya, supaya unit kepala kereta dan peranti perlahan siap dihidupkan dahulu",
+        "Lengah mula: menunggu beberapa saat sebelum apl pertama dan menjarakkan apl seterusnya, supaya unit kepala kereta dan peranti perlahan siap dihidupkan dahulu",
         "«Jalankan sekarang» dari menu ⋮ pada mana-mana baris — uji senarai tanpa but semula",
-        "Selepas mula semula, sepanduk menjalankan seluruh senarai dengan satu ketikan sebaik anda membuka kunci (PRO)",
-        "Percuma memulakan 1 apl secara automatik; PRO menanggalkan had dan menjalankan seluruh senarai anda mengikut susunan"
+        "Selepas mula semula, sepanduk menjalankan seluruh senarai dengan satu ketikan sebaik anda membuka kunci"
       ],
       "faq": [
         {
@@ -209,11 +204,7 @@
         },
         {
           "q": "Adakah AutoStart+ berfungsi pada unit kepala kereta Android?",
-          "a": "Kebanyakan unit kepala kereta Android tidur dan bukannya dimulakan semula apabila kereta dimatikan. Hidupkan Mod kereta dan apl anda akan dibuka semula setiap kali skrin menyala selepas dimatikan selama 3 minit atau lebih. Percuma."
-        },
-        {
-          "q": "Berapa banyak aplikasi yang boleh saya auto start?",
-          "a": "Versi percuma memulakan 1 apl pada setiap but. PRO menanggalkan had itu supaya seluruh senarai berjalan mengikut susunan yang anda tetapkan."
+          "a": "Kebanyakan unit kepala kereta Android tidur dan bukannya dimulakan semula apabila kereta dimatikan. Hidupkan Mod kereta dan apl anda akan dibuka semula setiap kali skrin menyala selepas dimatikan selama 3 minit atau lebih."
         },
         {
           "q": "Adakah ia akan menghabiskan bateri saya?",
@@ -247,11 +238,11 @@
         },
         {
           "q": "Dari mana kadar pertukaran diperoleh?",
-          "a": "Daripada Bank Pusat Eropah, dikemas kini sekali sehari. Baris di bawah jumlah menunjukkan kadar dan tarikhnya, dan Tetapan boleh mengemas kini kadar bila-bila masa. Mata wang anda sendiri, USD dan EUR adalah percuma; Pro menambah semua pasangan antara lebih 30 mata wang. Cache harian membuatkannya berfungsi di luar talian."
+          "a": "Daripada Bank Pusat Eropah, dikemas kini sekali sehari. Baris di bawah jumlah menunjukkan kadar dan tarikhnya, dan Tetapan boleh mengemas kini kadar bila-bila masa. Anda boleh menukar antara mana-mana pasangan daripada lebih 30 mata wang. Cache harian membuatkannya berfungsi di luar talian."
         },
         {
-          "q": "Apa yang percuma, dan apa tambahan Pro?",
-          "a": "Kalkulator terapung, unit panjang, penukaran mata wang antara mata wang anda sendiri, USD dan EUR, 5 pengiraan terakhir anda, 3 tahap kelegapan dan tema lalai adalah percuma, dengan iklan. Pro membuang iklan dan menambah semua kategori unit dan pasangan mata wang, sehingga 100 entri sejarah, 7 tema tambahan dan kawalan halus kelegapan, saiz dan lebar — bulanan, tahunan atau sekali bayar seumur hidup."
+          "q": "Bolehkah digunakan di luar talian?",
+          "a": "Kalkulator dan penukar unit sentiasa berfungsi di luar talian. Tukaran mata wang menggunakan kadar terakhir yang dimuat turun."
         }
       ]
     },
@@ -261,14 +252,14 @@
       "seo": "Harga Bitcoin Terapung",
       "desc": "Ticker kripto langsung terapung atas mana-mana apl, dengan amaran dan carta.",
       "tagline": "Bitcoin, Ethereum dan syiling anda pada skrin — atas apl yang sedang diguna.",
-      "long": "FloatCrypto+ mengekalkan ticker kripto langsung di atas semua aplikasi, jadi anda boleh pantau pasaran sambil menonton YouTube, membaca berita atau membalas mesej — tanpa bertukar apl dan tanpa memuat semula. Seret ke mana-mana, ubah saiz dan turunkan kelegapan supaya ia tidak pernah menghalang. Tetapkan had atas atau bawah dan anda menerima pemberitahuan sebaik pasaran melepasinya, bina senarai pantauan dengan syiling yang benar-benar penting bagi anda, dan buka carta 1 hari, 7 hari dan 30 hari lengkap dengan tertinggi, terendah, pembukaan dan perubahan tempoh. Harga datang daripada Binance dengan pertukaran sumber automatik apabila satu sumber tidak dapat dicapai, jadi ticker terus berjalan. Data tertunda sehingga 30 saat (10 saat pada Pro) dan hanya sebagai rujukan — bukan nasihat pelaburan.",
+      "long": "FloatCrypto+ mengekalkan ticker kripto langsung di atas semua aplikasi, jadi anda boleh pantau pasaran sambil menonton YouTube, membaca berita atau membalas mesej — tanpa bertukar apl dan tanpa memuat semula. Seret ke mana-mana, ubah saiz dan turunkan kelegapan supaya ia tidak pernah menghalang. Tetapkan had atas atau bawah dan anda menerima pemberitahuan sebaik pasaran melepasinya, bina senarai pantauan dengan syiling yang benar-benar penting bagi anda, dan buka carta 1 hari, 7 hari dan 30 hari lengkap dengan tertinggi, terendah, pembukaan dan perubahan tempoh. Harga datang daripada Binance dengan pertukaran sumber automatik apabila satu sumber tidak dapat dicapai, jadi ticker terus berjalan. Data tertunda sehingga 10 saat dan hanya sebagai rujukan — bukan nasihat pelaburan.",
       "features": [
         "Ticker harga terapung di atas semua aplikasi — seret ke mana-mana, ubah saiz, turunkan kelegapan",
         "Amaran harga pada had atas atau bawah, dicipta terus dari kad syiling yang sudah dipilih",
         "Senarai pantauan dengan harga langsung, perubahan 24 jam dan susunan yang boleh diseret",
         "Carta 1 hari / 7 hari / 30 hari dengan tertinggi, terendah, pembukaan dan perubahan tempoh",
         "Warna Barat dan Timur — hijau naik/merah turun, atau merah naik/biru turun",
-        "Harga Binance dengan pertukaran sumber automatik, tertunda sehingga 30 saat (10 saat pada Pro)"
+        "Harga Binance dengan pertukaran sumber automatik, tertunda sehingga 10 saat"
       ],
       "faq": [
         {
@@ -280,8 +271,8 @@
           "a": "Tetapkan had atas atau bawah, dan FloatCrypto+ memberitahu anda sebaik pasaran melepasinya. Amaran boleh dicipta terus dari kad syiling — ketik ⋮ dan syiling sudah dipilih — manakala ikon loceng menandakan setiap syiling yang anda pantau."
         },
         {
-          "q": "Apa yang saya dapat secara percuma?",
-          "a": "Versi percuma memantau 3 syiling dengan 1 makluman harga dan carta 1 hari, dengan iklan. Pro memberi sehingga 10 syiling, makluman tanpa had, carta 7 hari dan 30 hari, muat semula setiap 10 saat dan bukannya 30 saat, dan tanpa iklan — bulanan, tahunan atau bayaran sekali seumur hidup."
+          "q": "Perlukah akaun atau dompet?",
+          "a": "Tidak. Tiada pendaftaran, tiada e-mel dan tiada sambungan dompet."
         }
       ]
     },
@@ -307,11 +298,7 @@
         },
         {
           "q": "Bolehkah ia digunakan sebagai pemasa Pomodoro atau senaman?",
-          "a": "Boleh. Terdapat pilihan pantas seperti 25 minit, anda boleh menetapkan sebarang tempoh dan menjalankan beberapa pemasa serentak untuk sesi senaman dan rehat. Pro boleh mengulang pemasa 2, 3, 5 kali atau tanpa henti."
-        },
-        {
-          "q": "Apa yang ada dalam versi percuma?",
-          "a": "Pemasa, pembilang dan jam randik tanpa had bilangan, dengan amaran bunyi dan getaran, serta widget skrin utama. Versi percuma memaparkan dua pemasa terapung pada satu masa. Pro menambah amaran skrin penuh walaupun skrin dimatikan, bunyi penggera dan getaran anda sendiri, ulangan automatik, seberapa banyak pemasa terapung serentak dan tiada iklan."
+          "a": "Boleh. Terdapat pilihan pantas seperti 25 minit, anda boleh menetapkan sebarang tempoh dan menjalankan beberapa pemasa serentak untuk sesi senaman dan rehat. Pemasa juga boleh diulang 2, 3, 5 kali atau tanpa henti."
         },
         {
           "q": "Bolehkah saya menggunakan FloatTimer+ pada unit kepala kereta Android?",
@@ -325,23 +312,19 @@
       "seo": "Penguat Suara & Equalizer",
       "desc": "Penguat volum dan penyama — satu ketikan ke 150%, sehingga 225%, dan kelantangan peranti turut naik bersamanya.",
       "tagline": "Lebih kuat dengan satu ketikan — butang tahap menaikkan kelantangan peranti dan menguatkan kebanyakan apl, sehingga 225%.",
-      "long": "Telefon anda terlalu perlahan? VolumeBooster+ menaikkan keseluruhan output sistem, bukan satu apl sahaja: pembesar suara yang lemah, fon telinga bervolum rendah, video yang sukar didengar, muzik dan permainan kedengaran jelas. Ketik satu tahap — 100%, 125%, 150% atau Maks — dan apl menaikkan kelantangan peranti anda dahulu, kemudian menambah penguatan di atasnya, sehingga 225% (+15 dB). Skrin utama memaparkan kelantangan peranti di sebelah penguatan, dan butang volum terus mengawal telefon anda. Warna Selamat, Berhati-hati dan Bahaya berdasarkan panduan pendengaran WHO menunjukkan sejauh mana anda telah menaikkannya. Versi percuma mencapai 183% (+10 dB); Pro membuka 225%. Pemaksimum kelantangan, penyama 5 jalur dengan sembilan prasetel yang semuanya percuma, penguat bas, pemaya 3D dan pembetulan AutoEQ daripada 2,456 profil fon kepala terukur semuanya dalam apl yang sama.",
+      "long": "Telefon anda terlalu perlahan? VolumeBooster+ menaikkan keseluruhan output sistem, bukan satu apl sahaja: pembesar suara yang lemah, fon telinga bervolum rendah, video yang sukar didengar, muzik dan permainan kedengaran jelas. Ketik satu tahap — 100%, 125%, 150% atau Maks — dan apl menaikkan kelantangan peranti anda dahulu, kemudian menambah penguatan di atasnya, sehingga 225% (+15 dB). Skrin utama memaparkan kelantangan peranti di sebelah penguatan, dan butang volum terus mengawal telefon anda. Warna Selamat, Berhati-hati dan Bahaya berdasarkan panduan pendengaran WHO menunjukkan sejauh mana anda telah menaikkannya. Pemaksimum kelantangan, penyama 5 jalur dengan sembilan prasetel, penguat bas, pemaya 3D dan pembetulan AutoEQ daripada 2,456 profil fon kepala terukur semuanya dalam apl yang sama.",
       "features": [
-        "Tahap satu ketikan 100%, 125%, 150% dan Maks: setiap satu menaikkan kelantangan peranti, kemudian menguatkan kebanyakan apl sehingga 225% (+15 dB) — percuma 183%, 225% dengan Pro",
+        "Tahap satu ketikan 100%, 125%, 150% dan Maks: setiap satu menaikkan kelantangan peranti, kemudian menguatkan kebanyakan apl sehingga 225% (+15 dB)",
         "Peluncur kelantangan peranti terus pada skrin utama, dan butang volum mengawal kelantangan peranti — volum telefon yang rendah tidak lagi menyembunyikan penguatan",
         "Pemaksimum kelantangan dengan mampatan berbilang jalur, gandaan pampasan dan penghad puncak yang sentiasa aktif: lebih kuat, tanpa herotan",
-        "Tab Penyama dengan penyama 5 jalur dan 9 prasetel, semuanya percuma, serta penguat bas, pemaya 3D dan AutoEQ — 2,456 profil fon kepala terukur, jenama utama (Apple, Samsung, Sony, Bose, JBL, Beats) percuma",
-        "Panel terapung di atas mana-mana apl dengan tahap yang sama dalam menunya, statistik perlindungan pendengaran (Pro), pemasa tidur dengan pudar perlahan, imbangan saluran Kiri/Kanan, jubin Tetapan pantas, widget skrin utama dan kawalan pemberitahuan",
+        "Tab Penyama dengan penyama 5 jalur dan 9 prasetel, serta penguat bas, pemaya 3D dan AutoEQ — 2,456 profil fon kepala terukur daripada 357 jenama",
+        "Panel terapung di atas mana-mana apl dengan tahap yang sama dalam menunya, statistik perlindungan pendengaran, pemasa tidur dengan pudar perlahan, imbangan saluran Kiri/Kanan, jubin Tetapan pantas, widget skrin utama dan kawalan pemberitahuan",
         "Warna Selamat, Berhati-hati dan Bahaya berdasarkan panduan pendengaran WHO menunjukkan sejauh mana anda telah menaikkan kelantangan"
       ],
       "faq": [
         {
           "q": "Adakah telefon benar-benar menjadi lebih kuat?",
           "a": "Ya. Butang tahap menaikkan kelantangan peranti dahulu — ke maksimum pada pembesar suara, ke 60% dengan fon kepala — kemudian menambah penguatan di atasnya melalui pemaksimum kelantangan dengan mampatan berbilang jalur dan gandaan pampasan. Ia menaikkan keseluruhan output sistem, jadi muzik, video, YouTube dan permainan menjadi lebih kuat bersama-sama. Jika masih kedengaran perlahan, semak kelantangan peranti pada skrin utama; bantuan terbina dalam juga boleh bertukar ke mod keserasian."
-        },
-        {
-          "q": "Adakah ia benar-benar percuma atau perlu langganan?",
-          "a": "Versi percuma memberi anda sehingga 183% (+10 dB), kesemua 9 prasetel, penyama 5 jalur, panel terapung dan AutoEQ untuk jenama utama seperti Apple, Samsung, Sony, Bose, JBL dan Beats, dengan iklan. Pro membuka 225% (+15 dB), semua profil AutoEQ dan papan pemuka perlindungan pendengaran serta membuang iklan — bulanan, tahunan atau pembelian sekali seumur hidup."
         },
         {
           "q": "Apakah maksud 150% dan 225%?",
@@ -359,19 +342,19 @@
       "seo": "Sensor Foto & PDF Peribadi",
       "desc": "Sembunyikan maklumat peribadi dalam foto & PDF, sepenuhnya pada peranti.",
       "tagline": "Sembunyikan maklumat peribadi dalam foto dan PDF dengan topeng padat, sepenuhnya pada peranti anda.",
-      "long": "PhotoCleaner+ menyembunyikan maklumat peribadi dalam foto dan PDF sepenuhnya pada peranti anda. Ia menutup kawasan sensitif dengan topeng padat yang legap (bukan kabur atau mozek, jadi kawasan yang ditutup tidak boleh dipulihkan) dan mengeksport salinan yang bersih. Pengesan terbina dalam mencadangkan teks yang berkemungkinan sensitif seperti nombor pengenalan, kad, nombor telefon dan e-mel secara percuma dan tanpa had, tetapi anda sendiri melukis dan melaraskan topeng serta menentukan dengan tepat apa yang disembunyikan. Foto, kad pengenalan dan PDF berbilang halaman semuanya dikendalikan, setiap salinan yang disimpan atau dikongsi dikodkan semula tanpa EXIF, dan tiada kebenaran galeri atau storan yang diminta. Pengesanan, penyuntingan dan penopengan kekal tanpa had dalam versi percuma dan tiada eksport yang membawa tera air; versi percuma mengeksport 3 kali sehari, manakala Pro menanggalkan had itu dan menambah eksport PDF, cetak serta apa-apa warna topeng. Hidupkan “Pilih lokasi simpanan” dan anda sendiri menentukan folder serta nama fail.",
+      "long": "PhotoCleaner+ menyembunyikan maklumat peribadi dalam foto dan PDF sepenuhnya pada peranti anda. Ia menutup kawasan sensitif dengan topeng padat yang legap (bukan kabur atau mozek, jadi kawasan yang ditutup tidak boleh dipulihkan) dan mengeksport salinan yang bersih. Pengesan terbina dalam mencadangkan teks yang berkemungkinan sensitif seperti nombor pengenalan, kad, nombor telefon dan e-mel tanpa had, tetapi anda sendiri melukis dan melaraskan topeng serta menentukan dengan tepat apa yang disembunyikan. Foto, kad pengenalan dan PDF berbilang halaman semuanya dikendalikan, setiap salinan yang disimpan atau dikongsi dikodkan semula tanpa EXIF, dan tiada kebenaran galeri atau storan yang diminta. Pengesanan, penyuntingan, penopengan dan eksport tanpa had, tiada eksport yang membawa tera air, dan anda boleh mengeksport ke PDF, mencetak serta memilih apa-apa warna topeng. Hidupkan “Pilih lokasi simpanan” dan anda sendiri menentukan folder serta nama fail.",
       "features": [
         "Topeng padat legap yang tidak boleh dipulihkan (bukan kabur atau mozek)",
         "Lukis topeng secara manual, kemudian gerak, ubah saiz atau padamkannya, dengan zum untuk ketepatan",
-        "Pengesanan terbina dalam mencadangkan teks yang berkemungkinan sensitif (nombor pengenalan, kad, telefon, e-mel) — percuma dan tanpa had, dan anda yang menyemaknya",
+        "Pengesanan terbina dalam mencadangkan teks yang berkemungkinan sensitif (nombor pengenalan, kad, telefon, e-mel) — anda yang menyemaknya",
         "Topeng foto, kad pengenalan dan dokumen PDF berbilang halaman",
         "Tiada kebenaran, pemberitahuan EXIF & GPS, dan setiap salinan yang disimpan atau dikongsi dikodkan semula tanpa EXIF",
-        "Tiada tera air untuk sesiapa pun: 3 eksport sehari dalam versi percuma, tanpa had dengan Pro berserta eksport PDF dan cetak"
+        "Tiada tera air, eksport tanpa had, berserta eksport PDF dan cetak"
       ],
       "faq": [
         {
           "q": "Adakah pentopengan itu kabur atau mozek?",
-          "a": "Bukan. Pentopengan menggunakan satu gaya sahaja, iaitu isian padat legap, dan kawasan yang ditutup tidak boleh dipulihkan. Dengan Pro anda boleh memilih sebarang warna topeng."
+          "a": "Bukan. Pentopengan menggunakan satu gaya sahaja, iaitu isian padat legap, dan kawasan yang ditutup tidak boleh dipulihkan. Anda boleh memilih sebarang warna topeng."
         },
         {
           "q": "Adakah foto saya dimuat naik ke mana-mana?",
@@ -380,10 +363,6 @@
         {
           "q": "Bolehkah saya bergantung pada pengesanan automatik sahaja sebelum mengeksport?",
           "a": "Pengesanan hanyalah titik permulaan yang mencadangkan teks yang berkemungkinan sensitif. Sentiasa semak cadangan dan tambah atau buang topeng sendiri sebelum mengeksport."
-        },
-        {
-          "q": "Berapa kali saya boleh mengeksport secara percuma?",
-          "a": "Tiga kali sehari. Yang dikira ialah butang Eksport, apa jua yang anda lakukan dengan hasilnya: menyimpan, berkongsi, menjadikannya PDF atau mencetak. Pengesanan, penyuntingan dan penopengan tidak pernah dihadkan. Pro menanggalkan had harian."
         }
       ]
     },
@@ -398,9 +377,9 @@
         "Sorotan Baris (Pembaris Bacaan): menerangi baris semasa anda supaya mata kekal pada laluan",
         "Topeng Bacaan: malapkan segala-galanya kecuali zon bacaan anda untuk fokus penglihatan terowong",
         "Jalur fokus yang boleh dilaraskan sepenuhnya: tinggi (50dp–300dp) dan kelegapan (10%–100%)",
-        "10 tema warna (3 percuma + 7 Pro)",
+        "10 tema warna",
         "Berfungsi di atas mana-mana aplikasi — ebook, PDF, webtoon, berita, kertas penyelidikan",
-        "Pro: tanpa iklan, 7 tema warna tambahan, dan pastikan skrin menyala semasa membaca"
+        "Pastikan skrin menyala: skrin tidak padam semasa anda membaca"
       ],
       "faq": [
         {
@@ -412,8 +391,8 @@
           "a": "Ia berfungsi di atas mana-mana aplikasi pada skrin — pembaca ebook dan PDF, kertas penyelidikan, artikel web, blog, berita, nota belajar, buku teks, komik, webtoon, serta e-mel atau sejarah sembang yang panjang."
         },
         {
-          "q": "Adakah ia percuma untuk digunakan?",
-          "a": "Ya. Versi percuma merangkumi kedua-dua mod fokus, 3 tema warna serta pelarasan tinggi dan kelegapan jalur, dengan iklan. Pro membuang iklan dan menambah 7 tema warna lagi dan pastikan skrin menyala — bulanan, tahunan atau belian sekali seumur hidup."
+          "q": "Bolehkah saya masih mengetik dan menatal apl di bawahnya?",
+          "a": "Boleh. Ketikan tembus melalui jalur ke apl di bawahnya. Pada Android 12 dan ke atas, sistem mengehadkan kelegapan tindanan kira-kira 80% supaya sentuhan terus berfungsi."
         }
       ]
     },
@@ -427,10 +406,10 @@
       "features": [
         "Nota tindanan terapung: kuncupkan nota jadi cip, kembangkan jadi kad penuh di atas mana-mana apl",
         "7 warna nota dan teks kaya: tebal, condong, garis bawah, garis lorek, warna dan saiz teks",
-        "Gambar dalam nota (Pro): lampirkan foto terus di dalamnya",
+        "Gambar dalam nota: lampirkan foto terus di dalamnya",
         "Peringatan nota — sekali, setiap hari, hari bekerja atau hari pilihan",
         "Simpanan dengan carian serta-merta, penyematan dan susunan seret; menyeret cip ke kawasan bawah menyimpan nota, bukan memadamnya",
-        "Pro: nota terapung tanpa had, gambar, penyegerakan Google Drive, peringatan tanpa had, tanpa iklan"
+        "Nota terapung tanpa had, penyegerakan Google Drive dan peringatan tanpa had"
       ],
       "faq": [
         {
@@ -446,16 +425,12 @@
           "a": "Ya. Pasang juga FloatNote+ for Windows, kemudian dalam tetapan kedua-dua aplikasi log masuk ke Google Drive dengan akaun yang sama dan hidupkan penyegerakan automatik. Selepas itu, nota yang ditulis pada telefon akan muncul pada PC, dan nota yang ditulis pada PC akan muncul pada telefon. Nota tidak melalui mana-mana pelayan CodeDAC — ia disimpan di dalam Google Drive anda sendiri sahaja. Teks nota dan imej yang dilampirkan kedua-duanya berpindah antara peranti."
         },
         {
-          "q": "Adakah ia percuma?",
-          "a": "Ya. Menyimpan nota adalah percuma dan tanpa had, dan versi percuma memaparkan satu nota terapung pada satu masa dengan kesemua 7 warna, kelegapan boleh laras, eksport dan import serta widget skrin utama, beserta iklan. Pro menambah nota terapung tanpa had, gambar, penyegerakan Google Drive dan peringatan tanpa had, serta membuang iklan."
-        },
-        {
           "q": "Bolehkah saya menggunakan FloatNote+ pada unit kepala kereta Android?",
           "a": "Ya, jika unit kepala kereta anda mempunyai Google Play dan menjalankan Android 8.0 atau lebih baharu. Nota terapung di atas apl navigasi atau muzik. Skrin persediaan direka untuk paparan landskap yang lebar dan rendah. Unit kepala mesti membenarkan “Papar di atas apl lain”."
         },
         {
           "q": "Bolehkah nota muncul pada masa yang ditetapkan?",
-          "a": "Boleh. Tetapkan masa dan nota anda muncul di skrin bersama pemberitahuan — sekali, setiap hari, hari bekerja atau hanya pada hari yang anda pilih. (Percuma: 1 peringatan · Pro: tanpa had)"
+          "a": "Boleh. Tetapkan masa dan nota anda muncul di skrin bersama pemberitahuan — sekali, setiap hari, hari bekerja atau hanya pada hari yang anda pilih."
         }
       ]
     },
@@ -465,14 +440,14 @@
       "seo": "Putar & Rotasi Skrin",
       "desc": "Paksa orientasi skrin untuk seluruh telefon atau setiap apl: potret, landskap atau auto. Tanpa root.",
       "tagline": "Ada apl yang tidak mahu berputar, ada yang terus berputar sebaik anda berbaring. Kunci orientasi skrin untuk seluruh telefon atau setiap apl dengan satu ketikan, tanpa root.",
-      "long": "Rotate+ memaksa orientasi skrin untuk seluruh telefon atau setiap apl dengan satu ketikan, tanpa root. Pilih Auto, Potret, Landskap, Potret terbalik, Landskap terbalik atau Kunci semasa, dan ia terus digunakan tanpa dialog pengesahan. Dengan peraturan mengikut apl, video dan permainan kekal landskap, sembang dan membaca kekal potret: peraturan aktif apabila apl dibuka dan dilepaskan apabila anda keluar. Jika apl memusingkan skrin semula, “Kekalkan orientasi” memulihkan pilihan anda; jika apl terus melawan, Rotate+ berhenti mencuba supaya skrin tidak berpusing tanpa henti. “Putar sekali” memutar apl semasa sahaja sehingga anda menukar apl atau mematikan skrin, manakala jubin tetapan pantas, widget dan pintasan memastikan semuanya hanya satu ketikan. Pada tablet Android 16, Rotate+ beralih ke tetapan putaran sistem secara automatik. Versi percuma memberi 3 peraturan dengan iklan sepanduk kecil; Pro menambah peraturan tanpa had, syarat, butang putar terapung dan tanpa iklan.",
+      "long": "Rotate+ memaksa orientasi skrin untuk seluruh telefon atau setiap apl dengan satu ketikan, tanpa root. Pilih Auto, Potret, Landskap, Potret terbalik, Landskap terbalik atau Kunci semasa, dan ia terus digunakan tanpa dialog pengesahan. Dengan peraturan mengikut apl, video dan permainan kekal landskap, sembang dan membaca kekal potret: peraturan aktif apabila apl dibuka dan dilepaskan apabila anda keluar. Jika apl memusingkan skrin semula, “Kekalkan orientasi” memulihkan pilihan anda; jika apl terus melawan, Rotate+ berhenti mencuba supaya skrin tidak berpusing tanpa henti. “Putar sekali” memutar apl semasa sahaja sehingga anda menukar apl atau mematikan skrin, manakala jubin tetapan pantas, widget dan pintasan memastikan semuanya hanya satu ketikan. Pada tablet Android 16, Rotate+ beralih ke tetapan putaran sistem secara automatik. Buat seberapa banyak peraturan mengikut apl yang anda mahu, biarkan syarat menukar orientasi secara automatik, dan letakkan butang putar terapung di atas apl lain.",
       "features": [
         "Satu ketikan, enam mod: Auto, Potret, Landskap, Potret terbalik, Landskap terbalik dan Kunci semasa — terus digunakan, keempat-empat sisi dan mod sensor dalam Mod lain",
         "Peraturan mengikut apl: video dan permainan landskap, sembang dan membaca potret — aktif apabila apl dibuka, dilepaskan apabila anda keluar",
         "Kekalkan orientasi: jika apl memusingkan skrin semula, Rotate+ memulihkan pilihan anda, dan berhenti mencuba jika apl terus melawan — skrin tidak berpusing tanpa henti",
         "Putar sekali: “Apl ini sahaja, sekarang sahaja” — dilepaskan sendiri apabila anda menukar apl atau mematikan skrin",
         "Dua jubin tetapan pantas, widget skrin utama, pintasan apl dan pemberitahuan pilihan dengan butang Jeda, Mod dan Putar sekali",
-        "Percuma 3 peraturan dengan iklan sepanduk kecil; Pro: peraturan tanpa had, syarat, butang terapung dan tanpa iklan"
+        "Peraturan mengikut apl tanpa had, syarat yang menukar orientasi sendiri (mengecas, fon kepala, Bluetooth, dok, panggilan, waktu tertentu) dan butang putar terapung"
       ],
       "faq": [
         {
@@ -482,10 +457,6 @@
         {
           "q": "Mengapa perlu kebolehcapaian? Adakah ia selamat?",
           "a": "Kebolehcapaian hanya digunakan untuk mengetahui apl yang sedang dipaparkan (untuk peraturan mengikut apl) dan untuk mengekalkan orientasi pilihan anda dengan tetingkap halimunan bersaiz 1 piksel. Rotate+ tidak pernah membaca kandungan skrin, teks atau kata laluan. Anda boleh menggunakan akses penggunaan sebagai ganti. Tiada akaun, tiada data dihantar."
-        },
-        {
-          "q": "Apa yang percuma dan apa tambahan Pro?",
-          "a": "Semua mod putaran, Kekalkan orientasi, Putar sekali, jubin, widget dan pintasan adalah percuma, bersama 3 peraturan mengikut apl dan iklan sepanduk kecil. Pro menambah peraturan tanpa had, syarat yang menukar orientasi sendiri (semasa mengecas, dengan fon kepala, peranti Bluetooth, dok kereta atau meja, semasa panggilan atau pada waktu tertentu), butang putar terapung dan membuang iklan."
         },
         {
           "q": "Bolehkah saya menggunakan Rotate+ pada unit kepala kereta Android?",
@@ -518,8 +489,8 @@
           "a": "Sejarah salinan secara lalai disimpan di dalam PC anda sahaja (folder %APPDATA%\\ClipboardPlus). Jika penyegerakan dihidupkan, ia turut disimpan di ruang khusus aplikasi dalam Google Drive anda sendiri — ruang yang tidak kelihatan pada skrin Drive dan tidak boleh dibuka oleh apa-apa selain Clipboard+. Aplikasi ini hanya menggunakan ruang khusus itu, jadi ia tidak boleh mencapai foto atau dokumen anda yang lain di Drive."
         },
         {
-          "q": "Adakah Clipboard+ untuk Windows percuma?",
-          "a": "Ya, tanpa iklan dan tanpa akaun. Sejarah papan klip dengan carian, petikan, pin, tetingkap tampal pantas, penyegerakan Google Drive, menyalin dan menyimpan klip imej, kongsi melalui e-mel dan eksport sandaran adalah percuma. Pembelian Pro pilihan sekali bayar, bukan langganan, menambah pemulihan sandaran, kumpulan tanpa had (versi percuma ada 3), eksport PDF dan lebih banyak storan imej. Jika anda menggunakan Clipboard+ for Windows sebelum Pro kembali, ciri-ciri itu kekal percuma untuk anda. (Di telefon, penyegerakan ialah ciri Pro apl Android.)"
+          "q": "Bolehkah saya menukar pintasan?",
+          "a": "Boleh. Setiap pintasan boleh ditukar atau dimatikan dalam Tetapan."
         }
       ]
     },
@@ -536,20 +507,20 @@
         "Panel apungan untuk menukar mod, mengalih atau mengunci jalur dan menyembunyikannya; boleh dilipat menjadi satu baris",
         "Pintasan papan kekunci untuk mula dan henti, mod, tunjuk dan sembunyi, kunci, serta mengalih jalur ke atas atau ke bawah",
         "Berbilang monitor: jalur bacaan mengikut panel ke mana-mana skrin, dan selebihnya menetap di dulang sistem",
-        "Tiada iklan. Pro ialah pembelian sekali sahaja: tema premium dan pastikan skrin menyala"
+        "Sepuluh tema warna, daripada kuning penyerlah hingga biru lautan; Kekalkan skrin hidup: skrin tidak padam selagi jalur aktif"
       ],
       "faq": [
         {
           "q": "Adakah ini aplikasi yang sama dengan ReadFocus+ di Android?",
-          "a": "Ia aplikasi yang sama dibina untuk Windows, dengan dua mod bacaan yang sama. Pembelian adalah berasingan di setiap gedung dan tiada apa-apa untuk disegerakkan — ReadFocus+ tidak pernah menyimpan apa yang anda baca."
+          "a": "Ia aplikasi yang sama dibina untuk Windows, dengan dua mod bacaan yang sama. Tiada apa-apa untuk disegerakkan — ReadFocus+ tidak pernah menyimpan apa yang anda baca."
         },
         {
           "q": "Ia berfungsi dengan aplikasi apa?",
           "a": "Dengan mana-mana aplikasi pada skrin: pelayar, pembaca PDF dan e-buku, dokumen, penyunting kod, kertas penyelidikan, serta e-mel atau sejarah sembang yang panjang. Jalur Fokus dilukis di atas skrin, jadi aplikasi di bawahnya tidak perlu menyokong apa-apa."
         },
         {
-          "q": "Adakah ia percuma?",
-          "a": "Ya. Versi percuma merangkumi kedua-dua mod bacaan, tinggi dan kelegapan Jalur Fokus serta tiga daripada sepuluh tema. Pro ialah pembelian sekali sahaja, bukan langganan, dan menambah tema premium dan pastikan skrin menyala. Versi Windows tiada iklan."
+          "q": "Adakah ReadFocus+ rawatan perubatan?",
+          "a": "Tidak. Ia alat bantu bacaan, bukan peranti perubatan atau rawatan untuk ADHD atau disleksia."
         }
       ]
     },
@@ -566,7 +537,7 @@
         "Peringatan nota — sekali, setiap hari, hari bekerja atau hari pilihan",
         "Teks kaya — tebal, condong, garis bawah, garis lorek, warna dan saiz teks — dengan 7 warna pastel dan gambar dalam nota",
         "Penyegerakan dua hala telefon-ke-PC melalui Google Drive anda sendiri — folder khusus aplikasi yang sama seperti yang digunakan aplikasi Android, tanpa mana-mana pelayan CodeDAC",
-        "Kekunci pintas global, dulang sistem, tema cerah dan gelap, jalan semasa log masuk, 21 bahasa. Tiada iklan; Pro pilihan sekali bayar menambah nota terapung, ketelusan, imej dan eksport"
+        "Kekunci pintas global, dulang sistem, tema cerah dan gelap, jalan semasa log masuk, 21 bahasa. Beberapa nota terapung serentak, ketelusan boleh laras, serta eksport dan import"
       ],
       "faq": [
         {
@@ -576,10 +547,6 @@
         {
           "q": "Adakah ia mengganggu aplikasi di bawahnya?",
           "a": "Tidak. Cip ialah tetingkap apungan yang tidak pernah mengambil fokus, jadi mengklik atau menyeretnya membiarkan kursor tepat di tempat anda menaip. Klik cip untuk mengembangkan kad; klik anak panah di atas, tekan Esc atau klik di luar dan ia kuncup semula, sudah pun disimpan."
-        },
-        {
-          "q": "Adakah ia percuma?",
-          "a": "Ya, tanpa iklan dan tanpa akaun. Menulis nota, warna, peringatan dan penyegerakan Google Drive adalah percuma. Pembelian Pro pilihan sekali bayar, bukan langganan, membolehkan anda mengapungkan lebih daripada satu nota serentak serta menambah ketelusan nota, imej dalam nota, dan eksport serta import. Jika anda menggunakan FloatNote+ for Windows sebelum Pro kembali, ciri-ciri itu kekal percuma untuk anda. (Di telefon, penyegerakan ialah ciri Pro apl Android.)"
         },
         {
           "q": "Bolehkah nota muncul pada masa yang ditetapkan?",
@@ -600,20 +567,20 @@
         "Mula, jeda dan mula semula dengan butang ▶/⏸/↻ terus pada kad tanpa membuka aplikasi, dan pemasa menunjukkan bar baki masa; pembilang menambah dan menolak dengan klik pada setiap separuh",
         "Sembilan warna pastel, saiz dan kelegapan kad boleh dilaras, serta tetingkap aplikasi yang mengikut tema cerah atau gelap",
         "Fail sandaran menggunakan format yang sama dengan aplikasi Android: eksport di satu sebelah, pulihkan di sebelah lagi",
-        "Pintasan global, dulang sistem, jalan semasa log masuk, 21 bahasa. Tiada akaun, tiada rangkaian, tiada iklan — dan Pro ialah pembelian sekali sahaja"
+        "Amaran skrin penuh, bunyi amaran pilihan anda dan pemasa berulang. Pintasan global, dulang sistem, jalan semasa log masuk, 21 bahasa. Tiada akaun, tiada rangkaian"
       ],
       "faq": [
         {
           "q": "Adakah ini aplikasi yang sama dengan FloatTimer+ di Android?",
-          "a": "Ia aplikasi yang sama dibina untuk Windows, dengan kad terapung yang sama. Setiap satu dibeli di gedungnya sendiri. Kedua-duanya tidak menyegerak secara automatik, tetapi membaca dan menulis fail sandaran yang sama, jadi anda boleh memindahkan senarai dengan mengeksport di satu sebelah dan memulihkannya di sebelah lagi."
+          "a": "Ia aplikasi yang sama dibina untuk Windows, dengan kad terapung yang sama. Kedua-duanya tidak menyegerak secara automatik, tetapi membaca dan menulis fail sandaran yang sama, jadi anda boleh memindahkan senarai dengan mengeksport di satu sebelah dan memulihkannya di sebelah lagi."
         },
         {
           "q": "Adakah ia mengganggu aplikasi di bawahnya?",
           "a": "Tidak. Kad ialah tetingkap terapung yang tidak pernah mengambil fokus, jadi mengklik atau menyeretnya membiarkan kursor tepat di tempat anda menaip. Apabila anda perlukan skrin, lipat kad menjadi gelembung yang hanya sedikit lebih besar daripada butang, tolak ke tepi skrin supaya bersembunyi separuh, atau sembunyikan semua kad sekali gus dengan pintasan."
         },
         {
-          "q": "Bolehkah digunakan secara percuma?",
-          "a": "Boleh. Anda boleh membuat seberapa banyak pemasa, pembilang dan jam randik yang anda mahu — senarainya tidak pernah dihadkan — dan versi Windows tiada iklan. Versi percuma mengapungkan dua kad pada skrin dalam satu masa. Pro ialah pembelian sekali sahaja, bukan langganan, dan menambah amaran skrin penuh dan bunyi amaran sendiri, pemasa berulang, kad terapung tanpa had, serta sebarang warna pilihan anda."
+          "q": "Perlukah akaun atau internet?",
+          "a": "Tidak. Pemasa anda disimpan dalam fail pada PC anda."
         }
       ]
     },
@@ -644,10 +611,6 @@
         {
           "q": "Adakah fail saya dimuat naik, atau fail asal berubah?",
           "a": "Kedua-duanya tidak. Pengesanan, penutupan dan eksport semuanya berjalan pada PC anda tanpa akaun dan tanpa muat naik. Penutupan dibuat pada salinan, apl enggan menyimpan di atas fail asal, dan salinan yang disimpan dikodkan semula supaya tidak membawa metadata fail asal."
-        },
-        {
-          "q": "Apa yang percuma, dan apa tambahan Pro?",
-          "a": "Mencari maklumat peribadi adalah percuma dan tanpa had, dan anda boleh menyimpan, menyalin atau berkongsi salinan yang telah ditutup bagi 3 dokumen sehari secara percuma. Pro ialah belian sekali yang membuang had harian dan menambah eksport PDF, cetakan, senarai yang sentiasa disembunyikan dan pilihan warna topeng. Tiada iklan dan tiada tera air."
         }
       ]
     },
@@ -657,14 +620,14 @@
       "seo": "Ticker Kripto Desktop",
       "desc": "Ticker harga kripto langsung yang terapung di atas setiap tetingkap Windows, dengan amaran harga dan carta.",
       "tagline": "Bitcoin, Ethereum dan altcoin anda dalam satu jalur nipis di atas setiap tetingkap — pasaran sentiasa di hujung mata semasa anda bekerja, tanpa pernah merampas fokus.",
-      "long": "FloatCrypto+ for Windows ialah versi desktop bagi aplikasi Android FloatCrypto+. Ia mengekalkan ticker harga yang nipis di atas setiap tetingkap — pelayar, dokumen, panggilan video — memaparkan simbol dan perubahan 24 jam setiap syiling, berwarna mengikut arah. Tiada tab untuk ditukar, tiada halaman untuk dimuat semula. Seret ticker ke mana-mana, laraskan kelegapan dan saiz teks, atau lipat menjadi gelembung kecil yang melekat di tepi skrin; ia tidak pernah merampas fokus daripada apl yang sedang anda taip. Halakan tetikus ke ikon dulang sistem untuk jadual harga penuh, walaupun ticker dimatikan. Tetapkan sasaran di atas atau di bawah harga semasa dan terima pemberitahuan desktop sebaik sahaja pasaran melepasinya, sekali atau berulang. Pilih syiling daripada ratusan pasangan yang didagangkan di Binance, susun mengikut kehendak anda dengan menyeret, dan klik dua kali mana-mana syiling untuk carta dengan harga tertinggi, terendah, pembukaan dan perubahan tempoh. Harga diambil daripada data pasaran awam Binance dengan pertukaran automatik ke pelayan alternatif dan CoinGecko, mungkin lewat sehingga 30 saat dan untuk maklumat sahaja — FloatCrypto+ bukan apl dagangan, dan tiada apa-apa di dalamnya merupakan nasihat pelaburan.",
+      "long": "FloatCrypto+ for Windows ialah versi desktop bagi aplikasi Android FloatCrypto+. Ia mengekalkan ticker harga yang nipis di atas setiap tetingkap — pelayar, dokumen, panggilan video — memaparkan simbol dan perubahan 24 jam setiap syiling, berwarna mengikut arah. Tiada tab untuk ditukar, tiada halaman untuk dimuat semula. Seret ticker ke mana-mana, laraskan kelegapan dan saiz teks, atau lipat menjadi gelembung kecil yang melekat di tepi skrin; ia tidak pernah merampas fokus daripada apl yang sedang anda taip. Halakan tetikus ke ikon dulang sistem untuk jadual harga penuh, walaupun ticker dimatikan. Tetapkan sasaran di atas atau di bawah harga semasa dan terima pemberitahuan desktop sebaik sahaja pasaran melepasinya, sekali atau berulang. Pilih syiling daripada ratusan pasangan yang didagangkan di Binance, susun mengikut kehendak anda dengan menyeret, dan klik dua kali mana-mana syiling untuk carta dengan harga tertinggi, terendah, pembukaan dan perubahan tempoh. Harga diambil daripada data pasaran awam Binance dengan pertukaran automatik ke pelayan alternatif dan CoinGecko, mungkin lewat sehingga 10 saat dan untuk maklumat sahaja — FloatCrypto+ bukan apl dagangan, dan tiada apa-apa di dalamnya merupakan nasihat pelaburan.",
       "features": [
         "Ticker harga langsung di atas setiap tetingkap — seret ke mana-mana, laraskan kelegapan dan saiz teks, atau lipat menjadi gelembung di tepi skrin",
         "Tidak pernah merampas fokus — ticker kekal kelihatan sementara kursor kekal dalam apl yang sedang anda gunakan",
         "Amaran harga di atas atau di bawah sasaran, sekali atau berulang, dibuat terus dari menu ⋮ syiling dengan syiling sudah dipilih",
         "Senarai pantau daripada ratusan pasangan Binance, susun dengan seret, dan carta 1 hari, 7 hari dan 30 hari dengan tertinggi, terendah, pembukaan dan perubahan tempoh",
         "Warna Barat (hijau naik, merah turun) atau Timur (merah naik, biru turun), dan jadual harga penuh pada ikon dulang sistem",
-        "Pintasan global, dulang sistem, bermula bersama Windows, tema cerah dan gelap, 21 bahasa. Tiada iklan, tiada akaun"
+        "Pintasan global, dulang sistem, bermula bersama Windows, tema cerah dan gelap, 21 bahasa. Tiada akaun"
       ],
       "faq": [
         {
@@ -677,11 +640,7 @@
         },
         {
           "q": "Dari mana datangnya harga?",
-          "a": "Daripada data pasaran awam Binance, dengan pertukaran automatik ke pelayan alternatif dan CoinGecko supaya ticker terus berjalan apabila satu sumber tidak dapat dicapai. Harga mungkin lewat sehingga 30 saat dan untuk maklumat sahaja. FloatCrypto+ tidak berdagang, tidak menyambung ke akaun bursa dan tidak menyimpan sebarang dana, dan tiada apa-apa di dalamnya merupakan nasihat pelaburan."
-        },
-        {
-          "q": "Apa yang percuma, dan apa tambahan Pro?",
-          "a": "Versi percuma mengikuti 3 syiling dengan 1 amaran harga, dikemas kini setiap 30 saat dan memaparkan carta 1 hari — ticker tiada had masa. Pro ialah belian sekali yang menaikkannya kepada 10 syiling, amaran tanpa had, kemas kini 10 saat serta carta 7 dan 30 hari. Versi Windows tiada iklan."
+          "a": "Daripada data pasaran awam Binance, dengan pertukaran automatik ke pelayan alternatif dan CoinGecko supaya ticker terus berjalan apabila satu sumber tidak dapat dicapai. Harga mungkin lewat sehingga 10 saat dan untuk maklumat sahaja. FloatCrypto+ tidak berdagang, tidak menyambung ke akaun bursa dan tidak menyimpan sebarang dana, dan tiada apa-apa di dalamnya merupakan nasihat pelaburan."
         }
       ]
     }

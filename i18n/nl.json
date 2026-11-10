@@ -156,10 +156,6 @@
         {
           "q": "Synchroniseert het met mijn Windows-pc?",
           "a": "Ja. Installeer ook Clipboard+ for Windows, meld je daarna in de instellingen van beide apps met hetzelfde account aan bij Google Drive en zet de automatische synchronisatie aan. Vanaf dat moment plak je op je pc wat je op je telefoon hebt gekopieerd, en op je telefoon wat je op je pc hebt gekopieerd. Wat je kopieert gaat langs geen enkele CodeDAC-server: het wordt alleen in je eigen Google Drive bewaard."
-        },
-        {
-          "q": "Wat is gratis, en wat voegt Pro toe?",
-          "a": "Gratis krijg je de geschiedenis van tekst en afbeeldingen met zoeken, fragmenten, tot 3 groepen, het zwevende paneel, de widget en opslaan via het tekstselectiemenu, met advertenties. Pro haalt de advertenties weg en voegt synchronisatie tussen telefoon en pc via je eigen Google Drive toe, onbeperkte afbeeldingsclips, het uitgebreide zwevende paneel en de widget, onbeperkte groepen, PDF-export en back-up terugzetten — per maand, per jaar of als eenmalige lifetime-aankoop."
         }
       ],
       "howto": {
@@ -192,15 +188,14 @@
       "seo": "Autostart-manager voor Android",
       "desc": "Start je apps automatisch bij het opstarten. Geen root nodig, één keer instellen.",
       "tagline": "Start je apps automatisch na elke herstart, zodra je je telefoon ontgrendelt. Geen root, één keer instellen, werkt voor altijd.",
-      "long": "AutoStart+ is de eenvoudigste autostart-manager voor Android: kies je apps en na elke herstart gaan ze vanzelf open zodra je het toestel ontgrendelt. Geen root, geen scripts, geen dagelijkse tikjes. Zoek in al je geïnstalleerde apps, voeg ze in seconden toe, zet ze aan of uit met één tik en sleep de rijen in de gewenste startvolgorde. Herstarten om te testen hoeft niet: het ⋮-menu op elke rij opent die app direct, en na het opstarten vertelt een kort bericht wat er is gestart — de rest volgt met één tik. Gratis start 1 app automatisch; PRO haalt de limiet weg zodat je hele lijst op volgorde start. De meeste Android-autoradio's gaan in slaap in plaats van opnieuw op te starten als je de auto uitzet. Zet de Automodus aan en je apps gaan weer open telkens als het scherm aangaat na minstens 3 minuten uit te zijn geweest. Gratis.",
+      "long": "AutoStart+ is de eenvoudigste autostart-manager voor Android: kies je apps en na elke herstart gaan ze vanzelf open zodra je het toestel ontgrendelt. Geen root, geen scripts, geen dagelijkse tikjes. Zoek in al je geïnstalleerde apps, voeg ze in seconden toe, zet ze aan of uit met één tik en sleep de rijen in de gewenste startvolgorde. Herstarten om te testen hoeft niet: het ⋮-menu op elke rij opent die app direct, en na het opstarten vertelt een kort bericht wat er is gestart — de rest volgt met één tik. De meeste Android-autoradio's gaan in slaap in plaats van opnieuw op te starten als je de auto uitzet. Zet de Automodus aan en je apps gaan weer open telkens als het scherm aangaat na minstens 3 minuten uit te zijn geweest.",
       "features": [
         "Start je gekozen apps na elke herstart, zodra je het toestel ontgrendelt — zonder root of custom ROM",
-        "Automodus voor autoradio's: je apps gaan weer open telkens als het scherm uit de slaapstand komt — gratis",
+        "Automodus voor autoradio's: je apps gaan weer open telkens als het scherm uit de slaapstand komt",
         "Sleep de rijen om te bepalen welke app bij elke start als eerste opent",
-        "Startvertraging (PRO): wacht een paar seconden voor de eerste app en laat ruimte tussen de apps, zodat autoradio's en trage apparaten eerst klaar zijn met opstarten",
+        "Startvertraging: wacht een paar seconden voor de eerste app en laat ruimte tussen de apps, zodat autoradio's en trage apparaten eerst klaar zijn met opstarten",
         "«Nu starten» in het ⋮-menu van elke rij — controleer je lijst zonder te herstarten",
-        "Na een herstart start een banner je hele lijst met één tik zodra je ontgrendelt (PRO)",
-        "Gratis start 1 app automatisch; PRO haalt de limiet weg en start je hele lijst op volgorde"
+        "Na een herstart start een banner je hele lijst met één tik zodra je ontgrendelt"
       ],
       "faq": [
         {
@@ -209,11 +204,7 @@
         },
         {
           "q": "Werkt AutoStart+ op Android-autoradio's?",
-          "a": "De meeste Android-autoradio's gaan in slaap in plaats van opnieuw op te starten als je de auto uitzet. Zet de Automodus aan en je apps gaan weer open telkens als het scherm aangaat na minstens 3 minuten uit te zijn geweest. Gratis."
-        },
-        {
-          "q": "Hoeveel apps kan ik automatisch starten?",
-          "a": "Gratis start er 1 app per keer opstarten. PRO haalt de limiet weg: je hele lijst opent in de volgorde die je hebt ingesteld."
+          "a": "De meeste Android-autoradio's gaan in slaap in plaats van opnieuw op te starten als je de auto uitzet. Zet de Automodus aan en je apps gaan weer open telkens als het scherm aangaat na minstens 3 minuten uit te zijn geweest."
         },
         {
           "q": "Verbruikt het mijn batterij?",
@@ -247,11 +238,11 @@
         },
         {
           "q": "Waar komen de wisselkoersen vandaan?",
-          "a": "Van de Europese Centrale Bank, één keer per dag bijgewerkt. De regel onder de bedragen toont de koers en de datum ervan, en via Instellingen werk je de koersen op elk moment bij. Je eigen valuta, USD en EUR zijn gratis; Pro voegt alle paren tussen meer dan 30 valuta toe. Door de dagelijkse cache werkt het ook offline."
+          "a": "Van de Europese Centrale Bank, één keer per dag bijgewerkt. De regel onder de bedragen toont de koers en de datum ervan, en via Instellingen werk je de koersen op elk moment bij. Je kunt omrekenen tussen alle paren uit meer dan 30 valuta. Door de dagelijkse cache werkt het ook offline."
         },
         {
-          "q": "Wat is gratis, en wat voegt Pro toe?",
-          "a": "De zwevende rekenmachine, lengte-eenheden, valutaomrekening tussen je eigen valuta, USD en EUR, je laatste 5 berekeningen, 3 transparantiestappen en het standaardthema zijn gratis, met advertenties. Pro haalt de advertenties weg en voegt alle eenheidscategorieën en valutaparen toe, tot 100 items in de geschiedenis, 7 extra thema's en fijne instelling van transparantie, grootte en breedte — maandelijks, jaarlijks of eenmalig voor altijd."
+          "q": "Werkt het offline?",
+          "a": "De calculator en de eenhedenomrekenaar werken altijd offline. Valuta omrekenen gebruikt de laatst gedownloade koersen."
         }
       ]
     },
@@ -261,14 +252,14 @@
       "seo": "Zwevende bitcoin koers ticker",
       "desc": "Live crypto-koersbalk zwevend over elke app, met meldingen en grafieken.",
       "tagline": "Bitcoin, Ethereum en je altcoins in beeld — boven welke app je ook gebruikt.",
-      "long": "FloatCrypto+ laat een live koersbalk boven alle apps zweven, zodat je de markt volgt terwijl je YouTube kijkt, nieuws leest of berichten beantwoordt — zonder te wisselen en zonder opnieuw te laden. Sleep hem waar je wilt, pas de grootte aan en verlaag de dekking zodat hij nooit in de weg zit. Stel een boven- of ondergrens in en je krijgt bericht op het moment dat de markt die passeert, houd een volglijst bij met de munten die er voor jou toe doen en open grafieken van 1 dag, 7 dagen en 30 dagen met hoogste, laagste, opening en verandering over die periode. De koersen komen van Binance en schakelen automatisch over op een andere bron als er één onbereikbaar is, zodat de balk blijft werken. De gegevens zijn tot 30 seconden vertraagd (10 seconden met Pro) en dienen alleen ter referentie — het is geen beleggingsadvies.",
+      "long": "FloatCrypto+ laat een live koersbalk boven alle apps zweven, zodat je de markt volgt terwijl je YouTube kijkt, nieuws leest of berichten beantwoordt — zonder te wisselen en zonder opnieuw te laden. Sleep hem waar je wilt, pas de grootte aan en verlaag de dekking zodat hij nooit in de weg zit. Stel een boven- of ondergrens in en je krijgt bericht op het moment dat de markt die passeert, houd een volglijst bij met de munten die er voor jou toe doen en open grafieken van 1 dag, 7 dagen en 30 dagen met hoogste, laagste, opening en verandering over die periode. De koersen komen van Binance en schakelen automatisch over op een andere bron als er één onbereikbaar is, zodat de balk blijft werken. De gegevens zijn tot 10 seconden vertraagd en dienen alleen ter referentie — het is geen beleggingsadvies.",
       "features": [
         "Zwevende koersbalk boven alle apps — sleep hem waar je wilt, pas grootte en dekking aan",
         "Koersmeldingen op een boven- of ondergrens, direct vanaf de muntkaart met de munt al ingevuld",
         "Volglijst met live koers, verandering over 24 uur en herschikken door te slepen",
         "Grafieken van 1 dag / 7 dagen / 30 dagen met hoogste, laagste, opening en verandering",
         "Westerse en oosterse kleuren — groen omhoog/rood omlaag, of rood omhoog/blauw omlaag",
-        "Binance-koersen met automatische bronwissel, tot 30 seconden vertraagd (10 met Pro)"
+        "Binance-koersen met automatische bronwissel, tot 10 seconden vertraagd"
       ],
       "faq": [
         {
@@ -280,8 +271,8 @@
           "a": "Je stelt een boven- of ondergrens in en FloatCrypto+ waarschuwt je op het moment dat de markt die passeert. De melding maak je direct vanaf een muntkaart — tik op ⋮ en de munt staat al ingevuld — en een belletje markeert elke munt die je in de gaten houdt."
         },
         {
-          "q": "Wat krijg ik gratis?",
-          "a": "Gratis volg je 3 munten met 1 koersmelding en de grafiek van 1 dag, met advertenties. Pro geeft tot 10 munten, onbeperkte meldingen, grafieken van 7 en 30 dagen, verversing elke 10 seconden in plaats van elke 30 seconden en geen advertenties — maandelijks, jaarlijks of eenmalig levenslang."
+          "q": "Heb ik een account of wallet nodig?",
+          "a": "Nee. Geen registratie, geen e-mail en geen wallet koppelen."
         }
       ]
     },
@@ -307,11 +298,7 @@
         },
         {
           "q": "Kan ik hem gebruiken als pomodoro- of workouttimer?",
-          "a": "Ja. Er zijn snelkeuzes zoals 25 minuten, je kunt elke duur instellen en meerdere timers tegelijk laten lopen voor inspanning en rust. Met Pro herhaalt een timer zich 2, 3, 5 keer of eindeloos."
-        },
-        {
-          "q": "Wat zit er in de gratis versie?",
-          "a": "Onbeperkt timers, tellers en stopwatches, met meldingen via geluid en trillen, plus de widget op het startscherm. De gratis versie toont twee zwevende timers tegelijk. Pro voegt een schermvullende melding toe, ook als het scherm uit staat, plus je eigen alarmgeluid en trilling, automatisch herhalen, zoveel zwevende timers tegelijk als je wilt en geen advertenties."
+          "a": "Ja. Er zijn snelkeuzes zoals 25 minuten, je kunt elke duur instellen en meerdere timers tegelijk laten lopen voor inspanning en rust. Een timer herhaalt zich desgewenst 2, 3, 5 keer of eindeloos."
         },
         {
           "q": "Kan ik FloatTimer+ gebruiken op een Android-autoradio?",
@@ -325,23 +312,19 @@
       "seo": "Volumeversterker en equalizer",
       "desc": "Volumeversterker en equalizer: met één tik naar 150%, tot 225%, en je apparaatvolume gaat mee omhoog.",
       "tagline": "Luider met één tik — niveauknoppen verhogen je apparaatvolume en boosten de meeste apps, tot 225%.",
-      "long": "Is je telefoon te stil? VolumeBooster+ verhoogt de volledige systeemuitvoer en niet alleen één app: zwakke luidsprekers, stille oordopjes, moeilijk verstaanbare video’s, muziek en games hoor je eindelijk duidelijk. Tik op een niveau (100%, 125%, 150% of Max) en de app zet eerst je apparaatvolume hoger en legt de boost er dan bovenop, tot 225% (+15 dB). Het hoofdscherm toont je apparaatvolume naast de boost, en de volumeknoppen blijven je telefoon bedienen. De kleuren Veilig, Let op en Gevaar op basis van WHO-richtlijnen laten zien hoe ver je bent gegaan. Gratis haal je 183% (+10 dB); Pro opent 225%. Loudness Maximizer, een 5-bands equalizer met negen gratis presets, bassversterker, 3D-virtualizer en AutoEQ-correctie op basis van 2.456 gemeten hoofdtelefoonprofielen zitten in dezelfde app.",
+      "long": "Is je telefoon te stil? VolumeBooster+ verhoogt de volledige systeemuitvoer en niet alleen één app: zwakke luidsprekers, stille oordopjes, moeilijk verstaanbare video’s, muziek en games hoor je eindelijk duidelijk. Tik op een niveau (100%, 125%, 150% of Max) en de app zet eerst je apparaatvolume hoger en legt de boost er dan bovenop, tot 225% (+15 dB). Het hoofdscherm toont je apparaatvolume naast de boost, en de volumeknoppen blijven je telefoon bedienen. De kleuren Veilig, Let op en Gevaar op basis van WHO-richtlijnen laten zien hoe ver je bent gegaan. Loudness Maximizer, een 5-bands equalizer met negen presets, bassversterker, 3D-virtualizer en AutoEQ-correctie op basis van 2.456 gemeten hoofdtelefoonprofielen zitten in dezelfde app.",
       "features": [
-        "Niveaus 100%, 125%, 150% en Max met één tik: elk verhoogt je apparaatvolume en boost daarna de meeste apps tot 225% (+15 dB) — 183% gratis, 225% met Pro",
+        "Niveaus 100%, 125%, 150% en Max met één tik: elk verhoogt je apparaatvolume en boost daarna de meeste apps tot 225% (+15 dB)",
         "Schuifregelaar voor het apparaatvolume direct op het hoofdscherm, en de volumeknoppen bedienen je apparaatvolume — zo verbergt een laag telefoonvolume nooit de boost",
         "Loudness Maximizer met multibandcompressie, makeup-gain en een altijd actieve pieklimiter: luider, zonder vervorming",
-        "Tabblad Equalizer met 5-bands equalizer en 9 presets, allemaal gratis, plus bassversterker, 3D-virtualizer en AutoEQ — 2.456 gemeten hoofdtelefoonprofielen, bekende merken (Apple, Samsung, Sony, Bose, JBL, Beats) gratis",
-        "Zwevend paneel boven elke app met dezelfde niveaus in het menu, gehoorbeschermingsstatistieken (Pro), slaaptimer met fade-out, kanaalbalans L/R, snelle-instellingentegel, widget voor het startscherm en bediening in de melding",
+        "Tabblad Equalizer met 5-bands equalizer en 9 presets, plus bassversterker, 3D-virtualizer en AutoEQ — 2.456 gemeten hoofdtelefoonprofielen van 357 merken",
+        "Zwevend paneel boven elke app met dezelfde niveaus in het menu, gehoorbeschermingsstatistieken, slaaptimer met fade-out, kanaalbalans L/R, snelle-instellingentegel, widget voor het startscherm en bediening in de melding",
         "De kleuren Veilig, Let op en Gevaar op basis van WHO-richtlijnen laten zien hoe ver je het volume hebt opgeschroefd"
       ],
       "faq": [
         {
           "q": "Wordt mijn telefoon echt harder?",
           "a": "Ja. Een niveauknop zet eerst je apparaatvolume hoger — op de luidspreker naar het maximum, met een hoofdtelefoon naar 60% — en legt de boost er dan bovenop, via een Loudness Maximizer met multibandcompressie en makeup-gain. De volledige systeemuitvoer gaat omhoog, dus muziek, video’s, YouTube en games worden samen luider. Klinkt het nog steeds zacht, controleer dan het apparaatvolume op het hoofdscherm; de ingebouwde hulp kan ook overschakelen naar de compatibiliteitsmodus."
-        },
-        {
-          "q": "Is het echt gratis of heb ik een abonnement nodig?",
-          "a": "Gratis krijg je tot 183% (+10 dB), alle 9 presets, de 5-bands equalizer, het zwevende paneel en AutoEQ voor bekende merken als Apple, Samsung, Sony, Bose, JBL en Beats, met advertenties. Pro ontgrendelt 225% (+15 dB), alle AutoEQ-profielen en het gehoorbeschermingsdashboard en verwijdert advertenties: maandelijks, jaarlijks of eenmalig levenslang."
         },
         {
           "q": "Wat betekenen 150% en 225%?",
@@ -359,19 +342,19 @@
       "seo": "Persoonlijke gegevens verbergen",
       "desc": "Verberg persoonlijke gegevens in foto's & PDF's, volledig op je toestel.",
       "tagline": "Verberg persoonlijke gegevens in foto's en PDF's met een dekkend masker, volledig op je toestel.",
-      "long": "PhotoCleaner+ verbergt persoonlijke gegevens in foto's en PDF's volledig op je toestel. Het bedekt gevoelige delen met een dekkend, ondoorzichtig masker (geen vervaging of mozaïek, zodat bedekte delen niet kunnen worden hersteld) en exporteert een schone kopie. Een ingebouwde detector stelt gratis en onbeperkt waarschijnlijk gevoelige tekst voor, zoals ID-nummers, kaarten, telefoonnummers en e-mails, maar jij tekent en past de maskers zelf aan en bepaalt precies wat verborgen wordt. Foto's, ID-kaarten en PDF's van meerdere pagina's worden allemaal ondersteund, elke opgeslagen of gedeelde kopie wordt zonder EXIF opnieuw gecodeerd, en er wordt nooit een galerij- of opslagrecht aangevraagd. Detecteren, bewerken en maskeren blijven ook gratis onbeperkt en geen enkele export draagt een watermerk; gratis exporteer je 3 keer per dag, terwijl Pro die limiet opheft en pdf-export, afdrukken en elke maskerkleur toevoegt. Zet ‘Kies waar op te slaan’ aan en je bepaalt zelf map en bestandsnaam.",
+      "long": "PhotoCleaner+ verbergt persoonlijke gegevens in foto's en PDF's volledig op je toestel. Het bedekt gevoelige delen met een dekkend, ondoorzichtig masker (geen vervaging of mozaïek, zodat bedekte delen niet kunnen worden hersteld) en exporteert een schone kopie. Een ingebouwde detector stelt onbeperkt waarschijnlijk gevoelige tekst voor, zoals ID-nummers, kaarten, telefoonnummers en e-mails, maar jij tekent en past de maskers zelf aan en bepaalt precies wat verborgen wordt. Foto's, ID-kaarten en PDF's van meerdere pagina's worden allemaal ondersteund, elke opgeslagen of gedeelde kopie wordt zonder EXIF opnieuw gecodeerd, en er wordt nooit een galerij- of opslagrecht aangevraagd. Detecteren, bewerken, maskeren en exporteren zijn onbeperkt, geen enkele export draagt een watermerk, en je kunt naar pdf exporteren, afdrukken en elke maskerkleur kiezen. Zet ‘Kies waar op te slaan’ aan en je bepaalt zelf map en bestandsnaam.",
       "features": [
         "Dekkend, ondoorzichtig masker dat niet kan worden hersteld (geen vervaging of mozaïek)",
         "Maskers met de hand tekenen en ze daarna verplaatsen, schalen of verwijderen, met zoom voor precisie",
-        "Ingebouwde detectie stelt waarschijnlijk gevoelige tekst voor (ID-nummers, kaarten, telefoons, e-mails) — gratis en onbeperkt, als vertrekpunt dat jij nakijkt",
+        "Ingebouwde detectie stelt waarschijnlijk gevoelige tekst voor (ID-nummers, kaarten, telefoons, e-mails) — als vertrekpunt dat jij nakijkt",
         "Foto's, ID-kaarten en PDF-documenten van meerdere pagina's maskeren",
         "Geen rechten, EXIF- & GPS-melding, en elke opgeslagen of gedeelde kopie wordt zonder EXIF opnieuw gecodeerd",
-        "Geen watermerk voor niemand: 3 exports per dag gratis, onbeperkt met Pro samen met pdf-export en afdrukken"
+        "Geen watermerk, onbeperkt exporteren, plus pdf-export en afdrukken"
       ],
       "faq": [
         {
           "q": "Is het maskeren een vervaging of mozaïek?",
-          "a": "Nee. Het maskeren gebruikt maar één stijl, een dekkende, ondoorzichtige vulling, en bedekte delen kunnen niet worden hersteld. Met Pro kun je elke maskerkleur kiezen."
+          "a": "Nee. Het maskeren gebruikt maar één stijl, een dekkende, ondoorzichtige vulling, en bedekte delen kunnen niet worden hersteld. Je kunt elke maskerkleur kiezen."
         },
         {
           "q": "Worden mijn foto's ergens geüpload?",
@@ -380,10 +363,6 @@
         {
           "q": "Kan ik vóór het exporteren alleen op de automatische detectie vertrouwen?",
           "a": "De detectie is slechts een vertrekpunt dat waarschijnlijk gevoelige tekst voorstelt. Controleer de suggesties altijd en voeg zelf maskers toe of verwijder ze voordat je exporteert."
-        },
-        {
-          "q": "Hoe vaak kan ik gratis exporteren?",
-          "a": "Drie keer per dag. Het gaat om de knop Exporteren, wat je daarna ook met het resultaat doet: opslaan, delen, een pdf maken of afdrukken. Detecteren, bewerken en maskeren zijn nooit beperkt. Pro heft de daglimiet op."
         }
       ]
     },
@@ -398,9 +377,9 @@
         "Regelmarkering (leesliniaal): verlicht je huidige regel om je ogen op koers te houden",
         "Leesmasker: dimt alles behalve je leeszone voor tunnelvisie-focus",
         "Volledig instelbare focusstrip: hoogte (50 dp–300 dp) en dekking (10%–100%)",
-        "10 kleurenthema's (3 gratis + 7 Pro)",
+        "10 kleurenthema's",
         "Werkt over elke app – e-books, PDF, webtoons, nieuws, onderzoeksartikelen",
-        "Pro: geen advertenties, 7 extra kleurenthema's en scherm aan houden tijdens het lezen"
+        "Scherm aan houden: het scherm blijft aan terwijl je leest"
       ],
       "faq": [
         {
@@ -412,8 +391,8 @@
           "a": "Het werkt over elke app op het scherm – e-book- en PDF-readers, onderzoeksartikelen, webartikelen, blogs, nieuws, studienotities, studieboeken, strips, webtoons en lange e-mails of chatgeschiedenis."
         },
         {
-          "q": "Is het gratis te gebruiken?",
-          "a": "Ja. De gratis versie bevat beide focusmodi, 3 kleurenthema's en instelbare hoogte en dekking van de focusstrip, met advertenties. Pro haalt de advertenties weg en voegt 7 extra kleurenthema's en scherm aan houden toe – maandelijks, jaarlijks of eenmalig levenslang."
+          "q": "Kan ik de app eronder nog aantikken en scrollen?",
+          "a": "Ja. Tikken gaan door de strook heen naar de app eronder. Vanaf Android 12 beperkt het systeem de dekking van overlays tot ongeveer 80%, zodat aanrakingen blijven werken."
         }
       ]
     },
@@ -427,10 +406,10 @@
       "features": [
         "Zwevende overlay-notities: vouw een notitie in tot een chip en open hem als volledige kaart boven elke app",
         "7 notitiekleuren en tekstopmaak: vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte",
-        "Afbeeldingen in de notitie (Pro): voeg foto's direct in een notitie toe",
+        "Afbeeldingen in de notitie: voeg foto's direct in een notitie toe",
         "Notitieherinneringen — eenmalig, elke dag, werkdagen of gekozen dagen",
         "Archief met directe zoekfunctie, vastpinnen en slepen om te ordenen; een chip naar de zone onderaan slepen bergt de notitie op in plaats van hem te verwijderen",
-        "Pro: onbeperkt zwevende notities, afbeeldingen, Google Drive-synchronisatie, onbeperkt herinneringen, geen advertenties"
+        "Onbeperkt zwevende notities, Google Drive-synchronisatie en onbeperkt herinneringen"
       ],
       "faq": [
         {
@@ -446,16 +425,12 @@
           "a": "Ja. Installeer ook FloatNote+ for Windows, meld je daarna in de instellingen van beide apps met hetzelfde account aan bij Google Drive en zet de automatische synchronisatie aan. Vanaf dat moment verschijnen notities die je op je telefoon schrijft op je pc, en notities die je op je pc schrijft op je telefoon. De notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard. Zowel de notitietekst als de bijgevoegde afbeeldingen reizen mee tussen apparaten."
         },
         {
-          "q": "Is het gratis?",
-          "a": "Ja. Notities opslaan is onbeperkt en gratis, en de gratis versie laat één notitie tegelijk zweven en biedt alle 7 kleuren, instelbare dekking, export en import en de widget voor het startscherm, met advertenties. Pro voegt onbeperkt zwevende notities toe, afbeeldingen, Google Drive-synchronisatie en onbeperkt herinneringen, en verwijdert de advertenties."
-        },
-        {
           "q": "Kan ik FloatNote+ gebruiken op een Android-autoradio?",
           "a": "Ja, als je autoradio Google Play heeft en Android 8.0 of nieuwer draait. Notities zweven boven navigatie of muziek. De installatieschermen zijn gemaakt voor brede, lage liggende displays. De autoradio moet ‘Weergeven over andere apps’ toestaan."
         },
         {
           "q": "Kan een notitie op een vast tijdstip verschijnen?",
-          "a": "Ja. Kies een tijd en je notitie verschijnt op het scherm met een melding — eenmalig, elke dag, op werkdagen of alleen op de dagen die je kiest. (Gratis: 1 herinnering · Pro: onbeperkt)"
+          "a": "Ja. Kies een tijd en je notitie verschijnt op het scherm met een melding — eenmalig, elke dag, op werkdagen of alleen op de dagen die je kiest."
         }
       ]
     },
@@ -465,14 +440,14 @@
       "seo": "Scherm draaien",
       "desc": "Zet de schermstand vast voor de hele telefoon of per app: staand, liggend of auto. Zonder root.",
       "tagline": "Sommige apps willen niet draaien, andere draaien zodra je gaat liggen. Leg de schermstand vast voor de hele telefoon of per app, met één tik en zonder root.",
-      "long": "Rotate+ legt de schermstand vast voor de hele telefoon of per app, met één tik en zonder root. Kies Auto, Staand, Liggend, Staand omgekeerd, Liggend omgekeerd of Huidige vastzetten en het is direct actief, zonder bevestigingsvenster. Met regels per app staan video's en games liggend en chatten en lezen staand: de regel geldt zodra de app opent en stopt als je hem verlaat. Draait een app het scherm terug, dan zet ‘Stand vasthouden’ jouw keuze terug; blijft een app tegenwerken, dan stopt Rotate+ met proberen — geen eindeloos gedraai. ‘Eén keer draaien’ draait alleen de huidige app tot je van app wisselt of het scherm uitzet, en tegels in snelle instellingen, widgets en snelkoppelingen houden alles binnen één tik. Op tablets met Android 16 gebruikt Rotate+ automatisch de draai-instelling van het systeem. Gratis krijg je 3 regels per app met een kleine banner; Pro voegt onbeperkt regels, voorwaarden en een zwevende draaiknop toe, zonder advertenties.",
+      "long": "Rotate+ legt de schermstand vast voor de hele telefoon of per app, met één tik en zonder root. Kies Auto, Staand, Liggend, Staand omgekeerd, Liggend omgekeerd of Huidige vastzetten en het is direct actief, zonder bevestigingsvenster. Met regels per app staan video's en games liggend en chatten en lezen staand: de regel geldt zodra de app opent en stopt als je hem verlaat. Draait een app het scherm terug, dan zet ‘Stand vasthouden’ jouw keuze terug; blijft een app tegenwerken, dan stopt Rotate+ met proberen — geen eindeloos gedraai. ‘Eén keer draaien’ draait alleen de huidige app tot je van app wisselt of het scherm uitzet, en tegels in snelle instellingen, widgets en snelkoppelingen houden alles binnen één tik. Op tablets met Android 16 gebruikt Rotate+ automatisch de draai-instelling van het systeem. Maak zoveel regels per app als je wilt, laat voorwaarden de stand automatisch wijzigen en houd een zwevende draaiknop boven andere apps.",
       "features": [
         "Zes standen met één tik: Auto, Staand, Liggend, Staand omgekeerd, Liggend omgekeerd en Huidige vastzetten — direct actief, met alle vier de kanten en sensorstanden onder Meer standen",
         "Regels per app: video's en games liggend, chatten en lezen staand — actief zodra de app opent, uit als je hem verlaat",
         "Stand vasthouden: draait een app het scherm terug, dan zet Rotate+ jouw keuze terug, en stopt met proberen als een app blijft tegenwerken — geen eindeloos gedraai",
         "Eén keer draaien: ‘Alleen deze app, alleen nu’ — stopt vanzelf als je van app wisselt of het scherm uitzet",
         "Twee tegels in snelle instellingen, widgets voor het startscherm, app-snelkoppelingen en een optionele melding met Pauze, Stand en Eén keer draaien",
-        "Gratis: 3 regels per app met een kleine banner; Pro: onbeperkt regels, voorwaarden, zwevende draaiknop en geen advertenties"
+        "Onbeperkt regels per app, voorwaarden die de stand automatisch wijzigen (opladen, koptelefoon, Bluetooth, dock, gesprekken, vaste tijden) en een zwevende draaiknop"
       ],
       "faq": [
         {
@@ -482,10 +457,6 @@
         {
           "q": "Waarom is toegankelijkheid nodig? Is het veilig?",
           "a": "Toegankelijkheid wordt alleen gebruikt om te weten welke app op het scherm staat (voor regels per app) en om de gekozen stand vast te houden met een onzichtbaar venster van 1 pixel. Rotate+ leest nooit scherminhoud, tekst of wachtwoorden. Je kunt ook toegang tot gebruiksgegevens gebruiken. Geen account, er wordt niets verstuurd."
-        },
-        {
-          "q": "Wat is gratis en wat voegt Pro toe?",
-          "a": "Alle draaistanden, Stand vasthouden, Eén keer draaien, tegels, widgets en snelkoppelingen zijn gratis, samen met 3 regels per app en een kleine banner. Pro voegt onbeperkt regels toe, voorwaarden die de stand automatisch wijzigen (tijdens het opladen, met een koptelefoon, een Bluetooth-apparaat, in een auto- of bureaudock, tijdens een gesprek of op vaste tijden), een zwevende draaiknop en geen advertenties."
         },
         {
           "q": "Kan ik Rotate+ gebruiken op een Android-autoradio?",
@@ -518,8 +489,8 @@
           "a": "Je kopieergeschiedenis blijft standaard alleen op je pc staan (in de map %APPDATA%\\ClipboardPlus). Zet je de synchronisatie aan, dan staat ze ook in een app-privé gedeelte van je eigen Google Drive — een gedeelte dat niet in je Drive-scherm verschijnt en dat niets anders dan Clipboard+ kan openen. De app gebruikt alleen dat privégedeelte en kan dus niet bij je andere foto's of documenten op Drive."
         },
         {
-          "q": "Is Clipboard+ voor Windows gratis?",
-          "a": "Ja, zonder advertenties en zonder account. Klembordgeschiedenis met zoeken, fragmenten, vastzetten, de snelplak-pop-up, synchronisatie via Google Drive, afbeeldingen kopiëren en opslaan, delen per e-mail en back-up exporteren zijn gratis. Een optionele eenmalige Pro-aankoop, geen abonnement, voegt back-ups terugzetten, een onbeperkt aantal groepen (de gratis versie heeft er 3), PDF-export en meer opslag voor afbeeldingen toe. Als je Clipboard+ voor Windows gebruikte voordat Pro terugkwam, blijven die functies gratis voor jou. (Op de telefoon is synchronisatie een Pro-functie van de Android-app.)"
+          "q": "Kan ik de sneltoetsen wijzigen?",
+          "a": "Ja. Elke sneltoets kun je in Instellingen wijzigen of uitzetten."
         }
       ]
     },
@@ -536,20 +507,20 @@
         "Zwevend paneel om van modus te wisselen, de strook te verplaatsen of te vergrendelen en te verbergen; klapt in tot één rij",
         "Sneltoetsen voor starten en stoppen, modus, tonen en verbergen, vergrendelen en de strook omhoog of omlaag verplaatsen",
         "Meerdere monitoren: de leesband volgt het paneel naar elk scherm, en verder wacht de app in het systeemvak",
-        "Geen advertenties. Pro is een eenmalige aankoop: premium thema's en scherm aan houden"
+        "Tien kleurthema's, van markeergeel tot oceaanblauw; Scherm aan houden: het scherm gaat niet uit zolang de strook actief is"
       ],
       "faq": [
         {
           "q": "Is dit dezelfde app als ReadFocus+ op Android?",
-          "a": "Het is dezelfde app, gebouwd voor Windows, met dezelfde twee leesmodi. Je koopt ze apart in elke store en er valt niets te synchroniseren — ReadFocus+ bewaart nooit wat je leest."
+          "a": "Het is dezelfde app, gebouwd voor Windows, met dezelfde twee leesmodi. Er valt niets te synchroniseren — ReadFocus+ bewaart nooit wat je leest."
         },
         {
           "q": "Met welke programma's werkt het?",
           "a": "Met elke app op je scherm: browsers, pdf- en e-booklezers, documenten, code-editors, wetenschappelijke artikelen en lange e-mails of chatgeschiedenissen. De focusstrook wordt over het scherm getekend, dus de app eronder hoeft niets te ondersteunen."
         },
         {
-          "q": "Is het gratis?",
-          "a": "Ja. De gratis versie bevat beide leesmodi, hoogte en dekking van de focusstrook en drie van de tien thema's. Pro is een eenmalige aankoop, geen abonnement, en voegt premium thema's en scherm aan houden toe. De Windows-versie bevat geen advertenties."
+          "q": "Is ReadFocus+ een medische behandeling?",
+          "a": "Nee. Het is een leeshulp, geen medisch hulpmiddel en geen behandeling voor ADHD of dyslexie."
         }
       ]
     },
@@ -566,7 +537,7 @@
         "Notitieherinneringen — eenmalig, elke dag, werkdagen of gekozen dagen",
         "Tekstopmaak — vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte — met 7 pastelkleuren en afbeeldingen in de notitie",
         "Tweerichtingssynchronisatie telefoon-pc via je eigen Google Drive — dezelfde app-privé map die de Android-app gebruikt, en nooit een CodeDAC-server",
-        "Globale sneltoetsen, systeemvak, licht en donker thema, starten bij aanmelden, 21 talen. Geen advertenties; een optionele eenmalige Pro voegt meer zwevende notities, transparantie, afbeeldingen en export toe"
+        "Globale sneltoetsen, systeemvak, licht en donker thema, starten bij aanmelden, 21 talen. Meerdere zwevende notities tegelijk, instelbare transparantie, export en import"
       ],
       "faq": [
         {
@@ -576,10 +547,6 @@
         {
           "q": "Zit het de app eronder in de weg?",
           "a": "Nee. Een chip is een zwevend venster dat nooit de focus overneemt, dus klikken of slepen laat je cursor precies waar je typte. Klik op de chip om de kaart te openen; klik op de pijl bovenaan, druk op Esc of klik ernaast en hij vouwt weer in, al opgeslagen."
-        },
-        {
-          "q": "Is het gratis?",
-          "a": "Ja, zonder advertenties en zonder account. Notities schrijven, kleuren, herinneringen en synchronisatie via Google Drive zijn gratis. Een optionele eenmalige Pro-aankoop, geen abonnement, laat je meer dan één notitie tegelijk laten zweven en voegt transparantie van notities, afbeeldingen in notities, en exporteren en importeren toe. Als je FloatNote+ voor Windows gebruikte voordat Pro terugkwam, blijven die functies gratis voor jou. (Op de telefoon is synchronisatie een Pro-functie van de Android-app.)"
         },
         {
           "q": "Kan een notitie op een vast tijdstip verschijnen?",
@@ -600,20 +567,20 @@
         "Starten, pauzeren en herstarten met de ▶/⏸/↻-knop op het kaartje zelf, zonder de app te openen, en timers tonen een balk met de resterende tijd; tellers tellen op en af met een klik op elke helft",
         "Negen pasteltinten, instelbare kaartgrootte en doorzichtigheid, en appvensters die uw lichte of donkere thema volgen",
         "Het back-upbestand heeft dezelfde indeling als in de Android-app: exporteren aan de ene kant, terugzetten aan de andere",
-        "Globale sneltoetsen, systeemvak, starten bij aanmelden, 21 talen. Geen account, geen netwerk, geen advertenties — en Pro is een eenmalige aankoop"
+        "Alarm op volledig scherm, je eigen alarmgeluid en herhaaltimers. Globale sneltoetsen, systeemvak, starten bij aanmelden, 21 talen. Geen account, geen netwerk"
       ],
       "faq": [
         {
           "q": "Is dit dezelfde app als FloatTimer+ op Android?",
-          "a": "Het is dezelfde app, gebouwd voor Windows, met dezelfde zwevende kaartjes. U koopt ze allebei in hun eigen store. Ze synchroniseren niet automatisch, maar lezen en schrijven wel hetzelfde back-upbestand: exporteer aan de ene kant en zet terug aan de andere om uw lijst mee te nemen."
+          "a": "Het is dezelfde app, gebouwd voor Windows, met dezelfde zwevende kaartjes. Ze synchroniseren niet automatisch, maar lezen en schrijven wel hetzelfde back-upbestand: exporteer aan de ene kant en zet terug aan de andere om uw lijst mee te nemen."
         },
         {
           "q": "Zit het de app eronder in de weg?",
           "a": "Nee. Een kaartje is een zwevend venster dat nooit de focus overneemt, dus klikken of slepen laat uw cursor precies staan waar u aan het typen was. Hebt u het scherm nodig, klap dan een kaartje in tot een bubbel die nauwelijks groter is dan een knop, duw het tegen de schermrand waar het zich half verstopt, of verberg ze allemaal tegelijk met een sneltoets."
         },
         {
-          "q": "Is het gratis te gebruiken?",
-          "a": "Ja. U kunt zo veel timers, tellers en stopwatches maken als u wilt — de lijst is nooit beperkt — en de Windows-versie heeft geen advertenties. In de gratis versie zweven er twee kaartjes tegelijk op het scherm. Pro is een eenmalige aankoop, geen abonnement, en voegt een schermvullende melding en uw eigen waarschuwingsgeluid toe, timers die zichzelf herhalen, onbeperkt zwevende kaartjes en elke kleur die u wilt."
+          "q": "Heb ik een account of internet nodig?",
+          "a": "Nee. Je timers worden in een bestand op je pc bewaard."
         }
       ]
     },
@@ -644,10 +611,6 @@
         {
           "q": "Worden mijn bestanden geüpload of wordt het origineel gewijzigd?",
           "a": "Geen van beide. Detecteren, maskeren en exporteren gebeuren op je pc, zonder account en zonder dat er iets wordt geüpload. Het maskeren gebeurt op een kopie, de app slaat nooit over het origineel op en opgeslagen kopieën worden opnieuw gecodeerd, zonder de metadata van het origineel."
-        },
-        {
-          "q": "Wat is gratis, en wat voegt Pro toe?",
-          "a": "Persoonlijke gegevens vinden is gratis en onbeperkt, en de afgedekte kopie van 3 documenten per dag kun je gratis opslaan, kopiëren of delen. Pro is een eenmalige aankoop die de daglimiet opheft en PDF-export, afdrukken, de lijst met altijd te verbergen termen en een eigen maskerkleur toevoegt. Geen advertenties en geen watermerk."
         }
       ]
     },
@@ -657,14 +620,14 @@
       "seo": "Cryptoticker voor pc",
       "desc": "Een live cryptokoersticker die boven elk venster in Windows zweeft, met koersmeldingen en grafieken.",
       "tagline": "Bitcoin, Ethereum en je altcoins in een smalle balk boven elk venster — de markt in je ooghoek terwijl je werkt, zonder ooit de focus af te pakken.",
-      "long": "FloatCrypto+ for Windows is de desktopversie van de Android-app FloatCrypto+. Hij houdt een smalle koersticker boven elk venster — je browser, je documenten, je videogesprek — met het symbool en de 24-uurswijziging van elke munt, gekleurd naar richting. Geen tabblad wisselen, geen pagina herladen. Sleep de ticker waar je wilt, stel de dekking en tekstgrootte in, of klap hem in tot een kleine bel die tegen de schermrand aanligt; hij neemt nooit de focus weg van de app waarin je typt. Beweeg over het pictogram in het systeemvak voor een volledige koerstabel, ook als de ticker uit staat. Stel een doel boven of onder de huidige koers in en krijg een bureaubladmelding zodra de markt het passeert, eenmalig of herhalend. Kies munten uit de honderden paren die op Binance worden verhandeld, zet ze in je eigen volgorde door te slepen en dubbelklik op een munt voor een grafiek met het hoogste, laagste, openings- en wijzigingscijfer van de periode. Koersen komen uit de openbare marktgegevens van Binance, met automatisch uitwijken naar alternatieve servers en CoinGecko, kunnen tot 30 seconden vertraagd zijn en zijn alleen ter informatie — FloatCrypto+ is geen handelsapp en niets erin is beleggingsadvies.",
+      "long": "FloatCrypto+ for Windows is de desktopversie van de Android-app FloatCrypto+. Hij houdt een smalle koersticker boven elk venster — je browser, je documenten, je videogesprek — met het symbool en de 24-uurswijziging van elke munt, gekleurd naar richting. Geen tabblad wisselen, geen pagina herladen. Sleep de ticker waar je wilt, stel de dekking en tekstgrootte in, of klap hem in tot een kleine bel die tegen de schermrand aanligt; hij neemt nooit de focus weg van de app waarin je typt. Beweeg over het pictogram in het systeemvak voor een volledige koerstabel, ook als de ticker uit staat. Stel een doel boven of onder de huidige koers in en krijg een bureaubladmelding zodra de markt het passeert, eenmalig of herhalend. Kies munten uit de honderden paren die op Binance worden verhandeld, zet ze in je eigen volgorde door te slepen en dubbelklik op een munt voor een grafiek met het hoogste, laagste, openings- en wijzigingscijfer van de periode. Koersen komen uit de openbare marktgegevens van Binance, met automatisch uitwijken naar alternatieve servers en CoinGecko, kunnen tot 10 seconden vertraagd zijn en zijn alleen ter informatie — FloatCrypto+ is geen handelsapp en niets erin is beleggingsadvies.",
       "features": [
         "Live koersticker boven elk venster — sleep hem waar je wilt, stel dekking en tekstgrootte in, of klap hem in tot een bel aan de schermrand",
         "Neemt nooit de focus over — de ticker blijft in beeld terwijl je cursor in de app blijft waarin je werkt",
         "Koersmeldingen boven of onder een doel, eenmalig of herhalend, direct aan te maken vanuit het ⋮-menu van een munt met de munt al gekozen",
         "Volglijst uit honderden Binance-paren, sorteren door te slepen en grafieken van 1, 7 en 30 dagen met hoogste, laagste, opening en wijziging van de periode",
         "Westerse (groen omhoog, rood omlaag) of oosterse (rood omhoog, blauw omlaag) kleuren, en een volledige koerstabel op het pictogram in het systeemvak",
-        "Globale sneltoetsen, systeemvak, opstarten met Windows, licht en donker thema, 21 talen. Geen advertenties, geen account"
+        "Globale sneltoetsen, systeemvak, opstarten met Windows, licht en donker thema, 21 talen. Geen account"
       ],
       "faq": [
         {
@@ -677,11 +640,7 @@
         },
         {
           "q": "Waar komen de koersen vandaan?",
-          "a": "Uit de openbare marktgegevens van Binance, met automatisch uitwijken naar alternatieve servers en CoinGecko, zodat de ticker blijft lopen als een bron onbereikbaar is. Koersen kunnen tot 30 seconden vertraagd zijn en zijn alleen ter informatie. FloatCrypto+ handelt niet, maakt geen verbinding met een exchange-account en beheert geen geld, en niets erin is beleggingsadvies."
-        },
-        {
-          "q": "Wat is gratis, en wat voegt Pro toe?",
-          "a": "Gratis volg je 3 munten met 1 prijsalarm, wordt elke 30 seconden ververst en zie je de grafiek van 1 dag — de koersbalk heeft geen tijdslimiet. Pro is een eenmalige aankoop die dat verhoogt naar 10 munten, onbeperkte alarmen, verversen elke 10 seconden en de grafieken van 7 en 30 dagen. De Windows-versie heeft geen advertenties."
+          "a": "Uit de openbare marktgegevens van Binance, met automatisch uitwijken naar alternatieve servers en CoinGecko, zodat de ticker blijft lopen als een bron onbereikbaar is. Koersen kunnen tot 10 seconden vertraagd zijn en zijn alleen ter informatie. FloatCrypto+ handelt niet, maakt geen verbinding met een exchange-account en beheert geen geld, en niets erin is beleggingsadvies."
         }
       ]
     }

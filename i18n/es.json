@@ -156,10 +156,6 @@
         {
           "q": "¿Se sincroniza con mi PC con Windows?",
           "a": "Sí. Instala también Clipboard+ for Windows y, en los ajustes de ambas apps, inicia sesión en Google Drive con la misma cuenta y activa la sincronización automática. A partir de ahí, lo que copies en el teléfono lo pegarás en el PC, y lo que copies en el PC lo pegarás en el teléfono. Lo copiado no pasa por ningún servidor de CodeDAC: se guarda solo en tu propio Google Drive."
-        },
-        {
-          "q": "¿Qué es gratis y qué añade Pro?",
-          "a": "Gratis tienes el historial de texto e imágenes con búsqueda, fragmentos, hasta 3 grupos, el panel flotante, el widget y el guardado desde el menú de selección de texto, con anuncios. Pro quita los anuncios y añade la sincronización entre móvil y PC a través de tu propio Google Drive, clips de imagen ilimitados, el panel flotante y el widget ampliados, grupos ilimitados, exportación a PDF y restauración de copias de seguridad, con pago mensual, anual o único de por vida."
         }
       ],
       "howto": {
@@ -192,15 +188,14 @@
       "seo": "gestor de inicio automático Android",
       "desc": "Inicia tus apps automáticamente al arrancar. Sin root, configúralo una vez.",
       "tagline": "Inicia tus apps automáticamente tras cada reinicio, en cuanto desbloqueas el teléfono. Sin root, configúralo una vez y funciona para siempre.",
-      "long": "AutoStart+ es el gestor de inicio automático más sencillo para Android: elige tus apps y, tras cada reinicio, en cuanto desbloqueas el dispositivo, se abren solas. Sin root, sin scripts, sin toques cada mañana. Busca entre todas las apps instaladas, añádelas en segundos, actívalas o desactívalas con un toque y arrastra las filas para fijar el orden de arranque. No hace falta reiniciar para probarlo: el menú ⋮ de cada fila abre esa app al instante y, tras el arranque, un aviso breve te dice qué se ha abierto y lanza el resto con un toque. La versión gratuita inicia 1 app; PRO quita el límite y toda la lista se abre en orden. La mayoría de las radios de coche Android entran en reposo en lugar de reiniciarse al apagar el coche. Activa el Modo coche y tus apps se volverán a abrir cada vez que la pantalla se encienda tras estar apagada 3 minutos o más. Gratis.",
+      "long": "AutoStart+ es el gestor de inicio automático más sencillo para Android: elige tus apps y, tras cada reinicio, en cuanto desbloqueas el dispositivo, se abren solas. Sin root, sin scripts, sin toques cada mañana. Busca entre todas las apps instaladas, añádelas en segundos, actívalas o desactívalas con un toque y arrastra las filas para fijar el orden de arranque. No hace falta reiniciar para probarlo: el menú ⋮ de cada fila abre esa app al instante y, tras el arranque, un aviso breve te dice qué se ha abierto y lanza el resto con un toque. La mayoría de las radios de coche Android entran en reposo en lugar de reiniciarse al apagar el coche. Activa el Modo coche y tus apps se volverán a abrir cada vez que la pantalla se encienda tras estar apagada 3 minutos o más.",
       "features": [
         "Abre las apps seleccionadas tras cada reinicio, en cuanto desbloqueas el dispositivo, sin root ni ROM personalizada",
-        "Modo coche para radios de coche: tus apps se vuelven a abrir cada vez que la pantalla sale del reposo — gratis",
+        "Modo coche para radios de coche: tus apps se vuelven a abrir cada vez que la pantalla sale del reposo",
         "Arrastra las filas para decidir qué app se abre primero en cada arranque",
-        "Retraso de inicio (PRO): espera unos segundos antes de la primera app y separa las demás, para que las radios de coche y los dispositivos lentos terminen de arrancar",
+        "Retraso de inicio: espera unos segundos antes de la primera app y separa las demás, para que las radios de coche y los dispositivos lentos terminen de arrancar",
         "«Ejecutar ahora» en el menú ⋮ de cualquier fila: comprueba tu lista sin reiniciar el móvil",
-        "Tras un reinicio, un banner lanza toda tu lista con un toque en cuanto desbloqueas (PRO)",
-        "Gratis inicia 1 app; PRO quita el límite y abre toda tu lista en orden"
+        "Tras un reinicio, un banner lanza toda tu lista con un toque en cuanto desbloqueas"
       ],
       "faq": [
         {
@@ -209,11 +204,7 @@
         },
         {
           "q": "¿Funciona AutoStart+ en radios de coche Android?",
-          "a": "La mayoría de las radios de coche Android entran en reposo en lugar de reiniciarse al apagar el coche. Activa el Modo coche y tus apps se volverán a abrir cada vez que la pantalla se encienda tras estar apagada 3 minutos o más. Gratis."
-        },
-        {
-          "q": "¿Cuántas apps puedo iniciar automáticamente?",
-          "a": "La versión gratuita inicia 1 app en cada arranque. PRO quita el límite y toda la lista se abre en el orden que hayas fijado."
+          "a": "La mayoría de las radios de coche Android entran en reposo en lugar de reiniciarse al apagar el coche. Activa el Modo coche y tus apps se volverán a abrir cada vez que la pantalla se encienda tras estar apagada 3 minutos o más."
         },
         {
           "q": "¿Consumirá mi batería?",
@@ -247,11 +238,11 @@
         },
         {
           "q": "¿De dónde salen los tipos de cambio?",
-          "a": "Del Banco Central Europeo, actualizados una vez al día. La línea bajo las cantidades muestra la tasa y su fecha, y en Ajustes puedes actualizar las tasas cuando quieras. Tu propia divisa, USD y EUR son gratis; Pro añade todos los pares entre más de 30 divisas. La caché diaria hace que funcione sin conexión."
+          "a": "Del Banco Central Europeo, actualizados una vez al día. La línea bajo las cantidades muestra la tasa y su fecha, y en Ajustes puedes actualizar las tasas cuando quieras. Puedes convertir entre cualquier par de más de 30 divisas. La caché diaria hace que funcione sin conexión."
         },
         {
-          "q": "¿Qué es gratis y qué añade Pro?",
-          "a": "La calculadora flotante, las unidades de longitud, la conversión de divisas entre tu propia moneda, USD y EUR, tus últimos 5 cálculos, 3 niveles de opacidad y el tema predeterminado son gratis, con anuncios. Pro quita los anuncios y añade todas las categorías de unidades y todos los pares de divisas, hasta 100 entradas en el historial, 7 temas más y el ajuste fino de opacidad, tamaño y ancho, en modalidad mensual, anual o pago único de por vida."
+          "q": "¿Funciona sin conexión?",
+          "a": "La calculadora y el conversor de unidades funcionan siempre sin conexión. La conversión de divisas usa los últimos tipos descargados."
         }
       ]
     },
@@ -261,14 +252,14 @@
       "seo": "precio de Bitcoin flotante",
       "desc": "Ticker cripto en vivo flotando sobre cualquier app, con alertas y gráficos.",
       "tagline": "Bitcoin, Ethereum y tus altcoins en pantalla, sobre la app que estés usando.",
-      "long": "FloatCrypto+ deja una cotización en vivo flotando encima de todas las apps, así consultas el mercado mientras ves YouTube, lees noticias o respondes mensajes, sin cambiar de pantalla ni recargar. Arrástralo donde quieras, ajusta el tamaño y baja la opacidad para que nunca estorbe. Fija un objetivo superior o inferior y recibirás aviso en cuanto el mercado lo cruce, arma una lista solo con las monedas que te importan y abre gráficos de 1 día, 7 días y 30 días con máximo, mínimo, apertura y variación del periodo. Los precios vienen de Binance, con cambio automático de fuente si una no responde, así el ticker sigue funcionando. Los datos se retrasan hasta 30 segundos (10 segundos con Pro) y son solo de referencia: no constituyen asesoramiento de inversión.",
+      "long": "FloatCrypto+ deja una cotización en vivo flotando encima de todas las apps, así consultas el mercado mientras ves YouTube, lees noticias o respondes mensajes, sin cambiar de pantalla ni recargar. Arrástralo donde quieras, ajusta el tamaño y baja la opacidad para que nunca estorbe. Fija un objetivo superior o inferior y recibirás aviso en cuanto el mercado lo cruce, arma una lista solo con las monedas que te importan y abre gráficos de 1 día, 7 días y 30 días con máximo, mínimo, apertura y variación del periodo. Los precios vienen de Binance, con cambio automático de fuente si una no responde, así el ticker sigue funcionando. Los datos se retrasan hasta 10 segundos y son solo de referencia: no constituyen asesoramiento de inversión.",
       "features": [
         "Ticker flotante encima de todas las apps — arrástralo, ajusta el tamaño y baja la opacidad",
         "Alertas de precio con objetivo superior o inferior, creadas desde la tarjeta de la moneda ya seleccionada",
         "Lista de seguimiento con precio en vivo, cambio de 24 h y reordenación arrastrando",
         "Gráficos de 1 día / 7 días / 30 días con máximo, mínimo, apertura y variación del periodo",
         "Colores occidentales y orientales — verde alza/rojo baja, o rojo alza/azul baja",
-        "Precios de Binance con cambio automático de fuente, con hasta 30 segundos de retraso (10 con Pro)"
+        "Precios de Binance con cambio automático de fuente, con hasta 10 segundos de retraso"
       ],
       "faq": [
         {
@@ -280,8 +271,8 @@
           "a": "Fija un objetivo superior o inferior y FloatCrypto+ te avisa en cuanto el mercado lo cruza. Puedes crear la alerta desde la propia tarjeta de la moneda —toca ⋮ y la moneda ya viene seleccionada— y una campana marca cada moneda que estás vigilando."
         },
         {
-          "q": "¿Qué incluye la versión gratuita?",
-          "a": "Gratis sigues 3 monedas con 1 alerta de precio y el gráfico de 1 día, con anuncios. Pro da hasta 10 monedas, alertas ilimitadas, gráficos de 7 y 30 días, actualización cada 10 segundos en lugar de 30 y sin anuncios, en plan mensual, anual o pago único de por vida."
+          "q": "¿Necesito una cuenta o un wallet?",
+          "a": "No. No hay registro, ni correo, ni conexión de wallet."
         }
       ]
     },
@@ -307,11 +298,7 @@
         },
         {
           "q": "¿Puedo usarlo como temporizador Pomodoro o de entrenamiento?",
-          "a": "Sí. Hay ajustes rápidos como 25 minutos, puedes definir cualquier duración y ejecutar varios temporizadores a la vez para series y descansos. Pro repite un temporizador 2, 3 o 5 veces, o sin fin."
-        },
-        {
-          "q": "¿Qué incluye la versión gratuita?",
-          "a": "Temporizadores, contadores y cronómetros ilimitados, con avisos de sonido y vibración, y el widget de pantalla de inicio. La versión gratuita muestra dos temporizadores flotantes a la vez. Pro añade una alerta a pantalla completa incluso con la pantalla apagada, tu propio sonido de alarma y vibración, repetición automática, todos los temporizadores flotantes que quieras a la vez y sin anuncios."
+          "a": "Sí. Hay ajustes rápidos como 25 minutos, puedes definir cualquier duración y ejecutar varios temporizadores a la vez para series y descansos. Un temporizador puede repetirse 2, 3 o 5 veces, o sin fin."
         },
         {
           "q": "¿Puedo usar FloatTimer+ en una radio de coche Android?",
@@ -325,23 +312,19 @@
       "seo": "potenciador de volumen",
       "desc": "Amplificador de volumen y ecualizador: un toque para llegar al 150%, hasta el 225%, y el volumen del dispositivo sube con él.",
       "tagline": "Más alto con un toque: los botones de nivel suben el volumen del dispositivo y amplifican la mayoría de las apps, hasta el 225%.",
-      "long": "¿Tu teléfono suena bajo? VolumeBooster+ eleva toda la salida del sistema, no solo una app: altavoces flojos, auriculares con poco volumen, vídeos difíciles de oír, música y juegos se escuchan por fin con claridad. Toca un nivel (100%, 125%, 150% o Máx.): primero sube el volumen del dispositivo y luego añade el aumento encima, hasta el 225% (+15 dB). La pantalla principal muestra el volumen del dispositivo junto al aumento, y los botones de volumen siguen controlando tu teléfono. Los colores de las zonas Segura, Precaución y Peligro, basados en las recomendaciones auditivas de la OMS, muestran hasta dónde has subido. Gratis llegas al 183% (+10 dB); Pro abre el 225%. El maximizador de sonoridad, un ecualizador de 5 bandas con nueve presets gratuitos, el potenciador de graves, el virtualizador 3D y la corrección AutoEQ con 2.456 perfiles medidos de auriculares están en la misma app.",
+      "long": "¿Tu teléfono suena bajo? VolumeBooster+ eleva toda la salida del sistema, no solo una app: altavoces flojos, auriculares con poco volumen, vídeos difíciles de oír, música y juegos se escuchan por fin con claridad. Toca un nivel (100%, 125%, 150% o Máx.): primero sube el volumen del dispositivo y luego añade el aumento encima, hasta el 225% (+15 dB). La pantalla principal muestra el volumen del dispositivo junto al aumento, y los botones de volumen siguen controlando tu teléfono. Los colores de las zonas Segura, Precaución y Peligro, basados en las recomendaciones auditivas de la OMS, muestran hasta dónde has subido. El maximizador de sonoridad, un ecualizador de 5 bandas con nueve presets, el potenciador de graves, el virtualizador 3D y la corrección AutoEQ con 2.456 perfiles medidos de auriculares están en la misma app.",
       "features": [
-        "Niveles de un toque 100%, 125%, 150% y Máx.: cada uno sube el volumen del dispositivo y luego amplifica la mayoría de las apps hasta el 225% (+15 dB) — 183% gratis, 225% con Pro",
+        "Niveles de un toque 100%, 125%, 150% y Máx.: cada uno sube el volumen del dispositivo y luego amplifica la mayoría de las apps hasta el 225% (+15 dB)",
         "Control deslizante del volumen del dispositivo en la misma pantalla principal, y los botones de volumen controlan el volumen del dispositivo: un volumen bajo del teléfono nunca oculta el aumento",
         "Maximizador de sonoridad con compresión multibanda, ganancia de compensación y limitador de picos siempre activo: más alto y sin recorte",
-        "Pestaña Ecualizador con ecualizador de 5 bandas y 9 presets, todos gratis, más potenciador de graves, virtualizador 3D y AutoEQ — 2.456 perfiles medidos de auriculares, con las marcas principales (Apple, Samsung, Sony, Bose, JBL, Beats) gratis",
-        "Panel flotante sobre cualquier app con los mismos niveles en su menú, protección auditiva (Pro), temporizador de apagado con desvanecimiento, balance de canales I/D, mosaico de Ajustes rápidos, widget de pantalla de inicio y controles en la notificación",
+        "Pestaña Ecualizador con ecualizador de 5 bandas y 9 presets, más potenciador de graves, virtualizador 3D y AutoEQ — 2.456 perfiles medidos de auriculares de 357 marcas",
+        "Panel flotante sobre cualquier app con los mismos niveles en su menú, protección auditiva, temporizador de apagado con desvanecimiento, balance de canales I/D, mosaico de Ajustes rápidos, widget de pantalla de inicio y controles en la notificación",
         "Los colores de las zonas Segura, Precaución y Peligro, basados en las recomendaciones auditivas de la OMS, muestran hasta dónde has subido el volumen"
       ],
       "faq": [
         {
           "q": "¿De verdad suena más alto mi móvil?",
           "a": "Sí. Un botón de nivel primero sube el volumen del dispositivo (al máximo en el altavoz, al 60% con auriculares) y luego añade el aumento encima, mediante un maximizador de sonoridad con compresión multibanda y ganancia de compensación. Eleva toda la salida del sistema, así que música, vídeos, YouTube y juegos suenan más alto a la vez. Si aún suena bajo, revisa el volumen del dispositivo en la pantalla principal; la ayuda integrada también puede cambiar al modo de compatibilidad."
-        },
-        {
-          "q": "¿Es realmente gratis o hace falta suscripción?",
-          "a": "Gratis obtienes hasta el 183% (+10 dB), los 9 presets, el ecualizador de 5 bandas, el panel flotante y AutoEQ para marcas principales como Apple, Samsung, Sony, Bose, JBL y Beats, con anuncios. Pro desbloquea el 225% (+15 dB), todos los perfiles de AutoEQ y el panel de protección auditiva, y elimina los anuncios: mensual, anual o compra única de por vida."
         },
         {
           "q": "¿Qué significan 150% y 225%?",
@@ -359,19 +342,19 @@
       "seo": "máscara de datos en fotos y PDF",
       "desc": "Oculta datos personales en fotos y PDF, totalmente en el dispositivo.",
       "tagline": "Oculta datos personales en fotos y PDF con una máscara sólida, por completo en tu dispositivo.",
-      "long": "PhotoCleaner+ oculta la información personal en fotos y PDF por completo en tu dispositivo. Cubre las zonas sensibles con una máscara sólida y opaca (no un desenfoque ni un mosaico, así que las áreas cubiertas no se pueden recuperar) y exporta una copia limpia. Un detector integrado sugiere gratis y sin límite el texto probablemente sensible —números de identificación, tarjetas, teléfonos y correos—, pero eres tú quien dibuja y ajusta las máscaras y decide exactamente qué se oculta. Funciona con fotos, documentos de identidad y PDF de varias páginas, cada copia guardada o compartida se recodifica sin EXIF y nunca se solicita permiso de galería ni de almacenamiento. La detección, la edición y el enmascarado son ilimitados incluso en la versión gratuita, y ninguna exportación lleva marca de agua; gratis puedes exportar 3 veces al día, mientras que Pro quita ese límite y añade exportación a PDF, impresión y cualquier color de máscara. Activa «Elegir dónde guardar» y tú decides la carpeta y el nombre del archivo.",
+      "long": "PhotoCleaner+ oculta la información personal en fotos y PDF por completo en tu dispositivo. Cubre las zonas sensibles con una máscara sólida y opaca (no un desenfoque ni un mosaico, así que las áreas cubiertas no se pueden recuperar) y exporta una copia limpia. Un detector integrado sugiere sin límite el texto probablemente sensible —números de identificación, tarjetas, teléfonos y correos—, pero eres tú quien dibuja y ajusta las máscaras y decide exactamente qué se oculta. Funciona con fotos, documentos de identidad y PDF de varias páginas, cada copia guardada o compartida se recodifica sin EXIF y nunca se solicita permiso de galería ni de almacenamiento. La detección, la edición, el enmascarado y las exportaciones son ilimitados, ninguna exportación lleva marca de agua, y puedes exportar a PDF, imprimir y elegir cualquier color de máscara. Activa «Elegir dónde guardar» y tú decides la carpeta y el nombre del archivo.",
       "features": [
         "Máscara sólida y opaca que no se puede recuperar (no un desenfoque ni un mosaico)",
         "Dibuja máscaras a mano y luego muévelas, redimensiónalas o elimínalas, con zoom para mayor precisión",
-        "La detección integrada sugiere gratis y sin límite texto probablemente sensible (números de identificación, tarjetas, teléfonos, correos); tú lo revisas",
+        "La detección integrada sugiere texto probablemente sensible (números de identificación, tarjetas, teléfonos, correos); tú lo revisas",
         "Enmascara fotos, documentos de identidad y documentos PDF de varias páginas",
         "Cero permisos, aviso de EXIF y GPS, y cada copia guardada o compartida se recodifica sin EXIF",
-        "Sin marca de agua para nadie: 3 exportaciones al día en la versión gratuita, ilimitadas con Pro junto con la exportación a PDF y la impresión"
+        "Sin marca de agua, exportaciones ilimitadas, además de exportación a PDF e impresión"
       ],
       "faq": [
         {
           "q": "¿El enmascarado es un desenfoque o un mosaico?",
-          "a": "No. El enmascarado usa un solo estilo, un relleno sólido y opaco, y las áreas cubiertas no se pueden recuperar. Con Pro puedes elegir cualquier color de máscara."
+          "a": "No. El enmascarado usa un solo estilo, un relleno sólido y opaco, y las áreas cubiertas no se pueden recuperar. Puedes elegir cualquier color de máscara."
         },
         {
           "q": "¿Se suben mis fotos a algún lugar?",
@@ -380,10 +363,6 @@
         {
           "q": "¿Puedo fiarme solo de la detección automática antes de exportar?",
           "a": "La detección es solo un punto de partida que sugiere texto probablemente sensible. Revisa siempre las sugerencias y añade o quita máscaras tú mismo antes de exportar."
-        },
-        {
-          "q": "¿Cuántas veces puedo exportar gratis?",
-          "a": "Tres veces al día. Lo que cuenta es el botón Exportar, hagas lo que hagas después: guardar, compartir, exportar a PDF o imprimir. La detección, la edición y el enmascarado nunca tienen límite. Pro elimina el límite diario."
         }
       ]
     },
@@ -398,9 +377,9 @@
         "Resaltado de línea (regla de lectura): ilumina tu línea actual para mantener los ojos en el sitio",
         "Máscara de lectura: atenúa todo excepto tu zona de lectura para un enfoque de visión de túnel",
         "Franja de enfoque totalmente ajustable: altura (50dp–300dp) y opacidad (10 %–100 %)",
-        "10 temas de color (3 gratis + 7 Pro)",
+        "10 temas de color",
         "Funciona sobre cualquier app: libros electrónicos, PDF, webtoons, noticias, artículos de investigación",
-        "Pro: sin anuncios, 7 temas de color más y pantalla encendida mientras lees"
+        "Pantalla encendida mientras lees"
       ],
       "faq": [
         {
@@ -412,8 +391,8 @@
           "a": "Funciona sobre cualquier app en pantalla: lectores de libros electrónicos y PDF, artículos de investigación, artículos web, blogs, noticias, apuntes de estudio, libros de texto, cómics, webtoons y correos o historiales de chat largos."
         },
         {
-          "q": "¿Es gratis?",
-          "a": "Sí. La versión gratuita incluye los dos modos de enfoque, 3 temas de color y el ajuste de altura y opacidad de la franja, con anuncios. Pro quita los anuncios y añade 7 temas de color más y la pantalla encendida, en modalidad mensual, anual o pago único de por vida."
+          "q": "¿Puedo seguir tocando y desplazando la app de debajo?",
+          "a": "Sí. Los toques atraviesan la barra y llegan a la app de debajo. Desde Android 12, el sistema limita la opacidad de las superposiciones a un 80 % aprox. para que los toques sigan funcionando."
         }
       ]
     },
@@ -427,10 +406,10 @@
       "features": [
         "Notas overlay flotantes: contrae una nota en un chip y ábrela como tarjeta sobre cualquier app",
         "7 colores de nota y texto enriquecido: negrita, cursiva, subrayado, tachado, color y tamaño del texto",
-        "Imágenes en la nota (Pro): adjunta fotos dentro de la propia nota",
+        "Imágenes en la nota: adjunta fotos dentro de la propia nota",
         "Recordatorios de notas: una vez, a diario, entre semana o los días que elijas",
         "Archivo con búsqueda instantánea, notas fijadas y reordenación arrastrando; llevar un chip a la zona inferior guarda la nota en lugar de borrarla",
-        "Pro: notas flotantes ilimitadas, imágenes, sincronización con Google Drive, recordatorios ilimitados, sin anuncios"
+        "Notas flotantes ilimitadas, sincronización con Google Drive y recordatorios ilimitados"
       ],
       "faq": [
         {
@@ -446,16 +425,12 @@
           "a": "Sí. Instala también FloatNote+ for Windows y, en los ajustes de ambas apps, inicia sesión en Google Drive con la misma cuenta y activa la sincronización automática. A partir de ahí, las notas escritas en el teléfono aparecen en el PC, y las escritas en el PC aparecen en el teléfono. Las notas no pasan por ningún servidor de CodeDAC: se guardan solo en tu propio Google Drive. Se sincronizan tanto el texto como las imágenes adjuntas."
         },
         {
-          "q": "¿Es gratis?",
-          "a": "Sí. Guardar notas es ilimitado y gratuito, y la versión gratuita hace flotar una nota a la vez e incluye los 7 colores, opacidad ajustable, exportar e importar y el widget de pantalla de inicio, con anuncios. Pro añade notas flotantes ilimitadas, imágenes, sincronización con Google Drive y recordatorios ilimitados, y quita los anuncios."
-        },
-        {
           "q": "¿Puedo usar FloatNote+ en una radio de coche Android?",
           "a": "Sí, si tu radio de coche tiene Google Play y Android 8.0 o posterior. Las notas flotan encima de la navegación o la música. Las pantallas de configuración están pensadas para pantallas horizontales anchas y bajas. La radio debe permitir «Mostrar sobre otras apps»."
         },
         {
           "q": "¿Puede aparecer una nota a una hora concreta?",
-          "a": "Sí. Elige una hora y tu nota aparece en pantalla con una notificación: una vez, todos los días, entre semana o solo los días que elijas. (Gratis: 1 recordatorio · Pro: ilimitados)"
+          "a": "Sí. Elige una hora y tu nota aparece en pantalla con una notificación: una vez, todos los días, entre semana o solo los días que elijas."
         }
       ]
     },
@@ -465,14 +440,14 @@
       "seo": "Rotación de pantalla",
       "desc": "Fija la orientación de la pantalla en todo el móvil o por app: vertical, horizontal o auto. Sin root.",
       "tagline": "Algunas apps no giran; otras giran en cuanto te tumbas. Fija la orientación para todo el móvil o para cada app con un toque, sin root.",
-      "long": "Rotate+ fija la orientación de la pantalla para todo el móvil o para cada app con un toque, sin root. Elige Auto, Vertical, Horizontal, Vertical invertida, Horizontal invertida o Fijar actual y se aplica al instante, sin diálogos de confirmación. Con las reglas por app, los vídeos y juegos van en horizontal y el chat y la lectura en vertical: la regla se aplica al abrir la app y se quita al salir. Si una app vuelve a girar la pantalla, «Mantener la orientación» restaura tu elección, y si una app insiste deja de intentarlo para que no haya bucles. «Girar una vez» gira solo la app actual hasta que cambias de app o apagas la pantalla, y los ajustes rápidos, widgets y accesos directos lo dejan todo a un toque. En tablets con Android 16 usa automáticamente el ajuste de rotación del sistema. Gratis tienes 3 reglas por app con un pequeño banner; Pro añade reglas ilimitadas, condiciones, un botón flotante de rotación y quita los anuncios.",
+      "long": "Rotate+ fija la orientación de la pantalla para todo el móvil o para cada app con un toque, sin root. Elige Auto, Vertical, Horizontal, Vertical invertida, Horizontal invertida o Fijar actual y se aplica al instante, sin diálogos de confirmación. Con las reglas por app, los vídeos y juegos van en horizontal y el chat y la lectura en vertical: la regla se aplica al abrir la app y se quita al salir. Si una app vuelve a girar la pantalla, «Mantener la orientación» restaura tu elección, y si una app insiste deja de intentarlo para que no haya bucles. «Girar una vez» gira solo la app actual hasta que cambias de app o apagas la pantalla, y los ajustes rápidos, widgets y accesos directos lo dejan todo a un toque. En tablets con Android 16 usa automáticamente el ajuste de rotación del sistema. Crea todas las reglas por app que quieras, deja que las condiciones cambien la orientación solas y ten un botón flotante de rotación sobre otras apps.",
       "features": [
         "Seis modos con un toque: Auto, Vertical, Horizontal, Vertical invertida, Horizontal invertida y Fijar actual — al instante, con los cuatro lados y los modos por sensor en Más modos",
         "Reglas por app: vídeos y juegos en horizontal, chat y lectura en vertical — se aplican al abrir la app y se quitan al salir",
         "Mantener la orientación: si una app vuelve a girar la pantalla, Rotate+ restaura tu elección, y deja de intentarlo si la app insiste para que no haya bucles",
         "Girar una vez: «Solo esta app, solo ahora» — se quita sola al cambiar de app o apagar la pantalla",
         "Dos iconos de ajustes rápidos, widgets de pantalla de inicio, accesos directos y una notificación opcional con Pausa, Modo y Girar una vez",
-        "Gratis: 3 reglas por app con un pequeño banner; Pro: reglas ilimitadas, condiciones, botón flotante y sin anuncios"
+        "Reglas por app ilimitadas, condiciones que cambian la orientación solas (carga, auriculares, Bluetooth, base, llamadas, horarios) y un botón flotante de rotación"
       ],
       "faq": [
         {
@@ -482,10 +457,6 @@
         {
           "q": "¿Por qué pide accesibilidad? ¿Es seguro?",
           "a": "La accesibilidad solo se usa para saber qué app está en pantalla (para las reglas por app) y para mantener la orientación elegida con una ventana invisible de 1 píxel. Rotate+ nunca lee el contenido de la pantalla, textos ni contraseñas. También puedes usar el acceso a datos de uso en su lugar. Sin cuenta, y no se envía nada."
-        },
-        {
-          "q": "¿Qué es gratis y qué añade Pro?",
-          "a": "Todos los modos de rotación, Mantener la orientación, Girar una vez, los iconos de ajustes rápidos, los widgets y los accesos directos son gratis, junto con 3 reglas por app y un pequeño banner. Pro añade reglas ilimitadas, condiciones que cambian la orientación solas (al cargar, con auriculares, un dispositivo Bluetooth, una base de coche o de escritorio, durante una llamada o a ciertas horas), un botón flotante de rotación y quita los anuncios."
         },
         {
           "q": "¿Puedo usar Rotate+ en una radio de coche Android?",
@@ -518,8 +489,8 @@
           "a": "El historial de copias se guarda de forma predeterminada solo en tu PC (en la carpeta %APPDATA%\\ClipboardPlus). Si activas la sincronización, también se guarda en un espacio privado de la app dentro de tu propio Google Drive: un espacio que no aparece en tu Drive y que nada más que Clipboard+ puede abrir. La app usa solo ese espacio privado, así que no puede acceder a tus otras fotos o documentos de Drive."
         },
         {
-          "q": "¿Clipboard+ para Windows es gratis?",
-          "a": "Sí, sin anuncios y sin cuenta. El historial del portapapeles con búsqueda, los fragmentos, fijar, la ventana emergente de pegado rápido, la sincronización con Google Drive, copiar y guardar imágenes, compartir por correo y exportar copias de seguridad son gratis. Una compra opcional de Pro de pago único, no una suscripción, añade restaurar copias de seguridad, grupos ilimitados (la versión gratuita tiene 3), exportar a PDF y más almacenamiento de imágenes. Si usaste Clipboard+ para Windows antes de que volviera Pro, esas funciones siguen siendo gratis para ti. (En el móvil, la sincronización es una función Pro de la app de Android.)"
+          "q": "¿Puedo cambiar los atajos?",
+          "a": "Sí. Cada atajo se puede cambiar o desactivar en Configuración."
         }
       ]
     },
@@ -536,20 +507,20 @@
         "Panel flotante para cambiar de modo, mover o bloquear la franja y ocultarla; se pliega a una sola fila cuando no lo necesitas",
         "Atajos de teclado para iniciar y detener, cambiar de modo, mostrar u ocultar, bloquear y mover la franja arriba o abajo",
         "Varios monitores: la banda de lectura sigue al panel a la pantalla que elijas y el resto del tiempo vive en la bandeja del sistema",
-        "Sin anuncios. Pro es una compra única: temas premium y mantener la pantalla encendida"
+        "Diez temas de color, del amarillo fosforito al azul océano; Mantener pantalla encendida: la pantalla no se apaga mientras la franja está activa"
       ],
       "faq": [
         {
           "q": "¿Es la misma app que ReadFocus+ para Android?",
-          "a": "Es la misma app creada para Windows, con los dos mismos modos de lectura. Se compran por separado en cada tienda y no hay nada que sincronizar: ReadFocus+ nunca guarda lo que lees."
+          "a": "Es la misma app creada para Windows, con los dos mismos modos de lectura. No hay nada que sincronizar: ReadFocus+ nunca guarda lo que lees."
         },
         {
           "q": "¿Con qué aplicaciones funciona?",
           "a": "Con cualquier app que tengas en pantalla: navegadores, lectores de PDF y libros electrónicos, documentos, editores de código, artículos académicos y correos o chats largos. La franja de enfoque se dibuja encima de la pantalla, así que la app de abajo no necesita ser compatible."
         },
         {
-          "q": "¿Es gratis?",
-          "a": "Sí. La versión gratuita incluye los dos modos de lectura, la altura y opacidad de la franja de enfoque y tres de los diez temas. Pro es una compra única, no una suscripción, y añade temas premium y mantener la pantalla encendida. La versión de Windows no tiene anuncios."
+          "q": "¿ReadFocus+ es un tratamiento médico?",
+          "a": "No. Es una ayuda para la lectura, no un dispositivo médico ni un tratamiento para el TDAH o la dislexia."
         }
       ]
     },
@@ -566,7 +537,7 @@
         "Recordatorios de notas: una vez, a diario, entre semana o los días que elijas",
         "Texto enriquecido —negrita, cursiva, subrayado, tachado, color y tamaño— con 7 colores pastel de nota e imágenes dentro de la nota",
         "Sincronización bidireccional teléfono-PC a través de tu propio Google Drive: la misma carpeta privada de la app que usa la versión de Android, sin pasar por ningún servidor de CodeDAC",
-        "Atajos globales, bandeja del sistema, temas claro y oscuro, inicio con la sesión y 21 idiomas. Sin anuncios; un Pro opcional de pago único añade más notas flotantes, transparencia, imágenes y exportación"
+        "Atajos globales, bandeja del sistema, temas claro y oscuro, inicio con la sesión y 21 idiomas. Varias notas flotantes a la vez, transparencia ajustable, y exportación e importación"
       ],
       "faq": [
         {
@@ -576,10 +547,6 @@
         {
           "q": "¿Molesta a la app que hay debajo?",
           "a": "No. Un chip es una ventana flotante que nunca toma el foco, así que al hacer clic o arrastrarlo el cursor se queda justo donde escribías. Haz clic en el chip para abrir la tarjeta; usa la flecha de arriba, pulsa Esc o haz clic fuera y se pliega, ya guardada."
-        },
-        {
-          "q": "¿Es gratis?",
-          "a": "Sí, sin anuncios y sin cuenta. Escribir notas, los colores, los recordatorios y la sincronización con Google Drive son gratis. Una compra opcional de Pro de pago único, no una suscripción, te permite tener más de una nota flotante a la vez y añade transparencia de las notas, imágenes en las notas y exportar e importar. Si usaste FloatNote+ para Windows antes de que volviera Pro, esas funciones siguen siendo gratis para ti. (En el teléfono, la sincronización es una función Pro de la app de Android.)"
         },
         {
           "q": "¿Puede aparecer una nota a una hora concreta?",
@@ -600,20 +567,20 @@
         "Inicia, pausa y reinicia con el botón ▶/⏸/↻ de la propia tarjeta sin abrir la aplicación, y los temporizadores muestran una barra del tiempo restante; los contadores suman y restan al pulsar cada mitad",
         "Nueve colores pastel, tamaño y opacidad de tarjeta ajustables, y ventanas que siguen tu tema claro u oscuro",
         "El archivo de copia de seguridad tiene el mismo formato que en Android: exporta en un lado y restaura en el otro",
-        "Atajos globales, bandeja del sistema, inicio con la sesión y 21 idiomas. Sin cuenta, sin red y sin anuncios; Pro es un pago único"
+        "Alertas a pantalla completa, tu propio sonido de alerta y temporizadores repetidos. Atajos globales, bandeja del sistema, inicio con la sesión y 21 idiomas. Sin cuenta y sin red"
       ],
       "faq": [
         {
           "q": "¿Es la misma aplicación que FloatTimer+ en Android?",
-          "a": "Es la misma aplicación creada para Windows, con las mismas tarjetas flotantes. Cada una se compra en su propia tienda. No se sincronizan automáticamente, pero leen y escriben el mismo archivo de copia de seguridad, así que puedes llevar tu lista de una a otra exportando en un lado y restaurando en el otro."
+          "a": "Es la misma aplicación creada para Windows, con las mismas tarjetas flotantes. No se sincronizan automáticamente, pero leen y escriben el mismo archivo de copia de seguridad, así que puedes llevar tu lista de una a otra exportando en un lado y restaurando en el otro."
         },
         {
           "q": "¿Estorba a la aplicación que está debajo?",
           "a": "No. La tarjeta es una ventana flotante que nunca toma el foco, así que al pulsarla o arrastrarla el cursor se queda justo donde estabas escribiendo. Cuando necesites la pantalla, pliega la tarjeta en una burbuja apenas mayor que un botón, empújala contra el borde de la pantalla para que se esconda a medias u oculta todas a la vez con un atajo."
         },
         {
-          "q": "¿Se puede usar gratis?",
-          "a": "Sí. Puedes crear todos los temporizadores, contadores y cronómetros que quieras — la lista nunca tiene límite — y la versión de Windows no tiene anuncios. La versión gratuita mantiene dos tarjetas flotando a la vez. Pro es un pago único, no una suscripción, y añade alertas a pantalla completa y tu propio sonido de aviso, temporizadores que se repiten, tarjetas flotantes ilimitadas y cualquier color."
+          "q": "¿Necesita cuenta o internet?",
+          "a": "No. Tus temporizadores se guardan en un archivo de tu PC."
         }
       ]
     },
@@ -644,10 +611,6 @@
         {
           "q": "¿Se suben mis archivos o se modifica el original?",
           "a": "Ni lo uno ni lo otro. La detección, el enmascarado y la exportación se hacen en tu PC, sin cuenta y sin subir nada. El enmascarado se aplica sobre una copia, la app no permite guardar encima del original y las copias guardadas se codifican de nuevo, así que no llevan ningún metadato del original."
-        },
-        {
-          "q": "¿Qué es gratis y qué añade Pro?",
-          "a": "Detectar datos personales es gratis e ilimitado, y puedes guardar, copiar o compartir gratis la copia tapada de 3 documentos al día. Pro es un pago único que quita el límite diario y añade la exportación a PDF, la impresión, la lista de términos que siempre se tapan y el color de máscara a elegir. No hay anuncios ni marca de agua."
         }
       ]
     },
@@ -657,14 +620,14 @@
       "seo": "ticker cripto para PC",
       "desc": "Un ticker de precios cripto en vivo que flota sobre todas las ventanas de Windows, con alertas de precio y gráficos.",
       "tagline": "Bitcoin, Ethereum y tus altcoins en una barra fina encima de todas las ventanas: el mercado siempre a la vista mientras trabajas, sin quitarle nunca el foco a nada.",
-      "long": "FloatCrypto+ for Windows es la versión de escritorio de la app FloatCrypto+ para Android. Mantiene un ticker de precios fino encima de todas las ventanas —tu navegador, tus documentos, tu videollamada— con el símbolo y la variación de 24 horas de cada moneda, coloreada según la dirección. Sin cambiar de pestaña ni recargar la página. Arrástralo a donde quieras, ajusta la opacidad y el tamaño del texto, o contráelo en una pequeña burbuja que se acopla al borde de la pantalla; nunca le quita el foco a la aplicación en la que escribes. Pasa el ratón sobre el icono de la bandeja para ver una tabla completa de precios, incluso con el ticker apagado. Fija un objetivo por encima o por debajo del precio actual y recibe una notificación de escritorio en cuanto el mercado lo cruce, de forma única o repetitiva. Elige monedas entre los cientos de pares que se negocian en Binance, ordénalas arrastrando y haz doble clic en cualquiera para abrir un gráfico con máximo, mínimo, apertura y variación del periodo. Los precios proceden de los datos de mercado públicos de Binance, con cambio automático a servidores alternativos y a CoinGecko, pueden llevar hasta 30 segundos de retraso y son solo informativos: FloatCrypto+ no es una aplicación de trading y nada en ella constituye asesoramiento de inversión.",
+      "long": "FloatCrypto+ for Windows es la versión de escritorio de la app FloatCrypto+ para Android. Mantiene un ticker de precios fino encima de todas las ventanas —tu navegador, tus documentos, tu videollamada— con el símbolo y la variación de 24 horas de cada moneda, coloreada según la dirección. Sin cambiar de pestaña ni recargar la página. Arrástralo a donde quieras, ajusta la opacidad y el tamaño del texto, o contráelo en una pequeña burbuja que se acopla al borde de la pantalla; nunca le quita el foco a la aplicación en la que escribes. Pasa el ratón sobre el icono de la bandeja para ver una tabla completa de precios, incluso con el ticker apagado. Fija un objetivo por encima o por debajo del precio actual y recibe una notificación de escritorio en cuanto el mercado lo cruce, de forma única o repetitiva. Elige monedas entre los cientos de pares que se negocian en Binance, ordénalas arrastrando y haz doble clic en cualquiera para abrir un gráfico con máximo, mínimo, apertura y variación del periodo. Los precios proceden de los datos de mercado públicos de Binance, con cambio automático a servidores alternativos y a CoinGecko, pueden llevar hasta 10 segundos de retraso y son solo informativos: FloatCrypto+ no es una aplicación de trading y nada en ella constituye asesoramiento de inversión.",
       "features": [
         "Ticker de precios en vivo encima de todas las ventanas: arrástralo, ajusta la opacidad y el tamaño del texto, o contráelo en una burbuja en el borde de la pantalla",
         "Nunca roba el foco: el ticker sigue a la vista mientras el cursor se queda en la aplicación en la que trabajas",
         "Alertas de precio por encima o por debajo de un objetivo, únicas o repetitivas, creadas desde el menú ⋮ de la moneda ya elegida",
         "Lista de seguimiento con los cientos de pares de Binance, orden por arrastre y gráficos de 1, 7 y 30 días con máximo, mínimo, apertura y variación del periodo",
         "Colores occidentales (verde sube, rojo baja) u orientales (rojo sube, azul baja) y tabla completa de precios en el icono de la bandeja",
-        "Atajos globales, bandeja del sistema, inicio con Windows, temas claro y oscuro, 21 idiomas. Sin anuncios y sin cuenta"
+        "Atajos globales, bandeja del sistema, inicio con Windows, temas claro y oscuro, 21 idiomas. Sin cuenta"
       ],
       "faq": [
         {
@@ -677,11 +640,7 @@
         },
         {
           "q": "¿De dónde salen los precios?",
-          "a": "De los datos de mercado públicos de Binance, con cambio automático a servidores alternativos y a CoinGecko para que el ticker siga funcionando si una fuente no responde. Los precios pueden llevar hasta 30 segundos de retraso y son solo informativos. FloatCrypto+ no opera, no se conecta a ninguna cuenta de exchange ni guarda fondos, y nada en ella constituye asesoramiento de inversión."
-        },
-        {
-          "q": "¿Qué es gratis y qué añade Pro?",
-          "a": "Gratis sigues 3 monedas con 1 alerta de precio, se actualiza cada 30 segundos y muestra el gráfico de 1 día, y el ticker no tiene límite de tiempo. Pro es un pago único que lo amplía a 10 monedas, alertas ilimitadas, actualización cada 10 segundos y los gráficos de 7 y 30 días. La versión de Windows no tiene anuncios."
+          "a": "De los datos de mercado públicos de Binance, con cambio automático a servidores alternativos y a CoinGecko para que el ticker siga funcionando si una fuente no responde. Los precios pueden llevar hasta 10 segundos de retraso y son solo informativos. FloatCrypto+ no opera, no se conecta a ninguna cuenta de exchange ni guarda fondos, y nada en ella constituye asesoramiento de inversión."
         }
       ]
     }

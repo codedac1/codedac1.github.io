@@ -42,7 +42,7 @@
         {
           "h": "Co wybrać?",
           "p": [
-            "Do jednorazowych sytuacji — wklejenia czegoś skopiowanego minutę temu — wystarczy schowek klawiatury. Jeśli tracisz treści, które chciałeś zachować, albo ciągle przepisujesz ten sam tekst, menedżer schowka zaoszczędzi ci ten czas. Clipboard+ możesz zacząć używać za darmo; Pro dodaje synchronizację z aplikacją na Windows przez Twój własny Dysk Google, nieograniczoną liczbę obrazów i eksport do PDF."
+            "Do jednorazowych sytuacji — wklejenia czegoś skopiowanego minutę temu — wystarczy schowek klawiatury. Jeśli tracisz treści, które chciałeś zachować, albo ciągle przepisujesz ten sam tekst, menedżer schowka zaoszczędzi ci ten czas. Clipboard+ synchronizuje się też z aplikacją na Windows przez Twój własny Dysk Google, przechowuje dowolnie wiele obrazów i eksportuje do PDF."
           ]
         }
       ],
@@ -53,7 +53,7 @@
         },
         {
           "q": "Czy mogę zobaczyć historię schowka z telefonu na komputerze?",
-          "a": "Tak, mając Clipboard+ na obu urządzeniach: aplikacja na Androida i Clipboard+ for Windows synchronizują się przez Twój własny Dysk Google (na Androidzie to funkcja Pro)."
+          "a": "Tak, mając Clipboard+ na obu urządzeniach: aplikacja na Androida i Clipboard+ for Windows synchronizują się przez Twój własny Dysk Google."
         },
         {
           "q": "Dałem wszystkie uprawnienia, a nie wszystko, co kopiuję, się zapisuje.",
@@ -102,10 +102,6 @@
         {
           "q": "Dlaczego aplikacje nie otwierają się przed odblokowaniem telefonu?",
           "a": "Android nie pozwala aplikacjom otwierać innych, dopóki telefon nie zostanie raz odblokowany po restarcie. Aplikacje otwierają się zaraz po odblokowaniu."
-        },
-        {
-          "q": "Ile aplikacji mogę uruchamiać automatycznie za darmo?",
-          "a": "Wersja darmowa uruchamia 1 aplikację przy każdym starcie. Pro uruchamia całą listę po kolei."
         }
       ]
     },
@@ -138,7 +134,7 @@
         {
           "h": "Także na komputerze",
           "p": [
-            "FloatNote+ for Windows wyświetla takie same notatki nad każdym oknem, a obie aplikacje synchronizują się przez Twój własny Dysk Google (na Androidzie to funkcja Pro)."
+            "FloatNote+ for Windows wyświetla takie same notatki nad każdym oknem, a obie aplikacje synchronizują się przez Twój własny Dysk Google."
           ]
         }
       ],
@@ -149,11 +145,7 @@
         },
         {
           "q": "Czy notatka może pojawić się o określonej porze?",
-          "a": "Tak. W FloatNote+ ustaw przypomnienie w menu ⋮ notatki, a pojawi się ona na ekranie razem z powiadomieniem. Wersja darmowa pozwala na jedno przypomnienie; Pro nie ma limitu."
-        },
-        {
-          "q": "Czy FloatNote+ jest darmowy?",
-          "a": "Zapisywanie notatek jest darmowe i bez limitu, a wersja darmowa wyświetla jedną pływającą notatkę naraz. Pro dodaje nieograniczoną liczbę pływających notatek, obrazy w notatce, synchronizację z Dyskiem Google i brak reklam."
+          "a": "Tak. W FloatNote+ ustaw przypomnienie w menu ⋮ notatki, a pojawi się ona na ekranie razem z powiadomieniem. Możesz ustawić dowolnie wiele przypomnień."
         }
       ]
     },
@@ -179,7 +171,7 @@
         {
           "h": "Kilka naraz",
           "p": [
-            "Za darmo możesz utworzyć dowolną liczbę minutników, liczników i stoperów, a wszystkie dalej działają. Wersja darmowa pokazuje na ekranie dwa naraz; Pro wyświetla naraz tyle, ile chcesz."
+            "Możesz utworzyć dowolną liczbę minutników, liczników i stoperów, wyświetlać naraz tyle, ile chcesz, a wszystkie dalej działają."
           ]
         }
       ],
@@ -234,10 +226,6 @@
         {
           "q": "Czy PhotoCleaner+ wysyła moje zdjęcia?",
           "a": "Nie. Wykrywanie i maskowanie odbywają się na telefonie, a zdjęcia i dokumenty nigdy nie są wysyłane."
-        },
-        {
-          "q": "Czy to jest darmowe?",
-          "a": "Wykrywanie, edycja i maskowanie są darmowe; eksportować możesz 3 razy dziennie. Pro znosi dzienny limit i dodaje eksport do PDF oraz drukowanie."
         }
       ]
     },
@@ -270,7 +258,7 @@
         {
           "h": "Twoje notatki także na telefonie",
           "p": [
-            "FloatNote+ for Windows synchronizuje się z aplikacją FloatNote+ na Androida przez Twój własny Dysk Google, więc notatka napisana na komputerze jest też na telefonie. Notatki, przypomnienia i synchronizacja są darmowe; opcjonalna jednorazowa wersja Pro dodaje więcej pływających notatek, przezroczystość, obrazy i eksport."
+            "FloatNote+ for Windows synchronizuje się z aplikacją FloatNote+ na Androida przez Twój własny Dysk Google, więc notatka napisana na komputerze jest też na telefonie. Notatki mogą też zawierać obrazy i przypomnienia, a Ty możesz regulować ich przezroczystość i je eksportować."
           ]
         }
       ],
@@ -314,7 +302,7 @@
         {
           "h": "Między telefonem a komputerem",
           "p": [
-            "W parze z aplikacją Clipboard+ na Androida to, co skopiujesz na telefonie, wkleisz na komputerze, i odwrotnie — przez Twój własny Dysk Google. Historia schowka, fragmenty, wyszukiwanie, okno szybkiego wyboru i synchronizacja są darmowe; opcjonalna jednorazowa wersja Pro dodaje przywracanie kopii zapasowych, nieograniczoną liczbę grup, eksport do PDF i więcej miejsca na obrazy."
+            "W parze z aplikacją Clipboard+ na Androida to, co skopiujesz na telefonie, wkleisz na komputerze, i odwrotnie — przez Twój własny Dysk Google. Możesz też przywracać kopie zapasowe, tworzyć tyle grup, ile potrzebujesz, i eksportować do PDF."
           ]
         }
       ],
@@ -355,9 +343,9 @@
           ]
         },
         {
-          "h": "Wersja darmowa i Pro",
+          "h": "Co otrzymujesz",
           "p": [
-            "Możesz utworzyć dowolną liczbę minutników, liczników i stoperów, bez reklam. Wersja darmowa wyświetla dwie pływające karteczki naraz; Pro to jednorazowy zakup, który pozwala wyświetlać ich tyle, ile chcesz, i dodaje powtarzające się minutniki oraz własne alerty."
+            "Możesz utworzyć dowolną liczbę minutników, liczników i stoperów i wyświetlać naraz tyle pływających karteczek, ile chcesz, z powtarzającymi się minutnikami i własnymi alertami."
           ]
         }
       ],
@@ -398,9 +386,9 @@
           ]
         },
         {
-          "h": "Wersja darmowa i Pro",
+          "h": "Co otrzymujesz",
           "p": [
-            "Wersja darmowa zawiera oba tryby skupienia, 3 motywy kolorystyczne oraz regulację wysokości i krycia paska. Pro usuwa reklamy i dodaje wszystkie 10 motywów oraz utrzymywanie ekranu włączonego."
+            "Oba tryby skupienia, wszystkie 10 motywów kolorystycznych, regulacja wysokości i krycia paska oraz utrzymywanie ekranu włączonego, żeby wyświetlacz nie gasł podczas czytania."
           ]
         }
       ],
@@ -441,9 +429,9 @@
           ]
         },
         {
-          "h": "Wersja darmowa i Pro",
+          "h": "Co otrzymujesz",
           "p": [
-            "Wersja darmowa obejmuje oba tryby, ustawienia wysokości i krycia paska oraz trzy motywy. Pro to jednorazowy zakup, który dodaje motywy premium oraz utrzymywanie ekranu włączonego. Nie ma reklam."
+            "Oba tryby, ustawienia wysokości i krycia paska, dziesięć motywów kolorystycznych oraz utrzymywanie ekranu włączonego."
           ]
         }
       ],
@@ -484,9 +472,9 @@
           ]
         },
         {
-          "h": "Wersja darmowa i Pro",
+          "h": "Co otrzymujesz",
           "p": [
-            "Pływający kalkulator, jednostki długości i przeliczanie walut między Twoją walutą, USD i EUR są darmowe, z reklamami. Pro usuwa reklamy oraz dodaje wszystkie kategorie jednostek, wszystkie pary walut i więcej motywów."
+            "Oprócz kalkulatora FloatCalc+ przelicza ponad 30 walut i jednostki ze wszystkich kategorii — długość, masę, temperaturę, powierzchnię, objętość, prędkość i czas — i oferuje 8 motywów kolorystycznych."
           ]
         }
       ],
@@ -523,8 +511,8 @@
         {
           "h": "Warto wiedzieć",
           "p": [
-            "Kursy pochodzą z Binance z automatycznym źródłem zapasowym i mogą być opóźnione do 30 sekund (10 sekund w Pro). Mają charakter wyłącznie orientacyjny, a aplikacja nie handluje i nie łączy się z kontem na giełdzie. Nic tutaj nie stanowi porady inwestycyjnej.",
-            "Wersja darmowa śledzi 2 monety z 1 alertem. Pro daje 10 monet, nielimitowane alerty, dłuższe wykresy, odświeżanie co 10 sekund i brak reklam."
+            "Kursy pochodzą z Binance z automatycznym źródłem zapasowym i mogą być opóźnione do 10 sekund. Mają charakter wyłącznie orientacyjny, a aplikacja nie handluje i nie łączy się z kontem na giełdzie. Nic tutaj nie stanowi porady inwestycyjnej.",
+            "Śledź do 10 monet z nieograniczoną liczbą alertów i dłuższymi wykresami."
           ]
         }
       ],
@@ -535,7 +523,7 @@
         },
         {
           "q": "Czy kursy są w czasie rzeczywistym?",
-          "a": "Mogą być opóźnione do 30 sekund (10 sekund w Pro) i mają charakter wyłącznie orientacyjny."
+          "a": "Mogą być opóźnione do 10 sekund i mają charakter wyłącznie orientacyjny."
         }
       ]
     },
@@ -566,9 +554,9 @@
           ]
         },
         {
-          "h": "Wersja darmowa i Pro a Twój słuch",
+          "h": "Jak głośno może grać a Twój słuch",
           "p": [
-            "Wersja darmowa wzmacnia do 183% (+10 dB); Pro otwiera 225% (+15 dB). Wartość dB jest szacunkowa, a aplikacja nie jest wyrobem medycznym — jeśli poczujesz ból ucha lub dzwonienie w uszach, zmniejsz głośność."
+            "VolumeBooster+ wzmacnia do 225% (+15 dB). Wartość dB jest szacunkowa, a aplikacja nie jest wyrobem medycznym — jeśli poczujesz ból ucha lub dzwonienie w uszach, zmniejsz głośność."
           ]
         }
       ],
@@ -579,7 +567,7 @@
         },
         {
           "q": "O ile głośniej może grać?",
-          "a": "Do 225% (+15 dB) z Pro i do 183% (+10 dB) w wersji darmowej, ponad głośność urządzenia. Rzeczywista głośność zależy od urządzenia, słuchawek i treści."
+          "a": "Do 225% (+15 dB) ponad głośność urządzenia. Rzeczywista głośność zależy od urządzenia, słuchawek i treści."
         }
       ]
     },
@@ -608,9 +596,9 @@
           ]
         },
         {
-          "h": "Wersja darmowa i Pro",
+          "h": "Co otrzymujesz",
           "p": [
-            "Wyszukiwanie danych osobowych jest darmowe i bez limitu, a za darmo możesz eksportować 3 dokumenty dziennie. Pro to jednorazowy zakup, który znosi dzienny limit i dodaje eksport do PDF oraz drukowanie. Nie ma reklam ani znaku wodnego."
+            "Wyszukiwanie danych osobowych i eksport zamaskowanych kopii są nieograniczone, a do tego możesz zapisać plik jako PDF i go wydrukować. Eksportowane pliki nie mają znaku wodnego."
           ]
         }
       ],
@@ -647,8 +635,8 @@
         {
           "h": "Warto wiedzieć",
           "p": [
-            "Najedź na ikonę w zasobniku, aby zobaczyć pełną tabelę kursów, a pasek ukryjesz skrótem Ctrl+Alt+T. Kursy pochodzą z publicznych danych rynkowych Binance z automatycznym źródłem zapasowym i mogą być opóźnione do 30 sekund; aplikacja nie handluje i nie łączy się z kontem na giełdzie, a nic w niej nie stanowi porady inwestycyjnej.",
-            "Wersja darmowa śledzi 2 monety z 1 alertem; Pro to jednorazowy zakup, który daje 10 monet, nielimitowane alerty, odświeżanie co 10 sekund i dłuższe wykresy. Nie ma reklam."
+            "Najedź na ikonę w zasobniku, aby zobaczyć pełną tabelę kursów, a pasek ukryjesz skrótem Ctrl+Alt+T. Kursy pochodzą z publicznych danych rynkowych Binance z automatycznym źródłem zapasowym i mogą być opóźnione do 10 sekund; aplikacja nie handluje i nie łączy się z kontem na giełdzie, a nic w niej nie stanowi porady inwestycyjnej.",
+            "Śledź do 10 monet z nieograniczoną liczbą alertów i dłuższymi wykresami."
           ]
         }
       ],
@@ -694,12 +682,6 @@
           "p": [
             "Żadne okno nie utrzyma się nad grą działającą w trybie wyłącznego pełnego ekranu. Zmień w ustawieniach gry tryb wyświetlania na okno bez ramki lub tryb okienkowy, a pływające okna — okno aplikacji Zegar czy karteczki FloatTimer+ — znów będą widoczne nad nią."
           ]
-        },
-        {
-          "h": "Wersja darmowa i Pro",
-          "p": [
-            "Możesz utworzyć dowolną liczbę stoperów, minutników i liczników, bez reklam. Wersja darmowa wyświetla dwie pływające karteczki naraz; Pro to jednorazowy zakup, który pozwala wyświetlać ich tyle, ile chcesz."
-          ]
         }
       ],
       "faq": [
@@ -713,14 +695,14 @@
         },
         {
           "q": "Czy mogę uruchomić kilka stoperów naraz?",
-          "a": "W FloatTimer+ możesz utworzyć ich tyle, ile chcesz, a każdy odmierza czas osobno. Wersja darmowa pokazuje dwie pływające karteczki naraz; Pro pozwala wyświetlić więcej."
+          "a": "W FloatTimer+ możesz utworzyć ich tyle, ile chcesz, każdy odmierza czas osobno i wszystkie mogą być wyświetlane naraz."
         }
       ]
     },
     "choose-clipboard-manager-android": {
       "app": "clipboard",
       "updated": "2026-10-30",
-      "title": "Jaki darmowy menedżer schowka na Androida wybrać i na co zwrócić uwagę",
+      "title": "Jaki menedżer schowka na Androida wybrać i na co zwrócić uwagę",
       "desc": "Android pamięta tylko ostatnio skopiowaną rzecz. Zanim wybierzesz menedżer schowka, sprawdź, jak zapisuje kopie, co przechowuje, jak je odzyskujesz i dokąd trafiają Twoje dane.",
       "intro": "Menedżer schowka przechowuje to, co kopiujesz, żebyś mógł później wkleić to ponownie. Na Androidzie takie aplikacje różnią się bardziej, niż się wydaje, głównie dlatego, że Android ogranicza aplikacjom odczyt schowka. Oto co sprawdzić, zanim któryś wybierzesz.",
       "sections": [
@@ -765,7 +747,7 @@
           "h": "Gdzie pasuje Clipboard+",
           "p": [
             "Clipboard+ (nasza aplikacja) zapisuje teksty i obrazy w przeszukiwalnej historii, z przypinaniem, fragmentami i grupami, pływającym panelem nad innymi aplikacjami, widżetem na ekran główny i pozycją Clipboard+ w menu zaznaczania tekstu. Opcjonalny automatyczny zapis używa Ułatwień dostępu wyłącznie do wychwycenia momentu kopiowania, pomija wpisy oznaczone jako hasła i nigdzie niczego nie wysyła; bez niego zapisuj dymkiem, widżetem, z menu zaznaczania albo otwierając aplikację.",
-            "Wpisy zostają na Twoim telefonie. Aplikacja może synchronizować się z Clipboard+ for Windows przez Twój własny Dysk Google — nigdy przez serwer CodeDAC — i tworzyć kopię zapasową w pliku. Jest darmowa z reklamami; Pro usuwa reklamy i dodaje synchronizację z komputerem oraz więcej."
+            "Wpisy zostają na Twoim telefonie. Aplikacja może synchronizować się z Clipboard+ for Windows przez Twój własny Dysk Google — nigdy przez serwer CodeDAC — i tworzyć kopię zapasową w pliku."
           ]
         }
       ],
@@ -824,9 +806,9 @@
           ]
         },
         {
-          "h": "Co jest za darmo, a co daje Pro",
+          "h": "Warunki i pływający przycisk",
           "p": [
-            "Wszystkie tryby obrotu, Utrzymanie orientacji, Obróć raz, kafelki, widżety i skróty są za darmo, razem z 3 regułami dla aplikacji i małym banerem. Pro dodaje reguły dla aplikacji bez limitu, warunki automatycznie zmieniające orientację (podczas ładowania, ze słuchawkami, urządzeniem Bluetooth, w stacji samochodowej lub biurkowej, w trakcie rozmowy lub o wybranych porach), pływający przycisk obrotu i usuwa reklamy."
+            "Rotate+ obsługuje też tyle reguł dla aplikacji, ile potrzebujesz, warunki automatycznie zmieniające orientację (podczas ładowania, ze słuchawkami, urządzeniem Bluetooth, w stacji samochodowej lub biurkowej, w trakcie rozmowy lub o wybranych porach) oraz pływający przycisk obrotu nad innymi aplikacjami."
           ]
         }
       ],

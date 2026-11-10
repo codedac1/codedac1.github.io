@@ -42,7 +42,7 @@
         {
           "h": "Hangisini kullanmalısınız?",
           "p": [
-            "Tek seferlik işler için, örneğin bir dakika önce kopyaladığınızı yapıştırmak için klavye panosu yeterlidir. Saklamak istediğiniz kayıtları kaybediyorsanız ya da aynı metni sürekli yeniden yazıyorsanız, bir pano yöneticisi size bu zamanı kazandırır. Clipboard+'ı ücretsiz kullanmaya başlayabilirsiniz; Pro, kendi Google Drive'ınız üzerinden Windows uygulamasıyla senkronizasyon, sınırsız görsel ve PDF dışa aktarma ekler."
+            "Tek seferlik işler için, örneğin bir dakika önce kopyaladığınızı yapıştırmak için klavye panosu yeterlidir. Saklamak istediğiniz kayıtları kaybediyorsanız ya da aynı metni sürekli yeniden yazıyorsanız, bir pano yöneticisi size bu zamanı kazandırır. Clipboard+ ayrıca kendi Google Drive'ınız üzerinden Windows uygulamasıyla senkronize olur, istediğiniz kadar görsel saklar ve PDF olarak dışa aktarır."
           ]
         }
       ],
@@ -53,7 +53,7 @@
         },
         {
           "q": "Telefonumdaki pano geçmişini bilgisayarımda görebilir miyim?",
-          "a": "Evet, iki cihazda da Clipboard+ varsa: Android uygulaması ve Clipboard+ for Windows kendi Google Drive'ınız üzerinden senkronize olur (Android'de Pro özelliği)."
+          "a": "Evet, iki cihazda da Clipboard+ varsa: Android uygulaması ve Clipboard+ for Windows kendi Google Drive'ınız üzerinden senkronize olur."
         },
         {
           "q": "Tüm izinleri verdim ama kopyaladığım her şey kaydedilmiyor.",
@@ -102,10 +102,6 @@
         {
           "q": "Uygulamalarım neden telefonun kilidini açmadan önce açılmıyor?",
           "a": "Android, yeniden başlatmadan sonra telefonun kilidi bir kez açılana kadar uygulamaların başka uygulamaları açmasına izin vermez. Uygulamalarınız kilidi açtığınız anda açılır."
-        },
-        {
-          "q": "Ücretsiz olarak kaç uygulamayı otomatik başlatabilirim?",
-          "a": "Ücretsiz sürüm her açılışta 1 uygulama başlatır. Pro tüm listenizi sırayla başlatır."
         }
       ]
     },
@@ -138,7 +134,7 @@
         {
           "h": "Bilgisayarınızda da",
           "p": [
-            "FloatNote+ for Windows aynı türden notları her pencerenin üstünde yüzdürür ve iki uygulama kendi Google Drive'ınız üzerinden senkronize olur (Android'de Pro özelliği)."
+            "FloatNote+ for Windows aynı türden notları her pencerenin üstünde yüzdürür ve iki uygulama kendi Google Drive'ınız üzerinden senkronize olur."
           ]
         }
       ],
@@ -149,11 +145,7 @@
         },
         {
           "q": "Bir not belirli bir saatte ekrana gelebilir mi?",
-          "a": "Evet. FloatNote+'ta notun ⋮ menüsünden bir hatırlatıcı kurun; not bir bildirimle birlikte ekrana gelir. Ücretsiz sürümde bir hatırlatıcı tutulur; Pro'da sınır yoktur."
-        },
-        {
-          "q": "FloatNote+ ücretsiz mi?",
-          "a": "Not kaydetmek ücretsiz ve sınırsızdır; ücretsiz sürüm aynı anda bir notu yüzdürür. Pro sınırsız yüzen not, not içi görseller, Google Drive senkronizasyonu ve reklamsız kullanım ekler."
+          "a": "Evet. FloatNote+'ta notun ⋮ menüsünden bir hatırlatıcı kurun; not bir bildirimle birlikte ekrana gelir. İstediğiniz kadar hatırlatıcı kurabilirsiniz."
         }
       ]
     },
@@ -179,7 +171,7 @@
         {
           "h": "Aynı anda birden fazla",
           "p": [
-            "İstediğiniz kadar zamanlayıcı, sayaç ve kronometreyi ücretsiz oluşturabilirsiniz ve hepsi çalışmaya devam eder. Ücretsiz sürüm ekranda aynı anda iki tanesini gösterir; Pro istediğiniz kadarını aynı anda yüzdürür."
+            "İstediğiniz kadar zamanlayıcı, sayaç ve kronometre oluşturabilir, istediğiniz kadarını aynı anda yüzdürebilirsiniz; hepsi çalışmaya devam eder."
           ]
         }
       ],
@@ -234,10 +226,6 @@
         {
           "q": "PhotoCleaner+ fotoğraflarımı yükler mi?",
           "a": "Hayır. Algılama ve maskeleme telefonunuzda çalışır; fotoğraflarınız ve belgeleriniz hiçbir zaman yüklenmez."
-        },
-        {
-          "q": "Ücretsiz mi?",
-          "a": "Algılama, düzenleme ve maskeleme ücretsizdir; günde 3 kez dışa aktarabilirsiniz. Pro günlük sınırı kaldırır ve PDF dışa aktarma ile yazdırma ekler."
         }
       ]
     },
@@ -270,7 +258,7 @@
         {
           "h": "Notlarınız telefonunuzda da",
           "p": [
-            "FloatNote+ for Windows, kendi Google Drive'ınız üzerinden FloatNote+ Android uygulamasıyla senkronize olur; böylece bilgisayarda yazdığınız not telefonunuzda da olur. Notlar, hatırlatıcılar ve senkronizasyon ücretsizdir; isteğe bağlı tek seferlik Pro daha fazla yüzen not, saydamlık, görsel ve dışa aktarma ekler."
+            "FloatNote+ for Windows, kendi Google Drive'ınız üzerinden FloatNote+ Android uygulamasıyla senkronize olur; böylece bilgisayarda yazdığınız not telefonunuzda da olur. Notlara görsel ve hatırlatıcı da ekleyebilir, saydamlıklarını ayarlayabilir ve onları dışa aktarabilirsiniz."
           ]
         }
       ],
@@ -314,7 +302,7 @@
         {
           "h": "Telefonunuz ile bilgisayarınız arasında",
           "p": [
-            "Clipboard+ Android uygulamasıyla birlikte kullandığınızda telefonda kopyaladığınızı bilgisayarda, bilgisayarda kopyaladığınızı telefonda yapıştırırsınız; kendi Google Drive'ınız üzerinden. Pano geçmişi, snippet'ler, arama, hızlı seçim penceresi ve senkronizasyon ücretsizdir; isteğe bağlı tek seferlik Pro yedek geri yükleme, sınırsız grup, PDF dışa aktarma ve daha fazla görsel depolama ekler."
+            "Clipboard+ Android uygulamasıyla birlikte kullandığınızda telefonda kopyaladığınızı bilgisayarda, bilgisayarda kopyaladığınızı telefonda yapıştırırsınız; kendi Google Drive'ınız üzerinden. Ayrıca yedekten geri yükleyebilir, istediğiniz kadar grup oluşturabilir ve PDF olarak dışa aktarabilirsiniz."
           ]
         }
       ],
@@ -355,9 +343,9 @@
           ]
         },
         {
-          "h": "Ücretsiz ve Pro",
+          "h": "Neler sunuyor",
           "p": [
-            "İstediğiniz kadar zamanlayıcı, sayaç ve kronometre oluşturabilirsiniz; reklam yoktur. Ücretsiz sürüm aynı anda iki kart yüzdürür; Pro, istediğiniz kadarını yüzdüren ve tekrarlayan zamanlayıcılar ile özel uyarılar ekleyen tek seferlik bir satın almadır."
+            "İstediğiniz kadar zamanlayıcı, sayaç ve kronometre oluşturabilir, istediğiniz kadar kartı aynı anda yüzdürebilirsiniz; tekrarlayan zamanlayıcılar ve özel uyarılar da var."
           ]
         }
       ],
@@ -398,9 +386,9 @@
           ]
         },
         {
-          "h": "Ücretsiz ve Pro",
+          "h": "Neler sunuyor",
           "p": [
-            "Ücretsiz sürüm her iki odak modunu, 3 renk temasını ve şerit yüksekliği ile opaklık ayarını sunar. Pro reklamları kaldırır; 10 temanın tamamını ve ekranı açık tutmayı ekler."
+            "Her iki odak modu, 10 renk temasının tamamı, şerit yüksekliği ile opaklık ayarı ve okurken ekranı uyanık tutan ekranı açık tutma özelliği."
           ]
         }
       ],
@@ -441,9 +429,9 @@
           ]
         },
         {
-          "h": "Ücretsiz ve Pro",
+          "h": "Neler sunuyor",
           "p": [
-            "Ücretsiz sürüm iki modu, şerit yüksekliği ile opaklık ayarlarını ve üç temayı sunar. Pro; premium temalar ve ekranı açık tutmayı ekleyen tek seferlik bir satın almadır. Reklam yoktur."
+            "İki mod, şerit yüksekliği ile opaklık ayarları, on renk teması ve ekranı açık tutma."
           ]
         }
       ],
@@ -484,9 +472,9 @@
           ]
         },
         {
-          "h": "Ücretsiz ve Pro",
+          "h": "Neler sunuyor",
           "p": [
-            "Yüzen hesap makinesi, uzunluk birimleri ve kendi para biriminiz, USD ve EUR arasında döviz çevirme reklamlı olarak ücretsizdir. Pro reklamları kaldırır; tüm birim kategorilerini, tüm döviz çiftlerini ve daha fazla temayı ekler."
+            "FloatCalc+ hesap makinesinin yanı sıra 30'dan fazla para birimi arasında ve tüm birim kategorilerinde (uzunluk, ağırlık, sıcaklık, alan, hacim, hız ve zaman) çeviri yapar; 8 renk temasıyla gelir."
           ]
         }
       ],
@@ -523,8 +511,8 @@
         {
           "h": "Bilmeniz gerekenler",
           "p": [
-            "Fiyatlar, otomatik bir yedek kaynakla birlikte Binance'ten gelir ve en fazla 30 saniye (Pro'da 10 saniye) gecikebilir. Yalnızca bilgi amaçlıdır; uygulama alım satım yapmaz ve bir borsa hesabına bağlanmaz. Buradaki hiçbir şey yatırım tavsiyesi değildir.",
-            "Ücretsiz sürümde 2 coin ve 1 alarm takip edilir. Pro ise 10 coin, sınırsız alarm, daha uzun grafikler ve 10 saniyelik yenileme sunar, reklam içermez."
+            "Fiyatlar, otomatik bir yedek kaynakla birlikte Binance'ten gelir ve en fazla 10 saniye gecikebilir. Yalnızca bilgi amaçlıdır; uygulama alım satım yapmaz ve bir borsa hesabına bağlanmaz. Buradaki hiçbir şey yatırım tavsiyesi değildir.",
+            "10 coine kadar takip edin; sınırsız alarm ve daha uzun grafikler de var."
           ]
         }
       ],
@@ -535,7 +523,7 @@
         },
         {
           "q": "Fiyatlar gerçek zamanlı mı?",
-          "a": "En fazla 30 saniye (Pro'da 10 saniye) gecikebilir ve yalnızca bilgi amaçlıdır."
+          "a": "En fazla 10 saniye gecikebilir ve yalnızca bilgi amaçlıdır."
         }
       ]
     },
@@ -566,9 +554,9 @@
           ]
         },
         {
-          "h": "Ücretsiz ve Pro, bir de işitmeniz",
+          "h": "Ne kadar yükseliyor, bir de işitmeniz",
           "p": [
-            "Ücretsiz sürüm 183%'e (+10 dB) kadar yükseltir; Pro 225%'i (+15 dB) açar. dB değeri bir tahmindir ve uygulama tıbbi bir cihaz değildir; kulağınızda ağrı veya çınlama fark ederseniz sesi kısın."
+            "VolumeBooster+ sesi 225%'e (+15 dB) kadar yükseltir. dB değeri bir tahmindir ve uygulama tıbbi bir cihaz değildir; kulağınızda ağrı veya çınlama fark ederseniz sesi kısın."
           ]
         }
       ],
@@ -579,7 +567,7 @@
         },
         {
           "q": "Ses ne kadar yükselebilir?",
-          "a": "Cihaz ses düzeyinin üzerine, Pro ile 225%'e (+15 dB), ücretsiz sürümde 183%'e (+10 dB) kadar. Gerçek ses yüksekliği cihaza, kulaklığa ve içeriğe göre değişir."
+          "a": "Cihaz ses düzeyinin üzerine 225%'e (+15 dB) kadar. Gerçek ses yüksekliği cihaza, kulaklığa ve içeriğe göre değişir."
         }
       ]
     },
@@ -608,9 +596,9 @@
           ]
         },
         {
-          "h": "Ücretsiz ve Pro",
+          "h": "Neler sunuyor",
           "p": [
-            "Kişisel bilgileri bulmak ücretsiz ve sınırsızdır; günde 3 belgeyi ücretsiz dışa aktarabilirsiniz. Pro, günlük sınırı kaldıran ve PDF dışa aktarma ile yazdırma ekleyen tek seferlik bir satın almadır. Reklam ve filigran yoktur."
+            "Kişisel bilgileri bulmak ve maskelenmiş kopyaları dışa aktarmak sınırsızdır; ayrıca PDF olarak kaydedebilir ve yazdırabilirsiniz. Dışa aktarılan dosyalarda filigran yoktur."
           ]
         }
       ],
@@ -647,8 +635,8 @@
         {
           "h": "Bilmeniz gerekenler",
           "p": [
-            "Tam fiyat tablosu için tepsi simgesinin üzerine gelin; şeridi Ctrl+Alt+T ile gizleyin. Fiyatlar, otomatik yedek kaynakla Binance'in herkese açık piyasa verilerinden gelir ve 30 saniyeye kadar gecikebilir; uygulama alım satım yapmaz, bir borsa hesabına bağlanmaz ve içindeki hiçbir şey yatırım tavsiyesi değildir.",
-            "Ücretsiz sürümde 2 coin ve 1 uyarı takip edilir; Pro, 10 coin, sınırsız uyarı, 10 saniyelik yenileme ve daha uzun grafikler sunan tek seferlik bir satın almadır. Reklam yoktur."
+            "Tam fiyat tablosu için tepsi simgesinin üzerine gelin; şeridi Ctrl+Alt+T ile gizleyin. Fiyatlar, otomatik yedek kaynakla Binance'in herkese açık piyasa verilerinden gelir ve 10 saniyeye kadar gecikebilir; uygulama alım satım yapmaz, bir borsa hesabına bağlanmaz ve içindeki hiçbir şey yatırım tavsiyesi değildir.",
+            "10 coine kadar takip edin; sınırsız uyarı ve daha uzun grafikler de var."
           ]
         }
       ],
@@ -694,12 +682,6 @@
           "p": [
             "Özel tam ekran modunda çalışan bir oyunun üstünde hiçbir pencere kalamaz. Oyunun ayarlarından görüntü modunu kenarlıksız ya da pencereli olarak değiştirin; Saat uygulamasının penceresi de FloatTimer+ kartları da yeniden oyunun üstünde görünür."
           ]
-        },
-        {
-          "h": "Ücretsiz ve Pro",
-          "p": [
-            "İstediğiniz kadar kronometre, zamanlayıcı ve sayaç oluşturabilirsiniz; reklam yoktur. Ücretsiz sürüm aynı anda iki kart yüzdürür; Pro, istediğiniz kadarını yüzdüren tek seferlik bir satın almadır."
-          ]
         }
       ],
       "faq": [
@@ -713,14 +695,14 @@
         },
         {
           "q": "Aynı anda birden fazla kronometre çalıştırabilir miyim?",
-          "a": "FloatTimer+ ile istediğiniz kadar oluşturabilirsiniz; her biri süreyi ayrı tutar. Ücretsiz sürüm aynı anda iki yüzen kart gösterir; Pro daha fazlasını yüzdürür."
+          "a": "FloatTimer+ ile istediğiniz kadar oluşturabilir ve hepsini aynı anda yüzdürebilirsiniz; her biri süreyi ayrı tutar."
         }
       ]
     },
     "choose-clipboard-manager-android": {
       "app": "clipboard",
       "updated": "2026-10-30",
-      "title": "Android için ücretsiz pano yöneticisi seçerken nelere bakılmalı",
+      "title": "Android için pano yöneticisi seçerken nelere bakılmalı",
       "desc": "Android yalnızca son kopyaladığınızı saklar. Bir pano yöneticisi seçmeden önce kopyalarınızı nasıl kaydettiğine, neleri sakladığına, onları nasıl geri aldığınıza ve verilerinizin nereye gittiğine bakın.",
       "intro": "Pano yöneticisi kopyaladığınız şeyleri saklar, böylece onları daha sonra yeniden yapıştırabilirsiniz. Android'de bu uygulamalar göründüğünden daha fazla farklılık gösterir; bunun başlıca nedeni Android'in uygulamaların panoyu okumasını sınırlamasıdır. Seçmeden önce bakmanız gerekenler şunlar.",
       "sections": [
@@ -765,7 +747,7 @@
           "h": "Clipboard+ nereye oturuyor",
           "p": [
             "Clipboard+ (bizim uygulamamız) metin ve görselleri aranabilir bir geçmişte saklar; sabitleme, snippet'ler ve gruplar, diğer uygulamaların üstünde yüzen bir panel, ana ekran widget'ı ve metin seçim menüsünde bir Clipboard+ seçeneği sunar. İsteğe bağlı otomatik kaydetme özelliği Erişilebilirlik'i yalnızca kopyaladığınız anı fark etmek için kullanır, parola olarak işaretlenmiş kayıtları atlar ve hiçbir yere bir şey göndermez; açık değilse balonla, widget'la, seçim menüsüyle ya da uygulamayı açarak kaydedin.",
-            "Kayıtlar telefonunuzda kalır. Kendi Google Drive'ınız üzerinden Clipboard+ for Windows ile senkronize olabilir (asla bir CodeDAC sunucusu üzerinden değil) ve bir dosyaya yedek alabilir. Reklamlı olarak ücretsizdir; Pro reklamları kaldırır, PC senkronizasyonu ve daha fazlasını ekler."
+            "Kayıtlar telefonunuzda kalır. Kendi Google Drive'ınız üzerinden Clipboard+ for Windows ile senkronize olabilir (asla bir CodeDAC sunucusu üzerinden değil) ve bir dosyaya yedek alabilir."
           ]
         }
       ],
@@ -824,9 +806,9 @@
           ]
         },
         {
-          "h": "Ücretsiz olanlar ve Pro'nun ekledikleri",
+          "h": "Koşullar ve yüzen düğme",
           "p": [
-            "Tüm döndürme modları, Yönü koru, Bir kez döndür, kutucuklar, widget'lar ve kısayollar ücretsizdir; buna 3 uygulama kuralı ve küçük bir banner reklam eşlik eder. Pro sınırsız uygulama kuralı, yönü otomatik değiştiren koşullar (şarjdayken, kulaklıkla, bir Bluetooth cihazıyla, araç veya masa yuvasında, arama sırasında ya da belirlediğiniz saatlerde) ve yüzen döndürme düğmesi ekler, reklamları kaldırır."
+            "Rotate+ ayrıca ihtiyacınız kadar uygulama kuralı, yönü otomatik değiştiren koşullar (şarjdayken, kulaklıkla, bir Bluetooth cihazıyla, araç veya masa yuvasında, arama sırasında ya da belirlediğiniz saatlerde) ve diğer uygulamaların üstünde yüzen bir döndürme düğmesi sunar."
           ]
         }
       ],

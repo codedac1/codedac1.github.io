@@ -156,10 +156,6 @@
         {
           "q": "Nagsi-sync ba ito sa Windows PC ko?",
           "a": "Oo. I-install din ang Clipboard+ for Windows, tapos sa settings ng dalawang app ay mag-sign in sa Google Drive gamit ang iisang account at i-on ang automatic sync. Pagkatapos noon, ang kinopya mo sa telepono ay maipa-paste mo sa PC, at ang kinopya mo sa PC ay maipa-paste mo sa telepono. Hindi dumadaan sa anumang server ng CodeDAC ang kinokopya mo — nakaimbak lamang ito sa sarili mong Google Drive."
-        },
-        {
-          "q": "Ano ang libre, at ano ang dagdag ng Pro?",
-          "a": "Libre ang history ng text at larawan na may search, snippets, hanggang 3 grupo, ang floating panel, ang widget at ang pag-save mula sa text selection menu, at may ads. Tinatanggal ng Pro ang ads at nagdadagdag ng phone-to-PC sync sa sarili mong Google Drive, walang limitasyong image clips, mas malaking floating panel at widget, walang limitasyong grupo, PDF export at pag-restore ng backup — buwanan, taunan o isang beses na lifetime na bili."
         }
       ],
       "howto": {
@@ -192,15 +188,14 @@
       "seo": "Auto Start Manager para sa Android",
       "desc": "Awtomatikong i-launch ang mga app mo sa boot. Walang root, isang setup lang.",
       "tagline": "Awtomatikong i-start ang mga app mo tuwing magre-restart ang telepono, sa sandaling i-unlock mo ito. Walang root, isang setup lang, tumatakbo habambuhay.",
-      "long": "Ang AutoStart+ ang pinakasimpleng auto start manager para sa Android: piliin ang mga app na gusto mo, at pagkatapos ng bawat restart, sa sandaling i-unlock mo ang device, kusa na silang bubukas — walang root, walang script, walang araw-araw na pag-tap. Hanapin ang lahat ng naka-install na app, idagdag sa listahan sa ilang segundo, i-on o i-off sa isang tap, at i-drag ang mga row para itakda ang pagkakasunod ng paglunsad. Hindi mo rin kailangang mag-restart para subukan: ang ⋮ menu sa bawat row ay agad na nagbubukas ng app na iyon, at pagkatapos mag-boot ay may maikling mensaheng nagsasabi kung ano ang nabuksan — isang tap na lang ang natitira. Sa libreng bersyon, 1 app ang bumubukas; inaalis ng PRO ang limitasyon kaya buong listahan ang tatakbo nang sunod-sunod. Karamihan sa mga Android car head unit ay natutulog sa halip na mag-restart kapag pinatay mo ang sasakyan. I-on ang Car mode at muling bubukas ang iyong mga app tuwing bumubukas ang screen matapos itong nakapatay nang 3 minuto o higit pa. Libre.",
+      "long": "Ang AutoStart+ ang pinakasimpleng auto start manager para sa Android: piliin ang mga app na gusto mo, at pagkatapos ng bawat restart, sa sandaling i-unlock mo ang device, kusa na silang bubukas — walang root, walang script, walang araw-araw na pag-tap. Hanapin ang lahat ng naka-install na app, idagdag sa listahan sa ilang segundo, i-on o i-off sa isang tap, at i-drag ang mga row para itakda ang pagkakasunod ng paglunsad. Hindi mo rin kailangang mag-restart para subukan: ang ⋮ menu sa bawat row ay agad na nagbubukas ng app na iyon, at pagkatapos mag-boot ay may maikling mensaheng nagsasabi kung ano ang nabuksan — isang tap na lang ang natitira. Karamihan sa mga Android car head unit ay natutulog sa halip na mag-restart kapag pinatay mo ang sasakyan. I-on ang Car mode at muling bubukas ang iyong mga app tuwing bumubukas ang screen matapos itong nakapatay nang 3 minuto o higit pa.",
       "features": [
         "Binubuksan ang piniling apps pagkatapos ng bawat restart, sa sandaling i-unlock mo ang device — walang root, walang custom ROM",
-        "Car Mode para sa head unit: muling bubukas ang iyong mga app tuwing magigising ang screen — libre",
+        "Car Mode para sa head unit: muling bubukas ang iyong mga app tuwing magigising ang screen",
         "I-drag ang mga row para piliin kung aling app ang unang bubukas sa bawat boot",
-        "Launch delay (PRO): maghintay ng ilang segundo bago ang unang app at lagyan ng pagitan ang iba, para matapos munang mag-start ang car head unit at mabagal na device",
+        "Launch delay: maghintay ng ilang segundo bago ang unang app at lagyan ng pagitan ang iba, para matapos munang mag-start ang car head unit at mabagal na device",
         "«Patakbuhin ngayon» sa ⋮ menu ng kahit anong row — subukan ang listahan nang hindi nagre-restart",
-        "Pagkatapos mag-restart, isang banner ang naglulunsad ng buong listahan sa isang tap kapag na-unlock mo na (PRO)",
-        "Libre: 1 app; inaalis ng PRO ang limitasyon at binubuksan ang buong listahan mo nang sunod-sunod"
+        "Pagkatapos mag-restart, isang banner ang naglulunsad ng buong listahan sa isang tap kapag na-unlock mo na"
       ],
       "faq": [
         {
@@ -209,11 +204,7 @@
         },
         {
           "q": "Gumagana ba ang AutoStart+ sa mga Android car head unit?",
-          "a": "Karamihan sa mga Android car head unit ay natutulog sa halip na mag-restart kapag pinatay mo ang sasakyan. I-on ang Car mode at muling bubukas ang iyong mga app tuwing bumubukas ang screen matapos itong nakapatay nang 3 minuto o higit pa. Libre."
-        },
-        {
-          "q": "Ilang app ang maaari kong i-auto start?",
-          "a": "Sa libreng bersyon, 1 app ang bumubukas kada boot. Inaalis ng PRO ang limitasyon kaya buong listahan ang bubukas sa pagkakasunod na itinakda mo."
+          "a": "Karamihan sa mga Android car head unit ay natutulog sa halip na mag-restart kapag pinatay mo ang sasakyan. I-on ang Car mode at muling bubukas ang iyong mga app tuwing bumubukas ang screen matapos itong nakapatay nang 3 minuto o higit pa."
         },
         {
           "q": "Uubusin ba nito ang baterya ko?",
@@ -247,11 +238,11 @@
         },
         {
           "q": "Saan galing ang exchange rates?",
-          "a": "Mula sa European Central Bank, ina-update isang beses sa isang araw. Ipinapakita ng linya sa ilalim ng mga halaga ang rate at ang petsa nito, at puwede mong i-update ang rates anumang oras sa Settings. Libre ang sarili mong currency, USD at EUR; idinaragdag ng Pro ang lahat ng pares sa 30+ currency. Dahil naka-cache araw-araw, gumagana ito kahit offline."
+          "a": "Mula sa European Central Bank, ina-update isang beses sa isang araw. Ipinapakita ng linya sa ilalim ng mga halaga ang rate at ang petsa nito, at puwede mong i-update ang rates anumang oras sa Settings. Puwede kang mag-convert sa pagitan ng anumang pares sa 30+ currency. Dahil naka-cache araw-araw, gumagana ito kahit offline."
         },
         {
-          "q": "Ano ang libre, at ano ang idinaragdag ng Pro?",
-          "a": "Libre ang floating calculator, ang mga unit ng haba, ang pag-convert ng currency sa pagitan ng sarili mong currency, USD at EUR, ang huling 5 kalkulasyon mo, 3 antas ng opacity at ang default na theme, na may mga ad. Inaalis ng Pro ang mga ad at idinaragdag ang lahat ng kategorya ng unit at pares ng currency, hanggang 100 history entry, 7 pang theme, at pinong kontrol sa opacity, laki at lapad — buwanan, taunan o isahang bayad habambuhay."
+          "q": "Gumagana ba offline?",
+          "a": "Laging gumagana offline ang calculator at unit converter. Ginagamit ng currency conversion ang huling na-download na rates."
         }
       ]
     },
@@ -261,14 +252,14 @@
       "seo": "Live Bitcoin Price Overlay",
       "desc": "Live na crypto ticker na lumulutang sa kahit anong app, may alerto at chart.",
       "tagline": "Bitcoin, Ethereum at mga altcoin mo sa screen — sa ibabaw ng app na ginagamit mo.",
-      "long": "Pinananatili ng FloatCrypto+ ang live na ticker sa ibabaw ng lahat ng app, kaya matitingnan mo ang merkado habang nanonood ng YouTube, nagbabasa ng balita o sumasagot ng mensahe — walang paglipat ng app at walang pag-reload. I-drag kung saan mo gusto, baguhin ang laki, at hinaan ang opacity para hindi ito nakakaharang. Magtakda ng mataas o mababang target at maaabisuhan ka sa mismong sandaling malampasan ito ng merkado, bumuo ng watchlist ng mga coin na talagang mahalaga sa iyo, at buksan ang chart na 1 araw, 7 araw at 30 araw kasama ang pinakamataas, pinakamababa, pambungad at pagbabago sa panahong iyon. Galing sa Binance ang presyo, at awtomatikong lilipat ng pinagkukunan kapag hindi maabot ang isa, kaya patuloy pa rin ang ticker. Naaantala ang datos nang hanggang 30 segundo (10 segundo sa Pro) at para sa sanggunian lamang — hindi ito payo sa pamumuhunan.",
+      "long": "Pinananatili ng FloatCrypto+ ang live na ticker sa ibabaw ng lahat ng app, kaya matitingnan mo ang merkado habang nanonood ng YouTube, nagbabasa ng balita o sumasagot ng mensahe — walang paglipat ng app at walang pag-reload. I-drag kung saan mo gusto, baguhin ang laki, at hinaan ang opacity para hindi ito nakakaharang. Magtakda ng mataas o mababang target at maaabisuhan ka sa mismong sandaling malampasan ito ng merkado, bumuo ng watchlist ng mga coin na talagang mahalaga sa iyo, at buksan ang chart na 1 araw, 7 araw at 30 araw kasama ang pinakamataas, pinakamababa, pambungad at pagbabago sa panahong iyon. Galing sa Binance ang presyo, at awtomatikong lilipat ng pinagkukunan kapag hindi maabot ang isa, kaya patuloy pa rin ang ticker. Naaantala ang datos nang hanggang 10 segundo at para sa sanggunian lamang — hindi ito payo sa pamumuhunan.",
       "features": [
         "Lumulutang na ticker sa ibabaw ng lahat ng app — i-drag, baguhin ang laki, hinaan ang opacity",
         "Alerto sa presyo na may mataas o mababang target, gawa mula mismo sa card ng napiling coin",
         "Watchlist na may live na presyo, pagbabago sa 24 oras, at pag-aayos sa pamamagitan ng pag-drag",
         "Chart na 1 araw / 7 araw / 30 araw kasama ang pinakamataas, pinakamababa, pambungad at pagbabago",
         "Kulay ng Kanluran at Silangan — berde pataas/pula pababa, o pula pataas/asul pababa",
-        "Presyo mula sa Binance na awtomatikong lumilipat ng pinagkukunan, naaantala nang hanggang 30 segundo (10 sa Pro)"
+        "Presyo mula sa Binance na awtomatikong lumilipat ng pinagkukunan, naaantala nang hanggang 10 segundo"
       ],
       "faq": [
         {
@@ -280,8 +271,8 @@
           "a": "Magtakda ka ng mataas o mababang target at aabisuhan ka ng FloatCrypto+ sa mismong sandaling malampasan ito ng merkado. Puwedeng gumawa ng alerto mula mismo sa card ng coin — pindutin ang ⋮ at nakapili na ang coin — at may kampanang marka ang bawat coin na binabantayan mo."
         },
         {
-          "q": "Ano ang makukuha ko nang libre?",
-          "a": "Sa libreng bersyon, 3 coin at 1 alerto sa presyo ang masusubaybayan mo, kasama ang 1 araw na chart, at may ads. Ang Pro ay hanggang 10 coin, walang limitasyong alerto, 7 at 30 araw na chart, refresh tuwing 10 segundo sa halip na 30 segundo at walang ad — buwanan, taunan o isahang bayad na panghabambuhay."
+          "q": "Kailangan ba ng account o wallet?",
+          "a": "Hindi. Walang sign-up, walang email at walang pagkonekta ng wallet."
         }
       ]
     },
@@ -307,11 +298,7 @@
         },
         {
           "q": "Puwede ba itong gamiting Pomodoro o workout timer?",
-          "a": "Oo. May mabilisang pagpipilian tulad ng 25 minuto, puwede kang magtakda ng kahit anong tagal, at magpatakbo ng ilang timer nang sabay para sa ehersisyo at pahinga. Sa Pro, uulitin ang timer nang 2, 3, 5 beses, o walang hanggan."
-        },
-        {
-          "q": "Ano ang kasama sa libreng bersyon?",
-          "a": "Walang limitasyon sa dami ng timer, counter, at stopwatch, na may alerto sa tunog at vibration, kasama ang home screen widget. Dalawang floating timer ang ipinapakita ng libreng bersyon sa isang pagkakataon. Idinadagdag ng Pro ang full-screen alert kahit naka-off ang screen, sariling tunog ng alarm at vibration, awtomatikong pag-ulit, kahit ilang floating timer nang sabay, at walang ads."
+          "a": "Oo. May mabilisang pagpipilian tulad ng 25 minuto, puwede kang magtakda ng kahit anong tagal, at magpatakbo ng ilang timer nang sabay para sa ehersisyo at pahinga. Puwede ring ulitin ang timer nang 2, 3, 5 beses, o walang hanggan."
         },
         {
           "q": "Magagamit ko ba ang FloatTimer+ sa isang Android car head unit?",
@@ -325,23 +312,19 @@
       "seo": "Volume Booster & Equalizer",
       "desc": "Volume booster at equalizer — isang tap papuntang 150%, hanggang 225%, at kasabay na tumataas ang volume ng device.",
       "tagline": "Mas malakas sa isang tap — itinataas ng mga level button ang volume ng device at bino-boost ang karamihan ng app, hanggang 225%.",
-      "long": "Masyadong mahina ang telepono mo? Itinataas ng VolumeBooster+ ang output ng buong sistema, hindi ng isang app lang, kaya malinaw nang naririnig ang mahihinang speaker, earphone na kulang sa lakas, videong mahirap marinig, musika at laro. Mag-tap ng level — 100%, 125%, 150% o Max — at itataas muna nito ang volume ng device mo, saka idadagdag ang boost sa ibabaw nito, hanggang 225% (+15 dB). Ipinapakita ng main screen ang volume ng device katabi ng boost, at kontrolado pa rin ng mga volume button ang telepono mo. Ipinapakita ng mga kulay na Ligtas, Mag-ingat at Delikado, batay sa gabay ng WHO sa pandinig, kung gaano mo na ito kalakas itinaas. Libre ang hanggang 183% (+10 dB); binubuksan ng Pro ang 225%. Nasa iisang app ang Loudness Maximizer, ang 5-band equalizer na may siyam na libreng preset, ang bass booster, ang 3D virtualizer at ang AutoEQ na may 2,456 nasukat na headphone profile.",
+      "long": "Masyadong mahina ang telepono mo? Itinataas ng VolumeBooster+ ang output ng buong sistema, hindi ng isang app lang, kaya malinaw nang naririnig ang mahihinang speaker, earphone na kulang sa lakas, videong mahirap marinig, musika at laro. Mag-tap ng level — 100%, 125%, 150% o Max — at itataas muna nito ang volume ng device mo, saka idadagdag ang boost sa ibabaw nito, hanggang 225% (+15 dB). Ipinapakita ng main screen ang volume ng device katabi ng boost, at kontrolado pa rin ng mga volume button ang telepono mo. Ipinapakita ng mga kulay na Ligtas, Mag-ingat at Delikado, batay sa gabay ng WHO sa pandinig, kung gaano mo na ito kalakas itinaas. Nasa iisang app ang Loudness Maximizer, ang 5-band equalizer na may siyam na preset, ang bass booster, ang 3D virtualizer at ang AutoEQ na may 2,456 nasukat na headphone profile.",
       "features": [
-        "Mga level na isang tap lang — 100%, 125%, 150% at Max: itinataas ng bawat isa ang volume ng device, saka bino-boost ang karamihan ng app hanggang 225% (+15 dB) — libre ang 183%, 225% sa Pro",
+        "Mga level na isang tap lang — 100%, 125%, 150% at Max: itinataas ng bawat isa ang volume ng device, saka bino-boost ang karamihan ng app hanggang 225% (+15 dB)",
         "Slider ng volume ng device mismo sa main screen, at kinokontrol ng mga volume button ang volume ng device — hindi na maitatago ng mahinang volume ng telepono ang boost",
         "Loudness Maximizer na may multiband compression, makeup gain at laging bukas na peak limiter: mas malakas, walang distortion",
-        "Equalizer tab na may 5-band equalizer at 9 preset, lahat libre, kasama ang Bass Booster, 3D Virtualizer at AutoEQ — 2,456 nasukat na headphone profile, libre ang mga pangunahing brand (Apple, Samsung, Sony, Bose, JBL, Beats)",
-        "Floating panel sa ibabaw ng kahit anong app na may parehong mga level sa menu nito, istatistika ng proteksiyon sa pandinig (Pro), sleep timer na dahan-dahang humihina, channel balance na Kaliwa/Kanan, Quick Settings tile, home-screen widget at mga kontrol sa notification",
+        "Equalizer tab na may 5-band equalizer at 9 preset, kasama ang Bass Booster, 3D Virtualizer at AutoEQ — 2,456 nasukat na headphone profile mula sa 357 brand",
+        "Floating panel sa ibabaw ng kahit anong app na may parehong mga level sa menu nito, istatistika ng proteksiyon sa pandinig, sleep timer na dahan-dahang humihina, channel balance na Kaliwa/Kanan, Quick Settings tile, home-screen widget at mga kontrol sa notification",
         "Ipinapakita ng mga kulay na Ligtas, Mag-ingat at Delikado, batay sa gabay ng WHO sa pandinig, kung gaano mo na kalakas itinaas ang volume"
       ],
       "faq": [
         {
           "q": "Talaga bang mas lumalakas ang telepono?",
           "a": "Oo. Itinataas muna ng level button ang volume ng device — sa pinakamalakas sa speaker, sa 60% kapag naka-headphone — saka idinadagdag ang boost sa ibabaw nito sa pamamagitan ng Loudness Maximizer na may multiband compression at makeup gain. Itinataas nito ang buong output ng sistema, kaya sabay-sabay na lumalakas ang musika, video, YouTube at laro. Kung mahina pa rin, tingnan ang volume ng device sa main screen; kaya ring ilipat ng built-in na tulong sa compatibility mode."
-        },
-        {
-          "q": "Libre ba talaga ito o kailangan ng subscription?",
-          "a": "Sa libreng bersyon, hanggang 183% (+10 dB), lahat ng 9 preset, ang 5-band equalizer, ang floating panel at ang AutoEQ para sa mga pangunahing brand tulad ng Apple, Samsung, Sony, Bose, JBL at Beats, na may mga ad. Binubuksan ng Pro ang 225% (+15 dB), lahat ng AutoEQ profile at ang hearing protection dashboard, at inaalis ang mga ad: buwanan, taunan o isahang lifetime na bili."
         },
         {
           "q": "Ano ang ibig sabihin ng 150% at 225%?",
@@ -359,19 +342,19 @@
       "seo": "Photo & PDF Privacy Mask",
       "desc": "Itago ang personal na impormasyon sa mga larawan at PDF, buong-buo sa device.",
       "tagline": "Itago ang personal na impormasyon sa mga larawan at PDF gamit ang isang solidong mask, buong-buo sa iyong device.",
-      "long": "Itinatago ng PhotoCleaner+ ang personal na impormasyon sa mga larawan at PDF nang buong-buo sa iyong device. Tinatakpan nito ang mga sensitibong bahagi ng isang solido at opaque na mask (hindi blur o mosaic, kaya hindi na mababawi ang mga natakpang bahagi) at nag-e-export ng malinis na kopya. Libre at walang limitasyong nagmumungkahi ang built-in na detector ng mga malamang na sensitibong teksto tulad ng ID number, card, numero ng telepono, at email, ngunit ikaw mismo ang gumuguhit at nag-aayos ng mga mask at nagpapasya kung ano talaga ang itatago. Kaya nitong hawakan ang mga larawan, ID card at multi-page na PDF, ang bawat na-save o na-share na kopya ay muling ni-encode nang walang EXIF, at hindi kailanman humihingi ng pahintulot sa gallery o storage. Walang limitasyon ang pagtuklas, pag-edit at pagtakip kahit sa libreng bersyon at walang watermark ang anumang export; 3 export kada araw sa libre, habang inaalis ng Pro ang limitasyong iyon at nagdaragdag ng PDF export, pag-print at kahit anong kulay ng takip. I-on ang “Piliin kung saan i-save” at ikaw ang pipili ng folder at pangalan ng file.",
+      "long": "Itinatago ng PhotoCleaner+ ang personal na impormasyon sa mga larawan at PDF nang buong-buo sa iyong device. Tinatakpan nito ang mga sensitibong bahagi ng isang solido at opaque na mask (hindi blur o mosaic, kaya hindi na mababawi ang mga natakpang bahagi) at nag-e-export ng malinis na kopya. Walang limitasyong nagmumungkahi ang built-in na detector ng mga malamang na sensitibong teksto tulad ng ID number, card, numero ng telepono, at email, ngunit ikaw mismo ang gumuguhit at nag-aayos ng mga mask at nagpapasya kung ano talaga ang itatago. Kaya nitong hawakan ang mga larawan, ID card at multi-page na PDF, ang bawat na-save o na-share na kopya ay muling ni-encode nang walang EXIF, at hindi kailanman humihingi ng pahintulot sa gallery o storage. Walang limitasyon ang pagtuklas, pag-edit, pagtakip at pag-export, walang watermark ang anumang export, at puwede kang mag-export sa PDF, mag-print at pumili ng kahit anong kulay ng takip. I-on ang “Piliin kung saan i-save” at ikaw ang pipili ng folder at pangalan ng file.",
       "features": [
         "Solido at opaque na mask na hindi na mababawi (hindi blur o mosaic)",
         "Gumuhit ng mga mask nang manu-mano, pagkatapos ay ilipat, baguhin ang laki o tanggalin ang mga ito, na may zoom para sa katumpakan",
-        "Nagmumungkahi ang built-in na detection ng malamang na sensitibong teksto (ID number, card, telepono, email) — libre at walang limitasyon, at ikaw ang nagre-review",
+        "Nagmumungkahi ang built-in na detection ng malamang na sensitibong teksto (ID number, card, telepono, email) — ikaw ang nagre-review",
         "Mag-mask ng mga larawan, ID card at multi-page na PDF na dokumento",
         "Walang pahintulot, may paalala sa EXIF at GPS, at ang bawat na-save o na-share na kopya ay muling ni-encode nang walang EXIF",
-        "Walang watermark para kaninuman: 3 export kada araw sa libre, walang limitasyon sa Pro kasama ang PDF export at pag-print"
+        "Walang watermark, walang limitasyong export, kasama ang PDF export at pag-print"
       ],
       "faq": [
         {
           "q": "Ang masking ba ay blur o mosaic?",
-          "a": "Hindi. Iisang istilo lang ang ginagamit ng masking, isang solido at opaque na fill, at hindi na mababawi ang mga natakpang bahagi. Sa Pro maaari kang pumili ng anumang kulay ng mask."
+          "a": "Hindi. Iisang istilo lang ang ginagamit ng masking, isang solido at opaque na fill, at hindi na mababawi ang mga natakpang bahagi. Maaari kang pumili ng anumang kulay ng mask."
         },
         {
           "q": "Ina-upload ba ang mga larawan ko kahit saan?",
@@ -380,10 +363,6 @@
         {
           "q": "Maaari ba akong umasa sa auto-detection lang bago mag-export?",
           "a": "Ang detection ay panimula lamang na nagmumungkahi ng malamang na sensitibong teksto. Palaging suriin ang mga mungkahi at magdagdag o mag-alis ng mga mask nang ikaw mismo bago mag-export."
-        },
-        {
-          "q": "Ilang beses ako makakapag-export nang libre?",
-          "a": "Tatlong beses kada araw. Ang binibilang ay ang Export button, anuman ang gawin mo sa resulta: i-save, i-share, gawing PDF o i-print. Hindi kailanman nililimitahan ang pagtuklas, pag-edit at pagtakip. Inaalis ng Pro ang pang-araw-araw na limitasyon."
         }
       ]
     },
@@ -398,9 +377,9 @@
         "Line Highlight (Reading Ruler): pinapaliwanag ang kasalukuyan mong linya para manatili sa tamang landas ang mga mata",
         "Reading Mask: dinidilim ang lahat maliban sa reading zone mo para sa tunnel-vision na pokus",
         "Ganap na nababagong focus strip: taas (50dp–300dp) at opacity (10%–100%)",
-        "10 na color theme (3 libre + 7 Pro)",
+        "10 na color theme",
         "Gumagana sa ibabaw ng anumang app — mga ebook, PDF, webtoon, balita, research paper",
-        "Pro: walang ad, 7 pang color theme, at panatilihing nakabukas ang screen habang nagbabasa"
+        "Panatilihing nakabukas ang screen: hindi namamatay ang display habang nagbabasa"
       ],
       "faq": [
         {
@@ -412,8 +391,8 @@
           "a": "Gumagana ito sa ibabaw ng anumang app na nasa screen — mga ebook at PDF reader, research paper, artikulo sa web, blog, balita, tala sa pag-aaral, textbook, komiks, webtoon, at mahahabang email o kasaysayan ng chat."
         },
         {
-          "q": "Libre ba itong gamitin?",
-          "a": "Oo. Kasama sa libreng bersyon ang dalawang focus mode, 3 color theme at ang pag-adjust ng taas at opacity ng strip, na may mga ad. Inaalis ng Pro ang mga ad at nagdaragdag ng 7 pang color theme at pagpapanatiling nakabukas ng screen — buwanan, taunan o isahang lifetime na bili."
+          "q": "Puwede ko pa bang i-tap at i-scroll ang app sa ilalim?",
+          "a": "Oo. Tumatagos ang tap sa strip papunta sa app sa ilalim. Sa Android 12 pataas, nililimitahan ng system ang opacity ng overlay sa mga 80% para patuloy na gumana ang tap."
         }
       ]
     },
@@ -427,10 +406,10 @@
       "features": [
         "Lumulutang na overlay notes: i-collapse ang nota sa chip, palawakin bilang buong card sa ibabaw ng kahit anong app",
         "7 kulay ng nota at rich text: bold, italic, underline, strikethrough, kulay at laki ng teksto",
-        "Larawan sa nota (Pro): maglakip ng litrato mismo sa loob",
+        "Larawan sa nota: maglakip ng litrato mismo sa loob",
         "Mga paalala sa nota — isang beses, araw-araw, araw ng trabaho o piling araw",
         "Aklatan na may agarang paghahanap, pag-pin, at pag-aayos sa pag-drag; ang paghila ng chip sa ibabang bahagi ay nagtatago ng nota, hindi nagbubura",
-        "Pro: walang limitasyong lumulutang na nota, larawan, Google Drive sync, walang limitasyong paalala, walang ad"
+        "Walang limitasyong lumulutang na nota, Google Drive sync at walang limitasyong paalala"
       ],
       "faq": [
         {
@@ -446,16 +425,12 @@
           "a": "Oo. I-install din ang FloatNote+ for Windows, tapos sa settings ng dalawang app ay mag-sign in sa Google Drive gamit ang iisang account at i-on ang automatic sync. Pagkatapos noon, ang mga notang sinulat sa telepono ay lumalabas sa PC, at ang sinulat sa PC ay lumalabas sa telepono. Hindi dumadaan sa anumang server ng CodeDAC ang mga nota — nakaimbak lamang ang mga ito sa sarili mong Google Drive. Nagsi-sync ang teksto at ang mga naka-attach na larawan."
         },
         {
-          "q": "Libre ba ito?",
-          "a": "Oo. Walang limitasyon at libre ang pag-save ng nota, at ang libreng bersyon ay naglulutang ng isang nota sa bawat pagkakataon at may lahat ng 7 kulay, naiaayos na opacity, export at import, at widget sa home screen, may mga ad. Nagdadagdag ang Pro ng walang limitasyong lumulutang na nota, larawan, Google Drive sync at walang limitasyong paalala, at inaalis ang mga ad."
-        },
-        {
           "q": "Magagamit ko ba ang FloatNote+ sa isang Android car head unit?",
           "a": "Oo, kung may Google Play ang iyong car head unit at Android 8.0 o mas bago ito. Lumulutang ang mga nota sa ibabaw ng navigation o music app. Inayos ang mga setup screen para sa malapad at mababang landscape na display. Dapat payagan ng head unit ang “Ipakita sa ibabaw ng ibang app”."
         },
         {
           "q": "Puwede bang lumabas ang nota sa itinakdang oras?",
-          "a": "Oo. Magtakda ng oras at lalabas ang nota mo sa screen kasama ang notification — isang beses, araw-araw, tuwing araw ng trabaho, o sa mga araw lang na pipiliin mo. (Libre: 1 paalala · Pro: walang limitasyon)"
+          "a": "Oo. Magtakda ng oras at lalabas ang nota mo sa screen kasama ang notification — isang beses, araw-araw, tuwing araw ng trabaho, o sa mga araw lang na pipiliin mo."
         }
       ]
     },
@@ -465,14 +440,14 @@
       "seo": "Force Screen Rotation",
       "desc": "I-force ang orientation ng screen sa buong phone o kada app: portrait, landscape o auto. Walang root.",
       "tagline": "May mga app na ayaw umikot, at may umiikot agad kapag humiga ka. Isang tap lang para i-lock ang orientation sa buong phone o sa bawat app — walang root.",
-      "long": "Sa Rotate+, isang tap lang para i-force ang orientation ng screen sa buong phone o sa bawat app, at walang root. Pumili ng Auto, Portrait, Landscape, Baligtad na portrait, Baligtad na landscape o I-lock ang kasalukuyan, at agad itong nalalapat nang walang confirmation dialog. Sa rules kada app, nasa landscape ang video at games at nasa portrait ang chat at pagbabasa: gumagana ang rule pagbukas ng app at natatanggal pag-alis mo. Kapag ibinalik ng app ang ikot ng screen, ibabalik ng “Panatilihin ang orientation” ang pinili mo, at kapag patuloy na lumalaban ang app, titigil ang Rotate+ para walang paulit-ulit na pag-ikot. Iniikot ng “Ikot nang isang beses” ang kasalukuyang app lang hanggang lumipat ka ng app o patayin ang screen, at isang tap lang ang lahat sa Quick Settings tile, widget at shortcut. Sa mga tablet na Android 16, awtomatikong ginagamit ng Rotate+ ang rotation setting ng system. Sa libreng bersyon, 3 rules na may maliit na banner ad; idinaragdag ng Pro ang walang limit na rules, mga kondisyon, floating rotate button at walang ads.",
+      "long": "Sa Rotate+, isang tap lang para i-force ang orientation ng screen sa buong phone o sa bawat app, at walang root. Pumili ng Auto, Portrait, Landscape, Baligtad na portrait, Baligtad na landscape o I-lock ang kasalukuyan, at agad itong nalalapat nang walang confirmation dialog. Sa rules kada app, nasa landscape ang video at games at nasa portrait ang chat at pagbabasa: gumagana ang rule pagbukas ng app at natatanggal pag-alis mo. Kapag ibinalik ng app ang ikot ng screen, ibabalik ng “Panatilihin ang orientation” ang pinili mo, at kapag patuloy na lumalaban ang app, titigil ang Rotate+ para walang paulit-ulit na pag-ikot. Iniikot ng “Ikot nang isang beses” ang kasalukuyang app lang hanggang lumipat ka ng app o patayin ang screen, at isang tap lang ang lahat sa Quick Settings tile, widget at shortcut. Sa mga tablet na Android 16, awtomatikong ginagamit ng Rotate+ ang rotation setting ng system. Gumawa ng kahit ilang rules kada app, hayaang awtomatikong baguhin ng mga kondisyon ang orientation, at maglagay ng floating rotate button sa ibabaw ng ibang app.",
       "features": [
         "Isang tap, anim na mode: Auto, Portrait, Landscape, Baligtad na portrait, Baligtad na landscape at I-lock ang kasalukuyan — agad na nalalapat, nasa Iba pang mode ang apat na gilid at sensor mode",
         "Rules kada app: video at games sa landscape, chat at pagbabasa sa portrait — gumagana pagbukas ng app, natatanggal pag-alis mo",
         "Panatilihin ang orientation: kapag ibinalik ng app ang ikot ng screen, ibabalik ng Rotate+ ang pinili mo, at titigil kapag patuloy na lumalaban ang app — walang paulit-ulit na pag-ikot",
         "Ikot nang isang beses: “Itong app lang, ngayon lang” — kusang natatanggal kapag lumipat ka ng app o pinatay ang screen",
         "Dalawang Quick Settings tile, mga widget sa home screen, app shortcut at opsyonal na notification na may Pause, Mode at Ikot nang isang beses",
-        "Libre: 3 rules na may maliit na banner ad; Pro: walang limit na rules, mga kondisyon, floating button at walang ads"
+        "Walang limit na rules kada app, mga kondisyon na awtomatikong nagbabago ng orientation (charging, headphones, Bluetooth, dock, tawag, itinakdang oras) at floating rotate button"
       ],
       "faq": [
         {
@@ -482,10 +457,6 @@
         {
           "q": "Bakit kailangan ang Accessibility? Ligtas ba?",
           "a": "Ginagamit lang ang Accessibility para malaman kung aling app ang nasa screen (para sa rules kada app) at para mapanatili ang piniling orientation gamit ang invisible na window na 1 pixel. Hindi kailanman binabasa ng Rotate+ ang laman ng screen, text o password. Puwede ring gamitin ang Usage access sa halip. Walang account, walang ipinapadala."
-        },
-        {
-          "q": "Ano ang libre at ano ang idinaragdag ng Pro?",
-          "a": "Libre ang lahat ng rotation mode, Panatilihin ang orientation, Ikot nang isang beses, mga tile, widget at shortcut, kasama ang 3 rules kada app at maliit na banner ad. Idinaragdag ng Pro ang walang limit na rules, mga kondisyon na awtomatikong nagbabago ng orientation (habang nagcha-charge, may headphones, Bluetooth device, car o desk dock, habang may tawag o sa mga itinakdang oras), floating rotate button, at tinatanggal ang ads."
         },
         {
           "q": "Magagamit ko ba ang Rotate+ sa isang Android car head unit?",
@@ -518,8 +489,8 @@
           "a": "Ang kasaysayan ng kinopya ay nananatili sa PC mo lamang bilang default (sa folder na %APPDATA%\\ClipboardPlus). Kapag in-on mo ang sync, naiimbak din ito sa isang pribadong bahagi ng app sa sarili mong Google Drive — isang bahaging hindi lumalabas sa screen ng Drive at hindi mabubuksan ng kahit ano maliban sa Clipboard+. Ang app ay gumagamit lamang ng pribadong bahaging iyon, kaya hindi nito maaabot ang iba mong larawan o dokumento sa Drive."
         },
         {
-          "q": "Libre ba ang Clipboard+ para sa Windows?",
-          "a": "Oo, walang ads at walang account. Libre ang clipboard history na may paghahanap, mga snippet, pag-pin, ang quick-paste popup, Google Drive sync, pagkopya at pag-save ng mga image clip, pagbabahagi sa email, at backup export. Ang opsyonal na isang-bayarang Pro, hindi subscription, ay nagdaragdag ng backup restore, walang limitasyong grupo (3 lang sa libreng bersyon), PDF export at mas malaking image storage. Kung ginamit mo ang Clipboard+ for Windows bago bumalik ang Pro, mananatiling libre ang mga feature na iyon para sa iyo. (Sa telepono, Pro feature ng Android app ang sync.)"
+          "q": "Puwede ko bang palitan ang mga shortcut?",
+          "a": "Oo. Puwedeng palitan o i-off ang bawat shortcut sa Settings."
         }
       ]
     },
@@ -536,20 +507,20 @@
         "Floating panel para magpalit ng mode, ilipat o i-lock ang strip, at itago ito; natitiklop sa isang hilera kapag hindi kailangan",
         "Mga keyboard shortcut para sa simula at hinto, mode, pagpapakita at pagtatago, pag-lock, at paggalaw ng strip pataas o pababa",
         "Multi-monitor: sinusundan ng reading band ang panel sa kahit anong screen mo ito ilipat, at nananatili sa system tray kapag hindi ginagamit",
-        "Walang ads. Isang beses lang ang bayad sa Pro: premium na tema at panatilihing naka-on ang screen"
+        "Sampung color theme, mula highlighter yellow hanggang ocean blue; Keep Screen On: hindi namamatay ang screen habang naka-on ang strip"
       ],
       "faq": [
         {
           "q": "Pareho ba ito sa ReadFocus+ sa Android?",
-          "a": "Pareho itong app na ginawa para sa Windows, at pareho rin ang dalawang mode ng pagbasa. Hiwalay ang pagbili sa bawat store at walang kailangang i-sync — hindi kailanman iniimbak ng ReadFocus+ ang binabasa mo."
+          "a": "Pareho itong app na ginawa para sa Windows, at pareho rin ang dalawang mode ng pagbasa. Walang kailangang i-sync — hindi kailanman iniimbak ng ReadFocus+ ang binabasa mo."
         },
         {
           "q": "Anong mga app ang gumagana rito?",
           "a": "Kahit anong app na nasa screen: mga browser, PDF at ebook reader, dokumento, code editor, research paper, at mahahabang email o chat. Iginuguhit ang Focus Strip sa ibabaw ng screen, kaya hindi kailangang suportahan ito ng app sa ilalim."
         },
         {
-          "q": "Libre ba ito?",
-          "a": "Oo. Kasama sa libreng bersyon ang dalawang mode ng pagbasa, ang taas at opacity ng Focus Strip, at tatlo sa sampung tema. Ang Pro ay isang beses na bayad, hindi subscription, at nagdadagdag ng premium na tema at panatilihing naka-on ang screen. Walang ads ang bersyon para sa Windows."
+          "q": "Medikal na gamutan ba ang ReadFocus+?",
+          "a": "Hindi. Isa itong reading aid, hindi medical device o gamutan para sa ADHD o dyslexia."
         }
       ]
     },
@@ -566,7 +537,7 @@
         "Mga paalala sa nota — isang beses, araw-araw, araw ng trabaho o piling araw",
         "Rich text — bold, italic, underline, strikethrough, kulay at laki ng teksto — kasama ang 7 pastel na kulay at larawan sa loob ng nota",
         "Bidirectional na sync ng phone-to-PC sa pamamagitan ng sarili mong Google Drive — ang parehong app-private na folder na ginagamit ng Android app, at hindi kailanman dumadaan sa server ng CodeDAC",
-        "Global hotkeys, system tray, light at dark theme, pagtakbo sa logon, 21 wika. Walang ads; ang opsyonal na isang-bayarang Pro ay nagdaragdag ng mas maraming lumulutang na nota, opacity, larawan at export"
+        "Global hotkeys, system tray, light at dark theme, pagtakbo sa logon, 21 wika. Maraming lumulutang na nota nang sabay-sabay, naaayos na opacity, at export at import"
       ],
       "faq": [
         {
@@ -576,10 +547,6 @@
         {
           "q": "Nakakaabala ba ito sa app na nasa ilalim?",
           "a": "Hindi. Ang chip ay lumulutang na window na hindi kumukuha ng focus, kaya kapag ini-click o hinila mo ito, nananatili ang cursor sa mismong pinagtatipahan mo. I-click ang chip para buksan ang card; i-click ang arrow sa itaas, pindutin ang Esc o mag-click sa labas at babalik itong nakatiklop, naka-save na."
-        },
-        {
-          "q": "Libre ba ito?",
-          "a": "Oo, walang ads at walang account. Libre ang pagsulat ng nota, mga kulay, paalala at sync sa Google Drive. Ang opsyonal na isang-bayarang Pro, hindi subscription, ay nagpapahintulot na magpalutang ng higit sa isang nota nang sabay at nagdaragdag ng transparency ng nota, larawan sa loob ng nota, at export at import. Kung ginamit mo ang FloatNote+ for Windows bago bumalik ang Pro, mananatiling libre ang mga feature na iyon para sa iyo. (Sa telepono, Pro feature ng Android app ang sync.)"
         },
         {
           "q": "Puwede bang lumabas ang nota sa itinakdang oras?",
@@ -600,20 +567,20 @@
         "Simulan, i-pause at i-restart gamit ang ▶/⏸/↻ button mismo sa card nang hindi binubuksan ang app, at may bar ng natitirang oras ang mga timer; nagdaragdag at nagbabawas ang counter sa pag-click sa bawat kalahati",
         "Siyam na pastel na kulay, naa-adjust na laki at transparency ng card, at mga window ng app na sumusunod sa light o dark theme mo",
         "Pareho ang format ng backup file sa Android app: mag-export sa isang panig at i-restore sa kabila",
-        "Global hotkeys, system tray, tumatakbo sa logon, 21 wika. Walang account, walang network, walang ads — at isang beses lang bayaran ang Pro"
+        "Full-screen na alerto, sariling tunog ng alerto at repeat timers. Global hotkeys, system tray, tumatakbo sa logon, 21 wika. Walang account, walang network"
       ],
       "faq": [
         {
           "q": "Pareho ba ito sa FloatTimer+ sa Android?",
-          "a": "Iisa lang ang app, ginawa para sa Windows, at pareho rin ang lumulutang na mga card. Hiwalay ang binibili sa bawat store. Hindi sila awtomatikong nagsi-sync, pero pareho ang backup file na binabasa at sinusulatan nila, kaya mailalipat mo ang listahan mo sa pag-export sa isang panig at pag-restore sa kabila."
+          "a": "Iisa lang ang app, ginawa para sa Windows, at pareho rin ang lumulutang na mga card. Hindi sila awtomatikong nagsi-sync, pero pareho ang backup file na binabasa at sinusulatan nila, kaya mailalipat mo ang listahan mo sa pag-export sa isang panig at pag-restore sa kabila."
         },
         {
           "q": "Nakakasagabal ba ito sa app sa ilalim?",
           "a": "Hindi. Ang card ay lumulutang na window na hindi kailanman kumukuha ng focus, kaya kahit i-click o ikaladkad mo, nananatili ang cursor mo mismo sa pinag-i-type mo. Kapag kailangan mo ang screen, itiklop ang card bilang bubble na bahagya lang mas malaki sa isang button, itulak ito sa gilid ng screen para magtago nang kalahati, o itago lahat ng card nang sabay sa isang hotkey."
         },
         {
-          "q": "Libre ba itong gamitin?",
-          "a": "Oo. Makakagawa ka ng kahit ilang timer, counter at stopwatch — walang limitasyon ang listahan — at walang ads ang bersyong Windows. Dalawang card ang pinalulutang ng libreng bersyon sa screen nang sabay. Ang Pro ay isahang bayad, hindi subscription, at nagdaragdag ng full-screen alert at sarili mong alert sound, umuulit na timer, walang limitasyong lumulutang na card, at kahit anong kulay."
+          "q": "Kailangan ba ng account o internet?",
+          "a": "Hindi. Naka-save ang mga timer mo sa isang file sa PC mo."
         }
       ]
     },
@@ -644,10 +611,6 @@
         {
           "q": "Ina-upload ba ang mga file ko, o binabago ba ang orihinal?",
           "a": "Hindi, pareho. Tumatakbo sa iyong PC ang pagtuklas, pagtatakip at pag-export nang walang account at walang upload. Ginagawa ang pagtatakip sa kopya, tumatanggi ang app na mag-save sa ibabaw ng orihinal, at muling ini-encode ang na-save na kopya kaya walang metadata ng orihinal."
-        },
-        {
-          "q": "Ano ang libre, at ano ang dagdag ng Pro?",
-          "a": "Libre at walang limitasyon ang paghahanap ng personal na impormasyon, at libre mong mase-save, makokopya o maibabahagi ang natakpang kopya ng 3 dokumento bawat araw. Ang Pro ay isang beses na bili na nag-aalis ng daily limit at nagdadagdag ng PDF export, pag-print, listahan ng laging itatago at pagpili ng kulay ng mask. Walang ads at walang watermark."
         }
       ]
     },
@@ -657,14 +620,14 @@
       "seo": "Crypto Ticker sa PC",
       "desc": "Live na crypto price ticker na nakalutang sa ibabaw ng bawat window sa Windows, may price alert at chart.",
       "tagline": "Bitcoin, Ethereum at mga altcoin mo sa isang manipis na strip sa ibabaw ng bawat window — laging nasa gilid ng paningin mo ang market habang nagtatrabaho, nang hindi inaagaw ang focus.",
-      "long": "Ang FloatCrypto+ for Windows ang desktop na bersyon ng Android app na FloatCrypto+. Pinapanatili nito ang isang manipis na price ticker sa ibabaw ng bawat window — browser, dokumento, video call — na nagpapakita ng simbolo at 24-oras na pagbabago ng bawat coin, may kulay ayon sa direksyon. Walang tab na kailangang lipatan, walang page na kailangang i-reload. I-drag ang ticker kahit saan, i-adjust ang opacity at laki ng text, o i-collapse ito sa maliit na bubble na dumidikit sa gilid ng screen; hindi nito inaagaw ang focus mula sa app na tinatypan mo. I-hover ang tray icon para sa buong talaan ng presyo, kahit naka-off ang ticker. Magtakda ng target na mas mataas o mas mababa sa kasalukuyang presyo at makakuha ng desktop notification sa sandaling lumampas dito ang market, isang beses o paulit-ulit. Pumili mula sa daan-daang pares na tine-trade sa Binance, ayusin ang pagkakasunod sa pag-drag, at i-double-click ang anumang coin para sa chart na may high, low, open at pagbabago sa panahong iyon. Galing ang mga presyo sa pampublikong market data ng Binance na may awtomatikong paglipat sa mga alternatibong server at sa CoinGecko, maaaring maantala nang hanggang 30 segundo, at pang-impormasyon lamang — ang FloatCrypto+ ay hindi trading app, at walang anuman dito na payo sa pamumuhunan.",
+      "long": "Ang FloatCrypto+ for Windows ang desktop na bersyon ng Android app na FloatCrypto+. Pinapanatili nito ang isang manipis na price ticker sa ibabaw ng bawat window — browser, dokumento, video call — na nagpapakita ng simbolo at 24-oras na pagbabago ng bawat coin, may kulay ayon sa direksyon. Walang tab na kailangang lipatan, walang page na kailangang i-reload. I-drag ang ticker kahit saan, i-adjust ang opacity at laki ng text, o i-collapse ito sa maliit na bubble na dumidikit sa gilid ng screen; hindi nito inaagaw ang focus mula sa app na tinatypan mo. I-hover ang tray icon para sa buong talaan ng presyo, kahit naka-off ang ticker. Magtakda ng target na mas mataas o mas mababa sa kasalukuyang presyo at makakuha ng desktop notification sa sandaling lumampas dito ang market, isang beses o paulit-ulit. Pumili mula sa daan-daang pares na tine-trade sa Binance, ayusin ang pagkakasunod sa pag-drag, at i-double-click ang anumang coin para sa chart na may high, low, open at pagbabago sa panahong iyon. Galing ang mga presyo sa pampublikong market data ng Binance na may awtomatikong paglipat sa mga alternatibong server at sa CoinGecko, maaaring maantala nang hanggang 10 segundo, at pang-impormasyon lamang — ang FloatCrypto+ ay hindi trading app, at walang anuman dito na payo sa pamumuhunan.",
       "features": [
         "Live na price ticker sa ibabaw ng bawat window — i-drag kahit saan, i-adjust ang opacity at laki ng text, o i-collapse sa bubble sa gilid ng screen",
         "Hindi inaagaw ang focus — nakikita pa rin ang ticker habang nananatili ang cursor mo sa app na ginagamit mo",
         "Price alert pataas o pababa ng target, isang beses o paulit-ulit, gawa mula mismo sa ⋮ menu ng coin na nakapili na ang coin",
         "Watchlist mula sa daan-daang pares sa Binance, naaayos sa pag-drag, at 1-araw, 7-araw at 30-araw na chart na may high, low, open at pagbabago",
         "Western (berde pataas, pula pababa) o Eastern (pula pataas, asul pababa) na kulay, at buong talaan ng presyo sa tray icon",
-        "Mga global na hotkey, system tray, pagsisimula kasabay ng Windows, light at dark na tema, 21 wika. Walang ads, walang account"
+        "Mga global na hotkey, system tray, pagsisimula kasabay ng Windows, light at dark na tema, 21 wika. Walang account"
       ],
       "faq": [
         {
@@ -677,11 +640,7 @@
         },
         {
           "q": "Saan galing ang mga presyo?",
-          "a": "Sa pampublikong market data ng Binance, na may awtomatikong paglipat sa mga alternatibong server at sa CoinGecko para tuloy-tuloy ang ticker kapag hindi maabot ang isang pinagkukunan. Maaaring maantala ang presyo nang hanggang 30 segundo at pang-impormasyon lamang. Hindi nagte-trade ang FloatCrypto+, hindi kumokonekta sa exchange account at hindi humahawak ng anumang pondo, at walang anuman dito na payo sa pamumuhunan."
-        },
-        {
-          "q": "Ano ang libre, at ano ang dagdag ng Pro?",
-          "a": "Sa libre, 3 coin at 1 price alert ang masusundan mo, nagre-refresh bawat 30 segundo at may 1-day chart — at walang time limit ang ticker. Ang Pro ay isang beses na bili na nagtataas nito sa 10 coin, walang limitasyong alert, 10-segundong refresh at 7-day at 30-day chart. Walang ads ang bersyon sa Windows."
+          "a": "Sa pampublikong market data ng Binance, na may awtomatikong paglipat sa mga alternatibong server at sa CoinGecko para tuloy-tuloy ang ticker kapag hindi maabot ang isang pinagkukunan. Maaaring maantala ang presyo nang hanggang 10 segundo at pang-impormasyon lamang. Hindi nagte-trade ang FloatCrypto+, hindi kumokonekta sa exchange account at hindi humahawak ng anumang pondo, at walang anuman dito na payo sa pamumuhunan."
         }
       ]
     }

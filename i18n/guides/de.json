@@ -42,7 +42,7 @@
         {
           "h": "Was passt zu dir?",
           "p": [
-            "Für den Einzelfall – etwas einfügen, das du vor einer Minute kopiert hast – reicht die Zwischenablage der Tastatur. Wenn dir Kopiertes verloren geht, das du noch brauchst, oder du denselben Text immer wieder tippst, spart dir ein Zwischenablage-Manager diese Zeit. Clipboard+ ist zum Start kostenlos; Pro bringt die Synchronisierung mit der Windows-App über dein eigenes Google Drive, unbegrenzt viele Bilder im Verlauf und PDF-Export."
+            "Für den Einzelfall – etwas einfügen, das du vor einer Minute kopiert hast – reicht die Zwischenablage der Tastatur. Wenn dir Kopiertes verloren geht, das du noch brauchst, oder du denselben Text immer wieder tippst, spart dir ein Zwischenablage-Manager diese Zeit. Clipboard+ synchronisiert sich außerdem über dein eigenes Google Drive mit der Windows-App, speichert so viele Bilder im Verlauf, wie du willst, und exportiert als PDF."
           ]
         }
       ],
@@ -53,7 +53,7 @@
         },
         {
           "q": "Kann ich den Zwischenablage-Verlauf meines Handys am PC sehen?",
-          "a": "Ja, mit Clipboard+ auf beiden Geräten: Die Android-App und Clipboard+ for Windows synchronisieren sich über dein eigenes Google Drive (auf Android eine Pro-Funktion)."
+          "a": "Ja, mit Clipboard+ auf beiden Geräten: Die Android-App und Clipboard+ for Windows synchronisieren sich über dein eigenes Google Drive."
         },
         {
           "q": "Ich habe alle Berechtigungen erteilt, aber nicht alles Kopierte wird gespeichert.",
@@ -102,10 +102,6 @@
         {
           "q": "Warum öffnen sich meine Apps nicht, bevor ich das Handy entsperre?",
           "a": "Android lässt Apps erst andere öffnen, wenn das Handy nach einem Neustart einmal entsperrt wurde. Deine Apps öffnen sich direkt nach dem Entsperren."
-        },
-        {
-          "q": "Wie viele Apps kann ich kostenlos automatisch starten?",
-          "a": "Die Gratisversion startet 1 App pro Hochfahren. Pro startet deine ganze Liste der Reihe nach."
         }
       ]
     },
@@ -138,7 +134,7 @@
         {
           "h": "Auch auf deinem PC",
           "p": [
-            "FloatNote+ for Windows lässt dieselbe Art von Notizen über jedem Fenster schweben, und die beiden Apps synchronisieren sich über dein eigenes Google Drive (auf Android eine Pro-Funktion)."
+            "FloatNote+ for Windows lässt dieselbe Art von Notizen über jedem Fenster schweben, und die beiden Apps synchronisieren sich über dein eigenes Google Drive."
           ]
         }
       ],
@@ -149,11 +145,7 @@
         },
         {
           "q": "Kann eine Notiz zu einer bestimmten Zeit auftauchen?",
-          "a": "Ja. Stelle in FloatNote+ im ⋮-Menü der Notiz eine Erinnerung ein, dann erscheint die Notiz mit einer Benachrichtigung auf dem Bildschirm. Die Gratisversion erlaubt eine Erinnerung; Pro hat kein Limit."
-        },
-        {
-          "q": "Ist FloatNote+ kostenlos?",
-          "a": "Notizen speichern ist kostenlos und unbegrenzt, und die Gratisversion lässt eine Notiz gleichzeitig schweben. Pro bringt unbegrenzt viele schwebende Notizen, Bilder in der Notiz, Google-Drive-Sync und keine Werbung."
+          "a": "Ja. Stelle in FloatNote+ im ⋮-Menü der Notiz eine Erinnerung ein, dann erscheint die Notiz mit einer Benachrichtigung auf dem Bildschirm. Du kannst so viele Erinnerungen einstellen, wie du willst."
         }
       ]
     },
@@ -179,7 +171,7 @@
         {
           "h": "Mehrere gleichzeitig",
           "p": [
-            "Du kannst kostenlos so viele Timer, Zähler und Stoppuhren anlegen, wie du willst, und sie laufen weiter. Die Gratisversion zeigt zwei gleichzeitig auf dem Bildschirm; Pro lässt beliebig viele gleichzeitig schweben."
+            "Du kannst so viele Timer, Zähler und Stoppuhren anlegen, wie du willst, beliebig viele gleichzeitig schweben lassen, und alle laufen weiter."
           ]
         }
       ],
@@ -234,10 +226,6 @@
         {
           "q": "Lädt PhotoCleaner+ meine Fotos hoch?",
           "a": "Nein. Erkennung und Maskierung laufen auf deinem Handy, und deine Fotos und Dokumente werden nie hochgeladen."
-        },
-        {
-          "q": "Ist es kostenlos?",
-          "a": "Erkennen, Bearbeiten und Maskieren sind kostenlos; du kannst 3-mal am Tag exportieren. Pro hebt das Tageslimit auf und bringt PDF-Export und Drucken."
         }
       ]
     },
@@ -270,7 +258,7 @@
         {
           "h": "Deine Notizen auch auf dem Handy",
           "p": [
-            "FloatNote+ for Windows synchronisiert sich über dein eigenes Google Drive mit der Android-App FloatNote+ – eine Notiz, die du am PC schreibst, ist also auch auf deinem Handy. Notizen, Erinnerungen und Sync sind kostenlos; ein optionales einmaliges Pro bringt mehr schwebende Notizen, Transparenz, Bilder und Export dazu."
+            "FloatNote+ for Windows synchronisiert sich über dein eigenes Google Drive mit der Android-App FloatNote+ – eine Notiz, die du am PC schreibst, ist also auch auf deinem Handy. Notizen können außerdem Bilder und Erinnerungen enthalten, und du kannst ihre Transparenz einstellen und sie exportieren."
           ]
         }
       ],
@@ -314,7 +302,7 @@
         {
           "h": "Zwischen Handy und PC",
           "p": [
-            "Zusammen mit der Android-App Clipboard+ lässt sich, was du auf dem Handy kopierst, am PC einfügen und umgekehrt – über dein eigenes Google Drive. Zwischenablage-Verlauf, Snippets, Suche, das Quick-Pick-Fenster und Synchronisierung sind kostenlos; ein optionales einmaliges Pro bringt Backup-Wiederherstellung, unbegrenzte Gruppen, PDF-Export und mehr Bildspeicher dazu."
+            "Zusammen mit der Android-App Clipboard+ lässt sich, was du auf dem Handy kopierst, am PC einfügen und umgekehrt – über dein eigenes Google Drive. Außerdem kannst du aus einem Backup wiederherstellen, so viele Gruppen anlegen, wie du brauchst, und als PDF exportieren."
           ]
         }
       ],
@@ -355,9 +343,9 @@
           ]
         },
         {
-          "h": "Gratis und Pro",
+          "h": "Das bekommst du",
           "p": [
-            "Du kannst so viele Timer, Zähler und Stoppuhren anlegen, wie du willst – ohne Werbung. Die Gratisversion lässt jeweils zwei Karten schweben; Pro ist ein Einmalkauf, lässt beliebig viele schweben und bringt wiederholende Timer und eigene Alarme."
+            "Du kannst so viele Timer, Zähler und Stoppuhren anlegen, wie du willst, und beliebig viele Karten gleichzeitig schweben lassen – mit wiederholenden Timern und eigenen Alarmen."
           ]
         }
       ],
@@ -398,9 +386,9 @@
           ]
         },
         {
-          "h": "Gratis und Pro",
+          "h": "Das bekommst du",
           "p": [
-            "Die Gratisversion enthält beide Fokusmodi, 3 Farbdesigns sowie einstellbare Höhe und Deckkraft des Streifens. Pro entfernt die Werbung und bringt alle 10 Designs sowie „Bildschirm anlassen“."
+            "Beide Fokusmodi, alle 10 Farbdesigns, einstellbare Höhe und Deckkraft des Streifens sowie „Bildschirm anlassen“, damit das Display beim Lesen an bleibt."
           ]
         }
       ],
@@ -441,9 +429,9 @@
           ]
         },
         {
-          "h": "Gratis und Pro",
+          "h": "Das bekommst du",
           "p": [
-            "Die Gratisversion enthält beide Modi, Einstellungen für Höhe und Deckkraft des Streifens und drei Designs. Pro ist ein Einmalkauf und bringt Premium-Designs sowie „Bildschirm anlassen“. Werbung gibt es nicht."
+            "Beide Modi, Einstellungen für Höhe und Deckkraft des Streifens, zehn Farbdesigns und „Bildschirm anlassen“."
           ]
         }
       ],
@@ -484,9 +472,9 @@
           ]
         },
         {
-          "h": "Gratis und Pro",
+          "h": "Das bekommst du",
           "p": [
-            "Der schwebende Rechner, Längeneinheiten und die Währungsumrechnung zwischen deiner eigenen Währung, USD und EUR sind gratis, mit Werbung. Pro entfernt die Werbung und bringt alle Einheiten-Kategorien, alle Währungspaare und weitere Designs."
+            "Neben dem Rechner rechnet FloatCalc+ zwischen über 30 Währungen und in allen Einheiten-Kategorien um – Länge, Gewicht, Temperatur, Fläche, Volumen, Geschwindigkeit und Zeit – und bringt 8 Farbdesigns mit."
           ]
         }
       ],
@@ -523,8 +511,8 @@
         {
           "h": "Gut zu wissen",
           "p": [
-            "Die Kurse kommen von Binance mit automatischer Ausweichquelle und können bis zu 30 Sekunden verzögert sein (10 Sekunden mit Pro). Sie dienen nur zur Orientierung, und die App handelt nicht und verbindet sich mit keinem Börsenkonto. Nichts hier ist eine Anlageberatung.",
-            "Gratis verfolgst du 2 Coins mit 1 Alarm. Pro bringt 10 Coins, unbegrenzte Alarme, längere Charts, Aktualisierung alle 10 Sekunden und keine Werbung."
+            "Die Kurse kommen von Binance mit automatischer Ausweichquelle und können bis zu 10 Sekunden verzögert sein. Sie dienen nur zur Orientierung, und die App handelt nicht und verbindet sich mit keinem Börsenkonto. Nichts hier ist eine Anlageberatung.",
+            "Verfolge bis zu 10 Coins mit unbegrenzten Alarmen und längeren Charts."
           ]
         }
       ],
@@ -535,7 +523,7 @@
         },
         {
           "q": "Sind die Kurse in Echtzeit?",
-          "a": "Sie können bis zu 30 Sekunden verzögert sein (10 Sekunden mit Pro) und dienen nur zur Orientierung."
+          "a": "Sie können bis zu 10 Sekunden verzögert sein und dienen nur zur Orientierung."
         }
       ]
     },
@@ -566,9 +554,9 @@
           ]
         },
         {
-          "h": "Gratis und Pro – und dein Gehör",
+          "h": "Wie laut es wird – und dein Gehör",
           "p": [
-            "Gratis sind bis zu 183% (+10 dB) drin; Pro öffnet 225% (+15 dB). Der dB-Wert ist eine Schätzung, und die App ist kein Medizinprodukt – wenn du Ohrenschmerzen oder Ohrgeräusche bemerkst, senke die Lautstärke."
+            "VolumeBooster+ verstärkt bis zu 225% (+15 dB). Der dB-Wert ist eine Schätzung, und die App ist kein Medizinprodukt – wenn du Ohrenschmerzen oder Ohrgeräusche bemerkst, senke die Lautstärke."
           ]
         }
       ],
@@ -579,7 +567,7 @@
         },
         {
           "q": "Wie viel lauter geht es?",
-          "a": "Bis zu 225% (+15 dB) mit Pro und bis zu 183% (+10 dB) in der Gratisversion, zusätzlich zu deiner Gerätelautstärke. Wie laut es tatsächlich wird, hängt von Gerät, Kopfhörern und Inhalt ab."
+          "a": "Bis zu 225% (+15 dB) zusätzlich zu deiner Gerätelautstärke. Wie laut es tatsächlich wird, hängt von Gerät, Kopfhörern und Inhalt ab."
         }
       ]
     },
@@ -608,9 +596,9 @@
           ]
         },
         {
-          "h": "Gratis und Pro",
+          "h": "Das bekommst du",
           "p": [
-            "Das Finden persönlicher Daten ist kostenlos und unbegrenzt, und du kannst täglich 3 Dokumente gratis exportieren. Pro ist ein Einmalkauf, der das Tageslimit aufhebt und PDF-Export und Drucken hinzufügt. Es gibt keine Werbung und kein Wasserzeichen."
+            "Das Finden persönlicher Daten und der Export geschwärzter Kopien sind unbegrenzt, und du kannst außerdem als PDF speichern und drucken. Exporte haben kein Wasserzeichen."
           ]
         }
       ],
@@ -647,8 +635,8 @@
         {
           "h": "Gut zu wissen",
           "p": [
-            "Fahr mit der Maus über das Symbol im Infobereich, um eine vollständige Kurstabelle zu sehen, und blende den Ticker mit Ctrl+Alt+T aus. Die Kurse stammen aus den öffentlichen Marktdaten von Binance mit automatischem Ausweichen und können bis zu 30 Sekunden verzögert sein; die App handelt nicht und verbindet sich mit keinem Börsenkonto, und nichts darin ist eine Anlageberatung.",
-            "Gratis verfolgst du 2 Coins mit 1 Alarm; Pro ist ein Einmalkauf für 10 Coins, unbegrenzte Alarme, Aktualisierung alle 10 Sekunden und längere Charts. Es gibt keine Werbung."
+            "Fahr mit der Maus über das Symbol im Infobereich, um eine vollständige Kurstabelle zu sehen, und blende den Ticker mit Ctrl+Alt+T aus. Die Kurse stammen aus den öffentlichen Marktdaten von Binance mit automatischem Ausweichen und können bis zu 10 Sekunden verzögert sein; die App handelt nicht und verbindet sich mit keinem Börsenkonto, und nichts darin ist eine Anlageberatung.",
+            "Verfolge bis zu 10 Coins mit unbegrenzten Alarmen und längeren Charts."
           ]
         }
       ],
@@ -694,12 +682,6 @@
           "p": [
             "Über einem Spiel im exklusiven Vollbildmodus kann kein Fenster im Vordergrund bleiben. Stelle den Anzeigemodus in den Einstellungen des Spiels auf randloses Fenster oder Fenstermodus um, dann erscheinen schwebende Fenster – das der Uhr-App oder die Karten von FloatTimer+ – wieder darüber."
           ]
-        },
-        {
-          "h": "Gratis und Pro",
-          "p": [
-            "Du kannst so viele Stoppuhren, Timer und Zähler anlegen, wie du willst – ohne Werbung. Die Gratisversion lässt jeweils zwei Karten schweben; Pro ist ein Einmalkauf und lässt beliebig viele schweben."
-          ]
         }
       ],
       "faq": [
@@ -713,14 +695,14 @@
         },
         {
           "q": "Kann ich mehr als eine Stoppuhr gleichzeitig laufen lassen?",
-          "a": "Mit FloatTimer+ legst du so viele an, wie du willst, jede mit eigener Zeitmessung. Die Gratisversion zeigt zwei schwebende Karten gleichzeitig; mit Pro schweben mehr."
+          "a": "Mit FloatTimer+ legst du so viele an, wie du willst, jede mit eigener Zeitmessung, und lässt sie alle gleichzeitig schweben."
         }
       ]
     },
     "choose-clipboard-manager-android": {
       "app": "clipboard",
       "updated": "2026-10-30",
-      "title": "Kostenloser Zwischenablage-Manager für Android: worauf achten?",
+      "title": "Zwischenablage-Manager für Android: worauf achten?",
       "desc": "Android merkt sich nur das zuletzt Kopierte. Bevor du einen Zwischenablage-Manager auswählst, prüfe, wie er deine Kopien speichert, was er behält, wie du sie zurückholst und wohin deine Daten gehen.",
       "intro": "Ein Zwischenablage-Manager bewahrt auf, was du kopierst, damit du es später wieder einfügen kannst. Auf Android unterscheiden sich diese Apps stärker, als es scheint – vor allem, weil Android einschränkt, wie Apps die Zwischenablage lesen dürfen. Das solltest du vor der Wahl prüfen.",
       "sections": [
@@ -765,7 +747,7 @@
           "h": "Wo Clipboard+ hineinpasst",
           "p": [
             "Clipboard+ (unsere App) speichert Texte und Bilder in einem durchsuchbaren Verlauf, mit Anheften, Snippets und Gruppen, einem schwebenden Panel über anderen Apps, einem Startbildschirm-Widget und einem Clipboard+-Eintrag im Textauswahlmenü. Das optionale automatische Speichern nutzt die Bedienungshilfen nur, um den Moment des Kopierens zu bemerken, überspringt als Passwort markierte Einträge und sendet nichts irgendwohin; ohne es speicherst du über die Blase, das Widget, das Auswahlmenü oder durch Öffnen der App.",
-            "Deine Einträge bleiben auf deinem Handy. Die App kann sich über dein eigenes Google Drive mit Clipboard+ for Windows synchronisieren – nie über einen CodeDAC-Server – und in eine Datei sichern. Sie ist kostenlos mit Werbung; Pro entfernt die Werbung und bringt unter anderem die PC-Synchronisierung."
+            "Deine Einträge bleiben auf deinem Handy. Die App kann sich über dein eigenes Google Drive mit Clipboard+ for Windows synchronisieren – nie über einen CodeDAC-Server – und in eine Datei sichern."
           ]
         }
       ],
@@ -824,9 +806,9 @@
           ]
         },
         {
-          "h": "Was gratis ist und was Pro bringt",
+          "h": "Bedingungen und eine schwebende Taste",
           "p": [
-            "Alle Drehmodi, Ausrichtung halten, Einmal drehen, Kacheln, Widgets und Verknüpfungen sind gratis, dazu 3 App-Regeln und ein kleines Werbebanner. Pro bringt unbegrenzte App-Regeln, Bedingungen, die die Ausrichtung automatisch ändern (beim Laden, mit Kopfhörern, einem Bluetooth-Gerät, im Auto- oder Tischdock, während eines Anrufs oder zu festen Zeiten), eine schwebende Dreh-Taste und keine Werbung."
+            "Rotate+ bietet außerdem so viele App-Regeln, wie du brauchst, Bedingungen, die die Ausrichtung automatisch ändern (beim Laden, mit Kopfhörern, einem Bluetooth-Gerät, im Auto- oder Tischdock, während eines Anrufs oder zu festen Zeiten), und eine schwebende Dreh-Taste über anderen Apps."
           ]
         }
       ],
