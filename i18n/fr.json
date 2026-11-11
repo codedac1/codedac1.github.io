@@ -465,6 +465,36 @@
         }
       ]
     },
+    "floatprompter": {
+      "name": "FloatPrompter+",
+      "tag": "Prompteur",
+      "seo": "Prompteur flottant pour la caméra",
+      "desc": "Un prompteur qui flotte au-dessus des apps photo et de live, avec mode miroir, télécommande et suivi vocal.",
+      "tagline": "Lisez votre texte en regardant l’objectif. FloatPrompter+ flotte au-dessus de n’importe quelle app photo ou de live, juste sous la caméra.",
+      "long": "FloatPrompter+ est un prompteur qui flotte au-dessus des autres apps : votre regard reste sur l’objectif pendant que vous lisez. Ouvrez votre app photo ou de live et placez la fenêtre du texte juste sous la caméra. Faites glisser le coin pour la redimensionner, repliez-la en petite bulle quand vous avez besoin de l’écran et rendez le fond aussi transparent que vous le souhaitez. Le réglage de vitesse indique le temps restant à la vitesse actuelle, et un compte à rebours vous laisse un instant avant que le texte ne défile. Pour une vitre de prompteur, le plein écran propose un mode miroir horizontal ou vertical, et vous pouvez le piloter avec une télécommande Bluetooth ou un clavier. Vos textes peuvent être aussi longs et aussi nombreux que nécessaire : tapez-les, importez un PDF, un document Word, des notes du présentateur PowerPoint ou un fichier texte, ou partagez du texte depuis une autre app. Vous pouvez aussi filmer dans l’app avec le texte à l’écran, et le suivi vocal (Android 13 ou plus) fait défiler le texte au rythme de votre voix. Aucun compte : vos textes restent sur votre téléphone.",
+      "features": [
+        "Fenêtre flottante au-dessus de toute app photo ou de live : placez-la juste sous l’objectif, redimensionnez-la, repliez-la en bulle et réglez la transparence du fond",
+        "Autant de textes que vous voulez, de toute longueur — saisis à la main, importés depuis un PDF, Word (.docx), des notes du présentateur PowerPoint (.pptx) ou un fichier texte, ou partagés depuis une autre app",
+        "Réglage de vitesse avec le temps restant à la vitesse actuelle, compte à rebours, taille du texte, couleurs du texte et du fond",
+        "Plein écran avec mode miroir horizontal ou vertical pour vitre de prompteur, piloté par télécommande Bluetooth ou clavier",
+        "Filmez dans l’app avec votre texte à l’écran — la vidéo est enregistrée dans la galerie du téléphone",
+        "Suivi vocal : le texte défile pendant que vous parlez, en plein écran et pendant l’enregistrement dans l’app (Android 13 ou plus)"
+      ],
+      "faq": [
+        {
+          "q": "Puis-je l’utiliser au-dessus de mon app photo ou de live ?",
+          "a": "Oui. Autorisez une fois FloatPrompter+ à s’afficher par-dessus les autres apps, lancez un texte dans la fenêtre flottante, puis passez à votre app photo ou de live. La fenêtre reste au premier plan : glissez-la juste sous l’objectif, redimensionnez-la par le coin, repliez-la en bulle et rendez le fond plus transparent pour continuer à voir ce que vous filmez."
+        },
+        {
+          "q": "Comment fonctionne le suivi vocal ?",
+          "a": "Touchez le micro en plein écran ou pendant l’enregistrement dans l’app : le texte défile jusqu’à l’endroit où vous en êtes, au fil de votre voix. Il utilise la reconnaissance vocale du téléphone (Android 13 ou plus) ; si votre langue n’est pas encore installée, l’app propose de la télécharger. Le suivi vocal n’est pas disponible dans la fenêtre flottante : quand une autre app photo enregistre, Android ne donne le micro qu’à cette app. Utilisez alors le réglage de vitesse."
+        },
+        {
+          "q": "Où sont conservés mes textes et mes vidéos ?",
+          "a": "Sur votre téléphone. Pas de compte ni d’inscription, et vos textes ne sont envoyés nulle part. Les vidéos filmées dans l’app sont enregistrées dans la galerie du téléphone, dans un dossier FloatPrompter. Les fichiers importés (PDF, Word, PowerPoint ou texte) sont lus sur le téléphone, et seul leur texte est conservé."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Presse-papiers",

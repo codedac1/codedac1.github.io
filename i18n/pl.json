@@ -465,6 +465,36 @@
         }
       ]
     },
+    "floatprompter": {
+      "name": "FloatPrompter+",
+      "tag": "Prompter",
+      "seo": "Pływający prompter nad kamerą",
+      "desc": "Teleprompter, który unosi się nad aplikacjami aparatu i transmisji na żywo. Tryb lustra, pilot i podążanie za głosem.",
+      "tagline": "Czytaj tekst, patrząc prosto w obiektyw. FloatPrompter+ unosi się nad dowolną aplikacją aparatu lub transmisji, tuż pod obiektywem.",
+      "long": "FloatPrompter+ to teleprompter, który unosi się nad innymi aplikacjami, więc podczas czytania wzrok zostaje na obiektywie. Otwórz aplikację aparatu lub transmisji na żywo i przesuń okno z tekstem tuż pod obiektyw. Przeciągnij róg, aby zmienić rozmiar, zwiń okno do małego bąbelka, gdy potrzebujesz ekranu, i ustaw tło tak przezroczyste, jak chcesz. Regulacja prędkości pokazuje, ile czasu zostało przy obecnej prędkości, a odliczanie daje chwilę, zanim tekst ruszy. Do szyby promptera pełny ekran ma tryb lustra w poziomie lub w pionie, a sterować można pilotem Bluetooth lub klawiaturą. Tekstów może być tyle i mogą być tak długie, jak potrzebujesz: wpisz je, zaimportuj PDF, dokument Word, notatki prelegenta z PowerPointa lub plik tekstowy albo udostępnij tekst z innej aplikacji. Możesz też nagrywać wideo w aplikacji z tekstem na ekranie, a podążanie za głosem (Android 13 i nowsze) przewija tekst, gdy mówisz. Nie ma konta — teksty zostają w telefonie.",
+      "features": [
+        "Pływające okno nad każdą aplikacją aparatu lub transmisji: ustaw je tuż pod obiektywem, zmień rozmiar, zwiń do bąbelka i ustaw przezroczystość tła",
+        "Dowolna liczba tekstów o dowolnej długości — wpisz je, zaimportuj PDF, Word (.docx), notatki prelegenta z PowerPointa (.pptx) lub pliki tekstowe albo udostępnij tekst z innej aplikacji",
+        "Regulacja prędkości z czasem pozostałym przy obecnej prędkości, odliczanie, rozmiar tekstu oraz kolory tekstu i tła",
+        "Pełny ekran z trybem lustra w poziomie lub w pionie do szyby promptera, sterowany pilotem Bluetooth lub klawiaturą",
+        "Nagrywanie wideo w aplikacji z tekstem na ekranie — zapis w galerii telefonu",
+        "Podążanie za głosem: tekst przewija się, gdy mówisz, na pełnym ekranie i podczas nagrywania w aplikacji (Android 13 i nowsze)"
+      ],
+      "faq": [
+        {
+          "q": "Czy mogę używać go nad aplikacją aparatu lub transmisji?",
+          "a": "Tak. Raz pozwól FloatPrompter+ wyświetlać się nad innymi aplikacjami, uruchom tekst w pływającym oknie i przejdź do aplikacji aparatu lub transmisji. Okno zostaje na wierzchu: przeciągnij je tuż pod obiektyw, zmień rozmiar za róg, zwiń do bąbelka i zwiększ przezroczystość tła, żeby widzieć, co nagrywasz."
+        },
+        {
+          "q": "Jak działa podążanie za głosem?",
+          "a": "Dotknij mikrofonu na pełnym ekranie lub podczas nagrywania w aplikacji, a tekst będzie się przewijał do miejsca, w którym jesteś, gdy mówisz. Korzysta z rozpoznawania mowy w telefonie (Android 13 i nowsze); jeśli twojego języka nie ma jeszcze w telefonie, aplikacja zaproponuje pobranie. W pływającym oknie ta funkcja nie działa: gdy nagrywa inna aplikacja aparatu, Android oddaje mikrofon tylko jej. Użyj wtedy regulacji prędkości."
+        },
+        {
+          "q": "Gdzie są zapisywane moje teksty i nagrania?",
+          "a": "W telefonie. Nie ma konta ani rejestracji, a teksty nie są nigdzie wysyłane. Filmy nagrane w aplikacji trafiają do galerii telefonu, do folderu FloatPrompter. Importowane pliki (PDF, Word, PowerPoint lub tekst) są odczytywane w telefonie i zachowywany jest tylko ich tekst."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Schowek",

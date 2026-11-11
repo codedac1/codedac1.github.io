@@ -465,6 +465,36 @@
         }
       ]
     },
+    "floatprompter": {
+      "name": "FloatPrompter+",
+      "tag": "Teleprompter",
+      "seo": "Zwevende teleprompter voor je camera",
+      "desc": "Een teleprompter die boven camera- en livestream-apps zweeft, met spiegelmodus, afstandsbediening en stem volgen.",
+      "tagline": "Lees je tekst terwijl je in de lens kijkt. FloatPrompter+ zweeft boven elke camera- of livestream-app, vlak onder de lens.",
+      "long": "FloatPrompter+ is een teleprompter die boven andere apps zweeft, zodat je blik op de lens blijft terwijl je leest. Open je camera- of livestream-app en zet het tekstvenster vlak onder de lens. Sleep de hoek om de grootte te wijzigen, vouw het in tot een kleine bel als je het scherm nodig hebt en maak de achtergrond zo doorzichtig als je wilt. De snelheidsregeling laat zien hoeveel tijd er bij de huidige snelheid over is, en een aftelling geeft je even de tijd voordat de tekst gaat lopen. Voor teleprompterglas heeft het volledige scherm een horizontale of verticale spiegelmodus, en je bedient het met een Bluetooth-afstandsbediening of toetsenbord. Teksten mogen zo lang en zo talrijk zijn als je nodig hebt: typ ze, importeer een pdf, Word-document, PowerPoint-sprekersnotities of tekstbestand, of deel tekst vanuit een andere app. Je kunt ook in de app filmen met je tekst in beeld, en stem volgen (Android 13 en nieuwer) laat de tekst meescrollen terwijl je praat. Er is geen account: je teksten blijven op je telefoon.",
+      "features": [
+        "Zwevend venster boven elke camera- of livestream-app: zet het vlak onder de lens, wijzig de grootte, vouw het in tot een bel en stel de transparantie van de achtergrond in",
+        "Zoveel teksten als je wilt, van elke lengte — typ ze, importeer pdf, Word (.docx), PowerPoint-sprekersnotities (.pptx) of tekstbestanden, of deel tekst vanuit een andere app",
+        "Snelheidsregeling met de resterende tijd bij de huidige snelheid, aftellen, tekstgrootte en kleuren voor tekst en achtergrond",
+        "Volledig scherm met horizontale of verticale spiegelmodus voor teleprompterglas, te bedienen met Bluetooth-afstandsbediening of toetsenbord",
+        "Video opnemen in de app met je tekst in beeld — bewaard in de galerij van je telefoon",
+        "Stem volgen: de tekst scrolt mee terwijl je praat, op volledig scherm en bij opnemen in de app (Android 13 en nieuwer)"
+      ],
+      "faq": [
+        {
+          "q": "Kan ik het boven mijn camera- of livestream-app gebruiken?",
+          "a": "Ja. Sta FloatPrompter+ één keer toe om boven andere apps te verschijnen, start een tekst in het zwevende venster en ga dan naar je camera- of live-app. Het venster blijft bovenop: sleep het vlak onder de lens, wijzig de grootte via de hoek, vouw het in tot een bel en maak de achtergrond doorzichtiger zodat je blijft zien wat je filmt."
+        },
+        {
+          "q": "Hoe werkt stem volgen?",
+          "a": "Tik op de microfoon op volledig scherm of bij opnemen in de app, en de tekst scrolt mee naar de plek waar je bent terwijl je praat. Het gebruikt de spraakherkenning van je telefoon (Android 13 en nieuwer); staat je taal nog niet op de telefoon, dan biedt de app aan om die te downloaden. In het zwevende venster is stem volgen niet beschikbaar: terwijl een andere camera-app opneemt, geeft Android de microfoon alleen aan die app. Gebruik daar de snelheidsregeling."
+        },
+        {
+          "q": "Waar worden mijn teksten en opnames bewaard?",
+          "a": "Op je telefoon. Er is geen account of aanmelding, en je teksten worden nergens naartoe gestuurd. Video’s die je in de app opneemt, komen in de galerij van je telefoon, in een map FloatPrompter. Geïmporteerde bestanden (pdf, Word, PowerPoint of tekst) worden op je telefoon gelezen en alleen de tekst wordt bewaard."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Klembord",

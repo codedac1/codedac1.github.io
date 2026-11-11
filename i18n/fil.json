@@ -465,6 +465,36 @@
         }
       ]
     },
+    "floatprompter": {
+      "name": "FloatPrompter+",
+      "tag": "Teleprompter",
+      "seo": "Floating Teleprompter sa Camera",
+      "desc": "Teleprompter na lumulutang sa ibabaw ng camera at live app, may mirror mode, remote control at Sundan ang boses.",
+      "tagline": "Basahin ang script habang nakatingin sa lens. Lumulutang ang FloatPrompter+ sa ibabaw ng kahit anong camera o live app, sa ilalim mismo ng lens.",
+      "long": "Ang FloatPrompter+ ay teleprompter na lumulutang sa ibabaw ng ibang app, kaya nananatili sa lens ang tingin mo habang nagbabasa. Buksan ang camera o live app mo at ilipat ang script window sa ilalim mismo ng lens. Hilahin ang sulok para baguhin ang laki, itiklop ito sa maliit na bubble kapag kailangan mo ang screen, at gawing kasing-transparent ng gusto mo ang background. Ipinapakita ng speed control kung gaano katagal pa ang natitira sa kasalukuyang bilis, at may countdown para may sandali ka bago gumalaw ang text. Para sa teleprompter glass, may horizontal o vertical na mirror mode ang full screen, at puwede itong kontrolin gamit ang Bluetooth remote o keyboard. Puwedeng kasinghaba at kasindami ng kailangan mo ang mga script: i-type, mag-import ng PDF, Word document, speaker notes ng PowerPoint o text file, o mag-share ng text mula sa ibang app. Puwede ka ring mag-record ng video sa loob ng app habang nasa screen ang script, at ang Sundan ang boses (Android 13 pataas) ay nag-i-scroll ng script habang nagsasalita ka. Walang account — nasa phone mo lang ang mga script.",
+      "features": [
+        "Floating window sa ibabaw ng kahit anong camera o live app: ilagay sa ilalim mismo ng lens, baguhin ang laki, itiklop sa bubble, i-adjust ang transparency ng background",
+        "Kahit ilang script, kahit gaano kahaba — i-type, mag-import ng PDF, Word (.docx), speaker notes ng PowerPoint (.pptx) o text file, o mag-share ng text mula sa ibang app",
+        "Speed control na nagpapakita ng natitirang oras sa kasalukuyang bilis, countdown, laki ng text, at kulay ng text at background",
+        "Full screen na may horizontal o vertical na mirror mode para sa teleprompter glass, kontrolado ng Bluetooth remote o keyboard",
+        "Mag-record ng video sa loob ng app habang nasa screen ang script — naka-save sa gallery ng phone",
+        "Sundan ang boses: nag-i-scroll ang script habang nagsasalita ka, sa full screen at sa pag-record sa loob ng app (Android 13 pataas)"
+      ],
+      "faq": [
+        {
+          "q": "Puwede ko ba itong gamitin sa ibabaw ng camera o live app ko?",
+          "a": "Oo. Payagan nang isang beses ang FloatPrompter+ na lumabas sa ibabaw ng ibang app, magsimula ng script sa floating window, saka lumipat sa camera o live app mo. Nananatili sa itaas ang window: hilahin sa ilalim mismo ng lens, baguhin ang laki mula sa sulok, itiklop sa bubble, at gawing mas transparent ang background para kita mo pa rin ang nire-record mo."
+        },
+        {
+          "q": "Paano gumagana ang Sundan ang boses?",
+          "a": "I-tap ang mikropono sa full screen o habang nagre-record sa loob ng app, at mag-i-scroll ang script hanggang sa binabasa mo habang nagsasalita ka. Ginagamit nito ang speech recognition ng phone mo (Android 13 pataas); kung wala pa sa phone ang wika mo, mag-aalok ang app na i-download ito. Hindi available ang Sundan ang boses sa floating window: habang nagre-record ang ibang camera app, sa app na iyon lang ibinibigay ng Android ang mikropono, kaya gamitin doon ang speed control."
+        },
+        {
+          "q": "Saan naka-save ang mga script at recording ko?",
+          "a": "Sa phone mo. Walang account o sign-up, at hindi ipinapadala kahit saan ang mga script mo. Ang mga video na ni-record sa app ay naka-save sa gallery ng phone, sa folder na FloatPrompter. Ang mga file na in-import mo (PDF, Word, PowerPoint o text) ay binabasa sa phone, at text lang nito ang itinatago bilang script."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Clipboard",

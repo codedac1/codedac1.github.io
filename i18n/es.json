@@ -465,6 +465,36 @@
         }
       ]
     },
+    "floatprompter": {
+      "name": "FloatPrompter+",
+      "tag": "Teleprompter",
+      "seo": "Teleprompter flotante para la cámara",
+      "desc": "Un teleprompter que flota sobre apps de cámara y de directos, con modo espejo, mando a distancia y seguir voz.",
+      "tagline": "Lee tu guion mirando al objetivo. FloatPrompter+ flota sobre cualquier app de cámara o de directos, justo debajo de la lente.",
+      "long": "FloatPrompter+ es un teleprompter que flota sobre otras apps, para que tu mirada siga en la lente mientras lees. Abre tu app de cámara o de directos y coloca la ventana del guion justo debajo de la lente. Arrastra la esquina para cambiar su tamaño, pliégala en una burbuja cuando necesites la pantalla y deja el fondo tan transparente como quieras. El control de velocidad muestra cuánto tiempo queda a la velocidad actual, y una cuenta atrás te da un momento antes de que el texto empiece a moverse. Para cristal de teleprompter, la pantalla completa tiene modo espejo horizontal o vertical, y puedes manejarla con un mando Bluetooth o un teclado. Los guiones pueden ser tan largos y tantos como necesites: escríbelos, importa un PDF, un documento de Word, las notas del orador de PowerPoint o un archivo de texto, o comparte texto desde otra app. También puedes grabar vídeo dentro de la app con el guion en pantalla, y Seguir voz (Android 13 o superior) hace avanzar el guion mientras hablas. No hay cuenta: tus guiones se quedan en tu móvil.",
+      "features": [
+        "Ventana flotante sobre cualquier app de cámara o de directos: colócala justo debajo de la lente, cambia su tamaño, pliégala en una burbuja y ajusta la transparencia del fondo",
+        "Todos los guiones que quieras, de cualquier longitud — escríbelos, importa PDF, Word (.docx), notas del orador de PowerPoint (.pptx) o archivos de texto, o comparte texto desde otra app",
+        "Control de velocidad con el tiempo restante a la velocidad actual, cuenta atrás, tamaño de letra y colores del texto y del fondo",
+        "Pantalla completa con modo espejo horizontal o vertical para cristal de teleprompter, con mando Bluetooth o teclado",
+        "Graba vídeo dentro de la app con el guion en pantalla — se guarda en la galería del móvil",
+        "Seguir voz: el guion avanza mientras hablas, en pantalla completa y al grabar en la app (Android 13 o superior)"
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo usarlo sobre mi app de cámara o de directos?",
+          "a": "Sí. Permite una vez que FloatPrompter+ se muestre sobre otras apps, inicia un guion en la ventana flotante y cambia a tu app de cámara o de directos. La ventana se queda encima: arrástrala justo debajo de la lente, cambia su tamaño desde la esquina, pliégala en una burbuja y haz el fondo más transparente para seguir viendo lo que grabas."
+        },
+        {
+          "q": "¿Cómo funciona Seguir voz?",
+          "a": "Toca el micrófono en pantalla completa o al grabar en la app y el guion avanzará hasta donde vas mientras hablas. Usa el reconocimiento de voz del móvil (Android 13 o superior); si tu idioma aún no está en el teléfono, la app te ofrece descargarlo. Seguir voz no está disponible en la ventana flotante: mientras otra app de cámara graba, Android solo le da el micrófono a esa app, así que ahí usa el control de velocidad."
+        },
+        {
+          "q": "¿Dónde se guardan mis guiones y mis grabaciones?",
+          "a": "En tu móvil. No hay cuenta ni registro, y tus guiones no se envían a ningún sitio. Los vídeos que grabas en la app se guardan en la galería del teléfono, en una carpeta FloatPrompter. Los archivos que importas (PDF, Word, PowerPoint o texto) se leen en el móvil y solo se conserva su texto como guion."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Portapapeles",

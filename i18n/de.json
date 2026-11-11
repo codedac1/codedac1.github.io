@@ -465,6 +465,36 @@
         }
       ]
     },
+    "floatprompter": {
+      "name": "FloatPrompter+",
+      "tag": "Teleprompter",
+      "seo": "Schwebender Teleprompter für die Kamera",
+      "desc": "Teleprompter, der über Kamera- und Livestream-Apps schwebt. Mit Spiegelmodus, Fernbedienung und Sprachfolge.",
+      "tagline": "Lies dein Skript und schau dabei in die Linse. FloatPrompter+ schwebt über jeder Kamera- oder Livestream-App, direkt unter dem Objektiv.",
+      "long": "FloatPrompter+ ist ein Teleprompter, der über anderen Apps schwebt – so bleibt dein Blick beim Lesen auf der Linse. Öffne deine Kamera- oder Livestream-App und schieb das Skriptfenster direkt unter das Objektiv. Zieh an der Ecke, um die Größe zu ändern, klapp es zur kleinen Blase ein, wenn du den Bildschirm brauchst, und mach den Hintergrund so durchsichtig, wie du möchtest. Der Tempo-Regler zeigt, wie viel Zeit beim aktuellen Tempo noch bleibt, und ein Countdown gibt dir einen Moment, bevor der Text losläuft. Für Teleprompter-Glas hat das Vollbild einen horizontalen oder vertikalen Spiegelmodus, gesteuert wird per Bluetooth-Fernbedienung oder Tastatur. Skripte dürfen so lang und so zahlreich sein, wie du willst: selbst tippen, PDF, Word, PowerPoint-Sprechernotizen oder Textdateien importieren oder Text aus einer anderen App teilen. Du kannst außerdem in der App filmen, während das Skript zu sehen ist, und die Sprachfolge (ab Android 13) scrollt mit, während du sprichst. Es gibt kein Konto – deine Skripte bleiben auf deinem Handy.",
+      "features": [
+        "Schwebendes Fenster über jeder Kamera- oder Livestream-App: direkt unter die Linse schieben, Größe ändern, zur Blase einklappen, Hintergrund-Transparenz einstellen",
+        "Beliebig viele Skripte in jeder Länge – selbst schreiben, PDF, Word (.docx), PowerPoint-Sprechernotizen (.pptx) oder Textdateien importieren oder Text aus einer anderen App teilen",
+        "Tempo-Regler mit Restzeit beim aktuellen Tempo, dazu Countdown, Schriftgröße sowie Text- und Hintergrundfarbe",
+        "Vollbild mit horizontalem oder vertikalem Spiegelmodus für Teleprompter-Glas, steuerbar per Bluetooth-Fernbedienung oder Tastatur",
+        "Video in der App aufnehmen, während das Skript angezeigt wird – gespeichert in der Galerie deines Handys",
+        "Sprachfolge: Das Skript scrollt mit, während du sprichst – im Vollbild und bei der Aufnahme in der App (ab Android 13)"
+      ],
+      "faq": [
+        {
+          "q": "Kann ich es über meiner Kamera- oder Livestream-App nutzen?",
+          "a": "Ja. Erlaube FloatPrompter+ einmal, über anderen Apps angezeigt zu werden, starte ein Skript im schwebenden Fenster und wechsle dann zu deiner Kamera- oder Live-App. Das Fenster bleibt oben: Zieh es direkt unter die Linse, ändere die Größe über die Ecke, klapp es zur Blase ein und mach den Hintergrund durchsichtiger, damit du siehst, was du filmst."
+        },
+        {
+          "q": "Wie funktioniert die Sprachfolge?",
+          "a": "Tippe im Vollbild oder bei der Aufnahme in der App auf das Mikrofon, dann scrollt das Skript beim Sprechen bis zu der Stelle, an der du gerade bist. Dafür wird die Spracherkennung deines Handys genutzt (ab Android 13); ist deine Sprache noch nicht auf dem Handy, bietet die App den Download an. Im schwebenden Fenster gibt es keine Sprachfolge: Während eine andere Kamera-App aufnimmt, gibt Android das Mikrofon nur dieser App. Nutze dort den Tempo-Regler."
+        },
+        {
+          "q": "Wo werden meine Skripte und Aufnahmen gespeichert?",
+          "a": "Auf deinem Handy. Es gibt kein Konto und keine Anmeldung, und deine Skripte werden nirgendwohin gesendet. Videos, die du in der App aufnimmst, landen in der Galerie im Ordner FloatPrompter. Importierte Dateien – PDF, Word, PowerPoint oder Text – werden auf dem Handy gelesen, und nur ihr Text wird als Skript behalten."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Zwischenablage",

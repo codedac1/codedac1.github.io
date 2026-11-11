@@ -465,6 +465,36 @@
         }
       ]
     },
+    "floatprompter": {
+      "name": "FloatPrompter+",
+      "tag": "Teleprompter",
+      "seo": "Floating Teleprompter for Your Camera",
+      "desc": "A teleprompter that floats over camera and live-streaming apps, with mirror mode, remote control and voice follow.",
+      "tagline": "Read your script while looking straight into the lens. FloatPrompter+ floats over any camera or live-streaming app, right under the lens.",
+      "long": "FloatPrompter+ is a teleprompter that floats on top of other apps, so your eyes stay on the lens while you read. Open your camera or live-streaming app and move the script window right under the lens. Drag the corner to resize it, fold it into a small bubble when you need the screen, and make the background as see-through as you like. The speed control shows how much time is left at the current speed, and a countdown gives you a moment before the text starts to move. For teleprompter glass, full screen has a horizontal or vertical mirror mode, and you can control it with a Bluetooth remote or a keyboard. Scripts can be as long and as many as you need: type them, import a PDF, Word document, PowerPoint speaker notes or a text file, or share text from another app. You can also record video inside the app with the script on screen, and voice follow (Android 13 and later) scrolls the script along as you speak. There is no account — your scripts stay on your phone.",
+      "features": [
+        "Floating window over any camera or live-streaming app: place it right under the lens, resize it, fold it into a bubble and set the background transparency",
+        "As many scripts as you like, of any length — type them, import PDF, Word (.docx), PowerPoint speaker notes (.pptx) or text files, or share text from another app",
+        "Speed control that shows the time left at the current speed, plus a countdown, text size and text and background colors",
+        "Full screen with horizontal or vertical mirror mode for teleprompter glass, controlled with a Bluetooth remote or keyboard",
+        "Record video inside the app with your script on screen — saved to your phone’s gallery",
+        "Voice follow: the script scrolls along as you speak, in full screen and in in-app recording (Android 13 and later)"
+      ],
+      "faq": [
+        {
+          "q": "Can I use it over my camera or a live-streaming app?",
+          "a": "Yes. Allow FloatPrompter+ to appear on top of other apps once, start a script in the floating window, then switch to your camera or live app. The window stays on top: drag it right under the lens, resize it from the corner, fold it into a bubble, and make the background more transparent so you can still see what you are filming."
+        },
+        {
+          "q": "How does voice follow work?",
+          "a": "Tap the microphone in full screen or in in-app recording, and the script scrolls to where you are as you speak. It uses your phone’s speech recognition (Android 13 and later); if your language is not on the phone yet, the app offers to download it. Voice follow is not available in the floating window: while another camera app is recording, Android gives the microphone to that app only, so use the speed control there."
+        },
+        {
+          "q": "Where are my scripts and recordings kept?",
+          "a": "On your phone. There is no account or sign-up, and your scripts are not sent anywhere. Videos you record in the app are saved to your phone’s gallery, in a FloatPrompter folder. Files you import — PDF, Word, PowerPoint or text — are read on your phone, and only their text is kept as a script."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Clipboard",

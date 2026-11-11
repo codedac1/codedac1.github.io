@@ -465,6 +465,36 @@
         }
       ]
     },
+    "floatprompter": {
+      "name": "FloatPrompter+",
+      "tag": "Teleprompter",
+      "seo": "Teleprompter Melayang di Atas Kamera",
+      "desc": "Teleprompter yang melayang di atas aplikasi kamera dan live, dengan mode cermin, remote, dan Ikuti suara.",
+      "tagline": "Baca naskah sambil menatap lensa. FloatPrompter+ melayang di atas aplikasi kamera atau live apa pun, tepat di bawah lensa.",
+      "long": "FloatPrompter+ adalah teleprompter yang melayang di atas aplikasi lain, jadi pandanganmu tetap ke lensa saat membaca. Buka aplikasi kamera atau live, lalu geser jendela naskah tepat ke bawah lensa. Tarik sudutnya untuk mengubah ukuran, lipat jadi gelembung kecil saat butuh layar, dan buat latarnya setransparan yang kamu mau. Pengatur kecepatan menunjukkan sisa waktu pada kecepatan saat ini, dan hitung mundur memberi jeda sebentar sebelum teks mulai bergerak. Untuk kaca teleprompter, layar penuh punya mode cermin horizontal atau vertikal, dan bisa dikendalikan dengan remote Bluetooth atau keyboard. Naskah boleh sepanjang dan sebanyak yang kamu perlukan: ketik sendiri, impor PDF, dokumen Word, catatan pembicara PowerPoint, atau file teks, atau bagikan teks dari aplikasi lain. Kamu juga bisa merekam video di dalam aplikasi dengan naskah di layar, dan Ikuti suara (Android 13 ke atas) menggulir naskah saat kamu bicara. Tanpa akun — naskah tetap di ponselmu.",
+      "features": [
+        "Jendela melayang di atas aplikasi kamera atau live apa pun: taruh tepat di bawah lensa, ubah ukuran, lipat jadi gelembung, atur transparansi latar",
+        "Naskah sebanyak yang kamu mau, sepanjang apa pun — ketik sendiri, impor PDF, Word (.docx), catatan pembicara PowerPoint (.pptx), atau file teks, atau bagikan teks dari aplikasi lain",
+        "Pengatur kecepatan dengan sisa waktu pada kecepatan saat ini, hitung mundur, ukuran teks, serta warna teks dan latar",
+        "Layar penuh dengan mode cermin horizontal atau vertikal untuk kaca teleprompter, dikendalikan dengan remote Bluetooth atau keyboard",
+        "Rekam video di dalam aplikasi dengan naskah di layar — tersimpan di galeri ponsel",
+        "Ikuti suara: naskah bergulir saat kamu bicara, di layar penuh dan saat merekam di aplikasi (Android 13 ke atas)"
+      ],
+      "faq": [
+        {
+          "q": "Bisakah dipakai di atas aplikasi kamera atau live saya?",
+          "a": "Bisa. Izinkan FloatPrompter+ tampil di atas aplikasi lain sekali saja, mulai naskah di jendela melayang, lalu pindah ke aplikasi kamera atau live. Jendelanya tetap di atas: geser tepat ke bawah lensa, ubah ukuran dari sudut, lipat jadi gelembung, dan buat latarnya lebih transparan supaya yang kamu rekam tetap terlihat."
+        },
+        {
+          "q": "Bagaimana cara kerja Ikuti suara?",
+          "a": "Ketuk mikrofon di layar penuh atau saat merekam di aplikasi, lalu naskah akan bergulir ke bagian yang sedang kamu baca seiring kamu bicara. Fitur ini memakai pengenalan suara ponsel (Android 13 ke atas); jika bahasamu belum ada di ponsel, aplikasi akan menawarkan untuk mengunduhnya. Ikuti suara tidak tersedia di jendela melayang: saat aplikasi kamera lain merekam, Android hanya memberikan mikrofon ke aplikasi itu, jadi gunakan pengatur kecepatan di sana."
+        },
+        {
+          "q": "Di mana naskah dan rekaman saya disimpan?",
+          "a": "Di ponselmu. Tidak ada akun atau pendaftaran, dan naskah tidak dikirim ke mana pun. Video yang kamu rekam di aplikasi tersimpan di galeri ponsel, di folder FloatPrompter. File yang kamu impor (PDF, Word, PowerPoint, atau teks) dibaca di ponsel, dan hanya teksnya yang disimpan sebagai naskah."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Clipboard",

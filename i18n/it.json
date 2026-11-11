@@ -465,6 +465,36 @@
         }
       ]
     },
+    "floatprompter": {
+      "name": "FloatPrompter+",
+      "tag": "Teleprompter",
+      "seo": "Teleprompter fluttuante per la fotocamera",
+      "desc": "Un teleprompter (gobbo) che fluttua sopra le app fotocamera e di dirette, con modalità specchio, telecomando e Segui voce.",
+      "tagline": "Leggi il testo guardando l’obiettivo. FloatPrompter+ fluttua sopra qualsiasi app fotocamera o di dirette, proprio sotto la lente.",
+      "long": "FloatPrompter+ è un teleprompter che fluttua sopra le altre app, così mentre leggi lo sguardo resta sull’obiettivo. Apri la tua app fotocamera o di dirette e sposta la finestra del testo proprio sotto la lente. Trascina l’angolo per ridimensionarla, riducila a una piccola bolla quando ti serve lo schermo e rendi lo sfondo trasparente quanto vuoi. La regolazione della velocità mostra quanto tempo resta alla velocità attuale, e un conto alla rovescia ti lascia un attimo prima che il testo inizi a scorrere. Per il vetro da teleprompter, lo schermo intero ha una modalità specchio orizzontale o verticale, e puoi comandarlo con un telecomando Bluetooth o una tastiera. I testi possono essere lunghi e numerosi quanto ti serve: scrivili, importa un PDF, un documento Word, le note del relatore di PowerPoint o un file di testo, oppure condividi testo da un’altra app. Puoi anche registrare video nell’app con il testo sullo schermo, e Segui voce (Android 13 o superiore) fa scorrere il testo mentre parli. Nessun account: i testi restano sul tuo telefono.",
+      "features": [
+        "Finestra fluttuante sopra qualsiasi app fotocamera o di dirette: mettila proprio sotto la lente, ridimensionala, riducila a bolla e regola la trasparenza dello sfondo",
+        "Tutti i testi che vuoi, di qualsiasi lunghezza — scrivili, importa PDF, Word (.docx), note del relatore di PowerPoint (.pptx) o file di testo, o condividi testo da un’altra app",
+        "Regolazione della velocità con il tempo rimanente alla velocità attuale, conto alla rovescia, dimensione del testo e colori di testo e sfondo",
+        "Schermo intero con modalità specchio orizzontale o verticale per vetro da teleprompter, con telecomando Bluetooth o tastiera",
+        "Registra video nell’app con il testo sullo schermo — salvato nella galleria del telefono",
+        "Segui voce: il testo scorre mentre parli, a schermo intero e durante la registrazione nell’app (Android 13 o superiore)"
+      ],
+      "faq": [
+        {
+          "q": "Posso usarlo sopra la mia app fotocamera o di dirette?",
+          "a": "Sì. Consenti una volta a FloatPrompter+ di apparire sopra le altre app, avvia un testo nella finestra fluttuante e passa all’app fotocamera o di dirette. La finestra resta in primo piano: trascinala proprio sotto la lente, ridimensionala dall’angolo, riducila a bolla e rendi lo sfondo più trasparente per continuare a vedere ciò che stai riprendendo."
+        },
+        {
+          "q": "Come funziona Segui voce?",
+          "a": "Tocca il microfono a schermo intero o durante la registrazione nell’app e il testo scorre fino al punto in cui sei mentre parli. Usa il riconoscimento vocale del telefono (Android 13 o superiore); se la tua lingua non è ancora sul telefono, l’app ti propone di scaricarla. Segui voce non è disponibile nella finestra fluttuante: mentre un’altra app fotocamera registra, Android dà il microfono solo a quell’app, quindi lì usa la regolazione della velocità."
+        },
+        {
+          "q": "Dove vengono salvati i miei testi e le registrazioni?",
+          "a": "Sul tuo telefono. Non ci sono account né registrazioni, e i testi non vengono inviati da nessuna parte. I video registrati nell’app finiscono nella galleria del telefono, in una cartella FloatPrompter. I file importati (PDF, Word, PowerPoint o testo) vengono letti sul telefono e se ne conserva solo il testo."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Appunti",

@@ -465,6 +465,36 @@
         }
       ]
     },
+    "floatprompter": {
+      "name": "FloatPrompter+",
+      "tag": "Teleprompter",
+      "seo": "Teleprompter Terapung di Atas Kamera",
+      "desc": "Teleprompter yang terapung di atas apl kamera dan siaran langsung, dengan mod cermin, alat kawalan jauh dan Ikut suara.",
+      "tagline": "Baca skrip sambil memandang kanta. FloatPrompter+ terapung di atas mana-mana apl kamera atau siaran langsung, betul-betul di bawah kanta.",
+      "long": "FloatPrompter+ ialah teleprompter yang terapung di atas apl lain, jadi pandangan anda kekal pada kanta semasa membaca. Buka apl kamera atau siaran langsung, kemudian alihkan tetingkap skrip betul-betul ke bawah kanta. Seret sudutnya untuk mengubah saiz, lipat jadi gelembung kecil apabila anda perlukan skrin, dan jadikan latar setelus yang anda mahu. Kawalan kelajuan menunjukkan baki masa pada kelajuan semasa, dan kiraan detik memberi anda sedikit masa sebelum teks mula bergerak. Untuk kaca teleprompter, skrin penuh mempunyai mod cermin mendatar atau menegak, dan boleh dikawal dengan alat kawalan jauh Bluetooth atau papan kekunci. Skrip boleh sepanjang dan sebanyak yang anda perlukan: taip sendiri, import PDF, dokumen Word, nota penceramah PowerPoint atau fail teks, atau kongsi teks dari apl lain. Anda juga boleh merakam video dalam apl dengan skrip pada skrin, dan Ikut suara (Android 13 dan ke atas) menatal skrip semasa anda bercakap. Tiada akaun — skrip kekal dalam telefon anda.",
+      "features": [
+        "Tetingkap terapung di atas mana-mana apl kamera atau siaran langsung: letak betul-betul di bawah kanta, ubah saiz, lipat jadi gelembung, laraskan ketelusan latar",
+        "Seberapa banyak skrip yang anda mahu, sepanjang mana pun — taip sendiri, import PDF, Word (.docx), nota penceramah PowerPoint (.pptx) atau fail teks, atau kongsi teks dari apl lain",
+        "Kawalan kelajuan dengan baki masa pada kelajuan semasa, kiraan detik, saiz teks serta warna teks dan latar",
+        "Skrin penuh dengan mod cermin mendatar atau menegak untuk kaca teleprompter, dikawal dengan alat kawalan jauh Bluetooth atau papan kekunci",
+        "Rakam video dalam apl dengan skrip pada skrin — disimpan dalam galeri telefon",
+        "Ikut suara: skrip menatal semasa anda bercakap, dalam skrin penuh dan semasa merakam dalam apl (Android 13 dan ke atas)"
+      ],
+      "faq": [
+        {
+          "q": "Bolehkah saya menggunakannya di atas apl kamera atau siaran langsung?",
+          "a": "Boleh. Benarkan FloatPrompter+ dipaparkan di atas apl lain sekali sahaja, mulakan skrip dalam tetingkap terapung, kemudian beralih ke apl kamera atau siaran langsung. Tetingkap kekal di atas: seret betul-betul ke bawah kanta, ubah saiz dari sudut, lipat jadi gelembung, dan jadikan latar lebih telus supaya anda masih nampak apa yang dirakam."
+        },
+        {
+          "q": "Bagaimanakah Ikut suara berfungsi?",
+          "a": "Ketik mikrofon dalam skrin penuh atau semasa merakam dalam apl, dan skrip akan menatal ke bahagian yang sedang anda baca semasa anda bercakap. Ia menggunakan pengecaman suara telefon (Android 13 dan ke atas); jika bahasa anda belum ada dalam telefon, apl akan menawarkan untuk memuat turunnya. Ikut suara tidak tersedia dalam tetingkap terapung: semasa apl kamera lain merakam, Android hanya memberikan mikrofon kepada apl itu, jadi gunakan kawalan kelajuan di situ."
+        },
+        {
+          "q": "Di manakah skrip dan rakaman saya disimpan?",
+          "a": "Dalam telefon anda. Tiada akaun atau pendaftaran, dan skrip anda tidak dihantar ke mana-mana. Video yang dirakam dalam apl disimpan dalam galeri telefon, dalam folder FloatPrompter. Fail yang diimport (PDF, Word, PowerPoint atau teks) dibaca dalam telefon, dan hanya teksnya disimpan sebagai skrip."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Papan Keratan",

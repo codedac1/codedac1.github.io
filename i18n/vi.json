@@ -465,6 +465,36 @@
         }
       ]
     },
+    "floatprompter": {
+      "name": "FloatPrompter+",
+      "tag": "Máy nhắc chữ",
+      "seo": "Máy nhắc chữ nổi trên camera",
+      "desc": "Máy nhắc chữ nổi trên ứng dụng camera và livestream, có chế độ gương, điều khiển từ xa và theo giọng nói.",
+      "tagline": "Đọc kịch bản trong khi nhìn thẳng vào ống kính. FloatPrompter+ nổi trên mọi ứng dụng camera hoặc livestream, ngay dưới ống kính.",
+      "long": "FloatPrompter+ là máy nhắc chữ nổi trên các ứng dụng khác, để ánh mắt bạn luôn hướng vào ống kính khi đọc. Mở ứng dụng camera hoặc livestream rồi đưa cửa sổ kịch bản đến ngay dưới ống kính. Kéo góc để đổi kích thước, thu gọn thành bong bóng nhỏ khi cần màn hình và chỉnh nền trong suốt tùy ý. Phần chỉnh tốc độ cho biết còn bao nhiêu thời gian ở tốc độ hiện tại, và đếm ngược cho bạn một chút chuẩn bị trước khi chữ bắt đầu chạy. Với kính nhắc chữ, chế độ toàn màn hình có gương ngang hoặc dọc, và bạn có thể điều khiển bằng remote Bluetooth hoặc bàn phím. Kịch bản dài bao nhiêu, nhiều bao nhiêu cũng được: tự gõ, nhập PDF, tài liệu Word, ghi chú người thuyết trình PowerPoint hoặc tệp văn bản, hay chia sẻ chữ từ ứng dụng khác. Bạn cũng có thể quay video ngay trong ứng dụng với kịch bản trên màn hình, còn theo giọng nói (Android 13 trở lên) cuộn kịch bản theo lời bạn nói. Không cần tài khoản — kịch bản chỉ ở trên điện thoại của bạn.",
+      "features": [
+        "Cửa sổ nổi trên mọi ứng dụng camera hoặc livestream: đặt ngay dưới ống kính, đổi kích thước, thu gọn thành bong bóng, chỉnh độ trong suốt của nền",
+        "Bao nhiêu kịch bản cũng được, dài bao nhiêu cũng được — tự gõ, nhập PDF, Word (.docx), ghi chú người thuyết trình PowerPoint (.pptx) hoặc tệp văn bản, hay chia sẻ chữ từ ứng dụng khác",
+        "Chỉnh tốc độ kèm thời gian còn lại ở tốc độ hiện tại, đếm ngược, cỡ chữ, màu chữ và màu nền",
+        "Toàn màn hình với chế độ gương ngang hoặc dọc cho kính nhắc chữ, điều khiển bằng remote Bluetooth hoặc bàn phím",
+        "Quay video ngay trong ứng dụng với kịch bản trên màn hình — lưu vào thư viện ảnh của điện thoại",
+        "Theo giọng nói: kịch bản cuộn theo lời bạn nói, ở toàn màn hình và khi quay trong ứng dụng (Android 13 trở lên)"
+      ],
+      "faq": [
+        {
+          "q": "Có dùng được trên ứng dụng camera hoặc livestream của tôi không?",
+          "a": "Có. Cho phép FloatPrompter+ hiển thị trên ứng dụng khác một lần, bắt đầu kịch bản trong cửa sổ nổi rồi chuyển sang ứng dụng camera hoặc livestream. Cửa sổ luôn nằm trên cùng: kéo đến ngay dưới ống kính, đổi kích thước bằng góc, thu gọn thành bong bóng và làm nền trong suốt hơn để vẫn thấy khung hình đang quay."
+        },
+        {
+          "q": "Theo giọng nói hoạt động thế nào?",
+          "a": "Chạm vào micro ở toàn màn hình hoặc khi quay trong ứng dụng, kịch bản sẽ cuộn đến đoạn bạn đang đọc theo lời bạn nói. Tính năng dùng nhận dạng giọng nói của điện thoại (Android 13 trở lên); nếu điện thoại chưa có ngôn ngữ của bạn, ứng dụng sẽ đề nghị tải về. Theo giọng nói không có trong cửa sổ nổi: khi ứng dụng camera khác đang quay, Android chỉ cho ứng dụng đó dùng micro, vì vậy hãy dùng chỉnh tốc độ."
+        },
+        {
+          "q": "Kịch bản và video đã quay được lưu ở đâu?",
+          "a": "Trên điện thoại của bạn. Không có tài khoản hay đăng ký, và kịch bản không được gửi đi đâu cả. Video quay trong ứng dụng được lưu vào thư viện ảnh của điện thoại, trong thư mục FloatPrompter. Tệp bạn nhập (PDF, Word, PowerPoint hoặc văn bản) được đọc ngay trên điện thoại, và chỉ giữ lại phần chữ làm kịch bản."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Bộ nhớ tạm",

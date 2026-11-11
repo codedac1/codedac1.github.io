@@ -465,6 +465,36 @@
         }
       ]
     },
+    "floatprompter": {
+      "name": "FloatPrompter+",
+      "tag": "Teleprompter",
+      "seo": "Kameranın üstünde yüzen teleprompter",
+      "desc": "Kamera ve canlı yayın uygulamalarının üstünde yüzen teleprompter. Ayna modu, kumanda ve ses takibi.",
+      "tagline": "Metninizi doğrudan lense bakarak okuyun. FloatPrompter+ her kamera veya canlı yayın uygulamasının üstünde, lensin hemen altında yüzer.",
+      "long": "FloatPrompter+, diğer uygulamaların üstünde yüzen bir teleprompter'dır; okurken gözünüz lenste kalır. Kamera veya canlı yayın uygulamanızı açın ve metin penceresini lensin hemen altına taşıyın. Boyutunu değiştirmek için köşesinden sürükleyin, ekrana ihtiyacınız olduğunda küçük bir baloncuğa katlayın ve arka planı istediğiniz kadar saydam yapın. Hız ayarı, mevcut hızda ne kadar süre kaldığını gösterir; geri sayım da metin akmaya başlamadan önce size bir an tanır. Teleprompter camı için tam ekranda yatay veya dikey ayna modu vardır ve Bluetooth kumanda ya da klavyeyle kontrol edebilirsiniz. Metinleriniz istediğiniz kadar uzun ve istediğiniz sayıda olabilir: kendiniz yazın, PDF, Word belgesi, PowerPoint konuşmacı notları veya metin dosyası içe aktarın ya da başka bir uygulamadan metin paylaşın. Metin ekrandayken uygulama içinde video da kaydedebilirsiniz; ses takibi (Android 13 ve üzeri) ise siz konuştukça metni kaydırır. Hesap yok; metinleriniz telefonunuzda kalır.",
+      "features": [
+        "Her kamera veya canlı yayın uygulamasının üstünde yüzen pencere: lensin hemen altına koyun, boyutunu değiştirin, baloncuğa katlayın, arka plan saydamlığını ayarlayın",
+        "İstediğiniz sayıda, her uzunlukta metin — kendiniz yazın, PDF, Word (.docx), PowerPoint konuşmacı notları (.pptx) veya metin dosyası içe aktarın ya da başka bir uygulamadan paylaşın",
+        "Mevcut hızda kalan süreyi gösteren hız ayarı, geri sayım, yazı boyutu, yazı ve arka plan renkleri",
+        "Teleprompter camı için yatay veya dikey ayna modlu tam ekran, Bluetooth kumanda veya klavyeyle kontrol",
+        "Metin ekrandayken uygulama içinde video kaydı — telefonun galerisine kaydedilir",
+        "Ses takibi: siz konuştukça metin kayar; tam ekranda ve uygulama içi kayıtta çalışır (Android 13 ve üzeri)"
+      ],
+      "faq": [
+        {
+          "q": "Kamera veya canlı yayın uygulamamın üstünde kullanabilir miyim?",
+          "a": "Evet. FloatPrompter+'ın diğer uygulamaların üstünde görünmesine bir kez izin verin, yüzen pencerede bir metin başlatın ve kamera ya da canlı yayın uygulamanıza geçin. Pencere üstte kalır: lensin hemen altına sürükleyin, köşesinden boyutunu değiştirin, baloncuğa katlayın ve çektiğiniz görüntüyü görmeye devam etmek için arka planı daha saydam yapın."
+        },
+        {
+          "q": "Ses takibi nasıl çalışır?",
+          "a": "Tam ekranda veya uygulama içi kayıtta mikrofona dokunun; siz konuştukça metin okuduğunuz yere kadar kayar. Telefonunuzun konuşma tanımasını kullanır (Android 13 ve üzeri); diliniz telefonda henüz yoksa uygulama indirmeyi önerir. Ses takibi yüzen pencerede kullanılamaz: başka bir kamera uygulaması kayıt yaparken Android mikrofonu yalnızca o uygulamaya verir. Orada hız ayarını kullanın."
+        },
+        {
+          "q": "Metinlerim ve kayıtlarım nerede saklanır?",
+          "a": "Telefonunuzda. Hesap veya kayıt yoktur ve metinleriniz hiçbir yere gönderilmez. Uygulamada kaydettiğiniz videolar telefonun galerisinde, FloatPrompter klasörüne kaydedilir. İçe aktardığınız dosyalar (PDF, Word, PowerPoint veya metin) telefonda okunur ve yalnızca metinleri saklanır."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Pano",

@@ -47,6 +47,12 @@
     "min": "10",
     "label": "Android 10+"
   },
+  "floatprompter": {
+    "os": "Android",
+    "api": 26,
+    "min": "8.0",
+    "label": "Android 8.0+"
+  },
   "photocleaner": {
     "os": "Android",
     "api": 29,
