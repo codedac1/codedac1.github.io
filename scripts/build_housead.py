@@ -282,5 +282,130 @@ def main():
     print("카탈로그 %d개 생성 -> %s" % (written, os.path.relpath(OUT_DIR, SITE)))
 
 
+# ---------------------------------------------------------------- Windows (2026-11-11)
+#
+# 윈도우 앱 6개의 설정 화면 '다른 CodeDAC Windows 앱' 카드용. 안드로이드 카탈로그(v1)와 같은 원칙 —
+# 목록·문구·가중치는 여기, 앱은 받아서 캐시하고 하나만 보여 준다(앱 코드: Data/housead_win/FamilyPromo.cs).
+# 안드로이드와 다른 점:
+#   - 아이콘은 PNG 96px(WPF 는 webp 를 기본 디코드하지 못한다).
+#   - 설치 여부는 패키지 패밀리 이름(pfn)으로 본다(%LOCALAPPDATA%\Packages\<pfn>).
+#   - 카드 제목·버튼 문구도 카탈로그가 준다(title/open) — 앱 6개 × 21개 언어 resx 를 늘리지 않으려고.
+#   - 이름은 안드로이드판 이름(apps.<counterpart>.name) — 윈도우 앱 안이라 'for Windows' 는 군더더기.
+WIN_OUT_DIR = os.path.join(SITE, "housead", "win1")
+WIN_ICON_PX = 96
+WIN_EXCLUDED = set()
+# 가중치 — 안드로이드처럼 설치당 수익 기준으로 시작. MS 매출은 Clipboard+ 가 대부분이고(애드온 $14.99),
+# FloatNote·ReadFocus 가 그다음. 4주 뒤(~12/9) GA4 housead(utm_content=<보낸 앱>) 클릭으로 다시 잡는다.
+WIN_WEIGHTS = {
+    "clipboardwin":    30,
+    "floatnotewin":    20,
+    "readfocuswin":    15,
+    "floattimerwin":   10,
+    "photocleanerwin":  5,
+    "floatcryptowin":   5,
+}
+# Microsoft Store 패키지 패밀리 이름(displaycatalog API 로 확인, 2026-11-11). 퍼블리셔 해시가 같다.
+WIN_PFN = {
+    "clipboardwin":    "CodeDAC.ClipboardbyCodeDAC_js6fvrdgbctgt",
+    "floatnotewin":    "CodeDAC.FloatNotebyCodeDAC_js6fvrdgbctgt",
+    "floattimerwin":   "CodeDAC.FloatTimerbyCodeDAC_js6fvrdgbctgt",
+    "readfocuswin":    "CodeDAC.ReadFocusbyCodeDAC_js6fvrdgbctgt",
+    "photocleanerwin": "CodeDAC.PhotoCleanerbyCodeDAC_js6fvrdgbctgt",
+    "floatcryptowin":  "CodeDAC.FloatCryptobyCodeDAC_js6fvrdgbctgt",
+}
+WIN_TEXT = {  # (카드 제목, 버튼)
+    "en": ("More CodeDAC apps for Windows", "View"),
+    "ko": ("CodeDAC의 다른 Windows 앱", "보기"),
+    "ja": ("CodeDAC のほかの Windows アプリ", "見る"),
+    "zh": ("CodeDAC 的其他 Windows 应用", "查看"),
+    "es": ("Más apps de CodeDAC para Windows", "Ver"),
+    "pt": ("Mais apps da CodeDAC para Windows", "Ver"),
+    "de": ("Weitere CodeDAC-Apps für Windows", "Ansehen"),
+    "fr": ("Autres applis CodeDAC pour Windows", "Voir"),
+    "it": ("Altre app CodeDAC per Windows", "Vedi"),
+    "ru": ("Другие приложения CodeDAC для Windows", "Открыть"),
+    "uk": ("Інші застосунки CodeDAC для Windows", "Відкрити"),
+    "pl": ("Inne aplikacje CodeDAC na Windows", "Zobacz"),
+    "nl": ("Meer CodeDAC-apps voor Windows", "Bekijken"),
+    "tr": ("Windows için diğer CodeDAC uygulamaları", "Göster"),
+    "ar": ("تطبيقات CodeDAC أخرى لنظام Windows", "عرض"),
+    "hi": ("Windows के लिए CodeDAC के और ऐप", "देखें"),
+    "th": ("แอป CodeDAC อื่นๆ สำหรับ Windows", "ดู"),
+    "vi": ("Ứng dụng CodeDAC khác cho Windows", "Xem"),
+    "id": ("Aplikasi CodeDAC lain untuk Windows", "Lihat"),
+    "ms": ("Aplikasi CodeDAC lain untuk Windows", "Lihat"),
+    "fil": ("Iba pang CodeDAC app para sa Windows", "Tingnan"),
+}
+MS_ID = re.compile(r"apps\.microsoft\.com/detail/([A-Z0-9]+)")
+
+
+def windows_apps():
+    with io.open(BASE_JSON, encoding="utf-8") as f:
+        base = json.load(f)
+    out = []
+    for app in base:
+        if app.get("platform") != "windows" or app["slug"] in WIN_EXCLUDED:
+            continue
+        m = MS_ID.search(app.get("store") or "")
+        if m and app["slug"] in WIN_PFN:
+            out.append((app["slug"], m.group(1), app.get("counterpart") or ""))
+    return out
+
+
+def build_win_icon(slug):
+    src = os.path.join(SRC_ICON_DIR, slug + ".png")
+    if not os.path.exists(src):
+        return None
+    im = Image.open(src).convert("RGBA").resize((WIN_ICON_PX, WIN_ICON_PX), Image.LANCZOS)
+    buf = io.BytesIO()
+    im.save(buf, "PNG", optimize=True)
+    data = buf.getvalue()
+    d = os.path.join(WIN_OUT_DIR, "icon")
+    os.makedirs(d, exist_ok=True)
+    out = os.path.join(d, slug + ".png")
+    if not (os.path.exists(out) and open(out, "rb").read() == data):
+        with open(out, "wb") as f:
+            f.write(data)
+    return slug + ".png", hashlib.sha256(data).hexdigest()[:12]
+
+
+def main_windows():
+    apps = windows_apps()
+    icons = {}
+    for slug, _pid, _cp in apps:
+        b = build_win_icon(slug)
+        if b:
+            icons[slug] = b
+    for loc in locales():
+        with io.open(os.path.join(I18N_DIR, loc + ".json"), encoding="utf-8") as f:
+            copy = json.load(f).get("apps") or {}
+        entries = []
+        for slug, pid, cp in apps:
+            c = copy.get(slug)
+            if slug not in icons or not c:
+                continue
+            name = (copy.get(cp) or {}).get("name") or c.get("name") or ""
+            if not name:
+                continue
+            icon, digest = icons[slug]
+            e = {"id": slug, "pid": pid, "pfn": WIN_PFN[slug], "name": name,
+                 "sub": c.get(SUBTITLE_FIELD) or "", "icon": icon, "h": digest,
+                 "w": WIN_WEIGHTS.get(slug, DEFAULT_WEIGHT)}
+            url = page_url(loc, slug)
+            if url:
+                e["url"] = url
+            entries.append(e)
+        title, open_ = WIN_TEXT.get(loc, WIN_TEXT["en"])
+        body = json.dumps({"v": 1, "title": title, "open": open_, "apps": entries},
+                          ensure_ascii=False, separators=(",", ":"))
+        out = os.path.join(WIN_OUT_DIR, "catalog.%s.json" % loc)
+        prev = io.open(out, encoding="utf-8").read() if os.path.exists(out) else None
+        if prev != body:
+            with io.open(out, "w", encoding="utf-8") as f:
+                f.write(body)
+        print("  win catalog.%-3s %d apps / %d bytes" % (loc, len(entries), len(body.encode("utf-8"))))
+
+
 if __name__ == "__main__":
     main()
+    main_windows()
