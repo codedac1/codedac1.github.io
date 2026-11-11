@@ -64,7 +64,7 @@ const SERVICE_PERM_CODE = {
   'android.permission.BIND_NOTIFICATION_LISTENER_SERVICE': 'notificationAccess',
 };
 const PERM_ORDER = ['callScreening', 'notificationAccess', 'accessibility', 'usage', 'overlay', 'phoneState', 'contacts', 'location', 'camera', 'microphone', 'storage', 'writeSettings', 'notifications', 'foreground', 'boot', 'battery', 'audio', 'bluetooth', 'adId'];
-const DATA_ORDER = ['ads', 'billing', 'store', 'purchaseReport', 'driveSync', 'driveBackup', 'fx', 'crypto', 'mlkit'];
+const DATA_ORDER = ['ads', 'billing', 'store', 'usageStats', 'purchaseReport', 'driveSync', 'driveBackup', 'fx', 'crypto', 'mlkit'];
 
 // 소스에 나오는 외부 호스트 → 코드. 문서·정책 링크처럼 앱이 데이터를 주고받지 않는 주소는 IGNORE.
 const HOST_CODE = {
@@ -75,6 +75,8 @@ const HOST_CODE = {
   'www.googleapis.com': null, // Google Drive — 범위(scope)로 따로 판정
   // 자사 구매 기록 서버(Data/notify, Cloud Run). **방침 1·6항이 이 전송을 예외로 적고 있다** — 다른 앱에 붙이면 방침도 고칠 것.
   'msstore-report-847105046915.asia-northeast3.run.app': 'purchaseReport',
+  // 익명 사용 통계 서버(Data/events, 2026-11-11). **방침 1·7항이 이 전송을 적고 있다.**
+  'codedac-events-847105046915.asia-northeast1.run.app': 'usageStats',
 };
 // openxmlformats.org: CallerNote+ 엑셀 내보내기(xlsx)의 XML 네임스페이스 — 접속하는 주소가 아니다.
 // youtube.com·wikipedia.org: FloatWeb+ 추천 사이트 목록(사용자가 고르면 창에서 직접 연다, 방침 4항) — 앱이 데이터를 주고받는 API 가 아니다.

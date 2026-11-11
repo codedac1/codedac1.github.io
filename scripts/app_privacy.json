@@ -4,6 +4,7 @@
     "data": [
       "ads",
       "billing",
+      "usageStats",
       "driveSync",
       "driveBackup"
     ],
@@ -15,13 +16,14 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-11-03"
+    "mergedManifest": "2026-11-09"
   },
   "autostart": {
     "platform": "android",
     "data": [
       "ads",
-      "billing"
+      "billing",
+      "usageStats"
     ],
     "perms": [
       "overlay",
@@ -31,13 +33,14 @@
       "battery",
       "adId"
     ],
-    "mergedManifest": "2026-11-02"
+    "mergedManifest": "2026-11-11"
   },
   "floatcalc": {
     "platform": "android",
     "data": [
       "ads",
       "billing",
+      "usageStats",
       "fx"
     ],
     "perms": [
@@ -46,13 +49,14 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-10-29"
+    "mergedManifest": "2026-11-09"
   },
   "floatcrypto": {
     "platform": "android",
     "data": [
       "ads",
       "billing",
+      "usageStats",
       "crypto"
     ],
     "perms": [
@@ -62,13 +66,14 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-11-02"
+    "mergedManifest": "2026-11-11"
   },
   "floattimer": {
     "platform": "android",
     "data": [
       "ads",
-      "billing"
+      "billing",
+      "usageStats"
     ],
     "perms": [
       "overlay",
@@ -76,13 +81,14 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-11-02"
+    "mergedManifest": "2026-11-11"
   },
   "volumebooster": {
     "platform": "android",
     "data": [
       "ads",
-      "billing"
+      "billing",
+      "usageStats"
     ],
     "perms": [
       "overlay",
@@ -91,25 +97,27 @@
       "audio",
       "adId"
     ],
-    "mergedManifest": "2026-11-02"
+    "mergedManifest": "2026-11-11"
   },
   "photocleaner": {
     "platform": "android",
     "data": [
       "ads",
       "billing",
+      "usageStats",
       "mlkit"
     ],
     "perms": [
       "adId"
     ],
-    "mergedManifest": "2026-11-02"
+    "mergedManifest": "2026-11-11"
   },
   "readfocus": {
     "platform": "android",
     "data": [
       "ads",
-      "billing"
+      "billing",
+      "usageStats"
     ],
     "perms": [
       "overlay",
@@ -117,13 +125,14 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-10-28"
+    "mergedManifest": "2026-11-10"
   },
   "floatnote": {
     "platform": "android",
     "data": [
       "ads",
       "billing",
+      "usageStats",
       "driveSync"
     ],
     "perms": [
@@ -133,13 +142,14 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-10-26"
+    "mergedManifest": "2026-11-09"
   },
   "rotate": {
     "platform": "android",
     "data": [
       "ads",
-      "billing"
+      "billing",
+      "usageStats"
     ],
     "perms": [
       "accessibility",
@@ -153,7 +163,7 @@
       "bluetooth",
       "adId"
     ],
-    "mergedManifest": "2026-10-14"
+    "mergedManifest": "2026-11-09"
   },
   "callernote": {
     "platform": "android",
@@ -179,7 +189,8 @@
     "platform": "android",
     "data": [
       "ads",
-      "billing"
+      "billing",
+      "usageStats"
     ],
     "perms": [
       "overlay",
@@ -190,13 +201,14 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": null
+    "mergedManifest": "2026-11-05"
   },
   "floatweb": {
     "platform": "android",
     "data": [
       "ads",
-      "billing"
+      "billing",
+      "usageStats"
     ],
     "perms": [
       "overlay",
@@ -207,12 +219,13 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-11-03"
+    "mergedManifest": "2026-11-09"
   },
   "clipboardwin": {
     "platform": "windows",
     "data": [
       "store",
+      "usageStats",
       "purchaseReport",
       "driveSync"
     ],
@@ -222,6 +235,7 @@
     "platform": "windows",
     "data": [
       "store",
+      "usageStats",
       "purchaseReport"
     ],
     "perms": []
@@ -230,6 +244,7 @@
     "platform": "windows",
     "data": [
       "store",
+      "usageStats",
       "purchaseReport",
       "driveSync"
     ],
@@ -239,6 +254,7 @@
     "platform": "windows",
     "data": [
       "store",
+      "usageStats",
       "purchaseReport"
     ],
     "perms": []
@@ -247,6 +263,7 @@
     "platform": "windows",
     "data": [
       "store",
+      "usageStats",
       "purchaseReport"
     ],
     "perms": []
@@ -255,6 +272,7 @@
     "platform": "windows",
     "data": [
       "store",
+      "usageStats",
       "purchaseReport",
       "crypto"
     ],

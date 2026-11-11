@@ -2,12 +2,12 @@
   "metaTitle": "隐私政策 | CodeDAC",
   "metaDesc": "CodeDAC Android 和 Windows 应用的隐私政策。无需注册，数据处理在您的设备上进行，并列明每款应用的网络连接和权限。",
   "title": "隐私政策",
-  "updated": "最后更新：2026 年 11 月 8 日",
+  "updated": "最后更新：2026 年 11 月 11 日",
   "firstEffective": "首次生效：2026 年 7 月 15 日",
   "tocTitle": "目录",
   "summaryTitle": "要点速览",
   "summary": [
-    "无需注册，CodeDAC 也不运营任何接收或存储您数据的服务器。唯一的例外是 Windows 版应用在完成 PRO 购买时发送的购买记录（第 6 条）。",
+    "无需注册，您在本应用中创建的内容会留在您的设备上。本应用发送给我们的仅有匿名使用统计（第 7 条），以及 Windows 版应用在完成 PRO 购买时发送的购买记录（第 6 条）。",
     "应用数据默认仅存储在您的设备上。",
     "Clipboard+、FloatNote+ 和 CallerNote+ 的 Google Drive 备份与同步为可选功能，且仅保存到您本人的 Drive。",
     "我们 Android 应用中的广告由 Google AdMob 提供，在需要征得同意的地区会先征求您的同意。我们的 Windows 应用不含广告。",
@@ -28,7 +28,8 @@
     "driveBackup": "Google Drive 备份（可选）",
     "fx": "汇率（Frankfurter）",
     "crypto": "加密货币价格（CoinGecko、Binance）",
-    "mlkit": "ML Kit 诊断信息（Google）"
+    "mlkit": "ML Kit 诊断信息（Google）",
+    "usageStats": "匿名使用统计（CodeDAC）"
   },
   "perms": {
     "overlay": "显示在其他应用上层",
@@ -56,7 +57,7 @@
     {
       "id": "principle",
       "title": "1. 核心原则",
-      "html": "<p>您无需创建账号或登录即可使用本应用。我们不运营任何接收或存储您数据的服务器，本应用处理的数据默认在您的设备上存储和处理。唯一的例外是您自行开启的可选功能（第 3 条）以及本应用所依赖的外部服务（第 4–6 条），下文均有说明。唯一会向我们的服务器发送信息的情况是 Windows 版应用的购买记录（第 6 条）。</p>"
+      "html": "<p>您无需创建账号或登录即可使用本应用。本应用处理的数据（剪贴板项目、便签、计时器、照片、设置等）默认在您的设备上存储和处理，绝不会发送给我们。例外情况是您自行开启的可选功能（第 3 条）、本应用所依赖的外部服务（第 4–6 条）以及匿名使用统计（第 7 条），下文均有说明。仅在两种情况下会向我们的服务器发送信息：匿名使用统计（第 7 条）和 Windows 版应用的购买记录（第 6 条）。</p>"
     },
     {
       "id": "device",
@@ -84,39 +85,44 @@
       "html": "<ul><li><strong>Android。</strong> PRO 购买由 Google Play 结算处理。</li><li><strong>Windows。</strong> PRO 购买由 Microsoft Store 处理。</li></ul><p>付款由各商店处理；我们绝不会收到您的卡号或其他付款信息。应用仅从商店接收核验您 PRO 使用权限所需的购买状态。</p><p><strong>Windows 版应用的购买记录。</strong>当 Windows 版 Clipboard+、FloatNote+、PhotoCleaner+、ReadFocus+、FloatTimer+ 或 FloatCrypto+ 完成 PRO 购买时，应用会向 CodeDAC 的服务器（托管于 Google Cloud）发送一条简短记录：产品 ID、商店显示的价格和币种、Windows 的国家或地区设置、应用版本，以及为该次安装随机生成的编号。记录中不包含姓名、电子邮件地址、Microsoft 账户或设备信息。我们仅将其用于统计销售额并避免同一笔购买被重复计算；随机编号仅以不可逆转换（哈希）后的形式保存。与任何互联网请求一样，服务器会收到您的 IP 地址；服务器访问日志会在 30 天后自动删除。</p>"
     },
     {
+      "id": "usage",
+      "title": "7. 匿名使用统计",
+      "html": "<p>自 2026 年 11 月发布的更新起，我们的 Android 和 Windows 应用会向我们的服务器发送匿名使用统计，以便我们了解新用户在哪里遇到困难，以及我们所做的改动是否有帮助。</p><ul><li><strong>发送的内容。</strong> 应用首次打开时生成的随机 ID（它不与您的账号、广告 ID 或设备关联，重新安装应用会生成新的 ID）、应用名称和版本、操作系统版本、设备的语言和国家设置、PRO 是否已启用，以及附带安装后天数的简单事件，例如应用被打开、完成了新手引导、授予了某项权限、使用了主要功能（仅计次数）、显示了 PRO 界面或广告，或进行了购买。</li><li><strong>绝不发送的内容。</strong> 您在本应用中创建或处理的任何内容（剪贴板项目、便签、照片、网址、计算内容、您选择的应用等），以及您的姓名、电子邮件地址、广告 ID 或账号。</li><li><strong>欧洲的用户。</strong> 如果您设备的 SIM 卡、移动网络或地区设置位于欧洲经济区、英国或瑞士，应用不会收集或发送任何内容。</li><li><strong>存储位置和期限。</strong> 存储在 Google Cloud 上（日本东京的 Cloud Run 和韩国首尔的 Firestore）。我们不会将 IP 地址与这些数据一起保存，不会与任何人共享，且仅将其用于改进本应用。这些数据会在 13 个月后自动删除。</li><li><strong>如何停止。</strong> 卸载应用即会停止该应用的统计发送，并删除其随机 ID。</li></ul>"
+    },
+    {
       "id": "permissions",
-      "title": "7. 权限",
+      "title": "8. 权限",
       "html": "<p>每款应用仅请求其功能所需的权限，并仅将其用于所述目的。各应用请求的权限列于上文的<a href=\"#apps\">各应用连接的服务</a>中。</p><ul><li><strong>显示在其他应用上层</strong> — 在屏幕上层显示悬浮计算器、计时器、便签、价格、阅读工具或剪贴板面板。CallerNote+ 用它在通话界面上层显示客户卡片，并在通话结束时打开通话后备注窗口。</li><li><strong>通知</strong> — 显示正在运行的功能状态和提醒（计时结束、价格提醒等）。</li><li><strong>保持运行（前台服务）</strong> — 在您离开应用后，使悬浮窗口或音量增强等功能继续运行。</li><li><strong>开机时运行</strong> — 在设备开机时重新启动应用或您设置的功能。</li><li><strong>忽略电池优化</strong> — 防止系统阻止开机自动启动（AutoStart+）。</li><li><strong>更改音频设置</strong> — 应用音量增强和均衡器（VolumeBooster+）。</li><li><strong>无障碍服务</strong>（Rotate+） — 仅用于识别屏幕上显示的是哪个应用，以便应用您为各应用设置的旋转规则，并通过一个不可见的 1 像素窗口保持您选择的屏幕方向。该服务被设置为无法读取屏幕内容，Rotate+ 绝不会读取您输入的文字或密码。除您自己的设置外，通过它获知的任何信息都不会被存储，也不会被发送到任何地方。您可以随时在设备的无障碍设置中将其关闭。</li><li><strong>无障碍服务</strong> （Clipboard+，可选）— 仅在你开启默认关闭的“自动保存”时使用：感知你在其他应用中点按“复制”或系统显示“已复制”提示的那一刻，从而无需打开 Clipboard+ 即可保存复制的内容。该服务被设置为无法读取屏幕内容，不会记录你输入的文字，也不会保存标记为密码的剪贴内容。保存的剪贴内容只留在设备上（如果你开启了电脑同步，只会发送到你自己的 Google 云端硬盘），绝不会发送给我们。你可以随时在应用设置或设备的无障碍设置中关闭它。</li><li><strong>使用情况访问权限</strong>（Rotate+，可选） — 作为无障碍服务的替代方式，用于识别前台的应用。仅在您的设备上使用屏幕上应用的名称。</li><li><strong>修改系统设置</strong>（Rotate+） — 在会忽略应用旋转请求的设备上（例如 Android 16 上的大屏设备）切换系统的自动旋转设置。</li><li><strong>附近的设备（蓝牙）</strong>（Rotate+，可选） — 用于在蓝牙设备连接时切换屏幕方向的 Pro 条件。您从已配对的设备中选择一台；Rotate+ 仅检查该设备是否已连接，且您的选择仅保存在您的设备上。</li><li><strong>通话检测</strong>（Rotate+，可选） — 对于 Pro 条件“通话中”，Rotate+ 仅根据设备的音频状态检查是否正在通话，无需任何电话权限。它不会读取电话号码或您的通话记录。</li><li><strong>来电过滤角色</strong>（CallerNote+） — 仅用于获取来电号码，以便 CallerNote+ 显示对应的客户卡片。所有来电都会照常接通：CallerNote+ 绝不会拦截、拒接、静音或录制通话。号码只会在您的设备上与客户列表进行比对，不会被发送到任何地方。</li><li><strong>通知使用权</strong>（CallerNote+，可选） — 获知来电者的另一种方式，例如来电者已保存在您的通讯录中，或其他应用持有来电过滤角色时。CallerNote+ 仅读取电话应用的来电通知，以获取来电者的号码或姓名；其他通知既不会被读取，也不会被存储。您可以随时在设备设置中将其关闭。</li><li><strong>电话状态</strong>（CallerNote+） — 仅用于获知来电是正在响铃、已接听还是已结束，以便在您接听时收起卡片，并在通话结束时打开通话后备注窗口。CallerNote+ 不会请求通话记录或短信权限：发送短信时，它会打开已填好内容的短信应用，由您自己按下发送。</li><li><strong>通讯录</strong>（CallerNote+） — 仅在您选择“从通讯录导入”时才会请求。只有您选中的联系人会在您的设备上被复制到应用中。</li><li><strong>CallerNote+ 的其他权限</strong> — 前台服务仅在通话期间运行；开机时运行仅用于在设备重启后重新设置您的跟进提醒。导入 CSV 或 Excel 文件、备份、恢复和导出均使用系统的文件选择器，因此不会请求存储权限。</li><li><strong>相机</strong>（FloatPrompter+） — 仅在您打开应用内录制时才会请求，用于在屏幕上显示文稿的同时录制视频。视频仅保存到设备的相册。</li><li><strong>麦克风</strong>（FloatPrompter+） — 仅在您打开应用内录制（以随视频录制声音）或开启语音跟随时才会请求，并仅在该界面打开期间使用。</li><li><strong>存储</strong>（FloatPrompter+，仅限 Android 9 及更早版本） — 在这些版本上，将录制的视频保存到相册需要此权限。Android 10 及更高版本无需为此授予存储权限。</li><li><strong>FloatPrompter+ 的其他权限</strong> — 显示在其他应用上层用于显示悬浮提词器窗口，前台服务则在您使用其他应用时使其保持在屏幕上。导入 PDF, Word, PowerPoint 或文本文件使用系统的文件选择器，因此不会请求存储权限。</li><li><strong>位置、相机和麦克风</strong>（FloatWeb+） — 仅在您于窗口中打开的网页请求这些权限，且您在窗口内的提示中点按“允许”时才会请求，随后由 Android 向您请求该权限。位置、相机或麦克风与在浏览器中一样仅供该网页使用；FloatWeb+ 本身不会收集或存储这些数据。您的“允许”或“阻止”选择会按已保存的网站记录在您的设备上。</li><li><strong>FloatWeb+ 的其他权限</strong> — 显示在其他应用上层用于显示悬浮网站窗口，前台服务在您使用其他应用时使窗口保持打开，通知用于显示窗口控制和 Free Pass 提醒。向网页上传文件时使用系统的文件选择器，您选择的文件仅提供给请求它的网页。FloatWeb+ 不使用无障碍服务或使用情况访问权限，也不会请求通讯录、电话或短信权限。</li><li><strong>广告 ID</strong> — 用于投放广告（第 5 条）。</li></ul><p>互联网、网络状态和振动等基本权限在安装时自动授予，并仅用于上述功能。位置权限仅由 FloatWeb+ 请求，相机和麦克风权限仅由 FloatPrompter+ 和 FloatWeb+ 请求，均出于上述目的。存储权限仅由 Android 9 及更早版本上的 FloatPrompter+ 请求。通讯录和电话相关权限仅由 CallerNote+ 出于上述目的请求。</p>"
     },
     {
       "id": "website",
-      "title": "8. 网站（codedac.com）",
+      "title": "9. 网站（codedac.com）",
       "html": "<p>我们的网站使用 Google Analytics 统计访问量。对于来自欧洲经济区、英国和瑞士的访客，同意模式（Consent Mode）默认为“拒绝”，因此不会存储任何分析 Cookie，仅发送匿名的聚合信号；在其他地区，则使用分析 Cookie 来统计访问量。无论哪种情况，我们都不会收集广告标识符，网站也不展示广告。<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google 隐私政策</a></p><p>您可以在浏览器中屏蔽 Cookie，或安装 <a href=\"https://tools.google.com/dlpage/gaoptout\" target=\"_blank\" rel=\"noopener\">Google Analytics 停用浏览器插件</a>，以选择退出分析。网站使用浏览器的本地存储（localStorage）来记住您选择的语言和主题（深色模式）；这些值绝不会发送到服务器。</p><p>应用页面会显示我们 YouTube Shorts 视频的预览图。在您点击播放之前，不会从 YouTube 加载任何内容；点击播放后，视频将以 YouTube 的隐私增强模式（youtube-nocookie.com）播放，此次播放适用 <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google 隐私政策</a>。</p>"
     },
     {
       "id": "email",
-      "title": "9. 您发送给我们的电子邮件",
+      "title": "10. 您发送给我们的电子邮件",
       "html": "<p>如果您给我们发送电子邮件，我们会收到您的电子邮件地址和您撰写的内容（包括您提供的任何设备或应用信息）。我们仅将这些信息用于回复您并跟进您的请求，且仅在实现该目的所需的期限内保留。</p><p>如果您使用我们网站上的联系表单，我们会收到您填写的内容：电子邮件地址、留言以及国家等可选信息。表单在 Google Cloud（韩国首尔的 Cloud Run 和 Firestore）上处理，并转发到我们的邮箱。这些信息仅用于回复您，不用于营销，我们也不会向您填写的地址发送自动邮件。表单内容会在一年后自动删除；如需提前删除，请发邮件告诉我们。您的 IP 地址只会被短暂用于限制重复提交，不会被存储。</p>"
     },
     {
       "id": "children",
-      "title": "10. 儿童隐私",
+      "title": "11. 儿童隐私",
       "html": "<p>对于面向儿童的应用，我们遵守 Google Play 家庭政策及适用法律。在面向儿童的场景中，我们不使用个性化广告，也不会故意收集儿童的个人信息。</p>"
     },
     {
       "id": "changes",
-      "title": "11. 本政策的变更",
+      "title": "12. 本政策的变更",
       "html": "<p>我们可能会更新本政策，以反映法律或本应用方面的变化。更新时，我们会更新本页面上的最后更新日期以及下方的变更记录。</p>"
     },
     {
       "id": "contact",
-      "title": "12. 联系我们",
+      "title": "13. 联系我们",
       "html": "<p>如对我们处理个人信息的方式有任何疑问，请联系我们。<br />邮箱：<a href=\"mailto:contact@codedac.com\">contact@codedac.com</a></p>"
     },
     {
       "id": "history",
       "title": "变更记录",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-11-08\">2026-11-08</time> 在完成 PRO 购买时发送购买记录的应用中新增了 Windows 版 Clipboard+ 和 FloatNote+（第 6 条）。</li><li><time datetime=\"2026-11-03\">2026-11-03</time> 新增 FloatWeb+（Android）在设备上保存的网站和网站登录状态、网页和网站图标直接从您选择的网站加载的方式，以及其仅在网页需要时才请求的位置、相机和麦克风权限的相关说明（第 2、4 和 7 条）。</li><li><time datetime=\"2026-10-21\">2026-10-21</time> 新增 Clipboard+（Android）的可选功能“自动保存”所使用的无障碍服务说明（第 7 条）。</li><li><time datetime=\"2026-10-18\">2026-10-18</time> 新增 FloatPrompter+（Android）在设备上保存的文稿和录制内容、借助手机语音识别实现的语音跟随，以及其使用的相机、麦克风和存储权限的相关说明（第 2、4 和 7 条）。</li><li><time datetime=\"2026-10-15\">2026-10-15</time> 新增网站联系表单的说明（第 9 条）。</li><li><time datetime=\"2026-10-08\">2026-10-08</time> 新增 CallerNote+（Android）在设备上保存的客户数据、可选的 Google Drive 同步，以及其使用的权限（来电过滤角色、通知使用权、电话状态和通讯录）的相关说明（第 2、3 和 7 条）。</li><li><time datetime=\"2026-10-01\">2026-10-01</time> 新增在应用页面播放 YouTube 视频的相关说明（第 8 条）。</li><li><time datetime=\"2026-10-01\">2026-10-01</time> 新增 Rotate+（Android）及其使用的权限（无障碍服务、使用情况访问权限、修改系统设置和附近的设备），以及其检测通话的方式（第 7 条）。</li><li><time datetime=\"2026-09-17\">2026-09-17</time> 新增 Windows 版 PhotoCleaner+、ReadFocus+、FloatTimer+ 和 FloatCrypto+ 在完成 PRO 购买时发送购买记录的相关说明（第 1 条和第 6 条）。</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 新增各应用概览，并新增有关 Android 版 Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步、广告同意、互联网连接（汇率、价格、ML Kit）、网站存储以及电子邮件的信息。按照应用实际情况更正了权限说明，并重新整理了本政策的结构。新增了 PhotoCleaner+ for Windows 的相关信息。</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 更改了联系邮箱地址。</li><li><time datetime=\"2026-08-03\">2026-08-03</time> 新增 Windows 版 FloatNote+ 的云同步信息。</li><li><time datetime=\"2026-07-15\">2026-07-15</time> 新增 Windows 版 Clipboard+ 的云同步信息。</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-11-11\">2026-11-11</time> 新增我们的 Android 和 Windows 应用发送的匿名使用统计（第 7 条），并相应更新了核心原则和摘要。其后各条的编号依次顺延。</li><li><time datetime=\"2026-11-08\">2026-11-08</time> 在完成 PRO 购买时发送购买记录的应用中新增了 Windows 版 Clipboard+ 和 FloatNote+（第 6 条）。</li><li><time datetime=\"2026-11-03\">2026-11-03</time> 新增 FloatWeb+（Android）在设备上保存的网站和网站登录状态、网页和网站图标直接从您选择的网站加载的方式，以及其仅在网页需要时才请求的位置、相机和麦克风权限的相关说明（第 2、4 和 7 条）。</li><li><time datetime=\"2026-10-21\">2026-10-21</time> 新增 Clipboard+（Android）的可选功能“自动保存”所使用的无障碍服务说明（第 7 条）。</li><li><time datetime=\"2026-10-18\">2026-10-18</time> 新增 FloatPrompter+（Android）在设备上保存的文稿和录制内容、借助手机语音识别实现的语音跟随，以及其使用的相机、麦克风和存储权限的相关说明（第 2、4 和 7 条）。</li><li><time datetime=\"2026-10-15\">2026-10-15</time> 新增网站联系表单的说明（第 9 条）。</li><li><time datetime=\"2026-10-08\">2026-10-08</time> 新增 CallerNote+（Android）在设备上保存的客户数据、可选的 Google Drive 同步，以及其使用的权限（来电过滤角色、通知使用权、电话状态和通讯录）的相关说明（第 2、3 和 7 条）。</li><li><time datetime=\"2026-10-01\">2026-10-01</time> 新增在应用页面播放 YouTube 视频的相关说明（第 8 条）。</li><li><time datetime=\"2026-10-01\">2026-10-01</time> 新增 Rotate+（Android）及其使用的权限（无障碍服务、使用情况访问权限、修改系统设置和附近的设备），以及其检测通话的方式（第 7 条）。</li><li><time datetime=\"2026-09-17\">2026-09-17</time> 新增 Windows 版 PhotoCleaner+、ReadFocus+、FloatTimer+ 和 FloatCrypto+ 在完成 PRO 购买时发送购买记录的相关说明（第 1 条和第 6 条）。</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 新增各应用概览，并新增有关 Android 版 Clipboard+ 和 FloatNote+ 的 Google Drive 备份与同步、广告同意、互联网连接（汇率、价格、ML Kit）、网站存储以及电子邮件的信息。按照应用实际情况更正了权限说明，并重新整理了本政策的结构。新增了 PhotoCleaner+ for Windows 的相关信息。</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 更改了联系邮箱地址。</li><li><time datetime=\"2026-08-03\">2026-08-03</time> 新增 Windows 版 FloatNote+ 的云同步信息。</li><li><time datetime=\"2026-07-15\">2026-07-15</time> 新增 Windows 版 Clipboard+ 的云同步信息。</li></ul>"
     }
   ]
 }
