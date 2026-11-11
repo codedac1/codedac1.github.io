@@ -1,0 +1,67 @@
+{
+ "floating-notes-over-other-apps-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Without an app: pop-up view on Samsung Galaxy",
+    "p": [
+     "Samsung Galaxy phones can open most apps in a small window that stays over the next app you open, so you can float Samsung Notes or any notes app without installing anything.",
+     "The catch: you get one window, it covers a good part of the screen, and you have to open it in pop-up view again every time the app closes. Phones from other makers may not have this feature, or call it something else. Split screen (in the same menu) also works, but it cuts the screen in half, which doesn't suit videos or games."
+    ],
+    "steps": [
+     "Open your notes app, then tap the Recent apps button (|||).",
+     "Tap the app icon at the top of the notes app's card.",
+     "Choose \"Open in pop-up view\".",
+     "Drag the window's edge to make it smaller, then open the other app. The note window stays on top."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Can I float a note on a Samsung phone without installing anything?",
+    "a": "Yes. Open your notes app in pop-up view from the Recent apps screen. It gives you one window that you reopen each time; for notes that stay on screen all day, or several notes at once, a floating note app like FloatNote+ is easier."
+   }
+  ]
+ },
+ "floating-timer-over-other-apps-android": {
+  "insert_at": 0,
+  "sections": [
+   {
+    "h": "Without an app: the Clock timer and pop-up view",
+    "p": [
+     "The timer in your phone's Clock app keeps running when you switch apps. To see the time left, pull down the notification shade. That is enough if you only check now and then, but you have to pull it down every time, and it is hard to watch two timers at once.",
+     "On a Samsung Galaxy you can also float the Clock app itself in a small window. The window is fairly large, though, and if you shrink it the numbers get hard to read from a distance. Menu names can differ slightly between One UI versions."
+    ],
+    "steps": [
+     "Start the timer in the Clock app.",
+     "Tap the Recent apps button (|||).",
+     "Tap the Clock app's icon at the top of its card and choose \"Open in pop-up view\"."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Can I see the Clock app's timer while using another app?",
+    "a": "Pull down the notification shade to see the time left, or on a Samsung Galaxy open the Clock app in pop-up view. To keep just the numbers small and always visible, a floating timer app like FloatTimer+ works better."
+   }
+  ]
+ },
+ "open-app-automatically-after-reboot-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Before you start: what is restarting your phone?",
+    "p": [
+     "If your apps are closed every morning, the cause may be the auto restart on Samsung Galaxy phones, which reboots the phone at night. Turning it off can be all you need: go to Settings > Device care > Automatic optimization and turn off \"Restart when needed\" (\"Auto restart\" on some versions). Menu names vary by One UI version, and restarting does help keep the phone running smoothly, so turning it off isn't always the right call.",
+     "If you need navigation or music in the car, first check whether your car supports Android Auto: connect the phone and they appear on the car's screen. If the car doesn't support it, or you keep the phone in a mount, an auto-start app is the way to go."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Why are my apps closed every morning on my Galaxy phone?",
+    "a": "Samsung's auto restart may be rebooting the phone at night. You can turn it off in Settings > Device care > Automatic optimization, or keep it and let AutoStart+ open your apps again after each restart."
+   }
+  ]
+ }
+}
