@@ -110,6 +110,8 @@ WEIGHTS = {
     "rotate":        10,
     # Rotate+ 와 같은 이유로 중간값(10)에서 시작, 출시 30일 뒤 설치당 월수익 기준으로 다시 잡는다.
     "callernote":    10,
+    # FloatPrompter+ (2026-11-11 Play 공개) 신규 앱이라 Rotate+ 처럼 중간값(10)에서 시작, 출시 30일 뒤 설치당 월수익 기준으로 다시 잡는다.
+    "floatprompter": 10,
 }
 DEFAULT_WEIGHT = 10
 
