@@ -1,0 +1,67 @@
+{
+ "floating-notes-over-other-apps-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Walang app: pop-up view sa Samsung Galaxy",
+    "p": [
+     "Kaya ng mga Samsung Galaxy phone na buksan ang karamihan ng app sa maliit na window na nananatili sa ibabaw ng susunod na app na bubuksan mo, kaya mapapalutang mo ang Samsung Notes o kahit anong notes app nang walang ini-install.",
+     "Ang kapalit: isang window lang ang makukuha mo, tinatakpan nito ang malaking bahagi ng screen, at kailangan mo itong buksan ulit sa pop-up view tuwing magsasara ang app. Maaaring wala ang feature na ito sa mga telepono ng ibang brand, o iba ang tawag dito. Gumagana rin ang split screen (sa parehong menu), pero hinahati nito sa dalawa ang screen, na hindi bagay sa mga video o laro."
+    ],
+    "steps": [
+     "Buksan ang notes app mo, saka i-tap ang “Recent apps” button (|||).",
+     "I-tap ang icon ng app sa itaas ng card ng notes app.",
+     "Piliin ang “Open in pop-up view”.",
+     "I-drag ang gilid ng window para paliitin ito, saka buksan ang ibang app. Mananatili sa ibabaw ang window ng nota."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Puwede ba akong magpalutang ng nota sa teleponong Samsung nang walang ini-install?",
+    "a": "Oo. Buksan ang notes app mo sa pop-up view mula sa “Recent apps” screen. Isang window lang ito na kailangan mong buksan ulit sa bawat pagkakataon; para sa mga notang nasa screen buong araw, o ilang nota nang sabay, mas madali ang floating note app tulad ng FloatNote+."
+   }
+  ]
+ },
+ "floating-timer-over-other-apps-android": {
+  "insert_at": 0,
+  "sections": [
+   {
+    "h": "Walang app: ang timer ng Clock app at pop-up view",
+    "p": [
+     "Patuloy na tumatakbo ang timer sa Clock app ng telepono mo kahit lumipat ka ng app. Para makita ang natitirang oras, hilahin pababa ang notification panel. Sapat na iyon kung paminsan-minsan ka lang tumitingin, pero kailangan mo itong hilahin pababa sa bawat pagkakataon, at mahirap bantayan ang dalawang timer nang sabay.",
+     "Sa Samsung Galaxy, mapapalutang mo rin ang Clock app mismo sa maliit na window. Pero medyo malaki ang window, at kapag pinaliit mo, mahirap nang basahin ang mga numero mula sa malayo. Maaaring bahagyang magkaiba ang pangalan ng mga menu sa bawat bersyon ng One UI."
+    ],
+    "steps": [
+     "Simulan ang timer sa Clock app.",
+     "I-tap ang “Recent apps” button (|||).",
+     "I-tap ang icon ng Clock app sa itaas ng card nito at piliin ang “Open in pop-up view”."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Makikita ko ba ang timer ng Clock app habang gumagamit ng ibang app?",
+    "a": "Hilahin pababa ang notification panel para makita ang natitirang oras, o sa Samsung Galaxy, buksan ang Clock app sa pop-up view. Para maliit at laging nakikita ang mga numero lang, mas mainam ang floating timer app tulad ng FloatTimer+."
+   }
+  ]
+ },
+ "open-app-automatically-after-reboot-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Bago ka magsimula: ano ang nagre-restart sa telepono mo?",
+    "p": [
+     "Kung sarado ang mga app mo tuwing umaga, maaaring ang auto restart ng mga Samsung Galaxy phone ang dahilan, na nagre-reboot ng telepono sa gabi. Baka sapat na ang i-off ito: pumunta sa Settings > Device care > Automatic optimization at i-off ang “Restart when needed” (“Auto restart” sa ilang bersyon). Nag-iiba ang pangalan ng mga menu ayon sa bersyon ng One UI, at nakakatulong naman ang pag-restart para manatiling maayos ang takbo ng telepono, kaya hindi laging tama ang pag-off nito.",
+     "Kung kailangan mo ng navigation o musika sa kotse, tingnan muna kung sinusuportahan ng kotse mo ang Android Auto: ikonekta ang telepono at lalabas ang mga ito sa screen ng kotse. Kung hindi ito sinusuportahan ng kotse, o nakalagay ang telepono mo sa mount, auto start app ang dapat gamitin."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Bakit sarado ang mga app ko tuwing umaga sa Galaxy phone ko?",
+    "a": "Maaaring nire-reboot ng auto restart ng Samsung ang telepono sa gabi. Maaari mo itong i-off sa Settings > Device care > Automatic optimization, o hayaan itong naka-on at hayaang buksan ulit ng AutoStart+ ang mga app mo pagkatapos ng bawat restart."
+   }
+  ]
+ }
+}

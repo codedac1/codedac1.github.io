@@ -63,7 +63,7 @@
     },
     "open-app-automatically-after-reboot-android": {
       "app": "autostart",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "App automatisch openen na herstart op Android (zonder root)",
       "desc": "Android heeft geen instelling die een app start als je telefoon opstart. Zo laat je je apps na een herstart vanzelf openen, zonder root – en zo test je het zonder opnieuw op te starten.",
       "intro": "Android heeft geen instelling die een app opent als de telefoon opstart. Open je na elke herstart dezelfde apps – een navigatie-app in de auto, een launcher op een kiosktablet, een muziek-app op een autoradio – dan kan een autostart-app dat voor je doen.",
@@ -72,6 +72,13 @@
           "h": "Waarom dat niet vanzelf gebeurt",
           "p": [
             "Sinds Android 10 mogen apps vanuit de achtergrond niet zelf schermen openen. Een app die na een herstart andere apps moet openen, heeft daarom de toestemming ‘Display over other apps’ (weergeven over andere apps) nodig, en kan ze pas starten nadat de telefoon voor het eerst is ontgrendeld."
+          ]
+        },
+        {
+          "h": "Eerst even: wat herstart je telefoon?",
+          "p": [
+            "Zijn je apps elke ochtend gesloten, dan kan dat komen door de automatische herstart op Samsung Galaxy-telefoons, die de telefoon ’s nachts opnieuw opstart. Die uitzetten kan al genoeg zijn: ga naar Instellingen > ‘Device care’ > ‘Automatic optimization’ en zet ‘Restart when needed’ uit (‘Auto restart’ in sommige versies). Menunamen verschillen per One UI-versie, en herstarten helpt de telefoon soepel te laten werken, dus uitzetten is niet altijd de juiste keuze.",
+            "Heb je in de auto navigatie of muziek nodig, kijk dan eerst of je auto Android Auto ondersteunt: sluit de telefoon aan en ze verschijnen op het scherm van de auto. Ondersteunt de auto het niet, of zit je telefoon in een houder, dan is een app voor automatisch starten de beste keuze."
           ]
         },
         {
@@ -102,12 +109,16 @@
         {
           "q": "Waarom openen mijn apps niet voordat ik de telefoon ontgrendel?",
           "a": "Android laat apps pas andere apps openen als de telefoon na een herstart één keer is ontgrendeld. Je apps openen direct na het ontgrendelen."
+        },
+        {
+          "q": "Waarom zijn mijn apps elke ochtend gesloten op mijn Galaxy-telefoon?",
+          "a": "De automatische herstart van Samsung start de telefoon mogelijk ’s nachts opnieuw op. Je kunt die uitzetten via Instellingen > ‘Device care’ > ‘Automatic optimization’, of hem aan laten en AutoStart+ je apps na elke herstart weer laten openen."
         }
       ]
     },
     "floating-notes-over-other-apps-android": {
       "app": "floatnote",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Notitie boven andere apps houden op Android",
       "desc": "Houd een notitie in beeld terwijl je een andere app gebruikt: een zwevende notitie die boven elke app blijft, inklapt tot een kleine chip en op een tijdstip naar keuze kan verschijnen.",
       "intro": "Een lijst overnemen in een formulier, een recept volgen terwijl er een video speelt, een bestelnummer in beeld houden in een chat – steeds heen en weer naar je notitie-app haalt je uit je flow. Een zwevende notitie blijft op het scherm boven welke app je ook gebruikt.",
@@ -116,6 +127,19 @@
           "h": "Zo werken zwevende notities",
           "p": [
             "Een zwevende notitie is een klein venster dat boven andere apps wordt getoond. Android staat dat toe via de toestemming ‘Display over other apps’, die je één keer geeft. De notitie blijft bovenaan terwijl je de app eronder gewoon blijft gebruiken."
+          ]
+        },
+        {
+          "h": "Zonder app: pop-upweergave op Samsung Galaxy",
+          "p": [
+            "Op Samsung Galaxy-telefoons kun je de meeste apps openen in een klein venster dat boven de volgende app blijft die je opent. Zo laat je Samsung Notes of een andere notitie-app zweven zonder iets te installeren.",
+            "Het nadeel: je krijgt één venster, het bedekt een flink deel van het scherm en je moet het elke keer opnieuw in pop-upweergave openen als de app sluit. Telefoons van andere merken hebben deze functie misschien niet, of noemen hem anders. Gesplitst scherm (in hetzelfde menu) werkt ook, maar dat deelt het scherm in tweeën, wat niet handig is bij video’s of games."
+          ],
+          "steps": [
+            "Open je notitie-app en tik op de knop voor recente apps (|||).",
+            "Tik op het app-pictogram bovenaan de kaart van de notitie-app.",
+            "Kies ‘Open in pop-up view’ (openen in pop-upweergave).",
+            "Sleep aan de rand van het venster om het kleiner te maken en open dan de andere app. Het notitievenster blijft bovenaan."
           ]
         },
         {
@@ -146,16 +170,32 @@
         {
           "q": "Kan een notitie op een vast tijdstip verschijnen?",
           "a": "Ja. Stel in FloatNote+ een herinnering in via het ⋮-menu van de notitie, dan verschijnt de notitie met een melding op het scherm. Je kunt zoveel herinneringen instellen als je wilt."
+        },
+        {
+          "q": "Kan ik op een Samsung-telefoon een notitie laten zweven zonder iets te installeren?",
+          "a": "Ja. Open je notitie-app in pop-upweergave vanuit het scherm met recente apps. Je krijgt één venster dat je elke keer opnieuw opent; voor notities die de hele dag in beeld blijven, of meerdere notities tegelijk, is een app voor zwevende notities zoals FloatNote+ makkelijker."
         }
       ]
     },
     "floating-timer-over-other-apps-android": {
       "app": "floattimer",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Timer op je scherm houden terwijl je andere apps gebruikt op Android",
       "desc": "De timer van de Klok-app verdwijnt als je van app wisselt. Zo laat je een afteltimer, stopwatch of teller boven elke app zweven.",
       "intro": "De timer in de Klok-app loopt op de achtergrond door, maar in een andere app zie je hem niet – je moet de meldingen omlaag vegen of terugschakelen. Bij studeren met een college, het timen van een presentatie of een game is het handig om de tijd de hele tijd op je scherm te hebben.",
       "sections": [
+        {
+          "h": "Zonder app: de timer van Klok en pop-upweergave",
+          "p": [
+            "De timer in de Klok-app van je telefoon blijft lopen als je van app wisselt. Om te zien hoeveel tijd er nog over is, veeg je de meldingen omlaag. Dat volstaat als je maar af en toe kijkt, maar je moet ze elke keer omlaag vegen en twee timers tegelijk in de gaten houden is lastig.",
+            "Op een Samsung Galaxy kun je ook de Klok-app zelf in een klein venster laten zweven. Dat venster is wel vrij groot, en als je het kleiner maakt, zijn de cijfers van een afstand moeilijk te lezen. Menunamen kunnen per One UI-versie iets verschillen."
+          ],
+          "steps": [
+            "Start de timer in de Klok-app.",
+            "Tik op de knop voor recente apps (|||).",
+            "Tik op het pictogram van de Klok-app bovenaan de kaart en kies ‘Open in pop-up view’ (openen in pop-upweergave)."
+          ]
+        },
         {
           "h": "Instellen met FloatTimer+",
           "p": [
@@ -183,6 +223,10 @@
         {
           "q": "Is er een pomodoro-snelkeuze?",
           "a": "FloatTimer+ heeft snelkeuzes van 1, 5, 10, 25, 30 en 60 minuten, dus een focustimer van 25 minuten is één tik."
+        },
+        {
+          "q": "Kan ik de timer van de Klok-app zien terwijl ik een andere app gebruik?",
+          "a": "Veeg de meldingen omlaag om de resterende tijd te zien, of open op een Samsung Galaxy de Klok-app in pop-upweergave. Wil je alleen de cijfers klein en altijd in beeld houden, dan werkt een app voor een zwevende timer zoals FloatTimer+ beter."
         }
       ]
     },

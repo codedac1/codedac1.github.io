@@ -1,0 +1,67 @@
+{
+ "floating-notes-over-other-apps-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Sans appli : la fenêtre pop-up sur Samsung Galaxy",
+    "p": [
+     "Les téléphones Samsung Galaxy peuvent ouvrir la plupart des applis dans une petite fenêtre qui reste au-dessus de la prochaine appli que vous ouvrez : vous pouvez donc faire flotter Samsung Notes ou n’importe quelle appli de notes sans rien installer.",
+     "Le hic : vous n’avez qu’une fenêtre, elle couvre une bonne partie de l’écran, et il faut rouvrir l’appli en fenêtre pop-up chaque fois qu’elle se ferme. Les téléphones d’autres marques n’ont pas forcément cette fonction, ou lui donnent un autre nom. L’écran partagé (dans le même menu) fonctionne aussi, mais il coupe l’écran en deux, ce qui ne convient pas aux vidéos ni aux jeux."
+    ],
+    "steps": [
+     "Ouvrez votre appli de notes, puis touchez le bouton Applications récentes (|||).",
+     "Touchez l’icône de l’appli en haut de la carte de l’appli de notes.",
+     "Choisissez « Open in pop-up view ».",
+     "Faites glisser le bord de la fenêtre pour la réduire, puis ouvrez l’autre appli. La fenêtre de la note reste au premier plan."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Puis-je faire flotter une note sur un téléphone Samsung sans rien installer ?",
+    "a": "Oui. Ouvrez votre appli de notes en fenêtre pop-up depuis l’écran des applications récentes. Vous n’avez qu’une fenêtre, à rouvrir à chaque fois ; pour des notes qui restent à l’écran toute la journée, ou plusieurs notes à la fois, une appli de notes flottantes comme FloatNote+ est plus pratique."
+   }
+  ]
+ },
+ "floating-timer-over-other-apps-android": {
+  "insert_at": 0,
+  "sections": [
+   {
+    "h": "Sans appli : le minuteur de l’Horloge et la fenêtre pop-up",
+    "p": [
+     "Le minuteur de l’appli Horloge de votre téléphone continue de tourner quand vous changez d’appli. Pour voir le temps restant, déroulez le volet des notifications. Cela suffit si vous ne regardez que de temps en temps, mais il faut le dérouler à chaque fois, et il est difficile de suivre deux minuteurs à la fois.",
+     "Sur un Samsung Galaxy, vous pouvez aussi faire flotter l’appli Horloge elle-même dans une petite fenêtre. Mais la fenêtre est assez grande, et si vous la réduisez, les chiffres deviennent difficiles à lire de loin. Les noms des menus peuvent légèrement varier selon la version de One UI."
+    ],
+    "steps": [
+     "Lancez le minuteur dans l’appli Horloge.",
+     "Touchez le bouton Applications récentes (|||).",
+     "Touchez l’icône de l’appli Horloge en haut de sa carte et choisissez « Open in pop-up view »."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Puis-je voir le minuteur de l’appli Horloge pendant que j’utilise une autre appli ?",
+    "a": "Déroulez le volet des notifications pour voir le temps restant ou, sur un Samsung Galaxy, ouvrez l’appli Horloge en fenêtre pop-up. Pour garder seulement les chiffres, en petit et toujours visibles, une appli de minuteur flottant comme FloatTimer+ convient mieux."
+   }
+  ]
+ },
+ "open-app-automatically-after-reboot-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Avant de commencer : qu’est-ce qui redémarre votre téléphone ?",
+    "p": [
+     "Si vos applis sont fermées chaque matin, la cause est peut-être le redémarrage automatique des téléphones Samsung Galaxy, qui redémarre le téléphone pendant la nuit. Le désactiver peut suffire : allez dans Paramètres > Maintenance de l’appareil > Optimisation automatique et désactivez « Restart when needed » (« Auto restart » sur certaines versions). Les noms des menus varient selon la version de One UI, et le redémarrage aide le téléphone à rester fluide : le désactiver n’est donc pas toujours le bon choix.",
+     "Si vous avez besoin de la navigation ou de la musique en voiture, vérifiez d’abord si votre voiture prend en charge Android Auto : branchez le téléphone et ces applis s’affichent sur l’écran de la voiture. Si la voiture ne le prend pas en charge, ou si vous posez le téléphone sur un support, une appli de démarrage automatique est la solution."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Pourquoi mes applis sont-elles fermées chaque matin sur mon téléphone Galaxy ?",
+    "a": "Le redémarrage automatique de Samsung redémarre peut-être le téléphone pendant la nuit. Vous pouvez le désactiver dans Paramètres > Maintenance de l’appareil > Optimisation automatique, ou le garder et laisser AutoStart+ rouvrir vos applis après chaque redémarrage."
+   }
+  ]
+ }
+}

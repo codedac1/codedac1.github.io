@@ -1,0 +1,67 @@
+{
+ "floating-notes-over-other-apps-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Tanpa aplikasi: tampilan pop-up di Samsung Galaxy",
+    "p": [
+     "Ponsel Samsung Galaxy bisa membuka sebagian besar aplikasi di jendela kecil yang tetap berada di atas aplikasi berikutnya yang Anda buka, jadi Anda bisa membuat Samsung Notes atau aplikasi catatan apa pun mengambang tanpa memasang apa-apa.",
+     "Kekurangannya: Anda hanya mendapat satu jendela, jendela itu menutupi cukup banyak bagian layar, dan Anda harus membukanya lagi di tampilan pop-up setiap kali aplikasinya tertutup. Ponsel merek lain mungkin tidak punya fitur ini, atau menamainya lain. Layar terpisah (di menu yang sama) juga bisa dipakai, tetapi layar jadi terbagi dua, yang kurang cocok untuk video atau game."
+    ],
+    "steps": [
+     "Buka aplikasi catatan Anda, lalu ketuk tombol Aplikasi terbaru (|||).",
+     "Ketuk ikon aplikasi di bagian atas kartu aplikasi catatan.",
+     "Pilih “Open in pop-up view”.",
+     "Seret tepi jendela untuk memperkecilnya, lalu buka aplikasi lain. Jendela catatan tetap di atas."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Bisakah saya membuat catatan mengambang di ponsel Samsung tanpa memasang apa pun?",
+    "a": "Bisa. Buka aplikasi catatan Anda di tampilan pop-up dari layar Aplikasi terbaru. Anda hanya mendapat satu jendela yang harus dibuka lagi setiap kali; untuk catatan yang tetap di layar seharian, atau beberapa catatan sekaligus, aplikasi catatan mengambang seperti FloatNote+ lebih mudah."
+   }
+  ]
+ },
+ "floating-timer-over-other-apps-android": {
+  "insert_at": 0,
+  "sections": [
+   {
+    "h": "Tanpa aplikasi: timer aplikasi Jam dan tampilan pop-up",
+    "p": [
+     "Timer di aplikasi Jam ponsel Anda tetap berjalan saat Anda berpindah aplikasi. Untuk melihat sisa waktu, tarik turun panel notifikasi. Itu cukup jika Anda hanya sesekali melihatnya, tetapi Anda harus menariknya setiap kali, dan sulit memantau dua timer sekaligus.",
+     "Di Samsung Galaxy, Anda juga bisa membuat aplikasi Jam itu sendiri mengambang di jendela kecil. Namun jendelanya cukup besar, dan jika diperkecil, angkanya sulit dibaca dari jauh. Nama menu bisa sedikit berbeda antarversi One UI."
+    ],
+    "steps": [
+     "Mulai timer di aplikasi Jam.",
+     "Ketuk tombol Aplikasi terbaru (|||).",
+     "Ketuk ikon aplikasi Jam di bagian atas kartunya, lalu pilih “Open in pop-up view”."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Bisakah timer aplikasi Jam terlihat saat memakai aplikasi lain?",
+    "a": "Tarik turun panel notifikasi untuk melihat sisa waktu, atau di Samsung Galaxy, buka aplikasi Jam di tampilan pop-up. Agar hanya angkanya yang tampil kecil dan selalu terlihat, aplikasi timer mengambang seperti FloatTimer+ lebih cocok."
+   }
+  ]
+ },
+ "open-app-automatically-after-reboot-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Sebelum mulai: apa yang membuat ponsel Anda restart?",
+    "p": [
+     "Jika aplikasi Anda tertutup setiap pagi, penyebabnya mungkin fitur restart otomatis di ponsel Samsung Galaxy, yang menyalakan ulang ponsel pada malam hari. Mematikannya mungkin sudah cukup: buka Settings > Device care > Automatic optimization dan matikan “Restart when needed” (“Auto restart” di beberapa versi). Nama menu berbeda-beda menurut versi One UI, dan restart memang membantu ponsel tetap lancar, jadi mematikannya tidak selalu pilihan yang tepat.",
+     "Jika Anda perlu navigasi atau musik di mobil, periksa dulu apakah mobil Anda mendukung Android Auto: sambungkan ponsel, dan keduanya muncul di layar mobil. Jika mobil tidak mendukungnya, atau Anda menaruh ponsel di dudukan, aplikasi auto start adalah pilihannya."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Mengapa aplikasi saya tertutup setiap pagi di ponsel Galaxy?",
+    "a": "Restart otomatis Samsung mungkin menyalakan ulang ponsel pada malam hari. Anda bisa mematikannya di Settings > Device care > Automatic optimization, atau tetap menyalakannya dan biarkan AutoStart+ membuka aplikasi Anda lagi setelah setiap restart."
+   }
+  ]
+ }
+}

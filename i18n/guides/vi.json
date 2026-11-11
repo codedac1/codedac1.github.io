@@ -63,7 +63,7 @@
     },
     "open-app-automatically-after-reboot-android": {
       "app": "autostart",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Cách tự động mở ứng dụng sau khi khởi động lại Android (không cần root)",
       "desc": "Android không có cài đặt nào để mở ứng dụng khi điện thoại khởi động. Đây là cách để ứng dụng tự mở sau khi khởi động lại mà không cần root — và cách thử mà không cần khởi động lại.",
       "intro": "Android không có cài đặt để mở ứng dụng khi điện thoại khởi động. Nếu sau mỗi lần khởi động lại bạn đều mở cùng những ứng dụng — ứng dụng dẫn đường trên ô tô, launcher trên máy tính bảng kiosk, ứng dụng nghe nhạc trên màn hình ô tô — một ứng dụng tự khởi động có thể làm việc đó thay bạn.",
@@ -72,6 +72,13 @@
           "h": "Vì sao ứng dụng không tự mở",
           "p": [
             "Từ Android 10, ứng dụng không được tự mở màn hình từ chế độ nền. Vì vậy, ứng dụng muốn mở các ứng dụng khác sau khi khởi động lại cần quyền “Hiển thị trên các ứng dụng khác”, và chỉ có thể mở chúng sau khi điện thoại được mở khóa lần đầu."
+          ]
+        },
+        {
+          "h": "Trước khi bắt đầu: điều gì đang khởi động lại điện thoại của bạn?",
+          "p": [
+            "Nếu sáng nào các ứng dụng cũng bị đóng, nguyên nhân có thể là tính năng tự khởi động lại trên điện thoại Samsung Galaxy, vốn khởi động lại máy vào ban đêm. Có khi chỉ cần tắt nó là đủ: vào Settings > Device care > Automatic optimization và tắt “Restart when needed” (“Auto restart” ở một số phiên bản). Tên trình đơn khác nhau tùy phiên bản One UI, và việc khởi động lại cũng giúp điện thoại chạy mượt, nên tắt nó không phải lúc nào cũng là lựa chọn đúng.",
+            "Nếu bạn cần dẫn đường hoặc nghe nhạc trên ô tô, trước hết hãy kiểm tra xe có hỗ trợ Android Auto không: kết nối điện thoại là chúng hiện lên màn hình xe. Nếu xe không hỗ trợ, hoặc bạn đặt điện thoại trên giá đỡ, thì nên dùng ứng dụng tự khởi động."
           ]
         },
         {
@@ -102,12 +109,16 @@
         {
           "q": "Vì sao ứng dụng không mở trước khi tôi mở khóa điện thoại?",
           "a": "Android không cho ứng dụng mở ứng dụng khác cho đến khi điện thoại được mở khóa một lần sau khi khởi động lại. Ứng dụng của bạn sẽ mở ngay sau khi bạn mở khóa."
+        },
+        {
+          "q": "Vì sao sáng nào ứng dụng trên điện thoại Galaxy của tôi cũng bị đóng?",
+          "a": "Tính năng tự khởi động lại của Samsung có thể đang khởi động lại máy vào ban đêm. Bạn có thể tắt nó trong Settings > Device care > Automatic optimization, hoặc giữ nguyên và để AutoStart+ mở lại ứng dụng của bạn sau mỗi lần khởi động lại."
         }
       ]
     },
     "floating-notes-over-other-apps-android": {
       "app": "floatnote",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Cách giữ ghi chú nổi trên các ứng dụng khác trên Android",
       "desc": "Giữ ghi chú luôn hiện khi dùng ứng dụng khác: ghi chú nổi nằm trên mọi ứng dụng, thu gọn thành chip nhỏ và có thể hiện lên vào giờ bạn chọn.",
       "intro": "Chép một danh sách vào biểu mẫu, xem công thức nấu ăn khi đang phát video, giữ mã đơn hàng trong tầm mắt khi trò chuyện — chuyển qua lại với ứng dụng ghi chú làm đứt mạch. Ghi chú nổi luôn ở trên màn hình, trên bất kỳ ứng dụng nào bạn đang dùng.",
@@ -116,6 +127,19 @@
           "h": "Ghi chú nổi hoạt động thế nào",
           "p": [
             "Ghi chú nổi là một cửa sổ nhỏ được vẽ trên các ứng dụng khác. Android cho phép điều này qua quyền “Hiển thị trên các ứng dụng khác”, bạn chỉ cần cấp một lần. Ghi chú ở trên cùng trong khi bạn tiếp tục dùng ứng dụng bên dưới."
+          ]
+        },
+        {
+          "h": "Không cần ứng dụng: chế độ xem pop-up trên Samsung Galaxy",
+          "p": [
+            "Điện thoại Samsung Galaxy có thể mở hầu hết ứng dụng trong một cửa sổ nhỏ luôn nằm trên ứng dụng tiếp theo bạn mở, nên bạn có thể cho Samsung Notes hoặc bất kỳ ứng dụng ghi chú nào nổi lên mà không cần cài thêm gì.",
+            "Điểm hạn chế: bạn chỉ có một cửa sổ, nó che khá nhiều màn hình, và mỗi lần ứng dụng đóng lại bạn phải mở lại ở chế độ xem pop-up. Điện thoại của hãng khác có thể không có tính năng này, hoặc gọi bằng tên khác. Chia đôi màn hình (trong cùng trình đơn) cũng được, nhưng nó cắt màn hình làm đôi, không hợp khi xem video hay chơi game."
+          ],
+          "steps": [
+            "Mở ứng dụng ghi chú, rồi chạm nút Ứng dụng gần đây (|||).",
+            "Chạm vào biểu tượng ứng dụng ở đầu thẻ của ứng dụng ghi chú.",
+            "Chọn “Open in pop-up view”.",
+            "Kéo cạnh cửa sổ để thu nhỏ, rồi mở ứng dụng kia. Cửa sổ ghi chú vẫn ở trên cùng."
           ]
         },
         {
@@ -146,16 +170,32 @@
         {
           "q": "Ghi chú có thể hiện lên vào giờ đã đặt không?",
           "a": "Có. Trong FloatNote+, đặt lời nhắc từ trình đơn ⋮ của ghi chú, và ghi chú sẽ hiện lên màn hình kèm thông báo. Bạn có thể đặt bao nhiêu lời nhắc tùy thích."
+        },
+        {
+          "q": "Có thể cho ghi chú nổi trên điện thoại Samsung mà không cài gì không?",
+          "a": "Có. Mở ứng dụng ghi chú ở chế độ xem pop-up từ màn hình Ứng dụng gần đây. Cách này chỉ cho một cửa sổ và phải mở lại mỗi lần; với ghi chú cần ở trên màn hình cả ngày, hoặc nhiều ghi chú cùng lúc, ứng dụng ghi chú nổi như FloatNote+ sẽ dễ hơn."
         }
       ]
     },
     "floating-timer-over-other-apps-android": {
       "app": "floattimer",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Cách giữ bộ hẹn giờ trên màn hình khi dùng ứng dụng khác trên Android",
       "desc": "Bộ hẹn giờ của ứng dụng Đồng hồ biến mất khi bạn chuyển ứng dụng. Đây là cách giữ đếm ngược, đồng hồ bấm giờ hoặc bộ đếm nổi trên mọi ứng dụng.",
       "intro": "Bộ hẹn giờ trong ứng dụng Đồng hồ chạy ở chế độ nền, nhưng bạn không thấy nó khi đang ở ứng dụng khác — phải kéo thanh thông báo xuống hoặc chuyển về. Khi vừa học vừa nghe bài giảng, canh giờ thuyết trình hay chơi game, có thời gian luôn hiện trên màn hình sẽ tiện hơn nhiều.",
       "sections": [
+        {
+          "h": "Không cần ứng dụng: bộ hẹn giờ của Đồng hồ và chế độ xem pop-up",
+          "p": [
+            "Bộ hẹn giờ trong ứng dụng Đồng hồ của điện thoại vẫn chạy khi bạn chuyển ứng dụng. Để xem thời gian còn lại, hãy kéo thanh thông báo xuống. Như vậy là đủ nếu bạn chỉ thỉnh thoảng xem, nhưng lần nào cũng phải kéo xuống, và khó theo dõi hai bộ hẹn giờ cùng lúc.",
+            "Trên Samsung Galaxy, bạn cũng có thể cho chính ứng dụng Đồng hồ nổi trong một cửa sổ nhỏ. Tuy vậy cửa sổ khá lớn, và nếu thu nhỏ thì khó đọc số từ xa. Tên trình đơn có thể hơi khác giữa các phiên bản One UI."
+          ],
+          "steps": [
+            "Bắt đầu bộ hẹn giờ trong ứng dụng Đồng hồ.",
+            "Chạm nút Ứng dụng gần đây (|||).",
+            "Chạm vào biểu tượng ứng dụng Đồng hồ ở đầu thẻ của nó và chọn “Open in pop-up view”."
+          ]
+        },
         {
           "h": "Thiết lập bằng FloatTimer+",
           "p": [
@@ -183,6 +223,10 @@
         {
           "q": "Có mức đặt sẵn cho Pomodoro không?",
           "a": "FloatTimer+ có các mức đặt nhanh 1, 5, 10, 25, 30 và 60 phút, nên bộ hẹn giờ tập trung 25 phút chỉ cần một chạm."
+        },
+        {
+          "q": "Có thể xem bộ hẹn giờ của ứng dụng Đồng hồ khi đang dùng ứng dụng khác không?",
+          "a": "Kéo thanh thông báo xuống để xem thời gian còn lại, hoặc trên Samsung Galaxy, mở ứng dụng Đồng hồ ở chế độ xem pop-up. Để chỉ giữ những con số nhỏ gọn và luôn hiển thị, ứng dụng hẹn giờ nổi như FloatTimer+ sẽ phù hợp hơn."
         }
       ]
     },

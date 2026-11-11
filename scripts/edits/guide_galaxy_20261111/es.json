@@ -1,0 +1,67 @@
+{
+ "floating-notes-over-other-apps-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Sin instalar ninguna app: la vista emergente en Samsung Galaxy",
+    "p": [
+     "Los teléfonos Samsung Galaxy pueden abrir la mayoría de las apps en una ventana pequeña que se queda encima de la siguiente app que abras, así que puedes hacer flotar Samsung Notes o cualquier app de notas sin instalar nada.",
+     "La pega: solo tienes una ventana, tapa buena parte de la pantalla y tienes que volver a abrir la app en vista emergente cada vez que se cierra. Los teléfonos de otras marcas pueden no tener esta función, o llamarla de otra forma. La pantalla dividida (en el mismo menú) también sirve, pero parte la pantalla por la mitad, lo que no va bien con vídeos ni juegos."
+    ],
+    "steps": [
+     "Abre tu app de notas y toca el botón de Aplicaciones recientes (|||).",
+     "Toca el icono de la app en la parte superior de la tarjeta de la app de notas.",
+     "Elige «Abrir en vista emergente».",
+     "Arrastra el borde de la ventana para hacerla más pequeña y abre la otra app. La ventana de la nota se queda encima."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Puedo hacer flotar una nota en un teléfono Samsung sin instalar nada?",
+    "a": "Sí. Abre tu app de notas en vista emergente desde la pantalla de Aplicaciones recientes. Te da una sola ventana que tienes que volver a abrir cada vez; para notas que se queden en pantalla todo el día, o varias notas a la vez, es más cómodo usar una app de notas flotantes como FloatNote+."
+   }
+  ]
+ },
+ "floating-timer-over-other-apps-android": {
+  "insert_at": 0,
+  "sections": [
+   {
+    "h": "Sin instalar ninguna app: el temporizador de Reloj y la vista emergente",
+    "p": [
+     "El temporizador de la app Reloj de tu teléfono sigue funcionando cuando cambias de app. Para ver el tiempo que queda, baja el panel de notificaciones. Basta si solo lo miras de vez en cuando, pero tienes que bajarlo cada vez, y es difícil ver dos temporizadores a la vez.",
+     "En un Samsung Galaxy también puedes hacer flotar la propia app Reloj en una ventana pequeña. Eso sí, la ventana es bastante grande y, si la reduces, los números cuestan de leer a distancia. Los nombres de los menús pueden variar un poco según la versión de One UI."
+    ],
+    "steps": [
+     "Inicia el temporizador en la app Reloj.",
+     "Toca el botón de Aplicaciones recientes (|||).",
+     "Toca el icono de la app Reloj en la parte superior de su tarjeta y elige «Abrir en vista emergente»."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Puedo ver el temporizador de la app Reloj mientras uso otra app?",
+    "a": "Baja el panel de notificaciones para ver el tiempo que queda o, en un Samsung Galaxy, abre la app Reloj en vista emergente. Para tener solo los números en pequeño y siempre a la vista, funciona mejor una app de temporizador flotante como FloatTimer+."
+   }
+  ]
+ },
+ "open-app-automatically-after-reboot-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Antes de empezar: ¿qué está reiniciando tu teléfono?",
+    "p": [
+     "Si cada mañana encuentras tus apps cerradas, la causa puede ser el reinicio automático de los teléfonos Samsung Galaxy, que reinicia el teléfono por la noche. Desactivarlo puede ser todo lo que necesitas: ve a Ajustes > Mantenimiento del dispositivo > Optimización automática y desactiva «Restart when needed» («Auto restart» en algunas versiones). Los nombres de los menús varían según la versión de One UI, y reiniciar ayuda a que el teléfono siga funcionando con fluidez, así que desactivarlo no siempre es la mejor opción.",
+     "Si necesitas la navegación o la música en el coche, comprueba primero si tu coche es compatible con Android Auto: conecta el teléfono y esas apps aparecen en la pantalla del coche. Si el coche no es compatible, o llevas el teléfono en un soporte, lo indicado es una app de inicio automático."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Por qué mis apps están cerradas cada mañana en mi teléfono Galaxy?",
+    "a": "Puede que el reinicio automático de Samsung esté reiniciando el teléfono por la noche. Puedes desactivarlo en Ajustes > Mantenimiento del dispositivo > Optimización automática, o dejarlo activado y que AutoStart+ vuelva a abrir tus apps después de cada reinicio."
+   }
+  ]
+ }
+}

@@ -63,7 +63,7 @@
     },
     "open-app-automatically-after-reboot-android": {
       "app": "autostart",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Come aprire un'app automaticamente dopo il riavvio su Android (senza root)",
       "desc": "Android non ha un'impostazione che avvia un'app all'accensione del telefono. Ecco come far aprire da sole le tue app dopo un riavvio, senza root, e come provarlo senza riavviare.",
       "intro": "Android non ha un'impostazione che apre un'app all'avvio del telefono. Se dopo ogni riavvio apri sempre le stesse app — un navigatore in auto, un launcher su un tablet in modalità kiosk, un'app di musica sull'autoradio —, un'app di avvio automatico può farlo al posto tuo.",
@@ -72,6 +72,13 @@
           "h": "Perché non succede da solo",
           "p": [
             "Da Android 10 le app non possono più aprire schermate da sole quando sono in background. Un'app che deve aprirne altre dopo un riavvio ha quindi bisogno del permesso «Mostra sopra altre app», e può avviarle solo dopo che il telefono è stato sbloccato per la prima volta."
+          ]
+        },
+        {
+          "h": "Prima di iniziare: cosa sta riavviando il telefono?",
+          "p": [
+            "Se ogni mattina trovi le app chiuse, la causa potrebbe essere il riavvio automatico dei telefoni Samsung Galaxy, che riavvia il telefono di notte. Disattivarlo può bastare: vai in Impostazioni > Manutenzione dispositivo > Ottimizzazione automatica e disattiva «Restart when needed» («Auto restart» in alcune versioni). I nomi dei menu variano a seconda della versione di One UI, e il riavvio aiuta il telefono a restare fluido, quindi disattivarlo non è sempre la scelta giusta.",
+            "Se in auto ti servono navigatore o musica, verifica prima se la tua auto supporta Android Auto: collega il telefono e queste app compaiono sullo schermo dell'auto. Se l'auto non è compatibile, o tieni il telefono su un supporto, la strada giusta è un'app di avvio automatico."
           ]
         },
         {
@@ -102,12 +109,16 @@
         {
           "q": "Perché le mie app non si aprono prima che sblocchi il telefono?",
           "a": "Android non permette alle app di aprirne altre finché il telefono non è stato sbloccato una volta dopo il riavvio. Le tue app si aprono subito dopo lo sblocco."
+        },
+        {
+          "q": "Perché ogni mattina trovo le app chiuse sul mio telefono Galaxy?",
+          "a": "Potrebbe essere il riavvio automatico di Samsung, che riavvia il telefono di notte. Puoi disattivarlo in Impostazioni > Manutenzione dispositivo > Ottimizzazione automatica, oppure lasciarlo attivo e fare in modo che AutoStart+ riapra le tue app dopo ogni riavvio."
         }
       ]
     },
     "floating-notes-over-other-apps-android": {
       "app": "floatnote",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Come tenere una nota sopra le altre app su Android",
       "desc": "Tieni una nota sotto gli occhi mentre usi un'altra app: una nota flottante che resta sopra qualsiasi app, si riduce a un piccolo chip e può comparire all'ora che scegli.",
       "intro": "Copiare un elenco in un modulo, seguire una ricetta mentre scorre un video, tenere in vista un numero d'ordine in una chat: passare avanti e indietro dall'app delle note interrompe il flusso. Una nota flottante resta sullo schermo sopra qualunque app tu stia usando.",
@@ -116,6 +127,19 @@
           "h": "Come funzionano le note flottanti",
           "p": [
             "Una nota flottante è una piccola finestra mostrata sopra le altre app. Android lo consente tramite il permesso «Mostra sopra altre app», che concedi una volta sola. La nota resta in primo piano mentre continui a usare l'app sottostante."
+          ]
+        },
+        {
+          "h": "Senza app: la visualizzazione pop-up su Samsung Galaxy",
+          "p": [
+            "I telefoni Samsung Galaxy possono aprire la maggior parte delle app in una piccola finestra che resta sopra la prossima app che apri, quindi puoi far fluttuare Samsung Notes o qualsiasi app di note senza installare nulla.",
+            "Il limite: hai una sola finestra, copre buona parte dello schermo e devi riaprire l'app in visualizzazione pop-up ogni volta che si chiude. I telefoni di altri produttori potrebbero non avere questa funzione, o chiamarla in un altro modo. Funziona anche lo schermo diviso (nello stesso menu), ma taglia lo schermo a metà, cosa poco adatta a video e giochi."
+          ],
+          "steps": [
+            "Apri l'app delle note, poi tocca il pulsante App recenti (|||).",
+            "Tocca l'icona dell'app in cima alla scheda dell'app delle note.",
+            "Scegli «Open in pop-up view».",
+            "Trascina il bordo della finestra per rimpicciolirla, poi apri l'altra app. La finestra della nota resta in primo piano."
           ]
         },
         {
@@ -146,16 +170,32 @@
         {
           "q": "Una nota può comparire a un'ora precisa?",
           "a": "Sì. In FloatNote+ imposta un promemoria dal menu ⋮ della nota: la nota compare sullo schermo con una notifica. Puoi impostare tutti i promemoria che vuoi."
+        },
+        {
+          "q": "Posso far fluttuare una nota su un telefono Samsung senza installare nulla?",
+          "a": "Sì. Apri l'app delle note in visualizzazione pop-up dalla schermata delle app recenti. Hai una sola finestra, da riaprire ogni volta; per note che restano sullo schermo tutto il giorno, o più note insieme, è più comodo usare un'app di note flottanti come FloatNote+."
         }
       ]
     },
     "floating-timer-over-other-apps-android": {
       "app": "floattimer",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Come tenere un timer sullo schermo mentre usi altre app su Android",
       "desc": "Il timer dell'app Orologio sparisce quando cambi app. Ecco come far fluttuare un conto alla rovescia, un cronometro o un contatore sopra qualsiasi app.",
       "intro": "Il timer dell'app Orologio continua in background, ma mentre sei in un'altra app non lo vedi: devi abbassare le notifiche o tornare indietro. Per studiare seguendo una lezione, cronometrare una presentazione o giocare, è utile avere il tempo sullo schermo per tutto il tempo.",
       "sections": [
+        {
+          "h": "Senza app: il timer dell'Orologio e la visualizzazione pop-up",
+          "p": [
+            "Il timer dell'app Orologio del telefono continua a funzionare quando cambi app. Per vedere il tempo rimanente, abbassa la tendina delle notifiche. Basta se controlli solo ogni tanto, ma devi abbassarla ogni volta, ed è difficile tenere d'occhio due timer insieme.",
+            "Su un Samsung Galaxy puoi anche far fluttuare l'app Orologio stessa in una piccola finestra. La finestra però è piuttosto grande e, se la rimpicciolisci, i numeri diventano difficili da leggere a distanza. I nomi dei menu possono variare leggermente tra le versioni di One UI."
+          ],
+          "steps": [
+            "Avvia il timer nell'app Orologio.",
+            "Tocca il pulsante App recenti (|||).",
+            "Tocca l'icona dell'app Orologio in cima alla sua scheda e scegli «Open in pop-up view»."
+          ]
+        },
         {
           "h": "Configurazione con FloatTimer+",
           "p": [
@@ -183,6 +223,10 @@
         {
           "q": "C'è una scelta rapida per il Pomodoro?",
           "a": "FloatTimer+ ha scelte rapide da 1, 5, 10, 25, 30 e 60 minuti, quindi un timer di concentrazione da 25 minuti è a un tocco."
+        },
+        {
+          "q": "Posso vedere il timer dell'app Orologio mentre uso un'altra app?",
+          "a": "Abbassa la tendina delle notifiche per vedere il tempo rimanente oppure, su un Samsung Galaxy, apri l'app Orologio in visualizzazione pop-up. Per tenere solo i numeri piccoli e sempre visibili, funziona meglio un'app di timer flottante come FloatTimer+."
         }
       ]
     },

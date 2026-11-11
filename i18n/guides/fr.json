@@ -63,7 +63,7 @@
     },
     "open-app-automatically-after-reboot-android": {
       "app": "autostart",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Ouvrir une appli automatiquement après un redémarrage sur Android (sans root)",
       "desc": "Android n’a aucun réglage pour lancer une appli au démarrage du téléphone. Voici comment faire s’ouvrir vos applis toutes seules après un redémarrage, sans root, et comment tester sans redémarrer.",
       "intro": "Android n’a pas de réglage qui ouvre une appli au démarrage du téléphone. Si vous ouvrez les mêmes applis après chaque redémarrage — une appli de navigation dans la voiture, un launcher sur une tablette en mode kiosque, une appli de musique sur un autoradio —, une appli de démarrage automatique peut le faire pour vous.",
@@ -72,6 +72,13 @@
           "h": "Pourquoi cela ne se fait pas tout seul",
           "p": [
             "Depuis Android 10, les applis n’ont plus le droit d’ouvrir d’elles-mêmes des écrans depuis l’arrière-plan. Une appli censée en ouvrir d’autres après un redémarrage a donc besoin de l’autorisation « Superposition sur d’autres applis », et elle ne peut les lancer qu’une fois le téléphone déverrouillé pour la première fois."
+          ]
+        },
+        {
+          "h": "Avant de commencer : qu’est-ce qui redémarre votre téléphone ?",
+          "p": [
+            "Si vos applis sont fermées chaque matin, la cause est peut-être le redémarrage automatique des téléphones Samsung Galaxy, qui redémarre le téléphone pendant la nuit. Le désactiver peut suffire : allez dans Paramètres > Maintenance de l’appareil > Optimisation automatique et désactivez « Restart when needed » (« Auto restart » sur certaines versions). Les noms des menus varient selon la version de One UI, et le redémarrage aide le téléphone à rester fluide : le désactiver n’est donc pas toujours le bon choix.",
+            "Si vous avez besoin de la navigation ou de la musique en voiture, vérifiez d’abord si votre voiture prend en charge Android Auto : branchez le téléphone et ces applis s’affichent sur l’écran de la voiture. Si la voiture ne le prend pas en charge, ou si vous posez le téléphone sur un support, une appli de démarrage automatique est la solution."
           ]
         },
         {
@@ -102,12 +109,16 @@
         {
           "q": "Pourquoi mes applis ne s’ouvrent-elles pas avant que je déverrouille le téléphone ?",
           "a": "Android ne laisse pas les applis en ouvrir d’autres tant que le téléphone n’a pas été déverrouillé une fois après un redémarrage. Vos applis s’ouvrent juste après le déverrouillage."
+        },
+        {
+          "q": "Pourquoi mes applis sont-elles fermées chaque matin sur mon téléphone Galaxy ?",
+          "a": "Le redémarrage automatique de Samsung redémarre peut-être le téléphone pendant la nuit. Vous pouvez le désactiver dans Paramètres > Maintenance de l’appareil > Optimisation automatique, ou le garder et laisser AutoStart+ rouvrir vos applis après chaque redémarrage."
         }
       ]
     },
     "floating-notes-over-other-apps-android": {
       "app": "floatnote",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Garder une note au premier plan sur les autres applis Android",
       "desc": "Gardez une note sous les yeux pendant que vous utilisez une autre appli : une note flottante qui reste au-dessus de toute appli, se réduit en petite pastille et peut s’afficher à l’heure de votre choix.",
       "intro": "Recopier une liste dans un formulaire, suivre une recette pendant qu’une vidéo tourne, garder un numéro de commande en vue dans une discussion : faire des allers-retours vers votre appli de notes casse le rythme. Une note flottante reste à l’écran par-dessus l’appli que vous utilisez.",
@@ -116,6 +127,19 @@
           "h": "Comment fonctionnent les notes flottantes",
           "p": [
             "Une note flottante est une petite fenêtre affichée par-dessus les autres applis. Android le permet grâce à l’autorisation « Superposition sur d’autres applis », que vous accordez une seule fois. La note reste au premier plan pendant que vous continuez à utiliser l’appli en dessous."
+          ]
+        },
+        {
+          "h": "Sans appli : la fenêtre pop-up sur Samsung Galaxy",
+          "p": [
+            "Les téléphones Samsung Galaxy peuvent ouvrir la plupart des applis dans une petite fenêtre qui reste au-dessus de la prochaine appli que vous ouvrez : vous pouvez donc faire flotter Samsung Notes ou n’importe quelle appli de notes sans rien installer.",
+            "Le hic : vous n’avez qu’une fenêtre, elle couvre une bonne partie de l’écran, et il faut rouvrir l’appli en fenêtre pop-up chaque fois qu’elle se ferme. Les téléphones d’autres marques n’ont pas forcément cette fonction, ou lui donnent un autre nom. L’écran partagé (dans le même menu) fonctionne aussi, mais il coupe l’écran en deux, ce qui ne convient pas aux vidéos ni aux jeux."
+          ],
+          "steps": [
+            "Ouvrez votre appli de notes, puis touchez le bouton Applications récentes (|||).",
+            "Touchez l’icône de l’appli en haut de la carte de l’appli de notes.",
+            "Choisissez « Open in pop-up view ».",
+            "Faites glisser le bord de la fenêtre pour la réduire, puis ouvrez l’autre appli. La fenêtre de la note reste au premier plan."
           ]
         },
         {
@@ -146,16 +170,32 @@
         {
           "q": "Une note peut-elle s’afficher à une heure précise ?",
           "a": "Oui. Dans FloatNote+, réglez un rappel depuis le menu ⋮ de la note : elle s’affiche à l’écran avec une notification. Vous pouvez régler autant de rappels que vous voulez."
+        },
+        {
+          "q": "Puis-je faire flotter une note sur un téléphone Samsung sans rien installer ?",
+          "a": "Oui. Ouvrez votre appli de notes en fenêtre pop-up depuis l’écran des applications récentes. Vous n’avez qu’une fenêtre, à rouvrir à chaque fois ; pour des notes qui restent à l’écran toute la journée, ou plusieurs notes à la fois, une appli de notes flottantes comme FloatNote+ est plus pratique."
         }
       ]
     },
     "floating-timer-over-other-apps-android": {
       "app": "floattimer",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Garder un minuteur à l’écran pendant que vous utilisez d’autres applis Android",
       "desc": "Le minuteur de l’appli Horloge disparaît quand vous changez d’appli. Voici comment faire flotter un compte à rebours, un chronomètre ou un compteur au-dessus de toute appli.",
       "intro": "Le minuteur de l’appli Horloge tourne en arrière-plan, mais vous ne le voyez pas dans une autre appli : il faut dérouler les notifications ou revenir en arrière. Pour réviser en suivant un cours, chronométrer une présentation ou jouer, il est utile d’avoir le temps à l’écran en permanence.",
       "sections": [
+        {
+          "h": "Sans appli : le minuteur de l’Horloge et la fenêtre pop-up",
+          "p": [
+            "Le minuteur de l’appli Horloge de votre téléphone continue de tourner quand vous changez d’appli. Pour voir le temps restant, déroulez le volet des notifications. Cela suffit si vous ne regardez que de temps en temps, mais il faut le dérouler à chaque fois, et il est difficile de suivre deux minuteurs à la fois.",
+            "Sur un Samsung Galaxy, vous pouvez aussi faire flotter l’appli Horloge elle-même dans une petite fenêtre. Mais la fenêtre est assez grande, et si vous la réduisez, les chiffres deviennent difficiles à lire de loin. Les noms des menus peuvent légèrement varier selon la version de One UI."
+          ],
+          "steps": [
+            "Lancez le minuteur dans l’appli Horloge.",
+            "Touchez le bouton Applications récentes (|||).",
+            "Touchez l’icône de l’appli Horloge en haut de sa carte et choisissez « Open in pop-up view »."
+          ]
+        },
         {
           "h": "Configurer avec FloatTimer+",
           "p": [
@@ -183,6 +223,10 @@
         {
           "q": "Y a-t-il un préréglage Pomodoro ?",
           "a": "FloatTimer+ propose des préréglages rapides de 1, 5, 10, 25, 30 et 60 minutes : un minuteur de concentration de 25 minutes est à un toucher."
+        },
+        {
+          "q": "Puis-je voir le minuteur de l’appli Horloge pendant que j’utilise une autre appli ?",
+          "a": "Déroulez le volet des notifications pour voir le temps restant ou, sur un Samsung Galaxy, ouvrez l’appli Horloge en fenêtre pop-up. Pour garder seulement les chiffres, en petit et toujours visibles, une appli de minuteur flottant comme FloatTimer+ convient mieux."
         }
       ]
     },

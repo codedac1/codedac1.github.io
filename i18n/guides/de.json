@@ -63,7 +63,7 @@
     },
     "open-app-automatically-after-reboot-android": {
       "app": "autostart",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Android: App nach Neustart automatisch öffnen (ohne Root)",
       "desc": "Android hat keine Einstellung, die beim Hochfahren eine App startet. So öffnen sich deine Apps nach einem Neustart von selbst, ganz ohne Root – und so testest du es, ohne neu zu starten.",
       "intro": "Android hat keine Einstellung, die beim Start des Handys eine App öffnet. Wenn du nach jedem Neustart dieselben Apps öffnest – eine Navi-App im Auto, einen Launcher auf einem Kiosk-Tablet, eine Musik-App auf dem Autoradio –, kann eine Autostart-App das für dich übernehmen.",
@@ -72,6 +72,13 @@
           "h": "Warum das nicht von selbst passiert",
           "p": [
             "Seit Android 10 dürfen Apps aus dem Hintergrund nicht mehr von sich aus Bildschirme öffnen. Eine App, die nach einem Neustart andere öffnen soll, braucht deshalb die Berechtigung „Über anderen Apps einblenden“, und sie kann sie erst starten, nachdem das Handy zum ersten Mal entsperrt wurde."
+          ]
+        },
+        {
+          "h": "Vorab: Was startet dein Handy neu?",
+          "p": [
+            "Wenn deine Apps jeden Morgen geschlossen sind, steckt vielleicht der automatische Neustart dahinter, mit dem ein Samsung Galaxy nachts neu startet. Ihn auszuschalten kann schon reichen: Geh zu Einstellungen > Gerätewartung > Automatische Optimierung und schalte „Restart when needed“ aus (in manchen Versionen „Auto restart“). Die Menünamen unterscheiden sich je nach Version von One UI, und der Neustart hilft dabei, dass das Handy flüssig läuft – ausschalten ist also nicht immer die richtige Wahl.",
+            "Wenn du im Auto Navigation oder Musik brauchst, prüfe zuerst, ob dein Auto Android Auto unterstützt: Verbinde das Handy, und beides erscheint auf dem Bildschirm im Auto. Unterstützt das Auto es nicht oder steckt das Handy in einer Halterung, ist eine Autostart-App der richtige Weg."
           ]
         },
         {
@@ -102,12 +109,16 @@
         {
           "q": "Warum öffnen sich meine Apps nicht, bevor ich das Handy entsperre?",
           "a": "Android lässt Apps erst andere öffnen, wenn das Handy nach einem Neustart einmal entsperrt wurde. Deine Apps öffnen sich direkt nach dem Entsperren."
+        },
+        {
+          "q": "Warum sind meine Apps auf meinem Galaxy jeden Morgen geschlossen?",
+          "a": "Vielleicht startet der automatische Neustart von Samsung das Handy nachts neu. Du kannst ihn unter Einstellungen > Gerätewartung > Automatische Optimierung ausschalten oder ihn anlassen und AutoStart+ deine Apps nach jedem Neustart wieder öffnen lassen."
         }
       ]
     },
     "floating-notes-over-other-apps-android": {
       "app": "floatnote",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Android: Notiz über anderen Apps im Vordergrund halten",
       "desc": "Behalte eine Notiz im Blick, während du eine andere App nutzt: eine schwebende Notiz über jeder App, die sich zu einem kleinen Chip einklappt und zu einer Zeit deiner Wahl auftauchen kann.",
       "intro": "Eine Liste in ein Formular übertragen, ein Rezept lesen, während ein Video läuft, eine Bestellnummer im Chat im Blick behalten – ständig zur Notizen-App zu wechseln, reißt dich raus. Eine schwebende Notiz bleibt auf dem Bildschirm, egal welche App du gerade nutzt.",
@@ -116,6 +127,19 @@
           "h": "So funktionieren schwebende Notizen",
           "p": [
             "Eine schwebende Notiz ist ein kleines Fenster, das über anderen Apps angezeigt wird. Android erlaubt das über die Berechtigung „Über anderen Apps einblenden“, die du einmal erteilst. Die Notiz bleibt im Vordergrund, während du die App darunter weiter benutzt."
+          ]
+        },
+        {
+          "h": "Ohne App: Pop-up-Ansicht auf Samsung Galaxy",
+          "p": [
+            "Auf einem Samsung Galaxy lassen sich die meisten Apps in einem kleinen Fenster öffnen, das über der nächsten geöffneten App bleibt. So kannst du Samsung Notes oder jede andere Notizen-App schweben lassen, ohne etwas zu installieren.",
+            "Der Haken: Du hast nur ein Fenster, es verdeckt einen guten Teil des Bildschirms, und du musst die App jedes Mal neu in der Pop-up-Ansicht öffnen, wenn sie geschlossen wird. Handys anderer Hersteller haben diese Funktion vielleicht nicht oder nennen sie anders. Der geteilte Bildschirm (im selben Menü) geht auch, teilt den Bildschirm aber in zwei Hälften – das passt nicht zu Videos oder Spielen."
+          ],
+          "steps": [
+            "Öffne deine Notizen-App und tippe auf die Taste „Letzte Apps“ (|||).",
+            "Tippe oben auf der Karte der Notizen-App auf das App-Symbol.",
+            "Wähle „In Pop-up-Ansicht öffnen“.",
+            "Ziehe am Fensterrand, um das Fenster zu verkleinern, und öffne dann die andere App. Das Notizfenster bleibt im Vordergrund."
           ]
         },
         {
@@ -146,16 +170,32 @@
         {
           "q": "Kann eine Notiz zu einer bestimmten Zeit auftauchen?",
           "a": "Ja. Stelle in FloatNote+ im ⋮-Menü der Notiz eine Erinnerung ein, dann erscheint die Notiz mit einer Benachrichtigung auf dem Bildschirm. Du kannst so viele Erinnerungen einstellen, wie du willst."
+        },
+        {
+          "q": "Kann ich auf einem Samsung-Handy eine Notiz schweben lassen, ohne etwas zu installieren?",
+          "a": "Ja. Öffne deine Notizen-App über den Bildschirm „Letzte Apps“ in der Pop-up-Ansicht. Damit hast du ein Fenster, das du jedes Mal neu öffnen musst; für Notizen, die den ganzen Tag auf dem Bildschirm bleiben, oder mehrere Notizen gleichzeitig ist eine App für schwebende Notizen wie FloatNote+ einfacher."
         }
       ]
     },
     "floating-timer-over-other-apps-android": {
       "app": "floattimer",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Android: Timer sichtbar lassen, während du andere Apps nutzt",
       "desc": "Der Timer der Uhr-App verschwindet, sobald du die App wechselst. So lässt du einen Countdown, eine Stoppuhr oder einen Zähler über jeder App schweben.",
       "intro": "Der Timer in der Uhr-App läuft im Hintergrund weiter, aber in einer anderen App siehst du ihn nicht – du musst die Benachrichtigungen herunterziehen oder zurückwechseln. Beim Lernen mit einer Vorlesung, beim Zeitnehmen für eine Präsentation oder bei einem Spiel hilft es, die Zeit die ganze Zeit auf dem Bildschirm zu haben.",
       "sections": [
+        {
+          "h": "Ohne App: der Timer der Uhr-App und die Pop-up-Ansicht",
+          "p": [
+            "Der Timer in der Uhr-App deines Handys läuft weiter, wenn du die App wechselst. Die Restzeit siehst du, wenn du die Benachrichtigungen herunterziehst. Das reicht, wenn du nur ab und zu nachschaust, aber du musst sie jedes Mal herunterziehen, und zwei Timer gleichzeitig im Blick zu behalten ist schwierig.",
+            "Auf einem Samsung Galaxy kannst du auch die Uhr-App selbst in einem kleinen Fenster schweben lassen. Das Fenster ist allerdings recht groß, und wenn du es verkleinerst, sind die Ziffern aus der Entfernung schwer zu lesen. Die Menünamen können je nach Version von One UI etwas abweichen."
+          ],
+          "steps": [
+            "Starte den Timer in der Uhr-App.",
+            "Tippe auf die Taste „Letzte Apps“ (|||).",
+            "Tippe oben auf der Karte der Uhr-App auf ihr Symbol und wähle „In Pop-up-Ansicht öffnen“."
+          ]
+        },
         {
           "h": "Einrichten mit FloatTimer+",
           "p": [
@@ -183,6 +223,10 @@
         {
           "q": "Gibt es eine Pomodoro-Vorgabe?",
           "a": "FloatTimer+ hat Schnellauswahlen für 1, 5, 10, 25, 30 und 60 Minuten – ein 25-Minuten-Fokustimer ist also nur einen Tipp entfernt."
+        },
+        {
+          "q": "Kann ich den Timer der Uhr-App sehen, während ich eine andere App nutze?",
+          "a": "Zieh die Benachrichtigungen herunter, um die Restzeit zu sehen, oder öffne die Uhr-App auf einem Samsung Galaxy in der Pop-up-Ansicht. Wenn nur die Ziffern klein und immer sichtbar bleiben sollen, eignet sich eine schwebende Timer-App wie FloatTimer+ besser."
         }
       ]
     },

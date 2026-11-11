@@ -63,8 +63,8 @@
   "headline": "Android: App nach Neustart automatisch öffnen (ohne Root)",
   "description": "Android hat keine Einstellung, die beim Hochfahren eine App startet. So öffnen sich deine Apps nach einem Neustart von selbst, ganz ohne Root – und so testest du es, ohne neu zu starten.",
   "inLanguage": "de",
-  "datePublished": "2026-10-14",
-  "dateModified": "2026-10-14",
+  "datePublished": "2026-11-11",
+  "dateModified": "2026-11-11",
   "mainEntityOfPage": "https://codedac.com/de/guides/open-app-automatically-after-reboot-android.html",
   "image": "https://codedac.com/images/icons/autostart.png",
   "author": {
@@ -130,6 +130,14 @@
         "@type": "Answer",
         "text": "Android lässt Apps erst andere öffnen, wenn das Handy nach einem Neustart einmal entsperrt wurde. Deine Apps öffnen sich direkt nach dem Entsperren."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Warum sind meine Apps auf meinem Galaxy jeden Morgen geschlossen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vielleicht startet der automatische Neustart von Samsung das Handy nachts neu. Du kannst ihn unter Einstellungen > Gerätewartung > Automatische Optimierung ausschalten oder ihn anlassen und AutoStart+ deine Apps nach jedem Neustart wieder öffnen lassen."
+      }
     }
   ]
 }
@@ -193,7 +201,7 @@
         <a href="/de/guides/">Anleitungen</a>
       </nav>
       <h1>Android: App nach Neustart automatisch öffnen (ohne Root)</h1>
-      <p class="guide-meta">Aktualisiert <time datetime="2026-10-14">2026-10-14</time></p>
+      <p class="guide-meta">Aktualisiert <time datetime="2026-11-11">2026-11-11</time></p>
     </div>
   </section>
 
@@ -204,6 +212,10 @@
 
         <h2>Warum das nicht von selbst passiert</h2>
         <p>Seit Android 10 dürfen Apps aus dem Hintergrund nicht mehr von sich aus Bildschirme öffnen. Eine App, die nach einem Neustart andere öffnen soll, braucht deshalb die Berechtigung „Über anderen Apps einblenden“, und sie kann sie erst starten, nachdem das Handy zum ersten Mal entsperrt wurde.</p>
+
+        <h2>Vorab: Was startet dein Handy neu?</h2>
+        <p>Wenn deine Apps jeden Morgen geschlossen sind, steckt vielleicht der automatische Neustart dahinter, mit dem ein Samsung Galaxy nachts neu startet. Ihn auszuschalten kann schon reichen: Geh zu Einstellungen &gt; Gerätewartung &gt; Automatische Optimierung und schalte „Restart when needed“ aus (in manchen Versionen „Auto restart“). Die Menünamen unterscheiden sich je nach Version von One UI, und der Neustart hilft dabei, dass das Handy flüssig läuft – ausschalten ist also nicht immer die richtige Wahl.</p>
+        <p>Wenn du im Auto Navigation oder Musik brauchst, prüfe zuerst, ob dein Auto Android Auto unterstützt: Verbinde das Handy, und beides erscheint auf dem Bildschirm im Auto. Unterstützt das Auto es nicht oder steckt das Handy in einer Halterung, ist eine Autostart-App der richtige Weg.</p>
 
         <h2>Einrichten mit AutoStart+</h2>
         <p>AutoStart+ (unsere App) öffnet die Apps deiner Wahl nach jedem Neustart, sobald du das Handy entsperrst. Root ist nicht nötig.</p>
@@ -244,6 +256,7 @@
       <div class="faq-list">
         <div class="faq-item"><p class="faq-q">Brauche ich Root, um Apps auf Android automatisch zu starten?</p><p class="faq-a">Nein. AutoStart+ funktioniert ohne Root; es braucht nur die Berechtigung „Über anderen Apps einblenden“.</p></div>
         <div class="faq-item"><p class="faq-q">Warum öffnen sich meine Apps nicht, bevor ich das Handy entsperre?</p><p class="faq-a">Android lässt Apps erst andere öffnen, wenn das Handy nach einem Neustart einmal entsperrt wurde. Deine Apps öffnen sich direkt nach dem Entsperren.</p></div>
+        <div class="faq-item"><p class="faq-q">Warum sind meine Apps auf meinem Galaxy jeden Morgen geschlossen?</p><p class="faq-a">Vielleicht startet der automatische Neustart von Samsung das Handy nachts neu. Du kannst ihn unter Einstellungen &gt; Gerätewartung &gt; Automatische Optimierung ausschalten oder ihn anlassen und AutoStart+ deine Apps nach jedem Neustart wieder öffnen lassen.</p></div>
       </div>
     </div>
   </section>

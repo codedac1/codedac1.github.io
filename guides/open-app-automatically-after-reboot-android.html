@@ -64,8 +64,8 @@
   "headline": "How to open an app automatically after a reboot on Android (no root)",
   "description": "Android has no setting that launches an app when the phone starts. Here is how to make your apps open by themselves after a restart, without root — and how to test it without rebooting.",
   "inLanguage": "en",
-  "datePublished": "2026-10-14",
-  "dateModified": "2026-10-14",
+  "datePublished": "2026-11-11",
+  "dateModified": "2026-11-11",
   "mainEntityOfPage": "https://codedac.com/guides/open-app-automatically-after-reboot-android.html",
   "image": "https://codedac.com/images/icons/autostart.png",
   "author": {
@@ -131,6 +131,14 @@
         "@type": "Answer",
         "text": "Android does not let apps open others until the phone has been unlocked once after a reboot. Your apps open right after you unlock."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are my apps closed every morning on my Galaxy phone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Samsung's auto restart may be rebooting the phone at night. You can turn it off in Settings > Device care > Automatic optimization, or keep it and let AutoStart+ open your apps again after each restart."
+      }
     }
   ]
 }
@@ -194,7 +202,7 @@
         <a href="/guides/">Guides</a>
       </nav>
       <h1>How to open an app automatically after a reboot on Android (no root)</h1>
-      <p class="guide-meta">Updated <time datetime="2026-10-14">2026-10-14</time></p>
+      <p class="guide-meta">Updated <time datetime="2026-11-11">2026-11-11</time></p>
     </div>
   </section>
 
@@ -205,6 +213,10 @@
 
         <h2>Why it doesn't happen on its own</h2>
         <p>Since Android 10, apps are not allowed to open screens from the background on their own. An app that should open others after a reboot therefore needs the "Display over other apps" permission, and it can only start them once the phone has been unlocked for the first time.</p>
+
+        <h2>Before you start: what is restarting your phone?</h2>
+        <p>If your apps are closed every morning, the cause may be the auto restart on Samsung Galaxy phones, which reboots the phone at night. Turning it off can be all you need: go to Settings &gt; Device care &gt; Automatic optimization and turn off "Restart when needed" ("Auto restart" on some versions). Menu names vary by One UI version, and restarting does help keep the phone running smoothly, so turning it off isn't always the right call.</p>
+        <p>If you need navigation or music in the car, first check whether your car supports Android Auto: connect the phone and they appear on the car's screen. If the car doesn't support it, or you keep the phone in a mount, an auto-start app is the way to go.</p>
 
         <h2>Set it up with AutoStart+</h2>
         <p>AutoStart+ (our app) opens the apps you pick after every restart, as soon as you unlock the phone. It needs no root.</p>
@@ -245,6 +257,7 @@
       <div class="faq-list">
         <div class="faq-item"><p class="faq-q">Do I need root to auto start apps on Android?</p><p class="faq-a">No. AutoStart+ works without root; it only needs the "Display over other apps" permission.</p></div>
         <div class="faq-item"><p class="faq-q">Why don't my apps open before I unlock the phone?</p><p class="faq-a">Android does not let apps open others until the phone has been unlocked once after a reboot. Your apps open right after you unlock.</p></div>
+        <div class="faq-item"><p class="faq-q">Why are my apps closed every morning on my Galaxy phone?</p><p class="faq-a">Samsung's auto restart may be rebooting the phone at night. You can turn it off in Settings &gt; Device care &gt; Automatic optimization, or keep it and let AutoStart+ open your apps again after each restart.</p></div>
       </div>
     </div>
   </section>

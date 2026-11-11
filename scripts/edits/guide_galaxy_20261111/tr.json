@@ -1,0 +1,67 @@
+{
+ "floating-notes-over-other-apps-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Uygulama olmadan: Samsung Galaxy'de açılır pencere görünümü",
+    "p": [
+     "Samsung Galaxy telefonlar çoğu uygulamayı, ardından açtığınız uygulamanın üstünde kalan küçük bir pencerede açabilir; böylece hiçbir şey yüklemeden Samsung Notes'u veya herhangi bir not uygulamasını yüzdürebilirsiniz.",
+     "Ancak bir sorun var: tek bir pencere alırsınız, ekranın büyük bir kısmını kaplar ve uygulama her kapandığında onu yeniden açılır pencere görünümünde açmanız gerekir. Diğer üreticilerin telefonlarında bu özellik olmayabilir ya da başka bir adla geçebilir. Bölünmüş ekran (aynı menüde) da işe yarar, ancak ekranı ikiye böler; bu da videolar ve oyunlar için uygun değildir."
+    ],
+    "steps": [
+     "Not uygulamanızı açın, ardından Son uygulamalar düğmesine (|||) dokunun.",
+     "Not uygulamasının kartının üstündeki uygulama simgesine dokunun.",
+     "“Open in pop-up view” (açılır pencere görünümünde aç) seçeneğini seçin.",
+     "Küçültmek için pencerenin kenarını sürükleyin, ardından diğer uygulamayı açın. Not penceresi üstte kalır."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Samsung telefonda hiçbir şey yüklemeden not yüzdürebilir miyim?",
+    "a": "Evet. Not uygulamanızı Son uygulamalar ekranından açılır pencere görünümünde açın. Bu size her seferinde yeniden açtığınız tek bir pencere verir; gün boyu ekranda kalan notlar veya aynı anda birkaç not için FloatNote+ gibi bir yüzen not uygulaması daha kolaydır."
+   }
+  ]
+ },
+ "floating-timer-over-other-apps-android": {
+  "insert_at": 0,
+  "sections": [
+   {
+    "h": "Uygulama olmadan: Saat zamanlayıcısı ve açılır pencere görünümü",
+    "p": [
+     "Telefonunuzun Saat uygulamasındaki zamanlayıcı, uygulama değiştirdiğinizde çalışmaya devam eder. Kalan süreyi görmek için bildirim panelini aşağı çekin. Arada bir bakıyorsanız bu yeterlidir, ancak paneli her seferinde aşağı çekmeniz gerekir ve iki zamanlayıcıyı aynı anda izlemek zordur.",
+     "Samsung Galaxy'de Saat uygulamasının kendisini de küçük bir pencerede yüzdürebilirsiniz. Ancak pencere oldukça büyüktür ve küçültürseniz rakamları uzaktan okumak zorlaşır. Menü adları One UI sürümleri arasında biraz farklı olabilir."
+    ],
+    "steps": [
+     "Saat uygulamasında zamanlayıcıyı başlatın.",
+     "Son uygulamalar düğmesine (|||) dokunun.",
+     "Kartının üstündeki Saat uygulaması simgesine dokunun ve “Open in pop-up view” (açılır pencere görünümünde aç) seçeneğini seçin."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Başka bir uygulamayı kullanırken Saat uygulamasının zamanlayıcısını görebilir miyim?",
+    "a": "Kalan süreyi görmek için bildirim panelini aşağı çekin ya da Samsung Galaxy'de Saat uygulamasını açılır pencere görünümünde açın. Yalnızca rakamları küçük ve her zaman görünür tutmak için FloatTimer+ gibi bir yüzen zamanlayıcı uygulaması daha iyi çalışır."
+   }
+  ]
+ },
+ "open-app-automatically-after-reboot-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Başlamadan önce: telefonunuzu ne yeniden başlatıyor?",
+    "p": [
+     "Uygulamalarınız her sabah kapalıysa, nedeni Samsung Galaxy telefonlarda telefonu gece yeniden başlatan otomatik yeniden başlatma olabilir. Bunu kapatmak yeterli olabilir: Ayarlar > “Device care” > “Automatic optimization” bölümüne gidin ve “Restart when needed” (bazı sürümlerde “Auto restart”) seçeneğini kapatın. Menü adları One UI sürümüne göre değişir ve yeniden başlatma telefonun sorunsuz çalışmasına yardımcı olur; bu yüzden kapatmak her zaman doğru seçim değildir.",
+     "Araçta navigasyona veya müziğe ihtiyacınız varsa önce aracınızın Android Auto'yu destekleyip desteklemediğini kontrol edin: telefonu bağladığınızda bunlar aracın ekranında görünür. Araç desteklemiyorsa ya da telefonu bir tutucuda kullanıyorsanız otomatik başlatma uygulaması doğru seçimdir."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Galaxy telefonumda uygulamalarım neden her sabah kapalı?",
+    "a": "Samsung'un otomatik yeniden başlatma özelliği telefonu gece yeniden başlatıyor olabilir. Bunu Ayarlar > “Device care” > “Automatic optimization” bölümünden kapatabilir ya da açık bırakıp her yeniden başlatmadan sonra uygulamalarınızı AutoStart+'ın yeniden açmasını sağlayabilirsiniz."
+   }
+  ]
+ }
+}

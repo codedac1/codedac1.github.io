@@ -63,8 +63,8 @@
   "headline": "Androidで再起動後にアプリを自動で起動する方法（root不要）",
   "description": "Androidには、スマホの起動時にアプリを立ち上げる設定がありません。rootなしで再起動後にアプリを自動で開く方法と、再起動せずに動作を確かめる方法を紹介します。",
   "inLanguage": "ja",
-  "datePublished": "2026-10-14",
-  "dateModified": "2026-10-14",
+  "datePublished": "2026-11-11",
+  "dateModified": "2026-11-11",
   "mainEntityOfPage": "https://codedac.com/ja/guides/open-app-automatically-after-reboot-android.html",
   "image": "https://codedac.com/images/icons/autostart.png",
   "author": {
@@ -130,6 +130,14 @@
         "@type": "Answer",
         "text": "Androidは、再起動後にスマホのロックが一度解除されるまで、アプリがほかのアプリを開くことを許可していません。ロックを解除するとすぐにアプリが開きます。"
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Galaxyのスマホで毎朝アプリが閉じているのはなぜですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Samsungの自動再起動が、夜の間にスマホを再起動しているのかもしれません。設定 > デバイスケア > 自動最適化 でオフにできます。オンのままにして、再起動のたびにAutoStart+でアプリを開き直すこともできます。"
+      }
     }
   ]
 }
@@ -193,7 +201,7 @@
         <a href="/ja/guides/">ガイド</a>
       </nav>
       <h1>Androidで再起動後にアプリを自動で起動する方法（root不要）</h1>
-      <p class="guide-meta">更新日 <time datetime="2026-10-14">2026-10-14</time></p>
+      <p class="guide-meta">更新日 <time datetime="2026-11-11">2026-11-11</time></p>
     </div>
   </section>
 
@@ -204,6 +212,10 @@
 
         <h2>自動では起動しない理由</h2>
         <p>Android 10以降、アプリはバックグラウンドから自分で画面を開くことが許されていません。そのため再起動後にほかのアプリを開くアプリには「他のアプリの上に重ねて表示」の権限が必要で、しかも起動できるのは、スマホのロックが初めて解除されてからです。</p>
+
+        <h2>始める前に：何がスマホを再起動しているのか</h2>
+        <p>毎朝アプリが閉じているなら、原因はSamsung Galaxyの自動再起動かもしれません。夜の間にスマホを再起動する機能で、これをオフにするだけで済むこともあります。設定 &gt; デバイスケア &gt; 自動最適化 で「Restart when needed」（バージョンによっては「Auto restart」）をオフにします。メニューの名前はOne UIのバージョンによって異なります。また、再起動にはスマホを快適に動かし続ける効果もあるので、オフにするのが常に正解とは限りません。</p>
+        <p>車でナビや音楽を使いたいなら、まず車がAndroid Autoに対応しているか確認してください。スマホをつなぐと、車の画面に表示されます。車が対応していない場合や、スマホをホルダーに付けて使う場合は、自動起動アプリを使いましょう。</p>
 
         <h2>AutoStart+で設定する</h2>
         <p>AutoStart+（私たちのアプリ）は、再起動のたびに、ロックを解除するとすぐ選んだアプリを開きます。rootは不要です。</p>
@@ -244,6 +256,7 @@
       <div class="faq-list">
         <div class="faq-item"><p class="faq-q">Androidでアプリを自動起動するのにrootは必要ですか？</p><p class="faq-a">いいえ。AutoStart+はrootなしで動作し、必要なのは「他のアプリの上に重ねて表示」の権限だけです。</p></div>
         <div class="faq-item"><p class="faq-q">ロックを解除する前にアプリが開かないのはなぜですか？</p><p class="faq-a">Androidは、再起動後にスマホのロックが一度解除されるまで、アプリがほかのアプリを開くことを許可していません。ロックを解除するとすぐにアプリが開きます。</p></div>
+        <div class="faq-item"><p class="faq-q">Galaxyのスマホで毎朝アプリが閉じているのはなぜですか？</p><p class="faq-a">Samsungの自動再起動が、夜の間にスマホを再起動しているのかもしれません。設定 &gt; デバイスケア &gt; 自動最適化 でオフにできます。オンのままにして、再起動のたびにAutoStart+でアプリを開き直すこともできます。</p></div>
       </div>
     </div>
   </section>

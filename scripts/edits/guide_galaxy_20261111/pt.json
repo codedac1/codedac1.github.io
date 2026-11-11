@@ -1,0 +1,67 @@
+{
+ "floating-notes-over-other-apps-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Sem instalar nada: a visualização pop-up no Samsung Galaxy",
+    "p": [
+     "Os celulares Samsung Galaxy conseguem abrir a maioria dos apps em uma janela pequena que fica por cima do próximo app que você abrir, então dá para deixar o Samsung Notes ou qualquer app de notas flutuando sem instalar nada.",
+     "O porém: você tem uma única janela, ela cobre boa parte da tela e é preciso abrir o app de novo em visualização pop-up toda vez que ele fecha. Celulares de outras marcas podem não ter esse recurso ou chamá-lo de outro jeito. A tela dividida (no mesmo menu) também funciona, mas corta a tela ao meio, o que não combina com vídeos ou jogos."
+    ],
+    "steps": [
+     "Abra seu app de notas e toque no botão Recentes (|||).",
+     "Toque no ícone do app no topo do cartão do app de notas.",
+     "Escolha “Open in pop-up view”.",
+     "Arraste a borda da janela para deixá-la menor e abra o outro app. A janela da nota fica por cima."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Dá para deixar uma nota flutuando em um celular Samsung sem instalar nada?",
+    "a": "Sim. Abra seu app de notas em visualização pop-up pela tela de apps recentes. Você tem uma única janela, que precisa abrir de novo a cada vez; para notas que ficam na tela o dia todo, ou várias notas ao mesmo tempo, um app de notas flutuantes como o FloatNote+ é mais prático."
+   }
+  ]
+ },
+ "floating-timer-over-other-apps-android": {
+  "insert_at": 0,
+  "sections": [
+   {
+    "h": "Sem instalar nada: o timer do Relógio e a visualização pop-up",
+    "p": [
+     "O timer do app Relógio do celular continua rodando quando você troca de app. Para ver o tempo restante, puxe a barra de notificações. Isso basta se você só confere de vez em quando, mas é preciso puxar toda vez, e fica difícil acompanhar dois timers ao mesmo tempo.",
+     "Em um Samsung Galaxy, você também pode deixar o próprio app Relógio flutuando em uma janela pequena. Só que a janela é bem grande e, se você a diminuir, os números ficam difíceis de ler de longe. Os nomes dos menus podem variar um pouco entre versões da One UI."
+    ],
+    "steps": [
+     "Inicie o timer no app Relógio.",
+     "Toque no botão Recentes (|||).",
+     "Toque no ícone do app Relógio no topo do cartão dele e escolha “Open in pop-up view”."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Consigo ver o timer do app Relógio enquanto uso outro app?",
+    "a": "Puxe a barra de notificações para ver o tempo restante ou, em um Samsung Galaxy, abra o app Relógio em visualização pop-up. Para manter só os números pequenos e sempre visíveis, um app de timer flutuante como o FloatTimer+ funciona melhor."
+   }
+  ]
+ },
+ "open-app-automatically-after-reboot-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Antes de começar: o que está reiniciando seu celular?",
+    "p": [
+     "Se seus apps aparecem fechados toda manhã, a causa pode ser o reinício automático dos celulares Samsung Galaxy, que reinicia o aparelho durante a noite. Desativá-lo pode ser tudo de que você precisa: vá em Configurações > “Device care” > “Automatic optimization” e desative “Restart when needed” (“Auto restart” em algumas versões). Os nomes dos menus variam conforme a versão da One UI, e reiniciar ajuda a manter o celular funcionando bem, então desativar nem sempre é a melhor escolha.",
+     "Se você precisa de navegação ou música no carro, primeiro veja se o carro é compatível com o Android Auto: conecte o celular e esses apps aparecem na tela do carro. Se o carro não for compatível, ou se você usa o celular em um suporte, o caminho é um app de início automático."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Por que meus apps estão fechados toda manhã no meu celular Galaxy?",
+    "a": "O reinício automático da Samsung pode estar reiniciando o celular durante a noite. Você pode desativá-lo em Configurações > “Device care” > “Automatic optimization” ou mantê-lo e deixar o AutoStart+ abrir seus apps de novo depois de cada reinício."
+   }
+  ]
+ }
+}

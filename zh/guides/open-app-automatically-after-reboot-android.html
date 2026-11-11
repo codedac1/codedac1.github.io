@@ -63,8 +63,8 @@
   "headline": "安卓如何设置重启后自动打开应用（无需 root）",
   "description": "安卓没有在开机时启动应用的设置。本文介绍如何在无需 root 的情况下让应用在重启后自动打开，以及如何不重启就进行测试。",
   "inLanguage": "zh-Hans",
-  "datePublished": "2026-10-14",
-  "dateModified": "2026-10-14",
+  "datePublished": "2026-11-11",
+  "dateModified": "2026-11-11",
   "mainEntityOfPage": "https://codedac.com/zh/guides/open-app-automatically-after-reboot-android.html",
   "image": "https://codedac.com/images/icons/autostart.png",
   "author": {
@@ -130,6 +130,14 @@
         "@type": "Answer",
         "text": "安卓不允许应用在重启后、手机首次解锁之前打开其他应用。一解锁，你的应用就会立刻打开。"
       }
+    },
+    {
+      "@type": "Question",
+      "name": "为什么我的 Galaxy 手机每天早上应用都被关掉了？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可能是 Samsung 的自动重启在夜间重启了手机。你可以在 设置 > 设备维护 > 自动优化 中关闭它，也可以保持开启，让 AutoStart+ 在每次重启后重新打开你的应用。"
+      }
     }
   ]
 }
@@ -193,7 +201,7 @@
         <a href="/zh/guides/">指南</a>
       </nav>
       <h1>安卓如何设置重启后自动打开应用（无需 root）</h1>
-      <p class="guide-meta">更新于 <time datetime="2026-10-14">2026-10-14</time></p>
+      <p class="guide-meta">更新于 <time datetime="2026-11-11">2026-11-11</time></p>
     </div>
   </section>
 
@@ -204,6 +212,10 @@
 
         <h2>为什么不会自动打开</h2>
         <p>从 Android 10 开始，应用不能自行从后台打开界面。因此，要在重启后打开其他应用的应用需要“显示在其他应用的上层”权限，而且只能在手机重启后首次解锁之后才能启动它们。</p>
+
+        <h2>开始之前：是什么在重启你的手机？</h2>
+        <p>如果每天早上应用都被关掉了，原因可能是 Samsung Galaxy 手机的自动重启功能，它会在夜间重启手机。有时只要关掉它就行：进入 设置 &gt; 设备维护 &gt; 自动优化，关闭“Restart when needed”（部分版本为“Auto restart”）。菜单名称因 One UI 版本而异；而且重启确实有助于手机保持流畅，所以关掉它并不总是正确的选择。</p>
+        <p>如果你是要在车上用导航或听音乐，先确认你的车是否支持 Android Auto：连接手机后，这些应用就会显示在车机屏幕上。如果车不支持，或者你把手机放在支架上使用，那就用自启动应用。</p>
 
         <h2>用 AutoStart+ 设置</h2>
         <p>AutoStart+（我们的应用）会在每次重启后、你一解锁手机就打开你选定的应用。无需 root。</p>
@@ -244,6 +256,7 @@
       <div class="faq-list">
         <div class="faq-item"><p class="faq-q">在安卓上自动启动应用需要 root 吗？</p><p class="faq-a">不需要。AutoStart+ 无需 root 即可使用，只需要“显示在其他应用的上层”权限。</p></div>
         <div class="faq-item"><p class="faq-q">为什么解锁手机之前应用不会打开？</p><p class="faq-a">安卓不允许应用在重启后、手机首次解锁之前打开其他应用。一解锁，你的应用就会立刻打开。</p></div>
+        <div class="faq-item"><p class="faq-q">为什么我的 Galaxy 手机每天早上应用都被关掉了？</p><p class="faq-a">可能是 Samsung 的自动重启在夜间重启了手机。你可以在 设置 &gt; 设备维护 &gt; 自动优化 中关闭它，也可以保持开启，让 AutoStart+ 在每次重启后重新打开你的应用。</p></div>
       </div>
     </div>
   </section>

@@ -63,8 +63,8 @@
   "headline": "Cách tự động mở ứng dụng sau khi khởi động lại Android (không cần root)",
   "description": "Android không có cài đặt nào để mở ứng dụng khi điện thoại khởi động. Đây là cách để ứng dụng tự mở sau khi khởi động lại mà không cần root — và cách thử mà không cần khởi động lại.",
   "inLanguage": "vi",
-  "datePublished": "2026-10-14",
-  "dateModified": "2026-10-14",
+  "datePublished": "2026-11-11",
+  "dateModified": "2026-11-11",
   "mainEntityOfPage": "https://codedac.com/vi/guides/open-app-automatically-after-reboot-android.html",
   "image": "https://codedac.com/images/icons/autostart.png",
   "author": {
@@ -130,6 +130,14 @@
         "@type": "Answer",
         "text": "Android không cho ứng dụng mở ứng dụng khác cho đến khi điện thoại được mở khóa một lần sau khi khởi động lại. Ứng dụng của bạn sẽ mở ngay sau khi bạn mở khóa."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Vì sao sáng nào ứng dụng trên điện thoại Galaxy của tôi cũng bị đóng?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tính năng tự khởi động lại của Samsung có thể đang khởi động lại máy vào ban đêm. Bạn có thể tắt nó trong Settings > Device care > Automatic optimization, hoặc giữ nguyên và để AutoStart+ mở lại ứng dụng của bạn sau mỗi lần khởi động lại."
+      }
     }
   ]
 }
@@ -193,7 +201,7 @@
         <a href="/vi/guides/">Hướng dẫn</a>
       </nav>
       <h1>Cách tự động mở ứng dụng sau khi khởi động lại Android (không cần root)</h1>
-      <p class="guide-meta">Cập nhật <time datetime="2026-10-14">2026-10-14</time></p>
+      <p class="guide-meta">Cập nhật <time datetime="2026-11-11">2026-11-11</time></p>
     </div>
   </section>
 
@@ -204,6 +212,10 @@
 
         <h2>Vì sao ứng dụng không tự mở</h2>
         <p>Từ Android 10, ứng dụng không được tự mở màn hình từ chế độ nền. Vì vậy, ứng dụng muốn mở các ứng dụng khác sau khi khởi động lại cần quyền “Hiển thị trên các ứng dụng khác”, và chỉ có thể mở chúng sau khi điện thoại được mở khóa lần đầu.</p>
+
+        <h2>Trước khi bắt đầu: điều gì đang khởi động lại điện thoại của bạn?</h2>
+        <p>Nếu sáng nào các ứng dụng cũng bị đóng, nguyên nhân có thể là tính năng tự khởi động lại trên điện thoại Samsung Galaxy, vốn khởi động lại máy vào ban đêm. Có khi chỉ cần tắt nó là đủ: vào Settings &gt; Device care &gt; Automatic optimization và tắt “Restart when needed” (“Auto restart” ở một số phiên bản). Tên trình đơn khác nhau tùy phiên bản One UI, và việc khởi động lại cũng giúp điện thoại chạy mượt, nên tắt nó không phải lúc nào cũng là lựa chọn đúng.</p>
+        <p>Nếu bạn cần dẫn đường hoặc nghe nhạc trên ô tô, trước hết hãy kiểm tra xe có hỗ trợ Android Auto không: kết nối điện thoại là chúng hiện lên màn hình xe. Nếu xe không hỗ trợ, hoặc bạn đặt điện thoại trên giá đỡ, thì nên dùng ứng dụng tự khởi động.</p>
 
         <h2>Thiết lập bằng AutoStart+</h2>
         <p>AutoStart+ (ứng dụng của chúng tôi) mở các ứng dụng bạn chọn sau mỗi lần khởi động lại, ngay khi bạn mở khóa điện thoại. Không cần root.</p>
@@ -244,6 +256,7 @@
       <div class="faq-list">
         <div class="faq-item"><p class="faq-q">Có cần root để tự khởi động ứng dụng trên Android không?</p><p class="faq-a">Không. AutoStart+ hoạt động không cần root; nó chỉ cần quyền “Hiển thị trên các ứng dụng khác”.</p></div>
         <div class="faq-item"><p class="faq-q">Vì sao ứng dụng không mở trước khi tôi mở khóa điện thoại?</p><p class="faq-a">Android không cho ứng dụng mở ứng dụng khác cho đến khi điện thoại được mở khóa một lần sau khi khởi động lại. Ứng dụng của bạn sẽ mở ngay sau khi bạn mở khóa.</p></div>
+        <div class="faq-item"><p class="faq-q">Vì sao sáng nào ứng dụng trên điện thoại Galaxy của tôi cũng bị đóng?</p><p class="faq-a">Tính năng tự khởi động lại của Samsung có thể đang khởi động lại máy vào ban đêm. Bạn có thể tắt nó trong Settings &gt; Device care &gt; Automatic optimization, hoặc giữ nguyên và để AutoStart+ mở lại ứng dụng của bạn sau mỗi lần khởi động lại.</p></div>
       </div>
     </div>
   </section>

@@ -1,0 +1,67 @@
+{
+ "floating-notes-over-other-apps-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Tanpa aplikasi: paparan pop-up pada Samsung Galaxy",
+    "p": [
+     "Telefon Samsung Galaxy boleh membuka kebanyakan aplikasi dalam tetingkap kecil yang kekal di atas aplikasi seterusnya yang anda buka, jadi anda boleh mengapungkan Samsung Notes atau mana-mana aplikasi nota tanpa memasang apa-apa.",
+     "Kelemahannya: anda hanya mendapat satu tetingkap, ia menutup sebahagian besar skrin, dan anda perlu membukanya dalam paparan pop-up semula setiap kali aplikasi ditutup. Telefon jenama lain mungkin tiada ciri ini, atau menamakannya secara berbeza. Skrin pisah (dalam menu yang sama) juga boleh digunakan, tetapi ia membahagikan skrin kepada dua, yang tidak sesuai untuk video atau permainan."
+    ],
+    "steps": [
+     "Buka aplikasi nota anda, kemudian ketik butang “Recent apps” (|||).",
+     "Ketik ikon aplikasi di bahagian atas kad aplikasi nota.",
+     "Pilih “Open in pop-up view”.",
+     "Seret tepi tetingkap untuk mengecilkannya, kemudian buka aplikasi lain. Tetingkap nota kekal di atas."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Bolehkah saya mengapungkan nota pada telefon Samsung tanpa memasang apa-apa?",
+    "a": "Boleh. Buka aplikasi nota anda dalam paparan pop-up dari skrin “Recent apps”. Anda mendapat satu tetingkap yang perlu dibuka semula setiap kali; untuk nota yang kekal pada skrin sepanjang hari, atau beberapa nota serentak, aplikasi nota terapung seperti FloatNote+ lebih mudah."
+   }
+  ]
+ },
+ "floating-timer-over-other-apps-android": {
+  "insert_at": 0,
+  "sections": [
+   {
+    "h": "Tanpa aplikasi: pemasa aplikasi Jam dan paparan pop-up",
+    "p": [
+     "Pemasa dalam aplikasi Jam telefon anda terus berjalan apabila anda bertukar aplikasi. Untuk melihat baki masa, tarik turun panel pemberitahuan. Itu memadai jika anda hanya menyemaknya sekali-sekala, tetapi anda perlu menariknya turun setiap kali, dan sukar untuk memerhati dua pemasa serentak.",
+     "Pada Samsung Galaxy, anda juga boleh mengapungkan aplikasi Jam itu sendiri dalam tetingkap kecil. Namun tetingkapnya agak besar, dan jika anda mengecilkannya, angkanya sukar dibaca dari jauh. Nama menu mungkin sedikit berbeza antara versi One UI."
+    ],
+    "steps": [
+     "Mulakan pemasa dalam aplikasi Jam.",
+     "Ketik butang “Recent apps” (|||).",
+     "Ketik ikon aplikasi Jam di bahagian atas kadnya dan pilih “Open in pop-up view”."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Bolehkah saya melihat pemasa aplikasi Jam semasa menggunakan aplikasi lain?",
+    "a": "Tarik turun panel pemberitahuan untuk melihat baki masa, atau pada Samsung Galaxy, buka aplikasi Jam dalam paparan pop-up. Untuk memastikan hanya angkanya kecil dan sentiasa kelihatan, aplikasi pemasa terapung seperti FloatTimer+ lebih sesuai."
+   }
+  ]
+ },
+ "open-app-automatically-after-reboot-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Sebelum bermula: apakah yang memulakan semula telefon anda?",
+    "p": [
+     "Jika aplikasi anda tertutup setiap pagi, puncanya mungkin ciri mula semula automatik pada telefon Samsung Galaxy, yang but semula telefon pada waktu malam. Mematikannya mungkin sudah memadai: pergi ke Settings > Device care > Automatic optimization dan matikan “Restart when needed” (“Auto restart” pada sesetengah versi). Nama menu berbeza mengikut versi One UI, dan mula semula memang membantu telefon terus berjalan lancar, jadi mematikannya tidak semestinya pilihan yang betul.",
+     "Jika anda perlukan navigasi atau muzik dalam kereta, semak dahulu sama ada kereta anda menyokong Android Auto: sambungkan telefon dan ia muncul pada skrin kereta. Jika kereta tidak menyokongnya, atau anda meletakkan telefon pada pemegang, aplikasi auto start ialah pilihan yang sesuai."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Mengapa aplikasi saya tertutup setiap pagi pada telefon Galaxy saya?",
+    "a": "Mula semula automatik Samsung mungkin but semula telefon pada waktu malam. Anda boleh mematikannya dalam Settings > Device care > Automatic optimization, atau biarkannya hidup dan biar AutoStart+ membuka semula aplikasi anda selepas setiap mula semula."
+   }
+  ]
+ }
+}

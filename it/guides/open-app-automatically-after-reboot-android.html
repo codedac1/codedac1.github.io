@@ -63,8 +63,8 @@
   "headline": "Come aprire un'app automaticamente dopo il riavvio su Android (senza root)",
   "description": "Android non ha un'impostazione che avvia un'app all'accensione del telefono. Ecco come far aprire da sole le tue app dopo un riavvio, senza root, e come provarlo senza riavviare.",
   "inLanguage": "it",
-  "datePublished": "2026-10-14",
-  "dateModified": "2026-10-14",
+  "datePublished": "2026-11-11",
+  "dateModified": "2026-11-11",
   "mainEntityOfPage": "https://codedac.com/it/guides/open-app-automatically-after-reboot-android.html",
   "image": "https://codedac.com/images/icons/autostart.png",
   "author": {
@@ -130,6 +130,14 @@
         "@type": "Answer",
         "text": "Android non permette alle app di aprirne altre finché il telefono non è stato sbloccato una volta dopo il riavvio. Le tue app si aprono subito dopo lo sblocco."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Perché ogni mattina trovo le app chiuse sul mio telefono Galaxy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Potrebbe essere il riavvio automatico di Samsung, che riavvia il telefono di notte. Puoi disattivarlo in Impostazioni > Manutenzione dispositivo > Ottimizzazione automatica, oppure lasciarlo attivo e fare in modo che AutoStart+ riapra le tue app dopo ogni riavvio."
+      }
     }
   ]
 }
@@ -193,7 +201,7 @@
         <a href="/it/guides/">Guide</a>
       </nav>
       <h1>Come aprire un'app automaticamente dopo il riavvio su Android (senza root)</h1>
-      <p class="guide-meta">Aggiornato <time datetime="2026-10-14">2026-10-14</time></p>
+      <p class="guide-meta">Aggiornato <time datetime="2026-11-11">2026-11-11</time></p>
     </div>
   </section>
 
@@ -204,6 +212,10 @@
 
         <h2>Perché non succede da solo</h2>
         <p>Da Android 10 le app non possono più aprire schermate da sole quando sono in background. Un'app che deve aprirne altre dopo un riavvio ha quindi bisogno del permesso «Mostra sopra altre app», e può avviarle solo dopo che il telefono è stato sbloccato per la prima volta.</p>
+
+        <h2>Prima di iniziare: cosa sta riavviando il telefono?</h2>
+        <p>Se ogni mattina trovi le app chiuse, la causa potrebbe essere il riavvio automatico dei telefoni Samsung Galaxy, che riavvia il telefono di notte. Disattivarlo può bastare: vai in Impostazioni &gt; Manutenzione dispositivo &gt; Ottimizzazione automatica e disattiva «Restart when needed» («Auto restart» in alcune versioni). I nomi dei menu variano a seconda della versione di One UI, e il riavvio aiuta il telefono a restare fluido, quindi disattivarlo non è sempre la scelta giusta.</p>
+        <p>Se in auto ti servono navigatore o musica, verifica prima se la tua auto supporta Android Auto: collega il telefono e queste app compaiono sullo schermo dell'auto. Se l'auto non è compatibile, o tieni il telefono su un supporto, la strada giusta è un'app di avvio automatico.</p>
 
         <h2>Configurazione con AutoStart+</h2>
         <p>AutoStart+ (la nostra app) apre le app che scegli dopo ogni riavvio, appena sblocchi il telefono. Non serve il root.</p>
@@ -244,6 +256,7 @@
       <div class="faq-list">
         <div class="faq-item"><p class="faq-q">Serve il root per avviare automaticamente le app su Android?</p><p class="faq-a">No. AutoStart+ funziona senza root; ha bisogno solo del permesso «Mostra sopra altre app».</p></div>
         <div class="faq-item"><p class="faq-q">Perché le mie app non si aprono prima che sblocchi il telefono?</p><p class="faq-a">Android non permette alle app di aprirne altre finché il telefono non è stato sbloccato una volta dopo il riavvio. Le tue app si aprono subito dopo lo sblocco.</p></div>
+        <div class="faq-item"><p class="faq-q">Perché ogni mattina trovo le app chiuse sul mio telefono Galaxy?</p><p class="faq-a">Potrebbe essere il riavvio automatico di Samsung, che riavvia il telefono di notte. Puoi disattivarlo in Impostazioni &gt; Manutenzione dispositivo &gt; Ottimizzazione automatica, oppure lasciarlo attivo e fare in modo che AutoStart+ riapra le tue app dopo ogni riavvio.</p></div>
       </div>
     </div>
   </section>

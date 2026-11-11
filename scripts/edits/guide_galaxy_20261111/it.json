@@ -1,0 +1,67 @@
+{
+ "floating-notes-over-other-apps-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Senza app: la visualizzazione pop-up su Samsung Galaxy",
+    "p": [
+     "I telefoni Samsung Galaxy possono aprire la maggior parte delle app in una piccola finestra che resta sopra la prossima app che apri, quindi puoi far fluttuare Samsung Notes o qualsiasi app di note senza installare nulla.",
+     "Il limite: hai una sola finestra, copre buona parte dello schermo e devi riaprire l'app in visualizzazione pop-up ogni volta che si chiude. I telefoni di altri produttori potrebbero non avere questa funzione, o chiamarla in un altro modo. Funziona anche lo schermo diviso (nello stesso menu), ma taglia lo schermo a metà, cosa poco adatta a video e giochi."
+    ],
+    "steps": [
+     "Apri l'app delle note, poi tocca il pulsante App recenti (|||).",
+     "Tocca l'icona dell'app in cima alla scheda dell'app delle note.",
+     "Scegli «Open in pop-up view».",
+     "Trascina il bordo della finestra per rimpicciolirla, poi apri l'altra app. La finestra della nota resta in primo piano."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Posso far fluttuare una nota su un telefono Samsung senza installare nulla?",
+    "a": "Sì. Apri l'app delle note in visualizzazione pop-up dalla schermata delle app recenti. Hai una sola finestra, da riaprire ogni volta; per note che restano sullo schermo tutto il giorno, o più note insieme, è più comodo usare un'app di note flottanti come FloatNote+."
+   }
+  ]
+ },
+ "floating-timer-over-other-apps-android": {
+  "insert_at": 0,
+  "sections": [
+   {
+    "h": "Senza app: il timer dell'Orologio e la visualizzazione pop-up",
+    "p": [
+     "Il timer dell'app Orologio del telefono continua a funzionare quando cambi app. Per vedere il tempo rimanente, abbassa la tendina delle notifiche. Basta se controlli solo ogni tanto, ma devi abbassarla ogni volta, ed è difficile tenere d'occhio due timer insieme.",
+     "Su un Samsung Galaxy puoi anche far fluttuare l'app Orologio stessa in una piccola finestra. La finestra però è piuttosto grande e, se la rimpicciolisci, i numeri diventano difficili da leggere a distanza. I nomi dei menu possono variare leggermente tra le versioni di One UI."
+    ],
+    "steps": [
+     "Avvia il timer nell'app Orologio.",
+     "Tocca il pulsante App recenti (|||).",
+     "Tocca l'icona dell'app Orologio in cima alla sua scheda e scegli «Open in pop-up view»."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Posso vedere il timer dell'app Orologio mentre uso un'altra app?",
+    "a": "Abbassa la tendina delle notifiche per vedere il tempo rimanente oppure, su un Samsung Galaxy, apri l'app Orologio in visualizzazione pop-up. Per tenere solo i numeri piccoli e sempre visibili, funziona meglio un'app di timer flottante come FloatTimer+."
+   }
+  ]
+ },
+ "open-app-automatically-after-reboot-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Prima di iniziare: cosa sta riavviando il telefono?",
+    "p": [
+     "Se ogni mattina trovi le app chiuse, la causa potrebbe essere il riavvio automatico dei telefoni Samsung Galaxy, che riavvia il telefono di notte. Disattivarlo può bastare: vai in Impostazioni > Manutenzione dispositivo > Ottimizzazione automatica e disattiva «Restart when needed» («Auto restart» in alcune versioni). I nomi dei menu variano a seconda della versione di One UI, e il riavvio aiuta il telefono a restare fluido, quindi disattivarlo non è sempre la scelta giusta.",
+     "Se in auto ti servono navigatore o musica, verifica prima se la tua auto supporta Android Auto: collega il telefono e queste app compaiono sullo schermo dell'auto. Se l'auto non è compatibile, o tieni il telefono su un supporto, la strada giusta è un'app di avvio automatico."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Perché ogni mattina trovo le app chiuse sul mio telefono Galaxy?",
+    "a": "Potrebbe essere il riavvio automatico di Samsung, che riavvia il telefono di notte. Puoi disattivarlo in Impostazioni > Manutenzione dispositivo > Ottimizzazione automatica, oppure lasciarlo attivo e fare in modo che AutoStart+ riapra le tue app dopo ogni riavvio."
+   }
+  ]
+ }
+}

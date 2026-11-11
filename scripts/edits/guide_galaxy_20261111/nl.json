@@ -1,0 +1,67 @@
+{
+ "floating-notes-over-other-apps-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Zonder app: pop-upweergave op Samsung Galaxy",
+    "p": [
+     "Op Samsung Galaxy-telefoons kun je de meeste apps openen in een klein venster dat boven de volgende app blijft die je opent. Zo laat je Samsung Notes of een andere notitie-app zweven zonder iets te installeren.",
+     "Het nadeel: je krijgt één venster, het bedekt een flink deel van het scherm en je moet het elke keer opnieuw in pop-upweergave openen als de app sluit. Telefoons van andere merken hebben deze functie misschien niet, of noemen hem anders. Gesplitst scherm (in hetzelfde menu) werkt ook, maar dat deelt het scherm in tweeën, wat niet handig is bij video’s of games."
+    ],
+    "steps": [
+     "Open je notitie-app en tik op de knop voor recente apps (|||).",
+     "Tik op het app-pictogram bovenaan de kaart van de notitie-app.",
+     "Kies ‘Open in pop-up view’ (openen in pop-upweergave).",
+     "Sleep aan de rand van het venster om het kleiner te maken en open dan de andere app. Het notitievenster blijft bovenaan."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Kan ik op een Samsung-telefoon een notitie laten zweven zonder iets te installeren?",
+    "a": "Ja. Open je notitie-app in pop-upweergave vanuit het scherm met recente apps. Je krijgt één venster dat je elke keer opnieuw opent; voor notities die de hele dag in beeld blijven, of meerdere notities tegelijk, is een app voor zwevende notities zoals FloatNote+ makkelijker."
+   }
+  ]
+ },
+ "floating-timer-over-other-apps-android": {
+  "insert_at": 0,
+  "sections": [
+   {
+    "h": "Zonder app: de timer van Klok en pop-upweergave",
+    "p": [
+     "De timer in de Klok-app van je telefoon blijft lopen als je van app wisselt. Om te zien hoeveel tijd er nog over is, veeg je de meldingen omlaag. Dat volstaat als je maar af en toe kijkt, maar je moet ze elke keer omlaag vegen en twee timers tegelijk in de gaten houden is lastig.",
+     "Op een Samsung Galaxy kun je ook de Klok-app zelf in een klein venster laten zweven. Dat venster is wel vrij groot, en als je het kleiner maakt, zijn de cijfers van een afstand moeilijk te lezen. Menunamen kunnen per One UI-versie iets verschillen."
+    ],
+    "steps": [
+     "Start de timer in de Klok-app.",
+     "Tik op de knop voor recente apps (|||).",
+     "Tik op het pictogram van de Klok-app bovenaan de kaart en kies ‘Open in pop-up view’ (openen in pop-upweergave)."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Kan ik de timer van de Klok-app zien terwijl ik een andere app gebruik?",
+    "a": "Veeg de meldingen omlaag om de resterende tijd te zien, of open op een Samsung Galaxy de Klok-app in pop-upweergave. Wil je alleen de cijfers klein en altijd in beeld houden, dan werkt een app voor een zwevende timer zoals FloatTimer+ beter."
+   }
+  ]
+ },
+ "open-app-automatically-after-reboot-android": {
+  "insert_at": 1,
+  "sections": [
+   {
+    "h": "Eerst even: wat herstart je telefoon?",
+    "p": [
+     "Zijn je apps elke ochtend gesloten, dan kan dat komen door de automatische herstart op Samsung Galaxy-telefoons, die de telefoon ’s nachts opnieuw opstart. Die uitzetten kan al genoeg zijn: ga naar Instellingen > ‘Device care’ > ‘Automatic optimization’ en zet ‘Restart when needed’ uit (‘Auto restart’ in sommige versies). Menunamen verschillen per One UI-versie, en herstarten helpt de telefoon soepel te laten werken, dus uitzetten is niet altijd de juiste keuze.",
+     "Heb je in de auto navigatie of muziek nodig, kijk dan eerst of je auto Android Auto ondersteunt: sluit de telefoon aan en ze verschijnen op het scherm van de auto. Ondersteunt de auto het niet, of zit je telefoon in een houder, dan is een app voor automatisch starten de beste keuze."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Waarom zijn mijn apps elke ochtend gesloten op mijn Galaxy-telefoon?",
+    "a": "De automatische herstart van Samsung start de telefoon mogelijk ’s nachts opnieuw op. Je kunt die uitzetten via Instellingen > ‘Device care’ > ‘Automatic optimization’, of hem aan laten en AutoStart+ je apps na elke herstart weer laten openen."
+   }
+  ]
+ }
+}

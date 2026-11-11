@@ -63,8 +63,8 @@
   "headline": "Ouvrir une appli automatiquement après un redémarrage sur Android (sans root)",
   "description": "Android n’a aucun réglage pour lancer une appli au démarrage du téléphone. Voici comment faire s’ouvrir vos applis toutes seules après un redémarrage, sans root, et comment tester sans redémarrer.",
   "inLanguage": "fr",
-  "datePublished": "2026-10-14",
-  "dateModified": "2026-10-14",
+  "datePublished": "2026-11-11",
+  "dateModified": "2026-11-11",
   "mainEntityOfPage": "https://codedac.com/fr/guides/open-app-automatically-after-reboot-android.html",
   "image": "https://codedac.com/images/icons/autostart.png",
   "author": {
@@ -130,6 +130,14 @@
         "@type": "Answer",
         "text": "Android ne laisse pas les applis en ouvrir d’autres tant que le téléphone n’a pas été déverrouillé une fois après un redémarrage. Vos applis s’ouvrent juste après le déverrouillage."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Pourquoi mes applis sont-elles fermées chaque matin sur mon téléphone Galaxy ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le redémarrage automatique de Samsung redémarre peut-être le téléphone pendant la nuit. Vous pouvez le désactiver dans Paramètres > Maintenance de l’appareil > Optimisation automatique, ou le garder et laisser AutoStart+ rouvrir vos applis après chaque redémarrage."
+      }
     }
   ]
 }
@@ -193,7 +201,7 @@
         <a href="/fr/guides/">Guides</a>
       </nav>
       <h1>Ouvrir une appli automatiquement après un redémarrage sur Android (sans root)</h1>
-      <p class="guide-meta">Mis à jour <time datetime="2026-10-14">2026-10-14</time></p>
+      <p class="guide-meta">Mis à jour <time datetime="2026-11-11">2026-11-11</time></p>
     </div>
   </section>
 
@@ -204,6 +212,10 @@
 
         <h2>Pourquoi cela ne se fait pas tout seul</h2>
         <p>Depuis Android 10, les applis n’ont plus le droit d’ouvrir d’elles-mêmes des écrans depuis l’arrière-plan. Une appli censée en ouvrir d’autres après un redémarrage a donc besoin de l’autorisation « Superposition sur d’autres applis », et elle ne peut les lancer qu’une fois le téléphone déverrouillé pour la première fois.</p>
+
+        <h2>Avant de commencer : qu’est-ce qui redémarre votre téléphone ?</h2>
+        <p>Si vos applis sont fermées chaque matin, la cause est peut-être le redémarrage automatique des téléphones Samsung Galaxy, qui redémarre le téléphone pendant la nuit. Le désactiver peut suffire : allez dans Paramètres &gt; Maintenance de l’appareil &gt; Optimisation automatique et désactivez « Restart when needed » (« Auto restart » sur certaines versions). Les noms des menus varient selon la version de One UI, et le redémarrage aide le téléphone à rester fluide : le désactiver n’est donc pas toujours le bon choix.</p>
+        <p>Si vous avez besoin de la navigation ou de la musique en voiture, vérifiez d’abord si votre voiture prend en charge Android Auto : branchez le téléphone et ces applis s’affichent sur l’écran de la voiture. Si la voiture ne le prend pas en charge, ou si vous posez le téléphone sur un support, une appli de démarrage automatique est la solution.</p>
 
         <h2>Configurer avec AutoStart+</h2>
         <p>AutoStart+ (notre appli) ouvre les applis de votre choix après chaque redémarrage, dès que vous déverrouillez le téléphone. Aucun root n’est nécessaire.</p>
@@ -244,6 +256,7 @@
       <div class="faq-list">
         <div class="faq-item"><p class="faq-q">Faut-il le root pour lancer des applis automatiquement sur Android ?</p><p class="faq-a">Non. AutoStart+ fonctionne sans root ; il a seulement besoin de l’autorisation « Superposition sur d’autres applis ».</p></div>
         <div class="faq-item"><p class="faq-q">Pourquoi mes applis ne s’ouvrent-elles pas avant que je déverrouille le téléphone ?</p><p class="faq-a">Android ne laisse pas les applis en ouvrir d’autres tant que le téléphone n’a pas été déverrouillé une fois après un redémarrage. Vos applis s’ouvrent juste après le déverrouillage.</p></div>
+        <div class="faq-item"><p class="faq-q">Pourquoi mes applis sont-elles fermées chaque matin sur mon téléphone Galaxy ?</p><p class="faq-a">Le redémarrage automatique de Samsung redémarre peut-être le téléphone pendant la nuit. Vous pouvez le désactiver dans Paramètres &gt; Maintenance de l’appareil &gt; Optimisation automatique, ou le garder et laisser AutoStart+ rouvrir vos applis après chaque redémarrage.</p></div>
       </div>
     </div>
   </section>

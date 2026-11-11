@@ -63,7 +63,7 @@
     },
     "open-app-automatically-after-reboot-android": {
       "app": "autostart",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Jak automatycznie otworzyć aplikację po restarcie Androida (bez roota)",
       "desc": "Android nie ma ustawienia, które uruchamia aplikację po włączeniu telefonu. Zobacz, jak sprawić, by aplikacje otwierały się same po restarcie, bez roota — i jak to sprawdzić bez restartowania.",
       "intro": "Android nie ma ustawienia, które otwiera aplikację po włączeniu telefonu. Jeśli po każdym restarcie otwierasz te same aplikacje — nawigację w samochodzie, launcher na tablecie w kiosku, aplikację muzyczną w radioodtwarzaczu — aplikacja do autostartu może zrobić to za ciebie.",
@@ -72,6 +72,13 @@
           "h": "Dlaczego to nie dzieje się samo",
           "p": [
             "Od Androida 10 aplikacje nie mogą samodzielnie otwierać ekranów z tła. Dlatego aplikacja, która ma otwierać inne po restarcie, potrzebuje uprawnienia „Wyświetlanie nad innymi aplikacjami” i może je uruchomić dopiero po pierwszym odblokowaniu telefonu."
+          ]
+        },
+        {
+          "h": "Zanim zaczniesz: co restartuje twój telefon?",
+          "p": [
+            "Jeśli co rano twoje aplikacje są zamknięte, przyczyną może być automatyczny restart w telefonach Samsung Galaxy, który w nocy uruchamia telefon ponownie. Być może wystarczy go wyłączyć: przejdź do: Ustawienia > „Device care” > „Automatic optimization” i wyłącz „Restart when needed” (w niektórych wersjach „Auto restart”). Nazwy w menu różnią się w zależności od wersji One UI, a restart pomaga utrzymać płynne działanie telefonu, więc wyłączenie go nie zawsze jest dobrym wyborem.",
+            "Jeśli w samochodzie potrzebujesz nawigacji albo muzyki, najpierw sprawdź, czy auto obsługuje Android Auto: podłącz telefon, a pojawią się one na ekranie samochodu. Jeśli auto go nie obsługuje albo trzymasz telefon w uchwycie, najlepszym wyjściem jest aplikacja do automatycznego uruchamiania."
           ]
         },
         {
@@ -102,12 +109,16 @@
         {
           "q": "Dlaczego aplikacje nie otwierają się przed odblokowaniem telefonu?",
           "a": "Android nie pozwala aplikacjom otwierać innych, dopóki telefon nie zostanie raz odblokowany po restarcie. Aplikacje otwierają się zaraz po odblokowaniu."
+        },
+        {
+          "q": "Dlaczego co rano aplikacje na moim telefonie Galaxy są zamknięte?",
+          "a": "Automatyczny restart Samsunga może w nocy uruchamiać telefon ponownie. Możesz go wyłączyć w Ustawieniach > „Device care” > „Automatic optimization” albo go zostawić i pozwolić, by AutoStart+ ponownie otwierał twoje aplikacje po każdym restarcie."
         }
       ]
     },
     "floating-notes-over-other-apps-android": {
       "app": "floatnote",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Jak utrzymać notatkę nad innymi aplikacjami na Androidzie",
       "desc": "Miej notatkę na widoku, gdy korzystasz z innej aplikacji: pływająca notatka zostaje nad każdą aplikacją, zwija się do małego kafelka i może pojawić się o wybranej godzinie.",
       "intro": "Przepisywanie listy do formularza, zerkanie na przepis podczas oglądania filmu, numer zamówienia na widoku w czacie — ciągłe przełączanie się do aplikacji z notatkami wybija z rytmu. Pływająca notatka zostaje na ekranie nad aplikacją, z której właśnie korzystasz.",
@@ -116,6 +127,19 @@
           "h": "Jak działają pływające notatki",
           "p": [
             "Pływająca notatka to małe okno wyświetlane nad innymi aplikacjami. Android pozwala na to dzięki uprawnieniu „Wyświetlanie nad innymi aplikacjami”, które przyznajesz raz. Notatka zostaje na wierzchu, a ty dalej korzystasz z aplikacji pod spodem."
+          ]
+        },
+        {
+          "h": "Bez aplikacji: okno pop-up na telefonach Samsung Galaxy",
+          "p": [
+            "Na telefonach Samsung Galaxy większość aplikacji można otworzyć w małym oknie, które zostaje nad kolejną otwartą aplikacją. Dzięki temu Samsung Notes albo dowolna aplikacja do notatek może pływać na ekranie bez instalowania czegokolwiek.",
+            "Haczyk: masz tylko jedno okno, zasłania ono sporą część ekranu i za każdym razem, gdy aplikacja się zamknie, trzeba ją znowu otworzyć w oknie pop-up. Telefony innych producentów mogą nie mieć tej funkcji albo nazywać ją inaczej. Podzielony ekran (w tym samym menu) też działa, ale dzieli ekran na pół, co nie sprawdza się przy filmach i grach."
+          ],
+          "steps": [
+            "Otwórz aplikację do notatek i dotknij przycisku ostatnich aplikacji (|||).",
+            "Dotknij ikony aplikacji u góry jej karty.",
+            "Wybierz „Open in pop-up view” (otwórz w oknie pop-up).",
+            "Przeciągnij krawędź okna, aby je zmniejszyć, a potem otwórz drugą aplikację. Okno z notatką zostaje na wierzchu."
           ]
         },
         {
@@ -146,16 +170,32 @@
         {
           "q": "Czy notatka może pojawić się o określonej porze?",
           "a": "Tak. W FloatNote+ ustaw przypomnienie w menu ⋮ notatki, a pojawi się ona na ekranie razem z powiadomieniem. Możesz ustawić dowolnie wiele przypomnień."
+        },
+        {
+          "q": "Czy na telefonie Samsung mogę wyświetlić pływającą notatkę bez instalowania czegokolwiek?",
+          "a": "Tak. Otwórz aplikację do notatek w oknie pop-up z ekranu ostatnich aplikacji. Dostajesz jedno okno, które trzeba za każdym razem otwierać od nowa; jeśli notatki mają być na ekranie przez cały dzień albo chcesz mieć kilka naraz, wygodniejsza jest aplikacja do pływających notatek, taka jak FloatNote+."
         }
       ]
     },
     "floating-timer-over-other-apps-android": {
       "app": "floattimer",
-      "updated": "2026-10-14",
+      "updated": "2026-11-11",
       "title": "Jak mieć minutnik na ekranie podczas korzystania z innych aplikacji na Androidzie",
       "desc": "Minutnik z aplikacji Zegar znika, gdy przełączysz aplikację. Zobacz, jak utrzymać odliczanie, stoper lub licznik pływający nad dowolną aplikacją.",
       "intro": "Minutnik w aplikacji Zegar działa w tle, ale nie widzisz go, gdy jesteś w innej aplikacji — musisz rozwinąć powiadomienia albo do niego wrócić. Przy nauce z wykładem, mierzeniu czasu prezentacji czy w grze przydaje się czas widoczny na ekranie przez cały czas.",
       "sections": [
+        {
+          "h": "Bez aplikacji: minutnik w Zegarze i okno pop-up",
+          "p": [
+            "Minutnik w aplikacji Zegar działa dalej, gdy przełączasz się na inne aplikacje. Aby zobaczyć, ile czasu zostało, rozwiń panel powiadomień. Wystarcza to, jeśli zerkasz tylko od czasu do czasu, ale trzeba go rozwijać za każdym razem, a śledzenie dwóch minutników naraz jest trudne.",
+            "Na telefonie Samsung Galaxy możesz też wyświetlić samą aplikację Zegar w małym oknie. Okno jest jednak dość duże, a po zmniejszeniu cyfry trudno odczytać z daleka. Nazwy w menu mogą się nieco różnić w zależności od wersji One UI."
+          ],
+          "steps": [
+            "Uruchom minutnik w aplikacji Zegar.",
+            "Dotknij przycisku ostatnich aplikacji (|||).",
+            "Dotknij ikony Zegara u góry jego karty i wybierz „Open in pop-up view” (otwórz w oknie pop-up)."
+          ]
+        },
         {
           "h": "Skonfiguruj to w FloatTimer+",
           "p": [
@@ -183,6 +223,10 @@
         {
           "q": "Czy jest ustawienie pod Pomodoro?",
           "a": "FloatTimer+ ma szybkie ustawienia 1, 5, 10, 25, 30 i 60 minut, więc 25-minutowy minutnik skupienia to jedno dotknięcie."
+        },
+        {
+          "q": "Czy mogę widzieć minutnik z aplikacji Zegar, korzystając z innej aplikacji?",
+          "a": "Rozwiń panel powiadomień, aby zobaczyć pozostały czas, albo na telefonie Samsung Galaxy otwórz Zegar w oknie pop-up. Jeśli chcesz, żeby na ekranie były zawsze widoczne tylko małe cyfry, lepiej sprawdzi się aplikacja z pływającym minutnikiem, taka jak FloatTimer+."
         }
       ]
     },

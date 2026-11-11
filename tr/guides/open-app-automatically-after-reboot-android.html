@@ -63,8 +63,8 @@
   "headline": "Android'de yeniden başlatmadan sonra uygulama otomatik nasıl açılır (root olmadan)",
   "description": "Android'de telefon açılınca bir uygulamayı başlatan bir ayar yok. Uygulamalarınızın yeniden başlatmadan sonra root olmadan kendiliğinden açılmasını nasıl sağlayacağınızı ve bunu yeniden başlatmadan nasıl test edeceğinizi anlatıyoruz.",
   "inLanguage": "tr",
-  "datePublished": "2026-10-14",
-  "dateModified": "2026-10-14",
+  "datePublished": "2026-11-11",
+  "dateModified": "2026-11-11",
   "mainEntityOfPage": "https://codedac.com/tr/guides/open-app-automatically-after-reboot-android.html",
   "image": "https://codedac.com/images/icons/autostart.png",
   "author": {
@@ -130,6 +130,14 @@
         "@type": "Answer",
         "text": "Android, yeniden başlatmadan sonra telefonun kilidi bir kez açılana kadar uygulamaların başka uygulamaları açmasına izin vermez. Uygulamalarınız kilidi açtığınız anda açılır."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Galaxy telefonumda uygulamalarım neden her sabah kapalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Samsung'un otomatik yeniden başlatma özelliği telefonu gece yeniden başlatıyor olabilir. Bunu Ayarlar > “Device care” > “Automatic optimization” bölümünden kapatabilir ya da açık bırakıp her yeniden başlatmadan sonra uygulamalarınızı AutoStart+'ın yeniden açmasını sağlayabilirsiniz."
+      }
     }
   ]
 }
@@ -193,7 +201,7 @@
         <a href="/tr/guides/">Rehberler</a>
       </nav>
       <h1>Android'de yeniden başlatmadan sonra uygulama otomatik nasıl açılır (root olmadan)</h1>
-      <p class="guide-meta">Güncellendi <time datetime="2026-10-14">2026-10-14</time></p>
+      <p class="guide-meta">Güncellendi <time datetime="2026-11-11">2026-11-11</time></p>
     </div>
   </section>
 
@@ -204,6 +212,10 @@
 
         <h2>Neden kendiliğinden olmuyor</h2>
         <p>Android 10'dan bu yana uygulamaların arka plandan kendi başlarına ekran açmasına izin verilmez. Bu yüzden yeniden başlatmadan sonra başka uygulamaları açması gereken bir uygulamanın “Diğer uygulamaların üzerinde göster” iznine ihtiyacı vardır ve bunları ancak telefonun kilidi ilk kez açıldıktan sonra başlatabilir.</p>
+
+        <h2>Başlamadan önce: telefonunuzu ne yeniden başlatıyor?</h2>
+        <p>Uygulamalarınız her sabah kapalıysa, nedeni Samsung Galaxy telefonlarda telefonu gece yeniden başlatan otomatik yeniden başlatma olabilir. Bunu kapatmak yeterli olabilir: Ayarlar &gt; “Device care” &gt; “Automatic optimization” bölümüne gidin ve “Restart when needed” (bazı sürümlerde “Auto restart”) seçeneğini kapatın. Menü adları One UI sürümüne göre değişir ve yeniden başlatma telefonun sorunsuz çalışmasına yardımcı olur; bu yüzden kapatmak her zaman doğru seçim değildir.</p>
+        <p>Araçta navigasyona veya müziğe ihtiyacınız varsa önce aracınızın Android Auto'yu destekleyip desteklemediğini kontrol edin: telefonu bağladığınızda bunlar aracın ekranında görünür. Araç desteklemiyorsa ya da telefonu bir tutucuda kullanıyorsanız otomatik başlatma uygulaması doğru seçimdir.</p>
 
         <h2>AutoStart+ ile ayarlayın</h2>
         <p>AutoStart+ (bizim uygulamamız) seçtiğiniz uygulamaları her yeniden başlatmadan sonra, telefonun kilidini açar açmaz başlatır. Root gerekmez.</p>
@@ -244,6 +256,7 @@
       <div class="faq-list">
         <div class="faq-item"><p class="faq-q">Android'de uygulamaları otomatik başlatmak için root gerekir mi?</p><p class="faq-a">Hayır. AutoStart+ root olmadan çalışır; yalnızca “Diğer uygulamaların üzerinde göster” iznine ihtiyaç duyar.</p></div>
         <div class="faq-item"><p class="faq-q">Uygulamalarım neden telefonun kilidini açmadan önce açılmıyor?</p><p class="faq-a">Android, yeniden başlatmadan sonra telefonun kilidi bir kez açılana kadar uygulamaların başka uygulamaları açmasına izin vermez. Uygulamalarınız kilidi açtığınız anda açılır.</p></div>
+        <div class="faq-item"><p class="faq-q">Galaxy telefonumda uygulamalarım neden her sabah kapalı?</p><p class="faq-a">Samsung'un otomatik yeniden başlatma özelliği telefonu gece yeniden başlatıyor olabilir. Bunu Ayarlar &gt; “Device care” &gt; “Automatic optimization” bölümünden kapatabilir ya da açık bırakıp her yeniden başlatmadan sonra uygulamalarınızı AutoStart+'ın yeniden açmasını sağlayabilirsiniz.</p></div>
       </div>
     </div>
   </section>
