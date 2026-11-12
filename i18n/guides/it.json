@@ -874,6 +874,79 @@
           "a": "Non proprio. Alcune schermate di sistema, come certe pagine delle impostazioni sui telefoni Samsung, potrebbero non seguire l'orientamento che hai scelto. Torna appena le lasci."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "Come usare un gobbo sopra l’app Fotocamera su Android",
+      "desc": "Leggi il copione guardando l’obiettivo. Come far fluttuare un gobbo elettronico sopra la fotocamera o un’app di dirette su Android, posizionarlo per mantenere il contatto visivo e farlo scorrere alla velocità giusta.",
+      "intro": "Quando ti riprendi con il telefono, lo sguardo scivola su un appunto di lato e chi guarda se ne accorge. Un gobbo (teleprompter) tiene il testo proprio accanto all’obiettivo. Su Android puoi farne fluttuare uno sopra l’app fotocamera che usi già, o sopra un’app di dirette, invece di comprare un dispositivo a parte.",
+      "sections": [
+        {
+          "h": "Perché l’app fotocamera da sola non basta",
+          "p": [
+            "Le app fotocamera di Android non hanno spazio per un copione, e cambiare app a metà ripresa interrompe la registrazione. Un foglio o un secondo schermo stanno lontani dall’obiettivo, così lo sguardo va di lato.",
+            "Ti serve una finestra che resti sopra l’app fotocamera, subito sotto l’obiettivo, e che scorra da sola mentre parli."
+          ]
+        },
+        {
+          "h": "Configuralo con FloatPrompter+",
+          "p": [
+            "FloatPrompter+ (la nostra app) è un gobbo che fluttua sopra qualsiasi app, comprese la fotocamera e le app di dirette."
+          ],
+          "steps": [
+            "Installa FloatPrompter+ da Google Play, aprilo e consenti «Mostra sopra altre app» quando richiesto.",
+            "Scrivi o incolla il copione. Puoi anche importare un PDF, un file Word (.docx), le note del relatore di PowerPoint (.pptx) o un file di testo, oppure condividere testo con l’app da un’altra app.",
+            "Tocca «Fai fluttuare», poi apri l’app fotocamera.",
+            "Trascina la finestra subito sotto l’obiettivo, ridimensionala dall’angolo e premi play. Prima che il testo inizi a muoversi parte un conto alla rovescia."
+          ]
+        },
+        {
+          "h": "Mantieni il contatto visivo mentre leggi",
+          "p": [
+            "Metti la finestra il più vicino possibile all’obiettivo e tienila stretta, così gli occhi si muovono appena. Un indicatore della riga di lettura mostra quale riga leggere, e con un’opacità dello sfondo più bassa vedi l’anteprima della fotocamera attraverso la finestra.",
+            "Usa un testo un po’ più grande di quanto sembri necessario: con il telefono sul treppiede leggi da più lontano del solito."
+          ]
+        },
+        {
+          "h": "Trova la velocità giusta",
+          "p": [
+            "Sotto il numero della velocità, FloatPrompter+ mostra quanto dura il resto del copione alla velocità attuale. Regolala in modo che quel tempo corrisponda alla durata che vuoi per il video.",
+            "Tocca il testo per mettere in pausa e trascinalo per tornare indietro o andare avanti. Quando non ti serve la finestra, chiudila in una piccola bolla."
+          ]
+        },
+        {
+          "h": "Registra nell’app o lascia che segua la tua voce",
+          "p": [
+            "Puoi anche registrare direttamente in FloatPrompter+ con il copione sullo schermo: fotocamera anteriore o posteriore, 1080p, tocca per mettere a fuoco e regola la luminosità. I video vengono salvati in Movies/FloatPrompter e compaiono nella galleria.",
+            "A schermo intero e nella registrazione dentro l’app, Segui voce fa scorrere il copione mentre parli (Android 13 o successivo, con il riconoscimento vocale del telefono). Sopra un’altra app fotocamera non è disponibile, perché Android dà il microfono solo all’app che sta registrando: lì usa il controllo della velocità."
+          ]
+        },
+        {
+          "h": "Con vetro da gobbo o telecomando",
+          "p": [
+            "Se metti il telefono sotto un vetro da teleprompter, usa lo schermo intero con la modalità specchio, sinistra–destra o capovolta. A schermo intero, un telecomando o una tastiera Bluetooth possono avviare, mettere in pausa, spostarsi nel copione e cambiare la velocità, senza toccare il telefono."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Il gobbo non compare sopra l’app fotocamera. Cosa devo controllare?",
+          "a": "Android richiede il permesso «Mostra sopra altre app». Attivalo per FloatPrompter+ nelle Impostazioni del telefono, alla voce App, poi tocca di nuovo «Fai fluttuare»."
+        },
+        {
+          "q": "La finestra si vede nel video?",
+          "a": "No. La fotocamera riprende ciò che vede l’obiettivo, non lo schermo. La finestra compare in un video solo se usi la registrazione dello schermo al posto della fotocamera."
+        },
+        {
+          "q": "Posso usarlo durante una diretta?",
+          "a": "Sì. Fai fluttuare la finestra sopra l’app di dirette come sopra l’app fotocamera. Lì usa il controllo della velocità, perché Segui voce non è disponibile sopra altre app."
+        },
+        {
+          "q": "Dove vengono salvati i miei copioni?",
+          "a": "Solo sul telefono. Non servono account né registrazione. Puoi fare il backup dei copioni in un file e ripristinarli in seguito."
+        }
+      ]
     }
   }
 }

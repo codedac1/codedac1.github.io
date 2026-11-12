@@ -874,6 +874,79 @@
           "a": "Không hẳn. Một vài màn hình hệ thống, chẳng hạn một số trang cài đặt trên điện thoại Samsung, có thể không theo hướng bạn đã chọn. Hướng sẽ trở lại ngay khi bạn rời khỏi chúng."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "Cách dùng máy nhắc chữ ngay trên ứng dụng camera trên Android",
+      "desc": "Đọc kịch bản trong khi vẫn nhìn vào ống kính. Cách cho máy nhắc chữ nổi trên ứng dụng camera hoặc livestream trên Android, đặt sao cho giữ được ánh mắt và cuộn với tốc độ vừa phải.",
+      "intro": "Khi tự quay bằng điện thoại, mắt bạn cứ liếc sang ghi chú bên cạnh và người xem nhận ra ngay. Máy nhắc chữ đặt lời thoại ngay cạnh ống kính. Trên Android, bạn có thể cho nó nổi trên ứng dụng camera đang dùng, hoặc trên ứng dụng livestream, thay vì mua thiết bị riêng.",
+      "sections": [
+        {
+          "h": "Vì sao chỉ ứng dụng camera là chưa đủ",
+          "p": [
+            "Ứng dụng camera trên Android không có chỗ để kịch bản, và chuyển sang ứng dụng khác giữa chừng sẽ dừng ghi hình. Tờ giấy hay màn hình thứ hai nằm xa ống kính, nên mắt bạn nhìn lệch sang bên.",
+            "Thứ bạn cần là một cửa sổ luôn nằm trên ứng dụng camera, đặt được ngay dưới ống kính và tự cuộn khi bạn nói."
+          ]
+        },
+        {
+          "h": "Thiết lập với FloatPrompter+",
+          "p": [
+            "FloatPrompter+ (ứng dụng của chúng tôi) là máy nhắc chữ nổi trên mọi ứng dụng, kể cả ứng dụng camera và livestream."
+          ],
+          "steps": [
+            "Cài FloatPrompter+ từ Google Play, mở nó và cho phép “Hiển thị trên các ứng dụng khác” khi được hỏi.",
+            "Viết hoặc dán kịch bản. Bạn cũng có thể nhập PDF, tệp Word (.docx), ghi chú người thuyết trình PowerPoint (.pptx) hoặc tệp văn bản, hay chia sẻ văn bản từ ứng dụng khác vào ứng dụng.",
+            "Chạm Cho nổi, rồi mở ứng dụng camera.",
+            "Kéo cửa sổ xuống ngay dưới ống kính và đổi kích thước bằng góc, rồi nhấn phát. Có đếm ngược trước khi chữ bắt đầu chạy."
+          ]
+        },
+        {
+          "h": "Giữ ánh mắt khi đọc",
+          "p": [
+            "Đặt cửa sổ càng gần ống kính càng tốt và để hẹp, để mắt gần như không phải di chuyển. Vạch dòng đọc cho biết dòng cần đọc, còn giảm độ mờ của nền giúp bạn nhìn xuyên cửa sổ thấy khung hình camera.",
+            "Hãy chọn cỡ chữ lớn hơn một chút so với bạn nghĩ: khi điện thoại đặt trên chân máy, bạn đọc từ xa hơn bình thường."
+          ]
+        },
+        {
+          "h": "Chỉnh tốc độ cho đúng",
+          "p": [
+            "Dưới con số tốc độ, FloatPrompter+ cho biết phần kịch bản còn lại cần bao lâu ở tốc độ hiện tại. Hãy chỉnh sao cho thời gian đó khớp với độ dài video bạn muốn.",
+            "Chạm vào chữ để tạm dừng và kéo để lùi lại hoặc nhảy tới. Khi không cần cửa sổ, hãy thu nó thành một bong bóng nhỏ."
+          ]
+        },
+        {
+          "h": "Quay ngay trong ứng dụng, hoặc để chữ theo giọng bạn",
+          "p": [
+            "Bạn cũng có thể quay ngay trong FloatPrompter+ với kịch bản trên màn hình: camera trước hoặc sau, 1080p, chạm để lấy nét và chỉnh độ sáng. Video được lưu vào Movies/FloatPrompter và hiện trong thư viện ảnh.",
+            "Ở chế độ toàn màn hình và khi quay trong ứng dụng, Theo giọng nói sẽ cuộn kịch bản theo lời bạn nói (Android 13 trở lên, dùng tính năng nhận dạng giọng nói của điện thoại). Tính năng này không có khi nổi trên ứng dụng camera khác, vì Android chỉ cấp micro cho ứng dụng đang ghi hình — lúc đó hãy dùng điều chỉnh tốc độ."
+          ]
+        },
+        {
+          "h": "Dùng với kính nhắc chữ hoặc điều khiển từ xa",
+          "p": [
+            "Nếu đặt điện thoại dưới kính nhắc chữ, hãy dùng toàn màn hình với Chế độ gương, lật trái–phải hoặc lật ngược. Ở toàn màn hình, điều khiển Bluetooth hoặc bàn phím có thể phát, tạm dừng, di chuyển trong kịch bản và đổi tốc độ, nên bạn không cần chạm vào điện thoại."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Máy nhắc chữ không hiện trên ứng dụng camera. Cần kiểm tra gì?",
+          "a": "Android cần quyền “Hiển thị trên các ứng dụng khác”. Hãy bật quyền này cho FloatPrompter+ trong Cài đặt → Ứng dụng của điện thoại, rồi chạm Cho nổi lần nữa."
+        },
+        {
+          "q": "Cửa sổ có bị quay vào video không?",
+          "a": "Không. Camera ghi lại những gì ống kính thấy, không phải nội dung màn hình. Cửa sổ chỉ xuất hiện trong video khi bạn dùng tính năng quay màn hình thay cho camera."
+        },
+        {
+          "q": "Có dùng được khi livestream không?",
+          "a": "Có. Cho cửa sổ nổi trên ứng dụng livestream giống như trên ứng dụng camera. Ở đó hãy dùng điều chỉnh tốc độ, vì Theo giọng nói không có khi nổi trên ứng dụng khác."
+        },
+        {
+          "q": "Kịch bản của tôi được lưu ở đâu?",
+          "a": "Chỉ trên điện thoại của bạn. Không cần tài khoản hay đăng ký. Bạn có thể sao lưu kịch bản ra tệp và khôi phục sau."
+        }
+      ]
     }
   }
 }

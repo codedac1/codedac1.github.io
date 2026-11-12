@@ -874,6 +874,79 @@
           "a": "Pas tout à fait. Quelques écrans système, comme certaines pages de réglages sur les téléphones Samsung, peuvent ne pas suivre l’orientation choisie. Elle revient dès que vous les quittez."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "Utiliser un prompteur par-dessus l’appli Appareil photo sur Android",
+      "desc": "Lisez votre texte en regardant l’objectif. Comment faire flotter un prompteur au-dessus de l’appareil photo ou d’une appli de live sur Android, le placer pour garder le contact visuel et le faire défiler à la bonne vitesse.",
+      "intro": "Quand vous vous filmez avec un téléphone, votre regard glisse vers une note posée à côté, et cela se voit. Un prompteur garde votre texte juste à côté de l’objectif. Sur Android, vous pouvez en faire flotter un au-dessus de l’appli photo que vous utilisez déjà, ou d’une appli de live, au lieu d’acheter un appareil dédié.",
+      "sections": [
+        {
+          "h": "Pourquoi l’appli photo seule ne suffit pas",
+          "p": [
+            "Les applis photo d’Android n’ont aucune place pour un texte, et changer d’appli en pleine prise arrête l’enregistrement. Une feuille ou un second écran se trouve loin de l’objectif : vos yeux regardent sur le côté.",
+            "Il vous faut une fenêtre qui reste au-dessus de l’appli photo, juste sous l’objectif, et qui défile toute seule pendant que vous parlez."
+          ]
+        },
+        {
+          "h": "Le configurer avec FloatPrompter+",
+          "p": [
+            "FloatPrompter+ (notre appli) est un prompteur qui flotte au-dessus de n’importe quelle appli, y compris l’appareil photo et les applis de live."
+          ],
+          "steps": [
+            "Installez FloatPrompter+ depuis Google Play, ouvrez-le et autorisez « Superposition sur d’autres applis » quand on vous le demande.",
+            "Écrivez ou collez votre texte. Vous pouvez aussi importer un PDF, un fichier Word (.docx), les notes de l’orateur PowerPoint (.pptx) ou un fichier texte, ou partager du texte vers l’appli depuis une autre appli.",
+            "Touchez « Flotter », puis ouvrez votre appli photo.",
+            "Faites glisser la fenêtre juste sous l’objectif, redimensionnez-la par le coin, puis lancez la lecture. Un compte à rebours précède le défilement."
+          ]
+        },
+        {
+          "h": "Garder le contact visuel en lisant",
+          "p": [
+            "Placez la fenêtre aussi près de l’objectif que possible et gardez-la étroite : vos yeux bougent à peine. Un repère de ligne de lecture indique la ligne à lire, et une opacité de fond plus faible laisse voir l’aperçu de la caméra à travers la fenêtre.",
+            "Choisissez un texte un peu plus grand que nécessaire : téléphone sur trépied, vous lisez de plus loin que d’habitude."
+          ]
+        },
+        {
+          "h": "Trouver la bonne vitesse",
+          "p": [
+            "Sous le chiffre de vitesse, FloatPrompter+ indique le temps nécessaire pour lire le reste du texte à la vitesse actuelle. Réglez-la pour que ce temps corresponde à la durée voulue de votre vidéo.",
+            "Touchez le texte pour mettre en pause et faites-le glisser pour revenir en arrière ou avancer. Quand vous n’avez pas besoin de la fenêtre, repliez-la en petite bulle."
+          ]
+        },
+        {
+          "h": "Filmer dans l’appli, ou laisser suivre votre voix",
+          "p": [
+            "Vous pouvez aussi filmer directement dans FloatPrompter+ avec le texte à l’écran : caméra avant ou arrière, 1080p, toucher pour faire la mise au point et régler la luminosité. Les vidéos sont enregistrées dans Movies/FloatPrompter et apparaissent dans votre galerie.",
+            "En plein écran et pendant l’enregistrement dans l’appli, le suivi vocal fait défiler le texte au rythme de votre voix (Android 13 ou plus récent, avec la reconnaissance vocale de votre téléphone). Ce n’est pas possible au-dessus d’une autre appli photo, car Android ne donne le micro qu’à l’appli qui enregistre : utilisez-y le réglage de vitesse."
+          ]
+        },
+        {
+          "h": "Avec une vitre de prompteur ou une télécommande",
+          "p": [
+            "Si vous placez le téléphone sous une vitre de prompteur, utilisez le plein écran avec le mode miroir, gauche–droite ou haut–bas. En plein écran, une télécommande ou un clavier Bluetooth peut lancer, mettre en pause, avancer dans le texte et changer la vitesse, sans toucher au téléphone."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Le prompteur n’apparaît pas au-dessus de mon appli photo. Que vérifier ?",
+          "a": "Android a besoin de l’autorisation « Superposition sur d’autres applis ». Activez-la pour FloatPrompter+ dans les Paramètres du téléphone, rubrique Applications, puis touchez à nouveau « Flotter »."
+        },
+        {
+          "q": "La fenêtre apparaît-elle dans ma vidéo ?",
+          "a": "Non. La caméra filme ce que voit l’objectif, pas votre écran. La fenêtre n’apparaît dans une vidéo que si vous utilisez l’enregistrement d’écran au lieu de la caméra."
+        },
+        {
+          "q": "Puis-je l’utiliser pendant un live ?",
+          "a": "Oui. Faites flotter la fenêtre au-dessus de votre appli de live comme au-dessus de l’appli photo. Utilisez-y le réglage de vitesse, car le suivi vocal n’est pas disponible au-dessus d’autres applis."
+        },
+        {
+          "q": "Où sont enregistrés mes textes ?",
+          "a": "Uniquement sur votre téléphone. Pas de compte ni d’inscription. Vous pouvez sauvegarder vos textes dans un fichier et les restaurer plus tard."
+        }
+      ]
     }
   }
 }

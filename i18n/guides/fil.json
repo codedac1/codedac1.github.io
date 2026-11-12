@@ -874,6 +874,79 @@
           "a": "Hindi lahat. May ilang system screen, gaya ng ilang settings page sa mga teleponong Samsung, na maaaring hindi sumunod sa piniling orientation. Babalik ito sa sandaling umalis ka sa mga iyon."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "Paano gumamit ng teleprompter sa ibabaw ng camera app sa Android",
+      "desc": "Basahin ang script habang nakatingin sa lens. Paano ipalutang ang teleprompter sa ibabaw ng camera o live-streaming app sa Android, ilagay ito para may eye contact, at panatilihing tama ang bilis ng pag-scroll.",
+      "intro": "Kapag kinukunan mo ang sarili gamit ang telepono, napapatingin ka sa note sa gilid at napapansin agad ito ng manonood. Inilalagay ng teleprompter ang mga linya mo sa tabi mismo ng lens. Sa Android, puwede mo itong ipalutang sa ibabaw ng camera app na gamit mo na, o sa ibabaw ng live-streaming app, sa halip na bumili ng hiwalay na device.",
+      "sections": [
+        {
+          "h": "Bakit hindi sapat ang camera app lang",
+          "p": [
+            "Walang lugar para sa script ang mga camera app sa Android, at humihinto ang recording kapag lumipat ka ng app sa gitna ng take. Malayo sa lens ang papel o pangalawang screen, kaya sa gilid napapatingin ang mga mata mo.",
+            "Ang kailangan mo ay window na nananatili sa ibabaw ng camera app, nailalagay sa ilalim mismo ng lens, at kusang nag-i-scroll habang nagsasalita ka."
+          ]
+        },
+        {
+          "h": "I-set up gamit ang FloatPrompter+",
+          "p": [
+            "Ang FloatPrompter+ (aming app) ay teleprompter na lumulutang sa ibabaw ng kahit anong app, kasama ang camera at live-streaming apps."
+          ],
+          "steps": [
+            "I-install ang FloatPrompter+ mula sa Google Play, buksan ito at payagan ang “Ipakita sa ibabaw ng ibang app” kapag tinanong.",
+            "Isulat o i-paste ang script mo. Puwede ka ring mag-import ng PDF, Word file (.docx), speaker notes ng PowerPoint (.pptx) o text file, o mag-share ng text papunta sa app mula sa ibang app.",
+            "I-tap ang Ipalutang, tapos buksan ang camera app mo.",
+            "Hilahin ang window sa ilalim mismo ng lens at baguhin ang laki mula sa sulok, tapos pindutin ang play. May countdown bago gumalaw ang text."
+          ]
+        },
+        {
+          "h": "Panatilihin ang eye contact habang nagbabasa",
+          "p": [
+            "Ilagay ang window nang pinakamalapit sa lens at gawin itong makitid, para halos hindi gumalaw ang mga mata mo. Ipinapakita ng reading line marker kung aling linya ang babasahin, at kapag binabaan ang opacity ng background, makikita ang camera preview sa likod ng window.",
+            "Gumamit ng text size na medyo mas malaki kaysa sa akala mong kailangan: kapag nasa tripod ang telepono, mas malayo ang binabasa mo kaysa karaniwan."
+          ]
+        },
+        {
+          "h": "Itama ang bilis",
+          "p": [
+            "Sa ilalim ng numero ng bilis, ipinapakita ng FloatPrompter+ kung gaano katagal ang natitirang script sa kasalukuyang bilis. Itakda ito para tumugma ang oras na iyon sa haba ng video na gusto mo.",
+            "I-tap ang text para i-pause at hilahin ito para bumalik o lumaktaw pasulong. Kapag hindi mo kailangan ang window, itiklop ito sa maliit na bubble."
+          ]
+        },
+        {
+          "h": "Mag-record sa app, o hayaang sundan nito ang boses mo",
+          "p": [
+            "Puwede ka ring mag-record sa loob ng FloatPrompter+ habang nasa screen ang script: harap o likod na camera, 1080p, i-tap para mag-focus at ayusin ang liwanag. Naka-save ang mga video sa Movies/FloatPrompter at lumalabas sa gallery mo.",
+            "Sa full screen at sa pag-record sa app, sinusundan ng Sundan ang boses ang sinasabi mo para i-scroll ang script (Android 13 o mas bago, gamit ang speech recognition ng telepono). Hindi ito available sa ibabaw ng ibang camera app, dahil ibinibigay lang ng Android ang mikropono sa app na nagre-record — doon, gamitin ang speed control."
+          ]
+        },
+        {
+          "h": "Paggamit ng teleprompter glass o remote",
+          "p": [
+            "Kung ilalagay mo ang telepono sa ilalim ng teleprompter glass, gamitin ang full screen na may Mirror mode, pakaliwa–pakanan o baligtad. Sa full screen, kaya ng Bluetooth remote o keyboard na mag-play, mag-pause, gumalaw sa script at magpalit ng bilis, kaya hindi mo na kailangang hawakan ang telepono."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hindi lumalabas ang teleprompter sa ibabaw ng camera app ko. Ano ang dapat tingnan?",
+          "a": "Kailangan ng Android ang pahintulot na “Ipakita sa ibabaw ng ibang app”. I-on ito para sa FloatPrompter+ sa Settings → Apps ng telepono mo, tapos i-tap ulit ang Ipalutang."
+        },
+        {
+          "q": "Lumalabas ba ang window sa video ko?",
+          "a": "Hindi. Nire-record ng camera ang nakikita ng lens, hindi ang nasa screen mo. Lalabas lang ang window sa video kung screen recording ang gamit mo sa halip na camera."
+        },
+        {
+          "q": "Magagamit ko ba ito habang naka-live stream?",
+          "a": "Oo. Ipalutang ang window sa ibabaw ng live-streaming app mo gaya ng sa camera app. Gamitin doon ang speed control, dahil hindi available ang Sundan ang boses sa ibabaw ng ibang app."
+        },
+        {
+          "q": "Saan naka-save ang mga script ko?",
+          "a": "Sa telepono mo lang. Walang account o sign-up. Puwede mong i-back up ang mga script sa isang file at i-restore ito mamaya."
+        }
+      ]
     }
   }
 }

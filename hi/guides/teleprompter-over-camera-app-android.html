@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted'});gtag('js',new Date());gtag('config',"G-RVR49V8M2Z");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVR49V8M2Z"></script>
+  <script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <meta name="google-site-verification" content="EEOUsUwfv3SoTVMdi2dL1EePYJ9cLNKexZgbojtycc0" />
+  <meta name="naver-site-verification" content="109d8df332a90f3aa9a8623c76a0876131746416" />
+  <title>Android पर कैमरा ऐप के ऊपर टेलीप्रॉम्प्टर कैसे इस्तेमाल करें | CodeDAC</title>
+  <meta name="description" content="लेंस में देखते हुए अपनी स्क्रिप्ट पढ़ें। Android पर कैमरा या लाइव-स्ट्रीमिंग ऐप के ऊपर टेलीप्रॉम्प्टर फ़्लोट करने, आँखों का संपर्क बनाए रखने के लिए उसे सही जगह रखने और सही रफ़्तार से स्क्रॉल कराने का तरीका।" />
+  <meta name="author" content="CodeDAC" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2F3B59" />
+  <link rel="canonical" href="https://codedac.com/hi/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="ko" href="https://codedac.com/ko/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="en" href="https://codedac.com/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="ja" href="https://codedac.com/ja/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="es" href="https://codedac.com/es/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://codedac.com/pt/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="de" href="https://codedac.com/de/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="fr" href="https://codedac.com/fr/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="id" href="https://codedac.com/id/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="hi" href="https://codedac.com/hi/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="vi" href="https://codedac.com/vi/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://codedac.com/zh/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="ru" href="https://codedac.com/ru/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="tr" href="https://codedac.com/tr/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="it" href="https://codedac.com/it/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="pl" href="https://codedac.com/pl/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="th" href="https://codedac.com/th/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="tl" href="https://codedac.com/fil/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="ar" href="https://codedac.com/ar/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="nl" href="https://codedac.com/nl/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="uk" href="https://codedac.com/uk/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="ms" href="https://codedac.com/ms/guides/teleprompter-over-camera-app-android.html" />
+  <link rel="alternate" hreflang="x-default" href="https://codedac.com/guides/teleprompter-over-camera-app-android.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CodeDAC" />
+  <meta property="og:locale" content="hi_IN" />
+  <meta property="og:title" content="Android पर कैमरा ऐप के ऊपर टेलीप्रॉम्प्टर कैसे इस्तेमाल करें | CodeDAC" />
+  <meta property="og:description" content="लेंस में देखते हुए अपनी स्क्रिप्ट पढ़ें। Android पर कैमरा या लाइव-स्ट्रीमिंग ऐप के ऊपर टेलीप्रॉम्प्टर फ़्लोट करने, आँखों का संपर्क बनाए रखने के लिए उसे सही जगह रखने और सही रफ़्तार से स्क्रॉल कराने का तरीका।" />
+  <meta property="og:url" content="https://codedac.com/hi/guides/teleprompter-over-camera-app-android.html" />
+  <meta property="og:image" content="https://codedac.com/images/icons/floatprompter.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Android पर कैमरा ऐप के ऊपर टेलीप्रॉम्प्टर कैसे इस्तेमाल करें | CodeDAC" />
+  <meta name="twitter:description" content="लेंस में देखते हुए अपनी स्क्रिप्ट पढ़ें। Android पर कैमरा या लाइव-स्ट्रीमिंग ऐप के ऊपर टेलीप्रॉम्प्टर फ़्लोट करने, आँखों का संपर्क बनाए रखने के लिए उसे सही जगह रखने और सही रफ़्तार से स्क्रॉल कराने का तरीका।" />
+  <meta name="twitter:image" content="https://codedac.com/images/icons/floatprompter.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&amp;family=Noto+Sans+Devanagari:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/style.css?v=115" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Android पर कैमरा ऐप के ऊपर टेलीप्रॉम्प्टर कैसे इस्तेमाल करें",
+  "description": "लेंस में देखते हुए अपनी स्क्रिप्ट पढ़ें। Android पर कैमरा या लाइव-स्ट्रीमिंग ऐप के ऊपर टेलीप्रॉम्प्टर फ़्लोट करने, आँखों का संपर्क बनाए रखने के लिए उसे सही जगह रखने और सही रफ़्तार से स्क्रॉल कराने का तरीका।",
+  "inLanguage": "hi",
+  "datePublished": "2026-11-12",
+  "dateModified": "2026-11-12",
+  "mainEntityOfPage": "https://codedac.com/hi/guides/teleprompter-over-camera-app-android.html",
+  "image": "https://codedac.com/images/icons/floatprompter.png",
+  "author": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CodeDAC",
+    "url": "https://codedac.com/"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "FloatPrompter+",
+    "url": "https://codedac.com/hi/apps/floatprompter.html"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CodeDAC",
+      "item": "https://codedac.com/hi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "FloatPrompter+",
+      "item": "https://codedac.com/hi/apps/floatprompter.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Android पर कैमरा ऐप के ऊपर टेलीप्रॉम्प्टर कैसे इस्तेमाल करें",
+      "item": "https://codedac.com/hi/guides/teleprompter-over-camera-app-android.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "मेरे कैमरा ऐप के ऊपर टेलीप्रॉम्प्टर नहीं दिखता। क्या जाँचूँ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Android को “दूसरे ऐप्स के ऊपर दिखाएँ” की अनुमति चाहिए। फ़ोन की सेटिंग → ऐप्स में FloatPrompter+ के लिए इसे चालू करें, फिर दोबारा फ्लोट करें पर टैप करें।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "क्या विंडो मेरे वीडियो में आती है?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "नहीं। कैमरा वही रिकॉर्ड करता है जो लेंस देखता है, स्क्रीन पर जो है वह नहीं। विंडो वीडियो में तभी आती है जब आप कैमरा के बजाय स्क्रीन रिकॉर्डिंग इस्तेमाल करें।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "क्या लाइव स्ट्रीम के दौरान इसका इस्तेमाल हो सकता है?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "हाँ। कैमरा ऐप की तरह ही विंडो को अपने लाइव-स्ट्रीमिंग ऐप के ऊपर फ़्लोट करें। वहाँ रफ़्तार कंट्रोल इस्तेमाल करें, क्योंकि दूसरे ऐप्स के ऊपर वॉइस फ़ॉलो उपलब्ध नहीं है।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "मेरी स्क्रिप्ट कहाँ सेव होती हैं?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "सिर्फ़ आपके फ़ोन पर। कोई अकाउंट या साइन-अप नहीं है। आप स्क्रिप्ट का फ़ाइल में बैकअप लेकर बाद में रिस्टोर कर सकते हैं।"
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="/hi/" class="logo"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></a>
+      <nav class="nav" id="nav">
+        <a href="/hi/#apps">ऐप्स</a>
+        <a href="/hi/#reviews">समीक्षाएँ</a>
+        <a href="/hi/guides/">गाइड</a>
+        <a href="/hi/#about">हमारे बारे में</a>
+        <a href="/hi/#contact">साथ काम करें</a>
+      </nav>
+      <div class="nav-right">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="डार्क मोड टॉगल करें" title="डार्क मोड टॉगल करें">
+          <span class="ti-dark" aria-hidden="true">🌙</span><span class="ti-light" aria-hidden="true">☀️</span>
+        </button>
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="हिन्दी"><span class="lang-name">हिन्दी</span><span class="lang-code" aria-hidden="true">HI</span> <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="lang-menu" id="langMenu" role="menu">
+        <a class="lang-item" data-lang="ko" href="/ko/guides/teleprompter-over-camera-app-android.html" hreflang="ko" lang="ko">한국어</a>
+        <a class="lang-item" data-lang="en" href="/guides/teleprompter-over-camera-app-android.html" hreflang="en" lang="en">English</a>
+        <a class="lang-item" data-lang="ja" href="/ja/guides/teleprompter-over-camera-app-android.html" hreflang="ja" lang="ja">日本語</a>
+        <a class="lang-item" data-lang="es" href="/es/guides/teleprompter-over-camera-app-android.html" hreflang="es" lang="es">Español</a>
+        <a class="lang-item" data-lang="pt" href="/pt/guides/teleprompter-over-camera-app-android.html" hreflang="pt-BR" lang="pt-BR">Português</a>
+        <a class="lang-item" data-lang="de" href="/de/guides/teleprompter-over-camera-app-android.html" hreflang="de" lang="de">Deutsch</a>
+        <a class="lang-item" data-lang="fr" href="/fr/guides/teleprompter-over-camera-app-android.html" hreflang="fr" lang="fr">Français</a>
+        <a class="lang-item" data-lang="id" href="/id/guides/teleprompter-over-camera-app-android.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+        <a class="lang-item is-active" data-lang="hi" href="/hi/guides/teleprompter-over-camera-app-android.html" hreflang="hi" lang="hi">हिन्दी</a>
+        <a class="lang-item" data-lang="vi" href="/vi/guides/teleprompter-over-camera-app-android.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+        <a class="lang-item" data-lang="zh" href="/zh/guides/teleprompter-over-camera-app-android.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a class="lang-item" data-lang="ru" href="/ru/guides/teleprompter-over-camera-app-android.html" hreflang="ru" lang="ru">Русский</a>
+        <a class="lang-item" data-lang="tr" href="/tr/guides/teleprompter-over-camera-app-android.html" hreflang="tr" lang="tr">Türkçe</a>
+        <a class="lang-item" data-lang="it" href="/it/guides/teleprompter-over-camera-app-android.html" hreflang="it" lang="it">Italiano</a>
+        <a class="lang-item" data-lang="pl" href="/pl/guides/teleprompter-over-camera-app-android.html" hreflang="pl" lang="pl">Polski</a>
+        <a class="lang-item" data-lang="th" href="/th/guides/teleprompter-over-camera-app-android.html" hreflang="th" lang="th">ไทย</a>
+        <a class="lang-item" data-lang="fil" href="/fil/guides/teleprompter-over-camera-app-android.html" hreflang="tl" lang="fil">Filipino</a>
+        <a class="lang-item" data-lang="ar" href="/ar/guides/teleprompter-over-camera-app-android.html" hreflang="ar" lang="ar">العربية</a>
+        <a class="lang-item" data-lang="nl" href="/nl/guides/teleprompter-over-camera-app-android.html" hreflang="nl" lang="nl">Nederlands</a>
+        <a class="lang-item" data-lang="uk" href="/uk/guides/teleprompter-over-camera-app-android.html" hreflang="uk" lang="uk">Українська</a>
+        <a class="lang-item" data-lang="ms" href="/ms/guides/teleprompter-over-camera-app-android.html" hreflang="ms" lang="ms">Bahasa Melayu</a>
+        </div>
+      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="app-hero-d app-hero-android guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        <a href="/hi/">होम</a>
+        <span class="sep">/</span>
+        <a href="/hi/apps/floatprompter.html"><bdi>FloatPrompter+</bdi></a>
+        <span class="sep">/</span>
+        <a href="/hi/guides/">गाइड</a>
+      </nav>
+      <h1>Android पर कैमरा ऐप के ऊपर टेलीप्रॉम्प्टर कैसे इस्तेमाल करें</h1>
+      <p class="guide-meta">अपडेट किया गया <time datetime="2026-11-12">2026-11-12</time></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <article class="guide-body">
+        <p class="guide-intro">फ़ोन से खुद को रिकॉर्ड करते समय आपकी नज़र बगल में रखे नोट पर चली जाती है और देखने वाले तुरंत समझ जाते हैं। टेलीप्रॉम्प्टर आपकी लाइनें लेंस के ठीक पास रखता है। Android पर अलग डिवाइस खरीदने के बजाय आप उसे अपने रोज़ के कैमरा ऐप या लाइव-स्ट्रीमिंग ऐप के ऊपर फ़्लोट कर सकते हैं।</p>
+
+        <h2>सिर्फ़ कैमरा ऐप काफ़ी क्यों नहीं है</h2>
+        <p>Android के कैमरा ऐप में स्क्रिप्ट रखने की जगह नहीं होती, और टेक के बीच ऐप बदलने पर रिकॉर्डिंग रुक जाती है। कागज़ या दूसरी स्क्रीन लेंस से दूर होती है, इसलिए आपकी नज़र बगल की ओर जाती है।</p>
+        <p>आपको ऐसी विंडो चाहिए जो कैमरा ऐप के ऊपर बनी रहे, लेंस के ठीक नीचे रखी जा सके और आपके बोलते समय अपने आप स्क्रॉल हो।</p>
+
+        <h2>FloatPrompter+ से सेट अप करें</h2>
+        <p>FloatPrompter+ (हमारा ऐप) एक टेलीप्रॉम्प्टर है जो कैमरा और लाइव-स्ट्रीमिंग ऐप्स समेत किसी भी ऐप के ऊपर फ़्लोट करता है।</p>
+        <ol class="guide-steps">
+          <li>Google Play से FloatPrompter+ इंस्टॉल करें, खोलें और पूछे जाने पर “दूसरे ऐप्स के ऊपर दिखाएँ” की अनुमति दें।</li>
+          <li>अपनी स्क्रिप्ट लिखें या पेस्ट करें। आप PDF, Word फ़ाइल (.docx), PowerPoint के स्पीकर नोट्स (.pptx) या टेक्स्ट फ़ाइल भी इंपोर्ट कर सकते हैं, या किसी दूसरे ऐप से टेक्स्ट इस ऐप में शेयर कर सकते हैं।</li>
+          <li>फ्लोट करें पर टैप करें, फिर अपना कैमरा ऐप खोलें।</li>
+          <li>विंडो को लेंस के ठीक नीचे खींचें और कोने से उसका साइज़ बदलें, फिर प्ले दबाएँ। टेक्स्ट चलने से पहले काउंटडाउन चलता है।</li>
+        </ol>
+
+        <h2>पढ़ते हुए आँखों का संपर्क बनाए रखें</h2>
+        <p>विंडो को लेंस के जितना हो सके पास और पतला रखें, ताकि आँखें मुश्किल से हिलें। पढ़ने की लाइन का निशान बताता है कि कौन-सी लाइन पढ़नी है, और बैकग्राउंड की अपारदर्शिता कम करने पर विंडो के आर-पार कैमरा प्रीव्यू दिखता है।</p>
+        <p>टेक्स्ट का साइज़ ज़रूरत से थोड़ा बड़ा रखें: फ़ोन ट्राइपॉड पर हो तो आप आम तौर से ज़्यादा दूर से पढ़ते हैं।</p>
+
+        <h2>सही रफ़्तार रखें</h2>
+        <p>रफ़्तार की संख्या के नीचे FloatPrompter+ दिखाता है कि मौजूदा रफ़्तार पर बाकी स्क्रिप्ट में कितना समय लगेगा। इसे इतना रखें कि यह समय आपके वीडियो की चाही गई लंबाई से मेल खाए।</p>
+        <p>रोकने के लिए टेक्स्ट पर टैप करें और पीछे जाने या आगे बढ़ने के लिए उसे खींचें। जब विंडो की ज़रूरत न हो, तो उसे छोटे बबल में मोड़ दें।</p>
+
+        <h2>ऐप में ही रिकॉर्ड करें, या इसे अपनी आवाज़ के साथ चलने दें</h2>
+        <p>आप स्क्रीन पर स्क्रिप्ट के साथ FloatPrompter+ के अंदर भी रिकॉर्ड कर सकते हैं: फ़्रंट या बैक कैमरा, 1080p, फ़ोकस के लिए टैप करें और ब्राइटनेस बदलें। वीडियो Movies/FloatPrompter में सेव होते हैं और आपकी गैलरी में दिखते हैं।</p>
+        <p>फ़ुल स्क्रीन और ऐप में रिकॉर्डिंग के दौरान वॉइस फ़ॉलो आपके बोलने के साथ स्क्रिप्ट स्क्रॉल करता है (Android 13 या बाद का, फ़ोन की स्पीच रिकग्निशन से)। किसी दूसरे कैमरा ऐप के ऊपर यह उपलब्ध नहीं है, क्योंकि Android माइक्रोफ़ोन सिर्फ़ रिकॉर्ड कर रहे ऐप को देता है — वहाँ रफ़्तार कंट्रोल इस्तेमाल करें।</p>
+
+        <h2>टेलीप्रॉम्प्टर ग्लास या रिमोट के साथ</h2>
+        <p>अगर फ़ोन टेलीप्रॉम्प्टर ग्लास के नीचे रखते हैं, तो फ़ुल स्क्रीन में मिरर मोड इस्तेमाल करें — बाएँ–दाएँ या उल्टा। फ़ुल स्क्रीन में Bluetooth रिमोट या कीबोर्ड से प्ले, पॉज़, स्क्रिप्ट में आगे-पीछे जाना और रफ़्तार बदलना हो सकता है, इसलिए फ़ोन छूने की ज़रूरत नहीं पड़ती।</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">इस गाइड में बताया गया ऐप</h2>
+      <div class="guide-app">
+        <img class="app-icon" src="/images/icons/floatprompter.png?v=115" alt="FloatPrompter+ icon" width="64" height="64" loading="lazy" />
+        <div class="guide-app-text">
+          <p class="rc-name"><bdi>FloatPrompter+</bdi></p>
+          <p class="rc-desc">कैमरा और लाइव ऐप्स के ऊपर तैरता टेलीप्रॉम्प्टर — मिरर मोड, रिमोट कंट्रोल और वॉइस फ़ॉलो के साथ।</p>
+          <div class="guide-app-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.codedac.floatprompter&amp;referrer=utm_source%3Dcodedac_site%26utm_medium%3Dguide%26utm_campaign%3Dhi" class="btn btn-primary" target="_blank" rel="noopener">Google Play पर देखें →</a>
+            <a href="/hi/apps/floatprompter.html" class="btn btn-ghost">ऐप की जानकारी</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">सवाल</h2>
+      <div class="faq-list">
+        <div class="faq-item"><p class="faq-q">मेरे कैमरा ऐप के ऊपर टेलीप्रॉम्प्टर नहीं दिखता। क्या जाँचूँ?</p><p class="faq-a">Android को “दूसरे ऐप्स के ऊपर दिखाएँ” की अनुमति चाहिए। फ़ोन की सेटिंग → ऐप्स में FloatPrompter+ के लिए इसे चालू करें, फिर दोबारा फ्लोट करें पर टैप करें।</p></div>
+        <div class="faq-item"><p class="faq-q">क्या विंडो मेरे वीडियो में आती है?</p><p class="faq-a">नहीं। कैमरा वही रिकॉर्ड करता है जो लेंस देखता है, स्क्रीन पर जो है वह नहीं। विंडो वीडियो में तभी आती है जब आप कैमरा के बजाय स्क्रीन रिकॉर्डिंग इस्तेमाल करें।</p></div>
+        <div class="faq-item"><p class="faq-q">क्या लाइव स्ट्रीम के दौरान इसका इस्तेमाल हो सकता है?</p><p class="faq-a">हाँ। कैमरा ऐप की तरह ही विंडो को अपने लाइव-स्ट्रीमिंग ऐप के ऊपर फ़्लोट करें। वहाँ रफ़्तार कंट्रोल इस्तेमाल करें, क्योंकि दूसरे ऐप्स के ऊपर वॉइस फ़ॉलो उपलब्ध नहीं है।</p></div>
+        <div class="faq-item"><p class="faq-q">मेरी स्क्रिप्ट कहाँ सेव होती हैं?</p><p class="faq-a">सिर्फ़ आपके फ़ोन पर। कोई अकाउंट या साइन-अप नहीं है। आप स्क्रिप्ट का फ़ाइल में बैकअप लेकर बाद में रिस्टोर कर सकते हैं।</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail-section is-alt">
+    <div class="container">
+      <h2 class="detail-title">और गाइड</h2>
+      <ul class="guide-links">
+        <li><a href="/hi/guides/android-clipboard-history.html">Android पर क्लिपबोर्ड हिस्ट्री कैसे देखें</a></li>
+        <li><a href="/hi/guides/open-app-automatically-after-reboot-android.html">Android पर रीस्टार्ट के बाद ऐप अपने-आप कैसे खोलें (बिना रूट)</a></li>
+        <li><a href="/hi/guides/floating-notes-over-other-apps-android.html">Android पर दूसरे ऐप्स के ऊपर नोट कैसे बनाए रखें</a></li>
+        <li><a href="/hi/guides/floating-timer-over-other-apps-android.html">Android पर दूसरे ऐप्स इस्तेमाल करते हुए टाइमर स्क्रीन पर कैसे रखें</a></li>
+        <li><a href="/hi/guides/hide-personal-info-in-screenshots.html">स्क्रीनशॉट शेयर करने से पहले उसमें निजी जानकारी कैसे छिपाएँ</a></li>
+        <li><a href="/hi/guides/sticky-notes-always-on-top-windows.html">Windows पर स्टिकी नोट को हमेशा सबसे ऊपर कैसे रखें</a></li>
+        <li><a href="/hi/guides/clipboard-history-windows.html">Windows पर क्लिपबोर्ड हिस्ट्री कैसे देखें</a></li>
+        <li><a href="/hi/guides/timer-always-on-top-windows.html">Windows पर टाइमर को दूसरी विंडो के ऊपर कैसे रखें</a></li>
+        <li><a href="/hi/guides/reading-ruler-dyslexia-adhd-android.html">डिस्लेक्सिया और ADHD के लिए Android पर रीडिंग रूलर: पढ़ते समय लाइन न खोएँ</a></li>
+        <li><a href="/hi/guides/reading-ruler-windows.html">Windows पर रीडिंग रूलर कैसे इस्तेमाल करें (डिस्लेक्सिया और ADHD के लिए)</a></li>
+        <li><a href="/hi/guides/floating-calculator-over-other-apps-android.html">Android पर दूसरे ऐप्स के ऊपर कैलकुलेटर कैसे इस्तेमाल करें</a></li>
+        <li><a href="/hi/guides/crypto-price-ticker-over-other-apps-android.html">Android पर दूसरे ऐप्स इस्तेमाल करते हुए क्रिप्टो की कीमतें कैसे देखें</a></li>
+        <li><a href="/hi/guides/make-android-phone-louder.html">Android फ़ोन की आवाज़ तेज़ कैसे करें</a></li>
+        <li><a href="/hi/guides/hide-personal-info-in-screenshots-windows.html">Windows पर स्क्रीनशॉट और PDF में निजी जानकारी कैसे छिपाएँ</a></li>
+        <li><a href="/hi/guides/crypto-price-ticker-on-top-windows.html">Windows पर लाइव क्रिप्टो टिकर को दूसरी विंडो के ऊपर कैसे रखें</a></li>
+        <li><a href="/hi/guides/floating-stopwatch-windows.html">Windows PC पर स्टॉपवॉच को स्क्रीन पर ऊपर कैसे रखें</a></li>
+        <li><a href="/hi/guides/choose-clipboard-manager-android.html">Android के लिए क्लिपबोर्ड मैनेजर चुनते समय क्या देखें</a></li>
+        <li><a href="/hi/guides/force-screen-rotation-per-app-android.html">Android पर हर ऐप के लिए स्क्रीन रोटेशन कैसे तय करें (बिना रूट)</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo small"><img class="logo-mark" src="/images/icon-192.png" alt="" width="30" height="30" /><span class="logo-text">Code<span>DAC</span></span></span>
+        <span class="footer-based">दक्षिण कोरिया</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-email" href="mailto:contact@codedac.com">contact@codedac.com</a>
+        <a class="footer-email" href="/hi/guides/">गाइड</a>
+        <a class="footer-email" href="/hi/privacy.html">गोपनीयता नीति</a>
+        <p>&copy; <span id="year">2026</span> CodeDAC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>window.__LANG_BANNER={"cur":"hi","alias":{"tl":"fil"},"langs":{"ko":{"t":"이 페이지를 한국어로 볼 수 있습니다.","c":"한국어로 보기","d":"닫기","u":"/ko/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"en":{"t":"This page is available in English.","c":"View in English","d":"Dismiss","u":"/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"ja":{"t":"このページは日本語でご覧いただけます。","c":"日本語で見る","d":"閉じる","u":"/ja/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"es":{"t":"Esta página está disponible en español.","c":"Ver en español","d":"Cerrar","u":"/es/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"pt":{"t":"Esta página está disponível em português.","c":"Ver em português","d":"Fechar","u":"/pt/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"de":{"t":"Diese Seite ist auf Deutsch verfügbar.","c":"Auf Deutsch ansehen","d":"Schließen","u":"/de/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"fr":{"t":"Cette page est disponible en français.","c":"Voir en français","d":"Fermer","u":"/fr/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"id":{"t":"Halaman ini tersedia dalam Bahasa Indonesia.","c":"Lihat dalam Bahasa Indonesia","d":"Tutup","u":"/id/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"hi":{"t":"यह पृष्ठ हिन्दी में उपलब्ध है।","c":"हिन्दी में देखें","d":"बंद करें","u":"/hi/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"vi":{"t":"Trang này có sẵn bằng tiếng Việt.","c":"Xem bằng tiếng Việt","d":"Đóng","u":"/vi/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"zh":{"t":"本页面提供简体中文版本。","c":"查看简体中文","d":"关闭","u":"/zh/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"ru":{"t":"Эта страница доступна на русском языке.","c":"Смотреть на русском","d":"Закрыть","u":"/ru/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"tr":{"t":"Bu sayfa Türkçe olarak mevcuttur.","c":"Türkçe görüntüle","d":"Kapat","u":"/tr/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"it":{"t":"Questa pagina è disponibile in italiano.","c":"Visualizza in italiano","d":"Chiudi","u":"/it/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"pl":{"t":"Ta strona jest dostępna po polsku.","c":"Zobacz po polsku","d":"Zamknij","u":"/pl/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"th":{"t":"หน้านี้มีให้บริการเป็นภาษาไทย","c":"ดูเป็นภาษาไทย","d":"ปิด","u":"/th/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"fil":{"t":"Available ang page na ito sa Filipino.","c":"Tingnan sa Filipino","d":"Isara","u":"/fil/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"ar":{"t":"هذه الصفحة متوفرة باللغة العربية.","c":"عرض بالعربية","d":"إغلاق","u":"/ar/guides/teleprompter-over-camera-app-android.html","r":"rtl"},"nl":{"t":"Deze pagina is beschikbaar in het Nederlands.","c":"In het Nederlands bekijken","d":"Sluiten","u":"/nl/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"uk":{"t":"Ця сторінка доступна українською мовою.","c":"Переглянути українською","d":"Закрити","u":"/uk/guides/teleprompter-over-camera-app-android.html","r":"ltr"},"ms":{"t":"Halaman ini tersedia dalam Bahasa Melayu.","c":"Lihat dalam Bahasa Melayu","d":"Tutup","u":"/ms/guides/teleprompter-over-camera-app-android.html","r":"ltr"}}};</script>
+  <script src="/js/site.js?v=115"></script>
+</body>
+</html>

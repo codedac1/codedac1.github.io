@@ -874,6 +874,79 @@
           "a": "Não exatamente. Algumas telas do sistema, como certas páginas de configurações em celulares Samsung, podem não seguir a orientação escolhida. Ela volta assim que você sai delas."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "Como usar um teleprompter sobre o app de câmera no Android",
+      "desc": "Leia o roteiro olhando para a lente. Como deixar um teleprompter flutuando sobre a câmera ou um app de live no Android, posicioná-lo para manter o contato visual e fazer o texto rolar na velocidade certa.",
+      "intro": "Quando você se filma com o celular, o olhar escapa para uma anotação ao lado, e quem assiste percebe. Um teleprompter deixa o texto bem ao lado da lente. No Android, você pode deixar um flutuando sobre o app de câmera que já usa, ou sobre um app de live, em vez de comprar um aparelho separado.",
+      "sections": [
+        {
+          "h": "Por que só o app de câmera não basta",
+          "p": [
+            "Os apps de câmera do Android não têm lugar para um roteiro, e trocar de app no meio da gravação faz ela parar. Um papel ou uma segunda tela fica longe da lente, e seus olhos acabam olhando para o lado.",
+            "Você precisa de uma janela que fique por cima do app de câmera, logo abaixo da lente, e role sozinha enquanto você fala."
+          ]
+        },
+        {
+          "h": "Configure com o FloatPrompter+",
+          "p": [
+            "O FloatPrompter+ (nosso app) é um teleprompter que flutua sobre qualquer app, inclusive a câmera e apps de live."
+          ],
+          "steps": [
+            "Instale o FloatPrompter+ pelo Google Play, abra o app e permita “Sobrepor a outros apps” quando for pedido.",
+            "Escreva ou cole o roteiro. Você também pode importar um PDF, um arquivo do Word (.docx), as anotações do orador do PowerPoint (.pptx) ou um arquivo de texto, ou compartilhar texto de outro app com o FloatPrompter+.",
+            "Toque em “Flutuar” e abra o app de câmera.",
+            "Arraste a janela para logo abaixo da lente, ajuste o tamanho pelo canto e toque em reproduzir. Uma contagem regressiva roda antes de o texto começar a se mover."
+          ]
+        },
+        {
+          "h": "Mantenha o contato visual enquanto lê",
+          "p": [
+            "Deixe a janela o mais perto possível da lente e estreita, para que seus olhos quase não se movam. Um marcador de linha de leitura mostra qual linha ler, e com menos opacidade no fundo você vê a prévia da câmera através da janela.",
+            "Use um texto um pouco maior do que parece necessário: com o celular no tripé, você lê de mais longe que o normal."
+          ]
+        },
+        {
+          "h": "Acerte a velocidade",
+          "p": [
+            "Abaixo do número da velocidade, o FloatPrompter+ mostra quanto tempo falta para ler o resto do roteiro na velocidade atual. Ajuste para que esse tempo bata com a duração que você quer para o vídeo.",
+            "Toque no texto para pausar e arraste para voltar ou avançar. Quando não precisar da janela, recolha-a em uma pequena bolha."
+          ]
+        },
+        {
+          "h": "Grave no app ou deixe que ele siga sua voz",
+          "p": [
+            "Você também pode gravar dentro do FloatPrompter+ com o roteiro na tela: câmera frontal ou traseira, 1080p, tocar para focar e ajustar o brilho. Os vídeos são salvos em Movies/FloatPrompter e aparecem na sua galeria.",
+            "Na tela cheia e na gravação dentro do app, o Seguir voz rola o roteiro conforme você fala (Android 13 ou mais recente, usando o reconhecimento de voz do celular). Sobre outro app de câmera ele não está disponível, porque o Android dá o microfone só ao app que está gravando — nesse caso, use o controle de velocidade."
+          ]
+        },
+        {
+          "h": "Com vidro de teleprompter ou controle remoto",
+          "p": [
+            "Se você colocar o celular sob um vidro de teleprompter, use a tela cheia com o modo espelho, esquerda–direita ou de cabeça para baixo. Na tela cheia, um controle ou teclado Bluetooth pode reproduzir, pausar, avançar no roteiro e mudar a velocidade, sem você tocar no celular."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "O teleprompter não aparece sobre o meu app de câmera. O que devo verificar?",
+          "a": "O Android precisa da permissão “Sobrepor a outros apps”. Ative-a para o FloatPrompter+ nas Configurações do celular, em Apps, e toque em “Flutuar” de novo."
+        },
+        {
+          "q": "A janela aparece no meu vídeo?",
+          "a": "Não. A câmera grava o que a lente vê, não a sua tela. A janela só aparece no vídeo se você usar a gravação de tela em vez da câmera."
+        },
+        {
+          "q": "Posso usar durante uma live?",
+          "a": "Sim. Deixe a janela flutuando sobre o app de live do mesmo jeito que sobre o app de câmera. Use o controle de velocidade, porque o Seguir voz não está disponível sobre outros apps."
+        },
+        {
+          "q": "Onde meus roteiros ficam salvos?",
+          "a": "Só no seu celular. Não há conta nem cadastro. Você pode fazer backup dos roteiros em um arquivo e restaurá-los depois."
+        }
+      ]
     }
   }
 }

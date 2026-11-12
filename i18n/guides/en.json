@@ -874,6 +874,79 @@
           "a": "Not quite. A few system screens, such as some settings pages on Samsung phones, may not follow the orientation you chose. It comes back as soon as you leave them."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "How to use a teleprompter over your camera app on Android",
+      "desc": "Read your script while you look into the lens. How to float a teleprompter over the camera or a live-streaming app on Android, place it for eye contact, and keep it scrolling at the right speed.",
+      "intro": "When you film yourself with a phone, your eyes drift to a note on the side and viewers notice. A teleprompter keeps your lines right next to the lens. On Android you can float one over the camera app you already use, or over a live-streaming app, instead of buying a separate device.",
+      "sections": [
+        {
+          "h": "Why the camera app alone is not enough",
+          "p": [
+            "Android camera apps have no place for a script, and switching apps mid-take stops the recording. A sheet of paper or a second screen sits away from the lens, so your eyes look off to the side.",
+            "What you need is a window that stays on top of the camera app, sits just under the lens, and scrolls by itself while you talk."
+          ]
+        },
+        {
+          "h": "Set it up with FloatPrompter+",
+          "p": [
+            "FloatPrompter+ (our app) is a teleprompter that floats over any app, including the camera and live-streaming apps."
+          ],
+          "steps": [
+            "Install FloatPrompter+ from Google Play, open it and allow \"Display over other apps\" when asked.",
+            "Write or paste your script. You can also import a PDF, a Word file (.docx), PowerPoint speaker notes (.pptx) or a text file, or share text to the app from another app.",
+            "Tap Float, then open your camera app.",
+            "Drag the window just below the lens and resize it from the corner, then press play. A countdown runs before the text starts to move."
+          ]
+        },
+        {
+          "h": "Keep eye contact while you read",
+          "p": [
+            "Put the window as close to the lens as you can and keep it narrow, so your eyes barely move. A reading line marker shows which line to read, and a lower background opacity lets you see the camera preview through the window.",
+            "Use a slightly larger text size than feels necessary: you read from further away than usual when the phone is on a tripod."
+          ]
+        },
+        {
+          "h": "Get the speed right",
+          "p": [
+            "Under the speed number, FloatPrompter+ shows how long the rest of the script takes at the current speed. Set it so that time matches the length you want for your video.",
+            "Tap the text to pause and drag it to go back or skip ahead. When you do not need the window, fold it into a small bubble."
+          ]
+        },
+        {
+          "h": "Record in the app, or let it follow your voice",
+          "p": [
+            "You can also record inside FloatPrompter+ with the script on screen: front or back camera, 1080p, tap to focus and adjust the brightness. Videos are saved to Movies/FloatPrompter and appear in your gallery.",
+            "In full screen and in in-app recording, voice follow scrolls the script as you speak (Android 13 or later, using your phone's speech recognition). Over another camera app it is not available, because Android gives the microphone only to the app that is recording — use the speed control there."
+          ]
+        },
+        {
+          "h": "Using teleprompter glass or a remote",
+          "p": [
+            "If you put the phone under teleprompter glass, use full screen with mirror mode, left–right or upside down. In full screen, a Bluetooth remote or keyboard can play, pause, move through the script and change the speed, so you do not have to touch the phone."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "The teleprompter does not appear over my camera app. What should I check?",
+          "a": "Android needs the \"Display over other apps\" permission. Turn it on for FloatPrompter+ in your phone's Settings → Apps, then tap Float again."
+        },
+        {
+          "q": "Does the window show up in my video?",
+          "a": "No. The camera records what the lens sees, not what is on your screen. The window only appears in a video if you use screen recording instead of the camera."
+        },
+        {
+          "q": "Can I use it during a live stream?",
+          "a": "Yes. Float the window over your live-streaming app the same way as over the camera app. Use the speed control there, because voice follow is not available over other apps."
+        },
+        {
+          "q": "Where are my scripts stored?",
+          "a": "Only on your phone. There is no account or sign-up. You can back up your scripts to a file and restore them later."
+        }
+      ]
     }
   }
 }

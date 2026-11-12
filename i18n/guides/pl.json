@@ -874,6 +874,79 @@
           "a": "Nie do końca. Kilka ekranów systemowych, na przykład niektóre strony ustawień w telefonach Samsung, może nie stosować wybranej orientacji. Wraca ona, gdy tylko z nich wyjdziesz."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "Jak wyświetlić prompter nad aplikacją aparatu na Androidzie",
+      "desc": "Jak czytać tekst, patrząc w obiektyw: wyświetl prompter nad aparatem lub aplikacją do transmisji na Androidzie, ustaw go tak, by utrzymać kontakt wzrokowy, i dobierz tempo przewijania.",
+      "intro": "Gdy nagrywasz się telefonem i zerkasz na notatkę z boku, widzowie od razu to zauważają. Prompter trzyma tekst tuż przy obiektywie. Na Androidzie nie musisz kupować osobnego urządzenia — prompter możesz wyświetlić nad aparatem, którego już używasz, albo nad aplikacją do transmisji na żywo.",
+      "sections": [
+        {
+          "h": "Dlaczego sama aplikacja aparatu nie wystarczy",
+          "p": [
+            "Aplikacje aparatu na Androidzie nie mają miejsca na tekst, a przełączenie się na inną aplikację w trakcie ujęcia zatrzymuje nagrywanie. Kartka papieru czy drugi ekran są z dala od obiektywu, więc wzrok ucieka w bok.",
+            "Potrzebujesz okna, które zostaje nad aplikacją aparatu, stoi tuż pod obiektywem i samo się przewija, gdy mówisz."
+          ]
+        },
+        {
+          "h": "Konfiguracja z FloatPrompter+",
+          "p": [
+            "FloatPrompter+ (nasza aplikacja) to prompter, który unosi się nad każdą aplikacją, także nad aparatem i aplikacjami do transmisji."
+          ],
+          "steps": [
+            "Zainstaluj FloatPrompter+ z Google Play, otwórz ją i zezwól na „Wyświetlanie nad innymi aplikacjami”, gdy pojawi się prośba.",
+            "Napisz lub wklej tekst. Możesz też zaimportować PDF, plik Word (.docx), notatki prelegenta z PowerPointa (.pptx) albo plik tekstowy lub udostępnić tekst z innej aplikacji.",
+            "Stuknij „Pływające okno”, a potem otwórz aplikację aparatu.",
+            "Przeciągnij okno tuż pod obiektyw, dopasuj rozmiar za róg i naciśnij odtwarzanie. Zanim tekst ruszy, odlicza się czas."
+          ]
+        },
+        {
+          "h": "Utrzymaj kontakt wzrokowy podczas czytania",
+          "p": [
+            "Ustaw okno jak najbliżej obiektywu i zrób je wąskie — wtedy oczy prawie się nie ruszają. Linia czytania pokazuje, którą linijkę czytać, a mniejsza nieprzezroczystość tła pozwala widzieć obraz z aparatu przez okno.",
+            "Wybierz czcionkę trochę większą, niż wydaje się potrzebna: gdy telefon stoi na statywie, czytasz z większej odległości niż zwykle."
+          ]
+        },
+        {
+          "h": "Dobierz tempo",
+          "p": [
+            "Pod liczbą prędkości FloatPrompter+ pokazuje, ile czasu zajmie reszta tekstu przy obecnej prędkości. Ustaw ją tak, by ten czas odpowiadał długości filmu, którą chcesz uzyskać.",
+            "Stuknij tekst, aby wstrzymać, i przeciągnij go, by cofnąć się lub przeskoczyć dalej. Gdy okno nie jest potrzebne, zwiń je do małej bańki."
+          ]
+        },
+        {
+          "h": "Nagrywaj w aplikacji albo niech podąża za głosem",
+          "p": [
+            "Możesz też nagrywać bezpośrednio w FloatPrompter+ z tekstem na ekranie: przedni lub tylny aparat, 1080p, ostrość i jasność po stuknięciu. Filmy zapisują się w Movies/FloatPrompter i pojawiają się w galerii.",
+            "Na pełnym ekranie i podczas nagrywania w aplikacji podążanie za głosem przewija tekst, gdy mówisz (Android 13 lub nowszy, korzysta z rozpoznawania mowy w telefonie). Nad inną aplikacją aparatu nie jest dostępne, bo Android daje mikrofon tylko aplikacji, która nagrywa — tam używaj regulacji prędkości."
+          ]
+        },
+        {
+          "h": "Ze szkłem promptera lub pilotem",
+          "p": [
+            "Jeśli kładziesz telefon pod szkłem promptera, użyj pełnego ekranu z trybem lustrzanym — odbiciem lewo–prawo albo odwróceniem do góry nogami. Na pełnym ekranie pilot Bluetooth lub klawiatura odtwarza, wstrzymuje, przesuwa tekst i zmienia prędkość, więc nie trzeba dotykać telefonu."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Prompter nie pojawia się nad aplikacją aparatu. Co sprawdzić?",
+          "a": "Android wymaga uprawnienia „Wyświetlanie nad innymi aplikacjami”. Włącz je dla FloatPrompter+ w Ustawienia > Aplikacje w telefonie, a potem stuknij ponownie „Pływające okno”."
+        },
+        {
+          "q": "Czy okno będzie widać na filmie?",
+          "a": "Nie. Aparat nagrywa to, co widzi obiektyw, a nie to, co jest na ekranie. Okno trafi do filmu tylko wtedy, gdy zamiast aparatu użyjesz nagrywania ekranu."
+        },
+        {
+          "q": "Czy mogę używać go podczas transmisji na żywo?",
+          "a": "Tak. Wyświetl okno nad aplikacją do transmisji tak samo jak nad aparatem. Nad innymi aplikacjami podążanie za głosem nie jest dostępne, więc używaj regulacji prędkości."
+        },
+        {
+          "q": "Gdzie są zapisane moje teksty?",
+          "a": "Tylko w telefonie. Nie ma konta ani rejestracji. Teksty możesz zapisać w pliku kopii zapasowej i później je przywrócić."
+        }
+      ]
     }
   }
 }

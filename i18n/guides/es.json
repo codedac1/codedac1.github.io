@@ -874,6 +874,79 @@
           "a": "No del todo. Algunas pantallas del sistema, como ciertas páginas de ajustes en los teléfonos Samsung, pueden no seguir la orientación elegida. Vuelve en cuanto sales de ellas."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "Cómo usar un teleprompter sobre la app de cámara en Android",
+      "desc": "Lee tu guion mientras miras a la lente. Cómo hacer flotar un teleprompter sobre la cámara o una app de directos en Android, colocarlo para mantener el contacto visual y que avance a la velocidad justa.",
+      "intro": "Cuando te grabas con el móvil, la mirada se te va a una nota al lado y quien te ve lo nota. Un teleprompter deja tu texto justo junto a la lente. En Android puedes hacer flotar uno sobre la app de cámara que ya usas, o sobre una app de directos, en lugar de comprar un aparato aparte.",
+      "sections": [
+        {
+          "h": "Por qué no basta con la app de cámara",
+          "p": [
+            "Las apps de cámara de Android no tienen sitio para un guion, y cambiar de app en mitad de una toma detiene la grabación. Un papel o una segunda pantalla quedan lejos de la lente, así que miras hacia un lado.",
+            "Lo que necesitas es una ventana que se quede encima de la app de cámara, justo debajo de la lente, y que avance sola mientras hablas."
+          ]
+        },
+        {
+          "h": "Configúralo con FloatPrompter+",
+          "p": [
+            "FloatPrompter+ (nuestra app) es un teleprompter que flota sobre cualquier app, incluidas la cámara y las apps de directos."
+          ],
+          "steps": [
+            "Instala FloatPrompter+ desde Google Play, ábrela y permite «Mostrar sobre otras apps» cuando te lo pida.",
+            "Escribe o pega tu guion. También puedes importar un PDF, un archivo de Word (.docx), las notas del orador de PowerPoint (.pptx) o un archivo de texto, o compartir texto con la app desde otra app.",
+            "Toca «Flotar» y abre tu app de cámara.",
+            "Arrastra la ventana justo debajo de la lente, cambia su tamaño desde la esquina y pulsa reproducir. Antes de que el texto empiece a moverse hay una cuenta atrás."
+          ]
+        },
+        {
+          "h": "Mantén el contacto visual mientras lees",
+          "p": [
+            "Coloca la ventana lo más cerca posible de la lente y estrecha, para que los ojos apenas se muevan. Una marca de línea de lectura indica qué línea toca, y con menos opacidad de fondo ves la vista previa de la cámara a través de la ventana.",
+            "Usa un tamaño de letra algo mayor del que crees necesario: con el móvil en un trípode lees desde más lejos de lo habitual."
+          ]
+        },
+        {
+          "h": "Ajusta la velocidad",
+          "p": [
+            "Bajo el número de velocidad, FloatPrompter+ muestra cuánto tarda el resto del guion a la velocidad actual. Ajústala para que ese tiempo coincida con la duración que quieres para tu vídeo.",
+            "Toca el texto para pausar y arrástralo para volver atrás o adelantar. Cuando no necesites la ventana, pliégala en una burbuja pequeña."
+          ]
+        },
+        {
+          "h": "Graba en la app o deja que siga tu voz",
+          "p": [
+            "También puedes grabar dentro de FloatPrompter+ con el guion en pantalla: cámara delantera o trasera, 1080p, tocar para enfocar y ajustar el brillo. Los vídeos se guardan en Movies/FloatPrompter y aparecen en tu galería.",
+            "En pantalla completa y en la grabación dentro de la app, «Seguir voz» hace avanzar el guion mientras hablas (Android 13 o posterior, con el reconocimiento de voz del móvil). Sobre otra app de cámara no está disponible, porque Android da el micrófono solo a la app que graba: ahí usa el control de velocidad."
+          ]
+        },
+        {
+          "h": "Con cristal de teleprompter o mando",
+          "p": [
+            "Si pones el móvil bajo un cristal de teleprompter, usa la pantalla completa con el modo espejo, izquierda–derecha o arriba–abajo. En pantalla completa, un mando o teclado Bluetooth puede reproducir, pausar, moverse por el guion y cambiar la velocidad, sin tocar el móvil."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "El teleprompter no aparece sobre mi app de cámara. ¿Qué compruebo?",
+          "a": "Android necesita el permiso «Mostrar sobre otras apps». Actívalo para FloatPrompter+ en Ajustes del móvil, en Aplicaciones, y vuelve a tocar «Flotar»."
+        },
+        {
+          "q": "¿La ventana sale en mi vídeo?",
+          "a": "No. La cámara graba lo que ve la lente, no tu pantalla. La ventana solo sale en un vídeo si usas la grabación de pantalla en lugar de la cámara."
+        },
+        {
+          "q": "¿Puedo usarlo durante un directo?",
+          "a": "Sí. Haz flotar la ventana sobre tu app de directos igual que sobre la app de cámara. Ahí usa el control de velocidad, porque «Seguir voz» no está disponible sobre otras apps."
+        },
+        {
+          "q": "¿Dónde se guardan mis guiones?",
+          "a": "Solo en tu móvil. No hay cuenta ni registro. Puedes hacer una copia de seguridad de tus guiones en un archivo y restaurarlos más adelante."
+        }
+      ]
     }
   }
 }

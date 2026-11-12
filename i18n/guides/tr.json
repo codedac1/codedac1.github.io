@@ -874,6 +874,79 @@
           "a": "Tam olarak değil. Samsung telefonlardaki bazı ayar sayfaları gibi birkaç sistem ekranı seçtiğiniz yöne uymayabilir. Bu ekranlardan çıktığınız anda yön geri gelir."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "Android'de kamera uygulamasının üstünde teleprompter nasıl kullanılır",
+      "desc": "Lense bakarken metni okumanın yolu: Android'de kamera ya da canlı yayın uygulamasının üstünde teleprompter yüzdürmek, göz temasını koruyacak yere koymak ve doğru hızda kaydırmak.",
+      "intro": "Kendinizi telefonla çekerken gözünüz yandaki nota kayarsa izleyenler bunu hemen fark eder. Teleprompter metni lensin hemen yanında tutar. Android'de ayrı bir cihaz almanıza gerek yok; teleprompter'ı zaten kullandığınız kamera uygulamasının ya da canlı yayın uygulamasının üstünde yüzdürebilirsiniz.",
+      "sections": [
+        {
+          "h": "Kamera uygulaması tek başına neden yetmez",
+          "p": [
+            "Android kamera uygulamalarında metin koyacak bir yer yoktur ve çekim sırasında başka bir uygulamaya geçmek kaydı durdurur. Kâğıt ya da ikinci bir ekran lensten uzakta durduğu için gözleriniz yana kayar.",
+            "İhtiyacınız olan, kamera uygulamasının üstünde kalan, lensin hemen altına konabilen ve siz konuşurken kendiliğinden kayan bir penceredir."
+          ]
+        },
+        {
+          "h": "FloatPrompter+ ile kurulum",
+          "p": [
+            "FloatPrompter+ (bizim uygulamamız), kamera ve canlı yayın uygulamaları dahil her uygulamanın üstünde yüzen bir teleprompter'dır."
+          ],
+          "steps": [
+            "FloatPrompter+'ı Google Play'den yükleyip açın ve sorulduğunda “Diğer uygulamaların üzerinde göster” iznini verin.",
+            "Metninizi yazın ya da yapıştırın. PDF, Word dosyası (.docx), PowerPoint konuşmacı notları (.pptx) veya metin dosyası da içe aktarabilir ya da başka bir uygulamadan metin paylaşabilirsiniz.",
+            "“Yüzdür”e dokunun, ardından kamera uygulamanızı açın.",
+            "Pencereyi lensin hemen altına sürükleyin, köşesinden boyutunu ayarlayın ve oynat'a basın. Metin akmaya başlamadan önce geri sayım yapılır."
+          ]
+        },
+        {
+          "h": "Okurken göz temasını koruyun",
+          "p": [
+            "Pencereyi lense olabildiğince yakın ve dar tutun; böylece gözleriniz neredeyse hiç kıpırdamaz. Okuma çizgisi hangi satırı okuyacağınızı gösterir; arka plan opaklığını düşürürseniz kamera görüntüsünü pencerenin arkasından görürsünüz.",
+            "Yazı boyutunu gerekli görünenden biraz büyük seçin: telefon tripoddayken metni her zamankinden daha uzaktan okursunuz."
+          ]
+        },
+        {
+          "h": "Hızı doğru ayarlayın",
+          "p": [
+            "FloatPrompter+ hız sayısının altında, metnin geri kalanının mevcut hızla ne kadar süreceğini gösterir. Hızı, bu süre istediğiniz video uzunluğuna denk gelecek şekilde ayarlayın.",
+            "Duraklatmak için metne dokunun, geri dönmek ya da ileri atlamak için sürükleyin. Pencereye ihtiyacınız olmadığında küçük bir baloncuğa katlayın."
+          ]
+        },
+        {
+          "h": "Uygulamada kaydedin ya da sesinizi takip etsin",
+          "p": [
+            "Metin ekrandayken doğrudan FloatPrompter+ içinde de kayıt yapabilirsiniz: ön veya arka kamera, 1080p, dokunarak odak ve parlaklık ayarı. Videolar Movies/FloatPrompter klasörüne kaydedilir ve galerinizde görünür.",
+            "Tam ekranda ve uygulama içi kayıtta ses takibi, siz konuştukça metni kaydırır (Android 13 veya üstü, telefonunuzun konuşma tanımasını kullanır). Başka bir kamera uygulamasının üstünde kullanılamaz, çünkü Android mikrofonu yalnızca kayıt yapan uygulamaya verir — orada hız ayarını kullanın."
+          ]
+        },
+        {
+          "h": "Teleprompter camı ya da kumandayla kullanma",
+          "p": [
+            "Telefonu teleprompter camının altına koyuyorsanız tam ekranda ayna modunu kullanın: sol–sağ aynalama ya da baş aşağı çevirme. Tam ekranda Bluetooth kumanda ya da klavyeyle oynatabilir, duraklatabilir, metinde ilerleyip geri gidebilir ve hızı değiştirebilirsiniz; telefona dokunmanız gerekmez."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Teleprompter kamera uygulamasının üstünde görünmüyor. Neyi kontrol etmeliyim?",
+          "a": "Android'in “Diğer uygulamaların üzerinde göster” izni gerekir. Telefonunuzda Ayarlar > Uygulamalar'dan FloatPrompter+ için bu izni açın ve tekrar “Yüzdür”e dokunun."
+        },
+        {
+          "q": "Pencere videoda görünür mü?",
+          "a": "Hayır. Kamera ekranda olanı değil, lensin gördüğünü kaydeder. Pencere yalnızca kamera yerine ekran kaydı kullanırsanız videoya girer."
+        },
+        {
+          "q": "Canlı yayın sırasında kullanabilir miyim?",
+          "a": "Evet. Pencereyi kamera uygulamasında olduğu gibi canlı yayın uygulamasının üstünde yüzdürün. Diğer uygulamaların üstünde ses takibi kullanılamadığı için orada hız ayarını kullanın."
+        },
+        {
+          "q": "Metinlerim nerede saklanıyor?",
+          "a": "Yalnızca telefonunuzda. Hesap ya da kayıt yok. Metinlerinizi bir dosyaya yedekleyip daha sonra geri yükleyebilirsiniz."
+        }
+      ]
     }
   }
 }

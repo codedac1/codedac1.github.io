@@ -874,6 +874,79 @@
           "a": "Niet helemaal. Een paar systeemschermen, zoals sommige instellingenpagina's op Samsung-telefoons, volgen de gekozen stand mogelijk niet. De stand komt terug zodra je ze verlaat."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "Een teleprompter boven je camera-app gebruiken op Android",
+      "desc": "Lees je tekst terwijl je in de lens kijkt. Zo laat je op Android een teleprompter boven de camera- of livestream-app zweven, plaats je hem voor oogcontact en laat je hem op de juiste snelheid lopen.",
+      "intro": "Als je jezelf filmt met je telefoon, dwalen je ogen af naar een briefje ernaast, en kijkers zien dat. Een teleprompter houdt je tekst vlak naast de lens. Op Android kun je er een laten zweven boven de camera-app die je al gebruikt, of boven een livestream-app, in plaats van een apart apparaat te kopen.",
+      "sections": [
+        {
+          "h": "Waarom de camera-app alleen niet genoeg is",
+          "p": [
+            "Camera-apps op Android hebben geen plek voor een tekst, en midden in een opname van app wisselen stopt de opname. Een papiertje of tweede scherm zit ver van de lens, dus je kijkt opzij.",
+            "Wat je nodig hebt is een venster dat boven de camera-app blijft, vlak onder de lens zit en vanzelf scrolt terwijl je praat."
+          ]
+        },
+        {
+          "h": "Instellen met FloatPrompter+",
+          "p": [
+            "FloatPrompter+ (onze app) is een teleprompter die boven elke app zweeft, ook boven camera- en livestream-apps."
+          ],
+          "steps": [
+            "Installeer FloatPrompter+ via Google Play, open de app en sta ‘Display over other apps’ toe als daarom gevraagd wordt.",
+            "Schrijf of plak je tekst. Je kunt ook een pdf, een Word-bestand (.docx), PowerPoint-sprekersnotities (.pptx) of een tekstbestand importeren, of tekst vanuit een andere app naar FloatPrompter+ delen.",
+            "Tik op ‘Zweven’ en open daarna je camera-app.",
+            "Sleep het venster vlak onder de lens, pas de grootte aan via de hoek en druk op afspelen. Voordat de tekst gaat bewegen, loopt er een aftelling."
+          ]
+        },
+        {
+          "h": "Oogcontact houden terwijl je leest",
+          "p": [
+            "Zet het venster zo dicht mogelijk bij de lens en houd het smal, zodat je ogen nauwelijks bewegen. Een leesregelmarkering laat zien welke regel aan de beurt is, en met minder achtergronddekking zie je het camerabeeld door het venster heen.",
+            "Kies een iets grotere tekst dan nodig lijkt: met de telefoon op een statief lees je van verder weg dan normaal."
+          ]
+        },
+        {
+          "h": "De juiste snelheid kiezen",
+          "p": [
+            "Onder het snelheidsgetal laat FloatPrompter+ zien hoe lang de rest van de tekst duurt op de huidige snelheid. Stel die zo in dat die tijd past bij de lengte die je voor je video wilt.",
+            "Tik op de tekst om te pauzeren en sleep om terug of vooruit te gaan. Heb je het venster even niet nodig, vouw het dan in tot een kleine bel."
+          ]
+        },
+        {
+          "h": "Opnemen in de app, of je stem laten volgen",
+          "p": [
+            "Je kunt ook in FloatPrompter+ zelf opnemen met de tekst op het scherm: voor- of achtercamera, 1080p, tikken om scherp te stellen en de helderheid aan te passen. Video’s worden opgeslagen in Movies/FloatPrompter en verschijnen in je galerij.",
+            "Op volledig scherm en bij opnemen in de app laat Stem volgen de tekst meescrollen terwijl je praat (Android 13 of nieuwer, met de spraakherkenning van je telefoon). Boven een andere camera-app kan dat niet, omdat Android de microfoon alleen aan de app geeft die opneemt; gebruik daar de snelheidsregeling."
+          ]
+        },
+        {
+          "h": "Met teleprompterglas of afstandsbediening",
+          "p": [
+            "Leg je de telefoon onder teleprompterglas, gebruik dan volledig scherm met de spiegelmodus, links–rechts of ondersteboven. Op volledig scherm kan een Bluetooth-afstandsbediening of -toetsenbord afspelen, pauzeren, door de tekst gaan en de snelheid wijzigen, zonder dat je de telefoon aanraakt."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "De teleprompter verschijnt niet boven mijn camera-app. Wat moet ik controleren?",
+          "a": "Android heeft de toestemming ‘Display over other apps’ nodig. Zet die aan voor FloatPrompter+ in de Instellingen van je telefoon, onder Apps, en tik daarna opnieuw op ‘Zweven’."
+        },
+        {
+          "q": "Is het venster te zien in mijn video?",
+          "a": "Nee. De camera neemt op wat de lens ziet, niet je scherm. Het venster staat alleen in een video als je schermopname gebruikt in plaats van de camera."
+        },
+        {
+          "q": "Kan ik het tijdens een livestream gebruiken?",
+          "a": "Ja. Laat het venster op dezelfde manier boven je livestream-app zweven als boven de camera-app. Gebruik daar de snelheidsregeling, want Stem volgen is niet beschikbaar boven andere apps."
+        },
+        {
+          "q": "Waar worden mijn teksten opgeslagen?",
+          "a": "Alleen op je telefoon. Er is geen account of aanmelding nodig. Je kunt je teksten in een bestand back-uppen en later terugzetten."
+        }
+      ]
     }
   }
 }

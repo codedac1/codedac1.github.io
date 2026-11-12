@@ -874,6 +874,79 @@
           "a": "Tidak sepenuhnya. Beberapa layar sistem, seperti sebagian halaman setelan di ponsel Samsung, mungkin tidak mengikuti orientasi yang Anda pilih. Orientasi pilihan Anda kembali begitu Anda keluar dari layar itu."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "Cara memakai teleprompter di atas aplikasi kamera di Android",
+      "desc": "Baca naskah sambil menatap lensa. Cara memunculkan teleprompter di atas aplikasi kamera atau live streaming di Android, menaruhnya agar tetap kontak mata, dan menjaga kecepatannya pas.",
+      "intro": "Saat merekam diri sendiri dengan ponsel, mata Anda melirik catatan di samping dan penonton langsung menyadarinya. Teleprompter menaruh naskah tepat di sebelah lensa. Di Android, Anda bisa memunculkannya di atas aplikasi kamera yang biasa Anda pakai, atau di atas aplikasi live streaming, tanpa membeli alat terpisah.",
+      "sections": [
+        {
+          "h": "Kenapa aplikasi kamera saja tidak cukup",
+          "p": [
+            "Aplikasi kamera Android tidak punya tempat untuk naskah, dan berpindah aplikasi di tengah pengambilan gambar menghentikan rekaman. Kertas atau layar kedua letaknya jauh dari lensa, sehingga mata Anda melihat ke samping.",
+            "Yang Anda butuhkan adalah jendela yang tetap di atas aplikasi kamera, bisa diletakkan tepat di bawah lensa, dan bergulir sendiri saat Anda berbicara."
+          ]
+        },
+        {
+          "h": "Atur dengan FloatPrompter+",
+          "p": [
+            "FloatPrompter+ (aplikasi kami) adalah teleprompter yang mengambang di atas aplikasi apa pun, termasuk aplikasi kamera dan live streaming."
+          ],
+          "steps": [
+            "Pasang FloatPrompter+ dari Google Play, buka, lalu izinkan “Tampilkan di atas aplikasi lain” saat diminta.",
+            "Tulis atau tempel naskah Anda. Anda juga bisa mengimpor PDF, file Word (.docx), catatan pembicara PowerPoint (.pptx) atau file teks, atau membagikan teks ke aplikasi ini dari aplikasi lain.",
+            "Ketuk Mengambang, lalu buka aplikasi kamera Anda.",
+            "Seret jendela tepat di bawah lensa dan ubah ukurannya dari sudut, lalu tekan putar. Hitung mundur berjalan sebelum teks mulai bergerak."
+          ]
+        },
+        {
+          "h": "Tetap kontak mata saat membaca",
+          "p": [
+            "Letakkan jendela sedekat mungkin dengan lensa dan buat sempit, supaya mata Anda hampir tidak bergerak. Penanda baris baca menunjukkan baris yang harus dibaca, dan opasitas latar yang lebih rendah membuat pratinjau kamera terlihat menembus jendela.",
+            "Pakai ukuran teks sedikit lebih besar dari yang terasa perlu: saat ponsel di tripod, Anda membaca dari jarak lebih jauh daripada biasanya."
+          ]
+        },
+        {
+          "h": "Atur kecepatan yang pas",
+          "p": [
+            "Di bawah angka kecepatan, FloatPrompter+ menampilkan berapa lama sisa naskah akan terbaca pada kecepatan saat ini. Atur agar waktu itu sesuai dengan durasi video yang Anda inginkan.",
+            "Ketuk teks untuk menjeda dan seret untuk mundur atau melompat ke depan. Saat tidak memerlukan jendela, lipat menjadi gelembung kecil."
+          ]
+        },
+        {
+          "h": "Rekam di aplikasi, atau biarkan mengikuti suara Anda",
+          "p": [
+            "Anda juga bisa merekam langsung di FloatPrompter+ dengan naskah di layar: kamera depan atau belakang, 1080p, ketuk untuk fokus dan atur kecerahan. Video disimpan ke Movies/FloatPrompter dan muncul di galeri.",
+            "Di layar penuh dan saat merekam di aplikasi, Ikuti suara menggulir naskah mengikuti ucapan Anda (Android 13 atau lebih baru, memakai pengenalan suara ponsel). Fitur ini tidak tersedia di atas aplikasi kamera lain, karena Android hanya memberikan mikrofon ke aplikasi yang sedang merekam — di sana, pakai pengatur kecepatan."
+          ]
+        },
+        {
+          "h": "Memakai kaca teleprompter atau remote",
+          "p": [
+            "Jika ponsel diletakkan di bawah kaca teleprompter, pakai layar penuh dengan Mode cermin, kiri–kanan atau atas–bawah. Di layar penuh, remote Bluetooth atau keyboard bisa memutar, menjeda, berpindah dalam naskah dan mengubah kecepatan, jadi Anda tidak perlu menyentuh ponsel."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Teleprompter tidak muncul di atas aplikasi kamera. Apa yang perlu dicek?",
+          "a": "Android memerlukan izin “Tampilkan di atas aplikasi lain”. Aktifkan untuk FloatPrompter+ di Setelan → Aplikasi pada ponsel Anda, lalu ketuk Mengambang lagi."
+        },
+        {
+          "q": "Apakah jendelanya ikut terekam di video?",
+          "a": "Tidak. Kamera merekam apa yang dilihat lensa, bukan isi layar. Jendela hanya muncul di video jika Anda memakai perekam layar, bukan kamera."
+        },
+        {
+          "q": "Bisakah dipakai saat live streaming?",
+          "a": "Bisa. Munculkan jendela di atas aplikasi live streaming dengan cara yang sama seperti di atas aplikasi kamera. Pakai pengatur kecepatan di sana, karena Ikuti suara tidak tersedia di atas aplikasi lain."
+        },
+        {
+          "q": "Di mana naskah saya disimpan?",
+          "a": "Hanya di ponsel Anda. Tidak ada akun atau pendaftaran. Anda bisa mencadangkan naskah ke file dan memulihkannya nanti."
+        }
+      ]
     }
   }
 }

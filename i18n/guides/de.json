@@ -874,6 +874,79 @@
           "a": "Nicht ganz. Einige Systembildschirme, etwa manche Einstellungsseiten auf Samsung-Handys, folgen der gewählten Ausrichtung möglicherweise nicht. Sobald du sie verlässt, gilt sie wieder."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "Teleprompter über der Kamera-App auf Android nutzen",
+      "desc": "Lies dein Skript, während du in die Linse schaust. So legst du auf Android einen Teleprompter über die Kamera- oder Livestream-App, platzierst ihn für Blickkontakt und lässt ihn im richtigen Tempo laufen.",
+      "intro": "Wenn du dich mit dem Handy filmst, wandert dein Blick zum Zettel daneben – und die Zuschauer merken es. Ein Teleprompter hält deinen Text direkt neben der Linse. Auf Android kannst du ihn über die Kamera-App legen, die du ohnehin nutzt, oder über eine Livestream-App, statt ein eigenes Gerät zu kaufen.",
+      "sections": [
+        {
+          "h": "Warum die Kamera-App allein nicht reicht",
+          "p": [
+            "Kamera-Apps auf Android haben keinen Platz für ein Skript, und wer mitten in der Aufnahme die App wechselt, stoppt die Aufnahme. Ein Blatt Papier oder ein zweiter Bildschirm liegt weit weg von der Linse, also schaut man zur Seite.",
+            "Du brauchst ein Fenster, das über der Kamera-App bleibt, direkt unter der Linse sitzt und von selbst scrollt, während du sprichst."
+          ]
+        },
+        {
+          "h": "So richtest du es mit FloatPrompter+ ein",
+          "p": [
+            "FloatPrompter+ (unsere App) ist ein Teleprompter, der über jeder App schwebt – auch über Kamera- und Livestream-Apps."
+          ],
+          "steps": [
+            "Installiere FloatPrompter+ aus Google Play, öffne die App und erlaube „Über anderen Apps einblenden“, wenn du gefragt wirst.",
+            "Schreib dein Skript oder füge es ein. Du kannst auch ein PDF, eine Word-Datei (.docx), PowerPoint-Sprechernotizen (.pptx) oder eine Textdatei importieren oder Text aus einer anderen App an FloatPrompter+ teilen.",
+            "Tippe auf „Schweben“ und öffne dann deine Kamera-App.",
+            "Zieh das Fenster direkt unter die Linse, pass die Größe an der Ecke an und tippe auf Wiedergabe. Vor dem Start läuft ein Countdown."
+          ]
+        },
+        {
+          "h": "Blickkontakt halten, während du liest",
+          "p": [
+            "Platziere das Fenster so nah wie möglich an der Linse und halte es schmal, damit sich deine Augen kaum bewegen. Eine Lesezeilen-Markierung zeigt, welche Zeile dran ist, und mit weniger Hintergrund-Deckkraft siehst du die Kameravorschau durch das Fenster.",
+            "Nimm eine etwas größere Schrift, als dir nötig scheint: Steht das Handy auf einem Stativ, liest du aus größerer Entfernung als sonst."
+          ]
+        },
+        {
+          "h": "Das richtige Tempo finden",
+          "p": [
+            "Unter der Tempozahl zeigt FloatPrompter+, wie lange der Rest des Skripts beim aktuellen Tempo dauert. Stell das Tempo so ein, dass diese Zeit zur gewünschten Länge deines Videos passt.",
+            "Tippe auf den Text, um zu pausieren, und zieh ihn, um zurück- oder vorzuspringen. Brauchst du das Fenster gerade nicht, klapp es zu einer kleinen Blase zusammen."
+          ]
+        },
+        {
+          "h": "In der App aufnehmen oder der Stimme folgen lassen",
+          "p": [
+            "Du kannst auch direkt in FloatPrompter+ mit dem Skript auf dem Bildschirm aufnehmen: Front- oder Rückkamera, 1080p, Tippen zum Fokussieren und Helligkeit anpassen. Videos landen in Movies/FloatPrompter und erscheinen in deiner Galerie.",
+            "Im Vollbild und bei der Aufnahme in der App scrollt die Sprachfolge das Skript mit, während du sprichst (ab Android 13, mit der Spracherkennung deines Handys). Über einer anderen Kamera-App geht das nicht, weil Android das Mikrofon nur der aufnehmenden App gibt – nutze dort die Tempo-Steuerung."
+          ]
+        },
+        {
+          "h": "Mit Teleprompter-Glas oder Fernbedienung",
+          "p": [
+            "Liegt das Handy unter einem Teleprompter-Glas, nutze das Vollbild mit dem Spiegelmodus – links–rechts gespiegelt oder auf den Kopf gestellt. Im Vollbild kann eine Bluetooth-Fernbedienung oder -Tastatur abspielen, pausieren, durch das Skript springen und das Tempo ändern, sodass du das Handy nicht anfassen musst."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Der Teleprompter erscheint nicht über meiner Kamera-App. Was soll ich prüfen?",
+          "a": "Android braucht die Berechtigung „Über anderen Apps einblenden“. Schalte sie für FloatPrompter+ in den Einstellungen deines Handys unter Apps ein und tippe dann erneut auf „Schweben“."
+        },
+        {
+          "q": "Ist das Fenster in meinem Video zu sehen?",
+          "a": "Nein. Die Kamera nimmt auf, was die Linse sieht, nicht deinen Bildschirm. Das Fenster ist nur im Video, wenn du statt der Kamera die Bildschirmaufnahme nutzt."
+        },
+        {
+          "q": "Kann ich es während eines Livestreams nutzen?",
+          "a": "Ja. Leg das Fenster genauso über deine Livestream-App wie über die Kamera-App. Nutze dort die Tempo-Steuerung, denn die Sprachfolge ist über anderen Apps nicht verfügbar."
+        },
+        {
+          "q": "Wo werden meine Skripte gespeichert?",
+          "a": "Nur auf deinem Handy. Es gibt kein Konto und keine Anmeldung. Du kannst deine Skripte in einer Datei sichern und später wiederherstellen."
+        }
+      ]
     }
   }
 }

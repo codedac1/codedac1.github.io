@@ -874,6 +874,79 @@
           "a": "Tidak sepenuhnya. Beberapa skrin sistem, seperti sesetengah halaman tetapan pada telefon Samsung, mungkin tidak mengikut orientasi yang anda pilih. Ia kembali sebaik sahaja anda keluar daripadanya."
         }
       ]
+    },
+    "teleprompter-over-camera-app-android": {
+      "app": "floatprompter",
+      "updated": "2026-11-12",
+      "title": "Cara menggunakan teleprompter di atas aplikasi kamera pada Android",
+      "desc": "Baca skrip sambil memandang lensa. Cara mengapungkan teleprompter di atas aplikasi kamera atau penstriman langsung pada Android, meletakkannya supaya kekal bertentang mata, dan mengekalkan kelajuan yang sesuai.",
+      "intro": "Apabila merakam diri sendiri dengan telefon, mata anda terarah ke nota di tepi dan penonton terus perasan. Teleprompter meletakkan skrip betul-betul di sebelah lensa. Pada Android, anda boleh mengapungkannya di atas aplikasi kamera yang biasa anda guna, atau di atas aplikasi penstriman langsung, tanpa membeli peranti berasingan.",
+      "sections": [
+        {
+          "h": "Kenapa aplikasi kamera sahaja tidak mencukupi",
+          "p": [
+            "Aplikasi kamera Android tiada tempat untuk skrip, dan bertukar aplikasi di tengah rakaman akan menghentikannya. Kertas atau skrin kedua jauh dari lensa, jadi mata anda memandang ke tepi.",
+            "Apa yang anda perlukan ialah tetingkap yang kekal di atas aplikasi kamera, boleh diletakkan betul-betul di bawah lensa, dan menatal sendiri semasa anda bercakap."
+          ]
+        },
+        {
+          "h": "Sediakan dengan FloatPrompter+",
+          "p": [
+            "FloatPrompter+ (aplikasi kami) ialah teleprompter yang terapung di atas mana-mana aplikasi, termasuk aplikasi kamera dan penstriman langsung."
+          ],
+          "steps": [
+            "Pasang FloatPrompter+ dari Google Play, bukanya dan benarkan “Papar di atas apl lain” apabila diminta.",
+            "Tulis atau tampal skrip anda. Anda juga boleh mengimport PDF, fail Word (.docx), nota penceramah PowerPoint (.pptx) atau fail teks, atau berkongsi teks ke aplikasi ini daripada aplikasi lain.",
+            "Ketik Apungkan, kemudian buka aplikasi kamera anda.",
+            "Seret tetingkap ke bawah lensa dan ubah saiznya dari penjuru, kemudian tekan main. Kiraan detik berjalan sebelum teks mula bergerak."
+          ]
+        },
+        {
+          "h": "Kekal bertentang mata semasa membaca",
+          "p": [
+            "Letakkan tetingkap sedekat mungkin dengan lensa dan kecilkan lebarnya, supaya mata anda hampir tidak bergerak. Penanda baris bacaan menunjukkan baris yang perlu dibaca, dan kelegapan latar yang lebih rendah membolehkan anda melihat pratonton kamera menembusi tetingkap.",
+            "Guna saiz teks yang sedikit lebih besar daripada yang disangka perlu: apabila telefon di atas tripod, anda membaca dari jarak yang lebih jauh daripada biasa."
+          ]
+        },
+        {
+          "h": "Tetapkan kelajuan yang betul",
+          "p": [
+            "Di bawah nombor kelajuan, FloatPrompter+ menunjukkan berapa lama baki skrip pada kelajuan semasa. Tetapkan supaya masa itu sepadan dengan panjang video yang anda mahu.",
+            "Ketik teks untuk menjeda dan seretnya untuk berundur atau melangkau ke hadapan. Apabila tidak memerlukan tetingkap, lipatkannya menjadi gelembung kecil."
+          ]
+        },
+        {
+          "h": "Rakam dalam aplikasi, atau biarkan ia mengikut suara anda",
+          "p": [
+            "Anda juga boleh merakam dalam FloatPrompter+ dengan skrip di skrin: kamera depan atau belakang, 1080p, ketik untuk fokus dan laraskan kecerahan. Video disimpan ke Movies/FloatPrompter dan muncul dalam galeri anda.",
+            "Dalam skrin penuh dan semasa merakam dalam aplikasi, Ikut suara menatal skrip mengikut percakapan anda (Android 13 atau lebih baharu, menggunakan pengecaman pertuturan telefon). Ia tidak tersedia di atas aplikasi kamera lain, kerana Android hanya memberikan mikrofon kepada aplikasi yang sedang merakam — di situ, gunakan kawalan kelajuan."
+          ]
+        },
+        {
+          "h": "Menggunakan kaca teleprompter atau alat kawalan jauh",
+          "p": [
+            "Jika telefon diletakkan di bawah kaca teleprompter, gunakan skrin penuh dengan Mod cermin, kiri–kanan atau terbalik atas–bawah. Dalam skrin penuh, alat kawalan jauh atau papan kekunci Bluetooth boleh memain, menjeda, bergerak dalam skrip dan menukar kelajuan, jadi anda tidak perlu menyentuh telefon."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Teleprompter tidak muncul di atas aplikasi kamera saya. Apa yang perlu disemak?",
+          "a": "Android memerlukan kebenaran “Papar di atas apl lain”. Hidupkannya untuk FloatPrompter+ dalam Tetapan → Apl pada telefon anda, kemudian ketik Apungkan sekali lagi."
+        },
+        {
+          "q": "Adakah tetingkap itu muncul dalam video saya?",
+          "a": "Tidak. Kamera merakam apa yang dilihat oleh lensa, bukan apa yang ada pada skrin. Tetingkap hanya muncul dalam video jika anda menggunakan rakaman skrin dan bukan kamera."
+        },
+        {
+          "q": "Bolehkah saya menggunakannya semasa penstriman langsung?",
+          "a": "Boleh. Apungkan tetingkap di atas aplikasi penstriman langsung sama seperti di atas aplikasi kamera. Gunakan kawalan kelajuan di situ, kerana Ikut suara tidak tersedia di atas aplikasi lain."
+        },
+        {
+          "q": "Di manakah skrip saya disimpan?",
+          "a": "Hanya pada telefon anda. Tiada akaun atau pendaftaran. Anda boleh menyandarkan skrip ke fail dan memulihkannya kemudian."
+        }
+      ]
     }
   }
 }
