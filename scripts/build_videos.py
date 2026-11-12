@@ -40,6 +40,7 @@ VIDEOS = {  # slug: (ko, en)
     "photocleanerwin": ("ROpTUp_fCWQ", "nT_0vUEYAHQ"),
     "floatcryptowin":  ("VKsTULFaRjE", "md2rOxowuEw"),
     "rotate":          ("8yLCQd0xX8Y", "J2PLOkER9fA"),
+    "floatprompter":   ("y4E9MB-VKU0", "63VauUfjmLY"),
 }
 
 UA = {"User-Agent": "Mozilla/5.0", "Accept-Language": "en"}
