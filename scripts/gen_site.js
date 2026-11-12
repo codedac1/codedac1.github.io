@@ -492,6 +492,7 @@ function footer(code, ui) {
       <div class="footer-right">
         <a class="footer-email" href="mailto:${EMAIL}">${EMAIL}</a>
         ${GUIDES[code] ? `<a class="footer-email" href="${pathFor(code, 'guides')}">${escText(GUIDES[code].ui.guides)}</a>
+        ` : ''}${GUIDES[code] && GUIDES[code].ui.blogUrl ? `<a class="footer-email" href="${escAttr(GUIDES[code].ui.blogUrl)}" target="_blank" rel="noopener">${escText(GUIDES[code].ui.blogName)}</a>
         ` : ''}<a class="footer-email" href="${pathFor(code, 'privacy')}">${escText(ui['footer.privacy'])}</a>
         <p>&copy; <span id="year">${new Date().getFullYear()}</span> CodeDAC. All rights reserved.</p>
       </div>
@@ -1459,7 +1460,16 @@ ${body}
         </div>
       </div>
     </div>
-  </section>${ldFaq ? `
+  </section>${g.blog && g.blog.length && gu.blogPosts ? `
+
+  <section class="detail-section">
+    <div class="container">
+      <h2 class="detail-title">${escText(gu.blogPosts)}</h2>
+      <ul class="guide-links">
+${g.blog.map((b) => `        <li><a href="${escAttr(b.url)}" target="_blank" rel="noopener">${escText(b.title)}</a></li>`).join('\n')}
+      </ul>
+    </div>
+  </section>` : ''}${ldFaq ? `
 
   <section class="detail-section">
     <div class="container">

@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-11",
+  "generatedAt": "2026-11-12",
   "source": {
     "lang": "en",
     "country": "us"
   },
   "aggregate": {
-    "publishedApps": 16,
-    "totalMinInstalls": 27711,
-    "totalRatings": 379,
-    "avgScore": 4.12,
+    "publishedApps": 17,
+    "totalMinInstalls": 31721,
+    "totalRatings": 384,
+    "avgScore": 4.13,
     "byStore": {
-      "play": 26050,
+      "play": 30060,
       "msstore": 1661
     }
   },
@@ -60,9 +60,9 @@
       "store": "play",
       "appId": "com.codedac.volumebooster",
       "score": 5,
-      "ratings": 68,
-      "installs": "1,000+",
-      "minInstalls": 1000
+      "ratings": 73,
+      "installs": "5,000+",
+      "minInstalls": 5000
     },
     "photocleaner": {
       "store": "play",
@@ -95,6 +95,14 @@
       "ratings": 0,
       "installs": "500+",
       "minInstalls": 500
+    },
+    "floatprompter": {
+      "store": "play",
+      "appId": "com.codedac.floatprompter",
+      "score": null,
+      "ratings": 0,
+      "installs": "10+",
+      "minInstalls": 10
     },
     "clipboardwin": {
       "store": "msstore",
