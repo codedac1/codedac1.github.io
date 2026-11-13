@@ -241,10 +241,10 @@ Rotate+ forces the screen orientation for the whole phone or for each app, with 
 
 Features:
 - Six modes, one tap: Auto, Portrait, Landscape, Upside down, Reverse landscape and Lock current — applied instantly, with all four sides and both-ways portrait and landscape under More modes
-- Per-app rules: videos and games in landscape, chat and reading in portrait — applied when the app opens, released when you leave
+- Per-app rules: videos and games in landscape, chat and reading in portrait — applied when the app opens, released when you leave — or turn on “Save rules automatically” and rotating an app from a tile, the notification or the floating button saves it as that app's rule
 - Keep orientation: if an app turns the screen back, Rotate+ puts your choice back, and stops trying if an app keeps fighting, so nothing loops
 - Rotate once: “just this app, just now” — releases by itself when you switch apps or turn the screen off
-- Two Quick Settings tiles, home screen widgets, app shortcuts and an optional notification with Pause, Mode and Rotate once
+- Two Quick Settings tiles, home screen widgets, app shortcuts and an optional notification with Pause, Mode and Rotate once; “Hide background notification” keeps the notification out of the way while Rotate+ keeps working
 - Unlimited per-app rules, conditions that change the orientation automatically (charging, headphones, Bluetooth, dock, calls, set times) and a floating rotate button
 
 FAQ:

@@ -444,10 +444,10 @@
       "long": "Rotate+ ép hướng màn hình cho cả điện thoại hoặc cho từng ứng dụng chỉ bằng một chạm, không cần root. Chọn Tự động, Dọc, Ngang, Dọc ngược, Ngang ngược hoặc Khóa hướng hiện tại và nó áp dụng ngay, không có hộp thoại xác nhận. Với quy tắc theo ứng dụng, video và game xoay ngang, trò chuyện và đọc để dọc: quy tắc bật khi mở ứng dụng và tắt khi bạn rời đi. Nếu ứng dụng xoay màn hình trở lại, “Giữ hướng màn hình” sẽ đưa về lựa chọn của bạn; nếu ứng dụng cứ chống lại, Rotate+ ngừng thử nên màn hình không xoay liên tục. “Xoay một lần” chỉ xoay ứng dụng đang mở cho tới khi bạn chuyển ứng dụng hoặc tắt màn hình, còn ô cài đặt nhanh, tiện ích và lối tắt giúp mọi thứ chỉ cách một chạm. Trên máy tính bảng Android 16, Rotate+ tự chuyển sang dùng cài đặt xoay của hệ thống. Tạo bao nhiêu quy tắc theo ứng dụng tùy thích, để điều kiện tự đổi hướng màn hình, và đặt nút xoay nổi trên các ứng dụng khác. Đổi hướng trong một ứng dụng, Rotate+ sẽ đề xuất lưu thành quy tắc của ứng dụng đó, hoặc tự động lưu. Ẩn thông báo chạy nền khi bạn không cần.",
       "features": [
         "Một chạm, sáu chế độ: Tự động, Dọc, Ngang, Dọc ngược, Ngang ngược và Khóa hướng hiện tại — áp dụng ngay, cả bốn hướng và chế độ theo cảm biến nằm trong Thêm chế độ",
-        "Quy tắc theo ứng dụng: video và game xoay ngang, trò chuyện và đọc để dọc — bật khi mở ứng dụng, tắt khi bạn rời đi",
+        "Quy tắc theo ứng dụng: video và game xoay ngang, trò chuyện và đọc để dọc — bật khi mở ứng dụng, tắt khi bạn rời đi — hoặc bật “Tự động lưu quy tắc”: xoay ứng dụng bằng ô nhanh, thông báo hoặc nút nổi sẽ lưu thành quy tắc của ứng dụng đó",
         "Giữ hướng màn hình: nếu ứng dụng xoay màn hình trở lại, Rotate+ đưa về lựa chọn của bạn, và ngừng thử nếu ứng dụng cứ chống lại — màn hình không xoay liên tục",
         "Xoay một lần: “Chỉ ứng dụng này, chỉ lúc này” — tự hủy khi bạn chuyển ứng dụng hoặc tắt màn hình",
-        "Hai ô cài đặt nhanh, tiện ích màn hình chính, lối tắt ứng dụng và thông báo tùy chọn với nút Tạm dừng, Chế độ và Xoay một lần",
+        "Hai ô cài đặt nhanh, tiện ích màn hình chính, lối tắt ứng dụng và thông báo tùy chọn với nút Tạm dừng, Chế độ và Xoay một lần; “Ẩn thông báo chạy nền” giúp ẩn thông báo trong khi Rotate+ vẫn chạy",
         "Quy tắc theo ứng dụng không giới hạn, điều kiện tự đổi hướng (khi sạc, tai nghe, Bluetooth, đế, cuộc gọi, khung giờ đã đặt) và nút xoay nổi"
       ],
       "faq": [

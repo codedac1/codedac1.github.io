@@ -444,10 +444,10 @@
       "long": "Rotate+ forces the screen orientation for the whole phone or for each app, with one tap and no root. Pick Auto, Portrait, Landscape, Upside down, Reverse landscape or Lock current and it applies instantly. Per-app rules keep videos and games in landscape and chat and reading in portrait — each rule is applied when the app opens and released when you leave. If an app turns the screen back, Keep orientation puts your choice back, and it stops trying if an app keeps fighting, so nothing loops. Rotate once turns just the current app until you switch apps or turn the screen off, and tiles, widgets and shortcuts keep it one tap away. On Android 16 tablets it switches to the system rotation setting automatically. Add as many per-app rules as you like, let conditions change the orientation automatically, and keep a floating rotate button over other apps. Change the orientation in an app and Rotate+ offers to save it as that app's rule, or saves it automatically. Hide the background notification when you don't need it.",
       "features": [
         "Six modes, one tap: Auto, Portrait, Landscape, Upside down, Reverse landscape and Lock current — applied instantly, with all four sides and both-ways portrait and landscape under More modes",
-        "Per-app rules: videos and games in landscape, chat and reading in portrait — applied when the app opens, released when you leave",
+        "Per-app rules: videos and games in landscape, chat and reading in portrait — applied when the app opens, released when you leave — or turn on “Save rules automatically” and rotating an app from a tile, the notification or the floating button saves it as that app's rule",
         "Keep orientation: if an app turns the screen back, Rotate+ puts your choice back, and stops trying if an app keeps fighting, so nothing loops",
         "Rotate once: “just this app, just now” — releases by itself when you switch apps or turn the screen off",
-        "Two Quick Settings tiles, home screen widgets, app shortcuts and an optional notification with Pause, Mode and Rotate once",
+        "Two Quick Settings tiles, home screen widgets, app shortcuts and an optional notification with Pause, Mode and Rotate once; “Hide background notification” keeps the notification out of the way while Rotate+ keeps working",
         "Unlimited per-app rules, conditions that change the orientation automatically (charging, headphones, Bluetooth, dock, calls, set times) and a floating rotate button"
       ],
       "faq": [
