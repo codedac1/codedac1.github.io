@@ -15,3 +15,6 @@ scripts/_*
 
 # npm (지표 수집용 devDependency — 배포물엔 불필요)
 node_modules/
+
+# 로컬 git worktree — 커밋되면 Pages 빌드가 서브모듈로 읽고 실패한다(2026-11-16)
+.claude/worktrees/
