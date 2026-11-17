@@ -6,15 +6,15 @@
   },
   "aggregate": {
     "publishedApps": 17,
-    "totalMinInstalls": 31721,
+    "totalMinInstalls": 32137,
     "totalRatings": 407,
     "avgScore": 4.14,
     "byStore": {
       "play": 30060,
-      "msstore": 1661
+      "msstore": 2077
     }
   },
-  "msInstallsUpdatedAt": "2026-11-11",
+  "msInstallsUpdatedAt": "2026-11-17",
   "apps": {
     "clipboard": {
       "store": "play",
@@ -109,48 +109,48 @@
       "appId": "9N9SRKQV1R6D",
       "score": 5,
       "ratings": 4,
-      "installs": "221",
-      "minInstalls": 221
+      "installs": "244",
+      "minInstalls": 244
     },
     "readfocuswin": {
       "store": "msstore",
       "appId": "9NMSHKKX3R5C",
       "score": null,
       "ratings": 0,
-      "installs": "280",
-      "minInstalls": 280
+      "installs": "314",
+      "minInstalls": 314
     },
     "floatnotewin": {
       "store": "msstore",
       "appId": "9NW6610397TC",
       "score": 4.2,
       "ratings": 4,
-      "installs": "461",
-      "minInstalls": 461
+      "installs": "580",
+      "minInstalls": 580
     },
     "floattimerwin": {
       "store": "msstore",
       "appId": "9P3CTX3SXTGW",
       "score": 5,
       "ratings": 4,
-      "installs": "601",
-      "minInstalls": 601
+      "installs": "829",
+      "minInstalls": 829
     },
     "photocleanerwin": {
       "store": "msstore",
       "appId": "9P22XH3N66VM",
       "score": null,
       "ratings": 0,
-      "installs": "17",
-      "minInstalls": 17
+      "installs": "22",
+      "minInstalls": 22
     },
     "floatcryptowin": {
       "store": "msstore",
       "appId": "9NMFCT755G24",
       "score": null,
       "ratings": 0,
-      "installs": "81",
-      "minInstalls": 81
+      "installs": "88",
+      "minInstalls": 88
     }
   }
 }
