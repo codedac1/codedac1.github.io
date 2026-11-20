@@ -56,9 +56,6 @@ ICON_PX = 192
 EXCLUDED = {
     "floatcrypto",
     # (Rotate+ 는 2026-11-02 Play 공개로 제외 해제.)
-    # CallerNote+ 는 2026-10-08 출시 준비 중(Play 등록 전). 공개되면 이 줄을 지우고 다시 돌린다
-    # (공개 전에 넣으면 스토어 404 로 보낸다).
-    "callernote",
 }
 
 # 가중 무작위 추첨의 가중치. 비어 있으면 전부 DEFAULT_WEIGHT 라 모든 앱이 같은 확률이다.
@@ -108,8 +105,6 @@ WEIGHTS = {
     "volumebooster":  6,
     "rotate":         5,
     "floatprompter":  5,   # 신생 앱, 표본 없음
-    # CallerNote+ 는 공개 전(EXCLUDED 여부는 아래 목록) — 공개되면 중간값에서 시작.
-    "callernote":    10,
 }
 DEFAULT_WEIGHT = 10
 

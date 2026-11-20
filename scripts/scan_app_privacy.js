@@ -22,7 +22,7 @@ const ANDROID_PROJECT = {
   clipboard: 'Clipboard', autostart: 'AutoStart', floatcalc: 'FloatCalc',
   floatcrypto: 'FloatCrypto', floattimer: 'FloatTimer', volumebooster: 'VolumeBooster',
   photocleaner: 'PhotoCleaner', readfocus: 'ReadFocus', floatnote: 'FloatNote',
-  rotate: 'Rotate', callernote: 'CallerNote', floatprompter: 'FloatPrompter',
+  rotate: 'Rotate', floatprompter: 'FloatPrompter',
   floatweb: 'FloatWeb',
 };
 const WINDOWS_PROJECT = {
@@ -44,7 +44,8 @@ const PERM_CODE = {
   'android.permission.PACKAGE_USAGE_STATS': 'usage',
   'android.permission.WRITE_SETTINGS': 'writeSettings',
   'android.permission.BLUETOOTH_CONNECT': 'bluetooth',
-  // CallerNote+ (2026-10-08). 통화 걸러내기 역할·알림 접근은 uses-permission 이 아니라 서비스의 BIND 권한으로 잡는다(아래 SERVICE_PERM_CODE).
+  // 전화 상태·연락처: 지금 요청하는 앱은 없다(방침 7항에도 없음). 어느 앱이든 새로 요청하면 앱별 표에 잡히도록 남겨 둔다.
+  // 통화 걸러내기 역할·알림 접근은 uses-permission 이 아니라 서비스의 BIND 권한으로 잡는다(아래 SERVICE_PERM_CODE).
   'android.permission.READ_PHONE_STATE': 'phoneState',
   'android.permission.READ_CONTACTS': 'contacts',
   // FloatPrompter+ (2026-10-18): 앱 안 녹화·음성 따라가기. 저장공간은 maxSdkVersion=28(Android 9 이하 녹화 저장)뿐 — 방침 7항.
@@ -78,7 +79,7 @@ const HOST_CODE = {
   // 익명 사용 통계 서버(Data/events, 2026-11-11). **방침 1·7항이 이 전송을 적고 있다.**
   'codedac-events-847105046915.asia-northeast1.run.app': 'usageStats',
 };
-// openxmlformats.org: CallerNote+ 엑셀 내보내기(xlsx)의 XML 네임스페이스 — 접속하는 주소가 아니다.
+// openxmlformats.org: Office 파일(xlsx·docx·pptx)의 XML 네임스페이스 — 접속하는 주소가 아니다.
 // youtube.com·wikipedia.org: FloatWeb+ 추천 사이트 목록(사용자가 고르면 창에서 직접 연다, 방침 4항) — 앱이 데이터를 주고받는 API 가 아니다.
 const HOST_IGNORE = /(^|\.)(android\.com|google\.com|youtube\.com|wikipedia\.org|googleusercontent\.com|microsoft\.com|codedac\.com|github\.com|apache\.org|w3\.org|openxmlformats\.org|schemas\.|example\.|play\.google\.com)$/;
 

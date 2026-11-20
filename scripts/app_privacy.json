@@ -165,26 +165,6 @@
     ],
     "mergedManifest": "2026-11-09"
   },
-  "callernote": {
-    "platform": "android",
-    "data": [
-      "ads",
-      "billing",
-      "driveSync"
-    ],
-    "perms": [
-      "callScreening",
-      "notificationAccess",
-      "overlay",
-      "phoneState",
-      "contacts",
-      "notifications",
-      "foreground",
-      "boot",
-      "adId"
-    ],
-    "mergedManifest": "2026-10-12"
-  },
   "floatprompter": {
     "platform": "android",
     "data": [

@@ -49,9 +49,6 @@ APPS = {
     "rotate":        (r"Rotate\Resource\icon_512.png", r"Rotate\Resource\PlayStore등록자료\en", "screenshot_*.png"),
     # FloatPrompter+ (2026-11-11 Play 공개). Rotate 와 같은 배치 — 태블릿 4장을 빼고 폰 5장만.
     "floatprompter": (r"FloatPrompter\Resource\icon_512.png", r"FloatPrompter\Resource\PlayStore등록자료\en", "screenshot_*.png"),
-    # CallerNote+ (2026-10-08 등록 준비). 아이콘·스토어 스크린샷은 아직 없다 — Resource\icon_512.png 와
-    # PlayStore등록자료\en 을 만든 뒤 `python scripts/build_assets.py callernote` 로 돌린다.
-    "callernote":    (r"CallerNote\Resource\icon_512.png", r"CallerNote\Resource\PlayStore등록자료\en", "screenshot_*.png"),
 }
 
 def rounded_mask(size, radius):
