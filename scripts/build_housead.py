@@ -96,22 +96,20 @@ EXCLUDED = {
 # 그래서 신규 사용자에게는 명목 배수보다 훨씬 세게 걸린다. ReadFocus 40 은 "3.2배"가
 # 아니라 초반 한동안 거의 독점에 가깝게 나온다는 뜻이다.
 WEIGHTS = {
+    # 2026-11-20 사용자 결정: 설치당 수익(결제+광고, 비공개 Data 저장소의 unit_economics 표) 순서로 재배분.
+    # VolumeBooster·Rotate 의 50(설치 키우기)은 내렸다. 가격이 바뀌면 설치당 수익도 바뀌므로 가격 판정 때 다시 본다.
     "readfocus":     40,
-    "floatnote":     20,
+    "floatnote":     35,
+    "clipboard":     20,
+    "floatcalc":     15,   # 표본 작음
     "autostart":     12,
-    "floattimer":    10,
-    "clipboard":     10,
-    "floatcalc":      3,
-    # 2026-11-04 사용자 결정: 최고 가중치로(ReadFocus 40 보다 위). 10/23 1.2.6 이후 설치·보상형이 가장 많이 늘어난 앱.
-    "volumebooster": 50,
-    "photocleaner":   1,
-    # 2026-11-13 사용자 결정: 10 → 50(VolumeBooster 와 같은 최고). snowlife 대비 설치·평점 규모가 순위를 막고 있어
-    # 패밀리 안 노출로 초기 설치를 키운다(1.4.0 3일 체험·새 UI 와 함께). 판정은 출시 2주 뒤 설치·체험 전환.
-    "rotate":        50,
-    # Rotate+ 와 같은 이유로 중간값(10)에서 시작, 출시 30일 뒤 설치당 월수익 기준으로 다시 잡는다.
+    "photocleaner":  10,   # 표본이 아주 작아 중간값으로 시험
+    "floattimer":     8,
+    "volumebooster":  6,
+    "rotate":         5,
+    "floatprompter":  5,   # 신생 앱, 표본 없음
+    # CallerNote+ 는 공개 전(EXCLUDED 여부는 아래 목록) — 공개되면 중간값에서 시작.
     "callernote":    10,
-    # FloatPrompter+ (2026-11-11 Play 공개) 신규 앱이라 Rotate+ 처럼 중간값(10)에서 시작, 출시 30일 뒤 설치당 월수익 기준으로 다시 잡는다.
-    "floatprompter": 10,
 }
 DEFAULT_WEIGHT = 10
 
