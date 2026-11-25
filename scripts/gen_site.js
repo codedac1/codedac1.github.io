@@ -20,7 +20,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '125'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '126'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -710,8 +710,12 @@ function heroIcons(code, ui) {
   const list = APPS.filter((app) => platformKey(app) === 'android' && app.store && d.apps[app.slug])
     .sort((a, b) => rank(a) - rank(b));
   if (!list.length) return '';
+  // ExamScan 은 맨 앞(2026-11-25 사용자 요청) — 아직 Play 공개 전이라 위 목록(store 있는 앱)에 없고, 앱 상세가 아니라 전용 페이지로 간다.
+  // 아이콘 images/icons/examscan.png 은 ExamScan/Resource/icon_512.png 을 256 으로 줄인 것.
+  const exs = EXS[code] ? `        <li><a href="${pathFor(code, 'examscan')}" title="ExamScan"><img src="/images/icons/examscan.png?v=${V}" alt="ExamScan" width="84" height="84" /></a></li>
+` : '';
   return `      <ul class="hero-icons" aria-label="${escAttr(ui['apps.title'])}">
-${list.map((app) => {
+${exs}${list.map((app) => {
     const name = d.apps[app.slug].name;
     return `        <li><a href="${pathFor(code, 'detail', app.slug)}" title="${escAttr(name)}"><img src="/images/icons/${app.slug}.png?v=${V}" alt="${escAttr(name)}" width="84" height="84" /></a></li>`;
   }).join('\n')}
