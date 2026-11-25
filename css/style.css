@@ -1294,6 +1294,9 @@ img { max-width: 100%; }
 .exs-detect-col li { display: flex; gap: 10px; align-items: flex-start; font-size: 15px; }
 .exs-detect-col .ic { flex: none; width: 20px; height: 20px; margin-top: 2px; }
 .exs-yes { border-color: rgba(61, 217, 193, .45); }
+.exs-detect-one { grid-template-columns: 1fr; }
+.exs-detect-one ul { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 28px; }
+@media (max-width: 860px) { .exs-detect-one ul { grid-template-columns: 1fr; } }
 .exs-yes .ic { color: var(--link-teal); }
 .exs-no { border-color: #f2c78a; background: #fffaf2; }
 .exs-no .ic { color: #c27a12; }

@@ -20,7 +20,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '122'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '123'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -987,6 +987,8 @@ ${line('country', ui['form.country'], 80, false, ' autocomplete="country-name"')
       </dialog>`;
 }
 
+// '잡기 어렵거나 못 잡는 것' 칸은 뺐다(2026-11-25 사용자 결정) — 살필 수 있는 것만 보이고 한계는 FAQ 한 줄로 남긴다.
+// i18n 의 detect.no.* · detect.title(옛 제목)은 되살릴 때 쓰려고 남겨 둔다.
 function buildExamScan(lang) {
   const code = lang.code;
   const ui = L[code].ui;
@@ -1072,12 +1074,11 @@ ${EXS_SHOTS.map((n, i) => `        <img class="shot" src="${exsShot(code, n)}?v=
 
   <section class="section">
     <div class="container">
-      <p class="section-label">${t('detect.label')}</p>
-      <h2 class="section-title">${t('detect.title')}</h2>
+      <p class="section-label">WHAT IT WATCHES</p>
+      <h2 class="section-title">${t('detect.yes.title')}</h2>
       <p class="section-lead">${t('detect.lead')}</p>
-      <div class="exs-detect">
-        <div class="exs-detect-col exs-yes"><h3>${t('detect.yes.title')}</h3><ul>${[1, 2, 3, 4, 5].map((i) => li(`detect.yes.${i}`, 'check')).join('')}</ul></div>
-        <div class="exs-detect-col exs-no"><h3>${t('detect.no.title')}</h3><ul>${[1, 2, 3, 4].map((i) => li(`detect.no.${i}`, 'loop')).join('')}</ul></div>
+      <div class="exs-detect exs-detect-one">
+        <div class="exs-detect-col exs-yes"><ul>${[1, 2, 3, 4, 5].map((i) => li(`detect.yes.${i}`, 'check')).join('')}</ul></div>
       </div>
     </div>
   </section>
