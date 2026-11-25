@@ -20,7 +20,7 @@ const ROOT = path.join(__dirname, '..');
 const BASE = 'https://codedac.com';
 // 공개 연락처. 개인정보처리방침(i18n/privacy/*.json)에도 같은 주소가 있으니 바꿀 땐 함께.
 const EMAIL = 'contact@codedac.com';
-const V = '121'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
+const V = '122'; // 자산 캐시 버전 (css/js/아이콘). 자산 변경 시 올릴 것.
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------
@@ -272,6 +272,7 @@ function pathFor(code, kind, slug) {
   const dir = code === ROOT_LANG ? '/' : `/${code}/`;
   if (kind === 'home') return dir;
   if (kind === 'privacy') return `${dir}privacy.html`;
+  if (kind === 'examscan') return `${dir}examscan.html`;
   if (kind === 'guide') return `${dir}guides/${slug}.html`;
   if (kind === 'guides') return `${dir}guides/`;
   return `${dir}apps/${slug}.html`;
@@ -285,6 +286,7 @@ function fileFor(code, kind, slug) {
   const dir = code === ROOT_LANG ? '' : `${code}/`;
   if (kind === 'home') return `${dir}index.html`;
   if (kind === 'privacy') return `${dir}privacy.html`;
+  if (kind === 'examscan') return `${dir}examscan.html`;
   if (kind === 'guide') return `${dir}guides/${slug}.html`;
   if (kind === 'guides') return `${dir}guides/index.html`;
   return `${dir}apps/${slug}.html`;
@@ -362,7 +364,7 @@ const FAVICON_LINKS = `<link rel="icon" href="/favicon.ico" sizes="48x48" />
 // rest: 목적지 언어에서의 동일 페이지 경로 접미사(home='' · privacy='privacy.html' · detail='apps/<slug>.html')
 function storedLangRedirect(code, kind, slug, langSet) {
   if (code !== ROOT_LANG) return '';
-  const rest = kind === 'home' ? '' : kind === 'privacy' ? 'privacy.html'
+  const rest = kind === 'home' ? '' : kind === 'privacy' ? 'privacy.html' : kind === 'examscan' ? 'examscan.html'
     : kind === 'guide' ? `guides/${slug}.html` : kind === 'guides' ? 'guides/' : `apps/${slug}.html`;
   const codes = (langSet || ACTIVE).filter((l) => l.code !== ROOT_LANG).map((l) => l.code);
   const map = Object.fromEntries(codes.map((c) => [c, c]));
@@ -463,7 +465,8 @@ function header(code, kind, slug, ui, langSet) {
     <div class="container nav-wrap">
       <a href="${pathFor(code, 'home')}" class="logo">${LOGO_MARK}<span class="logo-text">Code<span>DAC</span></span></a>
       <nav class="nav" id="nav">
-        <a href="${pathFor(code, 'home')}#apps">${escText(ui['nav.apps'])}</a>${HAS_REVIEWS ? `
+        ${EXS[code] ? `<a class="nav-exs" href="${pathFor(code, 'examscan')}">${escText(EXS[code].nav)}</a>
+        ` : ''}<a href="${pathFor(code, 'home')}#apps">${escText(ui['nav.apps'])}</a>${HAS_REVIEWS ? `
         <a href="${pathFor(code, 'home')}#reviews">${escText(ui['nav.reviews'])}</a>` : ''}
         ${GUIDES[code] ? `<a href="${pathFor(code, 'guides')}">${escText(GUIDES[code].ui.guides)}</a>
         ` : ''}<a href="${pathFor(code, 'home')}#about">${escText(ui['nav.about'])}</a>
@@ -897,6 +900,253 @@ ${workForms(code, ui, projectMail, ideaMail)}
 `;
 }
 
+// ---------- ExamScan (2026-11-25 사용자 요청: 다른 앱과 다른 섹션으로 주목) ----------
+// 개인 앱 목록(카드)과 섞지 않는다 — 고객이 학교·기관이라 읽는 사람과 목적(도입 문의)이 다르다.
+// 홈 히어로 바로 아래 어두운 띠(examscanBand) + 전용 페이지(/examscan.html, 21개 언어) + 기관 문의 폼(kind=org).
+// 문구: i18n/examscan/<lang>.json. 앱 출시(Play 공개) 전에는 스토어 링크를 걸지 않는다(비공개 테스트 — 깨진 링크).
+// 특허는 출원번호까지만(청구항·세부 방식은 쓰지 않는다). 탐지율 숫자는 실측 보고서 전까지 넣지 않는다.
+const EXS = {};
+for (const lang of ACTIVE) {
+  const p = path.join(ROOT, 'i18n', 'examscan', `${lang.code}.json`);
+  if (fs.existsSync(p)) EXS[lang.code] = require(p);
+}
+const EXS_ACTIVE = ACTIVE.filter((l) => EXS[l.code]);
+const EXS_SHOTS = [1, 2, 4, 7, 8]; // 스토어 스크린샷 중 한눈에·경고·찾기·기록·한계(ExamScan/store/screenshots, scripts/build_examscan_assets.py)
+const exsShot = (code, n) => {
+  const own = path.join(ROOT, 'images', 'examscan', code, `${n}.webp`);
+  return `/images/examscan/${fs.existsSync(own) ? code : 'en'}/${n}.webp`;
+};
+
+function examscanBand(code) {
+  const x = EXS[code];
+  if (!x) return '';
+  const t = (k) => escText(x[k]);
+  return `
+  <section class="exs-band" id="examscan" aria-labelledby="exs-band-title">
+    <div class="container exs-band-inner">
+      <div class="exs-band-copy">
+        <p class="exs-badge"><span class="exs-dot" aria-hidden="true"></span>${t('band.badge')}</p>
+        <h2 class="exs-band-title" id="exs-band-title">${t('band.title')}</h2>
+        <p class="exs-band-desc">${t('band.desc')}</p>
+        <ul class="exs-facts">${['facts.1', 'facts.2', 'facts.3', 'facts.4'].map((k) => `<li>${icon('check')}${t(k)}</li>`).join('')}</ul>
+        <div class="exs-actions">
+          <a class="btn exs-btn-main" href="${pathFor(code, 'examscan')}#inquiry">${t('band.cta')}${icon('arrow', 'ic ic-flip')}</a>
+          <a class="btn exs-btn-ghost" href="${pathFor(code, 'examscan')}">${t('band.more')}</a>
+        </div>
+      </div>
+      <a class="exs-band-art" href="${pathFor(code, 'examscan')}" tabindex="-1" aria-hidden="true">
+        <img src="${exsShot(code, 1)}?v=${V}" alt="" loading="lazy" width="270" height="480" />
+        <img src="${exsShot(code, 2)}?v=${V}" alt="" loading="lazy" width="270" height="480" />
+      </a>
+    </div>
+  </section>`;
+}
+
+// 기관 문의 폼 — 서버 kind "org"(Data/site-contact/main.py FIELDS/REQUIRED/CHOICES 와 칸 이름·값이 같아야 한다).
+// 공통 칸(이메일·동의·함정 칸·안내)은 work 폼과 같은 모양이라 js/site.js 의 같은 처리를 탄다.
+function orgForm(code, ui, x) {
+  const t = (k) => escText(ui[`form.${k}`]);
+  const xt = (k) => escText(x[k]);
+  const mail = `mailto:${EMAIL}?subject=${encodeURIComponent('[ExamScan] Institution inquiry')}`;
+  let n = 0;
+  const id = (name) => `of-${name}-${++n}`;
+  const star = ' <span class="wf-req" aria-hidden="true">*</span>';
+  const line = (name, label, max, req, extra = '') => {
+    const i = id(name);
+    return `            <div class="wf-field"${req ? ' data-req' : ''}><label for="${i}">${escText(label)}${req ? star : ''}</label><input id="${i}" name="${name}" type="text" maxlength="${max}"${extra}${req ? ' required aria-required="true"' : ''} /></div>`;
+  };
+  const select = (name, label, opts) => {
+    const i = id(name);
+    return `            <div class="wf-field" data-req><label for="${i}">${escText(label)}${star}</label><select id="${i}" name="${name}" required aria-required="true"><option value="">${t('pick')}</option>${opts.map(([v, k]) => `<option value="${v}">${xt(k)}</option>`).join('')}</select></div>`;
+  };
+  const msg = id('message'), e = id('email'), c = id('consent');
+  const priv = `<a href="${pathFor(code, 'privacy')}#email" target="_blank" rel="noopener">${t('privacy')}</a>`;
+  return `      <dialog class="work-dialog work-dialog-org" id="wf-org" aria-labelledby="wf-org-title">
+        <form class="work-form" data-kind="org" data-lang="${code}" data-endpoint="${CONTACT_URL}" novalidate
+              data-sending="${escAttr(ui['form.sending'])}" data-sent="${escAttr(ui['form.sent'])}" data-err="${escAttr(ui['form.err'])}"
+              data-err-email="${escAttr(ui['form.err.email'])}" data-err-required="${escAttr(ui['form.err.required'])}" data-err-rate="${escAttr(ui['form.err.rate'])}" data-mailto="${EMAIL}">
+          <div class="wf-head"><span class="work-badge">${xt('form.badge')}</span><h3 class="wf-title" id="wf-org-title">${xt('form.title')}</h3><button type="button" class="wf-close" aria-label="${t('close')}">×</button></div>
+          <p class="wf-note">${xt('form.note')}</p>
+          <p class="wf-reqnote">${t('req')}</p>
+          <div class="wf-body">
+${line('org', x['form.org'], 200, true, ' autocomplete="organization"')}
+${select('orgtype', x['form.orgtype'], [['school', 'form.type.school'], ['office', 'form.type.office'], ['univ', 'form.type.univ'], ['cert', 'form.type.cert'], ['academy', 'form.type.academy'], ['other', 'form.type.other']])}
+${select('count', x['form.count'], [['1to4', 'form.count.c1'], ['5to9', 'form.count.c2'], ['10to29', 'form.count.c3'], ['30plus', 'form.count.c4'], ['unsure', 'form.count.c5']])}
+${line('schedule', x['form.schedule'], 300, false)}
+            <div class="wf-field"><label for="${msg}">${xt('form.message')}</label><textarea id="${msg}" name="message" rows="3" maxlength="3000"></textarea></div>
+${line('name', x['form.name'], 100, false, ' autocomplete="name"')}
+${line('phone', x['form.phone'], 40, false, ' autocomplete="tel" inputmode="tel" dir="ltr"')}
+${line('country', ui['form.country'], 80, false, ' autocomplete="country-name"')}
+            <div class="wf-field"><label for="${e}">${t('email')}${star}</label><input id="${e}" name="email" type="email" maxlength="254" autocomplete="email" required dir="ltr" aria-describedby="${e}-h" /><p class="wf-hint" id="${e}-h">${t('email.hint')}</p></div>
+            <div class="wf-hp" aria-hidden="true"><label>Website <input name="website" type="text" tabindex="-1" autocomplete="off" /></label></div>
+            <label class="wf-consent" for="${c}"><input id="${c}" name="consent" type="checkbox" required /><span>${t('consent')} ${priv}</span></label>
+          </div>
+            <div class="wf-actions"><button type="submit" class="btn btn-navy">${t('send')}</button><a class="wf-mail" href="${escAttr(mail)}">${t('mail')}</a></div>
+            <p class="wf-status" role="status" aria-live="polite" hidden></p>
+        </form>
+      </dialog>`;
+}
+
+function buildExamScan(lang) {
+  const code = lang.code;
+  const ui = L[code].ui;
+  const x = EXS[code];
+  const t = (k) => escText(x[k]);
+  const canonical = urlFor(code, 'examscan');
+  const mail = `mailto:${EMAIL}?subject=${encodeURIComponent('[ExamScan] Institution inquiry')}`;
+  const cta = (cls, k) => `<a class="btn ${cls}" href="${escAttr(mail)}" data-form="wf-org" aria-haspopup="dialog">${t(k)}${icon('arrow', 'ic ic-flip')}</a>`;
+  const card = (ic, a, b) => `          <article class="exs-card"><span class="exs-card-ic">${icon(ic)}</span><h3>${t(a)}</h3><p>${t(b)}</p></article>`;
+  const step = (i) => `          <li class="exs-step"><span class="exs-step-n" dir="ltr">${i}</span><div><h3>${t(`how.s${i}.t`)}</h3><p>${t(`how.s${i}.d`)}</p></div></li>`;
+  const li = (k, ic) => `<li>${icon(ic)}<span>${t(k)}</span></li>`;
+  const faqs = [1, 2, 3, 4].filter((i) => x[`faq.${i}.q`]);
+  const faqLd = {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: faqs.map((i) => ({ '@type': 'Question', name: x[`faq.${i}.q`], acceptedAnswer: { '@type': 'Answer', text: x[`faq.${i}.a`] } })),
+  };
+  const appLd = {
+    '@context': 'https://schema.org', '@type': 'SoftwareApplication',
+    name: 'ExamScan', operatingSystem: 'Android', applicationCategory: 'EducationalApplication',
+    description: x['meta.desc'], url: canonical, publisher: { '@type': 'Organization', name: 'CodeDAC', url: `${BASE}/` },
+  };
+  const ogImage = fs.existsSync(path.join(ROOT, 'images', 'og', 'examscan.png')) ? `${BASE}/images/og/examscan.png` : `${BASE}${exsShot(code, 1)}`;
+  return `<!DOCTYPE html>
+<html lang="${lang.htmlLang}"${lang.dir ? ` dir="${lang.dir}"` : ''}>
+<head>
+${headCommon(lang, { title: x['meta.title'], desc: x['meta.desc'], canonical, ogImage, kind: 'examscan', langSet: EXS_ACTIVE })}
+  <script type="application/ld+json">
+${JSON.stringify(appLd, null, 2)}
+  </script>
+  <script type="application/ld+json">
+${JSON.stringify(faqLd, null, 2)}
+  </script>
+</head>
+<body class="exs-page">
+${header(code, 'examscan', undefined, ui, EXS_ACTIVE)}
+
+  <section class="exs-hero">
+    <div class="container exs-hero-inner">
+      <div class="exs-hero-copy">
+        <p class="exs-badge"><span class="exs-dot" aria-hidden="true"></span>${t('hero.badge')}</p>
+        <h1>${x['hero.title'].split('\n').map(escText).join('<br />')}</h1>
+        <p class="exs-hero-sub">${t('hero.sub')}</p>
+        <div class="exs-actions">
+          ${cta('exs-btn-main', 'hero.cta1')}
+          <a class="btn exs-btn-ghost" href="#how">${t('hero.cta2')}</a>
+        </div>
+        <p class="exs-hero-note">${t('hero.note')}</p>
+        <ul class="exs-facts">${['facts.1', 'facts.2', 'facts.3', 'facts.4'].map((k) => `<li>${icon('check')}${t(k)}</li>`).join('')}</ul>
+      </div>
+      <div class="exs-hero-art" aria-hidden="true">
+        <img src="${exsShot(code, 1)}?v=${V}" alt="" width="270" height="480" />
+        <img src="${exsShot(code, 2)}?v=${V}" alt="" width="270" height="480" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-label">${t('problem.label')}</p>
+      <h2 class="section-title">${t('problem.title')}</h2>
+      <p class="section-lead">${t('problem.lead')}</p>
+      <div class="exs-cards">
+${card('target', 'problem.c1.t', 'problem.c1.d')}
+${card('briefcase', 'problem.c2.t', 'problem.c2.d')}
+${card('route', 'problem.c3.t', 'problem.c3.d')}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="how">
+    <div class="container">
+      <p class="section-label">${t('how.label')}</p>
+      <h2 class="section-title">${t('how.title')}</h2>
+      <ol class="exs-steps">
+${[1, 2, 3].map(step).join('\n')}
+      </ol>
+      <h3 class="exs-sub">${t('shots.title')}</h3>
+      <div class="exs-shots">
+${EXS_SHOTS.map((n, i) => `        <img class="shot" src="${exsShot(code, n)}?v=${V}" alt="${escAttr(x['shot.alt'])} ${i + 1}" loading="lazy" width="270" height="480" data-idx="${i}" />`).join('\n')}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-label">${t('detect.label')}</p>
+      <h2 class="section-title">${t('detect.title')}</h2>
+      <p class="section-lead">${t('detect.lead')}</p>
+      <div class="exs-detect">
+        <div class="exs-detect-col exs-yes"><h3>${t('detect.yes.title')}</h3><ul>${[1, 2, 3, 4, 5].map((i) => li(`detect.yes.${i}`, 'check')).join('')}</ul></div>
+        <div class="exs-detect-col exs-no"><h3>${t('detect.no.title')}</h3><ul>${[1, 2, 3, 4].map((i) => li(`detect.no.${i}`, 'loop')).join('')}</ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <p class="section-label">${t('record.label')}</p>
+      <h2 class="section-title">${t('record.title')}</h2>
+      <div class="exs-cards exs-cards-4">
+${card('shield', 'record.1.t', 'record.1.d')}
+${card('compass', 'record.2.t', 'record.2.d')}
+${card('phone', 'record.3.t', 'record.3.d')}
+${card('spark', 'record.4.t', 'record.4.d')}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="exs-patent">
+        <span class="exs-patent-ic">${icon('shield')}</span>
+        <div>
+          <p class="section-label">${t('patent.label')}</p>
+          <h2 class="exs-patent-title">${t('patent.title')}</h2>
+          <p>${t('patent.desc')}</p>
+          <p class="exs-patent-no" dir="auto">${t('patent.no')}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="inquiry">
+    <div class="container">
+      <p class="section-label">${t('price.label')}</p>
+      <h2 class="section-title">${t('price.title')}</h2>
+      <div class="exs-prices">
+        <article class="exs-price"><h3>${t('price.personal.t')}</h3><p class="exs-price-v">${t('price.personal.price')}</p><p>${t('price.personal.d')}</p></article>
+        <article class="exs-price exs-price-org"><h3>${t('price.org.t')}</h3><p class="exs-price-v">${t('price.org.price')}</p><p>${t('price.org.d')}</p>${cta('exs-btn-main', 'price.org.cta')}</article>
+      </div>
+${orgForm(code, ui, x)}
+      <p class="work-mail">${escText(ui['work.mail.hint2'])}
+        <button type="button" class="copy-mail" data-copy="${EMAIL}" data-copied="${escAttr(ui['work.mail.copied'])}"><span class="cm-addr" dir="ltr">${EMAIL}</span><span class="cm-label" aria-live="polite">${escText(ui['work.mail.copy'])}</span></button>
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">${t('faq.title')}</h2>
+      <div class="faq-list">
+${faqs.map((i) => `        <div class="faq-item"><p class="faq-q">${t(`faq.${i}.q`)}</p><p class="faq-a">${t(`faq.${i}.a`)}</p></div>`).join('\n')}
+      </div>
+    </div>
+  </section>
+${footer(code, ui)}
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lb-close" id="lbClose" aria-label="close">&times;</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="previous">&#8249;</button>
+    <img class="lb-img" id="lbImg" alt="" />
+    <button class="lb-nav lb-next" id="lbNext" aria-label="next">&#8250;</button>
+  </div>
+
+${bannerData(code, 'examscan', null, EXS_ACTIVE)}  <script src="/js/site.js?v=${V}"></script>
+</body>
+</html>
+`;
+}
+
 // ---------- 홈 페이지 ----------
 function buildHome(lang) {
   const code = lang.code;
@@ -1007,7 +1257,7 @@ ${heroIcons(code, ui)}
 ${statStrip(ui)}
     </div>
   </section>
-
+${examscanBand(code)}
   <section class="section" id="apps">
     <div class="container">
       <div class="apps-head">
@@ -1741,6 +1991,7 @@ for (const lang of ACTIVE) {
   emit(lang, 'home', undefined, buildHome(lang));
   for (const app of APPS) emit(lang, 'detail', app.slug, buildDetail(lang, app));
   if (PRIV[lang.code]) emit(lang, 'privacy', undefined, buildPrivacy(lang));
+  if (EXS[lang.code]) emit(lang, 'examscan', undefined, buildExamScan(lang));
   if (GUIDES[lang.code]) for (const gs of Object.keys(GUIDES[lang.code].guides)) emit(lang, 'guide', gs, buildGuide(lang, gs));
   if (GUIDES[lang.code]) emit(lang, 'guides', undefined, buildGuideIndex(lang));
 }
@@ -1780,6 +2031,7 @@ ${alts.join('\n')}
 const urls = [sitemapUrl('home')];
 for (const app of APPS) urls.push(sitemapUrl('detail', app.slug));
 urls.push(sitemapUrl('privacy', undefined, PRIV_ACTIVE));
+urls.push(sitemapUrl('examscan', undefined, EXS_ACTIVE));
 urls.push(sitemapUrl('guides', undefined, GUIDE_INDEX_LANGS));
 for (const gs of GUIDE_SLUGS) urls.push(sitemapUrl('guide', gs, guideLangs(gs)));
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

@@ -307,9 +307,13 @@
         email: email.value.trim(), consent: true, website: value('website') || '',
         elapsed: Date.now() - Number(form.dataset.opened || Date.now()),
       };
-      const names = form.dataset.kind === 'project'
-        ? ['what', 'audience', 'features', 'platforms', 'budget', 'timeline', 'country', 'refs']
-        : ['problem', 'app', 'today', 'devices', 'country', 'beta'];
+      // 칸 이름은 서버 FIELDS(Data/site-contact/main.py)와 같다. org = ExamScan 기관 도입·단체 구매 문의(2026-11-25).
+      const NAMES = {
+        project: ['what', 'audience', 'features', 'platforms', 'budget', 'timeline', 'country', 'refs'],
+        idea: ['problem', 'app', 'today', 'devices', 'country', 'beta'],
+        org: ['org', 'orgtype', 'count', 'schedule', 'message', 'name', 'phone', 'country'],
+      };
+      const names = NAMES[form.dataset.kind] || [];
       names.forEach((n) => { payload[n] = value(n); });
       btn.disabled = true;
       const label = btn.textContent;
