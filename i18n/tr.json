@@ -495,6 +495,36 @@
         }
       ]
     },
+    "floatweb": {
+      "name": "FloatWeb+",
+      "tag": "Tarayıcı",
+      "seo": "Diğer Uygulamaların Üstünde Yüzen Tarayıcı",
+      "desc": "Her web sitesini diğer uygulamaların üstünde küçük bir pencerede açan yüzen tarayıcı; sekmeler, baloncuklar ve siteye özel ayarlarla.",
+      "tagline": "Başka bir uygulamayı kullanırken bir web sitesini açık tutun. FloatWeb+ her siteyi taşıyabileceğiniz, boyutlandırabileceğiniz veya baloncuğa küçültebileceğiniz küçük bir yüzen pencerede açar.",
+      "long": "FloatWeb+, bir web sitesini o an kullandığınız uygulamanın üstünde duran küçük bir pencerede açan bir tarayıcıdır. Notlarınızın üstünde ders videosu, oyunun üstünde oyun wikisi, belgenin üstünde çevirici ya da sohbetin yanında tarif veya harita açık kalsın. Pencereyi başlık çubuğundan sürükleyin, köşesinden boyutlandırın ve ekran kenarına yapıştırın. Ekranın tamamına ihtiyacınız olduğunda pencereyi sitenin simgesiyle bir baloncuğa küçültün — küçültülmüşken ses çalmaya devam eder. Her pencerede birden fazla sekme olabilir, pencere tek dokunuşla sessize alınır, açılır pencereler ve yönlendirmeler engellenir; Geri tuşu sayfa geçmişini izler, aşağı çekerek yenileme de normal bir tarayıcıdaki gibi çalışır. Sık kullandığınız siteleri kaydedin, aynı anda birden fazlasını açın ve istediğinizi kendi simgesiyle ana ekrana ekleyin; tek dokunuşla yüzen pencerede açılsın. Ayarlar siteye göre yapılabilir — masaüstü modu, metin boyutu, yakınlaştırma kilidi, JavaScript, çerezler, otomatik oynatma, opaklık ve izinler — ve sitelere Google ile de dahil giriş yapıp oturumunuzu açık tutabilirsiniz. Hesap da sunucu da yoktur: siteleriniz, çerezleriniz ve oturumlarınız telefonunuzda kalır.",
+      "features": [
+        "Her web sitesi diğer uygulamaların üstünde yüzen bir pencerede: sürükleyin, köşesinden boyutlandırın ve ekran kenarına yapıştırın",
+        "Pencereyi sitenin simgesiyle bir baloncuğa küçültün — küçültülmüşken ses çalmaya devam eder",
+        "Her pencerede sekmeler, tek dokunuşla sessize alma, açılır pencere ve yönlendirme engelleme, Geri tuşuyla sayfa geçmişi ve aşağı çekerek yenileme",
+        "Kayıtlı siteler, aynı anda birden fazla pencere ve yeniden başlatmadan sonra bıraktığınız yere dönen pencereler",
+        "Her site için kendi simgesiyle ana ekran kısayolu, Hızlı Ayarlar kutucuğu ve bildirimde son siteler",
+        "Siteye özel ayarlar: masaüstü modu, metin boyutu, yakınlaştırma kilidi, JavaScript, çerezler, otomatik oynatma, opaklık, kenarlık ve izinler"
+      ],
+      "faq": [
+        {
+          "q": "Pencere diğer uygulamaların üstünde görünmüyor. Ne yapmalıyım?",
+          "a": "Android bunun için “Diğer uygulamaların üzerinde göster” iznini ister. FloatWeb+ bu izni ilk kez bir site açtığınızda sorar; atladıysanız telefonunuzun Ayarlar → Uygulamalar bölümünden FloatWeb+ için açın. Bundan sonra dokunduğunuz site, siz kapatana kadar tüm uygulamaların üstünde kalır."
+        },
+        {
+          "q": "Yüzen pencerede web sitelerine giriş yapabilir miyim?",
+          "a": "Evet. Google ile giriş dahil, giriş pencerenin içinde çalışır ve siteyi bir sonraki açışınızda oturumunuz açık kalır. Bir site konumunuzu, kameranızı veya mikrofonunuzu istediğinde pencere önce size sorar ve cevabınızı o site için hatırlar. Dosya yükleme de çalışır."
+        },
+        {
+          "q": "FloatWeb+ ziyaret ettiğim siteleri görüyor mu?",
+          "a": "Hayır. Hesap da sunucu da yoktur ve uygulama neye göz attığınızı toplamaz. Kayıtlı siteleriniz, çerezleriniz ve oturumlarınız telefonunuzda kalır. Açtığınız web siteleri kendi gizlilik politikalarına uyar."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Pano",

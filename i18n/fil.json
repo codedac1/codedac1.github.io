@@ -495,6 +495,36 @@
         }
       ]
     },
+    "floatweb": {
+      "name": "FloatWeb+",
+      "tag": "Browser",
+      "seo": "Floating Browser sa Ibabaw ng Ibang Apps",
+      "desc": "Floating browser na nagbubukas ng kahit anong website sa maliit na window sa ibabaw ng ibang apps, may tabs, bubbles at settings sa bawat site.",
+      "tagline": "Panatilihing bukas ang isang website habang gumagamit ng ibang app. Pinalulutang ng FloatWeb+ ang kahit anong site sa maliit na window na puwede mong ilipat, i-resize o i-minimize sa bubble.",
+      "long": "Ang FloatWeb+ ay browser na nagbubukas ng website sa maliit na window na lumulutang sa ibabaw ng kahit anong app na ginagamit mo. Ilagay ang lecture video sa ibabaw ng notes mo, ang game wiki sa ibabaw ng laro, ang translator sa ibabaw ng dokumento, o ang recipe o mapa sa tabi ng chat. I-drag ang window mula sa title bar, i-resize mula sa sulok, at i-snap sa gilid ng screen. Kapag kailangan mo ang buong screen, i-minimize ito sa bubble na may icon ng site — tuloy pa rin ang tunog habang naka-minimize. Puwedeng maglaman ng ilang tab ang bawat window, ma-mute sa isang tap, at mag-block ng mga pop-up at redirect; sinusundan ng Back ang history ng page, at gumagana ang pull to refresh gaya sa karaniwang browser. I-save ang mga site na madalas mong gamitin, magbukas ng higit sa isa nang sabay, at ilagay ang kahit alin sa home screen gamit ang sarili nitong icon para bumukas ito nang lumulutang sa isang tap. Puwedeng itakda ang settings sa bawat site — desktop mode, laki ng text, zoom lock, JavaScript, cookies, autoplay, opacity at permissions — at puwede kang mag-sign in sa mga site, kasama ang Google, at manatiling naka-sign in. Walang account at walang server: nananatili sa phone mo ang mga site, cookies at login mo.",
+      "features": [
+        "Kahit anong website sa floating window sa ibabaw ng ibang apps: i-drag, i-resize mula sa sulok at i-snap sa gilid ng screen",
+        "I-minimize ang window sa bubble na may icon ng site — tuloy ang audio habang naka-minimize",
+        "Tabs sa bawat window, mute sa isang tap, pag-block ng pop-up at redirect, history ng page sa Back at pull to refresh",
+        "Mga naka-save na site, ilang window nang sabay, at mga window na bumabalik sa dating puwesto pagkatapos mag-restart",
+        "Home-screen shortcut sa bawat site na may sariling icon, Quick Settings tile at recent sites sa notification",
+        "Settings sa bawat site: desktop mode, laki ng text, zoom lock, JavaScript, cookies, autoplay, opacity, border at permissions"
+      ],
+      "faq": [
+        {
+          "q": "Hindi lumalabas ang window sa ibabaw ng ibang apps. Ano ang gagawin ko?",
+          "a": "Kailangan ng Android ang pahintulot na “Display over other apps” para dito. Hinihingi ito ng FloatWeb+ sa unang beses mong pagbukas ng site; kung nilaktawan mo, i-on ito para sa FloatWeb+ sa Settings → Apps ng phone mo. Pagkatapos noon, mananatili sa ibabaw ng lahat ng app ang site na i-tap mo hanggang isara mo ito."
+        },
+        {
+          "q": "Puwede ba akong mag-sign in sa mga website sa loob ng floating window?",
+          "a": "Oo. Gumagana ang sign-in sa loob ng window, kasama ang Google sign-in, at naka-sign in ka pa rin sa susunod mong pagbukas ng site. Kapag humingi ang site ng location, camera o mic, tatanungin ka muna ng window at tatandaan ang sagot mo para sa site na iyon. Gumagana rin ang file upload."
+        },
+        {
+          "q": "Nakikita ba ng FloatWeb+ ang mga site na binibisita ko?",
+          "a": "Hindi. Walang account at walang server, at hindi kinokolekta ng app ang bina-browse mo. Nananatili sa phone mo ang mga naka-save na site, cookies at login. Sinusunod ng mga website na binubuksan mo ang sarili nilang privacy policy."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Clipboard",

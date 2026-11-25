@@ -24,6 +24,7 @@ const PROJECT = {
   floatcrypto: 'FloatCrypto', floattimer: 'FloatTimer', volumebooster: 'VolumeBooster',
   photocleaner: 'PhotoCleaner', readfocus: 'ReadFocus',
   floatnote: 'FloatNote', rotate: 'Rotate', floatprompter: 'FloatPrompter',
+  floatweb: 'FloatWeb',
 };
 
 // slug → .NET 프로젝트 폴더명 (*.<locale>.resx 스캔)

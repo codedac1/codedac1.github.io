@@ -495,6 +495,36 @@
         }
       ]
     },
+    "floatweb": {
+      "name": "FloatWeb+",
+      "tag": "Trình duyệt",
+      "seo": "Trình duyệt nổi trên các ứng dụng khác",
+      "desc": "Trình duyệt nổi mở mọi trang web trong một cửa sổ nhỏ trên các ứng dụng khác, có thẻ, bong bóng và cài đặt riêng cho từng trang.",
+      "tagline": "Giữ một trang web luôn mở trong khi dùng ứng dụng khác. FloatWeb+ đặt mọi trang trong một cửa sổ nổi nhỏ mà bạn có thể di chuyển, đổi kích thước hoặc thu thành bong bóng.",
+      "long": "FloatWeb+ là trình duyệt mở trang web trong một cửa sổ nhỏ nổi trên bất kỳ ứng dụng nào bạn đang dùng. Đặt video bài giảng trên phần ghi chép, wiki game trên game, trình dịch trên tài liệu, hay công thức nấu ăn hoặc bản đồ cạnh khung chat. Kéo thanh tiêu đề để di chuyển cửa sổ, kéo góc để đổi kích thước và hít vào cạnh màn hình. Khi cần cả màn hình, hãy thu nhỏ cửa sổ thành bong bóng có biểu tượng của trang — âm thanh vẫn tiếp tục phát. Mỗi cửa sổ có thể chứa nhiều thẻ, tắt tiếng chỉ với một chạm và chặn cửa sổ bật lên cùng chuyển hướng; nút quay lại đi theo lịch sử trang, còn kéo xuống để tải lại hoạt động như trình duyệt thông thường. Lưu các trang bạn hay dùng, mở nhiều trang cùng lúc và đưa bất kỳ trang nào ra màn hình chính với biểu tượng riêng để mở dạng nổi chỉ với một chạm. Có thể cài đặt riêng cho từng trang — chế độ máy tính, cỡ chữ, khóa thu phóng, JavaScript, cookie, tự động phát, độ mờ và quyền — và bạn có thể đăng nhập vào các trang, kể cả bằng Google, rồi vẫn giữ trạng thái đăng nhập. Không có tài khoản, không có máy chủ: các trang, cookie và thông tin đăng nhập của bạn chỉ nằm trên điện thoại.",
+      "features": [
+        "Mọi trang web trong cửa sổ nổi trên các ứng dụng khác: kéo để di chuyển, kéo góc để đổi kích thước và hít vào cạnh màn hình",
+        "Thu nhỏ cửa sổ thành bong bóng có biểu tượng của trang — âm thanh vẫn phát khi đã thu nhỏ",
+        "Nhiều thẻ trong mỗi cửa sổ, tắt tiếng bằng một chạm, chặn cửa sổ bật lên và chuyển hướng, nút quay lại theo lịch sử trang và kéo xuống để tải lại",
+        "Lưu trang, mở nhiều cửa sổ cùng lúc và cửa sổ trở về đúng chỗ cũ sau khi khởi động lại",
+        "Lối tắt màn hình chính cho từng trang với biểu tượng riêng, ô Cài đặt nhanh và các trang gần đây trong thông báo",
+        "Cài đặt riêng cho từng trang: chế độ máy tính, cỡ chữ, khóa thu phóng, JavaScript, cookie, tự động phát, độ mờ, viền và quyền"
+      ],
+      "faq": [
+        {
+          "q": "Cửa sổ không hiện trên các ứng dụng khác. Tôi phải làm gì?",
+          "a": "Android cần quyền “Hiển thị trên các ứng dụng khác” để làm việc này. FloatWeb+ sẽ xin quyền khi bạn mở một trang lần đầu; nếu đã bỏ qua, hãy bật quyền này cho FloatWeb+ trong Cài đặt → Ứng dụng trên điện thoại. Sau đó, trang bạn chạm vào sẽ nằm trên mọi ứng dụng cho đến khi bạn đóng nó."
+        },
+        {
+          "q": "Tôi có đăng nhập trang web trong cửa sổ nổi được không?",
+          "a": "Được. Đăng nhập hoạt động ngay trong cửa sổ, kể cả đăng nhập Google, và lần sau mở trang bạn vẫn đang đăng nhập. Khi một trang xin vị trí, camera hoặc micrô, cửa sổ sẽ hỏi bạn trước và nhớ câu trả lời cho trang đó. Tải tệp lên cũng hoạt động."
+        },
+        {
+          "q": "FloatWeb+ có biết tôi vào những trang nào không?",
+          "a": "Không. Không có tài khoản, không có máy chủ và ứng dụng không thu thập những gì bạn duyệt. Các trang đã lưu, cookie và thông tin đăng nhập chỉ nằm trên điện thoại của bạn. Các trang web bạn mở tuân theo chính sách quyền riêng tư của riêng họ."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Bộ nhớ tạm",

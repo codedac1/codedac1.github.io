@@ -495,6 +495,36 @@
         }
       ]
     },
+    "floatweb": {
+      "name": "FloatWeb+",
+      "tag": "Browser",
+      "seo": "Browser flottante sopra le altre app",
+      "desc": "Un browser flottante che apre qualsiasi sito in una piccola finestra sopra le altre app, con schede, bolle e impostazioni per sito.",
+      "tagline": "Tieni aperto un sito mentre usi un’altra app. FloatWeb+ mostra qualsiasi sito in una piccola finestra che puoi spostare, ridimensionare o ridurre a bolla.",
+      "long": "FloatWeb+ è un browser che apre un sito web in una piccola finestra sospesa sopra l’app che stai usando. Tieni una videolezione sopra i tuoi appunti, la wiki di un gioco sopra il gioco, un traduttore sopra un documento, oppure una ricetta o una mappa accanto a una chat. Sposta la finestra trascinando la barra del titolo, ridimensionala dall’angolo e agganciala al bordo dello schermo. Quando ti serve tutto lo schermo, riducila a una bolla con l’icona del sito: l’audio continua anche quando è ridotta. Ogni finestra può contenere più schede, si silenzia con un tocco e blocca pop-up e reindirizzamenti; Indietro segue la cronologia della pagina e trascina per aggiornare funziona come in un normale browser. Salva i siti che usi spesso, aprine più di uno alla volta e metti quello che vuoi nella schermata Home con la sua icona, così si apre in una finestra flottante con un tocco. Le impostazioni si scelgono sito per sito (modalità desktop, dimensione del testo, blocco zoom, JavaScript, cookie, riproduzione automatica, opacità e autorizzazioni) e puoi accedere ai siti, anche con Google, restando connesso. Non ci sono account né server: i tuoi siti, i cookie e gli accessi restano sul telefono.",
+      "features": [
+        "Qualsiasi sito in una finestra flottante sopra le altre app: trascinala, ridimensionala dall’angolo e agganciala al bordo dello schermo",
+        "Riduci una finestra a una bolla con l’icona del sito: l’audio continua anche quando è ridotta",
+        "Schede in ogni finestra, audio disattivato con un tocco, blocco di pop-up e reindirizzamenti, cronologia della pagina con Indietro e trascina per aggiornare",
+        "Siti salvati, più finestre insieme e finestre che tornano al loro posto dopo un riavvio",
+        "Scorciatoia nella schermata Home per ogni sito con la sua icona, riquadro nelle Impostazioni rapide e siti recenti nella notifica",
+        "Impostazioni per sito: modalità desktop, dimensione del testo, blocco zoom, JavaScript, cookie, riproduzione automatica, opacità, bordo e autorizzazioni"
+      ],
+      "faq": [
+        {
+          "q": "La finestra non appare sopra le altre app. Cosa devo fare?",
+          "a": "Android richiede l’autorizzazione «Mostra sopra altre app». FloatWeb+ te la chiede la prima volta che apri un sito; se l’hai saltata, attivala per FloatWeb+ in Impostazioni → App del telefono. Da quel momento il sito che tocchi resta sopra tutte le app finché non lo chiudi."
+        },
+        {
+          "q": "Posso accedere ai siti dentro la finestra flottante?",
+          "a": "Sì. L’accesso funziona nella finestra, anche con Google, e resti connesso la prossima volta che apri il sito. Quando un sito chiede posizione, fotocamera o microfono, la finestra te lo chiede prima e ricorda la tua risposta per quel sito. Funziona anche il caricamento di file."
+        },
+        {
+          "q": "FloatWeb+ vede i siti che visito?",
+          "a": "No. Non ci sono account né server, e l’app non raccoglie ciò che navighi. I siti salvati, i cookie e gli accessi restano sul telefono. I siti che apri seguono le proprie norme sulla privacy."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Appunti",

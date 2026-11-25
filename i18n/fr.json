@@ -495,6 +495,36 @@
         }
       ]
     },
+    "floatweb": {
+      "name": "FloatWeb+",
+      "tag": "Navigateur",
+      "seo": "Navigateur flottant au-dessus des autres applis",
+      "desc": "Un navigateur flottant qui ouvre n’importe quel site dans une petite fenêtre au-dessus de vos autres applis, avec onglets, bulles et réglages par site.",
+      "tagline": "Gardez un site ouvert pendant que vous utilisez une autre appli. FloatWeb+ affiche n’importe quel site dans une petite fenêtre que vous pouvez déplacer, redimensionner ou réduire en bulle.",
+      "long": "FloatWeb+ est un navigateur qui ouvre un site web dans une petite fenêtre flottant au-dessus de l’appli que vous utilisez. Gardez une vidéo de cours au-dessus de vos notes, le wiki d’un jeu au-dessus du jeu, un traducteur sur un document, ou une recette ou une carte à côté d’une conversation. Déplacez la fenêtre par sa barre de titre, redimensionnez-la par le coin et aimantez-la au bord de l’écran. Quand vous avez besoin de tout l’écran, réduisez-la en bulle à l’icône du site — le son continue pendant qu’elle est réduite. Chaque fenêtre peut contenir plusieurs onglets, se met en sourdine d’un toucher et bloque les pop-ups et les redirections ; Retour suit l’historique de la page, et tirer pour actualiser fonctionne comme dans un navigateur classique. Enregistrez les sites que vous consultez souvent, ouvrez-en plusieurs à la fois et placez n’importe lequel sur l’écran d’accueil avec sa propre icône, pour l’ouvrir en fenêtre flottante d’un seul toucher. Les réglages se définissent site par site — mode ordinateur, taille du texte, zoom verrouillé, JavaScript, cookies, lecture auto, opacité et autorisations — et vous pouvez vous connecter aux sites, y compris avec Google, et rester connecté. Il n’y a ni compte ni serveur : vos sites, cookies et connexions restent sur votre téléphone.",
+      "features": [
+        "N’importe quel site dans une fenêtre flottante au-dessus des autres applis : déplacez-la, redimensionnez-la par le coin et aimantez-la au bord de l’écran",
+        "Réduisez une fenêtre en bulle à l’icône du site — le son continue pendant qu’elle est réduite",
+        "Onglets dans chaque fenêtre, sourdine d’un toucher, blocage des pop-ups et des redirections, historique de la page avec Retour et tirer pour actualiser",
+        "Sites enregistrés, plusieurs fenêtres à la fois, et des fenêtres qui reviennent à leur place après un redémarrage",
+        "Raccourci d’écran d’accueil pour chaque site avec sa propre icône, vignette de Réglages rapides et sites récents dans la notification",
+        "Réglages par site : mode ordinateur, taille du texte, zoom verrouillé, JavaScript, cookies, lecture auto, opacité, bordure et autorisations"
+      ],
+      "faq": [
+        {
+          "q": "La fenêtre n’apparaît pas au-dessus des autres applis. Que faire ?",
+          "a": "Android exige pour cela l’autorisation « Superposition sur d’autres applis ». FloatWeb+ la demande la première fois que vous ouvrez un site ; si vous l’avez ignorée, activez-la pour FloatWeb+ dans Paramètres → Applications de votre téléphone. Ensuite, le site que vous touchez reste au-dessus de toutes les applis jusqu’à ce que vous le fermiez."
+        },
+        {
+          "q": "Puis-je me connecter à des sites dans la fenêtre flottante ?",
+          "a": "Oui. La connexion fonctionne dans la fenêtre, y compris avec Google, et vous restez connecté la prochaine fois que vous ouvrez le site. Quand un site demande votre position, la caméra ou le micro, la fenêtre vous pose d’abord la question et mémorise votre réponse pour ce site. L’envoi de fichiers fonctionne aussi."
+        },
+        {
+          "q": "FloatWeb+ voit-il les sites que je visite ?",
+          "a": "Non. Il n’y a ni compte ni serveur, et l’appli ne collecte pas ce que vous consultez. Vos sites enregistrés, cookies et connexions restent sur votre téléphone. Les sites que vous ouvrez suivent leurs propres règles de confidentialité."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Presse-papiers",

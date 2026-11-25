@@ -495,6 +495,36 @@
         }
       ]
     },
+    "floatweb": {
+      "name": "FloatWeb+",
+      "tag": "Browser",
+      "seo": "Zwevende browser boven andere apps",
+      "desc": "Een zwevende browser die elke website opent in een klein venster boven je andere apps, met tabbladen, bubbels en instellingen per site.",
+      "tagline": "Houd een website open terwijl je een andere app gebruikt. FloatWeb+ toont elke site in een klein zwevend venster dat je kunt verplaatsen, vergroten of verkleinen en inklappen tot een bubbel.",
+      "long": "FloatWeb+ is een browser die een website opent in een klein venster dat boven elke app zweeft die je op dat moment gebruikt. Houd een collegevideo boven je aantekeningen, een game-wiki boven de game, een vertaler boven een document of een recept of kaart naast een chat. Sleep het venster aan de titelbalk, wijzig het formaat vanuit de hoek en klik het vast aan een schermrand. Heb je het hele scherm nodig, minimaliseer het dan tot een bubbel met het pictogram van de site — het geluid speelt gewoon door. Elk venster kan meerdere tabbladen bevatten, met één tik gedempt worden en pop-ups en doorverwijzingen blokkeren; Terug volgt de paginageschiedenis en omlaag trekken om te vernieuwen werkt zoals in een gewone browser. Bewaar de sites die je vaak gebruikt, open er meerdere tegelijk en zet elke site met een eigen pictogram op je startscherm, zodat hij met één tik zwevend opent. Instellingen kunnen per site: desktopmodus, tekstgrootte, zoomvergrendeling, JavaScript, cookies, automatisch afspelen, dekking en toestemmingen. Je kunt op sites inloggen, ook met Google, en ingelogd blijven. Er is geen account en geen server: je sites, cookies en aanmeldingen blijven op je telefoon.",
+      "features": [
+        "Elke website in een zwevend venster boven andere apps: sleep het, wijzig het formaat vanuit de hoek en klik het vast aan een schermrand",
+        "Minimaliseer een venster tot een bubbel met het pictogram van de site — het geluid speelt door terwijl het is ingeklapt",
+        "Tabbladen in elk venster, dempen met één tik, pop-ups en doorverwijzingen blokkeren, paginageschiedenis met Terug en omlaag trekken om te vernieuwen",
+        "Opgeslagen sites, meerdere vensters tegelijk en vensters die na een herstart terugkomen waar je ze liet",
+        "Een snelkoppeling op het startscherm per site met een eigen pictogram, een tegel in Snelle instellingen en recente sites in de melding",
+        "Instellingen per site: desktopmodus, tekstgrootte, zoomvergrendeling, JavaScript, cookies, automatisch afspelen, dekking, rand en toestemmingen"
+      ],
+      "faq": [
+        {
+          "q": "Het venster verschijnt niet boven andere apps. Wat moet ik doen?",
+          "a": "Android heeft hiervoor de toestemming ‘Weergeven vóór andere apps’ nodig. FloatWeb+ vraagt erom zodra je voor het eerst een site opent; heb je dat overgeslagen, zet de toestemming dan aan voor FloatWeb+ via Instellingen → Apps op je telefoon. Daarna blijft een site waarop je tikt boven elke app staan tot je hem sluit."
+        },
+        {
+          "q": "Kan ik in het zwevende venster inloggen op websites?",
+          "a": "Ja. Inloggen werkt in het venster, ook met Google, en je bent nog steeds ingelogd als je de site later weer opent. Vraagt een site om je locatie, camera of microfoon, dan vraagt het venster het eerst aan jou en onthoudt het je antwoord voor die site. Bestanden uploaden werkt ook."
+        },
+        {
+          "q": "Ziet FloatWeb+ welke sites ik bezoek?",
+          "a": "Nee. Er is geen account en geen server, en de app verzamelt niet wat je bekijkt. Je opgeslagen sites, cookies en aanmeldingen blijven op je telefoon. De websites die je opent volgen hun eigen privacybeleid."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Klembord",

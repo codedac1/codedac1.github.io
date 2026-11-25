@@ -495,6 +495,36 @@
         }
       ]
     },
+    "floatweb": {
+      "name": "FloatWeb+",
+      "tag": "Browser",
+      "seo": "Schwebender Browser über anderen Apps",
+      "desc": "Ein schwebender Browser, der jede Website in einem kleinen Fenster über deinen anderen Apps öffnet – mit Tabs, Blasen und Einstellungen pro Website.",
+      "tagline": "Lass eine Website offen, während du eine andere App nutzt. FloatWeb+ zeigt jede Seite in einem kleinen Fenster, das du verschieben, in der Größe ändern oder zu einer Blase minimieren kannst.",
+      "long": "FloatWeb+ ist ein Browser, der eine Website in einem kleinen Fenster über der App öffnet, die du gerade benutzt. Lass ein Vorlesungsvideo über deinen Notizen laufen, ein Spiele-Wiki über dem Spiel, einen Übersetzer über einem Dokument oder ein Rezept oder eine Karte neben dem Chat. Verschiebe das Fenster an der Titelleiste, ändere die Größe an der Ecke und dock es an den Bildschirmrand an. Brauchst du den ganzen Bildschirm, minimierst du es zu einer Blase mit dem Symbol der Website – der Ton läuft dabei weiter. Jedes Fenster kann mehrere Tabs enthalten, lässt sich mit einem Tipp stummschalten und blockiert Pop-ups und Weiterleitungen; Zurück folgt dem Seitenverlauf, und Ziehen zum Aktualisieren funktioniert wie in jedem normalen Browser. Speichere die Websites, die du oft nutzt, öffne mehrere gleichzeitig und leg jede davon mit eigenem Symbol auf den Startbildschirm, damit sie sich mit einem Tipp schwebend öffnet. Einstellungen lassen sich pro Website festlegen – Desktop-Modus, Textgröße, Zoomsperre, JavaScript, Cookies, Autoplay, Deckkraft und Berechtigungen –, und du kannst dich bei Websites anmelden, auch mit Google, und angemeldet bleiben. Es gibt kein Konto und keinen Server: Deine Websites, Cookies und Anmeldungen bleiben auf deinem Handy.",
+      "features": [
+        "Jede Website in einem schwebenden Fenster über anderen Apps: verschieben, an der Ecke in der Größe ändern und an den Bildschirmrand andocken",
+        "Fenster zu einer Blase mit dem Symbol der Website minimieren – der Ton läuft dabei weiter",
+        "Tabs in jedem Fenster, Stummschalten mit einem Tipp, Blockieren von Pop-ups und Weiterleitungen, Seitenverlauf über Zurück und Ziehen zum Aktualisieren",
+        "Gespeicherte Websites, mehrere Fenster gleichzeitig und Fenster, die nach einem Neustart wieder an ihrem Platz sind",
+        "Startbildschirm-Verknüpfung für jede Website mit eigenem Symbol, eine Schnelleinstellungs-Kachel und die letzten Websites in der Benachrichtigung",
+        "Einstellungen pro Website: Desktop-Modus, Textgröße, Zoomsperre, JavaScript, Cookies, Autoplay, Deckkraft, Rahmen und Berechtigungen"
+      ],
+      "faq": [
+        {
+          "q": "Das Fenster erscheint nicht über anderen Apps. Was kann ich tun?",
+          "a": "Android braucht dafür die Berechtigung „Über anderen Apps einblenden“. FloatWeb+ fragt beim ersten Öffnen einer Website danach; falls du das übersprungen hast, aktiviere sie für FloatWeb+ auf deinem Handy unter Einstellungen → Apps. Danach bleibt eine angetippte Website über allen Apps, bis du sie schließt."
+        },
+        {
+          "q": "Kann ich mich im schwebenden Fenster bei Websites anmelden?",
+          "a": "Ja. Die Anmeldung funktioniert direkt im Fenster, auch mit Google, und beim nächsten Öffnen der Website bist du noch angemeldet. Fragt eine Website nach Standort, Kamera oder Mikrofon, fragt das Fenster zuerst dich und merkt sich deine Antwort für diese Website. Datei-Uploads funktionieren ebenfalls."
+        },
+        {
+          "q": "Sieht FloatWeb+, welche Websites ich besuche?",
+          "a": "Nein. Es gibt kein Konto und keinen Server, und die App sammelt nicht, was du aufrufst. Gespeicherte Websites, Cookies und Anmeldungen bleiben auf deinem Handy. Die Websites, die du öffnest, folgen ihren eigenen Datenschutzrichtlinien."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Zwischenablage",

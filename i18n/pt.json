@@ -495,6 +495,36 @@
         }
       ]
     },
+    "floatweb": {
+      "name": "FloatWeb+",
+      "tag": "Navegador",
+      "seo": "Navegador flutuante sobre outros apps",
+      "desc": "Um navegador flutuante que abre qualquer site numa janela pequena por cima dos seus outros apps, com abas, bolhas e configurações por site.",
+      "tagline": "Deixe um site aberto enquanto usa outro app. O FloatWeb+ abre qualquer site numa janelinha flutuante que você pode mover, redimensionar ou recolher numa bolha.",
+      "long": "O FloatWeb+ é um navegador que abre um site numa janela pequena flutuando por cima de qualquer app que você esteja usando. Deixe uma videoaula sobre as suas anotações, a wiki de um jogo sobre o jogo, um tradutor sobre um documento, ou uma receita ou um mapa ao lado de uma conversa. Arraste a janela pela barra de título, redimensione pelo canto e encaixe na borda da tela. Quando precisar da tela inteira, minimize para uma bolha com o ícone do site — o som continua tocando enquanto ela está recolhida. Cada janela pode ter várias abas, ser silenciada com um toque e bloquear pop-ups e redirecionamentos; Voltar segue o histórico da página e puxar para atualizar funciona como num navegador comum. Salve os sites que você usa com frequência, abra mais de um ao mesmo tempo e coloque qualquer um deles na tela inicial com o próprio ícone, para que abra flutuando com um toque. As configurações podem ser feitas por site — modo desktop, tamanho do texto, travar zoom, JavaScript, cookies, reprodução automática, opacidade e permissões — e você pode fazer login nos sites, inclusive com o Google, e continuar conectado. Não há conta nem servidor: seus sites, cookies e logins ficam no seu celular.",
+      "features": [
+        "Qualquer site numa janela flutuante por cima de outros apps: arraste, redimensione pelo canto e encaixe na borda da tela",
+        "Minimize a janela para uma bolha com o ícone do site — o áudio continua tocando enquanto ela está recolhida",
+        "Abas em cada janela, silenciar com um toque, bloqueio de pop-ups e redirecionamentos, histórico da página no Voltar e puxar para atualizar",
+        "Sites salvos, várias janelas ao mesmo tempo e janelas que voltam para onde você deixou depois de reiniciar",
+        "Atalho na tela inicial para cada site com o próprio ícone, um bloco nas Configurações rápidas e sites recentes na notificação",
+        "Configurações por site: modo desktop, tamanho do texto, travar zoom, JavaScript, cookies, reprodução automática, opacidade, borda e permissões"
+      ],
+      "faq": [
+        {
+          "q": "A janela não aparece por cima de outros apps. O que eu faço?",
+          "a": "O Android exige a permissão “Sobrepor a outros apps” para isso. O FloatWeb+ pede essa permissão na primeira vez que você abre um site; se você pulou essa etapa, ative-a para o FloatWeb+ em Configurações → Apps do celular. Depois disso, o site que você tocar fica por cima de todos os apps até você fechá-lo."
+        },
+        {
+          "q": "Posso fazer login em sites na janela flutuante?",
+          "a": "Sim. O login funciona dentro da janela, inclusive com o Google, e você continua conectado na próxima vez que abrir o site. Quando um site pede sua localização, câmera ou microfone, a janela pergunta a você primeiro e lembra a resposta para aquele site. O envio de arquivos também funciona."
+        },
+        {
+          "q": "O FloatWeb+ vê os sites que eu visito?",
+          "a": "Não. Não há conta nem servidor, e o app não coleta o que você navega. Seus sites salvos, cookies e logins ficam no seu celular. Os sites que você abre seguem as próprias políticas de privacidade."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Área de transferência",

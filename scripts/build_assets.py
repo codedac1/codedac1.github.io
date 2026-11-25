@@ -49,6 +49,8 @@ APPS = {
     "rotate":        (r"Rotate\Resource\icon_512.png", r"Rotate\Resource\PlayStore등록자료\en", "screenshot_*.png"),
     # FloatPrompter+ (2026-11-11 Play 공개). Rotate 와 같은 배치 — 태블릿 4장을 빼고 폰 5장만.
     "floatprompter": (r"FloatPrompter\Resource\icon_512.png", r"FloatPrompter\Resource\PlayStore등록자료\en", "screenshot_*.png"),
+    # FloatWeb+ (2026-11-26 Play 공개). 태블릿 4장을 빼고 폰 6장만.
+    "floatweb":      (r"FloatWeb\Resource\icon_512.png", r"FloatWeb\Resource\PlayStore등록자료\en", "screenshot_*.png"),
 }
 
 def rounded_mask(size, radius):

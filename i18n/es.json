@@ -495,6 +495,36 @@
         }
       ]
     },
+    "floatweb": {
+      "name": "FloatWeb+",
+      "tag": "Navegador",
+      "seo": "Navegador flotante sobre otras apps",
+      "desc": "Un navegador flotante que abre cualquier web en una ventana pequeña sobre tus otras apps, con pestañas, burbujas y ajustes por sitio.",
+      "tagline": "Ten una web abierta mientras usas otra app. FloatWeb+ muestra cualquier sitio en una ventana pequeña que puedes mover, redimensionar o minimizar en una burbuja.",
+      "long": "FloatWeb+ es un navegador que abre un sitio web en una ventana pequeña que flota sobre la app que estés usando. Ten una clase en vídeo sobre tus apuntes, la wiki de un juego sobre el juego, un traductor sobre un documento, o una receta o un mapa junto a un chat. Arrastra la ventana por la barra de título, cambia su tamaño desde la esquina y ajústala al borde de la pantalla. Cuando necesites toda la pantalla, minimízala en una burbuja con el icono del sitio: el sonido sigue mientras está minimizada. Cada ventana admite varias pestañas, se silencia con un toque y bloquea ventanas emergentes y redirecciones; Atrás sigue el historial de la página y deslizar para actualizar funciona como en cualquier navegador. Guarda los sitios que más usas, abre varios a la vez y pon cualquiera en la pantalla de inicio con su propio icono para abrirlo flotando con un toque. Los ajustes se pueden definir por sitio (modo escritorio, tamaño de texto, bloqueo de zoom, JavaScript, cookies, reproducción automática, opacidad y permisos) y puedes iniciar sesión en los sitios, también con Google, sin que se cierre la sesión. No hay cuenta ni servidor: tus sitios, cookies e inicios de sesión se quedan en tu teléfono.",
+      "features": [
+        "Cualquier web en una ventana flotante sobre otras apps: arrástrala, cambia su tamaño desde la esquina y ajústala al borde de la pantalla",
+        "Minimiza una ventana en una burbuja con el icono del sitio; el audio sigue sonando mientras está minimizada",
+        "Pestañas en cada ventana, silencio con un toque, bloqueo de ventanas emergentes y redirecciones, historial de la página con Atrás y deslizar para actualizar",
+        "Sitios guardados, varias ventanas a la vez y ventanas que vuelven a su sitio tras un reinicio",
+        "Acceso directo en la pantalla de inicio para cada sitio con su propio icono, mosaico de Ajustes rápidos y sitios recientes en la notificación",
+        "Ajustes por sitio: modo escritorio, tamaño de texto, bloqueo de zoom, JavaScript, cookies, reproducción automática, opacidad, borde y permisos"
+      ],
+      "faq": [
+        {
+          "q": "La ventana no aparece sobre otras apps. ¿Qué hago?",
+          "a": "Android necesita para ello el permiso «Mostrar sobre otras aplicaciones». FloatWeb+ lo pide la primera vez que abres un sitio; si lo omitiste, actívalo para FloatWeb+ en Ajustes → Aplicaciones del teléfono. A partir de ahí, el sitio que toques se queda encima de todas las apps hasta que lo cierres."
+        },
+        {
+          "q": "¿Puedo iniciar sesión en webs dentro de la ventana flotante?",
+          "a": "Sí. El inicio de sesión funciona dentro de la ventana, también con Google, y la sesión sigue abierta la próxima vez que abras el sitio. Cuando un sitio pide tu ubicación, la cámara o el micrófono, la ventana te lo pregunta primero y recuerda tu respuesta para ese sitio. También puedes subir archivos."
+        },
+        {
+          "q": "¿FloatWeb+ ve los sitios que visito?",
+          "a": "No. No hay cuenta ni servidor, y la app no recoge lo que navegas. Tus sitios guardados, cookies e inicios de sesión se quedan en tu teléfono. Las webs que abres siguen sus propias políticas de privacidad."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Portapapeles",

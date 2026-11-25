@@ -495,6 +495,36 @@
         }
       ]
     },
+    "floatweb": {
+      "name": "FloatWeb+",
+      "tag": "Przeglądarka",
+      "seo": "Pływająca przeglądarka nad innymi aplikacjami",
+      "desc": "Pływająca przeglądarka, która otwiera dowolną stronę w małym oknie nad innymi aplikacjami — z kartami, bańkami i ustawieniami dla każdej strony.",
+      "tagline": "Miej stronę pod ręką, gdy korzystasz z innej aplikacji. FloatWeb+ otwiera dowolną witrynę w małym pływającym oknie, które możesz przesuwać, powiększać i zwijać do bańki.",
+      "long": "FloatWeb+ to przeglądarka, która otwiera stronę w małym oknie unoszącym się nad aplikacją, z której właśnie korzystasz. Trzymaj wykład wideo nad notatkami, wiki gry nad grą, tłumacza nad dokumentem albo przepis lub mapę obok czatu. Przesuwaj okno za pasek tytułu, zmieniaj jego rozmiar za róg i przyciągaj do krawędzi ekranu. Gdy potrzebujesz całego ekranu, zminimalizuj je do bańki z ikoną strony — dźwięk gra dalej. Każde okno może mieć kilka kart, wycisza się jednym dotknięciem i blokuje wyskakujące okna oraz przekierowania; Wstecz cofa po historii strony, a przeciągnięcie w dół odświeża, jak w zwykłej przeglądarce. Zapisuj często odwiedzane strony, otwieraj kilka naraz i dodawaj dowolną z nich do ekranu głównego z jej własną ikoną, by otwierała się w oknie jednym dotknięciem. Ustawienia możesz dobrać osobno dla każdej strony — tryb komputerowy, rozmiar tekstu, blokada powiększenia, JavaScript, pliki cookie, autoodtwarzanie, przezroczystość i uprawnienia — a na stronach możesz się logować, także przez Google, i pozostać zalogowany. Nie ma konta ani serwera: Twoje strony, pliki cookie i logowania zostają w telefonie.",
+      "features": [
+        "Dowolna strona w pływającym oknie nad innymi aplikacjami: przeciągaj je, zmieniaj rozmiar za róg i przyciągaj do krawędzi ekranu",
+        "Zwijanie okna do bańki z ikoną strony — dźwięk gra dalej, gdy okno jest zminimalizowane",
+        "Karty w każdym oknie, wyciszanie jednym dotknięciem, blokowanie wyskakujących okien i przekierowań, historia strony pod przyciskiem Wstecz i odświeżanie przeciągnięciem",
+        "Zapisane strony, kilka okien naraz i okna, które po ponownym uruchomieniu wracają tam, gdzie je zostawiłeś",
+        "Skrót na ekranie głównym dla każdej strony z jej własną ikoną, kafelek w Szybkich ustawieniach i ostatnie strony w powiadomieniu",
+        "Ustawienia dla każdej strony: tryb komputerowy, rozmiar tekstu, blokada powiększenia, JavaScript, pliki cookie, autoodtwarzanie, przezroczystość, ramka i uprawnienia"
+      ],
+      "faq": [
+        {
+          "q": "Okno nie pojawia się nad innymi aplikacjami. Co zrobić?",
+          "a": "Android wymaga do tego uprawnienia „Wyświetlanie nad innymi aplikacjami”. FloatWeb+ prosi o nie przy pierwszym otwarciu strony; jeśli je pominąłeś, włącz je dla FloatWeb+ w Ustawieniach telefonu → Aplikacje. Od tej chwili dotknięta strona zostaje nad każdą aplikacją, dopóki jej nie zamkniesz."
+        },
+        {
+          "q": "Czy mogę logować się na stronach w pływającym oknie?",
+          "a": "Tak. Logowanie działa w oknie, także przez Google, i przy następnym otwarciu strony nadal jesteś zalogowany. Gdy strona prosi o lokalizację, aparat lub mikrofon, okno najpierw pyta Ciebie i zapamiętuje odpowiedź dla tej strony. Przesyłanie plików też działa."
+        },
+        {
+          "q": "Czy FloatWeb+ widzi, jakie strony odwiedzam?",
+          "a": "Nie. Nie ma konta ani serwera, a aplikacja nie zbiera informacji o tym, co przeglądasz. Zapisane strony, pliki cookie i logowania zostają w telefonie. Otwierane witryny stosują własne zasady prywatności."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Schowek",

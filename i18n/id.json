@@ -495,6 +495,36 @@
         }
       ]
     },
+    "floatweb": {
+      "name": "FloatWeb+",
+      "tag": "Browser",
+      "seo": "Browser Mengambang di Atas Aplikasi Lain",
+      "desc": "Browser mengambang yang membuka situs web apa pun di jendela kecil di atas aplikasi lain, dengan tab, gelembung, dan setelan per situs.",
+      "tagline": "Biarkan situs web tetap terbuka saat kamu memakai aplikasi lain. FloatWeb+ menampilkan situs apa pun di jendela kecil yang bisa dipindah, diubah ukurannya, atau dikecilkan menjadi gelembung.",
+      "long": "FloatWeb+ adalah browser yang membuka situs web di jendela kecil yang melayang di atas aplikasi apa pun yang sedang kamu pakai. Taruh video kuliah di atas catatan, wiki game di atas game, penerjemah di atas dokumen, atau resep dan peta di samping chat. Seret jendela lewat bilah judul, ubah ukurannya dari sudut, dan tempelkan ke tepi layar. Saat butuh layar penuh, kecilkan menjadi gelembung dengan ikon situs — suara tetap berjalan selama dikecilkan. Setiap jendela bisa berisi beberapa tab, dibisukan dengan sekali ketuk, dan memblokir pop-up serta pengalihan; Kembali mengikuti riwayat halaman, dan tarik untuk memuat ulang berfungsi seperti di browser biasa. Simpan situs yang sering kamu buka, buka beberapa sekaligus, dan taruh mana saja di layar utama dengan ikonnya sendiri agar langsung terbuka mengambang dengan sekali ketuk. Setelan bisa diatur per situs — mode desktop, ukuran teks, kunci zoom, JavaScript, cookie, putar otomatis, opasitas, dan izin — dan kamu bisa login ke situs, termasuk dengan Google, lalu tetap login. Tidak ada akun dan tidak ada server: situs, cookie, dan login kamu tetap di ponselmu.",
+      "features": [
+        "Situs web apa pun di jendela mengambang di atas aplikasi lain: seret, ubah ukuran dari sudut, dan tempelkan ke tepi layar",
+        "Kecilkan jendela menjadi gelembung dengan ikon situs — suara tetap berjalan selama dikecilkan",
+        "Tab di setiap jendela, bisukan dengan sekali ketuk, blokir pop-up dan pengalihan, Kembali mengikuti riwayat halaman, dan tarik untuk memuat ulang",
+        "Situs tersimpan, beberapa jendela sekaligus, dan jendela yang kembali ke tempatnya setelah aplikasi dimulai ulang",
+        "Pintasan layar utama untuk tiap situs dengan ikonnya sendiri, ubin Setelan Cepat, dan situs terbaru di notifikasi",
+        "Setelan per situs: mode desktop, ukuran teks, kunci zoom, JavaScript, cookie, putar otomatis, opasitas, bingkai, dan izin"
+      ],
+      "faq": [
+        {
+          "q": "Jendela tidak muncul di atas aplikasi lain. Apa yang harus saya lakukan?",
+          "a": "Android memerlukan izin “Tampilkan di atas aplikasi lain” untuk ini. FloatWeb+ memintanya saat kamu pertama kali membuka situs; jika kamu melewatinya, aktifkan untuk FloatWeb+ di Setelan → Aplikasi di ponselmu. Setelah itu, situs yang kamu ketuk tetap berada di atas semua aplikasi sampai kamu menutupnya."
+        },
+        {
+          "q": "Bisakah saya login ke situs web di dalam jendela mengambang?",
+          "a": "Bisa. Login berfungsi di dalam jendela, termasuk login Google, dan kamu tetap login saat membuka situs itu lagi. Saat situs meminta lokasi, kamera, atau mikrofon, jendela menanyakannya dulu kepadamu dan mengingat jawabanmu untuk situs itu. Unggah file juga bisa."
+        },
+        {
+          "q": "Apakah FloatWeb+ melihat situs yang saya kunjungi?",
+          "a": "Tidak. Tidak ada akun dan tidak ada server, dan aplikasi tidak mengumpulkan apa yang kamu jelajahi. Situs tersimpan, cookie, dan login tetap di ponselmu. Situs web yang kamu buka mengikuti kebijakan privasinya sendiri."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Clipboard",

@@ -105,6 +105,7 @@ WEIGHTS = {
     "volumebooster":  6,
     "rotate":         5,
     "floatprompter":  5,   # 신생 앱, 표본 없음
+    "floatweb":      10,   # 2026-11-26 공개, 표본 없음 — 신규 중간값에서 시작, 30일 뒤 다시 잡음
 }
 DEFAULT_WEIGHT = 10
 

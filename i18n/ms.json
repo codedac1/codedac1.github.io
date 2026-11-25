@@ -495,6 +495,36 @@
         }
       ]
     },
+    "floatweb": {
+      "name": "FloatWeb+",
+      "tag": "Pelayar",
+      "seo": "Pelayar Terapung di Atas Apl Lain",
+      "desc": "Pelayar terapung yang membuka mana-mana laman web dalam tetingkap kecil di atas apl lain, dengan tab, gelembung dan tetapan bagi setiap laman.",
+      "tagline": "Biarkan laman web terbuka sambil anda guna apl lain. FloatWeb+ memaparkan mana-mana laman dalam tetingkap kecil yang boleh dialihkan, diubah saiz atau dikecilkan menjadi gelembung.",
+      "long": "FloatWeb+ ialah pelayar yang membuka laman web dalam tetingkap kecil yang terapung di atas apl yang sedang anda gunakan. Letakkan video kuliah di atas nota anda, wiki permainan di atas permainan, penterjemah di atas dokumen, atau resipi atau peta di sebelah sembang. Seret tetingkap melalui bar tajuk, ubah saiznya dari penjuru dan lekatkan pada tepi skrin. Apabila anda perlukan seluruh skrin, kecilkan menjadi gelembung dengan ikon laman — audio terus dimainkan semasa dikecilkan. Setiap tetingkap boleh memuatkan beberapa tab, disenyapkan dengan satu ketikan dan menyekat pop timbul serta ubah hala; Kembali mengikut sejarah halaman, dan tarik untuk muat semula berfungsi seperti dalam pelayar biasa. Simpan laman yang kerap anda guna, buka lebih daripada satu serentak dan letakkan mana-mana laman pada skrin utama dengan ikonnya sendiri supaya ia terus terbuka terapung dengan satu ketikan. Tetapan boleh ditentukan bagi setiap laman — mod desktop, saiz teks, kunci zum, JavaScript, kuki, main automatik, kelegapan dan kebenaran — dan anda boleh log masuk ke laman, termasuk dengan Google, dan kekal log masuk. Tiada akaun dan tiada pelayan: laman, kuki dan log masuk anda kekal pada telefon anda.",
+      "features": [
+        "Mana-mana laman web dalam tetingkap terapung di atas apl lain: seret, ubah saiz dari penjuru dan lekatkan pada tepi skrin",
+        "Kecilkan tetingkap menjadi gelembung dengan ikon laman — audio terus dimainkan semasa dikecilkan",
+        "Tab dalam setiap tetingkap, senyapkan dengan satu ketikan, sekat pop timbul dan ubah hala, Kembali mengikut sejarah halaman dan tarik untuk muat semula",
+        "Laman yang disimpan, beberapa tetingkap serentak dan tetingkap yang kembali ke tempatnya selepas apl dimulakan semula",
+        "Pintasan skrin utama bagi setiap laman dengan ikonnya sendiri, jubin Tetapan Pantas dan laman terkini dalam pemberitahuan",
+        "Tetapan setiap laman: mod desktop, saiz teks, kunci zum, JavaScript, kuki, main automatik, kelegapan, bingkai dan kebenaran"
+      ],
+      "faq": [
+        {
+          "q": "Tetingkap tidak muncul di atas apl lain. Apa yang perlu saya buat?",
+          "a": "Android memerlukan kebenaran “Paparkan di atas apl lain” untuk ini. FloatWeb+ memintanya kali pertama anda membuka laman; jika anda melangkaunya, hidupkannya untuk FloatWeb+ dalam Tetapan → Apl pada telefon anda. Selepas itu, laman yang anda ketik kekal di atas semua apl sehingga anda menutupnya."
+        },
+        {
+          "q": "Bolehkah saya log masuk ke laman web dalam tetingkap terapung?",
+          "a": "Boleh. Log masuk berfungsi dalam tetingkap, termasuk log masuk Google, dan anda kekal log masuk apabila membuka laman itu lagi. Apabila laman meminta lokasi, kamera atau mikrofon anda, tetingkap akan bertanya kepada anda dahulu dan mengingati jawapan anda bagi laman itu. Muat naik fail juga berfungsi."
+        },
+        {
+          "q": "Adakah FloatWeb+ melihat laman yang saya lawati?",
+          "a": "Tidak. Tiada akaun dan tiada pelayan, dan apl tidak mengumpul apa yang anda layari. Laman yang disimpan, kuki dan log masuk anda kekal pada telefon anda. Laman web yang anda buka mengikut dasar privasi masing-masing."
+        }
+      ]
+    },
     "clipboardwin": {
       "name": "Clipboard+ for Windows",
       "tag": "Papan Keratan",

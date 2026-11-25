@@ -283,6 +283,31 @@ FAQ:
 Page: https://codedac.com/apps/floatprompter.html
 Store: https://play.google.com/store/apps/details?id=com.codedac.floatprompter
 
+## FloatWeb+ (Android)
+
+Keep a website open while you use another app. FloatWeb+ floats any site in a small window you can move, resize or fold into a bubble.
+
+FloatWeb+ is a browser that opens a website in a small window floating on top of whatever app you are using. Keep a lecture video over your notes, a game wiki over the game, a translator over a document, or a recipe or map beside a chat. Drag the window by its title bar, resize it from the corner and snap it to a screen edge. When you need the whole screen, fold it into a bubble with the site’s icon — sound keeps playing while it is folded. Each window can hold several tabs, mute with one tap and block pop-ups and redirects; Back follows the page history, and pull to refresh works as in a normal browser. Save the sites you use often, open more than one at a time, and put any of them on your home screen with its own icon, so it opens floating in one tap. Settings can be set per site — desktop mode, text size, zoom lock, JavaScript, cookies, autoplay, opacity and permissions — and you can sign in to sites, including with Google, and stay signed in. There is no account and no server: your sites, cookies and logins stay on your phone.
+
+Features:
+- Any website in a floating window over other apps: drag it, resize it from the corner and snap it to a screen edge
+- Fold a window into a bubble with the site’s icon — audio keeps playing while it is folded
+- Tabs in each window, one-tap mute, pop-up and redirect blocking, page history on Back and pull to refresh
+- Saved sites, several windows at once, and windows that come back where you left them after a restart
+- Home-screen shortcut for each site with its own icon, a Quick Settings tile and recent sites in the notification
+- Per-site settings: desktop mode, text size, zoom lock, JavaScript, cookies, autoplay, opacity, border and permissions
+
+FAQ:
+- Q: The window does not appear over other apps. What do I do?
+  A: Android needs the “Display over other apps” permission for this. FloatWeb+ asks for it the first time you open a site; if you skipped it, turn it on for FloatWeb+ in your phone’s Settings → Apps. After that, a site you tap stays on top of every app until you close it.
+- Q: Can I sign in to websites in the floating window?
+  A: Yes. Sign-in works inside the window, including Google sign-in, and you stay signed in the next time you open the site. When a site asks for your location, camera or microphone, the window asks you first and remembers your answer for that site. File upload works too.
+- Q: Does FloatWeb+ see the sites I visit?
+  A: No. There is no account and no server, and the app does not collect what you browse. Your saved sites, cookies and logins stay on your phone. The websites you open follow their own privacy policies.
+
+Page: https://codedac.com/apps/floatweb.html
+Store: https://play.google.com/store/apps/details?id=com.codedac.floatweb
+
 ## Clipboard+ for Windows (Windows)
 
 A Windows tray clipboard manager that syncs with your Android phone through your own Google Drive.
