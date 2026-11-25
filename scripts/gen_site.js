@@ -911,7 +911,7 @@ for (const lang of ACTIVE) {
   if (fs.existsSync(p)) EXS[lang.code] = require(p);
 }
 const EXS_ACTIVE = ACTIVE.filter((l) => EXS[l.code]);
-const EXS_SHOTS = [1, 2, 4, 7, 8]; // 스토어 스크린샷 중 한눈에·경고·찾기·기록·한계(ExamScan/store/screenshots, scripts/build_examscan_assets.py)
+const EXS_SHOTS = [1, 2, 4, 7]; // 스토어 스크린샷 중 한눈에·경고·찾기·기록(8 한계 화면은 11/25 사용자 결정으로 뺌)(ExamScan/store/screenshots, scripts/build_examscan_assets.py)
 const exsShot = (code, n) => {
   const own = path.join(ROOT, 'images', 'examscan', code, `${n}.webp`);
   return `/images/examscan/${fs.existsSync(own) ? code : 'en'}/${n}.webp`;
