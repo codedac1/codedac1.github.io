@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-23",
+  "generatedAt": "2026-11-25",
   "source": {
     "lang": "en",
     "country": "us"
   },
   "aggregate": {
-    "publishedApps": 17,
-    "totalMinInstalls": 33015,
-    "totalRatings": 441,
-    "avgScore": 4.15,
+    "publishedApps": 18,
+    "totalMinInstalls": 33125,
+    "totalRatings": 461,
+    "avgScore": 4.18,
     "byStore": {
-      "play": 30600,
+      "play": 30710,
       "msstore": 2415
     }
   },
@@ -19,8 +19,8 @@
     "clipboard": {
       "store": "play",
       "appId": "com.codedac.clipboard",
-      "score": 4.02,
-      "ratings": 242,
+      "score": 4.05,
+      "ratings": 246,
       "installs": "10,000+",
       "minInstalls": 10000
     },
@@ -28,7 +28,7 @@
       "store": "play",
       "appId": "com.codedac.autostart",
       "score": 3.67,
-      "ratings": 77,
+      "ratings": 82,
       "installs": "10,000+",
       "minInstalls": 10000
     },
@@ -60,7 +60,7 @@
       "store": "play",
       "appId": "com.codedac.volumebooster",
       "score": 4.71,
-      "ratings": 106,
+      "ratings": 115,
       "installs": "5,000+",
       "minInstalls": 5000
     },
@@ -69,8 +69,8 @@
       "appId": "com.codedac.photocleaner",
       "score": null,
       "ratings": 0,
-      "installs": "50+",
-      "minInstalls": 50
+      "installs": "100+",
+      "minInstalls": 100
     },
     "readfocus": {
       "store": "play",
@@ -101,8 +101,16 @@
       "appId": "com.codedac.floatprompter",
       "score": null,
       "ratings": 0,
-      "installs": "50+",
-      "minInstalls": 50
+      "installs": "100+",
+      "minInstalls": 100
+    },
+    "floatweb": {
+      "store": "play",
+      "appId": "com.codedac.floatweb",
+      "score": null,
+      "ratings": 0,
+      "installs": "10+",
+      "minInstalls": 10
     },
     "clipboardwin": {
       "store": "msstore",
@@ -132,7 +140,7 @@
       "store": "msstore",
       "appId": "9P3CTX3SXTGW",
       "score": 5,
-      "ratings": 5,
+      "ratings": 7,
       "installs": "992",
       "minInstalls": 992
     },
