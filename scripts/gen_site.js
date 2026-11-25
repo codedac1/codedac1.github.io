@@ -987,7 +987,7 @@ ${line('country', ui['form.country'], 80, false, ' autocomplete="country-name"')
       </dialog>`;
 }
 
-// '잡기 어렵거나 못 잡는 것' 칸은 뺐다(2026-11-25 사용자 결정) — 살필 수 있는 것만 보이고 한계는 FAQ 한 줄로 남긴다.
+// '잡기 어렵거나 못 잡는 것' 칸은 뺐다(2026-11-25 사용자 결정) — 살필 수 있는 것만 보인다(FAQ 의 한계 항목도 같은 날 뺐다).
 // i18n 의 detect.no.* · detect.title(옛 제목)은 되살릴 때 쓰려고 남겨 둔다.
 function buildExamScan(lang) {
   const code = lang.code;
@@ -1000,7 +1000,7 @@ function buildExamScan(lang) {
   const card = (ic, a, b) => `          <article class="exs-card"><span class="exs-card-ic">${icon(ic)}</span><h3>${t(a)}</h3><p>${t(b)}</p></article>`;
   const step = (i) => `          <li class="exs-step"><span class="exs-step-n" dir="ltr">${i}</span><div><h3>${t(`how.s${i}.t`)}</h3><p>${t(`how.s${i}.d`)}</p></div></li>`;
   const li = (k, ic) => `<li>${icon(ic)}<span>${t(k)}</span></li>`;
-  const faqs = [1, 2, 3, 4].filter((i) => x[`faq.${i}.q`]);
+  const faqs = [1, 2, 4].filter((i) => x[`faq.${i}.q`]); // faq.3('100% 잡을 수 있나요?')은 뺐다(2026-11-25 사용자 결정, 문구는 i18n 에 남김)
   const faqLd = {
     '@context': 'https://schema.org', '@type': 'FAQPage',
     mainEntity: faqs.map((i) => ({ '@type': 'Question', name: x[`faq.${i}.q`], acceptedAnswer: { '@type': 'Answer', text: x[`faq.${i}.a`] } })),
