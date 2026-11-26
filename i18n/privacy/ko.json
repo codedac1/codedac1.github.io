@@ -2,14 +2,14 @@
   "metaTitle": "개인정보처리방침 | CodeDAC",
   "metaDesc": "CodeDAC Android·Windows 앱 개인정보처리방침. 회원가입 없이 기기 안에서 처리하며, 앱별로 외부 연결과 요청 권한을 공개합니다.",
   "title": "개인정보처리방침",
-  "updated": "최종 개정: 2026년 11월 25일",
+  "updated": "최종 개정: 2026년 11월 26일",
   "firstEffective": "최초 시행: 2026년 7월 15일",
   "tocTitle": "목차",
   "summaryTitle": "한눈에 보기",
   "summary": [
-    "회원가입이 없으며, 앱에서 만든 내용은 이용자의 기기에만 남습니다. 앱이 회사로 보내는 것은 익명 사용 통계(7항)와, Windows 앱이 PRO 구매를 마쳤을 때 보내는 구매 기록(6항)뿐입니다.",
+    "회원가입이 없으며, 앱에서 만든 내용은 이용자의 기기에만 남습니다. 앱이 회사로 보내는 것은 익명 사용 통계(7항), Windows 앱이 PRO 구매를 마쳤을 때 보내는 구매 기록, 그리고 Clipboard+·FloatNote+에서 “폰·PC Pro 함께 쓰기”를 켰을 때 PRO 구매 확인에 필요한 정보(6항)뿐입니다.",
     "앱 데이터는 기본적으로 이용자의 기기 안에만 저장됩니다.",
-    "Clipboard+·FloatNote+의 Google Drive 백업·동기화는 선택 기능이며, 이용자 본인의 Drive에만 저장됩니다.",
+    "Clipboard+·FloatNote+의 Google Drive 백업·동기화는 선택 기능이며, 이용자 본인의 Drive에만 저장됩니다. “폰·PC Pro 함께 쓰기”를 켜면 같은 Google 로그인으로 계정을 알아보며, 회사는 이메일 주소나 이름이 아니라 되돌릴 수 없게 변환(해시)한 계정 ID만 보관합니다.",
     "Android 앱의 광고는 Google AdMob이 제공하며, 동의가 필요한 지역에서는 먼저 동의를 묻습니다. Windows 앱에는 광고가 없습니다.",
     "문의: contact@codedac.com"
   ],
@@ -24,6 +24,7 @@
     "billing": "Google Play 결제",
     "store": "Microsoft Store(라이선스·구매)",
     "purchaseReport": "구매 기록 전송(CodeDAC 서버)",
+    "proLink": "폰·PC Pro 함께 쓰기(CodeDAC 서버)",
     "driveSync": "Google Drive 동기화(선택)",
     "driveBackup": "Google Drive 백업(선택)",
     "fx": "환율 조회(Frankfurter)",
@@ -57,7 +58,7 @@
     {
       "id": "principle",
       "title": "1. 기본 원칙",
-      "html": "<p>앱은 회원가입이나 로그인 없이 사용할 수 있습니다. 앱이 다루는 데이터(클립보드 기록, 메모, 타이머, 사진, 설정 등)는 기본적으로 이용자의 기기 안에서만 저장·처리되며 회사로 보내지지 않습니다. 이 원칙의 예외는 이용자가 직접 켜는 선택 기능(3항), 앱 운영에 쓰이는 외부 서비스(4~6항), 익명 사용 통계(7항)이며, 아래에 모두 적었습니다. 회사 서버로 정보가 전송되는 경우는 익명 사용 통계(7항)와 Windows 앱의 구매 기록(6항) 두 가지뿐입니다.</p>"
+      "html": "<p>앱은 회원가입이나 로그인 없이 사용할 수 있습니다. 앱이 다루는 데이터(클립보드 기록, 메모, 타이머, 사진, 설정 등)는 기본적으로 이용자의 기기 안에서만 저장·처리되며 회사로 보내지지 않습니다. 이 원칙의 예외는 이용자가 직접 켜는 선택 기능(3항), 앱 운영에 쓰이는 외부 서비스(4~6항), 익명 사용 통계(7항)이며, 아래에 모두 적었습니다. 회사 서버로 정보가 전송되는 경우는 익명 사용 통계(7항), Windows 앱의 구매 기록(6항), Clipboard+·FloatNote+의 “폰·PC Pro 함께 쓰기” PRO 확인(6항) 세 가지뿐입니다.</p>"
     },
     {
       "id": "device",
@@ -67,7 +68,7 @@
     {
       "id": "drive",
       "title": "3. 선택 기능: Google Drive 백업·동기화",
-      "html": "<p>Clipboard+(Android·Windows)와 FloatNote+(Android·Windows)는 기기 간에 데이터를 옮길 수 있도록 Google Drive 기능을 제공합니다. 이 기능은 기본적으로 꺼져 있으며, 켜지 않아도 앱의 다른 기능은 모두 사용할 수 있습니다.</p><ul><li><strong>Google 로그인.</strong> 기능을 켤 때에만, 이용자 본인의 Google Drive에 접근하기 위해 Google 계정 로그인을 요청합니다.</li><li><strong>저장 위치.</strong> 동기화가 켜져 있으면 Clipboard+는 복사한 항목을, FloatNote+는 메모를 이용자 본인 Google Drive의 앱 전용 숨김 영역(<code>appDataFolder</code>)에 저장합니다. 데이터는 이용자의 Google 계정으로만 전송되며 <strong>CodeDAC로는 전송되지 않습니다.</strong></li><li><strong>접근 범위.</strong> 동기화에는 <code>drive.appdata</code> 범위만 사용하며, 앱이 그 숨김 영역에 만든 파일만 볼 수 있습니다. Android용 Clipboard+의 백업 기능은 추가로 <code>drive.file</code> 범위를 사용하며, 이 범위로도 앱이 직접 만든 백업 파일에만 접근합니다. 두 범위 모두 Google Drive의 다른 파일에는 접근할 수 없습니다.</li><li><strong>이미지.</strong> FloatNote+ 메모에 첨부한 이미지는 기기에 남으며, 메모와 함께 전달되는 것은 파일 이름 참조뿐입니다.</li><li><strong>중지와 삭제.</strong> 언제든 기능을 끄거나 로그아웃할 수 있습니다. Google Drive에 저장된 앱 데이터나 백업 파일을 삭제하면 동기화·백업된 사본도 제거됩니다.</li></ul>"
+      "html": "<p>Clipboard+(Android·Windows)와 FloatNote+(Android·Windows)는 기기 간에 데이터를 옮길 수 있도록 Google Drive 기능을 제공합니다. 이 기능은 기본적으로 꺼져 있으며, 켜지 않아도 앱의 다른 기능은 모두 사용할 수 있습니다.</p><ul><li><strong>Google 로그인.</strong> 기능을 켤 때에만 Google 계정 로그인을 요청합니다. 로그인은 이용자 본인의 Google Drive에 접근하는 데 쓰이고, “폰·PC Pro 함께 쓰기”가 켜져 있으면 그 기능을 위해 계정을 알아보는 데에도 쓰입니다(6항).</li><li><strong>저장 위치.</strong> 동기화가 켜져 있으면 Clipboard+는 복사한 항목을, FloatNote+는 메모를 이용자 본인 Google Drive의 앱 전용 숨김 영역(<code>appDataFolder</code>)에 저장합니다. 데이터는 이용자의 Google 계정으로만 전송되며 <strong>복사한 항목과 메모는 CodeDAC로 전송되지 않습니다.</strong> 로그인 때문에 회사가 보관하는 것은 “폰·PC Pro 함께 쓰기”에 쓰는 해시된 계정 ID뿐입니다(6항).</li><li><strong>접근 범위.</strong> 동기화에는 <code>drive.appdata</code> 범위만 사용하며, 앱이 그 숨김 영역에 만든 파일만 볼 수 있습니다. Android용 Clipboard+의 백업 기능은 추가로 <code>drive.file</code> 범위를 사용하며, 이 범위로도 앱이 직접 만든 백업 파일에만 접근합니다. 두 범위 모두 Google Drive의 다른 파일에는 접근할 수 없습니다.</li><li><strong>이미지.</strong> FloatNote+ 메모에 첨부한 이미지도 메모와 함께 이용자 본인 Google Drive의 같은 숨김 영역을 통해 동기화됩니다. CodeDAC로는 전송되지 않습니다.</li><li><strong>중지와 삭제.</strong> 언제든 기능을 끄거나 로그아웃할 수 있습니다. Google Drive에 저장된 앱 데이터나 백업 파일을 삭제하면 동기화·백업된 사본도 제거됩니다.</li></ul>"
     },
     {
       "id": "network",
@@ -82,7 +83,7 @@
     {
       "id": "payments",
       "title": "6. 결제",
-      "html": "<ul><li><strong>Android.</strong> PRO 구매는 Google Play 결제로 처리됩니다.</li><li><strong>Windows.</strong> PRO 구매는 Microsoft Store로 처리됩니다.</li></ul><p>결제는 각 스토어가 처리하며, 회사는 카드번호 같은 결제수단 정보를 받지 않습니다. 앱은 PRO 이용 권한을 확인하는 데 필요한 구매 상태만 스토어에서 받아 옵니다.</p><p><strong>Windows 앱의 구매 기록.</strong> Windows용 Clipboard+·FloatNote+·PhotoCleaner+·ReadFocus+·FloatTimer+·FloatCrypto+에서 PRO 구매가 완료되면, 앱은 회사 서버(Google Cloud)로 짧은 구매 기록을 보냅니다. 여기에는 상품 ID, 스토어가 표시한 가격과 통화, Windows의 국가/지역 설정, 앱 버전, 설치마다 무작위로 만든 번호가 들어가며, 이름·이메일 주소·Microsoft 계정·기기 정보는 포함되지 않습니다. 이 기록은 매출을 집계하고 같은 구매가 두 번 집계되지 않게 하는 데에만 쓰며, 무작위 번호는 되돌릴 수 없게 변환(해시)한 형태로만 보관합니다. 여느 인터넷 요청과 마찬가지로 서버에는 IP 주소가 전달되며, 서버 접속 기록은 30일 뒤 자동으로 삭제됩니다.</p>"
+      "html": "<ul><li><strong>Android.</strong> PRO 구매는 Google Play 결제로 처리됩니다.</li><li><strong>Windows.</strong> PRO 구매는 Microsoft Store로 처리됩니다.</li></ul><p>결제는 각 스토어가 처리하며, 회사는 카드번호 같은 결제수단 정보를 받지 않습니다. 앱은 PRO 이용 권한을 확인하는 데 필요한 구매 상태만 스토어에서 받아 옵니다.</p><p><strong>Windows 앱의 구매 기록.</strong> Windows용 Clipboard+·FloatNote+·PhotoCleaner+·ReadFocus+·FloatTimer+·FloatCrypto+에서 PRO 구매가 완료되면, 앱은 회사 서버(Google Cloud)로 짧은 구매 기록을 보냅니다. 여기에는 상품 ID, 스토어가 표시한 가격과 통화, Windows의 국가/지역 설정, 앱 버전, 설치마다 무작위로 만든 번호가 들어가며, 이름·이메일 주소·Microsoft 계정·기기 정보는 포함되지 않습니다. 이 기록은 매출을 집계하고 같은 구매가 두 번 집계되지 않게 하는 데에만 쓰며, 무작위 번호는 되돌릴 수 없게 변환(해시)한 형태로만 보관합니다. 여느 인터넷 요청과 마찬가지로 서버에는 IP 주소가 전달되며, 서버 접속 기록은 30일 뒤 자동으로 삭제됩니다.</p><p id=\"pro-link\"><strong>“폰·PC Pro 함께 쓰기”(Clipboard+·FloatNote+).</strong> 이 기능을 쓰면 Android(Google Play)나 Windows(Microsoft Store)의 Clipboard+·FloatNote+에서 산 PRO가, 같은 Google 계정으로 로그인한 다른 기기의 같은 앱에서도 열립니다. 앱에서 Google로 로그인하고 “폰·PC Pro 함께 쓰기” 스위치가 켜져 있을 때에만 작동합니다. 이미 동기화를 쓰고 있었다면 스위치가 자동으로 켜지고, 그렇지 않으면 직접 켤 때까지 꺼져 있습니다. 앱 설정에서 언제든 끌 수 있으며, 로그아웃해도 꺼집니다.</p><ul><li><strong>보내는 정보.</strong> 앱이 Drive 동기화에 이미 쓰고 있는 Google 로그인 액세스 토큰. 회사 서버는 이 토큰으로 Google에 계정 ID를 묻는 데에만 쓰고 토큰은 저장하지 않습니다. Android 앱은 Google Play로 구매를 검증할 수 있도록 Google Play 상품 ID와 구매 토큰도 보냅니다. Windows 앱은 애드온 ID, 애드온이 활성 상태인지 여부, 설치마다 무작위로 만든 번호를 보냅니다. 복사한 항목과 메모는 보내지 않습니다.</li><li><strong>보관하는 정보.</strong> Google Cloud의 회사 서버(대한민국 서울의 Cloud Run·Firestore)에 Google 계정 ID를 되돌릴 수 없게 변환(SHA-256 해시)한 값 — 이메일 주소나 이름은 보관하지 않습니다 — 과, 앱마다 구매 종류(평생·구독·종료), 만료 시각, 마지막 확인 시각을 보관합니다. 구매 토큰은 해시값을 보관하며, 토큰 자체는 갱신 확인을 위해 구독일 때만 보관하고 평생 구매는 보관하지 않습니다.</li><li><strong>보관 기간.</strong> 구매가 유효하고 연동되어 있는 동안 보관합니다. 구매가 끝나면(환불, 해지, 구독 만료, Windows 애드온이 더 이상 활성 상태가 아님) 그 기록은 90일 뒤 자동으로 삭제됩니다. 더 일찍 삭제를 원하시면 이메일로 요청해 주세요(13항).</li></ul>"
     },
     {
       "id": "usage",
@@ -122,7 +123,7 @@
     {
       "id": "history",
       "title": "변경 이력",
-      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-11-25\">2026-11-25</time> 컨닝 탐지기 기관 도입·단체 구매 문의 폼이 받는 항목(기관명·유형·대수, 선택: 담당자 이름·전화번호·시험 일정)을 추가했습니다(10항).</li><li><time datetime=\"2026-11-20\">2026-11-20</time> CallerNote+(Android)는 출시하지 않기로 해 이 방침에서 삭제했습니다.</li><li><time datetime=\"2026-11-11\">2026-11-11</time> Android·Windows 앱이 보내는 익명 사용 통계(7항)를 추가하고, 기본 원칙과 요약을 그에 맞게 고쳤습니다. 그 뒤 항목 번호를 하나씩 미뤘습니다.</li><li><time datetime=\"2026-11-08\">2026-11-08</time> PRO 구매가 완료되면 구매 기록을 보내는 앱에 Windows용 Clipboard+와 FloatNote+를 추가했습니다(6항).</li><li><time datetime=\"2026-11-03\">2026-11-03</time> FloatWeb+(Android)가 기기에 저장하는 사이트와 웹사이트 로그인 상태, 페이지와 사이트 아이콘을 사용자가 고른 웹사이트에서 직접 불러오는 방식, 웹페이지가 필요로 할 때만 요청하는 위치·카메라·마이크 권한 안내를 추가했습니다(2항·4항·7항).</li><li><time datetime=\"2026-10-21\">2026-10-21</time> Android용 Clipboard+의 선택 기능인 자동 저장이 사용하는 접근성 서비스 안내를 추가했습니다(7항).</li><li><time datetime=\"2026-10-18\">2026-10-18</time> FloatPrompter+(Android)가 기기에 저장하는 대본과 녹화 영상, 휴대폰 음성 인식을 이용한 음성 따라가기, 이 앱이 사용하는 권한(카메라, 마이크, 저장공간) 안내를 추가했습니다(2항·4항·7항).</li><li><time datetime=\"2026-10-15\">2026-10-15</time> 웹사이트 문의 입력 폼 안내를 추가했습니다(9항).</li><li><time datetime=\"2026-10-08\">2026-10-08</time> CallerNote+(Android)가 기기에 저장하는 고객 데이터, 선택 기능인 Google Drive 동기화, 이 앱이 사용하는 권한(통화 걸러내기 역할, 알림 접근, 전화 상태, 연락처) 안내를 추가했습니다(2항·3항·7항).</li><li><time datetime=\"2026-10-01\">2026-10-01</time> 앱 페이지의 YouTube 영상 재생 안내를 추가했습니다(8항).</li><li><time datetime=\"2026-10-01\">2026-10-01</time> Rotate+(Android)와 이 앱이 사용하는 권한(접근성 서비스, 사용 기록 접근, 시스템 설정 변경, 근처 기기), 통화 감지 방식 안내를 추가했습니다(7항).</li><li><time datetime=\"2026-09-17\">2026-09-17</time> Windows용 PhotoCleaner+·ReadFocus+·FloatTimer+·FloatCrypto+가 PRO 구매 완료 시 보내는 구매 기록 안내를 더했습니다(1항·6항).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 앱별 정보 처리 현황을 추가하고, Android용 Clipboard+·FloatNote+의 Google Drive 백업·동기화, 광고 동의, 인터넷 연결(환율·시세·ML Kit), 웹사이트 저장소와 문의 메일 안내를 더했습니다. 권한 설명을 실제 앱에 맞게 고치고 구성을 정리했습니다. PhotoCleaner+ for Windows 안내를 더했습니다.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 문의 이메일 주소를 변경했습니다.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Windows용 FloatNote+의 클라우드 동기화 안내를 추가했습니다.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Windows용 Clipboard+의 클라우드 동기화 안내를 추가했습니다.</li></ul>"
+      "html": "<ul class=\"legal-history\"><li><time datetime=\"2026-11-26\">2026-11-26</time> Clipboard+·FloatNote+(Android·Windows)의 “폰·PC Pro 함께 쓰기”를 추가했습니다. PRO 구매 확인을 위해 회사 서버로 보내고 보관하는 정보, 보관 기간, 끄는 방법을 적었습니다(1·3·6항, 앱별 표). 3항을 바로잡았습니다: FloatNote+ 메모에 첨부한 이미지도 이용자 본인의 Google Drive를 통해 동기화됩니다.</li><li><time datetime=\"2026-11-25\">2026-11-25</time> 컨닝 탐지기 기관 도입·단체 구매 문의 폼이 받는 항목(기관명·유형·대수, 선택: 담당자 이름·전화번호·시험 일정)을 추가했습니다(10항).</li><li><time datetime=\"2026-11-20\">2026-11-20</time> CallerNote+(Android)는 출시하지 않기로 해 이 방침에서 삭제했습니다.</li><li><time datetime=\"2026-11-11\">2026-11-11</time> Android·Windows 앱이 보내는 익명 사용 통계(7항)를 추가하고, 기본 원칙과 요약을 그에 맞게 고쳤습니다. 그 뒤 항목 번호를 하나씩 미뤘습니다.</li><li><time datetime=\"2026-11-08\">2026-11-08</time> PRO 구매가 완료되면 구매 기록을 보내는 앱에 Windows용 Clipboard+와 FloatNote+를 추가했습니다(6항).</li><li><time datetime=\"2026-11-03\">2026-11-03</time> FloatWeb+(Android)가 기기에 저장하는 사이트와 웹사이트 로그인 상태, 페이지와 사이트 아이콘을 사용자가 고른 웹사이트에서 직접 불러오는 방식, 웹페이지가 필요로 할 때만 요청하는 위치·카메라·마이크 권한 안내를 추가했습니다(2항·4항·7항).</li><li><time datetime=\"2026-10-21\">2026-10-21</time> Android용 Clipboard+의 선택 기능인 자동 저장이 사용하는 접근성 서비스 안내를 추가했습니다(7항).</li><li><time datetime=\"2026-10-18\">2026-10-18</time> FloatPrompter+(Android)가 기기에 저장하는 대본과 녹화 영상, 휴대폰 음성 인식을 이용한 음성 따라가기, 이 앱이 사용하는 권한(카메라, 마이크, 저장공간) 안내를 추가했습니다(2항·4항·7항).</li><li><time datetime=\"2026-10-15\">2026-10-15</time> 웹사이트 문의 입력 폼 안내를 추가했습니다(9항).</li><li><time datetime=\"2026-10-08\">2026-10-08</time> CallerNote+(Android)가 기기에 저장하는 고객 데이터, 선택 기능인 Google Drive 동기화, 이 앱이 사용하는 권한(통화 걸러내기 역할, 알림 접근, 전화 상태, 연락처) 안내를 추가했습니다(2항·3항·7항).</li><li><time datetime=\"2026-10-01\">2026-10-01</time> 앱 페이지의 YouTube 영상 재생 안내를 추가했습니다(8항).</li><li><time datetime=\"2026-10-01\">2026-10-01</time> Rotate+(Android)와 이 앱이 사용하는 권한(접근성 서비스, 사용 기록 접근, 시스템 설정 변경, 근처 기기), 통화 감지 방식 안내를 추가했습니다(7항).</li><li><time datetime=\"2026-09-17\">2026-09-17</time> Windows용 PhotoCleaner+·ReadFocus+·FloatTimer+·FloatCrypto+가 PRO 구매 완료 시 보내는 구매 기록 안내를 더했습니다(1항·6항).</li><li><time datetime=\"2026-09-15\">2026-09-15</time> 앱별 정보 처리 현황을 추가하고, Android용 Clipboard+·FloatNote+의 Google Drive 백업·동기화, 광고 동의, 인터넷 연결(환율·시세·ML Kit), 웹사이트 저장소와 문의 메일 안내를 더했습니다. 권한 설명을 실제 앱에 맞게 고치고 구성을 정리했습니다. PhotoCleaner+ for Windows 안내를 더했습니다.</li><li><time datetime=\"2026-09-11\">2026-09-11</time> 문의 이메일 주소를 변경했습니다.</li><li><time datetime=\"2026-08-03\">2026-08-03</time> Windows용 FloatNote+의 클라우드 동기화 안내를 추가했습니다.</li><li><time datetime=\"2026-07-15\">2026-07-15</time> Windows용 Clipboard+의 클라우드 동기화 안내를 추가했습니다.</li></ul>"
     }
   ]
 }

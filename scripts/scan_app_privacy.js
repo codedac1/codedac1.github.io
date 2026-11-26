@@ -65,7 +65,13 @@ const SERVICE_PERM_CODE = {
   'android.permission.BIND_NOTIFICATION_LISTENER_SERVICE': 'notificationAccess',
 };
 const PERM_ORDER = ['callScreening', 'notificationAccess', 'accessibility', 'usage', 'overlay', 'phoneState', 'contacts', 'location', 'camera', 'microphone', 'storage', 'writeSettings', 'notifications', 'foreground', 'boot', 'battery', 'audio', 'bluetooth', 'adId'];
-const DATA_ORDER = ['ads', 'billing', 'store', 'usageStats', 'purchaseReport', 'driveSync', 'driveBackup', 'fx', 'crypto', 'mlkit'];
+const DATA_ORDER = ['ads', 'billing', 'store', 'usageStats', 'purchaseReport', 'proLink', 'driveSync', 'driveBackup', 'fx', 'crypto', 'mlkit'];
+// 자사 서버 경로 → 코드. 따옴표 안의 경로만 본다(주석의 <c>/entitle/ms</c> 같은 언급은 무시).
+//   purchaseReport: Windows 구매 기록(…/msstore)   proLink: 폰·PC Pro 함께 쓰기(/entitle/check·play·ms)
+const ENDPOINT_CODE = [
+  [/msstore-report-[a-z0-9.-]+\/msstore["']/, 'purchaseReport'],
+  [/["']\/entitle\/(check|play|ms)["']/, 'proLink'],
+];
 
 // 소스에 나오는 외부 호스트 → 코드. 문서·정책 링크처럼 앱이 데이터를 주고받지 않는 주소는 IGNORE.
 const HOST_CODE = {
@@ -75,7 +81,9 @@ const HOST_CODE = {
   'api3.binance.com': 'crypto', 'api4.binance.com': 'crypto',
   'www.googleapis.com': null, // Google Drive — 범위(scope)로 따로 판정
   // 자사 구매 기록 서버(Data/notify, Cloud Run). **방침 1·6항이 이 전송을 예외로 적고 있다** — 다른 앱에 붙이면 방침도 고칠 것.
-  'msstore-report-847105046915.asia-northeast3.run.app': 'purchaseReport',
+  // 같은 서버가 폰·PC Pro 함께 쓰기(/entitle/*, 2026-11-26 Clipboard+·FloatNote+)도 받으므로 호스트로는 정하지 않고
+  // 경로로 나눈다(ENDPOINT_CODE). **방침 1·3·6항이 proLink 를 적고 있다.**
+  'msstore-report-847105046915.asia-northeast3.run.app': null,
   // 익명 사용 통계 서버(Data/events, 2026-11-11). **방침 1·7항이 이 전송을 적고 있다.**
   'codedac-events-847105046915.asia-northeast1.run.app': 'usageStats',
 };
@@ -131,6 +139,7 @@ function scanAndroid(project) {
 
   for (const f of walk(root, (p, n) => notBuild(p) && /\.(kt|java)$/.test(n))) {
     const src = read(f);
+    for (const [re, code] of ENDPOINT_CODE) if (re.test(src)) data.push(code);
     if (/drive\.appdata|DRIVE_APPDATA/.test(src)) data.push('driveSync');
     if (/auth\/drive\.file|DRIVE_FILE/.test(src)) data.push('driveBackup');
     for (const m of src.matchAll(/https?:\/\/([a-zA-Z0-9.-]+\.[a-z]{2,})/g)) {
@@ -150,6 +159,7 @@ function scanWindows(project) {
   if (/PackageReference\s+Include="Google\.Apis\.Drive/.test(csproj)) data.push('driveSync');
   for (const f of walk(root, (p, n) => n.endsWith('.cs'))) {
     const src = read(f);
+    for (const [re, code] of ENDPOINT_CODE) if (re.test(src)) data.push(code);
     if (/\bStoreContext\b/.test(src)) data.push('store');
     for (const m of src.matchAll(/https?:\/\/([a-zA-Z0-9.-]+\.[a-z]{2,})/g)) {
       const host = m[1].toLowerCase();

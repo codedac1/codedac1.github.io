@@ -5,6 +5,7 @@
       "ads",
       "billing",
       "usageStats",
+      "proLink",
       "driveSync",
       "driveBackup"
     ],
@@ -16,7 +17,7 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-11-09"
+    "mergedManifest": "2026-11-26"
   },
   "autostart": {
     "platform": "android",
@@ -33,7 +34,7 @@
       "battery",
       "adId"
     ],
-    "mergedManifest": "2026-11-11"
+    "mergedManifest": "2026-11-20"
   },
   "floatcalc": {
     "platform": "android",
@@ -49,7 +50,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-11-09"
+    "mergedManifest": "2026-11-25"
   },
   "floatcrypto": {
     "platform": "android",
@@ -66,7 +67,7 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-11-11"
+    "mergedManifest": "2026-11-19"
   },
   "floattimer": {
     "platform": "android",
@@ -81,7 +82,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-11-11"
+    "mergedManifest": "2026-11-25"
   },
   "volumebooster": {
     "platform": "android",
@@ -97,7 +98,7 @@
       "audio",
       "adId"
     ],
-    "mergedManifest": "2026-11-11"
+    "mergedManifest": "2026-11-23"
   },
   "photocleaner": {
     "platform": "android",
@@ -110,7 +111,7 @@
     "perms": [
       "adId"
     ],
-    "mergedManifest": "2026-11-11"
+    "mergedManifest": "2026-11-19"
   },
   "readfocus": {
     "platform": "android",
@@ -125,7 +126,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-11-10"
+    "mergedManifest": "2026-11-25"
   },
   "floatnote": {
     "platform": "android",
@@ -133,6 +134,7 @@
       "ads",
       "billing",
       "usageStats",
+      "proLink",
       "driveSync"
     ],
     "perms": [
@@ -142,7 +144,7 @@
       "boot",
       "adId"
     ],
-    "mergedManifest": "2026-11-09"
+    "mergedManifest": "2026-11-26"
   },
   "rotate": {
     "platform": "android",
@@ -163,7 +165,7 @@
       "bluetooth",
       "adId"
     ],
-    "mergedManifest": "2026-11-09"
+    "mergedManifest": "2026-11-25"
   },
   "floatprompter": {
     "platform": "android",
@@ -181,7 +183,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-11-05"
+    "mergedManifest": "2026-11-19"
   },
   "floatweb": {
     "platform": "android",
@@ -199,7 +201,7 @@
       "foreground",
       "adId"
     ],
-    "mergedManifest": "2026-11-09"
+    "mergedManifest": "2026-11-18"
   },
   "clipboardwin": {
     "platform": "windows",
@@ -207,6 +209,7 @@
       "store",
       "usageStats",
       "purchaseReport",
+      "proLink",
       "driveSync"
     ],
     "perms": []
@@ -226,6 +229,7 @@
       "store",
       "usageStats",
       "purchaseReport",
+      "proLink",
       "driveSync"
     ],
     "perms": []
