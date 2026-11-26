@@ -12,7 +12,7 @@ Features:
 - Optional Auto-save keeps what you copy the moment you copy it; text and images in a searchable history, newest first
 - Resizable floating overlay for use over any app
 - Organize frequent text into snippets and groups
-- Instant search and filter by keyword, text, image, or date
+- Instant keyword search, filters for links, images, text and pinned clips, and period filters: Today, This week, This month, This year
 - Fast paste from a home screen widget and the notification panel, and save from any app via the text selection menu
 - Bidirectional phone-to-PC sync through your own Google Drive, export clipboard history to PDF, plus backup and restore
 
@@ -208,14 +208,14 @@ Store: https://play.google.com/store/apps/details?id=com.codedac.readfocus
 
 Sticky notes that float over any app! Jot down a thought and it stays on your screen, always one tap away.
 
-FloatNote+ keeps sticky notes floating on top of any app. Grant the overlay permission once and every note lives as a small chip above your browser, chat, video or home screen; tap it and the chip expands into a full card you can read, edit and share on the spot. Colors, rich text and inline images keep each note distinct, while the main app works as a library for searching, pinning and reordering. Light and dark themes are both included. Pair it with FloatNote+ for Windows and notes written on your phone show up on your PC, and notes written on your PC show up on your phone. You just sign in to Google Drive with the same account in both apps, and your notes never pass through a CodeDAC server — they are stored only in your own Google Drive.
+FloatNote+ keeps sticky notes floating on top of any app. Grant the overlay permission once and every note lives as a small chip above your browser, chat, video or home screen; tap it and the chip expands into a full card you can read, edit and share on the spot. Eight colors plus custom colors, rich text, checklists and inline images keep each note distinct, while the main app works as a library for searching, pinning and reordering. Light and dark themes are both included. Pair it with FloatNote+ for Windows and notes written on your phone show up on your PC, and notes written on your PC show up on your phone. You just sign in to Google Drive with the same account in both apps, and your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Turn on “Show new notes from other devices” and a new note you leave floating on one device floats on the other too after sync.
 
 Features:
 - Floating overlay notes: collapse a note to a chip, expand it to a full card over any app
-- 7 sticky-note colors plus any color from a color wheel or color code, and rich text: bold, italic, underline, strikethrough, text color and size
+- 8 sticky-note colors plus custom colors from a color wheel or color code, rich text (bold, italic, underline, strikethrough, text color and size) and checklists you tick off with a tap
 - Inline images: attach photos right inside a note
 - Note reminders — once, every day, weekdays or chosen days
-- Library with instant search, pinning and drag-to-reorder — dragging a chip to the bottom zone stashes the note instead of deleting it
+- Library with instant search, pinning and drag-to-reorder that shows each note's checklist progress (such as 2/5), reminder time and character count — dragging a chip to the bottom zone stashes the note instead of deleting it
 - Unlimited floating notes, Google Drive sync and unlimited reminders
 
 FAQ:
@@ -224,7 +224,7 @@ FAQ:
 - Q: Where can I use it?
   A: Anywhere on screen — over a browser, a chat, a video, a document or the home screen. You can also create a note without opening the app: from the share sheet, from text you select in another app, or from the Quick Settings tile. The home screen widget shows your notes, and a tap floats one.
 - Q: Does it sync with my Windows PC?
-  A: Yes. Install FloatNote+ for Windows as well, then in the settings of both apps sign in to Google Drive with the same account and turn on automatic sync. Notes written on your phone then show up on your PC, and notes written on your PC show up on your phone. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices.
+  A: Yes. Install FloatNote+ for Windows as well, then in the settings of both apps sign in to Google Drive with the same account and turn on automatic sync. Notes written on your phone then show up on your PC, and notes written on your PC show up on your phone. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices. Turn on “Show new notes from other devices” and a new note you leave floating on one device floats on the other too after sync.
 - Q: Can I use FloatNote+ on an Android car head unit?
   A: Yes, if your head unit has Google Play and runs Android 8.0 or later. Notes float on top of navigation or music. The setup screens are laid out for wide, short landscape displays. The head unit must allow “Display over other apps”.
 - Q: Can a note pop up at a set time?
@@ -317,7 +317,7 @@ Clipboard+ for Windows is a tray-resident clipboard manager that automatically s
 Features:
 - Sits in the tray and saves text and images the moment you copy them — it never has to keep checking in the background, so it stays light
 - Bidirectional phone-to-PC sync through your own Google Drive
-- Android-style UI with light/dark themes, group sidebar, snippets, and pin/copy/edit/search
+- Android-style UI with light/dark themes, group sidebar, snippets, pin/copy/edit, and search with filters by type (links, images, text, pinned) and period (Today, This week, This month, This year)
 - Multi-select bulk move, delete, and merge, newest/oldest sorting, and a full-size image viewer
 - Quick-pick popup at the cursor on a global hotkey, plus hotkeys to open the window and capture text selected in other apps, and run-at-startup
 - Export/import compatible with the Android Clipboard+ backup format, plus PDF export
@@ -362,19 +362,19 @@ Store: https://apps.microsoft.com/detail/9NMSHKKX3R5C
 
 Sticky notes that float on top of whatever you are working in: write without leaving the window you are in, and they never steal its focus.
 
-FloatNote+ for Windows is the desktop version of the Android FloatNote+ app. Every note lives as a small chip above your browser, your editor or your spreadsheet; click it and it expands into a card right there, ready to read or edit, and the arrow at the top or Esc folds it back into a chip. A chip never takes focus from the app behind it, so whatever you were typing stays exactly as it was — and there is no save button, since every keystroke is committed for you. Seven pastel colors, rich text and inline images keep notes apart, a library window handles search, pinning and management, and optional sync moves your notes through an app-private folder in your own Google Drive, the same one the Android app uses.
+FloatNote+ for Windows is the desktop version of the Android FloatNote+ app. Every note lives as a small chip above your browser, your editor or your spreadsheet; click it and it expands into a card right there, ready to read or edit, and the arrow at the top or Esc folds it back into a chip. A chip never takes focus from the app behind it, so whatever you were typing stays exactly as it was — and there is no save button, since every keystroke is committed for you. Eight note colors plus custom colors, rich text, checklists and inline images keep notes apart, a library window handles search, pinning and management and shows each note's checklist progress, reminder time and character count, and optional sync moves your notes through an app-private folder in your own Google Drive, the same one the Android app uses. Turn on “Show new notes from other devices” and a new note you leave floating on one device floats on the other too after sync.
 
 Features:
 - Sticky notes that float above every window: a chip expands into an editable card in place, and Esc folds it back
 - Never steals focus — drag or click a chip and your cursor stays in the app you were typing in
 - Note reminders — once, every day, weekdays or chosen days
-- Rich text — bold, italic, underline, strikethrough, text color and size — with 7 pastel note colors and inline images
+- Rich text — bold, italic, underline, strikethrough, text color and size — with 8 note colors plus custom colors, checklists and inline images
 - Bidirectional phone-to-PC sync through your own Google Drive — the same app-private folder the Android app uses, and never a CodeDAC server
 - Global hotkeys, system tray, light and dark themes, run at logon, 21 languages. Float several notes at once, with adjustable transparency, and export and import
 
 FAQ:
 - Q: Is this the same app as FloatNote+ on Android?
-  A: It is the same app built for Windows, with the same chips and cards. Once you sign in to Google Drive with the same account in both apps and turn on automatic sync, notes written on the PC show up on the phone and notes written on the phone show up on the PC. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices.
+  A: It is the same app built for Windows, with the same chips and cards. Once you sign in to Google Drive with the same account in both apps and turn on automatic sync, notes written on the PC show up on the phone and notes written on the phone show up on the PC. Your notes never pass through a CodeDAC server — they are stored only in your own Google Drive. Both the note text and the images attached to it travel between devices. Turn on “Show new notes from other devices” and a new note you leave floating on one device floats on the other too after sync.
 - Q: Does it get in the way of the app underneath?
   A: No. A chip is a floating window that never takes focus, so clicking or dragging one leaves your cursor exactly where you were typing. Click a chip to expand the card, click the arrow at the top, press Esc or click elsewhere and it folds back, already saved.
 - Q: Can a note pop up at a set time?

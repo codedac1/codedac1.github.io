@@ -141,7 +141,7 @@
         "İsteğe bağlı otomatik kaydetmeyle kopyaladığınız anda kayıt; metin ve görseller aranabilir, en yeniden eskiye geçmişte",
         "Her uygulamanın üzerinde kullanılabilen, boyutu ayarlanabilir kayan pencere",
         "Sık kullanılan metinleri snippet'ler ve gruplar halinde düzenleyin",
-        "Anahtar kelime, metin, görsel veya tarihe göre anında arama ve filtreleme",
+        "Anahtar kelimeyle anında arama, bağlantı, görsel, metin ve sabitlenenler için filtreler ve dönem filtreleri: Bugün, Bu hafta, Bu ay, Bu yıl",
         "Ana ekran widget'ı ve bildirim panelinden hızlı yapıştırma, metin seçim menüsüyle her uygulamadan kaydetme",
         "Kendi Google Drive'ınız üzerinden telefondan bilgisayara çift yönlü senkronizasyon, pano geçmişini PDF'e aktarma, ayrıca yedekleme ve geri yükleme"
       ],
@@ -403,13 +403,13 @@
       "seo": "yüzen yapışkan notlar",
       "desc": "Her uygulamanın üstünde yüzen yapışkan notlar. Çipe küçült, kart olarak aç; renkler ve zengin metin.",
       "tagline": "Her uygulamanın üstünde yüzen yapışkan notlar: hızlıca bir not al, ekranında kalsın; her zaman bir dokunuş uzağında.",
-      "long": "FloatNote+, yapışkan notları her uygulamanın üstünde yüzer tutar. Kaplama iznini bir kez verin; her not tarayıcının, sohbetin, videonun ya da ana ekranın üstünde küçük bir çip olarak durur, dokunduğunuzda ise olduğu yerde tam bir karta genişleyerek okumaya, düzenlemeye ve paylaşmaya hazır olur. Renkler, zengin metin ve görseller notları birbirinden ayırır; ana uygulama ise arama, sabitleme ve sıralama için arşiv görevi görür. Açık ve koyu tema birlikte gelir. FloatNote+ for Windows ile birlikte kullandığınızda telefonda yazdığınız notlar bilgisayarda, bilgisayarda yazdığınız notlar telefonda görünür. Bunun için her iki uygulamada da aynı hesapla Google Drive'a giriş yapmanız yeterli; notlar hiçbir CodeDAC sunucusundan geçmez, yalnızca kendi Google Drive'ınızda saklanır.",
+      "long": "FloatNote+, yapışkan notları her uygulamanın üstünde yüzer tutar. Kaplama iznini bir kez verin; her not tarayıcının, sohbetin, videonun ya da ana ekranın üstünde küçük bir çip olarak durur, dokunduğunuzda ise olduğu yerde tam bir karta genişleyerek okumaya, düzenlemeye ve paylaşmaya hazır olur. Sekiz renk ve özel renkler, zengin metin, kontrol listeleri ve görseller notları birbirinden ayırır; ana uygulama ise arama, sabitleme ve sıralama için arşiv görevi görür. Açık ve koyu tema birlikte gelir. FloatNote+ for Windows ile birlikte kullandığınızda telefonda yazdığınız notlar bilgisayarda, bilgisayarda yazdığınız notlar telefonda görünür. Bunun için her iki uygulamada da aynı hesapla Google Drive'a giriş yapmanız yeterli; notlar hiçbir CodeDAC sunucusundan geçmez, yalnızca kendi Google Drive'ınızda saklanır. “Diğer cihazlardaki yeni notları göster” açıkken bir cihazda yüzer bıraktığınız yeni not, senkronizasyondan sonra diğer cihazda da yüzer.",
       "features": [
         "Yüzen kaplama notlar: notu küçük bir çipe küçültün, her uygulamanın üstünde tam kart olarak açın",
-        "7 not rengi ve renk çarkından ya da renk koduyla istediğiniz renk, zengin metin: kalın, italik, altı çizili, üstü çizili, metin rengi ve boyutu",
+        "8 not rengi ve renk çarkından ya da renk koduyla özel renkler, zengin metin (kalın, italik, altı çizili, üstü çizili, metin rengi ve boyutu) ve tek dokunuşla işaretlenen kontrol listeleri",
         "Notta görsel: fotoğrafları doğrudan notun içine ekleyin",
         "Not hatırlatıcıları — bir kez, her gün, hafta içi ya da seçilen günler",
-        "Anında arama, sabitleme ve sürükleyerek sıralama sunan arşiv; çipi alttaki bölgeye bırakmak notu silmez, kaldırır",
+        "Anında arama, sabitleme ve sürükleyerek sıralama sunan, her notun kontrol listesi ilerlemesini (ör. 2/5), hatırlatma saatini ve karakter sayısını gösteren arşiv; çipi alttaki bölgeye bırakmak notu silmez, kaldırır",
         "Sınırsız yüzen not, Google Drive eşitleme ve sınırsız hatırlatıcı"
       ],
       "faq": [
@@ -423,7 +423,7 @@
         },
         {
           "q": "Windows bilgisayarımla senkronize oluyor mu?",
-          "a": "Evet. FloatNote+ for Windows'u da kurun, ardından her iki uygulamanın ayarlarında aynı hesapla Google Drive'a giriş yapıp otomatik senkronizasyonu açın. Bundan sonra telefonda yazdığınız notlar bilgisayarda, bilgisayarda yazdığınız notlar telefonda görünür. Notlar hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Not metni de ekli görseller de cihazlar arasında taşınır."
+          "a": "Evet. FloatNote+ for Windows'u da kurun, ardından her iki uygulamanın ayarlarında aynı hesapla Google Drive'a giriş yapıp otomatik senkronizasyonu açın. Bundan sonra telefonda yazdığınız notlar bilgisayarda, bilgisayarda yazdığınız notlar telefonda görünür. Notlar hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Not metni de ekli görseller de cihazlar arasında taşınır. “Diğer cihazlardaki yeni notları göster” açıkken bir cihazda yüzer bıraktığınız yeni not, senkronizasyondan sonra diğer cihazda da yüzer."
         },
         {
           "q": "FloatNote+ uygulamasını Android araç multimedya cihazında kullanabilir miyim?",
@@ -535,7 +535,7 @@
       "features": [
         "Tepside durur ve kopyaladığınız anda metinleri ve görselleri otomatik kaydeder — arka planda sürekli yoklama yapmadığı için hafiftir",
         "Kendi Google Drive'ınız üzerinden telefondan bilgisayara çift yönlü senkronizasyon",
-        "Açık/koyu temalar, grup kenar çubuğu, snippet'ler ve sabitleme/kopyalama/düzenleme/arama içeren Android tarzı arayüz",
+        "Açık/koyu temalar, grup kenar çubuğu, snippet'ler, sabitleme/kopyalama/düzenleme ve türe (bağlantılar, görseller, metin, sabitlenenler) ve döneme (Bugün, Bu hafta, Bu ay, Bu yıl) göre filtreli arama içeren Android tarzı arayüz",
         "Çoklu seçimle toplu taşıma, silme ve birleştirme; en yeni/en eski sıralaması ve tam boyutlu görsel görüntüleyici",
         "Genel kısayolla imlecin yanında açılan hızlı seçim penceresi, ayrıca pencereyi açma ve diğer uygulamalarda seçili metni alma kısayolları ile Windows'la birlikte başlatma",
         "Android Clipboard+ yedek biçimiyle uyumlu dışa/içe aktarma ve PDF dışa aktarma"
@@ -591,19 +591,19 @@
       "seo": "PC yapışkan notlar",
       "desc": "Windows'ta her pencerenin üstünde yüzen yapışkan notlar; FloatNote+ Android uygulamasıyla eşitlenir.",
       "tagline": "Üzerinde çalıştığınız şeyin üstünde yüzen yapışkan notlar: penceredeninizden çıkmadan yazın, odağı da asla almazlar.",
-      "long": "FloatNote+ for Windows, Android'deki FloatNote+ uygulamasının masaüstü sürümüdür. Her not, tarayıcınızın, düzenleyicinizin ya da hesap tablonuzun üstünde küçük bir çip olarak durur; tıkladığınızda olduğu yerde karta genişleyip okumaya ve düzenlemeye hazır olur, üstteki ok veya Esc ile yeniden çipe katlanır. Çip, arkasındaki uygulamanın odağını asla almaz; yazdığınız metin olduğu gibi kalır. Kaydet düğmesi de yoktur, her tuş vuruşu sizin için yazılır. Yedi pastel renk, zengin metin ve not içi görseller notları birbirinden ayırır; arşiv penceresi arama, sabitleme ve düzeni üstlenir. İsteğe bağlı eşitleme ise notlarınızı kendi Google Drive'ınızdaki uygulamaya özel bir klasör üzerinden taşır — Android sürümünün kullandığı klasörün aynısı.",
+      "long": "FloatNote+ for Windows, Android'deki FloatNote+ uygulamasının masaüstü sürümüdür. Her not, tarayıcınızın, düzenleyicinizin ya da hesap tablonuzun üstünde küçük bir çip olarak durur; tıkladığınızda olduğu yerde karta genişleyip okumaya ve düzenlemeye hazır olur, üstteki ok veya Esc ile yeniden çipe katlanır. Çip, arkasındaki uygulamanın odağını asla almaz; yazdığınız metin olduğu gibi kalır. Kaydet düğmesi de yoktur, her tuş vuruşu sizin için yazılır. Sekiz not rengi ve özel renkler, zengin metin, kontrol listeleri ve not içi görseller notları birbirinden ayırır; arşiv penceresi arama, sabitleme ve düzeni üstlenir, her notun kontrol listesi ilerlemesini, hatırlatma saatini ve karakter sayısını gösterir. İsteğe bağlı eşitleme ise notlarınızı kendi Google Drive'ınızdaki uygulamaya özel bir klasör üzerinden taşır — Android sürümünün kullandığı klasörün aynısı. “Diğer cihazlardaki yeni notları göster” açıkken bir cihazda yüzer bıraktığınız yeni not, senkronizasyondan sonra diğer cihazda da yüzer.",
       "features": [
         "Her pencerenin üstünde yüzen yapışkan notlar: çip olduğu yerde düzenlenebilir karta genişler, Esc ile geri katlanır",
         "Odağı asla almaz — çipi sürükleyin ya da tıklayın, imleç yazdığınız uygulamada kalır",
         "Not hatırlatıcıları — bir kez, her gün, hafta içi ya da seçilen günler",
-        "Zengin metin — kalın, italik, altı çizili, üstü çizili, metin rengi ve boyutu — ayrıca 7 pastel not rengi ve not içi görseller",
+        "Zengin metin — kalın, italik, altı çizili, üstü çizili, metin rengi ve boyutu — ayrıca 8 not rengi, özel renkler, kontrol listeleri ve not içi görseller",
         "Kendi Google Drive'ınız üzerinden telefondan bilgisayara çift yönlü senkronizasyon — Android uygulamasının kullandığı uygulamaya özel klasörün aynısı, hiçbir CodeDAC sunucusu devrede değil",
         "Global kısayollar, sistem tepsisi, açık ve koyu tema, oturum açılışında başlatma, 21 dil. Aynı anda birden çok yüzen not, ayarlanabilir saydamlık, dışa ve içe aktarma"
       ],
       "faq": [
         {
           "q": "Bu, Android'deki FloatNote+ ile aynı uygulama mı?",
-          "a": "Windows için yapılmış aynı uygulama; çipler ve kartlar da aynı. Her iki uygulamanın ayarlarında aynı hesapla Google Drive'a giriş yapıp otomatik senkronizasyonu açtığınızda bilgisayarda yazdığınız notlar telefona, telefonda yazdıklarınız bilgisayara gelir. Notlar hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Not metni de ekli görseller de cihazlar arasında taşınır."
+          "a": "Windows için yapılmış aynı uygulama; çipler ve kartlar da aynı. Her iki uygulamanın ayarlarında aynı hesapla Google Drive'a giriş yapıp otomatik senkronizasyonu açtığınızda bilgisayarda yazdığınız notlar telefona, telefonda yazdıklarınız bilgisayara gelir. Notlar hiçbir CodeDAC sunucusundan geçmez; yalnızca kendi Google Drive'ınızda saklanır. Not metni de ekli görseller de cihazlar arasında taşınır. “Diğer cihazlardaki yeni notları göster” açıkken bir cihazda yüzer bıraktığınız yeni not, senkronizasyondan sonra diğer cihazda da yüzer."
         },
         {
           "q": "Alttaki uygulamayı engeller mi?",

@@ -141,7 +141,7 @@
         "Guardado automático opcional en el momento de copiar; textos e imágenes en un historial con búsqueda, lo más reciente primero",
         "Superposición flotante de tamaño ajustable para usar sobre cualquier app",
         "Organiza el texto frecuente en fragmentos y grupos",
-        "Búsqueda y filtro al instante por palabra clave, texto, imagen o fecha",
+        "Búsqueda instantánea por palabra clave, filtros de enlaces, imágenes, texto y fijados, y filtros de periodo: Hoy, Esta semana, Este mes, Este año",
         "Pegado rápido desde el widget y el panel de notificaciones, y guardado desde cualquier app con el menú de selección de texto",
         "Sincronización bidireccional teléfono-PC a través de tu propio Google Drive, exporta el historial del portapapeles a PDF, con copia de seguridad y restauración"
       ],
@@ -403,13 +403,13 @@
       "seo": "notas adhesivas flotantes",
       "desc": "Notas adhesivas que flotan sobre cualquier app. Contrae en un chip, abre como tarjeta, con colores y texto enriquecido.",
       "tagline": "Notas adhesivas que flotan sobre cualquier app: anota una idea y se queda en pantalla, siempre a un toque.",
-      "long": "FloatNote+ mantiene notas adhesivas flotando sobre cualquier app. Concede el permiso de superposición una vez y cada nota vive como un chip pequeño sobre el navegador, el chat, el vídeo o la pantalla de inicio; al tocarlo se abre ahí mismo como tarjeta completa para leer, editar y compartir. Los colores, el texto enriquecido y las imágenes distinguen cada nota, mientras la app principal funciona como archivo para buscar, fijar y reordenar. Incluye tema claro y oscuro. Si lo usas junto con FloatNote+ for Windows, las notas escritas en el teléfono aparecen en el PC, y las escritas en el PC aparecen en el teléfono. Basta con iniciar sesión en Google Drive con la misma cuenta en ambas apps; las notas no pasan por ningún servidor de CodeDAC: se guardan solo en tu propio Google Drive.",
+      "long": "FloatNote+ mantiene notas adhesivas flotando sobre cualquier app. Concede el permiso de superposición una vez y cada nota vive como un chip pequeño sobre el navegador, el chat, el vídeo o la pantalla de inicio; al tocarlo se abre ahí mismo como tarjeta completa para leer, editar y compartir. Ocho colores más colores personalizados, el texto enriquecido, las listas de verificación y las imágenes distinguen cada nota, mientras la app principal funciona como archivo para buscar, fijar y reordenar. Incluye tema claro y oscuro. Si lo usas junto con FloatNote+ for Windows, las notas escritas en el teléfono aparecen en el PC, y las escritas en el PC aparecen en el teléfono. Basta con iniciar sesión en Google Drive con la misma cuenta en ambas apps; las notas no pasan por ningún servidor de CodeDAC: se guardan solo en tu propio Google Drive. Con «Mostrar notas nuevas de otros dispositivos» activado, una nota nueva que dejas flotando en un dispositivo también flota en el otro tras sincronizar.",
       "features": [
         "Notas overlay flotantes: contrae una nota en un chip y ábrela como tarjeta sobre cualquier app",
-        "7 colores de nota y cualquier otro con la rueda de color o un código, y texto enriquecido: negrita, cursiva, subrayado, tachado, color y tamaño del texto",
+        "8 colores de nota más colores personalizados con la rueda de color o un código, texto enriquecido (negrita, cursiva, subrayado, tachado, color y tamaño del texto) y listas de verificación que se marcan con un toque",
         "Imágenes en la nota: adjunta fotos dentro de la propia nota",
         "Recordatorios de notas: una vez, a diario, entre semana o los días que elijas",
-        "Archivo con búsqueda instantánea, notas fijadas y reordenación arrastrando; llevar un chip a la zona inferior guarda la nota en lugar de borrarla",
+        "Archivo con búsqueda instantánea, notas fijadas y reordenación arrastrando, que muestra en cada nota el progreso de la lista (como 2/5), la hora del recordatorio y el número de caracteres; llevar un chip a la zona inferior guarda la nota en lugar de borrarla",
         "Notas flotantes ilimitadas, sincronización con Google Drive y recordatorios ilimitados"
       ],
       "faq": [
@@ -423,7 +423,7 @@
         },
         {
           "q": "¿Se sincroniza con mi PC con Windows?",
-          "a": "Sí. Instala también FloatNote+ for Windows y, en los ajustes de ambas apps, inicia sesión en Google Drive con la misma cuenta y activa la sincronización automática. A partir de ahí, las notas escritas en el teléfono aparecen en el PC, y las escritas en el PC aparecen en el teléfono. Las notas no pasan por ningún servidor de CodeDAC: se guardan solo en tu propio Google Drive. Se sincronizan tanto el texto como las imágenes adjuntas."
+          "a": "Sí. Instala también FloatNote+ for Windows y, en los ajustes de ambas apps, inicia sesión en Google Drive con la misma cuenta y activa la sincronización automática. A partir de ahí, las notas escritas en el teléfono aparecen en el PC, y las escritas en el PC aparecen en el teléfono. Las notas no pasan por ningún servidor de CodeDAC: se guardan solo en tu propio Google Drive. Se sincronizan tanto el texto como las imágenes adjuntas. Con «Mostrar notas nuevas de otros dispositivos» activado, una nota nueva que dejas flotando en un dispositivo también flota en el otro tras sincronizar."
         },
         {
           "q": "¿Puedo usar FloatNote+ en una radio de coche Android?",
@@ -535,7 +535,7 @@
       "features": [
         "Residente en la bandeja: guarda textos e imágenes en cuanto los copias, sin tener que comprobar el portapapeles en segundo plano, así que es ligero",
         "Sincronización bidireccional teléfono-PC a través de tu propio Google Drive",
-        "Interfaz al estilo de Android con temas claro/oscuro, barra lateral de grupos, fragmentos y anclar/copiar/editar/buscar",
+        "Interfaz al estilo de Android con temas claro/oscuro, barra lateral de grupos, fragmentos, anclar/copiar/editar y búsqueda con filtros por tipo (enlaces, imágenes, texto, fijados) y periodo (Hoy, Esta semana, Este mes, Este año)",
         "Selección múltiple para mover, eliminar y combinar en bloque, orden por más reciente/más antiguo y un visor de imágenes a tamaño completo",
         "Ventana de selección rápida en el cursor con un atajo global, además de atajos para abrir la ventana y capturar el texto seleccionado en otras apps, e inicio automático con Windows",
         "Exportación/importación compatible con el formato de copia de seguridad de Clipboard+ para Android, y exportación a PDF"
@@ -591,19 +591,19 @@
       "seo": "notas adhesivas para PC",
       "desc": "Notas adhesivas que flotan sobre cualquier ventana de Windows y se sincronizan con la app de Android FloatNote+.",
       "tagline": "Notas adhesivas que flotan sobre aquello en lo que estás trabajando: escribe sin salir de tu ventana, y nunca le quitan el foco.",
-      "long": "FloatNote+ for Windows es la versión de escritorio de la app FloatNote+ para Android. Cada nota vive como un chip pequeño sobre tu navegador, tu editor o tu hoja de cálculo; haz clic y se abre ahí mismo como tarjeta, lista para leer o editar, y con la flecha de arriba o Esc vuelve a plegarse en chip. Un chip nunca le quita el foco a la app que tiene detrás, así que lo que estabas escribiendo sigue igual, y no hay botón de guardar: cada pulsación se guarda por ti. Siete colores pastel, texto enriquecido e imágenes dentro de la nota las distinguen; una ventana de archivo se encarga de buscar, fijar y organizar, y la sincronización opcional lleva tus notas por una carpeta privada de la app en tu propio Google Drive, la misma que usa la app de Android.",
+      "long": "FloatNote+ for Windows es la versión de escritorio de la app FloatNote+ para Android. Cada nota vive como un chip pequeño sobre tu navegador, tu editor o tu hoja de cálculo; haz clic y se abre ahí mismo como tarjeta, lista para leer o editar, y con la flecha de arriba o Esc vuelve a plegarse en chip. Un chip nunca le quita el foco a la app que tiene detrás, así que lo que estabas escribiendo sigue igual, y no hay botón de guardar: cada pulsación se guarda por ti. Ocho colores de nota más colores personalizados, texto enriquecido, listas de verificación e imágenes dentro de la nota las distinguen; una ventana de archivo se encarga de buscar, fijar y organizar, y muestra en cada nota el progreso de la lista, la hora del recordatorio y el número de caracteres, y la sincronización opcional lleva tus notas por una carpeta privada de la app en tu propio Google Drive, la misma que usa la app de Android. Con «Mostrar notas nuevas de otros dispositivos» activado, una nota nueva que dejas flotando en un dispositivo también flota en el otro tras sincronizar.",
       "features": [
         "Notas adhesivas que flotan sobre cualquier ventana: el chip se abre ahí mismo como tarjeta editable y Esc lo vuelve a plegar",
         "Nunca quita el foco: arrastra o haz clic en un chip y el cursor sigue en la app en la que escribías",
         "Recordatorios de notas: una vez, a diario, entre semana o los días que elijas",
-        "Texto enriquecido —negrita, cursiva, subrayado, tachado, color y tamaño— con 7 colores pastel de nota e imágenes dentro de la nota",
+        "Texto enriquecido —negrita, cursiva, subrayado, tachado, color y tamaño— con 8 colores de nota más colores personalizados, listas de verificación e imágenes dentro de la nota",
         "Sincronización bidireccional teléfono-PC a través de tu propio Google Drive: la misma carpeta privada de la app que usa la versión de Android, sin pasar por ningún servidor de CodeDAC",
         "Atajos globales, bandeja del sistema, temas claro y oscuro, inicio con la sesión y 21 idiomas. Varias notas flotantes a la vez, transparencia ajustable, y exportación e importación"
       ],
       "faq": [
         {
           "q": "¿Es la misma app que FloatNote+ para Android?",
-          "a": "Es la misma app hecha para Windows, con los mismos chips y tarjetas. Si inicias sesión en Google Drive con la misma cuenta en ambas apps y activas la sincronización automática, las notas escritas en el PC llegan al teléfono y las escritas en el teléfono llegan al PC. Las notas no pasan por ningún servidor de CodeDAC: se guardan solo en tu propio Google Drive. Se sincronizan tanto el texto como las imágenes adjuntas."
+          "a": "Es la misma app hecha para Windows, con los mismos chips y tarjetas. Si inicias sesión en Google Drive con la misma cuenta en ambas apps y activas la sincronización automática, las notas escritas en el PC llegan al teléfono y las escritas en el teléfono llegan al PC. Las notas no pasan por ningún servidor de CodeDAC: se guardan solo en tu propio Google Drive. Se sincronizan tanto el texto como las imágenes adjuntas. Con «Mostrar notas nuevas de otros dispositivos» activado, una nota nueva que dejas flotando en un dispositivo también flota en el otro tras sincronizar."
         },
         {
           "q": "¿Molesta a la app que hay debajo?",

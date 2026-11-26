@@ -141,7 +141,7 @@
         "Tự động lưu (tùy chọn) ngay lúc sao chép; văn bản và hình ảnh trong lịch sử tìm kiếm được, mới nhất trước",
         "Lớp phủ nổi chỉnh được kích thước, dùng trên mọi ứng dụng",
         "Sắp xếp văn bản hay dùng thành snippet và nhóm",
-        "Tìm kiếm và lọc tức thì theo từ khóa, văn bản, hình ảnh hoặc ngày",
+        "Tìm kiếm tức thì theo từ khóa, bộ lọc liên kết, hình ảnh, văn bản và mục đã ghim, cùng bộ lọc thời gian: Hôm nay, Tuần này, Tháng này, Năm nay",
         "Dán nhanh từ widget màn hình chính và bảng thông báo, lưu từ mọi ứng dụng qua trình đơn chọn văn bản",
         "Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn, xuất lịch sử bộ nhớ tạm ra PDF, kèm sao lưu và khôi phục"
       ],
@@ -403,13 +403,13 @@
       "seo": "Ghi chú dán nổi trên màn hình",
       "desc": "Ghi chú dán nổi trên mọi ứng dụng. Thu gọn thành chip, mở thành thẻ, có màu sắc và định dạng.",
       "tagline": "Ghi chú dán nổi trên mọi ứng dụng: ghi nhanh một ý và nó ở lại trên màn hình, luôn cách bạn một chạm.",
-      "long": "FloatNote+ giữ ghi chú dán nổi trên mọi ứng dụng. Chỉ cần cấp quyền hiển thị trên ứng dụng khác một lần, mỗi ghi chú sẽ nằm dưới dạng chip nhỏ trên trình duyệt, trò chuyện, video hay màn hình chính; chạm vào là mở ngay tại chỗ thành thẻ đầy đủ để đọc, sửa và chia sẻ. Màu sắc, định dạng và hình ảnh giúp phân biệt từng ghi chú, còn ứng dụng chính đóng vai trò kho lưu để tìm kiếm, ghim và sắp xếp. Có cả giao diện sáng và tối. Dùng chung với FloatNote+ for Windows, ghi chú viết trên điện thoại sẽ hiện trên máy tính, và ghi chú viết trên máy tính sẽ hiện trên điện thoại. Bạn chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng; ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn.",
+      "long": "FloatNote+ giữ ghi chú dán nổi trên mọi ứng dụng. Chỉ cần cấp quyền hiển thị trên ứng dụng khác một lần, mỗi ghi chú sẽ nằm dưới dạng chip nhỏ trên trình duyệt, trò chuyện, video hay màn hình chính; chạm vào là mở ngay tại chỗ thành thẻ đầy đủ để đọc, sửa và chia sẻ. Tám màu cùng màu tùy chỉnh, định dạng, danh sách kiểm tra và hình ảnh giúp phân biệt từng ghi chú, còn ứng dụng chính đóng vai trò kho lưu để tìm kiếm, ghim và sắp xếp. Có cả giao diện sáng và tối. Dùng chung với FloatNote+ for Windows, ghi chú viết trên điện thoại sẽ hiện trên máy tính, và ghi chú viết trên máy tính sẽ hiện trên điện thoại. Bạn chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng; ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn. Khi bật “Hiện ghi chú mới từ thiết bị khác”, ghi chú mới bạn để nổi trên một thiết bị cũng sẽ nổi trên thiết bị kia sau khi đồng bộ.",
       "features": [
         "Ghi chú lớp phủ nổi: thu gọn thành chip nhỏ, mở thành thẻ đầy đủ trên mọi ứng dụng",
-        "7 màu ghi chú cùng màu bất kỳ từ bánh xe màu hoặc mã màu, và định dạng: in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ",
+        "8 màu ghi chú cùng màu tùy chỉnh từ bánh xe màu hoặc mã màu, định dạng (in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ) và danh sách kiểm tra đánh dấu chỉ bằng một chạm",
         "Hình ảnh trong ghi chú: đính kèm ảnh ngay bên trong",
         "Nhắc ghi chú — một lần, hằng ngày, ngày thường hoặc ngày tùy chọn",
-        "Kho lưu với tìm kiếm tức thì, ghim và kéo để sắp xếp; kéo chip xuống vùng dưới màn hình là cất đi chứ không xóa",
+        "Kho lưu với tìm kiếm tức thì, ghim và kéo để sắp xếp, hiển thị tiến độ danh sách kiểm tra (như 2/5), giờ nhắc và số ký tự của từng ghi chú; kéo chip xuống vùng dưới màn hình là cất đi chứ không xóa",
         "Ghi chú nổi không giới hạn, đồng bộ Google Drive và lời nhắc không giới hạn"
       ],
       "faq": [
@@ -423,7 +423,7 @@
         },
         {
           "q": "Ứng dụng có đồng bộ với máy tính Windows không?",
-          "a": "Có. Hãy cài thêm FloatNote+ for Windows, rồi trong phần cài đặt của cả hai ứng dụng, đăng nhập Google Drive bằng cùng một tài khoản và bật đồng bộ tự động. Sau đó, ghi chú viết trên điện thoại sẽ hiện trên máy tính và ghi chú viết trên máy tính sẽ hiện trên điện thoại. Ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn. Cả nội dung chữ lẫn ảnh đính kèm đều di chuyển giữa các máy."
+          "a": "Có. Hãy cài thêm FloatNote+ for Windows, rồi trong phần cài đặt của cả hai ứng dụng, đăng nhập Google Drive bằng cùng một tài khoản và bật đồng bộ tự động. Sau đó, ghi chú viết trên điện thoại sẽ hiện trên máy tính và ghi chú viết trên máy tính sẽ hiện trên điện thoại. Ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn. Cả nội dung chữ lẫn ảnh đính kèm đều di chuyển giữa các máy. Khi bật “Hiện ghi chú mới từ thiết bị khác”, ghi chú mới bạn để nổi trên một thiết bị cũng sẽ nổi trên thiết bị kia sau khi đồng bộ."
         },
         {
           "q": "Tôi có thể dùng FloatNote+ trên màn hình Android ô tô không?",
@@ -535,7 +535,7 @@
       "features": [
         "Thường trú trên khay, lưu văn bản và hình ảnh ngay khi bạn sao chép — không phải liên tục kiểm tra ở nền nên rất nhẹ",
         "Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn",
-        "Giao diện kiểu Android với chủ đề sáng/tối, thanh bên nhóm, snippet và ghim/sao chép/chỉnh sửa/tìm kiếm",
+        "Giao diện kiểu Android với chủ đề sáng/tối, thanh bên nhóm, snippet, ghim/sao chép/chỉnh sửa và tìm kiếm có bộ lọc theo loại (liên kết, hình ảnh, văn bản, đã ghim) và thời gian (Hôm nay, Tuần này, Tháng này, Năm nay)",
         "Chọn nhiều để di chuyển, xóa và gộp hàng loạt, sắp xếp mới nhất/cũ nhất, và trình xem ảnh kích thước đầy đủ",
         "Cửa sổ chọn nhanh tại con trỏ bằng phím tắt toàn cục, cùng phím tắt mở cửa sổ và thu văn bản đang chọn ở ứng dụng khác, và tự khởi động cùng Windows",
         "Xuất/nhập tương thích với định dạng sao lưu của Clipboard+ trên Android, và xuất PDF"
@@ -591,19 +591,19 @@
       "seo": "Ghi chú dán cho PC",
       "desc": "Ghi chú dán nổi trên mọi cửa sổ Windows, đồng bộ với ứng dụng FloatNote+ trên Android.",
       "tagline": "Ghi chú dán nổi ngay trên thứ bạn đang làm: viết mà không rời cửa sổ đang mở, và không bao giờ cướp tiêu điểm của nó.",
-      "long": "FloatNote+ for Windows là phiên bản máy tính của ứng dụng FloatNote+ trên Android. Mỗi ghi chú nằm dưới dạng chip nhỏ trên trình duyệt, trình soạn thảo hay bảng tính; nhấp vào là nó mở ngay tại chỗ thành thẻ để đọc hoặc sửa, bấm mũi tên ở trên cùng hoặc nhấn Esc thì thu lại thành chip. Chip không bao giờ lấy tiêu điểm khỏi ứng dụng phía sau, nên những gì bạn đang gõ vẫn nguyên vẹn — và cũng không có nút lưu, vì mỗi lần gõ đều được ghi lại giúp bạn. Bảy màu pastel, định dạng và hình ảnh trong ghi chú giúp phân biệt từng ghi chú; cửa sổ kho lưu lo việc tìm kiếm, ghim và quản lý, còn đồng bộ tùy chọn đưa ghi chú qua một thư mục riêng của ứng dụng trong chính Google Drive của bạn — đúng thư mục mà bản Android dùng.",
+      "long": "FloatNote+ for Windows là phiên bản máy tính của ứng dụng FloatNote+ trên Android. Mỗi ghi chú nằm dưới dạng chip nhỏ trên trình duyệt, trình soạn thảo hay bảng tính; nhấp vào là nó mở ngay tại chỗ thành thẻ để đọc hoặc sửa, bấm mũi tên ở trên cùng hoặc nhấn Esc thì thu lại thành chip. Chip không bao giờ lấy tiêu điểm khỏi ứng dụng phía sau, nên những gì bạn đang gõ vẫn nguyên vẹn — và cũng không có nút lưu, vì mỗi lần gõ đều được ghi lại giúp bạn. Tám màu ghi chú cùng màu tùy chỉnh, định dạng, danh sách kiểm tra và hình ảnh trong ghi chú giúp phân biệt từng ghi chú; cửa sổ kho lưu lo việc tìm kiếm, ghim và quản lý, đồng thời hiển thị tiến độ danh sách kiểm tra, giờ nhắc và số ký tự của từng ghi chú, còn đồng bộ tùy chọn đưa ghi chú qua một thư mục riêng của ứng dụng trong chính Google Drive của bạn — đúng thư mục mà bản Android dùng. Khi bật “Hiện ghi chú mới từ thiết bị khác”, ghi chú mới bạn để nổi trên một thiết bị cũng sẽ nổi trên thiết bị kia sau khi đồng bộ.",
       "features": [
         "Ghi chú dán nổi trên mọi cửa sổ: chip mở ngay tại chỗ thành thẻ chỉnh sửa được, nhấn Esc thì thu lại",
         "Không cướp tiêu điểm — kéo hay nhấp vào chip, con trỏ vẫn ở ứng dụng bạn đang gõ",
         "Nhắc ghi chú — một lần, hằng ngày, ngày thường hoặc ngày tùy chọn",
-        "Định dạng — in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ — cùng 7 màu pastel và hình ảnh trong ghi chú",
+        "Định dạng — in đậm, in nghiêng, gạch chân, gạch ngang, màu và cỡ chữ — cùng 8 màu ghi chú, màu tùy chỉnh, danh sách kiểm tra và hình ảnh trong ghi chú",
         "Đồng bộ hai chiều điện thoại–máy tính qua chính Google Drive của bạn — cùng một thư mục riêng của ứng dụng mà bản Android dùng, không qua máy chủ nào của CodeDAC",
         "Phím tắt toàn cục, khay hệ thống, giao diện sáng và tối, chạy khi đăng nhập, 21 ngôn ngữ. Nhiều ghi chú nổi cùng lúc, độ trong suốt tùy chỉnh, xuất và nhập"
       ],
       "faq": [
         {
           "q": "Đây có phải cùng một ứng dụng với FloatNote+ trên Android không?",
-          "a": "Đây là cùng một ứng dụng được làm cho Windows, với chip và thẻ y hệt. Chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng và bật đồng bộ tự động là ghi chú viết trên máy tính sẽ sang điện thoại và ghi chú viết trên điện thoại sẽ sang máy tính. Ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn. Cả nội dung chữ lẫn ảnh đính kèm đều di chuyển giữa các máy."
+          "a": "Đây là cùng một ứng dụng được làm cho Windows, với chip và thẻ y hệt. Chỉ cần đăng nhập Google Drive bằng cùng một tài khoản trên cả hai ứng dụng và bật đồng bộ tự động là ghi chú viết trên máy tính sẽ sang điện thoại và ghi chú viết trên điện thoại sẽ sang máy tính. Ghi chú không đi qua máy chủ nào của CodeDAC — chúng chỉ được lưu trong chính Google Drive của bạn. Cả nội dung chữ lẫn ảnh đính kèm đều di chuyển giữa các máy. Khi bật “Hiện ghi chú mới từ thiết bị khác”, ghi chú mới bạn để nổi trên một thiết bị cũng sẽ nổi trên thiết bị kia sau khi đồng bộ."
         },
         {
           "q": "Nó có cản trở ứng dụng bên dưới không?",

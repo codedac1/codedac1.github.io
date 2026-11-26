@@ -141,7 +141,7 @@
         "Optioneel automatisch opslaan op het moment van kopiëren; tekst en afbeeldingen in een doorzoekbare geschiedenis, nieuwste eerst",
         "Schaalbaar zwevend overlay voor gebruik over elke app",
         "Veelgebruikte teksten ordenen in snippets en groepen",
-        "Direct zoeken en filteren op trefwoord, tekst, afbeelding of datum",
+        "Direct zoeken op trefwoord, filters voor links, afbeeldingen, tekst en vastgezet, en periodefilters: Vandaag, Deze week, Deze maand, Dit jaar",
         "Snel plakken via de widget en het meldingenpaneel, en opslaan vanuit elke app via het selectiemenu",
         "Tweerichtingssynchronisatie telefoon-pc via je eigen Google Drive, klembordgeschiedenis exporteren naar PDF, plus back-up en herstel"
       ],
@@ -403,13 +403,13 @@
       "seo": "Zwevende plaknotities",
       "desc": "Plaknotities die boven elke app zweven. Vouw in tot een chip, open als kaart — met kleuren en opmaak.",
       "tagline": "Plaknotities die boven elke app zweven: noteer een gedachte en hij blijft op je scherm, altijd één tik weg.",
-      "long": "FloatNote+ laat plaknotities boven elke app zweven. Geef één keer toestemming voor het overlay-venster en elke notitie leeft als een kleine chip boven je browser, chat, video of startscherm; één tik vouwt hem ter plekke open tot een volledige kaart om te lezen, bewerken en delen. Kleuren, tekstopmaak en afbeeldingen houden je notities uit elkaar, terwijl de hoofd-app als archief dient om te zoeken, vast te pinnen en te ordenen. Licht en donker thema zitten er allebei in. Gebruik je hem samen met FloatNote+ for Windows, dan verschijnen notities die je op je telefoon schrijft op je pc, en notities die je op je pc schrijft op je telefoon. Je meldt je daarvoor in beide apps met hetzelfde account aan bij Google Drive; de notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard.",
+      "long": "FloatNote+ laat plaknotities boven elke app zweven. Geef één keer toestemming voor het overlay-venster en elke notitie leeft als een kleine chip boven je browser, chat, video of startscherm; één tik vouwt hem ter plekke open tot een volledige kaart om te lezen, bewerken en delen. Acht kleuren plus eigen kleuren, tekstopmaak, checklists en afbeeldingen houden je notities uit elkaar, terwijl de hoofd-app als archief dient om te zoeken, vast te pinnen en te ordenen. Licht en donker thema zitten er allebei in. Gebruik je hem samen met FloatNote+ for Windows, dan verschijnen notities die je op je telefoon schrijft op je pc, en notities die je op je pc schrijft op je telefoon. Je meldt je daarvoor in beide apps met hetzelfde account aan bij Google Drive; de notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard. Met ‘Nieuwe notities van andere apparaten tonen’ aan zweeft een nieuwe notitie die je op het ene apparaat laat zweven na synchronisatie ook op het andere.",
       "features": [
         "Zwevende overlay-notities: vouw een notitie in tot een chip en open hem als volledige kaart boven elke app",
-        "7 notitiekleuren plus elke kleur via een kleurenwiel of kleurcode, en tekstopmaak: vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte",
+        "8 notitiekleuren plus eigen kleuren via een kleurenwiel of kleurcode, tekstopmaak (vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte) en checklists die je met één tik afvinkt",
         "Afbeeldingen in de notitie: voeg foto's direct in een notitie toe",
         "Notitieherinneringen — eenmalig, elke dag, werkdagen of gekozen dagen",
-        "Archief met directe zoekfunctie, vastpinnen en slepen om te ordenen; een chip naar de zone onderaan slepen bergt de notitie op in plaats van hem te verwijderen",
+        "Archief met directe zoekfunctie, vastpinnen en slepen om te ordenen, dat per notitie de voortgang van de checklist (zoals 2/5), de herinneringstijd en het aantal tekens toont; een chip naar de zone onderaan slepen bergt de notitie op in plaats van hem te verwijderen",
         "Onbeperkt zwevende notities, Google Drive-synchronisatie en onbeperkt herinneringen"
       ],
       "faq": [
@@ -423,7 +423,7 @@
         },
         {
           "q": "Synchroniseert het met mijn Windows-pc?",
-          "a": "Ja. Installeer ook FloatNote+ for Windows, meld je daarna in de instellingen van beide apps met hetzelfde account aan bij Google Drive en zet de automatische synchronisatie aan. Vanaf dat moment verschijnen notities die je op je telefoon schrijft op je pc, en notities die je op je pc schrijft op je telefoon. De notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard. Zowel de notitietekst als de bijgevoegde afbeeldingen reizen mee tussen apparaten."
+          "a": "Ja. Installeer ook FloatNote+ for Windows, meld je daarna in de instellingen van beide apps met hetzelfde account aan bij Google Drive en zet de automatische synchronisatie aan. Vanaf dat moment verschijnen notities die je op je telefoon schrijft op je pc, en notities die je op je pc schrijft op je telefoon. De notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard. Zowel de notitietekst als de bijgevoegde afbeeldingen reizen mee tussen apparaten. Met ‘Nieuwe notities van andere apparaten tonen’ aan zweeft een nieuwe notitie die je op het ene apparaat laat zweven na synchronisatie ook op het andere."
         },
         {
           "q": "Kan ik FloatNote+ gebruiken op een Android-autoradio?",
@@ -535,7 +535,7 @@
       "features": [
         "Zit in het systeemvak en slaat teksten en afbeeldingen op zodra je ze kopieert — hoeft niet voortdurend op de achtergrond te kijken en blijft daardoor licht",
         "Bidirectionele synchronisatie van telefoon naar pc via je eigen Google Drive",
-        "UI in Android-stijl met lichte/donkere thema's, groepszijbalk, snippets en vastmaken/kopiëren/bewerken/zoeken",
+        "UI in Android-stijl met lichte/donkere thema's, groepszijbalk, snippets, vastmaken/kopiëren/bewerken en zoeken met filters op type (links, afbeeldingen, tekst, vastgezet) en periode (Vandaag, Deze week, Deze maand, Dit jaar)",
         "Meervoudige selectie om in bulk te verplaatsen, verwijderen en samen te voegen, sorteren op nieuwste/oudste en een beeldviewer op ware grootte",
         "Snelkeuzevenster bij de cursor via een globale sneltoets, plus sneltoetsen om het venster te openen en geselecteerde tekst uit andere apps over te nemen, en meestarten met Windows",
         "Export/import compatibel met het back-upformaat van Clipboard+ voor Android, plus PDF-export"
@@ -591,19 +591,19 @@
       "seo": "Plaknotities voor pc",
       "desc": "Plaknotities die boven elk venster in Windows zweven en synchroniseren met de Android-app FloatNote+.",
       "tagline": "Plaknotities die zweven boven waar je mee bezig bent: schrijf zonder je venster te verlaten, en ze pakken de focus nooit af.",
-      "long": "FloatNote+ for Windows is de desktopversie van de Android-app FloatNote+. Elke notitie leeft als een kleine chip boven je browser, je editor of je spreadsheet; klik erop en hij vouwt ter plekke open tot een kaart om te lezen of te bewerken, en met de pijl bovenaan of Esc vouwt hij weer in tot chip. Een chip pakt de app erachter nooit de focus af, dus wat je aan het typen was blijft precies zoals het was — en een opslaanknop is er niet, want elke toetsaanslag wordt voor je vastgelegd. Zeven pasteltinten, tekstopmaak en afbeeldingen in de notitie houden je notities uit elkaar, een archiefvenster verzorgt zoeken, vastpinnen en beheren, en optionele synchronisatie loopt via een app-privé map in je eigen Google Drive, dezelfde die de Android-app gebruikt.",
+      "long": "FloatNote+ for Windows is de desktopversie van de Android-app FloatNote+. Elke notitie leeft als een kleine chip boven je browser, je editor of je spreadsheet; klik erop en hij vouwt ter plekke open tot een kaart om te lezen of te bewerken, en met de pijl bovenaan of Esc vouwt hij weer in tot chip. Een chip pakt de app erachter nooit de focus af, dus wat je aan het typen was blijft precies zoals het was — en een opslaanknop is er niet, want elke toetsaanslag wordt voor je vastgelegd. Acht notitiekleuren plus eigen kleuren, tekstopmaak, checklists en afbeeldingen in de notitie houden je notities uit elkaar, een archiefvenster verzorgt zoeken, vastpinnen en beheren en toont per notitie de voortgang van de checklist, de herinneringstijd en het aantal tekens, en optionele synchronisatie loopt via een app-privé map in je eigen Google Drive, dezelfde die de Android-app gebruikt. Met ‘Nieuwe notities van andere apparaten tonen’ aan zweeft een nieuwe notitie die je op het ene apparaat laat zweven na synchronisatie ook op het andere.",
       "features": [
         "Plaknotities die boven elk venster zweven: de chip vouwt ter plekke open tot een bewerkbare kaart en Esc vouwt hem weer in",
         "Pakt nooit de focus af — sleep of klik een chip en je cursor blijft in de app waarin je typte",
         "Notitieherinneringen — eenmalig, elke dag, werkdagen of gekozen dagen",
-        "Tekstopmaak — vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte — met 7 pastelkleuren en afbeeldingen in de notitie",
+        "Tekstopmaak — vet, cursief, onderstreept, doorgehaald, tekstkleur en -grootte — met 8 notitiekleuren plus eigen kleuren, checklists en afbeeldingen in de notitie",
         "Tweerichtingssynchronisatie telefoon-pc via je eigen Google Drive — dezelfde app-privé map die de Android-app gebruikt, en nooit een CodeDAC-server",
         "Globale sneltoetsen, systeemvak, licht en donker thema, starten bij aanmelden, 21 talen. Meerdere zwevende notities tegelijk, instelbare transparantie, export en import"
       ],
       "faq": [
         {
           "q": "Is dit dezelfde app als FloatNote+ op Android?",
-          "a": "Het is dezelfde app, gemaakt voor Windows, met dezelfde chips en kaarten. Zodra je je in beide apps met hetzelfde account aanmeldt bij Google Drive en de automatische synchronisatie aanzet, komen notities die je op de pc schrijft op de telefoon terecht en notities die je op de telefoon schrijft op de pc. De notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard. Zowel de notitietekst als de bijgevoegde afbeeldingen reizen mee tussen apparaten."
+          "a": "Het is dezelfde app, gemaakt voor Windows, met dezelfde chips en kaarten. Zodra je je in beide apps met hetzelfde account aanmeldt bij Google Drive en de automatische synchronisatie aanzet, komen notities die je op de pc schrijft op de telefoon terecht en notities die je op de telefoon schrijft op de pc. De notities gaan langs geen enkele CodeDAC-server: ze worden alleen in je eigen Google Drive bewaard. Zowel de notitietekst als de bijgevoegde afbeeldingen reizen mee tussen apparaten. Met ‘Nieuwe notities van andere apparaten tonen’ aan zweeft een nieuwe notitie die je op het ene apparaat laat zweven na synchronisatie ook op het andere."
         },
         {
           "q": "Zit het de app eronder in de weg?",

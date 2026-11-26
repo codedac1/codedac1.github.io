@@ -141,7 +141,7 @@
         "Simpan otomatis opsional tepat saat menyalin; teks dan gambar dalam riwayat yang bisa dicari, terbaru di atas",
         "Overlay mengambang yang bisa diubah ukurannya untuk dipakai di atas aplikasi apa pun",
         "Rapikan teks yang sering dipakai ke dalam snippet dan grup",
-        "Pencarian dan filter instan berdasarkan kata kunci, teks, gambar, atau tanggal",
+        "Pencarian instan dengan kata kunci, filter tautan, gambar, teks, dan yang disematkan, serta filter periode: Hari ini, Minggu ini, Bulan ini, Tahun ini",
         "Tempel cepat lewat widget layar utama dan panel notifikasi, serta simpan dari aplikasi mana pun lewat menu seleksi teks",
         "Sinkronisasi dua arah ponsel-ke-PC melalui Google Drive Anda sendiri, ekspor riwayat clipboard ke PDF, plus cadang dan pulihkan"
       ],
@@ -403,13 +403,13 @@
       "seo": "Catatan Tempel Mengambang",
       "desc": "Catatan tempel yang mengambang di atas aplikasi apa pun. Ciutkan jadi chip, bentangkan jadi kartu, dengan warna dan teks kaya.",
       "tagline": "Catatan tempel yang mengambang di atas aplikasi apa pun: tulis satu ide dan tetap di layar, selalu sejauh satu ketukan.",
-      "long": "FloatNote+ membuat catatan tempel mengambang di atas aplikasi apa pun. Beri izin overlay sekali saja, dan setiap catatan hadir sebagai chip kecil di atas browser, obrolan, video, atau layar utama; ketuk chip itu dan catatan langsung terbentang jadi kartu penuh untuk dibaca, disunting, dan dibagikan. Warna, teks kaya, dan gambar membedakan tiap catatan, sementara aplikasi utama menjadi pustaka untuk mencari, menyematkan, dan mengurutkan. Tema terang dan gelap sama-sama tersedia. Dipakai bersama FloatNote+ for Windows, catatan yang ditulis di ponsel muncul di PC, dan yang ditulis di PC muncul di ponsel. Cukup masuk ke Google Drive dengan akun yang sama di kedua aplikasi; catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri.",
+      "long": "FloatNote+ membuat catatan tempel mengambang di atas aplikasi apa pun. Beri izin overlay sekali saja, dan setiap catatan hadir sebagai chip kecil di atas browser, obrolan, video, atau layar utama; ketuk chip itu dan catatan langsung terbentang jadi kartu penuh untuk dibaca, disunting, dan dibagikan. Delapan warna plus warna kustom, teks kaya, daftar periksa, dan gambar membedakan tiap catatan, sementara aplikasi utama menjadi pustaka untuk mencari, menyematkan, dan mengurutkan. Tema terang dan gelap sama-sama tersedia. Dipakai bersama FloatNote+ for Windows, catatan yang ditulis di ponsel muncul di PC, dan yang ditulis di PC muncul di ponsel. Cukup masuk ke Google Drive dengan akun yang sama di kedua aplikasi; catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Dengan “Tampilkan catatan baru dari perangkat lain” aktif, catatan baru yang Anda biarkan mengambang di satu perangkat juga akan mengambang di perangkat lain setelah sinkronisasi.",
       "features": [
         "Catatan overlay mengambang: ciutkan catatan jadi chip, bentangkan jadi kartu penuh di atas aplikasi apa pun",
-        "7 warna catatan plus warna apa pun dari roda warna atau kode warna, dan teks kaya: tebal, miring, garis bawah, coret, warna dan ukuran teks",
+        "8 warna catatan plus warna kustom dari roda warna atau kode warna, teks kaya (tebal, miring, garis bawah, coret, warna dan ukuran teks), dan daftar periksa yang dicentang dengan sekali ketuk",
         "Gambar dalam catatan: lampirkan foto langsung di dalamnya",
         "Pengingat catatan — sekali, setiap hari, hari kerja, atau hari pilihan",
-        "Pustaka dengan pencarian seketika, penyematan, dan pengurutan dengan menyeret; menyeret chip ke area bawah menyimpan catatan, bukan menghapusnya",
+        "Pustaka dengan pencarian seketika, penyematan, dan pengurutan dengan menyeret, yang menampilkan progres daftar periksa (misalnya 2/5), waktu pengingat, dan jumlah karakter tiap catatan; menyeret chip ke area bawah menyimpan catatan, bukan menghapusnya",
         "Catatan mengambang tanpa batas, sinkronisasi Google Drive, dan pengingat tanpa batas"
       ],
       "faq": [
@@ -423,7 +423,7 @@
         },
         {
           "q": "Apakah bisa tersinkron dengan PC Windows saya?",
-          "a": "Bisa. Pasang juga FloatNote+ for Windows, lalu di pengaturan kedua aplikasi masuk ke Google Drive dengan akun yang sama dan aktifkan sinkronisasi otomatis. Setelah itu, catatan yang ditulis di ponsel muncul di PC, dan yang ditulis di PC muncul di ponsel. Catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Teks catatan dan gambar lampiran sama-sama berpindah antarperangkat."
+          "a": "Bisa. Pasang juga FloatNote+ for Windows, lalu di pengaturan kedua aplikasi masuk ke Google Drive dengan akun yang sama dan aktifkan sinkronisasi otomatis. Setelah itu, catatan yang ditulis di ponsel muncul di PC, dan yang ditulis di PC muncul di ponsel. Catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Teks catatan dan gambar lampiran sama-sama berpindah antarperangkat. Dengan “Tampilkan catatan baru dari perangkat lain” aktif, catatan baru yang Anda biarkan mengambang di satu perangkat juga akan mengambang di perangkat lain setelah sinkronisasi."
         },
         {
           "q": "Bisakah saya memakai FloatNote+ di head unit mobil Android?",
@@ -535,7 +535,7 @@
       "features": [
         "Tinggal di tray dan menyimpan teks serta gambar begitu Anda menyalinnya — tidak perlu terus memeriksa di latar belakang, jadi tetap ringan",
         "Sinkronisasi dua arah ponsel-ke-PC melalui Google Drive Anda sendiri",
-        "UI bergaya Android dengan tema terang/gelap, sidebar grup, snippet, dan pin/salin/edit/cari",
+        "UI bergaya Android dengan tema terang/gelap, sidebar grup, snippet, pin/salin/edit, dan pencarian dengan filter jenis (tautan, gambar, teks, disematkan) dan periode (Hari ini, Minggu ini, Bulan ini, Tahun ini)",
         "Pindah, hapus, dan gabung massal multi-pilih, urutan terbaru/terlama, dan penampil gambar ukuran penuh",
         "Popup pilih cepat di posisi kursor lewat pintasan global, ditambah pintasan untuk membuka jendela dan menangkap teks yang dipilih di aplikasi lain, serta jalan otomatis saat Windows dinyalakan",
         "Ekspor/impor yang kompatibel dengan format cadangan Clipboard+ Android, plus ekspor PDF"
@@ -591,19 +591,19 @@
       "seo": "Catatan Tempel PC",
       "desc": "Catatan tempel yang mengambang di atas jendela mana pun di Windows dan tersinkron dengan aplikasi Android FloatNote+.",
       "tagline": "Catatan tempel yang mengambang di atas apa pun yang sedang Anda kerjakan: menulis tanpa meninggalkan jendela Anda, dan tanpa merebut fokusnya.",
-      "long": "FloatNote+ for Windows adalah versi desktop dari aplikasi FloatNote+ untuk Android. Setiap catatan hadir sebagai chip kecil di atas browser, editor, atau lembar kerja Anda; klik sekali dan ia terbentang di tempat menjadi kartu yang siap dibaca atau disunting, lalu panah di atas atau Esc menciutkannya kembali menjadi chip. Chip tidak pernah merebut fokus dari aplikasi di belakangnya, jadi yang sedang Anda ketik tetap utuh — dan tidak ada tombol simpan, karena setiap ketikan sudah dicatat untuk Anda. Tujuh warna pastel, teks kaya, dan gambar di dalam catatan membedakan satu dari yang lain; jendela pustaka menangani pencarian, penyematan, dan pengelolaan, sedangkan sinkronisasi opsional membawa catatan Anda lewat folder khusus aplikasi di Google Drive Anda sendiri — folder yang sama dengan yang dipakai aplikasi Android.",
+      "long": "FloatNote+ for Windows adalah versi desktop dari aplikasi FloatNote+ untuk Android. Setiap catatan hadir sebagai chip kecil di atas browser, editor, atau lembar kerja Anda; klik sekali dan ia terbentang di tempat menjadi kartu yang siap dibaca atau disunting, lalu panah di atas atau Esc menciutkannya kembali menjadi chip. Chip tidak pernah merebut fokus dari aplikasi di belakangnya, jadi yang sedang Anda ketik tetap utuh — dan tidak ada tombol simpan, karena setiap ketikan sudah dicatat untuk Anda. Delapan warna catatan plus warna kustom, teks kaya, daftar periksa, dan gambar di dalam catatan membedakan satu dari yang lain; jendela pustaka menangani pencarian, penyematan, dan pengelolaan serta menampilkan progres daftar periksa, waktu pengingat, dan jumlah karakter tiap catatan, sedangkan sinkronisasi opsional membawa catatan Anda lewat folder khusus aplikasi di Google Drive Anda sendiri — folder yang sama dengan yang dipakai aplikasi Android. Dengan “Tampilkan catatan baru dari perangkat lain” aktif, catatan baru yang Anda biarkan mengambang di satu perangkat juga akan mengambang di perangkat lain setelah sinkronisasi.",
       "features": [
         "Catatan tempel yang mengambang di atas setiap jendela: chip terbentang di tempat menjadi kartu yang bisa disunting, dan Esc menciutkannya kembali",
         "Tidak pernah merebut fokus — seret atau klik chip, kursor Anda tetap di aplikasi tempat Anda mengetik",
         "Pengingat catatan — sekali, setiap hari, hari kerja, atau hari pilihan",
-        "Teks kaya — tebal, miring, garis bawah, coret, warna dan ukuran teks — dengan 7 warna pastel dan gambar di dalam catatan",
+        "Teks kaya — tebal, miring, garis bawah, coret, warna dan ukuran teks — dengan 8 warna catatan plus warna kustom, daftar periksa, dan gambar di dalam catatan",
         "Sinkronisasi dua arah ponsel-ke-PC melalui Google Drive Anda sendiri — folder khusus aplikasi yang sama dengan yang dipakai aplikasi Android, tanpa melewati server CodeDAC",
         "Hotkey global, baki sistem, tema terang dan gelap, jalan saat logon, 21 bahasa. Beberapa catatan mengambang sekaligus, transparansi yang bisa diatur, serta ekspor dan impor"
       ],
       "faq": [
         {
           "q": "Apakah ini aplikasi yang sama dengan FloatNote+ di Android?",
-          "a": "Ini aplikasi yang sama yang dibuat untuk Windows, dengan chip dan kartu yang sama. Begitu Anda masuk ke Google Drive dengan akun yang sama di kedua aplikasi dan mengaktifkan sinkronisasi otomatis, catatan yang ditulis di PC muncul di ponsel dan yang ditulis di ponsel muncul di PC. Catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Teks catatan dan gambar lampiran sama-sama berpindah antarperangkat."
+          "a": "Ini aplikasi yang sama yang dibuat untuk Windows, dengan chip dan kartu yang sama. Begitu Anda masuk ke Google Drive dengan akun yang sama di kedua aplikasi dan mengaktifkan sinkronisasi otomatis, catatan yang ditulis di PC muncul di ponsel dan yang ditulis di ponsel muncul di PC. Catatan tidak melewati server CodeDAC, melainkan hanya tersimpan di Google Drive Anda sendiri. Teks catatan dan gambar lampiran sama-sama berpindah antarperangkat. Dengan “Tampilkan catatan baru dari perangkat lain” aktif, catatan baru yang Anda biarkan mengambang di satu perangkat juga akan mengambang di perangkat lain setelah sinkronisasi."
         },
         {
           "q": "Apakah ia mengganggu aplikasi di bawahnya?",

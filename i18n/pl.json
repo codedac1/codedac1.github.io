@@ -141,7 +141,7 @@
         "Opcjonalny automatyczny zapis w chwili kopiowania; teksty i obrazy w przeszukiwalnej historii, od najnowszych",
         "Skalowalna pływająca nakładka do korzystania nad dowolną aplikacją",
         "Porządkowanie często używanych tekstów we fragmenty i grupy",
-        "Natychmiastowe wyszukiwanie i filtrowanie według słowa kluczowego, tekstu, obrazu lub daty",
+        "Natychmiastowe wyszukiwanie po słowie kluczowym, filtry linków, obrazów, tekstu i przypiętych oraz filtry okresu: Dzisiaj, Ten tydzień, Ten miesiąc, Ten rok",
         "Szybkie wklejanie z widżetu i panelu powiadomień oraz zapis z dowolnej aplikacji przez menu zaznaczenia tekstu",
         "Dwukierunkowa synchronizacja telefon–komputer przez Twój własny Dysk Google, eksport historii schowka do pliku PDF oraz kopia zapasowa i przywracanie"
       ],
@@ -403,13 +403,13 @@
       "seo": "Pływające karteczki samoprzylepne",
       "desc": "Karteczki, które pływają nad każdą aplikacją. Zwiń do kafelka, rozwiń w kartę — z kolorami i formatowaniem.",
       "tagline": "Karteczki, które pływają nad każdą aplikacją: zapisz myśl, a zostanie na ekranie, zawsze o jedno dotknięcie.",
-      "long": "FloatNote+ utrzymuje karteczki pływające nad każdą aplikacją. Wystarczy raz przyznać uprawnienie nakładki, a każda notatka będzie żyć jako mały kafelek nad przeglądarką, czatem, wideo lub ekranem głównym; dotknięcie rozwija ją w tym samym miejscu w pełną kartę do czytania, edycji i udostępniania. Kolory, formatowanie i obrazy odróżniają notatki, a główna aplikacja pełni rolę archiwum do wyszukiwania, przypinania i porządkowania. Jasny i ciemny motyw są w komplecie. W parze z FloatNote+ for Windows notatki napisane na telefonie pojawiają się na komputerze, a napisane na komputerze — na telefonie. Wystarczy zalogować się do Dysku Google na to samo konto w obu aplikacjach; notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google.",
+      "long": "FloatNote+ utrzymuje karteczki pływające nad każdą aplikacją. Wystarczy raz przyznać uprawnienie nakładki, a każda notatka będzie żyć jako mały kafelek nad przeglądarką, czatem, wideo lub ekranem głównym; dotknięcie rozwija ją w tym samym miejscu w pełną kartę do czytania, edycji i udostępniania. Osiem kolorów plus własne kolory, formatowanie, listy kontrolne i obrazy odróżniają notatki, a główna aplikacja pełni rolę archiwum do wyszukiwania, przypinania i porządkowania. Jasny i ciemny motyw są w komplecie. W parze z FloatNote+ for Windows notatki napisane na telefonie pojawiają się na komputerze, a napisane na komputerze — na telefonie. Wystarczy zalogować się do Dysku Google na to samo konto w obu aplikacjach; notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Gdy opcja „Pokazuj nowe notatki z innych urządzeń” jest włączona, nowa notatka pozostawiona na wierzchu na jednym urządzeniu po synchronizacji pojawia się na wierzchu także na drugim.",
       "features": [
         "Pływające notatki overlay: zwiń notatkę do kafelka, rozwiń w pełną kartę nad dowolną aplikacją",
-        "7 kolorów karteczek i dowolny kolor z koła barw lub kodu koloru, a także formatowanie: pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu",
+        "8 kolorów karteczek plus własne kolory z koła barw lub kodu koloru, formatowanie (pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu) oraz listy kontrolne odhaczane jednym dotknięciem",
         "Obrazy w notatce: dołącz zdjęcia bezpośrednio w środku",
         "Przypomnienia — raz, codziennie, w dni robocze lub w wybrane dni",
-        "Archiwum z natychmiastowym wyszukiwaniem, przypinaniem i zmianą kolejności przeciąganiem; przeciągnięcie kafelka do strefy na dole chowa notatkę, a nie usuwa",
+        "Archiwum z natychmiastowym wyszukiwaniem, przypinaniem i zmianą kolejności przeciąganiem, które przy każdej notatce pokazuje postęp listy kontrolnej (np. 2/5), godzinę przypomnienia i liczbę znaków; przeciągnięcie kafelka do strefy na dole chowa notatkę, a nie usuwa",
         "Nieograniczone pływające notatki, synchronizacja z Google Dyskiem i nieograniczone przypomnienia"
       ],
       "faq": [
@@ -423,7 +423,7 @@
         },
         {
           "q": "Czy synchronizuje się z moim komputerem z Windows?",
-          "a": "Tak. Zainstaluj także FloatNote+ for Windows, a następnie w ustawieniach obu aplikacji zaloguj się do Dysku Google na to samo konto i włącz automatyczną synchronizację. Od tej pory notatki napisane na telefonie pojawiają się na komputerze, a napisane na komputerze — na telefonie. Notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Między urządzeniami wędrują zarówno tekst notatki, jak i dołączone obrazy."
+          "a": "Tak. Zainstaluj także FloatNote+ for Windows, a następnie w ustawieniach obu aplikacji zaloguj się do Dysku Google na to samo konto i włącz automatyczną synchronizację. Od tej pory notatki napisane na telefonie pojawiają się na komputerze, a napisane na komputerze — na telefonie. Notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Między urządzeniami wędrują zarówno tekst notatki, jak i dołączone obrazy. Gdy opcja „Pokazuj nowe notatki z innych urządzeń” jest włączona, nowa notatka pozostawiona na wierzchu na jednym urządzeniu po synchronizacji pojawia się na wierzchu także na drugim."
         },
         {
           "q": "Czy mogę używać FloatNote+ na radioodtwarzaczu samochodowym z Androidem?",
@@ -535,7 +535,7 @@
       "features": [
         "Rezyduje w zasobniku i zapisuje teksty oraz obrazy w chwili skopiowania — nie musi stale sprawdzać schowka w tle, więc pozostaje lekki",
         "Dwukierunkowa synchronizacja telefon–komputer przez Twój własny Dysk Google",
-        "Interfejs w stylu Androida z jasnym/ciemnym motywem, paskiem bocznym grup, fragmentami oraz przypinaniem/kopiowaniem/edycją/wyszukiwaniem",
+        "Interfejs w stylu Androida z jasnym/ciemnym motywem, paskiem bocznym grup, fragmentami, przypinaniem/kopiowaniem/edycją oraz wyszukiwaniem z filtrami typu (linki, obrazy, tekst, przypięte) i okresu (Dzisiaj, Ten tydzień, Ten miesiąc, Ten rok)",
         "Zbiorcze przenoszenie, usuwanie i scalanie wielu zaznaczonych elementów, sortowanie od najnowszych/najstarszych oraz podgląd obrazu w pełnym rozmiarze",
         "Okno szybkiego wyboru przy kursorze pod skrótem globalnym, a do tego skróty do otwierania okna i przechwytywania tekstu zaznaczonego w innych aplikacjach oraz uruchamianie wraz z Windows",
         "Eksport/import zgodny z formatem kopii zapasowej Clipboard+ na Androida oraz eksport do PDF"
@@ -591,19 +591,19 @@
       "seo": "Karteczki na pulpit",
       "desc": "Karteczki, które pływają nad każdym oknem w Windows i synchronizują się z aplikacją FloatNote+ na Androida.",
       "tagline": "Karteczki, które pływają nad tym, nad czym właśnie pracujesz: pisz bez opuszczania swojego okna, a one nigdy nie zabiorą mu fokusu.",
-      "long": "FloatNote+ for Windows to komputerowa wersja aplikacji FloatNote+ na Androida. Każda notatka żyje jako mały kafelek nad przeglądarką, edytorem czy arkuszem; kliknięcie rozwija ją w tym samym miejscu w kartę gotową do czytania i edycji, a strzałka u góry lub Esc zwija ją z powrotem do kafelka. Kafelek nigdy nie odbiera fokusu aplikacji pod spodem, więc to, co pisałeś, zostaje nietknięte — nie ma też przycisku zapisu, bo każde naciśnięcie klawisza jest zapisywane za Ciebie. Siedem pastelowych kolorów, formatowanie i obrazy w notatce pozwalają je odróżnić, okno archiwum przejmuje wyszukiwanie, przypinanie i porządkowanie, a opcjonalna synchronizacja prowadzi notatki przez prywatny folder aplikacji na Twoim własnym Dysku Google — ten sam, z którego korzysta aplikacja na Androida.",
+      "long": "FloatNote+ for Windows to komputerowa wersja aplikacji FloatNote+ na Androida. Każda notatka żyje jako mały kafelek nad przeglądarką, edytorem czy arkuszem; kliknięcie rozwija ją w tym samym miejscu w kartę gotową do czytania i edycji, a strzałka u góry lub Esc zwija ją z powrotem do kafelka. Kafelek nigdy nie odbiera fokusu aplikacji pod spodem, więc to, co pisałeś, zostaje nietknięte — nie ma też przycisku zapisu, bo każde naciśnięcie klawisza jest zapisywane za Ciebie. Osiem kolorów notatek plus własne kolory, formatowanie, listy kontrolne i obrazy w notatce pozwalają je odróżnić, okno archiwum przejmuje wyszukiwanie, przypinanie i porządkowanie oraz pokazuje przy każdej notatce postęp listy kontrolnej, godzinę przypomnienia i liczbę znaków, a opcjonalna synchronizacja prowadzi notatki przez prywatny folder aplikacji na Twoim własnym Dysku Google — ten sam, z którego korzysta aplikacja na Androida. Gdy opcja „Pokazuj nowe notatki z innych urządzeń” jest włączona, nowa notatka pozostawiona na wierzchu na jednym urządzeniu po synchronizacji pojawia się na wierzchu także na drugim.",
       "features": [
         "Karteczki pływające nad każdym oknem: kafelek rozwija się w miejscu w edytowalną kartę, a Esc zwija go z powrotem",
         "Nigdy nie zabiera fokusu — przeciągnij lub kliknij kafelek, a kursor zostaje w aplikacji, w której pisałeś",
         "Przypomnienia — raz, codziennie, w dni robocze lub w wybrane dni",
-        "Formatowanie — pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu — oraz 7 pastelowych kolorów i obrazy w notatce",
+        "Formatowanie — pogrubienie, kursywa, podkreślenie, przekreślenie, kolor i rozmiar tekstu — oraz 8 kolorów notatek plus własne kolory, listy kontrolne i obrazy w notatce",
         "Dwukierunkowa synchronizacja telefon–komputer przez Twój własny Dysk Google — ten sam prywatny folder aplikacji, którego używa wersja na Androida, bez żadnego serwera CodeDAC",
         "Globalne skróty, zasobnik systemowy, jasny i ciemny motyw, uruchamianie przy logowaniu, 21 języków. Wiele pływających notatek naraz, regulowana przezroczystość, eksport i import"
       ],
       "faq": [
         {
           "q": "Czy to ta sama aplikacja co FloatNote+ na Androida?",
-          "a": "To ta sama aplikacja przygotowana na Windows, z tymi samymi kaflami i kartami. Gdy zalogujesz się do Dysku Google na to samo konto w obu aplikacjach i włączysz automatyczną synchronizację, notatki napisane na komputerze trafią na telefon, a napisane na telefonie — na komputer. Notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Między urządzeniami wędrują zarówno tekst notatki, jak i dołączone obrazy."
+          "a": "To ta sama aplikacja przygotowana na Windows, z tymi samymi kaflami i kartami. Gdy zalogujesz się do Dysku Google na to samo konto w obu aplikacjach i włączysz automatyczną synchronizację, notatki napisane na komputerze trafią na telefon, a napisane na telefonie — na komputer. Notatki nie przechodzą przez żaden serwer CodeDAC: są zapisywane wyłącznie na Twoim własnym Dysku Google. Między urządzeniami wędrują zarówno tekst notatki, jak i dołączone obrazy. Gdy opcja „Pokazuj nowe notatki z innych urządzeń” jest włączona, nowa notatka pozostawiona na wierzchu na jednym urządzeniu po synchronizacji pojawia się na wierzchu także na drugim."
         },
         {
           "q": "Czy przeszkadza aplikacji pod spodem?",

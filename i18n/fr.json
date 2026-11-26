@@ -141,7 +141,7 @@
         "Enregistrement automatique facultatif au moment de la copie ; textes et images dans un historique consultable, du plus récent au plus ancien",
         "Fenêtre flottante redimensionnable pour une utilisation par-dessus toute application",
         "Classement des textes fréquents en extraits et en groupes",
-        "Recherche et filtrage instantanés par mot-clé, texte, image ou date",
+        "Recherche instantanée par mot-clé, filtres liens, images, texte et épinglés, et filtres de période : Aujourd’hui, Cette semaine, Ce mois-ci, Cette année",
         "Collage rapide depuis le widget et le panneau de notifications, et enregistrement depuis n'importe quelle appli via le menu de sélection",
         "Synchronisation bidirectionnelle téléphone-PC via votre propre Google Drive, export de l'historique du presse-papiers en PDF, plus sauvegarde et restauration"
       ],
@@ -403,13 +403,13 @@
       "seo": "pense-bêtes flottants",
       "desc": "Des pense-bêtes qui flottent sur toute appli. Réduisez en pastille, ouvrez en carte, avec couleurs et texte enrichi.",
       "tagline": "Des pense-bêtes qui flottent au-dessus de chaque appli : notez une idée, elle reste à l'écran, toujours à portée de doigt.",
-      "long": "FloatNote+ garde des pense-bêtes flottant au-dessus de chaque appli. Accordez l'autorisation de superposition une seule fois : chaque note vit sous forme de pastille au-dessus du navigateur, d'une messagerie, d'une vidéo ou de l'écran d'accueil, et un appui l'ouvre sur place en carte complète pour lire, modifier et partager. Les couleurs, le texte enrichi et les images distinguent chaque note, tandis que l'application principale sert de bibliothèque pour rechercher, épingler et réorganiser. Thèmes clair et sombre inclus. Associé à FloatNote+ for Windows, les notes écrites sur votre téléphone apparaissent sur votre PC, et celles écrites sur votre PC apparaissent sur votre téléphone. Il suffit de vous connecter à Google Drive avec le même compte dans les deux applis ; les notes ne transitent par aucun serveur CodeDAC : elles sont enregistrées uniquement dans votre propre Google Drive.",
+      "long": "FloatNote+ garde des pense-bêtes flottant au-dessus de chaque appli. Accordez l'autorisation de superposition une seule fois : chaque note vit sous forme de pastille au-dessus du navigateur, d'une messagerie, d'une vidéo ou de l'écran d'accueil, et un appui l'ouvre sur place en carte complète pour lire, modifier et partager. Huit couleurs plus des couleurs personnalisées, le texte enrichi, les listes à cocher et les images distinguent chaque note, tandis que l'application principale sert de bibliothèque pour rechercher, épingler et réorganiser. Thèmes clair et sombre inclus. Associé à FloatNote+ for Windows, les notes écrites sur votre téléphone apparaissent sur votre PC, et celles écrites sur votre PC apparaissent sur votre téléphone. Il suffit de vous connecter à Google Drive avec le même compte dans les deux applis ; les notes ne transitent par aucun serveur CodeDAC : elles sont enregistrées uniquement dans votre propre Google Drive. Avec « Afficher les nouvelles notes des autres appareils » activé, une nouvelle note laissée flottante sur un appareil flotte aussi sur l’autre après la synchronisation.",
       "features": [
         "Notes flottantes en surimpression : réduisez une note en pastille, ouvrez-la en carte au-dessus de toute appli",
-        "7 couleurs de pense-bête et n'importe quelle autre via la roue chromatique ou un code couleur, et texte enrichi : gras, italique, souligné, barré, couleur et taille du texte",
+        "8 couleurs de pense-bête plus des couleurs personnalisées via la roue chromatique ou un code couleur, texte enrichi (gras, italique, souligné, barré, couleur et taille du texte) et listes à cocher d’un simple appui",
         "Images dans la note : ajoutez des photos directement à l'intérieur",
         "Rappels de notes : une fois, tous les jours, en semaine ou les jours choisis",
-        "Bibliothèque avec recherche instantanée, épinglage et réorganisation par glisser ; amener une pastille dans la zone du bas range la note au lieu de la supprimer",
+        "Bibliothèque avec recherche instantanée, épinglage et réorganisation par glisser, qui affiche pour chaque note la progression de la liste (par ex. 2/5), l’heure du rappel et le nombre de caractères ; amener une pastille dans la zone du bas range la note au lieu de la supprimer",
         "Notes flottantes illimitées, synchro Google Drive et rappels illimités"
       ],
       "faq": [
@@ -423,7 +423,7 @@
         },
         {
           "q": "Se synchronise-t-il avec mon PC Windows ?",
-          "a": "Oui. Installez également FloatNote+ for Windows, puis, dans les paramètres des deux applis, connectez-vous à Google Drive avec le même compte et activez la synchronisation automatique. Les notes écrites sur votre téléphone apparaissent alors sur votre PC, et celles écrites sur votre PC apparaissent sur votre téléphone. Les notes ne transitent par aucun serveur CodeDAC : elles sont enregistrées uniquement dans votre propre Google Drive. Le texte et les images jointes sont tous deux synchronisés."
+          "a": "Oui. Installez également FloatNote+ for Windows, puis, dans les paramètres des deux applis, connectez-vous à Google Drive avec le même compte et activez la synchronisation automatique. Les notes écrites sur votre téléphone apparaissent alors sur votre PC, et celles écrites sur votre PC apparaissent sur votre téléphone. Les notes ne transitent par aucun serveur CodeDAC : elles sont enregistrées uniquement dans votre propre Google Drive. Le texte et les images jointes sont tous deux synchronisés. Avec « Afficher les nouvelles notes des autres appareils » activé, une nouvelle note laissée flottante sur un appareil flotte aussi sur l’autre après la synchronisation."
         },
         {
           "q": "Puis-je utiliser FloatNote+ sur un autoradio Android ?",
@@ -535,7 +535,7 @@
       "features": [
         "Résident dans la barre d'état système, il enregistre textes et images à l'instant où vous les copiez — sans avoir à surveiller en permanence en arrière-plan, donc très léger",
         "Synchronisation bidirectionnelle téléphone-PC via votre propre Google Drive",
-        "Interface de style Android avec thèmes clair/sombre, barre latérale de groupes, extraits et épingler/copier/modifier/rechercher",
+        "Interface de style Android avec thèmes clair/sombre, barre latérale de groupes, extraits, épingler/copier/modifier et recherche avec filtres par type (liens, images, texte, épinglés) et par période (Aujourd’hui, Cette semaine, Ce mois-ci, Cette année)",
         "Déplacement, suppression et fusion en masse par sélection multiple, tri du plus récent au plus ancien, et visionneuse d'image en taille réelle",
         "Fenêtre de sélection rapide au curseur via un raccourci global, plus des raccourcis pour ouvrir la fenêtre et capturer le texte sélectionné dans d'autres applis, et lancement au démarrage",
         "Export/import compatible avec le format de sauvegarde de Clipboard+ pour Android, et export PDF"
@@ -591,19 +591,19 @@
       "seo": "pense-bêtes pour PC",
       "desc": "Des pense-bêtes qui flottent au-dessus de n'importe quelle fenêtre Windows et se synchronisent avec l'appli Android FloatNote+.",
       "tagline": "Des pense-bêtes qui flottent au-dessus de ce sur quoi vous travaillez : écrivez sans quitter votre fenêtre, ils ne lui prennent jamais le focus.",
-      "long": "FloatNote+ for Windows est la version bureau de l'application Android FloatNote+. Chaque note vit sous forme de pastille au-dessus du navigateur, de l'éditeur ou du tableur ; un clic l'ouvre sur place en carte, prête à lire ou à modifier, et la flèche en haut ou Échap la referme en pastille. Une pastille ne prend jamais le focus de l'application derrière elle : ce que vous étiez en train de taper reste intact. Il n'y a pas non plus de bouton d'enregistrement, chaque frappe est écrite pour vous. Sept couleurs pastel, le texte enrichi et les images dans la note les distinguent, une fenêtre bibliothèque prend en charge la recherche, l'épinglage et la gestion, et la synchronisation facultative fait passer vos notes par un dossier privé à l'application dans votre propre Google Drive, celui-là même qu'utilise l'appli Android.",
+      "long": "FloatNote+ for Windows est la version bureau de l'application Android FloatNote+. Chaque note vit sous forme de pastille au-dessus du navigateur, de l'éditeur ou du tableur ; un clic l'ouvre sur place en carte, prête à lire ou à modifier, et la flèche en haut ou Échap la referme en pastille. Une pastille ne prend jamais le focus de l'application derrière elle : ce que vous étiez en train de taper reste intact. Il n'y a pas non plus de bouton d'enregistrement, chaque frappe est écrite pour vous. Huit couleurs de note plus des couleurs personnalisées, le texte enrichi, les listes à cocher et les images dans la note les distinguent, une fenêtre bibliothèque prend en charge la recherche, l'épinglage et la gestion et affiche pour chaque note la progression de la liste, l’heure du rappel et le nombre de caractères, et la synchronisation facultative fait passer vos notes par un dossier privé à l'application dans votre propre Google Drive, celui-là même qu'utilise l'appli Android. Avec « Afficher les nouvelles notes des autres appareils » activé, une nouvelle note laissée flottante sur un appareil flotte aussi sur l’autre après la synchronisation.",
       "features": [
         "Des pense-bêtes qui flottent au-dessus de chaque fenêtre : la pastille s'ouvre sur place en carte modifiable, Échap la referme",
         "Ne prend jamais le focus : déplacez ou cliquez une pastille, votre curseur reste dans l'application où vous tapiez",
         "Rappels de notes : une fois, tous les jours, en semaine ou les jours choisis",
-        "Texte enrichi — gras, italique, souligné, barré, couleur et taille — avec 7 couleurs pastel et des images dans la note",
+        "Texte enrichi — gras, italique, souligné, barré, couleur et taille — avec 8 couleurs de note plus des couleurs personnalisées, des listes à cocher et des images dans la note",
         "Synchronisation bidirectionnelle téléphone-PC via votre propre Google Drive — le même dossier privé à l'application que celui de l'appli Android, sans jamais passer par un serveur CodeDAC",
         "Raccourcis globaux, zone de notification, thèmes clair et sombre, lancement à l'ouverture de session, 21 langues. Plusieurs notes flottantes à la fois, transparence réglable, export et import"
       ],
       "faq": [
         {
           "q": "Est-ce la même application que FloatNote+ sur Android ?",
-          "a": "C'est la même application conçue pour Windows, avec les mêmes pastilles et les mêmes cartes. Dès que vous vous connectez à Google Drive avec le même compte dans les deux applis et activez la synchronisation automatique, les notes écrites sur le PC arrivent sur le téléphone et celles écrites sur le téléphone arrivent sur le PC. Les notes ne transitent par aucun serveur CodeDAC : elles sont enregistrées uniquement dans votre propre Google Drive. Le texte et les images jointes sont tous deux synchronisés."
+          "a": "C'est la même application conçue pour Windows, avec les mêmes pastilles et les mêmes cartes. Dès que vous vous connectez à Google Drive avec le même compte dans les deux applis et activez la synchronisation automatique, les notes écrites sur le PC arrivent sur le téléphone et celles écrites sur le téléphone arrivent sur le PC. Les notes ne transitent par aucun serveur CodeDAC : elles sont enregistrées uniquement dans votre propre Google Drive. Le texte et les images jointes sont tous deux synchronisés. Avec « Afficher les nouvelles notes des autres appareils » activé, une nouvelle note laissée flottante sur un appareil flotte aussi sur l’autre après la synchronisation."
         },
         {
           "q": "Gêne-t-elle l'application en dessous ?",
