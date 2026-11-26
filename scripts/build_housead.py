@@ -211,6 +211,39 @@ def page_url(loc, slug):
     return url
 
 
+# ---------------------------------------------------------------- 컨닝 탐지기 (com.codedac.examscan, 2026-11-26 선작업)
+#
+# 출시(Play 공개) 날 EXAMSCAN_LIVE = True 로 바꾸고 이 스크립트를 다시 돌린 뒤 사이트를 push 하면
+# 형제 앱 하우스 광고에 나온다(앱 출시 불필요, 앱이 카탈로그를 하루 캐시해 ~24시간 안에 반영).
+# 다른 앱과 다른 점:
+#   - apps_base.json·i18n/<loc>.json 의 apps.<slug> 에 없다(전용 페이지 /examscan.html 만 있다).
+#     그래서 문구는 scripts/housead_examscan.json(언어별 name/sub/tag, ExamScan/store/_src 의
+#     site.name·site.desc·site.tag 에서 복사)에서, 아이콘은 images/icons/examscan.png 에서 온다.
+#   - 링크는 앱 상세(/apps/..)가 아니라 전용 페이지(/examscan.html, /<loc>/examscan.html)로 간다.
+#   - 형제 앱 12개의 <queries> 에 com.codedac.examscan 을 11/26 커밋 — 각 앱의 다음 출시부터
+#     설치한 사용자에게는 광고가 다시 안 나온다(그 전 버전은 설치 여부를 못 봐 계속 보일 수 있다).
+EXAMSCAN_LIVE = False
+EXAMSCAN = ("examscan", "com.codedac.examscan")
+EXAMSCAN_COPY = os.path.join(SITE, "scripts", "housead_examscan.json")
+EXAMSCAN_WEIGHT = 10   # 신규 중간값. 일반 사용자 대상 앱이 아니라(구매자는 감독관·학교) 30일 뒤 클릭으로 다시 잡는다.
+
+
+def examscan_copy():
+    if not EXAMSCAN_LIVE:
+        return {}
+    with io.open(EXAMSCAN_COPY, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def examscan_url(loc):
+    if not HOUSEAD_URL_UTM:
+        return None
+    rel = "examscan.html" if loc == "en" else "%s/examscan.html" % loc
+    if not os.path.exists(os.path.join(SITE, rel)):
+        return None
+    return "https://codedac.com/%s?%s" % (rel, HOUSEAD_URL_UTM)
+
+
 def main():
     apps = android_apps()
     if not apps:
@@ -226,6 +259,13 @@ def main():
         name, digest, size = built
         icons[slug] = (name, digest)
         total += size
+    exs = examscan_copy()
+    if exs:
+        built = build_icon(EXAMSCAN[0])
+        if built is None:
+            raise SystemExit("images/icons/examscan.png 없음")
+        icons[EXAMSCAN[0]] = (built[0], built[1])
+        total += built[2]
     print("아이콘 %d개 / %d bytes (%dx%d webp)" % (len(icons), total, ICON_PX, ICON_PX))
 
     prune_icons(icons)
@@ -260,6 +300,15 @@ def main():
                 entry["url"] = url
             entries.append(entry)
 
+        c = exs.get(loc)
+        if c and c.get("name"):
+            icon, digest = icons[EXAMSCAN[0]]
+            entry = {"pkg": EXAMSCAN[1], "name": c["name"], "sub": c.get("sub") or "",
+                     "tag": c.get("tag") or "", "icon": icon, "h": digest, "w": EXAMSCAN_WEIGHT}
+            url = examscan_url(loc)
+            if url:
+                entry["url"] = url
+            entries.append(entry)
         out = os.path.join(OUT_DIR, "catalog.%s.json" % loc)
         # 앱이 파싱하는 파일이다. 사람이 읽을 일은 드물고 매 요청 트래픽이 되므로
         # 들여쓰기 없이 쓴다.

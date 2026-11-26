@@ -712,7 +712,7 @@ function heroIcons(code, ui) {
   if (!list.length) return '';
   // ExamScan 은 맨 앞(2026-11-25 사용자 요청) — 아직 Play 공개 전이라 위 목록(store 있는 앱)에 없고, 앱 상세가 아니라 전용 페이지로 간다.
   // 아이콘 images/icons/examscan.png 은 ExamScan/Resource/icon_512.png 을 256 으로 줄인 것.
-  const exs = EXS[code] ? `        <li><a href="${pathFor(code, 'examscan')}" title="ExamScan"><img src="/images/icons/examscan.png?v=${V}" alt="ExamScan" width="84" height="84" /></a></li>
+  const exs = EXS[code] ? `        <li><a href="${pathFor(code, 'examscan')}" title="${escAttr(EXS[code].nav)}"><img src="/images/icons/examscan.png?v=${V}" alt="${escAttr(EXS[code].nav)}" width="84" height="84" /></a></li>
 ` : '';
   return `      <ul class="hero-icons" aria-label="${escAttr(ui['apps.title'])}">
 ${exs}${list.map((app) => {
@@ -951,7 +951,7 @@ function examscanBand(code) {
 function orgForm(code, ui, x) {
   const t = (k) => escText(ui[`form.${k}`]);
   const xt = (k) => escText(x[k]);
-  const mail = `mailto:${EMAIL}?subject=${encodeURIComponent('[ExamScan] Institution inquiry')}`;
+  const mail = `mailto:${EMAIL}?subject=${encodeURIComponent(`[${x.nav}] Institution inquiry`)}`;
   let n = 0;
   const id = (name) => `of-${name}-${++n}`;
   const star = ' <span class="wf-req" aria-hidden="true">*</span>';
@@ -999,7 +999,7 @@ function buildExamScan(lang) {
   const x = EXS[code];
   const t = (k) => escText(x[k]);
   const canonical = urlFor(code, 'examscan');
-  const mail = `mailto:${EMAIL}?subject=${encodeURIComponent('[ExamScan] Institution inquiry')}`;
+  const mail = `mailto:${EMAIL}?subject=${encodeURIComponent(`[${x.nav}] Institution inquiry`)}`;
   const cta = (cls, k) => `<a class="btn ${cls}" href="${escAttr(mail)}" data-form="wf-org" aria-haspopup="dialog">${t(k)}${icon('arrow', 'ic ic-flip')}</a>`;
   const card = (ic, a, b) => `          <article class="exs-card"><span class="exs-card-ic">${icon(ic)}</span><h3>${t(a)}</h3><p>${t(b)}</p></article>`;
   const step = (i) => `          <li class="exs-step"><span class="exs-step-n" dir="ltr">${i}</span><div><h3>${t(`how.s${i}.t`)}</h3><p>${t(`how.s${i}.d`)}</p></div></li>`;
@@ -1011,7 +1011,7 @@ function buildExamScan(lang) {
   };
   const appLd = {
     '@context': 'https://schema.org', '@type': 'SoftwareApplication',
-    name: 'ExamScan', operatingSystem: 'Android', applicationCategory: 'EducationalApplication',
+    name: x.nav, operatingSystem: 'Android', applicationCategory: 'EducationalApplication',
     description: x['meta.desc'], url: canonical, publisher: { '@type': 'Organization', name: 'CodeDAC', url: `${BASE}/` },
   };
   const ogImage = fs.existsSync(path.join(ROOT, 'images', 'og', 'examscan.png')) ? `${BASE}/images/og/examscan.png` : `${BASE}${exsShot(code, 1)}`;

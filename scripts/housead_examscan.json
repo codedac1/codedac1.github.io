@@ -1,0 +1,108 @@
+{
+ "_note": "컨닝 탐지기(com.codedac.examscan) 하우스 광고 문구. ExamScan/store/_src/<lang>.json 의 site.name/desc/tag 복사(2026-11-26). build_housead.py 의 EXAMSCAN_LIVE 가 True 일 때만 쓰인다.",
+ "en": {
+  "name": "Cheat Detector",
+  "sub": "Helps the invigilator's phone detect and find suspicious devices in the exam room: AI glasses, earbuds, smartwatches, phones and hotspots.",
+  "tag": "Exam rooms"
+ },
+ "ar": {
+  "name": "كاشف الغش",
+  "sub": "يساعد هاتف المراقب على كشف الأجهزة المشبوهة في قاعة الامتحان والعثور عليها: نظارات AI وسماعات الأذن والساعات الذكية والهواتف ونقاط الاتصال.",
+  "tag": "قاعات الامتحان"
+ },
+ "de": {
+  "name": "Schummel-Detektor",
+  "sub": "Hilft dem Handy der Aufsicht, verdächtige Geräte im Prüfungsraum zu erkennen und zu finden: KI-Brillen, Ohrhörer, Smartwatches, Handys und Hotspots.",
+  "tag": "Prüfungsräume"
+ },
+ "es": {
+  "name": "Detector de trampas",
+  "sub": "Ayuda al celular del supervisor a detectar y encontrar dispositivos sospechosos en el aula de examen: lentes con IA, audífonos, relojes inteligentes, celulares y hotspots.",
+  "tag": "Aulas de examen"
+ },
+ "fil": {
+  "name": "Cheat Detector",
+  "sub": "Tinutulungan ang phone ng proctor na i-detect at hanapin ang mga kahina-hinalang device sa exam room: AI glasses, earbuds, smartwatch, phone at hotspot.",
+  "tag": "Exam room"
+ },
+ "fr": {
+  "name": "Détecteur de triche",
+  "sub": "Aide le téléphone du surveillant à détecter et retrouver les appareils suspects en salle d’examen : lunettes IA, écouteurs, montres connectées, téléphones et partages de connexion.",
+  "tag": "Salles d’examen"
+ },
+ "hi": {
+  "name": "नकल डिटेक्टर",
+  "sub": "निरीक्षक का फ़ोन परीक्षा कक्ष में AI चश्मा, ईयरबड, स्मार्टवॉच, फ़ोन और हॉटस्पॉट जैसे संदिग्ध डिवाइस का पता लगाने और उन्हें ढूँढने में मदद करता है।",
+  "tag": "परीक्षा कक्ष"
+ },
+ "id": {
+  "name": "Detektor Contek",
+  "sub": "Membantu ponsel pengawas mendeteksi dan menemukan perangkat mencurigakan di ruang ujian: kacamata AI, earphone, smartwatch, ponsel, dan hotspot.",
+  "tag": "Ruang ujian"
+ },
+ "it": {
+  "name": "Rileva copiature",
+  "sub": "Aiuta il telefono del sorvegliante a rilevare e trovare i dispositivi sospetti nell’aula d’esame: occhiali IA, auricolari, smartwatch, telefoni e hotspot.",
+  "tag": "Aule d’esame"
+ },
+ "ja": {
+  "name": "カンニング探知機",
+  "sub": "試験監督のスマホが、試験会場のAIグラス、イヤホン、スマートウォッチ、スマホ、テザリングなどの不審な機器を検知し、見つけるのを手伝います。",
+  "tag": "試験会場"
+ },
+ "ko": {
+  "name": "컨닝 탐지기",
+  "sub": "감독관의 휴대폰이 시험장의 AI 안경, 이어폰, 스마트워치, 휴대폰, 인터넷 공유 같은 의심 기기를 탐지하고 찾도록 도와줍니다.",
+  "tag": "시험장"
+ },
+ "ms": {
+  "name": "Pengesan Meniru",
+  "sub": "Membantu telefon pengawas peperiksaan mengesan dan mencari peranti yang mencurigakan dalam bilik peperiksaan: cermin mata AI, fon telinga, jam pintar, telefon dan hotspot.",
+  "tag": "Bilik peperiksaan"
+ },
+ "nl": {
+  "name": "Spiekdetector",
+  "sub": "Helpt de telefoon van de surveillant verdachte apparaten in het examenlokaal op te sporen en te vinden: AI-brillen, oordopjes, smartwatches, telefoons en hotspots.",
+  "tag": "Examenlokalen"
+ },
+ "pl": {
+  "name": "Detektor ściągania",
+  "sub": "Pomaga telefonowi osoby nadzorującej wykrywać i odnajdywać podejrzane urządzenia w sali egzaminacyjnej: okulary AI, słuchawki, smartwatche, telefony i hotspoty.",
+  "tag": "Sale egzaminacyjne"
+ },
+ "pt": {
+  "name": "Detector de cola",
+  "sub": "Ajuda o celular do fiscal a detectar e encontrar aparelhos suspeitos na sala de prova: óculos com IA, fones de ouvido, smartwatches, celulares e roteadores.",
+  "tag": "Salas de prova"
+ },
+ "ru": {
+  "name": "Детектор списывания",
+  "sub": "Телефон наблюдателя помогает обнаружить и найти подозрительные устройства в экзаменационном классе: AI-очки, наушники, смарт-часы, телефоны и точки доступа.",
+  "tag": "Экзамены"
+ },
+ "th": {
+  "name": "ตัวจับโกงข้อสอบ",
+  "sub": "ช่วยให้โทรศัพท์ของผู้คุมสอบตรวจจับและตามหาอุปกรณ์ต้องสงสัยในห้องสอบ เช่น แว่น AI หูฟัง สมาร์ทวอทช์ โทรศัพท์ และฮอตสปอต",
+  "tag": "ห้องสอบ"
+ },
+ "tr": {
+  "name": "Kopya Dedektörü",
+  "sub": "Gözetmenin telefonunun sınav salonundaki AI gözlük, kulaklık, akıllı saat, telefon ve erişim noktası gibi şüpheli cihazları algılayıp bulmasına yardım eder.",
+  "tag": "Sınav salonları"
+ },
+ "uk": {
+  "name": "Детектор списування",
+  "sub": "Телефон наглядача допомагає виявити й знайти підозрілі пристрої в екзаменаційному класі: AI-окуляри, навушники, смарт-годинники, телефони й точки доступу.",
+  "tag": "Іспити"
+ },
+ "vi": {
+  "name": "Máy dò gian lận",
+  "sub": "Giúp điện thoại của giám thị phát hiện và tìm ra thiết bị đáng ngờ trong phòng thi: kính AI, tai nghe, đồng hồ thông minh, điện thoại và điện thoại phát Wi-Fi.",
+  "tag": "Phòng thi"
+ },
+ "zh": {
+  "name": "作弊探测器",
+  "sub": "帮助监考老师用手机检测并找到考场中的可疑设备：AI 眼镜、耳机、智能手表、手机和热点。",
+  "tag": "考场"
+ }
+}
