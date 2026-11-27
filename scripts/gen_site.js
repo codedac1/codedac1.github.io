@@ -125,6 +125,20 @@ const schemaCat = (slug) => APP_SCHEMA_CAT[slug] || 'UtilitiesApplication';
 // --- 데이터 로드 ---
 const APPS = require('./apps_base.json');
 
+// 홈 화면 앱 순서 = 하우스 광고 가중치 순(2026-11-27 사용자 결정 "하우스 앱 광고 가중치와 연동").
+// 가중치의 정본은 build_housead.py 의 WEIGHTS/WIN_WEIGHTS 이고, 여기서는 그 산출물(카탈로그 JSON)을 읽는다.
+// 그래서 가중치를 바꾸면 build_housead.py → gen_site.js 순서로 둘 다 돌려야 홈 순서도 따라온다.
+// 카탈로그에 없는 앱(제외 앱 FloatCrypto+ 등)은 뒤로, 같은 가중치끼리는 apps_base.json 순서(안정 정렬).
+const HOUSEAD_W = (() => {
+  const w = {};
+  const read = (rel) => { try { return JSON.parse(fs.readFileSync(path.join(__dirname, '..', rel), 'utf8')).apps || []; } catch { return []; } };
+  const bySlugPkg = Object.fromEntries(APPS.filter((a) => a.store).map((a) => [((a.store.match(/[?&]id=([\w.]+)/) || [])[1] || ''), a.slug]));
+  for (const e of read('housead/v1/catalog.en.json')) if (bySlugPkg[e.pkg]) w[bySlugPkg[e.pkg]] = e.w;
+  for (const e of read('housead/win1/catalog.en.json')) w[e.id] = e.w;
+  return w;
+})();
+const byHouseadWeight = (a, b) => (HOUSEAD_W[b.slug] ?? -1) - (HOUSEAD_W[a.slug] ?? -1);
+
 // Google Play 지표 (fetch_store_stats.js 산출물). 없으면 지표/평점 렌더를 생략한다.
 let STATS = { aggregate: {}, apps: {} };
 try {
@@ -701,14 +715,12 @@ const platformKey = (app) => app.platform || 'android';
 const NO_SPACE_LANGS = ['ja', 'zh'];
 const heroTitle = (code, ui) => String(ui['hero.title']).replace(/\s*<br\s*\/?>\s*/gi, NO_SPACE_LANGS.includes(code) ? '' : ' ');
 
-// 히어로 아이콘. 브랜드 배너(D:\CodeDAC\Data\CodeDAC 배경2_4096.png)와 같은 순서·같은 5+4 배치로 둔다.
-// 배너에 없는 새 Android 앱은 뒤에 붙는다(sort 는 안정 정렬이라 apps_base.json 순서가 유지된다).
-const HERO_ICON_ORDER = ['readfocus', 'floatnote', 'floattimer', 'clipboard', 'floatcalc', 'floatcrypto', 'autostart', 'volumebooster', 'photocleaner'];
+// 히어로 아이콘. 예전엔 브랜드 배너(D:\CodeDAC\Data\CodeDAC 배경2_4096.png)와 같은 순서였다.
 function heroIcons(code, ui) {
   const d = L[code];
-  const rank = (app) => { const i = HERO_ICON_ORDER.indexOf(app.slug); return i < 0 ? HERO_ICON_ORDER.length : i; };
+  // (2026-11-27) 하우스 광고 가중치 순 — 아래 앱 목록과 같은 순서.
   const list = APPS.filter((app) => platformKey(app) === 'android' && app.store && d.apps[app.slug])
-    .sort((a, b) => rank(a) - rank(b));
+    .sort(byHouseadWeight);
   if (!list.length) return '';
   // ExamScan 은 맨 앞(2026-11-25 사용자 요청) — 아직 Play 공개 전이라 위 목록(store 있는 앱)에 없고, 앱 상세가 아니라 전용 페이지로 간다.
   // 아이콘 images/icons/examscan.png 은 ExamScan/Resource/icon_512.png 을 256 으로 줄인 것.
@@ -1189,7 +1201,7 @@ ${Array.from({ length: cardShots }, (_, i) =>
   // 플랫폼마다 로고·설치처·앱 수를 단 머리와 옅은 플랫폼 색 패널로 묶어 경계를 분명히 한다.
   // 그룹이 하나뿐이면 머리와 패널을 빼고 카드만 둔다 — 앱이 한 종류뿐일 땐 구분이 군더더기다.
   const groups = PLATFORMS
-    .map((p) => ({ ...p, list: APPS.filter((app) => platformKey(app) === p.key) }))
+    .map((p) => ({ ...p, list: APPS.filter((app) => platformKey(app) === p.key).sort(byHouseadWeight) }))
     .filter((g) => g.list.length);
   const multi = groups.length > 1;
   const platformJump = multi ? `
