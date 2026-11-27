@@ -122,7 +122,11 @@ DEFAULT_WEIGHT = 10
 # 다시 돌리면 된다(앱은 url 이 없으면 예전처럼 스토어로 간다 — 앱 출시 불필요).
 # 어느 앱에서 눌렀는지는 이 값으로 알 수 없다(카탈로그는 앱마다 같다) — 앱이 utm_medium 을
 # 붙이게 하는 건 다음 정기 출시 때.
-HOUSEAD_URL_UTM = "utm_source=housead&utm_medium=app&utm_campaign=family"
+#
+# 2026-11-27 측정 종료(4주 판정 끝): 사이트 페이지에서 스토어 버튼까지 가는 비율이 낮아(대부분 페이지에서 멈춤)
+# 다시 스토어 직행으로 돌렸다. 측정을 재개하려면 아래 문자열을 되살린다.
+# HOUSEAD_URL_UTM = "utm_source=housead&utm_medium=app&utm_campaign=family"
+HOUSEAD_URL_UTM = None
 
 # 카드 부제로 쓸 i18n 필드. `desc` 는 앱마다 톤이 고른 설명문이고, `tagline` 은
 # 길이가 들쭉날쭉한 마케팅 문구라 카드에서 잘린다. 바꾸려면 여기만 고치면 된다.
