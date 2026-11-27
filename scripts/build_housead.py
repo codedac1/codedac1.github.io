@@ -95,7 +95,7 @@ EXCLUDED = {
 WEIGHTS = {
     # 2026-11-20 사용자 결정: 설치당 수익(결제+광고, 비공개 Data 저장소의 unit_economics 표) 순서로 재배분.
     # VolumeBooster·Rotate 의 50(설치 키우기)은 내렸다. 가격이 바뀌면 설치당 수익도 바뀌므로 가격 판정 때 다시 본다.
-    "readfocus":     40,
+    "readfocus":     10,   # 2026-11-27 사용자 결정: 중간값으로
     "floatnote":     35,
     "clipboard":     20,
     "floatcalc":     15,   # 표본 작음
@@ -105,7 +105,7 @@ WEIGHTS = {
     "volumebooster":  6,
     "rotate":         5,
     "floatprompter":  5,   # 신생 앱, 표본 없음
-    "floatweb":      10,   # 2026-11-26 공개, 표본 없음 — 신규 중간값에서 시작, 30일 뒤 다시 잡음
+    "floatweb":      50,   # 2026-11-27 사용자 결정: 최고(11-26 공개, 설치 키우기)
 }
 DEFAULT_WEIGHT = 10
 
